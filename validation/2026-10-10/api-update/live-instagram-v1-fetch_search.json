@@ -1,0 +1,25 @@
+{
+  "path": "/instagram/v1/fetch_search?query=natgeo&select=users",
+  "status": 400,
+  "contentType": "application/json; charset=utf-8",
+  "ms": 13022,
+  "body": {
+    "detail": {
+      "code": 400,
+      "request_id": "51f9c4a3-ddc4-4cf0-ad7b-6c7b3c130435",
+      "message": "Request failed. Please retry. Check the docs below to verify your parameters, test with the default demo parameters, and send the response JSON to support. You won't be charged for this request.",
+      "message_zh": "请求失败，请重试。请查看下方文档核对参数，使用默认演示参数测试，并将响应 JSON 提交给支持团队。本次请求不会被扣费。",
+      "docs": "https://api.tikhub.io/#/Instagram-V1-API/fetch_search_api_v1_instagram_v1_fetch_search_get",
+      "support": "Discord: https://discord.gg/aMEAS8Xsvz",
+      "time": "2026-10-09 22:35:15",
+      "time_stamp": 1791610515,
+      "time_zone": "America/Los_Angeles",
+      "router": "/api/v1/instagram/v1/fetch_search",
+      "params": {
+        "query": "natgeo",
+        "select": "users"
+      },
+      "headers": {}
+    }
+  }
+}

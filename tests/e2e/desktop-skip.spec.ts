@@ -1,0 +1,27 @@
+import { expect, test } from '@playwright/test';
+import { execFileSync } from 'node:child_process';
+import { writeFileSync } from 'node:fs';
+test('人工无法解决挑战：交还后重新观察，停止重复求助并保存 unknown', async ({ page }) => {
+  test.setTimeout(300000);
+  const docker = (...args: string[]) => execFileSync('docker', ['compose', ...args], { encoding: 'utf8' });
+  docker('cp', 'tests/fixtures/browser-assistance-server.mjs', 'desktop:/tmp/browser-assistance-server.mjs'); docker('exec', '-d', 'desktop', 'node', '/tmp/browser-assistance-server.mjs');
+  const password = docker('exec', '-T', 'app', 'node', '-e', "process.stdout.write(require('fs').readFileSync('/app/data/admin-bootstrap.txt','utf8'))");
+  await page.goto('/'); await page.getByLabel('管理员密码').fill(password); await page.getByRole('button', { name: /进入工作室/ }).click(); await expect(page.getByLabel('研究对话')).toBeVisible();
+  docker('exec', '-T', 'app', 'mkdir', '-p', '/app/data/fixtures'); docker('cp', 'tests/fixtures/seed-browser-task.ts', 'app:/app/data/fixtures/seed-browser-task.ts');
+  const id = docker('exec', '-T', 'app', 'node', 'data/fixtures/seed-browser-task.ts', `skip-${Date.now()}`, 'http://127.0.0.1:8085/skip');
+  const state = async () => (await (await page.request.get('/api/state')).json()).tasks.find((t: any) => t.id === id);
+  await expect.poll(async () => (await state())?.status, { timeout: 180000, intervals: [2000] }).toBe('needs_input');
+  await page.locator('.task').filter({ hasText: (await state()).title }).getByRole('button', { name: '打开桌面协助' }).click(); await expect(page.getByText(/^原候选：/)).toBeVisible(); await page.getByRole('button', { name: '接管并协助' }).click();
+  await expect(page.getByText('你已认领协助。Agent 已暂停桌面输入，连接成功后可操作浏览器。')).toBeVisible();
+  await expect(page.locator('iframe[title="持久浏览器桌面"]')).toHaveAttribute('src', /\/control\//);
+  const frame = page.frameLocator('iframe[title="持久浏览器桌面"]'); await expect(frame.locator('#noVNC_container canvas')).toBeVisible({ timeout: 30000 });
+  await page.getByLabel('协助结果').fill('无法完成这个验证。请跳过这个候选的受阻帖子，不要再请求人工协助；没有看到帖子，视觉条件保持 unknown。');
+  await page.getByRole('button', { name: '完成协助，交还 Agent' }).click();
+  await expect.poll(async () => (await state()).status, { timeout: 120000, intervals: [2000] }).toBe('partial');
+  const results = await (await page.request.get(`/api/results?taskId=${id}`)).json(); expect(results).toHaveLength(1); expect(results[0].verdict).toBe('unknown'); expect((await state()).matched).toBe(0); expect((await (await page.request.get('/api/desktop')).json()).request).toBeUndefined();
+  const debug = await (await page.request.get('/api/debug')).json(); const calls = debug.calls.filter((c: any) => c.kind === 'browser-verification' && c.request.messages.some((m: any) => typeof m.content === 'string' && m.content.includes(id)));
+  expect(calls.filter((c: any) => c.response?.choices?.[0]?.message?.tool_calls?.some((t: any) => t.function.name === 'request_human_assistance'))).toHaveLength(1);
+  expect(calls.some((c: any) => c.request.messages.some((m: any) => typeof m.content === 'string' && m.content.includes('humanOutcome')))).toBe(true);
+  await page.screenshot({ path: 'validation/2026-10-10/stage-4-human-skip.png', fullPage: true });
+  writeFileSync('validation/2026-10-10/stage-4-human-skip.json', JSON.stringify({ source: 'controlled challenge fixture + actual configured model + production noVNC claim/release', task: await state(), results, calls }, null, 2));
+});

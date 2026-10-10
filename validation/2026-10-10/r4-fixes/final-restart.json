@@ -1,0 +1,50 @@
+{
+  "startedAt": "2026-10-10T16:24:41.252Z",
+  "finishedAt": "2026-10-10T16:25:01.661Z",
+  "passed": true,
+  "actualAppRestart": true,
+  "persisted": {
+    "task": {
+      "count": 8,
+      "digest": "079e9d0a7a7d1ca65a9d7c23e0f5e581d7f12959f3e2ad2c72b89effcd6d5985"
+    },
+    "result": {
+      "count": 10,
+      "digest": "aeb032c17104a95f656e2ae53bfe2bd96fade5a0db908934cfec8c6ec496001b"
+    },
+    "result-history": {
+      "count": 6,
+      "digest": "0b693c26d18e5627189e733bf94c570dd698dce05baf30c26e23a03c8ea78fb7"
+    },
+    "work-batch": {
+      "count": 3,
+      "digest": "dbaebef129a633dc0eb57926ab1c547fa2f86ca74515e110e39e369e4bf84113"
+    },
+    "message": {
+      "count": 17,
+      "digest": "db81ad0a42002d2614b956e9af46534648d46624602eb2dd284857a26e768085"
+    },
+    "assistance": {
+      "count": 0,
+      "digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "wave-call": {
+      "count": 50,
+      "digest": "fa20b3ae2574fc1cf30a478c4cb3a6e0938d06f7399fbb9e37318e5192b702ca"
+    },
+    "delivery": {
+      "count": 3,
+      "digest": "43bec51b70ceb5ec17b4da1f40333c6c65ab90f7ebb3d1a061ba615c00ed1195"
+    },
+    "data-migration": {
+      "count": 5,
+      "digest": "5316d9ea876a05d7f68c72e0f78235d440d22c40653f6abdf133edcca3dd2abc"
+    }
+  },
+  "reports": 3,
+  "noWaveReplay": true,
+  "noHistoricalRedelivery": true,
+  "noTaskOrResultChanges": true,
+  "campaignModalAndReportSelectionMatched": true,
+  "pageErrors": []
+}

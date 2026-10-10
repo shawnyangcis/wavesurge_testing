@@ -1,0 +1,257 @@
+{
+  "observedAt": "2026-10-10T02:29:16.703421+00:00",
+  "comparison": "current workspace against earlier verified deployed source hashes; no business edits made in this review",
+  "files": [
+    {
+      "path": "src/client/App.tsx",
+      "sameAsEarlierCheckedSource": true,
+      "sha256": "28f7a4f4e7cef7d0a10443b9317cfa8035a1e5baf354ef2d115818fa7e6004fc"
+    },
+    {
+      "path": "src/client/Campaigns.tsx",
+      "sameAsEarlierCheckedSource": true,
+      "sha256": "82b37448a7773c4ece5b18425b87402f5f33ad8e6d02874f575bed555a478e47"
+    },
+    {
+      "path": "src/client/Desktop.tsx",
+      "sameAsEarlierCheckedSource": true,
+      "sha256": "2dbd8e276372c5b6a62d462e463257ab75784b765ebdf4840fbda890bf7f485e"
+    },
+    {
+      "path": "src/client/Inspector.tsx",
+      "sameAsEarlierCheckedSource": true,
+      "sha256": "72eb452f69c2c33c7e02880e072259ee3200e0908aafdbe96013eb85752c2bd4"
+    },
+    {
+      "path": "src/client/Markdown.tsx",
+      "sameAsEarlierCheckedSource": true,
+      "sha256": "91e584220d6e873e080bfb522d4325dd407ed1f946fb05873ba04b20464d64a0"
+    },
+    {
+      "path": "src/client/Results.tsx",
+      "sameAsEarlierCheckedSource": true,
+      "sha256": "d2f5b984a40e2053748779bc46eb1786c28f844ad6c5c058ae7cb9cd5ef60a21"
+    },
+    {
+      "path": "src/client/api.ts",
+      "sameAsEarlierCheckedSource": true,
+      "sha256": "389de024eb1c2f6518ca4d4a2b3ea2d2d8804dca15454b859f65f8b48fe46548"
+    },
+    {
+      "path": "src/client/env.d.ts",
+      "sameAsEarlierCheckedSource": true,
+      "sha256": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5"
+    },
+    {
+      "path": "src/client/main.tsx",
+      "sameAsEarlierCheckedSource": true,
+      "sha256": "298a3d510f7109c8891010cba7b3bcde48e0a23ab81927499c19f3e8aeaaa68a"
+    },
+    {
+      "path": "src/client/media.ts",
+      "sameAsEarlierCheckedSource": true,
+      "sha256": "07776c0a4649e354f6ddbd5a9ab3b2bd1b99f2ab8f5acb63d1a0f441ab7f8f37"
+    },
+    {
+      "path": "src/desktop/main.ts",
+      "sameAsEarlierCheckedSource": true,
+      "sha256": "b162c095a9914f495b9730ba70ec1c518598f90fe783b503a96ba3b7951d89f7"
+    },
+    {
+      "path": "src/desktop/runtime.ts",
+      "sameAsEarlierCheckedSource": true,
+      "sha256": "211d207ef45ff1203e50a1cede8cb3726fc37da289c0e861142e62c565310a41"
+    },
+    {
+      "path": "src/desktop/server.ts",
+      "sameAsEarlierCheckedSource": true,
+      "sha256": "9a2ff817022c843ee842c739ad950618ebb020e6455d5d5e274613c1d7a98c99"
+    },
+    {
+      "path": "src/desktop/start.ts",
+      "sameAsEarlierCheckedSource": true,
+      "sha256": "ce7a98a8cd824830e7c0348b3789035f8d112bafa29276b3321b7ff03fb9223b"
+    },
+    {
+      "path": "src/server/agent.ts",
+      "sameAsEarlierCheckedSource": true,
+      "sha256": "7c321ab868b6ad6ec7f9639c5294c9bdbef50595a27f926259458c942dd952c1"
+    },
+    {
+      "path": "src/server/app.ts",
+      "sameAsEarlierCheckedSource": true,
+      "sha256": "8db97714a9db84dd34333e35c09001e70fc7935279837c79d0beb5993693cfdf"
+    },
+    {
+      "path": "src/server/auth.ts",
+      "sameAsEarlierCheckedSource": true,
+      "sha256": "8033c6030dcb092b1b72c36e5589d5665b7b8f78bddbe68005e8af50255b6641"
+    },
+    {
+      "path": "src/server/bootstrap.ts",
+      "sameAsEarlierCheckedSource": true,
+      "sha256": "79152418ba70f9f319e812a8935035d1eb1062b0fc3c33b36288b470d9e21ef5"
+    },
+    {
+      "path": "src/server/browser-verifier.ts",
+      "sameAsEarlierCheckedSource": true,
+      "sha256": "2a88d39bb2ef8a0d5f224e646737c3540d3b35f764a77e9c958e812e2f855ae4"
+    },
+    {
+      "path": "src/server/campaign-api.ts",
+      "sameAsEarlierCheckedSource": true,
+      "sha256": "4b3a57da1b0a4071c06203b126239f6818bed8216e706d221f025d03940e91a8"
+    },
+    {
+      "path": "src/server/campaign-tools.ts",
+      "sameAsEarlierCheckedSource": true,
+      "sha256": "09621cf47578ff80b6dc795d01e7bb0cbc3d0d592f668e04d0fa5b19caad5e1d"
+    },
+    {
+      "path": "src/server/campaign.ts",
+      "sameAsEarlierCheckedSource": true,
+      "sha256": "50df8c8f17a42e8faef161b4b4fcf8b31296e50e8f1f971857ac8d2c97010495"
+    },
+    {
+      "path": "src/server/context.ts",
+      "sameAsEarlierCheckedSource": true,
+      "sha256": "e883dc211f78c19da1f1a0bdf725ba4bea6a0e163d1ee96a6433acaff4814db6"
+    },
+    {
+      "path": "src/server/debug-api.ts",
+      "sameAsEarlierCheckedSource": true,
+      "sha256": "a54023a49de47d0d5e59dc04e0ca8bc4281e70c1f2c44c3b5cddeb5a37ac0761"
+    },
+    {
+      "path": "src/server/desktop-api.ts",
+      "sameAsEarlierCheckedSource": true,
+      "sha256": "7d9c93dde4e11a80c14fa2799f40d696f746e3c1ec13d3db620976a82f77f0e2"
+    },
+    {
+      "path": "src/server/desktop-secret-init.ts",
+      "sameAsEarlierCheckedSource": true,
+      "sha256": "71da68e7a1d84b5eff48b75cd979a1c7a6111aa7e2429cc11577d9ba03f115d3"
+    },
+    {
+      "path": "src/server/desktop-secret-main.ts",
+      "sameAsEarlierCheckedSource": true,
+      "sha256": "d410356eb6e9ee4edbd85f9ff17d6aaf89db2510c233f2f95d43e9369dc03aef"
+    },
+    {
+      "path": "src/server/desktop.ts",
+      "sameAsEarlierCheckedSource": true,
+      "sha256": "81b012689ee5888be0adc4540eef41f327867e5cbcc1e00acd7a081403b7b3e0"
+    },
+    {
+      "path": "src/server/main.ts",
+      "sameAsEarlierCheckedSource": true,
+      "sha256": "87d4e549b8236ff2e0fb05b5d9a0b225803e494c1a22ed0c395f4215027c142c"
+    },
+    {
+      "path": "src/server/model.ts",
+      "sameAsEarlierCheckedSource": true,
+      "sha256": "15fda35f7f376a3b8255f6e5013468b51bd6bade5a25126ea416e9a380fe607e"
+    },
+    {
+      "path": "src/server/reports.ts",
+      "sameAsEarlierCheckedSource": true,
+      "sha256": "005457f734e770d657dcc5a9efcabd20137e493a5039543e63a3db81000221df"
+    },
+    {
+      "path": "src/server/research-api.ts",
+      "sameAsEarlierCheckedSource": true,
+      "sha256": "9e4364951907dc70ec2e18b13082a09f72826dbf73295ad752ff25b80f14c33d"
+    },
+    {
+      "path": "src/server/research-tools.ts",
+      "sameAsEarlierCheckedSource": true,
+      "sha256": "8b548166776aa480cbbd8662b088c1b81d6fcb583802454994f5b84ab72e0f79"
+    },
+    {
+      "path": "src/server/research.ts",
+      "sameAsEarlierCheckedSource": true,
+      "sha256": "93a515749297ed896a674152e2e950c876a2a337f9e127be3f00f90487c61dde"
+    },
+    {
+      "path": "src/server/settings.ts",
+      "sameAsEarlierCheckedSource": true,
+      "sha256": "22ac4e3ba819311fda8dc012fafd1c0e30b88d35ec01439906fe562aece22529"
+    },
+    {
+      "path": "src/server/store.ts",
+      "sameAsEarlierCheckedSource": true,
+      "sha256": "891aa6cc268173129e7643722479fcce4499a6c0d12194a035a92aabd5472407"
+    },
+    {
+      "path": "src/server/task-facts.ts",
+      "sameAsEarlierCheckedSource": true,
+      "sha256": "75c545740b26db90614600213bd79566bf7cdaf6f6e59fa48947f456432fbc07"
+    },
+    {
+      "path": "src/server/tools.ts",
+      "sameAsEarlierCheckedSource": true,
+      "sha256": "330443d5b1a01630d07dea826ddab4608de72af45a8ddafd50181db01a66aa53"
+    },
+    {
+      "path": "src/server/verdict.ts",
+      "sameAsEarlierCheckedSource": true,
+      "sha256": "a3f1a3a9e7922cc3887d72b0e38d36e349212c9d05cb5463072370544a2c005e"
+    },
+    {
+      "path": "src/server/verify.ts",
+      "sameAsEarlierCheckedSource": true,
+      "sha256": "1aedbaa742e508f627721d0b15644ebc09e2ba3f543ae3e55f1a2c75c76bba3c"
+    },
+    {
+      "path": "src/server/wave.ts",
+      "sameAsEarlierCheckedSource": true,
+      "sha256": "2b330636a7a0db12c5bb33fb37fa479da214b3139b67ce625846e28be455cbfb"
+    },
+    {
+      "path": "src/shared/campaign.ts",
+      "sameAsEarlierCheckedSource": true,
+      "sha256": "2a8be0b38a56d4e0f769a145aa96e5b5fe4fae66a9ce550e8bff649ac4f29ecc"
+    },
+    {
+      "path": "src/shared/contracts.ts",
+      "sameAsEarlierCheckedSource": true,
+      "sha256": "0e8009f0c2b736d2b131f8f2ae2abf8f7fe2d24eec66ddf636689fbe60f1e741"
+    },
+    {
+      "path": "src/shared/prompts.ts",
+      "sameAsEarlierCheckedSource": true,
+      "sha256": "266e3e91be14e60361ff5fd8fcbaad7d7ac9c6a439185772ff1d53508df6c39a"
+    },
+    {
+      "path": "src/shared/research.ts",
+      "sameAsEarlierCheckedSource": true,
+      "sha256": "849299c06b786c6434927000098735c087e2a30c4c51b733269ec0469b0bfc90"
+    },
+    {
+      "path": "deploy/desktop-entrypoint.sh",
+      "sameAsEarlierCheckedSource": true,
+      "sha256": "a03ea4917130904382d202a5bf77563cc1ffce3e38b24ec687e9deef16c31b3a"
+    },
+    {
+      "path": "src/desktop/main.ts",
+      "sameAsEarlierCheckedSource": true,
+      "sha256": "b162c095a9914f495b9730ba70ec1c518598f90fe783b503a96ba3b7951d89f7"
+    },
+    {
+      "path": "src/desktop/runtime.ts",
+      "sameAsEarlierCheckedSource": true,
+      "sha256": "211d207ef45ff1203e50a1cede8cb3726fc37da289c0e861142e62c565310a41"
+    },
+    {
+      "path": "src/desktop/server.ts",
+      "sameAsEarlierCheckedSource": true,
+      "sha256": "9a2ff817022c843ee842c739ad950618ebb020e6455d5d5e274613c1d7a98c99"
+    },
+    {
+      "path": "src/desktop/start.ts",
+      "sameAsEarlierCheckedSource": true,
+      "sha256": "ce7a98a8cd824830e7c0348b3789035f8d112bafa29276b3321b7ff03fb9223b"
+    }
+  ],
+  "different": []
+}

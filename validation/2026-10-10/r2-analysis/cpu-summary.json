@@ -1,0 +1,58 @@
+{
+  "profileFile": "CPU.20261010.160527.90171.0.001.cpuprofile",
+  "sampledMs": 12142.952000000028,
+  "storeGetInclusiveMs": 5137.018999999992,
+  "storeGetInclusivePercent": 42.30453187989197,
+  "topSelf": [
+    {
+      "name": "get",
+      "url": "file:///Users/shawn/coding/projects/wavesurge/wavesurge_testing/src/server/store.ts",
+      "ms": 3629.3859999999913
+    },
+    {
+      "name": "(idle)",
+      "url": "",
+      "ms": 3598.6180000000018
+    },
+    {
+      "name": "get",
+      "url": "file:///Users/shawn/coding/projects/wavesurge/wavesurge_testing/src/server/store.ts",
+      "ms": 1465.5740000000005
+    },
+    {
+      "name": "list",
+      "url": "file:///Users/shawn/coding/projects/wavesurge/wavesurge_testing/src/server/store.ts",
+      "ms": 975.6909999999999
+    },
+    {
+      "name": "list",
+      "url": "file:///Users/shawn/coding/projects/wavesurge/wavesurge_testing/src/server/store.ts",
+      "ms": 685.9039999999997
+    },
+    {
+      "name": "(garbage collector)",
+      "url": "",
+      "ms": 510.6759999999998
+    },
+    {
+      "name": "set",
+      "url": "file:///Users/shawn/coding/projects/wavesurge/wavesurge_testing/src/server/store.ts",
+      "ms": 366.1850000000001
+    },
+    {
+      "name": "",
+      "url": "file:///Users/shawn/coding/projects/wavesurge/wavesurge_testing/src/server/store.ts",
+      "ms": 106.81600000000002
+    },
+    {
+      "name": "close",
+      "url": "file:///Users/shawn/coding/projects/wavesurge/wavesurge_testing/src/server/store.ts",
+      "ms": 61.021
+    },
+    {
+      "name": "",
+      "url": "file:///Users/shawn/coding/projects/wavesurge/wavesurge_testing/src/server/store.ts",
+      "ms": 48.535000000000004
+    }
+  ]
+}

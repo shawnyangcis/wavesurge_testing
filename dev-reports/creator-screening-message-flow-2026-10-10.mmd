@@ -1,0 +1,32 @@
+flowchart TD
+    U["用户消息 → 程序保存消息"] --> CHAT["Chat Agent：理解需求并按需追问<br/>直接条件 → TaskSpec；目标 → CampaignBrief"]
+    CHAT -->|Campaign 目标| PLAN["CampaignPlanner：提出 Creator 类型、配额与范围<br/>用户交互调整并接受方案；已有授权则直接采用"]
+    PLAN --> TASK["程序：固定 Plan / 条件版本与共享预算<br/>类型 × 平台编译子任务；后台工作流接手"]
+    CHAT -->|直接筛选条件| TASK
+    TASK --> POST["WaveSurge：POST /creator-search/requests<br/>提交画像、人数等 → taskId 落库"]
+    POST --> POLL["程序定时 GET /creator-search/requests/:taskId<br/>获取状态；结束后接收 creators / evidence"]
+    POLL -->|未结束：定时继续| POLL
+    POLL -->|结束| CAND["程序：保存来源资料与候选<br/>去重、粉丝等硬条件过滤"]
+    TASK -. 可选补充 .-> POOL["WaveSurge：GET /discover/db<br/>读取现有 Creator 候选池"]
+    POOL --> CAND
+    CAND --> PERSON["逐人 Agent：检查当前 Creator 证据<br/>决定需要打开哪些主页或帖子"]
+    PERSON --> BROWSER["Worker → Broker → VM 内有头 Chromium<br/>读取正文、日期和截图；保存证据资产"]
+    BROWSER --> NEED{"需要验证、登录<br/>或其他人工协助？"}
+    NEED -->|是| PAUSE["LLM 请求协助 → 程序保存待办<br/>暂停该桌面、排空在途动作"]
+    PAUSE --> HUMAN["用户鉴权后通过 noVNC 独占操作<br/>在同一浏览器完成验证或登录"]
+    HUMAN --> RESUME["程序撤销人工控制权、续接原工作<br/>Agent 重新观察，核验是否已解决"]
+    RESUME -->|已解决| BROWSER
+    RESUME -. 未解决：保留待办或部分结果 .-> SAVE
+    NEED -->|否| ASSESS["逐人 Agent：依据已有证据判断每个条件<br/>match / no_match / unknown"]
+    ASSESS --> SAVE["程序：校验并保存判断、标签、调用记录<br/>更新各组进度与共享预算；跨组唯一计数"]
+    SAVE -->|预算内处理下一位| PERSON
+    SAVE -->|达到目标或停止| REPORT["程序：汇总总名单、各类型名单与缺口<br/>保存 HTML / CSV，SSE 返回用户"]
+
+    classDef agent fill:#e8eefc,stroke:#4169a1,color:#14263d;
+    classDef api fill:#e9f5ef,stroke:#44876a,color:#173627;
+    classDef saved fill:#fff4df,stroke:#aa7d37,color:#493015;
+    classDef desktop fill:#f3ecfa,stroke:#8466a6,color:#362449;
+    class CHAT,PLAN,PERSON,ASSESS agent;
+    class POST,POLL,POOL api;
+    class U,TASK,CAND,SAVE,REPORT saved;
+    class BROWSER,PAUSE,HUMAN,RESUME desktop;

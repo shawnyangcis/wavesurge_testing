@@ -1,0 +1,19 @@
+{
+  "at": "2026-10-10T16:14:35.531Z",
+  "passed": true,
+  "source": "Private online backup of main, reference-only migration rehearsal, no external calls or writes to live source",
+  "backupPath": "/app/data/backups/r4-before-fixes-1791648868049.sqlite",
+  "backupMode": "0600",
+  "results": 20,
+  "changed": 19,
+  "coreDigest": "f475febbde9de92527fc31221b12f90db2b2750b1c85d237c24bbd59eea6f25e",
+  "preserved": {
+    "task": 29,
+    "wave-call": 199,
+    "message": 209,
+    "delivery": 43,
+    "work-batch": 1,
+    "assistance": 10
+  },
+  "idempotent": true
+}

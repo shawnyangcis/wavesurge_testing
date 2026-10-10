@@ -1,0 +1,781 @@
+{
+  "source": "Actual new WaveSurge search and application UI",
+  "scope": "isolated",
+  "base": "http://127.0.0.1:3400",
+  "startedAt": "2026-10-10T02:50:47.074Z",
+  "ids": [
+    "research-ea8649d3fc1258c3d1017445",
+    "research-b936fbc06246aea943518299",
+    "research-e3aad23438e47a041a9d8b86"
+  ],
+  "timeline": [
+    {
+      "at": "2026-10-10T02:50:47.522Z",
+      "tasks": [
+        {
+          "id": "research-ea8649d3fc1258c3d1017445",
+          "title": "美国 TikTok 戴眼镜男性创作者筛选",
+          "status": "running",
+          "requested": 2,
+          "evaluated": 0,
+          "matched": 0,
+          "updatedAt": 1791600608543,
+          "detail": "WaveSurge 搜索等待执行；本地已合格 0 人",
+          "remoteId": "bf3be041-bdd9-4319-9b07-1ed40b8d7d6e",
+          "remoteStatus": "queued",
+          "nextPollAt": 1791600668543
+        },
+        {
+          "id": "research-b936fbc06246aea943518299",
+          "title": "大学学习／校园生活类",
+          "status": "running",
+          "requested": 1,
+          "evaluated": 0,
+          "matched": 0,
+          "updatedAt": 1791600608651,
+          "detail": "WaveSurge 搜索等待执行；本地已合格 0 人",
+          "remoteId": "a6df0b48-b6bd-4509-83e1-a137264b3ca6",
+          "remoteStatus": "queued",
+          "nextPollAt": 1791600668651
+        },
+        {
+          "id": "research-e3aad23438e47a041a9d8b86",
+          "title": "AI／效率工具实测类",
+          "status": "running",
+          "requested": 1,
+          "evaluated": 0,
+          "matched": 0,
+          "updatedAt": 1791600608760,
+          "detail": "WaveSurge 搜索等待执行；本地已合格 0 人",
+          "remoteId": "c95a9b44-17ba-4507-a684-565810537fca",
+          "remoteStatus": "queued",
+          "nextPollAt": 1791600668760
+        }
+      ]
+    }
+  ],
+  "observedAt": "2026-10-10T03:05:33.144Z",
+  "tasks": [
+    {
+      "id": "research-ea8649d3fc1258c3d1017445",
+      "title": "美国 TikTok 戴眼镜男性创作者筛选",
+      "status": "running",
+      "requested": 2,
+      "evaluated": 0,
+      "matched": 0,
+      "updatedAt": 1791601448411,
+      "detail": "WaveSurge 搜索等待执行；本地已合格 0 人",
+      "remoteId": "bf3be041-bdd9-4319-9b07-1ed40b8d7d6e",
+      "remoteStatus": "queued",
+      "nextPollAt": 1791601508411
+    },
+    {
+      "id": "research-b936fbc06246aea943518299",
+      "title": "大学学习／校园生活类",
+      "status": "running",
+      "requested": 1,
+      "evaluated": 0,
+      "matched": 0,
+      "updatedAt": 1791601448523,
+      "detail": "WaveSurge 搜索等待执行；本地已合格 0 人",
+      "remoteId": "a6df0b48-b6bd-4509-83e1-a137264b3ca6",
+      "remoteStatus": "queued",
+      "nextPollAt": 1791601508523
+    },
+    {
+      "id": "research-e3aad23438e47a041a9d8b86",
+      "title": "AI／效率工具实测类",
+      "status": "running",
+      "requested": 1,
+      "evaluated": 0,
+      "matched": 0,
+      "updatedAt": 1791601448636,
+      "detail": "WaveSurge 搜索等待执行；本地已合格 0 人",
+      "remoteId": "c95a9b44-17ba-4507-a684-565810537fca",
+      "remoteStatus": "queued",
+      "nextPollAt": 1791601508636
+    }
+  ],
+  "results": [],
+  "finalChat": [
+    {
+      "role": "user",
+      "text": "核心是把课堂录音整理成笔记，再生成复习题，可以免费试用。先做 TikTok，粉丝1万到10万，每类先找1个人，每类先看2个候选就够了。两类都要有给大学生做学习内容的依据。最后给每个人标上内容方向、表达风格和适合哪类合作，没通过的也列出来，别只给我一个合不合格。先把方案给我看看。",
+      "state": "delivered"
+    },
+    {
+      "role": "assistant",
+      "text": "已保存方案草案，**暂不启动搜索或外联**。\n\n## 试点方案 · v1\n**目标：**让美国大学生看懂“课堂录音 → 笔记 → 复习题”的使用价值，并愿意免费试用。\n\n| 类型 | 选择理由 | 合格目标 | 候选上限 | 建议合作形式 |\n|---|---|---:|---:|---|\n| **大学学习／校园生活类** | 在课堂笔记、备考等真实场景中展示工具，贴近大学生需求 | 1人 | 2人 | 学习场景体验：展示录音整理笔记、生成复习题的过程 |\n| **AI／效率工具实测类** | 用实际操作讲清功能与使用步骤，降低试用门槛 | 1人 | 2人 | 工具实测或教程：演示完整流程，再引导免费试用 |\n\n**总目标：2个不重复账号；最多核验4个候选。** 同一 TikTok 账号即使符合两类，也只能占一个名额。不足就说明缺口，不自动扩大候选范围。\n\n### 共同筛选范围\n- **平台：**TikTok。\n- **所在地：**美国，指创作者所在地，不以内容语言代替所在地证据。\n- **粉丝：**1万–10万。\n- **两类都必须有面向大学生做学习内容的依据**，如大学课堂笔记、课程复习、大学学习方法。仅有校园日常或泛 AI 推荐不够。\n- **必须有实际操作演示或教程内容**；两类分别核实学习／校园方向、AI／效率工具方向。\n- **偏好：**英语内容，不作为硬性排除条件。\n- 本方案不沿用此前的男性、戴眼镜限制。\n\n### 最终交付方式\n**所有已核验候选都会列出，包括未通过和待确认的人。** 每个人包含：\n1. 账号链接、所在地与粉丝数及来源。\n2. 每项必选条件的 **符合／不符合／待确认**，附依据与证据编号。\n3. **内容方向、表达风格**，分别附一句依据；证据不足就标待确认。\n4. **适合的合作类型与理由**，作为建议，不代表对方已同意合作。\n5. 是否计入名额，以及未通过原因或缺失证据。\n\n只有全部必选条件都核实符合，才计入合格人数。\n\n方案编号：`campaign-f391361d37047756cfe3cd4f`  \n版本：**v1**\n\n你确认这版后，我再按每类最多2个候选的范围启动免费搜索。",
+      "state": "delivered"
+    },
+    {
+      "role": "user",
+      "text": "行，就按这版找吧，最多四个候选，先跑这一轮。出来以后把每个人的标签、依据和结果文档一起给我。",
+      "state": "delivered"
+    },
+    {
+      "role": "assistant",
+      "text": "已按 **v1 方案启动本轮搜索**：\n\n- **大学学习／校园生活类**：最多2个候选，目标1位合格。\n- **AI／效率工具实测类**：最多2个候选，目标1位合格。\n- 总候选上限 **4个**，同一账号不重复占名额；不足不凑数，也不自动扩搜。\n\n结果出来后，会一起提供**逐人标签、来源依据和结果文档**，包括未通过及待确认的候选。每个人会列出内容方向、表达风格、适合的合作类型，以及各项必选条件的核验结论。\n\n本轮搜索免费，不会联系创作者。",
+      "state": "delivered"
+    }
+  ],
+  "waveCalls": [
+    {
+      "id": "50ebd90c-b3ae-4be2-b421-3ae0fecbbee3",
+      "kind": "wavesurge",
+      "createdAt": 1791599871291,
+      "path": "/creator-search/requests",
+      "method": "POST",
+      "request": {
+        "requestId": "research-ea8649d3fc1258c3d1017445",
+        "personaText": "United States-based TikTok creators who self-identify as male and wear eyeglasses, across technology, lifestyle, geek culture, and other content niches.",
+        "count": 20,
+        "platforms": [
+          "tiktok"
+        ],
+        "regions": [
+          "United States"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "emailReadyRequired": false
+      },
+      "status": 201,
+      "response": {
+        "taskId": "bf3be041-bdd9-4319-9b07-1ed40b8d7d6e"
+      },
+      "finishedAt": 1791599871523
+    },
+    {
+      "id": "d9cec203-7708-4926-8302-e1f607dbf5ae",
+      "kind": "wavesurge",
+      "createdAt": 1791599948107,
+      "path": "/creator-search/requests/bf3be041-bdd9-4319-9b07-1ed40b8d7d6e",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791599948339
+    },
+    {
+      "id": "895d065a-141c-4780-bf3a-f9ece5f59de4",
+      "kind": "wavesurge",
+      "createdAt": 1791600068114,
+      "path": "/creator-search/requests/bf3be041-bdd9-4319-9b07-1ed40b8d7d6e",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791600068556
+    },
+    {
+      "id": "bd34012c-7f1b-4473-88dc-9bc817d284b9",
+      "kind": "wavesurge",
+      "createdAt": 1791600188120,
+      "path": "/creator-search/requests/bf3be041-bdd9-4319-9b07-1ed40b8d7d6e",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791600188615
+    },
+    {
+      "id": "be5c090b-a86c-42bb-ba8a-32a38dd5a8ee",
+      "kind": "wavesurge",
+      "createdAt": 1791600273978,
+      "path": "/creator-search/requests/bf3be041-bdd9-4319-9b07-1ed40b8d7d6e",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791600274224
+    },
+    {
+      "id": "d906d990-b0c8-42b2-bdbf-b7599afccffd",
+      "kind": "wavesurge",
+      "createdAt": 1791600274234,
+      "path": "/creator-search/requests",
+      "method": "POST",
+      "request": {
+        "requestId": "research-b936fbc06246aea943518299",
+        "personaText": "United States-based TikTok creators making college study, class note-taking, exam preparation, and campus-life content for university students.",
+        "count": 2,
+        "platforms": [
+          "tiktok"
+        ],
+        "regions": [
+          "United States"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "emailReadyRequired": false
+      },
+      "status": 201,
+      "response": {
+        "taskId": "a6df0b48-b6bd-4509-83e1-a137264b3ca6"
+      },
+      "finishedAt": 1791600274364
+    },
+    {
+      "id": "76e37242-97a3-402c-b912-c4a1e0122cad",
+      "kind": "wavesurge",
+      "createdAt": 1791600274375,
+      "path": "/creator-search/requests",
+      "method": "POST",
+      "request": {
+        "requestId": "research-e3aad23438e47a041a9d8b86",
+        "personaText": "United States-based TikTok creators reviewing and demonstrating AI and productivity tools for university students, with college learning, lecture note-taking, or exam preparation content.",
+        "count": 2,
+        "platforms": [
+          "tiktok"
+        ],
+        "regions": [
+          "United States"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "emailReadyRequired": false
+      },
+      "status": 201,
+      "response": {
+        "taskId": "c95a9b44-17ba-4507-a684-565810537fca"
+      },
+      "finishedAt": 1791600274595
+    },
+    {
+      "id": "9534d68f-a066-477d-98de-0cc3d1cbbbee",
+      "kind": "wavesurge",
+      "createdAt": 1791600368129,
+      "path": "/creator-search/requests/bf3be041-bdd9-4319-9b07-1ed40b8d7d6e",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791600368571
+    },
+    {
+      "id": "1a35f5de-fc2a-4840-9706-f669b3629da1",
+      "kind": "wavesurge",
+      "createdAt": 1791600368580,
+      "path": "/creator-search/requests/a6df0b48-b6bd-4509-83e1-a137264b3ca6",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791600368690
+    },
+    {
+      "id": "676fceb9-bed3-4d14-a594-da9c91a0940d",
+      "kind": "wavesurge",
+      "createdAt": 1791600368694,
+      "path": "/creator-search/requests/c95a9b44-17ba-4507-a684-565810537fca",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791600368806
+    },
+    {
+      "id": "c79ebfc3-da20-4b74-a3c6-cbe95c52c28f",
+      "kind": "wavesurge",
+      "createdAt": 1791600488138,
+      "path": "/creator-search/requests/bf3be041-bdd9-4319-9b07-1ed40b8d7d6e",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791600488341
+    },
+    {
+      "id": "0152e208-fda6-4fd0-ad8f-80268c551815",
+      "kind": "wavesurge",
+      "createdAt": 1791600488345,
+      "path": "/creator-search/requests/a6df0b48-b6bd-4509-83e1-a137264b3ca6",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791600488451
+    },
+    {
+      "id": "5ae0b74c-9707-4c94-ad12-6b3b9e47c7d0",
+      "kind": "wavesurge",
+      "createdAt": 1791600488456,
+      "path": "/creator-search/requests/c95a9b44-17ba-4507-a684-565810537fca",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791600488565
+    },
+    {
+      "id": "82d17d46-708a-4f21-b8b7-6ed2b5edc1b3",
+      "kind": "wavesurge",
+      "createdAt": 1791600608104,
+      "path": "/creator-search/requests/bf3be041-bdd9-4319-9b07-1ed40b8d7d6e",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791600608536
+    },
+    {
+      "id": "11549561-3c8a-4581-8a25-041fedeaf117",
+      "kind": "wavesurge",
+      "createdAt": 1791600608545,
+      "path": "/creator-search/requests/a6df0b48-b6bd-4509-83e1-a137264b3ca6",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791600608649
+    },
+    {
+      "id": "f35e9d9b-94a3-4083-a6d4-172b0c5332dc",
+      "kind": "wavesurge",
+      "createdAt": 1791600608653,
+      "path": "/creator-search/requests/c95a9b44-17ba-4507-a684-565810537fca",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791600608757
+    },
+    {
+      "id": "3dd900cc-7ca4-4350-8a7f-653f57981edf",
+      "kind": "wavesurge",
+      "createdAt": 1791600728109,
+      "path": "/creator-search/requests/bf3be041-bdd9-4319-9b07-1ed40b8d7d6e",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791600728338
+    },
+    {
+      "id": "6f6a1415-4d99-495d-afda-7866fe233b98",
+      "kind": "wavesurge",
+      "createdAt": 1791600728343,
+      "path": "/creator-search/requests/a6df0b48-b6bd-4509-83e1-a137264b3ca6",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791600728448
+    },
+    {
+      "id": "a2d01219-13c5-45ab-a1fa-6418af531245",
+      "kind": "wavesurge",
+      "createdAt": 1791600728452,
+      "path": "/creator-search/requests/c95a9b44-17ba-4507-a684-565810537fca",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791600728578
+    },
+    {
+      "id": "add155d2-5261-4fff-bf7b-849857dd04f9",
+      "kind": "wavesurge",
+      "createdAt": 1791600848116,
+      "path": "/creator-search/requests/bf3be041-bdd9-4319-9b07-1ed40b8d7d6e",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791600848312
+    },
+    {
+      "id": "3ebb34a3-a322-4a15-852d-17756e59c419",
+      "kind": "wavesurge",
+      "createdAt": 1791600848316,
+      "path": "/creator-search/requests/a6df0b48-b6bd-4509-83e1-a137264b3ca6",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791600848418
+    },
+    {
+      "id": "f35427cf-86af-42c8-925d-366fad13007b",
+      "kind": "wavesurge",
+      "createdAt": 1791600848422,
+      "path": "/creator-search/requests/c95a9b44-17ba-4507-a684-565810537fca",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791600848532
+    },
+    {
+      "id": "f256250d-720f-4c1d-a529-8f763b91fdd2",
+      "kind": "wavesurge",
+      "createdAt": 1791600968119,
+      "path": "/creator-search/requests/bf3be041-bdd9-4319-9b07-1ed40b8d7d6e",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791600968584
+    },
+    {
+      "id": "37c9ada2-87e2-4607-9180-236ccd097268",
+      "kind": "wavesurge",
+      "createdAt": 1791600968593,
+      "path": "/creator-search/requests/a6df0b48-b6bd-4509-83e1-a137264b3ca6",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791600968698
+    },
+    {
+      "id": "7116c73b-51df-4f2b-b4cd-2e35d0585d1a",
+      "kind": "wavesurge",
+      "createdAt": 1791600968703,
+      "path": "/creator-search/requests/c95a9b44-17ba-4507-a684-565810537fca",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791600968806
+    },
+    {
+      "id": "153672dd-3c91-4ba6-833b-bacb0f36dcd0",
+      "kind": "wavesurge",
+      "createdAt": 1791601088124,
+      "path": "/creator-search/requests/bf3be041-bdd9-4319-9b07-1ed40b8d7d6e",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791601088570
+    },
+    {
+      "id": "f75d676b-6c14-4c04-ad97-577ee70e5680",
+      "kind": "wavesurge",
+      "createdAt": 1791601088579,
+      "path": "/creator-search/requests/a6df0b48-b6bd-4509-83e1-a137264b3ca6",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791601088684
+    },
+    {
+      "id": "23ce1bf1-886c-40a0-b887-b30dd499c245",
+      "kind": "wavesurge",
+      "createdAt": 1791601088687,
+      "path": "/creator-search/requests/c95a9b44-17ba-4507-a684-565810537fca",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791601088795
+    },
+    {
+      "id": "3d1f76d1-ee4e-4038-ac23-8cd53fddbd07",
+      "kind": "wavesurge",
+      "createdAt": 1791601208130,
+      "path": "/creator-search/requests/bf3be041-bdd9-4319-9b07-1ed40b8d7d6e",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791601208404
+    },
+    {
+      "id": "dc7e724f-cb11-4804-abaf-2d0c8e2ff3ba",
+      "kind": "wavesurge",
+      "createdAt": 1791601208411,
+      "path": "/creator-search/requests/a6df0b48-b6bd-4509-83e1-a137264b3ca6",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791601208536
+    },
+    {
+      "id": "1e8daf48-2249-4b1b-b3a3-f75e44c4fa1c",
+      "kind": "wavesurge",
+      "createdAt": 1791601208541,
+      "path": "/creator-search/requests/c95a9b44-17ba-4507-a684-565810537fca",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791601208668
+    },
+    {
+      "id": "fb038869-6124-40df-b86a-70214edc6008",
+      "kind": "wavesurge",
+      "createdAt": 1791601328134,
+      "path": "/creator-search/requests/bf3be041-bdd9-4319-9b07-1ed40b8d7d6e",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791601328341
+    },
+    {
+      "id": "d56f4d16-d5c0-48bc-bd08-d287795a4399",
+      "kind": "wavesurge",
+      "createdAt": 1791601328346,
+      "path": "/creator-search/requests/a6df0b48-b6bd-4509-83e1-a137264b3ca6",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791601328454
+    },
+    {
+      "id": "b97941ed-2570-4347-a710-94513ea21b98",
+      "kind": "wavesurge",
+      "createdAt": 1791601328459,
+      "path": "/creator-search/requests/c95a9b44-17ba-4507-a684-565810537fca",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791601328581
+    },
+    {
+      "id": "372a1c35-ed01-45eb-a668-2bff3a13da1e",
+      "kind": "wavesurge",
+      "createdAt": 1791601448196,
+      "path": "/creator-search/requests/bf3be041-bdd9-4319-9b07-1ed40b8d7d6e",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791601448408
+    },
+    {
+      "id": "0cf30cb9-b14a-4b65-a6ee-561597555bb5",
+      "kind": "wavesurge",
+      "createdAt": 1791601448412,
+      "path": "/creator-search/requests/a6df0b48-b6bd-4509-83e1-a137264b3ca6",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791601448520
+    },
+    {
+      "id": "cc1f0c3e-8b19-4983-bac0-3348e8c5bf53",
+      "kind": "wavesurge",
+      "createdAt": 1791601448525,
+      "path": "/creator-search/requests/c95a9b44-17ba-4507-a684-565810537fca",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791601448632
+    }
+  ],
+  "modelCalls": []
+}

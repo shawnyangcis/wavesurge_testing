@@ -1,0 +1,24 @@
+
+ RUN  v5.0.3 /Users/shawn/coding/projects/wavesurge/wavesurge_testing
+      Coverage enabled with v8
+
+
+ Test Files  17 passed (17)
+      Tests  93 passed (93)
+   Start at  03:42:01
+   Duration  7.68s (tests 48%, environment 29%, import 15%, transform 4%, worker 3%)
+
+    Isolate  17 workers spawned · ~930ms startup each (spawn + environment, per file)
+             at least ~1.33s faster with isolate: false — reuses workers across files instead of one per file
+
+ % Coverage report from v8
+No files with missing coverage.
+44 files fully covered.
+1 empty file skipped.
+
+=============================== Coverage summary ===============================
+Statements   : 100% ( 1467/1467 )
+Branches     : 100% ( 913/913 )
+Functions    : 100% ( 363/363 )
+Lines        : 100% ( 659/659 )
+================================================================================

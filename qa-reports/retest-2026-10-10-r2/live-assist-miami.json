@@ -1,0 +1,7 @@
+{
+  "at": "2026-10-10T07:19:14.869Z",
+  "scope": "live",
+  "actions": [],
+  "before": "BROWSER / ASSISTANCE\n浏览器桌面\n关闭\n\n默认只读。需要协助时，可在同一个浏览器完成登录或验证；不要将密码发到对话中。交还前请打开可核验的公开页面。\n\n原候选：instagram:geek_in_miami\n\n当前候选 geek_in_miami 的原帖被 Instagram 登录/注册弹窗遮挡，截图中无法观察视频人物、眼镜或穿搭。请在同一浏览器桌面协助恢复公开帖的可见内容；恢复后需重新观察核验。已有简介与帖子文字可支持个人游戏分享账号，但没有白人身份明确自述或充分 geek 风证据。\n\n工作编号：research-90121727019a7e5d682f5a65接管并协助\n重新连接桌面",
+  "error": "Error: expect(locator).toHaveClass(expected) failed\n\nLocator: locator('iframe[title=\"持久浏览器桌面\"]').contentFrame().locator('html')\nExpected pattern: /noVNC_connected/\nReceived string:  \"noVNC_loading\"\nTimeout: 60000ms\n\nCall log:\n  - Expect \"toHaveClass\" locator('iframe[title=\"持久浏览器桌面\"]').contentFrame().locator('html') with timeout 60000ms\n  - waiting for locator('iframe[title=\"持久浏览器桌面\"]').contentFrame().locator('html')\n    100 × locator resolved to <html lang=\"en\" class=\"noVNC_loading\">…</html>\n        - unexpected value \"noVNC_loading\"\n"
+}

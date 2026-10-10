@@ -1,0 +1,36 @@
+{
+  "verifiedAtUtc": "2026-10-09T16:47:27.629Z",
+  "reportSha256": "ef0a725f1fe904b7bb18074bf5a041b45ac537a81e789775df3414abe2904fe5",
+  "htmlSha256": "cb8deda40fbaa5c95542183e21fadef9e67dabcfb3f161481cb1b79bf452d5b4",
+  "mermaidVersion": "10.9.5",
+  "mermaidDiagramsParsedAndRendered": 5,
+  "diagramHashes": {
+    "creator-screening-architecture": "277b90e0a4b9e73ba6333dc1550fa86b50923c650e62c40e308ea67a9db91ba3",
+    "creator-screening-execution": "b8dedbf32ca1dd49ba60a9345909ea05b18fda3a40a62595c8438666a9acc542",
+    "creator-screening-agent-call": "13312adac91fce499e6691af9ca071f02de0818d086a08c2e7f87aa4d4def299",
+    "creator-screening-message-flow-2026-10-10": "175735c528928cdd9b2adf7a2055e598b2c90e7c2f91b7d08500a97f78a1ef04",
+    "creator-screening-campaign-planning-2026-10-10": "92cecc7c32ea02a9deb2a53e83c6c32e8198d55f63ff0d2f456d684b5a43e3fb"
+  },
+  "htmlBrowserJavaScriptErrors": 0,
+  "htmlClippedDiagramLabels": 0,
+  "diagramZoomChecks": {
+    "initial": "100%",
+    "originalSize": "100%",
+    "fitWidth": "100%"
+  },
+  "htmlHeadings": 17,
+  "htmlScreenshotLoaded": true,
+  "externalScripts": 0,
+  "applicationImplemented": false,
+  "liveLlmAssessmentPerformed": false,
+  "headedDesktopDeployedOrTested": false,
+  "campaignFeatureImplemented": false,
+  "liveCampaignPlannerCalled": false,
+  "pageReadBackVerified": true,
+  "pageAppendixVerification": "Exact text after whitespace normalization of list item spacing",
+  "reportTextFilesCheckedForTokenLeaks": 14,
+  "tokenLeaksInReports": 0,
+  "designRevisionLocalDate": "2026-10-10",
+  "designRevisionTimezone": "Asia/Shanghai",
+  "campaignAdvancedObjectiveInP0": true
+}

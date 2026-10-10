@@ -1,0 +1,240 @@
+{
+  "at": "2026-10-10T10:33:58.374Z",
+  "source": "Independent actual Chrome UI and real configured model; controlled Wave and candidate fixture",
+  "checks": [
+    {
+      "label": "Invalid threshold rejected by actual UI without changing settings",
+      "evidence": true
+    },
+    {
+      "label": "UI prompt save takes effect in next actual model request/response",
+      "evidence": {
+        "revision": 3,
+        "reply": "本轮设置回归标记。你好！很高兴见到你。"
+      }
+    },
+    {
+      "label": "Original model prompt restored through UI",
+      "evidence": true
+    },
+    {
+      "label": "11 unauthenticated routes deny data, report, evidence and desktop access",
+      "evidence": [
+        {
+          "path": "/api/state",
+          "status": 401
+        },
+        {
+          "path": "/api/settings",
+          "status": 401
+        },
+        {
+          "path": "/api/debug",
+          "status": 401
+        },
+        {
+          "path": "/api/results",
+          "status": 401
+        },
+        {
+          "path": "/api/campaigns",
+          "status": 401
+        },
+        {
+          "path": "/api/backup",
+          "status": 401
+        },
+        {
+          "path": "/api/work-batches/missing/report",
+          "status": 401
+        },
+        {
+          "path": "/api/reports/missing",
+          "status": 401
+        },
+        {
+          "path": "/api/assets/missing",
+          "status": 401
+        },
+        {
+          "path": "/api/desktop",
+          "status": 401
+        },
+        {
+          "path": "/api/desktop/view/vnc.html",
+          "status": 401
+        }
+      ]
+    },
+    {
+      "label": "Cross-origin write refused and no message created",
+      "evidence": 403
+    },
+    {
+      "label": "Empty/whitespace/oversize message and malformed image rejected",
+      "evidence": 4
+    },
+    {
+      "label": "Missing objects return 404; unclaimed control mode rejected",
+      "evidence": true
+    },
+    {
+      "label": "Active reset retains task and checks final batch delivery",
+      "evidence": {
+        "task": "research-4765630b7155c8ccb8f4035e",
+        "status": "partial",
+        "evaluated": 2,
+        "sealed": false,
+        "delivered": false,
+        "notifications": 0,
+        "pass": false
+      }
+    },
+    {
+      "label": "Active load retains task and checks final batch delivery",
+      "evidence": {
+        "task": "research-80d527960d27da90bac004b2",
+        "status": "partial",
+        "evaluated": 2,
+        "sealed": false,
+        "delivered": false,
+        "notifications": 0,
+        "pass": false
+      }
+    }
+  ],
+  "epochCases": [
+    {
+      "action": "reset",
+      "input": "另外新做一项 YouTube 科技博主研究，最后选1个就行。这次2个候选都看完，只用现有文字资料，不打开网页。粉丝和国家不限，每个人标一下内容方向，全部处理完再给我报告。",
+      "beforeEpoch": 2,
+      "taskId": "research-4765630b7155c8ccb8f4035e",
+      "during": {
+        "active": true,
+        "task": {
+          "id": "research-4765630b7155c8ccb8f4035e",
+          "title": "YouTube 科技博主研究：2位候选全量文字核验",
+          "status": "running",
+          "requested": 1,
+          "evaluated": 0,
+          "matched": 0,
+          "updatedAt": 1791628451345,
+          "detail": "已读取 2 位候选；来源 已到本次读取边界，本地已合格 0 人",
+          "remoteStatus": "done",
+          "nextPollAt": 1791628452345
+        },
+        "batch": {
+          "id": "6ab29cbf-6dc6-4d05-8643-9d26d356f973",
+          "items": [
+            {
+              "kind": "research",
+              "id": "research-4765630b7155c8ccb8f4035e",
+              "title": "YouTube 科技博主研究：2位候选全量文字核验",
+              "reportUrl": "/api/reports/research-4765630b7155c8ccb8f4035e"
+            }
+          ],
+          "sealed": false
+        }
+      },
+      "at": "2026-10-10T10:34:11.888Z",
+      "afterEpoch": 3,
+      "finalTask": {
+        "id": "research-4765630b7155c8ccb8f4035e",
+        "title": "YouTube 科技博主研究：2位候选全量文字核验",
+        "status": "partial",
+        "requested": 1,
+        "evaluated": 2,
+        "matched": 0,
+        "qualifying": 0,
+        "updatedAt": 1791628474603,
+        "detail": "已选合格 0/1，已核验 2；证据不足者保持待核实。youtube：读取 2 条，基础条件排除 0 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。",
+        "remoteStatus": "done",
+        "nextPollAt": 1791628452345
+      },
+      "finalBatch": {
+        "id": "6ab29cbf-6dc6-4d05-8643-9d26d356f973",
+        "items": [
+          {
+            "kind": "research",
+            "id": "research-4765630b7155c8ccb8f4035e",
+            "title": "YouTube 科技博主研究：2位候选全量文字核验",
+            "reportUrl": "/api/reports/research-4765630b7155c8ccb8f4035e"
+          }
+        ],
+        "sealed": false
+      },
+      "reportMessages": [],
+      "uiReportLinks": 0,
+      "finalAt": "2026-10-10T10:34:39.468Z",
+      "deliveryPass": false,
+      "retainedResults": 2
+    },
+    {
+      "action": "load",
+      "input": "再单独做一项 YouTube 耳机博主研究，最后选1个。先看2个候选，两个都分析，粉丝和国家不限，只用现有文字资料不打开网页。每人标一下内容方向，等这一批全结束再给我报告。",
+      "beforeEpoch": 3,
+      "taskId": "research-80d527960d27da90bac004b2",
+      "during": {
+        "active": true,
+        "task": {
+          "id": "research-80d527960d27da90bac004b2",
+          "title": "YouTube 耳机博主研究：2位候选全量文字核验",
+          "status": "running",
+          "requested": 1,
+          "evaluated": 0,
+          "matched": 0,
+          "updatedAt": 1791628491541,
+          "detail": "已读取 2 位候选；来源 已到本次读取边界，本地已合格 0 人",
+          "remoteStatus": "done",
+          "nextPollAt": 1791628492540
+        },
+        "batch": {
+          "id": "4bfd1270-5cca-4b41-abd7-2e296c31f2fd",
+          "items": [
+            {
+              "kind": "research",
+              "id": "research-80d527960d27da90bac004b2",
+              "title": "YouTube 耳机博主研究：2位候选全量文字核验",
+              "reportUrl": "/api/reports/research-80d527960d27da90bac004b2"
+            }
+          ],
+          "sealed": false
+        }
+      },
+      "at": "2026-10-10T10:34:52.219Z",
+      "afterEpoch": 4,
+      "finalTask": {
+        "id": "research-80d527960d27da90bac004b2",
+        "title": "YouTube 耳机博主研究：2位候选全量文字核验",
+        "status": "partial",
+        "requested": 1,
+        "evaluated": 2,
+        "matched": 0,
+        "qualifying": 0,
+        "updatedAt": 1791628513935,
+        "detail": "已选合格 0/1，已核验 2；证据不足者保持待核实。youtube：读取 2 条，基础条件排除 0 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。",
+        "remoteStatus": "done",
+        "nextPollAt": 1791628492540
+      },
+      "finalBatch": {
+        "id": "4bfd1270-5cca-4b41-abd7-2e296c31f2fd",
+        "items": [
+          {
+            "kind": "research",
+            "id": "research-80d527960d27da90bac004b2",
+            "title": "YouTube 耳机博主研究：2位候选全量文字核验",
+            "reportUrl": "/api/reports/research-80d527960d27da90bac004b2"
+          }
+        ],
+        "sealed": false
+      },
+      "reportMessages": [],
+      "uiReportLinks": 0,
+      "finalAt": "2026-10-10T10:35:18.915Z",
+      "deliveryPass": false,
+      "retainedResults": 2
+    }
+  ],
+  "pageErrors": [],
+  "finishedAt": "2026-10-10T10:35:19.018Z"
+}

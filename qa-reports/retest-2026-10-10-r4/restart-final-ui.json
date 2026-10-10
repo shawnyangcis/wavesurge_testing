@@ -1,0 +1,502 @@
+{
+  "startedAt": "2026-10-10T14:50:56.796Z",
+  "checks": [
+    "Actual app restart preserves authenticated session and all 38 real result records/tags/versions",
+    "Terminal tasks preserved; no model or Wave requests replayed",
+    "All 10 final report messages in the saved transcript preserved without replay",
+    "No pending or claimed desktop assistance remains"
+  ],
+  "pageErrors": [],
+  "before": {
+    "epoch": 2,
+    "active": false,
+    "tasks": [
+      {
+        "id": "research-294320f8d1c060255d3310e8",
+        "title": "Instagram 指定两账号个人数码博主筛选",
+        "status": "completed",
+        "requested": 1,
+        "evaluated": 2,
+        "matched": 1,
+        "qualifying": 2,
+        "updatedAt": 1791643745277,
+        "detail": "已选合格 1/1，已核验 2；证据不足者保持待核实。Instagram：读取 2 个本人基础账号，基础条件排除 0 个；基础读取上限 2，逐人分析上限 2（本次有界来源，不代表全站穷尽）。",
+        "remoteStatus": "done",
+        "nextPollAt": 0
+      },
+      {
+        "id": "research-290c9d1e55ab57958eebf69f",
+        "title": "Instagram 欧美个人KOC：20位候选全量核验",
+        "status": "partial",
+        "requested": 20,
+        "evaluated": 20,
+        "matched": 0,
+        "qualifying": 0,
+        "updatedAt": 1791642158170,
+        "detail": "已选合格 0/20，已核验 20；证据不足者保持待核实。Instagram：读取 88 个本人基础账号，基础条件排除 68 个；基础读取上限 100，逐人分析上限 20（本次有界来源，不代表全站穷尽）。",
+        "remoteStatus": "done",
+        "nextPollAt": 1791642109256
+      },
+      {
+        "id": "research-7f22924e895fdf79bc9bfb73",
+        "title": "生活效率分享：指定两账号全量评估",
+        "status": "completed",
+        "requested": 1,
+        "evaluated": 2,
+        "matched": 1,
+        "qualifying": 1,
+        "updatedAt": 1791641710302,
+        "detail": "已选合格 1/1，已核验 2；证据不足者保持待核实。Instagram：读取 2 个本人基础账号，基础条件排除 0 个；基础读取上限 2，逐人分析上限 2（本次有界来源，不代表全站穷尽）。",
+        "remoteStatus": "done",
+        "nextPollAt": 1791640104212
+      },
+      {
+        "id": "research-1c0a7ca9deb257bd0144ee1f",
+        "title": "实用数码和 App 体验：指定两账号全量评估",
+        "status": "completed",
+        "requested": 1,
+        "evaluated": 2,
+        "matched": 1,
+        "qualifying": 2,
+        "updatedAt": 1791641733151,
+        "detail": "已选合格 1/1，已核验 2；证据不足者保持待核实。Instagram：读取 2 个本人基础账号，基础条件排除 0 个；基础读取上限 2，逐人分析上限 2（本次有界来源，不代表全站穷尽）。",
+        "remoteStatus": "done",
+        "nextPollAt": 1791640171231
+      },
+      {
+        "id": "research-abb4b5f8d3f19fb7de150e81",
+        "title": "TikTok 数码男博主：两位候选全量评估",
+        "status": "partial",
+        "requested": 1,
+        "evaluated": 2,
+        "matched": 0,
+        "qualifying": 0,
+        "updatedAt": 1791640282191,
+        "detail": "已选合格 0/1，已核验 2；证据不足者保持待核实。tiktok：读取 500 条，基础条件排除 324 条；/discover/db?platform=tiktok&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。",
+        "remoteStatus": "done",
+        "nextPollAt": 1791640197249
+      },
+      {
+        "id": "research-e0790a628a71f83e4ff8fbe1",
+        "title": "YouTube 学习方法个人博主：4位候选文字全量评估",
+        "status": "partial",
+        "requested": 2,
+        "evaluated": 0,
+        "matched": 0,
+        "updatedAt": 1791640294485,
+        "detail": "已选合格 0/2，已核验 0；证据不足者保持待核实。youtube：读取 500 条，基础条件排除 500 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。",
+        "remoteStatus": "done",
+        "nextPollAt": 1791640295483
+      },
+      {
+        "id": "research-f966a5bcdb3279fda8313cc8",
+        "title": "X 编程或开发工具个人博主：2位候选文字全量评估",
+        "status": "partial",
+        "requested": 1,
+        "evaluated": 2,
+        "matched": 0,
+        "qualifying": 0,
+        "updatedAt": 1791640327939,
+        "detail": "已选合格 0/1，已核验 2；证据不足者保持待核实。twitter：读取 500 条，基础条件排除 493 条；/discover/db?platform=twitter&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。",
+        "remoteStatus": "done",
+        "nextPollAt": 1791640297921
+      },
+      {
+        "id": "enrich-43d185ad75fd9dbc8b354a37",
+        "title": "补充画像：Instagram 指定两账号个人数码博主筛选",
+        "status": "completed",
+        "requested": 2,
+        "evaluated": 2,
+        "matched": 2,
+        "resultTaskId": "research-294320f8d1c060255d3310e8",
+        "updatedAt": 1791641689606,
+        "detail": "已处理 2 个已有账号；失败 0。"
+      },
+      {
+        "id": "enrich-95e3f680436ba6fb44add7e3",
+        "title": "补充画像：生活效率分享：指定两账号全量评估",
+        "status": "completed",
+        "requested": 2,
+        "evaluated": 2,
+        "matched": 1,
+        "resultTaskId": "research-7f22924e895fdf79bc9bfb73",
+        "updatedAt": 1791641710414,
+        "detail": "已处理 2 个已有账号；失败 0。"
+      },
+      {
+        "id": "enrich-e7b98419649b7ba23e0a70a3",
+        "title": "补充画像：实用数码和 App 体验：指定两账号全量评估",
+        "status": "completed",
+        "requested": 2,
+        "evaluated": 2,
+        "matched": 2,
+        "resultTaskId": "research-1c0a7ca9deb257bd0144ee1f",
+        "updatedAt": 1791641733236,
+        "detail": "已处理 2 个已有账号；失败 0。"
+      },
+      {
+        "id": "research-711079d78044333d4b4dbe78",
+        "title": "Instagram 指定数码个人创作者：仅文字独立研究",
+        "status": "completed",
+        "requested": 1,
+        "evaluated": 2,
+        "matched": 1,
+        "qualifying": 2,
+        "updatedAt": 1791643084247,
+        "detail": "已选合格 1/1，已核验 2；证据不足者保持待核实。Instagram：读取 2 个本人基础账号，基础条件排除 0 个；基础读取上限 2，逐人分析上限 2（本次有界来源，不代表全站穷尽）。",
+        "remoteStatus": "done",
+        "nextPollAt": 1791643066273
+      },
+      {
+        "id": "research-87b8384ff057e130a5afaad8",
+        "title": "Instagram 指定数码个人创作者：公开主页独立核验",
+        "status": "completed",
+        "requested": 1,
+        "evaluated": 2,
+        "matched": 1,
+        "qualifying": 1,
+        "updatedAt": 1791643192435,
+        "detail": "已选合格 1/1，已核验 2；证据不足者保持待核实。Instagram：读取 2 个本人基础账号，基础条件排除 0 个；基础读取上限 2，逐人分析上限 2（本次有界来源，不代表全站穷尽）。",
+        "remoteStatus": "done",
+        "nextPollAt": 0
+      },
+      {
+        "id": "research-ee3d9eb49e13b4b4ccc044bb",
+        "title": "Instagram 指定两人：数码产品分享个人创作者文字研究",
+        "status": "completed",
+        "requested": 1,
+        "evaluated": 2,
+        "matched": 1,
+        "qualifying": 2,
+        "updatedAt": 1791643356675,
+        "detail": "已选合格 1/1，已核验 2；证据不足者保持待核实。Instagram：读取 2 个本人基础账号，基础条件排除 0 个；基础读取上限 2，逐人分析上限 2（本次有界来源，不代表全站穷尽）。",
+        "remoteStatus": "done",
+        "nextPollAt": 1791643336851
+      },
+      {
+        "id": "research-239ee23074803327b566a533",
+        "title": "Instagram 指定两人：耳机产品分享个人创作者文字研究",
+        "status": "completed",
+        "requested": 1,
+        "evaluated": 2,
+        "matched": 1,
+        "qualifying": 1,
+        "updatedAt": 1791643497804,
+        "detail": "已选合格 1/1，已核验 2；证据不足者保持待核实。Instagram：读取 2 个本人基础账号，基础条件排除 0 个；基础读取上限 2，逐人分析上限 2（本次有界来源，不代表全站穷尽）。",
+        "remoteStatus": "done",
+        "nextPollAt": 1791643479539
+      },
+      {
+        "id": "enrich-0d892ef5d3c99544ad387107",
+        "title": "重新核验：Instagram 指定两账号个人数码博主筛选",
+        "status": "completed",
+        "requested": 2,
+        "evaluated": 2,
+        "matched": 2,
+        "resultTaskId": "research-294320f8d1c060255d3310e8",
+        "updatedAt": 1791643745410,
+        "detail": "已处理 2 个已有账号；失败 0。 本轮本人主页已观察 2/2；未取得本轮页面证据者不能宣称网页核验成功。"
+      }
+    ],
+    "reports": [
+      {
+        "id": "report-request-60770594-be94-4f4a-a79d-0de38d3fd1b6-8e1a1012ebd650bd",
+        "text": "本次请求的 1 项工作已全部结束。\n\n- Instagram 指定两账号个人数码博主筛选：已完成；已选合格 1/1，已核验 2；证据不足者保持待核实。Instagram：读取 2 个本人基础账号，基础条件排除 0 个；基础读取上限 2，逐人分析上限 2（本次有界来源，不代表全站穷尽）。 [查看报告](/api/reports/research-294320f8d1c060255d3310e8)\n\n[查看本次综合报告](/api/work-batches/60770594-be94-4f4a-a79d-0de38d3fd1b6/report) · [下载综合 CSV](/api/work-batches/60770594-be94-4f4a-a79d-0de38d3fd1b6/report?format=csv)",
+        "createdAt": 1791639467793
+      },
+      {
+        "id": "report-campaign-73faf22be1fd823d6a0f58d6-00cfae66ba120e63",
+        "text": "Campaign「智能生活 App 美国年轻人 Instagram 首轮合作方案」已完成。去重入选 2/2 人。\n\n- 生活效率分享：指定两账号全量评估：1/1\n- 实用数码和 App 体验：指定两账号全量评估：1/1\n\n[查看 Campaign 总报告](/api/campaigns/campaign-73faf22be1fd823d6a0f58d6/report)",
+        "createdAt": 1791640282657
+      },
+      {
+        "id": "report-request-4545918b-14f4-4fc3-a2d7-a2426b2e7579-24a7a7f7982d3ac4",
+        "text": "本次请求的 1 项工作已全部结束。\n\n- TikTok 数码男博主：两位候选全量评估：已结束，仍有缺额或失败；已选合格 0/1，已核验 2；证据不足者保持待核实。tiktok：读取 500 条，基础条件排除 324 条；/discover/db?platform=tiktok&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。 [查看报告](/api/reports/research-abb4b5f8d3f19fb7de150e81)\n\n[查看本次综合报告](/api/work-batches/4545918b-14f4-4fc3-a2d7-a2426b2e7579/report) · [下载综合 CSV](/api/work-batches/4545918b-14f4-4fc3-a2d7-a2426b2e7579/report?format=csv)",
+        "createdAt": 1791640282659
+      },
+      {
+        "id": "report-request-65daf5d6-fa5b-46f3-8efc-f09180f70340-88eb44ca7d617ff7",
+        "text": "本次请求的 2 项工作已全部结束。\n\n- YouTube 学习方法个人博主：4位候选文字全量评估：已结束，仍有缺额或失败；已选合格 0/2，已核验 0；证据不足者保持待核实。youtube：读取 500 条，基础条件排除 500 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。 [查看报告](/api/reports/research-e0790a628a71f83e4ff8fbe1)\n- X 编程或开发工具个人博主：2位候选文字全量评估：已结束，仍有缺额或失败；已选合格 0/1，已核验 2；证据不足者保持待核实。twitter：读取 500 条，基础条件排除 493 条；/discover/db?platform=twitter&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。 [查看报告](/api/reports/research-f966a5bcdb3279fda8313cc8)\n\n[查看本次综合报告](/api/work-batches/65daf5d6-fa5b-46f3-8efc-f09180f70340/report) · [下载综合 CSV](/api/work-batches/65daf5d6-fa5b-46f3-8efc-f09180f70340/report?format=csv)",
+        "createdAt": 1791640328633
+      },
+      {
+        "id": "report-request-ec514915-f6b2-4081-9fe9-43525119d6a4-9d67a5bc190a1250",
+        "text": "本次请求的 3 项工作已全部结束。\n\n- 补充画像：Instagram 指定两账号个人数码博主筛选：已完成；已处理 2 个已有账号；失败 0。 [查看报告](/api/reports/research-294320f8d1c060255d3310e8)\n- 补充画像：生活效率分享：指定两账号全量评估：已完成；已处理 2 个已有账号；失败 0。 [查看报告](/api/reports/research-7f22924e895fdf79bc9bfb73)\n- 补充画像：实用数码和 App 体验：指定两账号全量评估：已完成；已处理 2 个已有账号；失败 0。 [查看报告](/api/reports/research-1c0a7ca9deb257bd0144ee1f)\n\n[查看本次综合报告](/api/work-batches/ec514915-f6b2-4081-9fe9-43525119d6a4/report) · [下载综合 CSV](/api/work-batches/ec514915-f6b2-4081-9fe9-43525119d6a4/report?format=csv)",
+        "createdAt": 1791641733790
+      },
+      {
+        "id": "report-request-9037ad63-8ffb-4518-822a-75c099e0b835-974cccd531be611e",
+        "text": "本次请求的 1 项工作已全部结束。\n\n- Instagram 欧美个人KOC：20位候选全量核验：已结束，仍有缺额或失败；已选合格 0/20，已核验 20；证据不足者保持待核实。Instagram：读取 88 个本人基础账号，基础条件排除 68 个；基础读取上限 100，逐人分析上限 20（本次有界来源，不代表全站穷尽）。 [查看报告](/api/reports/research-290c9d1e55ab57958eebf69f)\n\n[查看本次综合报告](/api/work-batches/9037ad63-8ffb-4518-822a-75c099e0b835/report) · [下载综合 CSV](/api/work-batches/9037ad63-8ffb-4518-822a-75c099e0b835/report?format=csv)",
+        "createdAt": 1791642159735
+      },
+      {
+        "id": "report-request-648022cb-5912-4225-981a-a7d46c3dca2c-4afa582a141601f8",
+        "text": "本次请求的 2 项工作已全部结束。\n\n- Instagram 指定数码个人创作者：仅文字独立研究：已完成；已选合格 1/1，已核验 2；证据不足者保持待核实。Instagram：读取 2 个本人基础账号，基础条件排除 0 个；基础读取上限 2，逐人分析上限 2（本次有界来源，不代表全站穷尽）。 [查看报告](/api/reports/research-711079d78044333d4b4dbe78)\n- Instagram 指定数码个人创作者：公开主页独立核验：已完成；已选合格 1/1，已核验 2；证据不足者保持待核实。Instagram：读取 2 个本人基础账号，基础条件排除 0 个；基础读取上限 2，逐人分析上限 2（本次有界来源，不代表全站穷尽）。 [查看报告](/api/reports/research-87b8384ff057e130a5afaad8)\n\n[查看本次综合报告](/api/work-batches/648022cb-5912-4225-981a-a7d46c3dca2c/report) · [下载综合 CSV](/api/work-batches/648022cb-5912-4225-981a-a7d46c3dca2c/report?format=csv)",
+        "createdAt": 1791643193383
+      },
+      {
+        "id": "report-request-f942a900-b7c8-4e8a-8325-80c6d5f624c5-5b4cb0744c4d2544",
+        "text": "中断请求中已登记的 1 项工作已结束。上下文切换或登记中断前尚未登记的事项没有执行；以下只汇总实际已登记工作。\n\n- Instagram 指定两人：数码产品分享个人创作者文字研究：已完成；已选合格 1/1，已核验 2；证据不足者保持待核实。Instagram：读取 2 个本人基础账号，基础条件排除 0 个；基础读取上限 2，逐人分析上限 2（本次有界来源，不代表全站穷尽）。 [查看报告](/api/reports/research-ee3d9eb49e13b4b4ccc044bb)\n\n[查看本次综合报告](/api/work-batches/f942a900-b7c8-4e8a-8325-80c6d5f624c5/report) · [下载综合 CSV](/api/work-batches/f942a900-b7c8-4e8a-8325-80c6d5f624c5/report?format=csv)",
+        "createdAt": 1791643358124
+      },
+      {
+        "id": "report-request-b265ad87-e00c-4c78-8ab1-1e0134c287d7-184e891ac20853fb",
+        "text": "中断请求中已登记的 1 项工作已结束。上下文切换或登记中断前尚未登记的事项没有执行；以下只汇总实际已登记工作。\n\n- Instagram 指定两人：耳机产品分享个人创作者文字研究：已完成；已选合格 1/1，已核验 2；证据不足者保持待核实。Instagram：读取 2 个本人基础账号，基础条件排除 0 个；基础读取上限 2，逐人分析上限 2（本次有界来源，不代表全站穷尽）。 [查看报告](/api/reports/research-239ee23074803327b566a533)\n\n[查看本次综合报告](/api/work-batches/b265ad87-e00c-4c78-8ab1-1e0134c287d7/report) · [下载综合 CSV](/api/work-batches/b265ad87-e00c-4c78-8ab1-1e0134c287d7/report?format=csv)",
+        "createdAt": 1791643499559
+      },
+      {
+        "id": "report-request-bb65a2d4-b182-44a9-acc1-7330261f3381-20c422d972866885",
+        "text": "本次请求的 1 项工作已全部结束。\n\n- 重新核验：Instagram 指定两账号个人数码博主筛选：已完成；已处理 2 个已有账号；失败 0。 本轮本人主页已观察 2/2；未取得本轮页面证据者不能宣称网页核验成功。 [查看报告](/api/reports/research-294320f8d1c060255d3310e8)\n\n[查看本次综合报告](/api/work-batches/bb65a2d4-b182-44a9-acc1-7330261f3381/report) · [下载综合 CSV](/api/work-batches/bb65a2d4-b182-44a9-acc1-7330261f3381/report?format=csv)",
+        "createdAt": 1791643746368
+      }
+    ]
+  },
+  "resultCount": 38,
+  "waveCalls": 244,
+  "after": {
+    "epoch": 2,
+    "active": false,
+    "tasks": [
+      {
+        "id": "research-294320f8d1c060255d3310e8",
+        "title": "Instagram 指定两账号个人数码博主筛选",
+        "status": "completed",
+        "requested": 1,
+        "evaluated": 2,
+        "matched": 1,
+        "qualifying": 2,
+        "updatedAt": 1791643745277,
+        "detail": "已选合格 1/1，已核验 2；证据不足者保持待核实。Instagram：读取 2 个本人基础账号，基础条件排除 0 个；基础读取上限 2，逐人分析上限 2（本次有界来源，不代表全站穷尽）。",
+        "remoteStatus": "done",
+        "nextPollAt": 0
+      },
+      {
+        "id": "research-290c9d1e55ab57958eebf69f",
+        "title": "Instagram 欧美个人KOC：20位候选全量核验",
+        "status": "partial",
+        "requested": 20,
+        "evaluated": 20,
+        "matched": 0,
+        "qualifying": 0,
+        "updatedAt": 1791642158170,
+        "detail": "已选合格 0/20，已核验 20；证据不足者保持待核实。Instagram：读取 88 个本人基础账号，基础条件排除 68 个；基础读取上限 100，逐人分析上限 20（本次有界来源，不代表全站穷尽）。",
+        "remoteStatus": "done",
+        "nextPollAt": 1791642109256
+      },
+      {
+        "id": "research-7f22924e895fdf79bc9bfb73",
+        "title": "生活效率分享：指定两账号全量评估",
+        "status": "completed",
+        "requested": 1,
+        "evaluated": 2,
+        "matched": 1,
+        "qualifying": 1,
+        "updatedAt": 1791641710302,
+        "detail": "已选合格 1/1，已核验 2；证据不足者保持待核实。Instagram：读取 2 个本人基础账号，基础条件排除 0 个；基础读取上限 2，逐人分析上限 2（本次有界来源，不代表全站穷尽）。",
+        "remoteStatus": "done",
+        "nextPollAt": 1791640104212
+      },
+      {
+        "id": "research-1c0a7ca9deb257bd0144ee1f",
+        "title": "实用数码和 App 体验：指定两账号全量评估",
+        "status": "completed",
+        "requested": 1,
+        "evaluated": 2,
+        "matched": 1,
+        "qualifying": 2,
+        "updatedAt": 1791641733151,
+        "detail": "已选合格 1/1，已核验 2；证据不足者保持待核实。Instagram：读取 2 个本人基础账号，基础条件排除 0 个；基础读取上限 2，逐人分析上限 2（本次有界来源，不代表全站穷尽）。",
+        "remoteStatus": "done",
+        "nextPollAt": 1791640171231
+      },
+      {
+        "id": "research-abb4b5f8d3f19fb7de150e81",
+        "title": "TikTok 数码男博主：两位候选全量评估",
+        "status": "partial",
+        "requested": 1,
+        "evaluated": 2,
+        "matched": 0,
+        "qualifying": 0,
+        "updatedAt": 1791640282191,
+        "detail": "已选合格 0/1，已核验 2；证据不足者保持待核实。tiktok：读取 500 条，基础条件排除 324 条；/discover/db?platform=tiktok&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。",
+        "remoteStatus": "done",
+        "nextPollAt": 1791640197249
+      },
+      {
+        "id": "research-e0790a628a71f83e4ff8fbe1",
+        "title": "YouTube 学习方法个人博主：4位候选文字全量评估",
+        "status": "partial",
+        "requested": 2,
+        "evaluated": 0,
+        "matched": 0,
+        "updatedAt": 1791640294485,
+        "detail": "已选合格 0/2，已核验 0；证据不足者保持待核实。youtube：读取 500 条，基础条件排除 500 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。",
+        "remoteStatus": "done",
+        "nextPollAt": 1791640295483
+      },
+      {
+        "id": "research-f966a5bcdb3279fda8313cc8",
+        "title": "X 编程或开发工具个人博主：2位候选文字全量评估",
+        "status": "partial",
+        "requested": 1,
+        "evaluated": 2,
+        "matched": 0,
+        "qualifying": 0,
+        "updatedAt": 1791640327939,
+        "detail": "已选合格 0/1，已核验 2；证据不足者保持待核实。twitter：读取 500 条，基础条件排除 493 条；/discover/db?platform=twitter&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。",
+        "remoteStatus": "done",
+        "nextPollAt": 1791640297921
+      },
+      {
+        "id": "enrich-43d185ad75fd9dbc8b354a37",
+        "title": "补充画像：Instagram 指定两账号个人数码博主筛选",
+        "status": "completed",
+        "requested": 2,
+        "evaluated": 2,
+        "matched": 2,
+        "resultTaskId": "research-294320f8d1c060255d3310e8",
+        "updatedAt": 1791641689606,
+        "detail": "已处理 2 个已有账号；失败 0。"
+      },
+      {
+        "id": "enrich-95e3f680436ba6fb44add7e3",
+        "title": "补充画像：生活效率分享：指定两账号全量评估",
+        "status": "completed",
+        "requested": 2,
+        "evaluated": 2,
+        "matched": 1,
+        "resultTaskId": "research-7f22924e895fdf79bc9bfb73",
+        "updatedAt": 1791641710414,
+        "detail": "已处理 2 个已有账号；失败 0。"
+      },
+      {
+        "id": "enrich-e7b98419649b7ba23e0a70a3",
+        "title": "补充画像：实用数码和 App 体验：指定两账号全量评估",
+        "status": "completed",
+        "requested": 2,
+        "evaluated": 2,
+        "matched": 2,
+        "resultTaskId": "research-1c0a7ca9deb257bd0144ee1f",
+        "updatedAt": 1791641733236,
+        "detail": "已处理 2 个已有账号；失败 0。"
+      },
+      {
+        "id": "research-711079d78044333d4b4dbe78",
+        "title": "Instagram 指定数码个人创作者：仅文字独立研究",
+        "status": "completed",
+        "requested": 1,
+        "evaluated": 2,
+        "matched": 1,
+        "qualifying": 2,
+        "updatedAt": 1791643084247,
+        "detail": "已选合格 1/1，已核验 2；证据不足者保持待核实。Instagram：读取 2 个本人基础账号，基础条件排除 0 个；基础读取上限 2，逐人分析上限 2（本次有界来源，不代表全站穷尽）。",
+        "remoteStatus": "done",
+        "nextPollAt": 1791643066273
+      },
+      {
+        "id": "research-87b8384ff057e130a5afaad8",
+        "title": "Instagram 指定数码个人创作者：公开主页独立核验",
+        "status": "completed",
+        "requested": 1,
+        "evaluated": 2,
+        "matched": 1,
+        "qualifying": 1,
+        "updatedAt": 1791643192435,
+        "detail": "已选合格 1/1，已核验 2；证据不足者保持待核实。Instagram：读取 2 个本人基础账号，基础条件排除 0 个；基础读取上限 2，逐人分析上限 2（本次有界来源，不代表全站穷尽）。",
+        "remoteStatus": "done",
+        "nextPollAt": 0
+      },
+      {
+        "id": "research-ee3d9eb49e13b4b4ccc044bb",
+        "title": "Instagram 指定两人：数码产品分享个人创作者文字研究",
+        "status": "completed",
+        "requested": 1,
+        "evaluated": 2,
+        "matched": 1,
+        "qualifying": 2,
+        "updatedAt": 1791643356675,
+        "detail": "已选合格 1/1，已核验 2；证据不足者保持待核实。Instagram：读取 2 个本人基础账号，基础条件排除 0 个；基础读取上限 2，逐人分析上限 2（本次有界来源，不代表全站穷尽）。",
+        "remoteStatus": "done",
+        "nextPollAt": 1791643336851
+      },
+      {
+        "id": "research-239ee23074803327b566a533",
+        "title": "Instagram 指定两人：耳机产品分享个人创作者文字研究",
+        "status": "completed",
+        "requested": 1,
+        "evaluated": 2,
+        "matched": 1,
+        "qualifying": 1,
+        "updatedAt": 1791643497804,
+        "detail": "已选合格 1/1，已核验 2；证据不足者保持待核实。Instagram：读取 2 个本人基础账号，基础条件排除 0 个；基础读取上限 2，逐人分析上限 2（本次有界来源，不代表全站穷尽）。",
+        "remoteStatus": "done",
+        "nextPollAt": 1791643479539
+      },
+      {
+        "id": "enrich-0d892ef5d3c99544ad387107",
+        "title": "重新核验：Instagram 指定两账号个人数码博主筛选",
+        "status": "completed",
+        "requested": 2,
+        "evaluated": 2,
+        "matched": 2,
+        "resultTaskId": "research-294320f8d1c060255d3310e8",
+        "updatedAt": 1791643745410,
+        "detail": "已处理 2 个已有账号；失败 0。 本轮本人主页已观察 2/2；未取得本轮页面证据者不能宣称网页核验成功。"
+      }
+    ],
+    "reports": [
+      {
+        "id": "report-request-60770594-be94-4f4a-a79d-0de38d3fd1b6-8e1a1012ebd650bd",
+        "text": "本次请求的 1 项工作已全部结束。\n\n- Instagram 指定两账号个人数码博主筛选：已完成；已选合格 1/1，已核验 2；证据不足者保持待核实。Instagram：读取 2 个本人基础账号，基础条件排除 0 个；基础读取上限 2，逐人分析上限 2（本次有界来源，不代表全站穷尽）。 [查看报告](/api/reports/research-294320f8d1c060255d3310e8)\n\n[查看本次综合报告](/api/work-batches/60770594-be94-4f4a-a79d-0de38d3fd1b6/report) · [下载综合 CSV](/api/work-batches/60770594-be94-4f4a-a79d-0de38d3fd1b6/report?format=csv)",
+        "createdAt": 1791639467793
+      },
+      {
+        "id": "report-campaign-73faf22be1fd823d6a0f58d6-00cfae66ba120e63",
+        "text": "Campaign「智能生活 App 美国年轻人 Instagram 首轮合作方案」已完成。去重入选 2/2 人。\n\n- 生活效率分享：指定两账号全量评估：1/1\n- 实用数码和 App 体验：指定两账号全量评估：1/1\n\n[查看 Campaign 总报告](/api/campaigns/campaign-73faf22be1fd823d6a0f58d6/report)",
+        "createdAt": 1791640282657
+      },
+      {
+        "id": "report-request-4545918b-14f4-4fc3-a2d7-a2426b2e7579-24a7a7f7982d3ac4",
+        "text": "本次请求的 1 项工作已全部结束。\n\n- TikTok 数码男博主：两位候选全量评估：已结束，仍有缺额或失败；已选合格 0/1，已核验 2；证据不足者保持待核实。tiktok：读取 500 条，基础条件排除 324 条；/discover/db?platform=tiktok&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。 [查看报告](/api/reports/research-abb4b5f8d3f19fb7de150e81)\n\n[查看本次综合报告](/api/work-batches/4545918b-14f4-4fc3-a2d7-a2426b2e7579/report) · [下载综合 CSV](/api/work-batches/4545918b-14f4-4fc3-a2d7-a2426b2e7579/report?format=csv)",
+        "createdAt": 1791640282659
+      },
+      {
+        "id": "report-request-65daf5d6-fa5b-46f3-8efc-f09180f70340-88eb44ca7d617ff7",
+        "text": "本次请求的 2 项工作已全部结束。\n\n- YouTube 学习方法个人博主：4位候选文字全量评估：已结束，仍有缺额或失败；已选合格 0/2，已核验 0；证据不足者保持待核实。youtube：读取 500 条，基础条件排除 500 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。 [查看报告](/api/reports/research-e0790a628a71f83e4ff8fbe1)\n- X 编程或开发工具个人博主：2位候选文字全量评估：已结束，仍有缺额或失败；已选合格 0/1，已核验 2；证据不足者保持待核实。twitter：读取 500 条，基础条件排除 493 条；/discover/db?platform=twitter&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。 [查看报告](/api/reports/research-f966a5bcdb3279fda8313cc8)\n\n[查看本次综合报告](/api/work-batches/65daf5d6-fa5b-46f3-8efc-f09180f70340/report) · [下载综合 CSV](/api/work-batches/65daf5d6-fa5b-46f3-8efc-f09180f70340/report?format=csv)",
+        "createdAt": 1791640328633
+      },
+      {
+        "id": "report-request-ec514915-f6b2-4081-9fe9-43525119d6a4-9d67a5bc190a1250",
+        "text": "本次请求的 3 项工作已全部结束。\n\n- 补充画像：Instagram 指定两账号个人数码博主筛选：已完成；已处理 2 个已有账号；失败 0。 [查看报告](/api/reports/research-294320f8d1c060255d3310e8)\n- 补充画像：生活效率分享：指定两账号全量评估：已完成；已处理 2 个已有账号；失败 0。 [查看报告](/api/reports/research-7f22924e895fdf79bc9bfb73)\n- 补充画像：实用数码和 App 体验：指定两账号全量评估：已完成；已处理 2 个已有账号；失败 0。 [查看报告](/api/reports/research-1c0a7ca9deb257bd0144ee1f)\n\n[查看本次综合报告](/api/work-batches/ec514915-f6b2-4081-9fe9-43525119d6a4/report) · [下载综合 CSV](/api/work-batches/ec514915-f6b2-4081-9fe9-43525119d6a4/report?format=csv)",
+        "createdAt": 1791641733790
+      },
+      {
+        "id": "report-request-9037ad63-8ffb-4518-822a-75c099e0b835-974cccd531be611e",
+        "text": "本次请求的 1 项工作已全部结束。\n\n- Instagram 欧美个人KOC：20位候选全量核验：已结束，仍有缺额或失败；已选合格 0/20，已核验 20；证据不足者保持待核实。Instagram：读取 88 个本人基础账号，基础条件排除 68 个；基础读取上限 100，逐人分析上限 20（本次有界来源，不代表全站穷尽）。 [查看报告](/api/reports/research-290c9d1e55ab57958eebf69f)\n\n[查看本次综合报告](/api/work-batches/9037ad63-8ffb-4518-822a-75c099e0b835/report) · [下载综合 CSV](/api/work-batches/9037ad63-8ffb-4518-822a-75c099e0b835/report?format=csv)",
+        "createdAt": 1791642159735
+      },
+      {
+        "id": "report-request-648022cb-5912-4225-981a-a7d46c3dca2c-4afa582a141601f8",
+        "text": "本次请求的 2 项工作已全部结束。\n\n- Instagram 指定数码个人创作者：仅文字独立研究：已完成；已选合格 1/1，已核验 2；证据不足者保持待核实。Instagram：读取 2 个本人基础账号，基础条件排除 0 个；基础读取上限 2，逐人分析上限 2（本次有界来源，不代表全站穷尽）。 [查看报告](/api/reports/research-711079d78044333d4b4dbe78)\n- Instagram 指定数码个人创作者：公开主页独立核验：已完成；已选合格 1/1，已核验 2；证据不足者保持待核实。Instagram：读取 2 个本人基础账号，基础条件排除 0 个；基础读取上限 2，逐人分析上限 2（本次有界来源，不代表全站穷尽）。 [查看报告](/api/reports/research-87b8384ff057e130a5afaad8)\n\n[查看本次综合报告](/api/work-batches/648022cb-5912-4225-981a-a7d46c3dca2c/report) · [下载综合 CSV](/api/work-batches/648022cb-5912-4225-981a-a7d46c3dca2c/report?format=csv)",
+        "createdAt": 1791643193383
+      },
+      {
+        "id": "report-request-f942a900-b7c8-4e8a-8325-80c6d5f624c5-5b4cb0744c4d2544",
+        "text": "中断请求中已登记的 1 项工作已结束。上下文切换或登记中断前尚未登记的事项没有执行；以下只汇总实际已登记工作。\n\n- Instagram 指定两人：数码产品分享个人创作者文字研究：已完成；已选合格 1/1，已核验 2；证据不足者保持待核实。Instagram：读取 2 个本人基础账号，基础条件排除 0 个；基础读取上限 2，逐人分析上限 2（本次有界来源，不代表全站穷尽）。 [查看报告](/api/reports/research-ee3d9eb49e13b4b4ccc044bb)\n\n[查看本次综合报告](/api/work-batches/f942a900-b7c8-4e8a-8325-80c6d5f624c5/report) · [下载综合 CSV](/api/work-batches/f942a900-b7c8-4e8a-8325-80c6d5f624c5/report?format=csv)",
+        "createdAt": 1791643358124
+      },
+      {
+        "id": "report-request-b265ad87-e00c-4c78-8ab1-1e0134c287d7-184e891ac20853fb",
+        "text": "中断请求中已登记的 1 项工作已结束。上下文切换或登记中断前尚未登记的事项没有执行；以下只汇总实际已登记工作。\n\n- Instagram 指定两人：耳机产品分享个人创作者文字研究：已完成；已选合格 1/1，已核验 2；证据不足者保持待核实。Instagram：读取 2 个本人基础账号，基础条件排除 0 个；基础读取上限 2，逐人分析上限 2（本次有界来源，不代表全站穷尽）。 [查看报告](/api/reports/research-239ee23074803327b566a533)\n\n[查看本次综合报告](/api/work-batches/b265ad87-e00c-4c78-8ab1-1e0134c287d7/report) · [下载综合 CSV](/api/work-batches/b265ad87-e00c-4c78-8ab1-1e0134c287d7/report?format=csv)",
+        "createdAt": 1791643499559
+      },
+      {
+        "id": "report-request-bb65a2d4-b182-44a9-acc1-7330261f3381-20c422d972866885",
+        "text": "本次请求的 1 项工作已全部结束。\n\n- 重新核验：Instagram 指定两账号个人数码博主筛选：已完成；已处理 2 个已有账号；失败 0。 本轮本人主页已观察 2/2；未取得本轮页面证据者不能宣称网页核验成功。 [查看报告](/api/reports/research-294320f8d1c060255d3310e8)\n\n[查看本次综合报告](/api/work-batches/bb65a2d4-b182-44a9-acc1-7330261f3381/report) · [下载综合 CSV](/api/work-batches/bb65a2d4-b182-44a9-acc1-7330261f3381/report?format=csv)",
+        "createdAt": 1791643746368
+      }
+    ]
+  },
+  "finishedAt": "2026-10-10T14:51:32.348Z",
+  "reportCountDefinition": "10 is all final messages in saved transcript across epochs; 2 are in final current epoch. No duplicates were introduced by restart."
+}

@@ -1,0 +1,13 @@
+{
+  "at": "2026-10-10T13:33:36.725Z",
+  "source": "Independent actual Chrome UI and real configured model; controlled Wave and candidate fixture",
+  "checks": [
+    {
+      "label": "Invalid threshold rejected by actual UI without changing settings",
+      "evidence": true
+    }
+  ],
+  "epochCases": [],
+  "pageErrors": [],
+  "error": "TypeError: Cannot read properties of undefined (reading 'text')"
+}

@@ -1,0 +1,629 @@
+{
+  "at": "2026-10-10T11:32:53.221980+00:00",
+  "source": "Actual final browser UI after restarting fresh real app; Docker store audit for controlled instance",
+  "real": {
+    "base": "http://127.0.0.1:3572",
+    "active": false,
+    "tasks": [
+      {
+        "id": "research-be8026ae73f12c86682a616a",
+        "title": "两个指定 Instagram 账号逐人核验与画像标注",
+        "status": "completed",
+        "requested": 1,
+        "evaluated": 2,
+        "matched": 1,
+        "qualifying": 1,
+        "updatedAt": 1791631103053,
+        "detail": "已选合格 1/1，已核验 2；证据不足者保持待核实。",
+        "remoteStatus": "done",
+        "nextPollAt": 1791628232816
+      },
+      {
+        "id": "research-e920ecebfcfaea4ad9406b7a",
+        "title": "20位 Instagram geek风个人KOC候选逐人核验",
+        "status": "partial",
+        "requested": 20,
+        "evaluated": 20,
+        "matched": 0,
+        "qualifying": 0,
+        "updatedAt": 1791630028704,
+        "detail": "已选合格 0/20，已核验 20；证据不足者保持待核实。",
+        "remoteStatus": "done",
+        "nextPollAt": 1791629799652
+      },
+      {
+        "id": "research-c36566806dda80292637ea63",
+        "title": "智能家居／家庭自动化个人体验博主",
+        "status": "completed",
+        "requested": 1,
+        "evaluated": 2,
+        "matched": 1,
+        "qualifying": 1,
+        "updatedAt": 1791630064575,
+        "detail": "已选合格 1/1，已核验 2；证据不足者保持待核实。",
+        "remoteStatus": "done",
+        "nextPollAt": 1791629676668
+      },
+      {
+        "id": "research-20ffdb8a68e722d07e967be2",
+        "title": "手机技巧／实用数码工具个人博主",
+        "status": "completed",
+        "requested": 1,
+        "evaluated": 2,
+        "matched": 1,
+        "qualifying": 2,
+        "updatedAt": 1791630103414,
+        "detail": "已选合格 1/1，已核验 2；证据不足者保持待核实。",
+        "remoteStatus": "done",
+        "nextPollAt": 1791629701161
+      },
+      {
+        "id": "research-2908c0a899a69bd5afeca2db",
+        "title": "TikTok手机／数码个人体验博主：两位候选逐人核验",
+        "status": "partial",
+        "requested": 1,
+        "evaluated": 2,
+        "matched": 0,
+        "qualifying": 0,
+        "updatedAt": 1791630566241,
+        "detail": "已选合格 0/1，已核验 2；证据不足者保持待核实。tiktok：读取 500 条，基础条件排除 324 条；/discover/db?platform=tiktok&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。核验/来源错误 1 次，可对已有结果重新核验。",
+        "remoteStatus": "done",
+        "nextPollAt": 0
+      },
+      {
+        "id": "research-ac84c5f2eb4a7e21e69ce1d2",
+        "title": "YouTube学习方法个人博主：四位候选文字核验",
+        "status": "partial",
+        "requested": 2,
+        "evaluated": 0,
+        "matched": 0,
+        "updatedAt": 1791629701557,
+        "detail": "已选合格 0/2，已核验 0；证据不足者保持待核实。youtube：读取 500 条，基础条件排除 500 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。",
+        "remoteStatus": "done",
+        "nextPollAt": 1791629702555
+      },
+      {
+        "id": "research-50afd1df3c59e15af7ca2577",
+        "title": "X编程／开发工具个人博主：两位候选文字核验",
+        "status": "partial",
+        "requested": 1,
+        "evaluated": 2,
+        "matched": 0,
+        "qualifying": 0,
+        "updatedAt": 1791629730362,
+        "detail": "已选合格 0/1，已核验 2；证据不足者保持待核实。twitter：读取 500 条，基础条件排除 493 条；/discover/db?platform=twitter&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。",
+        "remoteStatus": "done",
+        "nextPollAt": 1791629704150
+      },
+      {
+        "id": "enrich-f0dedf9da0840c27b9aa14ad",
+        "title": "重新核验：两个指定 Instagram 账号逐人核验与画像标注",
+        "status": "completed",
+        "requested": 2,
+        "evaluated": 2,
+        "matched": 1,
+        "resultTaskId": "research-be8026ae73f12c86682a616a",
+        "updatedAt": 1791631103125,
+        "detail": "已处理 2 个已有账号；失败 0。"
+      }
+    ],
+    "resultRecords": 30,
+    "distinctPlatformIdentities": 26,
+    "waveCallCount": 133,
+    "notifications": [
+      {
+        "id": "report-request-0fabc016-9161-43d4-976a-c6e8235b852e-1fed213f3e149344",
+        "text": "本次请求的 1 项工作已全部结束。\n\n- 两个指定 Instagram 账号逐人核验与画像标注：已完成；已选合格 1/1，已核验 2；证据不足者保持待核实。 [查看报告](/api/reports/research-be8026ae73f12c86682a616a)\n\n[查看本次综合报告](/api/work-batches/0fabc016-9161-43d4-976a-c6e8235b852e/report) · [下载综合 CSV](/api/work-batches/0fabc016-9161-43d4-976a-c6e8235b852e/report?format=csv)",
+        "createdAt": 1791628270576
+      },
+      {
+        "id": "report-request-a01de880-2d32-47b3-a6d7-ba663944d36a-58947e45896a8cbe",
+        "text": "本次请求的 2 项工作已全部结束。\n\n- YouTube学习方法个人博主：四位候选文字核验：已结束，仍有缺额或失败；已选合格 0/2，已核验 0；证据不足者保持待核实。youtube：读取 500 条，基础条件排除 500 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。 [查看报告](/api/reports/research-ac84c5f2eb4a7e21e69ce1d2)\n- X编程／开发工具个人博主：两位候选文字核验：已结束，仍有缺额或失败；已选合格 0/1，已核验 2；证据不足者保持待核实。twitter：读取 500 条，基础条件排除 493 条；/discover/db?platform=twitter&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。 [查看报告](/api/reports/research-50afd1df3c59e15af7ca2577)\n\n[查看本次综合报告](/api/work-batches/a01de880-2d32-47b3-a6d7-ba663944d36a/report) · [下载综合 CSV](/api/work-batches/a01de880-2d32-47b3-a6d7-ba663944d36a/report?format=csv)",
+        "createdAt": 1791629730967
+      },
+      {
+        "id": "report-campaign-400c66f262a9672f04ebd06e-c513a6ecdbb93925",
+        "text": "Campaign「美国年轻人智能生活App小预算Instagram推广方案」已完成。去重入选 2/2 人。\n\n- 智能家居／家庭自动化个人体验博主：1/1\n- 手机技巧／实用数码工具个人博主：1/1\n\n[查看 Campaign 总报告](/api/campaigns/campaign-400c66f262a9672f04ebd06e/report)",
+        "createdAt": 1791630127192
+      },
+      {
+        "id": "report-request-0710085f-0695-4561-8f75-eedd112288ad-547adbd05c3b0605",
+        "text": "本次请求的 1 项工作已全部结束。\n\n- 20位 Instagram geek风个人KOC候选逐人核验：已结束，仍有缺额或失败；已选合格 0/20，已核验 20；证据不足者保持待核实。 [查看报告](/api/reports/research-e920ecebfcfaea4ad9406b7a)\n\n[查看本次综合报告](/api/work-batches/0710085f-0695-4561-8f75-eedd112288ad/report) · [下载综合 CSV](/api/work-batches/0710085f-0695-4561-8f75-eedd112288ad/report?format=csv)",
+        "createdAt": 1791630127193
+      },
+      {
+        "id": "report-request-ea140273-05dc-4494-931f-b6151446b244-5929a4d940dc7e59",
+        "text": "本次请求的 1 项工作已全部结束。\n\n- TikTok手机／数码个人体验博主：两位候选逐人核验：已结束，仍有缺额或失败；已选合格 0/1，已核验 2；证据不足者保持待核实。tiktok：读取 500 条，基础条件排除 324 条；/discover/db?platform=tiktok&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。核验/来源错误 1 次，可对已有结果重新核验。 [查看报告](/api/reports/research-2908c0a899a69bd5afeca2db)\n\n[查看本次综合报告](/api/work-batches/ea140273-05dc-4494-931f-b6151446b244/report) · [下载综合 CSV](/api/work-batches/ea140273-05dc-4494-931f-b6151446b244/report?format=csv)",
+        "createdAt": 1791630566929
+      },
+      {
+        "id": "report-request-f14b6222-dd88-40b2-b780-14f820aa4898-e7e83abf3feadb51",
+        "text": "本次请求的 1 项工作已全部结束。\n\n- 重新核验：两个指定 Instagram 账号逐人核验与画像标注：已完成；已处理 2 个已有账号；失败 0。 [查看报告](/api/reports/research-be8026ae73f12c86682a616a)\n\n[查看本次综合报告](/api/work-batches/f14b6222-dd88-40b2-b780-14f820aa4898/report) · [下载综合 CSV](/api/work-batches/f14b6222-dd88-40b2-b780-14f820aa4898/report?format=csv)",
+        "createdAt": 1791631103761
+      }
+    ],
+    "unreleasedAssistance": [],
+    "restartChecks": [
+      "Actual app restart preserves authenticated session and all 30 real result records/tags/versions",
+      "Terminal tasks preserved; no model or Wave requests replayed",
+      "Exactly six final real-request/campaign notifications preserved without duplicates",
+      "No pending or claimed desktop assistance remains"
+    ]
+  },
+  "controlled": {
+    "base": "http://127.0.0.1:3573",
+    "active": false,
+    "tasks": [
+      {
+        "id": "research-4765630b7155c8ccb8f4035e",
+        "status": "partial",
+        "evaluated": 2,
+        "matched": 0
+      },
+      {
+        "id": "research-80d527960d27da90bac004b2",
+        "status": "partial",
+        "evaluated": 2,
+        "matched": 0
+      },
+      {
+        "id": "research-a4ecc6314a39387e1e2834da",
+        "status": "partial",
+        "evaluated": 1,
+        "matched": 0
+      },
+      {
+        "id": "research-1b67ced35e3c73543985f64c",
+        "status": "partial",
+        "evaluated": 2,
+        "matched": 0
+      },
+      {
+        "id": "research-de001242da5340ab6b397d3f",
+        "status": "partial",
+        "evaluated": 2,
+        "matched": 0
+      },
+      {
+        "id": "research-e8e0d945f91b47f7803a1e87",
+        "status": "partial",
+        "evaluated": 2,
+        "matched": 0
+      },
+      {
+        "id": "research-28928cc20e345e8400535f0e",
+        "status": "partial",
+        "evaluated": 2,
+        "matched": 0
+      },
+      {
+        "id": "research-bd46fb877c93ea1af8b6bc35",
+        "status": "completed",
+        "evaluated": 2,
+        "matched": 1
+      },
+      {
+        "id": "enrich-0180bb0646b8e6d667cb2296",
+        "status": "completed",
+        "evaluated": 2,
+        "matched": 2
+      },
+      {
+        "id": "research-5615f49eb8be1218218fa7c0",
+        "status": "cancelled",
+        "evaluated": 0,
+        "matched": 0
+      }
+    ],
+    "unreleasedAssistance": [],
+    "contextSwitchOrphanBatches": [
+      {
+        "action": "reset",
+        "taskId": "research-4765630b7155c8ccb8f4035e",
+        "batch": {
+          "id": "6ab29cbf-6dc6-4d05-8643-9d26d356f973",
+          "items": [
+            {
+              "kind": "research",
+              "id": "research-4765630b7155c8ccb8f4035e",
+              "title": "YouTube 科技博主研究：2位候选全量文字核验",
+              "reportUrl": "/api/reports/research-4765630b7155c8ccb8f4035e"
+            }
+          ],
+          "sealed": false
+        },
+        "deliveryPass": false
+      },
+      {
+        "action": "load",
+        "taskId": "research-80d527960d27da90bac004b2",
+        "batch": {
+          "id": "4bfd1270-5cca-4b41-abd7-2e296c31f2fd",
+          "items": [
+            {
+              "kind": "research",
+              "id": "research-80d527960d27da90bac004b2",
+              "title": "YouTube 耳机博主研究：2位候选全量文字核验",
+              "reportUrl": "/api/reports/research-80d527960d27da90bac004b2"
+            }
+          ],
+          "sealed": false
+        },
+        "deliveryPass": false
+      }
+    ]
+  },
+  "main": {
+    "retagSourceCreators": 6,
+    "newJobs": [
+      {
+        "id": "enrich-852b54c3a4c8bfabc45ae1b6",
+        "title": "补充画像：Review独立真实筛选",
+        "status": "completed",
+        "requested": 2,
+        "evaluated": 2,
+        "matched": 2,
+        "resultTaskId": "research-d22f5bc3f9c80da1a4979ca5",
+        "updatedAt": 1791628274926,
+        "detail": "已处理 2 个已有账号；失败 0。"
+      },
+      {
+        "id": "enrich-4442f04a49d556bc97a01bb1",
+        "title": "补充画像：课堂笔记与考试复习方法创作者",
+        "status": "completed",
+        "requested": 2,
+        "evaluated": 2,
+        "matched": 0,
+        "resultTaskId": "research-fd88375f69e716ff5cbc9fef",
+        "updatedAt": 1791628339028,
+        "detail": "已处理 2 个已有账号；失败 0。"
+      },
+      {
+        "id": "enrich-1bf84c8def94fbe1951b90a2",
+        "title": "补充画像：AI与数字学习工具教学创作者",
+        "status": "completed",
+        "requested": 2,
+        "evaluated": 2,
+        "matched": 0,
+        "resultTaskId": "research-b30bacd90e74569b33e06bfc",
+        "updatedAt": 1791628368409,
+        "detail": "已处理 2 个已有账号；失败 0。"
+      }
+    ],
+    "retagOriginalConclusionsPreserved": {
+      "source": "independent actual main browser before/after natural six-person retag",
+      "rows": [
+        {
+          "handle": "tylerlcrawford",
+          "resultId": "research-d22f5bc3f9c80da1a4979ca5|instagram:tylerlcrawford",
+          "previousRevision": 5,
+          "revision": 6,
+          "creatorUnchanged": true,
+          "judgmentsUnchanged": true,
+          "verdictUnchanged": true,
+          "selectedUnchanged": true,
+          "tags": [
+            "智能家居",
+            "家庭自动化",
+            "科技与酒店评论",
+            "第一人称生活场景分享",
+            "按时间线讲解设备运行",
+            "智能家居场景演示",
+            "家庭自动化流程讲解"
+          ],
+          "annotationStatuses": [
+            {
+              "id": "content_direction",
+              "status": "supported",
+              "values": [
+                "智能家居",
+                "家庭自动化",
+                "科技与酒店评论"
+              ]
+            },
+            {
+              "id": "presentation_style",
+              "status": "supported",
+              "values": [
+                "第一人称生活场景分享",
+                "按时间线讲解设备运行"
+              ]
+            },
+            {
+              "id": "collaboration_format",
+              "status": "supported",
+              "values": [
+                "智能家居场景演示",
+                "家庭自动化流程讲解"
+              ]
+            }
+          ]
+        },
+        {
+          "handle": "valstechtalkk",
+          "resultId": "research-d22f5bc3f9c80da1a4979ca5|instagram:valstechtalkk",
+          "previousRevision": 5,
+          "revision": 6,
+          "creatorUnchanged": true,
+          "judgmentsUnchanged": true,
+          "verdictUnchanged": true,
+          "selectedUnchanged": true,
+          "tags": [
+            "iPhone 功能技巧",
+            "手机相机设置",
+            "科技评测",
+            "轻松俏皮的文字表达",
+            "科技与美妆元素结合的自述定位",
+            "手机功能技巧短视频",
+            "相机设置教程"
+          ],
+          "annotationStatuses": [
+            {
+              "id": "content_direction",
+              "status": "supported",
+              "values": [
+                "iPhone 功能技巧",
+                "手机相机设置",
+                "科技评测"
+              ]
+            },
+            {
+              "id": "presentation_style",
+              "status": "supported",
+              "values": [
+                "轻松俏皮的文字表达",
+                "科技与美妆元素结合的自述定位"
+              ]
+            },
+            {
+              "id": "collaboration_format",
+              "status": "supported",
+              "values": [
+                "手机功能技巧短视频",
+                "相机设置教程"
+              ]
+            }
+          ]
+        },
+        {
+          "handle": "schoolhabits",
+          "resultId": "research-fd88375f69e716ff5cbc9fef|youtube:schoolhabits",
+          "previousRevision": 5,
+          "revision": 6,
+          "creatorUnchanged": true,
+          "judgmentsUnchanged": true,
+          "verdictUnchanged": true,
+          "selectedUnchanged": true,
+          "tags": [
+            "学习方法",
+            "考试复习",
+            "笔记整理",
+            "时间管理",
+            "执行功能",
+            "分章节方法教学",
+            "亲切的文字表达"
+          ],
+          "annotationStatuses": [
+            {
+              "id": "content_direction",
+              "status": "supported",
+              "values": [
+                "学习方法",
+                "考试复习",
+                "笔记整理",
+                "时间管理",
+                "执行功能"
+              ]
+            },
+            {
+              "id": "presentation_style",
+              "status": "supported",
+              "values": [
+                "分章节方法教学",
+                "亲切的文字表达"
+              ]
+            },
+            {
+              "id": "collaboration_format",
+              "status": "unknown",
+              "values": []
+            }
+          ]
+        },
+        {
+          "handle": "raytubelcsw",
+          "resultId": "research-fd88375f69e716ff5cbc9fef|youtube:raytubelcsw",
+          "previousRevision": 5,
+          "revision": 6,
+          "creatorUnchanged": true,
+          "judgmentsUnchanged": true,
+          "verdictUnchanged": true,
+          "selectedUnchanged": true,
+          "tags": [
+            "社会工作执照考试备考",
+            "ASWB 练习题与知识点讲解",
+            "考试复习提纲",
+            "练习题讲解型",
+            "分主题系列内容",
+            "备考练习题讲解",
+            "复习提纲介绍",
+            "学习课程介绍"
+          ],
+          "annotationStatuses": [
+            {
+              "id": "content_direction",
+              "status": "supported",
+              "values": [
+                "社会工作执照考试备考",
+                "ASWB 练习题与知识点讲解",
+                "考试复习提纲"
+              ]
+            },
+            {
+              "id": "presentation_style",
+              "status": "supported",
+              "values": [
+                "练习题讲解型",
+                "分主题系列内容"
+              ]
+            },
+            {
+              "id": "collaboration_format",
+              "status": "supported",
+              "values": [
+                "备考练习题讲解",
+                "复习提纲介绍",
+                "学习课程介绍"
+              ]
+            }
+          ]
+        },
+        {
+          "handle": "colelangs",
+          "resultId": "research-b30bacd90e74569b33e06bfc|youtube:colelangs",
+          "previousRevision": 6,
+          "revision": 7,
+          "creatorUnchanged": true,
+          "judgmentsUnchanged": true,
+          "verdictUnchanged": true,
+          "selectedUnchanged": true,
+          "tags": [
+            "语言学习",
+            "多语言交流与文化探索",
+            "Anki数字学习工具教学",
+            "分章节逐步教学",
+            "视频赞助植入",
+            "联盟推广链接"
+          ],
+          "annotationStatuses": [
+            {
+              "id": "content_direction",
+              "status": "supported",
+              "values": [
+                "语言学习",
+                "多语言交流与文化探索",
+                "Anki数字学习工具教学"
+              ]
+            },
+            {
+              "id": "presentation_style",
+              "status": "supported",
+              "values": [
+                "分章节逐步教学"
+              ]
+            },
+            {
+              "id": "collaboration_format",
+              "status": "supported",
+              "values": [
+                "视频赞助植入",
+                "联盟推广链接"
+              ]
+            }
+          ]
+        },
+        {
+          "handle": "wesleyanna",
+          "resultId": "research-b30bacd90e74569b33e06bfc|youtube:wesleyanna",
+          "previousRevision": 6,
+          "revision": 7,
+          "creatorUnchanged": true,
+          "judgmentsUnchanged": true,
+          "verdictUnchanged": true,
+          "selectedUnchanged": true,
+          "tags": [
+            "Notion 与数字效率工具",
+            "个人成长与生活记录",
+            "轻松口语化文案",
+            "面向初学者",
+            "章节化组织",
+            "Notion 入门内容",
+            "模板配套内容"
+          ],
+          "annotationStatuses": [
+            {
+              "id": "content_direction",
+              "status": "supported",
+              "values": [
+                "Notion 与数字效率工具",
+                "个人成长与生活记录"
+              ]
+            },
+            {
+              "id": "presentation_style",
+              "status": "supported",
+              "values": [
+                "轻松口语化文案",
+                "面向初学者",
+                "章节化组织"
+              ]
+            },
+            {
+              "id": "collaboration_format",
+              "status": "supported",
+              "values": [
+                "Notion 入门内容",
+                "模板配套内容"
+              ]
+            }
+          ]
+        }
+      ],
+      "waveCallsBefore": 199,
+      "waveCallsAfter": 199,
+      "newReportNotifications": 1,
+      "notifications": [
+        {
+          "id": "report-request-32fde236-b5e4-4605-bdc8-13d54916c825-2fa96e58da6677df",
+          "role": "assistant",
+          "text": "本次请求的 3 项工作已全部结束。\n\n- 补充画像：Review独立真实筛选：已完成；已处理 2 个已有账号；失败 0。 [查看报告](/api/reports/research-d22f5bc3f9c80da1a4979ca5)\n- 补充画像：课堂笔记与考试复习方法创作者：已完成；已处理 2 个已有账号；失败 0。 [查看报告](/api/reports/research-fd88375f69e716ff5cbc9fef)\n- 补充画像：AI与数字学习工具教学创作者：已完成；已处理 2 个已有账号；失败 0。 [查看报告](/api/reports/research-b30bacd90e74569b33e06bfc)\n\n[查看本次综合报告](/api/work-batches/32fde236-b5e4-4605-bdc8-13d54916c825/report) · [下载综合 CSV](/api/work-batches/32fde236-b5e4-4605-bdc8-13d54916c825/report?format=csv)",
+          "createdAt": 1791628369269,
+          "epoch": 6,
+          "state": "delivered",
+          "attachments": []
+        }
+      ]
+    },
+    "batchNotificationCount": 1
+  },
+  "issues": [
+    {
+      "id": "F20",
+      "severity": "P1",
+      "title": "延后的工作未纳入整批交付屏障",
+      "regressionStatus": "partial",
+      "evidence": "/Users/shawn/coding/projects/wavesurge/wavesurge_testing/.gstack/qa-reports/retest-2026-10-10-r3/handoff-failure.json"
+    },
+    {
+      "id": "F02",
+      "severity": "P1",
+      "title": "人工接管期间 Agent 错误拒绝同时登记文字与网页工作",
+      "regressionStatus": "partial",
+      "evidence": "/Users/shawn/coding/projects/wavesurge/wavesurge_testing/.gstack/qa-reports/retest-2026-10-10-r3/handoff-queued-failure.json"
+    },
+    {
+      "id": "F23",
+      "severity": "P2",
+      "title": "任务登记期间切换上下文导致最终报告漏交付",
+      "regressionStatus": "new",
+      "evidence": "/Users/shawn/coding/projects/wavesurge/wavesurge_testing/.gstack/qa-reports/retest-2026-10-10-r3/extended-ui.json"
+    },
+    {
+      "id": "F24",
+      "severity": "P2",
+      "title": "粉丝缩写精度被误判为范围冲突",
+      "regressionStatus": "new",
+      "evidence": "/Users/shawn/coding/projects/wavesurge/wavesurge_testing/.gstack/qa-reports/retest-2026-10-10-r3/follower-replay.json"
+    },
+    {
+      "id": "F25",
+      "severity": "P2",
+      "title": "Instagram 已知超出基础范围的候选消耗定性分析预算",
+      "regressionStatus": "new",
+      "evidence": "/Users/shawn/coding/projects/wavesurge/wavesurge_testing/.gstack/qa-reports/retest-2026-10-10-r3/instagram-base-budget.json"
+    }
+  ],
+  "businessSourceChanged": false,
+  "report": "/Users/shawn/coding/projects/wavesurge/wavesurge_testing/.gstack/qa-reports/retest-2026-10-10-r3/report.md",
+  "manualRemaining": "/Users/shawn/coding/projects/wavesurge/wavesurge_testing/.gstack/qa-reports/retest-2026-10-10-r3/remaining-validation.md"
+}

@@ -1,0 +1,69 @@
+{
+  "startedAt": "2026-10-10T12:57:31.347Z",
+  "finishedAt": "2026-10-10T12:57:47.709Z",
+  "passed": true,
+  "actualAppRestart": true,
+  "sourceFiles": 57,
+  "sourceMatched": true,
+  "persisted": {
+    "task": {
+      "count": 9,
+      "digest": "b2ddef418a5e22cc80e1e8c24a13944697d9c81af7f89da25fdc56765002d6f6"
+    },
+    "result": {
+      "count": 17,
+      "digest": "e091aa17dd23c98759469faddd5116f7e6da781c5f72415a8c7b021a6685b04d"
+    },
+    "result-history": {
+      "count": 2,
+      "digest": "5f49b45678772972a1deba9880f1d9b7bb9457c6801a41166719bcc08dbd6027"
+    },
+    "work-batch": {
+      "count": 7,
+      "digest": "897f0dab88ede73285d16ee29dd895e4b131198f9e65d0bdecb5798f4d3a392b"
+    },
+    "message": {
+      "count": 30,
+      "digest": "1a814f0ab6ec20f538d9185a9912e7def6b0d885da63aa01224318f4dbce646e"
+    },
+    "assistance": {
+      "count": 4,
+      "digest": "155fe0e35e8b76fb9d22360248ce48c7379e497b773c77f72530768d0956f971"
+    },
+    "wave-call": {
+      "count": 91,
+      "digest": "79e0f888a403eb985dd487e5028d753abff6b0abacfab8b93b2ae952eb2ab4ba"
+    },
+    "delivery": {
+      "count": 7,
+      "digest": "692b5105cce45c51e7f3f37cab925cad2d3efea4065798ba2d517adfaca36969"
+    }
+  },
+  "reports": 7,
+  "revisedResults": [
+    {
+      "id": "research-e9505a2e153dd2827f5fbc21|instagram:tylerlcrawford",
+      "revision": 2,
+      "proof": {
+        "startedAt": 1791636426268,
+        "profileEvidenceIds": []
+      },
+      "verdict": "unknown"
+    },
+    {
+      "id": "research-e9505a2e153dd2827f5fbc21|instagram:valstechtalkk",
+      "revision": 2,
+      "proof": {
+        "startedAt": 1791636488664,
+        "profileEvidenceIds": []
+      },
+      "verdict": "unknown"
+    }
+  ],
+  "pending": 0,
+  "noTaskOrResultChanges": true,
+  "noWaveReplay": true,
+  "noHistoricalRedelivery": true,
+  "reportUiPassed": true,
+  "pageErrors": []
+}

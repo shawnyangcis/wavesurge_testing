@@ -1,0 +1,15 @@
+
+Running 2 tests using 1 worker
+
+(node:48041) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ wavesurge_testing-app-1 Copying tests/fixtures/seed-browser-task.ts to wavesurge_testing-app-1:/app/data/fixtures/seed-browser-task.ts
+ wavesurge_testing-app-1 Copied tests/fixtures/seed-browser-task.ts to wavesurge_testing-app-1:/app/data/fixtures/seed-browser-task.ts
+  ✓  1 tests/e2e/desktop-assistance.spec.ts:4:1 › 真实模型与 VNC：验证挑战→人工接管→原候选续接→截图证据 (54.6s)
+ wavesurge_testing-desktop-1 Copying tests/fixtures/browser-assistance-server.mjs to wavesurge_testing-desktop-1:/tmp/browser-assistance-server.mjs
+ wavesurge_testing-desktop-1 Copied tests/fixtures/browser-assistance-server.mjs to wavesurge_testing-desktop-1:/tmp/browser-assistance-server.mjs
+ Container wavesurge_testing-desktop-1 Restarting 
+ Container wavesurge_testing-desktop-1 Started 
+  ✓  2 tests/e2e/desktop-persistence.spec.ts:4:1 › 桌面正常重启后同一 profile 的人工验证 Cookie 保留 (5.3s)
+
+  2 passed (1.0m)

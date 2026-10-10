@@ -1,0 +1,39 @@
+{
+  "atUtc": "2026-10-09T17:07:51.207149+00:00",
+  "probe": "vision-v1",
+  "status": 200,
+  "elapsedSeconds": 2.86,
+  "response": {
+    "id": "resp_0a8efca19bfa6e00016ac91f6526f487d08c524bed9be97a8e",
+    "object": "chat.completion",
+    "created": 1791565669,
+    "model": "gpt-6.1-sol",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "左半是绿色，右半是蓝色。",
+          "reasoning_content": null,
+          "tool_calls": null
+        },
+        "finish_reason": "stop",
+        "native_finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "completion_tokens": 32,
+      "total_tokens": 361,
+      "prompt_tokens": 329,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_creation_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 15
+      }
+    }
+  }
+}

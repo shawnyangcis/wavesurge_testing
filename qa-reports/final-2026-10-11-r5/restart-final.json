@@ -1,0 +1,173 @@
+{
+  "at": "2026-10-10T17:56:47.837Z",
+  "source": "Normal restart of owned test application and desktop containers; no forced power loss or human takeover",
+  "scopes": [
+    {
+      "scope": "live",
+      "before": {
+        "tasks": {
+          "count": 13,
+          "hash": "5634946d27ff20d382e67851b172086014df4c78c762c9495e1512ec1c6e2c0f"
+        },
+        "results": {
+          "count": 15,
+          "hash": "b738db0763c5ad4de4a240087a52213b4f49f9fcaaa4650afcb0e78b9a1f86bb"
+        },
+        "history": {
+          "count": 6,
+          "hash": "60a851e69b89335729b3d2919a4b295ce31aae0f4b53c34280239dd4732ec9d9"
+        },
+        "campaigns": {
+          "count": 1,
+          "hash": "c052d5c19d5294b2bde368d01ecd62228c4453f59b2b9d333e8261aae7767257"
+        },
+        "deliveries": {
+          "count": 6,
+          "hash": "b4e781cbd321632c6912807693bc8e8b2b5bdccfa420871b1e87f9a0be403c95"
+        },
+        "messages": {
+          "count": 34,
+          "hash": "7ddd3cf1ef04a91321732ed95e8403f83da9951db998058c2a49060f0fd89eb8"
+        },
+        "batches": {
+          "count": 5,
+          "hash": "72885ee5c923f5d1e3cd14ac9b904d85f06c7eefda46131e5cb7278182efe3c6"
+        },
+        "wave": {
+          "count": 64,
+          "hash": "c87a1f646b80caec49cbdebc014a71f4f039425cb7d03a5cd7113cab1f1d0bae"
+        },
+        "models": {
+          "count": 69,
+          "hash": "4547772b8f13eaceb267c61f85de66598e87cd61ef7ea32124917ba42cf7e82c"
+        }
+      },
+      "after": {
+        "tasks": {
+          "count": 13,
+          "hash": "5634946d27ff20d382e67851b172086014df4c78c762c9495e1512ec1c6e2c0f"
+        },
+        "results": {
+          "count": 15,
+          "hash": "b738db0763c5ad4de4a240087a52213b4f49f9fcaaa4650afcb0e78b9a1f86bb"
+        },
+        "history": {
+          "count": 6,
+          "hash": "60a851e69b89335729b3d2919a4b295ce31aae0f4b53c34280239dd4732ec9d9"
+        },
+        "campaigns": {
+          "count": 1,
+          "hash": "c052d5c19d5294b2bde368d01ecd62228c4453f59b2b9d333e8261aae7767257"
+        },
+        "deliveries": {
+          "count": 6,
+          "hash": "b4e781cbd321632c6912807693bc8e8b2b5bdccfa420871b1e87f9a0be403c95"
+        },
+        "messages": {
+          "count": 34,
+          "hash": "7ddd3cf1ef04a91321732ed95e8403f83da9951db998058c2a49060f0fd89eb8"
+        },
+        "batches": {
+          "count": 5,
+          "hash": "72885ee5c923f5d1e3cd14ac9b904d85f06c7eefda46131e5cb7278182efe3c6"
+        },
+        "wave": {
+          "count": 64,
+          "hash": "c87a1f646b80caec49cbdebc014a71f4f039425cb7d03a5cd7113cab1f1d0bae"
+        },
+        "models": {
+          "count": 69,
+          "hash": "4547772b8f13eaceb267c61f85de66598e87cd61ef7ea32124917ba42cf7e82c"
+        }
+      },
+      "extraWaveCalls": 0,
+      "extraModelCalls": 0,
+      "reportMessages": 6,
+      "passed": true
+    },
+    {
+      "scope": "edge",
+      "before": {
+        "tasks": {
+          "count": 11,
+          "hash": "ccdaa47d8d6c1a86a8e24a0d2b2cf5832ff4931f97154ba0aec4063eed1f4c14"
+        },
+        "results": {
+          "count": 14,
+          "hash": "f67004fb2d04ac91a85f752f24ae33cf6bd9eb697edcdfd11cf06b28e83a032d"
+        },
+        "history": {
+          "count": 4,
+          "hash": "aec8081d7b15aea4e0b3c31b2651306529f25425da0164f5d8a93067f2f552f2"
+        },
+        "campaigns": {
+          "count": 1,
+          "hash": "eb6ab7619c50ad05ed5ab6309f313a8f971952aa8604ae12e8a683cfd6a179fc"
+        },
+        "deliveries": {
+          "count": 10,
+          "hash": "35c622c4b15c3724bcde7fe5c0ad13f0097187ab207d742fece8dacf8df5c134"
+        },
+        "messages": {
+          "count": 113,
+          "hash": "e7c16919953484cf3503751cf8bbb38d8d0335a09de87916248e9e7336ea0e4f"
+        },
+        "batches": {
+          "count": 9,
+          "hash": "f8804110509326c56d5c72e43dbb3761ac0d4a2da6bd0a62816fbda7bcbd1af5"
+        },
+        "wave": {
+          "count": 13,
+          "hash": "83beded027d143990fe08ef10ff6fa8f3f70ab49e5857412eb29fb5cd38b6098"
+        },
+        "models": {
+          "count": 82,
+          "hash": "48a41fb1ef3911332e19a2ec1309801791a6bd01af17b17c989636e3fec2fa3e"
+        }
+      },
+      "after": {
+        "tasks": {
+          "count": 11,
+          "hash": "ccdaa47d8d6c1a86a8e24a0d2b2cf5832ff4931f97154ba0aec4063eed1f4c14"
+        },
+        "results": {
+          "count": 14,
+          "hash": "f67004fb2d04ac91a85f752f24ae33cf6bd9eb697edcdfd11cf06b28e83a032d"
+        },
+        "history": {
+          "count": 4,
+          "hash": "aec8081d7b15aea4e0b3c31b2651306529f25425da0164f5d8a93067f2f552f2"
+        },
+        "campaigns": {
+          "count": 1,
+          "hash": "eb6ab7619c50ad05ed5ab6309f313a8f971952aa8604ae12e8a683cfd6a179fc"
+        },
+        "deliveries": {
+          "count": 10,
+          "hash": "35c622c4b15c3724bcde7fe5c0ad13f0097187ab207d742fece8dacf8df5c134"
+        },
+        "messages": {
+          "count": 113,
+          "hash": "e7c16919953484cf3503751cf8bbb38d8d0335a09de87916248e9e7336ea0e4f"
+        },
+        "batches": {
+          "count": 9,
+          "hash": "f8804110509326c56d5c72e43dbb3761ac0d4a2da6bd0a62816fbda7bcbd1af5"
+        },
+        "wave": {
+          "count": 13,
+          "hash": "83beded027d143990fe08ef10ff6fa8f3f70ab49e5857412eb29fb5cd38b6098"
+        },
+        "models": {
+          "count": 82,
+          "hash": "48a41fb1ef3911332e19a2ec1309801791a6bd01af17b17c989636e3fec2fa3e"
+        }
+      },
+      "extraWaveCalls": 0,
+      "extraModelCalls": 0,
+      "reportMessages": 10,
+      "passed": true
+    }
+  ],
+  "passed": true
+}

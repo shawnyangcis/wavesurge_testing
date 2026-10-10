@@ -1,0 +1,13 @@
+import { execFileSync } from 'node:child_process';
+import { mkdirSync, chmodSync, writeFileSync } from 'node:fs';
+const root = 'validation/2026-10-10/r4-fixes', privateDir = `${root}/private`;
+mkdirSync(privateDir, { recursive: true, mode: 0o700 }); chmodSync(privateDir, 0o700);
+const source = 'creator-studio-retest-r4-live-app-1';
+const docker = (...args) => execFileSync('docker', args, { encoding: 'utf8', maxBuffer: 128000000 });
+const file = docker('exec', source, 'node', '--input-type=module', '-e', `import{DatabaseSync,backup}from'node:sqlite';import{chmodSync}from'node:fs';const db=new DatabaseSync('/app/data/studio.sqlite',{readOnly:true}),file='/tmp/r4-fix-readonly-'+Date.now()+'.sqlite';await backup(db,file);db.close();chmodSync(file,0o600);process.stdout.write(file);`).trim();
+docker('cp', `${source}:${file}`, `${privateDir}/review-before.sqlite`); chmodSync(`${privateDir}/review-before.sqlite`, 0o600);
+docker('cp', `${source}:/app/data/admin-bootstrap.txt`, `${privateDir}/admin-bootstrap.txt`); chmodSync(`${privateDir}/admin-bootstrap.txt`, 0o600);
+docker('cp', `${source}:/app/data/assets`, `${privateDir}/assets`);
+docker('exec', source, 'node', '--input-type=module', '-e', 'import{unlinkSync}from"node:fs";unlinkSync(process.argv[1]);', file);
+const record = { at: new Date().toISOString(), source, readOnlyOnlineSnapshot: true, originalDatabaseNotModified: true, privateDirectoryMode: '0700', snapshotAndPasswordMode: '0600', scope: 'Actual persisted R4 results and assets; no new API/model calls. Private files contain configuration and are not report attachments.' };
+writeFileSync(`${root}/snapshot.json`, JSON.stringify(record, null, 2)); console.log(JSON.stringify(record));

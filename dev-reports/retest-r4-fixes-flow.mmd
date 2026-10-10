@@ -1,0 +1,44 @@
+flowchart TD
+  User[用户发送自然语言消息] --> Inbox[程序持久化 inbox / epoch / 消息 ID]
+  Inbox --> Context[Agent 读取新消息、当前 task / campaign / execution 事实及历史压缩摘要]
+  Context --> LLM[LLM 理解目标、澄清范围、选择工具]
+  LLM -->|需要澄清| Reply[按工具最新事实回复；保存对话消息]
+  Register -->|已登记，不提前声称完成| Reply
+  Query --> Reply
+  LLM -->|直接研究，明确范围| Research[start_research 或 start_research_batch]
+  LLM -->|Campaign 目标| Plan[交互澄清类型、理由、范围与名额；save_campaign_plan 保存版本]
+  Plan --> Confirm[用户确认当前版本；start_campaign]
+  Confirm --> Research
+  Research --> Register[程序保存 task/spec 与 work-batch；后台执行，对话可继续]
+  Register --> Sources{来源与授权范围}
+  Sources -->|Instagram 精确 handles| Profile[WaveSurge GET 本人 profile：username → userId、粉丝数、简介]
+  Sources -->|Instagram 关键词| Search[WaveSurge GET 账号搜索；有界翻页；基础粉丝预筛]
+  Search --> Profile
+  Profile --> Posts[GET user posts：按 userId 取近期帖子与分页；GET post info 获取单帖详情]
+  Sources -->|YouTube/TikTok/X| Pool[GET discover/db fit_desc 有界名单；模型按当前画像选择候选]
+  Profile -->|临时错误或来源不足| Errors[保存错误和 nextPollAt；有界重试，耗尽后如实交付缺额]
+  Posts -->|读取失败| Errors
+  Pool -->|读取失败| Errors
+  Errors -->|可重试| Register
+  Errors -->|不能继续| Deliver
+  Posts --> Evidence[保存 creator.raw、文字、日期、资源 URL、数值来源及互动率样本]
+  Pool --> Evidence
+  Evidence --> Mode{文字资料足够或明确网页要求}
+  Mode -->|text / 足够文字| Verify[LLM 逐条件三态判断；独立提交实际画像和本人事实]
+  Mode -->|需要本轮本人网页观察| Browser[Agent 使用持久有头 Chromium 观察主页、内容、截图]
+  Browser --> Human{登录、验证码或其他阻塞}
+  Human -->|需要协助| VNC[保存 assistance；用户通过 noVNC 接管；交还后 Agent 重新观察]
+  VNC --> Browser
+  Human -->|已有可用观察| Verify
+  Verify --> Resolve[程序校验证据引用、粉丝范围、本人地区、视觉依据及本轮访问；必选全部 match 才合格]
+  Resolve --> Save[SQLite 保存 result：判定、judgments、annotations、tags、facts、evidence、revision]
+  Save --> Select[独立组配额预选；Campaign 按已有算法跨组去重分配]
+  Select --> Projection[报告读视图：来源任务/分组、真实合格数、当前入选及分配口径]
+  Projection --> Deliver[全部已登记工作终态后一次交付；保存 delivery 与对话消息，重启不重发]
+  Deliver --> Report[HTML 逐人条件和理由；25列 CSV；总/子/批次/Agent 查询/结果弹窗同源]
+  LLM -->|只补标| Enrich[annotate：旧证据模型补画像/标签；保留原判断、事实与入选；保存 result-history]
+  Enrich --> Save
+  LLM -->|只查询| Query[get_results 精确标签或明确包含；get_campaigns 获取真实最终分配]
+  Projection --> Query
+  Report --> Filter[用户筛选；只应用最新成功响应；HTML/CSV 使用相同已应用范围]
+  Filter --> Report

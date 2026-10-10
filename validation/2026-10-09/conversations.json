@@ -1,0 +1,49 @@
+{
+  "atUtc": "2026-10-09T14:17:57.989561+00:00",
+  "method": "GET",
+  "path": "/codex-chat/conversations",
+  "status": 200,
+  "elapsedSeconds": 0.631,
+  "contentType": "application/json; charset=utf-8",
+  "responseSha256": "f05dae5b85d5dd7dbd7ff8aea6d4b7057affa02d403591281d9e1c3344bb8d16",
+  "response": {
+    "conversations": [
+      {
+        "id": "3af8e0fc-d70b-4f2c-8447-eaa165d4bf61",
+        "title": "New conversation",
+        "status": "draft",
+        "threadId": null,
+        "workflowRunId": null,
+        "setupAnalysisRunId": null,
+        "campaignId": null,
+        "firstBrief": null,
+        "createdAt": "2026-10-09T13:51:15.723Z",
+        "updatedAt": "2026-10-09T13:52:14.708Z"
+      },
+      {
+        "id": "2e61b1bb-62f5-47d2-9cc7-e4f327431aee",
+        "title": "New conversation",
+        "status": "draft",
+        "threadId": null,
+        "workflowRunId": null,
+        "setupAnalysisRunId": null,
+        "campaignId": null,
+        "firstBrief": null,
+        "createdAt": "2026-10-09T13:27:28.103Z",
+        "updatedAt": "2026-10-09T13:27:45.575Z"
+      },
+      {
+        "id": "2ae8fc20-fec5-426d-8833-be447af7a463",
+        "title": "New conversation",
+        "status": "draft",
+        "threadId": null,
+        "workflowRunId": null,
+        "setupAnalysisRunId": null,
+        "campaignId": null,
+        "firstBrief": null,
+        "createdAt": "2026-10-09T09:41:03.312Z",
+        "updatedAt": "2026-10-09T09:51:20.011Z"
+      }
+    ]
+  }
+}

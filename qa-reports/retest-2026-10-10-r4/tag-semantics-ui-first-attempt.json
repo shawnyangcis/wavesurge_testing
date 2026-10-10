@@ -1,0 +1,51 @@
+{
+  "at": "2026-10-10T13:56:53.928Z",
+  "source": "Actual UI on real saved profiles; checking semantic wearer tags independently of substring implementation",
+  "taskId": "research-294320f8d1c060255d3310e8",
+  "queries": [],
+  "annotated": [
+    {
+      "handle": "tylerlcrawford",
+      "tags": [
+        "智能家居与公寓自动化",
+        "数码产品使用与选购",
+        "酒店与旅行体验",
+        "第一人称体验分享",
+        "产品对比与选购建议",
+        "实用设置教程",
+        "不戴眼镜"
+      ],
+      "glasses": {
+        "dimensionId": "glasses",
+        "status": "supported",
+        "values": [
+          "不戴眼镜"
+        ],
+        "reason": "已观察的2026-10-02照片中人物未戴眼镜；仅为该照片中的呈现，不证明所有时间均不戴。",
+        "evidenceIds": [
+          "e2e3dbfff35f6976e67d8906",
+          "eb8b626fc083f31d44320636"
+        ]
+      }
+    },
+    {
+      "handle": "valstechtalkk",
+      "tags": [
+        "手机产品与配件分享",
+        "iPhone 使用技巧",
+        "数码产品开箱",
+        "轻松活泼的文案",
+        "实用技巧分享",
+        "可爱与时尚取向"
+      ],
+      "glasses": {
+        "dimensionId": "glasses",
+        "status": "unknown",
+        "values": [],
+        "reason": "没有实际观察到本人内容画面；现有资源为视频封面且未打开，文案中的眼镜表情不能证明本人戴眼镜。主页访问需登录，用户明确跳过。",
+        "evidenceIds": []
+      }
+    }
+  ],
+  "error": "Error: expect(locator).toHaveCount(expected) failed\n\nLocator:  getByRole('dialog', { name: '研究结果' }).locator('.finding')\nExpected: 1\nReceived: 2\nTimeout:  5000ms\n\nCall log:\n  - Expect \"toHaveCount\" getByRole('dialog', { name: '研究结果' }).locator('.finding') with timeout 5000ms\n  - waiting for getByRole('dialog', { name: '研究结果' }).locator('.finding')\n    14 × locator resolved to 2 elements\n       - unexpected value \"2\"\n"
+}

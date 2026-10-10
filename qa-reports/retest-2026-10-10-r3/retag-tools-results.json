@@ -1,0 +1,833 @@
+{
+  "scope": "main",
+  "name": "retag-tools-results",
+  "taskId": "research-b30bacd90e74569b33e06bfc",
+  "startedAt": "2026-10-10T11:00:57.187Z",
+  "checks": [
+    "Actual CSV link downloaded",
+    "Chat-accessible structured HTML report opened in actual browser",
+    "Tag values and versions persisted after page reload"
+  ],
+  "queries": [
+    {
+      "tag": "语言学习",
+      "count": 1,
+      "handles": [
+        "colelangs"
+      ],
+      "csvPath": ".gstack/qa-reports/retest-2026-10-10-r3/retag-tools-results-filter-0.csv",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc?format=csv&tag=%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0"
+    },
+    {
+      "tag": "多语言交流与文化探索",
+      "count": 1,
+      "handles": [
+        "colelangs"
+      ],
+      "csvPath": ".gstack/qa-reports/retest-2026-10-10-r3/retag-tools-results-filter-1.csv",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc?format=csv&tag=%E5%A4%9A%E8%AF%AD%E8%A8%80%E4%BA%A4%E6%B5%81%E4%B8%8E%E6%96%87%E5%8C%96%E6%8E%A2%E7%B4%A2"
+    },
+    {
+      "tag": "Notion",
+      "count": 1,
+      "handles": [
+        "wesleyanna"
+      ],
+      "csvPath": ".gstack/qa-reports/retest-2026-10-10-r3/retag-tools-results-filter-2.csv",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc?format=csv&tag=Notion"
+    },
+    {
+      "tag": "geek",
+      "count": 0,
+      "handles": [],
+      "csvPath": ".gstack/qa-reports/retest-2026-10-10-r3/retag-tools-results-filter-3.csv",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc?format=csv&tag=geek"
+    },
+    {
+      "tag": "不会存在的画像标签",
+      "count": 0,
+      "handles": [],
+      "csvPath": ".gstack/qa-reports/retest-2026-10-10-r3/retag-tools-results-filter-4.csv",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc?format=csv&tag=%E4%B8%8D%E4%BC%9A%E5%AD%98%E5%9C%A8%E7%9A%84%E7%94%BB%E5%83%8F%E6%A0%87%E7%AD%BE"
+    }
+  ],
+  "networkErrors": [
+    {
+      "url": "http://127.0.0.1:3000/api/session",
+      "status": 401
+    }
+  ],
+  "pageErrors": [],
+  "task": {
+    "id": "research-b30bacd90e74569b33e06bfc",
+    "title": "AI与数字学习工具教学创作者",
+    "status": "partial",
+    "requested": 1,
+    "evaluated": 2,
+    "matched": 0,
+    "qualifying": 0,
+    "updatedAt": 1791628368399,
+    "detail": "历史结果已按统一账号身份、国家名称和证据重算：已选合格 0/1，核验 2。未确认条件保持 unknown；原分析已保留审计版本。",
+    "remoteId": "ff3ac6fb-fa15-4b8d-b358-e7bf18e642de",
+    "remoteStatus": "done",
+    "nextPollAt": 1791597579739
+  },
+  "results": [
+    {
+      "id": "research-b30bacd90e74569b33e06bfc|youtube:colelangs",
+      "taskId": "research-b30bacd90e74569b33e06bfc",
+      "creator": {
+        "id": "youtube:colelangs",
+        "platform": "youtube",
+        "handle": "colelangs",
+        "profileUrl": "https://www.youtube.com/@colelangs",
+        "displayName": "ColeLangs",
+        "followers": null,
+        "region": null,
+        "evidence": [
+          {
+            "id": "0e2c68015ea7130a23067f85",
+            "url": "https://www.youtube.com/channel/UCsMpVWATEEON-9A0ac64lfQ",
+            "text": "Channel reads 37.4K subscribers, 140 videos, country United States. Evidence ID ev_8a24d1b9.",
+            "kind": "content",
+            "provider": "tikhub",
+            "publishedAt": null,
+            "capturedAt": 1791597944132
+          },
+          {
+            "id": "ac28eacac3610a79f1ed33d8",
+            "url": "https://www.youtube.com/watch?v=CnGlPXgGQbo",
+            "text": "Full step-by-step Anki guide with timestamps for cards, cloze, image occlusion, decks and study workflows. Evidence ID ev_987b63c6.",
+            "kind": "content",
+            "provider": "tikhub",
+            "publishedAt": "2024-04-26T08:42:46-07:00",
+            "capturedAt": 1791597944132
+          },
+          {
+            "id": "1b086a917635031c07f5ea03",
+            "url": "https://www.youtube.com/@colelangs",
+            "kind": "browser_snapshot",
+            "text": "",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791597947035,
+            "assetId": "22ed3657216e816b93ea8043a691799b57e6cb4d2e7a59786dcced3eec3c079e"
+          },
+          {
+            "id": "d9a4084b32b828c0b927be07",
+            "url": "https://www.youtube.com/@colelangs",
+            "kind": "browser_snapshot",
+            "text": "SG\nSkip navigation\nSign in\nHome\nShorts\nSubscriptions\nYou\nHistory\nSign in to like videos, comment, and subscribe.\nSign in\nExplore\nMusic\nMovies\nGaming\nShow more\nMore from YouTube\nYouTube Premium\nYouTube Kids\nReport history\nAboutPressCopyrightContact usCreatorsAdvertiseDevelopers\nTermsPrivacyPolicy & SafetyHow YouTube worksTest new features\n© 2026 Google LLC\nColeLangs\n@ColeLangs\n•\n37.4K subscribers\n•\n140 videos\npeople, places, ideas, and languages \n...more\nSubscribe\nJoin\nHome\nVideos\nShorts\nLive\nPodcasts\nPlaylists\nPosts\nI spent 90 Days in the Middle East and it made me question everything\nIncludes paid promotion\n0:00 / 14:48\nI spent 90 Days in the Middle East and it made me question everything\n741,614 views\n3y ago\n🔵 Get 35% off of LingQ here: \nhttps://www.lingq.com/accounts/new/?n...\n\n📘Book: https://www.amazon.com/dp/B0CN58MT7V\n🔴SUBSCRIBE here if you're really cool:   https://bit.ly/3qd8e98\n💻Discord: https://discord.gg/RkFJ2dfcrB\n\nTIMESTAMPS\n0:00 Intro\n1:45 Islam\n2:25 Muhammad\n3:04 The Qur'an\n3:52 Are laws stict in the Middle East?\n4:18 Shari'a Law\n5:04 An awesome Arabic greeting\n5:16 Sponsor (Thank you LingQ!)\n6:20 Equality in Islam\n7:45 The Hijab\n8:59 Traditional Gender Roles\n9:45 Marriage in the Middle East\n11:11 Married men\n11:51 Politics\n13:00 Immigrants in the Middle East\n13:26 The Lessons I Learned\n\n#polyglot #languages #colelangs\nREAD MORE\nVideos\n18:03\nMaster Anki in 18 Minutes | Full Step-By-Step Guide to Learn Anything\n12K\n2y ago\n10:13\nWhat Beginner to Advanced Russian Looks Like\n405K\n2y ago\n1:01\nI wrote a book.\n2.9K\n2y ago\n14:49\nI spent 90 Days in the Middle East and it made me question everything\n741K\n3y ago\n8:52\nRussian Cases, Explained Simply (An Introduction)\n9.1K\n3y ago\n10:31\nHow To Learn ANY Alphabet or Script\n3.8K\n3y ago\nOmegle\nPlay all\n12:02\nAmerican Polyglot Completely SHOCKS People on Omegle Speaking Their Languages!\nColeLangs\n123K\n5y ago\n12:53\nINSANE Polyglot Tests Me in 11+ Languages on Omegle!\nColeLangs\n223K\n5y ago\n10:10\nPolyglot Speaks People's Languages on Omegle, Wholesomeness Ensues\nColeLangs\n76K\n5y ago\n6:08\nBrazilian Polyglot Shocks Me With PERFECT Chinese and English On Omegle! | Speaking 6+ Languages\nColeLangs\n55K\n5y ago\n10:04\nPolyglot Speaks 9+ Languages on Omegle, SHOCKS Strangers and Mistaken for NATIVE SPEAKER\nColeLangs\n162K\n5y ago\n13:08\nWhite Guy Speaks 13 Languages on Omegle, SHOCKS People with His Tongue Skills\nColeLangs\n218K\n5y ago\n100 Language Challenge\nPlay all\nI'm gonna learn 100 languages by speaking with real people before I die. The videos that are \"canon\" will be marked at the end as well as in the description.\n11:37\nI Infiltrated Brazil's Most Dangerous Slum (to speak their language)\nColeLangs\n7.3K\n4y ago\nReaction Videos\nPlay all\n17:53\nPolyglot Reacts to \"What Language am I Speaking?\" | Cut\nColeLangs\n31K\n5y ago\n13:53\nMultilingual American Reacts to Americans Guessing European Languages\nColeLangs\n16K\n5y ago\n18:42\nPolyglot Reacts to \"What Language Am I Speaking?\" ROUND TWO\nColeLangs\n24K\n5y ago\n9:11\nPolyglot Reacts to \"Learning Languages Ruined My Life\" (POWERFUL Message)\nColeLangs\n18K\n5y ago\n17:20\nPolyglot Reacts to \"What Language am I Speaking?\" ROUND THREE\nColeLangs\n18K\n5y ago\n16:06\nPolyglot Reacts to \"What Language am I Speaking?\" (ROUND FOUR)\nColeLangs\n14K\n5y ago\nPopular videos\n14:49\nI spent 90 Days in the Middle East and it made me question everything\n741K\n3y ago\n10:13\nWhat Beginner to Advanced Russian Looks Like\n405K\n2y ago\n5:05\nThe Arabic alphabet is absurdly difficult...\n266K\n4y ago\n12:53\nINSANE Polyglot Tests Me in 11+ Languages on Omegle!\n223K\n5y ago\n13:08\nWhite Guy Speaks 13 Languages on Omegle, SHOCKS People with His Tongue Skills\n218K\n5y ago\n10:01\nAmerican Speaks Arabic, Gets Invited to Dinner! - Arab Omegle\n210K\n3y ago\nShorts\nMeeting Funny Funny People On Omegle\n4.5K views\nWhy Does This Kid Speak So Many Languages?!?\n4.3K views\nDuolingo but it screws me in the bum\n9.2K views\nIslam Made Me Rethink Everything\n20K views\nThese Guys on Omegle are something else\n2.3K views\nI conquered my anxiety speaking people's languages\n1.6K views\nPosts\nColeLangs\n•\n2 years ago\nIt looks like you guys really liked the \"Beginner to Advanced Russian\" video! I'm planning on doing the same concept with other languages. Which one would you like to see the most?\n297 votes\nVote now\n22\n9\nColeLangs\n•\n2 years ago\nGoodbye old friend 😞\n60\n4\nColeLangs\n•\n3 years ago\nWhat sort of ideas would you like to see me explore on this channel?\n628 votes\nVote now\n22\n25\nColeLangs\n•\n3 years ago\nWould you be interested in seeing a Toki Pona video?\n617 votes\nVote now\n25\n5\nColeLangs\n•\n3 years ago\nDo you like it when I edit subtitles into the videos?\n438 votes\nVote now\n11\n5\nColeLangs\n•\n3 years ago\nWhich language should I make lessons on first? (It'll be a full course)\n556 votes\nVote now\n21\n19",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791597954511,
+            "assetId": "598adc983353f21c1d2c8776fef0b3b7b9a6f48dbec7ae54fe220b36e5830258"
+          },
+          {
+            "id": "301763f6bcfbcff6dd6b140b",
+            "url": "https://www.youtube.com/watch?v=CnGlPXgGQbo",
+            "kind": "browser_snapshot",
+            "text": "0:00 / 0:15",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791597965167,
+            "assetId": "43bec3ae18244b907dfdbe02305ec923647494752cfc2737aac39c8865191b95"
+          },
+          {
+            "id": "59e280187edc6b7bddf00e29",
+            "url": "https://www.youtube.com/watch?v=CnGlPXgGQbo",
+            "kind": "browser_snapshot",
+            "text": "SG\nSkip navigation\nSign in\nTry Xero for free*\nxero.com\nLearn more\nSponsored\n1 of 2\nxero.com\n0:03 / 0:15\nMaster Anki in 18 Minutes | Full Step-By-Step Guide to Learn Anything\nColeLangs\n37.4K subscribers\nJoin\nSubscribe\n459\nShare\nSave\n12K views  2y ago  #colelangs\nThe Only Anki Video You'll Ever Need. I'll teach you everything about Anki and making the best and most interactive flashcards anywhere. Once you finish watching this Anki tutorial, you'll be equipped to make your own amazing flashcards to learn anything in the world in less time.\n …\nmore\n\nComments\n \n \n \n \nTry Xero for free*\nSponsored\nxero.com\nLearn more\n18:31\nEvery Study Technique Explained in 18 Minutes\niCanStudy\n217K\n1mo ago\n23:04\nNew\nJack Doherty's Life Is Falling Apart\nInternet Anarchist\n229K\n4h ago\n32:38\nHow To Use Anki Like A Pro: Full Step-by-Step Walkthrough\nAlec Palmerton, MD\n55K\n1y ago\n14:02\nHow to Use Anki (Step-by-Step Tutorial for Beginners) | Become a Flashcard Pro Fast\nMelk Kunyu\n21K\n11mo ago\n6:29\nWastebasket - offline, distraction-free writing app for Mac\nMichael Verdi\n116\n2w ago\n16:59\nHow to Use Anki for Beginners!\nAlec Palmerton, MD\n62K\n5mo ago\n37:08\nAnki Setup for Language-Learning - Full Guide\nAmerican Accent Training with Meredith\n32K\n3mo ago\n3:49:59\nBeautiful Relaxing Music - Stop Overthinking, Stress Relief Music, Sleep Music, Calming Music #242\nInner Peace Look Inside\n17M\nStreamed 2y ago\n27:25\nNew\nIs Taipei About to Flip? Pao-yang Shen, Wanted by the CCP, Is One Step Away from the Mayor's Offi...\n公子沈 Terence Shen\n21K\n2h ago\n11:39\nHOW TO PASS ANY IT CERTIFICATION EXAM (3 Phase Approach)\nJosh Madakor\n89K\n5y ago\n20:32\nHow to use Anki like a PRO (by a Learning Expert)\nJustin Sung\n756K\n3y ago\n2:17:34\n40Hz Binaural Gamma Waves - Ultra Deep Concentration\nAmplifocus\n5.6M\n9mo ago\n42:56\nAnki Tutorial: Everything You Need to Know\nNursing Without Notes\n4.2K\n2y ago\n21:24\nHow To Use Anki Like A Pro [Full Step-By-Step Walkthrough]\nTheMDJourney\n2.3M\n5y ago\nLIVE\nSoaking Worship Instrumental – Prayer, Devotional, Meditation and Relaxation | Alone With God\nDivine Rhythm\n351 watching\nLIVE\nTranquil Autumn Cafe Jazz - Smooth Jazz with Cozy Street Ambience & Birdsong for Work & Relaxation\nQuiet Autumn Jazz\n986 watching\n27:59\nIf You Have A Bad Memory, I’ll Help You Fix It In 28 Minutes\nJustin Sung\n814K\n5mo ago\n6:44\nHow to Make HIGH QUALITY Anki Flashcards With AI (Low Effort)\nJake Romm\n229K\n3y ago\n26:38\nThe ULTIMATE Sentence Mining Tutorial - How to make your own Anki cards\nRefold\n93K\n2y ago\n21:44\nNew\nAI Just Crossed the Terrifying Line - Now What?\nKurzgesagt – In a Nutshell\n16M\n4d ago\n \n \n \n ",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791597977412,
+            "assetId": "29b7268acb754134a5973d9e8056d35407632fb378de1302389427d0ea22c617"
+          },
+          {
+            "id": "a1633b15d73114cd7c99a411",
+            "url": "https://www.youtube.com/watch?v=CnGlPXgGQbo",
+            "kind": "browser_snapshot",
+            "text": "SG\nSkip navigation\nSign in\n0:02 / 18:02\nInstalling Anki\nMaster Anki in 18 Minutes | Full Step-By-Step Guide to Learn Anything\nColeLangs\n37.4K subscribers\nJoin\nSubscribe\n459\nShare\nSave\n12,127 views  Apr 26, 2024  #colelangs\nThe Only Anki Video You'll Ever Need. I'll teach you everything about Anki and making the best and most interactive flashcards anywhere. Once you finish watching this Anki tutorial, you'll be equipped to make your own amazing flashcards to learn anything in the world in less time.\n\nDownload Anki Here: https://apps.ankiweb.net/\nAnki Manual: https://docs.ankiweb.net/getting-star...\n\n📘Learning a language? Check out my book: https://a.co/d/hoLGHZP\n\n🟡CONNECT WITH ME🟡\n🎟Instagram:   / cole.langs  \n💻Discord:   / discord  \n\n⌛TIMESTAMPS\n0:00 Installing Anki\n0:16 Making and Styling Cards\n3:39 Card Types\n4:12 Type in the Answer Cards\n4:48 Cloze Cards\n5:50 Image Occlusion (Making Flashcards from Images)\n7:00 Decks\n7:38 How to get pre-made decks\n8:28 Deck Options\n9:50 Profiles\n10:18 Browser, Tags, and Flags\n13:04 Preferences\n13:20 Filtered Decks\n14:18 Stats\n15:20 Add-ons\n16:30 Fields and Cards Menus\n\n🎁TOOLS AND DISCOUNTS\n✅ 🔵35% off LingQ: https://rb.gy/qyn6xv\n✅ 🟩2 FREE Months of Fluent Forever: http://fluent-forever.com/cole\n✅ 🔶Get up to 55% off Babbel: https://babbel.sjv.io/zNdX1M\n\n⚖ DISCLOSURE\nSome links are affiliate links. Purchasing through these links gives me a small commission to support videos on this channel, at no additional cost to you.\n\n#colelangs\nHow this was made\nAuto-dubbed\nAudio tracks for some languages were automatically generated. Learn more\nChapters\nView all\nInstalling Anki\n0:00\nMaking and Styling Cards\n0:16\nCard Types\n3:39\nType in the Answer Cards\n4:12\nCloze Cards\n4:48\nImage Occlusion (Making Flashcards from Images)\n5:50\nDecks\n7:00\nHow to get pre-made decks\n7:38\nTranscript\n\nFollow along using the transcript.\n\nShow transcript\nColeLangs\n37.4K subscribers\nVideos\nAbout\nShow less\n\nComments\n \n \n \n \nTry Xero for free*\nSponsored\nxero.com\nLearn more\n18:31\nEvery Study Technique Explained in 18 Minutes\niCanStudy\n217K\n1mo ago\n23:04\nNew\nJack Doherty's Life Is Falling Apart\nInternet Anarchist\n229K\n4h ago\n32:38\nHow To Use Anki Like A Pro: Full Step-by-Step Walkthrough\nAlec Palmerton, MD\n55K\n1y ago\n14:02\nHow to Use Anki (Step-by-Step Tutorial for Beginners) | Become a Flashcard Pro Fast\nMelk Kunyu\n21K\n11mo ago\n6:29\nWastebasket - offline, distraction-free writing app for Mac\nMichael Verdi\n116\n2w ago\n16:59\nHow to Use Anki for Beginners!\nAlec Palmerton, MD\n62K\n5mo ago\n37:08\nAnki Setup for Language-Learning - Full Guide\nAmerican Accent Training with Meredith\n32K\n3mo ago\n3:49:59\nBeautiful Relaxing Music - Stop Overthinking, Stress Relief Music, Sleep Music, Calming Music #242\nInner Peace Look Inside\n17M\nStreamed 2y ago\n27:25\nNew\nIs Taipei About to Flip? Pao-yang Shen, Wanted by the CCP, Is One Step Away from the Mayor's Offi...\n公子沈 Terence Shen\n21K\n2h ago\n11:39\nHOW TO PASS ANY IT CERTIFICATION EXAM (3 Phase Approach)\nJosh Madakor\n89K\n5y ago\n20:32\nHow to use Anki like a PRO (by a Learning Expert)\nJustin Sung\n756K\n3y ago\n2:17:34\n40Hz Binaural Gamma Waves - Ultra Deep Concentration\nAmplifocus\n5.6M\n9mo ago\n42:56\nAnki Tutorial: Everything You Need to Know\nNursing Without Notes\n4.2K\n2y ago\n21:24\nHow To Use Anki Like A Pro [Full Step-By-Step Walkthrough]\nTheMDJourney\n2.3M\n5y ago\nLIVE\nSoaking Worship Instrumental – Prayer, Devotional, Meditation and Relaxation | Alone With God\nDivine Rhythm\n351 watching\nLIVE\nTranquil Autumn Cafe Jazz - Smooth Jazz with Cozy Street Ambience & Birdsong for Work & Relaxation\nQuiet Autumn Jazz\n986 watching\n27:59\nIf You Have A Bad Memory, I’ll Help You Fix It In 28 Minutes\nJustin Sung\n814K\n5mo ago\n6:44\nHow to Make HIGH QUALITY Anki Flashcards With AI (Low Effort)\nJake Romm\n229K\n3y ago\n26:38\nThe ULTIMATE Sentence Mining Tutorial - How to make your own Anki cards\nRefold\n93K\n2y ago\n21:44\nNew\nAI Just Crossed the Terrifying Line - Now What?\nKurzgesagt – In a Nutshell\n16M\n4d ago\n \n \n \n \nYouTube Premium\nGet YouTube without the ads\nTerms apply. Cancel anytime\nNo thanks\n1 month free",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791597994693,
+            "assetId": "5493cfd22f899981657e8659570fe6ac96f33b005ec0523fb2d96a88331b7ff5"
+          },
+          {
+            "id": "6b00edd599a7aba83f1de75e",
+            "url": "https://www.youtube.com/watch?v=CnGlPXgGQbo",
+            "kind": "browser_snapshot",
+            "text": "SG\nSkip navigation\nSign in\n0:02 / 18:02\nMaking and Styling Cards\nMaster Anki in 18 Minutes | Full Step-By-Step Guide to Learn Anything\nColeLangs\n37.4K subscribers\nJoin\nSubscribe\n459\nShare\nSave\n12,127 views  Apr 26, 2024  #colelangs\nThe Only Anki Video You'll Ever Need. I'll teach you everything about Anki and making the best and most interactive flashcards anywhere. Once you finish watching this Anki tutorial, you'll be equipped to make your own amazing flashcards to learn anything in the world in less time.\n\nDownload Anki Here: https://apps.ankiweb.net/\nAnki Manual: https://docs.ankiweb.net/getting-star...\n\n📘Learning a language? Check out my book: https://a.co/d/hoLGHZP\n\n🟡CONNECT WITH ME🟡\n🎟Instagram:   / cole.langs  \n💻Discord:   / discord  \n\n⌛TIMESTAMPS\n0:00 Installing Anki\n0:16 Making and Styling Cards\n3:39 Card Types\n4:12 Type in the Answer Cards\n4:48 Cloze Cards\n5:50 Image Occlusion (Making Flashcards from Images)\n7:00 Decks\n7:38 How to get pre-made decks\n8:28 Deck Options\n9:50 Profiles\n10:18 Browser, Tags, and Flags\n13:04 Preferences\n13:20 Filtered Decks\n14:18 Stats\n15:20 Add-ons\n16:30 Fields and Cards Menus\n\n🎁TOOLS AND DISCOUNTS\n✅ 🔵35% off LingQ: https://rb.gy/qyn6xv\n✅ 🟩2 FREE Months of Fluent Forever: http://fluent-forever.com/cole\n✅ 🔶Get up to 55% off Babbel: https://babbel.sjv.io/zNdX1M\n\n⚖ DISCLOSURE\nSome links are affiliate links. Purchasing through these links gives me a small commission to support videos on this channel, at no additional cost to you.\n\n#colelangs\nHow this was made\nAuto-dubbed\nAudio tracks for some languages were automatically generated. Learn more\nChapters\nView all\nInstalling Anki\n0:00\nMaking and Styling Cards\n0:16\nCard Types\n3:39\nType in the Answer Cards\n4:12\nCloze Cards\n4:48\nImage Occlusion (Making Flashcards from Images)\n5:50\nDecks\n7:00\nHow to get pre-made decks\n7:38\nTranscript\n\nFollow along using the transcript.\n\nShow transcript\nColeLangs\n37.4K subscribers\nVideos\nAbout\nShow less\n\nComments\n \n \n \n \nIn this video\nChapters\nTranscript\n \n \n \n \nTry Xero for free*\nSponsored\nxero.com\nLearn more\n18:31\nEvery Study Technique Explained in 18 Minutes\niCanStudy\n217K\n1mo ago\n23:04\nNew\nJack Doherty's Life Is Falling Apart\nInternet Anarchist\n229K\n4h ago\n32:38\nHow To Use Anki Like A Pro: Full Step-by-Step Walkthrough\nAlec Palmerton, MD\n55K\n1y ago\n14:02\nHow to Use Anki (Step-by-Step Tutorial for Beginners) | Become a Flashcard Pro Fast\nMelk Kunyu\n21K\n11mo ago\n6:29\nWastebasket - offline, distraction-free writing app for Mac\nMichael Verdi\n116\n2w ago\n16:59\nHow to Use Anki for Beginners!\nAlec Palmerton, MD\n62K\n5mo ago\n37:08\nAnki Setup for Language-Learning - Full Guide\nAmerican Accent Training with Meredith\n32K\n3mo ago\n3:49:59\nBeautiful Relaxing Music - Stop Overthinking, Stress Relief Music, Sleep Music, Calming Music #242\nInner Peace Look Inside\n17M\nStreamed 2y ago\n27:25\nNew\nIs Taipei About to Flip? Pao-yang Shen, Wanted by the CCP, Is One Step Away from the Mayor's Offi...\n公子沈 Terence Shen\n21K\n2h ago\n11:39\nHOW TO PASS ANY IT CERTIFICATION EXAM (3 Phase Approach)\nJosh Madakor\n89K\n5y ago\n20:32\nHow to use Anki like a PRO (by a Learning Expert)\nJustin Sung\n756K\n3y ago\n2:17:34\n40Hz Binaural Gamma Waves - Ultra Deep Concentration\nAmplifocus\n5.6M\n9mo ago\n42:56\nAnki Tutorial: Everything You Need to Know\nNursing Without Notes\n4.2K\n2y ago\n21:24\nHow To Use Anki Like A Pro [Full Step-By-Step Walkthrough]\nTheMDJourney\n2.3M\n5y ago\nLIVE\nSoaking Worship Instrumental – Prayer, Devotional, Meditation and Relaxation | Alone With God\nDivine Rhythm\n351 watching\nLIVE\nTranquil Autumn Cafe Jazz - Smooth Jazz with Cozy Street Ambience & Birdsong for Work & Relaxation\nQuiet Autumn Jazz\n986 watching\n27:59\nIf You Have A Bad Memory, I’ll Help You Fix It In 28 Minutes\nJustin Sung\n814K\n5mo ago\n6:44\nHow to Make HIGH QUALITY Anki Flashcards With AI (Low Effort)\nJake Romm\n229K\n3y ago\n26:38\nThe ULTIMATE Sentence Mining Tutorial - How to make your own Anki cards\nRefold\n93K\n2y ago\n21:44\nNew\nAI Just Crossed the Terrifying Line - Now What?\nKurzgesagt – In a Nutshell\n16M\n4d ago\n \n \n \n \nYouTube Premium\nGet YouTube without the ads\nTerms apply. Cancel anytime\nNo thanks\n1 month free",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791598023311,
+            "assetId": "7f9f9d14a55f0047c2356462a5e6d2367ddf9094d6d4bb3552160e0b72652e6c"
+          },
+          {
+            "id": "2f091009f3652e5316931e00",
+            "url": "https://www.youtube.com/watch?v=CnGlPXgGQbo",
+            "kind": "browser_snapshot",
+            "text": "SG\nSkip navigation\nSign in\nSomething went wrong. Refresh or try again later.\nLearn more\n0:45 / 18:02\nMaking and Styling Cards\nMaster Anki in 18 Minutes | Full Step-By-Step Guide to Learn Anything\nColeLangs\n37.4K subscribers\nJoin\nSubscribe\n459\nShare\nSave\n12,127 views  Apr 26, 2024  #colelangs\nThe Only Anki Video You'll Ever Need. I'll teach you everything about Anki and making the best and most interactive flashcards anywhere. Once you finish watching this Anki tutorial, you'll be equipped to make your own amazing flashcards to learn anything in the world in less time.\n\nDownload Anki Here: https://apps.ankiweb.net/\nAnki Manual: https://docs.ankiweb.net/getting-star...\n\n📘Learning a language? Check out my book: https://a.co/d/hoLGHZP\n\n🟡CONNECT WITH ME🟡\n🎟Instagram:   / cole.langs  \n💻Discord:   / discord  \n\n⌛TIMESTAMPS\n0:00 Installing Anki\n0:16 Making and Styling Cards\n3:39 Card Types\n4:12 Type in the Answer Cards\n4:48 Cloze Cards\n5:50 Image Occlusion (Making Flashcards from Images)\n7:00 Decks\n7:38 How to get pre-made decks\n8:28 Deck Options\n9:50 Profiles\n10:18 Browser, Tags, and Flags\n13:04 Preferences\n13:20 Filtered Decks\n14:18 Stats\n15:20 Add-ons\n16:30 Fields and Cards Menus\n\n🎁TOOLS AND DISCOUNTS\n✅ 🔵35% off LingQ: https://rb.gy/qyn6xv\n✅ 🟩2 FREE Months of Fluent Forever: http://fluent-forever.com/cole\n✅ 🔶Get up to 55% off Babbel: https://babbel.sjv.io/zNdX1M\n\n⚖ DISCLOSURE\nSome links are affiliate links. Purchasing through these links gives me a small commission to support videos on this channel, at no additional cost to you.\n\n#colelangs\nHow this was made\nAuto-dubbed\nAudio tracks for some languages were automatically generated. Learn more\nChapters\nView all\nInstalling Anki\n0:00\nMaking and Styling Cards\n0:16\nCard Types\n3:39\nType in the Answer Cards\n4:12\nCloze Cards\n4:48\nImage Occlusion (Making Flashcards from Images)\n5:50\nDecks\n7:00\nHow to get pre-made decks\n7:38\nTranscript\n\nFollow along using the transcript.\n\nShow transcript\nColeLangs\n37.4K subscribers\nVideos\nAbout\nShow less\n\n46 Comments\nSort by\nAdd a comment...\nPinned by @ColeLangs\n@ColeLangs\n2 years ago\nWhat are you using Anki for?\n9\nReply\n4 replies\n@يحيىبنعبدحسن\n4 months ago\nwe miss you buddy\n3\nReply\n@Lemonvn2\n6 months ago\nYo Cole hope your alive\n2\nReply\n@mathewwhitford5730\n2 years ago\nBest guide to anki on Youtube, no BS.\n7\nReply\n@NewJerseyTico\n11 months ago\nClear, concise, and to the point. Thanks.\nReply\n@rumadware\n2 years ago (edited)\nTo me with all those tools like Anki, Obsidian, mira etc the main struggle is to remember that I decided to use this tool to remember something\n8\nReply\n@mohdbashyar\n2 years ago\nThis is such a nice video bro it shows step by step as beginner how to use this app. I gave up Anki long time ago because it's too complicated, but now I'm willing to try again.\n3\nReply\n@asialoren1.7\n1 year ago\nProbably the best anki tutorial I've watched. Thank you!\nReply\n@Omnigreen\n2 years ago\nI heard before that Anki is awesome but this is even better!\n2\nReply\n@sonny5497\n1 year ago\nbest intro to anki  thanks a lot!\nReply\n@montreall6480\n1 year ago\nThanks for sharing\nReply\n@twixelon\n2 years ago\nThank you!   This was perfect!!\n1\nReply\n@virgils_reality\n2 years ago\nstraightforward and to the point! exactly the kind of tutorial I was looking for - thank you\nReply\n@ojasvitripathi\n2 years ago\nVery helpful tutorial.  Thanks \n1\nReply\n@eva5074\n2 years ago\nFinally an understandable video that explains every single thing! Every other tutorial I watched skipped so many things like the pin and card types\nReply\n@kuyajaypi\n2 years ago\nvery helpful guide! i have anki installed for years but never got into it. this is exactly what i needed :D\n3\nReply\n·\n1 reply\n@TheJuice432\n2 years ago\nThanks tovarich. I've been struggling to get used to Anki for Language Learning and this is a great explanation.\n1\nReply\n·\n1 reply\n@PeppyWasTaken\n2 years ago\nThank you for making the video, may God bless you :)\n1\nReply\n·\n1 reply\n@SB4F\n1 year ago\nI like how he said \"if you're watching this video then you're probably not wanting to see the HTML\". That's exactly why I started warching.\nReply\n@Hasan-oh7vl\n2 years ago\nLove ittt!!\nYou need a video editor bro?\nI can do a sample vid :)\nReply\n \n \n \n \nIn this video\nChapters\nTranscript\n \n \n \n \nTry Xero for free*\nSponsored\nxero.com\nLearn more\n18:31\nEvery Study Technique Explained in 18 Minutes\niCanStudy\n217K\n1mo ago\n23:04\nNew\nJack Doherty's Life Is Falling Apart\nInternet Anarchist\n229K\n4h ago\n32:38\nHow To Use Anki Like A Pro: Full Step-by-Step Walkthrough\nAlec Palmerton, MD\n55K\n1y ago\n14:02\nHow to Use Anki (Step-by-Step Tutorial for Beginners) | Become a Flashcard Pro Fast\nMelk Kunyu\n21K\n11mo ago\n6:29\nWastebasket - offline, distraction-free writing app for Mac\nMichael Verdi\n116\n2w ago\n16:59\nHow to Use Anki for Beginners!\nAlec Palmerton, MD\n62K\n5mo ago\n37:08\nAnki Setup for Language-Learning - Full Guide\nAmerican Accent Training with Meredith\n32K\n3mo ago\n3:49:59\nBeautiful Relaxing Music - Stop Overthinking, Stress Relief Music, Sleep Music, Calming Music #242\nInner Peace Look Inside\n17M\nStreamed 2y ago\n27:25\nNew\nIs Taipei About to Flip? Pao-yang Shen, Wanted by the CCP, Is One Step Away from the Mayor's Offi...\n公子沈 Terence Shen\n21K\n2h ago\n11:39\nHOW TO PASS ANY IT CERTIFICATION EXAM (3 Phase Approach)\nJosh Madakor\n89K\n5y ago\n20:32\nHow to use Anki like a PRO (by a Learning Expert)\nJustin Sung\n756K\n3y ago\n2:17:34\n40Hz Binaural Gamma Waves - Ultra Deep Concentration\nAmplifocus\n5.6M\n9mo ago\n42:56\nAnki Tutorial: Everything You Need to Know\nNursing Without Notes\n4.2K\n2y ago\n21:24\nHow To Use Anki Like A Pro [Full Step-By-Step Walkthrough]\nTheMDJourney\n2.3M\n5y ago\nLIVE\nSoaking Worship Instrumental – Prayer, Devotional, Meditation and Relaxation | Alone With God\nDivine Rhythm\n351 watching\nLIVE\nTranquil Autumn Cafe Jazz - Smooth Jazz with Cozy Street Ambience & Birdsong for Work & Relaxation\nQuiet Autumn Jazz\n986 watching\n27:59\nIf You Have A Bad Memory, I’ll Help You Fix It In 28 Minutes\nJustin Sung\n814K\n5mo ago\n6:44\nHow to Make HIGH QUALITY Anki Flashcards With AI (Low Effort)\nJake Romm\n229K\n3y ago\n26:38\nThe ULTIMATE Sentence Mining Tutorial - How to make your own Anki cards\nRefold\n93K\n2y ago\n21:44\nNew\nAI Just Crossed the Terrifying Line - Now What?\nKurzgesagt – In a Nutshell\n16M\n4d ago\n \n \n \n \nYouTube Premium\nGet YouTube without the ads\nTerms apply. Cancel anytime\nNo thanks\n1 month free",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791598036789,
+            "assetId": "5ce4fd2ee91ca22ba8aa8f42d4d217b27002ed54fa809d058ad0aeeabc0fcf5c"
+          }
+        ],
+        "facts": {
+          "conflicts": [],
+          "followers": {
+            "min": 37350,
+            "max": 37449,
+            "rawValue": "37.4K subscribers",
+            "evidenceIds": [
+              "d9a4084b32b828c0b927be07"
+            ]
+          }
+        }
+      },
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "unknown",
+          "reason": "未取得创作者地区",
+          "evidenceIds": [
+            "0e2c68015ea7130a23067f85",
+            "ac28eacac3610a79f1ed33d8"
+          ],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：youtube",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "主页显示 37.4K subscribers；保守区间 37350–37449，要求 10000–100000",
+          "evidenceIds": [
+            "d9a4084b32b828c0b927be07"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "english_content",
+          "verdict": "match",
+          "reason": "公开标题、简介及教程章节均使用英语。2024-04-26发布的Anki视频简介写有“I'll teach you everything about Anki”，章节包括“Installing Anki”和“Making and Styling Cards”。",
+          "evidenceIds": [
+            "a1633b15d73114cd7c99a411",
+            "d9a4084b32b828c0b927be07"
+          ],
+          "label": "公开内容使用英语"
+        },
+        {
+          "criterionId": "tool_tutorials",
+          "verdict": "unknown",
+          "reason": "2024-04-26的Anki视频标题与简介明确称为逐步教程，章节列出安装、制卡、填空卡和图片遮挡等操作主题；但当前公开文字只有章节目录，没有取得具体点击、输入或设置步骤。打开文字稿后未加载出正文，播放器出现错误，不能仅凭标题或工具方摘要确认严格的实际步骤要求。",
+          "evidenceIds": [
+            "a1633b15d73114cd7c99a411",
+            "6b00edd599a7aba83f1de75e",
+            "2f091009f3652e5316931e00"
+          ],
+          "label": "公开文字内容须提供AI工具或数字学习效率工具的实际教学教程，明确呈现具体操作步骤；仅有概括讲解、展示或评测不满足条件"
+        },
+        {
+          "criterionId": "notes_revision_use",
+          "verdict": "unknown",
+          "reason": "已取得的Anki简介仅承诺制作闪卡以“learn anything”，章节是通用工具操作，未取得明确用于课堂笔记或考试复习的具体文字步骤。工具方所称“applicable”只是适用性推断；文字稿未成功加载，因此不能确认该必选用途。",
+          "evidenceIds": [
+            "a1633b15d73114cd7c99a411",
+            "2f091009f3652e5316931e00"
+          ],
+          "label": "公开文字教程必须明确展示将工具用于课堂笔记或考试复习的具体步骤，至少涉及其中一种用途；仅提及用途而无具体步骤不满足条件"
+        },
+        {
+          "criterionId": "college_relevance",
+          "verdict": "unknown",
+          "reason": "频道简介为“people, places, ideas, and languages”，Anki教程面向“learn anything”及语言学习者；当前已核验文字未明确指向大学课堂或大学生受众。未取得文字稿，不能据Anki工具的一般用途推断大学相关性，也不推断创作者学生身份。",
+          "evidenceIds": [
+            "d9a4084b32b828c0b927be07",
+            "a1633b15d73114cd7c99a411",
+            "2f091009f3652e5316931e00"
+          ],
+          "label": "公开内容明确面向大学学习场景或大学生受众，不推断创作者本人学生身份"
+        }
+      ],
+      "verdict": "unknown",
+      "tags": [
+        "语言学习",
+        "多语言交流与文化探索",
+        "Anki数字学习工具教学",
+        "分章节逐步教学",
+        "视频赞助植入",
+        "联盟推广链接"
+      ],
+      "updatedAt": 1791628318371,
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "语言学习",
+            "多语言交流与文化探索",
+            "Anki数字学习工具教学"
+          ],
+          "reason": "主页视频列表及Anki教程说明直接支持这些实际内容方向，未证实专注AI或大学考试复习。",
+          "evidenceIds": [
+            "d9a4084b32b828c0b927be07",
+            "a1633b15d73114cd7c99a411"
+          ]
+        },
+        {
+          "dimensionId": "presentation_style",
+          "status": "supported",
+          "values": [
+            "分章节逐步教学"
+          ],
+          "reason": "Anki视频公开文字包含明确操作章节和时间点；未观察截图像素，不判断视觉呈现风格。",
+          "evidenceIds": [
+            "a1633b15d73114cd7c99a411"
+          ]
+        },
+        {
+          "dimensionId": "collaboration_format",
+          "status": "supported",
+          "values": [
+            "视频赞助植入",
+            "联盟推广链接"
+          ],
+          "reason": "本人主页展示Includes paid promotion，教程说明明确披露affiliate links及学习工具优惠链接，支持既有合作形式；不代表已确认合作意愿。",
+          "evidenceIds": [
+            "d9a4084b32b828c0b927be07",
+            "a1633b15d73114cd7c99a411"
+          ]
+        }
+      ],
+      "revision": 7,
+      "selected": false
+    },
+    {
+      "id": "research-b30bacd90e74569b33e06bfc|youtube:wesleyanna",
+      "taskId": "research-b30bacd90e74569b33e06bfc",
+      "creator": {
+        "id": "youtube:wesleyanna",
+        "platform": "youtube",
+        "handle": "wesleyanna",
+        "profileUrl": "https://www.youtube.com/@wesleyanna",
+        "displayName": "Wesley Anna",
+        "followers": null,
+        "region": null,
+        "evidence": [
+          {
+            "id": "4bc6430c102a2a4ea23ae0f3",
+            "url": "https://www.youtube.com/channel/UCmxHnI5y-XFqMAJksgUAbig",
+            "text": "Channel reads 91.3K subscribers, 147 videos, country United States, with Notion template links. Evidence ID ev_51247b7e.",
+            "kind": "content",
+            "provider": "tikhub",
+            "publishedAt": null,
+            "capturedAt": 1791597944133
+          },
+          {
+            "id": "7b0b7e9a9cdd92ca0499ba85",
+            "url": "https://www.youtube.com/watch?v=FrhFvIsq86g",
+            "text": "Timestamped Notion beginner walkthrough covering workspaces and beginner tips, plus student template resources. Evidence ID ev_37a75581.",
+            "kind": "content",
+            "provider": "tikhub",
+            "publishedAt": "2023-01-20T18:22:42-08:00",
+            "capturedAt": 1791597944133
+          },
+          {
+            "id": "53255d17c10112d35a860bee",
+            "url": "https://www.youtube.com/@wesleyanna",
+            "kind": "browser_snapshot",
+            "text": "",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791598084224,
+            "assetId": "22ed3657216e816b93ea8043a691799b57e6cb4d2e7a59786dcced3eec3c079e"
+          },
+          {
+            "id": "dcf1c2d538669e7ff3546fda",
+            "url": "https://www.youtube.com/@wesleyanna",
+            "kind": "browser_snapshot",
+            "text": "SG\nSkip navigation\nSign in\nHome\nShorts\nSubscriptions\nYou\nHistory\nSign in to like videos, comment, and subscribe.\nSign in\nExplore\nMusic\nMovies\nGaming\nShow more\nMore from YouTube\nYouTube Premium\nYouTube Kids\nReport history\nAboutPressCopyrightContact usCreatorsAdvertiseDevelopers\nTermsPrivacyPolicy & SafetyHow YouTube worksTest new features\n© 2026 Google LLC\nWesley Anna\n@WesleyAnna\n•\n91.3K subscribers\n•\n147 videos\njust trying to make the internet fun again  ʕ•́ᴥ•̀ʔっ \n...more\n wesleyanna.gumroad.com/l/ultimate-notion-dashboard\nand 5 more links\nSubscribe\nHome\nVideos\nPlaylists\nPosts\nVideos\n12:18\nmy channel was hacked (what happened & how i got it back)\n7.1K\n1d ago\n17:54\ni built myself a home on the internet ‎🪐 ✩˚₊‧\n22K\n2w ago\n30:03\nhow i organize the chaos in my head (2026 capacities tour)\n11K\n4w ago\n12:17\nanti-AI is the new virtue signal\n5.2K\n1mo ago\n13:54\nso...i flew to seoul to get work done 😬\n2.8K\n2mo ago\n24:57\ni was wrong about kyoto 🍵 japan vlog\n2.3K\n2mo ago\nbest of wes (ง •̀_•́)ง\nPlay all\n16:06\nhow to get started in notion *without losing your mind* | notion for beginners\nWesley Anna\n4.3M\n3y ago\n11:52\nhow to get your life together\nWesley Anna\n9.8K\n3y ago\n22:28\nnyc vlog | 🌱 new beginnings, creating routines, unpacking from abroad\nWesley Anna\n29K\n2y ago\n13:26\nturning 30 in LA 🫰🏼 | disney, universal, korean spa, kbbq\nWesley Anna\n1.6K\n3y ago\n18:02\nthe end of the \"9-to-5\" & the future of work\nWesley Anna\n94K\n2y ago\n16:59\ni booked a one-way ticket to tokyo | japan vlog 2024\nWesley Anna\n9.9K\n2y ago\nMultiple playlists\n74 videos\nvlogs (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧\nWesley Anna\nPlaylist\nView full playlist\n14 videos\nchatty stuff ☕ ͜ (◍´ᴗ｀◍)\nWesley Anna\nPlaylist\nUpdated yesterday\nView full playlist\n25 videos\nproductivity, notion & tech (๑˘ᵕ˘)\nWesley Anna\nPlaylist\nView full playlist\n13 videos\ngrowth & development ໒(⊙ᴗ⊙)७✎▤\nWesley Anna\nPlaylist\nView full playlist\n14 videos\nfilms (◕ㅅ◕✿)\nWesley Anna\nPlaylist\nView full playlist\nPosts\nWesley Anna\n•\n4 days ago\ndoes never revisiting your saved content (posts, videos, or bookmarks) bother you?\n89 votes\nVote now\n7\n2\nWesley Anna\n•\n4 months ago\nこんにちは! officially back from our dizzying & delicious 3 weeks in japan/korea. my original plans to dive back into work this week have been somewhat thwarted by a power outage/family duties/jet lag (ok and maybe a weee bit too much pokopia..) i have been making an effort over the last few years to give myself some grace during life's big transitions. i hope you'll be patient with me as i take this week to rest & reset! i have SO much content from this trip that i'm excited to share!! but first up will be a very special NYC vlog. catch me in the editing cave this summer... 🙂‍↕️🤝🏼\n62\nWesley Anna\n•\n5 months ago\nwhere are you at with vibe coding/building with AI?\n365 votes\nVote now\n9\n4\nWesley Anna\n•\n6 months ago\nhappy friday friends!! 🌾 this week's video will be delayed, i've been in a 72 hr editing hole trying to wrap-up a documentary i filmed two years ago for another channel that my husband and i run (do you really have ADHD if you don't put something off for years and then fall into a weeklong hyper-focus spiral just to get it done??). might share with u when it's finished, it's a story worth sharing and i'm very proud of the final result :,)! anyway, trying to get this week's vlog out by monday so stayed tuned~ MUWAH! *P.S. here's a cute pic of my dog in the meantime\n70\n1\nWesley Anna\n•\n7 months ago\none of my goals this year has been to find a go-to video format that feels sustainable, joyful, and (most importantly) fun for you to watch! which type of video do you want to see more of from me? thanks to everyone who’s been patient with me as i experiment 🥲🤍\n192 votes\nVote now\n15\n3\nWesley Anna\n•\n7 months ago\nspent the last week in southern GA visiting the old man 🚜🌾 new video coming very soon!\n51\n3",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791598090812,
+            "assetId": "4eb7fb8eab995c0059a2a14c40d5a1037341e28cb3cd68136e9995d8cc3d0f80"
+          },
+          {
+            "id": "2bbdd998b60f16e1a9ced81c",
+            "url": "https://www.youtube.com/watch?v=FrhFvIsq86g",
+            "kind": "browser_snapshot",
+            "text": "0:00 / 16:05",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791598117005,
+            "assetId": "d01dbba1cb90f34c64ec6e75c0f7a34130eb17cebd87b9057157d88cb404db0b"
+          },
+          {
+            "id": "ecf42243a1b8c54d5f5efd86",
+            "url": "https://www.youtube.com/watch?v=FrhFvIsq86g",
+            "kind": "browser_snapshot",
+            "text": "SG\nSkip navigation\nSign in\n0:03 / 16:05\nyou can skip i'm not offended\nhow to get started in notion *without losing your mind* | notion for beginners\nWesley Anna\n91.3K subscribers\nSubscribe\n131K\nShare\nSave\n4.3M views  3y ago\nToday I have another video from my Notion series, but this time we're focusing on how to get started as a beginner! I  know it can be très ~overwhelming~ when opening Notion for the first time (so many beautiful templates! so many cool widgets!) but I wanted to prove that building your own layout doesn't have to take as much time as you'd think. …\nmore\n\nComments\n \n \n \n \n2:00:07\n50/10 Pomodoro Timer with Brown Noise 🎧 2-Hour Study with Me for Deep Focus & ADHD ✨\nTimer Palette\n963K\n7mo ago\n18:23\nhow i organize my life & stay productive💡notion tour + free template\ndobochobo\n1.2M\n5y ago\n25:29\nthe ULTIMATE Notion tour | how I organize my life as a med student\nSab Yang\n919K\n3y ago\n21:33\nthe ULTIMATE guide to learning notion in 2026 🌱 step-by-step tutorial for beginners\nPatrisha Dictado\n339K\n1y ago\n38:05\nThe Easiest NOTION Tutorial for Beginners | A Step-by-Step Guide\nSab Yang\n857K\n3y ago\n9:49\nHow to organize your ENTIRE LIFE in 10 minutes as a student | FREE Notion template + full tutorial)\nfayefilms\n158K\n6mo ago\nLIVE\nTranquil Autumn Jazz On A Cozy Bookstore Street - Soft Jazz For Work, Reading & Restoring Balance\nTranquil Solitude Jazz\n461 watching\n6:34\nNotion for Beginners (2026): Learn the Basics in 6 Minutes | Complete Starter Guide\nProductivity Daily\n385\n2mo ago\n30:52\nNotion Tutorial for Beginners\nKevin Stratvert\n1.7M\n3y ago\n13:08\nHow to get ahead of 99% of students THIS school year\nAmy Wang\n436K\n1mo ago\n1:00:17\nthe *ultimate* guide to making your notion aesthetic\nWesley Anna\n178K\n2y ago\nLIVE\nTiempo con Dios 24/7 | Música Instrumental para Orar y Descansar\nPiano con Dios\n298 watching\n14:51\nHow I make $10,000 a month as a STUDENT (and how you can too) 💸\nfayefilms\n2.5M\n10mo ago\n17:46\nBecome a Notion Expert in 20 minutes | Notion Tutorial for Beginners (Full Guide)\nProductive Setups\n783K\n1y ago\n20:41\nＺｅｌｄａｗａｖｅ\nMarble Pawns\n7.2M\n9y ago\n11:31\nhow i organize university/school with notion | notion tour for students\nKai Notebook\n450K\n4y ago\n33:22\nBuild A HIGHLY PRODUCTIVE Notion Dashboard From Scratch - Beginner Notion Tutorial\nCreative Cove\n246K\n2y ago\n15:38\nHow to Get Started in Notion (for beginners) 💻🧠\nFlourish Planner\n50K\n1y ago\n17:40\nHow To Master Notion In 2026: 5 Steps To 10x Your Productivity\n二一的笔记\n16K\n8mo ago\n42:36\nHow Important are Leitmotifs in Deltarune?\nKazooCat\n540K\n5mo ago\n \n \n \n ",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791598127137,
+            "assetId": "f1fd04ae9d0d5f567aedf07528e96d1452d3eafc2588253e28097fe19b7416ca"
+          },
+          {
+            "id": "5ad842b87badb2b84de81aae",
+            "url": "https://www.youtube.com/watch?v=FrhFvIsq86g",
+            "kind": "browser_snapshot",
+            "text": "SG\nSkip navigation\nSign in\n0:03 / 16:05\nyou can skip i'm not offended\nhow to get started in notion *without losing your mind* | notion for beginners\nWesley Anna\n91.3K subscribers\nSubscribe\n131K\nShare\nSave\n4,342,203 views  Jan 21, 2023\nToday I have another video from my Notion series, but this time we're focusing on how to get started as a beginner! I  know it can be très ~overwhelming~ when opening Notion for the first time (so many beautiful templates! so many cool widgets!) but I wanted to prove that building your own layout doesn't have to take as much time as you'd think.\n\n00:00 you can skip i'm not offended\n01:44 what is notion, really?\n03:25 3...2...1...build!\n12:17 cheeky tips (ง •̀_•́)ง\n\n✨ n o t i o n  t e m p l a t e s ✨ \n\n🐸 Eat the Frog Notion Game Template! https://wesleyanna.gumroad.com/l/eat-...\n\nThe template made in this video (as well as the rest of my free templates) can be found here: https://affiliate.notion.so/wesleyanna\n\nIf you're a Notion power user (AKA an organizational freak of nature like me!) then you might want to jumpstart your Notion journey with the Ultimate Notion Dashboard system: https://wesleyanna.gumroad.com/l/ulti...\n\n✨ n o t i o n  u n i v e r s i t y ✨ \n\nTired of templates and want something custom tailored to your needs? Learn how to design your own personalized workspace in Notion from the ground up with Notion University!\nhttp://notionuniversity.wesleyanna.com/\n\n✨ n e w s l e t t e r ✨\n\nSign-up for exclusive access to my most intimate thoughts and life updates hehe:\nhttps://wesleyanna.substack.com/\n\n✨ r e s o u r c e s ✨ \n\nReading recs: https://www.amazon.com/shop/wesleyann...\nMy desk set-up: bit.ly/3zekZpZ\nMy filming equipment: amzn.to/3KfAB1F\nSkillshare class: https://www.skillshare.com/en/classes...\n\n✨ f i n d   m e ✨ \n\nIG:   / itswesleyanna  \nTiktok:   / itswesleyanna  \nPinterest:   / wannatiner  \nWebsite: https://wesleyanna.com/\nHow this was made\nAuto-dubbed\nAudio tracks for some languages were automatically generated. Learn more\nChapters\nView all\nyou can skip i'm not offended\n0:00\nwhat is notion, really?\n1:44\n3...2...1...build!\n3:25\ncheeky tips (ง •̀_•́)ง\n12:17\nTranscript\n\nFollow along using the transcript.\n\nShow transcript\nWesley Anna\n91.3K subscribers\nVideos\nAbout\nInstagram\nTikTok\nmy *slightly insane* plan for 2023 | notion goal setting\nby Wesley Anna\nUltimate Dashboard 2023\nClick to view\nShow less\n\nComments\n \n \n \n \n2:00:07\n50/10 Pomodoro Timer with Brown Noise 🎧 2-Hour Study with Me for Deep Focus & ADHD ✨\nTimer Palette\n963K\n7mo ago\n18:23\nhow i organize my life & stay productive💡notion tour + free template\ndobochobo\n1.2M\n5y ago\n25:29\nthe ULTIMATE Notion tour | how I organize my life as a med student\nSab Yang\n919K\n3y ago\n21:33\nthe ULTIMATE guide to learning notion in 2026 🌱 step-by-step tutorial for beginners\nPatrisha Dictado\n339K\n1y ago\n38:05\nThe Easiest NOTION Tutorial for Beginners | A Step-by-Step Guide\nSab Yang\n857K\n3y ago\n9:49\nHow to organize your ENTIRE LIFE in 10 minutes as a student | FREE Notion template + full tutorial)\nfayefilms\n158K\n6mo ago\nLIVE\nTranquil Autumn Jazz On A Cozy Bookstore Street - Soft Jazz For Work, Reading & Restoring Balance\nTranquil Solitude Jazz\n461 watching\n6:34\nNotion for Beginners (2026): Learn the Basics in 6 Minutes | Complete Starter Guide\nProductivity Daily\n385\n2mo ago\n30:52\nNotion Tutorial for Beginners\nKevin Stratvert\n1.7M\n3y ago\n13:08\nHow to get ahead of 99% of students THIS school year\nAmy Wang\n436K\n1mo ago\n1:00:17\nthe *ultimate* guide to making your notion aesthetic\nWesley Anna\n178K\n2y ago\nLIVE\nTiempo con Dios 24/7 | Música Instrumental para Orar y Descansar\nPiano con Dios\n298 watching\n14:51\nHow I make $10,000 a month as a STUDENT (and how you can too) 💸\nfayefilms\n2.5M\n10mo ago\n17:46\nBecome a Notion Expert in 20 minutes | Notion Tutorial for Beginners (Full Guide)\nProductive Setups\n783K\n1y ago\n20:41\nＺｅｌｄａｗａｖｅ\nMarble Pawns\n7.2M\n9y ago\n11:31\nhow i organize university/school with notion | notion tour for students\nKai Notebook\n450K\n4y ago\n33:22\nBuild A HIGHLY PRODUCTIVE Notion Dashboard From Scratch - Beginner Notion Tutorial\nCreative Cove\n246K\n2y ago\n15:38\nHow to Get Started in Notion (for beginners) 💻🧠\nFlourish Planner\n50K\n1y ago\n17:40\nHow To Master Notion In 2026: 5 Steps To 10x Your Productivity\n二一的笔记\n16K\n8mo ago\n42:36\nHow Important are Leitmotifs in Deltarune?\nKazooCat\n540K\n5mo ago\n \n \n \n ",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791598140967,
+            "assetId": "ffa308515cc9c8185674a75cfca9fb02c77909e20c1c06cc964ea149ee9588ab"
+          },
+          {
+            "id": "8a798fd5d20e19cee16b0fe1",
+            "url": "https://www.youtube.com/watch?v=FrhFvIsq86g",
+            "kind": "browser_snapshot",
+            "text": "SG\nSkip navigation\nSign in\n0:03 / 16:05\nyou can skip i'm not offended\nhow to get started in notion *without losing your mind* | notion for beginners\nWesley Anna\n91.3K subscribers\nSubscribe\n131K\nShare\nSave\n4,342,203 views  Jan 21, 2023\nToday I have another video from my Notion series, but this time we're focusing on how to get started as a beginner! I  know it can be très ~overwhelming~ when opening Notion for the first time (so many beautiful templates! so many cool widgets!) but I wanted to prove that building your own layout doesn't have to take as much time as you'd think.\n\n00:00 you can skip i'm not offended\n01:44 what is notion, really?\n03:25 3...2...1...build!\n12:17 cheeky tips (ง •̀_•́)ง\n\n✨ n o t i o n  t e m p l a t e s ✨ \n\n🐸 Eat the Frog Notion Game Template! https://wesleyanna.gumroad.com/l/eat-...\n\nThe template made in this video (as well as the rest of my free templates) can be found here: https://affiliate.notion.so/wesleyanna\n\nIf you're a Notion power user (AKA an organizational freak of nature like me!) then you might want to jumpstart your Notion journey with the Ultimate Notion Dashboard system: https://wesleyanna.gumroad.com/l/ulti...\n\n✨ n o t i o n  u n i v e r s i t y ✨ \n\nTired of templates and want something custom tailored to your needs? Learn how to design your own personalized workspace in Notion from the ground up with Notion University!\nhttp://notionuniversity.wesleyanna.com/\n\n✨ n e w s l e t t e r ✨\n\nSign-up for exclusive access to my most intimate thoughts and life updates hehe:\nhttps://wesleyanna.substack.com/\n\n✨ r e s o u r c e s ✨ \n\nReading recs: https://www.amazon.com/shop/wesleyann...\nMy desk set-up: bit.ly/3zekZpZ\nMy filming equipment: amzn.to/3KfAB1F\nSkillshare class: https://www.skillshare.com/en/classes...\n\n✨ f i n d   m e ✨ \n\nIG:   / itswesleyanna  \nTiktok:   / itswesleyanna  \nPinterest:   / wannatiner  \nWebsite: https://wesleyanna.com/\nHow this was made\nAuto-dubbed\nAudio tracks for some languages were automatically generated. Learn more\nChapters\nView all\nyou can skip i'm not offended\n0:00\nwhat is notion, really?\n1:44\n3...2...1...build!\n3:25\ncheeky tips (ง •̀_•́)ง\n12:17\nTranscript\n\nFollow along using the transcript.\n\nShow transcript\nWesley Anna\n91.3K subscribers\nVideos\nAbout\nInstagram\nTikTok\nmy *slightly insane* plan for 2023 | notion goal setting\nby Wesley Anna\nUltimate Dashboard 2023\nClick to view\nShow less\n\nComments\n \n \n \n \nIn this video\nChapters\nTranscript\n \n \n \n \n2:00:07\n50/10 Pomodoro Timer with Brown Noise 🎧 2-Hour Study with Me for Deep Focus & ADHD ✨\nTimer Palette\n963K\n7mo ago\n18:23\nhow i organize my life & stay productive💡notion tour + free template\ndobochobo\n1.2M\n5y ago\n25:29\nthe ULTIMATE Notion tour | how I organize my life as a med student\nSab Yang\n919K\n3y ago\n21:33\nthe ULTIMATE guide to learning notion in 2026 🌱 step-by-step tutorial for beginners\nPatrisha Dictado\n339K\n1y ago\n38:05\nThe Easiest NOTION Tutorial for Beginners | A Step-by-Step Guide\nSab Yang\n857K\n3y ago\n9:49\nHow to organize your ENTIRE LIFE in 10 minutes as a student | FREE Notion template + full tutorial)\nfayefilms\n158K\n6mo ago\nLIVE\nTranquil Autumn Jazz On A Cozy Bookstore Street - Soft Jazz For Work, Reading & Restoring Balance\nTranquil Solitude Jazz\n461 watching\n6:34\nNotion for Beginners (2026): Learn the Basics in 6 Minutes | Complete Starter Guide\nProductivity Daily\n385\n2mo ago\n30:52\nNotion Tutorial for Beginners\nKevin Stratvert\n1.7M\n3y ago\n13:08\nHow to get ahead of 99% of students THIS school year\nAmy Wang\n436K\n1mo ago\n1:00:17\nthe *ultimate* guide to making your notion aesthetic\nWesley Anna\n178K\n2y ago\nLIVE\nTiempo con Dios 24/7 | Música Instrumental para Orar y Descansar\nPiano con Dios\n298 watching\n14:51\nHow I make $10,000 a month as a STUDENT (and how you can too) 💸\nfayefilms\n2.5M\n10mo ago\n17:46\nBecome a Notion Expert in 20 minutes | Notion Tutorial for Beginners (Full Guide)\nProductive Setups\n783K\n1y ago\n20:41\nＺｅｌｄａｗａｖｅ\nMarble Pawns\n7.2M\n9y ago\n11:31\nhow i organize university/school with notion | notion tour for students\nKai Notebook\n450K\n4y ago\n33:22\nBuild A HIGHLY PRODUCTIVE Notion Dashboard From Scratch - Beginner Notion Tutorial\nCreative Cove\n246K\n2y ago\n15:38\nHow to Get Started in Notion (for beginners) 💻🧠\nFlourish Planner\n50K\n1y ago\n17:40\nHow To Master Notion In 2026: 5 Steps To 10x Your Productivity\n二一的笔记\n16K\n8mo ago\n42:36\nHow Important are Leitmotifs in Deltarune?\nKazooCat\n540K\n5mo ago\n \n \n \n ",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791598160105,
+            "assetId": "4c1560b778b312d28e812f399f94b6925d645b4026cb6761f757e741c293634f"
+          },
+          {
+            "id": "27a4382abe9c3f1705232047",
+            "url": "https://www.youtube.com/watch?v=FrhFvIsq86g",
+            "kind": "browser_snapshot",
+            "text": "SG\nSkip navigation\nSign in\nSomething went wrong. Refresh or try again later.\nLearn more\n0:42 / 16:05\nyou can skip i'm not offended\nhow to get started in notion *without losing your mind* | notion for beginners\nWesley Anna\n91.3K subscribers\nSubscribe\n131K\nShare\nSave\n4,342,203 views  Jan 21, 2023\nToday I have another video from my Notion series, but this time we're focusing on how to get started as a beginner! I  know it can be très ~overwhelming~ when opening Notion for the first time (so many beautiful templates! so many cool widgets!) but I wanted to prove that building your own layout doesn't have to take as much time as you'd think.\n\n00:00 you can skip i'm not offended\n01:44 what is notion, really?\n03:25 3...2...1...build!\n12:17 cheeky tips (ง •̀_•́)ง\n\n✨ n o t i o n  t e m p l a t e s ✨ \n\n🐸 Eat the Frog Notion Game Template! https://wesleyanna.gumroad.com/l/eat-...\n\nThe template made in this video (as well as the rest of my free templates) can be found here: https://affiliate.notion.so/wesleyanna\n\nIf you're a Notion power user (AKA an organizational freak of nature like me!) then you might want to jumpstart your Notion journey with the Ultimate Notion Dashboard system: https://wesleyanna.gumroad.com/l/ulti...\n\n✨ n o t i o n  u n i v e r s i t y ✨ \n\nTired of templates and want something custom tailored to your needs? Learn how to design your own personalized workspace in Notion from the ground up with Notion University!\nhttp://notionuniversity.wesleyanna.com/\n\n✨ n e w s l e t t e r ✨\n\nSign-up for exclusive access to my most intimate thoughts and life updates hehe:\nhttps://wesleyanna.substack.com/\n\n✨ r e s o u r c e s ✨ \n\nReading recs: https://www.amazon.com/shop/wesleyann...\nMy desk set-up: bit.ly/3zekZpZ\nMy filming equipment: amzn.to/3KfAB1F\nSkillshare class: https://www.skillshare.com/en/classes...\n\n✨ f i n d   m e ✨ \n\nIG:   / itswesleyanna  \nTiktok:   / itswesleyanna  \nPinterest:   / wannatiner  \nWebsite: https://wesleyanna.com/\nHow this was made\nAuto-dubbed\nAudio tracks for some languages were automatically generated. Learn more\nChapters\nView all\nyou can skip i'm not offended\n0:00\nwhat is notion, really?\n1:44\n3...2...1...build!\n3:25\ncheeky tips (ง •̀_•́)ง\n12:17\nTranscript\n\nFollow along using the transcript.\n\nShow transcript\nWesley Anna\n91.3K subscribers\nVideos\nAbout\nInstagram\nTikTok\n16:00\nmy *slightly insane* plan for 2023 | notion goal setting\nby Wesley Anna\nUltimate Dashboard 2023\nClick to view\nShow less\n\nComments\n \n \n \n \nIn this video\nChapters\nTranscript\n \n \n \n \n2:00:07\n50/10 Pomodoro Timer with Brown Noise 🎧 2-Hour Study with Me for Deep Focus & ADHD ✨\nTimer Palette\n963K\n7mo ago\n18:23\nhow i organize my life & stay productive💡notion tour + free template\ndobochobo\n1.2M\n5y ago\n25:29\nthe ULTIMATE Notion tour | how I organize my life as a med student\nSab Yang\n919K\n3y ago\n21:33\nthe ULTIMATE guide to learning notion in 2026 🌱 step-by-step tutorial for beginners\nPatrisha Dictado\n339K\n1y ago\n38:05\nThe Easiest NOTION Tutorial for Beginners | A Step-by-Step Guide\nSab Yang\n857K\n3y ago\n9:49\nHow to organize your ENTIRE LIFE in 10 minutes as a student | FREE Notion template + full tutorial)\nfayefilms\n158K\n6mo ago\nLIVE\nTranquil Autumn Jazz On A Cozy Bookstore Street - Soft Jazz For Work, Reading & Restoring Balance\nTranquil Solitude Jazz\n461 watching\n6:34\nNotion for Beginners (2026): Learn the Basics in 6 Minutes | Complete Starter Guide\nProductivity Daily\n385\n2mo ago\n30:52\nNotion Tutorial for Beginners\nKevin Stratvert\n1.7M\n3y ago\n13:08\nHow to get ahead of 99% of students THIS school year\nAmy Wang\n436K\n1mo ago\n1:00:17\nthe *ultimate* guide to making your notion aesthetic\nWesley Anna\n178K\n2y ago\nLIVE\nTiempo con Dios 24/7 | Música Instrumental para Orar y Descansar\nPiano con Dios\n298 watching\n14:51\nHow I make $10,000 a month as a STUDENT (and how you can too) 💸\nfayefilms\n2.5M\n10mo ago\n17:46\nBecome a Notion Expert in 20 minutes | Notion Tutorial for Beginners (Full Guide)\nProductive Setups\n783K\n1y ago\n20:41\nＺｅｌｄａｗａｖｅ\nMarble Pawns\n7.2M\n9y ago\n11:31\nhow i organize university/school with notion | notion tour for students\nKai Notebook\n450K\n4y ago\n33:22\nBuild A HIGHLY PRODUCTIVE Notion Dashboard From Scratch - Beginner Notion Tutorial\nCreative Cove\n246K\n2y ago\n15:38\nHow to Get Started in Notion (for beginners) 💻🧠\nFlourish Planner\n50K\n1y ago\n17:40\nHow To Master Notion In 2026: 5 Steps To 10x Your Productivity\n二一的笔记\n16K\n8mo ago\n42:36\nHow Important are Leitmotifs in Deltarune?\nKazooCat\n540K\n5mo ago\n \n \n \n ",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791598195210,
+            "assetId": "d04a7249677b39e440b07b37b94b024d20cbc9cfa2e4909a67b9dec9223035a1"
+          }
+        ],
+        "facts": {
+          "conflicts": [],
+          "followers": {
+            "min": 91250,
+            "max": 91349,
+            "rawValue": "91.3K subscribers",
+            "evidenceIds": [
+              "dcf1c2d538669e7ff3546fda"
+            ]
+          }
+        }
+      },
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "unknown",
+          "reason": "未取得创作者地区",
+          "evidenceIds": [
+            "4bc6430c102a2a4ea23ae0f3",
+            "7b0b7e9a9cdd92ca0499ba85"
+          ],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：youtube",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "主页显示 91.3K subscribers；保守区间 91250–91349，要求 10000–100000",
+          "evidenceIds": [
+            "dcf1c2d538669e7ff3546fda"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "english_content",
+          "verdict": "match",
+          "reason": "频道公开帖子及所核验视频标题、简介均使用英语，例如“Today I have another video from my Notion series”。视频页面显示发布日期为2023年1月21日。",
+          "evidenceIds": [
+            "dcf1c2d538669e7ff3546fda",
+            "5ad842b87badb2b84de81aae"
+          ],
+          "label": "公开内容使用英语"
+        },
+        {
+          "criterionId": "tool_tutorials",
+          "verdict": "unknown",
+          "reason": "2023年1月21日的Notion入门视频简介称教授搭建布局，章节包括03:25“3...2...1...build!”和12:17技巧，但这些文字未呈现具体操作步骤。已尝试打开文字稿，未加载出正文，播放器随后报错；不能仅凭教程标题、章节或提供方概括判定满足实际分步教学。",
+          "evidenceIds": [
+            "5ad842b87badb2b84de81aae",
+            "8a798fd5d20e19cee16b0fe1",
+            "27a4382abe9c3f1705232047"
+          ],
+          "label": "公开文字内容须提供AI工具或数字学习效率工具的实际教学教程，明确呈现具体操作步骤；仅有概括讲解、展示或评测不满足条件"
+        },
+        {
+          "criterionId": "notes_revision_use",
+          "verdict": "unknown",
+          "reason": "已读取的公开视频简介与章节未展示课堂笔记或考试复习的具体步骤；提供方仅概括学生模板资源，不能证明此必选条件。文字稿正文未能加载，尚不足以确定创作者是否有符合用途的教程。",
+          "evidenceIds": [
+            "5ad842b87badb2b84de81aae",
+            "7b0b7e9a9cdd92ca0499ba85",
+            "27a4382abe9c3f1705232047"
+          ],
+          "label": "公开文字教程必须明确展示将工具用于课堂笔记或考试复习的具体步骤，至少涉及其中一种用途；仅提及用途而无具体步骤不满足条件"
+        },
+        {
+          "criterionId": "college_relevance",
+          "verdict": "unknown",
+          "reason": "所核验频道文字与视频简介未明确面向大学生或大学学习场景。“Notion University”在简介中是创作者的Notion工作区课程名称，不能据此推断大学受众；页面大学/医学生相关推荐视频属于其他频道，不能归于此候选。",
+          "evidenceIds": [
+            "dcf1c2d538669e7ff3546fda",
+            "5ad842b87badb2b84de81aae"
+          ],
+          "label": "公开内容明确面向大学学习场景或大学生受众，不推断创作者本人学生身份"
+        }
+      ],
+      "verdict": "unknown",
+      "tags": [
+        "Notion 与数字效率工具",
+        "个人成长与生活记录",
+        "轻松口语化文案",
+        "面向初学者",
+        "章节化组织",
+        "Notion 入门内容",
+        "模板配套内容"
+      ],
+      "updatedAt": 1791628368396,
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "Notion 与数字效率工具",
+            "个人成长与生活记录"
+          ],
+          "reason": "频道展示 productivity, notion & tech、growth & development 及 vlogs 播放列表，且有本人 Notion 入门视频。",
+          "evidenceIds": [
+            "dcf1c2d538669e7ff3546fda",
+            "5ad842b87badb2b84de81aae"
+          ]
+        },
+        {
+          "dimensionId": "presentation_style",
+          "status": "supported",
+          "values": [
+            "轻松口语化文案",
+            "面向初学者",
+            "章节化组织"
+          ],
+          "reason": "本人说明使用轻松口语及表情符号，明确面向 beginner，并提供时间戳章节；不据此推断视觉呈现。",
+          "evidenceIds": [
+            "5ad842b87badb2b84de81aae"
+          ]
+        },
+        {
+          "dimensionId": "collaboration_format",
+          "status": "supported",
+          "values": [
+            "Notion 入门内容",
+            "模板配套内容"
+          ],
+          "reason": "已有入门视频附带本视频所制作模板与免费模板链接，支持这两种已有内容形式；未证实商业合作经历或课堂复习教程形式。",
+          "evidenceIds": [
+            "5ad842b87badb2b84de81aae"
+          ]
+        }
+      ],
+      "revision": 7,
+      "selected": false
+    }
+  ],
+  "report": {
+    "url": "http://127.0.0.1:3000/api/reports/research-b30bacd90e74569b33e06bfc",
+    "articles": 2,
+    "embeddedImages": 14,
+    "profileLinks": 2,
+    "body": "AI与数字学习工具教学创作者\n\n目标 1 人；本地已合格 0 人；已核验 2 人。\n\n历史结果已按统一账号身份、国家名称和证据重算：已选合格 0/1，核验 2。未确认条件保持 unknown；原分析已保留审计版本。\n\n来源：WaveSurge + 本地核验。远端搜索完成不代表本地条件通过。本次报告包含 2 条筛选记录。报告更新时间：2026-10-10T10:32:48.399Z\nColeLangs · 待核实\n\nyoutube / colelangs / 粉丝 37.4K subscribers / 未知\n\n标签：语言学习、多语言交流与文化探索、Anki数字学习工具教学、分章节逐步教学、视频赞助植入、联盟推广链接\n\n画像 content_direction：语言学习、多语言交流与文化探索、Anki数字学习工具教学；主页视频列表及Anki教程说明直接支持这些实际内容方向，未证实专注AI或大学考试复习。；证据 d9a4084b32b828c0b927be07、a1633b15d73114cd7c99a411\n\n画像 presentation_style：分章节逐步教学；Anki视频公开文字包含明确操作章节和时间点；未观察截图像素，不判断视觉呈现风格。；证据 a1633b15d73114cd7c99a411\n\n画像 collaboration_format：视频赞助植入、联盟推广链接；本人主页展示Includes paid promotion，教程说明明确披露affiliate links及学习工具优惠链接，支持既有合作形式；不代表已确认合作意愿。；证据 d9a4084b32b828c0b927be07、a1633b15d73114cd7c99a411\n\n条件\t判断\t依据\n所在地区\t待核实\t未取得创作者地区\ncontent 日期未知\ncontent 2024-04-26T08:42:46-07:00\n平台\t符合要求\t创作者平台：youtube\n\n粉丝范围\t符合要求\t主页显示 37.4K subscribers；保守区间 37350–37449，要求 10000–100000\nbrowser_snapshot 日期未知\n公开内容使用英语\t符合要求\t公开标题、简介及教程章节均使用英语。2024-04-26发布的Anki视频简介写有“I'll teach you everything about Anki”，章节包括“Installing Anki”和“Making and Styling Cards”。\nbrowser_snapshot 日期未知\nbrowser_snapshot 日期未知\n公开文字内容须提供AI工具或数字学习效率工具的实际教学教程，明确呈现具体操作步骤；仅有概括讲解、展示或评测不满足条件\t待核实\t2024-04-26的Anki视频标题与简介明确称为逐步教程，章节列出安装、制卡、填空卡和图片遮挡等操作主题；但当前公开文字只有章节目录，没有取得具体点击、输入或设置步骤。打开文字稿后未加载出正文，播放器出现错误，不能仅凭标题或工具方摘要确认严格的实际步骤要求。\nbrowser_snapshot 日期未知\nbrowser_snapshot 日期未知\nbrowser_snapshot 日期未知\n公开文字教程必须明确展示将工具用于课堂笔记或考试复习的具体步骤，至少涉及其中一种用途；仅提及用途而无具体步骤不满足条件\t待核实\t已取得的Anki简介仅承诺制作闪卡以“learn anything”，章节是通用工具操作，未取得明确用于课堂笔记或考试复习的具体文字步骤。工具方所称“applicable”只是适用性推断；文字稿未成功加载，因此不能确认该必选用途。\nbrowser_snapshot 日期未知\nbrowser_snapshot 日期未知\n公开内容明确面向大学学习场景或大学生受众，不推断创作者本人学生身份\t待核实\t频道简介为“people, places, ideas, and languages”，Anki教程面向“learn anything”及语言学习者；当前已核验文字未明确指向大学课堂或大学生受众。未取得文字稿，不能据Anki工具的一般用途推断大学相关性，也不推断创作者学生身份。\nbrowser_snapshot 日期未知\nbrowser_snapshot 日期未知\nbrowser_snapshot 日期未知\n完整证据映射与截图\n0e2c68015ea7130a23067f85 · content\n原始来源\n\n提供方：tikhub · 捕获：2026-10-10T02:05:44.132Z · 发布时间：日期未知\n\nChannel reads 37.4K subscribers, 140 videos, country United States. Evidence ID ev_8a24d1b9.\nac28eacac3610a79f1ed33d8 · content\n原始来源\n\n提供方：tikhub · 捕获：2026-10-10T02:05:44.132Z · 发布时间：2024-04-26T08:42:46-07:00\n\nFull step-by-step Anki guide with timestamps for cards, cloze, image occlusion, decks and study workflows. Evidence ID ev_987b63c6.\n1b086a917635031c07f5ea03 · browser_snapshot\n原始来源\n\n提供方：headed-chromium · 捕获：2026-10-10T02:05:47.035Z · 发布时间：日期未知 · 截图编号：22ed3657216e816b93ea8043a691799b57e6cb4d2e7a59786dcced3eec3c079e\n\nd9a4084b32b828c0b927be07 · browser_snapshot\n原始来源\n\n提供方：headed-chromium · 捕获：2026-10-10T02:05:54.511Z · 发布时间：日期未知 · 截图编号：598adc983353f21c1d2c8776fef0b3b7b9a6f48dbec7ae54fe220b36e5830258\n\nSG\nSkip navigation\nSign in\nHome\nShorts\nSubscriptions\nYou\nHistory\nSign in to like videos, comment, and subscribe.\nSign in\nExplore\nMusic\nMovies\nGaming\nShow more\nMore from YouTube\nYouTube Premium\nYouTube Kids\nReport history\nAboutPressCopyrightContact usCreatorsAdvertiseDevelopers\nTermsPrivacyPolicy & SafetyHow YouTube worksTest new features\n© 2026 Google LLC\nColeLangs\n@ColeLangs\n•\n37.4K subscribers\n•\n140 videos\npeople, places, ideas, and languages \n...more\nSubscribe\nJoin\nHome\nVideos\nShorts\nLive\nPodcasts\nPlaylists\nPosts\nI spent 90 Days in the Middle East and it made me question everything\nIncludes paid promotion\n0:00 / 14:48\nI spent 90 Days in the Middle East and it made me question everything\n741,614 views\n3y ago\n🔵 Get 35% off of LingQ here: \nhttps://www.lingq.com/accounts/new/?n...\n\n📘Book: https://www.amazon.com/dp/B0CN58MT7V\n🔴SUBSCRIBE here if you're really cool:   https://bit.ly/3qd8e98\n💻Discord: https://discord.gg/RkFJ2dfcrB\n\nTIMESTAMPS\n0:00 Intro\n1:45 Islam\n2:25 Muhammad\n3:04 The Qur'an\n3:52 Are laws stict in the Middle East?\n4:18 Shari'a Law\n5:04 An awesome Arabic greeting\n5:16 Sponsor (Thank you LingQ!)\n6:20 Equality in Islam\n7:45 The Hijab\n8:59 Traditional Gender Roles\n9:45 Marriage in the Middle East\n11:11 Married men\n11:51 Politics\n13:00 Immigrants in the Middle East\n13:26 The Lessons I Learned\n\n#polyglot #languages #colelangs\nREAD MORE\nVideos\n18:03\nMaster Anki in 18 Minutes | Full Step-By-Step Guide to Learn Anything\n12K\n2y ago\n10:13\nWhat Beginner to Advanced Russian Looks Like\n405K\n2y ago\n1:01\nI wrote a book.\n2.9K\n2y ago\n14:49\nI spent 90 Days in the Middle East and it made me question everything\n741K\n3y ago\n8:52\nRussian Cases, Explained Simply (An Introduction)\n9.1K\n3y ago\n10:31\nHow To Learn ANY Alphabet or Script\n3.8K\n3y ago\nOmegle\nPlay all\n12:02\nAmerican Polyglot Completely SHOCKS People on Omegle Speaking Their Languages!\nColeLangs\n123K\n5y ago\n12:53\nINSANE Polyglot Tests Me in 11+ Languages on Omegle!\nColeLangs\n223K\n5y ago\n10:10\nPolyglot Speaks People's Languages on Omegle, Wholesomeness Ensues\nColeLangs\n76K\n5y ago\n6:08\nBrazilian Polyglot Shocks Me With PERFECT Chinese and English On Omegle! | Speaking 6+ Languages\nColeLangs\n55K\n5y ago\n10:04\nPolyglot Speaks 9+ Languages on Omegle, SHOCKS Strangers and Mistaken for NATIVE SPEAKER\nColeLangs\n162K\n5y ago\n13:08\nWhite Guy Speaks 13 Languages on Omegle, SHOCKS People with His Tongue Skills\nColeLangs\n218K\n5y ago\n100 Language Challenge\nPlay all\nI'm gonna learn 100 languages by speaking with real people before I die. The videos that are \"canon\" will be marked at the end as well as in the description.\n11:37\nI Infiltrated Brazil's Most Dangerous Slum (to speak their language)\nColeLangs\n7.3K\n4y ago\nReaction Videos\nPlay all\n17:53\nPolyglot Reacts to \"What Language am I Speaking?\" | Cut\nColeLangs\n31K\n5y ago\n13:53\nMultilingual American Reacts to Americans Guessing European Languages\nColeLangs\n16K\n5y ago\n18:42\nPolyglot Reacts to \"What Language Am I Speaking?\" ROUND TWO\nColeLangs\n24K\n5y ago\n9:11\nPolyglot Reacts to \"Learning Languages Ruined My Life\" (POWERFUL Message)\nColeLangs\n18K\n5y ago\n17:20\nPolyglot Reacts to \"What Language am I Speaking?\" ROUND THREE\nColeLangs\n18K\n5y ago\n16:06\nPolyglot Reacts to \"What Language am I Speaking?\" (ROUND FOUR)\nColeLangs\n14K\n5y ago\nPopular videos\n14:49\nI spent 90 Days in the Middle East and it made me question everything\n741K\n3y ago\n10:13\nWhat Beginner to Advanced Russian Looks Like\n405K\n2y ago\n5:05\nThe Arabic alphabet is absurdly difficult...\n266K\n4y ago\n12:53\nINSANE Polyglot Tests Me in 11+ Languages on Omegle!\n223K\n5y ago\n13:08\nWhite Guy Speaks 13 Languages on Omegle, SHOCKS People with His Tongue Skills\n218K\n5y ago\n10:01\nAmerican Speaks Arabic, Gets Invited to Dinner! - Arab Omegle\n210K\n3y ago\nShorts\nMeeting Funny Funny People On Omegle\n4.5K views\nWhy Does This Kid Speak So Many Languages?!?\n4.3K views\nDuolingo but it screws me in the bum\n9.2K views\nIslam Made Me Rethink Everything\n20K views\nThese Guys on Omegle are something else\n2.3K views\nI conquered my anxiety speaking people's languages\n1.6K views\nPosts\nColeLangs\n•\n2 years ago\nIt looks like you guys really liked the \"Beginner to Advanced Russian\" video! I'm planning on doing the same concept with other languages. Which one would you like to see the most?\n297 votes\nVote now\n22\n9\nColeLangs\n•\n2 years ago\nGoodbye old friend 😞\n60\n4\nColeLangs\n•\n3 years ago\nWhat sort of ideas would you like to see me explore on this channel?\n628 votes\nVote now\n22\n25\nColeLangs\n•\n3 years ago\nWould you be interested in seeing a Toki Pona video?\n617 votes\nVote now\n25\n5\nColeLangs\n•\n3 years ago\nDo you like it when I edit subtitles into the videos?\n438 votes\nVote now\n11\n5\nColeLangs\n•\n3 years ago\nWhich language should I make lessons on first? (It'll be a full course)\n556 votes\nVote now\n21\n19\n301763f6bcfbcff6dd6b140b · browser_snapshot\n原始来源\n\n提供方：headed-chromium · 捕获：2026-10-10T02:06:05.167Z · 发布时间：日期未知 · 截图编号：43bec3ae18244b907dfdbe02305ec923647494752cfc2737aac39c8865191b95\n\n0:00 / 0:15\n59e280187edc6b7bddf00e29 · browser_snapshot\n原始来源\n\n提供方：headed-chromium · 捕获：2026-10-10T02:06:17.412Z · 发布时间：日期未知 · 截图编号：29b7268acb754134a5973d9e8056d35407632fb378de1302389427d0ea22c617\n\nSG\nSkip navigation\nSign in\nTry Xero for free*\nxero.com\nLearn more\nSponsored\n1 of 2\nxero.com\n0:03 / 0:15\nMaster Anki in 18 Minutes | Full Step-By-Step Guide to Learn Anything\nColeLangs\n37.4K subscribers\nJoin\nSubscribe\n459\nShare\nSave\n12K views  2y ago  #colelangs\nThe Only Anki Video You'll Ever Need. I'll teach you everything about Anki and making the best and most interactive flashcards anywhere. Once you finish watching this Anki tutorial, you'll be equipped to make your own amazing flashcards to learn anything in the world in less time.\n …\nmore\n\nComments\n \n \n \n \nTry Xero for free*\nSponsored\nxero.com\nLearn more\n18:31\nEvery Study Technique Explained in 18 Minutes\niCanStudy\n217K\n1mo ago\n23:04\nNew\nJack Doherty's Life Is Falling Apart\nInternet Anarchist\n229K\n4h ago\n32:38\nHow To Use Anki Like A Pro: Full Step-by-Step Walkthrough\nAlec Palmerton, MD\n55K\n1y ago\n14:02\nHow to Use Anki (Step-by-Step Tutorial for Beginners) | Become a Flashcard Pro Fast\nMelk Kunyu\n21K\n11mo ago\n6:29\nWastebasket - offline, distraction-free writing app for Mac\nMichael Verdi\n116\n2w ago\n16:59\nHow to Use Anki for Beginners!\nAlec Palmerton, MD\n62K\n5mo ago\n37:08\nAnki Setup for Language-Learning - Full Guide\nAmerican Accent Training with Meredith\n32K\n3mo ago\n3:49:59\nBeautiful Relaxing Music - Stop Overthinking, Stress Relief Music, Sleep Music, Calming Music #242\nInner Peace Look Inside\n17M\nStreamed 2y ago\n27:25\nNew\nIs Taipei About to Flip? Pao-yang Shen, Wanted by the CCP, Is One Step Away from the Mayor's Offi...\n公子沈 Terence Shen\n21K\n2h ago\n11:39\nHOW TO PASS ANY IT CERTIFICATION EXAM (3 Phase Approach)\nJosh Madakor\n89K\n5y ago\n20:32\nHow to use Anki like a PRO (by a Learning Expert)\nJustin Sung\n756K\n3y ago\n2:17:34\n40Hz Binaural Gamma Waves - Ultra Deep Concentration\nAmplifocus\n5.6M\n9mo ago\n42:56\nAnki Tutorial: Everything You Need to Know\nNursing Without Notes\n4.2K\n2y ago\n21:24\nHow To Use Anki Like A Pro [Full Step-By-Step Walkthrough]\nTheMDJourney\n2.3M\n5y ago\nLIVE\nSoaking Worship Instrumental – Prayer, Devotional, Meditation and Relaxation | Alone With God\nDivine Rhythm\n351 watching\nLIVE\nTranquil Autumn Cafe Jazz - Smooth Jazz with Cozy Street Ambience & Birdsong for Work & Relaxation\nQuiet Autumn Jazz\n986 watching\n27:59\nIf You Have A Bad Memory, I’ll Help You Fix It In 28 Minutes\nJustin Sung\n814K\n5mo ago\n6:44\nHow to Make HIGH QUALITY Anki Flashcards With AI (Low Effort)\nJake Romm\n229K\n3y ago\n26:38\nThe ULTIMATE Sentence Mining Tutorial - How to make your own Anki cards\nRefold\n93K\n2y ago\n21:44\nNew\nAI Just Crossed the Terrifying Line - Now What?\nKurzgesagt – In a Nutshell\n16M\n4d ago\n \n \n \n \na1633b15d73114cd7c99a411 · browser_snapshot\n原始来源\n\n提供方：headed-chromium · 捕获：2026-10-10T02:06:34.693Z · 发布时间：日期未知 · 截图编号：5493cfd22f899981657e8659570fe6ac96f33b005ec0523fb2d96a88331b7ff5\n\nSG\nSkip navigation\nSign in\n0:02 / 18:02\nInstalling Anki\nMaster Anki in 18 Minutes | Full Step-By-Step Guide to Learn Anything\nColeLangs\n37.4K subscribers\nJoin\nSubscribe\n459\nShare\nSave\n12,127 views  Apr 26, 2024  #colelangs\nThe Only Anki Video You'll Ever Need. I'll teach you everything about Anki and making the best and most interactive flashcards anywhere. Once you finish watching this Anki tutorial, you'll be equipped to make your own amazing flashcards to learn anything in the world in less time.\n\nDownload Anki Here: https://apps.ankiweb.net/\nAnki Manual: https://docs.ankiweb.net/getting-star...\n\n📘Learning a language? Check out my book: https://a.co/d/hoLGHZP\n\n🟡CONNECT WITH ME🟡\n🎟Instagram:   / cole.langs  \n💻Discord:   / discord  \n\n⌛TIMESTAMPS\n0:00 Installing Anki\n0:16 Making and Styling Cards\n3:39 Card Types\n4:12 Type in the Answer Cards\n4:48 Cloze Cards\n5:50 Image Occlusion (Making Flashcards from Images)\n7:00 Decks\n7:38 How to get pre-made decks\n8:28 Deck Options\n9:50 Profiles\n10:18 Browser, Tags, and Flags\n13:04 Preferences\n13:20 Filtered Decks\n14:18 Stats\n15:20 Add-ons\n16:30 Fields and Cards Menus\n\n🎁TOOLS AND DISCOUNTS\n✅ 🔵35% off LingQ: https://rb.gy/qyn6xv\n✅ 🟩2 FREE Months of Fluent Forever: http://fluent-forever.com/cole\n✅ 🔶Get up to 55% off Babbel: https://babbel.sjv.io/zNdX1M\n\n⚖ DISCLOSURE\nSome links are affiliate links. Purchasing through these links gives me a small commission to support videos on this channel, at no additional cost to you.\n\n#colelangs\nHow this was made\nAuto-dubbed\nAudio tracks for some languages were automatically generated. Learn more\nChapters\nView all\nInstalling Anki\n0:00\nMaking and Styling Cards\n0:16\nCard Types\n3:39\nType in the Answer Cards\n4:12\nCloze Cards\n4:48\nImage Occlusion (Making Flashcards from Images)\n5:50\nDecks\n7:00\nHow to get pre-made decks\n7:38\nTranscript\n\nFollow along using the transcript.\n\nShow transcript\nColeLangs\n37.4K subscribers\nVideos\nAbout\nShow less\n\nComments\n \n \n \n \nTry Xero for free*\nSponsored\nxero.com\nLearn more\n18:31\nEvery Study Technique Explained in 18 Minutes\niCanStudy\n217K\n1mo ago\n23:04\nNew\nJack Doherty's Life Is Falling Apart\nInternet Anarchist\n229K\n4h ago\n32:38\nHow To Use Anki Like A Pro: Full Step-by-Step Walkthrough\nAlec Palmerton, MD\n55K\n1y ago\n14:02\nHow to Use Anki (Step-by-Step Tutorial for Beginners) | Become a Flashcard Pro Fast\nMelk Kunyu\n21K\n11mo ago\n6:29\nWastebasket - offline, distraction-free writing app for Mac\nMichael Verdi\n116\n2w ago\n16:59\nHow to Use Anki for Beginners!\nAlec Palmerton, MD\n62K\n5mo ago\n37:08\nAnki Setup for Language-Learning - Full Guide\nAmerican Accent Training with Meredith\n32K\n3mo ago\n3:49:59\nBeautiful Relaxing Music - Stop Overthinking, Stress Relief Music, Sleep Music, Calming Music #242\nInner Peace Look Inside\n17M\nStreamed 2y ago\n27:25\nNew\nIs Taipei About to Flip? Pao-yang Shen, Wanted by the CCP, Is One Step Away from the Mayor's Offi...\n公子沈 Terence Shen\n21K\n2h ago\n11:39\nHOW TO PASS ANY IT CERTIFICATION EXAM (3 Phase Approach)\nJosh Madakor\n89K\n5y ago\n20:32\nHow to use Anki like a PRO (by a Learning Expert)\nJustin Sung\n756K\n3y ago\n2:17:34\n40Hz Binaural Gamma Waves - Ultra Deep Concentration\nAmplifocus\n5.6M\n9mo ago\n42:56\nAnki Tutorial: Everything You Need to Know\nNursing Without Notes\n4.2K\n2y ago\n21:24\nHow To Use Anki Like A Pro [Full Step-By-Step Walkthrough]\nTheMDJourney\n2.3M\n5y ago\nLIVE\nSoaking Worship Instrumental – Prayer, Devotional, Meditation and Relaxation | Alone With God\nDivine Rhythm\n351 watching\nLIVE\nTranquil Autumn Cafe Jazz - Smooth Jazz with Cozy Street Ambience & Birdsong for Work & Relaxation\nQuiet Autumn Jazz\n986 watching\n27:59\nIf You Have A Bad Memory, I’ll Help You Fix It In 28 Minutes\nJustin Sung\n814K\n5mo ago\n6:44\nHow to Make HIGH QUALITY Anki Flashcards With AI (Low Effort)\nJake Romm\n229K\n3y ago\n26:38\nThe ULTIMATE Sentence Mining Tutorial - How to make your own Anki cards\nRefold\n93K\n2y ago\n21:44\nNew\nAI Just Crossed the Terrifying Line - Now What?\nKurzgesagt – In a Nutshell\n16M\n4d ago\n \n \n \n \nYouTube Premium\nGet YouTube without the ads\nTerms apply. Cancel anytime\nNo thanks\n1 month free\n6b00edd599a7aba83f1de75e · browser_snapshot\n原始来源\n\n提供方：headed-chromium · 捕获：2026-10-10T02:07:03.311Z · 发布时间：日期未知 · 截图编号：7f9f9d14a55f0047c2356462a5e6d2367ddf9094d6d4bb3552160e0b72652e6c\n\nSG\nSkip navigation\nSign in\n0:02 / 18:02\nMaking and Styling Cards\nMaster Anki in 18 Minutes | Full Step-By-Step Guide to Learn Anything\nColeLangs\n37.4K subscribers\nJoin\nSubscribe\n459\nShare\nSave\n12,127 views  Apr 26, 2024  #colelangs\nThe Only Anki Video You'll Ever Need. I'll teach you everything about Anki and making the best and most interactive flashcards anywhere. Once you finish watching this Anki tutorial, you'll be equipped to make your own amazing flashcards to learn anything in the world in less time.\n\nDownload Anki Here: https://apps.ankiweb.net/\nAnki Manual: https://docs.ankiweb.net/getting-star...\n\n📘Learning a language? Check out my book: https://a.co/d/hoLGHZP\n\n🟡CONNECT WITH ME🟡\n🎟Instagram:   / cole.langs  \n💻Discord:   / discord  \n\n⌛TIMESTAMPS\n0:00 Installing Anki\n0:16 Making and Styling Cards\n3:39 Card Types\n4:12 Type in the Answer Cards\n4:48 Cloze Cards\n5:50 Image Occlusion (Making Flashcards from Images)\n7:00 Decks\n7:38 How to get pre-made decks\n8:28 Deck Options\n9:50 Profiles\n10:18 Browser, Tags, and Flags\n13:04 Preferences\n13:20 Filtered Decks\n14:18 Stats\n15:20 Add-ons\n16:30 Fields and Cards Menus\n\n🎁TOOLS AND DISCOUNTS\n✅ 🔵35% off LingQ: https://rb.gy/qyn6xv\n✅ 🟩2 FREE Months of Fluent Forever: http://fluent-forever.com/cole\n✅ 🔶Get up to 55% off Babbel: https://babbel.sjv.io/zNdX1M\n\n⚖ DISCLOSURE\nSome links are affiliate links. Purchasing through these links gives me a small commission to support videos on this channel, at no additional cost to you.\n\n#colelangs\nHow this was made\nAuto-dubbed\nAudio tracks for some languages were automatically generated. Learn more\nChapters\nView all\nInstalling Anki\n0:00\nMaking and Styling Cards\n0:16\nCard Types\n3:39\nType in the Answer Cards\n4:12\nCloze Cards\n4:48\nImage Occlusion (Making Flashcards from Images)\n5:50\nDecks\n7:00\nHow to get pre-made decks\n7:38\nTranscript\n\nFollow along using the transcript.\n\nShow transcript\nColeLangs\n37.4K subscribers\nVideos\nAbout\nShow less\n\nComments\n \n \n \n \nIn this video\nChapters\nTranscript\n \n \n \n \nTry Xero for free*\nSponsored\nxero.com\nLearn more\n18:31\nEvery Study Technique Explained in 18 Minutes\niCanStudy\n217K\n1mo ago\n23:04\nNew\nJack Doherty's Life Is Falling Apart\nInternet Anarchist\n229K\n4h ago\n32:38\nHow To Use Anki Like A Pro: Full Step-by-Step Walkthrough\nAlec Palmerton, MD\n55K\n1y ago\n14:02\nHow to Use Anki (Step-by-Step Tutorial for Beginners) | Become a Flashcard Pro Fast\nMelk Kunyu\n21K\n11mo ago\n6:29\nWastebasket - offline, distraction-free writing app for Mac\nMichael Verdi\n116\n2w ago\n16:59\nHow to Use Anki for Beginners!\nAlec Palmerton, MD\n62K\n5mo ago\n37:08\nAnki Setup for Language-Learning - Full Guide\nAmerican Accent Training with Meredith\n32K\n3mo ago\n3:49:59\nBeautiful Relaxing Music - Stop Overthinking, Stress Relief Music, Sleep Music, Calming Music #242\nInner Peace Look Inside\n17M\nStreamed 2y ago\n27:25\nNew\nIs Taipei About to Flip? Pao-yang Shen, Wanted by the CCP, Is One Step Away from the Mayor's Offi...\n公子沈 Terence Shen\n21K\n2h ago\n11:39\nHOW TO PASS ANY IT CERTIFICATION EXAM (3 Phase Approach)\nJosh Madakor\n89K\n5y ago\n20:32\nHow to use Anki like a PRO (by a Learning Expert)\nJustin Sung\n756K\n3y ago\n2:17:34\n40Hz Binaural Gamma Waves - Ultra Deep Concentration\nAmplifocus\n5.6M\n9mo ago\n42:56\nAnki Tutorial: Everything You Need to Know\nNursing Without Notes\n4.2K\n2y ago\n21:24\nHow To Use Anki Like A Pro [Full Step-By-Step Walkthrough]\nTheMDJourney\n2.3M\n5y ago\nLIVE\nSoaking Worship Instrumental – Prayer, Devotional, Meditation and Relaxation | Alone With God\nDivine Rhythm\n351 watching\nLIVE\nTranquil Autumn Cafe Jazz - Smooth Jazz with Cozy Street Ambience & Birdsong for Work & Relaxation\nQuiet Autumn Jazz\n986 watching\n27:59\nIf You Have A Bad Memory, I’ll Help You Fix It In 28 Minutes\nJustin Sung\n814K\n5mo ago\n6:44\nHow to Make HIGH QUALITY Anki Flashcards With AI (Low Effort)\nJake Romm\n229K\n3y ago\n26:38\nThe ULTIMATE Sentence Mining Tutorial - How to make your own Anki cards\nRefold\n93K\n2y ago\n21:44\nNew\nAI Just Crossed the Terrifying Line - Now What?\nKurzgesagt – In a Nutshell\n16M\n4d ago\n \n \n \n \nYouTube Premium\nGet YouTube without the ads\nTerms apply. Cancel anytime\nNo thanks\n1 month free\n2f091009f3652e5316931e00 · browser_snapshot\n原始来源\n\n提供方：headed-chromium · 捕获：2026-10-10T02:07:16.789Z · 发布时间：日期未知 · 截图编号：5ce4fd2ee91ca22ba8aa8f42d4d217b27002ed54fa809d058ad0aeeabc0fcf5c\n\nSG\nSkip navigation\nSign in\nSomething went wrong. Refresh or try again later.\nLearn more\n0:45 / 18:02\nMaking and Styling Cards\nMaster Anki in 18 Minutes | Full Step-By-Step Guide to Learn Anything\nColeLangs\n37.4K subscribers\nJoin\nSubscribe\n459\nShare\nSave\n12,127 views  Apr 26, 2024  #colelangs\nThe Only Anki Video You'll Ever Need. I'll teach you everything about Anki and making the best and most interactive flashcards anywhere. Once you finish watching this Anki tutorial, you'll be equipped to make your own amazing flashcards to learn anything in the world in less time.\n\nDownload Anki Here: https://apps.ankiweb.net/\nAnki Manual: https://docs.ankiweb.net/getting-star...\n\n📘Learning a language? Check out my book: https://a.co/d/hoLGHZP\n\n🟡CONNECT WITH ME🟡\n🎟Instagram:   / cole.langs  \n💻Discord:   / discord  \n\n⌛TIMESTAMPS\n0:00 Installing Anki\n0:16 Making and Styling Cards\n3:39 Card Types\n4:12 Type in the Answer Cards\n4:48 Cloze Cards\n5:50 Image Occlusion (Making Flashcards from Images)\n7:00 Decks\n7:38 How to get pre-made decks\n8:28 Deck Options\n9:50 Profiles\n10:18 Browser, Tags, and Flags\n13:04 Preferences\n13:20 Filtered Decks\n14:18 Stats\n15:20 Add-ons\n16:30 Fields and Cards Menus\n\n🎁TOOLS AND DISCOUNTS\n✅ 🔵35% off LingQ: https://rb.gy/qyn6xv\n✅ 🟩2 FREE Months of Fluent Forever: http://fluent-forever.com/cole\n✅ 🔶Get up to 55% off Babbel: https://babbel.sjv.io/zNdX1M\n\n⚖ DISCLOSURE\nSome links are affiliate links. Purchasing through these links gives me a small commission to support videos on this channel, at no additional cost to you.\n\n#colelangs\nHow this was made\nAuto-dubbed\nAudio tracks for some languages were automatically generated. Learn more\nChapters\nView all\nInstalling Anki\n0:00\nMaking and Styling Cards\n0:16\nCard Types\n3:39\nType in the Answer Cards\n4:12\nCloze Cards\n4:48\nImage Occlusion (Making Flashcards from Images)\n5:50\nDecks\n7:00\nHow to get pre-made decks\n7:38\nTranscript\n\nFollow along using the transcript.\n\nShow transcript\nColeLangs\n37.4K subscribers\nVideos\nAbout\nShow less\n\n46 Comments\nSort by\nAdd a comment...\nPinned by @ColeLangs\n@ColeLangs\n2 years ago\nWhat are you using Anki for?\n9\nReply\n4 replies\n@يحيىبنعبدحسن\n4 months ago\nwe miss you buddy\n3\nReply\n@Lemonvn2\n6 months ago\nYo Cole hope your alive\n2\nReply\n@mathewwhitford5730\n2 years ago\nBest guide to anki on Youtube, no BS.\n7\nReply\n@NewJerseyTico\n11 months ago\nClear, concise, and to the point. Thanks.\nReply\n@rumadware\n2 years ago (edited)\nTo me with all those tools like Anki, Obsidian, mira etc the main struggle is to remember that I decided to use this tool to remember something\n8\nReply\n@mohdbashyar\n2 years ago\nThis is such a nice video bro it shows step by step as beginner how to use this app. I gave up Anki long time ago because it's too complicated, but now I'm willing to try again.\n3\nReply\n@asialoren1.7\n1 year ago\nProbably the best anki tutorial I've watched. Thank you!\nReply\n@Omnigreen\n2 years ago\nI heard before that Anki is awesome but this is even better!\n2\nReply\n@sonny5497\n1 year ago\nbest intro to anki  thanks a lot!\nReply\n@montreall6480\n1 year ago\nThanks for sharing\nReply\n@twixelon\n2 years ago\nThank you!   This was perfect!!\n1\nReply\n@virgils_reality\n2 years ago\nstraightforward and to the point! exactly the kind of tutorial I was looking for - thank you\nReply\n@ojasvitripathi\n2 years ago\nVery helpful tutorial.  Thanks \n1\nReply\n@eva5074\n2 years ago\nFinally an understandable video that explains every single thing! Every other tutorial I watched skipped so many things like the pin and card types\nReply\n@kuyajaypi\n2 years ago\nvery helpful guide! i have anki installed for years but never got into it. this is exactly what i needed :D\n3\nReply\n·\n1 reply\n@TheJuice432\n2 years ago\nThanks tovarich. I've been struggling to get used to Anki for Language Learning and this is a great explanation.\n1\nReply\n·\n1 reply\n@PeppyWasTaken\n2 years ago\nThank you for making the video, may God bless you :)\n1\nReply\n·\n1 reply\n@SB4F\n1 year ago\nI like how he said \"if you're watching this video then you're probably not wanting to see the HTML\". That's exactly why I started warching.\nReply\n@Hasan-oh7vl\n2 years ago\nLove ittt!!\nYou need a video editor bro?\nI can do a sample vid :)\nReply\n \n \n \n \nIn this video\nChapters\nTranscript\n \n \n \n \nTry Xero for free*\nSponsored\nxero.com\nLearn more\n18:31\nEvery Study Technique Explained in 18 Minutes\niCanStudy\n217K\n1mo ago\n23:04\nNew\nJack Doherty's Life Is Falling Apart\nInternet Anarchist\n229K\n4h ago\n32:38\nHow To Use Anki Like A Pro: Full Step-by-Step Walkthrough\nAlec Palmerton, MD\n55K\n1y ago\n14:02\nHow to Use Anki (Step-by-Step Tutorial for Beginners) | Become a Flashcard Pro Fast\nMelk Kunyu\n21K\n11mo ago\n6:29\nWastebasket - offline, distraction-free writing app for Mac\nMichael Verdi\n116\n2w ago\n16:59\nHow to Use Anki for Beginners!\nAlec Palmerton, MD\n62K\n5mo ago\n37:08\nAnki Setup for Language-Learning - Full Guide\nAmerican Accent Training with Meredith\n32K\n3mo ago\n3:49:59\nBeautiful Relaxing Music - Stop Overthinking, Stress Relief Music, Sleep Music, Calming Music #242\nInner Peace Look Inside\n17M\nStreamed 2y ago\n27:25\nNew\nIs Taipei About to Flip? Pao-yang Shen, Wanted by the CCP, Is One Step Away from the Mayor's Offi...\n公子沈 Terence Shen\n21K\n2h ago\n11:39\nHOW TO PASS ANY IT CERTIFICATION EXAM (3 Phase Approach)\nJosh Madakor\n89K\n5y ago\n20:32\nHow to use Anki like a PRO (by a Learning Expert)\nJustin Sung\n756K\n3y ago\n2:17:34\n40Hz Binaural Gamma Waves - Ultra Deep Concentration\nAmplifocus\n5.6M\n9mo ago\n42:56\nAnki Tutorial: Everything You Need to Know\nNursing Without Notes\n4.2K\n2y ago\n21:24\nHow To Use Anki Like A Pro [Full Step-By-Step Walkthrough]\nTheMDJourney\n2.3M\n5y ago\nLIVE\nSoaking Worship Instrumental – Prayer, Devotional, Meditation and Relaxation | Alone With God\nDivine Rhythm\n351 watching\nLIVE\nTranquil Autumn Cafe Jazz - Smooth Jazz with Cozy Street Ambience & Birdsong for Work & Relaxation\nQuiet Autumn Jazz\n986 watching\n27:59\nIf You Have A Bad Memory, I’ll Help You Fix It In 28 Minutes\nJustin Sung\n814K\n5mo ago\n6:44\nHow to Make HIGH QUALITY Anki Flashcards With AI (Low Effort)\nJake Romm\n229K\n3y ago\n26:38\nThe ULTIMATE Sentence Mining Tutorial - How to make your own Anki cards\nRefold\n93K\n2y ago\n21:44\nNew\nAI Just Crossed the Terrifying Line - Now What?\nKurzgesagt – In a Nutshell\n16M\n4d ago\n \n \n \n \nYouTube Premium\nGet YouTube without the ads\nTerms apply. Cancel anytime\nNo thanks\n1 month free\nWesley Anna · 待核实\n\nyoutube / wesleyanna / 粉丝 91.3K subscribers / 未知\n\n标签：Notion 与数字效率工具、个人成长与生活记录、轻松口语化文案、面向初学者、章节化组织、Notion 入门内容、模板配套内容\n\n画像 content_direction：Notion 与数字效率工具、个人成长与生活记录；频道展示 productivity, notion & tech、growth & development 及 vlogs 播放列表，且有本人 Notion 入门视频。；证据 dcf1c2d538669e7ff3546fda、5ad842b87badb2b84de81aae\n\n画像 presentation_style：轻松口语化文案、面向初学者、章节化组织；本人说明使用轻松口语及表情符号，明确面向 beginner，并提供时间戳章节；不据此推断视觉呈现。；证据 5ad842b87badb2b84de81aae\n\n画像 collaboration_format：Notion 入门内容、模板配套内容；已有入门视频附带本视频所制作模板与免费模板链接，支持这两种已有内容形式；未证实商业合作经历或课堂复习教程形式。；证据 5ad842b87badb2b84de81aae\n\n条件\t判断\t依据\n所在地区\t待核实\t未取得创作者地区\ncontent 日期未知\ncontent 2023-01-20T18:22:42-08:00\n平台\t符合要求\t创作者平台：youtube\n\n粉丝范围\t符合要求\t主页显示 91.3K subscribers；保守区间 91250–91349，要求 10000–100000\nbrowser_snapshot 日期未知\n公开内容使用英语\t符合要求\t频道公开帖子及所核验视频标题、简介均使用英语，例如“Today I have another video from my Notion series”。视频页面显示发布日期为2023年1月21日。\nbrowser_snapshot 日期未知\nbrowser_snapshot 日期未知\n公开文字内容须提供AI工具或数字学习效率工具的实际教学教程，明确呈现具体操作步骤；仅有概括讲解、展示或评测不满足条件\t待核实\t2023年1月21日的Notion入门视频简介称教授搭建布局，章节包括03:25“3...2...1...build!”和12:17技巧，但这些文字未呈现具体操作步骤。已尝试打开文字稿，未加载出正文，播放器随后报错；不能仅凭教程标题、章节或提供方概括判定满足实际分步教学。\nbrowser_snapshot 日期未知\nbrowser_snapshot 日期未知\nbrowser_snapshot 日期未知\n公开文字教程必须明确展示将工具用于课堂笔记或考试复习的具体步骤，至少涉及其中一种用途；仅提及用途而无具体步骤不满足条件\t待核实\t已读取的公开视频简介与章节未展示课堂笔记或考试复习的具体步骤；提供方仅概括学生模板资源，不能证明此必选条件。文字稿正文未能加载，尚不足以确定创作者是否有符合用途的教程。\nbrowser_snapshot 日期未知\ncontent 2023-01-20T18:22:42-08:00\nbrowser_snapshot 日期未知\n公开内容明确面向大学学习场景或大学生受众，不推断创作者本人学生身份\t待核实\t所核验频道文字与视频简介未明确面向大学生或大学学习场景。“Notion University”在简介中是创作者的Notion工作区课程名称，不能据此推断大学受众；页面大学/医学生相关推荐视频属于其他频道，不能归于此候选。\nbrowser_snapshot 日期未知\nbrowser_snapshot 日期未知\n完整证据映射与截图\n4bc6430c102a2a4ea23ae0f3 · content\n原始来源\n\n提供方：tikhub · 捕获：2026-10-10T02:05:44.133Z · 发布时间：日期未知\n\nChannel reads 91.3K subscribers, 147 videos, country United States, with Notion template links. Evidence ID ev_51247b7e.\n7b0b7e9a9cdd92ca0499ba85 · content\n原始来源\n\n提供方：tikhub · 捕获：2026-10-10T02:05:44.133Z · 发布时间：2023-01-20T18:22:42-08:00\n\nTimestamped Notion beginner walkthrough covering workspaces and beginner tips, plus student template resources. Evidence ID ev_37a75581.\n53255d17c10112d35a860bee · browser_snapshot\n原始来源\n\n提供方：headed-chromium · 捕获：2026-10-10T02:08:04.224Z · 发布时间：日期未知 · 截图编号：22ed3657216e816b93ea8043a691799b57e6cb4d2e7a59786dcced3eec3c079e\n\ndcf1c2d538669e7ff3546fda · browser_snapshot\n原始来源\n\n提供方：headed-chromium · 捕获：2026-10-10T02:08:10.812Z · 发布时间：日期未知 · 截图编号：4eb7fb8eab995c0059a2a14c40d5a1037341e28cb3cd68136e9995d8cc3d0f80\n\nSG\nSkip navigation\nSign in\nHome\nShorts\nSubscriptions\nYou\nHistory\nSign in to like videos, comment, and subscribe.\nSign in\nExplore\nMusic\nMovies\nGaming\nShow more\nMore from YouTube\nYouTube Premium\nYouTube Kids\nReport history\nAboutPressCopyrightContact usCreatorsAdvertiseDevelopers\nTermsPrivacyPolicy & SafetyHow YouTube worksTest new features\n© 2026 Google LLC\nWesley Anna\n@WesleyAnna\n•\n91.3K subscribers\n•\n147 videos\njust trying to make the internet fun again  ʕ•́ᴥ•̀ʔっ \n...more\n wesleyanna.gumroad.com/l/ultimate-notion-dashboard\nand 5 more links\nSubscribe\nHome\nVideos\nPlaylists\nPosts\nVideos\n12:18\nmy channel was hacked (what happened & how i got it back)\n7.1K\n1d ago\n17:54\ni built myself a home on the internet ‎🪐 ✩˚₊‧\n22K\n2w ago\n30:03\nhow i organize the chaos in my head (2026 capacities tour)\n11K\n4w ago\n12:17\nanti-AI is the new virtue signal\n5.2K\n1mo ago\n13:54\nso...i flew to seoul to get work done 😬\n2.8K\n2mo ago\n24:57\ni was wrong about kyoto 🍵 japan vlog\n2.3K\n2mo ago\nbest of wes (ง •̀_•́)ง\nPlay all\n16:06\nhow to get started in notion *without losing your mind* | notion for beginners\nWesley Anna\n4.3M\n3y ago\n11:52\nhow to get your life together\nWesley Anna\n9.8K\n3y ago\n22:28\nnyc vlog | 🌱 new beginnings, creating routines, unpacking from abroad\nWesley Anna\n29K\n2y ago\n13:26\nturning 30 in LA 🫰🏼 | disney, universal, korean spa, kbbq\nWesley Anna\n1.6K\n3y ago\n18:02\nthe end of the \"9-to-5\" & the future of work\nWesley Anna\n94K\n2y ago\n16:59\ni booked a one-way ticket to tokyo | japan vlog 2024\nWesley Anna\n9.9K\n2y ago\nMultiple playlists\n74 videos\nvlogs (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧\nWesley Anna\nPlaylist\nView full playlist\n14 videos\nchatty stuff ☕ ͜ (◍´ᴗ｀◍)\nWesley Anna\nPlaylist\nUpdated yesterday\nView full playlist\n25 videos\nproductivity, notion & tech (๑˘ᵕ˘)\nWesley Anna\nPlaylist\nView full playlist\n13 videos\ngrowth & development ໒(⊙ᴗ⊙)७✎▤\nWesley Anna\nPlaylist\nView full playlist\n14 videos\nfilms (◕ㅅ◕✿)\nWesley Anna\nPlaylist\nView full playlist\nPosts\nWesley Anna\n•\n4 days ago\ndoes never revisiting your saved content (posts, videos, or bookmarks) bother you?\n89 votes\nVote now\n7\n2\nWesley Anna\n•\n4 months ago\nこんにちは! officially back from our dizzying & delicious 3 weeks in japan/korea. my original plans to dive back into work this week have been somewhat thwarted by a power outage/family duties/jet lag (ok and maybe a weee bit too much pokopia..) i have been making an effort over the last few years to give myself some grace during life's big transitions. i hope you'll be patient with me as i take this week to rest & reset! i have SO much content from this trip that i'm excited to share!! but first up will be a very special NYC vlog. catch me in the editing cave this summer... 🙂‍↕️🤝🏼\n62\nWesley Anna\n•\n5 months ago\nwhere are you at with vibe coding/building with AI?\n365 votes\nVote now\n9\n4\nWesley Anna\n•\n6 months ago\nhappy friday friends!! 🌾 this week's video will be delayed, i've been in a 72 hr editing hole trying to wrap-up a documentary i filmed two years ago for another channel that my husband and i run (do you really have ADHD if you don't put something off for years and then fall into a weeklong hyper-focus spiral just to get it done??). might share with u when it's finished, it's a story worth sharing and i'm very proud of the final result :,)! anyway, trying to get this week's vlog out by monday so stayed tuned~ MUWAH! *P.S. here's a cute pic of my dog in the meantime\n70\n1\nWesley Anna\n•\n7 months ago\none of my goals this year has been to find a go-to video format that feels sustainable, joyful, and (most importantly) fun for you to watch! which type of video do you want to see more of from me? thanks to everyone who’s been patient with me as i experiment 🥲🤍\n192 votes\nVote now\n15\n3\nWesley Anna\n•\n7 months ago\nspent the last week in southern GA visiting the old man 🚜🌾 new video coming very soon!\n51\n3\n2bbdd998b60f16e1a9ced81c · browser_snapshot\n原始来源\n\n提供方：headed-chromium · 捕获：2026-10-10T02:08:37.005Z · 发布时间：日期未知 · 截图编号：d01dbba1cb90f34c64ec6e75c0f7a34130eb17cebd87b9057157d88cb404db0b\n\n0:00 / 16:05\necf42243a1b8c54d5f5efd86 · browser_snapshot\n原始来源\n\n提供方：headed-chromium · 捕获：2026-10-10T02:08:47.137Z · 发布时间：日期未知 · 截图编号：f1fd04ae9d0d5f567aedf07528e96d1452d3eafc2588253e28097fe19b7416ca\n\nSG\nSkip navigation\nSign in\n0:03 / 16:05\nyou can skip i'm not offended\nhow to get started in notion *without losing your mind* | notion for beginners\nWesley Anna\n91.3K subscribers\nSubscribe\n131K\nShare\nSave\n4.3M views  3y ago\nToday I have another video from my Notion series, but this time we're focusing on how to get started as a beginner! I  know it can be très ~overwhelming~ when opening Notion for the first time (so many beautiful templates! so many cool widgets!) but I wanted to prove that building your own layout doesn't have to take as much time as you'd think. …\nmore\n\nComments\n \n \n \n \n2:00:07\n50/10 Pomodoro Timer with Brown Noise 🎧 2-Hour Study with Me for Deep Focus & ADHD ✨\nTimer Palette\n963K\n7mo ago\n18:23\nhow i organize my life & stay productive💡notion tour + free template\ndobochobo\n1.2M\n5y ago\n25:29\nthe ULTIMATE Notion tour | how I organize my life as a med student\nSab Yang\n919K\n3y ago\n21:33\nthe ULTIMATE guide to learning notion in 2026 🌱 step-by-step tutorial for beginners\nPatrisha Dictado\n339K\n1y ago\n38:05\nThe Easiest NOTION Tutorial for Beginners | A Step-by-Step Guide\nSab Yang\n857K\n3y ago\n9:49\nHow to organize your ENTIRE LIFE in 10 minutes as a student | FREE Notion template + full tutorial)\nfayefilms\n158K\n6mo ago\nLIVE\nTranquil Autumn Jazz On A Cozy Bookstore Street - Soft Jazz For Work, Reading & Restoring Balance\nTranquil Solitude Jazz\n461 watching\n6:34\nNotion for Beginners (2026): Learn the Basics in 6 Minutes | Complete Starter Guide\nProductivity Daily\n385\n2mo ago\n30:52\nNotion Tutorial for Beginners\nKevin Stratvert\n1.7M\n3y ago\n13:08\nHow to get ahead of 99% of students THIS school year\nAmy Wang\n436K\n1mo ago\n1:00:17\nthe *ultimate* guide to making your notion aesthetic\nWesley Anna\n178K\n2y ago\nLIVE\nTiempo con Dios 24/7 | Música Instrumental para Orar y Descansar\nPiano con Dios\n298 watching\n14:51\nHow I make $10,000 a month as a STUDENT (and how you can too) 💸\nfayefilms\n2.5M\n10mo ago\n17:46\nBecome a Notion Expert in 20 minutes | Notion Tutorial for Beginners (Full Guide)\nProductive Setups\n783K\n1y ago\n20:41\nＺｅｌｄａｗａｖｅ\nMarble Pawns\n7.2M\n9y ago\n11:31\nhow i organize university/school with notion | notion tour for students\nKai Notebook\n450K\n4y ago\n33:22\nBuild A HIGHLY PRODUCTIVE Notion Dashboard From Scratch - Beginner Notion Tutorial\nCreative Cove\n246K\n2y ago\n15:38\nHow to Get Started in Notion (for beginners) 💻🧠\nFlourish Planner\n50K\n1y ago\n17:40\nHow To Master Notion In 2026: 5 Steps To 10x Your Productivity\n二一的笔记\n16K\n8mo ago\n42:36\nHow Important are Leitmotifs in Deltarune?\nKazooCat\n540K\n5mo ago\n \n \n \n \n5ad842b87badb2b84de81aae · browser_snapshot\n原始来源\n\n提供方：headed-chromium · 捕获：2026-10-10T02:09:00.967Z · 发布时间：日期未知 · 截图编号：ffa308515cc9c8185674a75cfca9fb02c77909e20c1c06cc964ea149ee9588ab\n\nSG\nSkip navigation\nSign in\n0:03 / 16:05\nyou can skip i'm not offended\nhow to get started in notion *without losing your mind* | notion for beginners\nWesley Anna\n91.3K subscribers\nSubscribe\n131K\nShare\nSave\n4,342,203 views  Jan 21, 2023\nToday I have another video from my Notion series, but this time we're focusing on how to get started as a beginner! I  know it can be très ~overwhelming~ when opening Notion for the first time (so many beautiful templates! so many cool widgets!) but I wanted to prove that building your own layout doesn't have to take as much time as you'd think.\n\n00:00 you can skip i'm not offended\n01:44 what is notion, really?\n03:25 3...2...1...build!\n12:17 cheeky tips (ง •̀_•́)ง\n\n✨ n o t i o n  t e m p l a t e s ✨ \n\n🐸 Eat the Frog Notion Game Template! https://wesleyanna.gumroad.com/l/eat-...\n\nThe template made in this video (as well as the rest of my free templates) can be found here: https://affiliate.notion.so/wesleyanna\n\nIf you're a Notion power user (AKA an organizational freak of nature like me!) then you might want to jumpstart your Notion journey with the Ultimate Notion Dashboard system: https://wesleyanna.gumroad.com/l/ulti...\n\n✨ n o t i o n  u n i v e r s i t y ✨ \n\nTired of templates and want something custom tailored to your needs? Learn how to design your own personalized workspace in Notion from the ground up with Notion University!\nhttp://notionuniversity.wesleyanna.com/\n\n✨ n e w s l e t t e r ✨\n\nSign-up for exclusive access to my most intimate thoughts and life updates hehe:\nhttps://wesleyanna.substack.com/\n\n✨ r e s o u r c e s ✨ \n\nReading recs: https://www.amazon.com/shop/wesleyann...\nMy desk set-up: bit.ly/3zekZpZ\nMy filming equipment: amzn.to/3KfAB1F\nSkillshare class: https://www.skillshare.com/en/classes...\n\n✨ f i n d   m e ✨ \n\nIG:   / itswesleyanna  \nTiktok:   / itswesleyanna  \nPinterest:   / wannatiner  \nWebsite: https://wesleyanna.com/\nHow this was made\nAuto-dubbed\nAudio tracks for some languages were automatically generated. Learn more\nChapters\nView all\nyou can skip i'm not offended\n0:00\nwhat is notion, really?\n1:44\n3...2...1...build!\n3:25\ncheeky tips (ง •̀_•́)ง\n12:17\nTranscript\n\nFollow along using the transcript.\n\nShow transcript\nWesley Anna\n91.3K subscribers\nVideos\nAbout\nInstagram\nTikTok\nmy *slightly insane* plan for 2023 | notion goal setting\nby Wesley Anna\nUltimate Dashboard 2023\nClick to view\nShow less\n\nComments\n \n \n \n \n2:00:07\n50/10 Pomodoro Timer with Brown Noise 🎧 2-Hour Study with Me for Deep Focus & ADHD ✨\nTimer Palette\n963K\n7mo ago\n18:23\nhow i organize my life & stay productive💡notion tour + free template\ndobochobo\n1.2M\n5y ago\n25:29\nthe ULTIMATE Notion tour | how I organize my life as a med student\nSab Yang\n919K\n3y ago\n21:33\nthe ULTIMATE guide to learning notion in 2026 🌱 step-by-step tutorial for beginners\nPatrisha Dictado\n339K\n1y ago\n38:05\nThe Easiest NOTION Tutorial for Beginners | A Step-by-Step Guide\nSab Yang\n857K\n3y ago\n9:49\nHow to organize your ENTIRE LIFE in 10 minutes as a student | FREE Notion template + full tutorial)\nfayefilms\n158K\n6mo ago\nLIVE\nTranquil Autumn Jazz On A Cozy Bookstore Street - Soft Jazz For Work, Reading & Restoring Balance\nTranquil Solitude Jazz\n461 watching\n6:34\nNotion for Beginners (2026): Learn the Basics in 6 Minutes | Complete Starter Guide\nProductivity Daily\n385\n2mo ago\n30:52\nNotion Tutorial for Beginners\nKevin Stratvert\n1.7M\n3y ago\n13:08\nHow to get ahead of 99% of students THIS school year\nAmy Wang\n436K\n1mo ago\n1:00:17\nthe *ultimate* guide to making your notion aesthetic\nWesley Anna\n178K\n2y ago\nLIVE\nTiempo con Dios 24/7 | Música Instrumental para Orar y Descansar\nPiano con Dios\n298 watching\n14:51\nHow I make $10,000 a month as a STUDENT (and how you can too) 💸\nfayefilms\n2.5M\n10mo ago\n17:46\nBecome a Notion Expert in 20 minutes | Notion Tutorial for Beginners (Full Guide)\nProductive Setups\n783K\n1y ago\n20:41\nＺｅｌｄａｗａｖｅ\nMarble Pawns\n7.2M\n9y ago\n11:31\nhow i organize university/school with notion | notion tour for students\nKai Notebook\n450K\n4y ago\n33:22\nBuild A HIGHLY PRODUCTIVE Notion Dashboard From Scratch - Beginner Notion Tutorial\nCreative Cove\n246K\n2y ago\n15:38\nHow to Get Started in Notion (for beginners) 💻🧠\nFlourish Planner\n50K\n1y ago\n17:40\nHow To Master Notion In 2026: 5 Steps To 10x Your Productivity\n二一的笔记\n16K\n8mo ago\n42:36\nHow Important are Leitmotifs in Deltarune?\nKazooCat\n540K\n5mo ago\n \n \n \n \n8a798fd5d20e19cee16b0fe1 · browser_snapshot\n原始来源\n\n提供方：headed-chromium · 捕获：2026-10-10T02:09:20.105Z · 发布时间：日期未知 · 截图编号：4c1560b778b312d28e812f399f94b6925d645b4026cb6761f757e741c293634f\n\nSG\nSkip navigation\nSign in\n0:03 / 16:05\nyou can skip i'm not offended\nhow to get started in notion *without losing your mind* | notion for beginners\nWesley Anna\n91.3K subscribers\nSubscribe\n131K\nShare\nSave\n4,342,203 views  Jan 21, 2023\nToday I have another video from my Notion series, but this time we're focusing on how to get started as a beginner! I  know it can be très ~overwhelming~ when opening Notion for the first time (so many beautiful templates! so many cool widgets!) but I wanted to prove that building your own layout doesn't have to take as much time as you'd think.\n\n00:00 you can skip i'm not offended\n01:44 what is notion, really?\n03:25 3...2...1...build!\n12:17 cheeky tips (ง •̀_•́)ง\n\n✨ n o t i o n  t e m p l a t e s ✨ \n\n🐸 Eat the Frog Notion Game Template! https://wesleyanna.gumroad.com/l/eat-...\n\nThe template made in this video (as well as the rest of my free templates) can be found here: https://affiliate.notion.so/wesleyanna\n\nIf you're a Notion power user (AKA an organizational freak of nature like me!) then you might want to jumpstart your Notion journey with the Ultimate Notion Dashboard system: https://wesleyanna.gumroad.com/l/ulti...\n\n✨ n o t i o n  u n i v e r s i t y ✨ \n\nTired of templates and want something custom tailored to your needs? Learn how to design your own personalized workspace in Notion from the ground up with Notion University!\nhttp://notionuniversity.wesleyanna.com/\n\n✨ n e w s l e t t e r ✨\n\nSign-up for exclusive access to my most intimate thoughts and life updates hehe:\nhttps://wesleyanna.substack.com/\n\n✨ r e s o u r c e s ✨ \n\nReading recs: https://www.amazon.com/shop/wesleyann...\nMy desk set-up: bit.ly/3zekZpZ\nMy filming equipment: amzn.to/3KfAB1F\nSkillshare class: https://www.skillshare.com/en/classes...\n\n✨ f i n d   m e ✨ \n\nIG:   / itswesleyanna  \nTiktok:   / itswesleyanna  \nPinterest:   / wannatiner  \nWebsite: https://wesleyanna.com/\nHow this was made\nAuto-dubbed\nAudio tracks for some languages were automatically generated. Learn more\nChapters\nView all\nyou can skip i'm not offended\n0:00\nwhat is notion, really?\n1:44\n3...2...1...build!\n3:25\ncheeky tips (ง •̀_•́)ง\n12:17\nTranscript\n\nFollow along using the transcript.\n\nShow transcript\nWesley Anna\n91.3K subscribers\nVideos\nAbout\nInstagram\nTikTok\nmy *slightly insane* plan for 2023 | notion goal setting\nby Wesley Anna\nUltimate Dashboard 2023\nClick to view\nShow less\n\nComments\n \n \n \n \nIn this video\nChapters\nTranscript\n \n \n \n \n2:00:07\n50/10 Pomodoro Timer with Brown Noise 🎧 2-Hour Study with Me for Deep Focus & ADHD ✨\nTimer Palette\n963K\n7mo ago\n18:23\nhow i organize my life & stay productive💡notion tour + free template\ndobochobo\n1.2M\n5y ago\n25:29\nthe ULTIMATE Notion tour | how I organize my life as a med student\nSab Yang\n919K\n3y ago\n21:33\nthe ULTIMATE guide to learning notion in 2026 🌱 step-by-step tutorial for beginners\nPatrisha Dictado\n339K\n1y ago\n38:05\nThe Easiest NOTION Tutorial for Beginners | A Step-by-Step Guide\nSab Yang\n857K\n3y ago\n9:49\nHow to organize your ENTIRE LIFE in 10 minutes as a student | FREE Notion template + full tutorial)\nfayefilms\n158K\n6mo ago\nLIVE\nTranquil Autumn Jazz On A Cozy Bookstore Street - Soft Jazz For Work, Reading & Restoring Balance\nTranquil Solitude Jazz\n461 watching\n6:34\nNotion for Beginners (2026): Learn the Basics in 6 Minutes | Complete Starter Guide\nProductivity Daily\n385\n2mo ago\n30:52\nNotion Tutorial for Beginners\nKevin Stratvert\n1.7M\n3y ago\n13:08\nHow to get ahead of 99% of students THIS school year\nAmy Wang\n436K\n1mo ago\n1:00:17\nthe *ultimate* guide to making your notion aesthetic\nWesley Anna\n178K\n2y ago\nLIVE\nTiempo con Dios 24/7 | Música Instrumental para Orar y Descansar\nPiano con Dios\n298 watching\n14:51\nHow I make $10,000 a month as a STUDENT (and how you can too) 💸\nfayefilms\n2.5M\n10mo ago\n17:46\nBecome a Notion Expert in 20 minutes | Notion Tutorial for Beginners (Full Guide)\nProductive Setups\n783K\n1y ago\n20:41\nＺｅｌｄａｗａｖｅ\nMarble Pawns\n7.2M\n9y ago\n11:31\nhow i organize university/school with notion | notion tour for students\nKai Notebook\n450K\n4y ago\n33:22\nBuild A HIGHLY PRODUCTIVE Notion Dashboard From Scratch - Beginner Notion Tutorial\nCreative Cove\n246K\n2y ago\n15:38\nHow to Get Started in Notion (for beginners) 💻🧠\nFlourish Planner\n50K\n1y ago\n17:40\nHow To Master Notion In 2026: 5 Steps To 10x Your Productivity\n二一的笔记\n16K\n8mo ago\n42:36\nHow Important are Leitmotifs in Deltarune?\nKazooCat\n540K\n5mo ago\n \n \n \n \n27a4382abe9c3f1705232047 · browser_snapshot\n原始来源\n\n提供方：headed-chromium · 捕获：2026-10-10T02:09:55.210Z · 发布时间：日期未知 · 截图编号：d04a7249677b39e440b07b37b94b024d20cbc9cfa2e4909a67b9dec9223035a1\n\nSG\nSkip navigation\nSign in\nSomething went wrong. Refresh or try again later.\nLearn more\n0:42 / 16:05\nyou can skip i'm not offended\nhow to get started in notion *without losing your mind* | notion for beginners\nWesley Anna\n91.3K subscribers\nSubscribe\n131K\nShare\nSave\n4,342,203 views  Jan 21, 2023\nToday I have another video from my Notion series, but this time we're focusing on how to get started as a beginner! I  know it can be très ~overwhelming~ when opening Notion for the first time (so many beautiful templates! so many cool widgets!) but I wanted to prove that building your own layout doesn't have to take as much time as you'd think.\n\n00:00 you can skip i'm not offended\n01:44 what is notion, really?\n03:25 3...2...1...build!\n12:17 cheeky tips (ง •̀_•́)ง\n\n✨ n o t i o n  t e m p l a t e s ✨ \n\n🐸 Eat the Frog Notion Game Template! https://wesleyanna.gumroad.com/l/eat-...\n\nThe template made in this video (as well as the rest of my free templates) can be found here: https://affiliate.notion.so/wesleyanna\n\nIf you're a Notion power user (AKA an organizational freak of nature like me!) then you might want to jumpstart your Notion journey with the Ultimate Notion Dashboard system: https://wesleyanna.gumroad.com/l/ulti...\n\n✨ n o t i o n  u n i v e r s i t y ✨ \n\nTired of templates and want something custom tailored to your needs? Learn how to design your own personalized workspace in Notion from the ground up with Notion University!\nhttp://notionuniversity.wesleyanna.com/\n\n✨ n e w s l e t t e r ✨\n\nSign-up for exclusive access to my most intimate thoughts and life updates hehe:\nhttps://wesleyanna.substack.com/\n\n✨ r e s o u r c e s ✨ \n\nReading recs: https://www.amazon.com/shop/wesleyann...\nMy desk set-up: bit.ly/3zekZpZ\nMy filming equipment: amzn.to/3KfAB1F\nSkillshare class: https://www.skillshare.com/en/classes...\n\n✨ f i n d   m e ✨ \n\nIG:   / itswesleyanna  \nTiktok:   / itswesleyanna  \nPinterest:   / wannatiner  \nWebsite: https://wesleyanna.com/\nHow this was made\nAuto-dubbed\nAudio tracks for some languages were automatically generated. Learn more\nChapters\nView all\nyou can skip i'm not offended\n0:00\nwhat is notion, really?\n1:44\n3...2...1...build!\n3:25\ncheeky tips (ง •̀_•́)ง\n12:17\nTranscript\n\nFollow along using the transcript.\n\nShow transcript\nWesley Anna\n91.3K subscribers\nVideos\nAbout\nInstagram\nTikTok\n16:00\nmy *slightly insane* plan for 2023 | notion goal setting\nby Wesley Anna\nUltimate Dashboard 2023\nClick to view\nShow less\n\nComments\n \n \n \n \nIn this video\nChapters\nTranscript\n \n \n \n \n2:00:07\n50/10 Pomodoro Timer with Brown Noise 🎧 2-Hour Study with Me for Deep Focus & ADHD ✨\nTimer Palette\n963K\n7mo ago\n18:23\nhow i organize my life & stay productive💡notion tour + free template\ndobochobo\n1.2M\n5y ago\n25:29\nthe ULTIMATE Notion tour | how I organize my life as a med student\nSab Yang\n919K\n3y ago\n21:33\nthe ULTIMATE guide to learning notion in 2026 🌱 step-by-step tutorial for beginners\nPatrisha Dictado\n339K\n1y ago\n38:05\nThe Easiest NOTION Tutorial for Beginners | A Step-by-Step Guide\nSab Yang\n857K\n3y ago\n9:49\nHow to organize your ENTIRE LIFE in 10 minutes as a student | FREE Notion template + full tutorial)\nfayefilms\n158K\n6mo ago\nLIVE\nTranquil Autumn Jazz On A Cozy Bookstore Street - Soft Jazz For Work, Reading & Restoring Balance\nTranquil Solitude Jazz\n461 watching\n6:34\nNotion for Beginners (2026): Learn the Basics in 6 Minutes | Complete Starter Guide\nProductivity Daily\n385\n2mo ago\n30:52\nNotion Tutorial for Beginners\nKevin Stratvert\n1.7M\n3y ago\n13:08\nHow to get ahead of 99% of students THIS school year\nAmy Wang\n436K\n1mo ago\n1:00:17\nthe *ultimate* guide to making your notion aesthetic\nWesley Anna\n178K\n2y ago\nLIVE\nTiempo con Dios 24/7 | Música Instrumental para Orar y Descansar\nPiano con Dios\n298 watching\n14:51\nHow I make $10,000 a month as a STUDENT (and how you can too) 💸\nfayefilms\n2.5M\n10mo ago\n17:46\nBecome a Notion Expert in 20 minutes | Notion Tutorial for Beginners (Full Guide)\nProductive Setups\n783K\n1y ago\n20:41\nＺｅｌｄａｗａｖｅ\nMarble Pawns\n7.2M\n9y ago\n11:31\nhow i organize university/school with notion | notion tour for students\nKai Notebook\n450K\n4y ago\n33:22\nBuild A HIGHLY PRODUCTIVE Notion Dashboard From Scratch - Beginner Notion Tutorial\nCreative Cove\n246K\n2y ago\n15:38\nHow to Get Started in Notion (for beginners) 💻🧠\nFlourish Planner\n50K\n1y ago\n17:40\nHow To Master Notion In 2026: 5 Steps To 10x Your Productivity\n二一的笔记\n16K\n8mo ago\n42:36\nHow Important are Leitmotifs in Deltarune?\nKazooCat\n540K\n5mo ago\n \n \n \n "
+  },
+  "chatLinks": [
+    {
+      "label": "tylerlcrawford、valstechtalkk 原报告",
+      "href": "/api/reports/research-d22f5bc3f9c80da1a4979ca5"
+    },
+    {
+      "label": "SchoolHabits、raytubelcsw 原报告",
+      "href": "/api/reports/research-fd88375f69e716ff5cbc9fef"
+    },
+    {
+      "label": "colelangs、wesleyanna 原报告",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-a333d174361fcf1bed6c0698"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-a333d174361fcf1bed6c0698?format=csv"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-010f8c5e484e38738b2b3640"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-010f8c5e484e38738b2b3640?format=csv"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-58949888b306ad726d60be23"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-58949888b306ad726d60be23?format=csv"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-5e4db1193ded213e791cd417"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-5e4db1193ded213e791cd417?format=csv"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-6b62fedb31c94ffb3dfd83b8"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-6b62fedb31c94ffb3dfd83b8?format=csv"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-7df22029caef61df6134e885"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-7df22029caef61df6134e885?format=csv"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-bcebf909d61af9519dc124f3"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-bcebf909d61af9519dc124f3?format=csv"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-a5b580b3d9a62868bf773f08"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-a5b580b3d9a62868bf773f08?format=csv"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-d22f5bc3f9c80da1a4979ca5"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-d22f5bc3f9c80da1a4979ca5?format=csv"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-fd88375f69e716ff5cbc9fef"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-fd88375f69e716ff5cbc9fef?format=csv"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc?format=csv"
+    },
+    {
+      "label": "查看报告",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc?format=csv"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc?format=csv"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc?format=csv"
+    },
+    {
+      "label": "查看更新后的报告",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc"
+    },
+    {
+      "label": "查看已保存报告",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc"
+    },
+    {
+      "label": "查看报告",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc?format=csv"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc?format=csv"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc?format=csv"
+    },
+    {
+      "label": "查看更新后的报告",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-d22f5bc3f9c80da1a4979ca5"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-d22f5bc3f9c80da1a4979ca5?format=csv"
+    },
+    {
+      "label": "查看更新后的报告",
+      "href": "/api/reports/research-d22f5bc3f9c80da1a4979ca5"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-fd88375f69e716ff5cbc9fef"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-fd88375f69e716ff5cbc9fef?format=csv"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc?format=csv"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-fd88375f69e716ff5cbc9fef"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-fd88375f69e716ff5cbc9fef?format=csv"
+    },
+    {
+      "label": "查看更新后的报告",
+      "href": "/api/reports/research-fd88375f69e716ff5cbc9fef"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc?format=csv"
+    },
+    {
+      "label": "查看更新后的报告",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc"
+    },
+    {
+      "label": "原报告",
+      "href": "/api/reports/research-d22f5bc3f9c80da1a4979ca5"
+    },
+    {
+      "label": "CSV 导出",
+      "href": "/api/reports/research-d22f5bc3f9c80da1a4979ca5?format=csv"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-d22f5bc3f9c80da1a4979ca5"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-d22f5bc3f9c80da1a4979ca5?format=csv"
+    },
+    {
+      "label": "查看更新后的报告",
+      "href": "/api/reports/research-d22f5bc3f9c80da1a4979ca5"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-a183b9437d676713c0f2812f"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-a183b9437d676713c0f2812f?format=csv"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-deadf97a7b6138ba6d316943"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-deadf97a7b6138ba6d316943?format=csv"
+    },
+    {
+      "label": "查看原报告",
+      "href": "/api/reports/research-d22f5bc3f9c80da1a4979ca5"
+    },
+    {
+      "label": "查看报告",
+      "href": "/api/reports/research-d22f5bc3f9c80da1a4979ca5"
+    },
+    {
+      "label": "查看报告",
+      "href": "/api/reports/research-fd88375f69e716ff5cbc9fef"
+    },
+    {
+      "label": "查看报告",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc"
+    },
+    {
+      "label": "查看本次综合报告",
+      "href": "/api/work-batches/32fde236-b5e4-4605-bdc8-13d54916c825/report"
+    },
+    {
+      "label": "下载综合 CSV",
+      "href": "/api/work-batches/32fde236-b5e4-4605-bdc8-13d54916c825/report?format=csv"
+    }
+  ],
+  "gfmTables": 12,
+  "finishedAt": "2026-10-10T11:01:06.750Z"
+}

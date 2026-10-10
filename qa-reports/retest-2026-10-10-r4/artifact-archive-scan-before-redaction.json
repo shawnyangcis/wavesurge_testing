@@ -1,0 +1,28 @@
+{
+  "archiveFilesOrEmbeddedArchives": 1,
+  "archiveMembersChecked": 5,
+  "credentialExposures": [
+    {
+      "file": "acceptance/browser-reports/creator-studio-retest-r4-20261010-second/index.html::embedded-zip::db02bec54e34b72d22a6.json",
+      "scope": "creator-studio-retest-r4-20261010-second",
+      "kind": "admin"
+    },
+    {
+      "file": "acceptance/browser-reports/creator-studio-retest-r4-20261010-second/index.html::embedded-zip::752b471a939fb00c199e.json",
+      "scope": "creator-studio-retest-r4-20261010-second",
+      "kind": "admin"
+    },
+    {
+      "file": "acceptance/browser-reports/creator-studio-retest-r4-20261010-second/index.html::embedded-zip::a14fdc57fadb5e2a2fc0.json",
+      "scope": "creator-studio-retest-r4-20261010-second",
+      "kind": "admin"
+    },
+    {
+      "file": "acceptance/browser-reports/creator-studio-retest-r4-20261010-second/index.html::embedded-zip::d4ee3251b4daed9dd2ef.json",
+      "scope": "creator-studio-retest-r4-20261010-second-persistence",
+      "kind": "admin"
+    }
+  ],
+  "scopeCount": 5,
+  "includesRetainedAcceptanceVolumeBootstrapSecrets": true
+}

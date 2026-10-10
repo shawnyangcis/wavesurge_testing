@@ -1,0 +1,45 @@
+{
+  "source": "real production UI + configured LLM + live WaveSurge free API",
+  "task": {
+    "id": "research-a333d174361fcf1bed6c0698",
+    "title": "Instagram 科技创作者筛选（加拿大或美国）",
+    "status": "running",
+    "requested": 2,
+    "evaluated": 0,
+    "matched": 0,
+    "updatedAt": 1791568956262,
+    "detail": "搜索已提交，等待 WaveSurge 返回候选",
+    "remoteId": "24b86cb6-354f-45ac-b5a6-d98c90e8a541",
+    "nextPollAt": 1791569016262
+  },
+  "calls": [
+    {
+      "id": "c9ccd386-cef6-4cbc-b9ba-45f11f998651",
+      "kind": "wavesurge",
+      "createdAt": 1791568955898,
+      "path": "/creator-search/requests",
+      "method": "POST",
+      "request": {
+        "requestId": "research-a333d174361fcf1bed6c0698",
+        "personaText": "寻找 2 位 Instagram 科技内容创作者，创作者所在地为 Canada 或 United States，粉丝数 10,000 至 100,000（含边界）。分享科技内容为必选文字条件；没有视觉条件，无邮箱要求。最多搜索并核验 4 位候选。仅检索与核验，不进行任何外联。",
+        "count": 4,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [
+          "Canada",
+          "United States"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "emailReadyRequired": false
+      },
+      "status": 201,
+      "response": {
+        "taskId": "24b86cb6-354f-45ac-b5a6-d98c90e8a541"
+      },
+      "finishedAt": 1791568956259
+    }
+  ],
+  "startedAt": 1791568948619
+}

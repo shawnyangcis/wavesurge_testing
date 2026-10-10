@@ -1,0 +1,17 @@
+{
+  "atUtc": "2026-10-09T14:22:26.958528+00:00",
+  "method": "GET",
+  "path": "/creator-search/requests/16a57ca6-521f-4843-8bb2-a3eccbd1a7ff",
+  "authMode": "cookie",
+  "status": 200,
+  "elapsedSeconds": 0.678,
+  "contentType": "application/json; charset=utf-8",
+  "responseSha256": "676908957475898df49e008e7a6f84498d478b66cdf60428d916fc0bb41785c3",
+  "response": {
+    "status": "running",
+    "strategyOperationId": null,
+    "creators": [],
+    "alsoFound": [],
+    "expectedDurationHours": 5
+  }
+}

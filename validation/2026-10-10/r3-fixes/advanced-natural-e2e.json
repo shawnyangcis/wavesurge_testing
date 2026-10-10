@@ -1,0 +1,825 @@
+{
+  "source": "natural goal interaction, actual configured model and production UI/worker/headed browser; Wave discovery and creator pages are explicit controlled fixtures",
+  "first": "可以，我们先一起确定方案，**暂不启动创作者搜索**。\n\n针对「耳机 Campaign 1791636392258」，已明确：\n- **产品**：降噪耳机\n- **受众**：大学生\n- **目标**：提升产品认知、促进推荐转化\n\n建议先讨论以下 3 类 Creator，具体配额等范围确定后再定：\n\n| 建议类型 | 内容切入点 | 对目标的作用 |\n|---|---|---|\n| 耳机／音频测评创作者 | 降噪效果、佩戴舒适度、音质及同价位对比 | 解释产品优势，帮助购买决策 |\n| 校园生活／学习创作者 | 图书馆自习、宿舍、通勤等真实使用场景 | 让大学生理解“为什么我需要它” |\n| 个人消费者型 KOC | 真实体验、学生预算下的选购心得 | 增强推荐可信度，推动转化；需核验为个人而非品牌或店铺账号 |\n\n这只是类型建议，不是已经确认的筛选条件。先请你补充 4 点，暂时没有答案也可以说“请你建议”：\n\n1. **产品信息**：品牌／型号、售价、主要卖点是什么？是否有购买链接、优惠码或学生优惠？\n2. **市场与平台**：面向哪个国家或地区的大学生？倾向 Instagram、TikTok、YouTube 还是 X？\n3. **合作规模**：预计合作多少位 Creator？有无合作预算、粉丝量偏好？合作预算与研究候选数量会分开设定。\n4. **优先级与限制**：更偏重认知还是转化？是否要求 Creator 本人是在校大学生，或有语言、内容风格等限制？\n\n你回复后，我会整理成 **2–4 类 Creator 的分组草案**，列明每组理由、人数、筛选范围、必选条件、偏好及候选分析上限，供你确认后再执行。",
+  "draft": {
+    "title": "耳机 Campaign 1791636392258",
+    "goal": "推广降噪耳机，提升大学生受众的产品认知和推荐转化。",
+    "audience": "大学生",
+    "groups": [
+      {
+        "id": "tech_headphones",
+        "rationale": "通过科技与耳机内容解释降噪、佩戴体验及产品差异，帮助大学生理解产品价值并支持选购决策。",
+        "spec": {
+          "title": "科技耳机内容创作者",
+          "personaText": "Technology and headphone content creators",
+          "count": 1,
+          "platforms": [
+            "youtube"
+          ],
+          "regions": [
+            "United States"
+          ],
+          "minFollowers": 10000,
+          "maxFollowers": 100000,
+          "candidateBudget": 2,
+          "verificationMode": "auto",
+          "criteria": [
+            {
+              "id": "technology_content",
+              "label": "公开内容包含科技内容",
+              "required": true,
+              "basis": "text"
+            },
+            {
+              "id": "headphone_content",
+              "label": "公开内容包含耳机相关内容",
+              "required": true,
+              "basis": "text"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "content_direction",
+              "label": "实际内容方向"
+            },
+            {
+              "id": "content_style",
+              "label": "实际内容风格"
+            }
+          ]
+        },
+        "matched": 0,
+        "eligible": 0
+      },
+      {
+        "id": "study_productivity",
+        "rationale": "通过面向学习效率的公开内容连接大学生学习场景与降噪耳机使用需求，增强场景认知与推荐相关性；不要求创作者本人是在读大学生。",
+        "spec": {
+          "title": "大学生学习效率内容创作者",
+          "personaText": "Study productivity and learning efficiency content creators",
+          "count": 1,
+          "platforms": [
+            "youtube"
+          ],
+          "regions": [
+            "United States"
+          ],
+          "minFollowers": 10000,
+          "maxFollowers": 100000,
+          "candidateBudget": 2,
+          "verificationMode": "auto",
+          "criteria": [
+            {
+              "id": "study_efficiency_content",
+              "label": "公开内容面向学习效率；不要求创作者本人为在读大学生",
+              "required": true,
+              "basis": "text"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "content_direction",
+              "label": "实际内容方向"
+            },
+            {
+              "id": "content_style",
+              "label": "实际内容风格"
+            }
+          ]
+        },
+        "matched": 0,
+        "eligible": 0
+      }
+    ],
+    "id": "campaign-69f14446ca689eeb9fc1b375",
+    "revision": 1,
+    "childTaskIds": [],
+    "createdAt": 1791636427246,
+    "updatedAt": 1791636427246,
+    "status": "draft",
+    "requested": 2,
+    "matched": 0,
+    "qualifyingUnique": 0,
+    "evaluated": 0,
+    "selections": [],
+    "reportUrl": "/api/campaigns/campaign-69f14446ca689eeb9fc1b375/report",
+    "results": []
+  },
+  "final": {
+    "title": "耳机 Campaign 1791636392258",
+    "goal": "推广降噪耳机，提升大学生受众的产品认知和推荐转化。",
+    "audience": "大学生",
+    "groups": [
+      {
+        "id": "tech_headphones",
+        "rationale": "通过科技与耳机内容解释降噪、佩戴体验及产品差异，帮助大学生理解产品价值并支持选购决策。",
+        "spec": {
+          "title": "科技耳机内容创作者",
+          "personaText": "Technology and headphone content creators",
+          "count": 1,
+          "platforms": [
+            "youtube"
+          ],
+          "regions": [
+            "United States"
+          ],
+          "minFollowers": 10000,
+          "maxFollowers": 100000,
+          "candidateBudget": 2,
+          "verificationMode": "auto",
+          "criteria": [
+            {
+              "id": "technology_content",
+              "label": "公开内容包含科技内容",
+              "required": true,
+              "basis": "text"
+            },
+            {
+              "id": "headphone_content",
+              "label": "公开内容包含耳机相关内容",
+              "required": true,
+              "basis": "text"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "content_direction",
+              "label": "实际内容方向"
+            },
+            {
+              "id": "content_style",
+              "label": "实际内容风格"
+            }
+          ]
+        },
+        "taskId": "research-25821d6557c3d4af89ef8cdf",
+        "matched": 1,
+        "eligible": 2
+      },
+      {
+        "id": "study_productivity",
+        "rationale": "通过面向学习效率的公开内容连接大学生学习场景与降噪耳机使用需求，增强场景认知与推荐相关性；不要求创作者本人是在读大学生。",
+        "spec": {
+          "title": "大学生学习效率内容创作者",
+          "personaText": "Study productivity and learning efficiency content creators",
+          "count": 1,
+          "platforms": [
+            "youtube"
+          ],
+          "regions": [
+            "United States"
+          ],
+          "minFollowers": 10000,
+          "maxFollowers": 100000,
+          "candidateBudget": 2,
+          "verificationMode": "auto",
+          "criteria": [
+            {
+              "id": "study_efficiency_content",
+              "label": "公开内容面向学习效率；不要求创作者本人为在读大学生",
+              "required": true,
+              "basis": "text"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "content_direction",
+              "label": "实际内容方向"
+            },
+            {
+              "id": "content_style",
+              "label": "实际内容风格"
+            }
+          ]
+        },
+        "taskId": "research-cf5aaa5892abde910dcba8f5",
+        "matched": 1,
+        "eligible": 1
+      }
+    ],
+    "id": "campaign-69f14446ca689eeb9fc1b375",
+    "revision": 1,
+    "childTaskIds": [
+      "research-25821d6557c3d4af89ef8cdf",
+      "research-cf5aaa5892abde910dcba8f5"
+    ],
+    "createdAt": 1791636427246,
+    "updatedAt": 1791636428356,
+    "status": "completed",
+    "requested": 2,
+    "matched": 2,
+    "qualifyingUnique": 2,
+    "evaluated": 4,
+    "selections": [
+      {
+        "creatorId": "youtube:http://wave-fixture:8087/creator/alice",
+        "groupId": "study_productivity",
+        "resultId": "research-cf5aaa5892abde910dcba8f5|youtube:http://wave-fixture:8087/creator/alice"
+      },
+      {
+        "creatorId": "youtube:http://wave-fixture:8087/creator/bob",
+        "groupId": "tech_headphones",
+        "resultId": "research-25821d6557c3d4af89ef8cdf|youtube:http://wave-fixture:8087/creator/bob"
+      }
+    ],
+    "reportUrl": "/api/campaigns/campaign-69f14446ca689eeb9fc1b375/report",
+    "results": [
+      {
+        "id": "research-25821d6557c3d4af89ef8cdf|youtube:http://wave-fixture:8087/creator/alice",
+        "taskId": "research-25821d6557c3d4af89ef8cdf",
+        "creator": {
+          "id": "youtube:http://wave-fixture:8087/creator/alice",
+          "platform": "youtube",
+          "handle": "",
+          "profileUrl": "http://wave-fixture:8087/creator/alice",
+          "displayName": "受控夹具 alice",
+          "followers": null,
+          "region": null,
+          "evidence": [
+            {
+              "id": "41a22cd5e0b68893a736f301",
+              "url": "http://wave-fixture:8087/creator/alice",
+              "text": "这是受控验收账号，公开主页供真实浏览器核验。不是 WaveSurge 实际发现的社交账号。",
+              "kind": "profile",
+              "provider": "qa-controlled-fixture",
+              "publishedAt": null,
+              "capturedAt": 1791636428363
+            },
+            {
+              "id": "689e0ab622512aff46e3b33b",
+              "url": "http://wave-fixture:8087/creator/alice",
+              "kind": "browser_snapshot",
+              "text": "Alice — controlled test creator, NOT a real social account\n\n20.4K subscribers\n\nLocation: United States\n\nTechnology tutorials, productivity tools and student study workflows.\n\nCHIP / CIRCUIT BOARD / HEADPHONES\n\nOriginal public technology tutorial, published October 9, 2026. Explains processors and noise cancellation.\n\nPresentation style: clear step-by-step teacher explanation, everyday casual clothing. There is no evidence of geek fashion.\n\nSTUDY WORKFLOW / NOTION / POMODORO\n\nOriginal public study efficiency tutorial, published October 8, 2026. For university students: organize lecture notes and assignment deadlines in Notion, use a 25-minute Pomodoro focus block, then test recall with flashcards to reduce distracted study time. Demonstrates the complete study planning workflow step by step.\n\nPresentation style: practical teacher explanation and on-screen productivity walkthrough.",
+              "provider": "headed-chromium",
+              "publishedAt": null,
+              "capturedAt": 1791636429210,
+              "assetId": "d02348d0feab0652ea9e9e80942e6458e9a7a0dd928403052ec77013bed99a12"
+            }
+          ],
+          "raw": {
+            "platform": "youtube",
+            "profileUrl": "http://wave-fixture:8087/creator/alice",
+            "displayName": "受控夹具 alice",
+            "followerCount": null,
+            "region": null,
+            "evidence": [
+              {
+                "url": "http://wave-fixture:8087/creator/alice",
+                "kind": "profile",
+                "provider": "qa-controlled-fixture",
+                "text": "这是受控验收账号，公开主页供真实浏览器核验。不是 WaveSurge 实际发现的社交账号。"
+              }
+            ],
+            "fixture": true
+          },
+          "facts": {
+            "conflicts": [],
+            "followers": {
+              "min": 20350,
+              "max": 20499,
+              "rawValue": "20.4K subscribers",
+              "evidenceIds": [
+                "689e0ab622512aff46e3b33b"
+              ]
+            },
+            "country": {
+              "code": "US",
+              "rawValue": "Location: United States",
+              "evidenceIds": [
+                "689e0ab622512aff46e3b33b"
+              ]
+            }
+          }
+        },
+        "judgments": [
+          {
+            "criterionId": "__region",
+            "verdict": "match",
+            "reason": "本人主页所在地声明：Location: United States",
+            "evidenceIds": [
+              "689e0ab622512aff46e3b33b"
+            ],
+            "label": "所在地区"
+          },
+          {
+            "criterionId": "__platform",
+            "verdict": "match",
+            "reason": "创作者平台：youtube",
+            "evidenceIds": [],
+            "label": "平台"
+          },
+          {
+            "criterionId": "__followers",
+            "verdict": "match",
+            "reason": "主页显示 20.4K subscribers；保守区间 20350–20499，要求 10000–100000",
+            "evidenceIds": [
+              "689e0ab622512aff46e3b33b",
+              "41a22cd5e0b68893a736f301"
+            ],
+            "label": "粉丝范围"
+          },
+          {
+            "criterionId": "technology_content",
+            "verdict": "match",
+            "reason": "公开页面列出科技教程；2026年10月9日教程明确讲解处理器与降噪，支持包含科技内容。该页面为受控测试资料，并非真实社交账号。",
+            "evidenceIds": [
+              "689e0ab622512aff46e3b33b"
+            ],
+            "label": "公开内容包含科技内容"
+          },
+          {
+            "criterionId": "headphone_content",
+            "verdict": "match",
+            "reason": "2026年10月9日公开教程标题包含 HEADPHONES，说明文字包含 noise cancellation，支持耳机相关内容。该页面为受控测试资料。",
+            "evidenceIds": [
+              "689e0ab622512aff46e3b33b"
+            ],
+            "label": "公开内容包含耳机相关内容"
+          }
+        ],
+        "verdict": "match",
+        "annotations": [
+          {
+            "dimensionId": "content_direction",
+            "status": "supported",
+            "values": [
+              "科技教程",
+              "生产力工具",
+              "学生学习工作流",
+              "耳机与降噪"
+            ],
+            "reason": "主页简介及2026年10月9日、10月8日教程文字分别涉及处理器、耳机降噪以及 Notion、番茄钟和学习规划。",
+            "evidenceIds": [
+              "689e0ab622512aff46e3b33b"
+            ]
+          },
+          {
+            "dimensionId": "content_style",
+            "status": "supported",
+            "values": [
+              "分步骤教学",
+              "实用讲解",
+              "屏幕操作演示"
+            ],
+            "reason": "页面文字明确描述 clear step-by-step teacher explanation、practical teacher explanation 和 on-screen productivity walkthrough；这里依据文字描述，不声称已观看视频。",
+            "evidenceIds": [
+              "689e0ab622512aff46e3b33b"
+            ]
+          }
+        ],
+        "tags": [
+          "科技教程",
+          "生产力工具",
+          "学生学习工作流",
+          "耳机与降噪",
+          "分步骤教学",
+          "实用讲解",
+          "屏幕操作演示"
+        ],
+        "revision": 1,
+        "updatedAt": 1791636442599,
+        "selected": true
+      },
+      {
+        "id": "research-25821d6557c3d4af89ef8cdf|youtube:http://wave-fixture:8087/creator/bob",
+        "taskId": "research-25821d6557c3d4af89ef8cdf",
+        "creator": {
+          "id": "youtube:http://wave-fixture:8087/creator/bob",
+          "platform": "youtube",
+          "handle": "",
+          "profileUrl": "http://wave-fixture:8087/creator/bob",
+          "displayName": "受控夹具 bob",
+          "followers": null,
+          "region": null,
+          "evidence": [
+            {
+              "id": "b1a3964a29cd07793976f609",
+              "url": "http://wave-fixture:8087/creator/bob",
+              "text": "这是受控验收账号，公开主页供真实浏览器核验。不是 WaveSurge 实际发现的社交账号。",
+              "kind": "profile",
+              "provider": "qa-controlled-fixture",
+              "publishedAt": null,
+              "capturedAt": 1791636428363
+            },
+            {
+              "id": "f47dc69bad8860a40482ee5d",
+              "url": "http://wave-fixture:8087/creator/bob",
+              "kind": "browser_snapshot",
+              "text": "Bob — controlled test creator, NOT a real social account\n\n67.6K subscribers\n\nLocation: United States\n\nTechnology education and headphone reviews.\n\nCHIP / CIRCUIT BOARD / HEADPHONES\n\nOriginal public technology tutorial, published October 9, 2026. Explains processors and noise cancellation.\n\nPresentation style: detailed geek technology enthusiast tutorials and gadget demonstrations.",
+              "provider": "headed-chromium",
+              "publishedAt": null,
+              "capturedAt": 1791636442783,
+              "assetId": "d3dfe79cb4c5b36d6299632981ca7a9cf8acd03a8fa79e79c57cb306b11f666c"
+            }
+          ],
+          "raw": {
+            "platform": "youtube",
+            "profileUrl": "http://wave-fixture:8087/creator/bob",
+            "displayName": "受控夹具 bob",
+            "followerCount": null,
+            "region": null,
+            "evidence": [
+              {
+                "url": "http://wave-fixture:8087/creator/bob",
+                "kind": "profile",
+                "provider": "qa-controlled-fixture",
+                "text": "这是受控验收账号，公开主页供真实浏览器核验。不是 WaveSurge 实际发现的社交账号。"
+              }
+            ],
+            "fixture": true
+          },
+          "facts": {
+            "conflicts": [],
+            "followers": {
+              "min": 67550,
+              "max": 67699,
+              "rawValue": "67.6K subscribers",
+              "evidenceIds": [
+                "f47dc69bad8860a40482ee5d"
+              ]
+            },
+            "country": {
+              "code": "US",
+              "rawValue": "Location: United States",
+              "evidenceIds": [
+                "f47dc69bad8860a40482ee5d"
+              ]
+            }
+          }
+        },
+        "judgments": [
+          {
+            "criterionId": "__region",
+            "verdict": "match",
+            "reason": "本人主页所在地声明：Location: United States",
+            "evidenceIds": [
+              "f47dc69bad8860a40482ee5d"
+            ],
+            "label": "所在地区"
+          },
+          {
+            "criterionId": "__platform",
+            "verdict": "match",
+            "reason": "创作者平台：youtube",
+            "evidenceIds": [],
+            "label": "平台"
+          },
+          {
+            "criterionId": "__followers",
+            "verdict": "match",
+            "reason": "主页显示 67.6K subscribers；保守区间 67550–67699，要求 10000–100000",
+            "evidenceIds": [
+              "f47dc69bad8860a40482ee5d",
+              "b1a3964a29cd07793976f609"
+            ],
+            "label": "粉丝范围"
+          },
+          {
+            "criterionId": "technology_content",
+            "verdict": "match",
+            "reason": "公开页面写明“Technology education”，并展示科技教程文字“CHIP / CIRCUIT BOARD / HEADPHONES”，说明讲解处理器与降噪；页面标示发布日期为2026年10月9日。该来源为受控测试主页，非真实社交账号。",
+            "evidenceIds": [
+              "f47dc69bad8860a40482ee5d"
+            ],
+            "label": "公开内容包含科技内容"
+          },
+          {
+            "criterionId": "headphone_content",
+            "verdict": "match",
+            "reason": "公开页面明确写明“headphone reviews”，教程标题包含“HEADPHONES”，内容说明涉及降噪，支持包含耳机相关内容。该来源为受控测试主页，非真实社交账号。",
+            "evidenceIds": [
+              "f47dc69bad8860a40482ee5d"
+            ],
+            "label": "公开内容包含耳机相关内容"
+          }
+        ],
+        "verdict": "match",
+        "annotations": [
+          {
+            "dimensionId": "content_direction",
+            "status": "supported",
+            "values": [
+              "科技教育",
+              "耳机评测",
+              "处理器与降噪技术讲解"
+            ],
+            "reason": "主页简介和公开教程文字直接支持这些内容方向。",
+            "evidenceIds": [
+              "f47dc69bad8860a40482ee5d"
+            ]
+          },
+          {
+            "dimensionId": "content_style",
+            "status": "supported",
+            "values": [
+              "详细技术教程",
+              "科技爱好者风格",
+              "数码产品演示"
+            ],
+            "reason": "页面明确描述为“detailed geek technology enthusiast tutorials and gadget demonstrations”；风格依据页面文字，未独立观看视频。",
+            "evidenceIds": [
+              "f47dc69bad8860a40482ee5d"
+            ]
+          }
+        ],
+        "tags": [
+          "科技教育",
+          "耳机评测",
+          "处理器与降噪技术讲解",
+          "详细技术教程",
+          "科技爱好者风格",
+          "数码产品演示"
+        ],
+        "revision": 1,
+        "updatedAt": 1791636456610,
+        "selected": false
+      },
+      {
+        "id": "research-cf5aaa5892abde910dcba8f5|youtube:http://wave-fixture:8087/creator/alice",
+        "taskId": "research-cf5aaa5892abde910dcba8f5",
+        "creator": {
+          "id": "youtube:http://wave-fixture:8087/creator/alice",
+          "platform": "youtube",
+          "handle": "",
+          "profileUrl": "http://wave-fixture:8087/creator/alice",
+          "displayName": "受控夹具 alice",
+          "followers": null,
+          "region": null,
+          "evidence": [
+            {
+              "id": "41a22cd5e0b68893a736f301",
+              "url": "http://wave-fixture:8087/creator/alice",
+              "text": "这是受控验收账号，公开主页供真实浏览器核验。不是 WaveSurge 实际发现的社交账号。",
+              "kind": "profile",
+              "provider": "qa-controlled-fixture",
+              "publishedAt": null,
+              "capturedAt": 1791636456620
+            },
+            {
+              "id": "ded6e6eae5a81cecd0b783a2",
+              "url": "http://wave-fixture:8087/creator/alice",
+              "kind": "browser_snapshot",
+              "text": "Alice — controlled test creator, NOT a real social account\n\n20.4K subscribers\n\nLocation: United States\n\nTechnology tutorials, productivity tools and student study workflows.\n\nCHIP / CIRCUIT BOARD / HEADPHONES\n\nOriginal public technology tutorial, published October 9, 2026. Explains processors and noise cancellation.\n\nPresentation style: clear step-by-step teacher explanation, everyday casual clothing. There is no evidence of geek fashion.\n\nSTUDY WORKFLOW / NOTION / POMODORO\n\nOriginal public study efficiency tutorial, published October 8, 2026. For university students: organize lecture notes and assignment deadlines in Notion, use a 25-minute Pomodoro focus block, then test recall with flashcards to reduce distracted study time. Demonstrates the complete study planning workflow step by step.\n\nPresentation style: practical teacher explanation and on-screen productivity walkthrough.",
+              "provider": "headed-chromium",
+              "publishedAt": null,
+              "capturedAt": 1791636456831,
+              "assetId": "d02348d0feab0652ea9e9e80942e6458e9a7a0dd928403052ec77013bed99a12"
+            }
+          ],
+          "raw": {
+            "platform": "youtube",
+            "profileUrl": "http://wave-fixture:8087/creator/alice",
+            "displayName": "受控夹具 alice",
+            "followerCount": null,
+            "region": null,
+            "evidence": [
+              {
+                "url": "http://wave-fixture:8087/creator/alice",
+                "kind": "profile",
+                "provider": "qa-controlled-fixture",
+                "text": "这是受控验收账号，公开主页供真实浏览器核验。不是 WaveSurge 实际发现的社交账号。"
+              }
+            ],
+            "fixture": true
+          },
+          "facts": {
+            "conflicts": [],
+            "followers": {
+              "min": 20350,
+              "max": 20499,
+              "rawValue": "20.4K subscribers",
+              "evidenceIds": [
+                "ded6e6eae5a81cecd0b783a2"
+              ]
+            },
+            "country": {
+              "code": "US",
+              "rawValue": "Location: United States",
+              "evidenceIds": [
+                "ded6e6eae5a81cecd0b783a2"
+              ]
+            }
+          }
+        },
+        "judgments": [
+          {
+            "criterionId": "__region",
+            "verdict": "match",
+            "reason": "本人主页所在地声明：Location: United States",
+            "evidenceIds": [
+              "ded6e6eae5a81cecd0b783a2"
+            ],
+            "label": "所在地区"
+          },
+          {
+            "criterionId": "__platform",
+            "verdict": "match",
+            "reason": "创作者平台：youtube",
+            "evidenceIds": [],
+            "label": "平台"
+          },
+          {
+            "criterionId": "__followers",
+            "verdict": "match",
+            "reason": "主页显示 20.4K subscribers；保守区间 20350–20499，要求 10000–100000",
+            "evidenceIds": [
+              "ded6e6eae5a81cecd0b783a2",
+              "41a22cd5e0b68893a736f301"
+            ],
+            "label": "粉丝范围"
+          },
+          {
+            "criterionId": "study_efficiency_content",
+            "verdict": "match",
+            "reason": "主页文字列出2026年10月8日的学习效率教程，明确面向大学生，讲解用 Notion 整理课堂笔记与作业截止日期、25分钟番茄钟及闪卡回忆练习以减少分心，并逐步演示学习规划流程；满足公开内容面向学习效率的条件，无需证明本人在读。该页面明确为受控测试资料，非真实社交账号。",
+            "evidenceIds": [
+              "ded6e6eae5a81cecd0b783a2"
+            ],
+            "label": "公开内容面向学习效率；不要求创作者本人为在读大学生"
+          }
+        ],
+        "verdict": "match",
+        "annotations": [
+          {
+            "dimensionId": "content_direction",
+            "status": "supported",
+            "values": [
+              "学习效率与学习规划",
+              "生产力工具",
+              "科技教程"
+            ],
+            "reason": "主页介绍及教程文字涵盖学生学习流程、Notion、番茄钟、闪卡，以及处理器与降噪技术。",
+            "evidenceIds": [
+              "ded6e6eae5a81cecd0b783a2"
+            ]
+          },
+          {
+            "dimensionId": "content_style",
+            "status": "supported",
+            "values": [
+              "分步骤教学",
+              "实用操作演示"
+            ],
+            "reason": "页面文字明确描述逐步教师式讲解及屏幕上的生产力工作流程演示；此为文字支持的风格，不推断人物外观。",
+            "evidenceIds": [
+              "ded6e6eae5a81cecd0b783a2"
+            ]
+          }
+        ],
+        "tags": [
+          "学习效率与学习规划",
+          "生产力工具",
+          "科技教程",
+          "分步骤教学",
+          "实用操作演示"
+        ],
+        "revision": 1,
+        "updatedAt": 1791636470978,
+        "selected": true
+      },
+      {
+        "id": "research-cf5aaa5892abde910dcba8f5|youtube:http://wave-fixture:8087/creator/bob",
+        "taskId": "research-cf5aaa5892abde910dcba8f5",
+        "creator": {
+          "id": "youtube:http://wave-fixture:8087/creator/bob",
+          "platform": "youtube",
+          "handle": "",
+          "profileUrl": "http://wave-fixture:8087/creator/bob",
+          "displayName": "受控夹具 bob",
+          "followers": null,
+          "region": null,
+          "evidence": [
+            {
+              "id": "b1a3964a29cd07793976f609",
+              "url": "http://wave-fixture:8087/creator/bob",
+              "text": "这是受控验收账号，公开主页供真实浏览器核验。不是 WaveSurge 实际发现的社交账号。",
+              "kind": "profile",
+              "provider": "qa-controlled-fixture",
+              "publishedAt": null,
+              "capturedAt": 1791636456620
+            },
+            {
+              "id": "8504c77ade5bc659b681a467",
+              "url": "http://wave-fixture:8087/creator/bob",
+              "kind": "browser_snapshot",
+              "text": "Bob — controlled test creator, NOT a real social account\n\n67.6K subscribers\n\nLocation: United States\n\nTechnology education and headphone reviews.\n\nCHIP / CIRCUIT BOARD / HEADPHONES\n\nOriginal public technology tutorial, published October 9, 2026. Explains processors and noise cancellation.\n\nPresentation style: detailed geek technology enthusiast tutorials and gadget demonstrations.",
+              "provider": "headed-chromium",
+              "publishedAt": null,
+              "capturedAt": 1791636471153,
+              "assetId": "d3dfe79cb4c5b36d6299632981ca7a9cf8acd03a8fa79e79c57cb306b11f666c"
+            }
+          ],
+          "raw": {
+            "platform": "youtube",
+            "profileUrl": "http://wave-fixture:8087/creator/bob",
+            "displayName": "受控夹具 bob",
+            "followerCount": null,
+            "region": null,
+            "evidence": [
+              {
+                "url": "http://wave-fixture:8087/creator/bob",
+                "kind": "profile",
+                "provider": "qa-controlled-fixture",
+                "text": "这是受控验收账号，公开主页供真实浏览器核验。不是 WaveSurge 实际发现的社交账号。"
+              }
+            ],
+            "fixture": true
+          },
+          "facts": {
+            "conflicts": [],
+            "followers": {
+              "min": 67550,
+              "max": 67699,
+              "rawValue": "67.6K subscribers",
+              "evidenceIds": [
+                "8504c77ade5bc659b681a467"
+              ]
+            },
+            "country": {
+              "code": "US",
+              "rawValue": "Location: United States",
+              "evidenceIds": [
+                "8504c77ade5bc659b681a467"
+              ]
+            }
+          }
+        },
+        "judgments": [
+          {
+            "criterionId": "__region",
+            "verdict": "match",
+            "reason": "本人主页所在地声明：Location: United States",
+            "evidenceIds": [
+              "8504c77ade5bc659b681a467"
+            ],
+            "label": "所在地区"
+          },
+          {
+            "criterionId": "__platform",
+            "verdict": "match",
+            "reason": "创作者平台：youtube",
+            "evidenceIds": [],
+            "label": "平台"
+          },
+          {
+            "criterionId": "__followers",
+            "verdict": "match",
+            "reason": "主页显示 67.6K subscribers；保守区间 67550–67699，要求 10000–100000",
+            "evidenceIds": [
+              "8504c77ade5bc659b681a467",
+              "b1a3964a29cd07793976f609"
+            ],
+            "label": "粉丝范围"
+          },
+          {
+            "criterionId": "study_efficiency_content",
+            "verdict": "no_match",
+            "reason": "主页明确内容方向为科技教育与耳机评测；2026年10月9日公开教程讲解处理器和降噪技术，并非学习效率或学习方法内容。",
+            "evidenceIds": [
+              "8504c77ade5bc659b681a467"
+            ],
+            "label": "公开内容面向学习效率；不要求创作者本人为在读大学生"
+          }
+        ],
+        "verdict": "no_match",
+        "annotations": [
+          {
+            "dimensionId": "content_direction",
+            "status": "supported",
+            "values": [
+              "科技教育",
+              "耳机评测",
+              "处理器与降噪技术讲解"
+            ],
+            "reason": "主页介绍及公开教程文字直接支持这些内容方向。",
+            "evidenceIds": [
+              "8504c77ade5bc659b681a467"
+            ]
+          },
+          {
+            "dimensionId": "content_style",
+            "status": "supported",
+            "values": [
+              "详细技术教程",
+              "数码产品演示"
+            ],
+            "reason": "页面明确描述为详细的科技爱好者教程及设备演示。",
+            "evidenceIds": [
+              "8504c77ade5bc659b681a467"
+            ]
+          }
+        ],
+        "tags": [
+          "科技教育",
+          "耳机评测",
+          "处理器与降噪技术讲解",
+          "详细技术教程",
+          "数码产品演示"
+        ],
+        "revision": 1,
+        "updatedAt": 1791636482898,
+        "selected": false
+      }
+    ]
+  }
+}

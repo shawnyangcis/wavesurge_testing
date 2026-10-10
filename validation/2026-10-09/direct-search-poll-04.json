@@ -1,0 +1,93 @@
+{
+  "atUtc": "2026-10-09T14:46:30.582701+00:00",
+  "method": "GET",
+  "path": "/creator-search/requests/16a57ca6-521f-4843-8bb2-a3eccbd1a7ff",
+  "authMode": "cookie",
+  "status": 200,
+  "elapsedSeconds": 0.534,
+  "contentType": "application/json; charset=utf-8",
+  "responseSha256": "f814d113e542e6bed7c465c9c859ad5ae8f175d7f943f06fadb54affc8e796a9",
+  "response": {
+    "status": "done",
+    "strategyOperationId": null,
+    "creators": [],
+    "alsoFound": [],
+    "summary": {
+      "lanes": [
+        {
+          "a": 0,
+          "b": 0,
+          "market": {
+            "unclear": 0,
+            "inMarket": 0,
+            "otherMarket": 0
+          },
+          "target": 2,
+          "location": {
+            "unverified": 0,
+            "confirmedCountry": 0,
+            "knownOtherCountry": 0
+          },
+          "platform": "instagram",
+          "rejected": {
+            "notNeeded": 0,
+            "notPerson": 0,
+            "offPersona": 0,
+            "notReviewed": 0,
+            "otherMarket": 0,
+            "locationUnknown": 0,
+            "noPublicContact": 0,
+            "audienceRegionBelow": 0,
+            "contactLookupFailed": 0,
+            "audienceRegionUnread": 0,
+            "outsideFollowerWindow": 0,
+            "contactBehindPlatformGate": 0
+          },
+          "delivered": 0,
+          "shortfallReason": "Public profile emails for @buscodes and @ferdie.dev were not recorded by creator_contacts, so they cannot be delivered under the contact-tool requirement. Paid contact lookup failed for both viable candidates with apify_http_403; no repeat lookup was made. No other candidate verified every hard condition, including a recorded public email and English-language content."
+        }
+      ],
+      "delivered": 0,
+      "requested": 2
+    },
+    "usage": {
+      "byPath": {
+        "/api/v1/instagram/v1/fetch_search": 7,
+        "/api/v1/instagram/v2/search_reels": 5,
+        "/api/v1/instagram/v2/search_users": 2,
+        "/api/v1/instagram/v2/general_search": 1,
+        "/api/v1/instagram/v2/fetch_user_info": 75,
+        "/api/v1/instagram/v1/fetch_user_reels": 1,
+        "/api/v1/instagram/v1/fetch_user_posts_v2": 3,
+        "/api/v1/instagram/v2/fetch_user_followers": 2,
+        "/api/v1/instagram/v1/fetch_user_info_by_username_v2": 3
+      },
+      "refusals": 1,
+      "modelCalls": 75,
+      "inputTokens": "[redacted]",
+      "msPacerWait": 27840,
+      "pageFetches": 2,
+      "totalTokens": "[redacted]",
+      "modelCostUsd": 0.028771804,
+      "msInProvider": 729540,
+      "outputTokens": "[redacted]",
+      "providerCalls": 99,
+      "providerCostUsd": 0.223,
+      "providerTimeouts": 0,
+      "agentModelCostUsd": 0.106162335,
+      "cachedInputTokens": "[redacted]",
+      "msInProviderByPath": {
+        "/api/v1/instagram/v1/fetch_search": 81590,
+        "/api/v1/instagram/v2/search_reels": 44994,
+        "/api/v1/instagram/v2/search_users": 7002,
+        "/api/v1/instagram/v2/general_search": 7569,
+        "/api/v1/instagram/v2/fetch_user_info": 539599,
+        "/api/v1/instagram/v1/fetch_user_reels": 7427,
+        "/api/v1/instagram/v1/fetch_user_posts_v2": 18610,
+        "/api/v1/instagram/v2/fetch_user_followers": 9815,
+        "/api/v1/instagram/v1/fetch_user_info_by_username_v2": 12934
+      }
+    },
+    "expectedDurationHours": null
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "at": "2026-10-10T07:01:17.362Z",
+  "checks": [
+    "Actual Campaign modal shows revised v2, both groups, quotas, limits, terminal status and child report links",
+    "Clicked automatic chat delivery to open actual aggregate HTML report; quotas and result count agree with persisted state",
+    "Actual child evidence report opens with 2 evaluated creators: /api/reports/research-a8e3309218440957ace846fd",
+    "Actual child evidence report opens with 2 evaluated creators: /api/reports/research-11deee85612adbbdea75b835"
+  ],
+  "plan": {
+    "id": "campaign-9d63bb971fa097c467999073",
+    "revision": 2,
+    "status": "partial",
+    "matched": 0,
+    "requested": 2,
+    "evaluated": 4,
+    "groups": [
+      {
+        "title": "YouTube 大学学习方法创作者",
+        "matched": 0,
+        "count": 1,
+        "taskId": "research-a8e3309218440957ace846fd"
+      },
+      {
+        "title": "YouTube 大学生 AI 与效率工具创作者",
+        "matched": 0,
+        "count": 1,
+        "taskId": "research-11deee85612adbbdea75b835"
+      }
+    ],
+    "selectedCreators": []
+  },
+  "reportText": "美国 AI 课堂笔记工具 YouTube 小规模注册测试\n\n下个月在美国推广 AI 课堂笔记工具：将英文课堂录音转成笔记与复习题，免费试用无需绑卡，注册网址已准备好；通过小规模创作者合作促进大学生注册。本阶段仅研究，不联系创作者。\n\n受众：美国大学生，有课堂笔记整理和复习自测需求。\n\n方案 v2 · partial · 去重入选 0/2，合格账号池 0。同一平台账号只占一个类型配额；跨平台同一人缺乏可靠关联时不猜测合并。\n\nYouTube 大学学习方法创作者 · 0/1\n\n通过大学学习方法和复习场景展示录音转笔记与复习题的用途，帮助大学生理解产品价值并愿意免费注册。\n\n{\n  \"title\": \"YouTube 大学学习方法创作者\",\n  \"personaText\": \"college study methods, lecture note taking and exam revision creators\",\n  \"count\": 1,\n  \"platforms\": [\n    \"youtube\"\n  ],\n  \"regions\": [\n    \"United States\"\n  ],\n  \"minFollowers\": 10000,\n  \"maxFollowers\": 100000,\n  \"candidateBudget\": 2,\n  \"criteria\": [\n    {\n      \"id\": \"study_content\",\n      \"label\": \"有学习方法、课堂笔记整理或备考复习相关内容依据\",\n      \"required\": true,\n      \"basis\": \"text\"\n    },\n    {\n      \"id\": \"college_audience\",\n      \"label\": \"有明确面向大学生的内容依据，不要求创作者本人是在校生\",\n      \"required\": true,\n      \"basis\": \"text\"\n    }\n  ],\n  \"annotations\": [\n    {\n      \"id\": \"content_direction\",\n      \"label\": \"内容方向\"\n    },\n    {\n      \"id\": \"expression_style\",\n      \"label\": \"表达风格\"\n    },\n    {\n      \"id\": \"collaboration_fit\",\n      \"label\": \"适合的合作方式\"\n    }\n  ]\n}\n逐条件证据与未入选结果\nYouTube 大学生 AI 与效率工具创作者 · 0/1\n\n通过面向大学生的 AI 和效率工具实测或教程展示产品操作流程及适用场景，降低免费试用门槛并引导注册；优先考虑实际讲过 Notion 或 AI 笔记工具的人，但不作为合格硬门槛。\n\n{\n  \"title\": \"YouTube 大学生 AI 与效率工具创作者\",\n  \"personaText\": \"AI and productivity tool tutorials and reviews for college students, Notion and AI note-taking tools\",\n  \"count\": 1,\n  \"platforms\": [\n    \"youtube\"\n  ],\n  \"regions\": [\n    \"United States\"\n  ],\n  \"minFollowers\": 10000,\n  \"maxFollowers\": 100000,\n  \"candidateBudget\": 2,\n  \"criteria\": [\n    {\n      \"id\": \"ai_productivity_content\",\n      \"label\": \"有 AI 或效率工具教程、实测或评测相关内容依据\",\n      \"required\": true,\n      \"basis\": \"text\"\n    },\n    {\n      \"id\": \"college_audience\",\n      \"label\": \"有明确面向大学生的内容依据，不要求创作者本人是在校生\",\n      \"required\": true,\n      \"basis\": \"text\"\n    },\n    {\n      \"id\": \"notion_ai_notes_preference\",\n      \"label\": \"实际发布过讲解、演示、实测或评测 Notion 或 AI 笔记工具的内容；仅为优先项，缺少该内容不影响必选条件合格判定\",\n      \"required\": false,\n      \"basis\": \"text\"\n    }\n  ],\n  \"annotations\": [\n    {\n      \"id\": \"content_direction\",\n      \"label\": \"内容方向\"\n    },\n    {\n      \"id\": \"expression_style\",\n      \"label\": \"表达风格\"\n    },\n    {\n      \"id\": \"collaboration_fit\",\n      \"label\": \"适合的合作方式\"\n    }\n  ]\n}\n逐条件证据与未入选结果",
+  "reportUrl": "http://127.0.0.1:3552/api/campaigns/campaign-9d63bb971fa097c467999073/report",
+  "finishedAt": "2026-10-10T07:02:12.271Z"
+}

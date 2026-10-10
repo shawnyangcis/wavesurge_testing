@@ -1,0 +1,338 @@
+{
+  "source": "actual main production app restart while four real WaveSurge searches pending; browser session, task identity and submit counts checked",
+  "observedAt": "2026-10-10T01:47:39.904Z",
+  "before": {
+    "tasks": [
+      {
+        "id": "research-d22f5bc3f9c80da1a4979ca5",
+        "title": "Review独立真实筛选",
+        "status": "running",
+        "requested": 1,
+        "evaluated": 0,
+        "matched": 0,
+        "updatedAt": 1791596818077,
+        "detail": "WaveSurge 搜索等待执行；本地已合格 0 人",
+        "remoteId": "b5722567-4ae0-435a-b6e9-0c5873d6486e",
+        "remoteStatus": "queued",
+        "nextPollAt": 1791596878077
+      },
+      {
+        "id": "research-a183b9437d676713c0f2812f",
+        "title": "Geek风戴眼镜的Instagram普通消费者创作者",
+        "status": "running",
+        "requested": 20,
+        "evaluated": 0,
+        "matched": 0,
+        "updatedAt": 1791596818173,
+        "detail": "WaveSurge 搜索等待执行；本地已合格 0 人",
+        "remoteId": "bd260f50-b76f-440c-9e47-a022a6697ac6",
+        "remoteStatus": "queued",
+        "nextPollAt": 1791596878173
+      },
+      {
+        "id": "research-fd88375f69e716ff5cbc9fef",
+        "title": "课堂笔记与考试复习方法创作者",
+        "status": "running",
+        "requested": 1,
+        "evaluated": 0,
+        "matched": 0,
+        "updatedAt": 1791596818284,
+        "detail": "WaveSurge 搜索等待执行；本地已合格 0 人",
+        "remoteId": "7c1837b8-3ec0-4d06-9f4d-752eebc40f64",
+        "remoteStatus": "queued",
+        "nextPollAt": 1791596878284
+      },
+      {
+        "id": "research-b30bacd90e74569b33e06bfc",
+        "title": "AI与数字学习工具教学创作者",
+        "status": "running",
+        "requested": 1,
+        "evaluated": 0,
+        "matched": 0,
+        "updatedAt": 1791596818384,
+        "detail": "WaveSurge 搜索等待执行；本地已合格 0 人",
+        "remoteId": "ff3ac6fb-fa15-4b8d-b358-e7bf18e642de",
+        "remoteStatus": "queued",
+        "nextPollAt": 1791596878384
+      }
+    ],
+    "submissions": [
+      {
+        "id": "3c08e6d9-5641-4c8b-8892-4dc8ed350336",
+        "kind": "wavesurge",
+        "createdAt": 1791594280559,
+        "path": "/creator-search/requests",
+        "method": "POST",
+        "request": {
+          "requestId": "research-d22f5bc3f9c80da1a4979ca5",
+          "personaText": "technology content creators",
+          "count": 2,
+          "platforms": [
+            "instagram"
+          ],
+          "regions": [
+            "United States",
+            "Canada"
+          ],
+          "minFollowers": 10000,
+          "maxFollowers": 100000,
+          "emailReadyRequired": false
+        },
+        "status": 201,
+        "response": {
+          "taskId": "b5722567-4ae0-435a-b6e9-0c5873d6486e"
+        },
+        "finishedAt": 1791594280821
+      },
+      {
+        "id": "c05b9a7f-3f0a-4cab-8976-36b94438e0d7",
+        "kind": "wavesurge",
+        "createdAt": 1791595746445,
+        "path": "/creator-search/requests",
+        "method": "POST",
+        "request": {
+          "requestId": "research-a183b9437d676713c0f2812f",
+          "personaText": "ordinary consumer creators with a geek aesthetic and glasses who publicly self-identify as white",
+          "count": 40,
+          "platforms": [
+            "instagram"
+          ],
+          "regions": [
+            "United States",
+            "Canada",
+            "United Kingdom",
+            "Germany",
+            "France"
+          ],
+          "minFollowers": 10000,
+          "maxFollowers": 100000,
+          "emailReadyRequired": false
+        },
+        "status": 201,
+        "response": {
+          "taskId": "bd260f50-b76f-440c-9e47-a022a6697ac6"
+        },
+        "finishedAt": 1791595746670
+      },
+      {
+        "id": "ddb72efb-16d3-47f1-ba24-23e2405008d1",
+        "kind": "wavesurge",
+        "createdAt": 1791595748882,
+        "path": "/creator-search/requests",
+        "method": "POST",
+        "request": {
+          "requestId": "research-fd88375f69e716ff5cbc9fef",
+          "personaText": "study methods, classroom note-taking and exam revision creators",
+          "count": 2,
+          "platforms": [
+            "youtube"
+          ],
+          "regions": [
+            "United States"
+          ],
+          "minFollowers": 10000,
+          "maxFollowers": 100000,
+          "emailReadyRequired": false
+        },
+        "status": 201,
+        "response": {
+          "taskId": "7c1837b8-3ec0-4d06-9f4d-752eebc40f64"
+        },
+        "finishedAt": 1791595749024
+      },
+      {
+        "id": "82427969-5b31-4de0-97da-b61e645ffe32",
+        "kind": "wavesurge",
+        "createdAt": 1791595749034,
+        "path": "/creator-search/requests",
+        "method": "POST",
+        "request": {
+          "requestId": "research-b30bacd90e74569b33e06bfc",
+          "personaText": "step-by-step AI and digital learning tool tutorial creators for classroom notes and exam revision",
+          "count": 2,
+          "platforms": [
+            "youtube"
+          ],
+          "regions": [
+            "United States"
+          ],
+          "minFollowers": 10000,
+          "maxFollowers": 100000,
+          "emailReadyRequired": false
+        },
+        "status": 201,
+        "response": {
+          "taskId": "ff3ac6fb-fa15-4b8d-b358-e7bf18e642de"
+        },
+        "finishedAt": 1791595749497
+      }
+    ]
+  },
+  "after": {
+    "tasks": [
+      {
+        "id": "research-d22f5bc3f9c80da1a4979ca5",
+        "title": "Review独立真实筛选",
+        "status": "running",
+        "requested": 1,
+        "evaluated": 0,
+        "matched": 0,
+        "updatedAt": 1791596818077,
+        "detail": "WaveSurge 搜索等待执行；本地已合格 0 人",
+        "remoteId": "b5722567-4ae0-435a-b6e9-0c5873d6486e",
+        "remoteStatus": "queued",
+        "nextPollAt": 1791596878077
+      },
+      {
+        "id": "research-a183b9437d676713c0f2812f",
+        "title": "Geek风戴眼镜的Instagram普通消费者创作者",
+        "status": "running",
+        "requested": 20,
+        "evaluated": 0,
+        "matched": 0,
+        "updatedAt": 1791596818173,
+        "detail": "WaveSurge 搜索等待执行；本地已合格 0 人",
+        "remoteId": "bd260f50-b76f-440c-9e47-a022a6697ac6",
+        "remoteStatus": "queued",
+        "nextPollAt": 1791596878173
+      },
+      {
+        "id": "research-fd88375f69e716ff5cbc9fef",
+        "title": "课堂笔记与考试复习方法创作者",
+        "status": "running",
+        "requested": 1,
+        "evaluated": 0,
+        "matched": 0,
+        "updatedAt": 1791596818284,
+        "detail": "WaveSurge 搜索等待执行；本地已合格 0 人",
+        "remoteId": "7c1837b8-3ec0-4d06-9f4d-752eebc40f64",
+        "remoteStatus": "queued",
+        "nextPollAt": 1791596878284
+      },
+      {
+        "id": "research-b30bacd90e74569b33e06bfc",
+        "title": "AI与数字学习工具教学创作者",
+        "status": "running",
+        "requested": 1,
+        "evaluated": 0,
+        "matched": 0,
+        "updatedAt": 1791596818384,
+        "detail": "WaveSurge 搜索等待执行；本地已合格 0 人",
+        "remoteId": "ff3ac6fb-fa15-4b8d-b358-e7bf18e642de",
+        "remoteStatus": "queued",
+        "nextPollAt": 1791596878384
+      }
+    ],
+    "submissions": [
+      {
+        "id": "3c08e6d9-5641-4c8b-8892-4dc8ed350336",
+        "kind": "wavesurge",
+        "createdAt": 1791594280559,
+        "path": "/creator-search/requests",
+        "method": "POST",
+        "request": {
+          "requestId": "research-d22f5bc3f9c80da1a4979ca5",
+          "personaText": "technology content creators",
+          "count": 2,
+          "platforms": [
+            "instagram"
+          ],
+          "regions": [
+            "United States",
+            "Canada"
+          ],
+          "minFollowers": 10000,
+          "maxFollowers": 100000,
+          "emailReadyRequired": false
+        },
+        "status": 201,
+        "response": {
+          "taskId": "b5722567-4ae0-435a-b6e9-0c5873d6486e"
+        },
+        "finishedAt": 1791594280821
+      },
+      {
+        "id": "c05b9a7f-3f0a-4cab-8976-36b94438e0d7",
+        "kind": "wavesurge",
+        "createdAt": 1791595746445,
+        "path": "/creator-search/requests",
+        "method": "POST",
+        "request": {
+          "requestId": "research-a183b9437d676713c0f2812f",
+          "personaText": "ordinary consumer creators with a geek aesthetic and glasses who publicly self-identify as white",
+          "count": 40,
+          "platforms": [
+            "instagram"
+          ],
+          "regions": [
+            "United States",
+            "Canada",
+            "United Kingdom",
+            "Germany",
+            "France"
+          ],
+          "minFollowers": 10000,
+          "maxFollowers": 100000,
+          "emailReadyRequired": false
+        },
+        "status": 201,
+        "response": {
+          "taskId": "bd260f50-b76f-440c-9e47-a022a6697ac6"
+        },
+        "finishedAt": 1791595746670
+      },
+      {
+        "id": "ddb72efb-16d3-47f1-ba24-23e2405008d1",
+        "kind": "wavesurge",
+        "createdAt": 1791595748882,
+        "path": "/creator-search/requests",
+        "method": "POST",
+        "request": {
+          "requestId": "research-fd88375f69e716ff5cbc9fef",
+          "personaText": "study methods, classroom note-taking and exam revision creators",
+          "count": 2,
+          "platforms": [
+            "youtube"
+          ],
+          "regions": [
+            "United States"
+          ],
+          "minFollowers": 10000,
+          "maxFollowers": 100000,
+          "emailReadyRequired": false
+        },
+        "status": 201,
+        "response": {
+          "taskId": "7c1837b8-3ec0-4d06-9f4d-752eebc40f64"
+        },
+        "finishedAt": 1791595749024
+      },
+      {
+        "id": "82427969-5b31-4de0-97da-b61e645ffe32",
+        "kind": "wavesurge",
+        "createdAt": 1791595749034,
+        "path": "/creator-search/requests",
+        "method": "POST",
+        "request": {
+          "requestId": "research-b30bacd90e74569b33e06bfc",
+          "personaText": "step-by-step AI and digital learning tool tutorial creators for classroom notes and exam revision",
+          "count": 2,
+          "platforms": [
+            "youtube"
+          ],
+          "regions": [
+            "United States"
+          ],
+          "minFollowers": 10000,
+          "maxFollowers": 100000,
+          "emailReadyRequired": false
+        },
+        "status": 201,
+        "response": {
+          "taskId": "ff3ac6fb-fa15-4b8d-b358-e7bf18e642de"
+        },
+        "finishedAt": 1791595749497
+      }
+    ]
+  }
+}

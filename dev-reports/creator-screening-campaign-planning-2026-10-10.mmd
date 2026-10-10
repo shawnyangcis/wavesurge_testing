@@ -1,0 +1,24 @@
+flowchart TD
+    U["用户只描述 Campaign 目标"] --> BRIEF["Chat Agent：提取产品、目标、市场与受众<br/>保存 CampaignBrief 与未知字段"]
+    BRIEF --> CLEAR{"是否缺少会影响<br/>筛选范围的关键信息？"}
+    CLEAR -->|是| ASK["按需追问，每轮 2–3 个问题<br/>用户回答后更新 Brief"]
+    ASK --> BRIEF
+    CLEAR -->|否| PLAN["CampaignPlanner：提出不同 Creator 类型<br/>各类作用、人数、平台、必选条件与偏好"]
+    PLAN --> REVIEW["展示方案卡；用户可增删、合并、调整类型<br/>修改人数与条件；保存计划版本"]
+    REVIEW -->|继续修改| PLAN
+    REVIEW -->|接受方案或已有明确授权| COMPILE["代码校验并固定 CampaignPlan 版本<br/>类型 × 平台 → TaskSpec 子任务<br/>分配共享预算，幂等创建任务"]
+    COMPILE --> SEARCH["每条搜索 lane：POST /creator-search/requests<br/>保存 requestId / taskId；可选 GET /discover/db 补充"]
+    SEARCH --> POLL["程序定时 GET /creator-search/requests/:taskId<br/>保存各组候选、证据与缺口"]
+    POLL --> WORK["复用逐人 Agent + 有头浏览器 + noVNC 协助<br/>按公共条件和当前类型条件核验，保存判断"]
+    WORK --> ASSIGN["代码跨组去重与配额分配<br/>一人可有多个类型标签，主名单只计一次"]
+    ASSIGN --> GAP{"各类型目标是否满足？"}
+    GAP -->|未满足且仍有搜索预算| SEARCH
+    GAP -->|需改范围| REVIEW
+    GAP -->|满足或预算到限| RESULT["保存 Campaign 总报告与各类型名单<br/>显示各组完成数、缺口、证据与计划版本"]
+
+    classDef agent fill:#e8eefc,stroke:#4169a1,color:#14263d;
+    classDef api fill:#e9f5ef,stroke:#44876a,color:#173627;
+    classDef saved fill:#fff4df,stroke:#aa7d37,color:#493015;
+    class BRIEF,PLAN,WORK agent;
+    class SEARCH,POLL api;
+    class REVIEW,COMPILE,ASSIGN,RESULT saved;

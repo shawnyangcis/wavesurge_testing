@@ -1,0 +1,19 @@
+{
+  "round": "R5 final",
+  "clientDate": "2026-10-11",
+  "startedAt": "2026-10-10T17:16:16.616357+00:00",
+  "sourceFiles": 59,
+  "scope": "Autonomous scenarios; human takeover excluded",
+  "targets": {
+    "live": 3612,
+    "controlled": 3613,
+    "mainReadOnly": 3000
+  },
+  "baseline": "R4 findings F26–F32",
+  "sourceMutation": "No src changes; README, architecture/navigation, gitignore, and Vitest concurrency configuration",
+  "testHarnessAdjustment": {
+    "file": "vitest.config.ts",
+    "maxWorkers": 4,
+    "reason": "Default 32 concurrent workers caused the same 5-second DOM timeout twice; four workers passed all 242 without relaxing assertions, timeout, or coverage"
+  }
+}

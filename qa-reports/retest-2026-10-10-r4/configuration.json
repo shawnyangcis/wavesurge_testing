@@ -1,0 +1,22 @@
+[
+  {
+    "scope": "live",
+    "configured": true,
+    "credentialPresent": true,
+    "modelId": "gpt-6.1-sol",
+    "baseUrl": "http://127.0.0.1:8317",
+    "taskCount": 0,
+    "resultCount": 0,
+    "prompts": "fresh defaults from current source"
+  },
+  {
+    "scope": "edge",
+    "configured": true,
+    "credentialPresent": true,
+    "modelId": "gpt-6.1-sol",
+    "baseUrl": "http://127.0.0.1:8317",
+    "taskCount": 0,
+    "resultCount": 0,
+    "prompts": "fresh defaults from current source"
+  }
+]

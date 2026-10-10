@@ -1,0 +1,42 @@
+{
+  "at": "2026-10-10T14:42:55.229Z",
+  "children": [
+    {
+      "groupId": "life_efficiency",
+      "taskId": "research-7f22924e895fdf79bc9bfb73",
+      "url": "http://127.0.0.1:3592/api/reports/research-7f22924e895fdf79bc9bfb73",
+      "articles": 2,
+      "criteriaTables": 2,
+      "matchesAllSavedJudgmentReasons": true,
+      "matchesAllSavedAnnotations": true,
+      "labels": [
+        "Tyler Crawford · 符合要求 · 已入选",
+        "V · 待核实"
+      ]
+    },
+    {
+      "groupId": "practical_tech_apps",
+      "taskId": "research-1c0a7ca9deb257bd0144ee1f",
+      "url": "http://127.0.0.1:3592/api/reports/research-1c0a7ca9deb257bd0144ee1f",
+      "articles": 2,
+      "criteriaTables": 2,
+      "matchesAllSavedJudgmentReasons": true,
+      "matchesAllSavedAnnotations": true,
+      "labels": [
+        "Tyler Crawford · 符合要求 · 已入选",
+        "V · 符合要求 · 合格备选"
+      ]
+    }
+  ],
+  "parent": {
+    "headings": [
+      "生活效率分享：指定两账号全量评估 · 1/1",
+      "实用数码和 App 体验：指定两账号全量评估 · 1/1"
+    ],
+    "criteriaTables": 0,
+    "annotationParagraphs": 0,
+    "uniqueSelections": 2
+  },
+  "finishedAt": "2026-10-10T14:43:10.563Z",
+  "passed": true
+}

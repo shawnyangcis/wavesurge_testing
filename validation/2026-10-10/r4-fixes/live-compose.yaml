@@ -1,0 +1,8 @@
+services:
+  app:
+    ports: !override ["127.0.0.1:3600:3000"]
+networks:
+  default:
+    ipam:
+      config:
+        - subnet: 10.234.64.0/24

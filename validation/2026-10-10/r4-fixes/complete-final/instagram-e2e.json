@@ -1,0 +1,596 @@
+{
+  "source": "explicit raw Wave + media fixtures; actual configured model, production worker/browser/UI/SQLite/reports",
+  "task": {
+    "id": "research-d80b3fac58d82ee9ba02e40f",
+    "title": "新版 Instagram 1791649138355",
+    "status": "completed",
+    "requested": 1,
+    "evaluated": 1,
+    "matched": 1,
+    "qualifying": 1,
+    "matchedMeaning": "研究组入选的合格账号数；合格候选总数见qualifying",
+    "updatedAt": 1791649170657,
+    "detail": "已选合格 1/1，已核验 1；证据不足者保持待核实。Instagram：读取 1 个本人基础账号，基础条件排除 0 个；基础读取上限 20，逐人分析上限 1（本次有界来源，不代表全站穷尽）。",
+    "remoteStatus": "done",
+    "nextPollAt": 1791649151561
+  },
+  "results": [
+    {
+      "id": "research-d80b3fac58d82ee9ba02e40f|instagram:qa_alice",
+      "taskId": "research-d80b3fac58d82ee9ba02e40f",
+      "creator": {
+        "id": "instagram:qa_alice",
+        "platform": "instagram",
+        "handle": "qa_alice",
+        "profileUrl": "https://www.instagram.com/qa_alice/",
+        "displayName": "受控 Instagram 技术研究夹具",
+        "followers": 20400,
+        "region": null,
+        "evidence": [
+          {
+            "id": "95b69638da256ebda28e96cc",
+            "url": "https://www.instagram.com/qa_alice/",
+            "kind": "profile",
+            "text": "I create original technology and headphones tutorials. Based in United States.\n20400 followers\n{\"username\":\"qa_alice\",\"userId\":\"12345678901234567890\",\"isPrivate\":false,\"isVerified\":false}",
+            "provider": "wavesurge-instagram-raw",
+            "publishedAt": null,
+            "capturedAt": 1791649150542
+          },
+          {
+            "id": "2ce6dcec1de20bcd464a5ea8",
+            "url": "https://www.instagram.com/p/qa_code/",
+            "kind": "post",
+            "text": "{\"caption\":\"Original technology tutorial demonstrating noise cancelling headphones and processors. Controlled fixture.\",\"likes\":120,\"comments\":20,\"photoCount\":1,\"videoCoverCount\":0}",
+            "provider": "wavesurge-instagram-raw",
+            "publishedAt": "2026-10-09T00:00:00.000Z",
+            "capturedAt": 1791649150542
+          },
+          {
+            "id": "69bb8ea47c9dd85c80523e4c",
+            "url": "http://wave-fixture:8087/media/qa-photo.svg",
+            "kind": "post_photo",
+            "text": "真实帖子照片资源 URL；尚未观察像素，不能作为视觉条件通过的证据。",
+            "provider": "wavesurge-instagram-raw",
+            "publishedAt": "2026-10-09T00:00:00.000Z",
+            "capturedAt": 1791649150542
+          },
+          {
+            "id": "b106a5861661e2badcdde805",
+            "url": "http://wave-fixture:8087/media/qa-photo.svg",
+            "kind": "browser_snapshot",
+            "text": "CONTROLLED HEADPHONES TECHNOLOGY PHOTO",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791649150701,
+            "assetId": "68a488dc60592368ca6b017e7219b90916d70bcbe2b7f84d7d06eb06863e9f93"
+          }
+        ],
+        "raw": {
+          "platform": "instagram",
+          "handle": "qa_alice",
+          "displayName": "受控 Instagram 技术研究夹具",
+          "profileUrl": "https://www.instagram.com/qa_alice/",
+          "followerCount": 20400,
+          "instagram": {
+            "searchUser": {
+              "username": "qa_alice",
+              "id": "12345678901234567890"
+            },
+            "profile": {
+              "id": "12345678901234567890",
+              "username": "qa_alice",
+              "full_name": "受控 Instagram 技术研究夹具",
+              "biography": "I create original technology and headphones tutorials. Based in United States.",
+              "edge_followed_by": {
+                "count": 20400
+              },
+              "is_private": false,
+              "is_verified": false
+            },
+            "responses": [
+              {
+                "path": "/instagram/v1/fetch_user_info_by_username_v2?username=qa_alice",
+                "raw": {
+                  "code": 200,
+                  "data": {
+                    "id": "12345678901234567890",
+                    "username": "qa_alice",
+                    "full_name": "受控 Instagram 技术研究夹具",
+                    "biography": "I create original technology and headphones tutorials. Based in United States.",
+                    "edge_followed_by": {
+                      "count": 20400
+                    },
+                    "is_private": false,
+                    "is_verified": false
+                  }
+                }
+              },
+              {
+                "path": "/instagram/v1/fetch_user_posts?user_id=12345678901234567890&count=12",
+                "raw": {
+                  "code": 200,
+                  "data": {
+                    "items": [
+                      {
+                        "id": "4000000000000000001_12345678901234567890",
+                        "code": "qa_code",
+                        "media_type": 1,
+                        "taken_at": 1791504000,
+                        "caption": {
+                          "text": "Original public headphone and processor technology tutorial. This is a controlled fixture, not a real Instagram account."
+                        },
+                        "like_count": 100,
+                        "comment_count": 20,
+                        "image_versions2": {
+                          "candidates": [
+                            {
+                              "width": 100,
+                              "url": "http://wave-fixture:8087/media/qa-photo.svg"
+                            },
+                            {
+                              "width": 1080,
+                              "url": "http://wave-fixture:8087/media/qa-photo.svg"
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "more_available": true,
+                    "next_max_id": "opaque_12345678901234567890"
+                  }
+                }
+              },
+              {
+                "path": "/instagram/v1/fetch_user_posts?user_id=12345678901234567890&count=12&max_id=opaque_12345678901234567890",
+                "raw": {
+                  "code": 200,
+                  "data": {
+                    "items": [
+                      {
+                        "id": "4000000000000000001_12345678901234567890",
+                        "code": "qa_code",
+                        "media_type": 1,
+                        "taken_at": 1791504000,
+                        "caption": {
+                          "text": "Original public headphone and processor technology tutorial. This is a controlled fixture, not a real Instagram account."
+                        },
+                        "like_count": 100,
+                        "comment_count": 20,
+                        "image_versions2": {
+                          "candidates": [
+                            {
+                              "width": 100,
+                              "url": "http://wave-fixture:8087/media/qa-photo.svg"
+                            },
+                            {
+                              "width": 1080,
+                              "url": "http://wave-fixture:8087/media/qa-photo.svg"
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "more_available": false,
+                    "next_max_id": null
+                  }
+                }
+              },
+              {
+                "path": "/instagram/v2/fetch_post_info?code_or_url=qa_code",
+                "raw": {
+                  "code": 200,
+                  "data": {
+                    "data": {
+                      "id": "4000000000000000001",
+                      "code": "qa_code",
+                      "media_type": 1,
+                      "taken_at": 1791504000,
+                      "caption": {
+                        "text": "Original technology tutorial demonstrating noise cancelling headphones and processors. Controlled fixture."
+                      },
+                      "metrics": {
+                        "like_count": 120,
+                        "comment_count": 20
+                      },
+                      "image_versions": {
+                        "items": [
+                          {
+                            "width": 1080,
+                            "url": "http://wave-fixture:8087/media/qa-photo.svg"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "posts": [
+              {
+                "id": "4000000000000000001_12345678901234567890",
+                "code": "qa_code",
+                "caption": "Original technology tutorial demonstrating noise cancelling headphones and processors. Controlled fixture.",
+                "takenAt": 1791504000,
+                "likes": 120,
+                "comments": 20,
+                "photos": [
+                  "http://wave-fixture:8087/media/qa-photo.svg"
+                ],
+                "videoCovers": [],
+                "raw": {
+                  "id": "4000000000000000001",
+                  "code": "qa_code",
+                  "media_type": 1,
+                  "taken_at": 1791504000,
+                  "caption": {
+                    "text": "Original technology tutorial demonstrating noise cancelling headphones and processors. Controlled fixture."
+                  },
+                  "metrics": {
+                    "like_count": 120,
+                    "comment_count": 20
+                  },
+                  "image_versions": {
+                    "items": [
+                      {
+                        "width": 1080,
+                        "url": "http://wave-fixture:8087/media/qa-photo.svg"
+                      }
+                    ]
+                  }
+                }
+              }
+            ],
+            "photoUrls": [
+              "http://wave-fixture:8087/media/qa-photo.svg"
+            ],
+            "engagement": {
+              "rate": 0.006862745098039216,
+              "sampleSize": 1,
+              "formula": "mean(likes + comments) / followers",
+              "unit": "ratio"
+            },
+            "errors": [],
+            "bounds": {
+              "postPages": 2,
+              "detailPosts": 2,
+              "perPage": 12
+            }
+          }
+        },
+        "engagement": {
+          "rate": 0.006862745098039216,
+          "sampleSize": 1,
+          "formula": "mean(likes + comments) / followers",
+          "unit": "ratio"
+        },
+        "photoUrls": [
+          "http://wave-fixture:8087/media/qa-photo.svg"
+        ],
+        "facts": {
+          "conflicts": [],
+          "followers": {
+            "min": 20400,
+            "max": 20400,
+            "rawValue": "20400 followers",
+            "evidenceIds": [
+              "95b69638da256ebda28e96cc"
+            ]
+          },
+          "country": {
+            "code": "US",
+            "rawValue": "Based in United States.",
+            "evidenceIds": [
+              "95b69638da256ebda28e96cc"
+            ]
+          }
+        }
+      },
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "match",
+          "reason": "本人主页所在地声明：Based in United States.",
+          "evidenceIds": [
+            "95b69638da256ebda28e96cc"
+          ],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "主页显示 20400 followers；保守区间 20400–20400，要求 10000–100000；WaveSurge 精确数 20400",
+          "evidenceIds": [
+            "95b69638da256ebda28e96cc"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "technology_content",
+          "verdict": "match",
+          "reason": "主页明确自述制作科技及耳机教程；2026-10-09 帖子文字描述降噪耳机和处理器的原创科技教程，支持公开内容包含科技内容。",
+          "evidenceIds": [
+            "95b69638da256ebda28e96cc",
+            "2ce6dcec1de20bcd464a5ea8"
+          ],
+          "label": "公开内容包含科技内容"
+        },
+        {
+          "criterionId": "headphones_in_recent_photos",
+          "verdict": "match",
+          "reason": "已观察所提供照片资源的实际截图，画面清楚展示头戴式耳机图形，而非仅有耳机文字；对应照片帖日期为 2026-10-09，距本次观察日期 2026-10-10 一天。仅判断耳机展示，不判断个人身体特征。",
+          "evidenceIds": [
+            "b106a5861661e2badcdde805",
+            "69bb8ea47c9dd85c80523e4c",
+            "2ce6dcec1de20bcd464a5ea8"
+          ],
+          "label": "近期照片中实际展示耳机；仅核验耳机展示，不判断创作者个人身体特征"
+        }
+      ],
+      "verdict": "match",
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "科技教程",
+            "耳机教程"
+          ],
+          "reason": "主页与近期帖子文字明确涉及科技、耳机及处理器教程。",
+          "evidenceIds": [
+            "95b69638da256ebda28e96cc",
+            "2ce6dcec1de20bcd464a5ea8"
+          ]
+        }
+      ],
+      "tags": [
+        "科技教程",
+        "耳机教程"
+      ],
+      "revision": 1,
+      "updatedAt": 1791649170653,
+      "selected": true,
+      "reportContext": {
+        "sourceTaskTitle": "新版 Instagram 1791649138355",
+        "groupId": "research-d80b3fac58d82ee9ba02e40f",
+        "groupTitle": "新版 Instagram 1791649138355",
+        "selectionScope": "research"
+      }
+    }
+  ],
+  "calls": [
+    {
+      "id": "499ad22f-6990-4740-ad3f-d5c39b6746a0",
+      "kind": "wavesurge",
+      "createdAt": 1791649148555,
+      "path": "/instagram/v3/search_users?query=tech",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "contentType": "application/json",
+      "response": {
+        "code": 200,
+        "data": {
+          "users": [
+            {
+              "username": "qa_alice",
+              "id": "12345678901234567890"
+            },
+            {
+              "username": "qa_alice",
+              "id": "12345678901234567890"
+            }
+          ],
+          "items": [
+            {
+              "username": "ignored"
+            }
+          ],
+          "rank_token": null
+        }
+      },
+      "finishedAt": 1791649148588
+    },
+    {
+      "id": "806c8a3d-cebf-4a9a-9020-a7cffdf307ce",
+      "kind": "wavesurge",
+      "createdAt": 1791649150542,
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=qa_alice",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "contentType": "application/json",
+      "response": {
+        "code": 200,
+        "data": {
+          "id": "12345678901234567890",
+          "username": "qa_alice",
+          "full_name": "受控 Instagram 技术研究夹具",
+          "biography": "I create original technology and headphones tutorials. Based in United States.",
+          "edge_followed_by": {
+            "count": 20400
+          },
+          "is_private": false,
+          "is_verified": false
+        }
+      },
+      "finishedAt": 1791649150545
+    },
+    {
+      "id": "a47d6571-bf4e-473b-a5eb-5460b1859aca",
+      "kind": "wavesurge",
+      "createdAt": 1791649150547,
+      "path": "/instagram/v1/fetch_user_posts?user_id=12345678901234567890&count=12",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "contentType": "application/json",
+      "response": {
+        "code": 200,
+        "data": {
+          "items": [
+            {
+              "id": "4000000000000000001_12345678901234567890",
+              "code": "qa_code",
+              "media_type": 1,
+              "taken_at": 1791504000,
+              "caption": {
+                "text": "Original public headphone and processor technology tutorial. This is a controlled fixture, not a real Instagram account."
+              },
+              "like_count": 100,
+              "comment_count": 20,
+              "image_versions2": {
+                "candidates": [
+                  {
+                    "width": 100,
+                    "url": "http://wave-fixture:8087/media/qa-photo.svg"
+                  },
+                  {
+                    "width": 1080,
+                    "url": "http://wave-fixture:8087/media/qa-photo.svg"
+                  }
+                ]
+              }
+            }
+          ],
+          "more_available": true,
+          "next_max_id": "opaque_12345678901234567890"
+        }
+      },
+      "finishedAt": 1791649150552
+    },
+    {
+      "id": "45a37249-be34-4a80-b573-9923c82887ff",
+      "kind": "wavesurge",
+      "createdAt": 1791649150554,
+      "path": "/instagram/v1/fetch_user_posts?user_id=12345678901234567890&count=12&max_id=opaque_12345678901234567890",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "contentType": "application/json",
+      "response": {
+        "code": 200,
+        "data": {
+          "items": [
+            {
+              "id": "4000000000000000001_12345678901234567890",
+              "code": "qa_code",
+              "media_type": 1,
+              "taken_at": 1791504000,
+              "caption": {
+                "text": "Original public headphone and processor technology tutorial. This is a controlled fixture, not a real Instagram account."
+              },
+              "like_count": 100,
+              "comment_count": 20,
+              "image_versions2": {
+                "candidates": [
+                  {
+                    "width": 100,
+                    "url": "http://wave-fixture:8087/media/qa-photo.svg"
+                  },
+                  {
+                    "width": 1080,
+                    "url": "http://wave-fixture:8087/media/qa-photo.svg"
+                  }
+                ]
+              }
+            }
+          ],
+          "more_available": false,
+          "next_max_id": null
+        }
+      },
+      "finishedAt": 1791649150556
+    },
+    {
+      "id": "92c25fdd-8356-41aa-8f6b-55710bb755f7",
+      "kind": "wavesurge",
+      "createdAt": 1791649150557,
+      "path": "/instagram/v2/fetch_post_info?code_or_url=qa_code",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "contentType": "application/json",
+      "response": {
+        "code": 200,
+        "data": {
+          "data": {
+            "id": "4000000000000000001",
+            "code": "qa_code",
+            "media_type": 1,
+            "taken_at": 1791504000,
+            "caption": {
+              "text": "Original technology tutorial demonstrating noise cancelling headphones and processors. Controlled fixture."
+            },
+            "metrics": {
+              "like_count": 120,
+              "comment_count": 20
+            },
+            "image_versions": {
+              "items": [
+                {
+                  "width": 1080,
+                  "url": "http://wave-fixture:8087/media/qa-photo.svg"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "finishedAt": 1791649150560
+    }
+  ],
+  "messages": [
+    {
+      "id": "5a0564a3-06cf-4d53-931d-47ea06512383",
+      "role": "user",
+      "text": "请现在开始研究「新版 Instagram 1791649138355」：找1位 Instagram 科技内容创作者，本人所在地美国，粉丝1万至10万，最多核验1位候选。科技内容是必选文字条件；另一必选视觉条件是近期照片中实际展示耳机，不判断创作者的个人身体特征。使用 instagram 的 v3 原始搜索，关键词 tech。请标注内容方向，保存证据和近期互动率。只读取公开数据，不付费搜索或外联。这是受控接口与图片夹具验收。",
+      "createdAt": 1791649138578,
+      "epoch": 0,
+      "state": "delivered",
+      "attachments": []
+    },
+    {
+      "id": "1d239feb-6ffc-4bee-8bad-f3fc8daa1d7e",
+      "role": "assistant",
+      "text": "「新版 Instagram 1791649138355」**仍在执行中**。本轮仅查询原任务，没有再次发起搜索。\n\n最新进度：\n- 已读取 **1 位候选**，来源已到本次读取边界。\n- **已完成逐人核验：0 位**。\n- 当前合格候选 **0 位**，入选 **0/1 位**。\n\n这表示候选资料已读取，但本地核验尚未完成，**不代表该候选不合格**。科技内容文字条件、近期照片实际展示耳机的视觉条件，以及内容方向标签、证据和近期互动率，目前都不能提前宣称已核实或保存完成。\n\n原任务会继续处理这位候选；证据不足的项目保持待核实，不扩大搜索范围，也不外联。",
+      "epoch": 0,
+      "createdAt": 1791649189187,
+      "state": "delivered",
+      "attachments": []
+    },
+    {
+      "id": "report-request-5a0564a3-06cf-4d53-931d-47ea06512383-e1e8af0010a8010e",
+      "role": "assistant",
+      "text": "本次请求的 1 项工作已全部结束。\n\n- 新版 Instagram 1791649138355：已完成；已选合格 1/1，已核验 1；证据不足者保持待核实。Instagram：读取 1 个本人基础账号，基础条件排除 0 个；基础读取上限 20，逐人分析上限 1（本次有界来源，不代表全站穷尽）。 [查看报告](/api/reports/research-d80b3fac58d82ee9ba02e40f)\n\n[查看本次综合报告](/api/work-batches/5a0564a3-06cf-4d53-931d-47ea06512383/report) · [下载综合 CSV](/api/work-batches/5a0564a3-06cf-4d53-931d-47ea06512383/report?format=csv)",
+      "createdAt": 1791649189188,
+      "epoch": 0,
+      "state": "delivered",
+      "attachments": []
+    },
+    {
+      "id": "e64aa63e-be8e-4f08-ba81-0911cc11666d",
+      "role": "user",
+      "text": "请查询刚才已有结果，告诉我粉丝数、近期互动率及样本数；只查询，不要新搜索。",
+      "createdAt": 1791649190897,
+      "epoch": 0,
+      "state": "delivered",
+      "attachments": []
+    },
+    {
+      "id": "4520705e-6b42-4b13-8025-278a6e339193",
+      "role": "assistant",
+      "text": "已查询刚才保存的结果，**没有新搜索**。\n\n| 账号 | 粉丝数 | 近期互动率 | 样本数 |\n|---|---:|---:|---:|\n| Instagram `@qa_alice`（受控测试夹具） | 20,400 | **0.6863%** | **1 条帖子** |\n\n- **计算口径**：样本帖子的平均「点赞数＋评论数」÷粉丝数。\n- **粉丝数证据 ID**：`95b69638da256ebda28e96cc`。\n- 互动率仅基于 **1 条帖子**，不能代表账号长期互动水平。\n\n[查看已保存报告](/api/reports/research-d80b3fac58d82ee9ba02e40f)",
+      "epoch": 0,
+      "createdAt": 1791649209862,
+      "state": "delivered",
+      "attachments": []
+    }
+  ]
+}

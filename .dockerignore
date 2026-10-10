@@ -1,0 +1,12 @@
+node_modules
+.env
+data
+coverage
+test-results*
+playwright-report
+output
+validation
+reports
+.git
+.gstack
+.playwright-cli

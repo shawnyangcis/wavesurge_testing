@@ -1,0 +1,78 @@
+{
+  "startedAt": "2026-10-10T17:20:42.509Z",
+  "source": "Current production UI/routes against unchanged actual R4 response data, request delays only; saved-reference migration on private copy, no new webpage claims/API/model",
+  "migration": {
+    "completedAt": 1791652835358,
+    "resultIds": [
+      "research-294320f8d1c060255d3310e8|instagram:tylerlcrawford",
+      "research-294320f8d1c060255d3310e8|instagram:valstechtalkk",
+      "research-290c9d1e55ab57958eebf69f|instagram:lanetechhs",
+      "research-290c9d1e55ab57958eebf69f|instagram:ruparutgers",
+      "research-290c9d1e55ab57958eebf69f|instagram:lytegamingpcs",
+      "research-290c9d1e55ab57958eebf69f|instagram:texastechtf",
+      "research-7f22924e895fdf79bc9bfb73|instagram:tylerlcrawford",
+      "research-1c0a7ca9deb257bd0144ee1f|instagram:tylerlcrawford",
+      "research-7f22924e895fdf79bc9bfb73|instagram:valstechtalkk",
+      "research-1c0a7ca9deb257bd0144ee1f|instagram:valstechtalkk",
+      "research-abb4b5f8d3f19fb7de150e81|tiktok:juanescalonafilms",
+      "research-abb4b5f8d3f19fb7de150e81|tiktok:larissa2468_",
+      "research-f966a5bcdb3279fda8313cc8|twitter:professordilly",
+      "research-f966a5bcdb3279fda8313cc8|twitter:solalbertor",
+      "research-290c9d1e55ab57958eebf69f|instagram:tycsportse",
+      "research-290c9d1e55ab57958eebf69f|instagram:asupab",
+      "research-290c9d1e55ab57958eebf69f|instagram:hokiessoftball",
+      "research-290c9d1e55ab57958eebf69f|instagram:iginvictusgaming",
+      "research-290c9d1e55ab57958eebf69f|instagram:ladyraiderwbb",
+      "research-290c9d1e55ab57958eebf69f|instagram:kriger_boxprogramming",
+      "research-290c9d1e55ab57958eebf69f|instagram:ig_gaming446",
+      "research-290c9d1e55ab57958eebf69f|instagram:velora._.artistry",
+      "research-290c9d1e55ab57958eebf69f|instagram:miguel_layun_gaming",
+      "research-290c9d1e55ab57958eebf69f|instagram:corruptx7",
+      "research-290c9d1e55ab57958eebf69f|instagram:metagaming_py",
+      "research-290c9d1e55ab57958eebf69f|instagram:teamlgdgaming",
+      "research-290c9d1e55ab57958eebf69f|instagram:maverickgaming",
+      "research-290c9d1e55ab57958eebf69f|instagram:hokiesmbb",
+      "research-290c9d1e55ab57958eebf69f|instagram:guildesports",
+      "research-290c9d1e55ab57958eebf69f|instagram:kreamtech",
+      "research-711079d78044333d4b4dbe78|instagram:tylerlcrawford",
+      "research-711079d78044333d4b4dbe78|instagram:valstechtalkk",
+      "research-87b8384ff057e130a5afaad8|instagram:tylerlcrawford",
+      "research-87b8384ff057e130a5afaad8|instagram:valstechtalkk",
+      "research-ee3d9eb49e13b4b4ccc044bb|instagram:tylerlcrawford",
+      "research-ee3d9eb49e13b4b4ccc044bb|instagram:valstechtalkk",
+      "research-239ee23074803327b566a533|instagram:tylerlcrawford",
+      "research-239ee23074803327b566a533|instagram:valstechtalkk"
+    ],
+    "scope": "factor reference IDs only; saved API fields at original capture time; verdict, selection, facts, tags, source evidence and task state preserved; no model, API, redelivery"
+  },
+  "cases": [
+    {
+      "kind": "initial",
+      "rows": 1,
+      "csvRows": 1,
+      "csvLink": "/api/reports/research-294320f8d1c060255d3310e8?format=csv&tag=%E4%B8%8D%E6%88%B4%E7%9C%BC%E9%95%9C&tagMode=exact",
+      "passed": true
+    },
+    {
+      "kind": "previous-query",
+      "rows": 1,
+      "csvRows": 1,
+      "csvLink": "/api/reports/research-294320f8d1c060255d3310e8?format=csv&tag=%E4%B8%8D%E6%88%B4%E7%9C%BC%E9%95%9C&tagMode=exact",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "tagModes": {
+    "exactPositiveRows": 0,
+    "explicitContainsNegativeRows": 1
+  },
+  "references": {
+    "old": 287,
+    "current": 1,
+    "sourceEvidenceBefore": 288,
+    "sourceEvidenceAfter": 288
+  },
+  "passed": true,
+  "newWaveCalls": 0,
+  "finishedAt": "2026-10-10T17:22:26.740Z"
+}

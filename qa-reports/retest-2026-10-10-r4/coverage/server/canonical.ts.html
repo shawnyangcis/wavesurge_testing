@@ -1,0 +1,166 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Code coverage report for server/canonical.ts</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../prettify.css" />
+    <link rel="stylesheet" href="../base.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+    
+<body>
+<div class='wrapper'>
+    <div class='pad1'>
+        <h1><a href="../index.html">All files</a> / <a href="index.html">server</a> canonical.ts</h1>
+        <div class='clearfix'>
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Statements</span>
+                <span class='fraction'>35/35</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Branches</span>
+                <span class='fraction'>31/31</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Functions</span>
+                <span class='fraction'>2/2</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Lines</span>
+                <span class='fraction'>22/22</span>
+            </div>
+        
+            
+        </div>
+        <p class="quiet">
+            Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
+        </p>
+        <template id="filterTemplate">
+            <div class="quiet">
+                Filter:
+                <input type="search" id="fileSearch">
+            </div>
+        </template>
+    </div>
+    <div class='status-line high'></div>
+    <pre><table class="coverage">
+<tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
+<a name='L2'></a><a href='#L2'>2</a>
+<a name='L3'></a><a href='#L3'>3</a>
+<a name='L4'></a><a href='#L4'>4</a>
+<a name='L5'></a><a href='#L5'>5</a>
+<a name='L6'></a><a href='#L6'>6</a>
+<a name='L7'></a><a href='#L7'>7</a>
+<a name='L8'></a><a href='#L8'>8</a>
+<a name='L9'></a><a href='#L9'>9</a>
+<a name='L10'></a><a href='#L10'>10</a>
+<a name='L11'></a><a href='#L11'>11</a>
+<a name='L12'></a><a href='#L12'>12</a>
+<a name='L13'></a><a href='#L13'>13</a>
+<a name='L14'></a><a href='#L14'>14</a>
+<a name='L15'></a><a href='#L15'>15</a>
+<a name='L16'></a><a href='#L16'>16</a>
+<a name='L17'></a><a href='#L17'>17</a>
+<a name='L18'></a><a href='#L18'>18</a>
+<a name='L19'></a><a href='#L19'>19</a>
+<a name='L20'></a><a href='#L20'>20</a>
+<a name='L21'></a><a href='#L21'>21</a>
+<a name='L22'></a><a href='#L22'>22</a>
+<a name='L23'></a><a href='#L23'>23</a>
+<a name='L24'></a><a href='#L24'>24</a>
+<a name='L25'></a><a href='#L25'>25</a>
+<a name='L26'></a><a href='#L26'>26</a>
+<a name='L27'></a><a href='#L27'>27</a>
+<a name='L28'></a><a href='#L28'>28</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">16x</span>
+<span class="cline-any cline-yes">16x</span>
+<span class="cline-any cline-yes">16x</span>
+<span class="cline-any cline-yes">32x</span>
+<span class="cline-any cline-yes">7968x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">144x</span>
+<span class="cline-any cline-yes">74x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">362x</span>
+<span class="cline-any cline-yes">362x</span>
+<span class="cline-any cline-yes">362x</span>
+<span class="cline-any cline-yes">362x</span>
+<span class="cline-any cline-yes">362x</span>
+<span class="cline-any cline-yes">362x</span>
+<span class="cline-any cline-yes">358x</span>
+<span class="cline-any cline-yes">358x</span>
+<span class="cline-any cline-yes">358x</span>
+<span class="cline-any cline-yes">47x</span>
+<span class="cline-any cline-yes">47x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">358x</span>
+<span class="cline-any cline-yes">358x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">362x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import type { Creator } from '../shared/research.ts';
+const countries = new Map&lt;string, string&gt;();
+const codes = 'AD AE AF AG AI AL AM AO AQ AR AS AT AU AW AX AZ BA BB BD BE BF BG BH BI BJ BL BM BN BO BQ BR BS BT BV BW BY BZ CA CC CD CF CG CH CI CK CL CM CN CO CR CU CV CW CX CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM FO FR GA GB GD GE GF GG GH GI GL GM GN GP GQ GR GS GT GU GW GY HK HM HN HR HT HU ID IE IL IM IN IO IQ IR IS IT JE JM JO JP KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MF MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC NE NF NG NI NL NO NP NR NU NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO RS RU RW SA SB SC SD SE SG SH SI SJ SK SL SM SN SO SR SS ST SV SX SY SZ TC TD TF TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG UM US UY UZ VA VC VE VG VI VN VU WF WS YE YT ZA ZM ZW'.split(' ');
+for (const locale of ['en', 'zh-CN']) {
+  const names = new Intl.DisplayNames(locale, { type: 'region' });
+  for (const code of codes) { countries.set(code.toLowerCase(), code); countries.set(names.of(code)!.toLowerCase(), code); }
+}
+for (const [alias, code] of [['usa', 'US'], ['u.s.', 'US'], ['u.s.a.', 'US'], ['united states of america', 'US'], ['uk', 'GB'], ['u.k.', 'GB'], ['great britain', 'GB'], ['south korea', 'KR'], ['russia', 'RU']]) countries.set(alias, code);
+export function countryCode(value: string) { return countries.get(value.split(',').at(-1)!.trim().toLowerCase()); }
+export function creatorIdentity(creator: Pick&lt;Creator, 'platform' | 'handle' | 'profileUrl'&gt;) {
+  const handle = creator.handle.replace(/^@/, '').toLowerCase();
+  let identity = handle;
+  try {
+    const url = new URL(creator.profileUrl); const host = url.hostname.toLowerCase().replace(/^(www|m|mobile)\./, '');
+    const segments = url.pathname.split('/').filter(Boolean);
+    if (creator.platform === 'instagram' &amp;&amp; host === 'instagram.com' &amp;&amp; segments.length === 1 &amp;&amp; !['p', 'reel', 'explore', 'accounts'].includes(segments[0].toLowerCase())) identity = segments[0].toLowerCase();
+    if (creator.platform === 'twitter' &amp;&amp; ['x.com', 'twitter.com'].includes(host) &amp;&amp; segments.length === 1 &amp;&amp; !['home', 'search', 'i', 'intent'].includes(segments[0].toLowerCase())) identity = segments[0].toLowerCase();
+    if (creator.platform === 'tiktok' &amp;&amp; host === 'tiktok.com' &amp;&amp; segments[0]?.startsWith('@')) identity = segments[0].slice(1).toLowerCase();
+    if (creator.platform === 'youtube' &amp;&amp; host === 'youtube.com') {
+      if (segments[0] === 'channel' &amp;&amp; segments[1]) identity = `channel/${segments[1]}`;
+      if (segments[0]?.startsWith('@')) identity = segments[0].slice(1).toLowerCase();
+    }
+    url.search = ''; url.hash = ''; url.hostname = host;
+    if (!identity) identity = url.toString().replace(/\/$/, '');
+  } catch { if (!identity) identity = creator.profileUrl; }
+  return `${creator.platform}:${identity}`;
+}
+&nbsp;</pre></td></tr></table></pre>
+
+                <div class='push'></div><!-- for sticky footer -->
+            </div><!-- /wrapper -->
+            <div class='footer quiet pad2 space-top1 center small'>
+                Code coverage generated by
+                <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
+                at 2026-10-10T13:29:51.355Z
+            </div>
+        <script src="../prettify.js"></script>
+        <script>
+            window.onload = function () {
+                prettyPrint();
+            };
+        </script>
+        <script src="../sorter.js"></script>
+        <script src="../block-navigation.js"></script>
+    </body>
+</html>
+    

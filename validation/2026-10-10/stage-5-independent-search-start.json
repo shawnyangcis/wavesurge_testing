@@ -1,0 +1,247 @@
+{
+  "source": "actual model / preserved failed campaign / corrected independent discovery intent / real API",
+  "original": {
+    "title": "大学生降噪耳机推广 Campaign 草案 1791572085141",
+    "goal": "推广面向大学生的降噪耳机，提高产品认知和购买意愿。总计筛选2位不同Instagram账号，每组1位；每组候选上限2，总候选预算4。不要求邮箱，不做外联。仅保存草案，不启动搜索。",
+    "audience": "大学生；创作者所在地限定Canada或United States，不将创作者所在地等同于受众所在地。品牌、售价及其他产品卖点尚未提供，不额外添加筛选要求。",
+    "groups": [
+      {
+        "id": "tech_reviews",
+        "rationale": "科技/耳机评测创作者可通过产品体验、功能解释与对比帮助大学生了解降噪耳机并形成购买判断，支持认知提升与购买意愿；不要求候选已评测该品牌或具体产品。",
+        "spec": {
+          "title": "科技/耳机评测创作者 1791572085141",
+          "personaText": "筛选1位Instagram创作者，所在地Canada或United States，粉丝10,000至100,000，分享科技或耳机评测内容。所有条件均为必选文字条件，无视觉条件。不要求邮箱、不做外联。最多核验2个候选。与学习/效率生活组须为不同Instagram账号。",
+          "count": 1,
+          "platforms": [
+            "instagram"
+          ],
+          "regions": [
+            "Canada",
+            "United States"
+          ],
+          "minFollowers": 10000,
+          "maxFollowers": 100000,
+          "candidateBudget": 2,
+          "criteria": [
+            {
+              "id": "tech_review_content",
+              "label": "分享科技或耳机评测内容，须有内容文字证据支持。",
+              "required": true,
+              "basis": "text"
+            }
+          ]
+        },
+        "taskId": "research-98350042b636d08a5d424a6c",
+        "matched": 0,
+        "eligible": 0
+      },
+      {
+        "id": "study_campus",
+        "rationale": "学习/效率生活创作者可将降噪耳机与学习、专注和效率生活等使用场景联系，提升大学生的产品认知、相关性感受和购买兴趣；不额外要求创作者本人在校或已有耳机推广内容。",
+        "spec": {
+          "title": "学习/效率生活创作者 1791572085141",
+          "personaText": "筛选1位Instagram创作者，所在地Canada或United States，粉丝10,000至100,000，分享学习或效率生活内容。所有条件均为必选文字条件，无视觉条件。不要求邮箱、不做外联。最多核验2个候选。与科技/耳机评测组须为不同Instagram账号。",
+          "count": 1,
+          "platforms": [
+            "instagram"
+          ],
+          "regions": [
+            "Canada",
+            "United States"
+          ],
+          "minFollowers": 10000,
+          "maxFollowers": 100000,
+          "candidateBudget": 2,
+          "criteria": [
+            {
+              "id": "study_campus_content",
+              "label": "分享学习或效率生活内容，须有内容文字证据支持。",
+              "required": true,
+              "basis": "text"
+            }
+          ]
+        },
+        "taskId": "research-d7687a09b9a84db8c236a706",
+        "matched": 0,
+        "eligible": 0
+      }
+    ],
+    "id": "campaign-49090173cf0f56b698b97456",
+    "revision": 2,
+    "childTaskIds": [
+      "research-98350042b636d08a5d424a6c",
+      "research-d7687a09b9a84db8c236a706"
+    ],
+    "createdAt": 1791572115348,
+    "updatedAt": 1791572154943,
+    "status": "partial",
+    "requested": 2,
+    "matched": 0,
+    "qualifyingUnique": 0,
+    "evaluated": 0,
+    "selections": [],
+    "reportUrl": "/api/campaigns/campaign-49090173cf0f56b698b97456/report",
+    "results": []
+  },
+  "draft": {
+    "title": "耳机 Campaign 独立候选发现",
+    "goal": "推广面向大学生的降噪耳机，提高产品认知和购买意愿。筛选2位不同Instagram账号，两组各1位，每组候选上限2，总候选预算4。跨组去重由本地系统完成。不要求邮箱，不做外联。仅保存新草案，不启动搜索，保留原Campaign及其报告。",
+    "audience": "大学生。创作者所在地限定Canada或United States；不将创作者所在地等同于受众所在地。",
+    "groups": [
+      {
+        "id": "tech_reviews",
+        "rationale": "科技/耳机评测创作者通过功能解释、体验与比较提高产品认知，帮助大学生判断购买价值，支持购买意愿。",
+        "spec": {
+          "title": "科技/耳机评测",
+          "personaText": "technology and headphone reviewers",
+          "count": 1,
+          "platforms": [
+            "instagram"
+          ],
+          "regions": [
+            "Canada",
+            "United States"
+          ],
+          "minFollowers": 10000,
+          "maxFollowers": 100000,
+          "candidateBudget": 2,
+          "criteria": [
+            {
+              "id": "tech_review_content",
+              "label": "分享科技或耳机评测内容，须有文字证据支持。",
+              "required": true,
+              "basis": "text"
+            }
+          ]
+        },
+        "matched": 0,
+        "eligible": 0
+      },
+      {
+        "id": "study_productivity",
+        "rationale": "学习/效率生活创作者通过学习、专注与日常效率场景展示产品用途，增强大学生的场景认知与购买兴趣。",
+        "spec": {
+          "title": "学习/效率生活",
+          "personaText": "study and productivity creators",
+          "count": 1,
+          "platforms": [
+            "instagram"
+          ],
+          "regions": [
+            "Canada",
+            "United States"
+          ],
+          "minFollowers": 10000,
+          "maxFollowers": 100000,
+          "candidateBudget": 2,
+          "criteria": [
+            {
+              "id": "study_productivity_content",
+              "label": "分享学习或效率生活内容，须有文字证据支持。",
+              "required": true,
+              "basis": "text"
+            }
+          ]
+        },
+        "matched": 0,
+        "eligible": 0
+      }
+    ],
+    "id": "campaign-b53cd12a94d4d418b31949d3",
+    "revision": 1,
+    "childTaskIds": [],
+    "createdAt": 1791573263267,
+    "updatedAt": 1791573263267,
+    "status": "draft",
+    "requested": 2,
+    "matched": 0,
+    "qualifyingUnique": 0,
+    "evaluated": 0,
+    "selections": [],
+    "reportUrl": "/api/campaigns/campaign-b53cd12a94d4d418b31949d3/report",
+    "results": []
+  },
+  "started": {
+    "title": "耳机 Campaign 独立候选发现",
+    "goal": "推广面向大学生的降噪耳机，提高产品认知和购买意愿。筛选2位不同Instagram账号，两组各1位，每组候选上限2，总候选预算4。跨组去重由本地系统完成。不要求邮箱，不做外联。仅保存新草案，不启动搜索，保留原Campaign及其报告。",
+    "audience": "大学生。创作者所在地限定Canada或United States；不将创作者所在地等同于受众所在地。",
+    "groups": [
+      {
+        "id": "tech_reviews",
+        "rationale": "科技/耳机评测创作者通过功能解释、体验与比较提高产品认知，帮助大学生判断购买价值，支持购买意愿。",
+        "spec": {
+          "title": "科技/耳机评测",
+          "personaText": "technology and headphone reviewers",
+          "count": 1,
+          "platforms": [
+            "instagram"
+          ],
+          "regions": [
+            "Canada",
+            "United States"
+          ],
+          "minFollowers": 10000,
+          "maxFollowers": 100000,
+          "candidateBudget": 2,
+          "criteria": [
+            {
+              "id": "tech_review_content",
+              "label": "分享科技或耳机评测内容，须有文字证据支持。",
+              "required": true,
+              "basis": "text"
+            }
+          ]
+        },
+        "taskId": "research-329ed36c04d98223b610f7c0",
+        "matched": 0,
+        "eligible": 0
+      },
+      {
+        "id": "study_productivity",
+        "rationale": "学习/效率生活创作者通过学习、专注与日常效率场景展示产品用途，增强大学生的场景认知与购买兴趣。",
+        "spec": {
+          "title": "学习/效率生活",
+          "personaText": "study and productivity creators",
+          "count": 1,
+          "platforms": [
+            "instagram"
+          ],
+          "regions": [
+            "Canada",
+            "United States"
+          ],
+          "minFollowers": 10000,
+          "maxFollowers": 100000,
+          "candidateBudget": 2,
+          "criteria": [
+            {
+              "id": "study_productivity_content",
+              "label": "分享学习或效率生活内容，须有文字证据支持。",
+              "required": true,
+              "basis": "text"
+            }
+          ]
+        },
+        "taskId": "research-58949888b306ad726d60be23",
+        "matched": 0,
+        "eligible": 0
+      }
+    ],
+    "id": "campaign-b53cd12a94d4d418b31949d3",
+    "revision": 1,
+    "childTaskIds": [
+      "research-329ed36c04d98223b610f7c0",
+      "research-58949888b306ad726d60be23"
+    ],
+    "createdAt": 1791573263267,
+    "updatedAt": 1791573263657,
+    "status": "running",
+    "requested": 2,
+    "matched": 0,
+    "qualifyingUnique": 0,
+    "evaluated": 0,
+    "selections": [],
+    "reportUrl": "/api/campaigns/campaign-b53cd12a94d4d418b31949d3/report",
+    "results": []
+  }
+}

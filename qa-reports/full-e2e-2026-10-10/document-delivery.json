@@ -1,0 +1,38 @@
+{
+  "observedAt": "2026-10-10T01:58:41.806Z",
+  "source": "actual primary-deployment browser UI; existing genuine finished task; no candidates or results injected",
+  "task": {
+    "id": "research-a333d174361fcf1bed6c0698",
+    "title": "Instagram 科技创作者筛选（加拿大或美国）",
+    "status": "partial",
+    "requested": 2,
+    "evaluated": 1,
+    "matched": 1
+  },
+  "taskCard": "部分完成\nInstagram 科技创作者筛选（加拿大或美国）\n\n已核验 1 · 已合格 1 / 2\n\n已合格 1/2，已核验 1；证据不足者保持待核实。\n查看结果",
+  "chatLinks": [],
+  "chatDocumentComponents": 0,
+  "taskReferencesInMessages": [],
+  "resultCount": 1,
+  "reportHref": "/api/reports/research-a333d174361fcf1bed6c0698",
+  "csvHref": "/api/reports/research-a333d174361fcf1bed6c0698?format=csv",
+  "reportUrl": "http://127.0.0.1:3000/api/reports/research-a333d174361fcf1bed6c0698",
+  "reportText": "Instagram 科技创作者筛选（加拿大或美国）\n\n目标 2 人；本地已合格 1 人；已核验 1 人。\n\n已合格 1/2，已核验 1；证据不足者保持待核实。\n\n来源：WaveSurge + 本地核验。远端搜索完成不代表本地条件通过。报告更新时间：2026-10-09T18:12:07.000Z\nTech tips | Tech support | IT Consultant · 符合要求\n\ninstagram / imthegeekjr / 粉丝 79634 / United States\n\n标签：分享科技内容，依据本人简介或内容文字核验\n\n条件\t判断\t依据\n所在地区\t符合要求\tWaveSurge 地区：United States；服务标记国家已确认\n\n平台\t符合要求\t创作者平台：instagram\n\n粉丝范围\t符合要求\tWaveSurge 粉丝数 79634，要求 10000–100000\n\n分享科技内容，依据本人简介或内容文字核验\t符合要求\t所提供的 Instagram 本人简介文字明确写有“Daily #tech and #pc tips.”（每日科技与电脑技巧），足以符合“分享科技内容，依据本人简介或内容文字核验”。来源为候选主页，采集时间戳为 1791569520331；无帖子发布日期，本判断不推断近期发帖情况。\ncontent 日期未知",
+  "reportLinks": [
+    {
+      "text": "Tech tips | Tech support | IT Consultant",
+      "href": "https://www.instagram.com/imthegeekjr/"
+    },
+    {
+      "text": "content 日期未知",
+      "href": "https://www.instagram.com/imthegeekjr/"
+    }
+  ],
+  "csv": {
+    "status": 200,
+    "contentType": "text/csv; charset=utf-8",
+    "header": "﻿账号,平台,粉丝数,地区,本地判断,标签,链接,逐条件核验\r"
+  },
+  "errors": [],
+  "limitation": "This checks the UI and report for a historical finished task. The absence of asynchronous completion publication is established separately by the worker/agent wiring; this is not a new live-search completion test."
+}

@@ -1,0 +1,40 @@
+{
+  "at": "2026-10-10T12:09:39.689Z",
+  "passed": true,
+  "source": "SQLite online read-only snapshot of reviewer R3 evidence; repair executed only on private local copy. No fresh page visit, model/API call or historical report redelivery.",
+  "migration": {
+    "completedAt": 1791634177177,
+    "taskIds": [
+      "research-be8026ae73f12c86682a616a"
+    ],
+    "scope": "known followers precision conflict only; latest submitted owned evidence compatible with exact Wave count; no model, API, or redelivery"
+  },
+  "changed": [
+    {
+      "id": "research-be8026ae73f12c86682a616a|instagram:valstechtalkk",
+      "handle": "valstechtalkk",
+      "apiFollowers": 39667,
+      "oldVerdict": "unknown",
+      "verdict": "match",
+      "oldRevision": 2,
+      "revision": 3,
+      "followersFact": {
+        "min": 39550,
+        "max": 39699,
+        "rawValue": "39.6K followers",
+        "evidenceIds": [
+          "834e31e4ad5d6471a34c29b6"
+        ]
+      },
+      "conflicts": [],
+      "tagsPreserved": true,
+      "annotationsPreserved": true
+    }
+  ],
+  "resultsPreserved": 30,
+  "tasksPreserved": 8,
+  "modelOrApiCalls": 0,
+  "newNotices": 0,
+  "newMessages": 0,
+  "idempotent": true
+}

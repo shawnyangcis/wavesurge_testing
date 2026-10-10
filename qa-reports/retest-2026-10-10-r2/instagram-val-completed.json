@@ -1,0 +1,760 @@
+{
+  "scope": "live",
+  "name": "instagram-val-completed",
+  "taskId": "research-bab604288a59acc55f2788a1",
+  "startedAt": "2026-10-10T07:35:57.737Z",
+  "checks": [
+    "Actual CSV link downloaded",
+    "Chat-accessible structured HTML report opened in actual browser",
+    "Tag values and versions persisted after page reload"
+  ],
+  "queries": [
+    {
+      "tag": "手机使用技巧",
+      "count": 1,
+      "handles": [
+        "valstechtalkk"
+      ],
+      "csvPath": ".gstack/qa-reports/retest-2026-10-10-r2/instagram-val-completed-filter-0.csv",
+      "href": "/api/reports/research-bab604288a59acc55f2788a1?format=csv&tag=%E6%89%8B%E6%9C%BA%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7"
+    },
+    {
+      "tag": "消费电子产品介绍",
+      "count": 1,
+      "handles": [
+        "valstechtalkk"
+      ],
+      "csvPath": ".gstack/qa-reports/retest-2026-10-10-r2/instagram-val-completed-filter-1.csv",
+      "href": "/api/reports/research-bab604288a59acc55f2788a1?format=csv&tag=%E6%B6%88%E8%B4%B9%E7%94%B5%E5%AD%90%E4%BA%A7%E5%93%81%E4%BB%8B%E7%BB%8D"
+    },
+    {
+      "tag": "Notion",
+      "count": 0,
+      "handles": [],
+      "csvPath": ".gstack/qa-reports/retest-2026-10-10-r2/instagram-val-completed-filter-2.csv",
+      "href": "/api/reports/research-bab604288a59acc55f2788a1?format=csv&tag=Notion"
+    },
+    {
+      "tag": "geek",
+      "count": 0,
+      "handles": [],
+      "csvPath": ".gstack/qa-reports/retest-2026-10-10-r2/instagram-val-completed-filter-3.csv",
+      "href": "/api/reports/research-bab604288a59acc55f2788a1?format=csv&tag=geek"
+    },
+    {
+      "tag": "不会存在的画像标签",
+      "count": 0,
+      "handles": [],
+      "csvPath": ".gstack/qa-reports/retest-2026-10-10-r2/instagram-val-completed-filter-4.csv",
+      "href": "/api/reports/research-bab604288a59acc55f2788a1?format=csv&tag=%E4%B8%8D%E4%BC%9A%E5%AD%98%E5%9C%A8%E7%9A%84%E7%94%BB%E5%83%8F%E6%A0%87%E7%AD%BE"
+    }
+  ],
+  "networkErrors": [
+    {
+      "url": "http://127.0.0.1:3552/api/session",
+      "status": 401
+    }
+  ],
+  "pageErrors": [],
+  "task": {
+    "id": "research-bab604288a59acc55f2788a1",
+    "title": "Instagram valstechtalkk 单账号纠正核验",
+    "status": "completed",
+    "requested": 1,
+    "evaluated": 1,
+    "matched": 1,
+    "qualifying": 1,
+    "updatedAt": 1791617631331,
+    "detail": "已选合格 1/1，已核验 1；证据不足者保持待核实。",
+    "remoteStatus": "done",
+    "nextPollAt": 0
+  },
+  "results": [
+    {
+      "id": "research-bab604288a59acc55f2788a1|instagram:valstechtalkk",
+      "taskId": "research-bab604288a59acc55f2788a1",
+      "creator": {
+        "id": "instagram:valstechtalkk",
+        "platform": "instagram",
+        "handle": "valstechtalkk",
+        "profileUrl": "https://www.instagram.com/valstechtalkk/",
+        "displayName": "V",
+        "followers": 39660,
+        "region": null,
+        "evidence": [
+          {
+            "id": "bc9d51f1a199cb3ef086f815",
+            "url": "https://www.instagram.com/valstechtalkk/",
+            "kind": "profile",
+            "text": "tech but make it cute 📱 | HTX\nReviews + a little glam  💒💄 \n400k+ tech besties on tiktok 👩🏻‍💻\n📧 : Valstech@swipemgmt.com\n39660 followers\n{\"username\":\"valstechtalkk\",\"userId\":\"10561673222\",\"isPrivate\":false,\"isVerified\":true}",
+            "provider": "wavesurge-instagram-raw",
+            "publishedAt": null,
+            "capturedAt": 1791614281991
+          },
+          {
+            "id": "a7e3e7d0dbee5ed3fcffa6fb",
+            "url": "https://www.instagram.com/p/DeQfBbyKmOR/",
+            "kind": "post",
+            "text": "{\"caption\":\"camera settings i turn on for the CRISP quality 🤩 #iphone #iphonetips #iphone18promax #iphonecamera\",\"likes\":null,\"comments\":15,\"photoCount\":0,\"videoCoverCount\":1}",
+            "provider": "wavesurge-instagram-raw",
+            "publishedAt": "2026-10-09T02:57:55.000Z",
+            "capturedAt": 1791614281991
+          },
+          {
+            "id": "f5b2dfb49ec1b5c07197c1ef",
+            "url": "https://scontent-cph2-1.cdninstagram.com/v/t51.71878-15/841296526_958471830672089_2399261896424278889_n.jpg?stp=dst-jpg_e15_p360x360_tt6&_nc_cat=109&ig_cache_key=NDAwMzgzNjUwNjcyNjM1OTk1Mw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZmlyc3RfZnJhbWVfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=Oagi4O3js2QQ7kNvwGybY6P&_nc_oc=AdqQL2pOeGM1li3un7MJiOTgF0Me1U2b8jxJRh29pJUmhQoSOfePjoXKH6kd7KxzZZQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-cph2-1.cdninstagram.com&_nc_gid=vK-g9qsK-QlEKrYF9D-RRg&_nc_ss=7a3ba&oh=00_AQPx3jY3h7gdSirywA9pZ4tQsLY-OQcO-lvdQl7L720uQw&oe=6ACFAF29",
+            "kind": "video_cover",
+            "text": "视频封面资源；不能当作照片帖。",
+            "provider": "wavesurge-instagram-raw",
+            "publishedAt": "2026-10-09T02:57:55.000Z",
+            "capturedAt": 1791614281991
+          },
+          {
+            "id": "c3953412bbb74ffbca3312f2",
+            "url": "https://www.instagram.com/p/DeNSuNkqMjQ/",
+            "kind": "post",
+            "text": "{\"caption\":\"You don’t have to stick with the same colored cushion anymore!! 🤩🤩 #beats360 #beatsbydre #beatsheadphones #apple\",\"likes\":null,\"comments\":4,\"photoCount\":0,\"videoCoverCount\":1}",
+            "provider": "wavesurge-instagram-raw",
+            "publishedAt": "2026-10-07T21:19:37.000Z",
+            "capturedAt": 1791614281991
+          },
+          {
+            "id": "b9489bea5e85930c1e380cc8",
+            "url": "https://scontent-cph2-1.cdninstagram.com/v/t51.71878-15/840102236_1452902276697049_4025415972965959101_n.jpg?stp=dst-jpg_e15_p360x360_tt6&_nc_cat=103&ig_cache_key=NDAwMjkzNzk4NDMwOTA1MzY0ODMxNzg3Mzk5MTU2NDgwMjQ%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=34L3y8oqYIMQ7kNvwFYUTyv&_nc_oc=AdoC6Vte3K_QxetHxmd9VCdAq6upsZQZtvNr1SSm4H-w2DDKMVa8CnArS3TUgPwLiV4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-cph2-1.cdninstagram.com&_nc_gid=FYC3Y58FRNUqndAGZjBX6A&_nc_ss=7a3ba&oh=00_AQPdIBI4MoIpigXl9znXCJoH7PLM2ag4qqNXlSPmCduCNw&oe=6ACFC470",
+            "kind": "video_cover",
+            "text": "视频封面资源；不能当作照片帖。",
+            "provider": "wavesurge-instagram-raw",
+            "publishedAt": "2026-10-07T21:19:37.000Z",
+            "capturedAt": 1791614281991
+          },
+          {
+            "id": "76c551a09859ee2dfe764c66",
+            "url": "https://www.instagram.com/p/DeGHHcPqWtL/",
+            "kind": "post",
+            "text": "{\"caption\":\"Wait… this gold color is sooo sleek 🤩 #apple #applewatch #applewatchseries12\",\"likes\":3,\"comments\":9,\"photoCount\":0,\"videoCoverCount\":1}",
+            "provider": "wavesurge-instagram-raw",
+            "publishedAt": "2026-10-05T02:15:28.000Z",
+            "capturedAt": 1791614281991
+          },
+          {
+            "id": "6a8c083ee765974a07095f3d",
+            "url": "https://instagram.fprg6-1.fna.fbcdn.net/v/t51.71878-15/836858011_1866709514498935_2100002604343773548_n.jpg?stp=dst-jpg_e15_p360x360_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ig_cache_key=NDAwMDkxNjYxNjY1NDcxMTYyNzEwOTUwOTQxMTk5MTkwNzE%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=bsjff77V604Q7kNvwF3MBPE&_nc_oc=AdpbXYavy5CO--yZIikGEjC2fHhtL1eJAtlsEQcdgdbjjRdwYj4P5u_KCHwQwhE8ZoY&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fprg6-1.fna&_nc_gid=ZsYeJE9gvj5f4HpC2KcSkQ&_nc_ss=7a3ba&oh=00_AQMKZAAnzQtYkarn4E_kc1sZL4HnnZSdHFq89ggconl0xA&oe=6ACFC0DE",
+            "kind": "video_cover",
+            "text": "视频封面资源；不能当作照片帖。",
+            "provider": "wavesurge-instagram-raw",
+            "publishedAt": "2026-10-05T02:15:28.000Z",
+            "capturedAt": 1791614281991
+          },
+          {
+            "id": "c033fb0940eaeb292a6f3339",
+            "url": "https://www.instagram.com/p/DeA3s9Gq652/",
+            "kind": "post",
+            "text": "{\"caption\":\"custom emojis?! i love 😍🤓 #iphone18 #iphone18promax #iphone18pro #iphonetips\",\"likes\":3,\"comments\":110,\"photoCount\":0,\"videoCoverCount\":1}",
+            "provider": "wavesurge-instagram-raw",
+            "publishedAt": "2026-10-03T01:28:35.000Z",
+            "capturedAt": 1791614281991
+          },
+          {
+            "id": "0db486f35a61d761c966ebd2",
+            "url": "https://instagram.fprg6-1.fna.fbcdn.net/v/t51.71878-15/833346072_1746467869979053_6025187824073478713_n.jpg?stp=dst-jpg_e15_p360x360_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ig_cache_key=Mzk5OTQ0MTQ1MDkzMDI1MzQzMA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZmlyc3RfZnJhbWVfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=VtgPTwwoKooQ7kNvwHCIW8Y&_nc_oc=AdomQM1mwNMDk5lMWvBVlZoQIy6J2nD-SrVfRv3yXUt9rYcfydAqPFkFQXb8LQ-6mck&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fprg6-1.fna&_nc_gid=ZsYeJE9gvj5f4HpC2KcSkQ&_nc_ss=7a3ba&oh=00_AQMAWNEMCarYlRqyVlTehl7dQtoBNrYPkmSLWH_4WhvSbg&oe=6ACFAF51",
+            "kind": "video_cover",
+            "text": "视频封面资源；不能当作照片帖。",
+            "provider": "wavesurge-instagram-raw",
+            "publishedAt": "2026-10-03T01:28:35.000Z",
+            "capturedAt": 1791614281991
+          },
+          {
+            "id": "87ebf59f2901128398c958c2",
+            "url": "https://www.instagram.com/p/Dd-SCRHqZeG/",
+            "kind": "post",
+            "text": "{\"caption\":\"New month new theme!! I am LOVING this October theme 🤓🤩 #iphonetheme #iphone18pro #iphone18pro\",\"likes\":3,\"comments\":20,\"photoCount\":0,\"videoCoverCount\":1}",
+            "provider": "wavesurge-instagram-raw",
+            "publishedAt": "2026-10-02T01:17:20.000Z",
+            "capturedAt": 1791614281991
+          },
+          {
+            "id": "8dbfdd3d949acef81e12b913",
+            "url": "https://instagram.fprg6-1.fna.fbcdn.net/v/t51.82787-15/831761803_18216855217353223_3411800517913374193_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ig_cache_key=Mzk5ODcxMjgzOTgwOTg5ODM3NDE4MjE2ODU1MjExMzUzMjIz.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMDYuc2RyLnZpZGVvX3VzZXJfc2VsZWN0ZWRfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=t8wzYLhIFtwQ7kNvwGPTx8-&_nc_oc=AdqP5zRocSwdqvmGPoqWB2ZmXTOlT4kKPXzngk2mh9iIEhyktYiBABqX0eLcNxgDnvM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fprg6-1.fna&_nc_gid=ZsYeJE9gvj5f4HpC2KcSkQ&_nc_ss=7a3ba&oh=00_AQO6SvRFe0YwFOH9D4QbE-zACGfTbyfPaZEzh2CrqsEDSg&oe=6ACFC572",
+            "kind": "video_cover",
+            "text": "视频封面资源；不能当作照片帖。",
+            "provider": "wavesurge-instagram-raw",
+            "publishedAt": "2026-10-02T01:17:20.000Z",
+            "capturedAt": 1791614281991
+          },
+          {
+            "id": "5cda524e8da383ea651ea60b",
+            "url": "https://www.instagram.com/p/Dd78DlmK80w/",
+            "kind": "post",
+            "text": "{\"caption\":\"Extra large widgets?! I’m impressed 🤓📱 #iphonetips #iphone18promax #iphonetipsandtricks #iphonefeatures\",\"likes\":3,\"comments\":9,\"photoCount\":0,\"videoCoverCount\":1}",
+            "provider": "wavesurge-instagram-raw",
+            "publishedAt": "2026-10-01T03:25:56.000Z",
+            "capturedAt": 1791614281991
+          },
+          {
+            "id": "859003e2e0d80540f0a4a034",
+            "url": "https://instagram.fprg6-1.fna.fbcdn.net/v/t51.82787-15/829452401_18216751162353223_6688267425586502318_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ig_cache_key=Mzk5ODA1MzIyMzUzOTM5NTg4ODE4MjE2NzUxMTU5MzUzMjIz.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl91cGxvYWRlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=d0Ggispj7y0Q7kNvwGAyUO7&_nc_oc=AdrrbmiXhCVo2FUYuGJ4qD4fj_eMiQPuAq0SyNvCDnUceh9IWeynH3V2CIrvoW17t08&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fprg6-1.fna&_nc_gid=ZsYeJE9gvj5f4HpC2KcSkQ&_nc_ss=7a3ba&oh=00_AQN1w4M2LTD5T7-BFbpTt7IGssmfclhnPn5KeFrKM1aWzQ&oe=6ACFC88E",
+            "kind": "video_cover",
+            "text": "视频封面资源；不能当作照片帖。",
+            "provider": "wavesurge-instagram-raw",
+            "publishedAt": "2026-10-01T03:25:56.000Z",
+            "capturedAt": 1791614281991
+          },
+          {
+            "id": "7bb702ab43acfd45050b3c4a",
+            "url": "https://www.instagram.com/p/Dd4u_CVq-X0/",
+            "kind": "post",
+            "text": "{\"caption\":\"The accessories mighttt be my favorite part of getting a new phone 📱🤓\\n use my code 15VAL for your next @casetify accessory!! #iphone18 #iphone18pro #iphonecase #ad\",\"likes\":3,\"comments\":7,\"photoCount\":0,\"videoCoverCount\":1}",
+            "provider": "wavesurge-instagram-raw",
+            "publishedAt": "2026-09-29T21:35:50.000Z",
+            "capturedAt": 1791614281991
+          },
+          {
+            "id": "f87fabce9d87b18c53e23889",
+            "url": "https://instagram.fprg6-1.fna.fbcdn.net/v/t51.82787-15/830390329_18216615259353223_3875884405558785314_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ig_cache_key=Mzk5NzE1MTMxMTI2ODkzMTA2MDE4MjE2NjE1MjUzMzUzMjIz.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEzMjAuc2RyLnZpZGVvX3VzZXJfdXBsb2FkZWRfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=SW0OreMG_jkQ7kNvwE_d0h1&_nc_oc=AdqqP0ohCopb5v8A6k-hJka0uKbPwk1-c3Kz_p9JD3UuXrpsxRIDEsbKv7OWg90Ahsw&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fprg6-1.fna&_nc_gid=ZsYeJE9gvj5f4HpC2KcSkQ&_nc_ss=7a3ba&oh=00_AQOYoyMBX6n3kD3bSI2TFv3Mfv7gIxsNsY2UltbE1ZZlGQ&oe=6ACFC262",
+            "kind": "video_cover",
+            "text": "视频封面资源；不能当作照片帖。",
+            "provider": "wavesurge-instagram-raw",
+            "publishedAt": "2026-09-29T21:35:50.000Z",
+            "capturedAt": 1791614281991
+          },
+          {
+            "id": "9663118351ea35ea5636ea0e",
+            "url": "https://www.instagram.com/p/Dd4BE4EqQ5b/",
+            "kind": "post",
+            "text": "{\"caption\":\"Base Model Motorola Razr 2026 in the most STUNNING color! What do we think? 👀🤩 @motorolaus  #motorola #motorolarazr #flipphone\",\"likes\":3,\"comments\":59,\"photoCount\":0,\"videoCoverCount\":1}",
+            "provider": "wavesurge-instagram-raw",
+            "publishedAt": "2026-09-29T14:55:08.000Z",
+            "capturedAt": 1791614281991
+          },
+          {
+            "id": "6868b7f53b638d5269c944b0",
+            "url": "https://instagram.fprg6-1.fna.fbcdn.net/v/t51.82787-15/828413538_18216581317353223_3360227994967582483_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=Mzk5Njk0OTQwMjQyMzQ2MzUxNTE4MjE2NTgxMzE0MzUzMjIz.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEzMjAuc2RyLnZpZGVvX3VzZXJfdXBsb2FkZWRfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=7lIFWzDOzXcQ7kNvwEAY5JV&_nc_oc=AdoVD5DgNDtlmrcQvUwiC-c5qfFjQYQyeG8AeK0NEglrATXnSxysNLqkjLcEGdEfEfo&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fprg6-1.fna&_nc_gid=ZsYeJE9gvj5f4HpC2KcSkQ&_nc_ss=7a3ba&oh=00_AQNToNkauOM9G9Xlz7SozH6T_pZQgHj1Kxgq-SJXifMhFg&oe=6ACFAC56",
+            "kind": "video_cover",
+            "text": "视频封面资源；不能当作照片帖。",
+            "provider": "wavesurge-instagram-raw",
+            "publishedAt": "2026-09-29T14:55:08.000Z",
+            "capturedAt": 1791614281991
+          },
+          {
+            "id": "8a11fd6d66c0c8afe86cea45",
+            "url": "https://www.instagram.com/p/Dd2jd6zqXKd/",
+            "kind": "post",
+            "text": "{\"caption\":\"Auto brightness has to be a setting I will always have off! What about you? 👀 📱 #iphone #iphone18promax #iphonetips\",\"likes\":3,\"comments\":12,\"photoCount\":0,\"videoCoverCount\":1}",
+            "provider": "wavesurge-instagram-raw",
+            "publishedAt": "2026-09-29T01:15:02.000Z",
+            "capturedAt": 1791614281991
+          },
+          {
+            "id": "07ee47e987880a0262075302",
+            "url": "https://instagram.fprg6-1.fna.fbcdn.net/v/t51.71878-15/825324076_1779460706535301_7132168478748618808_n.jpg?stp=dst-jpg_e15_p360x360_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ig_cache_key=Mzk5NjUzNzcwNjk3NDM3NjYwNQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZmlyc3RfZnJhbWVfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=Sny_JuTFOYUQ7kNvwHh-Im3&_nc_oc=AdoeFz_ydYkaY3RUkTonOwh-7w6Tu2usW12CPI8R072kRDuUfRe0XYx1BriVQMbRa6Q&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fprg6-1.fna&_nc_gid=ZsYeJE9gvj5f4HpC2KcSkQ&_nc_ss=7a3ba&oh=00_AQOUGdIF6LVK-oKTXBW6im4YfQ8ruo-5pVG39KbjmTdO4w&oe=6ACFB35F",
+            "kind": "video_cover",
+            "text": "视频封面资源；不能当作照片帖。",
+            "provider": "wavesurge-instagram-raw",
+            "publishedAt": "2026-09-29T01:15:02.000Z",
+            "capturedAt": 1791614281991
+          },
+          {
+            "id": "dca899590280eb658c797f0e",
+            "url": "https://www.instagram.com/p/Dd1uNUnq6f2/",
+            "kind": "post",
+            "text": "{\"caption\":\"These cases go so well the new burgundy iPhone📱✨ @bluntcases  make sure to use my code : “Valstech15” we need to twin ASAP 🤍 #iphone18promax #iphonecases #bluntcases\",\"likes\":3,\"comments\":16,\"photoCount\":0,\"videoCoverCount\":1}",
+            "provider": "wavesurge-instagram-raw",
+            "publishedAt": "2026-09-28T17:30:26.000Z",
+            "capturedAt": 1791614281991
+          },
+          {
+            "id": "2d5c7007fb2745724641cbcc",
+            "url": "https://instagram.fprg6-1.fna.fbcdn.net/v/t51.82787-15/825276979_18216492199353223_2546894631423598717_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ig_cache_key=Mzk5NjMwMzQ2OTk5NDI4OTE0MjE4MjE2NDkyMTk2MzUzMjIz.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMDYuc2RyLnZpZGVvX3VzZXJfdXBsb2FkZWRfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=hmBL0gdBhIkQ7kNvwHZ2Z67&_nc_oc=Ado8iCZYEJbrOgsgEwTTv8DZG4QMaaZySbnmxmEv1NLkhM4oKZTB9XA_WMJQrUY15aI&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fprg6-1.fna&_nc_gid=ZsYeJE9gvj5f4HpC2KcSkQ&_nc_ss=7a3ba&oh=00_AQOIv7i0MjtUov58VvkvBYYivsK4eOVYLFkDxt4KblKQPw&oe=6ACF9F25",
+            "kind": "video_cover",
+            "text": "视频封面资源；不能当作照片帖。",
+            "provider": "wavesurge-instagram-raw",
+            "publishedAt": "2026-09-28T17:30:26.000Z",
+            "capturedAt": 1791614281991
+          },
+          {
+            "id": "40d85a86a3c3070e63930b95",
+            "url": "https://www.instagram.com/p/Dd0TW2GqHKI/",
+            "kind": "post",
+            "text": "{\"caption\":\"Basic iPhone tips that are actually very helpful! 🤓📱 #iphonetips #iphone18pro #iphone18promax\",\"likes\":3,\"comments\":23,\"photoCount\":0,\"videoCoverCount\":1}",
+            "provider": "wavesurge-instagram-raw",
+            "publishedAt": "2026-09-28T04:15:46.000Z",
+            "capturedAt": 1791614281991
+          },
+          {
+            "id": "df86cc5c66c3df02c73b77e6",
+            "url": "https://instagram.fprg6-1.fna.fbcdn.net/v/t51.71878-15/828524960_1401830122124896_1175631730297390984_n.jpg?stp=dst-jpg_e15_p360x360_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ig_cache_key=Mzk5NTkwMzkwMjE5MDQzMjkwNDE1MjExOTg2MDMwMjU3NTY%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=I6rjVDAx7lsQ7kNvwHdCeLM&_nc_oc=AdrGtTQaGr7I4mgZvMUBTrgh3TQlqjqYu-T03jiYpEmsvgpauK5IS7fBWx3frLzng5Y&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fprg6-1.fna&_nc_gid=ZsYeJE9gvj5f4HpC2KcSkQ&_nc_ss=7a3ba&oh=00_AQOUjm7T0Yo-QV2cF3qSTeBHLHh1q2MYGOBfXXPXO3N2DQ&oe=6ACFB8D3",
+            "kind": "video_cover",
+            "text": "视频封面资源；不能当作照片帖。",
+            "provider": "wavesurge-instagram-raw",
+            "publishedAt": "2026-09-28T04:15:46.000Z",
+            "capturedAt": 1791614281991
+          },
+          {
+            "id": "993795164f56180fa677016a",
+            "url": "https://www.instagram.com/p/DdxWWYwq0qH/",
+            "kind": "post",
+            "text": "{\"caption\":\"How to change the background in your messages + one more iPhone tip 👀 📱 #iphonetips #iphone18 #iphone18promax #iphone18pro\",\"likes\":3,\"comments\":24,\"photoCount\":0,\"videoCoverCount\":1}",
+            "provider": "wavesurge-instagram-raw",
+            "publishedAt": "2026-09-27T00:44:18.000Z",
+            "capturedAt": 1791614281991
+          },
+          {
+            "id": "834d3b94e53672bec29668be",
+            "url": "https://instagram.fprg6-1.fna.fbcdn.net/v/t51.71878-15/825325348_2210948956298257_2130761459436466329_n.jpg?stp=dst-jpg_e15_p360x360_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ig_cache_key=Mzk5NTA3MjYzOTg5MjQwODk2Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZmlyc3RfZnJhbWVfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=_7XICCnIkyAQ7kNvwHudShl&_nc_oc=AdofstXGeNq9J3XKSygxgg6lBPLWpCCGLyejqoP7-igfFK3TxJwCihFOaumPfQFpAnw&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fprg6-1.fna&_nc_gid=ZsYeJE9gvj5f4HpC2KcSkQ&_nc_ss=7a3ba&oh=00_AQPiVK7tphWrFgPBIGEF0fCwz5vHpr22QalXGsgeaigNXA&oe=6ACFAF41",
+            "kind": "video_cover",
+            "text": "视频封面资源；不能当作照片帖。",
+            "provider": "wavesurge-instagram-raw",
+            "publishedAt": "2026-09-27T00:44:18.000Z",
+            "capturedAt": 1791614281991
+          },
+          {
+            "id": "065050e8db12421e84c73fc7",
+            "url": "https://www.instagram.com/p/Ddu5VTtqGDC/",
+            "kind": "post",
+            "text": "{\"caption\":\"iphone tips you should know & how to make new emojis 👀 🤓  #iphone18 #iphone18pro #iphonetips #iphonetipsandtricks\",\"likes\":3,\"comments\":33,\"photoCount\":0,\"videoCoverCount\":1}",
+            "provider": "wavesurge-instagram-raw",
+            "publishedAt": "2026-09-26T01:58:24.000Z",
+            "capturedAt": 1791614281991
+          },
+          {
+            "id": "2c23179acd14a6f2e6553389",
+            "url": "https://scontent-atl3-1.cdninstagram.com/v/t51.71878-15/825326675_1639956440970679_711389103046027848_n.jpg?stp=dst-jpg_e15_p360x360_tt6&_nc_cat=110&ig_cache_key=Mzk5NDM4MjA3MjQ1MTQ1NzIxODE1MzY2ODY4NjE1NDMxNTk%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D&_nc_ohc=1iVbfnzD6iYQ7kNvwHQE8uC&_nc_oc=AdoF2KRcVfOsV6YfoNgl9cSmAFFm38vKPsDuV-H0O1y2D6wbtTI5N9VPC8qv6hud3hM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=LNPVkTf8_C0sSHEkyXb3vg&_nc_ss=7a3ba&oh=00_AQOCZeHPnWGLBl0uUFoeW4sFD096TZDMnD9687Ew9D0v0Q&oe=6ACFAB73",
+            "kind": "video_cover",
+            "text": "视频封面资源；不能当作照片帖。",
+            "provider": "wavesurge-instagram-raw",
+            "publishedAt": "2026-09-26T01:58:24.000Z",
+            "capturedAt": 1791614281991
+          },
+          {
+            "id": "04d01fbab252e6f46f3e99d3",
+            "url": "https://www.instagram.com/p/DducGFOqUUl/",
+            "kind": "post",
+            "text": "{\"caption\":\"new apple iphone 18pm cases are here & let’s see which one looks the best… worth it or not? 🤓 #iphone18 #iphone18promax #iphonecases\",\"likes\":3,\"comments\":14,\"photoCount\":0,\"videoCoverCount\":1}",
+            "provider": "wavesurge-instagram-raw",
+            "publishedAt": "2026-09-25T21:36:57.000Z",
+            "capturedAt": 1791614281991
+          },
+          {
+            "id": "68a05b40d9153e6c753aa000",
+            "url": "https://scontent-atl3-1.cdninstagram.com/v/t51.71878-15/825276509_1244346778772491_3182795440817598187_n.jpg?stp=dst-jpg_e15_p360x360_tt6&_nc_cat=107&ig_cache_key=Mzk5NDI1MzQ4Mjc1ODA2MzM5NzExMTg4OTI0OTA2NzczODg%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D&_nc_ohc=2ULkgNnrbmEQ7kNvwF4hfV4&_nc_oc=Adoz7_MnBxeHfDiL1nZ_bSv7jujXD2cve7PHMfwSod-LEyMeD4__PE4QQFKwLlKd1LA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=LNPVkTf8_C0sSHEkyXb3vg&_nc_ss=7a3ba&oh=00_AQNwvN5y08rIWYhc6JxC_QdAT6A1SwLUx_tlloJv1Qx5Mg&oe=6ACFC280",
+            "kind": "video_cover",
+            "text": "视频封面资源；不能当作照片帖。",
+            "provider": "wavesurge-instagram-raw",
+            "publishedAt": "2026-09-25T21:36:57.000Z",
+            "capturedAt": 1791614281991
+          },
+          {
+            "id": "3ef26c78905d309854e19080",
+            "url": "https://www.instagram.com/p/Ddsf3CiKf6i/",
+            "kind": "post",
+            "text": "{\"caption\":\"Day two of iphone features you should know! Keyboard tips and tricks 🤓 #iphonetips #iphone18promax #iphone18pro #keyboard\",\"likes\":3,\"comments\":32,\"photoCount\":0,\"videoCoverCount\":1}",
+            "provider": "wavesurge-instagram-raw",
+            "publishedAt": "2026-09-25T03:33:07.000Z",
+            "capturedAt": 1791614281991
+          },
+          {
+            "id": "56f8651fef998da3825ffa19",
+            "url": "https://scontent-atl3-2.cdninstagram.com/v/t51.71878-15/821366712_942820508390741_8134682448787601885_n.jpg?stp=dst-jpg_e15_p360x360_tt6&_nc_cat=111&ig_cache_key=Mzk5MzcwNzA5MTMwNDUxMzE4NjIzODc0ODIzODUxMjAwMzk%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D&_nc_ohc=oVjw9S2A7yMQ7kNvwEO8KRd&_nc_oc=AdpKnBK-AaeqgyIDtFpz-4_R4udHhuHCqGgOf-7rHh_khUrr1JLEVfXkEKOuvt_rN7o&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=LNPVkTf8_C0sSHEkyXb3vg&_nc_ss=7a3ba&oh=00_AQP39G4WN0MaW3j-gG9BYtaop--2KhPauEpfEkgrufiJNg&oe=6ACFA760",
+            "kind": "video_cover",
+            "text": "视频封面资源；不能当作照片帖。",
+            "provider": "wavesurge-instagram-raw",
+            "publishedAt": "2026-09-25T03:33:07.000Z",
+            "capturedAt": 1791614281991
+          },
+          {
+            "id": "84b9e50a72811b3399adb87b",
+            "url": "https://www.instagram.com/p/Ddk7C9lKgE4/",
+            "kind": "post",
+            "text": "{\"caption\":\"Day 1 of iPhone features you may not know. Welcome to all of the tips and tricks!🤓📱 #iphone18 #iphonetips #iphonetipsandtricks #iphone18promax\",\"likes\":3,\"comments\":56,\"photoCount\":0,\"videoCoverCount\":1}",
+            "provider": "wavesurge-instagram-raw",
+            "publishedAt": "2026-09-22T04:54:35.000Z",
+            "capturedAt": 1791614281991
+          },
+          {
+            "id": "c9839f52026e4978184b0b26",
+            "url": "https://scontent-atl3-1.cdninstagram.com/v/t51.71878-15/820196063_2276952563063334_4963111121601222580_n.jpg?stp=dst-jpg_e15_p360x360_tt6&_nc_cat=110&ig_cache_key=Mzk5MTU3NDg1ODA2MTk3MTc2ODEzODIxNjc5ODA3NDAzNDY%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D&_nc_ohc=7I4WrBJKTBsQ7kNvwGW2pPI&_nc_oc=AdqoC8rrtJ61RxHI9eD7XUwyA3zV9SHiBV0VJ02f7Gf-uOJhbh-pCCS_ODF3afjUv0M&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=LNPVkTf8_C0sSHEkyXb3vg&_nc_ss=7a3ba&oh=00_AQOzfj2rXuEqO6hF3GDgNVedHA0PM_jwBaLxwLYIOGTu3Q&oe=6ACFCBB8",
+            "kind": "video_cover",
+            "text": "视频封面资源；不能当作照片帖。",
+            "provider": "wavesurge-instagram-raw",
+            "publishedAt": "2026-09-22T04:54:35.000Z",
+            "capturedAt": 1791614281991
+          },
+          {
+            "id": "40ede6d8cdfe49e9626e73a8",
+            "url": "https://www.instagram.com/p/Ddh6UHrqEOX/",
+            "kind": "post",
+            "text": "{\"caption\":\"Two settings i change when getting a new iphone! What do you change first? 👀 #iphone18 #iphone18promax #iphone18pro\",\"likes\":3,\"comments\":6,\"photoCount\":0,\"videoCoverCount\":1}",
+            "provider": "wavesurge-instagram-raw",
+            "publishedAt": "2026-09-21T00:51:10.000Z",
+            "capturedAt": 1791614281991
+          },
+          {
+            "id": "77558632f7658dc18a26476a",
+            "url": "https://scontent-atl3-1.cdninstagram.com/v/t51.82787-15/819097454_18215639149353223_7324294393393049674_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=100&ig_cache_key=Mzk5MDcyNzIxNDE2Mjc4OTI3MTE4MjE1NjM5MTQ2MzUzMjIz.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=zy_z342So4gQ7kNvwHdaQ90&_nc_oc=AdpdOZxuu4TRpIV3BLuglJoXH9tMlr_RJI7jR5XwsiPS7Az8lIu8R6JMvywMutx5YIY&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=LNPVkTf8_C0sSHEkyXb3vg&_nc_ss=7a3ba&oh=00_AQPXHXC6APXi2QJolJdIwKTcEGiw4wbgRVCSd3u0I1Ifcg&oe=6ACFB4F4",
+            "kind": "video_cover",
+            "text": "视频封面资源；不能当作照片帖。",
+            "provider": "wavesurge-instagram-raw",
+            "publishedAt": "2026-09-21T00:51:10.000Z",
+            "capturedAt": 1791614281991
+          },
+          {
+            "id": "7af82140cf0e89447eb8ebfe",
+            "url": "https://www.instagram.com/p/Ddc35x8K_Kj/",
+            "kind": "post",
+            "text": "{\"caption\":\"unboxing the new iphone 18 pro max in the color burgundy & im obsessed! What are your thoughts? 😍🤓 #iphone #iphone18pro #iphone18promax\",\"likes\":2101,\"comments\":32,\"photoCount\":0,\"videoCoverCount\":1}",
+            "provider": "wavesurge-instagram-raw",
+            "publishedAt": "2026-09-19T01:54:17.000Z",
+            "capturedAt": 1791614281991
+          },
+          {
+            "id": "3394d99b467ef7dc011be2b1",
+            "url": "https://scontent-atl3-1.cdninstagram.com/v/t51.82787-15/813765398_18215405020353223_8621632369551892080_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=109&ig_cache_key=Mzk4OTMwOTIzMzEzNDU2NDAwMzE4MjE1NDA1MDE3MzUzMjIz.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=Z2EAWN3gRI8Q7kNvwHiz0mD&_nc_oc=AdotoYZ2eIfZ_dAEn-jGpqnBMqeFY1ajGGZJnx7mt9l8ILoErIe9_AU55fIA2DAOaYw&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=LNPVkTf8_C0sSHEkyXb3vg&_nc_ss=7a3ba&oh=00_AQOmC9VbzVhb6btTZRxnhRYDW6aP3FcqRy70e-H8lZ47dg&oe=6ACF9A16",
+            "kind": "video_cover",
+            "text": "视频封面资源；不能当作照片帖。",
+            "provider": "wavesurge-instagram-raw",
+            "publishedAt": "2026-09-19T01:54:17.000Z",
+            "capturedAt": 1791614281991
+          },
+          {
+            "id": "b0d56e2e77ad6b5b29e1dafd",
+            "url": "https://www.instagram.com/p/DdcKyeGKuPu/",
+            "kind": "post",
+            "text": "{\"caption\":\"A very expensive little errand 😳 who got theirs today?!!🤓 #iphone #iphone18pro #iphone18promax\",\"likes\":3,\"comments\":36,\"photoCount\":0,\"videoCoverCount\":1}",
+            "provider": "wavesurge-instagram-raw",
+            "publishedAt": "2026-09-18T19:18:52.000Z",
+            "capturedAt": 1791614281991
+          },
+          {
+            "id": "0e0aef3f480bcc17bf4932b8",
+            "url": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/817383665_18215381464353223_1925355513871687009_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=101&ig_cache_key=Mzk4OTExMDgxODY5ODA5MzU1MDE4MjE1MzgxNDYxMzUzMjIz.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=FNYePBBiE2cQ7kNvwHYcaDU&_nc_oc=Adrd6tl2sr3iqkJWOUWh1xv6mtDQlw5hmiv6hhdgb1_y8u7_x1rvMZMu56e4zshcXlk&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=LNPVkTf8_C0sSHEkyXb3vg&_nc_ss=7a3ba&oh=00_AQPNz3KMGk9wKEQU3h2tuszO0C_IWWRyCvxsPWmuy85HoA&oe=6ACFA730",
+            "kind": "video_cover",
+            "text": "视频封面资源；不能当作照片帖。",
+            "provider": "wavesurge-instagram-raw",
+            "publishedAt": "2026-09-18T19:18:52.000Z",
+            "capturedAt": 1791614281991
+          },
+          {
+            "id": "62f8301f53e0d10f92546f01",
+            "url": "https://www.instagram.com/p/DdabA8wqP-B/",
+            "kind": "post",
+            "text": "{\"caption\":\"Getting ready for my iphone 18 pro max… who’s getting theirs tomorrow? 👀 #iphone #iphone18\",\"likes\":3,\"comments\":22,\"photoCount\":0,\"videoCoverCount\":1}",
+            "provider": "wavesurge-instagram-raw",
+            "publishedAt": "2026-09-18T03:03:48.000Z",
+            "capturedAt": 1791614281991
+          },
+          {
+            "id": "ea6db7b0d38d197000bd4975",
+            "url": "https://scontent-atl3-1.cdninstagram.com/v/t51.82787-15/814535190_18215296252353223_5050053611263936982_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=108&ig_cache_key=Mzk4ODYxOTIzMjQ4NjY4NjU5MzE4MjE1Mjk2MjQ5MzUzMjIz.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEzMjAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=CelvnLDBZZMQ7kNvwGyHq1p&_nc_oc=AdqHhMFIxJmqpwgIFtCxM78wpJhmdOotlmpXtELw1RtNp_qGzmrRoBRk2Tl-Bdubhyc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=LNPVkTf8_C0sSHEkyXb3vg&_nc_ss=7a3ba&oh=00_AQMbELkBl3s1BqlnR33doS0TMHGoLftYsBAPKYRczuDkWQ&oe=6ACFA325",
+            "kind": "video_cover",
+            "text": "视频封面资源；不能当作照片帖。",
+            "provider": "wavesurge-instagram-raw",
+            "publishedAt": "2026-09-18T03:03:48.000Z",
+            "capturedAt": 1791614281991
+          },
+          {
+            "id": "c1f34e89b0c4fb215ffd0c21",
+            "url": "https://www.instagram.com/p/DdXuT2mK3e9/",
+            "kind": "post",
+            "text": "{\"caption\":\"ios 27 new features, which one is your fav? 📲 #ios #ios26 #ios26update\",\"likes\":3,\"comments\":3,\"photoCount\":0,\"videoCoverCount\":1}",
+            "provider": "wavesurge-instagram-raw",
+            "publishedAt": "2026-09-17T01:58:19.000Z",
+            "capturedAt": 1791614281991
+          },
+          {
+            "id": "c532625920631a06b4b538c4",
+            "url": "https://scontent-atl3-1.cdninstagram.com/v/t51.82787-15/796941356_18215173924353223_3504365385501759782_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=108&ig_cache_key=Mzk4Nzg1OTY2OTQ5MTg3MzcyNTE4MjE1MTczOTIxMzUzMjIz.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=6uB5fYDjBpgQ7kNvwFeOAG_&_nc_oc=AdoVcPU9-Om1wYclzocVzMEHqx8Q_t16S0RHIyrdqG07cqHtHcGnC0_bOXUYLSFZ19A&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=LNPVkTf8_C0sSHEkyXb3vg&_nc_ss=7a3ba&oh=00_AQOsUAiEdbvu7QV3kD8TKyyhJDgeAgtGHH08y3fKk7p4LQ&oe=6ACFA105",
+            "kind": "video_cover",
+            "text": "视频封面资源；不能当作照片帖。",
+            "provider": "wavesurge-instagram-raw",
+            "publishedAt": "2026-09-17T01:58:19.000Z",
+            "capturedAt": 1791614281991
+          },
+          {
+            "id": "633ae5dfe1d62c4f204824ce",
+            "url": "https://www.instagram.com/p/DdVHWH4KgDg/",
+            "kind": "post",
+            "text": "{\"caption\":\"Pre ordering the iphone 18 pro max! Are you ordering?? if so which one are you picking 👀  #iphone18 #iphone18promax #iphone18pro\",\"likes\":3,\"comments\":24,\"photoCount\":0,\"videoCoverCount\":1}",
+            "provider": "wavesurge-instagram-raw",
+            "publishedAt": "2026-09-16T01:34:58.000Z",
+            "capturedAt": 1791614281991
+          },
+          {
+            "id": "395fafa5a6b10a7c9cb448cc",
+            "url": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/811864811_18215060395353223_6574767330628341858_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=111&ig_cache_key=Mzk4NzEyNTM1MTcxODk3Nzc2MDE4MjE1MDYwMzg5MzUzMjIz.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=kF2Zuhi9RwIQ7kNvwES86Yo&_nc_oc=AdphsSj_4ab_Brt5NLyQQVrhICxnSkv5KCITthRLtsT04ImDzCxBnNbC8mNp0U5UJwI&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=LNPVkTf8_C0sSHEkyXb3vg&_nc_ss=7a3ba&oh=00_AQOLQJ049zCMmMMrirzaiwJukoCEL5RdwPI8Ncx2Jqxf1A&oe=6ACFA968",
+            "kind": "video_cover",
+            "text": "视频封面资源；不能当作照片帖。",
+            "provider": "wavesurge-instagram-raw",
+            "publishedAt": "2026-09-16T01:34:58.000Z",
+            "capturedAt": 1791614281991
+          },
+          {
+            "id": "fda6f480e37196397ea10faf",
+            "url": "https://www.instagram.com/p/DdUZeVJKLqz/",
+            "kind": "post",
+            "text": "{\"caption\":\"ios 27 introduced a new and improved siri so here’s how to get it & some new features! 📲  #ios27 #ios #newupdate\",\"likes\":3,\"comments\":43,\"photoCount\":0,\"videoCoverCount\":1}",
+            "provider": "wavesurge-instagram-raw",
+            "publishedAt": "2026-09-15T18:54:23.000Z",
+            "capturedAt": 1791614281991
+          },
+          {
+            "id": "3b76f5f74e714677e3617141",
+            "url": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/811616688_18215034685353223_4183630530888924075_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=111&ig_cache_key=Mzk4NjkyMzYwNTU3OTA1Mzc0NzE4MjE1MDM0Njc5MzUzMjIz.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=Ygt-p61vj9IQ7kNvwHYqJ9x&_nc_oc=Adqtq_qFZiwI5QdcSVV86boAy2LitgauKhyfAvuxJC_S5LWqMZ2gYWsTz59Dh9ojDT4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=LNPVkTf8_C0sSHEkyXb3vg&_nc_ss=7a3ba&oh=00_AQNbX2Ie7LiiHUEv72nrRbWCwP4yvNgnFmwIMIYYwDmdlg&oe=6ACFAB9B",
+            "kind": "video_cover",
+            "text": "视频封面资源；不能当作照片帖。",
+            "provider": "wavesurge-instagram-raw",
+            "publishedAt": "2026-09-15T18:54:23.000Z",
+            "capturedAt": 1791614281991
+          },
+          {
+            "id": "7c9d34bcf88db9341c24b3f7",
+            "url": "https://www.instagram.com/p/DdSj0b2qvIA/",
+            "kind": "post",
+            "text": "{\"caption\":\"ios 27 is officially here! Pt 1 of showing off these new features 🤓📲 #ios #ios27 #ios27update\",\"likes\":3,\"comments\":9,\"photoCount\":0,\"videoCoverCount\":1}",
+            "provider": "wavesurge-instagram-raw",
+            "publishedAt": "2026-09-15T01:45:44.000Z",
+            "capturedAt": 1791614281991
+          },
+          {
+            "id": "96dda6467c208854db22b395",
+            "url": "https://scontent-atl3-1.cdninstagram.com/v/t51.82787-15/811303957_18214946713353223_4172316088463879144_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=103&ig_cache_key=Mzk4NjQwNjE1NTEyNTE5MTE2ODE4MjE0OTQ2NzA3MzUzMjIz.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=E9CtDe2krEAQ7kNvwHWwEHx&_nc_oc=AdpasfvD6gYtj5ZmoN40cDzFmLtAy5_TRhq8JV8Ue9SE1YJJ19FsTAuGuHUWKCIlkYQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=LNPVkTf8_C0sSHEkyXb3vg&_nc_ss=7a3ba&oh=00_AQOnm8XWcJEdyFsm-QcYKwlk8zH0Ii4KXivjSJ1nPSHaCA&oe=6ACF95C5",
+            "kind": "video_cover",
+            "text": "视频封面资源；不能当作照片帖。",
+            "provider": "wavesurge-instagram-raw",
+            "publishedAt": "2026-09-15T01:45:44.000Z",
+            "capturedAt": 1791614281991
+          },
+          {
+            "id": "6f104328b4eecc78a0344917",
+            "url": "https://www.instagram.com/p/DeQfBbyKmOR/",
+            "kind": "browser_snapshot",
+            "text": "",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791617368788,
+            "assetId": "be169388627f31e578460cb0ccdaf67c893c8883ac191222f5447575e302f67a"
+          },
+          {
+            "id": "6d6105dfba1c94de01ef3acb",
+            "url": "https://www.instagram.com/p/DeQfBbyKmOR/",
+            "kind": "browser_snapshot",
+            "text": "Log In\nSign Up\nNever miss a post from valstechtalkk\nSign up for Instagram to stay in the loop.\nBy continuing, you agree to Instagram's Terms of Use and Privacy Policy.\nSign up\nLog in\nvalstechtalkk\n•\nFollow\nOriginal audio\nvalstechtalkk\n \n1d\ncamera settings i turn on for the CRISP quality 🤩 #iphone #iphonetips #iphone18promax #iphonecamera\nxzari_n\n \n3h\nI still think you shoulda made that series a few months ago 31 days 🙂‍↔️👐\nLike\nReply\nyounesyouceffateh\n \n9h\n❤️❤️\nLike\nReply\nalvillit\n \n14h\n@d.i.a.n.a.d.e.e\nLike\nReply\nim_obaaa\n \n15h\nI get the crisp video and pictures alright. But once I upload it on WhatsApp status,it becomes blur and has a poor quality. I don’t know how to correct it @valstechtalkk\nLike\nReply\nthejamiero_\n \n18h\nThe “photographic style”, do you have a video on how to set it to “+glow” I know how to set it to Amber. But I’m curious about the “+glow” part.\n1 like\nReply\nvvendyfranco\n \n1d\nI love the case!!!!!\n2 likes\nReply\nsaraa_aaraas\n \n1d\n😍😍😍\nLike\nReply\ntialicha_77\n \n1d\nThank you and gurlll where did you get that case at 😍\nLike\nReply\nlachiqui10\n \n1d\nIn love with your case. Pls send me the link 🫶🏻\n1 like\nReply\nzeaugen_\n \n1d\nMy dear , one day i learnt how to make my phone talk when i plug charge then all over suddenly it stopped talking after some months am still looking for your video which you teach how to make a phone talk plsss show meee\n1 like\nReply\n_castillopeyton\n \n1d\n😍😍🔥\nLike\nReply\n_castillopeyton\n \n1d\nNEEDED THIS🙌🏽\nLike\nReply\n14\n1 day ago\nLog in to like or comment.\nMore posts from valstechtalkk\nSee more posts\nMeta\nAbout\nBlog\nJobs\nHelp\nAPI\nPrivacy\nTerms\nLocations\nPopular\nInstagram Lite\nMeta AI\nMuse\nThreads\nContact Uploading & Non-Users\nMeta Verified\nEnglish\nAfrikaans\nالعربية\nČeština\nDansk\nDeutsch\nΕλληνικά\nEnglish\nEnglish (UK)\nEspañol (España)\nEspañol\nفارسی\nSuomi\nFrançais\nעברית\nBahasa Indonesia\nItaliano\n日本語\n한국어\nBahasa Melayu\nNorsk\nNederlands\nPolski\nPortuguês (Brasil)\nPortuguês (Portugal)\nРусский\nSvenska\nภาษาไทย\nFilipino\nTürkçe\n中文(简体)\n中文(台灣)\nবাংলা\nગુજરાતી\nहिन्दी\nHrvatski\nMagyar\nಕನ್ನಡ\nമലയാളം\nमराठी\nनेपाली\nਪੰਜਾਬੀ\nසිංහල\nSlovenčina\nதமிழ்\nతెలుగు\nاردو\nTiếng Việt\n中文(香港)\nБългарски\nFrançais (Canada)\nRomână\nСрпски\nУкраїнська\n© 2026 Instagram from Meta",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791617374425,
+            "assetId": "3ae7c5f1ab3a684ee0c52d892324e8ea8021382500a7b4731a374d90697c72c6"
+          },
+          {
+            "id": "2ec8aa60f92398720b1683a6",
+            "url": "https://www.instagram.com/p/DeQfBbyKmOR/",
+            "kind": "browser_snapshot",
+            "text": "Log In\nSign Up\nvalstechtalkk\n•\nFollow\nOriginal audio\nvalstechtalkk\n \n1d\ncamera settings i turn on for the CRISP quality 🤩 #iphone #iphonetips #iphone18promax #iphonecamera\nxzari_n\n \n3h\nI still think you shoulda made that series a few months ago 31 days 🙂‍↔️👐\nLike\nReply\nyounesyouceffateh\n \n9h\n❤️❤️\nLike\nReply\nalvillit\n \n14h\n@d.i.a.n.a.d.e.e\nLike\nReply\nim_obaaa\n \n15h\nI get the crisp video and pictures alright. But once I upload it on WhatsApp status,it becomes blur and has a poor quality. I don’t know how to correct it @valstechtalkk\nLike\nReply\nthejamiero_\n \n18h\nThe “photographic style”, do you have a video on how to set it to “+glow” I know how to set it to Amber. But I’m curious about the “+glow” part.\n1 like\nReply\nvvendyfranco\n \n1d\nI love the case!!!!!\n2 likes\nReply\nsaraa_aaraas\n \n1d\n😍😍😍\nLike\nReply\ntialicha_77\n \n1d\nThank you and gurlll where did you get that case at 😍\nLike\nReply\nlachiqui10\n \n1d\nIn love with your case. Pls send me the link 🫶🏻\n1 like\nReply\nzeaugen_\n \n1d\nMy dear , one day i learnt how to make my phone talk when i plug charge then all over suddenly it stopped talking after some months am still looking for your video which you teach how to make a phone talk plsss show meee\n1 like\nReply\n_castillopeyton\n \n1d\n😍😍🔥\nLike\nReply\n_castillopeyton\n \n1d\nNEEDED THIS🙌🏽\nLike\nReply\n14\n1 day ago\nLog in to like or comment.\nMore posts from valstechtalkk\nSee more posts\nMeta\nAbout\nBlog\nJobs\nHelp\nAPI\nPrivacy\nTerms\nLocations\nPopular\nInstagram Lite\nMeta AI\nMuse\nThreads\nContact Uploading & Non-Users\nMeta Verified\nEnglish\nAfrikaans\nالعربية\nČeština\nDansk\nDeutsch\nΕλληνικά\nEnglish\nEnglish (UK)\nEspañol (España)\nEspañol\nفارسی\nSuomi\nFrançais\nעברית\nBahasa Indonesia\nItaliano\n日本語\n한국어\nBahasa Melayu\nNorsk\nNederlands\nPolski\nPortuguês (Brasil)\nPortuguês (Portugal)\nРусский\nSvenska\nภาษาไทย\nFilipino\nTürkçe\n中文(简体)\n中文(台灣)\nবাংলা\nગુજરાતી\nहिन्दी\nHrvatski\nMagyar\nಕನ್ನಡ\nമലയാളം\nमराठी\nनेपाली\nਪੰਜਾਬੀ\nසිංහල\nSlovenčina\nதமிழ்\nతెలుగు\nاردو\nTiếng Việt\n中文(香港)\nБългарски\nFrançais (Canada)\nRomână\nСрпски\nУкраїнська\n© 2026 Instagram from Meta",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791617561840,
+            "assetId": "6001ebfd2995598caea406057129b81127cb08f4edbeb265953e54feb1ced939"
+          }
+        ],
+        "engagement": {
+          "rate": null,
+          "sampleSize": 24,
+          "formula": "mean(likes + comments) / followers",
+          "unit": "ratio"
+        },
+        "photoUrls": [],
+        "facts": {
+          "conflicts": [],
+          "followers": {
+            "min": 39660,
+            "max": 39660,
+            "rawValue": "39660 followers",
+            "evidenceIds": [
+              "bc9d51f1a199cb3ef086f815"
+            ]
+          }
+        }
+      },
+      "judgments": [
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "主页显示 39660 followers；保守区间 39660–39660，要求 10000–100000",
+          "evidenceIds": [
+            "bc9d51f1a199cb3ef086f815"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "exact_username",
+          "verdict": "match",
+          "reason": "本人简介原始 username 为 valstechtalkk，公开原帖作者亦精确显示 valstechtalkk；未替换相似账号。",
+          "evidenceIds": [
+            "bc9d51f1a199cb3ef086f815",
+            "2ec8aa60f92398720b1683a6"
+          ],
+          "label": "账号用户名必须精确为 valstechtalkk；相似用户名不可替代，若未找到则报告来源缺额，不核验其他人"
+        },
+        {
+          "criterionId": "personal_account",
+          "verdict": "match",
+          "reason": "简介以个人测评与 glam 定位，公开原帖中个人出镜持手机讲解，文案使用第一人称说明自己的相机设置；支持个人创作者而非品牌商店机构。",
+          "evidenceIds": [
+            "bc9d51f1a199cb3ef086f815",
+            "2ec8aa60f92398720b1683a6"
+          ],
+          "label": "个人创作者账号，不是品牌、商店或机构账号"
+        },
+        {
+          "criterionId": "digital_content",
+          "verdict": "match",
+          "reason": "原帖实见个人持手机，画面文字 DAY NINE: IPHONE CAMERA TIPS，文案 camera settings i turn on for the CRISP quality；原始帖日期为2026-10-09，页面显示1 day ago。另有2026-10-07 Beats耳机及2026-09-29 Motorola Razr相关帖子文字，属于实际消费电子内容。",
+          "evidenceIds": [
+            "2ec8aa60f92398720b1683a6",
+            "a7e3e7d0dbee5ed3fcffa6fb",
+            "c3953412bbb74ffbca3312f2",
+            "9663118351ea35ea5636ea0e"
+          ],
+          "label": "实际发布数码产品或消费电子相关内容，须有内容依据"
+        },
+        {
+          "criterionId": "glasses_preference",
+          "verdict": "unknown",
+          "reason": "人工关闭提示后重新观察公开原帖，当前可见人物画面未戴眼镜，但单个画面不能否定其他照片或视频中佩戴；没有观察到戴眼镜的正向证据。",
+          "evidenceIds": [
+            "2ec8aa60f92398720b1683a6"
+          ],
+          "label": "实际观察到的照片或视频中戴眼镜，仅为优先项，视觉证据不足则待确认"
+        },
+        {
+          "criterionId": "geek_preference",
+          "verdict": "unknown",
+          "reason": "实见白色上衣、项链及手链、装饰手机壳，内容为iPhone相机技巧；不足以证明理工宅geek穿搭、表达或深度折腾设备，不能仅因讲数码或使用🤓表情判匹配。",
+          "evidenceIds": [
+            "2ec8aa60f92398720b1683a6",
+            "bc9d51f1a199cb3ef086f815"
+          ],
+          "label": "实际穿搭、表达或折腾设备呈现理工宅 geek 气质，光讲数码不算；仅为优先项，看不出来则待确认"
+        }
+      ],
+      "verdict": "match",
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "手机使用技巧",
+            "消费电子产品介绍",
+            "手机配件"
+          ],
+          "reason": "原帖相机设置技巧，以及耳机、折叠手机、手机配件帖文字支持这些方向。",
+          "evidenceIds": [
+            "2ec8aa60f92398720b1683a6",
+            "c3953412bbb74ffbca3312f2",
+            "9663118351ea35ea5636ea0e",
+            "7bb702ab43acfd45050b3c4a"
+          ]
+        },
+        {
+          "dimensionId": "style",
+          "status": "supported",
+          "values": [
+            "白色上衣搭配首饰",
+            "数码与可爱、glam审美结合"
+          ],
+          "reason": "当前原帖可见白色上衣、项链手链和装饰手机壳；简介明确 tech but make it cute 与 Reviews + a little glam。仅描述所见与自述，不推广为geek标签。",
+          "evidenceIds": [
+            "2ec8aa60f92398720b1683a6",
+            "bc9d51f1a199cb3ef086f815"
+          ]
+        },
+        {
+          "dimensionId": "glasses",
+          "status": "unknown",
+          "values": [],
+          "reason": "当前画面未戴眼镜，缺少其他实际佩戴眼镜的照片或视频观察，整体佩戴情况待确认。",
+          "evidenceIds": [
+            "2ec8aa60f92398720b1683a6"
+          ]
+        }
+      ],
+      "tags": [
+        "账号用户名必须精确为 valstechtalkk；相似用户名不可替代，若未找到则报告来源缺额，不核验其他人",
+        "个人创作者账号，不是品牌、商店或机构账号",
+        "实际发布数码产品或消费电子相关内容，须有内容依据",
+        "手机使用技巧",
+        "消费电子产品介绍",
+        "手机配件",
+        "白色上衣搭配首饰",
+        "数码与可爱、glam审美结合"
+      ],
+      "revision": 1,
+      "updatedAt": 1791617630987,
+      "selected": true
+    }
+  ],
+  "report": {
+    "url": "http://127.0.0.1:3552/api/reports/research-bab604288a59acc55f2788a1",
+    "articles": 1,
+    "embeddedImages": 3,
+    "profileLinks": 1,
+    "body": "Instagram valstechtalkk 单账号纠正核验\n\n目标 1 人；本地已合格 1 人；已核验 1 人。\n\n已选合格 1/1，已核验 1；证据不足者保持待核实。\n\n来源：WaveSurge + 本地核验。远端搜索完成不代表本地条件通过。本次报告包含 1 条筛选记录。报告更新时间：2026-10-10T07:33:51.331Z\nV · 符合要求 · 已入选\n\ninstagram / valstechtalkk / 粉丝 39660 / 未知\n\n近期互动率：未知；样本 24 条；算法 mean(likes + comments) / followers\n\n标签：账号用户名必须精确为 valstechtalkk；相似用户名不可替代，若未找到则报告来源缺额，不核验其他人、个人创作者账号，不是品牌、商店或机构账号、实际发布数码产品或消费电子相关内容，须有内容依据、手机使用技巧、消费电子产品介绍、手机配件、白色上衣搭配首饰、数码与可爱、glam审美结合\n\n画像 content_direction：手机使用技巧、消费电子产品介绍、手机配件；原帖相机设置技巧，以及耳机、折叠手机、手机配件帖文字支持这些方向。；证据 2ec8aa60f92398720b1683a6、c3953412bbb74ffbca3312f2、9663118351ea35ea5636ea0e、7bb702ab43acfd45050b3c4a\n\n画像 style：白色上衣搭配首饰、数码与可爱、glam审美结合；当前原帖可见白色上衣、项链手链和装饰手机壳；简介明确 tech but make it cute 与 Reviews + a little glam。仅描述所见与自述，不推广为geek标签。；证据 2ec8aa60f92398720b1683a6、bc9d51f1a199cb3ef086f815\n\n画像 glasses：待核实；当前画面未戴眼镜，缺少其他实际佩戴眼镜的照片或视频观察，整体佩戴情况待确认。；证据 2ec8aa60f92398720b1683a6\n\n条件\t判断\t依据\n平台\t符合要求\t创作者平台：instagram\n\n粉丝范围\t符合要求\t主页显示 39660 followers；保守区间 39660–39660，要求 10000–100000\nprofile 日期未知\n账号用户名必须精确为 valstechtalkk；相似用户名不可替代，若未找到则报告来源缺额，不核验其他人\t符合要求\t本人简介原始 username 为 valstechtalkk，公开原帖作者亦精确显示 valstechtalkk；未替换相似账号。\nprofile 日期未知\nbrowser_snapshot 日期未知\n个人创作者账号，不是品牌、商店或机构账号\t符合要求\t简介以个人测评与 glam 定位，公开原帖中个人出镜持手机讲解，文案使用第一人称说明自己的相机设置；支持个人创作者而非品牌商店机构。\nprofile 日期未知\nbrowser_snapshot 日期未知\n实际发布数码产品或消费电子相关内容，须有内容依据\t符合要求\t原帖实见个人持手机，画面文字 DAY NINE: IPHONE CAMERA TIPS，文案 camera settings i turn on for the CRISP quality；原始帖日期为2026-10-09，页面显示1 day ago。另有2026-10-07 Beats耳机及2026-09-29 Motorola Razr相关帖子文字，属于实际消费电子内容。\nbrowser_snapshot 日期未知\npost 2026-10-09T02:57:55.000Z\npost 2026-10-07T21:19:37.000Z\npost 2026-09-29T14:55:08.000Z\n实际观察到的照片或视频中戴眼镜，仅为优先项，视觉证据不足则待确认\t待核实\t人工关闭提示后重新观察公开原帖，当前可见人物画面未戴眼镜，但单个画面不能否定其他照片或视频中佩戴；没有观察到戴眼镜的正向证据。\nbrowser_snapshot 日期未知\n实际穿搭、表达或折腾设备呈现理工宅 geek 气质，光讲数码不算；仅为优先项，看不出来则待确认\t待核实\t实见白色上衣、项链及手链、装饰手机壳，内容为iPhone相机技巧；不足以证明理工宅geek穿搭、表达或深度折腾设备，不能仅因讲数码或使用🤓表情判匹配。\nbrowser_snapshot 日期未知\nprofile 日期未知\n完整证据映射与截图\nbc9d51f1a199cb3ef086f815 · profile\n原始来源\n\n提供方：wavesurge-instagram-raw · 捕获：2026-10-10T06:38:01.991Z · 发布时间：日期未知\n\ntech but make it cute 📱 | HTX\nReviews + a little glam  💒💄 \n400k+ tech besties on tiktok 👩🏻‍💻\n📧 : Valstech@swipemgmt.com\n39660 followers\n{\"username\":\"valstechtalkk\",\"userId\":\"10561673222\",\"isPrivate\":false,\"isVerified\":true}\na7e3e7d0dbee5ed3fcffa6fb · post\n原始来源\n\n提供方：wavesurge-instagram-raw · 捕获：2026-10-10T06:38:01.991Z · 发布时间：2026-10-09T02:57:55.000Z\n\n{\"caption\":\"camera settings i turn on for the CRISP quality 🤩 #iphone #iphonetips #iphone18promax #iphonecamera\",\"likes\":null,\"comments\":15,\"photoCount\":0,\"videoCoverCount\":1}\nf5b2dfb49ec1b5c07197c1ef · video_cover\n原始来源\n\n提供方：wavesurge-instagram-raw · 捕获：2026-10-10T06:38:01.991Z · 发布时间：2026-10-09T02:57:55.000Z\n\n视频封面资源；不能当作照片帖。\nc3953412bbb74ffbca3312f2 · post\n原始来源\n\n提供方：wavesurge-instagram-raw · 捕获：2026-10-10T06:38:01.991Z · 发布时间：2026-10-07T21:19:37.000Z\n\n{\"caption\":\"You don’t have to stick with the same colored cushion anymore!! 🤩🤩 #beats360 #beatsbydre #beatsheadphones #apple\",\"likes\":null,\"comments\":4,\"photoCount\":0,\"videoCoverCount\":1}\nb9489bea5e85930c1e380cc8 · video_cover\n原始来源\n\n提供方：wavesurge-instagram-raw · 捕获：2026-10-10T06:38:01.991Z · 发布时间：2026-10-07T21:19:37.000Z\n\n视频封面资源；不能当作照片帖。\n76c551a09859ee2dfe764c66 · post\n原始来源\n\n提供方：wavesurge-instagram-raw · 捕获：2026-10-10T06:38:01.991Z · 发布时间：2026-10-05T02:15:28.000Z\n\n{\"caption\":\"Wait… this gold color is sooo sleek 🤩 #apple #applewatch #applewatchseries12\",\"likes\":3,\"comments\":9,\"photoCount\":0,\"videoCoverCount\":1}\n6a8c083ee765974a07095f3d · video_cover\n原始来源\n\n提供方：wavesurge-instagram-raw · 捕获：2026-10-10T06:38:01.991Z · 发布时间：2026-10-05T02:15:28.000Z\n\n视频封面资源；不能当作照片帖。\nc033fb0940eaeb292a6f3339 · post\n原始来源\n\n提供方：wavesurge-instagram-raw · 捕获：2026-10-10T06:38:01.991Z · 发布时间：2026-10-03T01:28:35.000Z\n\n{\"caption\":\"custom emojis?! i love 😍🤓 #iphone18 #iphone18promax #iphone18pro #iphonetips\",\"likes\":3,\"comments\":110,\"photoCount\":0,\"videoCoverCount\":1}\n0db486f35a61d761c966ebd2 · video_cover\n原始来源\n\n提供方：wavesurge-instagram-raw · 捕获：2026-10-10T06:38:01.991Z · 发布时间：2026-10-03T01:28:35.000Z\n\n视频封面资源；不能当作照片帖。\n87ebf59f2901128398c958c2 · post\n原始来源\n\n提供方：wavesurge-instagram-raw · 捕获：2026-10-10T06:38:01.991Z · 发布时间：2026-10-02T01:17:20.000Z\n\n{\"caption\":\"New month new theme!! I am LOVING this October theme 🤓🤩 #iphonetheme #iphone18pro #iphone18pro\",\"likes\":3,\"comments\":20,\"photoCount\":0,\"videoCoverCount\":1}\n8dbfdd3d949acef81e12b913 · video_cover\n原始来源\n\n提供方：wavesurge-instagram-raw · 捕获：2026-10-10T06:38:01.991Z · 发布时间：2026-10-02T01:17:20.000Z\n\n视频封面资源；不能当作照片帖。\n5cda524e8da383ea651ea60b · post\n原始来源\n\n提供方：wavesurge-instagram-raw · 捕获：2026-10-10T06:38:01.991Z · 发布时间：2026-10-01T03:25:56.000Z\n\n{\"caption\":\"Extra large widgets?! I’m impressed 🤓📱 #iphonetips #iphone18promax #iphonetipsandtricks #iphonefeatures\",\"likes\":3,\"comments\":9,\"photoCount\":0,\"videoCoverCount\":1}\n859003e2e0d80540f0a4a034 · video_cover\n原始来源\n\n提供方：wavesurge-instagram-raw · 捕获：2026-10-10T06:38:01.991Z · 发布时间：2026-10-01T03:25:56.000Z\n\n视频封面资源；不能当作照片帖。\n7bb702ab43acfd45050b3c4a · post\n原始来源\n\n提供方：wavesurge-instagram-raw · 捕获：2026-10-10T06:38:01.991Z · 发布时间：2026-09-29T21:35:50.000Z\n\n{\"caption\":\"The accessories mighttt be my favorite part of getting a new phone 📱🤓\\n use my code 15VAL for your next @casetify accessory!! #iphone18 #iphone18pro #iphonecase #ad\",\"likes\":3,\"comments\":7,\"photoCount\":0,\"videoCoverCount\":1}\nf87fabce9d87b18c53e23889 · video_cover\n原始来源\n\n提供方：wavesurge-instagram-raw · 捕获：2026-10-10T06:38:01.991Z · 发布时间：2026-09-29T21:35:50.000Z\n\n视频封面资源；不能当作照片帖。\n9663118351ea35ea5636ea0e · post\n原始来源\n\n提供方：wavesurge-instagram-raw · 捕获：2026-10-10T06:38:01.991Z · 发布时间：2026-09-29T14:55:08.000Z\n\n{\"caption\":\"Base Model Motorola Razr 2026 in the most STUNNING color! What do we think? 👀🤩 @motorolaus  #motorola #motorolarazr #flipphone\",\"likes\":3,\"comments\":59,\"photoCount\":0,\"videoCoverCount\":1}\n6868b7f53b638d5269c944b0 · video_cover\n原始来源\n\n提供方：wavesurge-instagram-raw · 捕获：2026-10-10T06:38:01.991Z · 发布时间：2026-09-29T14:55:08.000Z\n\n视频封面资源；不能当作照片帖。\n8a11fd6d66c0c8afe86cea45 · post\n原始来源\n\n提供方：wavesurge-instagram-raw · 捕获：2026-10-10T06:38:01.991Z · 发布时间：2026-09-29T01:15:02.000Z\n\n{\"caption\":\"Auto brightness has to be a setting I will always have off! What about you? 👀 📱 #iphone #iphone18promax #iphonetips\",\"likes\":3,\"comments\":12,\"photoCount\":0,\"videoCoverCount\":1}\n07ee47e987880a0262075302 · video_cover\n原始来源\n\n提供方：wavesurge-instagram-raw · 捕获：2026-10-10T06:38:01.991Z · 发布时间：2026-09-29T01:15:02.000Z\n\n视频封面资源；不能当作照片帖。\ndca899590280eb658c797f0e · post\n原始来源\n\n提供方：wavesurge-instagram-raw · 捕获：2026-10-10T06:38:01.991Z · 发布时间：2026-09-28T17:30:26.000Z\n\n{\"caption\":\"These cases go so well the new burgundy iPhone📱✨ @bluntcases  make sure to use my code : “Valstech15” we need to twin ASAP 🤍 #iphone18promax #iphonecases #bluntcases\",\"likes\":3,\"comments\":16,\"photoCount\":0,\"videoCoverCount\":1}\n2d5c7007fb2745724641cbcc · video_cover\n原始来源\n\n提供方：wavesurge-instagram-raw · 捕获：2026-10-10T06:38:01.991Z · 发布时间：2026-09-28T17:30:26.000Z\n\n视频封面资源；不能当作照片帖。\n40d85a86a3c3070e63930b95 · post\n原始来源\n\n提供方：wavesurge-instagram-raw · 捕获：2026-10-10T06:38:01.991Z · 发布时间：2026-09-28T04:15:46.000Z\n\n{\"caption\":\"Basic iPhone tips that are actually very helpful! 🤓📱 #iphonetips #iphone18pro #iphone18promax\",\"likes\":3,\"comments\":23,\"photoCount\":0,\"videoCoverCount\":1}\ndf86cc5c66c3df02c73b77e6 · video_cover\n原始来源\n\n提供方：wavesurge-instagram-raw · 捕获：2026-10-10T06:38:01.991Z · 发布时间：2026-09-28T04:15:46.000Z\n\n视频封面资源；不能当作照片帖。\n993795164f56180fa677016a · post\n原始来源\n\n提供方：wavesurge-instagram-raw · 捕获：2026-10-10T06:38:01.991Z · 发布时间：2026-09-27T00:44:18.000Z\n\n{\"caption\":\"How to change the background in your messages + one more iPhone tip 👀 📱 #iphonetips #iphone18 #iphone18promax #iphone18pro\",\"likes\":3,\"comments\":24,\"photoCount\":0,\"videoCoverCount\":1}\n834d3b94e53672bec29668be · video_cover\n原始来源\n\n提供方：wavesurge-instagram-raw · 捕获：2026-10-10T06:38:01.991Z · 发布时间：2026-09-27T00:44:18.000Z\n\n视频封面资源；不能当作照片帖。\n065050e8db12421e84c73fc7 · post\n原始来源\n\n提供方：wavesurge-instagram-raw · 捕获：2026-10-10T06:38:01.991Z · 发布时间：2026-09-26T01:58:24.000Z\n\n{\"caption\":\"iphone tips you should know & how to make new emojis 👀 🤓  #iphone18 #iphone18pro #iphonetips #iphonetipsandtricks\",\"likes\":3,\"comments\":33,\"photoCount\":0,\"videoCoverCount\":1}\n2c23179acd14a6f2e6553389 · video_cover\n原始来源\n\n提供方：wavesurge-instagram-raw · 捕获：2026-10-10T06:38:01.991Z · 发布时间：2026-09-26T01:58:24.000Z\n\n视频封面资源；不能当作照片帖。\n04d01fbab252e6f46f3e99d3 · post\n原始来源\n\n提供方：wavesurge-instagram-raw · 捕获：2026-10-10T06:38:01.991Z · 发布时间：2026-09-25T21:36:57.000Z\n\n{\"caption\":\"new apple iphone 18pm cases are here & let’s see which one looks the best… worth it or not? 🤓 #iphone18 #iphone18promax #iphonecases\",\"likes\":3,\"comments\":14,\"photoCount\":0,\"videoCoverCount\":1}\n68a05b40d9153e6c753aa000 · video_cover\n原始来源\n\n提供方：wavesurge-instagram-raw · 捕获：2026-10-10T06:38:01.991Z · 发布时间：2026-09-25T21:36:57.000Z\n\n视频封面资源；不能当作照片帖。\n3ef26c78905d309854e19080 · post\n原始来源\n\n提供方：wavesurge-instagram-raw · 捕获：2026-10-10T06:38:01.991Z · 发布时间：2026-09-25T03:33:07.000Z\n\n{\"caption\":\"Day two of iphone features you should know! Keyboard tips and tricks 🤓 #iphonetips #iphone18promax #iphone18pro #keyboard\",\"likes\":3,\"comments\":32,\"photoCount\":0,\"videoCoverCount\":1}\n56f8651fef998da3825ffa19 · video_cover\n原始来源\n\n提供方：wavesurge-instagram-raw · 捕获：2026-10-10T06:38:01.991Z · 发布时间：2026-09-25T03:33:07.000Z\n\n视频封面资源；不能当作照片帖。\n84b9e50a72811b3399adb87b · post\n原始来源\n\n提供方：wavesurge-instagram-raw · 捕获：2026-10-10T06:38:01.991Z · 发布时间：2026-09-22T04:54:35.000Z\n\n{\"caption\":\"Day 1 of iPhone features you may not know. Welcome to all of the tips and tricks!🤓📱 #iphone18 #iphonetips #iphonetipsandtricks #iphone18promax\",\"likes\":3,\"comments\":56,\"photoCount\":0,\"videoCoverCount\":1}\nc9839f52026e4978184b0b26 · video_cover\n原始来源\n\n提供方：wavesurge-instagram-raw · 捕获：2026-10-10T06:38:01.991Z · 发布时间：2026-09-22T04:54:35.000Z\n\n视频封面资源；不能当作照片帖。\n40ede6d8cdfe49e9626e73a8 · post\n原始来源\n\n提供方：wavesurge-instagram-raw · 捕获：2026-10-10T06:38:01.991Z · 发布时间：2026-09-21T00:51:10.000Z\n\n{\"caption\":\"Two settings i change when getting a new iphone! What do you change first? 👀 #iphone18 #iphone18promax #iphone18pro\",\"likes\":3,\"comments\":6,\"photoCount\":0,\"videoCoverCount\":1}\n77558632f7658dc18a26476a · video_cover\n原始来源\n\n提供方：wavesurge-instagram-raw · 捕获：2026-10-10T06:38:01.991Z · 发布时间：2026-09-21T00:51:10.000Z\n\n视频封面资源；不能当作照片帖。\n7af82140cf0e89447eb8ebfe · post\n原始来源\n\n提供方：wavesurge-instagram-raw · 捕获：2026-10-10T06:38:01.991Z · 发布时间：2026-09-19T01:54:17.000Z\n\n{\"caption\":\"unboxing the new iphone 18 pro max in the color burgundy & im obsessed! What are your thoughts? 😍🤓 #iphone #iphone18pro #iphone18promax\",\"likes\":2101,\"comments\":32,\"photoCount\":0,\"videoCoverCount\":1}\n3394d99b467ef7dc011be2b1 · video_cover\n原始来源\n\n提供方：wavesurge-instagram-raw · 捕获：2026-10-10T06:38:01.991Z · 发布时间：2026-09-19T01:54:17.000Z\n\n视频封面资源；不能当作照片帖。\nb0d56e2e77ad6b5b29e1dafd · post\n原始来源\n\n提供方：wavesurge-instagram-raw · 捕获：2026-10-10T06:38:01.991Z · 发布时间：2026-09-18T19:18:52.000Z\n\n{\"caption\":\"A very expensive little errand 😳 who got theirs today?!!🤓 #iphone #iphone18pro #iphone18promax\",\"likes\":3,\"comments\":36,\"photoCount\":0,\"videoCoverCount\":1}\n0e0aef3f480bcc17bf4932b8 · video_cover\n原始来源\n\n提供方：wavesurge-instagram-raw · 捕获：2026-10-10T06:38:01.991Z · 发布时间：2026-09-18T19:18:52.000Z\n\n视频封面资源；不能当作照片帖。\n62f8301f53e0d10f92546f01 · post\n原始来源\n\n提供方：wavesurge-instagram-raw · 捕获：2026-10-10T06:38:01.991Z · 发布时间：2026-09-18T03:03:48.000Z\n\n{\"caption\":\"Getting ready for my iphone 18 pro max… who’s getting theirs tomorrow? 👀 #iphone #iphone18\",\"likes\":3,\"comments\":22,\"photoCount\":0,\"videoCoverCount\":1}\nea6db7b0d38d197000bd4975 · video_cover\n原始来源\n\n提供方：wavesurge-instagram-raw · 捕获：2026-10-10T06:38:01.991Z · 发布时间：2026-09-18T03:03:48.000Z\n\n视频封面资源；不能当作照片帖。\nc1f34e89b0c4fb215ffd0c21 · post\n原始来源\n\n提供方：wavesurge-instagram-raw · 捕获：2026-10-10T06:38:01.991Z · 发布时间：2026-09-17T01:58:19.000Z\n\n{\"caption\":\"ios 27 new features, which one is your fav? 📲 #ios #ios26 #ios26update\",\"likes\":3,\"comments\":3,\"photoCount\":0,\"videoCoverCount\":1}\nc532625920631a06b4b538c4 · video_cover\n原始来源\n\n提供方：wavesurge-instagram-raw · 捕获：2026-10-10T06:38:01.991Z · 发布时间：2026-09-17T01:58:19.000Z\n\n视频封面资源；不能当作照片帖。\n633ae5dfe1d62c4f204824ce · post\n原始来源\n\n提供方：wavesurge-instagram-raw · 捕获：2026-10-10T06:38:01.991Z · 发布时间：2026-09-16T01:34:58.000Z\n\n{\"caption\":\"Pre ordering the iphone 18 pro max! Are you ordering?? if so which one are you picking 👀  #iphone18 #iphone18promax #iphone18pro\",\"likes\":3,\"comments\":24,\"photoCount\":0,\"videoCoverCount\":1}\n395fafa5a6b10a7c9cb448cc · video_cover\n原始来源\n\n提供方：wavesurge-instagram-raw · 捕获：2026-10-10T06:38:01.991Z · 发布时间：2026-09-16T01:34:58.000Z\n\n视频封面资源；不能当作照片帖。\nfda6f480e37196397ea10faf · post\n原始来源\n\n提供方：wavesurge-instagram-raw · 捕获：2026-10-10T06:38:01.991Z · 发布时间：2026-09-15T18:54:23.000Z\n\n{\"caption\":\"ios 27 introduced a new and improved siri so here’s how to get it & some new features! 📲  #ios27 #ios #newupdate\",\"likes\":3,\"comments\":43,\"photoCount\":0,\"videoCoverCount\":1}\n3b76f5f74e714677e3617141 · video_cover\n原始来源\n\n提供方：wavesurge-instagram-raw · 捕获：2026-10-10T06:38:01.991Z · 发布时间：2026-09-15T18:54:23.000Z\n\n视频封面资源；不能当作照片帖。\n7c9d34bcf88db9341c24b3f7 · post\n原始来源\n\n提供方：wavesurge-instagram-raw · 捕获：2026-10-10T06:38:01.991Z · 发布时间：2026-09-15T01:45:44.000Z\n\n{\"caption\":\"ios 27 is officially here! Pt 1 of showing off these new features 🤓📲 #ios #ios27 #ios27update\",\"likes\":3,\"comments\":9,\"photoCount\":0,\"videoCoverCount\":1}\n96dda6467c208854db22b395 · video_cover\n原始来源\n\n提供方：wavesurge-instagram-raw · 捕获：2026-10-10T06:38:01.991Z · 发布时间：2026-09-15T01:45:44.000Z\n\n视频封面资源；不能当作照片帖。\n6f104328b4eecc78a0344917 · browser_snapshot\n原始来源\n\n提供方：headed-chromium · 捕获：2026-10-10T07:29:28.788Z · 发布时间：日期未知 · 截图编号：be169388627f31e578460cb0ccdaf67c893c8883ac191222f5447575e302f67a\n\n6d6105dfba1c94de01ef3acb · browser_snapshot\n原始来源\n\n提供方：headed-chromium · 捕获：2026-10-10T07:29:34.425Z · 发布时间：日期未知 · 截图编号：3ae7c5f1ab3a684ee0c52d892324e8ea8021382500a7b4731a374d90697c72c6\n\nLog In\nSign Up\nNever miss a post from valstechtalkk\nSign up for Instagram to stay in the loop.\nBy continuing, you agree to Instagram's Terms of Use and Privacy Policy.\nSign up\nLog in\nvalstechtalkk\n•\nFollow\nOriginal audio\nvalstechtalkk\n \n1d\ncamera settings i turn on for the CRISP quality 🤩 #iphone #iphonetips #iphone18promax #iphonecamera\nxzari_n\n \n3h\nI still think you shoulda made that series a few months ago 31 days 🙂‍↔️👐\nLike\nReply\nyounesyouceffateh\n \n9h\n❤️❤️\nLike\nReply\nalvillit\n \n14h\n@d.i.a.n.a.d.e.e\nLike\nReply\nim_obaaa\n \n15h\nI get the crisp video and pictures alright. But once I upload it on WhatsApp status,it becomes blur and has a poor quality. I don’t know how to correct it @valstechtalkk\nLike\nReply\nthejamiero_\n \n18h\nThe “photographic style”, do you have a video on how to set it to “+glow” I know how to set it to Amber. But I’m curious about the “+glow” part.\n1 like\nReply\nvvendyfranco\n \n1d\nI love the case!!!!!\n2 likes\nReply\nsaraa_aaraas\n \n1d\n😍😍😍\nLike\nReply\ntialicha_77\n \n1d\nThank you and gurlll where did you get that case at 😍\nLike\nReply\nlachiqui10\n \n1d\nIn love with your case. Pls send me the link 🫶🏻\n1 like\nReply\nzeaugen_\n \n1d\nMy dear , one day i learnt how to make my phone talk when i plug charge then all over suddenly it stopped talking after some months am still looking for your video which you teach how to make a phone talk plsss show meee\n1 like\nReply\n_castillopeyton\n \n1d\n😍😍🔥\nLike\nReply\n_castillopeyton\n \n1d\nNEEDED THIS🙌🏽\nLike\nReply\n14\n1 day ago\nLog in to like or comment.\nMore posts from valstechtalkk\nSee more posts\nMeta\nAbout\nBlog\nJobs\nHelp\nAPI\nPrivacy\nTerms\nLocations\nPopular\nInstagram Lite\nMeta AI\nMuse\nThreads\nContact Uploading & Non-Users\nMeta Verified\nEnglish\nAfrikaans\nالعربية\nČeština\nDansk\nDeutsch\nΕλληνικά\nEnglish\nEnglish (UK)\nEspañol (España)\nEspañol\nفارسی\nSuomi\nFrançais\nעברית\nBahasa Indonesia\nItaliano\n日本語\n한국어\nBahasa Melayu\nNorsk\nNederlands\nPolski\nPortuguês (Brasil)\nPortuguês (Portugal)\nРусский\nSvenska\nภาษาไทย\nFilipino\nTürkçe\n中文(简体)\n中文(台灣)\nবাংলা\nગુજરાતી\nहिन्दी\nHrvatski\nMagyar\nಕನ್ನಡ\nമലയാളം\nमराठी\nनेपाली\nਪੰਜਾਬੀ\nසිංහල\nSlovenčina\nதமிழ்\nతెలుగు\nاردو\nTiếng Việt\n中文(香港)\nБългарски\nFrançais (Canada)\nRomână\nСрпски\nУкраїнська\n© 2026 Instagram from Meta\n2ec8aa60f92398720b1683a6 · browser_snapshot\n原始来源\n\n提供方：headed-chromium · 捕获：2026-10-10T07:32:41.840Z · 发布时间：日期未知 · 截图编号：6001ebfd2995598caea406057129b81127cb08f4edbeb265953e54feb1ced939\n\nLog In\nSign Up\nvalstechtalkk\n•\nFollow\nOriginal audio\nvalstechtalkk\n \n1d\ncamera settings i turn on for the CRISP quality 🤩 #iphone #iphonetips #iphone18promax #iphonecamera\nxzari_n\n \n3h\nI still think you shoulda made that series a few months ago 31 days 🙂‍↔️👐\nLike\nReply\nyounesyouceffateh\n \n9h\n❤️❤️\nLike\nReply\nalvillit\n \n14h\n@d.i.a.n.a.d.e.e\nLike\nReply\nim_obaaa\n \n15h\nI get the crisp video and pictures alright. But once I upload it on WhatsApp status,it becomes blur and has a poor quality. I don’t know how to correct it @valstechtalkk\nLike\nReply\nthejamiero_\n \n18h\nThe “photographic style”, do you have a video on how to set it to “+glow” I know how to set it to Amber. But I’m curious about the “+glow” part.\n1 like\nReply\nvvendyfranco\n \n1d\nI love the case!!!!!\n2 likes\nReply\nsaraa_aaraas\n \n1d\n😍😍😍\nLike\nReply\ntialicha_77\n \n1d\nThank you and gurlll where did you get that case at 😍\nLike\nReply\nlachiqui10\n \n1d\nIn love with your case. Pls send me the link 🫶🏻\n1 like\nReply\nzeaugen_\n \n1d\nMy dear , one day i learnt how to make my phone talk when i plug charge then all over suddenly it stopped talking after some months am still looking for your video which you teach how to make a phone talk plsss show meee\n1 like\nReply\n_castillopeyton\n \n1d\n😍😍🔥\nLike\nReply\n_castillopeyton\n \n1d\nNEEDED THIS🙌🏽\nLike\nReply\n14\n1 day ago\nLog in to like or comment.\nMore posts from valstechtalkk\nSee more posts\nMeta\nAbout\nBlog\nJobs\nHelp\nAPI\nPrivacy\nTerms\nLocations\nPopular\nInstagram Lite\nMeta AI\nMuse\nThreads\nContact Uploading & Non-Users\nMeta Verified\nEnglish\nAfrikaans\nالعربية\nČeština\nDansk\nDeutsch\nΕλληνικά\nEnglish\nEnglish (UK)\nEspañol (España)\nEspañol\nفارسی\nSuomi\nFrançais\nעברית\nBahasa Indonesia\nItaliano\n日本語\n한국어\nBahasa Melayu\nNorsk\nNederlands\nPolski\nPortuguês (Brasil)\nPortuguês (Portugal)\nРусский\nSvenska\nภาษาไทย\nFilipino\nTürkçe\n中文(简体)\n中文(台灣)\nবাংলা\nગુજરાતી\nहिन्दी\nHrvatski\nMagyar\nಕನ್ನಡ\nമലയാളം\nमराठी\nनेपाली\nਪੰਜਾਬੀ\nසිංහල\nSlovenčina\nதமிழ்\nతెలుగు\nاردو\nTiếng Việt\n中文(香港)\nБългарски\nFrançais (Canada)\nRomână\nСрпски\nУкраїнська\n© 2026 Instagram from Meta"
+  },
+  "chatLinks": [
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-7e157f91534c9f8f156d257d"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-7e157f91534c9f8f156d257d?format=csv"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-a8e3309218440957ace846fd"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-a8e3309218440957ace846fd?format=csv"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-11deee85612adbbdea75b835"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-11deee85612adbbdea75b835?format=csv"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-06587523c43581240c9622f3"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-06587523c43581240c9622f3?format=csv"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-90121727019a7e5d682f5a65"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-90121727019a7e5d682f5a65?format=csv"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-bab604288a59acc55f2788a1"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-bab604288a59acc55f2788a1?format=csv"
+    }
+  ],
+  "gfmTables": 4,
+  "finishedAt": "2026-10-10T07:36:16.783Z"
+}

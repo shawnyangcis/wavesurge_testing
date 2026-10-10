@@ -1,0 +1,11 @@
+import { useEffect, useState } from 'react';
+import { api } from './api.ts';
+import type { Assistance } from '../server/desktop.ts';
+export function Desktop({ onClose }: { onClose: () => void }) {
+  const [request, setRequest] = useState<Assistance>(); const [url, setUrl] = useState(''); const [connection, setConnection] = useState(0); const [error, setError] = useState(''); const [outcome, setOutcome] = useState('已完成验证或登录，并停留在可公开核验的页面');
+  async function refresh() { try { const value = await api<{ request?: Assistance }>('/desktop'); setRequest(value.request); } catch (e) { setError((e as Error).message); } }
+  async function connect(mode: 'view' | 'control') { setError(''); try { const value = await api<{ url: string }>('/desktop/viewer', { mode }); setUrl(value.url); setConnection(value => value + 1); } catch (e) { setError((e as Error).message); } }
+  useEffect(() => { void refresh(); void connect('view'); const timer = setInterval(refresh, 2000); return () => clearInterval(timer); }, []);
+  async function action(kind: 'claim' | 'release') { setError(''); try { await api('/desktop/assistance', { id: request!.id, action: kind, outcome }); await refresh(); await connect(kind === 'claim' ? 'control' : 'view'); } catch (e) { setError((e as Error).message); } }
+  return <div className="scrim"><section className="inspector desktop-panel" role="dialog" aria-modal="true" aria-label="浏览器桌面"><div className="inspector-heading"><div><span className="eyebrow">BROWSER / ASSISTANCE</span><h2>浏览器桌面</h2></div><button className="quiet" onClick={onClose}>关闭</button></div><p className="muted">默认只读。需要协助时，可在同一个浏览器完成登录或验证；不要将密码发到对话中。交还前请打开可核验的公开页面。</p>{error && <p role="alert">{error}</p>}{request && <div className="assistance"><strong>原候选：{request.creatorId}</strong><p>{request.reason}</p><small>工作编号：{request.taskId}</small>{request.status === 'pending' ? <button onClick={() => void action('claim')}>接管并协助</button> : <><p>你已认领协助。Agent 已暂停桌面输入，连接成功后可操作浏览器。</p><label>协助结果<input value={outcome} onChange={e => setOutcome(e.target.value)} /></label><button onClick={() => void action('release')}>完成协助，交还 Agent</button></>}</div>}<button className="quiet" onClick={() => void connect(request?.status === 'human' ? 'control' : 'view')}>重新连接桌面</button>{url && <iframe key={connection} title="持久浏览器桌面" src={url} />}</section></div>;
+}

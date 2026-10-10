@@ -1,0 +1,220 @@
+{
+  "atUtc": "2026-10-09T14:19:57.519451+00:00",
+  "method": "GET",
+  "path": "/discover/db?platform=tiktok&limit=2&sort=fit_desc",
+  "status": 200,
+  "elapsedSeconds": 2.275,
+  "contentType": "application/json; charset=utf-8",
+  "responseSha256": "4b9598e023579f84e9f8eb85b7878e6a26ee5ffc77194066b5a4c5262a2be624",
+  "response": {
+    "summary": {
+      "total": 2,
+      "byPlatform": {
+        "tiktok": 500
+      },
+      "fromCompetitors": 0,
+      "lookalikes": 2,
+      "avgFit": 79,
+      "sourceTypes": {
+        "exa": 0,
+        "runner": 1,
+        "manual": 0,
+        "import": 0,
+        "cache": 0,
+        "unknown": 1
+      },
+      "emailUsable": 0,
+      "emailQualified": 0,
+      "emailAutoSendable": 0,
+      "contactable": 0,
+      "nonEmailContactable": 2
+    },
+    "tiers": {
+      "all": 2,
+      "koc": 0,
+      "micro": 2,
+      "mid": 0,
+      "macro": 0
+    },
+    "creators": [
+      {
+        "id": "a09fe5c0-3f9e-42cc-95c3-26dc1cfe7fa3",
+        "handle": "ibtshamcrypto7",
+        "displayName": "Muhammad ibtsham",
+        "bio": "https://www.mexc.com/acquisition/custom-sign-up?shareCode=mexc-3EGtk",
+        "details": [
+          {
+            "group": "identity",
+            "key": "region",
+            "label": "Market",
+            "value": "South Korea",
+            "hint": "The region recorded for this creator. For TikTok Shop records, this is the marketplace region, not necessarily where the creator lives. Check qualification evidence for any location requirement."
+          },
+          {
+            "group": "identity",
+            "key": "source",
+            "label": "Found via",
+            "value": "Tiktok one",
+            "hint": "How this creator reached your list."
+          },
+          {
+            "group": "identity",
+            "key": "foundAt",
+            "label": "Added",
+            "value": "2026-07-20",
+            "hint": "When this creator entered our database."
+          },
+          {
+            "group": "rates",
+            "key": "recommendRate100k",
+            "label": "Marketplace's suggested rate",
+            "value": "1,600,000,000",
+            "hint": "What TikTok suggests paying, per 100,000 views. Same unit caveat as above."
+          },
+          {
+            "group": "rates",
+            "key": "priceCurrency",
+            "label": "Currency",
+            "value": "KRW",
+            "hint": "The currency the rates above are quoted in."
+          },
+          {
+            "group": "scores",
+            "key": "comprehensiveScore",
+            "label": "Overall score",
+            "value": "60.2",
+            "hint": "TikTok's own composite rating of this creator. Its scale is the marketplace's, not ours — useful for comparing two creators, not as an absolute."
+          },
+          {
+            "group": "content",
+            "key": "medianViews",
+            "label": "Median views",
+            "value": "178",
+            "hint": "The middle value of their recent posts — a fairer picture of a typical post than an average, which one viral video distorts. Posts we could not read a count for are left out rather than counted as zero."
+          },
+          {
+            "group": "content",
+            "key": "engagementRate",
+            "label": "Engagement",
+            "value": "70.0%",
+            "hint": "The share of this creator's audience that reacts to a typical post. Higher is better, and it matters more than follower count — a small, engaged audience out-performs a large, passive one."
+          }
+        ],
+        "platform": "tiktok",
+        "region": "South Korea",
+        "audience": null,
+        "followerCount": 28389,
+        "engagementRate": 0.7,
+        "engagementKnown": true,
+        "kolType": null,
+        "avatarUrl": null,
+        "publishedLink": null,
+        "tier": "micro",
+        "fit": 79,
+        "fromCompetitor": false,
+        "source": "tiktok_one",
+        "sourceType": "unknown",
+        "sourceSubType": "unknown",
+        "origin": "system",
+        "foundAt": "2026-07-11T12:41:48.575Z",
+        "batchLabel": null,
+        "emailStatus": "finding_email",
+        "emailReadyAt": null,
+        "email": null,
+        "emailUsable": false,
+        "emailQualified": false,
+        "emailAutoSendable": false,
+        "emailConfidence": "low",
+        "emailOwnerType": "unknown",
+        "emailReasons": [
+          "missing_or_unusable_email"
+        ],
+        "contactChannels": [
+          {
+            "channel": "website",
+            "value": "https://www.mexc.com/acquisition/custom-sign-up?shareCode=mexc-3EGtk",
+            "isPrimary": true
+          }
+        ],
+        "contactChannelCount": 1,
+        "contactable": false,
+        "lastSeenAt": "2026-07-11T12:41:48.575Z",
+        "searchKind": "trial",
+        "accountIdentity": null,
+        "recommendationKind": null,
+        "audienceStatus": "unavailable",
+        "qualification": null,
+        "searchMatchTier": null
+      },
+      {
+        "id": "bd8a6971-773e-4ed8-b9a3-8842c5f2d160",
+        "handle": "hasnaingujjar0623",
+        "displayName": "◦•●◉✿Hasnain Gujjar✿◉●•◦",
+        "bio": "🅶🆄🅹🅹🅰🆁 ❤️",
+        "details": [
+          {
+            "group": "identity",
+            "key": "region",
+            "label": "Market",
+            "value": "Saudi Arabia",
+            "hint": "The region recorded for this creator. For TikTok Shop records, this is the marketplace region, not necessarily where the creator lives. Check qualification evidence for any location requirement."
+          }
+        ],
+        "platform": "tiktok",
+        "region": "Saudi Arabia",
+        "audience": null,
+        "followerCount": 10543,
+        "engagementRate": 0.46987050771713257,
+        "engagementKnown": true,
+        "kolType": null,
+        "avatarUrl": null,
+        "publishedLink": null,
+        "tier": "micro",
+        "fit": 78,
+        "fromCompetitor": false,
+        "source": "runner:niche",
+        "sourceType": "runner",
+        "sourceSubType": "niche",
+        "origin": "system",
+        "foundAt": "2026-07-17T12:00:55.268Z",
+        "batchLabel": null,
+        "emailStatus": "finding_email",
+        "emailReadyAt": null,
+        "email": null,
+        "emailUsable": false,
+        "emailQualified": false,
+        "emailAutoSendable": false,
+        "emailConfidence": "low",
+        "emailOwnerType": "unknown",
+        "emailReasons": [
+          "missing_or_unusable_email"
+        ],
+        "contactChannels": [
+          {
+            "channel": "tiktok",
+            "value": "@hasnaingujjar0623",
+            "isPrimary": true
+          }
+        ],
+        "contactChannelCount": 1,
+        "contactable": false,
+        "lastSeenAt": "2026-07-17T12:00:55.268Z",
+        "searchKind": "trial",
+        "accountIdentity": null,
+        "recommendationKind": null,
+        "audienceStatus": "unavailable",
+        "qualification": null,
+        "searchMatchTier": null
+      }
+    ],
+    "strategy": null,
+    "screening": null,
+    "scraping": null,
+    "collecting": false,
+    "latestCreatorSearchTaskId": null,
+    "latestSearchFunnel": null,
+    "target": null,
+    "fulfilled": null,
+    "campaignState": null
+  }
+}

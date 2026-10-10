@@ -1,0 +1,39 @@
+{
+  "capturedAt": "2026-10-10T01:19:13.437Z",
+  "taskId": "research-58949888b306ad726d60be23",
+  "taskTitle": "学习/效率生活",
+  "F05": {
+    "allResults": 2,
+    "filteredResults": 1,
+    "csvRecords": 2,
+    "csvContainsUnknown": true
+  },
+  "F06": {
+    "evidenceWithAsset": 5,
+    "htmlContainsSnapshot": false,
+    "htmlImages": 0,
+    "csvContainsEvidenceMapping": false
+  },
+  "F09": {
+    "assistantMessagesWithTables": 8
+  },
+  "newSearch": {
+    "id": "research-d22f5bc3f9c80da1a4979ca5",
+    "title": "Review独立真实筛选",
+    "status": "running",
+    "requested": 1,
+    "evaluated": 0,
+    "matched": 0,
+    "updatedAt": 1791595137657,
+    "detail": "WaveSurge 搜索等待执行；本地已合格 0 人",
+    "remoteId": "b5722567-4ae0-435a-b6e9-0c5873d6486e",
+    "remoteStatus": "queued",
+    "nextPollAt": 1791595197657
+  },
+  "latestRemote": {
+    "createdAt": 1791595137433,
+    "status": 200,
+    "remoteStatus": "queued",
+    "expectedDurationHours": 5
+  }
+}

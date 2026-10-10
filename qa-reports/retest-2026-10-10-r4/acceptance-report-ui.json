@@ -1,0 +1,8 @@
+{
+  "at": "2026-10-10T15:10:01.074Z",
+  "pageErrors": [],
+  "body": "All4\nPassed4\nFailed0\nFlaky0\nSkipped0\n2026/10/10 21:33:02\nTotal time: 5.4m\nqa-advanced.spec.ts\n自然营销目标→交互澄清→不同 Creator 类型与配额→确认→去重报告交付\n2.0m\nqa-advanced.spec.ts:3\nqa-fixes.spec.ts\n全新可复现部署：自然筛选→增量核验→偏好→真实画像→自动交付→筛选导出→补标\n1.7m\nqa-fixes.spec.ts:6\nqa-instagram.spec.ts\n新版 Instagram：自然请求→GET 搜索/详情/帖子分页/单帖→视觉核验→保存→交付/查询/导出\n54.9s\nqa-instagram.spec.ts:3\nqa-persistence.spec.ts\n新写 Cookie/localStorage：真实 noVNC 操作后，连续三次正常容器重启保留\n47.7s\nqa-persistence.spec.ts:4",
+  "valid": true,
+  "finishedAt": "2026-10-10T15:10:01.545Z",
+  "passed": true
+}

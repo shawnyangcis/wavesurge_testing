@@ -1,0 +1,829 @@
+{
+  "scope": "main",
+  "name": "main-legacy20-completed",
+  "taskId": "research-a183b9437d676713c0f2812f",
+  "startedAt": "2026-10-10T07:03:25.165Z",
+  "checks": [
+    "Actual CSV link downloaded",
+    "Chat-accessible structured HTML report opened in actual browser",
+    "Tag values and versions persisted after page reload"
+  ],
+  "queries": [
+    {
+      "tag": "Notion",
+      "count": 0,
+      "handles": [],
+      "csvPath": ".gstack/qa-reports/retest-2026-10-10-r2/main-legacy20-completed-filter-0.csv",
+      "href": "/api/reports/research-a183b9437d676713c0f2812f?format=csv&tag=Notion"
+    },
+    {
+      "tag": "geek",
+      "count": 0,
+      "handles": [],
+      "csvPath": ".gstack/qa-reports/retest-2026-10-10-r2/main-legacy20-completed-filter-1.csv",
+      "href": "/api/reports/research-a183b9437d676713c0f2812f?format=csv&tag=geek"
+    },
+    {
+      "tag": "不会存在的画像标签",
+      "count": 0,
+      "handles": [],
+      "csvPath": ".gstack/qa-reports/retest-2026-10-10-r2/main-legacy20-completed-filter-2.csv",
+      "href": "/api/reports/research-a183b9437d676713c0f2812f?format=csv&tag=%E4%B8%8D%E4%BC%9A%E5%AD%98%E5%9C%A8%E7%9A%84%E7%94%BB%E5%83%8F%E6%A0%87%E7%AD%BE"
+    }
+  ],
+  "networkErrors": [
+    {
+      "url": "http://127.0.0.1:3000/api/session",
+      "status": 401
+    }
+  ],
+  "pageErrors": [],
+  "task": {
+    "id": "research-a183b9437d676713c0f2812f",
+    "title": "Geek风戴眼镜的Instagram普通消费者创作者",
+    "status": "partial",
+    "requested": 20,
+    "evaluated": 3,
+    "matched": 0,
+    "qualifying": 0,
+    "updatedAt": 1791615504752,
+    "detail": "已选合格 0/20，已核验 3；证据不足者保持待核实。核验/来源错误 1 次，可对已有结果重新核验。",
+    "remoteId": "bd260f50-b76f-440c-9e47-a022a6697ac6",
+    "remoteStatus": "failed",
+    "nextPollAt": 0
+  },
+  "results": [
+    {
+      "id": "research-a183b9437d676713c0f2812f|instagram:franhaddock_",
+      "taskId": "research-a183b9437d676713c0f2812f",
+      "creator": {
+        "id": "instagram:franhaddock_",
+        "platform": "instagram",
+        "handle": "franhaddock_",
+        "profileUrl": "https://www.instagram.com/franhaddock_/",
+        "displayName": "Fran Haddock 🌳 she/her",
+        "followers": 14872,
+        "region": "GB",
+        "evidence": [
+          {
+            "id": "ac40b5a127cc9c57cc319875",
+            "url": "https://www.instagram.com/p/Dd6iln9NJ9f/",
+            "text": "Video description: a white woman with glasses and her hair in 2 plaits talks to the screen from her bed.",
+            "kind": "content",
+            "provider": "tikhub",
+            "publishedAt": "2026-09-30T14:24:37Z",
+            "capturedAt": 1791607304450
+          },
+          {
+            "id": "f08d92181c5158c69b604c94",
+            "url": "https://www.instagram.com/franhaddock_/",
+            "text": "Fran Haddock 🌳 she/her; 14,872 followers; is_business false; biography includes Sheffield, current reading, advocacy from bed, and category Blogger.",
+            "kind": "content",
+            "provider": "tikhub",
+            "publishedAt": null,
+            "capturedAt": 1791607304450
+          },
+          {
+            "id": "76314094127e0b2b00ae9b8b",
+            "url": "https://www.instagram.com/franhaddock_/",
+            "text": "Instagram About This Account reports Account based in United Kingdom.",
+            "kind": "content",
+            "provider": "tikhub",
+            "publishedAt": null,
+            "capturedAt": 1791607304450
+          },
+          {
+            "id": "cc62cf14f0c9d0fe5a86fd81",
+            "url": "https://www.instagram.com/p/Ddo72ZptXRA/",
+            "text": "Halloween raffle: Dr Bradbury’s Compendium of Curiosities Halloween calendar, crochet pumpkin wreath, S’mores Jellycat, stickers, cards, meds diary, spoonie hat, prints and coloring pages.",
+            "kind": "content",
+            "provider": "tikhub",
+            "publishedAt": null,
+            "capturedAt": 1791607304450
+          },
+          {
+            "id": "059a2b1bd84fc521816e3cef",
+            "url": "https://linktr.ee/franhaddock_",
+            "text": "Linktree contains fundraisers, articles, products and BBC link; no TikTok, YouTube or other social-platform account link.",
+            "kind": "content",
+            "provider": "tikhub",
+            "publishedAt": null,
+            "capturedAt": 1791607304450
+          },
+          {
+            "id": "660be26273455f643e821c0d",
+            "url": "https://www.instagram.com/franhaddock_/",
+            "kind": "browser_snapshot",
+            "text": "Log In\nSign Up\nfranhaddock_\n14.8K followers\n3,857 following\nFran Haddock 🌳 she/her\nshe/her\nfranhaddock_\n🛌 Severe M.E. & Long C (funcap 2.5)\n💖 Advocacy from bed\n✨ Reality & tiny joys\n📍 Sheffield\n🎧📖 CR: Where sleeping girls... \nmore\nlinktr.ee/franhaddock_\nPrecautions q&a\nBoundaries\nBirthday MA\nFave things\nAudiobooks\nSpring Raffle\nFeb 2026 💘\nWinter raffle❄️\n2025 Faves\nHolidays MA\nShow more posts from franhaddock_\nMeta\nAbout\nBlog\nJobs\nHelp\nAPI\nPrivacy\nTerms\nLocations\nPopular\nInstagram Lite\nMeta AI\nMuse\nThreads\nContact Uploading & Non-Users\nMeta Verified\nEnglish\nAfrikaans\nالعربية\nČeština\nDansk\nDeutsch\nΕλληνικά\nEnglish\nEnglish (UK)\nEspañol (España)\nEspañol\nفارسی\nSuomi\nFrançais\nעברית\nBahasa Indonesia\nItaliano\n日本語\n한국어\nBahasa Melayu\nNorsk\nNederlands\nPolski\nPortuguês (Brasil)\nPortuguês (Portugal)\nРусский\nSvenska\nภาษาไทย\nFilipino\nTürkçe\n中文(简体)\n中文(台灣)\nবাংলা\nગુજરાતી\nहिन्दी\nHrvatski\nMagyar\nಕನ್ನಡ\nമലയാളം\nमराठी\nनेपाली\nਪੰਜਾਬੀ\nසිංහල\nSlovenčina\nதமிழ்\nతెలుగు\nاردو\nTiếng Việt\n中文(香港)\nБългарски\nFrançais (Canada)\nRomână\nСрпски\nУкраїнська\n© 2026 Instagram from Meta",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791607307220,
+            "assetId": "5073459d74727987a4f05a209308774e4cf072388e7d3e9a944c86ea1d223e6b"
+          },
+          {
+            "id": "7959a29a3503802b8f3b04e3",
+            "url": "https://www.instagram.com/p/Dd6iln9NJ9f/",
+            "kind": "browser_snapshot",
+            "text": "",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791607313288,
+            "assetId": "be169388627f31e578460cb0ccdaf67c893c8883ac191222f5447575e302f67a"
+          },
+          {
+            "id": "ac82afcf621d3635040b6e22",
+            "url": "https://www.instagram.com/p/Dd6iln9NJ9f/",
+            "kind": "browser_snapshot",
+            "text": "Log In\nSign Up\nNever miss a post from franhaddock_\nSign up for Instagram to stay in the loop.\nBy continuing, you agree to Instagram's Terms of Use and Privacy Policy.\nSign up\nLog in\nfranhaddock_\n•\nFollow\nOriginal audio\nfranhaddock_\n \n1w\nME= myalgic encephalomyelitis (Also known as ME/CFS)\n\n#myalgicencephalomyelitis #SevereME #MECFS #LongCovid #ChronicIllness \n\nVideo description: a white woman with glasses and her hair in 2 plaits talks to the screen from her bed. She wears a blue t-shirt and there is a bat squishmallow stuffed down the bed behind her\nbearsandbestfriends\n \n4d\nI love that you were able to go to the woods. No one has the right to question that. But also no one knows how long you had to reserve tiny bubbles of energy to be able to do that or how long it will take to get those tiny bubbles back again. Why would anyone question that?\nLike\nReply\nburgess.tracey6\n \n4d\nI get you totally Fran. Everyone's situation is different & after a while I think we adjust to take account of where we estimate the edge of our energy capacity is. I don't discuss much about my fluctuating health issues anymore, as it's too frustrating & upsetting. I'm able to work part time & that has to be my focus. But it's exhausting & anything else gets the scraps. All we can do is manage as best as we can. 💙💕\nLike\nReply\nnantes_accessibilite\n \n6d\nHonestly it shocks me you have to prove yourself. It shocks me even more that people will judge you on one or two videos of two minutes. What about the 23 hours and 56 minutes of the reste of your day? They just don’t see you. So they can judge. 🤨\n\nHope you can go to enjoy forest again without paying such a price. 🌲\nLike\nReply\nkimx9634\n \n1w\nI am so sorry, this illness is so frustrating. I have been totally overdoing it the last few days and i have been so happy, spending time in nature. i am off to bed now to try and minimise the damage i have done by role playing not being ill. 😔\n1 like\nReply\nvintagegirllllllly\n \n1w\nBeing able to go to the fucking woods once in a blue moon, Jesus, what’s wrong with people!!\nLike\nReply\nvintagegirllllllly\n \n1w\nDon’t explain yourself to anyone ❤️ xxx.\nLike\nReply\nsuddendeparture\n \n1w\nI find the policing that goes on in the ME community rather curious. I don’t see this kind of questioning happening with other chronic illness groups. Makes me think the stigmatization and misunderstanding of this condition has been internalized by many sufferers, which is a little bit heartbreaking really. 💙🩵\nLike\nReply\npostvak_tanja\n \n1w\nWtf is wrong with people?? I dont have MCAS but I do have moderate ME and I can tolerate make-up and some perfumes. The ME community is now policing our appearance? \"You dont look sick\" is exactly the judgement from healthy people including doctors that we have to be subjected to, we dont need it from other ME sufferers- Its not a competition and the goal is to get WELL , not to virtue signal any suffering we have. Omg!!\nLike\nReply\nkarpydm\n \n1w\nIt affects everyone in such different ways. It's a spectrum of symptoms and severity and it ebbs and flows. Severity fluctuates. Symptoms fluctuate. ❤️\nLike\nReply\nthemme_fatale\n \n1w\nThere’s already so much suffering with this disease, it’s cooked that anyone is made to spend the precious energy they do have justifying themselves. You’re always so open about your experiences and fluctuations and personally I am so grateful and have learned a lot from you!\n\nI’m so glad you’ve been able to do something nice, I hope any dip is as short as possible you get many more trips to the woods 💕\n9 likes\nReply\njessicajaponica\n \n1w\nThis was me in my late teens, fluctuating between occasionally moderate and mostly severe. Comments people made did so much damage to me, especially when they came from other people with M.E. I didn’t know about pacing back then, either (now I do and I’m still rubbish at it!).\nNow, I’m very severe and worsening and I get the same sort of comments from my carers, which do just as much harm.\nThis is such a helpful video ☺️ I wish 18/19yo me could have seen it. Thank you for saying it 🫶🏻\nIt was lovely to see you make it to the woods. Hope the memories sustain you and wishing you more improved days to come.\nLike\nReply\nwestaussi\n \n1w\nHonestly, the relentless drag of feeling insulted all the time, is a huge energy burden within itself.\nLike\nReply\nbean.and.bear.boutique\n \n1w\nOh goodness! Do not apologise for posting your happy moments - they are the things which allow us to continue living. Recognise that these comments came from a place of envy and you’ll be able to pity the person who felt the need to rain on your sunshine.\nFinally, severity labels do not have clear edges. It’s much more like a colour wheel than coloured blocks. We know what red is and what orange is - but at what point does red become orange?\nLike\nReply\nheresbeckyadhd_\n \n1w\nM.e has no effect on makeup or products I have it and it’s mainly absolute fatigue weakness falls nuro issues ect people have no right to judge mines moderate but I have no choice but to function and the crash and burn out but nobody should be judging anyone with M.E\n1 like\nReply\nsystems4change\n \n1w\n😢😢❤️❤️❤️\n1 like\nReply\n564\n83\nSeptember 30\nLog in to like or comment.\nMore posts from franhaddock_\nSee more posts\nMeta\nAbout\nBlog\nJobs\nHelp\nAPI\nPrivacy\nTerms\nLocations\nPopular\nInstagram Lite\nMeta AI\nMuse\nThreads\nContact Uploading & Non-Users\nMeta Verified\nEnglish\nAfrikaans\nالعربية\nČeština\nDansk\nDeutsch\nΕλληνικά\nEnglish\nEnglish (UK)\nEspañol (España)\nEspañol\nفارسی\nSuomi\nFrançais\nעברית\nBahasa Indonesia\nItaliano\n日本語\n한국어\nBahasa Melayu\nNorsk\nNederlands\nPolski\nPortuguês (Brasil)\nPortuguês (Portugal)\nРусский\nSvenska\nภาษาไทย\nFilipino\nTürkçe\n中文(简体)\n中文(台灣)\nবাংলা\nગુજરાતી\nहिन्दी\nHrvatski\nMagyar\nಕನ್ನಡ\nമലയാളം\nमराठी\nनेपाली\nਪੰਜਾਬੀ\nසිංහල\nSlovenčina\nதமிழ்\nతెలుగు\nاردو\nTiếng Việt\n中文(香港)\nБългарски\nFrançais (Canada)\nRomână\nСрпски\nУкраїнська\n© 2026 Instagram from Meta",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791607318680,
+            "assetId": "a0dc8d61ad3bd760cd950793a0ea75f6a531abaff0dcb74d206887584680ce00"
+          },
+          {
+            "id": "d78b6f76990686c9e23d39bb",
+            "url": "https://www.instagram.com/p/Dd6iln9NJ9f/",
+            "kind": "browser_snapshot",
+            "text": "Log In\nSign Up\nfranhaddock_\n•\nFollow\nOriginal audio\nfranhaddock_\n \n1w\nME= myalgic encephalomyelitis (Also known as ME/CFS)\n\n#myalgicencephalomyelitis #SevereME #MECFS #LongCovid #ChronicIllness \n\nVideo description: a white woman with glasses and her hair in 2 plaits talks to the screen from her bed. She wears a blue t-shirt and there is a bat squishmallow stuffed down the bed behind her\nbearsandbestfriends\n \n4d\nI love that you were able to go to the woods. No one has the right to question that. But also no one knows how long you had to reserve tiny bubbles of energy to be able to do that or how long it will take to get those tiny bubbles back again. Why would anyone question that?\nLike\nReply\nburgess.tracey6\n \n4d\nI get you totally Fran. Everyone's situation is different & after a while I think we adjust to take account of where we estimate the edge of our energy capacity is. I don't discuss much about my fluctuating health issues anymore, as it's too frustrating & upsetting. I'm able to work part time & that has to be my focus. But it's exhausting & anything else gets the scraps. All we can do is manage as best as we can. 💙💕\nLike\nReply\nnantes_accessibilite\n \n6d\nHonestly it shocks me you have to prove yourself. It shocks me even more that people will judge you on one or two videos of two minutes. What about the 23 hours and 56 minutes of the reste of your day? They just don’t see you. So they can judge. 🤨\n\nHope you can go to enjoy forest again without paying such a price. 🌲\nLike\nReply\nkimx9634\n \n1w\nI am so sorry, this illness is so frustrating. I have been totally overdoing it the last few days and i have been so happy, spending time in nature. i am off to bed now to try and minimise the damage i have done by role playing not being ill. 😔\n1 like\nReply\nvintagegirllllllly\n \n1w\nBeing able to go to the fucking woods once in a blue moon, Jesus, what’s wrong with people!!\nLike\nReply\nvintagegirllllllly\n \n1w\nDon’t explain yourself to anyone ❤️ xxx.\nLike\nReply\nsuddendeparture\n \n1w\nI find the policing that goes on in the ME community rather curious. I don’t see this kind of questioning happening with other chronic illness groups. Makes me think the stigmatization and misunderstanding of this condition has been internalized by many sufferers, which is a little bit heartbreaking really. 💙🩵\nLike\nReply\npostvak_tanja\n \n1w\nWtf is wrong with people?? I dont have MCAS but I do have moderate ME and I can tolerate make-up and some perfumes. The ME community is now policing our appearance? \"You dont look sick\" is exactly the judgement from healthy people including doctors that we have to be subjected to, we dont need it from other ME sufferers- Its not a competition and the goal is to get WELL , not to virtue signal any suffering we have. Omg!!\nLike\nReply\nkarpydm\n \n1w\nIt affects everyone in such different ways. It's a spectrum of symptoms and severity and it ebbs and flows. Severity fluctuates. Symptoms fluctuate. ❤️\nLike\nReply\nthemme_fatale\n \n1w\nThere’s already so much suffering with this disease, it’s cooked that anyone is made to spend the precious energy they do have justifying themselves. You’re always so open about your experiences and fluctuations and personally I am so grateful and have learned a lot from you!\n\nI’m so glad you’ve been able to do something nice, I hope any dip is as short as possible you get many more trips to the woods 💕\n9 likes\nReply\njessicajaponica\n \n1w\nThis was me in my late teens, fluctuating between occasionally moderate and mostly severe. Comments people made did so much damage to me, especially when they came from other people with M.E. I didn’t know about pacing back then, either (now I do and I’m still rubbish at it!).\nNow, I’m very severe and worsening and I get the same sort of comments from my carers, which do just as much harm.\nThis is such a helpful video ☺️ I wish 18/19yo me could have seen it. Thank you for saying it 🫶🏻\nIt was lovely to see you make it to the woods. Hope the memories sustain you and wishing you more improved days to come.\nLike\nReply\nwestaussi\n \n1w\nHonestly, the relentless drag of feeling insulted all the time, is a huge energy burden within itself.\nLike\nReply\nbean.and.bear.boutique\n \n1w\nOh goodness! Do not apologise for posting your happy moments - they are the things which allow us to continue living. Recognise that these comments came from a place of envy and you’ll be able to pity the person who felt the need to rain on your sunshine.\nFinally, severity labels do not have clear edges. It’s much more like a colour wheel than coloured blocks. We know what red is and what orange is - but at what point does red become orange?\nLike\nReply\nheresbeckyadhd_\n \n1w\nM.e has no effect on makeup or products I have it and it’s mainly absolute fatigue weakness falls nuro issues ect people have no right to judge mines moderate but I have no choice but to function and the crash and burn out but nobody should be judging anyone with M.E\n1 like\nReply\nsystems4change\n \n1w\n😢😢❤️❤️❤️\n1 like\nReply\n564\n83\nSeptember 30\nLog in to like or comment.\nMore posts from franhaddock_\nSee more posts\nMeta\nAbout\nBlog\nJobs\nHelp\nAPI\nPrivacy\nTerms\nLocations\nPopular\nInstagram Lite\nMeta AI\nMuse\nThreads\nContact Uploading & Non-Users\nMeta Verified\nEnglish\nAfrikaans\nالعربية\nČeština\nDansk\nDeutsch\nΕλληνικά\nEnglish\nEnglish (UK)\nEspañol (España)\nEspañol\nفارسی\nSuomi\nFrançais\nעברית\nBahasa Indonesia\nItaliano\n日本語\n한국어\nBahasa Melayu\nNorsk\nNederlands\nPolski\nPortuguês (Brasil)\nPortuguês (Portugal)\nРусский\nSvenska\nภาษาไทย\nFilipino\nTürkçe\n中文(简体)\n中文(台灣)\nবাংলা\nગુજરાતી\nहिन्दी\nHrvatski\nMagyar\nಕನ್ನಡ\nമലയാളം\nमराठी\nनेपाली\nਪੰਜਾਬੀ\nසිංහල\nSlovenčina\nதமிழ்\nతెలుగు\nاردو\nTiếng Việt\n中文(香港)\nБългарски\nFrançais (Canada)\nRomână\nСрпски\nУкраїнська\n© 2026 Instagram from Meta",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791615038594,
+            "assetId": "2aae5f489cabcbcd43e65cdf6edc3bf207388d548a074e5bfd4fba7449abd8e8"
+          }
+        ],
+        "facts": {
+          "conflicts": [
+            "followers: 来源数值冲突"
+          ]
+        }
+      },
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "match",
+          "reason": "WaveSurge 地区：GB；服务标记国家已确认",
+          "evidenceIds": [
+            "ac40b5a127cc9c57cc319875",
+            "f08d92181c5158c69b604c94",
+            "76314094127e0b2b00ae9b8b",
+            "cc62cf14f0c9d0fe5a86fd81",
+            "059a2b1bd84fc521816e3cef"
+          ],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "unknown",
+          "reason": "WaveSurge 粉丝数 14872，要求 10000–100000",
+          "evidenceIds": [
+            "ac40b5a127cc9c57cc319875",
+            "f08d92181c5158c69b604c94",
+            "76314094127e0b2b00ae9b8b",
+            "cc62cf14f0c9d0fe5a86fd81",
+            "059a2b1bd84fc521816e3cef"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "geek_visual",
+          "verdict": "unknown",
+          "reason": "9月30日公开视频截图可见框架眼镜、双辫、蓝色T恤及蝙蝠毛绒玩具，但不足以明确证明科技宅、书卷或极客穿搭风格。主页阅读简介与万圣节奖品文字只能说明兴趣，不能替代近期内容视觉证据。",
+          "evidenceIds": [
+            "d78b6f76990686c9e23d39bb",
+            "660be26273455f643e821c0d",
+            "cc62cf14f0c9d0fe5a86fd81"
+          ],
+          "label": "近期公开内容呈现科技宅、书卷或极客穿搭风格；依据内容视觉证据，不仅依据头像"
+        },
+        {
+          "criterionId": "glasses_visual",
+          "verdict": "match",
+          "reason": "人工协助后重新观察公开帖子，实际视频画面清楚显示创作者佩戴框架眼镜；依据内容截图而非头像。页面日期显示September 30，资料发布时间为2026-09-30。",
+          "evidenceIds": [
+            "d78b6f76990686c9e23d39bb",
+            "ac40b5a127cc9c57cc319875"
+          ],
+          "label": "公开内容中佩戴眼镜，以内容视觉证据核验，不仅依据头像"
+        },
+        {
+          "criterionId": "white_self_identification",
+          "verdict": "match",
+          "reason": "本人账号发布的帖子正文以无障碍视频描述明确描述自身为“a white woman with glasses”，并说明从床上对镜头讲话；属于作者公开自述，不依据外貌推断。",
+          "evidenceIds": [
+            "d78b6f76990686c9e23d39bb"
+          ],
+          "label": "创作者本人明确公开自述为白人；不得根据外貌、姓名或所在地推断；没有明确自述证据则为unknown，不计为合格"
+        },
+        {
+          "criterionId": "ordinary_consumer_koc",
+          "verdict": "match",
+          "reason": "公开简介与本人帖子呈现个人日常分享及个人倡导，资料标注Blogger、is_business false；奖品帖子涉及个人消费品与兴趣用品。综合支持普通个人博主身份，而非机构或明星账号，不以粉丝数量单独认定。",
+          "evidenceIds": [
+            "660be26273455f643e821c0d",
+            "f08d92181c5158c69b604c94",
+            "cc62cf14f0c9d0fe5a86fd81",
+            "d78b6f76990686c9e23d39bb"
+          ],
+          "label": "KOC为普通消费者创作者，排除机构账号和明星；须以公开资料核验，不能仅凭粉丝数量认定KOC身份"
+        }
+      ],
+      "verdict": "unknown",
+      "annotations": [],
+      "tags": [
+        "公开内容中佩戴眼镜，以内容视觉证据核验，不仅依据头像",
+        "创作者本人明确公开自述为白人；不得根据外貌、姓名或所在地推断；没有明确自述证据则为unknown，不计为合格",
+        "KOC为普通消费者创作者，排除机构账号和明星；须以公开资料核验，不能仅凭粉丝数量认定KOC身份"
+      ],
+      "revision": 1,
+      "updatedAt": 1791615063562,
+      "selected": false
+    },
+    {
+      "id": "research-a183b9437d676713c0f2812f|instagram:kennedyslocum",
+      "taskId": "research-a183b9437d676713c0f2812f",
+      "creator": {
+        "id": "instagram:kennedyslocum",
+        "platform": "instagram",
+        "handle": "kennedyslocum",
+        "profileUrl": "https://www.instagram.com/kennedyslocum/",
+        "displayName": "Kennedy Lea Slocum • Kennedy Lea Warren",
+        "followers": 16974,
+        "region": "US",
+        "evidence": [
+          {
+            "id": "2db0f8705c2c58729bbba620",
+            "url": "https://www.instagram.com/reel/C6g_RXsvov2/",
+            "text": "Kennedy, a white woman with pastel pink/bleached hair and glasses... it’s just Kennedy in the same clothes playing Stardew Valley on Nintendo Switch",
+            "kind": "content",
+            "provider": "tikhub",
+            "publishedAt": null,
+            "capturedAt": 1791607304450
+          },
+          {
+            "id": "a608004bf5c25dbe802ef251",
+            "url": "https://www.instagram.com/kennedyslocum/",
+            "text": "v2 profile reports country United States, follower_count 16,974, bio_links empty and no external URL.",
+            "kind": "content",
+            "provider": "tikhub",
+            "publishedAt": null,
+            "capturedAt": 1791607304450
+          },
+          {
+            "id": "ec7418c9de7a200f124c6bb2",
+            "url": "https://www.instagram.com/kennedyslocum/",
+            "text": "Bio gives separate acting and gaming contacts and profile is not a business account; full name is Kennedy Lea Slocum • Kennedy Lea Warren.",
+            "kind": "content",
+            "provider": "tikhub",
+            "publishedAt": null,
+            "capturedAt": 1791607304450
+          },
+          {
+            "id": "eac9ec4fd2d4a9047b89e690",
+            "url": "https://www.instagram.com/kennedyslocum/",
+            "kind": "browser_snapshot",
+            "text": "Log In\nSign Up\nkennedyslocum\n16.9K followers\n1,190 following\nKennedy Lea Slocum • Kennedy Lea Warren\nshe/her\n🙂‍↕️\nActing: cheryl@jacksonentertainment.net\nGaming: social@blackkitegames.com\nShow more posts from kennedyslocum\nMeta\nAbout\nBlog\nJobs\nHelp\nAPI\nPrivacy\nTerms\nLocations\nPopular\nInstagram Lite\nMeta AI\nMuse\nThreads\nContact Uploading & Non-Users\nMeta Verified\nEnglish\nAfrikaans\nالعربية\nČeština\nDansk\nDeutsch\nΕλληνικά\nEnglish\nEnglish (UK)\nEspañol (España)\nEspañol\nفارسی\nSuomi\nFrançais\nעברית\nBahasa Indonesia\nItaliano\n日本語\n한국어\nBahasa Melayu\nNorsk\nNederlands\nPolski\nPortuguês (Brasil)\nPortuguês (Portugal)\nРусский\nSvenska\nภาษาไทย\nFilipino\nTürkçe\n中文(简体)\n中文(台灣)\nবাংলা\nગુજરાતી\nहिन्दी\nHrvatski\nMagyar\nಕನ್ನಡ\nമലയാളം\nमराठी\nनेपाली\nਪੰਜਾਬੀ\nසිංහල\nSlovenčina\nதமிழ்\nతెలుగు\nاردو\nTiếng Việt\n中文(香港)\nБългарски\nFrançais (Canada)\nRomână\nСрпски\nУкраїнська\n© 2026 Instagram from Meta",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791615066797,
+            "assetId": "0938661ba4c52c476d938562bdc940f7e4a1e2819bf3bfa056f21eeef1444e35"
+          },
+          {
+            "id": "9eac1c9e3b5a7faee8182d1b",
+            "url": "https://www.instagram.com/kennedyslocum/p/Dd1rVBxGpxj/",
+            "kind": "browser_snapshot",
+            "text": "Log In\nSign Up\nNever miss a post from kennedyslocum\nSign up for Instagram to stay in the loop.\nBy continuing, you agree to Instagram's Terms of Use and Privacy Policy.\nSign up\nLog in\nkennedyslocum\n•\nFollow\nkennedyslocum\n \nEdited\n•\n1w\nSwipe for Andy’s legendary Pearl Jam karaoke impression\nc_mann_\n \n1w\nAbsolutely nailed it\n1 like\nReply\n72\n1\nSeptember 28\nLog in to like or comment.\nMore posts from kennedyslocum\nSee more posts\nMeta\nAbout\nBlog\nJobs\nHelp\nAPI\nPrivacy\nTerms\nLocations\nPopular\nInstagram Lite\nMeta AI\nMuse\nThreads\nContact Uploading & Non-Users\nMeta Verified\nEnglish\nAfrikaans\nالعربية\nČeština\nDansk\nDeutsch\nΕλληνικά\nEnglish\nEnglish (UK)\nEspañol (España)\nEspañol\nفارسی\nSuomi\nFrançais\nעברית\nBahasa Indonesia\nItaliano\n日本語\n한국어\nBahasa Melayu\nNorsk\nNederlands\nPolski\nPortuguês (Brasil)\nPortuguês (Portugal)\nРусский\nSvenska\nภาษาไทย\nFilipino\nTürkçe\n中文(简体)\n中文(台灣)\nবাংলা\nગુજરાતી\nहिन्दी\nHrvatski\nMagyar\nಕನ್ನಡ\nമലയാളം\nमराठी\nनेपाली\nਪੰਜਾਬੀ\nසිංහල\nSlovenčina\nதமிழ்\nతెలుగు\nاردو\nTiếng Việt\n中文(香港)\nБългарски\nFrançais (Canada)\nRomână\nСрпски\nУкраїнська\n© 2026 Instagram from Meta",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791615072147,
+            "assetId": "cd3312924d5184c6cae67b7a501800584e1cba849d5b194abd8c5336b0e78562"
+          },
+          {
+            "id": "69fde83e4e3909d6a1b3dbae",
+            "url": "https://www.instagram.com/kennedyslocum/p/Dd1rVBxGpxj/",
+            "kind": "browser_snapshot",
+            "text": "Log In\nSign Up\nkennedyslocum\n•\nFollow\nkennedyslocum\n \nEdited\n•\n1w\nSwipe for Andy’s legendary Pearl Jam karaoke impression\nc_mann_\n \n1w\nAbsolutely nailed it\n1 like\nReply\n72\n1\nSeptember 28\nLog in to like or comment.\nMore posts from kennedyslocum\nSee more posts\nMeta\nAbout\nBlog\nJobs\nHelp\nAPI\nPrivacy\nTerms\nLocations\nPopular\nInstagram Lite\nMeta AI\nMuse\nThreads\nContact Uploading & Non-Users\nMeta Verified\nEnglish\nAfrikaans\nالعربية\nČeština\nDansk\nDeutsch\nΕλληνικά\nEnglish\nEnglish (UK)\nEspañol (España)\nEspañol\nفارسی\nSuomi\nFrançais\nעברית\nBahasa Indonesia\nItaliano\n日本語\n한국어\nBahasa Melayu\nNorsk\nNederlands\nPolski\nPortuguês (Brasil)\nPortuguês (Portugal)\nРусский\nSvenska\nภาษาไทย\nFilipino\nTürkçe\n中文(简体)\n中文(台灣)\nবাংলা\nગુજરાતી\nहिन्दी\nHrvatski\nMagyar\nಕನ್ನಡ\nമലയാളം\nमराठी\nनेपाली\nਪੰਜਾਬੀ\nසිංහල\nSlovenčina\nதமிழ்\nతెలుగు\nاردو\nTiếng Việt\n中文(香港)\nБългарски\nFrançais (Canada)\nRomână\nСрпски\nУкраїнська\n© 2026 Instagram from Meta",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791615211798,
+            "assetId": "ff02c174fa895a04d30eb677ef09db7cbe1c5eec6081822e7942bae0871eb118"
+          }
+        ],
+        "facts": {
+          "conflicts": [
+            "followers: 来源数值冲突"
+          ]
+        }
+      },
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "match",
+          "reason": "WaveSurge 地区：US；服务标记国家已确认",
+          "evidenceIds": [
+            "2db0f8705c2c58729bbba620",
+            "a608004bf5c25dbe802ef251",
+            "ec7418c9de7a200f124c6bb2"
+          ],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "unknown",
+          "reason": "WaveSurge 粉丝数 16974，要求 10000–100000",
+          "evidenceIds": [
+            "2db0f8705c2c58729bbba620",
+            "a608004bf5c25dbe802ef251",
+            "ec7418c9de7a200f124c6bb2"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "geek_visual",
+          "verdict": "unknown",
+          "reason": "重新观察公开照片帖：页面显示 September 28、1w，照片中为短袖上衣与牛仔裤的日常穿搭；不足以确认科技宅、书卷或极客风格。已有 Stardew Valley 文字没有发布时间及对应可见媒体，不能替代近期视觉证据。",
+          "evidenceIds": [
+            "69fde83e4e3909d6a1b3dbae",
+            "2db0f8705c2c58729bbba620"
+          ],
+          "label": "近期公开内容呈现科技宅、书卷或极客穿搭风格；依据内容视觉证据，不仅依据头像"
+        },
+        {
+          "criterionId": "glasses_visual",
+          "verdict": "match",
+          "reason": "人工关闭注册提示后重新观察，公开轮播照片首图中创作者清晰佩戴有框眼镜；依据帖子照片而非头像。页面日期原文为 September 28。",
+          "evidenceIds": [
+            "69fde83e4e3909d6a1b3dbae"
+          ],
+          "label": "公开内容中佩戴眼镜，以内容视觉证据核验，不仅依据头像"
+        },
+        {
+          "criterionId": "white_self_identification",
+          "verdict": "match",
+          "reason": "已提供的本人 Reel 无障碍文字明确写出“Kennedy, a white woman”，资料将其标明为创作者自有帖子的文字，属于公开自述依据；不依据照片、姓名或地区推断。该文字未提供发布日期。",
+          "evidenceIds": [
+            "2db0f8705c2c58729bbba620"
+          ],
+          "label": "创作者本人明确公开自述为白人；不得根据外貌、姓名或所在地推断；没有明确自述证据则为unknown，不计为合格"
+        },
+        {
+          "criterionId": "ordinary_consumer_koc",
+          "verdict": "unknown",
+          "reason": "主页为具名个人，并列 Acting 和 Gaming 联系方式；能支持个人演艺/游戏创作者身份，但不足以确认普通消费者 KOC 或排除明星身份。非商业账号及粉丝数不能单独证明该条件。",
+          "evidenceIds": [
+            "eac9ec4fd2d4a9047b89e690",
+            "ec7418c9de7a200f124c6bb2"
+          ],
+          "label": "KOC为普通消费者创作者，排除机构账号和明星；须以公开资料核验，不能仅凭粉丝数量认定KOC身份"
+        }
+      ],
+      "verdict": "unknown",
+      "annotations": [],
+      "tags": [
+        "公开内容中佩戴眼镜，以内容视觉证据核验，不仅依据头像",
+        "创作者本人明确公开自述为白人；不得根据外貌、姓名或所在地推断；没有明确自述证据则为unknown，不计为合格"
+      ],
+      "revision": 1,
+      "updatedAt": 1791615243367,
+      "selected": false
+    },
+    {
+      "id": "research-a183b9437d676713c0f2812f|instagram:neighbourbecci",
+      "taskId": "research-a183b9437d676713c0f2812f",
+      "creator": {
+        "id": "instagram:neighbourbecci",
+        "platform": "instagram",
+        "handle": "neighbourbecci",
+        "profileUrl": "https://www.instagram.com/neighbourbecci/",
+        "displayName": "Becci",
+        "followers": 60586,
+        "region": "CA",
+        "evidence": [
+          {
+            "id": "09a45f47d899e94560570de3",
+            "url": "https://www.instagram.com/reel/DQnGQxPiR3z/",
+            "text": "Image description: Becci (white woman, glasses, hair up, black tshirt that says “ban bigots not books,” from @thesweetlifeapparel) eats from a bag of chips. Her face shows dislike.",
+            "kind": "content",
+            "provider": "tikhub",
+            "publishedAt": "2025-11-03T22:24:01Z",
+            "capturedAt": 1791607304450
+          },
+          {
+            "id": "282bba84f42bd1ffe6bc7c80",
+            "url": "https://www.instagram.com/neighbourbecci/",
+            "text": "Bio includes Canada flag, a podcast account mention, partnership email and an affiliate storefront; follower_count is 60,586.",
+            "kind": "content",
+            "provider": "tikhub",
+            "publishedAt": null,
+            "capturedAt": 1791607304450
+          },
+          {
+            "id": "e55f8a58fcbecc005f150439",
+            "url": "https://www.instagram.com/neighbourbecci/",
+            "text": "Instagram About This Account reports country Canada.",
+            "kind": "content",
+            "provider": "tikhub",
+            "publishedAt": null,
+            "capturedAt": 1791607304450
+          },
+          {
+            "id": "96894c1f0c43f552b6912d77",
+            "url": "https://www.instagram.com/neighbourbecci/",
+            "kind": "browser_snapshot",
+            "text": "Log In\nSign Up\nneighbourbecci\n60.5K followers\n155 following\nBecci\nshe/her\n🇨🇦\ni hope you have an okay day\n“Ask the Neighbours” on @thepapayapodcast\npartnership inquiries: neighbourbecci@gmail.c... \nmore\nwww.threeshipsbeauty.ca/NEIGHBOURBECCI\ncodes etc\nFactor Meals\nbecci’s books 2\nHotelXcaret🇲🇽\nrevenge\nmusic recs\nmom gifts\ntaste test time\nDisney\nhair\nShow more posts from neighbourbecci\nMeta\nAbout\nBlog\nJobs\nHelp\nAPI\nPrivacy\nTerms\nLocations\nPopular\nInstagram Lite\nMeta AI\nMuse\nThreads\nContact Uploading & Non-Users\nMeta Verified\nEnglish\nAfrikaans\nالعربية\nČeština\nDansk\nDeutsch\nΕλληνικά\nEnglish\nEnglish (UK)\nEspañol (España)\nEspañol\nفارسی\nSuomi\nFrançais\nעברית\nBahasa Indonesia\nItaliano\n日本語\n한국어\nBahasa Melayu\nNorsk\nNederlands\nPolski\nPortuguês (Brasil)\nPortuguês (Portugal)\nРусский\nSvenska\nภาษาไทย\nFilipino\nTürkçe\n中文(简体)\n中文(台灣)\nবাংলা\nગુજરાતી\nहिन्दी\nHrvatski\nMagyar\nಕನ್ನಡ\nമലയാളം\nमराठी\nनेपाली\nਪੰਜਾਬੀ\nසිංහල\nSlovenčina\nதமிழ்\nతెలుగు\nاردو\nTiếng Việt\n中文(香港)\nБългарски\nFrançais (Canada)\nRomână\nСрпски\nУкраїнська\n© 2026 Instagram from Meta",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791615245179,
+            "assetId": "ba2340513e16a76473505060deb1cd97447a67da3d93abae62b6f69eea0332bc"
+          },
+          {
+            "id": "79a4915442f4180359196779",
+            "url": "https://www.instagram.com/neighbourbecci/p/DeSvpZHpMky/",
+            "kind": "browser_snapshot",
+            "text": "",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791615251380,
+            "assetId": "be169388627f31e578460cb0ccdaf67c893c8883ac191222f5447575e302f67a"
+          },
+          {
+            "id": "58997e975f07cd6733cc8563",
+            "url": "https://www.instagram.com/neighbourbecci/p/DeSvpZHpMky/",
+            "kind": "browser_snapshot",
+            "text": "Log In\nSign Up\nNever miss a post from neighbourbecci\nSign up for Instagram to stay in the loop.\nBy continuing, you agree to Instagram's Terms of Use and Privacy Policy.\nSign up\nLog in\nneighbourbecci\n•\nFollow\nneighbourbecci\n \n6h\nPoll Discussion Post for Oct 10th/11th. Be kind or get deleted.\nNo comments yet.\nStart the conversation.\n31\n6 hours ago\nLog in to like or comment.\nMore posts from neighbourbecci\nSee more posts\nMeta\nAbout\nBlog\nJobs\nHelp\nAPI\nPrivacy\nTerms\nLocations\nPopular\nInstagram Lite\nMeta AI\nMuse\nThreads\nContact Uploading & Non-Users\nMeta Verified\nEnglish\nAfrikaans\nالعربية\nČeština\nDansk\nDeutsch\nΕλληνικά\nEnglish\nEnglish (UK)\nEspañol (España)\nEspañol\nفارسی\nSuomi\nFrançais\nעברית\nBahasa Indonesia\nItaliano\n日本語\n한국어\nBahasa Melayu\nNorsk\nNederlands\nPolski\nPortuguês (Brasil)\nPortuguês (Portugal)\nРусский\nSvenska\nภาษาไทย\nFilipino\nTürkçe\n中文(简体)\n中文(台灣)\nবাংলা\nગુજરાતી\nहिन्दी\nHrvatski\nMagyar\nಕನ್ನಡ\nമലയാളം\nमराठी\nनेपाली\nਪੰਜਾਬੀ\nසිංහල\nSlovenčina\nதமிழ்\nతెలుగు\nاردو\nTiếng Việt\n中文(香港)\nБългарски\nFrançais (Canada)\nRomână\nСрпски\nУкраїнська\n© 2026 Instagram from Meta",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791615255344,
+            "assetId": "184e0d54344d7766ca8baaa9494b378db5eea5e421a34d6abcbf2f325c0e3107"
+          },
+          {
+            "id": "3b36f50f2abd2546d6713aba",
+            "url": "https://www.instagram.com/neighbourbecci/p/DeSvpZHpMky/",
+            "kind": "browser_snapshot",
+            "text": "Log In\nSign Up\nneighbourbecci\n•\nFollow\nneighbourbecci\n \n6h\nPoll Discussion Post for Oct 10th/11th. Be kind or get deleted.\nNo comments yet.\nStart the conversation.\n31\n6 hours ago\nLog in to like or comment.\nMore posts from neighbourbecci\nSee more posts\nMeta\nAbout\nBlog\nJobs\nHelp\nAPI\nPrivacy\nTerms\nLocations\nPopular\nInstagram Lite\nMeta AI\nMuse\nThreads\nContact Uploading & Non-Users\nMeta Verified\nEnglish\nAfrikaans\nالعربية\nČeština\nDansk\nDeutsch\nΕλληνικά\nEnglish\nEnglish (UK)\nEspañol (España)\nEspañol\nفارسی\nSuomi\nFrançais\nעברית\nBahasa Indonesia\nItaliano\n日本語\n한국어\nBahasa Melayu\nNorsk\nNederlands\nPolski\nPortuguês (Brasil)\nPortuguês (Portugal)\nРусский\nSvenska\nภาษาไทย\nFilipino\nTürkçe\n中文(简体)\n中文(台灣)\nবাংলা\nગુજરાતી\nहिन्दी\nHrvatski\nMagyar\nಕನ್ನಡ\nമലയാളം\nमराठी\nनेपाली\nਪੰਜਾਬੀ\nසිංහල\nSlovenčina\nதமிழ்\nతెలుగు\nاردو\nTiếng Việt\n中文(香港)\nБългарски\nFrançais (Canada)\nRomână\nСрпски\nУкраїнська\n© 2026 Instagram from Meta",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791615464520,
+            "assetId": "24339d2f658c6a73ce6ed25545816b030809e36136eead870994096d4cd6f092"
+          }
+        ],
+        "facts": {
+          "conflicts": [
+            "followers: 来源数值冲突"
+          ]
+        }
+      },
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "match",
+          "reason": "WaveSurge 地区：CA；服务标记国家已确认",
+          "evidenceIds": [
+            "09a45f47d899e94560570de3",
+            "282bba84f42bd1ffe6bc7c80",
+            "e55f8a58fcbecc005f150439"
+          ],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "unknown",
+          "reason": "WaveSurge 粉丝数 60586，要求 10000–100000",
+          "evidenceIds": [
+            "09a45f47d899e94560570de3",
+            "282bba84f42bd1ffe6bc7c80",
+            "e55f8a58fcbecc005f150439"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "geek_visual",
+          "verdict": "unknown",
+          "reason": "重新观察公开照片帖（页面显示6 hours ago；文案为Poll Discussion Post for Oct 10th/11th）。照片呈现休闲外套、帽衫及帽子，无法据此确认科技宅、书卷或极客穿搭。2025-11-03的既有Reel文字提到书籍标语T恤，但未观察该内容真实画面，不能替代近期视觉证据。",
+          "evidenceIds": [
+            "3b36f50f2abd2546d6713aba",
+            "09a45f47d899e94560570de3"
+          ],
+          "label": "近期公开内容呈现科技宅、书卷或极客穿搭风格；依据内容视觉证据，不仅依据头像"
+        },
+        {
+          "criterionId": "glasses_visual",
+          "verdict": "unknown",
+          "reason": "公开照片中左侧人物佩戴透明镜片黑框眼镜，右侧人物佩戴太阳镜；帖子未标明两人身份，不能将左侧戴眼镜者直接认定为Becci。既有Reel文字描述Becci戴眼镜，但未取得该Reel实际视觉证据，因此保留unknown。",
+          "evidenceIds": [
+            "3b36f50f2abd2546d6713aba",
+            "09a45f47d899e94560570de3"
+          ],
+          "label": "公开内容中佩戴眼镜，以内容视觉证据核验，不仅依据头像"
+        },
+        {
+          "criterionId": "white_self_identification",
+          "verdict": "match",
+          "reason": "已有创作者帖子原文的无障碍图片描述明确写道“Becci (white woman, glasses...)”，来源为本人Reel，记录发布时间2025-11-03T22:24:01Z。以该公开自述为依据，不使用照片中的外貌判断。",
+          "evidenceIds": [
+            "09a45f47d899e94560570de3"
+          ],
+          "label": "创作者本人明确公开自述为白人；不得根据外貌、姓名或所在地推断；没有明确自述证据则为unknown，不计为合格"
+        },
+        {
+          "criterionId": "ordinary_consumer_koc",
+          "verdict": "match",
+          "reason": "本人主页以Becci及个人化简介呈现，公开精选包含试吃、书籍、头发及餐食等消费者生活主题，附个人合作联系及品牌推广链接；本人Reel描述试吃薯片，符合个人消费者内容创作者而非机构账号，现有公开资料未显示明星身份。判断依据为账号与消费内容，而非粉丝数量。",
+          "evidenceIds": [
+            "96894c1f0c43f552b6912d77",
+            "09a45f47d899e94560570de3"
+          ],
+          "label": "KOC为普通消费者创作者，排除机构账号和明星；须以公开资料核验，不能仅凭粉丝数量认定KOC身份"
+        }
+      ],
+      "verdict": "unknown",
+      "annotations": [],
+      "tags": [
+        "创作者本人明确公开自述为白人；不得根据外貌、姓名或所在地推断；没有明确自述证据则为unknown，不计为合格",
+        "KOC为普通消费者创作者，排除机构账号和明星；须以公开资料核验，不能仅凭粉丝数量认定KOC身份"
+      ],
+      "revision": 1,
+      "updatedAt": 1791615504745,
+      "selected": false
+    }
+  ],
+  "report": {
+    "url": "http://127.0.0.1:3000/api/reports/research-a183b9437d676713c0f2812f",
+    "articles": 3,
+    "embeddedImages": 11,
+    "profileLinks": 3,
+    "body": "Geek风戴眼镜的Instagram普通消费者创作者\n\n目标 20 人；本地已合格 0 人；已核验 3 人。\n\n已选合格 0/20，已核验 3；证据不足者保持待核实。核验/来源错误 1 次，可对已有结果重新核验。\n\n来源：WaveSurge + 本地核验。远端搜索完成不代表本地条件通过。本次报告包含 3 条筛选记录。报告更新时间：2026-10-10T06:58:24.752Z\nFran Haddock 🌳 she/her · 待核实\n\ninstagram / franhaddock_ / 粉丝 14872 / GB\n\n标签：公开内容中佩戴眼镜，以内容视觉证据核验，不仅依据头像、创作者本人明确公开自述为白人；不得根据外貌、姓名或所在地推断；没有明确自述证据则为unknown，不计为合格、KOC为普通消费者创作者，排除机构账号和明星；须以公开资料核验，不能仅凭粉丝数量认定KOC身份\n\n条件\t判断\t依据\n所在地区\t符合要求\tWaveSurge 地区：GB；服务标记国家已确认\ncontent 2026-09-30T14:24:37Z\ncontent 日期未知\ncontent 日期未知\ncontent 日期未知\ncontent 日期未知\n平台\t符合要求\t创作者平台：instagram\n\n粉丝范围\t待核实\tWaveSurge 粉丝数 14872，要求 10000–100000\ncontent 2026-09-30T14:24:37Z\ncontent 日期未知\ncontent 日期未知\ncontent 日期未知\ncontent 日期未知\n近期公开内容呈现科技宅、书卷或极客穿搭风格；依据内容视觉证据，不仅依据头像\t待核实\t9月30日公开视频截图可见框架眼镜、双辫、蓝色T恤及蝙蝠毛绒玩具，但不足以明确证明科技宅、书卷或极客穿搭风格。主页阅读简介与万圣节奖品文字只能说明兴趣，不能替代近期内容视觉证据。\nbrowser_snapshot 日期未知\nbrowser_snapshot 日期未知\ncontent 日期未知\n公开内容中佩戴眼镜，以内容视觉证据核验，不仅依据头像\t符合要求\t人工协助后重新观察公开帖子，实际视频画面清楚显示创作者佩戴框架眼镜；依据内容截图而非头像。页面日期显示September 30，资料发布时间为2026-09-30。\nbrowser_snapshot 日期未知\ncontent 2026-09-30T14:24:37Z\n创作者本人明确公开自述为白人；不得根据外貌、姓名或所在地推断；没有明确自述证据则为unknown，不计为合格\t符合要求\t本人账号发布的帖子正文以无障碍视频描述明确描述自身为“a white woman with glasses”，并说明从床上对镜头讲话；属于作者公开自述，不依据外貌推断。\nbrowser_snapshot 日期未知\nKOC为普通消费者创作者，排除机构账号和明星；须以公开资料核验，不能仅凭粉丝数量认定KOC身份\t符合要求\t公开简介与本人帖子呈现个人日常分享及个人倡导，资料标注Blogger、is_business false；奖品帖子涉及个人消费品与兴趣用品。综合支持普通个人博主身份，而非机构或明星账号，不以粉丝数量单独认定。\nbrowser_snapshot 日期未知\ncontent 日期未知\ncontent 日期未知\nbrowser_snapshot 日期未知\n完整证据映射与截图\nac40b5a127cc9c57cc319875 · content\n原始来源\n\n提供方：tikhub · 捕获：2026-10-10T04:41:44.450Z · 发布时间：2026-09-30T14:24:37Z\n\nVideo description: a white woman with glasses and her hair in 2 plaits talks to the screen from her bed.\nf08d92181c5158c69b604c94 · content\n原始来源\n\n提供方：tikhub · 捕获：2026-10-10T04:41:44.450Z · 发布时间：日期未知\n\nFran Haddock 🌳 she/her; 14,872 followers; is_business false; biography includes Sheffield, current reading, advocacy from bed, and category Blogger.\n76314094127e0b2b00ae9b8b · content\n原始来源\n\n提供方：tikhub · 捕获：2026-10-10T04:41:44.450Z · 发布时间：日期未知\n\nInstagram About This Account reports Account based in United Kingdom.\ncc62cf14f0c9d0fe5a86fd81 · content\n原始来源\n\n提供方：tikhub · 捕获：2026-10-10T04:41:44.450Z · 发布时间：日期未知\n\nHalloween raffle: Dr Bradbury’s Compendium of Curiosities Halloween calendar, crochet pumpkin wreath, S’mores Jellycat, stickers, cards, meds diary, spoonie hat, prints and coloring pages.\n059a2b1bd84fc521816e3cef · content\n原始来源\n\n提供方：tikhub · 捕获：2026-10-10T04:41:44.450Z · 发布时间：日期未知\n\nLinktree contains fundraisers, articles, products and BBC link; no TikTok, YouTube or other social-platform account link.\n660be26273455f643e821c0d · browser_snapshot\n原始来源\n\n提供方：headed-chromium · 捕获：2026-10-10T04:41:47.220Z · 发布时间：日期未知 · 截图编号：5073459d74727987a4f05a209308774e4cf072388e7d3e9a944c86ea1d223e6b\n\nLog In\nSign Up\nfranhaddock_\n14.8K followers\n3,857 following\nFran Haddock 🌳 she/her\nshe/her\nfranhaddock_\n🛌 Severe M.E. & Long C (funcap 2.5)\n💖 Advocacy from bed\n✨ Reality & tiny joys\n📍 Sheffield\n🎧📖 CR: Where sleeping girls... \nmore\nlinktr.ee/franhaddock_\nPrecautions q&a\nBoundaries\nBirthday MA\nFave things\nAudiobooks\nSpring Raffle\nFeb 2026 💘\nWinter raffle❄️\n2025 Faves\nHolidays MA\nShow more posts from franhaddock_\nMeta\nAbout\nBlog\nJobs\nHelp\nAPI\nPrivacy\nTerms\nLocations\nPopular\nInstagram Lite\nMeta AI\nMuse\nThreads\nContact Uploading & Non-Users\nMeta Verified\nEnglish\nAfrikaans\nالعربية\nČeština\nDansk\nDeutsch\nΕλληνικά\nEnglish\nEnglish (UK)\nEspañol (España)\nEspañol\nفارسی\nSuomi\nFrançais\nעברית\nBahasa Indonesia\nItaliano\n日本語\n한국어\nBahasa Melayu\nNorsk\nNederlands\nPolski\nPortuguês (Brasil)\nPortuguês (Portugal)\nРусский\nSvenska\nภาษาไทย\nFilipino\nTürkçe\n中文(简体)\n中文(台灣)\nবাংলা\nગુજરાતી\nहिन्दी\nHrvatski\nMagyar\nಕನ್ನಡ\nമലയാളം\nमराठी\nनेपाली\nਪੰਜਾਬੀ\nසිංහල\nSlovenčina\nதமிழ்\nతెలుగు\nاردو\nTiếng Việt\n中文(香港)\nБългарски\nFrançais (Canada)\nRomână\nСрпски\nУкраїнська\n© 2026 Instagram from Meta\n7959a29a3503802b8f3b04e3 · browser_snapshot\n原始来源\n\n提供方：headed-chromium · 捕获：2026-10-10T04:41:53.288Z · 发布时间：日期未知 · 截图编号：be169388627f31e578460cb0ccdaf67c893c8883ac191222f5447575e302f67a\n\nac82afcf621d3635040b6e22 · browser_snapshot\n原始来源\n\n提供方：headed-chromium · 捕获：2026-10-10T04:41:58.680Z · 发布时间：日期未知 · 截图编号：a0dc8d61ad3bd760cd950793a0ea75f6a531abaff0dcb74d206887584680ce00\n\nLog In\nSign Up\nNever miss a post from franhaddock_\nSign up for Instagram to stay in the loop.\nBy continuing, you agree to Instagram's Terms of Use and Privacy Policy.\nSign up\nLog in\nfranhaddock_\n•\nFollow\nOriginal audio\nfranhaddock_\n \n1w\nME= myalgic encephalomyelitis (Also known as ME/CFS)\n\n#myalgicencephalomyelitis #SevereME #MECFS #LongCovid #ChronicIllness \n\nVideo description: a white woman with glasses and her hair in 2 plaits talks to the screen from her bed. She wears a blue t-shirt and there is a bat squishmallow stuffed down the bed behind her\nbearsandbestfriends\n \n4d\nI love that you were able to go to the woods. No one has the right to question that. But also no one knows how long you had to reserve tiny bubbles of energy to be able to do that or how long it will take to get those tiny bubbles back again. Why would anyone question that?\nLike\nReply\nburgess.tracey6\n \n4d\nI get you totally Fran. Everyone's situation is different & after a while I think we adjust to take account of where we estimate the edge of our energy capacity is. I don't discuss much about my fluctuating health issues anymore, as it's too frustrating & upsetting. I'm able to work part time & that has to be my focus. But it's exhausting & anything else gets the scraps. All we can do is manage as best as we can. 💙💕\nLike\nReply\nnantes_accessibilite\n \n6d\nHonestly it shocks me you have to prove yourself. It shocks me even more that people will judge you on one or two videos of two minutes. What about the 23 hours and 56 minutes of the reste of your day? They just don’t see you. So they can judge. 🤨\n\nHope you can go to enjoy forest again without paying such a price. 🌲\nLike\nReply\nkimx9634\n \n1w\nI am so sorry, this illness is so frustrating. I have been totally overdoing it the last few days and i have been so happy, spending time in nature. i am off to bed now to try and minimise the damage i have done by role playing not being ill. 😔\n1 like\nReply\nvintagegirllllllly\n \n1w\nBeing able to go to the fucking woods once in a blue moon, Jesus, what’s wrong with people!!\nLike\nReply\nvintagegirllllllly\n \n1w\nDon’t explain yourself to anyone ❤️ xxx.\nLike\nReply\nsuddendeparture\n \n1w\nI find the policing that goes on in the ME community rather curious. I don’t see this kind of questioning happening with other chronic illness groups. Makes me think the stigmatization and misunderstanding of this condition has been internalized by many sufferers, which is a little bit heartbreaking really. 💙🩵\nLike\nReply\npostvak_tanja\n \n1w\nWtf is wrong with people?? I dont have MCAS but I do have moderate ME and I can tolerate make-up and some perfumes. The ME community is now policing our appearance? \"You dont look sick\" is exactly the judgement from healthy people including doctors that we have to be subjected to, we dont need it from other ME sufferers- Its not a competition and the goal is to get WELL , not to virtue signal any suffering we have. Omg!!\nLike\nReply\nkarpydm\n \n1w\nIt affects everyone in such different ways. It's a spectrum of symptoms and severity and it ebbs and flows. Severity fluctuates. Symptoms fluctuate. ❤️\nLike\nReply\nthemme_fatale\n \n1w\nThere’s already so much suffering with this disease, it’s cooked that anyone is made to spend the precious energy they do have justifying themselves. You’re always so open about your experiences and fluctuations and personally I am so grateful and have learned a lot from you!\n\nI’m so glad you’ve been able to do something nice, I hope any dip is as short as possible you get many more trips to the woods 💕\n9 likes\nReply\njessicajaponica\n \n1w\nThis was me in my late teens, fluctuating between occasionally moderate and mostly severe. Comments people made did so much damage to me, especially when they came from other people with M.E. I didn’t know about pacing back then, either (now I do and I’m still rubbish at it!).\nNow, I’m very severe and worsening and I get the same sort of comments from my carers, which do just as much harm.\nThis is such a helpful video ☺️ I wish 18/19yo me could have seen it. Thank you for saying it 🫶🏻\nIt was lovely to see you make it to the woods. Hope the memories sustain you and wishing you more improved days to come.\nLike\nReply\nwestaussi\n \n1w\nHonestly, the relentless drag of feeling insulted all the time, is a huge energy burden within itself.\nLike\nReply\nbean.and.bear.boutique\n \n1w\nOh goodness! Do not apologise for posting your happy moments - they are the things which allow us to continue living. Recognise that these comments came from a place of envy and you’ll be able to pity the person who felt the need to rain on your sunshine.\nFinally, severity labels do not have clear edges. It’s much more like a colour wheel than coloured blocks. We know what red is and what orange is - but at what point does red become orange?\nLike\nReply\nheresbeckyadhd_\n \n1w\nM.e has no effect on makeup or products I have it and it’s mainly absolute fatigue weakness falls nuro issues ect people have no right to judge mines moderate but I have no choice but to function and the crash and burn out but nobody should be judging anyone with M.E\n1 like\nReply\nsystems4change\n \n1w\n😢😢❤️❤️❤️\n1 like\nReply\n564\n83\nSeptember 30\nLog in to like or comment.\nMore posts from franhaddock_\nSee more posts\nMeta\nAbout\nBlog\nJobs\nHelp\nAPI\nPrivacy\nTerms\nLocations\nPopular\nInstagram Lite\nMeta AI\nMuse\nThreads\nContact Uploading & Non-Users\nMeta Verified\nEnglish\nAfrikaans\nالعربية\nČeština\nDansk\nDeutsch\nΕλληνικά\nEnglish\nEnglish (UK)\nEspañol (España)\nEspañol\nفارسی\nSuomi\nFrançais\nעברית\nBahasa Indonesia\nItaliano\n日本語\n한국어\nBahasa Melayu\nNorsk\nNederlands\nPolski\nPortuguês (Brasil)\nPortuguês (Portugal)\nРусский\nSvenska\nภาษาไทย\nFilipino\nTürkçe\n中文(简体)\n中文(台灣)\nবাংলা\nગુજરાતી\nहिन्दी\nHrvatski\nMagyar\nಕನ್ನಡ\nമലയാളം\nमराठी\nनेपाली\nਪੰਜਾਬੀ\nසිංහල\nSlovenčina\nதமிழ்\nతెలుగు\nاردو\nTiếng Việt\n中文(香港)\nБългарски\nFrançais (Canada)\nRomână\nСрпски\nУкраїнська\n© 2026 Instagram from Meta\nd78b6f76990686c9e23d39bb · browser_snapshot\n原始来源\n\n提供方：headed-chromium · 捕获：2026-10-10T06:50:38.594Z · 发布时间：日期未知 · 截图编号：2aae5f489cabcbcd43e65cdf6edc3bf207388d548a074e5bfd4fba7449abd8e8\n\nLog In\nSign Up\nfranhaddock_\n•\nFollow\nOriginal audio\nfranhaddock_\n \n1w\nME= myalgic encephalomyelitis (Also known as ME/CFS)\n\n#myalgicencephalomyelitis #SevereME #MECFS #LongCovid #ChronicIllness \n\nVideo description: a white woman with glasses and her hair in 2 plaits talks to the screen from her bed. She wears a blue t-shirt and there is a bat squishmallow stuffed down the bed behind her\nbearsandbestfriends\n \n4d\nI love that you were able to go to the woods. No one has the right to question that. But also no one knows how long you had to reserve tiny bubbles of energy to be able to do that or how long it will take to get those tiny bubbles back again. Why would anyone question that?\nLike\nReply\nburgess.tracey6\n \n4d\nI get you totally Fran. Everyone's situation is different & after a while I think we adjust to take account of where we estimate the edge of our energy capacity is. I don't discuss much about my fluctuating health issues anymore, as it's too frustrating & upsetting. I'm able to work part time & that has to be my focus. But it's exhausting & anything else gets the scraps. All we can do is manage as best as we can. 💙💕\nLike\nReply\nnantes_accessibilite\n \n6d\nHonestly it shocks me you have to prove yourself. It shocks me even more that people will judge you on one or two videos of two minutes. What about the 23 hours and 56 minutes of the reste of your day? They just don’t see you. So they can judge. 🤨\n\nHope you can go to enjoy forest again without paying such a price. 🌲\nLike\nReply\nkimx9634\n \n1w\nI am so sorry, this illness is so frustrating. I have been totally overdoing it the last few days and i have been so happy, spending time in nature. i am off to bed now to try and minimise the damage i have done by role playing not being ill. 😔\n1 like\nReply\nvintagegirllllllly\n \n1w\nBeing able to go to the fucking woods once in a blue moon, Jesus, what’s wrong with people!!\nLike\nReply\nvintagegirllllllly\n \n1w\nDon’t explain yourself to anyone ❤️ xxx.\nLike\nReply\nsuddendeparture\n \n1w\nI find the policing that goes on in the ME community rather curious. I don’t see this kind of questioning happening with other chronic illness groups. Makes me think the stigmatization and misunderstanding of this condition has been internalized by many sufferers, which is a little bit heartbreaking really. 💙🩵\nLike\nReply\npostvak_tanja\n \n1w\nWtf is wrong with people?? I dont have MCAS but I do have moderate ME and I can tolerate make-up and some perfumes. The ME community is now policing our appearance? \"You dont look sick\" is exactly the judgement from healthy people including doctors that we have to be subjected to, we dont need it from other ME sufferers- Its not a competition and the goal is to get WELL , not to virtue signal any suffering we have. Omg!!\nLike\nReply\nkarpydm\n \n1w\nIt affects everyone in such different ways. It's a spectrum of symptoms and severity and it ebbs and flows. Severity fluctuates. Symptoms fluctuate. ❤️\nLike\nReply\nthemme_fatale\n \n1w\nThere’s already so much suffering with this disease, it’s cooked that anyone is made to spend the precious energy they do have justifying themselves. You’re always so open about your experiences and fluctuations and personally I am so grateful and have learned a lot from you!\n\nI’m so glad you’ve been able to do something nice, I hope any dip is as short as possible you get many more trips to the woods 💕\n9 likes\nReply\njessicajaponica\n \n1w\nThis was me in my late teens, fluctuating between occasionally moderate and mostly severe. Comments people made did so much damage to me, especially when they came from other people with M.E. I didn’t know about pacing back then, either (now I do and I’m still rubbish at it!).\nNow, I’m very severe and worsening and I get the same sort of comments from my carers, which do just as much harm.\nThis is such a helpful video ☺️ I wish 18/19yo me could have seen it. Thank you for saying it 🫶🏻\nIt was lovely to see you make it to the woods. Hope the memories sustain you and wishing you more improved days to come.\nLike\nReply\nwestaussi\n \n1w\nHonestly, the relentless drag of feeling insulted all the time, is a huge energy burden within itself.\nLike\nReply\nbean.and.bear.boutique\n \n1w\nOh goodness! Do not apologise for posting your happy moments - they are the things which allow us to continue living. Recognise that these comments came from a place of envy and you’ll be able to pity the person who felt the need to rain on your sunshine.\nFinally, severity labels do not have clear edges. It’s much more like a colour wheel than coloured blocks. We know what red is and what orange is - but at what point does red become orange?\nLike\nReply\nheresbeckyadhd_\n \n1w\nM.e has no effect on makeup or products I have it and it’s mainly absolute fatigue weakness falls nuro issues ect people have no right to judge mines moderate but I have no choice but to function and the crash and burn out but nobody should be judging anyone with M.E\n1 like\nReply\nsystems4change\n \n1w\n😢😢❤️❤️❤️\n1 like\nReply\n564\n83\nSeptember 30\nLog in to like or comment.\nMore posts from franhaddock_\nSee more posts\nMeta\nAbout\nBlog\nJobs\nHelp\nAPI\nPrivacy\nTerms\nLocations\nPopular\nInstagram Lite\nMeta AI\nMuse\nThreads\nContact Uploading & Non-Users\nMeta Verified\nEnglish\nAfrikaans\nالعربية\nČeština\nDansk\nDeutsch\nΕλληνικά\nEnglish\nEnglish (UK)\nEspañol (España)\nEspañol\nفارسی\nSuomi\nFrançais\nעברית\nBahasa Indonesia\nItaliano\n日本語\n한국어\nBahasa Melayu\nNorsk\nNederlands\nPolski\nPortuguês (Brasil)\nPortuguês (Portugal)\nРусский\nSvenska\nภาษาไทย\nFilipino\nTürkçe\n中文(简体)\n中文(台灣)\nবাংলা\nગુજરાતી\nहिन्दी\nHrvatski\nMagyar\nಕನ್ನಡ\nമലയാളം\nमराठी\nनेपाली\nਪੰਜਾਬੀ\nසිංහල\nSlovenčina\nதமிழ்\nతెలుగు\nاردو\nTiếng Việt\n中文(香港)\nБългарски\nFrançais (Canada)\nRomână\nСрпски\nУкраїнська\n© 2026 Instagram from Meta\nKennedy Lea Slocum • Kennedy Lea Warren · 待核实\n\ninstagram / kennedyslocum / 粉丝 16974 / US\n\n标签：公开内容中佩戴眼镜，以内容视觉证据核验，不仅依据头像、创作者本人明确公开自述为白人；不得根据外貌、姓名或所在地推断；没有明确自述证据则为unknown，不计为合格\n\n条件\t判断\t依据\n所在地区\t符合要求\tWaveSurge 地区：US；服务标记国家已确认\ncontent 日期未知\ncontent 日期未知\ncontent 日期未知\n平台\t符合要求\t创作者平台：instagram\n\n粉丝范围\t待核实\tWaveSurge 粉丝数 16974，要求 10000–100000\ncontent 日期未知\ncontent 日期未知\ncontent 日期未知\n近期公开内容呈现科技宅、书卷或极客穿搭风格；依据内容视觉证据，不仅依据头像\t待核实\t重新观察公开照片帖：页面显示 September 28、1w，照片中为短袖上衣与牛仔裤的日常穿搭；不足以确认科技宅、书卷或极客风格。已有 Stardew Valley 文字没有发布时间及对应可见媒体，不能替代近期视觉证据。\nbrowser_snapshot 日期未知\ncontent 日期未知\n公开内容中佩戴眼镜，以内容视觉证据核验，不仅依据头像\t符合要求\t人工关闭注册提示后重新观察，公开轮播照片首图中创作者清晰佩戴有框眼镜；依据帖子照片而非头像。页面日期原文为 September 28。\nbrowser_snapshot 日期未知\n创作者本人明确公开自述为白人；不得根据外貌、姓名或所在地推断；没有明确自述证据则为unknown，不计为合格\t符合要求\t已提供的本人 Reel 无障碍文字明确写出“Kennedy, a white woman”，资料将其标明为创作者自有帖子的文字，属于公开自述依据；不依据照片、姓名或地区推断。该文字未提供发布日期。\ncontent 日期未知\nKOC为普通消费者创作者，排除机构账号和明星；须以公开资料核验，不能仅凭粉丝数量认定KOC身份\t待核实\t主页为具名个人，并列 Acting 和 Gaming 联系方式；能支持个人演艺/游戏创作者身份，但不足以确认普通消费者 KOC 或排除明星身份。非商业账号及粉丝数不能单独证明该条件。\nbrowser_snapshot 日期未知\ncontent 日期未知\n完整证据映射与截图\n2db0f8705c2c58729bbba620 · content\n原始来源\n\n提供方：tikhub · 捕获：2026-10-10T04:41:44.450Z · 发布时间：日期未知\n\nKennedy, a white woman with pastel pink/bleached hair and glasses... it’s just Kennedy in the same clothes playing Stardew Valley on Nintendo Switch\na608004bf5c25dbe802ef251 · content\n原始来源\n\n提供方：tikhub · 捕获：2026-10-10T04:41:44.450Z · 发布时间：日期未知\n\nv2 profile reports country United States, follower_count 16,974, bio_links empty and no external URL.\nec7418c9de7a200f124c6bb2 · content\n原始来源\n\n提供方：tikhub · 捕获：2026-10-10T04:41:44.450Z · 发布时间：日期未知\n\nBio gives separate acting and gaming contacts and profile is not a business account; full name is Kennedy Lea Slocum • Kennedy Lea Warren.\neac9ec4fd2d4a9047b89e690 · browser_snapshot\n原始来源\n\n提供方：headed-chromium · 捕获：2026-10-10T06:51:06.797Z · 发布时间：日期未知 · 截图编号：0938661ba4c52c476d938562bdc940f7e4a1e2819bf3bfa056f21eeef1444e35\n\nLog In\nSign Up\nkennedyslocum\n16.9K followers\n1,190 following\nKennedy Lea Slocum • Kennedy Lea Warren\nshe/her\n🙂‍↕️\nActing: cheryl@jacksonentertainment.net\nGaming: social@blackkitegames.com\nShow more posts from kennedyslocum\nMeta\nAbout\nBlog\nJobs\nHelp\nAPI\nPrivacy\nTerms\nLocations\nPopular\nInstagram Lite\nMeta AI\nMuse\nThreads\nContact Uploading & Non-Users\nMeta Verified\nEnglish\nAfrikaans\nالعربية\nČeština\nDansk\nDeutsch\nΕλληνικά\nEnglish\nEnglish (UK)\nEspañol (España)\nEspañol\nفارسی\nSuomi\nFrançais\nעברית\nBahasa Indonesia\nItaliano\n日本語\n한국어\nBahasa Melayu\nNorsk\nNederlands\nPolski\nPortuguês (Brasil)\nPortuguês (Portugal)\nРусский\nSvenska\nภาษาไทย\nFilipino\nTürkçe\n中文(简体)\n中文(台灣)\nবাংলা\nગુજરાતી\nहिन्दी\nHrvatski\nMagyar\nಕನ್ನಡ\nമലയാളം\nमराठी\nनेपाली\nਪੰਜਾਬੀ\nසිංහල\nSlovenčina\nதமிழ்\nతెలుగు\nاردو\nTiếng Việt\n中文(香港)\nБългарски\nFrançais (Canada)\nRomână\nСрпски\nУкраїнська\n© 2026 Instagram from Meta\n9eac1c9e3b5a7faee8182d1b · browser_snapshot\n原始来源\n\n提供方：headed-chromium · 捕获：2026-10-10T06:51:12.147Z · 发布时间：日期未知 · 截图编号：cd3312924d5184c6cae67b7a501800584e1cba849d5b194abd8c5336b0e78562\n\nLog In\nSign Up\nNever miss a post from kennedyslocum\nSign up for Instagram to stay in the loop.\nBy continuing, you agree to Instagram's Terms of Use and Privacy Policy.\nSign up\nLog in\nkennedyslocum\n•\nFollow\nkennedyslocum\n \nEdited\n•\n1w\nSwipe for Andy’s legendary Pearl Jam karaoke impression\nc_mann_\n \n1w\nAbsolutely nailed it\n1 like\nReply\n72\n1\nSeptember 28\nLog in to like or comment.\nMore posts from kennedyslocum\nSee more posts\nMeta\nAbout\nBlog\nJobs\nHelp\nAPI\nPrivacy\nTerms\nLocations\nPopular\nInstagram Lite\nMeta AI\nMuse\nThreads\nContact Uploading & Non-Users\nMeta Verified\nEnglish\nAfrikaans\nالعربية\nČeština\nDansk\nDeutsch\nΕλληνικά\nEnglish\nEnglish (UK)\nEspañol (España)\nEspañol\nفارسی\nSuomi\nFrançais\nעברית\nBahasa Indonesia\nItaliano\n日本語\n한국어\nBahasa Melayu\nNorsk\nNederlands\nPolski\nPortuguês (Brasil)\nPortuguês (Portugal)\nРусский\nSvenska\nภาษาไทย\nFilipino\nTürkçe\n中文(简体)\n中文(台灣)\nবাংলা\nગુજરાતી\nहिन्दी\nHrvatski\nMagyar\nಕನ್ನಡ\nമലയാളം\nमराठी\nनेपाली\nਪੰਜਾਬੀ\nසිංහල\nSlovenčina\nதமிழ்\nతెలుగు\nاردو\nTiếng Việt\n中文(香港)\nБългарски\nFrançais (Canada)\nRomână\nСрпски\nУкраїнська\n© 2026 Instagram from Meta\n69fde83e4e3909d6a1b3dbae · browser_snapshot\n原始来源\n\n提供方：headed-chromium · 捕获：2026-10-10T06:53:31.798Z · 发布时间：日期未知 · 截图编号：ff02c174fa895a04d30eb677ef09db7cbe1c5eec6081822e7942bae0871eb118\n\nLog In\nSign Up\nkennedyslocum\n•\nFollow\nkennedyslocum\n \nEdited\n•\n1w\nSwipe for Andy’s legendary Pearl Jam karaoke impression\nc_mann_\n \n1w\nAbsolutely nailed it\n1 like\nReply\n72\n1\nSeptember 28\nLog in to like or comment.\nMore posts from kennedyslocum\nSee more posts\nMeta\nAbout\nBlog\nJobs\nHelp\nAPI\nPrivacy\nTerms\nLocations\nPopular\nInstagram Lite\nMeta AI\nMuse\nThreads\nContact Uploading & Non-Users\nMeta Verified\nEnglish\nAfrikaans\nالعربية\nČeština\nDansk\nDeutsch\nΕλληνικά\nEnglish\nEnglish (UK)\nEspañol (España)\nEspañol\nفارسی\nSuomi\nFrançais\nעברית\nBahasa Indonesia\nItaliano\n日本語\n한국어\nBahasa Melayu\nNorsk\nNederlands\nPolski\nPortuguês (Brasil)\nPortuguês (Portugal)\nРусский\nSvenska\nภาษาไทย\nFilipino\nTürkçe\n中文(简体)\n中文(台灣)\nবাংলা\nગુજરાતી\nहिन्दी\nHrvatski\nMagyar\nಕನ್ನಡ\nമലയാളം\nमराठी\nनेपाली\nਪੰਜਾਬੀ\nසිංහල\nSlovenčina\nதமிழ்\nతెలుగు\nاردو\nTiếng Việt\n中文(香港)\nБългарски\nFrançais (Canada)\nRomână\nСрпски\nУкраїнська\n© 2026 Instagram from Meta\nBecci · 待核实\n\ninstagram / neighbourbecci / 粉丝 60586 / CA\n\n标签：创作者本人明确公开自述为白人；不得根据外貌、姓名或所在地推断；没有明确自述证据则为unknown，不计为合格、KOC为普通消费者创作者，排除机构账号和明星；须以公开资料核验，不能仅凭粉丝数量认定KOC身份\n\n条件\t判断\t依据\n所在地区\t符合要求\tWaveSurge 地区：CA；服务标记国家已确认\ncontent 2025-11-03T22:24:01Z\ncontent 日期未知\ncontent 日期未知\n平台\t符合要求\t创作者平台：instagram\n\n粉丝范围\t待核实\tWaveSurge 粉丝数 60586，要求 10000–100000\ncontent 2025-11-03T22:24:01Z\ncontent 日期未知\ncontent 日期未知\n近期公开内容呈现科技宅、书卷或极客穿搭风格；依据内容视觉证据，不仅依据头像\t待核实\t重新观察公开照片帖（页面显示6 hours ago；文案为Poll Discussion Post for Oct 10th/11th）。照片呈现休闲外套、帽衫及帽子，无法据此确认科技宅、书卷或极客穿搭。2025-11-03的既有Reel文字提到书籍标语T恤，但未观察该内容真实画面，不能替代近期视觉证据。\nbrowser_snapshot 日期未知\ncontent 2025-11-03T22:24:01Z\n公开内容中佩戴眼镜，以内容视觉证据核验，不仅依据头像\t待核实\t公开照片中左侧人物佩戴透明镜片黑框眼镜，右侧人物佩戴太阳镜；帖子未标明两人身份，不能将左侧戴眼镜者直接认定为Becci。既有Reel文字描述Becci戴眼镜，但未取得该Reel实际视觉证据，因此保留unknown。\nbrowser_snapshot 日期未知\ncontent 2025-11-03T22:24:01Z\n创作者本人明确公开自述为白人；不得根据外貌、姓名或所在地推断；没有明确自述证据则为unknown，不计为合格\t符合要求\t已有创作者帖子原文的无障碍图片描述明确写道“Becci (white woman, glasses...)”，来源为本人Reel，记录发布时间2025-11-03T22:24:01Z。以该公开自述为依据，不使用照片中的外貌判断。\ncontent 2025-11-03T22:24:01Z\nKOC为普通消费者创作者，排除机构账号和明星；须以公开资料核验，不能仅凭粉丝数量认定KOC身份\t符合要求\t本人主页以Becci及个人化简介呈现，公开精选包含试吃、书籍、头发及餐食等消费者生活主题，附个人合作联系及品牌推广链接；本人Reel描述试吃薯片，符合个人消费者内容创作者而非机构账号，现有公开资料未显示明星身份。判断依据为账号与消费内容，而非粉丝数量。\nbrowser_snapshot 日期未知\ncontent 2025-11-03T22:24:01Z\n完整证据映射与截图\n09a45f47d899e94560570de3 · content\n原始来源\n\n提供方：tikhub · 捕获：2026-10-10T04:41:44.450Z · 发布时间：2025-11-03T22:24:01Z\n\nImage description: Becci (white woman, glasses, hair up, black tshirt that says “ban bigots not books,” from @thesweetlifeapparel) eats from a bag of chips. Her face shows dislike.\n282bba84f42bd1ffe6bc7c80 · content\n原始来源\n\n提供方：tikhub · 捕获：2026-10-10T04:41:44.450Z · 发布时间：日期未知\n\nBio includes Canada flag, a podcast account mention, partnership email and an affiliate storefront; follower_count is 60,586.\ne55f8a58fcbecc005f150439 · content\n原始来源\n\n提供方：tikhub · 捕获：2026-10-10T04:41:44.450Z · 发布时间：日期未知\n\nInstagram About This Account reports country Canada.\n96894c1f0c43f552b6912d77 · browser_snapshot\n原始来源\n\n提供方：headed-chromium · 捕获：2026-10-10T06:54:05.179Z · 发布时间：日期未知 · 截图编号：ba2340513e16a76473505060deb1cd97447a67da3d93abae62b6f69eea0332bc\n\nLog In\nSign Up\nneighbourbecci\n60.5K followers\n155 following\nBecci\nshe/her\n🇨🇦\ni hope you have an okay day\n“Ask the Neighbours” on @thepapayapodcast\npartnership inquiries: neighbourbecci@gmail.c... \nmore\nwww.threeshipsbeauty.ca/NEIGHBOURBECCI\ncodes etc\nFactor Meals\nbecci’s books 2\nHotelXcaret🇲🇽\nrevenge\nmusic recs\nmom gifts\ntaste test time\nDisney\nhair\nShow more posts from neighbourbecci\nMeta\nAbout\nBlog\nJobs\nHelp\nAPI\nPrivacy\nTerms\nLocations\nPopular\nInstagram Lite\nMeta AI\nMuse\nThreads\nContact Uploading & Non-Users\nMeta Verified\nEnglish\nAfrikaans\nالعربية\nČeština\nDansk\nDeutsch\nΕλληνικά\nEnglish\nEnglish (UK)\nEspañol (España)\nEspañol\nفارسی\nSuomi\nFrançais\nעברית\nBahasa Indonesia\nItaliano\n日本語\n한국어\nBahasa Melayu\nNorsk\nNederlands\nPolski\nPortuguês (Brasil)\nPortuguês (Portugal)\nРусский\nSvenska\nภาษาไทย\nFilipino\nTürkçe\n中文(简体)\n中文(台灣)\nবাংলা\nગુજરાતી\nहिन्दी\nHrvatski\nMagyar\nಕನ್ನಡ\nമലയാളം\nमराठी\nनेपाली\nਪੰਜਾਬੀ\nසිංහල\nSlovenčina\nதமிழ்\nతెలుగు\nاردو\nTiếng Việt\n中文(香港)\nБългарски\nFrançais (Canada)\nRomână\nСрпски\nУкраїнська\n© 2026 Instagram from Meta\n79a4915442f4180359196779 · browser_snapshot\n原始来源\n\n提供方：headed-chromium · 捕获：2026-10-10T06:54:11.380Z · 发布时间：日期未知 · 截图编号：be169388627f31e578460cb0ccdaf67c893c8883ac191222f5447575e302f67a\n\n58997e975f07cd6733cc8563 · browser_snapshot\n原始来源\n\n提供方：headed-chromium · 捕获：2026-10-10T06:54:15.344Z · 发布时间：日期未知 · 截图编号：184e0d54344d7766ca8baaa9494b378db5eea5e421a34d6abcbf2f325c0e3107\n\nLog In\nSign Up\nNever miss a post from neighbourbecci\nSign up for Instagram to stay in the loop.\nBy continuing, you agree to Instagram's Terms of Use and Privacy Policy.\nSign up\nLog in\nneighbourbecci\n•\nFollow\nneighbourbecci\n \n6h\nPoll Discussion Post for Oct 10th/11th. Be kind or get deleted.\nNo comments yet.\nStart the conversation.\n31\n6 hours ago\nLog in to like or comment.\nMore posts from neighbourbecci\nSee more posts\nMeta\nAbout\nBlog\nJobs\nHelp\nAPI\nPrivacy\nTerms\nLocations\nPopular\nInstagram Lite\nMeta AI\nMuse\nThreads\nContact Uploading & Non-Users\nMeta Verified\nEnglish\nAfrikaans\nالعربية\nČeština\nDansk\nDeutsch\nΕλληνικά\nEnglish\nEnglish (UK)\nEspañol (España)\nEspañol\nفارسی\nSuomi\nFrançais\nעברית\nBahasa Indonesia\nItaliano\n日本語\n한국어\nBahasa Melayu\nNorsk\nNederlands\nPolski\nPortuguês (Brasil)\nPortuguês (Portugal)\nРусский\nSvenska\nภาษาไทย\nFilipino\nTürkçe\n中文(简体)\n中文(台灣)\nবাংলা\nગુજરાતી\nहिन्दी\nHrvatski\nMagyar\nಕನ್ನಡ\nമലയാളം\nमराठी\nनेपाली\nਪੰਜਾਬੀ\nසිංහල\nSlovenčina\nதமிழ்\nతెలుగు\nاردو\nTiếng Việt\n中文(香港)\nБългарски\nFrançais (Canada)\nRomână\nСрпски\nУкраїнська\n© 2026 Instagram from Meta\n3b36f50f2abd2546d6713aba · browser_snapshot\n原始来源\n\n提供方：headed-chromium · 捕获：2026-10-10T06:57:44.520Z · 发布时间：日期未知 · 截图编号：24339d2f658c6a73ce6ed25545816b030809e36136eead870994096d4cd6f092\n\nLog In\nSign Up\nneighbourbecci\n•\nFollow\nneighbourbecci\n \n6h\nPoll Discussion Post for Oct 10th/11th. Be kind or get deleted.\nNo comments yet.\nStart the conversation.\n31\n6 hours ago\nLog in to like or comment.\nMore posts from neighbourbecci\nSee more posts\nMeta\nAbout\nBlog\nJobs\nHelp\nAPI\nPrivacy\nTerms\nLocations\nPopular\nInstagram Lite\nMeta AI\nMuse\nThreads\nContact Uploading & Non-Users\nMeta Verified\nEnglish\nAfrikaans\nالعربية\nČeština\nDansk\nDeutsch\nΕλληνικά\nEnglish\nEnglish (UK)\nEspañol (España)\nEspañol\nفارسی\nSuomi\nFrançais\nעברית\nBahasa Indonesia\nItaliano\n日本語\n한국어\nBahasa Melayu\nNorsk\nNederlands\nPolski\nPortuguês (Brasil)\nPortuguês (Portugal)\nРусский\nSvenska\nภาษาไทย\nFilipino\nTürkçe\n中文(简体)\n中文(台灣)\nবাংলা\nગુજરાતી\nहिन्दी\nHrvatski\nMagyar\nಕನ್ನಡ\nമലയാളം\nमराठी\nनेपाली\nਪੰਜਾਬੀ\nසිංහල\nSlovenčina\nதமிழ்\nతెలుగు\nاردو\nTiếng Việt\n中文(香港)\nБългарски\nFrançais (Canada)\nRomână\nСрпски\nУкраїнська\n© 2026 Instagram from Meta"
+  },
+  "chatLinks": [
+    {
+      "label": "tylerlcrawford、valstechtalkk 原报告",
+      "href": "/api/reports/research-d22f5bc3f9c80da1a4979ca5"
+    },
+    {
+      "label": "SchoolHabits、raytubelcsw 原报告",
+      "href": "/api/reports/research-fd88375f69e716ff5cbc9fef"
+    },
+    {
+      "label": "colelangs、wesleyanna 原报告",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-a333d174361fcf1bed6c0698"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-a333d174361fcf1bed6c0698?format=csv"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-010f8c5e484e38738b2b3640"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-010f8c5e484e38738b2b3640?format=csv"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-58949888b306ad726d60be23"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-58949888b306ad726d60be23?format=csv"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-5e4db1193ded213e791cd417"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-5e4db1193ded213e791cd417?format=csv"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-6b62fedb31c94ffb3dfd83b8"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-6b62fedb31c94ffb3dfd83b8?format=csv"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-7df22029caef61df6134e885"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-7df22029caef61df6134e885?format=csv"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-bcebf909d61af9519dc124f3"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-bcebf909d61af9519dc124f3?format=csv"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-a5b580b3d9a62868bf773f08"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-a5b580b3d9a62868bf773f08?format=csv"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-d22f5bc3f9c80da1a4979ca5"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-d22f5bc3f9c80da1a4979ca5?format=csv"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-fd88375f69e716ff5cbc9fef"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-fd88375f69e716ff5cbc9fef?format=csv"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc?format=csv"
+    },
+    {
+      "label": "查看报告",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc?format=csv"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc?format=csv"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc?format=csv"
+    },
+    {
+      "label": "查看更新后的报告",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc"
+    },
+    {
+      "label": "查看已保存报告",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc"
+    },
+    {
+      "label": "查看报告",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc?format=csv"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc?format=csv"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc?format=csv"
+    },
+    {
+      "label": "查看更新后的报告",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-d22f5bc3f9c80da1a4979ca5"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-d22f5bc3f9c80da1a4979ca5?format=csv"
+    },
+    {
+      "label": "查看更新后的报告",
+      "href": "/api/reports/research-d22f5bc3f9c80da1a4979ca5"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-fd88375f69e716ff5cbc9fef"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-fd88375f69e716ff5cbc9fef?format=csv"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc?format=csv"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-fd88375f69e716ff5cbc9fef"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-fd88375f69e716ff5cbc9fef?format=csv"
+    },
+    {
+      "label": "查看更新后的报告",
+      "href": "/api/reports/research-fd88375f69e716ff5cbc9fef"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc?format=csv"
+    },
+    {
+      "label": "查看更新后的报告",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc"
+    },
+    {
+      "label": "原报告",
+      "href": "/api/reports/research-d22f5bc3f9c80da1a4979ca5"
+    },
+    {
+      "label": "CSV 导出",
+      "href": "/api/reports/research-d22f5bc3f9c80da1a4979ca5?format=csv"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-d22f5bc3f9c80da1a4979ca5"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-d22f5bc3f9c80da1a4979ca5?format=csv"
+    },
+    {
+      "label": "查看更新后的报告",
+      "href": "/api/reports/research-d22f5bc3f9c80da1a4979ca5"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-a183b9437d676713c0f2812f"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-a183b9437d676713c0f2812f?format=csv"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-deadf97a7b6138ba6d316943"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-deadf97a7b6138ba6d316943?format=csv"
+    }
+  ],
+  "gfmTables": 11,
+  "finishedAt": "2026-10-10T07:03:33.261Z"
+}

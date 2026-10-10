@@ -1,0 +1,118 @@
+{
+  "date": "2026-10-10",
+  "status": "DONE_WITH_CONCERNS",
+  "acceptance": "not_accepted",
+  "businessCodeChanged": false,
+  "issues": [
+    {
+      "id": "F20",
+      "severity": "P1",
+      "title": "整批完成前多次交付报告",
+      "evidence": "/Users/shawn/coding/projects/wavesurge/wavesurge_testing/.gstack/qa-reports/retest-2026-10-10-r2/main-batch-notifications-ui.json",
+      "regressionStatus": "new"
+    },
+    {
+      "id": "F16",
+      "severity": "P1",
+      "title": "真实名单无主页URL，保存空白页证据",
+      "evidence": "/Users/shawn/coding/projects/wavesurge/wavesurge_testing/.gstack/qa-reports/retest-2026-10-10-r2/basic-results.json",
+      "regressionStatus": "new"
+    },
+    {
+      "id": "F17",
+      "severity": "P1",
+      "title": "固定头部池忽略基础范围召回",
+      "evidence": "/Users/shawn/coding/projects/wavesurge/wavesurge_testing/.gstack/qa-reports/retest-2026-10-10-r2/after-campaign.json",
+      "regressionStatus": "new"
+    },
+    {
+      "id": "F18",
+      "severity": "P1",
+      "title": "达到入选配额后遗漏必须分析的候选",
+      "evidence": "/Users/shawn/coding/projects/wavesurge/wavesurge_testing/.gstack/qa-reports/retest-2026-10-10-r2/all-candidates-repeat.json",
+      "regressionStatus": "new"
+    },
+    {
+      "id": "F19",
+      "severity": "P1",
+      "title": "首关键词耗尽预算漏搜指定第二账号",
+      "evidence": "/Users/shawn/coding/projects/wavesurge/wavesurge_testing/.gstack/qa-reports/retest-2026-10-10-r2/instagram-new-results.json",
+      "regressionStatus": "new"
+    },
+    {
+      "id": "F02",
+      "severity": "P1",
+      "title": "人工等待阻塞新纯文字核验",
+      "evidence": "/Users/shawn/coding/projects/wavesurge/wavesurge_testing/.gstack/qa-reports/retest-2026-10-10-r2/main-text-status.json",
+      "regressionStatus": "partial"
+    },
+    {
+      "id": "F03",
+      "severity": "P2",
+      "title": "408超时未自动重试",
+      "evidence": "/Users/shawn/coding/projects/wavesurge/wavesurge_testing/.gstack/qa-reports/retest-2026-10-10-r2/main-enrich.json",
+      "regressionStatus": "partial"
+    },
+    {
+      "id": "F21",
+      "severity": "P2",
+      "title": "画像补标改变既有筛选结论",
+      "evidence": "/Users/shawn/coding/projects/wavesurge/wavesurge_testing/.gstack/qa-reports/retest-2026-10-10-r2/annotation-isolation-replay.json",
+      "regressionStatus": "new"
+    },
+    {
+      "id": "F14",
+      "severity": "P2",
+      "title": "条件说明仍混入标签导致否定/分支误命中",
+      "evidence": "/Users/shawn/coding/projects/wavesurge/wavesurge_testing/.gstack/qa-reports/retest-2026-10-10-r2/negative-tag-query.json",
+      "regressionStatus": "partial"
+    },
+    {
+      "id": "F22",
+      "severity": "P2",
+      "title": "人工等待时服务与桌面加载极慢",
+      "evidence": "/Users/shawn/coding/projects/wavesurge/wavesurge_testing/.gstack/qa-reports/retest-2026-10-10-r2/viewer-diagnostic.json",
+      "regressionStatus": "new"
+    }
+  ],
+  "previous15Regression": {
+    "passed": [
+      "F01",
+      "F04",
+      "F05",
+      "F06",
+      "F07",
+      "F08",
+      "F09",
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F15"
+    ],
+    "partial": [
+      "F02",
+      "F03",
+      "F14"
+    ]
+  },
+  "checks": {
+    "unitTests": 155,
+    "unitFiles": 24,
+    "typecheck": "pass",
+    "build": "pass",
+    "controlledActualBrowserE2E": 4,
+    "independentFoundationUiChecks": 16,
+    "twoExhaustiveCandidateReproductions": true,
+    "freshRealResultRecords": 31,
+    "historicalRealCreatorsRetagged": 6,
+    "realOriginal20Qualified": 0,
+    "realCampaignQualified": 0,
+    "exactValCorrectionQualified": 1
+  },
+  "healthScore": null,
+  "healthScoreReason": "需求验收和可复现缺陷评估；未做全平台准确率/并发压力/完整渗透验证，不能给整体百分比完成度。",
+  "finalStatus": "/Users/shawn/coding/projects/wavesurge/wavesurge_testing/.gstack/qa-reports/retest-2026-10-10-r2/final-status.json",
+  "report": "/Users/shawn/coding/projects/wavesurge/wavesurge_testing/.gstack/qa-reports/retest-2026-10-10-r2/report.md",
+  "manualRemaining": "/Users/shawn/coding/projects/wavesurge/wavesurge_testing/.gstack/qa-reports/retest-2026-10-10-r2/remaining-validation.md"
+}

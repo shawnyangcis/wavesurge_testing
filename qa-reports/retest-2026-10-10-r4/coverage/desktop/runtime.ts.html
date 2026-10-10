@@ -1,0 +1,229 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Code coverage report for desktop/runtime.ts</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../prettify.css" />
+    <link rel="stylesheet" href="../base.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+    
+<body>
+<div class='wrapper'>
+    <div class='pad1'>
+        <h1><a href="../index.html">All files</a> / <a href="index.html">desktop</a> runtime.ts</h1>
+        <div class='clearfix'>
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Statements</span>
+                <span class='fraction'>66/66</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Branches</span>
+                <span class='fraction'>61/61</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Functions</span>
+                <span class='fraction'>12/12</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Lines</span>
+                <span class='fraction'>31/31</span>
+            </div>
+        
+            
+        </div>
+        <p class="quiet">
+            Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
+        </p>
+        <template id="filterTemplate">
+            <div class="quiet">
+                Filter:
+                <input type="search" id="fileSearch">
+            </div>
+        </template>
+    </div>
+    <div class='status-line high'></div>
+    <pre><table class="coverage">
+<tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
+<a name='L2'></a><a href='#L2'>2</a>
+<a name='L3'></a><a href='#L3'>3</a>
+<a name='L4'></a><a href='#L4'>4</a>
+<a name='L5'></a><a href='#L5'>5</a>
+<a name='L6'></a><a href='#L6'>6</a>
+<a name='L7'></a><a href='#L7'>7</a>
+<a name='L8'></a><a href='#L8'>8</a>
+<a name='L9'></a><a href='#L9'>9</a>
+<a name='L10'></a><a href='#L10'>10</a>
+<a name='L11'></a><a href='#L11'>11</a>
+<a name='L12'></a><a href='#L12'>12</a>
+<a name='L13'></a><a href='#L13'>13</a>
+<a name='L14'></a><a href='#L14'>14</a>
+<a name='L15'></a><a href='#L15'>15</a>
+<a name='L16'></a><a href='#L16'>16</a>
+<a name='L17'></a><a href='#L17'>17</a>
+<a name='L18'></a><a href='#L18'>18</a>
+<a name='L19'></a><a href='#L19'>19</a>
+<a name='L20'></a><a href='#L20'>20</a>
+<a name='L21'></a><a href='#L21'>21</a>
+<a name='L22'></a><a href='#L22'>22</a>
+<a name='L23'></a><a href='#L23'>23</a>
+<a name='L24'></a><a href='#L24'>24</a>
+<a name='L25'></a><a href='#L25'>25</a>
+<a name='L26'></a><a href='#L26'>26</a>
+<a name='L27'></a><a href='#L27'>27</a>
+<a name='L28'></a><a href='#L28'>28</a>
+<a name='L29'></a><a href='#L29'>29</a>
+<a name='L30'></a><a href='#L30'>30</a>
+<a name='L31'></a><a href='#L31'>31</a>
+<a name='L32'></a><a href='#L32'>32</a>
+<a name='L33'></a><a href='#L33'>33</a>
+<a name='L34'></a><a href='#L34'>34</a>
+<a name='L35'></a><a href='#L35'>35</a>
+<a name='L36'></a><a href='#L36'>36</a>
+<a name='L37'></a><a href='#L37'>37</a>
+<a name='L38'></a><a href='#L38'>38</a>
+<a name='L39'></a><a href='#L39'>39</a>
+<a name='L40'></a><a href='#L40'>40</a>
+<a name='L41'></a><a href='#L41'>41</a>
+<a name='L42'></a><a href='#L42'>42</a>
+<a name='L43'></a><a href='#L43'>43</a>
+<a name='L44'></a><a href='#L44'>44</a>
+<a name='L45'></a><a href='#L45'>45</a>
+<a name='L46'></a><a href='#L46'>46</a>
+<a name='L47'></a><a href='#L47'>47</a>
+<a name='L48'></a><a href='#L48'>48</a>
+<a name='L49'></a><a href='#L49'>49</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-yes">38x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">22x</span>
+<span class="cline-any cline-yes">22x</span>
+<span class="cline-any cline-yes">22x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">40x</span>
+<span class="cline-any cline-yes">40x</span>
+<span class="cline-any cline-yes">38x</span>
+<span class="cline-any cline-yes">38x</span>
+<span class="cline-any cline-yes">18x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">34x</span>
+<span class="cline-any cline-yes">40x</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-yes">10x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">23x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">22x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">40x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import type { BrowserContext, Page } from 'playwright';
+import { BrowserPolicy } from './policy.ts';
+export type DesktopCommand = { action: 'observe' | 'navigate' | 'click' | 'fill' | 'key'; url?: string; selector?: string; text?: string; observationId?: string };
+export type Observation = { observationId: string; url: string; title: string; text: string; links: { text: string; url: string }[]; screenshotBase64: string; scope: 'page-viewport'; observedAt: number };
+export class DesktopRuntime {
+  context: BrowserContext; now: () =&gt; number; id: () =&gt; string; save: (url: string) =&gt; void; policy: BrowserPolicy;
+  blocked = false; observation?: { id: string; at: number; links: string[] }; tail: Promise&lt;unknown&gt; = Promise.resolve();
+  constructor(context: BrowserContext, now: () =&gt; number, id: () =&gt; string, save: (url: string) =&gt; void, policy = new BrowserPolicy()) { this.context = context; this.now = now; this.id = id; this.save = save; this.policy = policy; }
+  async page(): Promise&lt;Page&gt; { const pages = this.context.pages(); const page = pages.at(-1) ?? await this.context.newPage(); await page.bringToFront(); return page; }
+  async observe(page: Page): Promise&lt;Observation&gt; {
+    const content = await page.evaluate(() =&gt; ({ text: (document.body?.innerText ?? document.documentElement?.textContent ?? '').slice(0, 12000), links: Array.from(document.querySelectorAll('a[href]')).slice(0, 80).map(a =&gt; ({ text: a.textContent!.trim().slice(0, 120), url: (a as HTMLAnchorElement).href })) }));
+    const observationId = this.id(); this.observation = { id: observationId, at: this.now(), links: content.links.map(link =&gt; link.url) };
+    return { observationId, url: page.url(), title: await page.title(), ...content, screenshotBase64: (await page.screenshot()).toString('base64'), scope: 'page-viewport', observedAt: this.now() };
+  }
+  command(input: DesktopCommand) {
+    const run = this.tail.then(async () =&gt; {
+      if (this.blocked) throw new Error('DESKTOP_HUMAN_TAKEOVER_ACTIVE: executionState=not_started');
+      const page = await this.page();
+      if (input.action !== 'observe' &amp;&amp; input.action !== 'navigate') {
+        if (!this.observation || input.observationId !== this.observation.id || this.now() - this.observation.at &gt; 30000) throw new Error('DESKTOP_OBSERVATION_STALE');
+      }
+      const links = this.observation?.links ?? [];
+      if (input.action === 'navigate') { const url = new URL(input.url!); await this.policy.navigation(url.toString(), links); this.observation = undefined; await page.goto(url.toString(), { timeout: 45000, waitUntil: 'domcontentloaded' }); }
+      if (input.action === 'click' || input.action === 'fill') {
+        const target = page.locator(input.selector!).first();
+        const element = await target.evaluate(node =&gt; ({ tag: node.tagName.toLowerCase(), inForm: !!node.closest('form'), type: node.getAttribute('type') ?? '', role: node.getAttribute('role') ?? '', label: `${node.textContent ?? ''} ${node.getAttribute('aria-label') ?? ''} ${node.getAttribute('placeholder') ?? ''}`, href: (node as HTMLAnchorElement).href ?? '' }));
+        if (/password|otp|verification|验证码|密码/i.test(`${element.type} ${element.label}`) || /follow|subscribe|message|send|purchase|checkout|delete|like|关注|订阅|私信|发送|支付|购买|删除|点赞/i.test(element.label)) throw new Error('BROWSER_POLICY_SIDE_EFFECT: 请请求人工协助');
+        if (input.action === 'fill') {
+          if (element.type !== 'search' &amp;&amp; !/search|搜索|查找/i.test(element.label)) throw new Error('BROWSER_POLICY_INPUT: 仅可填写公开搜索字段');
+          this.observation = undefined; await target.fill(input.text!, { timeout: 10000 });
+        } else {
+          if (element.inForm) throw new Error('BROWSER_POLICY_FORM: Agent 不提交表单，请请求人工协助');
+          if (element.tag === 'a' &amp;&amp; element.href) await this.policy.navigation(element.href, links);
+          else if (element.role !== 'tab' &amp;&amp; !/^(\s*)(show more|load more|next|previous|play|pause|close|accept cookies|reject cookies|查看更多|下一页|上一页|播放|暂停|关闭)\b/i.test(element.label)) throw new Error('BROWSER_POLICY_ACTION: 未授权的按钮操作');
+          this.observation = undefined; await target.click({ timeout: 10000 });
+        }
+      }
+      if (input.action === 'key') {
+        if (!['Escape', 'PageDown', 'PageUp', 'ArrowDown', 'ArrowUp', 'Home', 'End', 'Tab'].includes(input.text!)) throw new Error('BROWSER_POLICY_KEY: 未授权的键盘操作');
+        this.observation = undefined; await page.keyboard.press(input.text!);
+      }
+      this.save(page.url()); return this.observe(page);
+    });
+    this.tail = run.catch(() =&gt; {}); return run;
+  }
+  async pause() { this.blocked = true; this.observation = undefined; await this.tail; return { inputOwner: 'human' }; }
+  resume() { this.blocked = false; this.observation = undefined; return { inputOwner: 'agent' }; }
+}
+&nbsp;</pre></td></tr></table></pre>
+
+                <div class='push'></div><!-- for sticky footer -->
+            </div><!-- /wrapper -->
+            <div class='footer quiet pad2 space-top1 center small'>
+                Code coverage generated by
+                <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
+                at 2026-10-10T13:29:51.355Z
+            </div>
+        <script src="../prettify.js"></script>
+        <script>
+            window.onload = function () {
+                prettyPrint();
+            };
+        </script>
+        <script src="../sorter.js"></script>
+        <script src="../block-navigation.js"></script>
+    </body>
+</html>
+    

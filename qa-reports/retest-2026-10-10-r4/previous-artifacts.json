@@ -1,0 +1,57 @@
+[
+  {
+    "directory": ".gstack/qa-reports/full-e2e-2026-10-10",
+    "screenshots": 86,
+    "markdown": 10,
+    "scripts": 9,
+    "reports": [
+      ".gstack/qa-reports/full-e2e-2026-10-10/acceptance-report.md"
+    ]
+  },
+  {
+    "directory": ".gstack/qa-reports/new-reports-reassessment-2026-10-10",
+    "screenshots": 0,
+    "markdown": 1,
+    "scripts": 1,
+    "reports": []
+  },
+  {
+    "directory": ".gstack/qa-reports/reassessment-2026-10-10",
+    "screenshots": 0,
+    "markdown": 1,
+    "scripts": 4,
+    "reports": []
+  },
+  {
+    "directory": ".gstack/qa-reports/retest-2026-10-10-r2",
+    "screenshots": 153,
+    "markdown": 2,
+    "scripts": 21,
+    "reports": [
+      ".gstack/qa-reports/retest-2026-10-10-r2/report.md"
+    ]
+  },
+  {
+    "directory": ".gstack/qa-reports/retest-2026-10-10-r3",
+    "screenshots": 158,
+    "markdown": 4,
+    "scripts": 31,
+    "reports": [
+      ".gstack/qa-reports/retest-2026-10-10-r3/report.md"
+    ]
+  },
+  {
+    "directory": ".gstack/qa-reports/review-2026-10-10",
+    "screenshots": 11,
+    "markdown": 2,
+    "scripts": 6,
+    "reports": []
+  },
+  {
+    "directory": ".gstack/qa-reports/tagging-2026-10-10",
+    "screenshots": 37,
+    "markdown": 2,
+    "scripts": 8,
+    "reports": []
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "tests": 155,
+  "testFiles": 24,
+  "browserTests": 4,
+  "coverage": {
+    "lines": {
+      "total": 993,
+      "covered": 993,
+      "skipped": 0,
+      "pct": 100
+    },
+    "statements": {
+      "total": 2112,
+      "covered": 2112,
+      "skipped": 0,
+      "pct": 100
+    },
+    "functions": {
+      "total": 488,
+      "covered": 488,
+      "skipped": 0,
+      "pct": 100
+    },
+    "branches": {
+      "total": 1620,
+      "covered": 1620,
+      "skipped": 0,
+      "pct": 100
+    },
+    "branchesTrue": {
+      "total": 0,
+      "covered": 0,
+      "skipped": 0,
+      "pct": 100
+    }
+  },
+  "sourceFiles": 55,
+  "sourceMatches": true,
+  "diagramNodes": 45,
+  "reportComplete": true,
+  "realAPIs": "V2/V3/profile/posts/detail/pool passed; V1 HTTP 400; balance unchanged",
+  "fixtureScope": "actual model and production application/headed browser; controlled discovery/media/candidate pages"
+}

@@ -1,0 +1,117 @@
+{
+  "scope": "live",
+  "name": "youtube-text-results",
+  "taskId": "research-ac84c5f2eb4a7e21e69ce1d2",
+  "startedAt": "2026-10-10T11:09:57.249Z",
+  "checks": [
+    "Actual CSV link downloaded",
+    "Chat-accessible structured HTML report opened in actual browser",
+    "Tag values and versions persisted after page reload"
+  ],
+  "queries": [
+    {
+      "tag": "Notion",
+      "count": 0,
+      "handles": [],
+      "csvPath": ".gstack/qa-reports/retest-2026-10-10-r3/youtube-text-results-filter-0.csv",
+      "href": "/api/reports/research-ac84c5f2eb4a7e21e69ce1d2?format=csv&tag=Notion"
+    },
+    {
+      "tag": "geek",
+      "count": 0,
+      "handles": [],
+      "csvPath": ".gstack/qa-reports/retest-2026-10-10-r3/youtube-text-results-filter-1.csv",
+      "href": "/api/reports/research-ac84c5f2eb4a7e21e69ce1d2?format=csv&tag=geek"
+    },
+    {
+      "tag": "不会存在的画像标签",
+      "count": 0,
+      "handles": [],
+      "csvPath": ".gstack/qa-reports/retest-2026-10-10-r3/youtube-text-results-filter-2.csv",
+      "href": "/api/reports/research-ac84c5f2eb4a7e21e69ce1d2?format=csv&tag=%E4%B8%8D%E4%BC%9A%E5%AD%98%E5%9C%A8%E7%9A%84%E7%94%BB%E5%83%8F%E6%A0%87%E7%AD%BE"
+    }
+  ],
+  "networkErrors": [
+    {
+      "url": "http://127.0.0.1:3572/api/session",
+      "status": 401
+    }
+  ],
+  "pageErrors": [],
+  "task": {
+    "id": "research-ac84c5f2eb4a7e21e69ce1d2",
+    "title": "YouTube学习方法个人博主：四位候选文字核验",
+    "status": "partial",
+    "requested": 2,
+    "evaluated": 0,
+    "matched": 0,
+    "updatedAt": 1791629701557,
+    "detail": "已选合格 0/2，已核验 0；证据不足者保持待核实。youtube：读取 500 条，基础条件排除 500 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。",
+    "remoteStatus": "done",
+    "nextPollAt": 1791629702555
+  },
+  "results": [],
+  "report": {
+    "url": "http://127.0.0.1:3572/api/reports/research-ac84c5f2eb4a7e21e69ce1d2",
+    "articles": 0,
+    "embeddedImages": 0,
+    "profileLinks": 0,
+    "body": "YouTube学习方法个人博主：四位候选文字核验\n\n目标 2 人；本地已合格 0 人；已核验 0 人。\n\n已选合格 0/2，已核验 0；证据不足者保持待核实。youtube：读取 500 条，基础条件排除 500 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。\n\n来源：WaveSurge + 本地核验。远端搜索完成不代表本地条件通过。本次报告包含 0 条筛选记录。报告更新时间：2026-10-10T10:55:01.557Z"
+  },
+  "chatLinks": [
+    {
+      "label": "查看报告",
+      "href": "/api/reports/research-be8026ae73f12c86682a616a"
+    },
+    {
+      "label": "查看本次综合报告",
+      "href": "/api/work-batches/0fabc016-9161-43d4-976a-c6e8235b852e/report"
+    },
+    {
+      "label": "下载综合 CSV",
+      "href": "/api/work-batches/0fabc016-9161-43d4-976a-c6e8235b852e/report?format=csv"
+    },
+    {
+      "label": "查看报告",
+      "href": "/api/reports/research-ac84c5f2eb4a7e21e69ce1d2"
+    },
+    {
+      "label": "查看报告",
+      "href": "/api/reports/research-50afd1df3c59e15af7ca2577"
+    },
+    {
+      "label": "查看本次综合报告",
+      "href": "/api/work-batches/a01de880-2d32-47b3-a6d7-ba663944d36a/report"
+    },
+    {
+      "label": "下载综合 CSV",
+      "href": "/api/work-batches/a01de880-2d32-47b3-a6d7-ba663944d36a/report?format=csv"
+    },
+    {
+      "label": "查看报告",
+      "href": "/api/reports/research-e920ecebfcfaea4ad9406b7a"
+    },
+    {
+      "label": "查看本次综合报告",
+      "href": "/api/work-batches/0710085f-0695-4561-8f75-eedd112288ad/report"
+    },
+    {
+      "label": "下载综合 CSV",
+      "href": "/api/work-batches/0710085f-0695-4561-8f75-eedd112288ad/report?format=csv"
+    },
+    {
+      "label": "查看报告",
+      "href": "/api/reports/research-2908c0a899a69bd5afeca2db"
+    },
+    {
+      "label": "查看本次综合报告",
+      "href": "/api/work-batches/ea140273-05dc-4494-931f-b6151446b244/report"
+    },
+    {
+      "label": "下载综合 CSV",
+      "href": "/api/work-batches/ea140273-05dc-4494-931f-b6151446b244/report?format=csv"
+    }
+  ],
+  "gfmTables": 5,
+  "finishedAt": "2026-10-10T11:10:46.266Z"
+}

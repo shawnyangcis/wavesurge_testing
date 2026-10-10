@@ -1,0 +1,139 @@
+{
+  "at": "2026-10-10T16:23:35.714Z",
+  "source": "Standard CSV parser and browser DOM check of archived real reports (not raw HTML matching)",
+  "cases": [
+    {
+      "file": "main-results.csv",
+      "records": 2,
+      "unique": 2,
+      "qualified": 2,
+      "selected": 1,
+      "columns": 25,
+      "passed": true,
+      "qualifiedUnique": 2,
+      "selectedUnique": 1
+    },
+    {
+      "file": "phase-a-positive.csv",
+      "records": 2,
+      "unique": 2,
+      "qualified": 2,
+      "selected": 1,
+      "columns": 25,
+      "passed": true,
+      "qualifiedUnique": 2,
+      "selectedUnique": 1
+    },
+    {
+      "file": "phase-a-six-groups.csv",
+      "records": 6,
+      "unique": 2,
+      "qualified": 5,
+      "selected": 3,
+      "columns": 25,
+      "passed": true,
+      "qualifiedUnique": 2,
+      "selectedUnique": 1
+    },
+    {
+      "file": "phase-b-campaign.csv",
+      "records": 2,
+      "unique": 2,
+      "qualified": 2,
+      "selected": 2,
+      "columns": 25,
+      "passed": true,
+      "qualifiedUnique": 2,
+      "selectedUnique": 2
+    },
+    {
+      "file": "phase-b-life_efficiency.csv",
+      "records": 2,
+      "unique": 2,
+      "qualified": 1,
+      "selected": 1,
+      "columns": 25,
+      "passed": true,
+      "qualifiedUnique": 1,
+      "selectedUnique": 1
+    },
+    {
+      "file": "phase-b-practical_tech_apps.csv",
+      "records": 2,
+      "unique": 2,
+      "qualified": 2,
+      "selected": 1,
+      "columns": 25,
+      "passed": true,
+      "qualifiedUnique": 2,
+      "selectedUnique": 1
+    },
+    {
+      "file": "real-campaign-life_efficiency.csv",
+      "records": 2,
+      "unique": 2,
+      "qualified": 2,
+      "selected": 1,
+      "columns": 25,
+      "passed": true,
+      "qualifiedUnique": 2,
+      "selectedUnique": 1
+    },
+    {
+      "file": "real-campaign-practical_digital.csv",
+      "records": 2,
+      "unique": 2,
+      "qualified": 2,
+      "selected": 1,
+      "columns": 25,
+      "passed": true,
+      "qualifiedUnique": 2,
+      "selectedUnique": 1
+    },
+    {
+      "file": "real-campaign.csv",
+      "records": 2,
+      "unique": 2,
+      "qualified": 2,
+      "selected": 2,
+      "columns": 25,
+      "passed": true,
+      "qualifiedUnique": 2,
+      "selectedUnique": 2
+    },
+    {
+      "file": "real-positive.csv",
+      "records": 2,
+      "unique": 2,
+      "qualified": 2,
+      "selected": 1,
+      "columns": 25,
+      "passed": true,
+      "qualifiedUnique": 2,
+      "selectedUnique": 1
+    },
+    {
+      "file": "real-six-retag.csv",
+      "records": 6,
+      "unique": 2,
+      "qualified": 6,
+      "selected": 3,
+      "columns": 25,
+      "passed": true,
+      "qualifiedUnique": 2,
+      "selectedUnique": 1
+    },
+    {
+      "file": "real-three-groups.csv",
+      "records": 6,
+      "unique": 2,
+      "qualified": 6,
+      "selected": 3,
+      "columns": 25,
+      "passed": true,
+      "qualifiedUnique": 2,
+      "selectedUnique": 1
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,259 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Code coverage report for client/App.tsx</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../prettify.css" />
+    <link rel="stylesheet" href="../base.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+    
+<body>
+<div class='wrapper'>
+    <div class='pad1'>
+        <h1><a href="../index.html">All files</a> / <a href="index.html">client</a> App.tsx</h1>
+        <div class='clearfix'>
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Statements</span>
+                <span class='fraction'>96/96</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Branches</span>
+                <span class='fraction'>61/61</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Functions</span>
+                <span class='fraction'>34/34</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Lines</span>
+                <span class='fraction'>38/38</span>
+            </div>
+        
+            
+        </div>
+        <p class="quiet">
+            Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
+        </p>
+        <template id="filterTemplate">
+            <div class="quiet">
+                Filter:
+                <input type="search" id="fileSearch">
+            </div>
+        </template>
+    </div>
+    <div class='status-line high'></div>
+    <pre><table class="coverage">
+<tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
+<a name='L2'></a><a href='#L2'>2</a>
+<a name='L3'></a><a href='#L3'>3</a>
+<a name='L4'></a><a href='#L4'>4</a>
+<a name='L5'></a><a href='#L5'>5</a>
+<a name='L6'></a><a href='#L6'>6</a>
+<a name='L7'></a><a href='#L7'>7</a>
+<a name='L8'></a><a href='#L8'>8</a>
+<a name='L9'></a><a href='#L9'>9</a>
+<a name='L10'></a><a href='#L10'>10</a>
+<a name='L11'></a><a href='#L11'>11</a>
+<a name='L12'></a><a href='#L12'>12</a>
+<a name='L13'></a><a href='#L13'>13</a>
+<a name='L14'></a><a href='#L14'>14</a>
+<a name='L15'></a><a href='#L15'>15</a>
+<a name='L16'></a><a href='#L16'>16</a>
+<a name='L17'></a><a href='#L17'>17</a>
+<a name='L18'></a><a href='#L18'>18</a>
+<a name='L19'></a><a href='#L19'>19</a>
+<a name='L20'></a><a href='#L20'>20</a>
+<a name='L21'></a><a href='#L21'>21</a>
+<a name='L22'></a><a href='#L22'>22</a>
+<a name='L23'></a><a href='#L23'>23</a>
+<a name='L24'></a><a href='#L24'>24</a>
+<a name='L25'></a><a href='#L25'>25</a>
+<a name='L26'></a><a href='#L26'>26</a>
+<a name='L27'></a><a href='#L27'>27</a>
+<a name='L28'></a><a href='#L28'>28</a>
+<a name='L29'></a><a href='#L29'>29</a>
+<a name='L30'></a><a href='#L30'>30</a>
+<a name='L31'></a><a href='#L31'>31</a>
+<a name='L32'></a><a href='#L32'>32</a>
+<a name='L33'></a><a href='#L33'>33</a>
+<a name='L34'></a><a href='#L34'>34</a>
+<a name='L35'></a><a href='#L35'>35</a>
+<a name='L36'></a><a href='#L36'>36</a>
+<a name='L37'></a><a href='#L37'>37</a>
+<a name='L38'></a><a href='#L38'>38</a>
+<a name='L39'></a><a href='#L39'>39</a>
+<a name='L40'></a><a href='#L40'>40</a>
+<a name='L41'></a><a href='#L41'>41</a>
+<a name='L42'></a><a href='#L42'>42</a>
+<a name='L43'></a><a href='#L43'>43</a>
+<a name='L44'></a><a href='#L44'>44</a>
+<a name='L45'></a><a href='#L45'>45</a>
+<a name='L46'></a><a href='#L46'>46</a>
+<a name='L47'></a><a href='#L47'>47</a>
+<a name='L48'></a><a href='#L48'>48</a>
+<a name='L49'></a><a href='#L49'>49</a>
+<a name='L50'></a><a href='#L50'>50</a>
+<a name='L51'></a><a href='#L51'>51</a>
+<a name='L52'></a><a href='#L52'>52</a>
+<a name='L53'></a><a href='#L53'>53</a>
+<a name='L54'></a><a href='#L54'>54</a>
+<a name='L55'></a><a href='#L55'>55</a>
+<a name='L56'></a><a href='#L56'>56</a>
+<a name='L57'></a><a href='#L57'>57</a>
+<a name='L58'></a><a href='#L58'>58</a>
+<a name='L59'></a><a href='#L59'>59</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">106x</span>
+<span class="cline-any cline-yes">106x</span>
+<span class="cline-any cline-yes">106x</span>
+<span class="cline-any cline-yes">106x</span>
+<span class="cline-any cline-yes">106x</span>
+<span class="cline-any cline-yes">106x</span>
+<span class="cline-any cline-yes">106x</span>
+<span class="cline-any cline-yes">106x</span>
+<span class="cline-any cline-yes">106x</span>
+<span class="cline-any cline-yes">106x</span>
+<span class="cline-any cline-yes">106x</span>
+<span class="cline-any cline-yes">106x</span>
+<span class="cline-any cline-yes">106x</span>
+<span class="cline-any cline-yes">106x</span>
+<span class="cline-any cline-yes">106x</span>
+<span class="cline-any cline-yes">16x</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">106x</span>
+<span class="cline-any cline-yes">91x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import { useEffect, useRef, useState } from 'react';
+import { api } from './api.ts';
+import type { Snapshot } from '../shared/contracts.ts';
+import { Inspector } from './Inspector.tsx';
+import { readImage } from './media.ts';
+import { Results } from './Results.tsx';
+import { Markdown } from './Markdown.tsx';
+import { Campaigns } from './Campaigns.tsx';
+import { Desktop } from './Desktop.tsx';
+const initial: Snapshot = { messages: [], tasks: [], active: false, epoch: 0 };
+const statuses = { queued: '等待搜索', running: '研究中', needs_input: '需要协助', completed: '已完成', partial: '部分完成', failed: '执行失败', cancelled: '已取消' };
+export function App() {
+  const [loggedIn, setLoggedIn] = useState(false);
+  const [password, setPassword] = useState('');
+  const [text, setText] = useState('');
+  const [state, setState] = useState(initial);
+  const [error, setError] = useState('');
+  const [campaignOpen, setCampaignOpen] = useState(false);
+  const [desktopOpen, setDesktopOpen] = useState(false);
+  const [inspecting, setInspecting] = useState(false);
+  const [attachments, setAttachments] = useState&lt;string[]&gt;([]);
+  const [resultTask, setResultTask] = useState&lt;string&gt;();
+  const outbox = useRef&lt;{ id: string; text: string; attachments: string[] } | undefined&gt;(undefined);
+  const messagePane = useRef&lt;HTMLDivElement&gt;(null); const followTail = useRef(true);
+  useEffect(() =&gt; { const pane = messagePane.current; if (pane &amp;&amp; followTail.current) pane.scrollTop = pane.scrollHeight; }, [state.messages.length]);
+  useEffect(() =&gt; { api('/session').then(() =&gt; setLoggedIn(true)).catch(() =&gt; {}); }, []);
+  useEffect(() =&gt; {
+    if (!loggedIn) return;
+    let current = true;
+    const refresh = () =&gt; api&lt;Snapshot&gt;('/state').then(value =&gt; { if (current) setState(value); }).catch(e =&gt; { if (current) setError(e.message); });
+    void refresh();
+    const timer = setInterval(refresh, 2000);
+    return () =&gt; { current = false; clearInterval(timer); };
+  }, [loggedIn]);
+  async function signIn(event: React.SubmitEvent) {
+    event.preventDefault(); setError('');
+    try { await api('/login', { password }); setPassword(''); setLoggedIn(true); } catch (e) { setError((e as Error).message); }
+  }
+  async function send(event: React.SubmitEvent) {
+    event.preventDefault();
+    if (!text.trim() &amp;&amp; !attachments.length) return;
+    setError('');
+    const content = text.trim() ? text : '请参考附图。';
+    if (!outbox.current || outbox.current.text !== content || outbox.current.attachments !== attachments) outbox.current = { id: crypto.randomUUID(), text: content, attachments };
+    const payload = outbox.current;
+    followTail.current = true;
+    try { await api('/messages', payload); setText(current =&gt; current === text ? '' : current); setAttachments(current =&gt; current === attachments ? [] : current); setState(await api&lt;Snapshot&gt;('/state')); } catch (e) { setError((e as Error).message); }
+  }
+  async function addImages(event: React.ChangeEvent&lt;HTMLInputElement&gt;) {
+    const files = Array.from(event.target.files!); event.target.value = ''; setError('');
+    try { if (files.length + attachments.length &gt; 4) throw new Error('每条消息最多添加 4 张图片。'); setAttachments([...attachments, ...await Promise.all(files.map(readImage))]); } catch (e) { setError((e as Error).message); }
+  }
+  async function signOut() {
+    try { await api('/logout', {}); setLoggedIn(false); setState(initial); } catch (e) { setError((e as Error).message); }
+  }
+  if (!loggedIn) return &lt;main className="entrance"&gt;&lt;div className="login"&gt;&lt;span className="eyebrow"&gt;CREATOR STUDIO&lt;/span&gt;&lt;h1&gt;找到与你&lt;br /&gt;同频的创作者。&lt;/h1&gt;&lt;p className="muted"&gt;从一个想法开始，让研究走向有依据的选择。&lt;/p&gt;&lt;form onSubmit={signIn}&gt;&lt;label htmlFor="password"&gt;管理员密码&lt;/label&gt;&lt;input id="password" type="password" autoComplete="current-password" value={password} onChange={e =&gt; setPassword(e.target.value)} required /&gt;&lt;button type="submit"&gt;进入工作室 &lt;span&gt;↗&lt;/span&gt;&lt;/button&gt;&lt;/form&gt;{error &amp;&amp; &lt;p role="alert"&gt;{error}&lt;/p&gt;}&lt;p className="footnote"&gt;首次密码保存在部署目录的 admin-bootstrap.txt。&lt;/p&gt;&lt;/div&gt;&lt;div className="login-art" aria-hidden="true"&gt;&lt;span&gt;01&lt;/span&gt;&lt;p&gt;Ideas.&lt;br /&gt;People.&lt;br /&gt;&lt;i&gt;Connection.&lt;/i&gt;&lt;/p&gt;&lt;small&gt;研究 · 判断 · 选择&lt;/small&gt;&lt;/div&gt;&lt;/main&gt;;
+  return &lt;div className="workspace"&gt;&lt;header&gt;&lt;a className="brand" href="/"&gt;Creator &lt;i&gt;Studio&lt;/i&gt;&lt;span&gt;创作者研究&lt;/span&gt;&lt;/a&gt;&lt;div className="controls"&gt;&lt;button className="quiet" onClick={() =&gt; setCampaignOpen(true)}&gt;Campaign 方案&lt;/button&gt;&lt;button className="quiet" onClick={() =&gt; setDesktopOpen(true)}&gt;浏览器桌面&lt;/button&gt;&lt;button className="quiet" onClick={() =&gt; setInspecting(true)}&gt;设置与记录&lt;/button&gt;&lt;button className="quiet" onClick={signOut}&gt;退出&lt;/button&gt;&lt;/div&gt;&lt;/header&gt;&lt;main className="desk"&gt;&lt;section className="conversation" aria-label="研究对话"&gt;&lt;div className="section-heading"&gt;&lt;span className="eyebrow"&gt;WORKSPACE / 01&lt;/span&gt;&lt;span className="live"&gt;{state.active ? '正在思考' : '准备就绪'}&lt;/span&gt;&lt;/div&gt;&lt;div className="messages" aria-live="polite" ref={messagePane} onScroll={() =&gt; { const pane = messagePane.current!; followTail.current = pane.scrollHeight - pane.scrollTop - pane.clientHeight &lt; 80; }}&gt;{state.messages.length === 0 &amp;&amp; &lt;div className="welcome"&gt;&lt;h1&gt;你的下一次合作，&lt;br /&gt;&lt;i&gt;从这里开始。&lt;/i&gt;&lt;/h1&gt;&lt;p&gt;描述你想找的创作者，或告诉我这次 Campaign 的目标。&lt;/p&gt;&lt;div className="example"&gt;例如：找 20 位分享科技生活的 Instagram 创作者，粉丝在 1 万到 10 万之间。&lt;/div&gt;&lt;/div&gt;}{state.messages.map(message =&gt; &lt;article key={message.id} className={`message ${message.role}`}&gt;&lt;span className="speaker"&gt;{message.role === 'user' ? '你' : '研究助手'}&lt;/span&gt;&lt;div className="message-body"&gt;{message.role === 'assistant' ? &lt;Markdown text={message.text} /&gt; : &lt;p&gt;{message.text}&lt;/p&gt;}&lt;/div&gt;{message.attachments.map((image, index) =&gt; &lt;img className="reference-image" src={image} alt={`参考图片 ${index + 1}`} key={index} /&gt;)}{message.state === 'pending' &amp;&amp; &lt;small&gt;已收到 · 等待处理&lt;/small&gt;}&lt;/article&gt;)}&lt;/div&gt;{error &amp;&amp; &lt;p role="alert"&gt;{error}&lt;/p&gt;}&lt;form className="composer" onSubmit={send}&gt;{attachments.length &gt; 0 &amp;&amp; &lt;div className="previews"&gt;{attachments.map((image, index) =&gt; &lt;div key={index}&gt;&lt;img src={image} alt={`待发送图片 ${index + 1}`} /&gt;&lt;button type="button" aria-label={`移除图片 ${index + 1}`} onClick={() =&gt; setAttachments(attachments.filter((_, i) =&gt; i !== index))}&gt;×&lt;/button&gt;&lt;/div&gt;)}&lt;/div&gt;}&lt;label className="sr-only" htmlFor="message"&gt;发送消息&lt;/label&gt;&lt;textarea id="message" placeholder="描述你的想法，或继续补充要求…" value={text} onChange={e =&gt; setText(e.target.value)} rows={3} /&gt;&lt;div&gt;&lt;div&gt;&lt;label className="file-picker"&gt;添加图片&lt;input type="file" accept="image/png,image/jpeg,image/webp" multiple onChange={addImages} aria-label="添加图片" /&gt;&lt;/label&gt;&lt;small&gt;任务执行期间，你也可以继续发消息。&lt;/small&gt;&lt;/div&gt;&lt;button type="submit" aria-label="发送消息" disabled={!text.trim() &amp;&amp; !attachments.length}&gt;发送 ↗&lt;/button&gt;&lt;/div&gt;&lt;/form&gt;&lt;/section&gt;&lt;aside&gt;&lt;span className="eyebrow"&gt;RESEARCH DESK&lt;/span&gt;&lt;h2&gt;研究进展&lt;/h2&gt;{state.tasks.length === 0 &amp;&amp; &lt;p className="muted"&gt;开始一项研究后，进度和结果会出现在这里。&lt;/p&gt;}{state.tasks.map(task =&gt; &lt;article className="task" key={task.id}&gt;&lt;span className="task-status"&gt;{statuses[task.status]}&lt;/span&gt;&lt;h3&gt;{task.title}&lt;/h3&gt;&lt;p&gt;已核验 {task.evaluated} · 已入选 {task.matched} / {task.requested}&lt;/p&gt;&lt;small&gt;{task.detail}&lt;/small&gt;{task.status === 'needs_input' &amp;&amp; &lt;button onClick={() =&gt; setDesktopOpen(true)}&gt;打开桌面协助&lt;/button&gt;}&lt;button className="quiet" onClick={() =&gt; setResultTask(task.resultTaskId ?? task.id)}&gt;查看结果&lt;/button&gt;&lt;/article&gt;)}&lt;div className="desk-note"&gt;&lt;span&gt;有依据的选择&lt;/span&gt;&lt;p&gt;每位创作者的判断都会保留来源；信息不足时，会明确告诉你。&lt;/p&gt;&lt;/div&gt;&lt;/aside&gt;&lt;/main&gt;{campaignOpen &amp;&amp; &lt;Campaigns onClose={() =&gt; setCampaignOpen(false)} /&gt;}{desktopOpen &amp;&amp; &lt;Desktop onClose={() =&gt; setDesktopOpen(false)} /&gt;}{inspecting &amp;&amp; &lt;Inspector onClose={() =&gt; setInspecting(false)} /&gt;}{resultTask &amp;&amp; &lt;Results taskId={resultTask} onClose={() =&gt; setResultTask(undefined)} /&gt;}&lt;/div&gt;;
+}
+&nbsp;</pre></td></tr></table></pre>
+
+                <div class='push'></div><!-- for sticky footer -->
+            </div><!-- /wrapper -->
+            <div class='footer quiet pad2 space-top1 center small'>
+                Code coverage generated by
+                <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
+                at 2026-10-10T13:29:51.355Z
+            </div>
+        <script src="../prettify.js"></script>
+        <script>
+            window.onload = function () {
+                prettyPrint();
+            };
+        </script>
+        <script src="../sorter.js"></script>
+        <script src="../block-navigation.js"></script>
+    </body>
+</html>
+    

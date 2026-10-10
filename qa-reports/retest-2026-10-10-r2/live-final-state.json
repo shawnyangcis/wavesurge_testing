@@ -1,0 +1,3012 @@
+{
+  "at": "2026-10-10T07:35:36.326Z",
+  "tasks": [
+    {
+      "id": "research-7e157f91534c9f8f156d257d",
+      "title": "美国 TikTok 数码男博主筛选",
+      "spec": {
+        "title": "美国 TikTok 数码男博主筛选",
+        "personaText": "US digital technology and consumer electronics content creators",
+        "count": 2,
+        "platforms": [
+          "tiktok"
+        ],
+        "regions": [
+          "United States"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "candidateBudget": 4,
+        "criteria": [
+          {
+            "id": "digital_content",
+            "label": "发布数码或消费电子相关内容",
+            "required": true,
+            "basis": "text"
+          },
+          {
+            "id": "male_self_description",
+            "label": "账号自身的公开介绍明确表明为男性；未明确说明则为待确认，不从外貌推断",
+            "required": true,
+            "basis": "text"
+          },
+          {
+            "id": "glasses_preference",
+            "label": "佩戴眼镜，优先但非硬性要求；需基于实际观察到的图像",
+            "required": false,
+            "basis": "visual"
+          }
+        ],
+        "annotations": [
+          {
+            "id": "content_direction",
+            "label": "内容方向"
+          },
+          {
+            "id": "style",
+            "label": "内容风格"
+          },
+          {
+            "id": "glasses",
+            "label": "是否戴眼镜",
+            "values": [
+              "戴眼镜",
+              "未戴眼镜"
+            ]
+          }
+        ]
+      },
+      "body": {
+        "requestId": "research-7e157f91534c9f8f156d257d",
+        "personaText": "US digital technology and consumer electronics content creators",
+        "count": 4,
+        "platforms": [
+          "tiktok"
+        ],
+        "regions": [
+          "United States"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "emailReadyRequired": false
+      },
+      "status": "partial",
+      "requested": 2,
+      "evaluated": 4,
+      "matched": 0,
+      "updatedAt": 1791612872357,
+      "detail": "已选合格 0/2，已核验 4；证据不足者保持待核实。",
+      "nextPollAt": 1791612813015,
+      "candidates": [
+        {
+          "id": "tiktok:ritualesmayte331",
+          "handle": "ritualesmayte331",
+          "profileUrl": "",
+          "followers": 331181300,
+          "region": null,
+          "evidenceCount": 1
+        },
+        {
+          "id": "tiktok:stephencurry30",
+          "handle": "stephencurry30",
+          "profileUrl": "",
+          "followers": 308900000,
+          "region": null,
+          "evidenceCount": 1
+        },
+        {
+          "id": "tiktok:seed02678",
+          "handle": "seed02678",
+          "profileUrl": "",
+          "followers": 267848000,
+          "region": null,
+          "evidenceCount": 1
+        },
+        {
+          "id": "tiktok:voodoo_248",
+          "handle": "voodoo_248",
+          "profileUrl": "",
+          "followers": 248207800,
+          "region": null,
+          "evidenceCount": 1
+        }
+      ],
+      "failures": [],
+      "discovery": {
+        "platform": 1,
+        "keyword": 0,
+        "page": 0,
+        "cursor": "",
+        "seenCursors": [],
+        "seenUsers": [],
+        "pending": [],
+        "delivered": 100,
+        "done": true
+      },
+      "discoveryAttempts": 0,
+      "remoteStatus": "done",
+      "qualifying": 0
+    },
+    {
+      "id": "research-a8e3309218440957ace846fd",
+      "title": "YouTube 大学学习方法创作者",
+      "spec": {
+        "title": "YouTube 大学学习方法创作者",
+        "personaText": "college study methods, lecture note taking and exam revision creators",
+        "count": 1,
+        "platforms": [
+          "youtube"
+        ],
+        "regions": [
+          "United States"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "candidateBudget": 2,
+        "criteria": [
+          {
+            "id": "study_content",
+            "label": "有学习方法、课堂笔记整理或备考复习相关内容依据",
+            "required": true,
+            "basis": "text"
+          },
+          {
+            "id": "college_audience",
+            "label": "有明确面向大学生的内容依据，不要求创作者本人是在校生",
+            "required": true,
+            "basis": "text"
+          }
+        ],
+        "annotations": [
+          {
+            "id": "content_direction",
+            "label": "内容方向"
+          },
+          {
+            "id": "expression_style",
+            "label": "表达风格"
+          },
+          {
+            "id": "collaboration_fit",
+            "label": "适合的合作方式"
+          }
+        ]
+      },
+      "body": {
+        "requestId": "research-a8e3309218440957ace846fd",
+        "personaText": "college study methods, lecture note taking and exam revision creators",
+        "count": 2,
+        "platforms": [
+          "youtube"
+        ],
+        "regions": [
+          "United States"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "emailReadyRequired": false
+      },
+      "status": "partial",
+      "requested": 1,
+      "evaluated": 2,
+      "matched": 0,
+      "updatedAt": 1791613297872,
+      "detail": "已选合格 0/1，已核验 2；证据不足者保持待核实。",
+      "nextPollAt": 1791613195766,
+      "candidates": [
+        {
+          "id": "youtube:5minutecraftsyoutube",
+          "handle": "5minutecraftsyoutube",
+          "profileUrl": "",
+          "followers": 80600000,
+          "region": null,
+          "evidenceCount": 2
+        },
+        {
+          "id": "youtube:beatboxjcop",
+          "handle": "beatboxjcop",
+          "profileUrl": "",
+          "followers": 51000000,
+          "region": null,
+          "evidenceCount": 2
+        }
+      ],
+      "failures": [],
+      "exhaustive": true,
+      "discovery": {
+        "platform": 1,
+        "keyword": 0,
+        "page": 0,
+        "cursor": "",
+        "seenCursors": [],
+        "seenUsers": [],
+        "pending": [],
+        "delivered": 100,
+        "done": true
+      },
+      "discoveryAttempts": 0,
+      "remoteStatus": "done",
+      "qualifying": 0
+    },
+    {
+      "id": "research-11deee85612adbbdea75b835",
+      "title": "YouTube 大学生 AI 与效率工具创作者",
+      "spec": {
+        "title": "YouTube 大学生 AI 与效率工具创作者",
+        "personaText": "AI and productivity tool tutorials and reviews for college students, Notion and AI note-taking tools",
+        "count": 1,
+        "platforms": [
+          "youtube"
+        ],
+        "regions": [
+          "United States"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "candidateBudget": 2,
+        "criteria": [
+          {
+            "id": "ai_productivity_content",
+            "label": "有 AI 或效率工具教程、实测或评测相关内容依据",
+            "required": true,
+            "basis": "text"
+          },
+          {
+            "id": "college_audience",
+            "label": "有明确面向大学生的内容依据，不要求创作者本人是在校生",
+            "required": true,
+            "basis": "text"
+          },
+          {
+            "id": "notion_ai_notes_preference",
+            "label": "实际发布过讲解、演示、实测或评测 Notion 或 AI 笔记工具的内容；仅为优先项，缺少该内容不影响必选条件合格判定",
+            "required": false,
+            "basis": "text"
+          }
+        ],
+        "annotations": [
+          {
+            "id": "content_direction",
+            "label": "内容方向"
+          },
+          {
+            "id": "expression_style",
+            "label": "表达风格"
+          },
+          {
+            "id": "collaboration_fit",
+            "label": "适合的合作方式"
+          }
+        ]
+      },
+      "body": {
+        "requestId": "research-11deee85612adbbdea75b835",
+        "personaText": "AI and productivity tool tutorials and reviews for college students, Notion and AI note-taking tools",
+        "count": 2,
+        "platforms": [
+          "youtube"
+        ],
+        "regions": [
+          "United States"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "emailReadyRequired": false
+      },
+      "status": "partial",
+      "requested": 1,
+      "evaluated": 2,
+      "matched": 0,
+      "updatedAt": 1791613335684,
+      "detail": "已选合格 0/1，已核验 2；证据不足者保持待核实。",
+      "nextPollAt": 1791613301194,
+      "candidates": [
+        {
+          "id": "youtube:5minutecraftsyoutube",
+          "handle": "5minutecraftsyoutube",
+          "profileUrl": "",
+          "followers": 80600000,
+          "region": null,
+          "evidenceCount": 2
+        },
+        {
+          "id": "youtube:beatboxjcop",
+          "handle": "beatboxjcop",
+          "profileUrl": "",
+          "followers": 51000000,
+          "region": null,
+          "evidenceCount": 2
+        }
+      ],
+      "failures": [],
+      "exhaustive": true,
+      "discovery": {
+        "platform": 1,
+        "keyword": 0,
+        "page": 0,
+        "cursor": "",
+        "seenCursors": [],
+        "seenUsers": [],
+        "pending": [],
+        "delivered": 100,
+        "done": true
+      },
+      "discoveryAttempts": 0,
+      "remoteStatus": "done",
+      "qualifying": 0
+    },
+    {
+      "id": "research-06587523c43581240c9622f3",
+      "title": "Instagram 指定两账号数码产品适配核验",
+      "spec": {
+        "title": "Instagram 指定两账号数码产品适配核验",
+        "personaText": "Instagram accounts tylerlcrawford and valstechtalkk",
+        "instagram": {
+          "queries": [
+            "tylerlcrawford",
+            "valstechtalkk"
+          ],
+          "version": "v3"
+        },
+        "count": 2,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "candidateBudget": 2,
+        "criteria": [
+          {
+            "id": "specified_accounts",
+            "label": "仅限 Instagram 用户名 tylerlcrawford 或 valstechtalkk，其他账号不纳入核验",
+            "required": true,
+            "basis": "text"
+          },
+          {
+            "id": "personal_account",
+            "label": "个人创作者账号，而非品牌、商店或机构账号",
+            "required": true,
+            "basis": "either"
+          },
+          {
+            "id": "digital_content",
+            "label": "实际发布数码产品或消费电子相关内容，需有帖子内容依据",
+            "required": true,
+            "basis": "either"
+          },
+          {
+            "id": "glasses",
+            "label": "实际照片或视频中佩戴眼镜；仅为优先项，未观察到可靠视觉证据则待确认",
+            "required": false,
+            "basis": "visual"
+          },
+          {
+            "id": "geek_style",
+            "label": "实际穿搭、表达和折腾设备呈现理工宅气质；光讲数码不算，看不出来则待确认，仅为优先项",
+            "required": false,
+            "basis": "either"
+          }
+        ],
+        "annotations": [
+          {
+            "id": "content_direction",
+            "label": "内容方向"
+          },
+          {
+            "id": "style",
+            "label": "穿搭与表达风格"
+          },
+          {
+            "id": "glasses_status",
+            "label": "是否戴眼镜",
+            "values": [
+              "戴眼镜",
+              "未戴眼镜"
+            ]
+          }
+        ]
+      },
+      "body": {
+        "requestId": "research-06587523c43581240c9622f3",
+        "personaText": "Instagram accounts tylerlcrawford and valstechtalkk",
+        "count": 2,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "emailReadyRequired": false
+      },
+      "status": "partial",
+      "requested": 2,
+      "evaluated": 2,
+      "matched": 1,
+      "updatedAt": 1791613827249,
+      "detail": "已选合格 1/2，已核验 2；证据不足者保持待核实。",
+      "nextPollAt": 1791613773544,
+      "candidates": [
+        {
+          "id": "instagram:tylerlcrawford",
+          "handle": "tylerlcrawford",
+          "profileUrl": "https://www.instagram.com/tylerlcrawford/",
+          "followers": 31221,
+          "region": null,
+          "evidenceCount": 77,
+          "sourceErrors": []
+        },
+        {
+          "id": "instagram:tylercrawford118",
+          "handle": "tylercrawford118",
+          "profileUrl": "https://www.instagram.com/tylercrawford118/",
+          "followers": 847,
+          "region": null,
+          "evidenceCount": 203,
+          "sourceErrors": []
+        }
+      ],
+      "failures": [],
+      "discovery": {
+        "platform": 0,
+        "keyword": 1,
+        "page": 0,
+        "cursor": "",
+        "seenCursors": [],
+        "seenUsers": [
+          "tylerlcrawford",
+          "tylercrawford118",
+          "tylerjohncrawford",
+          "tyleracrawford",
+          "tyler.crawford03",
+          "tyler.crawford10",
+          "tylerr.crawfordd",
+          "tyler_crawford3",
+          "tylercrawford.11",
+          "tycrawford1134",
+          "tyler_crawford___",
+          "_tyler_crawford__",
+          "tylermatthewcrawford",
+          "tyler_crawford23",
+          "tyler_crawford05",
+          "_864tyler",
+          "tyler.crawford.3517",
+          "tyler_crawford8",
+          "tyler_crawford88",
+          "tyler_crawford45",
+          "crawford.tyler5",
+          "tyler.crawford.311056",
+          "crawfish_kid",
+          "moosermantough",
+          "tcrawww",
+          "tyler.crawford.79656",
+          "tylercrawford503",
+          "tylercrawford4hallcounty",
+          "tyler__clayton",
+          "trenler.o.c"
+        ],
+        "pending": [
+          {
+            "username": "tylerjohncrawford"
+          },
+          {
+            "username": "tyleracrawford"
+          },
+          {
+            "username": "tyler.crawford03"
+          },
+          {
+            "username": "tyler.crawford10"
+          },
+          {
+            "username": "tylerr.crawfordd"
+          },
+          {
+            "username": "tyler_crawford3"
+          },
+          {
+            "username": "tylercrawford.11"
+          },
+          {
+            "username": "tycrawford1134"
+          },
+          {
+            "username": "tyler_crawford___"
+          },
+          {
+            "username": "_tyler_crawford__"
+          },
+          {
+            "username": "tylermatthewcrawford"
+          },
+          {
+            "username": "tyler_crawford23"
+          },
+          {
+            "username": "tyler_crawford05"
+          },
+          {
+            "username": "_864tyler"
+          },
+          {
+            "username": "tyler.crawford.3517"
+          },
+          {
+            "username": "tyler_crawford8"
+          },
+          {
+            "username": "tyler_crawford88"
+          },
+          {
+            "username": "tyler_crawford45"
+          },
+          {
+            "username": "crawford.tyler5"
+          },
+          {
+            "username": "tyler.crawford.311056"
+          },
+          {
+            "username": "crawfish_kid"
+          },
+          {
+            "username": "moosermantough"
+          },
+          {
+            "username": "tcrawww"
+          },
+          {
+            "username": "tyler.crawford.79656"
+          },
+          {
+            "username": "tylercrawford503"
+          },
+          {
+            "username": "tylercrawford4hallcounty"
+          },
+          {
+            "username": "tyler__clayton"
+          },
+          {
+            "username": "trenler.o.c"
+          }
+        ],
+        "delivered": 2,
+        "done": true
+      },
+      "discoveryAttempts": 0,
+      "remoteStatus": "done",
+      "qualifying": 1
+    },
+    {
+      "id": "research-90121727019a7e5d682f5a65",
+      "title": "Instagram 欧美个人 KOC 眼镜与 geek 风筛选",
+      "spec": {
+        "title": "Instagram 欧美个人 KOC 眼镜与 geek 风筛选",
+        "personaText": "personal creators with nerdy geek style, tinkering hobbies and technical interests",
+        "instagram": {
+          "queries": [
+            "geek",
+            "nerd",
+            "tech tinkerer",
+            "maker"
+          ],
+          "version": "v3"
+        },
+        "count": 20,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [
+          "United States",
+          "Canada",
+          "United Kingdom",
+          "France",
+          "Germany"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "candidateBudget": 20,
+        "criteria": [
+          {
+            "id": "personal_koc",
+            "label": "个人分享型 KOC 账号，不是品牌、商店或机构账号",
+            "required": true,
+            "basis": "either"
+          },
+          {
+            "id": "white_self_identification",
+            "label": "本人公开明确自述为白人；仅采用本人自述，不从外貌、姓名或国籍推断；无明确自述则待确认",
+            "required": true,
+            "basis": "text"
+          },
+          {
+            "id": "wears_glasses",
+            "label": "实际观察到的照片或视频中佩戴眼镜，无可靠视觉证据则待确认",
+            "required": true,
+            "basis": "visual"
+          },
+          {
+            "id": "geek_style",
+            "label": "从实际穿搭、表达或折腾设备的内容中体现理工宅 geek 气质，光讲数码不算；无充分依据则待确认",
+            "required": true,
+            "basis": "either"
+          }
+        ],
+        "annotations": [
+          {
+            "id": "content_direction",
+            "label": "内容方向"
+          },
+          {
+            "id": "style",
+            "label": "穿搭与表达风格"
+          },
+          {
+            "id": "glasses",
+            "label": "眼镜佩戴情况"
+          },
+          {
+            "id": "account_identity",
+            "label": "账号身份类型"
+          },
+          {
+            "id": "self_identity",
+            "label": "本人公开自述身份"
+          }
+        ]
+      },
+      "body": {
+        "requestId": "research-90121727019a7e5d682f5a65",
+        "personaText": "personal creators with nerdy geek style, tinkering hobbies and technical interests",
+        "count": 20,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [
+          "United States",
+          "Canada",
+          "United Kingdom",
+          "France",
+          "Germany"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "emailReadyRequired": false
+      },
+      "status": "partial",
+      "requested": 20,
+      "evaluated": 20,
+      "matched": 0,
+      "updatedAt": 1791617358093,
+      "detail": "已选合格 0/20，已核验 20；证据不足者保持待核实。",
+      "nextPollAt": 0,
+      "candidates": [
+        {
+          "id": "instagram:geekdorl",
+          "handle": "geekdorl",
+          "profileUrl": "https://www.instagram.com/geekdorl/",
+          "followers": 7634,
+          "region": null,
+          "evidenceCount": 66,
+          "sourceErrors": []
+        },
+        {
+          "id": "instagram:geekedglasses.101",
+          "handle": "geekedglasses.101",
+          "profileUrl": "https://www.instagram.com/geekedglasses.101/",
+          "followers": 12,
+          "region": null,
+          "evidenceCount": 2,
+          "sourceErrors": []
+        },
+        {
+          "id": "instagram:geek.4kk",
+          "handle": "geek.4kk",
+          "profileUrl": "https://www.instagram.com/geek.4kk/",
+          "followers": 195,
+          "region": null,
+          "evidenceCount": 2,
+          "sourceErrors": []
+        },
+        {
+          "id": "instagram:unknown_user81112",
+          "handle": "unknown_user81112",
+          "profileUrl": "https://www.instagram.com/unknown_user81112/",
+          "followers": 345,
+          "region": null,
+          "evidenceCount": 2,
+          "sourceErrors": []
+        },
+        {
+          "id": "instagram:chilloutdh_",
+          "handle": "chilloutdh_",
+          "profileUrl": "https://www.instagram.com/chilloutdh_/",
+          "followers": 281,
+          "region": null,
+          "evidenceCount": 54,
+          "sourceErrors": []
+        },
+        {
+          "id": "instagram:geekman545",
+          "handle": "geekman545",
+          "profileUrl": "https://www.instagram.com/geekman545/",
+          "followers": 58,
+          "region": null,
+          "evidenceCount": 3,
+          "sourceErrors": []
+        },
+        {
+          "id": "instagram:geek",
+          "handle": "geek",
+          "profileUrl": "https://www.instagram.com/geek/",
+          "followers": 0,
+          "region": null,
+          "evidenceCount": 3,
+          "sourceErrors": []
+        },
+        {
+          "id": "instagram:geekedwitchrome_",
+          "handle": "geekedwitchrome_",
+          "profileUrl": "https://www.instagram.com/geekedwitchrome_/",
+          "followers": 762,
+          "region": null,
+          "evidenceCount": 8,
+          "sourceErrors": []
+        },
+        {
+          "id": "instagram:geekedggoat._",
+          "handle": "geekedggoat._",
+          "profileUrl": "https://www.instagram.com/geekedggoat._/",
+          "followers": 2531,
+          "region": null,
+          "evidenceCount": 9,
+          "sourceErrors": []
+        },
+        {
+          "id": "instagram:geekprincess7",
+          "handle": "geekprincess7",
+          "profileUrl": "https://www.instagram.com/geekprincess7/",
+          "followers": 737,
+          "region": null,
+          "evidenceCount": 3,
+          "sourceErrors": []
+        },
+        {
+          "id": "instagram:_.geekland",
+          "handle": "_.geekland",
+          "profileUrl": "https://www.instagram.com/_.geekland/",
+          "followers": 424,
+          "region": null,
+          "evidenceCount": 2,
+          "sourceErrors": []
+        },
+        {
+          "id": "instagram:geekbabytwan",
+          "handle": "geekbabytwan",
+          "profileUrl": "https://www.instagram.com/geekbabytwan/",
+          "followers": 13057,
+          "region": null,
+          "evidenceCount": 26,
+          "sourceErrors": []
+        },
+        {
+          "id": "instagram:geeked_s1k",
+          "handle": "geeked_s1k",
+          "profileUrl": "https://www.instagram.com/geeked_s1k/",
+          "followers": 38623,
+          "region": null,
+          "evidenceCount": 59,
+          "sourceErrors": [
+            "帖子 DcWNy1-DihK 详情身份不一致，保留列表来源",
+            "帖子 DcOjOnUO4if 详情身份不一致，保留列表来源"
+          ]
+        },
+        {
+          "id": "instagram:geeked_dollyyy",
+          "handle": "geeked_dollyyy",
+          "profileUrl": "https://www.instagram.com/geeked_dollyyy/",
+          "followers": 3464,
+          "region": null,
+          "evidenceCount": 2,
+          "sourceErrors": []
+        },
+        {
+          "id": "instagram:geeked_god67",
+          "handle": "geeked_god67",
+          "profileUrl": "https://www.instagram.com/geeked_god67/",
+          "followers": 424,
+          "region": null,
+          "evidenceCount": 2,
+          "sourceErrors": []
+        },
+        {
+          "id": "instagram:geekedbratt_00",
+          "handle": "geekedbratt_00",
+          "profileUrl": "https://www.instagram.com/geekedbratt_00/",
+          "followers": 184,
+          "region": null,
+          "evidenceCount": 2,
+          "sourceErrors": []
+        },
+        {
+          "id": "instagram:_pr3ttylilgeekedgirl",
+          "handle": "_pr3ttylilgeekedgirl",
+          "profileUrl": "https://www.instagram.com/_pr3ttylilgeekedgirl/",
+          "followers": 648,
+          "region": null,
+          "evidenceCount": 2,
+          "sourceErrors": []
+        },
+        {
+          "id": "instagram:geekderella",
+          "handle": "geekderella",
+          "profileUrl": "https://www.instagram.com/geekderella/",
+          "followers": 28208,
+          "region": null,
+          "evidenceCount": 3,
+          "sourceErrors": []
+        },
+        {
+          "id": "instagram:geek_in_miami",
+          "handle": "geek_in_miami",
+          "profileUrl": "https://www.instagram.com/geek_in_miami/",
+          "followers": 25499,
+          "region": null,
+          "evidenceCount": 51,
+          "sourceErrors": []
+        },
+        {
+          "id": "instagram:ily.g33kette",
+          "handle": "ily.g33kette",
+          "profileUrl": "https://www.instagram.com/ily.g33kette/",
+          "followers": 70,
+          "region": null,
+          "evidenceCount": 3,
+          "sourceErrors": []
+        }
+      ],
+      "failures": [],
+      "discovery": {
+        "platform": 0,
+        "keyword": 1,
+        "page": 0,
+        "cursor": "",
+        "seenCursors": [],
+        "seenUsers": [
+          "geekdorl",
+          "geekedglasses.101",
+          "geek.4kk",
+          "unknown_user81112",
+          "chilloutdh_",
+          "geekman545",
+          "geek",
+          "geekedwitchrome_",
+          "geekedggoat._",
+          "geekprincess7",
+          "_.geekland",
+          "geekbabytwan",
+          "geeked_s1k",
+          "geeked_dollyyy",
+          "geeked_god67",
+          "geekedbratt_00",
+          "_pr3ttylilgeekedgirl",
+          "geekderella",
+          "geek_in_miami",
+          "ily.g33kette",
+          "geekycorner",
+          "geekedtilltomorrow",
+          "geeked_0ffx",
+          "geekvsfan",
+          "lil.geeked.bitch",
+          "geekshareplus",
+          "drqhardy",
+          "multiversogeek.br",
+          "unknown_geektay",
+          "geekdom.qa"
+        ],
+        "pending": [
+          {
+            "username": "geekycorner"
+          },
+          {
+            "username": "geekedtilltomorrow"
+          },
+          {
+            "username": "geeked_0ffx"
+          },
+          {
+            "username": "geekvsfan"
+          },
+          {
+            "username": "lil.geeked.bitch"
+          },
+          {
+            "username": "geekshareplus"
+          },
+          {
+            "username": "drqhardy"
+          },
+          {
+            "username": "multiversogeek.br"
+          },
+          {
+            "username": "unknown_geektay"
+          },
+          {
+            "username": "geekdom.qa"
+          }
+        ],
+        "delivered": 20,
+        "done": true
+      },
+      "discoveryAttempts": 0,
+      "remoteStatus": "done",
+      "qualifying": 0
+    },
+    {
+      "id": "research-bab604288a59acc55f2788a1",
+      "title": "Instagram valstechtalkk 单账号纠正核验",
+      "spec": {
+        "title": "Instagram valstechtalkk 单账号纠正核验",
+        "personaText": "Instagram account valstechtalkk",
+        "instagram": {
+          "queries": [
+            "valstechtalkk"
+          ],
+          "version": "v3"
+        },
+        "count": 1,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "candidateBudget": 1,
+        "criteria": [
+          {
+            "id": "exact_username",
+            "label": "账号用户名必须精确为 valstechtalkk；相似用户名不可替代，若未找到则报告来源缺额，不核验其他人",
+            "required": true,
+            "basis": "text"
+          },
+          {
+            "id": "personal_account",
+            "label": "个人创作者账号，不是品牌、商店或机构账号",
+            "required": true,
+            "basis": "either"
+          },
+          {
+            "id": "digital_content",
+            "label": "实际发布数码产品或消费电子相关内容，须有内容依据",
+            "required": true,
+            "basis": "either"
+          },
+          {
+            "id": "glasses_preference",
+            "label": "实际观察到的照片或视频中戴眼镜，仅为优先项，视觉证据不足则待确认",
+            "required": false,
+            "basis": "visual"
+          },
+          {
+            "id": "geek_preference",
+            "label": "实际穿搭、表达或折腾设备呈现理工宅 geek 气质，光讲数码不算；仅为优先项，看不出来则待确认",
+            "required": false,
+            "basis": "either"
+          }
+        ],
+        "annotations": [
+          {
+            "id": "content_direction",
+            "label": "内容方向"
+          },
+          {
+            "id": "style",
+            "label": "穿搭与表达风格"
+          },
+          {
+            "id": "glasses",
+            "label": "眼镜佩戴情况"
+          }
+        ]
+      },
+      "body": {
+        "requestId": "research-bab604288a59acc55f2788a1",
+        "personaText": "Instagram account valstechtalkk",
+        "count": 1,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "emailReadyRequired": false
+      },
+      "status": "completed",
+      "requested": 1,
+      "evaluated": 1,
+      "matched": 1,
+      "updatedAt": 1791617631331,
+      "detail": "已选合格 1/1，已核验 1；证据不足者保持待核实。",
+      "nextPollAt": 0,
+      "candidates": [
+        {
+          "id": "instagram:valstechtalkk",
+          "handle": "valstechtalkk",
+          "profileUrl": "https://www.instagram.com/valstechtalkk/",
+          "followers": 39660,
+          "region": null,
+          "evidenceCount": 52,
+          "sourceErrors": []
+        }
+      ],
+      "failures": [],
+      "discovery": {
+        "platform": 1,
+        "keyword": 0,
+        "page": 0,
+        "cursor": "",
+        "seenCursors": [],
+        "seenUsers": [
+          "valstechtalkk"
+        ],
+        "pending": [],
+        "delivered": 1,
+        "done": true
+      },
+      "discoveryAttempts": 0,
+      "remoteStatus": "done",
+      "qualifying": 1
+    }
+  ],
+  "assistance": [
+    {
+      "id": "657c438c-c71d-4cfa-90fd-0af487016bd2",
+      "taskId": "research-90121727019a7e5d682f5a65",
+      "creatorId": "instagram:geekman545",
+      "reason": "候选 @geekman545 主页显示“This profile is private”，并要求登录才能查看照片和视频，无法核验个人分享内容、眼镜或 geek 风格。请通过同一桌面协助；不要关注或发送请求。当前可见粉丝原文为“58 followers”，简介无明确白人自述或本人所在地声明。",
+      "status": "done"
+    },
+    {
+      "id": "b14a0657-5f26-4a10-99ba-6a7436b1bf21",
+      "taskId": "research-90121727019a7e5d682f5a65",
+      "creatorId": "instagram:geek",
+      "reason": "@geek 主页为私密账号，页面明确要求已关注者登录才能查看照片和视频，无法核验个人分享内容、实际戴眼镜或 geek 风格。请通过同一桌面协助处理登录（仅限已有合法访问权限；无需关注或联系账号）。当前主页显示 0 followers，且未见本人族裔或所在地自述。",
+      "status": "done"
+    },
+    {
+      "id": "054c0fe8-0451-4cc8-b5d0-2e82c9ec6e00",
+      "taskId": "research-90121727019a7e5d682f5a65",
+      "creatorId": "instagram:geekprincess7",
+      "reason": "@geekprincess7 主页显示“This profile is private”，并要求登录后查看照片和视频；当前无法核验个人分享内容、眼镜及 geek 风格。请通过同一浏览器桌面协助，如无已有合法访问权限则保持待确认，不需关注或联系账号。当前主页显示 736 followers。",
+      "status": "done"
+    },
+    {
+      "id": "2fbc7bb9-b7fa-4673-8943-3d6b2c513bc0",
+      "taskId": "research-90121727019a7e5d682f5a65",
+      "creatorId": "instagram:geekderella",
+      "reason": "访问 @geekderella 主页被重定向至 Instagram 登录页，无法看到本人主页或帖子。请通过同一 noVNC 桌面协助完成登录；当前暂停核验。现有简介不足以确认个人 KOC、白人本人自述、佩戴眼镜或 geek 风格，登录页宣传图不能作为该创作者证据。",
+      "status": "done"
+    },
+    {
+      "id": "ebfb4e50-8d6c-416b-b9eb-d08110326a55",
+      "taskId": "research-90121727019a7e5d682f5a65",
+      "creatorId": "instagram:geek_in_miami",
+      "reason": "当前候选 geek_in_miami 的原帖被 Instagram 登录/注册弹窗遮挡，截图中无法观察视频人物、眼镜或穿搭。请在同一浏览器桌面协助恢复公开帖的可见内容；恢复后需重新观察核验。已有简介与帖子文字可支持个人游戏分享账号，但没有白人身份明确自述或充分 geek 风证据。",
+      "status": "done"
+    },
+    {
+      "id": "2912333b-58c1-4093-9542-b8ab828b5966",
+      "taskId": "research-90121727019a7e5d682f5a65",
+      "creatorId": "instagram:ily.g33kette",
+      "reason": "访问候选 @ily.g33kette 的本人主页被重定向至 Instagram 登录页，无法查看本人帖子或视觉内容。请通过同一 noVNC 桌面协助登录；现有资料还标记该账号为私密账号，登录后也可能无法访问帖子。暂停浏览核验，不会自动输入凭据或申请关注。",
+      "status": "done"
+    },
+    {
+      "id": "71f20f1a-0225-4469-a7b0-cc6d5dca3d67",
+      "taskId": "research-bab604288a59acc55f2788a1",
+      "creatorId": "instagram:valstechtalkk",
+      "reason": "valstechtalkk 原帖出现 Instagram 注册/登录弹窗，遮挡视频人物与穿搭，无法可靠核验戴眼镜及 geek 气质。请通过同一桌面协助解除遮挡或访问限制；我不会输入登录凭据。已有用户名、简介和数码帖子文字证据可保留。",
+      "status": "done"
+    }
+  ],
+  "waveCalls": [
+    {
+      "path": "/discover/db?platform=tiktok&limit=100&sort=followers_desc",
+      "status": 200,
+      "createdAt": 1791612810632,
+      "finishedAt": 1791612811999,
+      "responseKeys": [
+        "summary",
+        "tiers",
+        "creators",
+        "strategy",
+        "screening",
+        "scraping",
+        "collecting",
+        "latestCreatorSearchTaskId",
+        "latestSearchFunnel",
+        "target",
+        "fulfilled",
+        "campaignState"
+      ],
+      "pool": {
+        "count": 100,
+        "range": {
+          "min": 5000000,
+          "max": 331181300
+        },
+        "profiles": 0
+      }
+    },
+    {
+      "path": "/discover/db?platform=youtube&limit=100&sort=followers_desc",
+      "status": 200,
+      "createdAt": 1791613193525,
+      "finishedAt": 1791613194755,
+      "responseKeys": [
+        "summary",
+        "tiers",
+        "creators",
+        "strategy",
+        "screening",
+        "scraping",
+        "collecting",
+        "latestCreatorSearchTaskId",
+        "latestSearchFunnel",
+        "target",
+        "fulfilled",
+        "campaignState"
+      ],
+      "pool": {
+        "count": 100,
+        "range": {
+          "min": 5280000,
+          "max": 80600000
+        },
+        "profiles": 0
+      }
+    },
+    {
+      "path": "/discover/db?platform=youtube&limit=100&sort=followers_desc",
+      "status": 200,
+      "createdAt": 1791613297875,
+      "finishedAt": 1791613300183,
+      "responseKeys": [
+        "summary",
+        "tiers",
+        "creators",
+        "strategy",
+        "screening",
+        "scraping",
+        "collecting",
+        "latestCreatorSearchTaskId",
+        "latestSearchFunnel",
+        "target",
+        "fulfilled",
+        "campaignState"
+      ],
+      "pool": {
+        "count": 100,
+        "range": {
+          "min": 5280000,
+          "max": 80600000
+        },
+        "profiles": 0
+      }
+    },
+    {
+      "path": "/instagram/v3/search_users?query=tylerlcrawford",
+      "status": 200,
+      "createdAt": 1791613649216,
+      "finishedAt": 1791613652230,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=tylerlcrawford",
+      "status": 200,
+      "createdAt": 1791613654023,
+      "finishedAt": 1791613659891,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_posts?user_id=48426799147&count=12",
+      "status": 200,
+      "createdAt": 1791613659897,
+      "finishedAt": 1791613668796,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_posts?user_id=48426799147&count=12&max_id=3997965466461395273_48426799147",
+      "status": 200,
+      "createdAt": 1791613668808,
+      "finishedAt": 1791613679509,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DcZxbpBAJDI",
+      "status": 200,
+      "createdAt": 1791613679520,
+      "finishedAt": 1791613681765,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DZoHkAvAbm5",
+      "status": 200,
+      "createdAt": 1791613681768,
+      "finishedAt": 1791613687560,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=tylercrawford118",
+      "status": 200,
+      "createdAt": 1791613742243,
+      "finishedAt": 1791613749969,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_posts?user_id=1451272281&count=12",
+      "status": 200,
+      "createdAt": 1791613749979,
+      "finishedAt": 1791613757018,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_posts?user_id=1451272281&count=12&max_id=3690010286682182188_1451272281",
+      "status": 200,
+      "createdAt": 1791613757066,
+      "finishedAt": 1791613763047,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DOUs-OpDB6L",
+      "status": 200,
+      "createdAt": 1791613763057,
+      "finishedAt": 1791613766248,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DMmcu6JM9kK",
+      "status": 200,
+      "createdAt": 1791613766256,
+      "finishedAt": 1791613772488,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v3/search_users?query=geek",
+      "status": 200,
+      "createdAt": 1791614011840,
+      "finishedAt": 1791614015860,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=geekdorl",
+      "status": 200,
+      "createdAt": 1791614017445,
+      "finishedAt": 1791614020717,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_posts?user_id=65416204542&count=12",
+      "status": 200,
+      "createdAt": 1791614020721,
+      "finishedAt": 1791614024091,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_posts?user_id=65416204542&count=12&max_id=3995816280938301644_65416204542",
+      "status": 200,
+      "createdAt": 1791614024094,
+      "finishedAt": 1791614031140,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DeQHJoyDKNV",
+      "status": 200,
+      "createdAt": 1791614031144,
+      "finishedAt": 1791614033565,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DeHzXqSIA4i",
+      "status": 200,
+      "createdAt": 1791614033572,
+      "finishedAt": 1791614036602,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=geekedglasses.101",
+      "status": 200,
+      "createdAt": 1791614067871,
+      "finishedAt": 1791614070542,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_posts?user_id=31167608784&count=12",
+      "status": 200,
+      "createdAt": 1791614070549,
+      "finishedAt": 1791614074915,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=geek.4kk",
+      "status": 200,
+      "createdAt": 1791614104489,
+      "finishedAt": 1791614106593,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_posts?user_id=31072854260&count=12",
+      "status": 200,
+      "createdAt": 1791614106600,
+      "finishedAt": 1791614109384,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=unknown_user81112",
+      "status": 200,
+      "createdAt": 1791614133506,
+      "finishedAt": 1791614135798,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_posts?user_id=72297138196&count=12",
+      "status": 200,
+      "createdAt": 1791614135799,
+      "finishedAt": 1791614141156,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=chilloutdh_",
+      "status": 200,
+      "createdAt": 1791614175542,
+      "finishedAt": 1791614180371,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_posts?user_id=55833591728&count=12",
+      "status": 200,
+      "createdAt": 1791614180375,
+      "finishedAt": 1791614185283,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DZu-T11EffR",
+      "status": 200,
+      "createdAt": 1791614185306,
+      "finishedAt": 1791614187978,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DXVD-CeEZnE",
+      "status": 200,
+      "createdAt": 1791614187984,
+      "finishedAt": 1791614190647,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=geekman545",
+      "status": 200,
+      "createdAt": 1791614228939,
+      "finishedAt": 1791614233661,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=geek",
+      "status": 200,
+      "createdAt": 1791614263560,
+      "finishedAt": 1791614265842,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v3/search_users?query=valstechtalkk",
+      "status": 200,
+      "createdAt": 1791614266169,
+      "finishedAt": 1791614269150,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=geekedwitchrome_",
+      "status": 200,
+      "createdAt": 1791614269556,
+      "finishedAt": 1791614271781,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_posts?user_id=60282147025&count=12",
+      "status": 200,
+      "createdAt": 1791614271806,
+      "finishedAt": 1791614278470,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DZlQBkriYZP",
+      "status": 200,
+      "createdAt": 1791614278476,
+      "finishedAt": 1791614281666,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=valstechtalkk",
+      "status": 200,
+      "createdAt": 1791614281991,
+      "finishedAt": 1791614284716,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_posts?user_id=10561673222&count=12",
+      "status": 200,
+      "createdAt": 1791614284721,
+      "finishedAt": 1791614306195,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_posts?user_id=10561673222&count=12&max_id=3995072639892408967_10561673222",
+      "status": 200,
+      "createdAt": 1791614306209,
+      "finishedAt": 1791614310857,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DeQfBbyKmOR",
+      "status": 200,
+      "createdAt": 1791614310865,
+      "finishedAt": 1791614314013,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DeNSuNkqMjQ",
+      "status": 200,
+      "createdAt": 1791614314015,
+      "finishedAt": 1791614316894,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=geekedggoat._",
+      "status": 200,
+      "createdAt": 1791614317617,
+      "finishedAt": 1791614321276,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_posts?user_id=72105151348&count=12",
+      "status": 200,
+      "createdAt": 1791614321280,
+      "finishedAt": 1791614326127,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v2/fetch_post_info?code_or_url=Dcea3d3maaH",
+      "status": 200,
+      "createdAt": 1791614326131,
+      "finishedAt": 1791614329281,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=geekprincess7",
+      "status": 200,
+      "createdAt": 1791614330980,
+      "finishedAt": 1791614334705,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=_.geekland",
+      "status": 200,
+      "createdAt": 1791614336523,
+      "finishedAt": 1791614338691,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_posts?user_id=59136718277&count=12",
+      "status": 200,
+      "createdAt": 1791614338698,
+      "finishedAt": 1791614345486,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=geekbabytwan",
+      "status": 200,
+      "createdAt": 1791614347386,
+      "finishedAt": 1791614350237,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_posts?user_id=57760741780&count=12",
+      "status": 200,
+      "createdAt": 1791614350242,
+      "finishedAt": 1791614353713,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DYYBuvkj20u",
+      "status": 200,
+      "createdAt": 1791614353723,
+      "finishedAt": 1791614358880,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DWxOP_mkcGA",
+      "status": 200,
+      "createdAt": 1791614358883,
+      "finishedAt": 1791614363371,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=geeked_s1k",
+      "status": 200,
+      "createdAt": 1791614365400,
+      "finishedAt": 1791614371350,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_posts?user_id=61248926528&count=12",
+      "status": 200,
+      "createdAt": 1791614371354,
+      "finishedAt": 1791614393534,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_posts?user_id=61248926528&count=12&max_id=3972444183752424850_61248926528",
+      "status": 200,
+      "createdAt": 1791614393542,
+      "finishedAt": 1791614401083,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DcWNy1-DihK",
+      "status": 200,
+      "createdAt": 1791614401095,
+      "finishedAt": 1791614404292,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DcOjOnUO4if",
+      "status": 200,
+      "createdAt": 1791614404294,
+      "finishedAt": 1791614409734,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=geeked_dollyyy",
+      "status": 200,
+      "createdAt": 1791614410963,
+      "finishedAt": 1791614413103,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_posts?user_id=65208875214&count=12",
+      "status": 200,
+      "createdAt": 1791614413106,
+      "finishedAt": 1791614414849,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=geeked_god67",
+      "status": 200,
+      "createdAt": 1791614416447,
+      "finishedAt": 1791614419421,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_posts?user_id=58251057507&count=12",
+      "status": 200,
+      "createdAt": 1791614419424,
+      "finishedAt": 1791614430418,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=geekedbratt_00",
+      "status": 200,
+      "createdAt": 1791614431800,
+      "finishedAt": 1791614436366,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_posts?user_id=76653667334&count=12",
+      "status": 200,
+      "createdAt": 1791614436369,
+      "finishedAt": 1791614441763,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=_pr3ttylilgeekedgirl",
+      "status": 200,
+      "createdAt": 1791614443032,
+      "finishedAt": 1791614445329,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_posts?user_id=72811097424&count=12",
+      "status": 200,
+      "createdAt": 1791614445331,
+      "finishedAt": 1791614449324,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=geekderella",
+      "status": 200,
+      "createdAt": 1791614450698,
+      "finishedAt": 1791614454562,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_posts?user_id=1441807835&count=12",
+      "status": 200,
+      "createdAt": 1791614454568,
+      "finishedAt": 1791614456655,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=geek_in_miami",
+      "status": 200,
+      "createdAt": 1791614458272,
+      "finishedAt": 1791614461182,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_posts?user_id=9282048867&count=12",
+      "status": 200,
+      "createdAt": 1791614461186,
+      "finishedAt": 1791614467737,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_posts?user_id=9282048867&count=12&max_id=4000126170109863134_9282048867",
+      "status": 200,
+      "createdAt": 1791614467744,
+      "finishedAt": 1791614473730,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DeSD44aJM1_",
+      "status": 200,
+      "createdAt": 1791614473739,
+      "finishedAt": 1791614477899,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DeQO6mSs2XI",
+      "status": 200,
+      "createdAt": 1791614477902,
+      "finishedAt": 1791614482229,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=ily.g33kette",
+      "status": 200,
+      "createdAt": 1791614484237,
+      "finishedAt": 1791614487072,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    }
+  ],
+  "deliveries": [
+    {
+      "id": "report-research-7e157f91534c9f8f156d257d-53dc75d0e2ad9884",
+      "subject": "research-7e157f91534c9f8f156d257d",
+      "revision": {
+        "status": "partial",
+        "matched": 0,
+        "evaluated": 4,
+        "results": [
+          [
+            "research-7e157f91534c9f8f156d257d|tiktok:ritualesmayte331",
+            1791612827781
+          ],
+          [
+            "research-7e157f91534c9f8f156d257d|tiktok:stephencurry30",
+            1791612843326
+          ],
+          [
+            "research-7e157f91534c9f8f156d257d|tiktok:seed02678",
+            1791612856785
+          ],
+          [
+            "research-7e157f91534c9f8f156d257d|tiktok:voodoo_248",
+            1791612872354
+          ]
+        ]
+      },
+      "createdAt": 1791612872357
+    },
+    {
+      "id": "report-research-a8e3309218440957ace846fd-e3983f752aa5541c",
+      "subject": "research-a8e3309218440957ace846fd",
+      "revision": {
+        "status": "partial",
+        "matched": 0,
+        "evaluated": 2,
+        "results": [
+          [
+            "research-a8e3309218440957ace846fd|youtube:5minutecraftsyoutube",
+            1791613224375
+          ],
+          [
+            "research-a8e3309218440957ace846fd|youtube:beatboxjcop",
+            1791613297870
+          ]
+        ]
+      },
+      "createdAt": 1791613297873
+    },
+    {
+      "id": "report-research-11deee85612adbbdea75b835-fd118feb87c3272c",
+      "subject": "research-11deee85612adbbdea75b835",
+      "revision": {
+        "status": "partial",
+        "matched": 0,
+        "evaluated": 2,
+        "results": [
+          [
+            "research-11deee85612adbbdea75b835|youtube:5minutecraftsyoutube",
+            1791613317442
+          ],
+          [
+            "research-11deee85612adbbdea75b835|youtube:beatboxjcop",
+            1791613335676
+          ]
+        ]
+      },
+      "createdAt": 1791613335685
+    },
+    {
+      "id": "report-campaign-9d63bb971fa097c467999073-33e0fae56690b428",
+      "subject": "campaign-9d63bb971fa097c467999073",
+      "revision": {
+        "status": "partial",
+        "selections": [],
+        "results": [
+          [
+            "research-a8e3309218440957ace846fd|youtube:5minutecraftsyoutube",
+            1791613224375
+          ],
+          [
+            "research-a8e3309218440957ace846fd|youtube:beatboxjcop",
+            1791613297870
+          ],
+          [
+            "research-11deee85612adbbdea75b835|youtube:5minutecraftsyoutube",
+            1791613317442
+          ],
+          [
+            "research-11deee85612adbbdea75b835|youtube:beatboxjcop",
+            1791613335676
+          ]
+        ]
+      },
+      "createdAt": 1791613335688
+    },
+    {
+      "id": "report-research-06587523c43581240c9622f3-89005babe3c42010",
+      "subject": "research-06587523c43581240c9622f3",
+      "revision": {
+        "status": "partial",
+        "matched": 1,
+        "evaluated": 2,
+        "results": [
+          [
+            "research-06587523c43581240c9622f3|instagram:tylerlcrawford",
+            1791613741976
+          ],
+          [
+            "research-06587523c43581240c9622f3|instagram:tylercrawford118",
+            1791613826654
+          ]
+        ]
+      },
+      "createdAt": 1791613827405
+    },
+    {
+      "id": "report-research-90121727019a7e5d682f5a65-4a37b591b8653424",
+      "subject": "research-90121727019a7e5d682f5a65",
+      "revision": {
+        "status": "partial",
+        "matched": 0,
+        "evaluated": 20,
+        "results": [
+          [
+            "research-90121727019a7e5d682f5a65|instagram:geekdorl",
+            1791614067138
+          ],
+          [
+            "research-90121727019a7e5d682f5a65|instagram:geekedglasses.101",
+            1791614103535
+          ],
+          [
+            "research-90121727019a7e5d682f5a65|instagram:geek.4kk",
+            1791614132430
+          ],
+          [
+            "research-90121727019a7e5d682f5a65|instagram:unknown_user81112",
+            1791614174750
+          ],
+          [
+            "research-90121727019a7e5d682f5a65|instagram:chilloutdh_",
+            1791614228077
+          ],
+          [
+            "research-90121727019a7e5d682f5a65|instagram:geekman545",
+            1791615284514
+          ],
+          [
+            "research-90121727019a7e5d682f5a65|instagram:geek",
+            1791615531324
+          ],
+          [
+            "research-90121727019a7e5d682f5a65|instagram:geekedwitchrome_",
+            1791615576718
+          ],
+          [
+            "research-90121727019a7e5d682f5a65|instagram:geekedggoat._",
+            1791615609274
+          ],
+          [
+            "research-90121727019a7e5d682f5a65|instagram:geekprincess7",
+            1791615887793
+          ],
+          [
+            "research-90121727019a7e5d682f5a65|instagram:_.geekland",
+            1791615921548
+          ],
+          [
+            "research-90121727019a7e5d682f5a65|instagram:geekbabytwan",
+            1791615979345
+          ],
+          [
+            "research-90121727019a7e5d682f5a65|instagram:geeked_s1k",
+            1791616034646
+          ],
+          [
+            "research-90121727019a7e5d682f5a65|instagram:geeked_dollyyy",
+            1791616063902
+          ],
+          [
+            "research-90121727019a7e5d682f5a65|instagram:geeked_god67",
+            1791616088825
+          ],
+          [
+            "research-90121727019a7e5d682f5a65|instagram:geekedbratt_00",
+            1791616127192
+          ],
+          [
+            "research-90121727019a7e5d682f5a65|instagram:_pr3ttylilgeekedgirl",
+            1791616158709
+          ],
+          [
+            "research-90121727019a7e5d682f5a65|instagram:geekderella",
+            1791616631737
+          ],
+          [
+            "research-90121727019a7e5d682f5a65|instagram:geek_in_miami",
+            1791617263714
+          ],
+          [
+            "research-90121727019a7e5d682f5a65|instagram:ily.g33kette",
+            1791617357318
+          ]
+        ]
+      },
+      "createdAt": 1791617358322
+    },
+    {
+      "id": "report-research-bab604288a59acc55f2788a1-e0f02a520f4a09ea",
+      "subject": "research-bab604288a59acc55f2788a1",
+      "revision": {
+        "status": "completed",
+        "matched": 1,
+        "evaluated": 1,
+        "results": [
+          [
+            "research-bab604288a59acc55f2788a1|instagram:valstechtalkk",
+            1791617630987
+          ]
+        ]
+      },
+      "createdAt": 1791617631536
+    }
+  ]
+}

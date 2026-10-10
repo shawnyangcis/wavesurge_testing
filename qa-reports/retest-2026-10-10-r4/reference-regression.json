@@ -1,0 +1,23 @@
+{
+  "source": "Read-only same-current-real-data causal replay through preserved R3 implementation; no persistent mutation or external call",
+  "rows": [
+    {
+      "handle": "tylerlcrawford",
+      "numericVerdict": "match",
+      "oldReferenceCount": 1,
+      "oldReferences": [
+        "5ece0499197951eedaffbf5f"
+      ],
+      "currentReferenceCount": 75
+    },
+    {
+      "handle": "valstechtalkk",
+      "numericVerdict": "match",
+      "oldReferenceCount": 1,
+      "oldReferences": [
+        "e9ece5c3e79f7621d0c86e67"
+      ],
+      "currentReferenceCount": 49
+    }
+  ]
+}

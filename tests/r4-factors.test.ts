@@ -1,0 +1,38 @@
+import { afterEach, expect, it, vi } from 'vitest';
+import { Store } from '../src/server/store.ts';
+import { ResearchEngine } from '../src/server/research.ts';
+import { repairFactorReferences } from '../src/server/repair.ts';
+import { factorEvidenceIds } from '../src/server/verdict.ts';
+import { normalizeCreator, profileMetricsEvidence } from '../src/server/wave.ts';
+import type { Creator, Result } from '../src/shared/research.ts';
+const stores: Store[] = []; afterEach(() => stores.splice(0).forEach(store => store.close()));
+const creator = (): Creator => normalizeCreator({ platform: 'instagram', handle: 'alpha', followerCount: 20000, region: 'Canada', bio: 'Technology' }, 123);
+it('真实数值字段有独立来源；粉丝、国家引用不互相借用，不接受帖子或错数值', () => {
+ const c = creator(); expect(factorEvidenceIds(c, 'followers')).toHaveLength(1); expect(factorEvidenceIds(c, 'country')).toHaveLength(1);
+ const metric = c.evidence.at(-1)!; expect(metric).toMatchObject({ kind: 'profile_metrics', provider: 'wavesurge-fields', capturedAt: 123 });
+ c.evidence.push({ ...metric, id: 'bad-json', text: '{' }, { ...metric, id: 'other-count', text: '{"followerCount":30000}' }, { ...metric, id: 'post', kind: 'post' }, { ...metric, id: 'other-url', url: 'https://instagram.com/other/' }, { ...metric, id: 'browser', provider: 'headed-chromium', text: '20K followers' });
+ c.facts = { conflicts: [], followers: { rawValue: '20K followers', min: 19950, max: 20099, evidenceIds: ['browser', 'missing'] } };
+ expect(factorEvidenceIds(c, 'followers')).toEqual(['browser', metric.id]);
+ c.evidence.push({ ...metric, id: 'actual-profile', kind: 'profile', text: '20,000 followers in Canada' });
+ expect(factorEvidenceIds(c, 'followers')).toContain('actual-profile'); expect(factorEvidenceIds(c, 'country')).toContain('actual-profile');
+ expect(factorEvidenceIds({...c,region:'US',evidence:[{...metric,id:'music',kind:'profile',text:'Music and usability reviews'}]},'country')).toEqual([]);
+ expect(factorEvidenceIds({ ...c, followers: null, region: null, facts: undefined }, 'followers')).toEqual([]); expect(factorEvidenceIds({ ...c, region: null, facts: undefined }, 'country')).toEqual([]);
+ for (const raw of [{}, { followerCount: '20000', region: '' }, { followerCount: NaN }, { followerCount: 1, region: 'wrong' }]) expect(profileMetricsEvidence({ ...c, raw }, 1)).toBeUndefined();
+ expect(profileMetricsEvidence({ ...c, profileUrl: '' }, 1)).toBeUndefined();
+});
+it('引用修复保留所有原来源、判定、选择、事实和画像，记录审计，幂等且没有外部调用', () => {
+ const store = new Store(':memory:'); stores.push(store); const remote = vi.fn(); const engine = new ResearchEngine(store, { submit: remote, poll: remote }, remote, () => 999); engine.stopped = true;
+ const c = creator(); c.evidence = [{ id: 'post', text: 'Review', url: c.profileUrl, kind: 'post', provider: 'wavesurge', capturedAt: 123, publishedAt: null }];
+ const row: Result = { id: 'r', taskId: 't', creator: c, verdict: 'match', selected: true, tags: ['数码'], annotations: [], judgments: [{ criterionId: '__followers', verdict: 'match', reason: '20000', evidenceIds: ['post'] }, { criterionId: '__region', verdict: 'match', reason: 'Canada', evidenceIds: ['post'] }, { criterionId: 'tech', verdict: 'match', reason: 'review', evidenceIds: ['post'] }], updatedAt: 123 };
+ store.set('result', row.id, row); store.set('result', 'no-factor', { ...row, id: 'no-factor', judgments: [] }); store.set('task', 't', { id: 't', matched: 1 });
+ repairFactorReferences(engine); const fixed = store.get<Result>('result', row.id)!;
+ expect(fixed.creator.evidence).toHaveLength(2); expect(fixed.creator.evidence[0]).toEqual(c.evidence[0]); expect(fixed.creator.evidence[1].capturedAt).toBe(123);
+ expect(fixed.judgments[0].evidenceIds).toEqual([fixed.creator.evidence[1].id]); expect(fixed.judgments[1].evidenceIds).toEqual([fixed.creator.evidence[1].id]); expect(fixed.judgments[2]).toEqual(row.judgments[2]);
+ expect(fixed).toMatchObject({ verdict: 'match', selected: true, tags: row.tags, annotations: [], revision: 2, updatedAt: 999 });
+ expect(store.list('result-history')).toEqual([row]); expect(store.get('task', 't')).toEqual({ id: 't', matched: 1 }); expect(remote).not.toHaveBeenCalled();
+ const all = store.list('result'); repairFactorReferences(engine); expect(store.list('result')).toEqual(all);
+ store.delete('data-migration', 'r4-factor-references-20261010'); repairFactorReferences(engine); expect(store.list('result')).toEqual(all); expect(store.list('result-history')).toEqual([row]);
+ store.delete('data-migration', 'r4-factor-references-20261010');
+ const empty = {...row,id:'empty-evidence',creator:{...c,evidence:[]},updatedAt:456};store.set('result',empty.id,empty);repairFactorReferences(engine);
+ expect(store.get<Result>('result',empty.id)?.creator.evidence[0].capturedAt).toBe(456);
+});

@@ -1,0 +1,60 @@
+{
+  "at": "2026-10-10T07:15:34.505Z",
+  "assists": [
+    {
+      "id": "2fbc7bb9-b7fa-4673-8943-3d6b2c513bc0",
+      "creatorId": "instagram:geekderella",
+      "reason": "访问 @geekderella 主页被重定向至 Instagram 登录页，无法看到本人主页或帖子。请通过同一 noVNC 桌面协助完成登录；当前暂停核验。现有简介不足以确认个人 KOC、白人本人自述、佩戴眼镜或 geek 风格，登录页宣传图不能作为该创作者证据。",
+      "before": "BROWSER / ASSISTANCE\n浏览器桌面\n关闭\n\n默认只读。需要协助时，可在同一个浏览器完成登录或验证；不要将密码发到对话中。交还前请打开可核验的公开页面。\n\n原候选：instagram:geekderella\n\n访问 @geekderella 主页被重定向至 Instagram 登录页，无法看到本人主页或帖子。请通过同一 noVNC 桌面协助完成登录；当前暂停核验。现有简介不足以确认个人 KOC、白人本人自述、佩戴眼镜或 geek 风格，登录页宣传图不能作为该创作者证据。\n\n工作编号：research-90121727019a7e5d682f5a65接管并协助\n重新连接桌面",
+      "outcome": "Skipped unavailable restricted content through UI without desktop interaction",
+      "finishedAt": "2026-10-10T07:16:33.376Z"
+    }
+  ],
+  "source": "Actual application UI. Operator outcomes only skip inaccessible restricted profiles; no login, follows or desktop input.",
+  "latestTask": {
+    "id": "research-90121727019a7e5d682f5a65",
+    "title": "Instagram 欧美个人 KOC 眼镜与 geek 风筛选",
+    "status": "needs_input",
+    "requested": 20,
+    "evaluated": 18,
+    "matched": 0,
+    "qualifying": 0,
+    "updatedAt": 1791616678051,
+    "detail": "需要人工协助：当前候选 geek_in_miami 的原帖被 Instagram 登录/注册弹窗遮挡，截图中无法观察视频人物、眼镜或穿搭。请在同一浏览器桌面协助恢复公开帖的可见内容；恢复后需重新观察核验。已有简介与帖子文字可支持个人游戏分享账号，但没有白人身份明确自述或充分 geek 风证据。；请打开桌面协助，完成后继续原候选",
+    "remoteStatus": "done",
+    "nextPollAt": 0
+  },
+  "latestTasks": [
+    {
+      "id": "research-90121727019a7e5d682f5a65",
+      "title": "Instagram 欧美个人 KOC 眼镜与 geek 风筛选",
+      "status": "needs_input",
+      "requested": 20,
+      "evaluated": 18,
+      "matched": 0,
+      "qualifying": 0,
+      "updatedAt": 1791616678051,
+      "detail": "需要人工协助：当前候选 geek_in_miami 的原帖被 Instagram 登录/注册弹窗遮挡，截图中无法观察视频人物、眼镜或穿搭。请在同一浏览器桌面协助恢复公开帖的可见内容；恢复后需重新观察核验。已有简介与帖子文字可支持个人游戏分享账号，但没有白人身份明确自述或充分 geek 风证据。；请打开桌面协助，完成后继续原候选",
+      "remoteStatus": "done",
+      "nextPollAt": 0
+    },
+    {
+      "id": "research-bab604288a59acc55f2788a1",
+      "title": "Instagram valstechtalkk 单账号纠正核验",
+      "status": "running",
+      "requested": 1,
+      "evaluated": 0,
+      "matched": 0,
+      "updatedAt": 1791614316898,
+      "detail": "已读取 1 位候选；来源 已到本次读取边界，本地已合格 0 人",
+      "remoteStatus": "done",
+      "nextPollAt": 1791614317898
+    }
+  ],
+  "requiresObservedPublicInteraction": {
+    "creatorId": "instagram:geek_in_miami",
+    "reason": "当前候选 geek_in_miami 的原帖被 Instagram 登录/注册弹窗遮挡，截图中无法观察视频人物、眼镜或穿搭。请在同一浏览器桌面协助恢复公开帖的可见内容；恢复后需重新观察核验。已有简介与帖子文字可支持个人游戏分享账号，但没有白人身份明确自述或充分 geek 风证据。"
+  },
+  "finishedAt": "2026-10-10T07:18:03.173Z",
+  "reportLinks": []
+}

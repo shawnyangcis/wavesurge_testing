@@ -1,0 +1,107 @@
+{
+  "source": "Independent real Chrome UI on controlled-candidate isolated deployment; actual configured model and production desktop",
+  "at": "2026-10-10T06:31:40.573Z",
+  "checks": [
+    {
+      "label": "Unauthenticated state/debug denied",
+      "evidence": 401
+    },
+    {
+      "label": "Empty/wrong password validation",
+      "evidence": "密码不正确"
+    },
+    {
+      "label": "Login and disabled blank send",
+      "evidence": true
+    },
+    {
+      "label": "Reference image upload and removal",
+      "evidence": true
+    },
+    {
+      "label": "Actual image chat persisted; no unsolicited discovery",
+      "evidence": [
+        "图片能看清：是一张正方形图片，左半边为纯绿色，右半边为纯蓝色，中间垂直分界，没有人物、文字或其他物体。\n\n这里只确认图片内容，不启动创作者搜索。"
+      ]
+    },
+    {
+      "label": "Settings save without replacing credential/model",
+      "evidence": 3
+    },
+    {
+      "label": "Actual context backup download parses as JSON",
+      "evidence": [
+        "format",
+        "messages",
+        "batches"
+      ]
+    },
+    {
+      "label": "Invalid context JSON rejected",
+      "evidence": "Unexpected token 'o', \"not-json\" is not valid JSON"
+    },
+    {
+      "label": "Context compression browser action",
+      "evidence": "当前没有可压缩的旧消息。"
+    },
+    {
+      "label": "Context reset changes model epoch and retains transcript/tasks/results",
+      "evidence": 1
+    },
+    {
+      "label": "Backup restore retains tasks and does not replay discovery tools",
+      "evidence": true
+    },
+    {
+      "label": "Read-only noVNC browser connected",
+      "evidence": true
+    },
+    {
+      "label": "Campaign dialog opens and closes",
+      "evidence": true
+    },
+    {
+      "label": "Mobile layout captured",
+      "evidence": {
+        "width": 375,
+        "scrollWidth": 375
+      }
+    },
+    {
+      "label": "App restart persists context/tasks and auth; no repeated Wave calls",
+      "evidence": true
+    },
+    {
+      "label": "Logout revokes session",
+      "evidence": 401
+    }
+  ],
+  "errors": [],
+  "imageReply": [
+    {
+      "id": "696fc14d-2580-4758-96b6-0ecb1f165252",
+      "role": "user",
+      "text": "看一下这张参考图里有什么，先确认图片能看清就好，不用找创作者。",
+      "createdAt": 1791613901409,
+      "epoch": 1,
+      "state": "delivered",
+      "attachments": [
+        "data:image/png;base64,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"
+      ]
+    },
+    {
+      "id": "01f70c1c-ed80-4076-844e-08410512e014",
+      "role": "assistant",
+      "text": "图片能看清：是一张正方形图片，左半边为纯绿色，右半边为纯蓝色，中间垂直分界，没有人物、文字或其他物体。\n\n这里只确认图片内容，不启动创作者搜索。",
+      "epoch": 1,
+      "createdAt": 1791613911968,
+      "state": "delivered",
+      "attachments": []
+    }
+  ],
+  "mobile": {
+    "width": 375,
+    "scrollWidth": 375
+  },
+  "finishedAt": "2026-10-10T06:32:01.674Z"
+}

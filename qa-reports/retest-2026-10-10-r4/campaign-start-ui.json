@@ -1,0 +1,320 @@
+{
+  "at": "2026-10-10T13:45:11.954Z",
+  "id": "campaign-73faf22be1fd823d6a0f58d6",
+  "checks": [
+    "Stale v1 start rejected without running or discovery",
+    "Actual UI confirms v2 and starts exactly two child research tasks",
+    "Repeated start retains same tasks and does not register another batch"
+  ],
+  "before": {
+    "title": "智能生活 App 美国年轻人 Instagram 首轮合作方案",
+    "goal": "推广支持 iOS 和 Android 的待办与家庭琐事提醒 App，让美国年轻人理解日常省事价值，下载后完成一次使用。合作费总预算约500美元，个人报价及费用分配待确认。仅保存草案，不启动研究或外联。两类各1人，同一Instagram账号只能占一个类型名额；不足如实报告，不补搜。",
+    "audience": "推广目标为美国18–30岁的学生及初入职场者；创作者所在地不限，英语内容仅为优先项而非硬门槛。创作者年龄及受众年龄、地域没有数据时不得当作已核实。不沿用眼镜、geek外观或族裔要求。",
+    "groups": [
+      {
+        "id": "life_efficiency",
+        "rationale": "用日常安排、待办和家庭琐事的真实场景展示省事价值，推动下载并创建首个待办或提醒。生活场景短视频为初步建议，实际合作形式按内容证据标注，报价及可行性待确认。",
+        "spec": {
+          "title": "生活效率分享：指定两账号全量评估",
+          "personaText": "个人生活效率分享创作者，分享实用的待办管理、日常安排或家庭琐事管理内容",
+          "count": 1,
+          "platforms": [
+            "instagram"
+          ],
+          "regions": [],
+          "minFollowers": 10000,
+          "maxFollowers": 100000,
+          "candidateBudget": 2,
+          "analyzeAll": true,
+          "verificationMode": "auto",
+          "instagram": {
+            "handles": [
+              "tylerlcrawford",
+              "valstechtalkk"
+            ],
+            "version": "v3"
+          },
+          "criteria": [
+            {
+              "id": "personal_account",
+              "label": "个人创作者账号，非品牌、公司或店铺官方账号",
+              "required": true,
+              "basis": "text"
+            },
+            {
+              "id": "practical_efficiency_content",
+              "label": "实际内容包含实用生活效率分享，如待办管理、日常安排或家庭琐事管理；仅数码产品内容不自动满足此条件",
+              "required": true,
+              "basis": "either"
+            },
+            {
+              "id": "english_content",
+              "label": "优先英语内容，不作为入选硬门槛",
+              "required": false,
+              "basis": "either"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "content_direction",
+              "label": "内容方向"
+            },
+            {
+              "id": "presentation_style",
+              "label": "呈现风格"
+            },
+            {
+              "id": "collaboration_fit",
+              "label": "适合的合作形式"
+            },
+            {
+              "id": "content_language",
+              "label": "内容语言"
+            }
+          ]
+        },
+        "matched": 0,
+        "eligible": 0
+      },
+      {
+        "id": "practical_tech_apps",
+        "rationale": "通过实用数码或App体验演示待办和提醒功能，降低理解与上手门槛，引导下载后完成首次使用。操作演示或真实体验短视频为初步建议，实际合作形式按内容证据标注，报价及可行性待确认。",
+        "spec": {
+          "title": "实用数码和 App 体验：指定两账号全量评估",
+          "personaText": "个人实用数码和 App 体验创作者，分享帮助日常生活更方便的数字工具与实际使用体验",
+          "count": 1,
+          "platforms": [
+            "instagram"
+          ],
+          "regions": [],
+          "minFollowers": 10000,
+          "maxFollowers": 100000,
+          "candidateBudget": 2,
+          "analyzeAll": true,
+          "verificationMode": "auto",
+          "instagram": {
+            "handles": [
+              "tylerlcrawford",
+              "valstechtalkk"
+            ],
+            "version": "v3"
+          },
+          "criteria": [
+            {
+              "id": "personal_account",
+              "label": "个人创作者账号，非品牌、公司或店铺官方账号",
+              "required": true,
+              "basis": "text"
+            },
+            {
+              "id": "practical_tech_app_content",
+              "label": "实际内容包含实用数码或App体验，提供具体用途、使用演示或个人使用经验，而非仅无实用说明的产品展示",
+              "required": true,
+              "basis": "either"
+            },
+            {
+              "id": "english_content",
+              "label": "优先英语内容，不作为入选硬门槛",
+              "required": false,
+              "basis": "either"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "content_direction",
+              "label": "内容方向"
+            },
+            {
+              "id": "presentation_style",
+              "label": "呈现风格"
+            },
+            {
+              "id": "collaboration_fit",
+              "label": "适合的合作形式"
+            },
+            {
+              "id": "content_language",
+              "label": "内容语言"
+            }
+          ]
+        },
+        "matched": 0,
+        "eligible": 0
+      }
+    ],
+    "id": "campaign-73faf22be1fd823d6a0f58d6",
+    "revision": 2,
+    "childTaskIds": [],
+    "createdAt": 1791639604779,
+    "updatedAt": 1791639782502,
+    "status": "draft",
+    "requested": 2,
+    "matched": 0,
+    "qualifyingUnique": 0,
+    "evaluated": 0,
+    "selections": [],
+    "reportUrl": "/api/campaigns/campaign-73faf22be1fd823d6a0f58d6/report",
+    "results": []
+  },
+  "after": {
+    "title": "智能生活 App 美国年轻人 Instagram 首轮合作方案",
+    "goal": "推广支持 iOS 和 Android 的待办与家庭琐事提醒 App，让美国年轻人理解日常省事价值，下载后完成一次使用。合作费总预算约500美元，个人报价及费用分配待确认。仅保存草案，不启动研究或外联。两类各1人，同一Instagram账号只能占一个类型名额；不足如实报告，不补搜。",
+    "audience": "推广目标为美国18–30岁的学生及初入职场者；创作者所在地不限，英语内容仅为优先项而非硬门槛。创作者年龄及受众年龄、地域没有数据时不得当作已核实。不沿用眼镜、geek外观或族裔要求。",
+    "groups": [
+      {
+        "id": "life_efficiency",
+        "rationale": "用日常安排、待办和家庭琐事的真实场景展示省事价值，推动下载并创建首个待办或提醒。生活场景短视频为初步建议，实际合作形式按内容证据标注，报价及可行性待确认。",
+        "spec": {
+          "title": "生活效率分享：指定两账号全量评估",
+          "personaText": "个人生活效率分享创作者，分享实用的待办管理、日常安排或家庭琐事管理内容",
+          "count": 1,
+          "platforms": [
+            "instagram"
+          ],
+          "regions": [],
+          "minFollowers": 10000,
+          "maxFollowers": 100000,
+          "candidateBudget": 2,
+          "analyzeAll": true,
+          "verificationMode": "auto",
+          "instagram": {
+            "handles": [
+              "tylerlcrawford",
+              "valstechtalkk"
+            ],
+            "version": "v3"
+          },
+          "criteria": [
+            {
+              "id": "personal_account",
+              "label": "个人创作者账号，非品牌、公司或店铺官方账号",
+              "required": true,
+              "basis": "text"
+            },
+            {
+              "id": "practical_efficiency_content",
+              "label": "实际内容包含实用生活效率分享，如待办管理、日常安排或家庭琐事管理；仅数码产品内容不自动满足此条件",
+              "required": true,
+              "basis": "either"
+            },
+            {
+              "id": "english_content",
+              "label": "优先英语内容，不作为入选硬门槛",
+              "required": false,
+              "basis": "either"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "content_direction",
+              "label": "内容方向"
+            },
+            {
+              "id": "presentation_style",
+              "label": "呈现风格"
+            },
+            {
+              "id": "collaboration_fit",
+              "label": "适合的合作形式"
+            },
+            {
+              "id": "content_language",
+              "label": "内容语言"
+            }
+          ]
+        },
+        "taskId": "research-7f22924e895fdf79bc9bfb73",
+        "matched": 0,
+        "eligible": 0
+      },
+      {
+        "id": "practical_tech_apps",
+        "rationale": "通过实用数码或App体验演示待办和提醒功能，降低理解与上手门槛，引导下载后完成首次使用。操作演示或真实体验短视频为初步建议，实际合作形式按内容证据标注，报价及可行性待确认。",
+        "spec": {
+          "title": "实用数码和 App 体验：指定两账号全量评估",
+          "personaText": "个人实用数码和 App 体验创作者，分享帮助日常生活更方便的数字工具与实际使用体验",
+          "count": 1,
+          "platforms": [
+            "instagram"
+          ],
+          "regions": [],
+          "minFollowers": 10000,
+          "maxFollowers": 100000,
+          "candidateBudget": 2,
+          "analyzeAll": true,
+          "verificationMode": "auto",
+          "instagram": {
+            "handles": [
+              "tylerlcrawford",
+              "valstechtalkk"
+            ],
+            "version": "v3"
+          },
+          "criteria": [
+            {
+              "id": "personal_account",
+              "label": "个人创作者账号，非品牌、公司或店铺官方账号",
+              "required": true,
+              "basis": "text"
+            },
+            {
+              "id": "practical_tech_app_content",
+              "label": "实际内容包含实用数码或App体验，提供具体用途、使用演示或个人使用经验，而非仅无实用说明的产品展示",
+              "required": true,
+              "basis": "either"
+            },
+            {
+              "id": "english_content",
+              "label": "优先英语内容，不作为入选硬门槛",
+              "required": false,
+              "basis": "either"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "content_direction",
+              "label": "内容方向"
+            },
+            {
+              "id": "presentation_style",
+              "label": "呈现风格"
+            },
+            {
+              "id": "collaboration_fit",
+              "label": "适合的合作形式"
+            },
+            {
+              "id": "content_language",
+              "label": "内容语言"
+            }
+          ]
+        },
+        "taskId": "research-1c0a7ca9deb257bd0144ee1f",
+        "matched": 0,
+        "eligible": 0
+      }
+    ],
+    "id": "campaign-73faf22be1fd823d6a0f58d6",
+    "revision": 2,
+    "childTaskIds": [
+      "research-7f22924e895fdf79bc9bfb73",
+      "research-1c0a7ca9deb257bd0144ee1f"
+    ],
+    "createdAt": 1791639604779,
+    "updatedAt": 1791639917488,
+    "status": "running",
+    "requested": 2,
+    "matched": 0,
+    "qualifyingUnique": 0,
+    "evaluated": 0,
+    "selections": [],
+    "reportUrl": "/api/campaigns/campaign-73faf22be1fd823d6a0f58d6/report",
+    "results": []
+  },
+  "newTaskIds": [
+    "research-7f22924e895fdf79bc9bfb73",
+    "research-1c0a7ca9deb257bd0144ee1f"
+  ],
+  "waveCallsBefore": 61,
+  "finishedAt": "2026-10-10T13:45:18.495Z"
+}

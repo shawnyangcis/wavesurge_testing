@@ -1,0 +1,293 @@
+{
+  "source": "explicit controlled candidate fixture, NOT WaveSurge discovery; actual configured model + production headed browser + real worker + reports",
+  "summary": {
+    "title": "Campaign 去重集成夹具 dedup-1791596203649",
+    "goal": "控制性测试：两个类型各需一个账号；同一账号不能同时占两个配额",
+    "audience": "测试观众",
+    "groups": [
+      {
+        "id": "tech",
+        "rationale": "控制性类型 A，允许 shared 与 only-a",
+        "spec": {
+          "title": "测试类型 A",
+          "personaText": "controlled technology creator fixture",
+          "count": 1,
+          "candidateBudget": 2,
+          "platforms": [
+            "instagram"
+          ],
+          "regions": [],
+          "minFollowers": 0,
+          "maxFollowers": 100000,
+          "criteria": [
+            {
+              "id": "chip",
+              "label": "公开帖子截图中可见 CHIP / CIRCUIT BOARD 字样；必须取得真实浏览器截图",
+              "basis": "visual",
+              "required": true
+            }
+          ]
+        },
+        "taskId": "research-f9afe5c783bb603040150148",
+        "matched": 1,
+        "eligible": 2
+      },
+      {
+        "id": "study",
+        "rationale": "控制性类型 B，仅允许 shared",
+        "spec": {
+          "title": "测试类型 B",
+          "personaText": "controlled technology creator fixture",
+          "count": 1,
+          "candidateBudget": 2,
+          "platforms": [
+            "instagram"
+          ],
+          "regions": [],
+          "minFollowers": 0,
+          "maxFollowers": 100000,
+          "criteria": [
+            {
+              "id": "chip",
+              "label": "公开帖子截图中可见 CHIP / CIRCUIT BOARD 字样；必须取得真实浏览器截图",
+              "basis": "visual",
+              "required": true
+            }
+          ]
+        },
+        "taskId": "research-e76cb2047382b0913313d583",
+        "matched": 1,
+        "eligible": 1
+      }
+    ],
+    "id": "campaign-f52afe86fd9a529cb7ab28b1",
+    "revision": 1,
+    "childTaskIds": [
+      "research-f9afe5c783bb603040150148",
+      "research-e76cb2047382b0913313d583"
+    ],
+    "createdAt": 1791596204252,
+    "updatedAt": 1791596204257,
+    "status": "completed",
+    "requested": 2,
+    "matched": 2,
+    "qualifyingUnique": 2,
+    "evaluated": 3,
+    "selections": [
+      {
+        "creatorId": "instagram:fixture-campaign-shared",
+        "groupId": "study",
+        "resultId": "research-e76cb2047382b0913313d583|instagram:fixture-campaign-shared"
+      },
+      {
+        "creatorId": "instagram:fixture-campaign-only-a",
+        "groupId": "tech",
+        "resultId": "research-f9afe5c783bb603040150148|instagram:fixture-campaign-only-a"
+      }
+    ],
+    "reportUrl": "/api/campaigns/campaign-f52afe86fd9a529cb7ab28b1/report",
+    "results": [
+      {
+        "id": "research-f9afe5c783bb603040150148|instagram:fixture-campaign-shared",
+        "taskId": "research-f9afe5c783bb603040150148",
+        "creator": {
+          "id": "instagram:fixture-campaign-shared",
+          "platform": "instagram",
+          "handle": "fixture-campaign-shared",
+          "displayName": "fixture-campaign-shared（集成夹具）",
+          "followers": 20000,
+          "region": null,
+          "profileUrl": "http://127.0.0.1:8085/",
+          "evidence": [
+            {
+              "id": "profile-fixture-campaign-shared",
+              "url": "http://127.0.0.1:8085/",
+              "text": "控制性测试页面。必须浏览帖子截图；非真实社交账号，当前还没有帖子截图。",
+              "kind": "profile",
+              "provider": "integration-fixture",
+              "publishedAt": null,
+              "capturedAt": 1791596204258
+            },
+            {
+              "id": "fa6e8cf6b2a622ec4c36f1aa",
+              "url": "http://127.0.0.1:8085/",
+              "kind": "browser_snapshot",
+              "text": "Test Creator 的公开帖子\n\nControlled fixture — not a real social profile.\n\n科技教学：芯片、电路板\n\n发布于 2026-10-09。讲解处理器与电脑硬件。\n\nCHIP / CIRCUIT BOARD · 芯片与电路板\n查看原始帖子",
+              "provider": "headed-chromium",
+              "publishedAt": null,
+              "capturedAt": 1791596222663,
+              "assetId": "c4315446bb3fe9ea961210914c0d1e22206b7cd290a4ff6f62806e1a94f4e154"
+            }
+          ],
+          "raw": {
+            "fixture": true
+          }
+        },
+        "judgments": [
+          {
+            "criterionId": "__platform",
+            "verdict": "match",
+            "reason": "创作者平台：instagram",
+            "evidenceIds": [],
+            "label": "平台"
+          },
+          {
+            "criterionId": "__followers",
+            "verdict": "match",
+            "reason": "WaveSurge 粉丝数 20000，要求 0–100000",
+            "evidenceIds": [],
+            "label": "粉丝范围"
+          },
+          {
+            "criterionId": "chip",
+            "verdict": "match",
+            "reason": "已取得真实有头浏览器截图，公开帖子区域清晰显示“CHIP / CIRCUIT BOARD · 芯片与电路板”。来源为 http://127.0.0.1:8085/，页面标注发布于 2026-10-09，截图采集于 2026-10-10。页面明确为控制性测试夹具，非真实社交账号；本判断仅针对要求的截图字样。",
+            "evidenceIds": [
+              "fa6e8cf6b2a622ec4c36f1aa"
+            ],
+            "label": "公开帖子截图中可见 CHIP / CIRCUIT BOARD 字样；必须取得真实浏览器截图"
+          }
+        ],
+        "verdict": "match",
+        "tags": [
+          "公开帖子截图中可见 CHIP / CIRCUIT BOARD 字样；必须取得真实浏览器截图"
+        ],
+        "updatedAt": 1791596230867
+      },
+      {
+        "id": "research-f9afe5c783bb603040150148|instagram:fixture-campaign-only-a",
+        "taskId": "research-f9afe5c783bb603040150148",
+        "creator": {
+          "id": "instagram:fixture-campaign-only-a",
+          "platform": "instagram",
+          "handle": "fixture-campaign-only-a",
+          "displayName": "fixture-campaign-only-a（集成夹具）",
+          "followers": 20000,
+          "region": null,
+          "profileUrl": "http://127.0.0.1:8085/",
+          "evidence": [
+            {
+              "id": "profile-fixture-campaign-only-a",
+              "url": "http://127.0.0.1:8085/",
+              "text": "控制性测试页面。必须浏览帖子截图；非真实社交账号，当前还没有帖子截图。",
+              "kind": "profile",
+              "provider": "integration-fixture",
+              "publishedAt": null,
+              "capturedAt": 1791596204259
+            },
+            {
+              "id": "fa6e8cf6b2a622ec4c36f1aa",
+              "url": "http://127.0.0.1:8085/",
+              "kind": "browser_snapshot",
+              "text": "Test Creator 的公开帖子\n\nControlled fixture — not a real social profile.\n\n科技教学：芯片、电路板\n\n发布于 2026-10-09。讲解处理器与电脑硬件。\n\nCHIP / CIRCUIT BOARD · 芯片与电路板\n查看原始帖子",
+              "provider": "headed-chromium",
+              "publishedAt": null,
+              "capturedAt": 1791596230991,
+              "assetId": "c4315446bb3fe9ea961210914c0d1e22206b7cd290a4ff6f62806e1a94f4e154"
+            }
+          ],
+          "raw": {
+            "fixture": true
+          }
+        },
+        "judgments": [
+          {
+            "criterionId": "__platform",
+            "verdict": "match",
+            "reason": "创作者平台：instagram",
+            "evidenceIds": [],
+            "label": "平台"
+          },
+          {
+            "criterionId": "__followers",
+            "verdict": "match",
+            "reason": "WaveSurge 粉丝数 20000，要求 0–100000",
+            "evidenceIds": [],
+            "label": "粉丝范围"
+          },
+          {
+            "criterionId": "chip",
+            "verdict": "match",
+            "reason": "已观察真实浏览器页面及截图，公开帖子卡片中清晰可见“CHIP / CIRCUIT BOARD · 芯片与电路板”字样，满足指定视觉条件。来源为 http://127.0.0.1:8085/，截图资产 c4315446bb3fe9ea961210914c0d1e22206b7cd290a4ff6f62806e1a94f4e154；页面标注发布日期为 2026-10-09。此页面明确为控制性测试页面，不代表真实社交账号。",
+            "evidenceIds": [
+              "fa6e8cf6b2a622ec4c36f1aa"
+            ],
+            "label": "公开帖子截图中可见 CHIP / CIRCUIT BOARD 字样；必须取得真实浏览器截图"
+          }
+        ],
+        "verdict": "match",
+        "tags": [
+          "公开帖子截图中可见 CHIP / CIRCUIT BOARD 字样；必须取得真实浏览器截图"
+        ],
+        "updatedAt": 1791596242355
+      },
+      {
+        "id": "research-e76cb2047382b0913313d583|instagram:fixture-campaign-shared",
+        "taskId": "research-e76cb2047382b0913313d583",
+        "creator": {
+          "id": "instagram:fixture-campaign-shared",
+          "platform": "instagram",
+          "handle": "fixture-campaign-shared",
+          "displayName": "fixture-campaign-shared（集成夹具）",
+          "followers": 20000,
+          "region": null,
+          "profileUrl": "http://127.0.0.1:8085/",
+          "evidence": [
+            {
+              "id": "profile-fixture-campaign-shared",
+              "url": "http://127.0.0.1:8085/",
+              "text": "控制性测试页面。必须浏览帖子截图；非真实社交账号，当前还没有帖子截图。",
+              "kind": "profile",
+              "provider": "integration-fixture",
+              "publishedAt": null,
+              "capturedAt": 1791596204261
+            },
+            {
+              "id": "fa6e8cf6b2a622ec4c36f1aa",
+              "url": "http://127.0.0.1:8085/",
+              "kind": "browser_snapshot",
+              "text": "Test Creator 的公开帖子\n\nControlled fixture — not a real social profile.\n\n科技教学：芯片、电路板\n\n发布于 2026-10-09。讲解处理器与电脑硬件。\n\nCHIP / CIRCUIT BOARD · 芯片与电路板\n查看原始帖子",
+              "provider": "headed-chromium",
+              "publishedAt": null,
+              "capturedAt": 1791596242493,
+              "assetId": "c4315446bb3fe9ea961210914c0d1e22206b7cd290a4ff6f62806e1a94f4e154"
+            }
+          ],
+          "raw": {
+            "fixture": true
+          }
+        },
+        "judgments": [
+          {
+            "criterionId": "__platform",
+            "verdict": "match",
+            "reason": "创作者平台：instagram",
+            "evidenceIds": [],
+            "label": "平台"
+          },
+          {
+            "criterionId": "__followers",
+            "verdict": "match",
+            "reason": "WaveSurge 粉丝数 20000，要求 0–100000",
+            "evidenceIds": [],
+            "label": "粉丝范围"
+          },
+          {
+            "criterionId": "chip",
+            "verdict": "match",
+            "reason": "已取得真实有头浏览器页面截图，公开帖子内容区域清晰可见“CHIP / CIRCUIT BOARD · 芯片与电路板”，符合字样可见条件。来源为 http://127.0.0.1:8085/，截图采集于 2026-10-10，页面标注发布于 2026-10-09；页面明确为控制性测试页面，不据此认定真实社交账号身份。",
+            "evidenceIds": [
+              "fa6e8cf6b2a622ec4c36f1aa"
+            ],
+            "label": "公开帖子截图中可见 CHIP / CIRCUIT BOARD 字样；必须取得真实浏览器截图"
+          }
+        ],
+        "verdict": "match",
+        "tags": [
+          "公开帖子截图中可见 CHIP / CIRCUIT BOARD 字样；必须取得真实浏览器截图"
+        ],
+        "updatedAt": 1791596250507
+      }
+    ]
+  }
+}

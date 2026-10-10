@@ -1,0 +1,10 @@
+
+Running 1 test using 1 worker
+
+(node:48207) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ Container creator-studio-clean-app-1 Restarting 
+ Container creator-studio-clean-app-1 Started 
+  ✓  1 tests/e2e/clean-deploy.spec.ts:4:1 › 独立 Compose 项目与全新卷：随机密码、真实模型网络、内部桌面、刷新与重启 (11.9s)
+
+  1 passed (13.2s)

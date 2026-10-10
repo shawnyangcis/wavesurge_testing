@@ -1,0 +1,33 @@
+{
+  "changedSinceR2": [
+    "server/agent.ts",
+    "server/assessment.ts",
+    "server/bootstrap.ts",
+    "server/browser-verifier.ts",
+    "server/campaign-tools.ts",
+    "server/campaign.ts",
+    "server/discovery.ts",
+    "server/enrichment.ts",
+    "server/model.ts",
+    "server/repair.ts",
+    "server/research-api.ts",
+    "server/research-tools.ts",
+    "server/research.ts",
+    "server/settings.ts",
+    "server/shortlist.ts",
+    "server/store.ts",
+    "server/task-facts.ts",
+    "server/verdict.ts",
+    "server/verify.ts",
+    "server/wave.ts",
+    "server/work-delivery.ts",
+    "shared/campaign.ts",
+    "shared/contracts.ts",
+    "shared/prompts.ts",
+    "shared/research.ts"
+  ],
+  "added": [
+    "server/shortlist.ts",
+    "server/work-delivery.ts"
+  ]
+}

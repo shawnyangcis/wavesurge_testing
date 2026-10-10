@@ -1,0 +1,19 @@
+{
+  "atUtc": "2026-10-09T14:22:27.028467+00:00",
+  "method": "GET",
+  "path": "/auth/me",
+  "authMode": "bearer",
+  "status": 200,
+  "elapsedSeconds": 0.248,
+  "contentType": "application/json; charset=utf-8",
+  "responseSha256": "24a9a2cc85955e60c8f7c091438734f739e1887eb1b73d072caf11209b5bf07e",
+  "response": {
+    "user": {
+      "id": "[redacted account]",
+      "email": "[redacted account]",
+      "name": "[redacted account]",
+      "avatarUrl": "[redacted account]",
+      "role": "user"
+    }
+  }
+}

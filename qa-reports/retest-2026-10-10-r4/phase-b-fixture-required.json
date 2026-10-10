@@ -1,0 +1,1843 @@
+{
+  "startedAt": "2026-10-10T13:38:49.992Z",
+  "source": "Controlled Wave/candidate pages; actual configured model, production workers and headed desktop; UI VNC claim/release. No social login.",
+  "cases": [
+    {
+      "input": "帮我另外做两项 YouTube 科技博主研究，粉丝和国家都不限，每项选1个人、先看2个人，两个都标上内容方向。第一项只用现有文字资料，不打开网页；第二项需要打开公开主页核验。现在我还在操作桌面，先别动我的浏览器，等两项都结束再给我一份汇总。",
+      "index": 1,
+      "at": "2026-10-10T13:38:53.957Z",
+      "preparation": {
+        "page": {
+          "url": "http://wave-fixture:8087/creator/alice",
+          "title": "公开研究夹具 Alice",
+          "assetId": "d02348d0feab0652ea9e9e80942e6458e9a7a0dd928403052ec77013bed99a12"
+        },
+        "request": {
+          "id": "57b6e122-abf5-48a8-84ae-0da4a8501c94",
+          "taskId": "phase-b-fixture-required-1",
+          "creatorId": "controlled-lease",
+          "reason": "R4受控租约测试准备：只验证人工接管与任务调度，没有进行登录",
+          "status": "pending",
+          "createdAt": 1791639535989,
+          "leaseUntil": 0
+        }
+      },
+      "checks": [
+        "Two real registered jobs in one batch; no extra Campaign confirmation; text evaluates both while human owns desktop; browser work persists and aggregate delivery waits",
+        "Required browser mode opens the current owned profile; unavailable pages remain unknown. One combined HTML/CSV report persists after reload"
+      ],
+      "accessChallenges": [],
+      "registration": {
+        "tasks": [
+          {
+            "id": "research-da0fe49342f820bb89d16a48",
+            "spec": {
+              "title": "YouTube 科技博主研究—现有文字核验",
+              "personaText": "Technology content creators",
+              "count": 1,
+              "platforms": [
+                "youtube"
+              ],
+              "regions": [],
+              "minFollowers": 0,
+              "maxFollowers": 9007199254740991,
+              "candidateBudget": 2,
+              "analyzeAll": true,
+              "verificationMode": "text",
+              "annotations": [
+                {
+                  "id": "content_direction",
+                  "label": "内容方向"
+                }
+              ],
+              "criteria": [
+                {
+                  "id": "technology_content",
+                  "label": "创作科技相关内容的博主",
+                  "required": true,
+                  "basis": "text"
+                }
+              ]
+            },
+            "deliveryBatchId": "dd9a27f5-a478-4499-9e48-ad0f0d0b69ae"
+          },
+          {
+            "id": "research-954c59635895b4975e976fec",
+            "spec": {
+              "title": "YouTube 科技博主研究—公开主页核验",
+              "personaText": "Technology content creators",
+              "count": 1,
+              "platforms": [
+                "youtube"
+              ],
+              "regions": [],
+              "minFollowers": 0,
+              "maxFollowers": 9007199254740991,
+              "candidateBudget": 2,
+              "analyzeAll": true,
+              "verificationMode": "browser",
+              "annotations": [
+                {
+                  "id": "content_direction",
+                  "label": "内容方向"
+                }
+              ],
+              "criteria": [
+                {
+                  "id": "technology_content",
+                  "label": "创作科技相关内容的博主",
+                  "required": true,
+                  "basis": "text"
+                }
+              ]
+            },
+            "deliveryBatchId": "dd9a27f5-a478-4499-9e48-ad0f0d0b69ae"
+          }
+        ],
+        "batches": [
+          {
+            "id": "dd9a27f5-a478-4499-9e48-ad0f0d0b69ae",
+            "items": [
+              {
+                "kind": "research",
+                "id": "research-da0fe49342f820bb89d16a48",
+                "title": "YouTube 科技博主研究—现有文字核验",
+                "reportUrl": "/api/reports/research-da0fe49342f820bb89d16a48"
+              },
+              {
+                "kind": "research",
+                "id": "research-954c59635895b4975e976fec",
+                "title": "YouTube 科技博主研究—公开主页核验",
+                "reportUrl": "/api/reports/research-954c59635895b4975e976fec"
+              }
+            ],
+            "sealed": false
+          }
+        ]
+      },
+      "during": {
+        "tasks": [
+          {
+            "id": "research-da0fe49342f820bb89d16a48",
+            "title": "YouTube 科技博主研究—现有文字核验",
+            "status": "partial",
+            "requested": 1,
+            "evaluated": 2,
+            "matched": 0,
+            "qualifying": 0,
+            "updatedAt": 1791639561817,
+            "detail": "已选合格 0/1，已核验 2；证据不足者保持待核实。youtube：读取 2 条，基础条件排除 0 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。",
+            "remoteStatus": "done",
+            "nextPollAt": 1791639550559
+          },
+          {
+            "id": "research-954c59635895b4975e976fec",
+            "title": "YouTube 科技博主研究—公开主页核验",
+            "status": "running",
+            "requested": 1,
+            "evaluated": 0,
+            "matched": 0,
+            "updatedAt": 1791639561841,
+            "detail": "已读取 2 位候选；来源 已到本次读取边界，本地已合格 0 人",
+            "remoteStatus": "done",
+            "nextPollAt": 1791639562841
+          }
+        ],
+        "desktop": {
+          "id": "57b6e122-abf5-48a8-84ae-0da4a8501c94",
+          "taskId": "phase-b-fixture-required-1",
+          "creatorId": "controlled-lease",
+          "reason": "R4受控租约测试准备：只验证人工接管与任务调度，没有进行登录",
+          "status": "human",
+          "createdAt": 1791639535989,
+          "leaseUntil": 1791640436291
+        },
+        "notices": []
+      },
+      "final": {
+        "tasks": [
+          {
+            "id": "research-da0fe49342f820bb89d16a48",
+            "title": "YouTube 科技博主研究—现有文字核验",
+            "status": "partial",
+            "requested": 1,
+            "evaluated": 2,
+            "matched": 0,
+            "qualifying": 0,
+            "updatedAt": 1791639561817,
+            "detail": "已选合格 0/1，已核验 2；证据不足者保持待核实。youtube：读取 2 条，基础条件排除 0 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。",
+            "remoteStatus": "done",
+            "nextPollAt": 1791639550559
+          },
+          {
+            "id": "research-954c59635895b4975e976fec",
+            "title": "YouTube 科技博主研究—公开主页核验",
+            "status": "completed",
+            "requested": 1,
+            "evaluated": 2,
+            "matched": 1,
+            "qualifying": 2,
+            "updatedAt": 1791639598525,
+            "detail": "已选合格 1/1，已核验 2；证据不足者保持待核实。youtube：读取 2 条，基础条件排除 0 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。",
+            "remoteStatus": "done",
+            "nextPollAt": 1791639562841
+          }
+        ],
+        "notices": [
+          {
+            "id": "report-request-dd9a27f5-a478-4499-9e48-ad0f0d0b69ae-d8b7f2305ec2ccb8",
+            "role": "assistant",
+            "text": "本次请求的 2 项工作已全部结束。\n\n- YouTube 科技博主研究—现有文字核验：已结束，仍有缺额或失败；已选合格 0/1，已核验 2；证据不足者保持待核实。youtube：读取 2 条，基础条件排除 0 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。 [查看报告](/api/reports/research-da0fe49342f820bb89d16a48)\n- YouTube 科技博主研究—公开主页核验：已完成；已选合格 1/1，已核验 2；证据不足者保持待核实。youtube：读取 2 条，基础条件排除 0 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。 [查看报告](/api/reports/research-954c59635895b4975e976fec)\n\n[查看本次综合报告](/api/work-batches/dd9a27f5-a478-4499-9e48-ad0f0d0b69ae/report) · [下载综合 CSV](/api/work-batches/dd9a27f5-a478-4499-9e48-ad0f0d0b69ae/report?format=csv)",
+            "createdAt": 1791639598527,
+            "epoch": 2,
+            "state": "delivered",
+            "attachments": []
+          }
+        ],
+        "batch": {
+          "id": "dd9a27f5-a478-4499-9e48-ad0f0d0b69ae",
+          "items": [
+            {
+              "kind": "research",
+              "id": "research-da0fe49342f820bb89d16a48",
+              "title": "YouTube 科技博主研究—现有文字核验",
+              "reportUrl": "/api/reports/research-da0fe49342f820bb89d16a48"
+            },
+            {
+              "kind": "research",
+              "id": "research-954c59635895b4975e976fec",
+              "title": "YouTube 科技博主研究—公开主页核验",
+              "reportUrl": "/api/reports/research-954c59635895b4975e976fec"
+            }
+          ],
+          "sealed": true,
+          "delivered": true
+        },
+        "results": [
+          {
+            "id": "research-da0fe49342f820bb89d16a48|youtube:http://wave-fixture:8087/creator/alice",
+            "taskId": "research-da0fe49342f820bb89d16a48",
+            "creator": {
+              "id": "youtube:http://wave-fixture:8087/creator/alice",
+              "platform": "youtube",
+              "handle": "",
+              "profileUrl": "http://wave-fixture:8087/creator/alice",
+              "displayName": "受控夹具 alice",
+              "followers": null,
+              "region": null,
+              "evidence": [
+                {
+                  "id": "41a22cd5e0b68893a736f301",
+                  "url": "http://wave-fixture:8087/creator/alice",
+                  "text": "这是受控验收账号，公开主页供真实浏览器核验。不是 WaveSurge 实际发现的社交账号。",
+                  "kind": "profile",
+                  "provider": "qa-controlled-fixture",
+                  "publishedAt": null,
+                  "capturedAt": 1791639549525
+                }
+              ]
+            },
+            "judgments": [
+              {
+                "criterionId": "__platform",
+                "verdict": "match",
+                "reason": "创作者平台：youtube",
+                "evidenceIds": [],
+                "label": "平台"
+              },
+              {
+                "criterionId": "__followers",
+                "verdict": "unknown",
+                "reason": "未取得粉丝数",
+                "evidenceIds": [
+                  "41a22cd5e0b68893a736f301"
+                ],
+                "label": "粉丝范围"
+              },
+              {
+                "criterionId": "technology_content",
+                "verdict": "unknown",
+                "reason": "现有资料仅为受控验收账号说明，未包含科技相关的创作者简介或帖子文字，无法判断是否创作科技内容。本轮未重新打开页面。",
+                "evidenceIds": [
+                  "41a22cd5e0b68893a736f301"
+                ],
+                "label": "创作科技相关内容的博主"
+              }
+            ],
+            "verdict": "unknown",
+            "annotations": [
+              {
+                "dimensionId": "content_direction",
+                "status": "unknown",
+                "values": [],
+                "reason": "现有主页文字未说明内容方向，也没有可供核验的帖子文字。",
+                "evidenceIds": [
+                  "41a22cd5e0b68893a736f301"
+                ]
+              }
+            ],
+            "tags": [],
+            "revision": 1,
+            "updatedAt": 1791639555559,
+            "selected": false
+          },
+          {
+            "id": "research-da0fe49342f820bb89d16a48|youtube:http://wave-fixture:8087/creator/bob",
+            "taskId": "research-da0fe49342f820bb89d16a48",
+            "creator": {
+              "id": "youtube:http://wave-fixture:8087/creator/bob",
+              "platform": "youtube",
+              "handle": "",
+              "profileUrl": "http://wave-fixture:8087/creator/bob",
+              "displayName": "受控夹具 bob",
+              "followers": null,
+              "region": null,
+              "evidence": [
+                {
+                  "id": "b1a3964a29cd07793976f609",
+                  "url": "http://wave-fixture:8087/creator/bob",
+                  "text": "这是受控验收账号，公开主页供真实浏览器核验。不是 WaveSurge 实际发现的社交账号。",
+                  "kind": "profile",
+                  "provider": "qa-controlled-fixture",
+                  "publishedAt": null,
+                  "capturedAt": 1791639549525
+                }
+              ]
+            },
+            "judgments": [
+              {
+                "criterionId": "__platform",
+                "verdict": "match",
+                "reason": "创作者平台：youtube",
+                "evidenceIds": [],
+                "label": "平台"
+              },
+              {
+                "criterionId": "__followers",
+                "verdict": "unknown",
+                "reason": "未取得粉丝数",
+                "evidenceIds": [
+                  "b1a3964a29cd07793976f609"
+                ],
+                "label": "粉丝范围"
+              },
+              {
+                "criterionId": "technology_content",
+                "verdict": "unknown",
+                "reason": "现有资料仅为 qa-controlled-fixture 提供的受控账号说明，未包含科技相关内容、帖子文字或发布日期；本轮未重新打开页面，无法确认其是否创作科技内容。",
+                "evidenceIds": [
+                  "b1a3964a29cd07793976f609"
+                ],
+                "label": "创作科技相关内容的博主"
+              }
+            ],
+            "verdict": "unknown",
+            "annotations": [
+              {
+                "dimensionId": "content_direction",
+                "status": "unknown",
+                "values": [],
+                "reason": "主页文字仅说明这是受控验收账号，未提供可判定内容方向的创作资料。",
+                "evidenceIds": [
+                  "b1a3964a29cd07793976f609"
+                ]
+              }
+            ],
+            "tags": [],
+            "revision": 1,
+            "updatedAt": 1791639561814,
+            "selected": false
+          },
+          {
+            "id": "research-954c59635895b4975e976fec|youtube:http://wave-fixture:8087/creator/alice",
+            "taskId": "research-954c59635895b4975e976fec",
+            "creator": {
+              "id": "youtube:http://wave-fixture:8087/creator/alice",
+              "platform": "youtube",
+              "handle": "",
+              "profileUrl": "http://wave-fixture:8087/creator/alice",
+              "displayName": "受控夹具 alice",
+              "followers": null,
+              "region": null,
+              "evidence": [
+                {
+                  "id": "41a22cd5e0b68893a736f301",
+                  "url": "http://wave-fixture:8087/creator/alice",
+                  "text": "这是受控验收账号，公开主页供真实浏览器核验。不是 WaveSurge 实际发现的社交账号。",
+                  "kind": "profile",
+                  "provider": "qa-controlled-fixture",
+                  "publishedAt": null,
+                  "capturedAt": 1791639561827
+                },
+                {
+                  "id": "2bf68a32b2ed828262406eaf",
+                  "url": "http://wave-fixture:8087/creator/alice",
+                  "kind": "browser_snapshot",
+                  "text": "Alice — controlled test creator, NOT a real social account\n\n20.4K subscribers\n\nLocation: United States\n\nTechnology tutorials, productivity tools and student study workflows.\n\nCHIP / CIRCUIT BOARD / HEADPHONES\n\nOriginal public technology tutorial, published October 9, 2026. Explains processors and noise cancellation.\n\nPresentation style: clear step-by-step teacher explanation, everyday casual clothing. There is no evidence of geek fashion.\n\nSTUDY WORKFLOW / NOTION / POMODORO\n\nOriginal public study efficiency tutorial, published October 8, 2026. For university students: organize lecture notes and assignment deadlines in Notion, use a 25-minute Pomodoro focus block, then test recall with flashcards to reduce distracted study time. Demonstrates the complete study planning workflow step by step.\n\nPresentation style: practical teacher explanation and on-screen productivity walkthrough.",
+                  "provider": "headed-chromium",
+                  "publishedAt": null,
+                  "capturedAt": 1791639571871,
+                  "assetId": "d02348d0feab0652ea9e9e80942e6458e9a7a0dd928403052ec77013bed99a12"
+                }
+              ],
+              "browserVerification": {
+                "startedAt": 1791639571352,
+                "profileEvidenceIds": [
+                  "41a22cd5e0b68893a736f301",
+                  "2bf68a32b2ed828262406eaf"
+                ]
+              },
+              "facts": {
+                "conflicts": [],
+                "followers": {
+                  "min": 20350,
+                  "max": 20499,
+                  "rawValue": "20.4K subscribers",
+                  "evidenceIds": [
+                    "2bf68a32b2ed828262406eaf"
+                  ]
+                },
+                "country": {
+                  "code": "US",
+                  "rawValue": "Location: United States",
+                  "evidenceIds": [
+                    "2bf68a32b2ed828262406eaf"
+                  ]
+                }
+              }
+            },
+            "judgments": [
+              {
+                "criterionId": "__profile_visit",
+                "verdict": "match",
+                "reason": "本轮已取得本人主页实际页面观察与截图；网页上的其他条件仍按各自证据判断",
+                "evidenceIds": [
+                  "2bf68a32b2ed828262406eaf"
+                ],
+                "label": "本轮本人主页访问"
+              },
+              {
+                "criterionId": "__platform",
+                "verdict": "match",
+                "reason": "创作者平台：youtube",
+                "evidenceIds": [],
+                "label": "平台"
+              },
+              {
+                "criterionId": "__followers",
+                "verdict": "match",
+                "reason": "主页显示 20.4K subscribers；保守区间 20350–20499，要求 0–9007199254740991",
+                "evidenceIds": [
+                  "2bf68a32b2ed828262406eaf",
+                  "41a22cd5e0b68893a736f301"
+                ],
+                "label": "粉丝范围"
+              },
+              {
+                "criterionId": "technology_content",
+                "verdict": "match",
+                "reason": "公开主页简介明确包含科技教程；页面列出2026年10月9日的原创科技教程，讲解处理器与降噪，支持创作科技相关内容。该页面明确标注为受控测试账号，不是真实社交账号。",
+                "evidenceIds": [
+                  "2bf68a32b2ed828262406eaf"
+                ],
+                "label": "创作科技相关内容的博主"
+              }
+            ],
+            "verdict": "match",
+            "annotations": [
+              {
+                "dimensionId": "content_direction",
+                "status": "supported",
+                "values": [
+                  "科技教程",
+                  "效率工具",
+                  "学生学习工作流"
+                ],
+                "reason": "主页简介写明 Technology tutorials, productivity tools and student study workflows；列出的处理器与降噪教程及2026年10月8日Notion、番茄钟学习流程教程支持这些内容方向。",
+                "evidenceIds": [
+                  "2bf68a32b2ed828262406eaf"
+                ]
+              }
+            ],
+            "tags": [
+              "科技教程",
+              "效率工具",
+              "学生学习工作流"
+            ],
+            "revision": 1,
+            "updatedAt": 1791639589370,
+            "selected": true
+          },
+          {
+            "id": "research-954c59635895b4975e976fec|youtube:http://wave-fixture:8087/creator/bob",
+            "taskId": "research-954c59635895b4975e976fec",
+            "creator": {
+              "id": "youtube:http://wave-fixture:8087/creator/bob",
+              "platform": "youtube",
+              "handle": "",
+              "profileUrl": "http://wave-fixture:8087/creator/bob",
+              "displayName": "受控夹具 bob",
+              "followers": null,
+              "region": null,
+              "evidence": [
+                {
+                  "id": "b1a3964a29cd07793976f609",
+                  "url": "http://wave-fixture:8087/creator/bob",
+                  "text": "这是受控验收账号，公开主页供真实浏览器核验。不是 WaveSurge 实际发现的社交账号。",
+                  "kind": "profile",
+                  "provider": "qa-controlled-fixture",
+                  "publishedAt": null,
+                  "capturedAt": 1791639561827
+                },
+                {
+                  "id": "d8fb4bbf77f6725a0472828c",
+                  "url": "http://wave-fixture:8087/creator/bob",
+                  "kind": "browser_snapshot",
+                  "text": "Bob — controlled test creator, NOT a real social account\n\n67.6K subscribers\n\nLocation: United States\n\nTechnology education and headphone reviews.\n\nCHIP / CIRCUIT BOARD / HEADPHONES\n\nOriginal public technology tutorial, published October 9, 2026. Explains processors and noise cancellation.\n\nPresentation style: detailed geek technology enthusiast tutorials and gadget demonstrations.",
+                  "provider": "headed-chromium",
+                  "publishedAt": null,
+                  "capturedAt": 1791639589518,
+                  "assetId": "d3dfe79cb4c5b36d6299632981ca7a9cf8acd03a8fa79e79c57cb306b11f666c"
+                }
+              ],
+              "browserVerification": {
+                "startedAt": 1791639589372,
+                "profileEvidenceIds": [
+                  "b1a3964a29cd07793976f609",
+                  "d8fb4bbf77f6725a0472828c"
+                ]
+              },
+              "facts": {
+                "conflicts": [],
+                "followers": {
+                  "min": 67550,
+                  "max": 67699,
+                  "rawValue": "67.6K subscribers",
+                  "evidenceIds": [
+                    "d8fb4bbf77f6725a0472828c"
+                  ]
+                },
+                "country": {
+                  "code": "US",
+                  "rawValue": "Location: United States",
+                  "evidenceIds": [
+                    "d8fb4bbf77f6725a0472828c"
+                  ]
+                }
+              }
+            },
+            "judgments": [
+              {
+                "criterionId": "__profile_visit",
+                "verdict": "match",
+                "reason": "本轮已取得本人主页实际页面观察与截图；网页上的其他条件仍按各自证据判断",
+                "evidenceIds": [
+                  "d8fb4bbf77f6725a0472828c"
+                ],
+                "label": "本轮本人主页访问"
+              },
+              {
+                "criterionId": "__platform",
+                "verdict": "match",
+                "reason": "创作者平台：youtube",
+                "evidenceIds": [],
+                "label": "平台"
+              },
+              {
+                "criterionId": "__followers",
+                "verdict": "match",
+                "reason": "主页显示 67.6K subscribers；保守区间 67550–67699，要求 0–9007199254740991",
+                "evidenceIds": [
+                  "d8fb4bbf77f6725a0472828c",
+                  "b1a3964a29cd07793976f609"
+                ],
+                "label": "粉丝范围"
+              },
+              {
+                "criterionId": "technology_content",
+                "verdict": "match",
+                "reason": "公开主页明确写有“Technology education and headphone reviews”，并展示标注为2026年10月9日发布的科技教程，说明处理器与降噪原理，支持科技内容条件。该页面明确为受控测试账号，不是真实社交账号。",
+                "evidenceIds": [
+                  "d8fb4bbf77f6725a0472828c"
+                ],
+                "label": "创作科技相关内容的博主"
+              }
+            ],
+            "verdict": "match",
+            "annotations": [
+              {
+                "dimensionId": "content_direction",
+                "status": "supported",
+                "values": [
+                  "科技科普",
+                  "耳机评测",
+                  "处理器与降噪原理教程",
+                  "数码产品演示"
+                ],
+                "reason": "主页简介和教程文字明确描述科技教育、耳机评测、处理器与降噪讲解及设备演示。",
+                "evidenceIds": [
+                  "d8fb4bbf77f6725a0472828c"
+                ]
+              }
+            ],
+            "tags": [
+              "科技科普",
+              "耳机评测",
+              "处理器与降噪原理教程",
+              "数码产品演示"
+            ],
+            "revision": 1,
+            "updatedAt": 1791639598506,
+            "selected": false
+          }
+        ]
+      },
+      "pageVerification": [
+        {
+          "handle": "",
+          "verdict": "match",
+          "visit": {
+            "criterionId": "__profile_visit",
+            "verdict": "match",
+            "reason": "本轮已取得本人主页实际页面观察与截图；网页上的其他条件仍按各自证据判断",
+            "evidenceIds": [
+              "2bf68a32b2ed828262406eaf"
+            ],
+            "label": "本轮本人主页访问"
+          },
+          "proof": {
+            "startedAt": 1791639571352,
+            "profileEvidenceIds": [
+              "41a22cd5e0b68893a736f301",
+              "2bf68a32b2ed828262406eaf"
+            ]
+          },
+          "pages": [
+            {
+              "id": "2bf68a32b2ed828262406eaf",
+              "url": "http://wave-fixture:8087/creator/alice",
+              "capturedAt": 1791639571871,
+              "assetId": "d02348d0feab0652ea9e9e80942e6458e9a7a0dd928403052ec77013bed99a12"
+            }
+          ]
+        },
+        {
+          "handle": "",
+          "verdict": "match",
+          "visit": {
+            "criterionId": "__profile_visit",
+            "verdict": "match",
+            "reason": "本轮已取得本人主页实际页面观察与截图；网页上的其他条件仍按各自证据判断",
+            "evidenceIds": [
+              "d8fb4bbf77f6725a0472828c"
+            ],
+            "label": "本轮本人主页访问"
+          },
+          "proof": {
+            "startedAt": 1791639589372,
+            "profileEvidenceIds": [
+              "b1a3964a29cd07793976f609",
+              "d8fb4bbf77f6725a0472828c"
+            ]
+          },
+          "pages": [
+            {
+              "id": "d8fb4bbf77f6725a0472828c",
+              "url": "http://wave-fixture:8087/creator/bob",
+              "capturedAt": 1791639589518,
+              "assetId": "d3dfe79cb4c5b36d6299632981ca7a9cf8acd03a8fa79e79c57cb306b11f666c"
+            }
+          ]
+        }
+      ],
+      "calls": [
+        {
+          "id": "e3811c21-afec-4dac-9638-0e997c006fed",
+          "kind": "chat",
+          "tools": [
+            {
+              "name": "start_research_batch",
+              "args": {
+                "specs": [
+                  {
+                    "title": "YouTube 科技博主研究—现有文字核验",
+                    "personaText": "Technology content creators",
+                    "count": 1,
+                    "platforms": [
+                      "youtube"
+                    ],
+                    "regions": [],
+                    "minFollowers": 0,
+                    "maxFollowers": 9007199254740991,
+                    "candidateBudget": 2,
+                    "analyzeAll": true,
+                    "verificationMode": "text",
+                    "annotations": [
+                      {
+                        "id": "content_direction",
+                        "label": "内容方向"
+                      }
+                    ],
+                    "criteria": [
+                      {
+                        "id": "technology_content",
+                        "label": "创作科技相关内容的博主",
+                        "required": true,
+                        "basis": "text"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "YouTube 科技博主研究—公开主页核验",
+                    "personaText": "Technology content creators",
+                    "count": 1,
+                    "platforms": [
+                      "youtube"
+                    ],
+                    "regions": [],
+                    "minFollowers": 0,
+                    "maxFollowers": 9007199254740991,
+                    "candidateBudget": 2,
+                    "analyzeAll": true,
+                    "verificationMode": "browser",
+                    "annotations": [
+                      {
+                        "id": "content_direction",
+                        "label": "内容方向"
+                      }
+                    ],
+                    "criteria": [
+                      {
+                        "id": "technology_content",
+                        "label": "创作科技相关内容的博主",
+                        "required": true,
+                        "basis": "text"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "ad8340d4-cadf-4d62-8b2d-6eb42be0761c",
+          "kind": "chat"
+        },
+        {
+          "id": "540970b4-2735-4dc9-8103-7c2ca24bfbdb",
+          "kind": "verification",
+          "tools": [
+            {
+              "name": "submit_judgments",
+              "args": {
+                "judgments": [
+                  {
+                    "criterionId": "technology_content",
+                    "verdict": "unknown",
+                    "reason": "现有资料仅为受控验收账号说明，未包含科技相关的创作者简介或帖子文字，无法判断是否创作科技内容。本轮未重新打开页面。",
+                    "evidenceIds": [
+                      "41a22cd5e0b68893a736f301"
+                    ]
+                  }
+                ],
+                "annotations": [
+                  {
+                    "dimensionId": "content_direction",
+                    "status": "unknown",
+                    "values": [],
+                    "reason": "现有主页文字未说明内容方向，也没有可供核验的帖子文字。",
+                    "evidenceIds": [
+                      "41a22cd5e0b68893a736f301"
+                    ]
+                  }
+                ],
+                "facts": []
+              }
+            }
+          ]
+        },
+        {
+          "id": "c7ebf6a0-7c51-44fd-b843-877caa0ed9fa",
+          "kind": "verification",
+          "tools": [
+            {
+              "name": "submit_judgments",
+              "args": {
+                "judgments": [
+                  {
+                    "criterionId": "technology_content",
+                    "verdict": "unknown",
+                    "reason": "现有资料仅为 qa-controlled-fixture 提供的受控账号说明，未包含科技相关内容、帖子文字或发布日期；本轮未重新打开页面，无法确认其是否创作科技内容。",
+                    "evidenceIds": [
+                      "b1a3964a29cd07793976f609"
+                    ]
+                  }
+                ],
+                "annotations": [
+                  {
+                    "dimensionId": "content_direction",
+                    "status": "unknown",
+                    "values": [],
+                    "reason": "主页文字仅说明这是受控验收账号，未提供可判定内容方向的创作资料。",
+                    "evidenceIds": [
+                      "b1a3964a29cd07793976f609"
+                    ]
+                  }
+                ],
+                "facts": []
+              }
+            }
+          ]
+        },
+        {
+          "id": "bb414edb-484f-483e-9db8-1a1997f7beba",
+          "kind": "chat"
+        },
+        {
+          "id": "df7bf38d-197d-42aa-9eec-be9a1390bfbb",
+          "kind": "browser-verification",
+          "tools": [
+            {
+              "name": "submit_judgments",
+              "args": {
+                "judgments": [
+                  {
+                    "criterionId": "technology_content",
+                    "verdict": "match",
+                    "reason": "公开主页简介明确包含科技教程；页面列出2026年10月9日的原创科技教程，讲解处理器与降噪，支持创作科技相关内容。该页面明确标注为受控测试账号，不是真实社交账号。",
+                    "evidenceIds": [
+                      "2bf68a32b2ed828262406eaf"
+                    ]
+                  }
+                ],
+                "annotations": [
+                  {
+                    "dimensionId": "content_direction",
+                    "status": "supported",
+                    "values": [
+                      "科技教程",
+                      "效率工具",
+                      "学生学习工作流"
+                    ],
+                    "reason": "主页简介写明 Technology tutorials, productivity tools and student study workflows；列出的处理器与降噪教程及2026年10月8日Notion、番茄钟学习流程教程支持这些内容方向。",
+                    "evidenceIds": [
+                      "2bf68a32b2ed828262406eaf"
+                    ]
+                  }
+                ],
+                "facts": [
+                  {
+                    "kind": "followers",
+                    "rawValue": "20.4K subscribers",
+                    "evidenceIds": [
+                      "2bf68a32b2ed828262406eaf"
+                    ]
+                  },
+                  {
+                    "kind": "country",
+                    "rawValue": "Location: United States",
+                    "evidenceIds": [
+                      "2bf68a32b2ed828262406eaf"
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "98bb6756-8a43-4fd2-957c-426bcd86ba33",
+          "kind": "browser-verification",
+          "tools": [
+            {
+              "name": "submit_judgments",
+              "args": {
+                "judgments": [
+                  {
+                    "criterionId": "technology_content",
+                    "verdict": "match",
+                    "reason": "公开主页明确写有“Technology education and headphone reviews”，并展示标注为2026年10月9日发布的科技教程，说明处理器与降噪原理，支持科技内容条件。该页面明确为受控测试账号，不是真实社交账号。",
+                    "evidenceIds": [
+                      "d8fb4bbf77f6725a0472828c"
+                    ]
+                  }
+                ],
+                "annotations": [
+                  {
+                    "dimensionId": "content_direction",
+                    "status": "supported",
+                    "values": [
+                      "科技科普",
+                      "耳机评测",
+                      "处理器与降噪原理教程",
+                      "数码产品演示"
+                    ],
+                    "reason": "主页简介和教程文字明确描述科技教育、耳机评测、处理器与降噪讲解及设备演示。",
+                    "evidenceIds": [
+                      "d8fb4bbf77f6725a0472828c"
+                    ]
+                  }
+                ],
+                "facts": [
+                  {
+                    "kind": "followers",
+                    "rawValue": "67.6K subscribers",
+                    "evidenceIds": [
+                      "d8fb4bbf77f6725a0472828c"
+                    ]
+                  },
+                  {
+                    "kind": "country",
+                    "rawValue": "Location: United States",
+                    "evidenceIds": [
+                      "d8fb4bbf77f6725a0472828c"
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "waveCalls": [
+        {
+          "id": "87e0fc3b-d576-4099-85bc-16ed7e68f42d",
+          "path": "/discover/db?platform=youtube&limit=500&sort=fit_desc",
+          "method": "GET",
+          "status": 200
+        },
+        {
+          "id": "7659446a-4c1f-4d86-942c-06e6f1a13379",
+          "path": "/discover/db?platform=youtube&limit=500&sort=fit_desc",
+          "method": "GET",
+          "status": 200
+        }
+      ],
+      "passed": true,
+      "finishedAt": "2026-10-10T13:40:01.371Z"
+    },
+    {
+      "input": "再新开两项独立的 YouTube 科技内容研究，粉丝和国家不限，每项选1人，各看完2个候选，都标内容方向。A只分析已有文字，B需要看本人公开页面。两项现在都登记，网页只排队，授权已明确，文字先跑；我现在仍在操作桌面，等全部做完统一报告。",
+      "index": 2,
+      "at": "2026-10-10T13:40:01.385Z",
+      "preparation": {
+        "page": {
+          "url": "http://wave-fixture:8087/creator/alice",
+          "title": "公开研究夹具 Alice",
+          "assetId": "d02348d0feab0652ea9e9e80942e6458e9a7a0dd928403052ec77013bed99a12"
+        },
+        "request": {
+          "id": "be39755a-41dc-41e6-9bd8-3411ceb338a4",
+          "taskId": "phase-b-fixture-required-2",
+          "creatorId": "controlled-lease",
+          "reason": "R4受控租约测试准备：只验证人工接管与任务调度，没有进行登录",
+          "status": "pending",
+          "createdAt": 1791639602509,
+          "leaseUntil": 0
+        }
+      },
+      "checks": [
+        "Two real registered jobs in one batch; no extra Campaign confirmation; text evaluates both while human owns desktop; browser work persists and aggregate delivery waits",
+        "Required browser mode opens the current owned profile; unavailable pages remain unknown. One combined HTML/CSV report persists after reload"
+      ],
+      "accessChallenges": [],
+      "registration": {
+        "tasks": [
+          {
+            "id": "research-b00ef74f33f5759e606f8300",
+            "spec": {
+              "title": "A：YouTube 科技内容研究—已有文字",
+              "personaText": "Technology content creators",
+              "count": 1,
+              "platforms": [
+                "youtube"
+              ],
+              "regions": [],
+              "minFollowers": 0,
+              "maxFollowers": 9007199254740991,
+              "candidateBudget": 2,
+              "analyzeAll": true,
+              "verificationMode": "text",
+              "annotations": [
+                {
+                  "id": "content_direction",
+                  "label": "内容方向"
+                }
+              ],
+              "criteria": [
+                {
+                  "id": "technology_content",
+                  "label": "创作科技相关内容",
+                  "required": true,
+                  "basis": "text"
+                }
+              ]
+            },
+            "deliveryBatchId": "bb302ba9-70bb-43c6-9cb2-1bfd7acf02d8"
+          },
+          {
+            "id": "research-b8a565aff524bf3d5c73d0b2",
+            "spec": {
+              "title": "B：YouTube 科技内容研究—本人公开页面",
+              "personaText": "Technology content creators",
+              "count": 1,
+              "platforms": [
+                "youtube"
+              ],
+              "regions": [],
+              "minFollowers": 0,
+              "maxFollowers": 9007199254740991,
+              "candidateBudget": 2,
+              "analyzeAll": true,
+              "verificationMode": "browser",
+              "annotations": [
+                {
+                  "id": "content_direction",
+                  "label": "内容方向"
+                }
+              ],
+              "criteria": [
+                {
+                  "id": "technology_content",
+                  "label": "创作科技相关内容",
+                  "required": true,
+                  "basis": "text"
+                }
+              ]
+            },
+            "deliveryBatchId": "bb302ba9-70bb-43c6-9cb2-1bfd7acf02d8"
+          }
+        ],
+        "batches": [
+          {
+            "id": "bb302ba9-70bb-43c6-9cb2-1bfd7acf02d8",
+            "items": [
+              {
+                "kind": "research",
+                "id": "research-b00ef74f33f5759e606f8300",
+                "title": "A：YouTube 科技内容研究—已有文字",
+                "reportUrl": "/api/reports/research-b00ef74f33f5759e606f8300"
+              },
+              {
+                "kind": "research",
+                "id": "research-b8a565aff524bf3d5c73d0b2",
+                "title": "B：YouTube 科技内容研究—本人公开页面",
+                "reportUrl": "/api/reports/research-b8a565aff524bf3d5c73d0b2"
+              }
+            ],
+            "sealed": false
+          }
+        ]
+      },
+      "during": {
+        "tasks": [
+          {
+            "id": "research-b00ef74f33f5759e606f8300",
+            "title": "A：YouTube 科技内容研究—已有文字",
+            "status": "partial",
+            "requested": 1,
+            "evaluated": 2,
+            "matched": 0,
+            "qualifying": 0,
+            "updatedAt": 1791639629833,
+            "detail": "已选合格 0/1，已核验 2；证据不足者保持待核实。youtube：读取 2 条，基础条件排除 0 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。",
+            "remoteStatus": "done",
+            "nextPollAt": 1791639614768
+          },
+          {
+            "id": "research-b8a565aff524bf3d5c73d0b2",
+            "title": "B：YouTube 科技内容研究—本人公开页面",
+            "status": "running",
+            "requested": 1,
+            "evaluated": 0,
+            "matched": 0,
+            "updatedAt": 1791639629851,
+            "detail": "已读取 2 位候选；来源 已到本次读取边界，本地已合格 0 人",
+            "remoteStatus": "done",
+            "nextPollAt": 1791639630851
+          }
+        ],
+        "desktop": {
+          "id": "be39755a-41dc-41e6-9bd8-3411ceb338a4",
+          "taskId": "phase-b-fixture-required-2",
+          "creatorId": "controlled-lease",
+          "reason": "R4受控租约测试准备：只验证人工接管与任务调度，没有进行登录",
+          "status": "human",
+          "createdAt": 1791639602509,
+          "leaseUntil": 1791640502749
+        },
+        "notices": []
+      },
+      "final": {
+        "tasks": [
+          {
+            "id": "research-b00ef74f33f5759e606f8300",
+            "title": "A：YouTube 科技内容研究—已有文字",
+            "status": "partial",
+            "requested": 1,
+            "evaluated": 2,
+            "matched": 0,
+            "qualifying": 0,
+            "updatedAt": 1791639629833,
+            "detail": "已选合格 0/1，已核验 2；证据不足者保持待核实。youtube：读取 2 条，基础条件排除 0 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。",
+            "remoteStatus": "done",
+            "nextPollAt": 1791639614768
+          },
+          {
+            "id": "research-b8a565aff524bf3d5c73d0b2",
+            "title": "B：YouTube 科技内容研究—本人公开页面",
+            "status": "completed",
+            "requested": 1,
+            "evaluated": 2,
+            "matched": 1,
+            "qualifying": 2,
+            "updatedAt": 1791639664559,
+            "detail": "已选合格 1/1，已核验 2；证据不足者保持待核实。youtube：读取 2 条，基础条件排除 0 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。",
+            "remoteStatus": "done",
+            "nextPollAt": 1791639630851
+          }
+        ],
+        "notices": [
+          {
+            "id": "report-request-bb302ba9-70bb-43c6-9cb2-1bfd7acf02d8-7cb980e922ce99c2",
+            "role": "assistant",
+            "text": "本次请求的 2 项工作已全部结束。\n\n- A：YouTube 科技内容研究—已有文字：已结束，仍有缺额或失败；已选合格 0/1，已核验 2；证据不足者保持待核实。youtube：读取 2 条，基础条件排除 0 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。 [查看报告](/api/reports/research-b00ef74f33f5759e606f8300)\n- B：YouTube 科技内容研究—本人公开页面：已完成；已选合格 1/1，已核验 2；证据不足者保持待核实。youtube：读取 2 条，基础条件排除 0 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。 [查看报告](/api/reports/research-b8a565aff524bf3d5c73d0b2)\n\n[查看本次综合报告](/api/work-batches/bb302ba9-70bb-43c6-9cb2-1bfd7acf02d8/report) · [下载综合 CSV](/api/work-batches/bb302ba9-70bb-43c6-9cb2-1bfd7acf02d8/report?format=csv)",
+            "createdAt": 1791639664560,
+            "epoch": 2,
+            "state": "delivered",
+            "attachments": []
+          }
+        ],
+        "batch": {
+          "id": "bb302ba9-70bb-43c6-9cb2-1bfd7acf02d8",
+          "items": [
+            {
+              "kind": "research",
+              "id": "research-b00ef74f33f5759e606f8300",
+              "title": "A：YouTube 科技内容研究—已有文字",
+              "reportUrl": "/api/reports/research-b00ef74f33f5759e606f8300"
+            },
+            {
+              "kind": "research",
+              "id": "research-b8a565aff524bf3d5c73d0b2",
+              "title": "B：YouTube 科技内容研究—本人公开页面",
+              "reportUrl": "/api/reports/research-b8a565aff524bf3d5c73d0b2"
+            }
+          ],
+          "sealed": true,
+          "delivered": true
+        },
+        "results": [
+          {
+            "id": "research-b00ef74f33f5759e606f8300|youtube:http://wave-fixture:8087/creator/alice",
+            "taskId": "research-b00ef74f33f5759e606f8300",
+            "creator": {
+              "id": "youtube:http://wave-fixture:8087/creator/alice",
+              "platform": "youtube",
+              "handle": "",
+              "profileUrl": "http://wave-fixture:8087/creator/alice",
+              "displayName": "受控夹具 alice",
+              "followers": null,
+              "region": null,
+              "evidence": [
+                {
+                  "id": "41a22cd5e0b68893a736f301",
+                  "url": "http://wave-fixture:8087/creator/alice",
+                  "text": "这是受控验收账号，公开主页供真实浏览器核验。不是 WaveSurge 实际发现的社交账号。",
+                  "kind": "profile",
+                  "provider": "qa-controlled-fixture",
+                  "publishedAt": null,
+                  "capturedAt": 1791639613739
+                }
+              ]
+            },
+            "judgments": [
+              {
+                "criterionId": "__platform",
+                "verdict": "match",
+                "reason": "创作者平台：youtube",
+                "evidenceIds": [],
+                "label": "平台"
+              },
+              {
+                "criterionId": "__followers",
+                "verdict": "unknown",
+                "reason": "未取得粉丝数",
+                "evidenceIds": [
+                  "41a22cd5e0b68893a736f301"
+                ],
+                "label": "粉丝范围"
+              },
+              {
+                "criterionId": "technology_content",
+                "verdict": "unknown",
+                "reason": "现有文字仅说明该主页是受控验收账号，未提供科技相关内容、帖子文字或发布日期；本轮未重新打开页面，无法判断是否创作科技内容。",
+                "evidenceIds": [
+                  "41a22cd5e0b68893a736f301"
+                ],
+                "label": "创作科技相关内容"
+              }
+            ],
+            "verdict": "unknown",
+            "annotations": [
+              {
+                "dimensionId": "content_direction",
+                "status": "unknown",
+                "values": [],
+                "reason": "提供的主页文字没有实际内容方向信息，无法确认创作者画像。",
+                "evidenceIds": [
+                  "41a22cd5e0b68893a736f301"
+                ]
+              }
+            ],
+            "tags": [],
+            "revision": 1,
+            "updatedAt": 1791639620720,
+            "selected": false
+          },
+          {
+            "id": "research-b00ef74f33f5759e606f8300|youtube:http://wave-fixture:8087/creator/bob",
+            "taskId": "research-b00ef74f33f5759e606f8300",
+            "creator": {
+              "id": "youtube:http://wave-fixture:8087/creator/bob",
+              "platform": "youtube",
+              "handle": "",
+              "profileUrl": "http://wave-fixture:8087/creator/bob",
+              "displayName": "受控夹具 bob",
+              "followers": null,
+              "region": null,
+              "evidence": [
+                {
+                  "id": "b1a3964a29cd07793976f609",
+                  "url": "http://wave-fixture:8087/creator/bob",
+                  "text": "这是受控验收账号，公开主页供真实浏览器核验。不是 WaveSurge 实际发现的社交账号。",
+                  "kind": "profile",
+                  "provider": "qa-controlled-fixture",
+                  "publishedAt": null,
+                  "capturedAt": 1791639613739
+                }
+              ]
+            },
+            "judgments": [
+              {
+                "criterionId": "__platform",
+                "verdict": "match",
+                "reason": "创作者平台：youtube",
+                "evidenceIds": [],
+                "label": "平台"
+              },
+              {
+                "criterionId": "__followers",
+                "verdict": "unknown",
+                "reason": "未取得粉丝数",
+                "evidenceIds": [
+                  "b1a3964a29cd07793976f609"
+                ],
+                "label": "粉丝范围"
+              },
+              {
+                "criterionId": "technology_content",
+                "verdict": "unknown",
+                "reason": "现有文字仅说明该主页为受控验收账号，没有创作者简介、帖子内容或发布日期，无法判断是否创作科技相关内容；本轮未重新打开页面。",
+                "evidenceIds": [
+                  "b1a3964a29cd07793976f609"
+                ],
+                "label": "创作科技相关内容"
+              }
+            ],
+            "verdict": "unknown",
+            "annotations": [
+              {
+                "dimensionId": "content_direction",
+                "status": "unknown",
+                "values": [],
+                "reason": "所提供的主页文字未描述实际内容方向，不能将筛选目标或受控账号说明当作创作者标签。",
+                "evidenceIds": [
+                  "b1a3964a29cd07793976f609"
+                ]
+              }
+            ],
+            "tags": [],
+            "revision": 1,
+            "updatedAt": 1791639629827,
+            "selected": false
+          },
+          {
+            "id": "research-b8a565aff524bf3d5c73d0b2|youtube:http://wave-fixture:8087/creator/alice",
+            "taskId": "research-b8a565aff524bf3d5c73d0b2",
+            "creator": {
+              "id": "youtube:http://wave-fixture:8087/creator/alice",
+              "platform": "youtube",
+              "handle": "",
+              "profileUrl": "http://wave-fixture:8087/creator/alice",
+              "displayName": "受控夹具 alice",
+              "followers": null,
+              "region": null,
+              "evidence": [
+                {
+                  "id": "41a22cd5e0b68893a736f301",
+                  "url": "http://wave-fixture:8087/creator/alice",
+                  "text": "这是受控验收账号，公开主页供真实浏览器核验。不是 WaveSurge 实际发现的社交账号。",
+                  "kind": "profile",
+                  "provider": "qa-controlled-fixture",
+                  "publishedAt": null,
+                  "capturedAt": 1791639629840
+                },
+                {
+                  "id": "4d411d0487c2b2b1fd9db2af",
+                  "url": "http://wave-fixture:8087/creator/alice",
+                  "kind": "browser_snapshot",
+                  "text": "Alice — controlled test creator, NOT a real social account\n\n20.4K subscribers\n\nLocation: United States\n\nTechnology tutorials, productivity tools and student study workflows.\n\nCHIP / CIRCUIT BOARD / HEADPHONES\n\nOriginal public technology tutorial, published October 9, 2026. Explains processors and noise cancellation.\n\nPresentation style: clear step-by-step teacher explanation, everyday casual clothing. There is no evidence of geek fashion.\n\nSTUDY WORKFLOW / NOTION / POMODORO\n\nOriginal public study efficiency tutorial, published October 8, 2026. For university students: organize lecture notes and assignment deadlines in Notion, use a 25-minute Pomodoro focus block, then test recall with flashcards to reduce distracted study time. Demonstrates the complete study planning workflow step by step.\n\nPresentation style: practical teacher explanation and on-screen productivity walkthrough.",
+                  "provider": "headed-chromium",
+                  "publishedAt": null,
+                  "capturedAt": 1791639640956,
+                  "assetId": "d02348d0feab0652ea9e9e80942e6458e9a7a0dd928403052ec77013bed99a12"
+                }
+              ],
+              "browserVerification": {
+                "startedAt": 1791639640618,
+                "profileEvidenceIds": [
+                  "41a22cd5e0b68893a736f301",
+                  "4d411d0487c2b2b1fd9db2af"
+                ]
+              },
+              "facts": {
+                "conflicts": [],
+                "followers": {
+                  "min": 20350,
+                  "max": 20499,
+                  "rawValue": "20.4K subscribers",
+                  "evidenceIds": [
+                    "4d411d0487c2b2b1fd9db2af"
+                  ]
+                },
+                "country": {
+                  "code": "US",
+                  "rawValue": "Location: United States",
+                  "evidenceIds": [
+                    "4d411d0487c2b2b1fd9db2af"
+                  ]
+                }
+              }
+            },
+            "judgments": [
+              {
+                "criterionId": "__profile_visit",
+                "verdict": "match",
+                "reason": "本轮已取得本人主页实际页面观察与截图；网页上的其他条件仍按各自证据判断",
+                "evidenceIds": [
+                  "4d411d0487c2b2b1fd9db2af"
+                ],
+                "label": "本轮本人主页访问"
+              },
+              {
+                "criterionId": "__platform",
+                "verdict": "match",
+                "reason": "创作者平台：youtube",
+                "evidenceIds": [],
+                "label": "平台"
+              },
+              {
+                "criterionId": "__followers",
+                "verdict": "match",
+                "reason": "主页显示 20.4K subscribers；保守区间 20350–20499，要求 0–9007199254740991",
+                "evidenceIds": [
+                  "4d411d0487c2b2b1fd9db2af",
+                  "41a22cd5e0b68893a736f301"
+                ],
+                "label": "粉丝范围"
+              },
+              {
+                "criterionId": "technology_content",
+                "verdict": "match",
+                "reason": "公开主页介绍为科技教程、生产力工具和学生学习流程；页面列出的2026年10月9日原创科技教程明确讲解处理器与降噪，支持创作科技相关内容。该页面明确为受控测试账号，不是真实社交账号。",
+                "evidenceIds": [
+                  "4d411d0487c2b2b1fd9db2af"
+                ],
+                "label": "创作科技相关内容"
+              }
+            ],
+            "verdict": "match",
+            "annotations": [
+              {
+                "dimensionId": "content_direction",
+                "status": "supported",
+                "values": [
+                  "科技教程",
+                  "生产力工具",
+                  "学生学习效率与工作流程"
+                ],
+                "reason": "主页简介直接列出上述方向；2026年10月9日教程讲解处理器和降噪，10月8日教程讲解Notion笔记与任务管理、番茄钟及闪卡学习流程。",
+                "evidenceIds": [
+                  "4d411d0487c2b2b1fd9db2af"
+                ]
+              }
+            ],
+            "tags": [
+              "科技教程",
+              "生产力工具",
+              "学生学习效率与工作流程"
+            ],
+            "revision": 1,
+            "updatedAt": 1791639653149,
+            "selected": true
+          },
+          {
+            "id": "research-b8a565aff524bf3d5c73d0b2|youtube:http://wave-fixture:8087/creator/bob",
+            "taskId": "research-b8a565aff524bf3d5c73d0b2",
+            "creator": {
+              "id": "youtube:http://wave-fixture:8087/creator/bob",
+              "platform": "youtube",
+              "handle": "",
+              "profileUrl": "http://wave-fixture:8087/creator/bob",
+              "displayName": "受控夹具 bob",
+              "followers": null,
+              "region": null,
+              "evidence": [
+                {
+                  "id": "b1a3964a29cd07793976f609",
+                  "url": "http://wave-fixture:8087/creator/bob",
+                  "text": "这是受控验收账号，公开主页供真实浏览器核验。不是 WaveSurge 实际发现的社交账号。",
+                  "kind": "profile",
+                  "provider": "qa-controlled-fixture",
+                  "publishedAt": null,
+                  "capturedAt": 1791639629840
+                },
+                {
+                  "id": "23e6eb23fbce4dfff1453bba",
+                  "url": "http://wave-fixture:8087/creator/bob",
+                  "kind": "browser_snapshot",
+                  "text": "Bob — controlled test creator, NOT a real social account\n\n67.6K subscribers\n\nLocation: United States\n\nTechnology education and headphone reviews.\n\nCHIP / CIRCUIT BOARD / HEADPHONES\n\nOriginal public technology tutorial, published October 9, 2026. Explains processors and noise cancellation.\n\nPresentation style: detailed geek technology enthusiast tutorials and gadget demonstrations.",
+                  "provider": "headed-chromium",
+                  "publishedAt": null,
+                  "capturedAt": 1791639653618,
+                  "assetId": "d3dfe79cb4c5b36d6299632981ca7a9cf8acd03a8fa79e79c57cb306b11f666c"
+                }
+              ],
+              "browserVerification": {
+                "startedAt": 1791639653159,
+                "profileEvidenceIds": [
+                  "b1a3964a29cd07793976f609",
+                  "23e6eb23fbce4dfff1453bba"
+                ]
+              },
+              "facts": {
+                "conflicts": [],
+                "followers": {
+                  "min": 67550,
+                  "max": 67699,
+                  "rawValue": "67.6K subscribers",
+                  "evidenceIds": [
+                    "23e6eb23fbce4dfff1453bba"
+                  ]
+                },
+                "country": {
+                  "code": "US",
+                  "rawValue": "Location: United States",
+                  "evidenceIds": [
+                    "23e6eb23fbce4dfff1453bba"
+                  ]
+                }
+              }
+            },
+            "judgments": [
+              {
+                "criterionId": "__profile_visit",
+                "verdict": "match",
+                "reason": "本轮已取得本人主页实际页面观察与截图；网页上的其他条件仍按各自证据判断",
+                "evidenceIds": [
+                  "23e6eb23fbce4dfff1453bba"
+                ],
+                "label": "本轮本人主页访问"
+              },
+              {
+                "criterionId": "__platform",
+                "verdict": "match",
+                "reason": "创作者平台：youtube",
+                "evidenceIds": [],
+                "label": "平台"
+              },
+              {
+                "criterionId": "__followers",
+                "verdict": "match",
+                "reason": "主页显示 67.6K subscribers；保守区间 67550–67699，要求 0–9007199254740991",
+                "evidenceIds": [
+                  "23e6eb23fbce4dfff1453bba",
+                  "b1a3964a29cd07793976f609"
+                ],
+                "label": "粉丝范围"
+              },
+              {
+                "criterionId": "technology_content",
+                "verdict": "match",
+                "reason": "当前公开页面明确写有“Technology education and headphone reviews”，并展示标注发布于2026年10月9日的科技教程，内容解释处理器及降噪，支持创作科技相关内容。该页面同时明确为受控测试账号，不代表真实社交账号。",
+                "evidenceIds": [
+                  "23e6eb23fbce4dfff1453bba"
+                ],
+                "label": "创作科技相关内容"
+              }
+            ],
+            "verdict": "match",
+            "annotations": [
+              {
+                "dimensionId": "content_direction",
+                "status": "supported",
+                "values": [
+                  "科技科普",
+                  "耳机评测",
+                  "处理器与降噪技术教程",
+                  "数码设备演示"
+                ],
+                "reason": "页面简介及教程文字明确支持这些内容方向；仅描述当前受控测试页面所展示的内容。",
+                "evidenceIds": [
+                  "23e6eb23fbce4dfff1453bba"
+                ]
+              }
+            ],
+            "tags": [
+              "科技科普",
+              "耳机评测",
+              "处理器与降噪技术教程",
+              "数码设备演示"
+            ],
+            "revision": 1,
+            "updatedAt": 1791639664557,
+            "selected": false
+          }
+        ]
+      },
+      "pageVerification": [
+        {
+          "handle": "",
+          "verdict": "match",
+          "visit": {
+            "criterionId": "__profile_visit",
+            "verdict": "match",
+            "reason": "本轮已取得本人主页实际页面观察与截图；网页上的其他条件仍按各自证据判断",
+            "evidenceIds": [
+              "4d411d0487c2b2b1fd9db2af"
+            ],
+            "label": "本轮本人主页访问"
+          },
+          "proof": {
+            "startedAt": 1791639640618,
+            "profileEvidenceIds": [
+              "41a22cd5e0b68893a736f301",
+              "4d411d0487c2b2b1fd9db2af"
+            ]
+          },
+          "pages": [
+            {
+              "id": "4d411d0487c2b2b1fd9db2af",
+              "url": "http://wave-fixture:8087/creator/alice",
+              "capturedAt": 1791639640956,
+              "assetId": "d02348d0feab0652ea9e9e80942e6458e9a7a0dd928403052ec77013bed99a12"
+            }
+          ]
+        },
+        {
+          "handle": "",
+          "verdict": "match",
+          "visit": {
+            "criterionId": "__profile_visit",
+            "verdict": "match",
+            "reason": "本轮已取得本人主页实际页面观察与截图；网页上的其他条件仍按各自证据判断",
+            "evidenceIds": [
+              "23e6eb23fbce4dfff1453bba"
+            ],
+            "label": "本轮本人主页访问"
+          },
+          "proof": {
+            "startedAt": 1791639653159,
+            "profileEvidenceIds": [
+              "b1a3964a29cd07793976f609",
+              "23e6eb23fbce4dfff1453bba"
+            ]
+          },
+          "pages": [
+            {
+              "id": "23e6eb23fbce4dfff1453bba",
+              "url": "http://wave-fixture:8087/creator/bob",
+              "capturedAt": 1791639653618,
+              "assetId": "d3dfe79cb4c5b36d6299632981ca7a9cf8acd03a8fa79e79c57cb306b11f666c"
+            }
+          ]
+        }
+      ],
+      "calls": [
+        {
+          "id": "234a11ae-2ee7-4fe8-8ee4-da4f6939698f",
+          "kind": "chat",
+          "tools": [
+            {
+              "name": "start_research_batch",
+              "args": {
+                "specs": [
+                  {
+                    "title": "A：YouTube 科技内容研究—已有文字",
+                    "personaText": "Technology content creators",
+                    "count": 1,
+                    "platforms": [
+                      "youtube"
+                    ],
+                    "regions": [],
+                    "minFollowers": 0,
+                    "maxFollowers": 9007199254740991,
+                    "candidateBudget": 2,
+                    "analyzeAll": true,
+                    "verificationMode": "text",
+                    "annotations": [
+                      {
+                        "id": "content_direction",
+                        "label": "内容方向"
+                      }
+                    ],
+                    "criteria": [
+                      {
+                        "id": "technology_content",
+                        "label": "创作科技相关内容",
+                        "required": true,
+                        "basis": "text"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "B：YouTube 科技内容研究—本人公开页面",
+                    "personaText": "Technology content creators",
+                    "count": 1,
+                    "platforms": [
+                      "youtube"
+                    ],
+                    "regions": [],
+                    "minFollowers": 0,
+                    "maxFollowers": 9007199254740991,
+                    "candidateBudget": 2,
+                    "analyzeAll": true,
+                    "verificationMode": "browser",
+                    "annotations": [
+                      {
+                        "id": "content_direction",
+                        "label": "内容方向"
+                      }
+                    ],
+                    "criteria": [
+                      {
+                        "id": "technology_content",
+                        "label": "创作科技相关内容",
+                        "required": true,
+                        "basis": "text"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "f7e5f8fb-9622-4a45-95f2-a395aaf4e336",
+          "kind": "chat"
+        },
+        {
+          "id": "c8444b5b-428f-4f07-a6d8-74d722870b10",
+          "kind": "verification",
+          "tools": [
+            {
+              "name": "submit_judgments",
+              "args": {
+                "judgments": [
+                  {
+                    "criterionId": "technology_content",
+                    "verdict": "unknown",
+                    "reason": "现有文字仅说明该主页是受控验收账号，未提供科技相关内容、帖子文字或发布日期；本轮未重新打开页面，无法判断是否创作科技内容。",
+                    "evidenceIds": [
+                      "41a22cd5e0b68893a736f301"
+                    ]
+                  }
+                ],
+                "annotations": [
+                  {
+                    "dimensionId": "content_direction",
+                    "status": "unknown",
+                    "values": [],
+                    "reason": "提供的主页文字没有实际内容方向信息，无法确认创作者画像。",
+                    "evidenceIds": [
+                      "41a22cd5e0b68893a736f301"
+                    ]
+                  }
+                ],
+                "facts": []
+              }
+            }
+          ]
+        },
+        {
+          "id": "aabed518-d13a-4b9c-9a22-c9b3b6bfd7cb",
+          "kind": "verification",
+          "tools": [
+            {
+              "name": "submit_judgments",
+              "args": {
+                "judgments": [
+                  {
+                    "criterionId": "technology_content",
+                    "verdict": "unknown",
+                    "reason": "现有文字仅说明该主页为受控验收账号，没有创作者简介、帖子内容或发布日期，无法判断是否创作科技相关内容；本轮未重新打开页面。",
+                    "evidenceIds": [
+                      "b1a3964a29cd07793976f609"
+                    ]
+                  }
+                ],
+                "annotations": [
+                  {
+                    "dimensionId": "content_direction",
+                    "status": "unknown",
+                    "values": [],
+                    "reason": "所提供的主页文字未描述实际内容方向，不能将筛选目标或受控账号说明当作创作者标签。",
+                    "evidenceIds": [
+                      "b1a3964a29cd07793976f609"
+                    ]
+                  }
+                ],
+                "facts": []
+              }
+            }
+          ]
+        },
+        {
+          "id": "5d0eb5fe-49a9-461a-99e2-9a88c39bf163",
+          "kind": "chat"
+        },
+        {
+          "id": "0ef46937-cde6-4de0-9de9-c7a01d813b83",
+          "kind": "chat"
+        },
+        {
+          "id": "25755c33-3257-41b2-bb55-1ab721d69efb",
+          "kind": "browser-verification",
+          "tools": [
+            {
+              "name": "submit_judgments",
+              "args": {
+                "judgments": [
+                  {
+                    "criterionId": "technology_content",
+                    "verdict": "match",
+                    "reason": "公开主页介绍为科技教程、生产力工具和学生学习流程；页面列出的2026年10月9日原创科技教程明确讲解处理器与降噪，支持创作科技相关内容。该页面明确为受控测试账号，不是真实社交账号。",
+                    "evidenceIds": [
+                      "4d411d0487c2b2b1fd9db2af"
+                    ]
+                  }
+                ],
+                "annotations": [
+                  {
+                    "dimensionId": "content_direction",
+                    "status": "supported",
+                    "values": [
+                      "科技教程",
+                      "生产力工具",
+                      "学生学习效率与工作流程"
+                    ],
+                    "reason": "主页简介直接列出上述方向；2026年10月9日教程讲解处理器和降噪，10月8日教程讲解Notion笔记与任务管理、番茄钟及闪卡学习流程。",
+                    "evidenceIds": [
+                      "4d411d0487c2b2b1fd9db2af"
+                    ]
+                  }
+                ],
+                "facts": [
+                  {
+                    "kind": "followers",
+                    "rawValue": "20.4K subscribers",
+                    "evidenceIds": [
+                      "4d411d0487c2b2b1fd9db2af"
+                    ]
+                  },
+                  {
+                    "kind": "country",
+                    "rawValue": "Location: United States",
+                    "evidenceIds": [
+                      "4d411d0487c2b2b1fd9db2af"
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "083248d6-4628-41f0-a495-c0ac74aebfa0",
+          "kind": "browser-verification",
+          "tools": [
+            {
+              "name": "submit_judgments",
+              "args": {
+                "judgments": [
+                  {
+                    "criterionId": "technology_content",
+                    "verdict": "match",
+                    "reason": "当前公开页面明确写有“Technology education and headphone reviews”，并展示标注发布于2026年10月9日的科技教程，内容解释处理器及降噪，支持创作科技相关内容。该页面同时明确为受控测试账号，不代表真实社交账号。",
+                    "evidenceIds": [
+                      "23e6eb23fbce4dfff1453bba"
+                    ]
+                  }
+                ],
+                "annotations": [
+                  {
+                    "dimensionId": "content_direction",
+                    "status": "supported",
+                    "values": [
+                      "科技科普",
+                      "耳机评测",
+                      "处理器与降噪技术教程",
+                      "数码设备演示"
+                    ],
+                    "reason": "页面简介及教程文字明确支持这些内容方向；仅描述当前受控测试页面所展示的内容。",
+                    "evidenceIds": [
+                      "23e6eb23fbce4dfff1453bba"
+                    ]
+                  }
+                ],
+                "facts": [
+                  {
+                    "kind": "followers",
+                    "rawValue": "67.6K subscribers",
+                    "evidenceIds": [
+                      "23e6eb23fbce4dfff1453bba"
+                    ]
+                  },
+                  {
+                    "kind": "country",
+                    "rawValue": "Location: United States",
+                    "evidenceIds": [
+                      "23e6eb23fbce4dfff1453bba"
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "waveCalls": [
+        {
+          "id": "9c2f496a-5f90-4222-b506-2ed7f0757df3",
+          "path": "/discover/db?platform=youtube&limit=500&sort=fit_desc",
+          "method": "GET",
+          "status": 200
+        },
+        {
+          "id": "5bb7c8f6-e48e-4420-a706-79623cdc5c3a",
+          "path": "/discover/db?platform=youtube&limit=500&sort=fit_desc",
+          "method": "GET",
+          "status": 200
+        }
+      ],
+      "passed": true,
+      "finishedAt": "2026-10-10T13:41:07.373Z"
+    }
+  ],
+  "pageErrors": [],
+  "passed": true,
+  "finishedAt": "2026-10-10T13:41:07.376Z"
+}

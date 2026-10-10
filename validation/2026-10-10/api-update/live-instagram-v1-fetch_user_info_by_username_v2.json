@@ -1,0 +1,148 @@
+{
+  "path": "/instagram/v1/fetch_user_info_by_username_v2?username=natgeo",
+  "status": 200,
+  "contentType": "application/json; charset=utf-8",
+  "ms": 6670,
+  "body": {
+    "code": 200,
+    "request_id": "e7d3bc4e-5111-46c6-9cc9-5970d61f240f",
+    "message": "Request successful. This request will incur a charge.",
+    "message_zh": "请求成功，本次请求将被计费。",
+    "support": "Discord: https://discord.gg/aMEAS8Xsvz",
+    "time": "2026-10-09 22:35:30",
+    "time_stamp": 1791610530,
+    "time_zone": "America/Los_Angeles",
+    "docs": "https://api.tikhub.io/#/Instagram-V1-API/fetch_user_info_by_username_v2_api_v1_instagram_v1_fetch_user_info_by_username_v2_get",
+    "cache_message": "This response is cached and accessible via the URL below for 24 hours at no extra cost. The cache is for request tracing only — it doesn't affect the API's data freshness and won't be returned through the API again.",
+    "cache_message_zh": "本次响应已缓存，可通过下方 URL 直接查看，有效期 24 小时，访问缓存链接无额外费用。缓存仅用于请求溯源，不影响接口数据的时效性，也不会再次通过接口返回。",
+    "cache_url": "https://cache.tikhub.io/api/v1/cache/public/e7d3bc4e-5111-46c6-9cc9-5970d61f240f?sign=cb89f4477de10964a74c2c225529a65afdc1242d9ab1acba202687222068fa2f",
+    "router": "/api/v1/instagram/v1/fetch_user_info_by_username_v2",
+    "params": {
+      "username": "natgeo"
+    },
+    "data": {
+      "status": true,
+      "ai_agent_owner_username": null,
+      "biography": "Step into wonder and find your inner explorer with National Geographic 🌎",
+      "bio_links": [
+        {
+          "title": "",
+          "lynx_url": "https://l.instagram.com/?u=http%3A%2F%2Fvisitstore.bio%2Fnatgeo&e=AUBNi94_-OZzwOtuTknQihLwbGc06Q_LsLPzIbY-OyfMLJGG2k0wb2jenutDvz6zppeyJPwhaBTCqhrOIE1vldbhBQwrnJxYpSXqUaEtwmkKqIgRNF-Gg1v_NaUA7o4N-kwKMHtHq33BS4_2",
+          "url": "http://visitstore.bio/natgeo",
+          "link_type": "external"
+        },
+        {
+          "title": "Subscribe Here!",
+          "lynx_url": "https://l.instagram.com/?u=https%3A%2F%2Fngmdomsubs.nationalgeographic.com%2Fservlet%2FOrdersGateway%3Fcds_mag_code%3DNGM%26cds_page_id%3D283562%26cds_response_key%3DI5FX10002&e=AUC4TlLNus9jbGzpYmB3c6Zg6ePI8n9ZJOP0rb3dUfRzEnLHDCpZNSlm2agtNJuNbxYmDjYQ22vThyuas7hOAK7czyEw5uFlz7LI6ScWrfa-WOa5NYdd__wp_bBmezkDgZObO0hld8HmYwaA",
+          "url": "https://ngmdomsubs.nationalgeographic.com/servlet/OrdersGateway?cds_mag_code=NGM&cds_page_id=283562&cds_response_key=I5FX10002",
+          "link_type": "external"
+        }
+      ],
+      "fb_profile_biolink": null,
+      "biography_with_entities": {
+        "raw_text": "Step into wonder and find your inner explorer with National Geographic 🌎",
+        "entities": []
+      },
+      "blocked_by_viewer": false,
+      "restricted_by_viewer": null,
+      "country_block": false,
+      "eimu_id": null,
+      "external_url": "http://visitstore.bio/natgeo",
+      "external_url_linkshimmed": "https://l.instagram.com/?u=http%3A%2F%2Fvisitstore.bio%2Fnatgeo&e=AUCrW_NBRd9o1V4opNgUfIVEIKPsJnEISvvUTc9puL43LC6_jyJIgLVkJeQa0xEh6-Kd_ftNTNL3xK9J1pmMlUsu4dsLqrWYG3mCW0jjyfNH6p2QlEwaGOta8Ov7gmAKopAMwNhzKlAp__q2",
+      "edge_followed_by": {
+        "count": 268409900
+      },
+      "fbid": "17841400573960012",
+      "followed_by_viewer": false,
+      "edge_follow": {
+        "count": 194
+      },
+      "follows_viewer": false,
+      "full_name": "National Geographic",
+      "group_metadata": null,
+      "has_ar_effects": false,
+      "has_clips": true,
+      "has_guides": false,
+      "has_channel": false,
+      "has_blocked_viewer": false,
+      "highlight_reel_count": 0,
+      "has_onboarded_to_text_post_app": true,
+      "has_requested_viewer": false,
+      "hide_like_and_view_counts": false,
+      "id": "787132",
+      "is_business_account": false,
+      "is_professional_account": true,
+      "is_supervision_enabled": false,
+      "is_guardian_of_viewer": false,
+      "is_supervised_by_viewer": false,
+      "is_supervised_user": false,
+      "is_embeds_disabled": false,
+      "is_joined_recently": false,
+      "guardian_id": null,
+      "business_address_json": "{\"city_name\":null,\"city_id\":null,\"latitude\":null,\"longitude\":null,\"street_address\":null,\"zip_code\":null}",
+      "business_contact_method": null,
+      "business_email": null,
+      "business_phone_number": null,
+      "business_category_name": null,
+      "overall_category_name": null,
+      "category_enum": null,
+      "category_name": "",
+      "is_private": false,
+      "is_verified": true,
+      "is_verified_by_mv4b": false,
+      "is_regulated_c18": false,
+      "edge_mutual_followed_by": {
+        "count": 0,
+        "edges": []
+      },
+      "pinned_channels_list_count": 0,
+      "profile_pic_url": "https://scontent.cdninstagram.com/v/t51.82787-19/683576066_18653628823019133_9051036240972105113_n.jpg?stp=dst-webp_s150x150&_nc_cat=1&ig_cache_key=GAKLvih9nsRnYEVCAJlFVLiBvZt9bmNDAQAB1501500j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy40MDAuQzMifQ%3D%3D&_nc_ohc=_fdjK6hwb-cQ7kNvwHMFxAr&_nc_oc=Adq0LfP8XhlHs0rbbZYYTbtqedG5anYjDYU382GQEZB9rvNCJKMAZELmx_ebAeJPSC4&_nc_ad=z-m&_nc_cid=0&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=kcHQ6Yhzjb0r9gh6Brg5xw&_nc_ss=7339b&oh=00_AQOAQ5RYXbgCKWntEDq9zv-3RaPVSyRxFHL66PcaekKhAA&oe=6ACF9CAB",
+      "profile_pic_url_hd": "https://scontent.cdninstagram.com/v/t51.82787-19/683576066_18653628823019133_9051036240972105113_n.jpg?stp=dst-webp&_nc_cat=1&ig_cache_key=GAKLvih9nsRnYEVCAJlFVLiBvZt9bmNDAQAB0j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy40MDAuQzMifQ%3D%3D&_nc_ohc=_fdjK6hwb-cQ7kNvwHMFxAr&_nc_oc=Adq0LfP8XhlHs0rbbZYYTbtqedG5anYjDYU382GQEZB9rvNCJKMAZELmx_ebAeJPSC4&_nc_ad=z-m&_nc_cid=0&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=kcHQ6Yhzjb0r9gh6Brg5xw&_nc_ss=7339b&oh=00_AQPuuAFrLrcshFoD_a1EoIjGTbWl0Q14aAlWoLs6hRd5TA&oe=6ACF9CAB",
+      "requested_by_viewer": false,
+      "should_show_category": false,
+      "should_show_public_contacts": true,
+      "show_account_transparency_details": true,
+      "show_text_post_app_badge": true,
+      "remove_message_entrypoint": false,
+      "transparency_label": null,
+      "transparency_product": null,
+      "username": "natgeo",
+      "edge_felix_video_timeline": {
+        "count": 1,
+        "page_info": {
+          "has_next_page": false,
+          "end_cursor": null
+        },
+        "edges": []
+      },
+      "edge_owner_to_timeline_media": {
+        "count": 0,
+        "page_info": {
+          "has_next_page": false,
+          "end_cursor": null
+        },
+        "edges": []
+      },
+      "edge_saved_media": {
+        "count": 0,
+        "page_info": {
+          "has_next_page": false,
+          "end_cursor": null
+        },
+        "edges": []
+      },
+      "edge_media_collections": {
+        "count": 0,
+        "page_info": {
+          "has_next_page": false,
+          "end_cursor": null
+        },
+        "edges": []
+      },
+      "edge_related_profiles": {
+        "edges": []
+      },
+      "attempts": "0"
+    }
+  }
+}

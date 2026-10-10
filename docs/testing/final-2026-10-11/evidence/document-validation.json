@@ -1,0 +1,2775 @@
+{
+  "startedAt": "2026-10-10T17:43:38.626Z",
+  "source": "Actual authenticated Chrome pages, clicked chat links, HTTP report bodies, real download events and standard CSV parsing; no result/body mutation",
+  "documents": [
+    {
+      "name": "doc-positive",
+      "path": "/api/reports/research-411f1e1ee3778536fc1cfea9",
+      "kind": "single",
+      "expectedRecords": 2,
+      "counts": {
+        "records": 2,
+        "unique": 2,
+        "qualified": 2,
+        "qualifiedUnique": 2,
+        "selected": 1,
+        "selectedUnique": 1
+      },
+      "dom": [
+        {
+          "id": "research-411f1e1ee3778536fc1cfea9|instagram:tylerlcrawford",
+          "taskId": "research-411f1e1ee3778536fc1cfea9",
+          "groupId": "research-411f1e1ee3778536fc1cfea9",
+          "selected": "true",
+          "judgments": [
+            {
+              "id": "__platform",
+              "text": "平台符合要求创作者平台：instagram"
+            },
+            {
+              "id": "__followers",
+              "text": "粉丝范围符合要求WaveSurge 粉丝数 31253，要求 10000–100000profile 日期未知"
+            },
+            {
+              "id": "digital_use_experience",
+              "text": "分享实际数码产品使用经验符合要求依据已提供的 WaveSurge 帖子文字（采集时间 capturedAt=1791652709530，非本轮重新访问）：2026-10-03 发布的三个月智能双层窗帘评测，具体描述定时、遥控、语音及 app 控制的实际使用习惯；2026-08-24 的公寓自动化帖子说明本人一次设置后每晚运行的灯光、Eight Sleep 床温与窗帘流程；2026-09-09 的智能插座与 SwitchBot 内容解释安装方法及日出日落触发所需 hub 的限制。这些具体经验支持分享实际数码产品使用经验，而非仅转述参数。post 2026-10-03T00:51:22.000Zpost 2026-08-24T00:27:53.000Zpost 2026-09-09T00:18:17.000Z"
+            }
+          ],
+          "annotation": [
+            "画像 content_direction：智能家居与公寓自动化、消费数码产品推荐、酒店体验与旅行推荐、小空间布局；已提供的 WaveSurge 文字中，智能窗帘长期评测与智能插座教程支持智能家居方向，Mac 显示器购买内容支持消费数码推荐；曼哈顿酒店入住推荐与公寓布局原则支持旅行酒店及小空间布局方向。仅基于所给文字，不涉及视觉观察或本轮访问。；证据 b10a06b2fb866bed5eedb7e6、04e497a6a4503326179bbc50、e361c78e56541dfabf93ad21、222e752d6057ee12c1192060、2a6cc31a8d7525f626572a38",
+            "画像 text_style：第一人称体验叙述、实用教程与清单、具体价格和功能对比、收藏分享引导、商业合作与链接推荐；WaveSurge 提供的帖文以本人使用经历开头，按设备或步骤列出具体做法和限制，并呈现价格、功能及购买建议；多篇结尾引导收藏和转发，部分明确标注 #ad 或 affiliate 并导向简介链接。风格判断仅针对已提供的文字样本。；证据 b10a06b2fb866bed5eedb7e6、04e497a6a4503326179bbc50、e361c78e56541dfabf93ad21、e927632451f8701ff366e560",
+            "画像 content_usage_scenario：公寓智能家居自动化、睡眠与起居、桌面办公与显示器选购；已提供的WaveSurge文字中，智能窗帘评测及智能插座教程支持公寓自动化场景；夜间自动化流程支持睡眠与起居场景；2026-10-09显示器帖子自述购买Mac适配显示器，讨论一根Thunderbolt线连接显示、数据和充电，支持桌面办公与显示器选购场景。仅依据文字，未观察图片或重新访问页面。；证据 b10a06b2fb866bed5eedb7e6、04e497a6a4503326179bbc50、3f5190e3b0a94326ec8fa750、e361c78e56541dfabf93ad21"
+          ]
+        },
+        {
+          "id": "research-411f1e1ee3778536fc1cfea9|instagram:valstechtalkk",
+          "taskId": "research-411f1e1ee3778536fc1cfea9",
+          "groupId": "research-411f1e1ee3778536fc1cfea9",
+          "selected": "false",
+          "judgments": [
+            {
+              "id": "__platform",
+              "text": "平台符合要求创作者平台：instagram"
+            },
+            {
+              "id": "__followers",
+              "text": "粉丝范围符合要求WaveSurge 粉丝数 39697，要求 10000–100000profile 日期未知"
+            },
+            {
+              "id": "digital_use_experience",
+              "text": "分享实际数码产品使用经验符合要求依据已提供的 WaveSurge 帖子文字（采集时间 capturedAt=1791652879785，非本轮重新访问），创作者明确分享自己开启的相机设置以提升清晰度、始终关闭自动亮度的使用偏好，以及换新 iPhone 时会调整的两项设置；这些第一人称实际设置经验支持该条件。对应 publishedAt 分别为2026-10-09、2026-09-29和2026-09-21，无需依赖未观察的封面像素。post 2026-10-09T02:57:55.000Zpost 2026-09-29T01:15:02.000Zpost 2026-09-21T00:51:10.000Z"
+            }
+          ],
+          "annotation": [
+            "画像 content_direction：iPhone实用设置与使用技巧、手机主题与个性化、数码配件介绍与推广；WaveSurge 已提供的文案包含相机设置、消息背景更改、每月手机主题，以及带 #ad 和优惠码的手机配件推广；这些标签仅描述文字可支持的内容方向，未观察视频画面。；证据 a7e3e7d0dbee5ed3fcffa6fb、17b36859992e5b7793a2cec4、7237a35656ef813026c306a0、7bb702ab43acfd45050b3c4a",
+            "画像 text_style：英文短句口语化、第一人称体验表达、表情符号与话题标签丰富、提问式互动；已有文案使用“I will always have off”“I am LOVING”等个人化口语，频繁使用表情符号及产品标签，并以“What about you?”、“What do you change first?”邀请互动。判断基于已有 WaveSurge 文字而非本轮页面观察。；证据 2b22e29ae0eb86d0544ac2cb、7237a35656ef813026c306a0、40ede6d8cdfe49e9626e73a8",
+            "画像 content_usage_scenario：手机摄影与相机设置、手机日常设置与操作技巧、手机界面个性化、手机配件搭配与选购；已提供的 WaveSurge 帖子文案分别涉及提升拍摄画质的相机设置、自动亮度使用偏好、每月手机主题及消息背景更改，以及手机壳外观比较与是否值得购买。标签仅依据既有文字，不代表观看了视频。；证据 a7e3e7d0dbee5ed3fcffa6fb、2b22e29ae0eb86d0544ac2cb、7237a35656ef813026c306a0、17b36859992e5b7793a2cec4、04d01fbab252e6f46f3e99d3"
+          ]
+        }
+      ],
+      "summary": "目标 1 人；合格候选 2 人；最终入选 1 人；缺额 0 人；已核验 2 人（2 条记录）。",
+      "csvPath": "/api/reports/research-411f1e1ee3778536fc1cfea9?format=csv",
+      "actualCsvControl": "/api/reports/research-411f1e1ee3778536fc1cfea9?format=csv",
+      "csvHeaders": [
+        "账号",
+        "平台",
+        "粉丝数",
+        "地区",
+        "本地判断",
+        "标签",
+        "链接",
+        "逐条件核验",
+        "证据映射",
+        "入选",
+        "画像标注",
+        "基础事实",
+        "互动率及样本",
+        "照片资源",
+        "记录ID",
+        "来源任务ID",
+        "来源任务标题",
+        "分组ID",
+        "分组名称",
+        "入选口径",
+        "CampaignID",
+        "Campaign标题",
+        "分配分组ID",
+        "分配分组名称",
+        "独立研究预选"
+      ],
+      "csvRows": [
+        {
+          "id": "research-411f1e1ee3778536fc1cfea9|instagram:tylerlcrawford",
+          "taskId": "research-411f1e1ee3778536fc1cfea9",
+          "groupId": "research-411f1e1ee3778536fc1cfea9",
+          "handle": "tylerlcrawford",
+          "selected": "true",
+          "scope": "研究组入选"
+        },
+        {
+          "id": "research-411f1e1ee3778536fc1cfea9|instagram:valstechtalkk",
+          "taskId": "research-411f1e1ee3778536fc1cfea9",
+          "groupId": "research-411f1e1ee3778536fc1cfea9",
+          "handle": "valstechtalkk",
+          "selected": "false",
+          "scope": "研究组入选"
+        }
+      ],
+      "offlineImages": 0
+    },
+    {
+      "name": "doc-three-groups",
+      "path": "/api/work-batches/b07be064-61d3-4928-934c-afc855d8d3b0/report",
+      "kind": "multi",
+      "expectedRecords": 6,
+      "counts": {
+        "records": 6,
+        "unique": 2,
+        "qualified": 6,
+        "qualifiedUnique": 2,
+        "selected": 3,
+        "selectedUnique": 1
+      },
+      "dom": [
+        {
+          "id": "research-411f1e1ee3778536fc1cfea9|instagram:tylerlcrawford",
+          "taskId": "research-411f1e1ee3778536fc1cfea9",
+          "groupId": "research-411f1e1ee3778536fc1cfea9",
+          "selected": "true",
+          "judgments": [
+            {
+              "id": "__platform",
+              "text": "平台符合要求创作者平台：instagram"
+            },
+            {
+              "id": "__followers",
+              "text": "粉丝范围符合要求WaveSurge 粉丝数 31253，要求 10000–100000profile 日期未知"
+            },
+            {
+              "id": "digital_use_experience",
+              "text": "分享实际数码产品使用经验符合要求依据已提供的 WaveSurge 帖子文字（采集时间 capturedAt=1791652709530，非本轮重新访问）：2026-10-03 发布的三个月智能双层窗帘评测，具体描述定时、遥控、语音及 app 控制的实际使用习惯；2026-08-24 的公寓自动化帖子说明本人一次设置后每晚运行的灯光、Eight Sleep 床温与窗帘流程；2026-09-09 的智能插座与 SwitchBot 内容解释安装方法及日出日落触发所需 hub 的限制。这些具体经验支持分享实际数码产品使用经验，而非仅转述参数。post 2026-10-03T00:51:22.000Zpost 2026-08-24T00:27:53.000Zpost 2026-09-09T00:18:17.000Z"
+            }
+          ],
+          "annotation": [
+            "画像 content_direction：智能家居与公寓自动化、消费数码产品推荐、酒店体验与旅行推荐、小空间布局；已提供的 WaveSurge 文字中，智能窗帘长期评测与智能插座教程支持智能家居方向，Mac 显示器购买内容支持消费数码推荐；曼哈顿酒店入住推荐与公寓布局原则支持旅行酒店及小空间布局方向。仅基于所给文字，不涉及视觉观察或本轮访问。；证据 b10a06b2fb866bed5eedb7e6、04e497a6a4503326179bbc50、e361c78e56541dfabf93ad21、222e752d6057ee12c1192060、2a6cc31a8d7525f626572a38",
+            "画像 text_style：第一人称体验叙述、实用教程与清单、具体价格和功能对比、收藏分享引导、商业合作与链接推荐；WaveSurge 提供的帖文以本人使用经历开头，按设备或步骤列出具体做法和限制，并呈现价格、功能及购买建议；多篇结尾引导收藏和转发，部分明确标注 #ad 或 affiliate 并导向简介链接。风格判断仅针对已提供的文字样本。；证据 b10a06b2fb866bed5eedb7e6、04e497a6a4503326179bbc50、e361c78e56541dfabf93ad21、e927632451f8701ff366e560",
+            "画像 content_usage_scenario：公寓智能家居自动化、睡眠与起居、桌面办公与显示器选购；已提供的WaveSurge文字中，智能窗帘评测及智能插座教程支持公寓自动化场景；夜间自动化流程支持睡眠与起居场景；2026-10-09显示器帖子自述购买Mac适配显示器，讨论一根Thunderbolt线连接显示、数据和充电，支持桌面办公与显示器选购场景。仅依据文字，未观察图片或重新访问页面。；证据 b10a06b2fb866bed5eedb7e6、04e497a6a4503326179bbc50、3f5190e3b0a94326ec8fa750、e361c78e56541dfabf93ad21"
+          ]
+        },
+        {
+          "id": "research-411f1e1ee3778536fc1cfea9|instagram:valstechtalkk",
+          "taskId": "research-411f1e1ee3778536fc1cfea9",
+          "groupId": "research-411f1e1ee3778536fc1cfea9",
+          "selected": "false",
+          "judgments": [
+            {
+              "id": "__platform",
+              "text": "平台符合要求创作者平台：instagram"
+            },
+            {
+              "id": "__followers",
+              "text": "粉丝范围符合要求WaveSurge 粉丝数 39697，要求 10000–100000profile 日期未知"
+            },
+            {
+              "id": "digital_use_experience",
+              "text": "分享实际数码产品使用经验符合要求依据已提供的 WaveSurge 帖子文字（采集时间 capturedAt=1791652879785，非本轮重新访问），创作者明确分享自己开启的相机设置以提升清晰度、始终关闭自动亮度的使用偏好，以及换新 iPhone 时会调整的两项设置；这些第一人称实际设置经验支持该条件。对应 publishedAt 分别为2026-10-09、2026-09-29和2026-09-21，无需依赖未观察的封面像素。post 2026-10-09T02:57:55.000Zpost 2026-09-29T01:15:02.000Zpost 2026-09-21T00:51:10.000Z"
+            }
+          ],
+          "annotation": [
+            "画像 content_direction：iPhone实用设置与使用技巧、手机主题与个性化、数码配件介绍与推广；WaveSurge 已提供的文案包含相机设置、消息背景更改、每月手机主题，以及带 #ad 和优惠码的手机配件推广；这些标签仅描述文字可支持的内容方向，未观察视频画面。；证据 a7e3e7d0dbee5ed3fcffa6fb、17b36859992e5b7793a2cec4、7237a35656ef813026c306a0、7bb702ab43acfd45050b3c4a",
+            "画像 text_style：英文短句口语化、第一人称体验表达、表情符号与话题标签丰富、提问式互动；已有文案使用“I will always have off”“I am LOVING”等个人化口语，频繁使用表情符号及产品标签，并以“What about you?”、“What do you change first?”邀请互动。判断基于已有 WaveSurge 文字而非本轮页面观察。；证据 2b22e29ae0eb86d0544ac2cb、7237a35656ef813026c306a0、40ede6d8cdfe49e9626e73a8",
+            "画像 content_usage_scenario：手机摄影与相机设置、手机日常设置与操作技巧、手机界面个性化、手机配件搭配与选购；已提供的 WaveSurge 帖子文案分别涉及提升拍摄画质的相机设置、自动亮度使用偏好、每月手机主题及消息背景更改，以及手机壳外观比较与是否值得购买。标签仅依据既有文字，不代表观看了视频。；证据 a7e3e7d0dbee5ed3fcffa6fb、2b22e29ae0eb86d0544ac2cb、7237a35656ef813026c306a0、17b36859992e5b7793a2cec4、04d01fbab252e6f46f3e99d3"
+          ]
+        },
+        {
+          "id": "research-0f58c6d952a48f2141973492|instagram:tylerlcrawford",
+          "taskId": "research-0f58c6d952a48f2141973492",
+          "groupId": "research-0f58c6d952a48f2141973492",
+          "selected": "true",
+          "judgments": [
+            {
+              "id": "__platform",
+              "text": "平台符合要求创作者平台：instagram"
+            },
+            {
+              "id": "__followers",
+              "text": "粉丝范围符合要求WaveSurge 粉丝数 31253，要求 10000–100000profile 日期未知"
+            },
+            {
+              "id": "tech_tool_experience",
+              "text": "分享实际科技设备或工具使用经验符合要求依据已提供的 WaveSurge 帖子文字（采集时间 capturedAt=1791652757287，非本轮重新访问）：2026-10-03 发布的双层电动窗帘三个月使用评测，具体描述日出后45分钟升起、21:22降下，以及遥控、语音、App独立控制和实际使用习惯；2026-08-24 的文字描述本人设置并持续使用 Eight Sleep、智能窗帘、Pura及加湿器的夜间自动化流程；2026-09-09 的智能插座与 SwitchBot 教程说明安装方式、价格和日出日落触发所需的中枢限制。足以支持分享实际科技设备或工具使用经验，结论仅基于文字，不涉及未观察的媒体像素。post 2026-10-03T00:51:22.000Zpost 2026-08-24T00:27:53.000Zpost 2026-09-09T00:18:17.000Z"
+            }
+          ],
+          "annotation": [
+            "画像 content_direction：智能家居与公寓自动化、科技设备使用评测、酒店体验与旅行住宿推荐；已提供的 WaveSurge 文字中，窗帘长期使用评测、家居自动化设置与 Mac 显示器介绍支持智能家居及科技设备方向；曼哈顿酒店帖子描述自费入住、房型选择与预订建议，支持酒店旅行方向。仅复用采集时间1791652757287的资料。；证据 b10a06b2fb866bed5eedb7e6、7003eee1f782d0d31a1b7f38、e361c78e56541dfabf93ad21、222e752d6057ee12c1192060",
+            "画像 text_style：第一人称体验叙述、清单式实用说明、具体参数与价格对比、收藏分享引导、商业合作与链接导购；WaveSurge 已采集的帖子文案以本人使用经历开头，分项说明设置、价格与功能限制，常以 Save/send 引导收藏分享，并明确出现 #ad、affiliate 和简介链接导购；这些是文字呈现特征，不是视觉判断。；证据 b10a06b2fb866bed5eedb7e6、04e497a6a4503326179bbc50、e361c78e56541dfabf93ad21",
+            "画像 content_usage_scenario：智能家居与家务自动化、睡眠环境与作息自动化、桌面办公设备、旅行住宿选择；画像基于已提供的 WaveSurge 帖子文字：智能插座和扫地机器人用于减轻家务；Eight Sleep、加湿器和窗帘用于夜间睡眠与晨起；2026-10-09 帖子分享用于 Mac 的显示器及单线连接；2026-10-07 帖子分享本人住过的曼哈顿酒店房型与预订建议。采集时间为1791652757287，未重新打开页面，也未作视觉判断。；证据 e927632451f8701ff366e560、7003eee1f782d0d31a1b7f38、e361c78e56541dfabf93ad21、222e752d6057ee12c1192060"
+          ]
+        },
+        {
+          "id": "research-0f58c6d952a48f2141973492|instagram:valstechtalkk",
+          "taskId": "research-0f58c6d952a48f2141973492",
+          "groupId": "research-0f58c6d952a48f2141973492",
+          "selected": "false",
+          "judgments": [
+            {
+              "id": "__platform",
+              "text": "平台符合要求创作者平台：instagram"
+            },
+            {
+              "id": "__followers",
+              "text": "粉丝范围符合要求WaveSurge 粉丝数 39697，要求 10000–100000profile 日期未知"
+            },
+            {
+              "id": "tech_tool_experience",
+              "text": "分享实际科技设备或工具使用经验符合要求依据已提供的 WaveSurge 帖子文字（capturedAt=1791652921951），2026-10-09 的文案明确分享本人开启的 iPhone 相机设置以提升画质，2026-09-29 的文案说明本人始终关闭自动亮度，2026-09-21 的文案分享拿到新 iPhone 后更改的两项设置；这些是具体设备的实际使用习惯与技巧，支持该条件。本轮未重新访问页面或观看视频。post 2026-10-09T02:57:55.000Zpost 2026-09-29T01:15:02.000Zpost 2026-09-21T00:51:10.000Z"
+            }
+          ],
+          "annotation": [
+            "画像 content_direction：iPhone 使用技巧与设置、手机功能与界面个性化、科技设备开箱与配件分享；已有 WaveSurge 文案涵盖相机设置、消息背景修改、键盘技巧，以及手机开箱和手机壳选择。仅依据文字归纳内容方向，不代表已观察视频画面。；证据 a7e3e7d0dbee5ed3fcffa6fb、17b36859992e5b7793a2cec4、3ef26c78905d309854e19080、4666bbaebae18f02a656a1de、04d01fbab252e6f46f3e99d3",
+            "画像 text_style：英语口语化短文案、表情符号与话题标签密集、第一人称体验分享、提问式互动；已提供文案使用“i turn on”“I will always have off”等第一人称表述，搭配🤩、🤓、📱等表情与多个标签，并以“What about you?”、“What do you change first?”邀请互动；支持这些文字风格标签。；证据 a7e3e7d0dbee5ed3fcffa6fb、2b22e29ae0eb86d0544ac2cb、40ede6d8cdfe49e9626e73a8",
+            "画像 content_usage_scenario：手机摄影与相机设置、手机日常设置与操作技巧、手机界面与消息个性化、手机配件选择；已提供的 WaveSurge 帖子文字分别涉及提升相机画质的设置、自动亮度和键盘技巧、更改消息背景与月度手机主题，以及手机壳比较。标签仅依据文案内容，不推断办公效率提升或未观察的视觉演示。；证据 a7e3e7d0dbee5ed3fcffa6fb、2b22e29ae0eb86d0544ac2cb、3ef26c78905d309854e19080、17b36859992e5b7793a2cec4、7237a35656ef813026c306a0、04d01fbab252e6f46f3e99d3"
+          ]
+        },
+        {
+          "id": "research-ec6b59bc5af4b3eb822cee2f|instagram:tylerlcrawford",
+          "taskId": "research-ec6b59bc5af4b3eb822cee2f",
+          "groupId": "research-ec6b59bc5af4b3eb822cee2f",
+          "selected": "true",
+          "judgments": [
+            {
+              "id": "__platform",
+              "text": "平台符合要求创作者平台：instagram"
+            },
+            {
+              "id": "__followers",
+              "text": "粉丝范围符合要求WaveSurge 粉丝数 31253，要求 10000–100000profile 日期未知"
+            },
+            {
+              "id": "specific_product_information",
+              "text": "分享具体科技产品信息符合要求依据已提供的 WaveSurge 帖子文字（capturedAt=1791652821057），而非本轮重新访问：2026-09-09 的智能家居帖子具体介绍智能插座约28美元/两只、SwitchBot约26美元、免布线安装，以及日出日落触发需额外 hub 的限制；2026-10-03 的3dayblinds帖子介绍双层卷帘、定时和遥控/语音/app独立控制；2026-10-09 的显示器帖子列出5K Nano Gloss面板和单根Thunderbolt连接显示、数据及充电。足以支持其分享具体科技产品信息。post 2026-09-09T00:18:17.000Zpost 2026-10-03T00:51:22.000Zpost 2026-10-09T00:28:06.000Z"
+            }
+          ],
+          "annotation": [
+            "画像 content_direction：智能家居与公寓自动化、科技产品功能介绍、酒店评测与旅行住宿推荐、小空间家居布局；已提供的WaveSurge简介自述tech + hotel reviews；帖子分别介绍智能家居设备功能及设置、显示器参数、曼哈顿酒店房型和预订建议，以及公寓布局原则。这里只归纳文字内容，不涉及图片观察。；证据 1e7bdc837299003d8cb61f6b、04e497a6a4503326179bbc50、e361c78e56541dfabf93ad21、222e752d6057ee12c1192060、2a6cc31a8d7525f626572a38",
+            "画像 text_style：第一人称体验分享、具体参数与价格说明、实用步骤和选购建议、收藏与转发行动引导、商业合作与链接推广；WaveSurge所提供的文案常以个人使用体验开场，列明价格、技术参数与使用限制，给出安装步骤或选购建议；多次使用Save/send引导收藏转发，并出现#ad、affiliate及bio链接说明。；证据 04e497a6a4503326179bbc50、b10a06b2fb866bed5eedb7e6、e361c78e56541dfabf93ad21、b835575939adcefb4b986f03",
+            "画像 content_usage_scenario：智能家居自动化与租房改造教程、科技产品功能介绍与使用评测、旅行酒店选择与入住攻略；WaveSurge既有帖子文字提供智能插座与SwitchBot安装、触发条件教程，3dayblinds三个月使用评测和Mac显示器功能说明；2026-10-07的酒店帖子提供曼哈顿酒店、房型及预订建议。场景标签基于文字，不包含任何未观察的图片判断。；证据 04e497a6a4503326179bbc50、b10a06b2fb866bed5eedb7e6、e361c78e56541dfabf93ad21、222e752d6057ee12c1192060"
+          ]
+        },
+        {
+          "id": "research-ec6b59bc5af4b3eb822cee2f|instagram:valstechtalkk",
+          "taskId": "research-ec6b59bc5af4b3eb822cee2f",
+          "groupId": "research-ec6b59bc5af4b3eb822cee2f",
+          "selected": "false",
+          "judgments": [
+            {
+              "id": "__platform",
+              "text": "平台符合要求创作者平台：instagram"
+            },
+            {
+              "id": "__followers",
+              "text": "粉丝范围符合要求WaveSurge 粉丝数 39697，要求 10000–100000profile 日期未知"
+            },
+            {
+              "id": "specific_product_information",
+              "text": "分享具体科技产品信息符合要求依据本轮提供的 WaveSurge 帖子文字（capturedAt=1791652972749），该账号分享明确的科技产品功能与使用信息：iPhone 自动亮度设置的个人建议、信息背景更改教程、键盘技巧，以及 iOS/Siri 新功能与获取方式。帖子 publishedAt 分别标注于2026年9月；采集时间不作为发布时间。本次未重新访问页面或观看视频，仅这些文字已支持分享具体科技产品信息，未核实其产品描述的准确性。post 2026-09-29T01:15:02.000Zpost 2026-09-27T00:44:18.000Zpost 2026-09-25T03:33:07.000Zpost 2026-09-15T18:54:23.000Z"
+            }
+          ],
+          "annotation": [
+            "画像 content_direction：iPhone功能与设置教程、iOS更新与Siri功能介绍、手机及配件开箱与推荐；WaveSurge 提供的既有帖子文字涉及信息背景、键盘与相机设置技巧、iOS/Siri更新，以及iPhone开箱和CASETiFY配件推荐；仅据文字判断内容方向，未观察视频像素。；证据 17b36859992e5b7793a2cec4、3ef26c78905d309854e19080、a7e3e7d0dbee5ed3fcffa6fb、fda6f480e37196397ea10faf、4666bbaebae18f02a656a1de、7bb702ab43acfd45050b3c4a",
+            "画像 text_style：英语口语化短文案、表情符号与话题标签丰富、提问互动、教程提示与个人体验结合；既有文案使用简短英语口语、🤓📱等表情及产品标签；以“What about you?”等提问促互动，并结合“How to”教程提示与个人设置偏好。；证据 2b22e29ae0eb86d0544ac2cb、17b36859992e5b7793a2cec4、4666bbaebae18f02a656a1de",
+            "画像 content_usage_scenario：手机功能与设置教程、手机界面个性化、科技产品开箱、手机配件推广；已提供的 WaveSurge 帖文文字分别描述 iPhone 信息背景更改、键盘技巧、新手机开箱，以及带优惠码和广告标签的 CASETiFY 配件推广；这些是文字支持的内容使用场景，并非本轮观看视频所得。；证据 17b36859992e5b7793a2cec4、3ef26c78905d309854e19080、4666bbaebae18f02a656a1de、7bb702ab43acfd45050b3c4a"
+          ]
+        }
+      ],
+      "summary": "已核验 6 条记录；去重创作者 2 人；合格记录 6 条（去重 2 人）；入选记录 3 条（去重 1 人）；待核实记录 0 条；不符合记录 0 条。各组适用条件和配额分别计算，同一账号在不同组的判断不能合并成一个结论。",
+      "csvPath": "/api/work-batches/b07be064-61d3-4928-934c-afc855d8d3b0/report?format=csv",
+      "actualCsvControl": "/api/work-batches/b07be064-61d3-4928-934c-afc855d8d3b0/report?format=csv",
+      "csvHeaders": [
+        "账号",
+        "平台",
+        "粉丝数",
+        "地区",
+        "本地判断",
+        "标签",
+        "链接",
+        "逐条件核验",
+        "证据映射",
+        "入选",
+        "画像标注",
+        "基础事实",
+        "互动率及样本",
+        "照片资源",
+        "记录ID",
+        "来源任务ID",
+        "来源任务标题",
+        "分组ID",
+        "分组名称",
+        "入选口径",
+        "CampaignID",
+        "Campaign标题",
+        "分配分组ID",
+        "分配分组名称",
+        "独立研究预选"
+      ],
+      "csvRows": [
+        {
+          "id": "research-411f1e1ee3778536fc1cfea9|instagram:tylerlcrawford",
+          "taskId": "research-411f1e1ee3778536fc1cfea9",
+          "groupId": "research-411f1e1ee3778536fc1cfea9",
+          "handle": "tylerlcrawford",
+          "selected": "true",
+          "scope": "研究组入选"
+        },
+        {
+          "id": "research-0f58c6d952a48f2141973492|instagram:tylerlcrawford",
+          "taskId": "research-0f58c6d952a48f2141973492",
+          "groupId": "research-0f58c6d952a48f2141973492",
+          "handle": "tylerlcrawford",
+          "selected": "true",
+          "scope": "研究组入选"
+        },
+        {
+          "id": "research-ec6b59bc5af4b3eb822cee2f|instagram:tylerlcrawford",
+          "taskId": "research-ec6b59bc5af4b3eb822cee2f",
+          "groupId": "research-ec6b59bc5af4b3eb822cee2f",
+          "handle": "tylerlcrawford",
+          "selected": "true",
+          "scope": "研究组入选"
+        },
+        {
+          "id": "research-411f1e1ee3778536fc1cfea9|instagram:valstechtalkk",
+          "taskId": "research-411f1e1ee3778536fc1cfea9",
+          "groupId": "research-411f1e1ee3778536fc1cfea9",
+          "handle": "valstechtalkk",
+          "selected": "false",
+          "scope": "研究组入选"
+        },
+        {
+          "id": "research-0f58c6d952a48f2141973492|instagram:valstechtalkk",
+          "taskId": "research-0f58c6d952a48f2141973492",
+          "groupId": "research-0f58c6d952a48f2141973492",
+          "handle": "valstechtalkk",
+          "selected": "false",
+          "scope": "研究组入选"
+        },
+        {
+          "id": "research-ec6b59bc5af4b3eb822cee2f|instagram:valstechtalkk",
+          "taskId": "research-ec6b59bc5af4b3eb822cee2f",
+          "groupId": "research-ec6b59bc5af4b3eb822cee2f",
+          "handle": "valstechtalkk",
+          "selected": "false",
+          "scope": "研究组入选"
+        }
+      ],
+      "offlineImages": 0
+    },
+    {
+      "name": "doc-six-retag",
+      "path": "/api/work-batches/2f347044-8f0e-4fc1-87a9-f76d4206d014/report",
+      "kind": "multi",
+      "expectedRecords": 6,
+      "counts": {
+        "records": 6,
+        "unique": 2,
+        "qualified": 6,
+        "qualifiedUnique": 2,
+        "selected": 3,
+        "selectedUnique": 1
+      },
+      "dom": [
+        {
+          "id": "research-411f1e1ee3778536fc1cfea9|instagram:tylerlcrawford",
+          "taskId": "research-411f1e1ee3778536fc1cfea9",
+          "groupId": "research-411f1e1ee3778536fc1cfea9",
+          "selected": "true",
+          "judgments": [
+            {
+              "id": "__platform",
+              "text": "平台符合要求创作者平台：instagram"
+            },
+            {
+              "id": "__followers",
+              "text": "粉丝范围符合要求WaveSurge 粉丝数 31253，要求 10000–100000profile 日期未知"
+            },
+            {
+              "id": "digital_use_experience",
+              "text": "分享实际数码产品使用经验符合要求依据已提供的 WaveSurge 帖子文字（采集时间 capturedAt=1791652709530，非本轮重新访问）：2026-10-03 发布的三个月智能双层窗帘评测，具体描述定时、遥控、语音及 app 控制的实际使用习惯；2026-08-24 的公寓自动化帖子说明本人一次设置后每晚运行的灯光、Eight Sleep 床温与窗帘流程；2026-09-09 的智能插座与 SwitchBot 内容解释安装方法及日出日落触发所需 hub 的限制。这些具体经验支持分享实际数码产品使用经验，而非仅转述参数。post 2026-10-03T00:51:22.000Zpost 2026-08-24T00:27:53.000Zpost 2026-09-09T00:18:17.000Z"
+            }
+          ],
+          "annotation": [
+            "画像 content_direction：智能家居与公寓自动化、消费数码产品推荐、酒店体验与旅行推荐、小空间布局；已提供的 WaveSurge 文字中，智能窗帘长期评测与智能插座教程支持智能家居方向，Mac 显示器购买内容支持消费数码推荐；曼哈顿酒店入住推荐与公寓布局原则支持旅行酒店及小空间布局方向。仅基于所给文字，不涉及视觉观察或本轮访问。；证据 b10a06b2fb866bed5eedb7e6、04e497a6a4503326179bbc50、e361c78e56541dfabf93ad21、222e752d6057ee12c1192060、2a6cc31a8d7525f626572a38",
+            "画像 text_style：第一人称体验叙述、实用教程与清单、具体价格和功能对比、收藏分享引导、商业合作与链接推荐；WaveSurge 提供的帖文以本人使用经历开头，按设备或步骤列出具体做法和限制，并呈现价格、功能及购买建议；多篇结尾引导收藏和转发，部分明确标注 #ad 或 affiliate 并导向简介链接。风格判断仅针对已提供的文字样本。；证据 b10a06b2fb866bed5eedb7e6、04e497a6a4503326179bbc50、e361c78e56541dfabf93ad21、e927632451f8701ff366e560",
+            "画像 content_usage_scenario：公寓智能家居自动化、睡眠与起居、桌面办公与显示器选购；已提供的WaveSurge文字中，智能窗帘评测及智能插座教程支持公寓自动化场景；夜间自动化流程支持睡眠与起居场景；2026-10-09显示器帖子自述购买Mac适配显示器，讨论一根Thunderbolt线连接显示、数据和充电，支持桌面办公与显示器选购场景。仅依据文字，未观察图片或重新访问页面。；证据 b10a06b2fb866bed5eedb7e6、04e497a6a4503326179bbc50、3f5190e3b0a94326ec8fa750、e361c78e56541dfabf93ad21"
+          ]
+        },
+        {
+          "id": "research-411f1e1ee3778536fc1cfea9|instagram:valstechtalkk",
+          "taskId": "research-411f1e1ee3778536fc1cfea9",
+          "groupId": "research-411f1e1ee3778536fc1cfea9",
+          "selected": "false",
+          "judgments": [
+            {
+              "id": "__platform",
+              "text": "平台符合要求创作者平台：instagram"
+            },
+            {
+              "id": "__followers",
+              "text": "粉丝范围符合要求WaveSurge 粉丝数 39697，要求 10000–100000profile 日期未知"
+            },
+            {
+              "id": "digital_use_experience",
+              "text": "分享实际数码产品使用经验符合要求依据已提供的 WaveSurge 帖子文字（采集时间 capturedAt=1791652879785，非本轮重新访问），创作者明确分享自己开启的相机设置以提升清晰度、始终关闭自动亮度的使用偏好，以及换新 iPhone 时会调整的两项设置；这些第一人称实际设置经验支持该条件。对应 publishedAt 分别为2026-10-09、2026-09-29和2026-09-21，无需依赖未观察的封面像素。post 2026-10-09T02:57:55.000Zpost 2026-09-29T01:15:02.000Zpost 2026-09-21T00:51:10.000Z"
+            }
+          ],
+          "annotation": [
+            "画像 content_direction：iPhone实用设置与使用技巧、手机主题与个性化、数码配件介绍与推广；WaveSurge 已提供的文案包含相机设置、消息背景更改、每月手机主题，以及带 #ad 和优惠码的手机配件推广；这些标签仅描述文字可支持的内容方向，未观察视频画面。；证据 a7e3e7d0dbee5ed3fcffa6fb、17b36859992e5b7793a2cec4、7237a35656ef813026c306a0、7bb702ab43acfd45050b3c4a",
+            "画像 text_style：英文短句口语化、第一人称体验表达、表情符号与话题标签丰富、提问式互动；已有文案使用“I will always have off”“I am LOVING”等个人化口语，频繁使用表情符号及产品标签，并以“What about you?”、“What do you change first?”邀请互动。判断基于已有 WaveSurge 文字而非本轮页面观察。；证据 2b22e29ae0eb86d0544ac2cb、7237a35656ef813026c306a0、40ede6d8cdfe49e9626e73a8",
+            "画像 content_usage_scenario：手机摄影与相机设置、手机日常设置与操作技巧、手机界面个性化、手机配件搭配与选购；已提供的 WaveSurge 帖子文案分别涉及提升拍摄画质的相机设置、自动亮度使用偏好、每月手机主题及消息背景更改，以及手机壳外观比较与是否值得购买。标签仅依据既有文字，不代表观看了视频。；证据 a7e3e7d0dbee5ed3fcffa6fb、2b22e29ae0eb86d0544ac2cb、7237a35656ef813026c306a0、17b36859992e5b7793a2cec4、04d01fbab252e6f46f3e99d3"
+          ]
+        },
+        {
+          "id": "research-0f58c6d952a48f2141973492|instagram:tylerlcrawford",
+          "taskId": "research-0f58c6d952a48f2141973492",
+          "groupId": "research-0f58c6d952a48f2141973492",
+          "selected": "true",
+          "judgments": [
+            {
+              "id": "__platform",
+              "text": "平台符合要求创作者平台：instagram"
+            },
+            {
+              "id": "__followers",
+              "text": "粉丝范围符合要求WaveSurge 粉丝数 31253，要求 10000–100000profile 日期未知"
+            },
+            {
+              "id": "tech_tool_experience",
+              "text": "分享实际科技设备或工具使用经验符合要求依据已提供的 WaveSurge 帖子文字（采集时间 capturedAt=1791652757287，非本轮重新访问）：2026-10-03 发布的双层电动窗帘三个月使用评测，具体描述日出后45分钟升起、21:22降下，以及遥控、语音、App独立控制和实际使用习惯；2026-08-24 的文字描述本人设置并持续使用 Eight Sleep、智能窗帘、Pura及加湿器的夜间自动化流程；2026-09-09 的智能插座与 SwitchBot 教程说明安装方式、价格和日出日落触发所需的中枢限制。足以支持分享实际科技设备或工具使用经验，结论仅基于文字，不涉及未观察的媒体像素。post 2026-10-03T00:51:22.000Zpost 2026-08-24T00:27:53.000Zpost 2026-09-09T00:18:17.000Z"
+            }
+          ],
+          "annotation": [
+            "画像 content_direction：智能家居与公寓自动化、科技设备使用评测、酒店体验与旅行住宿推荐；已提供的 WaveSurge 文字中，窗帘长期使用评测、家居自动化设置与 Mac 显示器介绍支持智能家居及科技设备方向；曼哈顿酒店帖子描述自费入住、房型选择与预订建议，支持酒店旅行方向。仅复用采集时间1791652757287的资料。；证据 b10a06b2fb866bed5eedb7e6、7003eee1f782d0d31a1b7f38、e361c78e56541dfabf93ad21、222e752d6057ee12c1192060",
+            "画像 text_style：第一人称体验叙述、清单式实用说明、具体参数与价格对比、收藏分享引导、商业合作与链接导购；WaveSurge 已采集的帖子文案以本人使用经历开头，分项说明设置、价格与功能限制，常以 Save/send 引导收藏分享，并明确出现 #ad、affiliate 和简介链接导购；这些是文字呈现特征，不是视觉判断。；证据 b10a06b2fb866bed5eedb7e6、04e497a6a4503326179bbc50、e361c78e56541dfabf93ad21",
+            "画像 content_usage_scenario：智能家居与家务自动化、睡眠环境与作息自动化、桌面办公设备、旅行住宿选择；画像基于已提供的 WaveSurge 帖子文字：智能插座和扫地机器人用于减轻家务；Eight Sleep、加湿器和窗帘用于夜间睡眠与晨起；2026-10-09 帖子分享用于 Mac 的显示器及单线连接；2026-10-07 帖子分享本人住过的曼哈顿酒店房型与预订建议。采集时间为1791652757287，未重新打开页面，也未作视觉判断。；证据 e927632451f8701ff366e560、7003eee1f782d0d31a1b7f38、e361c78e56541dfabf93ad21、222e752d6057ee12c1192060"
+          ]
+        },
+        {
+          "id": "research-0f58c6d952a48f2141973492|instagram:valstechtalkk",
+          "taskId": "research-0f58c6d952a48f2141973492",
+          "groupId": "research-0f58c6d952a48f2141973492",
+          "selected": "false",
+          "judgments": [
+            {
+              "id": "__platform",
+              "text": "平台符合要求创作者平台：instagram"
+            },
+            {
+              "id": "__followers",
+              "text": "粉丝范围符合要求WaveSurge 粉丝数 39697，要求 10000–100000profile 日期未知"
+            },
+            {
+              "id": "tech_tool_experience",
+              "text": "分享实际科技设备或工具使用经验符合要求依据已提供的 WaveSurge 帖子文字（capturedAt=1791652921951），2026-10-09 的文案明确分享本人开启的 iPhone 相机设置以提升画质，2026-09-29 的文案说明本人始终关闭自动亮度，2026-09-21 的文案分享拿到新 iPhone 后更改的两项设置；这些是具体设备的实际使用习惯与技巧，支持该条件。本轮未重新访问页面或观看视频。post 2026-10-09T02:57:55.000Zpost 2026-09-29T01:15:02.000Zpost 2026-09-21T00:51:10.000Z"
+            }
+          ],
+          "annotation": [
+            "画像 content_direction：iPhone 使用技巧与设置、手机功能与界面个性化、科技设备开箱与配件分享；已有 WaveSurge 文案涵盖相机设置、消息背景修改、键盘技巧，以及手机开箱和手机壳选择。仅依据文字归纳内容方向，不代表已观察视频画面。；证据 a7e3e7d0dbee5ed3fcffa6fb、17b36859992e5b7793a2cec4、3ef26c78905d309854e19080、4666bbaebae18f02a656a1de、04d01fbab252e6f46f3e99d3",
+            "画像 text_style：英语口语化短文案、表情符号与话题标签密集、第一人称体验分享、提问式互动；已提供文案使用“i turn on”“I will always have off”等第一人称表述，搭配🤩、🤓、📱等表情与多个标签，并以“What about you?”、“What do you change first?”邀请互动；支持这些文字风格标签。；证据 a7e3e7d0dbee5ed3fcffa6fb、2b22e29ae0eb86d0544ac2cb、40ede6d8cdfe49e9626e73a8",
+            "画像 content_usage_scenario：手机摄影与相机设置、手机日常设置与操作技巧、手机界面与消息个性化、手机配件选择；已提供的 WaveSurge 帖子文字分别涉及提升相机画质的设置、自动亮度和键盘技巧、更改消息背景与月度手机主题，以及手机壳比较。标签仅依据文案内容，不推断办公效率提升或未观察的视觉演示。；证据 a7e3e7d0dbee5ed3fcffa6fb、2b22e29ae0eb86d0544ac2cb、3ef26c78905d309854e19080、17b36859992e5b7793a2cec4、7237a35656ef813026c306a0、04d01fbab252e6f46f3e99d3"
+          ]
+        },
+        {
+          "id": "research-ec6b59bc5af4b3eb822cee2f|instagram:tylerlcrawford",
+          "taskId": "research-ec6b59bc5af4b3eb822cee2f",
+          "groupId": "research-ec6b59bc5af4b3eb822cee2f",
+          "selected": "true",
+          "judgments": [
+            {
+              "id": "__platform",
+              "text": "平台符合要求创作者平台：instagram"
+            },
+            {
+              "id": "__followers",
+              "text": "粉丝范围符合要求WaveSurge 粉丝数 31253，要求 10000–100000profile 日期未知"
+            },
+            {
+              "id": "specific_product_information",
+              "text": "分享具体科技产品信息符合要求依据已提供的 WaveSurge 帖子文字（capturedAt=1791652821057），而非本轮重新访问：2026-09-09 的智能家居帖子具体介绍智能插座约28美元/两只、SwitchBot约26美元、免布线安装，以及日出日落触发需额外 hub 的限制；2026-10-03 的3dayblinds帖子介绍双层卷帘、定时和遥控/语音/app独立控制；2026-10-09 的显示器帖子列出5K Nano Gloss面板和单根Thunderbolt连接显示、数据及充电。足以支持其分享具体科技产品信息。post 2026-09-09T00:18:17.000Zpost 2026-10-03T00:51:22.000Zpost 2026-10-09T00:28:06.000Z"
+            }
+          ],
+          "annotation": [
+            "画像 content_direction：智能家居与公寓自动化、科技产品功能介绍、酒店评测与旅行住宿推荐、小空间家居布局；已提供的WaveSurge简介自述tech + hotel reviews；帖子分别介绍智能家居设备功能及设置、显示器参数、曼哈顿酒店房型和预订建议，以及公寓布局原则。这里只归纳文字内容，不涉及图片观察。；证据 1e7bdc837299003d8cb61f6b、04e497a6a4503326179bbc50、e361c78e56541dfabf93ad21、222e752d6057ee12c1192060、2a6cc31a8d7525f626572a38",
+            "画像 text_style：第一人称体验分享、具体参数与价格说明、实用步骤和选购建议、收藏与转发行动引导、商业合作与链接推广；WaveSurge所提供的文案常以个人使用体验开场，列明价格、技术参数与使用限制，给出安装步骤或选购建议；多次使用Save/send引导收藏转发，并出现#ad、affiliate及bio链接说明。；证据 04e497a6a4503326179bbc50、b10a06b2fb866bed5eedb7e6、e361c78e56541dfabf93ad21、b835575939adcefb4b986f03",
+            "画像 content_usage_scenario：智能家居自动化与租房改造教程、科技产品功能介绍与使用评测、旅行酒店选择与入住攻略；WaveSurge既有帖子文字提供智能插座与SwitchBot安装、触发条件教程，3dayblinds三个月使用评测和Mac显示器功能说明；2026-10-07的酒店帖子提供曼哈顿酒店、房型及预订建议。场景标签基于文字，不包含任何未观察的图片判断。；证据 04e497a6a4503326179bbc50、b10a06b2fb866bed5eedb7e6、e361c78e56541dfabf93ad21、222e752d6057ee12c1192060"
+          ]
+        },
+        {
+          "id": "research-ec6b59bc5af4b3eb822cee2f|instagram:valstechtalkk",
+          "taskId": "research-ec6b59bc5af4b3eb822cee2f",
+          "groupId": "research-ec6b59bc5af4b3eb822cee2f",
+          "selected": "false",
+          "judgments": [
+            {
+              "id": "__platform",
+              "text": "平台符合要求创作者平台：instagram"
+            },
+            {
+              "id": "__followers",
+              "text": "粉丝范围符合要求WaveSurge 粉丝数 39697，要求 10000–100000profile 日期未知"
+            },
+            {
+              "id": "specific_product_information",
+              "text": "分享具体科技产品信息符合要求依据本轮提供的 WaveSurge 帖子文字（capturedAt=1791652972749），该账号分享明确的科技产品功能与使用信息：iPhone 自动亮度设置的个人建议、信息背景更改教程、键盘技巧，以及 iOS/Siri 新功能与获取方式。帖子 publishedAt 分别标注于2026年9月；采集时间不作为发布时间。本次未重新访问页面或观看视频，仅这些文字已支持分享具体科技产品信息，未核实其产品描述的准确性。post 2026-09-29T01:15:02.000Zpost 2026-09-27T00:44:18.000Zpost 2026-09-25T03:33:07.000Zpost 2026-09-15T18:54:23.000Z"
+            }
+          ],
+          "annotation": [
+            "画像 content_direction：iPhone功能与设置教程、iOS更新与Siri功能介绍、手机及配件开箱与推荐；WaveSurge 提供的既有帖子文字涉及信息背景、键盘与相机设置技巧、iOS/Siri更新，以及iPhone开箱和CASETiFY配件推荐；仅据文字判断内容方向，未观察视频像素。；证据 17b36859992e5b7793a2cec4、3ef26c78905d309854e19080、a7e3e7d0dbee5ed3fcffa6fb、fda6f480e37196397ea10faf、4666bbaebae18f02a656a1de、7bb702ab43acfd45050b3c4a",
+            "画像 text_style：英语口语化短文案、表情符号与话题标签丰富、提问互动、教程提示与个人体验结合；既有文案使用简短英语口语、🤓📱等表情及产品标签；以“What about you?”等提问促互动，并结合“How to”教程提示与个人设置偏好。；证据 2b22e29ae0eb86d0544ac2cb、17b36859992e5b7793a2cec4、4666bbaebae18f02a656a1de",
+            "画像 content_usage_scenario：手机功能与设置教程、手机界面个性化、科技产品开箱、手机配件推广；已提供的 WaveSurge 帖文文字分别描述 iPhone 信息背景更改、键盘技巧、新手机开箱，以及带优惠码和广告标签的 CASETiFY 配件推广；这些是文字支持的内容使用场景，并非本轮观看视频所得。；证据 17b36859992e5b7793a2cec4、3ef26c78905d309854e19080、4666bbaebae18f02a656a1de、7bb702ab43acfd45050b3c4a"
+          ]
+        }
+      ],
+      "summary": "已核验 6 条记录；去重创作者 2 人；合格记录 6 条（去重 2 人）；入选记录 3 条（去重 1 人）；待核实记录 0 条；不符合记录 0 条。各组适用条件和配额分别计算，同一账号在不同组的判断不能合并成一个结论。",
+      "csvPath": "/api/work-batches/2f347044-8f0e-4fc1-87a9-f76d4206d014/report?format=csv",
+      "actualCsvControl": "/api/work-batches/2f347044-8f0e-4fc1-87a9-f76d4206d014/report?format=csv",
+      "csvHeaders": [
+        "账号",
+        "平台",
+        "粉丝数",
+        "地区",
+        "本地判断",
+        "标签",
+        "链接",
+        "逐条件核验",
+        "证据映射",
+        "入选",
+        "画像标注",
+        "基础事实",
+        "互动率及样本",
+        "照片资源",
+        "记录ID",
+        "来源任务ID",
+        "来源任务标题",
+        "分组ID",
+        "分组名称",
+        "入选口径",
+        "CampaignID",
+        "Campaign标题",
+        "分配分组ID",
+        "分配分组名称",
+        "独立研究预选"
+      ],
+      "csvRows": [
+        {
+          "id": "research-411f1e1ee3778536fc1cfea9|instagram:tylerlcrawford",
+          "taskId": "research-411f1e1ee3778536fc1cfea9",
+          "groupId": "research-411f1e1ee3778536fc1cfea9",
+          "handle": "tylerlcrawford",
+          "selected": "true",
+          "scope": "研究组入选"
+        },
+        {
+          "id": "research-0f58c6d952a48f2141973492|instagram:tylerlcrawford",
+          "taskId": "research-0f58c6d952a48f2141973492",
+          "groupId": "research-0f58c6d952a48f2141973492",
+          "handle": "tylerlcrawford",
+          "selected": "true",
+          "scope": "研究组入选"
+        },
+        {
+          "id": "research-ec6b59bc5af4b3eb822cee2f|instagram:tylerlcrawford",
+          "taskId": "research-ec6b59bc5af4b3eb822cee2f",
+          "groupId": "research-ec6b59bc5af4b3eb822cee2f",
+          "handle": "tylerlcrawford",
+          "selected": "true",
+          "scope": "研究组入选"
+        },
+        {
+          "id": "research-411f1e1ee3778536fc1cfea9|instagram:valstechtalkk",
+          "taskId": "research-411f1e1ee3778536fc1cfea9",
+          "groupId": "research-411f1e1ee3778536fc1cfea9",
+          "handle": "valstechtalkk",
+          "selected": "false",
+          "scope": "研究组入选"
+        },
+        {
+          "id": "research-0f58c6d952a48f2141973492|instagram:valstechtalkk",
+          "taskId": "research-0f58c6d952a48f2141973492",
+          "groupId": "research-0f58c6d952a48f2141973492",
+          "handle": "valstechtalkk",
+          "selected": "false",
+          "scope": "研究组入选"
+        },
+        {
+          "id": "research-ec6b59bc5af4b3eb822cee2f|instagram:valstechtalkk",
+          "taskId": "research-ec6b59bc5af4b3eb822cee2f",
+          "groupId": "research-ec6b59bc5af4b3eb822cee2f",
+          "handle": "valstechtalkk",
+          "selected": "false",
+          "scope": "研究组入选"
+        }
+      ],
+      "offlineImages": 0
+    },
+    {
+      "name": "doc-campaign",
+      "path": "/api/campaigns/campaign-7235b855cebc66206807b08c/report",
+      "kind": "campaign",
+      "expectedRecords": 2,
+      "counts": {
+        "records": 4,
+        "unique": 2,
+        "qualified": 4,
+        "qualifiedUnique": 2,
+        "selected": 2,
+        "selectedUnique": 2
+      },
+      "dom": [
+        {
+          "id": "research-dbb5fb4bf357b0cdb6e6bda7|instagram:valstechtalkk",
+          "taskId": "research-dbb5fb4bf357b0cdb6e6bda7",
+          "groupId": "practical_digital",
+          "selected": "true",
+          "judgments": [
+            {
+              "id": "__platform",
+              "text": "平台符合要求创作者平台：instagram"
+            },
+            {
+              "id": "__followers",
+              "text": "粉丝范围符合要求WaveSurge 粉丝数 39696，要求 10000–100000profile 日期未知"
+            },
+            {
+              "id": "personal_digital_experience",
+              "text": "本人有实际数码产品使用经验符合要求依据已提供的 WaveSurge 本人账号帖子文字（非本轮重新访问或视频像素观察）：2026-10-09 帖文明确写出“camera settings i turn on”，2026-09-29 写出自动亮度是自己一直关闭的设置，2026-09-21 写出拿到新 iPhone 后自己会修改的两项设置。这些第一人称、具体设置习惯支持本人有实际数码产品使用经验；发布时间采用来源 publishedAt，不以采集时间替代。post 2026-10-09T02:57:55.000Zpost 2026-09-29T01:15:02.000Zpost 2026-09-21T00:51:10.000Z"
+            }
+          ],
+          "annotation": [
+            "画像 content_direction：iPhone 使用技巧与设置、手机系统新功能介绍、数码开箱与手机配件；WaveSurge 提供的账号帖文涉及相机设置、键盘技巧、Siri 新功能、iPhone 开箱及手机壳推荐，可支持这些文字内容方向；未观察视频画面。；证据 a7e3e7d0dbee5ed3fcffa6fb、3ef26c78905d309854e19080、fda6f480e37196397ea10faf、4666bbaebae18f02a656a1de、7bb702ab43acfd45050b3c4a",
+            "画像 text_style：口语化短文案、第一人称体验表达、表情符号丰富、提问式互动；已提供的英文帖文使用“im obsessed”“i change”等第一人称口语，搭配多个表情符号，并以“What are your thoughts?”和“What do you change first?”邀请互动。仅描述已有文字风格。；证据 4666bbaebae18f02a656a1de、40ede6d8cdfe49e9626e73a8、5cda524e8da383ea651ea60b"
+          ]
+        },
+        {
+          "id": "research-91eb9f0400c59d0b5d1aedf2|instagram:tylerlcrawford",
+          "taskId": "research-91eb9f0400c59d0b5d1aedf2",
+          "groupId": "life_efficiency",
+          "selected": "true",
+          "judgments": [
+            {
+              "id": "__platform",
+              "text": "平台符合要求创作者平台：instagram"
+            },
+            {
+              "id": "__followers",
+              "text": "粉丝范围符合要求WaveSurge 粉丝数 31254，要求 10000–100000profile 日期未知"
+            },
+            {
+              "id": "personal_tech_experience",
+              "text": "本人有科技产品或工具使用经验符合要求依据已提供的 WaveSurge 本人帖子文字（采集时间 capturedAt=1791653460409），而非本轮重新访问：2026-08-24 的文案明确称本人一次性设置了智能窗帘、Pura、Eight Sleep、加湿器等自动化并每晚使用；2026-10-03 的三个月窗帘评测具体描述本人通过遥控、语音和应用控制各窗帘的使用习惯。这些第一人称设置与持续使用经历支持本人有科技产品或工具使用经验。post 2026-08-24T00:27:53.000Zpost 2026-10-03T00:51:22.000Z"
+            }
+          ],
+          "annotation": [
+            "画像 content_direction：智能家居与公寓自动化、科技产品使用评测、酒店体验与旅行推荐、创作者成长与品牌合作；已提供的 WaveSurge 文案涉及智能家居自动化及三个月窗帘使用评测、Mac 显示器产品介绍、曼哈顿酒店入住推荐，以及离开软件工程工作后的品牌合作经验分享；仅据文字归纳，不涉及图片观察。；证据 0257735f0e60205c978528c9、b10a06b2fb866bed5eedb7e6、e361c78e56541dfabf93ad21、222e752d6057ee12c1192060、bc1019264bc9921a9cbe2195",
+            "画像 text_style：第一人称体验叙述、实用步骤与具体参数说明、价格对比与选择建议、收藏分享行动引导；WaveSurge 提供的本人文案以第一人称讲述设置和使用经历，列出运行时间及控制方式；智能插座与 SwitchBot 文案提供价格、安装步骤和功能限制，酒店推荐按预算排序，多篇末尾明确引导收藏及分享。；证据 0257735f0e60205c978528c9、b10a06b2fb866bed5eedb7e6、04e497a6a4503326179bbc50、2a7ddb480cbd3e8acb8dceed"
+          ]
+        }
+      ],
+      "summary": "方案 v2 · completed · 目标 2 个去重名额；合格候选 2 人（4 条组内合格记录）；最终入选 2 人；缺额 0 人。已核验 4 条记录，去重创作者 2 人。同一平台账号只占一个类型配额；跨平台同一人缺乏可靠关联时不猜测合并。",
+      "csvPath": "/api/campaigns/campaign-7235b855cebc66206807b08c/report?format=csv",
+      "csvHeaders": [
+        "账号",
+        "平台",
+        "粉丝数",
+        "地区",
+        "本地判断",
+        "标签",
+        "链接",
+        "逐条件核验",
+        "证据映射",
+        "入选",
+        "画像标注",
+        "基础事实",
+        "互动率及样本",
+        "照片资源",
+        "记录ID",
+        "来源任务ID",
+        "来源任务标题",
+        "分组ID",
+        "分组名称",
+        "入选口径",
+        "CampaignID",
+        "Campaign标题",
+        "分配分组ID",
+        "分配分组名称",
+        "独立研究预选"
+      ],
+      "csvRows": [
+        {
+          "id": "research-91eb9f0400c59d0b5d1aedf2|instagram:tylerlcrawford",
+          "taskId": "research-91eb9f0400c59d0b5d1aedf2",
+          "groupId": "life_efficiency",
+          "handle": "tylerlcrawford",
+          "selected": "true",
+          "scope": "Campaign 最终分配"
+        },
+        {
+          "id": "research-dbb5fb4bf357b0cdb6e6bda7|instagram:valstechtalkk",
+          "taskId": "research-dbb5fb4bf357b0cdb6e6bda7",
+          "groupId": "practical_digital",
+          "handle": "valstechtalkk",
+          "selected": "true",
+          "scope": "Campaign 最终分配"
+        }
+      ],
+      "offlineImages": 0
+    },
+    {
+      "name": "doc-campaign-practical_digital",
+      "path": "/api/reports/research-dbb5fb4bf357b0cdb6e6bda7",
+      "kind": "single",
+      "expectedRecords": 2,
+      "counts": {
+        "records": 2,
+        "unique": 2,
+        "qualified": 2,
+        "qualifiedUnique": 2,
+        "selected": 1,
+        "selectedUnique": 1
+      },
+      "dom": [
+        {
+          "id": "research-dbb5fb4bf357b0cdb6e6bda7|instagram:tylerlcrawford",
+          "taskId": "research-dbb5fb4bf357b0cdb6e6bda7",
+          "groupId": "practical_digital",
+          "selected": "false",
+          "judgments": [
+            {
+              "id": "__platform",
+              "text": "平台符合要求创作者平台：instagram"
+            },
+            {
+              "id": "__followers",
+              "text": "粉丝范围符合要求WaveSurge 粉丝数 31253，要求 10000–100000profile 日期未知"
+            },
+            {
+              "id": "personal_digital_experience",
+              "text": "本人有实际数码产品使用经验符合要求依据已提供的 WaveSurge 本人帖子文字（采集时间 capturedAt=1791653412080，非本轮重新访问）：2026-08-24 帖子自述亲自设置智能家居并持续每晚运行，详细说明 Eight Sleep、智能窗帘及灯光的使用；2026-10-03 帖子明确为智能双层窗帘的三个月使用评测，描述遥控、语音和 App 控制及实际使用习惯；2026-10-09 帖子自述购入替代 Studio Display 的显示器。这些第一人称使用细节支持本人有实际数码产品使用经验，不依赖未观察的媒体像素。post 2026-08-24T00:27:53.000Zpost 2026-10-03T00:51:22.000Zpost 2026-10-09T00:28:06.000Z"
+            }
+          ],
+          "annotation": [
+            "画像 content_direction：智能家居与公寓自动化、数码产品体验与选购建议、酒店体验与旅行推荐、创作者职业与品牌合作经验；已有 WaveSurge 简介及帖子文字显示智能家居设置和长期评测、显示器选购体验、纽约酒店推荐，以及从软件工程师转为创作者后的合作经验；仅据所提供文字归纳，未重新访问页面或观察图片。；证据 1e7bdc837299003d8cb61f6b、0257735f0e60205c978528c9、b10a06b2fb866bed5eedb7e6、e361c78e56541dfabf93ad21、222e752d6057ee12c1192060、bc1019264bc9921a9cbe2195",
+            "画像 text_style：第一人称场景化体验叙述、参数与价格对比、实用清单与操作建议、收藏分享引导、商业合作与购买链接提示；所提供帖子文案常以本人公寓或购买经历开场，列出设备功能、时间安排和价格，给出具体设置与选购建议，并以 Save/send 等引导收藏分享；部分明确标注 #ad、affiliate 或链接。此为现有 WaveSurge 文字画像，不是视觉风格判断。；证据 0257735f0e60205c978528c9、04e497a6a4503326179bbc50、e361c78e56541dfabf93ad21、b10a06b2fb866bed5eedb7e6"
+          ]
+        },
+        {
+          "id": "research-dbb5fb4bf357b0cdb6e6bda7|instagram:valstechtalkk",
+          "taskId": "research-dbb5fb4bf357b0cdb6e6bda7",
+          "groupId": "practical_digital",
+          "selected": "true",
+          "judgments": [
+            {
+              "id": "__platform",
+              "text": "平台符合要求创作者平台：instagram"
+            },
+            {
+              "id": "__followers",
+              "text": "粉丝范围符合要求WaveSurge 粉丝数 39696，要求 10000–100000profile 日期未知"
+            },
+            {
+              "id": "personal_digital_experience",
+              "text": "本人有实际数码产品使用经验符合要求依据已提供的 WaveSurge 本人账号帖子文字（非本轮重新访问或视频像素观察）：2026-10-09 帖文明确写出“camera settings i turn on”，2026-09-29 写出自动亮度是自己一直关闭的设置，2026-09-21 写出拿到新 iPhone 后自己会修改的两项设置。这些第一人称、具体设置习惯支持本人有实际数码产品使用经验；发布时间采用来源 publishedAt，不以采集时间替代。post 2026-10-09T02:57:55.000Zpost 2026-09-29T01:15:02.000Zpost 2026-09-21T00:51:10.000Z"
+            }
+          ],
+          "annotation": [
+            "画像 content_direction：iPhone 使用技巧与设置、手机系统新功能介绍、数码开箱与手机配件；WaveSurge 提供的账号帖文涉及相机设置、键盘技巧、Siri 新功能、iPhone 开箱及手机壳推荐，可支持这些文字内容方向；未观察视频画面。；证据 a7e3e7d0dbee5ed3fcffa6fb、3ef26c78905d309854e19080、fda6f480e37196397ea10faf、4666bbaebae18f02a656a1de、7bb702ab43acfd45050b3c4a",
+            "画像 text_style：口语化短文案、第一人称体验表达、表情符号丰富、提问式互动；已提供的英文帖文使用“im obsessed”“i change”等第一人称口语，搭配多个表情符号，并以“What are your thoughts?”和“What do you change first?”邀请互动。仅描述已有文字风格。；证据 4666bbaebae18f02a656a1de、40ede6d8cdfe49e9626e73a8、5cda524e8da383ea651ea60b"
+          ]
+        }
+      ],
+      "summary": "目标 1 人；合格候选 2 人；最终入选 1 人；缺额 0 人；已核验 2 人（2 条记录）。",
+      "csvPath": "/api/reports/research-dbb5fb4bf357b0cdb6e6bda7?format=csv",
+      "actualCsvControl": "/api/reports/research-dbb5fb4bf357b0cdb6e6bda7?format=csv",
+      "csvHeaders": [
+        "账号",
+        "平台",
+        "粉丝数",
+        "地区",
+        "本地判断",
+        "标签",
+        "链接",
+        "逐条件核验",
+        "证据映射",
+        "入选",
+        "画像标注",
+        "基础事实",
+        "互动率及样本",
+        "照片资源",
+        "记录ID",
+        "来源任务ID",
+        "来源任务标题",
+        "分组ID",
+        "分组名称",
+        "入选口径",
+        "CampaignID",
+        "Campaign标题",
+        "分配分组ID",
+        "分配分组名称",
+        "独立研究预选"
+      ],
+      "csvRows": [
+        {
+          "id": "research-dbb5fb4bf357b0cdb6e6bda7|instagram:tylerlcrawford",
+          "taskId": "research-dbb5fb4bf357b0cdb6e6bda7",
+          "groupId": "practical_digital",
+          "handle": "tylerlcrawford",
+          "selected": "false",
+          "scope": "Campaign 最终分配"
+        },
+        {
+          "id": "research-dbb5fb4bf357b0cdb6e6bda7|instagram:valstechtalkk",
+          "taskId": "research-dbb5fb4bf357b0cdb6e6bda7",
+          "groupId": "practical_digital",
+          "handle": "valstechtalkk",
+          "selected": "true",
+          "scope": "Campaign 最终分配"
+        }
+      ],
+      "offlineImages": 0
+    },
+    {
+      "name": "doc-campaign-life_efficiency",
+      "path": "/api/reports/research-91eb9f0400c59d0b5d1aedf2",
+      "kind": "single",
+      "expectedRecords": 2,
+      "counts": {
+        "records": 2,
+        "unique": 2,
+        "qualified": 2,
+        "qualifiedUnique": 2,
+        "selected": 1,
+        "selectedUnique": 1
+      },
+      "dom": [
+        {
+          "id": "research-91eb9f0400c59d0b5d1aedf2|instagram:tylerlcrawford",
+          "taskId": "research-91eb9f0400c59d0b5d1aedf2",
+          "groupId": "life_efficiency",
+          "selected": "true",
+          "judgments": [
+            {
+              "id": "__platform",
+              "text": "平台符合要求创作者平台：instagram"
+            },
+            {
+              "id": "__followers",
+              "text": "粉丝范围符合要求WaveSurge 粉丝数 31254，要求 10000–100000profile 日期未知"
+            },
+            {
+              "id": "personal_tech_experience",
+              "text": "本人有科技产品或工具使用经验符合要求依据已提供的 WaveSurge 本人帖子文字（采集时间 capturedAt=1791653460409），而非本轮重新访问：2026-08-24 的文案明确称本人一次性设置了智能窗帘、Pura、Eight Sleep、加湿器等自动化并每晚使用；2026-10-03 的三个月窗帘评测具体描述本人通过遥控、语音和应用控制各窗帘的使用习惯。这些第一人称设置与持续使用经历支持本人有科技产品或工具使用经验。post 2026-08-24T00:27:53.000Zpost 2026-10-03T00:51:22.000Z"
+            }
+          ],
+          "annotation": [
+            "画像 content_direction：智能家居与公寓自动化、科技产品使用评测、酒店体验与旅行推荐、创作者成长与品牌合作；已提供的 WaveSurge 文案涉及智能家居自动化及三个月窗帘使用评测、Mac 显示器产品介绍、曼哈顿酒店入住推荐，以及离开软件工程工作后的品牌合作经验分享；仅据文字归纳，不涉及图片观察。；证据 0257735f0e60205c978528c9、b10a06b2fb866bed5eedb7e6、e361c78e56541dfabf93ad21、222e752d6057ee12c1192060、bc1019264bc9921a9cbe2195",
+            "画像 text_style：第一人称体验叙述、实用步骤与具体参数说明、价格对比与选择建议、收藏分享行动引导；WaveSurge 提供的本人文案以第一人称讲述设置和使用经历，列出运行时间及控制方式；智能插座与 SwitchBot 文案提供价格、安装步骤和功能限制，酒店推荐按预算排序，多篇末尾明确引导收藏及分享。；证据 0257735f0e60205c978528c9、b10a06b2fb866bed5eedb7e6、04e497a6a4503326179bbc50、2a7ddb480cbd3e8acb8dceed"
+          ]
+        },
+        {
+          "id": "research-91eb9f0400c59d0b5d1aedf2|instagram:valstechtalkk",
+          "taskId": "research-91eb9f0400c59d0b5d1aedf2",
+          "groupId": "life_efficiency",
+          "selected": "false",
+          "judgments": [
+            {
+              "id": "__platform",
+              "text": "平台符合要求创作者平台：instagram"
+            },
+            {
+              "id": "__followers",
+              "text": "粉丝范围符合要求WaveSurge 粉丝数 39696，要求 10000–100000profile 日期未知"
+            },
+            {
+              "id": "personal_tech_experience",
+              "text": "本人有科技产品或工具使用经验符合要求依据已提供的 WaveSurge Instagram 文字资料（capturedAt=1791653577051），本人帖子明确以第一人称分享使用经验：2026-10-09 的文案称“camera settings i turn on”，2026-09-29 称自动亮度是自己始终关闭的设置，2026-09-21 分享换新 iPhone 时自己修改的两项设置；这些具体操作习惯支持本人有科技产品使用经验。本轮未重新访问主页或观察视频像素。日期取自各帖 publishedAt，不以采集时间代替发布时间。post 2026-10-09T02:57:55.000Zpost 2026-09-29T01:15:02.000Zpost 2026-09-21T00:51:10.000Z"
+            }
+          ],
+          "annotation": [
+            "画像 content_direction：iPhone 使用技巧与设置教程、iOS 新功能介绍、科技产品开箱、手机配件与外观搭配；WaveSurge 提供的本人帖子文字涉及相机设置、键盘技巧、Siri 新功能、iPhone 开箱以及手机壳搭配和推广；这些标签仅描述文字支持的内容方向，不代表已观看视频。；证据 a7e3e7d0dbee5ed3fcffa6fb、3ef26c78905d309854e19080、fda6f480e37196397ea10faf、4666bbaebae18f02a656a1de、dca899590280eb658c797f0e",
+            "画像 text_style：英语口语化短文案、第一人称体验分享、频繁使用表情符号与话题标签、提问式互动、兴奋热情的表达；已提供文案常用“I’m impressed”“im obsessed”等第一人称口语表达，配合🤓📱等表情和产品话题标签，并用“What are your thoughts?”“What about you?”邀请互动。判断仅基于既有文字资料。；证据 5cda524e8da383ea651ea60b、4666bbaebae18f02a656a1de、2b22e29ae0eb86d0544ac2cb"
+          ]
+        }
+      ],
+      "summary": "目标 1 人；合格候选 2 人；最终入选 1 人；缺额 0 人；已核验 2 人（2 条记录）。",
+      "csvPath": "/api/reports/research-91eb9f0400c59d0b5d1aedf2?format=csv",
+      "actualCsvControl": "/api/reports/research-91eb9f0400c59d0b5d1aedf2?format=csv",
+      "csvHeaders": [
+        "账号",
+        "平台",
+        "粉丝数",
+        "地区",
+        "本地判断",
+        "标签",
+        "链接",
+        "逐条件核验",
+        "证据映射",
+        "入选",
+        "画像标注",
+        "基础事实",
+        "互动率及样本",
+        "照片资源",
+        "记录ID",
+        "来源任务ID",
+        "来源任务标题",
+        "分组ID",
+        "分组名称",
+        "入选口径",
+        "CampaignID",
+        "Campaign标题",
+        "分配分组ID",
+        "分配分组名称",
+        "独立研究预选"
+      ],
+      "csvRows": [
+        {
+          "id": "research-91eb9f0400c59d0b5d1aedf2|instagram:tylerlcrawford",
+          "taskId": "research-91eb9f0400c59d0b5d1aedf2",
+          "groupId": "life_efficiency",
+          "handle": "tylerlcrawford",
+          "selected": "true",
+          "scope": "Campaign 最终分配"
+        },
+        {
+          "id": "research-91eb9f0400c59d0b5d1aedf2|instagram:valstechtalkk",
+          "taskId": "research-91eb9f0400c59d0b5d1aedf2",
+          "groupId": "life_efficiency",
+          "handle": "valstechtalkk",
+          "selected": "false",
+          "scope": "Campaign 最终分配"
+        }
+      ],
+      "offlineImages": 0
+    },
+    {
+      "name": "doc-empty-filter",
+      "path": "/api/reports/research-411f1e1ee3778536fc1cfea9?tag=%E4%B8%8D%E5%8F%AF%E8%83%BD%E5%AD%98%E5%9C%A8%E7%9A%84%E6%8F%90%E4%BA%A4%E9%AA%8C%E6%94%B6%E6%A0%87%E7%AD%BE&tagMode=exact",
+      "kind": "single",
+      "expectedRecords": 0,
+      "counts": {
+        "records": 2,
+        "unique": 2,
+        "qualified": 2,
+        "qualifiedUnique": 2,
+        "selected": 1,
+        "selectedUnique": 1
+      },
+      "dom": [],
+      "summary": "目标 1 人；合格候选 2 人；最终入选 1 人；缺额 0 人；已核验 2 人（2 条记录）。",
+      "csvPath": "/api/reports/research-411f1e1ee3778536fc1cfea9?tag=%E4%B8%8D%E5%8F%AF%E8%83%BD%E5%AD%98%E5%9C%A8%E7%9A%84%E6%8F%90%E4%BA%A4%E9%AA%8C%E6%94%B6%E6%A0%87%E7%AD%BE&tagMode=exact&format=csv",
+      "actualCsvControl": "/api/reports/research-411f1e1ee3778536fc1cfea9?format=csv&tag=%E4%B8%8D%E5%8F%AF%E8%83%BD%E5%AD%98%E5%9C%A8%E7%9A%84%E6%8F%90%E4%BA%A4%E9%AA%8C%E6%94%B6%E6%A0%87%E7%AD%BE&tagMode=exact",
+      "csvHeaders": [
+        "账号",
+        "平台",
+        "粉丝数",
+        "地区",
+        "本地判断",
+        "标签",
+        "链接",
+        "逐条件核验",
+        "证据映射",
+        "入选",
+        "画像标注",
+        "基础事实",
+        "互动率及样本",
+        "照片资源",
+        "记录ID",
+        "来源任务ID",
+        "来源任务标题",
+        "分组ID",
+        "分组名称",
+        "入选口径",
+        "CampaignID",
+        "Campaign标题",
+        "分配分组ID",
+        "分配分组名称",
+        "独立研究预选"
+      ],
+      "csvRows": [],
+      "offlineImages": 0
+    },
+    {
+      "name": "doc-original-mixed-traits",
+      "path": "/api/reports/research-c88806574dd68d9fc2c4257a",
+      "kind": "single",
+      "expectedRecords": 2,
+      "counts": {
+        "records": 2,
+        "unique": 2,
+        "qualified": 0,
+        "qualifiedUnique": 0,
+        "selected": 0,
+        "selectedUnique": 0
+      },
+      "dom": [
+        {
+          "id": "research-c88806574dd68d9fc2c4257a|instagram:tylerlcrawford",
+          "taskId": "research-c88806574dd68d9fc2c4257a",
+          "groupId": "research-c88806574dd68d9fc2c4257a",
+          "selected": "false",
+          "judgments": [
+            {
+              "id": "__region",
+              "text": "所在地区待核实未取得创作者地区"
+            },
+            {
+              "id": "__platform",
+              "text": "平台符合要求创作者平台：instagram"
+            },
+            {
+              "id": "__followers",
+              "text": "粉丝范围符合要求WaveSurge 粉丝数 31255，要求 10000–100000profile 日期未知"
+            },
+            {
+              "id": "geek_outfit",
+              "text": "本人穿搭呈现偏书呆子、极客的风格；不以科技内容方向替代穿搭判断，外观证据不足为unknown待核实本次仅复用 WaveSurge 文字资料（capturedAt=1791653815861），没有实际传入的本人内容截图像素。2026-09-15 发布的服装测评描述卫衣版型，但不能证明本人穿搭呈现书呆子或极客风格；科技内容方向不能替代穿搭判断。照片资源明确尚未观察像素。post 2026-09-15T00:12:40.000Zpost_photo 2026-10-02T00:01:21.000Z"
+            },
+            {
+              "id": "wears_glasses",
+              "text": "眼镜由创作者本人佩戴；不能仅凭头像或媒体链接确认，证据不足为unknown待核实所提供简介与帖子文字未明确说明本人佩戴眼镜；只有尚未观察像素的照片资源及视频封面链接，没有可核验的本人佩戴眼镜视觉证据。本轮未重新访问页面。profile 日期未知post_photo 2026-10-02T00:01:21.000Z"
+            },
+            {
+              "id": "personal_koc",
+              "text": "个人消费者型KOC，以本人体验分享为主，而非品牌、公司或店铺官方账号；身份不明为unknown符合要求WaveSurge 取得的本人简介以个人公寓、科技及酒店测评定位；2026-09-27 帖子明确自述自购 Away 行李箱并长期免费分享使用体验，2026-10-07 帖子自述自费订房并分享实际入住体验，支持以本人消费者体验为主的个人创作者，而非品牌、公司或店铺官方账号。存在品牌合作不否定该个人消费者型身份。上述为既有文字证据，非本轮页面访问。profile 日期未知post 2026-09-27T13:27:33.000Zpost 2026-10-07T00:47:48.000Z"
+            },
+            {
+              "id": "public_white_identification",
+              "text": "本人公开明确自述白人身份；不得依据外貌、姓名或所在地推断，无本人自述证据为unknown待核实所提供本人简介与帖子文字中没有本人明确自述白人身份的证据；不依据姓名、所在地、职业、外貌或表情符号推断族裔。profile 日期未知"
+            }
+          ],
+          "annotation": [
+            "画像 content_direction：智能家居与公寓自动化、科技产品测评、酒店住宿与旅行体验、男装消费测评；既有 WaveSurge 本人简介及帖子文字分别记录公寓自动化设置、手机使用比较、实际入住酒店推荐和自购 Aritzia 男装测评；这些是内容方向，不代表视觉穿搭风格。；证据 0e3eaced0f1b1f1483471e71、0dcd17845290f3ab689fe1ad、a8f116c36f985933209c95e4、222e752d6057ee12c1192060、f11f207dca9491ef746920f4",
+            "画像 style：待核实；服装测评文字不能证明本人实际穿搭风格，所提供照片仅有资源 URL，未观察像素。；证据 f11f207dca9491ef746920f4、b773f447261872fc05b5141e",
+            "画像 glasses：待核实；没有本人佩戴眼镜的明确文字或实际可见内容像素。；证据 0e3eaced0f1b1f1483471e71、b773f447261872fc05b5141e",
+            "画像 public_identity：自述曾任软件工程师、自述全职内容创作者；2026-09-21 本人帖子自述一年前离开软件工程工作，2026-09-23 帖子自述辞职后全职从事创作；仅记录其公开职业自述，没有白人身份自述证据。；证据 bc1019264bc9921a9cbe2195、4f87a696037c5a1583a84bb4",
+            "画像 account_identity：个人消费者型KOC、有品牌合作的个人创作者；本人自述自购行李箱后长期分享、以自费酒店入住体验作推荐，并明确披露品牌旅行合作，支持个人消费体验分享账号身份。；证据 39d877dd6ef40f706e07304f、222e752d6057ee12c1192060"
+          ]
+        },
+        {
+          "id": "research-c88806574dd68d9fc2c4257a|instagram:valstechtalkk",
+          "taskId": "research-c88806574dd68d9fc2c4257a",
+          "groupId": "research-c88806574dd68d9fc2c4257a",
+          "selected": "false",
+          "judgments": [
+            {
+              "id": "__region",
+              "text": "所在地区待核实未取得创作者地区"
+            },
+            {
+              "id": "__platform",
+              "text": "平台符合要求创作者平台：instagram"
+            },
+            {
+              "id": "__followers",
+              "text": "粉丝范围符合要求WaveSurge 粉丝数 39696，要求 10000–100000profile 日期未知"
+            },
+            {
+              "id": "geek_outfit",
+              "text": "本人穿搭呈现偏书呆子、极客的风格；不以科技内容方向替代穿搭判断，外观证据不足为unknown待核实本轮仅复用 WaveSurge 文字和视频封面资源链接，没有实际传入的本人内容像素。科技测评主题及简介中的 cute、glam 不能证明本人穿搭呈现书呆子或极客风格。profile 日期未知video_cover 2026-10-09T02:57:55.000Z"
+            },
+            {
+              "id": "wears_glasses",
+              "text": "眼镜由创作者本人佩戴；不能仅凭头像或媒体链接确认，证据不足为unknown待核实未提供可观察的本人佩戴眼镜图像或视频像素；封面链接和文案中的 🤓 表情不能确认本人戴眼镜。video_cover 2026-10-09T02:57:55.000Zpost 2026-10-03T01:28:35.000Z"
+            },
+            {
+              "id": "personal_koc",
+              "text": "个人消费者型KOC，以本人体验分享为主，而非品牌、公司或店铺官方账号；身份不明为unknown符合要求WaveSurge 获取的本人简介写有“Reviews + a little glam”，提供个人创作者商务联系方式；所给帖子以第一人称分享手机预订、开箱、设置偏好和配件体验，支持以本人消费体验分享为主的个人账号，而非品牌、公司或店铺官方账号。部分广告合作不改变该身份判断。本轮未重新访问页面。profile 日期未知post 2026-09-19T01:54:17.000Zpost 2026-09-29T01:15:02.000Zpost 2026-09-16T01:34:58.000Zpost 2026-09-29T21:35:50.000Z"
+            },
+            {
+              "id": "public_white_identification",
+              "text": "本人公开明确自述白人身份；不得依据外貌、姓名或所在地推断，无本人自述证据为unknown待核实所提供的本人简介及帖子文字没有明确自述白人身份；不能依据姓名、HTX、表情或未观察的外貌推断族裔。profile 日期未知"
+            }
+          ],
+          "annotation": [
+            "画像 content_direction：消费科技体验与测评、iPhone与iOS使用技巧、手机配件分享；依据本轮提供的 wavesurge-instagram-raw 简介及帖子文字：简介注明科技与 Reviews，帖子涵盖手机开箱、系统功能、相机设置及手机壳。帖子 publishedAt 与采集时间为不同字段，本轮没有重新访问来源页面。；证据 87648534d88e75944587d4a1、4666bbaebae18f02a656a1de、a7e3e7d0dbee5ed3fcffa6fb、cba94411322992f36d73e9d5、0cae18c890342b5f1d42dd66",
+            "画像 style：待核实；没有实际传入的本人穿搭像素；简介中的 cute、glam 只能说明文字定位，不能作为已观察的穿搭风格。；证据 87648534d88e75944587d4a1",
+            "画像 glasses：待核实；仅有文字和视频封面资源链接，无本人佩戴眼镜的可观察像素；🤓 表情不构成佩戴证据。；证据 33b799a9f875e6a048103983、1a210569ff461572ff0b1298",
+            "画像 public_identity：待核实；所给本人文字未明确公开自述族裔身份。；证据 87648534d88e75944587d4a1",
+            "画像 account_identity：个人消费者型KOC；本人简介的 Reviews 定位与第一人称预订、开箱及日常使用偏好分享共同支持个人消费体验型创作者身份；非仅凭科技主题推断。；证据 87648534d88e75944587d4a1、633ae5dfe1d62c4f204824ce、4666bbaebae18f02a656a1de、2b22e29ae0eb86d0544ac2cb"
+          ]
+        }
+      ],
+      "summary": "目标 20 人；合格候选 0 人；最终入选 0 人；缺额 20 人；已核验 2 人（2 条记录）。",
+      "csvPath": "/api/reports/research-c88806574dd68d9fc2c4257a?format=csv",
+      "actualCsvControl": "/api/reports/research-c88806574dd68d9fc2c4257a?format=csv",
+      "csvHeaders": [
+        "账号",
+        "平台",
+        "粉丝数",
+        "地区",
+        "本地判断",
+        "标签",
+        "链接",
+        "逐条件核验",
+        "证据映射",
+        "入选",
+        "画像标注",
+        "基础事实",
+        "互动率及样本",
+        "照片资源",
+        "记录ID",
+        "来源任务ID",
+        "来源任务标题",
+        "分组ID",
+        "分组名称",
+        "入选口径",
+        "CampaignID",
+        "Campaign标题",
+        "分配分组ID",
+        "分配分组名称",
+        "独立研究预选"
+      ],
+      "csvRows": [
+        {
+          "id": "research-c88806574dd68d9fc2c4257a|instagram:tylerlcrawford",
+          "taskId": "research-c88806574dd68d9fc2c4257a",
+          "groupId": "research-c88806574dd68d9fc2c4257a",
+          "handle": "tylerlcrawford",
+          "selected": "false",
+          "scope": "研究组入选"
+        },
+        {
+          "id": "research-c88806574dd68d9fc2c4257a|instagram:valstechtalkk",
+          "taskId": "research-c88806574dd68d9fc2c4257a",
+          "groupId": "research-c88806574dd68d9fc2c4257a",
+          "handle": "valstechtalkk",
+          "selected": "false",
+          "scope": "研究组入选"
+        }
+      ],
+      "offlineImages": 0
+    },
+    {
+      "name": "doc-visual-instagram",
+      "path": "/api/reports/research-83429f7705d019c6c09c196e",
+      "kind": "single",
+      "expectedRecords": 1,
+      "counts": {
+        "records": 1,
+        "unique": 1,
+        "qualified": 1,
+        "qualifiedUnique": 1,
+        "selected": 1,
+        "selectedUnique": 1
+      },
+      "dom": [
+        {
+          "id": "research-83429f7705d019c6c09c196e|instagram:qa_alice",
+          "taskId": "research-83429f7705d019c6c09c196e",
+          "groupId": "research-83429f7705d019c6c09c196e",
+          "selected": "true",
+          "judgments": [
+            {
+              "id": "__region",
+              "text": "所在地区符合要求本人主页所在地声明：Based in United States.profile 日期未知"
+            },
+            {
+              "id": "__platform",
+              "text": "平台符合要求创作者平台：instagram"
+            },
+            {
+              "id": "__followers",
+              "text": "粉丝范围符合要求WaveSurge 粉丝数 20400，要求 10000–100000profile 日期未知"
+            },
+            {
+              "id": "technology_content",
+              "text": "公开内容包含科技内容，依据文字证据核验。符合要求WaveSurge 提供的本人简介明确自述制作原创科技与耳机教程；2026-10-09 发布的帖子文字描述降噪耳机及处理器技术教程，支持公开内容包含科技内容。未将这些原始文字称为本轮主页访问。profile 日期未知post 2026-10-09T00:00:00.000Z"
+            },
+            {
+              "id": "headphones_in_recent_photos",
+              "text": "近期照片中实际展示耳机，须观察照片像素核验；不判断创作者个人身体特征。符合要求本轮实际传入的媒体截图像素清晰展示头戴式耳机图形。该资源在当前创作者证据中标为 post_photo，发布时间为2026-10-09；对应帖子记录 photoCount=1、videoCoverCount=0，相对2026-10-10核验时间属近期照片帖。归属与发布时间依据提供的帖子及资源记录，而非截图文字或采集时间；此图为受控图形内容，不声称为实物摄影。post 2026-10-09T00:00:00.000Zpost_photo 2026-10-09T00:00:00.000Zbrowser_snapshot 日期未知"
+            }
+          ],
+          "annotation": [
+            "画像 content_direction：科技教程、耳机与音频技术；本人简介及帖子文字明确涉及原创科技教程、降噪耳机和处理器。；证据 95b69638da256ebda28e96cc、2ce6dcec1de20bcd464a5ea8"
+          ]
+        }
+      ],
+      "summary": "目标 1 人；合格候选 1 人；最终入选 1 人；缺额 0 人；已核验 1 人（1 条记录）。",
+      "csvPath": "/api/reports/research-83429f7705d019c6c09c196e?format=csv",
+      "actualCsvControl": "/api/reports/research-83429f7705d019c6c09c196e?format=csv",
+      "csvHeaders": [
+        "账号",
+        "平台",
+        "粉丝数",
+        "地区",
+        "本地判断",
+        "标签",
+        "链接",
+        "逐条件核验",
+        "证据映射",
+        "入选",
+        "画像标注",
+        "基础事实",
+        "互动率及样本",
+        "照片资源",
+        "记录ID",
+        "来源任务ID",
+        "来源任务标题",
+        "分组ID",
+        "分组名称",
+        "入选口径",
+        "CampaignID",
+        "Campaign标题",
+        "分配分组ID",
+        "分配分组名称",
+        "独立研究预选"
+      ],
+      "csvRows": [
+        {
+          "id": "research-83429f7705d019c6c09c196e|instagram:qa_alice",
+          "taskId": "research-83429f7705d019c6c09c196e",
+          "groupId": "research-83429f7705d019c6c09c196e",
+          "handle": "qa_alice",
+          "selected": "true",
+          "scope": "研究组入选"
+        }
+      ],
+      "offlineImages": 1
+    },
+    {
+      "name": "doc-preference-youtube",
+      "path": "/api/reports/research-38c5b00b7fcd7e7975f94673",
+      "kind": "single",
+      "expectedRecords": 2,
+      "counts": {
+        "records": 2,
+        "unique": 2,
+        "qualified": 2,
+        "qualifiedUnique": 2,
+        "selected": 1,
+        "selectedUnique": 1
+      },
+      "dom": [
+        {
+          "id": "research-38c5b00b7fcd7e7975f94673|youtube:http://wave-fixture:8087/creator/alice",
+          "taskId": "research-38c5b00b7fcd7e7975f94673",
+          "groupId": "research-38c5b00b7fcd7e7975f94673",
+          "selected": "false",
+          "judgments": [
+            {
+              "id": "__region",
+              "text": "所在地区符合要求本人主页所在地声明：Location: United Statesbrowser_snapshot 日期未知"
+            },
+            {
+              "id": "__platform",
+              "text": "平台符合要求创作者平台：youtube"
+            },
+            {
+              "id": "__followers",
+              "text": "粉丝范围符合要求主页显示 20.4K subscribers；保守区间 20350–20499，要求 10000–100000browser_snapshot 日期未知"
+            },
+            {
+              "id": "technology_content",
+              "text": "公开内容包含科技内容，须逐人以内容证据核验。符合要求已提供的 headed-chromium 本人主页观察文字明确列出原创科技教程，内容讲解处理器和降噪，支持公开内容包含科技讲解。页面标注发布时间为 2026 年 10 月 9 日；该日期来自页面文字而非采集时间。此页面明确为受控测试账号，不是真实社交账号。browser_snapshot 日期未知"
+            },
+            {
+              "id": "geek_self_description",
+              "text": "本人主页文字明确自述 geek 科技讲解风格；仅按本人文字自述判断，不能仅因科技主题推定通过，不要求外貌或穿搭。待核实已提供的主页简介仅自述科技教程、生产力工具和学生学习流程，未见明确自述 geek 科技讲解风格。科技主题不能替代该自述；页面关于无 geek fashion 证据的文字也不能否定或证明此项文字风格条件。browser_snapshot 日期未知"
+            }
+          ],
+          "annotation": [
+            "画像 content_direction：科技知识讲解、生产力工具、学生学习效率与流程；已提供的主页文字列出处理器与降噪教程，以及 Notion、番茄钟和闪卡学习流程，支持这些内容方向；依据页面文字，不推断视觉内容。；证据 0ca04f594937828139a99126",
+            "画像 presentation_style：逐步教学讲解、实用工具操作演示；已提供的主页文字明确描述 clear step-by-step teacher explanation 和 on-screen productivity walkthrough；此画像依据文字描述，不声称已观察教程视频或穿搭。；证据 0ca04f594937828139a99126",
+            "画像 collaboration_type：待核实；现有主页文字仅介绍内容主题和教学方式，未提供明确合作类型信息。；证据 0ca04f594937828139a99126"
+          ]
+        },
+        {
+          "id": "research-38c5b00b7fcd7e7975f94673|youtube:http://wave-fixture:8087/creator/bob",
+          "taskId": "research-38c5b00b7fcd7e7975f94673",
+          "groupId": "research-38c5b00b7fcd7e7975f94673",
+          "selected": "true",
+          "judgments": [
+            {
+              "id": "__region",
+              "text": "所在地区符合要求本人主页所在地声明：Location: United Statesbrowser_snapshot 日期未知"
+            },
+            {
+              "id": "__platform",
+              "text": "平台符合要求创作者平台：youtube"
+            },
+            {
+              "id": "__followers",
+              "text": "粉丝范围符合要求主页显示 67.6K subscribers；保守区间 67550–67699，要求 10000–100000browser_snapshot 日期未知"
+            },
+            {
+              "id": "technology_content",
+              "text": "公开内容包含科技内容，须逐人以内容证据核验。符合要求已提供的 headed-chromium 本人主页观察文字及截图明确展示公开科技教程，内容讲解处理器和降噪，并介绍科技教育与耳机评测；这些是内容文字证据。页面注明这是受控测试创作者，并非真实社交账号。browser_snapshot 日期未知"
+            },
+            {
+              "id": "geek_self_description",
+              "text": "本人主页文字明确自述 geek 科技讲解风格；仅按本人文字自述判断，不能仅因科技主题推定通过，不要求外貌或穿搭。符合要求该主页直接自述“Presentation style: detailed geek technology enthusiast tutorials and gadget demonstrations.”，明确包含 geek 科技爱好者教程风格，不是仅从科技主题推定。依据本轮提供的页面观察与截图，未额外重新访问。browser_snapshot 日期未知"
+            }
+          ],
+          "annotation": [
+            "画像 content_direction：科技科普、耳机评测、处理器与降噪技术；所提供主页明确写有科技教育和耳机评测，公开教程文字说明讲解处理器与降噪。；证据 55c3f3d458f5eceebe5d834b",
+            "画像 presentation_style：详细科技教程、geek 科技爱好者风格、数码设备演示；画像依据主页明确文字自述“detailed geek technology enthusiast tutorials and gadget demonstrations”，不推断外貌或穿搭。；证据 55c3f3d458f5eceebe5d834b",
+            "画像 collaboration_type：待核实；已提供的主页文字包含内容主题和讲解风格，但未明确任何合作类型。；证据 55c3f3d458f5eceebe5d834b"
+          ]
+        }
+      ],
+      "summary": "目标 1 人；合格候选 2 人；最终入选 1 人；缺额 0 人；已核验 2 人（2 条记录）。",
+      "csvPath": "/api/reports/research-38c5b00b7fcd7e7975f94673?format=csv",
+      "actualCsvControl": "/api/reports/research-38c5b00b7fcd7e7975f94673?format=csv",
+      "csvHeaders": [
+        "账号",
+        "平台",
+        "粉丝数",
+        "地区",
+        "本地判断",
+        "标签",
+        "链接",
+        "逐条件核验",
+        "证据映射",
+        "入选",
+        "画像标注",
+        "基础事实",
+        "互动率及样本",
+        "照片资源",
+        "记录ID",
+        "来源任务ID",
+        "来源任务标题",
+        "分组ID",
+        "分组名称",
+        "入选口径",
+        "CampaignID",
+        "Campaign标题",
+        "分配分组ID",
+        "分配分组名称",
+        "独立研究预选"
+      ],
+      "csvRows": [
+        {
+          "id": "research-38c5b00b7fcd7e7975f94673|youtube:http://wave-fixture:8087/creator/alice",
+          "taskId": "research-38c5b00b7fcd7e7975f94673",
+          "groupId": "research-38c5b00b7fcd7e7975f94673",
+          "handle": "",
+          "selected": "false",
+          "scope": "研究组入选"
+        },
+        {
+          "id": "research-38c5b00b7fcd7e7975f94673|youtube:http://wave-fixture:8087/creator/bob",
+          "taskId": "research-38c5b00b7fcd7e7975f94673",
+          "groupId": "research-38c5b00b7fcd7e7975f94673",
+          "handle": "",
+          "selected": "true",
+          "scope": "研究组入选"
+        }
+      ],
+      "offlineImages": 2
+    },
+    {
+      "name": "doc-controlled-campaign",
+      "path": "/api/campaigns/campaign-dc20d2ce3ca6259c8568821b/report",
+      "kind": "campaign",
+      "expectedRecords": 2,
+      "counts": {
+        "records": 4,
+        "unique": 2,
+        "qualified": 3,
+        "qualifiedUnique": 2,
+        "selected": 2,
+        "selectedUnique": 2
+      },
+      "dom": [
+        {
+          "id": "research-f2077ddcf969dbe1ea2725c9|youtube:http://wave-fixture:8087/creator/bob",
+          "taskId": "research-f2077ddcf969dbe1ea2725c9",
+          "groupId": "headphone_tech",
+          "selected": "true",
+          "judgments": [
+            {
+              "id": "__region",
+              "text": "所在地区符合要求本人主页所在地声明：Location: United Statesbrowser_snapshot 日期未知"
+            },
+            {
+              "id": "__platform",
+              "text": "平台符合要求创作者平台：youtube"
+            },
+            {
+              "id": "__followers",
+              "text": "粉丝范围符合要求主页显示 67.6K subscribers；保守区间 67550–67699，要求 10000–100000browser_snapshot 日期未知"
+            },
+            {
+              "id": "headphone_tech_content",
+              "text": "公开内容包含科技耳机相关内容，例如耳机评测、功能讲解或使用体验。符合要求已提供的 headed-chromium 本人主页观察文字明确写有“Technology education and headphone reviews”，公开教程说明涉及处理器与降噪，支持耳机评测及技术功能讲解。该页面明确是受控测试夹具而非真实社交账号；本判断仅针对给定页面内容，不代表核实真实 YouTube 账号。browser_snapshot 日期未知"
+            }
+          ],
+          "annotation": [
+            "画像 content_direction：科技教育、耳机评测、处理器与降噪技术讲解；所提供主页文字明确列出科技教育、耳机评测，以及讲解处理器和降噪的公开教程。；证据 043c469fe30d2fa3853dd966",
+            "画像 content_style：详细技术教程、科技爱好者风格、数码产品演示；主页以“detailed geek technology enthusiast tutorials and gadget demonstrations”明确描述呈现风格；依据页面文字，而非推断实际视频表现。；证据 043c469fe30d2fa3853dd966"
+          ]
+        },
+        {
+          "id": "research-d3f162a17908dc7c2289bc31|youtube:http://wave-fixture:8087/creator/alice",
+          "taskId": "research-d3f162a17908dc7c2289bc31",
+          "groupId": "study_productivity",
+          "selected": "true",
+          "judgments": [
+            {
+              "id": "__region",
+              "text": "所在地区符合要求本人主页所在地声明：Location: United Statesbrowser_snapshot 日期未知"
+            },
+            {
+              "id": "__platform",
+              "text": "平台符合要求创作者平台：youtube"
+            },
+            {
+              "id": "__followers",
+              "text": "粉丝范围符合要求主页显示 20.4K subscribers；保守区间 20350–20499，要求 10000–100000browser_snapshot 日期未知"
+            },
+            {
+              "id": "study_productivity_content",
+              "text": "公开内容面向学习效率。创作者本人是否在读大学生不作必选条件。符合要求所提供的 headed-chromium 本人主页观察文字明确列出面向大学生的学习效率教程：使用 Notion 整理课堂笔记和作业截止时间、25 分钟番茄钟专注，以及闪卡回忆测试，并逐步演示学习规划流程，支持公开内容面向学习效率。此来源为受控测试夹具，不是真实社交账号；本判断针对给定夹具内容，不证明真实账号身份或本人在读大学生。browser_snapshot 日期未知"
+            }
+          ],
+          "annotation": [
+            "画像 content_direction：学习效率与学习规划、生产力工具教程、科技知识教程；提供的主页文字描述学生学习工作流、Notion 与番茄钟教程，以及处理器和降噪知识教程；画像依据页面文字而非推断。；证据 0e9d25cd933c402fb75fca59",
+            "画像 content_style：实用教学讲解、分步骤操作演示；提供的主页文字明确描述 practical teacher explanation、on-screen productivity walkthrough 和 step-by-step 演示；未据此推断实际服饰或其他视觉特征。；证据 0e9d25cd933c402fb75fca59"
+          ]
+        }
+      ],
+      "summary": "方案 v1 · completed · 目标 2 个去重名额；合格候选 2 人（3 条组内合格记录）；最终入选 2 人；缺额 0 人。已核验 4 条记录，去重创作者 2 人。同一平台账号只占一个类型配额；跨平台同一人缺乏可靠关联时不猜测合并。",
+      "csvPath": "/api/campaigns/campaign-dc20d2ce3ca6259c8568821b/report?format=csv",
+      "csvHeaders": [
+        "账号",
+        "平台",
+        "粉丝数",
+        "地区",
+        "本地判断",
+        "标签",
+        "链接",
+        "逐条件核验",
+        "证据映射",
+        "入选",
+        "画像标注",
+        "基础事实",
+        "互动率及样本",
+        "照片资源",
+        "记录ID",
+        "来源任务ID",
+        "来源任务标题",
+        "分组ID",
+        "分组名称",
+        "入选口径",
+        "CampaignID",
+        "Campaign标题",
+        "分配分组ID",
+        "分配分组名称",
+        "独立研究预选"
+      ],
+      "csvRows": [
+        {
+          "id": "research-f2077ddcf969dbe1ea2725c9|youtube:http://wave-fixture:8087/creator/bob",
+          "taskId": "research-f2077ddcf969dbe1ea2725c9",
+          "groupId": "headphone_tech",
+          "handle": "",
+          "selected": "true",
+          "scope": "Campaign 最终分配"
+        },
+        {
+          "id": "research-d3f162a17908dc7c2289bc31|youtube:http://wave-fixture:8087/creator/alice",
+          "taskId": "research-d3f162a17908dc7c2289bc31",
+          "groupId": "study_productivity",
+          "handle": "",
+          "selected": "true",
+          "scope": "Campaign 最终分配"
+        }
+      ],
+      "offlineImages": 2
+    }
+  ],
+  "checks": [
+    {
+      "label": "doc-positive: chat document link visible",
+      "pass": true
+    },
+    {
+      "label": "doc-positive: HTML available",
+      "pass": true
+    },
+    {
+      "label": "doc-positive: DOM record count",
+      "pass": true
+    },
+    {
+      "label": "doc-positive: IDs equal saved scoped results",
+      "pass": true
+    },
+    {
+      "label": "doc-positive: statistics have correct units",
+      "pass": true
+    },
+    {
+      "label": "doc-positive: record origin research-411f1e1ee3778536fc1cfea9|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-positive: selected flag research-411f1e1ee3778536fc1cfea9|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-positive: each criterion with exact reason research-411f1e1ee3778536fc1cfea9|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-positive: actual tags research-411f1e1ee3778536fc1cfea9|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-positive: actual annotation values/reasons research-411f1e1ee3778536fc1cfea9|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-positive: record origin research-411f1e1ee3778536fc1cfea9|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-positive: selected flag research-411f1e1ee3778536fc1cfea9|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-positive: each criterion with exact reason research-411f1e1ee3778536fc1cfea9|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-positive: actual tags research-411f1e1ee3778536fc1cfea9|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-positive: actual annotation values/reasons research-411f1e1ee3778536fc1cfea9|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-positive: CSV 25 structural fields",
+      "pass": true
+    },
+    {
+      "label": "doc-positive: CSV record count",
+      "pass": true
+    },
+    {
+      "label": "doc-positive: CSV origin/selection research-411f1e1ee3778536fc1cfea9|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-positive: CSV judgments round trip research-411f1e1ee3778536fc1cfea9|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-positive: CSV annotations round trip research-411f1e1ee3778536fc1cfea9|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-positive: CSV origin/selection research-411f1e1ee3778536fc1cfea9|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-positive: CSV judgments round trip research-411f1e1ee3778536fc1cfea9|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-positive: CSV annotations round trip research-411f1e1ee3778536fc1cfea9|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-positive: readable width 768",
+      "pass": true
+    },
+    {
+      "label": "doc-positive: readable width 375",
+      "pass": true
+    },
+    {
+      "label": "doc-three-groups: chat document link visible",
+      "pass": true
+    },
+    {
+      "label": "doc-three-groups: HTML available",
+      "pass": true
+    },
+    {
+      "label": "doc-three-groups: DOM record count",
+      "pass": true
+    },
+    {
+      "label": "doc-three-groups: IDs equal saved scoped results",
+      "pass": true
+    },
+    {
+      "label": "doc-three-groups: statistics have correct units",
+      "pass": true
+    },
+    {
+      "label": "doc-three-groups: record origin research-411f1e1ee3778536fc1cfea9|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-three-groups: selected flag research-411f1e1ee3778536fc1cfea9|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-three-groups: each criterion with exact reason research-411f1e1ee3778536fc1cfea9|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-three-groups: actual tags research-411f1e1ee3778536fc1cfea9|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-three-groups: actual annotation values/reasons research-411f1e1ee3778536fc1cfea9|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-three-groups: record origin research-0f58c6d952a48f2141973492|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-three-groups: selected flag research-0f58c6d952a48f2141973492|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-three-groups: each criterion with exact reason research-0f58c6d952a48f2141973492|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-three-groups: actual tags research-0f58c6d952a48f2141973492|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-three-groups: actual annotation values/reasons research-0f58c6d952a48f2141973492|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-three-groups: record origin research-ec6b59bc5af4b3eb822cee2f|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-three-groups: selected flag research-ec6b59bc5af4b3eb822cee2f|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-three-groups: each criterion with exact reason research-ec6b59bc5af4b3eb822cee2f|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-three-groups: actual tags research-ec6b59bc5af4b3eb822cee2f|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-three-groups: actual annotation values/reasons research-ec6b59bc5af4b3eb822cee2f|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-three-groups: record origin research-411f1e1ee3778536fc1cfea9|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-three-groups: selected flag research-411f1e1ee3778536fc1cfea9|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-three-groups: each criterion with exact reason research-411f1e1ee3778536fc1cfea9|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-three-groups: actual tags research-411f1e1ee3778536fc1cfea9|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-three-groups: actual annotation values/reasons research-411f1e1ee3778536fc1cfea9|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-three-groups: record origin research-0f58c6d952a48f2141973492|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-three-groups: selected flag research-0f58c6d952a48f2141973492|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-three-groups: each criterion with exact reason research-0f58c6d952a48f2141973492|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-three-groups: actual tags research-0f58c6d952a48f2141973492|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-three-groups: actual annotation values/reasons research-0f58c6d952a48f2141973492|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-three-groups: record origin research-ec6b59bc5af4b3eb822cee2f|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-three-groups: selected flag research-ec6b59bc5af4b3eb822cee2f|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-three-groups: each criterion with exact reason research-ec6b59bc5af4b3eb822cee2f|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-three-groups: actual tags research-ec6b59bc5af4b3eb822cee2f|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-three-groups: actual annotation values/reasons research-ec6b59bc5af4b3eb822cee2f|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-three-groups: CSV 25 structural fields",
+      "pass": true
+    },
+    {
+      "label": "doc-three-groups: CSV record count",
+      "pass": true
+    },
+    {
+      "label": "doc-three-groups: CSV origin/selection research-411f1e1ee3778536fc1cfea9|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-three-groups: CSV judgments round trip research-411f1e1ee3778536fc1cfea9|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-three-groups: CSV annotations round trip research-411f1e1ee3778536fc1cfea9|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-three-groups: CSV origin/selection research-0f58c6d952a48f2141973492|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-three-groups: CSV judgments round trip research-0f58c6d952a48f2141973492|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-three-groups: CSV annotations round trip research-0f58c6d952a48f2141973492|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-three-groups: CSV origin/selection research-ec6b59bc5af4b3eb822cee2f|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-three-groups: CSV judgments round trip research-ec6b59bc5af4b3eb822cee2f|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-three-groups: CSV annotations round trip research-ec6b59bc5af4b3eb822cee2f|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-three-groups: CSV origin/selection research-411f1e1ee3778536fc1cfea9|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-three-groups: CSV judgments round trip research-411f1e1ee3778536fc1cfea9|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-three-groups: CSV annotations round trip research-411f1e1ee3778536fc1cfea9|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-three-groups: CSV origin/selection research-0f58c6d952a48f2141973492|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-three-groups: CSV judgments round trip research-0f58c6d952a48f2141973492|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-three-groups: CSV annotations round trip research-0f58c6d952a48f2141973492|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-three-groups: CSV origin/selection research-ec6b59bc5af4b3eb822cee2f|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-three-groups: CSV judgments round trip research-ec6b59bc5af4b3eb822cee2f|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-three-groups: CSV annotations round trip research-ec6b59bc5af4b3eb822cee2f|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-three-groups: readable width 768",
+      "pass": true
+    },
+    {
+      "label": "doc-three-groups: readable width 375",
+      "pass": true
+    },
+    {
+      "label": "doc-six-retag: chat document link visible",
+      "pass": true
+    },
+    {
+      "label": "doc-six-retag: HTML available",
+      "pass": true
+    },
+    {
+      "label": "doc-six-retag: DOM record count",
+      "pass": true
+    },
+    {
+      "label": "doc-six-retag: IDs equal saved scoped results",
+      "pass": true
+    },
+    {
+      "label": "doc-six-retag: statistics have correct units",
+      "pass": true
+    },
+    {
+      "label": "doc-six-retag: record origin research-411f1e1ee3778536fc1cfea9|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-six-retag: selected flag research-411f1e1ee3778536fc1cfea9|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-six-retag: each criterion with exact reason research-411f1e1ee3778536fc1cfea9|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-six-retag: actual tags research-411f1e1ee3778536fc1cfea9|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-six-retag: actual annotation values/reasons research-411f1e1ee3778536fc1cfea9|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-six-retag: record origin research-0f58c6d952a48f2141973492|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-six-retag: selected flag research-0f58c6d952a48f2141973492|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-six-retag: each criterion with exact reason research-0f58c6d952a48f2141973492|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-six-retag: actual tags research-0f58c6d952a48f2141973492|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-six-retag: actual annotation values/reasons research-0f58c6d952a48f2141973492|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-six-retag: record origin research-ec6b59bc5af4b3eb822cee2f|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-six-retag: selected flag research-ec6b59bc5af4b3eb822cee2f|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-six-retag: each criterion with exact reason research-ec6b59bc5af4b3eb822cee2f|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-six-retag: actual tags research-ec6b59bc5af4b3eb822cee2f|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-six-retag: actual annotation values/reasons research-ec6b59bc5af4b3eb822cee2f|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-six-retag: record origin research-411f1e1ee3778536fc1cfea9|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-six-retag: selected flag research-411f1e1ee3778536fc1cfea9|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-six-retag: each criterion with exact reason research-411f1e1ee3778536fc1cfea9|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-six-retag: actual tags research-411f1e1ee3778536fc1cfea9|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-six-retag: actual annotation values/reasons research-411f1e1ee3778536fc1cfea9|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-six-retag: record origin research-0f58c6d952a48f2141973492|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-six-retag: selected flag research-0f58c6d952a48f2141973492|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-six-retag: each criterion with exact reason research-0f58c6d952a48f2141973492|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-six-retag: actual tags research-0f58c6d952a48f2141973492|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-six-retag: actual annotation values/reasons research-0f58c6d952a48f2141973492|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-six-retag: record origin research-ec6b59bc5af4b3eb822cee2f|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-six-retag: selected flag research-ec6b59bc5af4b3eb822cee2f|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-six-retag: each criterion with exact reason research-ec6b59bc5af4b3eb822cee2f|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-six-retag: actual tags research-ec6b59bc5af4b3eb822cee2f|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-six-retag: actual annotation values/reasons research-ec6b59bc5af4b3eb822cee2f|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-six-retag: CSV 25 structural fields",
+      "pass": true
+    },
+    {
+      "label": "doc-six-retag: CSV record count",
+      "pass": true
+    },
+    {
+      "label": "doc-six-retag: CSV origin/selection research-411f1e1ee3778536fc1cfea9|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-six-retag: CSV judgments round trip research-411f1e1ee3778536fc1cfea9|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-six-retag: CSV annotations round trip research-411f1e1ee3778536fc1cfea9|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-six-retag: CSV origin/selection research-0f58c6d952a48f2141973492|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-six-retag: CSV judgments round trip research-0f58c6d952a48f2141973492|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-six-retag: CSV annotations round trip research-0f58c6d952a48f2141973492|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-six-retag: CSV origin/selection research-ec6b59bc5af4b3eb822cee2f|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-six-retag: CSV judgments round trip research-ec6b59bc5af4b3eb822cee2f|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-six-retag: CSV annotations round trip research-ec6b59bc5af4b3eb822cee2f|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-six-retag: CSV origin/selection research-411f1e1ee3778536fc1cfea9|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-six-retag: CSV judgments round trip research-411f1e1ee3778536fc1cfea9|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-six-retag: CSV annotations round trip research-411f1e1ee3778536fc1cfea9|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-six-retag: CSV origin/selection research-0f58c6d952a48f2141973492|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-six-retag: CSV judgments round trip research-0f58c6d952a48f2141973492|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-six-retag: CSV annotations round trip research-0f58c6d952a48f2141973492|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-six-retag: CSV origin/selection research-ec6b59bc5af4b3eb822cee2f|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-six-retag: CSV judgments round trip research-ec6b59bc5af4b3eb822cee2f|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-six-retag: CSV annotations round trip research-ec6b59bc5af4b3eb822cee2f|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-six-retag: readable width 768",
+      "pass": true
+    },
+    {
+      "label": "doc-six-retag: readable width 375",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign: chat document link visible",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign: HTML available",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign: DOM record count",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign: IDs equal saved scoped results",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign: statistics have correct units",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign: record origin research-91eb9f0400c59d0b5d1aedf2|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign: selected flag research-91eb9f0400c59d0b5d1aedf2|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign: each criterion with exact reason research-91eb9f0400c59d0b5d1aedf2|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign: actual tags research-91eb9f0400c59d0b5d1aedf2|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign: actual annotation values/reasons research-91eb9f0400c59d0b5d1aedf2|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign: record origin research-dbb5fb4bf357b0cdb6e6bda7|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign: selected flag research-dbb5fb4bf357b0cdb6e6bda7|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign: each criterion with exact reason research-dbb5fb4bf357b0cdb6e6bda7|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign: actual tags research-dbb5fb4bf357b0cdb6e6bda7|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign: actual annotation values/reasons research-dbb5fb4bf357b0cdb6e6bda7|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign: CSV 25 structural fields",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign: CSV record count",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign: CSV origin/selection research-91eb9f0400c59d0b5d1aedf2|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign: CSV judgments round trip research-91eb9f0400c59d0b5d1aedf2|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign: CSV annotations round trip research-91eb9f0400c59d0b5d1aedf2|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign: CSV origin/selection research-dbb5fb4bf357b0cdb6e6bda7|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign: CSV judgments round trip research-dbb5fb4bf357b0cdb6e6bda7|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign: CSV annotations round trip research-dbb5fb4bf357b0cdb6e6bda7|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign: readable width 768",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign: readable width 375",
+      "pass": true
+    },
+    {
+      "label": "Campaign parent/child/API allocation practical_digital",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign-practical_digital: HTML available",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign-practical_digital: DOM record count",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign-practical_digital: IDs equal saved scoped results",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign-practical_digital: statistics have correct units",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign-practical_digital: record origin research-dbb5fb4bf357b0cdb6e6bda7|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign-practical_digital: selected flag research-dbb5fb4bf357b0cdb6e6bda7|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign-practical_digital: each criterion with exact reason research-dbb5fb4bf357b0cdb6e6bda7|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign-practical_digital: actual tags research-dbb5fb4bf357b0cdb6e6bda7|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign-practical_digital: actual annotation values/reasons research-dbb5fb4bf357b0cdb6e6bda7|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign-practical_digital: record origin research-dbb5fb4bf357b0cdb6e6bda7|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign-practical_digital: selected flag research-dbb5fb4bf357b0cdb6e6bda7|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign-practical_digital: each criterion with exact reason research-dbb5fb4bf357b0cdb6e6bda7|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign-practical_digital: actual tags research-dbb5fb4bf357b0cdb6e6bda7|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign-practical_digital: actual annotation values/reasons research-dbb5fb4bf357b0cdb6e6bda7|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign-practical_digital: CSV 25 structural fields",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign-practical_digital: CSV record count",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign-practical_digital: CSV origin/selection research-dbb5fb4bf357b0cdb6e6bda7|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign-practical_digital: CSV judgments round trip research-dbb5fb4bf357b0cdb6e6bda7|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign-practical_digital: CSV annotations round trip research-dbb5fb4bf357b0cdb6e6bda7|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign-practical_digital: CSV origin/selection research-dbb5fb4bf357b0cdb6e6bda7|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign-practical_digital: CSV judgments round trip research-dbb5fb4bf357b0cdb6e6bda7|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign-practical_digital: CSV annotations round trip research-dbb5fb4bf357b0cdb6e6bda7|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign-practical_digital: readable width 768",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign-practical_digital: readable width 375",
+      "pass": true
+    },
+    {
+      "label": "Campaign result modal selected practical_digital",
+      "pass": true
+    },
+    {
+      "label": "Campaign parent/child/API allocation life_efficiency",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign-life_efficiency: HTML available",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign-life_efficiency: DOM record count",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign-life_efficiency: IDs equal saved scoped results",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign-life_efficiency: statistics have correct units",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign-life_efficiency: record origin research-91eb9f0400c59d0b5d1aedf2|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign-life_efficiency: selected flag research-91eb9f0400c59d0b5d1aedf2|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign-life_efficiency: each criterion with exact reason research-91eb9f0400c59d0b5d1aedf2|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign-life_efficiency: actual tags research-91eb9f0400c59d0b5d1aedf2|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign-life_efficiency: actual annotation values/reasons research-91eb9f0400c59d0b5d1aedf2|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign-life_efficiency: record origin research-91eb9f0400c59d0b5d1aedf2|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign-life_efficiency: selected flag research-91eb9f0400c59d0b5d1aedf2|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign-life_efficiency: each criterion with exact reason research-91eb9f0400c59d0b5d1aedf2|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign-life_efficiency: actual tags research-91eb9f0400c59d0b5d1aedf2|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign-life_efficiency: actual annotation values/reasons research-91eb9f0400c59d0b5d1aedf2|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign-life_efficiency: CSV 25 structural fields",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign-life_efficiency: CSV record count",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign-life_efficiency: CSV origin/selection research-91eb9f0400c59d0b5d1aedf2|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign-life_efficiency: CSV judgments round trip research-91eb9f0400c59d0b5d1aedf2|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign-life_efficiency: CSV annotations round trip research-91eb9f0400c59d0b5d1aedf2|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign-life_efficiency: CSV origin/selection research-91eb9f0400c59d0b5d1aedf2|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign-life_efficiency: CSV judgments round trip research-91eb9f0400c59d0b5d1aedf2|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign-life_efficiency: CSV annotations round trip research-91eb9f0400c59d0b5d1aedf2|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign-life_efficiency: readable width 768",
+      "pass": true
+    },
+    {
+      "label": "doc-campaign-life_efficiency: readable width 375",
+      "pass": true
+    },
+    {
+      "label": "Campaign result modal selected life_efficiency",
+      "pass": true
+    },
+    {
+      "label": "doc-empty-filter: HTML available",
+      "pass": true
+    },
+    {
+      "label": "doc-empty-filter: DOM record count",
+      "pass": true
+    },
+    {
+      "label": "doc-empty-filter: IDs equal saved scoped results",
+      "pass": true
+    },
+    {
+      "label": "doc-empty-filter: statistics have correct units",
+      "pass": true
+    },
+    {
+      "label": "doc-empty-filter: CSV 25 structural fields",
+      "pass": true
+    },
+    {
+      "label": "doc-empty-filter: CSV record count",
+      "pass": true
+    },
+    {
+      "label": "doc-empty-filter: readable width 768",
+      "pass": true
+    },
+    {
+      "label": "doc-empty-filter: readable width 375",
+      "pass": true
+    },
+    {
+      "label": "doc-original-mixed-traits: chat document link visible",
+      "pass": true
+    },
+    {
+      "label": "doc-original-mixed-traits: HTML available",
+      "pass": true
+    },
+    {
+      "label": "doc-original-mixed-traits: DOM record count",
+      "pass": true
+    },
+    {
+      "label": "doc-original-mixed-traits: IDs equal saved scoped results",
+      "pass": true
+    },
+    {
+      "label": "doc-original-mixed-traits: statistics have correct units",
+      "pass": true
+    },
+    {
+      "label": "doc-original-mixed-traits: record origin research-c88806574dd68d9fc2c4257a|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-original-mixed-traits: selected flag research-c88806574dd68d9fc2c4257a|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-original-mixed-traits: each criterion with exact reason research-c88806574dd68d9fc2c4257a|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-original-mixed-traits: actual tags research-c88806574dd68d9fc2c4257a|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-original-mixed-traits: actual annotation values/reasons research-c88806574dd68d9fc2c4257a|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-original-mixed-traits: record origin research-c88806574dd68d9fc2c4257a|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-original-mixed-traits: selected flag research-c88806574dd68d9fc2c4257a|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-original-mixed-traits: each criterion with exact reason research-c88806574dd68d9fc2c4257a|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-original-mixed-traits: actual tags research-c88806574dd68d9fc2c4257a|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-original-mixed-traits: actual annotation values/reasons research-c88806574dd68d9fc2c4257a|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-original-mixed-traits: CSV 25 structural fields",
+      "pass": true
+    },
+    {
+      "label": "doc-original-mixed-traits: CSV record count",
+      "pass": true
+    },
+    {
+      "label": "doc-original-mixed-traits: CSV origin/selection research-c88806574dd68d9fc2c4257a|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-original-mixed-traits: CSV judgments round trip research-c88806574dd68d9fc2c4257a|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-original-mixed-traits: CSV annotations round trip research-c88806574dd68d9fc2c4257a|instagram:tylerlcrawford",
+      "pass": true
+    },
+    {
+      "label": "doc-original-mixed-traits: CSV origin/selection research-c88806574dd68d9fc2c4257a|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-original-mixed-traits: CSV judgments round trip research-c88806574dd68d9fc2c4257a|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-original-mixed-traits: CSV annotations round trip research-c88806574dd68d9fc2c4257a|instagram:valstechtalkk",
+      "pass": true
+    },
+    {
+      "label": "doc-original-mixed-traits: readable width 768",
+      "pass": true
+    },
+    {
+      "label": "doc-original-mixed-traits: readable width 375",
+      "pass": true
+    },
+    {
+      "label": "doc-visual-instagram: chat document link visible",
+      "pass": true
+    },
+    {
+      "label": "doc-visual-instagram: HTML available",
+      "pass": true
+    },
+    {
+      "label": "doc-visual-instagram: DOM record count",
+      "pass": true
+    },
+    {
+      "label": "doc-visual-instagram: IDs equal saved scoped results",
+      "pass": true
+    },
+    {
+      "label": "doc-visual-instagram: statistics have correct units",
+      "pass": true
+    },
+    {
+      "label": "doc-visual-instagram: record origin research-83429f7705d019c6c09c196e|instagram:qa_alice",
+      "pass": true
+    },
+    {
+      "label": "doc-visual-instagram: selected flag research-83429f7705d019c6c09c196e|instagram:qa_alice",
+      "pass": true
+    },
+    {
+      "label": "doc-visual-instagram: each criterion with exact reason research-83429f7705d019c6c09c196e|instagram:qa_alice",
+      "pass": true
+    },
+    {
+      "label": "doc-visual-instagram: actual tags research-83429f7705d019c6c09c196e|instagram:qa_alice",
+      "pass": true
+    },
+    {
+      "label": "doc-visual-instagram: actual annotation values/reasons research-83429f7705d019c6c09c196e|instagram:qa_alice",
+      "pass": true
+    },
+    {
+      "label": "doc-visual-instagram: CSV 25 structural fields",
+      "pass": true
+    },
+    {
+      "label": "doc-visual-instagram: CSV record count",
+      "pass": true
+    },
+    {
+      "label": "doc-visual-instagram: CSV origin/selection research-83429f7705d019c6c09c196e|instagram:qa_alice",
+      "pass": true
+    },
+    {
+      "label": "doc-visual-instagram: CSV judgments round trip research-83429f7705d019c6c09c196e|instagram:qa_alice",
+      "pass": true
+    },
+    {
+      "label": "doc-visual-instagram: CSV annotations round trip research-83429f7705d019c6c09c196e|instagram:qa_alice",
+      "pass": true
+    },
+    {
+      "label": "doc-visual-instagram: screenshot pixels embedded",
+      "pass": true
+    },
+    {
+      "label": "doc-visual-instagram: readable width 768",
+      "pass": true
+    },
+    {
+      "label": "doc-visual-instagram: readable width 375",
+      "pass": true
+    },
+    {
+      "label": "doc-preference-youtube: chat document link visible",
+      "pass": true
+    },
+    {
+      "label": "doc-preference-youtube: HTML available",
+      "pass": true
+    },
+    {
+      "label": "doc-preference-youtube: DOM record count",
+      "pass": true
+    },
+    {
+      "label": "doc-preference-youtube: IDs equal saved scoped results",
+      "pass": true
+    },
+    {
+      "label": "doc-preference-youtube: statistics have correct units",
+      "pass": true
+    },
+    {
+      "label": "doc-preference-youtube: record origin research-38c5b00b7fcd7e7975f94673|youtube:http://wave-fixture:8087/creator/alice",
+      "pass": true
+    },
+    {
+      "label": "doc-preference-youtube: selected flag research-38c5b00b7fcd7e7975f94673|youtube:http://wave-fixture:8087/creator/alice",
+      "pass": true
+    },
+    {
+      "label": "doc-preference-youtube: each criterion with exact reason research-38c5b00b7fcd7e7975f94673|youtube:http://wave-fixture:8087/creator/alice",
+      "pass": true
+    },
+    {
+      "label": "doc-preference-youtube: actual tags research-38c5b00b7fcd7e7975f94673|youtube:http://wave-fixture:8087/creator/alice",
+      "pass": true
+    },
+    {
+      "label": "doc-preference-youtube: actual annotation values/reasons research-38c5b00b7fcd7e7975f94673|youtube:http://wave-fixture:8087/creator/alice",
+      "pass": true
+    },
+    {
+      "label": "doc-preference-youtube: record origin research-38c5b00b7fcd7e7975f94673|youtube:http://wave-fixture:8087/creator/bob",
+      "pass": true
+    },
+    {
+      "label": "doc-preference-youtube: selected flag research-38c5b00b7fcd7e7975f94673|youtube:http://wave-fixture:8087/creator/bob",
+      "pass": true
+    },
+    {
+      "label": "doc-preference-youtube: each criterion with exact reason research-38c5b00b7fcd7e7975f94673|youtube:http://wave-fixture:8087/creator/bob",
+      "pass": true
+    },
+    {
+      "label": "doc-preference-youtube: actual tags research-38c5b00b7fcd7e7975f94673|youtube:http://wave-fixture:8087/creator/bob",
+      "pass": true
+    },
+    {
+      "label": "doc-preference-youtube: actual annotation values/reasons research-38c5b00b7fcd7e7975f94673|youtube:http://wave-fixture:8087/creator/bob",
+      "pass": true
+    },
+    {
+      "label": "doc-preference-youtube: CSV 25 structural fields",
+      "pass": true
+    },
+    {
+      "label": "doc-preference-youtube: CSV record count",
+      "pass": true
+    },
+    {
+      "label": "doc-preference-youtube: CSV origin/selection research-38c5b00b7fcd7e7975f94673|youtube:http://wave-fixture:8087/creator/alice",
+      "pass": true
+    },
+    {
+      "label": "doc-preference-youtube: CSV judgments round trip research-38c5b00b7fcd7e7975f94673|youtube:http://wave-fixture:8087/creator/alice",
+      "pass": true
+    },
+    {
+      "label": "doc-preference-youtube: CSV annotations round trip research-38c5b00b7fcd7e7975f94673|youtube:http://wave-fixture:8087/creator/alice",
+      "pass": true
+    },
+    {
+      "label": "doc-preference-youtube: CSV origin/selection research-38c5b00b7fcd7e7975f94673|youtube:http://wave-fixture:8087/creator/bob",
+      "pass": true
+    },
+    {
+      "label": "doc-preference-youtube: CSV judgments round trip research-38c5b00b7fcd7e7975f94673|youtube:http://wave-fixture:8087/creator/bob",
+      "pass": true
+    },
+    {
+      "label": "doc-preference-youtube: CSV annotations round trip research-38c5b00b7fcd7e7975f94673|youtube:http://wave-fixture:8087/creator/bob",
+      "pass": true
+    },
+    {
+      "label": "doc-preference-youtube: screenshot pixels embedded",
+      "pass": true
+    },
+    {
+      "label": "doc-preference-youtube: readable width 768",
+      "pass": true
+    },
+    {
+      "label": "doc-preference-youtube: readable width 375",
+      "pass": true
+    },
+    {
+      "label": "doc-controlled-campaign: chat document link visible",
+      "pass": true
+    },
+    {
+      "label": "doc-controlled-campaign: HTML available",
+      "pass": true
+    },
+    {
+      "label": "doc-controlled-campaign: DOM record count",
+      "pass": true
+    },
+    {
+      "label": "doc-controlled-campaign: IDs equal saved scoped results",
+      "pass": true
+    },
+    {
+      "label": "doc-controlled-campaign: statistics have correct units",
+      "pass": true
+    },
+    {
+      "label": "doc-controlled-campaign: record origin research-f2077ddcf969dbe1ea2725c9|youtube:http://wave-fixture:8087/creator/bob",
+      "pass": true
+    },
+    {
+      "label": "doc-controlled-campaign: selected flag research-f2077ddcf969dbe1ea2725c9|youtube:http://wave-fixture:8087/creator/bob",
+      "pass": true
+    },
+    {
+      "label": "doc-controlled-campaign: each criterion with exact reason research-f2077ddcf969dbe1ea2725c9|youtube:http://wave-fixture:8087/creator/bob",
+      "pass": true
+    },
+    {
+      "label": "doc-controlled-campaign: actual tags research-f2077ddcf969dbe1ea2725c9|youtube:http://wave-fixture:8087/creator/bob",
+      "pass": true
+    },
+    {
+      "label": "doc-controlled-campaign: actual annotation values/reasons research-f2077ddcf969dbe1ea2725c9|youtube:http://wave-fixture:8087/creator/bob",
+      "pass": true
+    },
+    {
+      "label": "doc-controlled-campaign: record origin research-d3f162a17908dc7c2289bc31|youtube:http://wave-fixture:8087/creator/alice",
+      "pass": true
+    },
+    {
+      "label": "doc-controlled-campaign: selected flag research-d3f162a17908dc7c2289bc31|youtube:http://wave-fixture:8087/creator/alice",
+      "pass": true
+    },
+    {
+      "label": "doc-controlled-campaign: each criterion with exact reason research-d3f162a17908dc7c2289bc31|youtube:http://wave-fixture:8087/creator/alice",
+      "pass": true
+    },
+    {
+      "label": "doc-controlled-campaign: actual tags research-d3f162a17908dc7c2289bc31|youtube:http://wave-fixture:8087/creator/alice",
+      "pass": true
+    },
+    {
+      "label": "doc-controlled-campaign: actual annotation values/reasons research-d3f162a17908dc7c2289bc31|youtube:http://wave-fixture:8087/creator/alice",
+      "pass": true
+    },
+    {
+      "label": "doc-controlled-campaign: CSV 25 structural fields",
+      "pass": true
+    },
+    {
+      "label": "doc-controlled-campaign: CSV record count",
+      "pass": true
+    },
+    {
+      "label": "doc-controlled-campaign: CSV origin/selection research-f2077ddcf969dbe1ea2725c9|youtube:http://wave-fixture:8087/creator/bob",
+      "pass": true
+    },
+    {
+      "label": "doc-controlled-campaign: CSV judgments round trip research-f2077ddcf969dbe1ea2725c9|youtube:http://wave-fixture:8087/creator/bob",
+      "pass": true
+    },
+    {
+      "label": "doc-controlled-campaign: CSV annotations round trip research-f2077ddcf969dbe1ea2725c9|youtube:http://wave-fixture:8087/creator/bob",
+      "pass": true
+    },
+    {
+      "label": "doc-controlled-campaign: CSV origin/selection research-d3f162a17908dc7c2289bc31|youtube:http://wave-fixture:8087/creator/alice",
+      "pass": true
+    },
+    {
+      "label": "doc-controlled-campaign: CSV judgments round trip research-d3f162a17908dc7c2289bc31|youtube:http://wave-fixture:8087/creator/alice",
+      "pass": true
+    },
+    {
+      "label": "doc-controlled-campaign: CSV annotations round trip research-d3f162a17908dc7c2289bc31|youtube:http://wave-fixture:8087/creator/alice",
+      "pass": true
+    },
+    {
+      "label": "doc-controlled-campaign: screenshot pixels embedded",
+      "pass": true
+    },
+    {
+      "label": "doc-controlled-campaign: readable width 768",
+      "pass": true
+    },
+    {
+      "label": "doc-controlled-campaign: readable width 375",
+      "pass": true
+    },
+    {
+      "label": "No browser page errors",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "finishedAt": "2026-10-10T17:44:48.325Z",
+  "passed": true
+}

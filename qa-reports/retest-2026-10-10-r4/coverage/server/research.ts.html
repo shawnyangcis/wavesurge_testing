@@ -1,0 +1,619 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Code coverage report for server/research.ts</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../prettify.css" />
+    <link rel="stylesheet" href="../base.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+    
+<body>
+<div class='wrapper'>
+    <div class='pad1'>
+        <h1><a href="../index.html">All files</a> / <a href="index.html">server</a> research.ts</h1>
+        <div class='clearfix'>
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Statements</span>
+                <span class='fraction'>235/235</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Branches</span>
+                <span class='fraction'>216/216</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Functions</span>
+                <span class='fraction'>32/32</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Lines</span>
+                <span class='fraction'>122/122</span>
+            </div>
+        
+            
+        </div>
+        <p class="quiet">
+            Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
+        </p>
+        <template id="filterTemplate">
+            <div class="quiet">
+                Filter:
+                <input type="search" id="fileSearch">
+            </div>
+        </template>
+    </div>
+    <div class='status-line high'></div>
+    <pre><table class="coverage">
+<tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
+<a name='L2'></a><a href='#L2'>2</a>
+<a name='L3'></a><a href='#L3'>3</a>
+<a name='L4'></a><a href='#L4'>4</a>
+<a name='L5'></a><a href='#L5'>5</a>
+<a name='L6'></a><a href='#L6'>6</a>
+<a name='L7'></a><a href='#L7'>7</a>
+<a name='L8'></a><a href='#L8'>8</a>
+<a name='L9'></a><a href='#L9'>9</a>
+<a name='L10'></a><a href='#L10'>10</a>
+<a name='L11'></a><a href='#L11'>11</a>
+<a name='L12'></a><a href='#L12'>12</a>
+<a name='L13'></a><a href='#L13'>13</a>
+<a name='L14'></a><a href='#L14'>14</a>
+<a name='L15'></a><a href='#L15'>15</a>
+<a name='L16'></a><a href='#L16'>16</a>
+<a name='L17'></a><a href='#L17'>17</a>
+<a name='L18'></a><a href='#L18'>18</a>
+<a name='L19'></a><a href='#L19'>19</a>
+<a name='L20'></a><a href='#L20'>20</a>
+<a name='L21'></a><a href='#L21'>21</a>
+<a name='L22'></a><a href='#L22'>22</a>
+<a name='L23'></a><a href='#L23'>23</a>
+<a name='L24'></a><a href='#L24'>24</a>
+<a name='L25'></a><a href='#L25'>25</a>
+<a name='L26'></a><a href='#L26'>26</a>
+<a name='L27'></a><a href='#L27'>27</a>
+<a name='L28'></a><a href='#L28'>28</a>
+<a name='L29'></a><a href='#L29'>29</a>
+<a name='L30'></a><a href='#L30'>30</a>
+<a name='L31'></a><a href='#L31'>31</a>
+<a name='L32'></a><a href='#L32'>32</a>
+<a name='L33'></a><a href='#L33'>33</a>
+<a name='L34'></a><a href='#L34'>34</a>
+<a name='L35'></a><a href='#L35'>35</a>
+<a name='L36'></a><a href='#L36'>36</a>
+<a name='L37'></a><a href='#L37'>37</a>
+<a name='L38'></a><a href='#L38'>38</a>
+<a name='L39'></a><a href='#L39'>39</a>
+<a name='L40'></a><a href='#L40'>40</a>
+<a name='L41'></a><a href='#L41'>41</a>
+<a name='L42'></a><a href='#L42'>42</a>
+<a name='L43'></a><a href='#L43'>43</a>
+<a name='L44'></a><a href='#L44'>44</a>
+<a name='L45'></a><a href='#L45'>45</a>
+<a name='L46'></a><a href='#L46'>46</a>
+<a name='L47'></a><a href='#L47'>47</a>
+<a name='L48'></a><a href='#L48'>48</a>
+<a name='L49'></a><a href='#L49'>49</a>
+<a name='L50'></a><a href='#L50'>50</a>
+<a name='L51'></a><a href='#L51'>51</a>
+<a name='L52'></a><a href='#L52'>52</a>
+<a name='L53'></a><a href='#L53'>53</a>
+<a name='L54'></a><a href='#L54'>54</a>
+<a name='L55'></a><a href='#L55'>55</a>
+<a name='L56'></a><a href='#L56'>56</a>
+<a name='L57'></a><a href='#L57'>57</a>
+<a name='L58'></a><a href='#L58'>58</a>
+<a name='L59'></a><a href='#L59'>59</a>
+<a name='L60'></a><a href='#L60'>60</a>
+<a name='L61'></a><a href='#L61'>61</a>
+<a name='L62'></a><a href='#L62'>62</a>
+<a name='L63'></a><a href='#L63'>63</a>
+<a name='L64'></a><a href='#L64'>64</a>
+<a name='L65'></a><a href='#L65'>65</a>
+<a name='L66'></a><a href='#L66'>66</a>
+<a name='L67'></a><a href='#L67'>67</a>
+<a name='L68'></a><a href='#L68'>68</a>
+<a name='L69'></a><a href='#L69'>69</a>
+<a name='L70'></a><a href='#L70'>70</a>
+<a name='L71'></a><a href='#L71'>71</a>
+<a name='L72'></a><a href='#L72'>72</a>
+<a name='L73'></a><a href='#L73'>73</a>
+<a name='L74'></a><a href='#L74'>74</a>
+<a name='L75'></a><a href='#L75'>75</a>
+<a name='L76'></a><a href='#L76'>76</a>
+<a name='L77'></a><a href='#L77'>77</a>
+<a name='L78'></a><a href='#L78'>78</a>
+<a name='L79'></a><a href='#L79'>79</a>
+<a name='L80'></a><a href='#L80'>80</a>
+<a name='L81'></a><a href='#L81'>81</a>
+<a name='L82'></a><a href='#L82'>82</a>
+<a name='L83'></a><a href='#L83'>83</a>
+<a name='L84'></a><a href='#L84'>84</a>
+<a name='L85'></a><a href='#L85'>85</a>
+<a name='L86'></a><a href='#L86'>86</a>
+<a name='L87'></a><a href='#L87'>87</a>
+<a name='L88'></a><a href='#L88'>88</a>
+<a name='L89'></a><a href='#L89'>89</a>
+<a name='L90'></a><a href='#L90'>90</a>
+<a name='L91'></a><a href='#L91'>91</a>
+<a name='L92'></a><a href='#L92'>92</a>
+<a name='L93'></a><a href='#L93'>93</a>
+<a name='L94'></a><a href='#L94'>94</a>
+<a name='L95'></a><a href='#L95'>95</a>
+<a name='L96'></a><a href='#L96'>96</a>
+<a name='L97'></a><a href='#L97'>97</a>
+<a name='L98'></a><a href='#L98'>98</a>
+<a name='L99'></a><a href='#L99'>99</a>
+<a name='L100'></a><a href='#L100'>100</a>
+<a name='L101'></a><a href='#L101'>101</a>
+<a name='L102'></a><a href='#L102'>102</a>
+<a name='L103'></a><a href='#L103'>103</a>
+<a name='L104'></a><a href='#L104'>104</a>
+<a name='L105'></a><a href='#L105'>105</a>
+<a name='L106'></a><a href='#L106'>106</a>
+<a name='L107'></a><a href='#L107'>107</a>
+<a name='L108'></a><a href='#L108'>108</a>
+<a name='L109'></a><a href='#L109'>109</a>
+<a name='L110'></a><a href='#L110'>110</a>
+<a name='L111'></a><a href='#L111'>111</a>
+<a name='L112'></a><a href='#L112'>112</a>
+<a name='L113'></a><a href='#L113'>113</a>
+<a name='L114'></a><a href='#L114'>114</a>
+<a name='L115'></a><a href='#L115'>115</a>
+<a name='L116'></a><a href='#L116'>116</a>
+<a name='L117'></a><a href='#L117'>117</a>
+<a name='L118'></a><a href='#L118'>118</a>
+<a name='L119'></a><a href='#L119'>119</a>
+<a name='L120'></a><a href='#L120'>120</a>
+<a name='L121'></a><a href='#L121'>121</a>
+<a name='L122'></a><a href='#L122'>122</a>
+<a name='L123'></a><a href='#L123'>123</a>
+<a name='L124'></a><a href='#L124'>124</a>
+<a name='L125'></a><a href='#L125'>125</a>
+<a name='L126'></a><a href='#L126'>126</a>
+<a name='L127'></a><a href='#L127'>127</a>
+<a name='L128'></a><a href='#L128'>128</a>
+<a name='L129'></a><a href='#L129'>129</a>
+<a name='L130'></a><a href='#L130'>130</a>
+<a name='L131'></a><a href='#L131'>131</a>
+<a name='L132'></a><a href='#L132'>132</a>
+<a name='L133'></a><a href='#L133'>133</a>
+<a name='L134'></a><a href='#L134'>134</a>
+<a name='L135'></a><a href='#L135'>135</a>
+<a name='L136'></a><a href='#L136'>136</a>
+<a name='L137'></a><a href='#L137'>137</a>
+<a name='L138'></a><a href='#L138'>138</a>
+<a name='L139'></a><a href='#L139'>139</a>
+<a name='L140'></a><a href='#L140'>140</a>
+<a name='L141'></a><a href='#L141'>141</a>
+<a name='L142'></a><a href='#L142'>142</a>
+<a name='L143'></a><a href='#L143'>143</a>
+<a name='L144'></a><a href='#L144'>144</a>
+<a name='L145'></a><a href='#L145'>145</a>
+<a name='L146'></a><a href='#L146'>146</a>
+<a name='L147'></a><a href='#L147'>147</a>
+<a name='L148'></a><a href='#L148'>148</a>
+<a name='L149'></a><a href='#L149'>149</a>
+<a name='L150'></a><a href='#L150'>150</a>
+<a name='L151'></a><a href='#L151'>151</a>
+<a name='L152'></a><a href='#L152'>152</a>
+<a name='L153'></a><a href='#L153'>153</a>
+<a name='L154'></a><a href='#L154'>154</a>
+<a name='L155'></a><a href='#L155'>155</a>
+<a name='L156'></a><a href='#L156'>156</a>
+<a name='L157'></a><a href='#L157'>157</a>
+<a name='L158'></a><a href='#L158'>158</a>
+<a name='L159'></a><a href='#L159'>159</a>
+<a name='L160'></a><a href='#L160'>160</a>
+<a name='L161'></a><a href='#L161'>161</a>
+<a name='L162'></a><a href='#L162'>162</a>
+<a name='L163'></a><a href='#L163'>163</a>
+<a name='L164'></a><a href='#L164'>164</a>
+<a name='L165'></a><a href='#L165'>165</a>
+<a name='L166'></a><a href='#L166'>166</a>
+<a name='L167'></a><a href='#L167'>167</a>
+<a name='L168'></a><a href='#L168'>168</a>
+<a name='L169'></a><a href='#L169'>169</a>
+<a name='L170'></a><a href='#L170'>170</a>
+<a name='L171'></a><a href='#L171'>171</a>
+<a name='L172'></a><a href='#L172'>172</a>
+<a name='L173'></a><a href='#L173'>173</a>
+<a name='L174'></a><a href='#L174'>174</a>
+<a name='L175'></a><a href='#L175'>175</a>
+<a name='L176'></a><a href='#L176'>176</a>
+<a name='L177'></a><a href='#L177'>177</a>
+<a name='L178'></a><a href='#L178'>178</a>
+<a name='L179'></a><a href='#L179'>179</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">112x</span>
+<span class="cline-any cline-yes">102x</span>
+<span class="cline-any cline-yes">102x</span>
+<span class="cline-any cline-yes">46x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">121x</span>
+<span class="cline-any cline-yes">117x</span>
+<span class="cline-any cline-yes">113x</span>
+<span class="cline-any cline-yes">111x</span>
+<span class="cline-any cline-yes">110x</span>
+<span class="cline-any cline-yes">110x</span>
+<span class="cline-any cline-yes">110x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">106x</span>
+<span class="cline-any cline-yes">106x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">15x</span>
+<span class="cline-any cline-yes">15x</span>
+<span class="cline-any cline-yes">14x</span>
+<span class="cline-any cline-yes">11x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">257x</span>
+<span class="cline-any cline-yes">257x</span>
+<span class="cline-any cline-yes">257x</span>
+<span class="cline-any cline-yes">54x</span>
+<span class="cline-any cline-yes">54x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">65x</span>
+<span class="cline-any cline-yes">47x</span>
+<span class="cline-any cline-yes">65x</span>
+<span class="cline-any cline-yes">47x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">208x</span>
+<span class="cline-any cline-yes">224x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">116x</span>
+<span class="cline-any cline-yes">110x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">122x</span>
+<span class="cline-any cline-yes">122x</span>
+<span class="cline-any cline-yes">153x</span>
+<span class="cline-any cline-yes">151x</span>
+<span class="cline-any cline-yes">102x</span>
+<span class="cline-any cline-yes">99x</span>
+<span class="cline-any cline-yes">99x</span>
+<span class="cline-any cline-yes">99x</span>
+<span class="cline-any cline-yes">153x</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">94x</span>
+<span class="cline-any cline-yes">45x</span>
+<span class="cline-any cline-yes">44x</span>
+<span class="cline-any cline-yes">44x</span>
+<span class="cline-any cline-yes">39x</span>
+<span class="cline-any cline-yes">37x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">49x</span>
+<span class="cline-any cline-yes">27x</span>
+<span class="cline-any cline-yes">27x</span>
+<span class="cline-any cline-yes">26x</span>
+<span class="cline-any cline-yes">26x</span>
+<span class="cline-any cline-yes">26x</span>
+<span class="cline-any cline-yes">26x</span>
+<span class="cline-any cline-yes">39x</span>
+<span class="cline-any cline-yes">39x</span>
+<span class="cline-any cline-yes">35x</span>
+<span class="cline-any cline-yes">35x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">25x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">35x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">26x</span>
+<span class="cline-any cline-yes">26x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">27x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">47x</span>
+<span class="cline-any cline-yes">47x</span>
+<span class="cline-any cline-yes">47x</span>
+<span class="cline-any cline-yes">49x</span>
+<span class="cline-any cline-yes">49x</span>
+<span class="cline-any cline-yes">45x</span>
+<span class="cline-any cline-yes">121x</span>
+<span class="cline-any cline-yes">43x</span>
+<span class="cline-any cline-yes">49x</span>
+<span class="cline-any cline-yes">40x</span>
+<span class="cline-any cline-yes">49x</span>
+<span class="cline-any cline-yes">39x</span>
+<span class="cline-any cline-yes">49x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">32x</span>
+<span class="cline-any cline-yes">88x</span>
+<span class="cline-any cline-yes">31x</span>
+<span class="cline-any cline-yes">31x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">47x</span>
+<span class="cline-any cline-yes">40x</span>
+<span class="cline-any cline-yes">40x</span>
+<span class="cline-any cline-yes">40x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">122x</span>
+<span class="cline-any cline-yes">122x</span>
+<span class="cline-any cline-yes">122x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import type { Assistance } from './desktop.ts';
+import { EnrichmentService } from './enrichment.ts';
+import { ModelError } from './model.ts';
+import { deliverReport } from './delivery.ts';
+import { deliverWorkBatches } from './work-delivery.ts';
+import { rankResults } from './selection.ts';
+import { applyAssessment, resultTags } from './assessment.ts';
+import { creatorIdentity } from './canonical.ts';
+import { HumanRequired } from './desktop.ts';
+import Ajv from 'ajv';
+import { createHash } from 'node:crypto';
+import type { Store } from './store.ts';
+import { normalizeCreator, searchBody, WaveError } from './wave.ts';
+import type { SearchBody, WaveClient } from './wave.ts';
+import type { Assessment, Creator, Judgment, Result, SearchSpec } from '../shared/research.ts';
+import { searchSchema } from '../shared/research.ts';
+import type { Task } from '../shared/contracts.ts';
+import { resolveJudgments } from './verdict.ts';
+import type { Discovery } from './discovery.ts';
+export type ResearchTask = Task &amp; { spec: SearchSpec; body: SearchBody; discovery?: Discovery; discoveryAttempts?: number; remoteId?: string; remoteStatus?: string; nextPollAt: number; candidates: Creator[]; failures: string[]; exhaustive?: boolean; verificationAttempts?: Record&lt;string, { count: number; nextAt: number }&gt;; };
+export type Verifier = (spec: SearchSpec, creator: Creator, taskId: string) =&gt; Promise&lt;Judgment[] | Assessment&gt;;
+const validate = new Ajv().compile&lt;SearchSpec&gt;(searchSchema);
+export class ResearchEngine {
+  store: Store; wave: Pick&lt;WaveClient, 'submit' | 'poll'&gt; &amp; Partial&lt;Pick&lt;WaveClient, 'discover'&gt;&gt;; verify: Verifier; now: () =&gt; number;
+  enrichment: EnrichmentService; textVerify: Verifier; shortlist = async (_spec: SearchSpec, creators: Creator[], _budget: number) =&gt; creators;
+  onProgress = () =&gt; {};
+  active = false; stopped = false; currentRun: Promise&lt;void&gt; = Promise.resolve();
+  constructor(store: Store, wave: Pick&lt;WaveClient, 'submit' | 'poll'&gt; &amp; Partial&lt;Pick&lt;WaveClient, 'discover'&gt;&gt;, verify: Verifier, now: () =&gt; number) { this.store = store; this.wave = wave; this.verify = verify; this.textVerify = verify; this.now = now; this.enrichment = new EnrichmentService(this); }
+  usesDesktop(spec: SearchSpec) { return spec.verificationMode !== 'text'; }
+  start(input: unknown, callId: string) {
+    if (!validate(input)) throw new Error('筛选范围格式不正确，请补充数量、平台、地区、条件与预算');
+    if (input.minFollowers &gt; input.maxFollowers || input.candidateBudget &lt; input.count || new Set(input.criteria.map(item =&gt; item.id)).size !== input.criteria.length) throw new Error('筛选范围存在冲突');
+    if (input.instagram?.handles &amp;&amp; (input.instagram.handles.length &gt; input.candidateBudget || new Set(input.instagram.handles.map(handle =&gt; handle.toLowerCase())).size !== input.instagram.handles.length)) throw new Error('指定账号数量超过分析预算或身份重复');
+    if (!input.instagram?.handles?.length &amp;&amp; input.instagram?.profileBudget !== undefined &amp;&amp; input.instagram.profileBudget &lt; input.candidateBudget) throw new Error('基础账号读取预算不能小于分析预算');
+    const id = `research-${createHash('sha256').update(callId).digest('hex').slice(0, 24)}`;
+    const existing = this.store.get&lt;ResearchTask&gt;('task', id);
+    if (existing) {
+      if (JSON.stringify(existing.spec) !== JSON.stringify(input)) throw new Error('同一次调用的筛选条件已变化');
+      return existing;
+    }
+    const task: ResearchTask = { id, title: input.title, spec: input, body: searchBody(input, id), status: 'queued', requested: input.count, evaluated: 0, matched: 0, updatedAt: this.now(), detail: '等待读取 WaveSurge 候选与原始资料', nextPollAt: 0, candidates: [], failures: [] };
+    this.store.set('task', id, task); return task;
+  }
+  cancel(id: string) {
+    const task = this.store.get&lt;ResearchTask&gt;('task', id);
+    if (!task) throw new Error('任务不存在');
+    if (['completed', 'partial', 'failed', 'cancelled'].includes(task.status)) return task;
+    task.status = 'cancelled'; task.detail = '已停止本地核验；WaveSurge 没有已验证的远端取消接口，远端搜索可能继续'; this.save(task); return task;
+  }
+  save(task: ResearchTask, notify = true) {
+    this.store.transaction(() =&gt; {
+    task.updatedAt = this.now(); this.store.set('task', task.id, task);
+    if (notify &amp;&amp; !task.deliveryBatchId &amp;&amp; !task.parentCampaignId &amp;&amp; ['completed', 'partial', 'failed', 'cancelled'].includes(task.status)) {
+      const results = this.results(task.id);
+      deliverReport(this.store, task.id, { status: task.status, matched: task.matched, evaluated: task.evaluated, results: results.map(result =&gt; [result.id, result.updatedAt]) },
+        `研究「${task.title}」${task.status === 'completed' ? '已完成' : task.status === 'partial' ? '已结束，仍有缺额' : task.status === 'cancelled' ? '已取消' : '未完成'}。已选合格 ${task.matched}/${task.requested} 人，核验 ${task.evaluated} 人。\n\n${task.detail}\n\n[查看完整报告](/api/reports/${task.resultTaskId ?? task.id}) · [下载 CSV](/api/reports/${task.resultTaskId ?? task.id}?format=csv)`, this.now());
+    }
+    });
+  }
+  recount(task: ResearchTask) {
+    const results = this.results(task.id); const qualifying = rankResults(task.spec, results.filter(result =&gt; result.verdict === 'match'));
+    const selected = new Set(qualifying.slice(0, task.requested).map(result =&gt; result.id));
+    for (const result of results) { result.selected = selected.has(result.id); this.store.set('result', result.id, result); }
+    task.qualifying = qualifying.length; task.evaluated = results.length; task.matched = selected.size;
+  }
+  results(taskId: string) { return this.store.list&lt;Result&gt;('result').filter(result =&gt; result.taskId === taskId); }
+  cancelled(task: ResearchTask) { return this.stopped || this.store.task&lt;ResearchTask&gt;(task.id)!.status === 'cancelled'; }
+  wake() {
+    if (this.active || this.stopped) return this.currentRun;
+    this.active = true; this.currentRun = this.tick().finally(() =&gt; { this.active = false; }); return this.currentRun;
+  }
+  async tick() {
+    let browserBlocked = this.store.list&lt;Assistance&gt;('assistance').some(request =&gt; request.status !== 'done');
+    for (const state of this.store.tasks&lt;ResearchTask&gt;()) {
+      if (this.stopped) break;
+      if (!state.spec || !['queued', 'running', 'needs_input'].includes(state.status)) continue;
+      if (browserBlocked &amp;&amp; this.usesDesktop(state.spec) &amp;&amp; !(state.nextPollAt &lt;= this.now() &amp;&amp; !['done', 'failed'].includes(state.remoteStatus ?? ''))) continue;
+      const task = this.store.get&lt;ResearchTask&gt;('task', state.id)!;
+      try {
+        const rawDiscovery = !task.remoteId &amp;&amp; !!this.wave.discover;
+        if (rawDiscovery &amp;&amp; task.remoteStatus !== 'done' &amp;&amp; task.nextPollAt &lt;= this.now()) {
+          task.status = task.status === 'needs_input' ? 'needs_input' : 'running'; task.detail = '正在读取 WaveSurge 原始资料；本地筛选尚未完成'; this.save(task);
+          const batch = await this.wave.discover!(task.spec, task.discovery);
+          if (this.cancelled(task)) continue;
+          task.status = this.store.get&lt;ResearchTask&gt;('task', task.id)!.status;
+          task.discovery = batch.state; task.discoveryAttempts = 0;
+          task.remoteStatus = batch.state.done ? 'done' : 'running'; task.nextPollAt = this.now() + 1000;
+          const incoming = batch.creators.some(creator =&gt; creator.platform !== 'instagram') ? await this.shortlist(task.spec, batch.creators, task.spec.candidateBudget - task.candidates.length) : batch.creators;
+          if (this.cancelled(task)) continue;
+          task.candidates = [...new Map([...task.candidates, ...incoming].map(creator =&gt; [creator.id, creator])).values()].slice(0, task.spec.candidateBudget);
+          task.detail = `已读取 ${task.candidates.length} 位候选；来源 ${batch.state.done ? '已到本次读取边界' : '继续读取'}，本地已合格 ${task.matched} 人`; this.save(task);
+        }
+        if (!rawDiscovery &amp;&amp; !task.remoteId) {
+          if (task.nextPollAt &gt; this.now()) continue;
+          task.status = 'running'; task.detail = '正在提交历史协议搜索'; this.save(task);
+          task.remoteId = await this.wave.submit(task.body);
+          if (this.cancelled(task)) { const latest = this.store.get&lt;ResearchTask&gt;('task', task.id)!; latest.remoteId = task.remoteId; this.save(latest); continue; }
+          task.detail = '搜索已提交，等待 WaveSurge 返回候选'; task.nextPollAt = this.now() + 60000; this.save(task); continue;
+        }
+        if (!rawDiscovery &amp;&amp; task.remoteStatus !== 'done' &amp;&amp; task.remoteStatus !== 'failed' &amp;&amp; task.nextPollAt &lt;= this.now()) {
+          const remote = await this.wave.poll(task.remoteId!);
+          if (this.cancelled(task)) continue;
+          task.status = this.store.get&lt;ResearchTask&gt;('task', task.id)!.status;
+          task.remoteStatus = remote.status; task.nextPollAt = this.now() + 60000;
+          const unique = new Map(task.candidates.map(creator =&gt; [creatorIdentity(creator), creator])); const seen = new Set&lt;string&gt;();
+          for (const raw of [...remote.creators, ...(remote.alsoFound ?? [])]) {
+            try {
+              const creator = normalizeCreator(raw, this.now()); if (seen.has(creator.id)) continue; seen.add(creator.id);
+              const previous = unique.get(creator.id);
+              if (previous) {
+                creator.handle ||= previous.handle;
+                creator.evidence = [...new Map([...previous.evidence, ...creator.evidence].map(item =&gt; [item.id, item])).values()];
+                const saved = this.store.get&lt;Result&gt;('result', `${task.id}|${creator.id}`);
+                if (saved &amp;&amp; (saved.creator.followers !== creator.followers || saved.creator.region !== creator.region || JSON.stringify(saved.creator.raw.factorGrades) !== JSON.stringify(creator.raw.factorGrades))) {
+                  creator.facts = structuredClone(saved.creator.facts);
+                  const facts = [...(creator.facts?.followers ? [{ kind: 'followers' as const, rawValue: creator.facts.followers.rawValue, evidenceIds: creator.facts.followers.evidenceIds }] : []), ...(creator.facts?.country ? [{ kind: 'country' as const, rawValue: creator.facts.country.rawValue, evidenceIds: creator.facts.country.evidenceIds }] : [])];
+                  applyAssessment(task.spec, creator, { judgments: [], facts });
+                  const outcome = resolveJudgments(task.spec, creator, saved.judgments.filter(item =&gt; !item.criterionId.startsWith('__')));
+                  this.store.transaction(() =&gt; { this.store.set('result-history', `${saved.id}|${saved.revision ?? 1}`, saved); this.store.set('result', saved.id, { ...saved, creator, ...outcome, tags: resultTags(task.spec, { judgments: outcome.judgments, annotations: saved.annotations }), revision: (saved.revision ?? 1) + 1, updatedAt: this.now() }); this.recount(task); this.save(task); });
+                }
+              }
+              unique.set(creator.id, creator);
+            }
+            catch (error) { task.failures.push((error as Error).message); }
+          }
+          task.candidates = [...unique.values()].slice(0, task.spec.candidateBudget);
+          if (remote.status === 'failed') {
+            task.failures.push('WaveSurge 远端搜索失败；保留已返回候选继续本地核验，不重新提交搜索');
+            if (!task.candidates.length) { task.status = 'failed'; task.detail = 'WaveSurge 搜索失败；已核验结果保留，搜索结果不能直接当作合格名单'; this.save(task); continue; }
+          }
+          task.detail = `WaveSurge 搜索${remote.status === 'failed' ? '失败，保留已有候选继续本地核验' : remote.status === 'done' ? '完成' : remote.status === 'queued' ? '等待执行' : '执行中'}；取得 ${task.candidates.length} 位唯一候选，本地已合格 ${task.matched} 人${task.status === 'needs_input' ? '；浏览器等待人工协助，请在桌面查看具体阻塞原因' : ''}`; this.save(task);
+        }
+        let waiting = false;
+        const prefer = task.spec.criteria.some(criterion =&gt; !criterion.required);
+        for (const creator of task.candidates) {
+          const id = `${task.id}|${creator.id}`;
+          if (this.store.get('result', id)) continue;
+          if (this.cancelled(task) || !task.exhaustive &amp;&amp; !task.spec.analyzeAll &amp;&amp; !prefer &amp;&amp; task.matched &gt;= task.requested) break;
+          const excluded = resolveJudgments(task.spec, creator, []).judgments.some(item =&gt; item.criterionId.startsWith('__') &amp;&amp; item.verdict === 'no_match');
+          const needsVerifier = (task.spec.criteria.length &gt; 0 || !!task.spec.annotations?.length || creator.followers === null || !!task.spec.regions.length &amp;&amp; creator.region === null) &amp;&amp; !(excluded &amp;&amp; !task.spec.analyzeAll &amp;&amp; !task.exhaustive);
+          if (needsVerifier &amp;&amp; browserBlocked &amp;&amp; this.usesDesktop(task.spec)) { waiting = true; break; }
+          const attempt = task.verificationAttempts?.[creator.id];
+          if (attempt &amp;&amp; attempt.nextAt &gt; this.now()) { waiting = true; break; }
+          let judgments: Judgment[]; let assessment: Assessment = { judgments: [] };
+          try { const proposed = needsVerifier ? await (this.usesDesktop(task.spec) ? this.verify : this.textVerify)(task.spec, creator, task.id) : []; assessment = applyAssessment(task.spec, creator, proposed); judgments = resolveJudgments(task.spec, creator, assessment.judgments).judgments; }
+          catch (error) {
+            if (this.cancelled(task)) break;
+            if (error instanceof HumanRequired) { browserBlocked = true; waiting = true; task.status = 'needs_input'; task.detail = `${error.message}；请打开桌面协助，完成后继续原候选`; this.save(task); break; }
+            task.failures.push(`${creator.id}: ${(error as Error).message}`);
+            if (error instanceof ModelError &amp;&amp; error.retryable()) {
+              const count = (attempt?.count ?? 0) + 1; task.verificationAttempts ??= {};
+              task.verificationAttempts[creator.id] = { count, nextAt: count &lt; 3 ? this.now() + Math.max(error.retryAfterMs, 1000 * 2 ** (count - 1)) : 0 };
+              if (count &lt; 3) { waiting = true; task.detail = `候选核验暂时失败，已保存原工作并等待第 ${count + 1}/3 次尝试`; this.save(task); break; }
+            }
+            judgments = resolveJudgments(task.spec, creator, []).judgments;
+          }
+          if (this.cancelled(task)) break;
+          const outcome = resolveJudgments(task.spec, creator, judgments.filter(item =&gt; !item.criterionId.startsWith('__')));
+          const result: Result = { id, taskId: task.id, creator, ...outcome, annotations: assessment.annotations, tags: resultTags(task.spec, { ...assessment, judgments: outcome.judgments }), revision: 1, updatedAt: this.now() };
+          this.store.transaction(() =&gt; { this.store.set('result', id, result); this.recount(task); task.detail = `已核验 ${task.evaluated} 人，已合格 ${task.matched} 人`; this.save(task); });
+        }
+        if (!this.cancelled(task) &amp;&amp; task.status !== 'needs_input') {
+          const enough = task.matched &gt;= task.requested &amp;&amp; !task.exhaustive &amp;&amp; !task.spec.analyzeAll &amp;&amp; !prefer;
+          const exhausted = task.remoteStatus === 'done' || task.remoteStatus === 'failed' || task.candidates.length &gt;= task.spec.candidateBudget;
+          if (!waiting &amp;&amp; (enough || exhausted)) { task.status = task.matched &gt;= task.requested ? 'completed' : 'partial'; task.detail = `已选合格 ${task.matched}/${task.requested}，已核验 ${task.evaluated}；证据不足者保持待核实。${task.discovery?.profileReads !== undefined ? `Instagram：读取 ${task.discovery.profileReads} 个本人基础账号，基础条件排除 ${task.discovery.baseExcluded ?? 0} 个；基础读取上限 ${task.discovery.profileLimit}，逐人分析上限 ${task.spec.candidateBudget}（本次有界来源，不代表全站穷尽）。` : ''}${task.discovery?.sources?.map(source =&gt; `${source.platform}：读取 ${source.read} 条，基础条件排除 ${source.excluded} 条；${source.path}（有界名单，不代表全站穷尽）。`).join('') ?? ''}${task.failures.length ? `核验/来源错误 ${task.failures.length} 次，可对已有结果重新核验。` : ''}`; this.save(task); }
+        }
+      } catch (error) {
+        if (this.cancelled(task)) continue;
+        if (error instanceof WaveError &amp;&amp; error.retryable() &amp;&amp; (task.remoteId || !this.wave.discover || (task.discoveryAttempts = (task.discoveryAttempts ?? 0) + 1) &lt; 3)) { task.nextPollAt = this.now() + error.retryAfterMs; task.detail = `外部服务暂不可用，已保存当前读取位置等待重试：${error.message}`; }
+        else { task.status = 'failed'; task.detail = `未完成：${(error as Error).message}`; }
+        this.save(task);
+      }
+    }
+    await this.enrichment.tick(browserBlocked);
+    this.onProgress();
+    deliverWorkBatches(this.store, this.now());
+  }
+}
+&nbsp;</pre></td></tr></table></pre>
+
+                <div class='push'></div><!-- for sticky footer -->
+            </div><!-- /wrapper -->
+            <div class='footer quiet pad2 space-top1 center small'>
+                Code coverage generated by
+                <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
+                at 2026-10-10T13:29:51.355Z
+            </div>
+        <script src="../prettify.js"></script>
+        <script>
+            window.onload = function () {
+                prettyPrint();
+            };
+        </script>
+        <script src="../sorter.js"></script>
+        <script src="../block-navigation.js"></script>
+    </body>
+</html>
+    

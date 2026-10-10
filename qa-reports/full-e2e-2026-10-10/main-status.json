@@ -1,0 +1,1015 @@
+{
+  "observedAt": "2026-10-10T02:35:11.374Z",
+  "source": "actual production browser and authenticated API; no candidate injection",
+  "tasks": [
+    {
+      "id": "research-d22f5bc3f9c80da1a4979ca5",
+      "title": "Review独立真实筛选",
+      "status": "partial",
+      "requested": 1,
+      "evaluated": 2,
+      "matched": 0,
+      "updatedAt": 1791597943628,
+      "detail": "已合格 0/1，已核验 2；证据不足者保持待核实。",
+      "remoteId": "b5722567-4ae0-435a-b6e9-0c5873d6486e",
+      "remoteStatus": "done",
+      "nextPollAt": 0
+    },
+    {
+      "id": "research-a183b9437d676713c0f2812f",
+      "title": "Geek风戴眼镜的Instagram普通消费者创作者",
+      "status": "running",
+      "requested": 20,
+      "evaluated": 0,
+      "matched": 0,
+      "updatedAt": 1791599679624,
+      "detail": "WaveSurge 搜索执行中；本地已合格 0 人",
+      "remoteId": "bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "remoteStatus": "running",
+      "nextPollAt": 1791599739624
+    },
+    {
+      "id": "research-fd88375f69e716ff5cbc9fef",
+      "title": "课堂笔记与考试复习方法创作者",
+      "status": "partial",
+      "requested": 1,
+      "evaluated": 2,
+      "matched": 0,
+      "updatedAt": 1791598314025,
+      "detail": "已合格 0/1，已核验 2；证据不足者保持待核实。",
+      "remoteId": "7c1837b8-3ec0-4d06-9f4d-752eebc40f64",
+      "remoteStatus": "done",
+      "nextPollAt": 1791598003992
+    },
+    {
+      "id": "research-b30bacd90e74569b33e06bfc",
+      "title": "AI与数字学习工具教学创作者",
+      "status": "partial",
+      "requested": 1,
+      "evaluated": 2,
+      "matched": 0,
+      "updatedAt": 1791598214595,
+      "detail": "已合格 0/1，已核验 2；证据不足者保持待核实。",
+      "remoteId": "ff3ac6fb-fa15-4b8d-b358-e7bf18e642de",
+      "remoteStatus": "done",
+      "nextPollAt": 1791597579739
+    }
+  ],
+  "campaigns": [
+    {
+      "id": "campaign-6387a520f8156f12d92c6f50",
+      "title": "Review原题条件保真测试",
+      "revision": 1,
+      "status": "running",
+      "requested": 20,
+      "matched": 0,
+      "evaluated": 0,
+      "qualifyingUnique": 0,
+      "childTaskIds": [
+        "research-a183b9437d676713c0f2812f"
+      ]
+    },
+    {
+      "id": "campaign-bb62e1767e97593d5e070a7d",
+      "title": "Review自然目标规划",
+      "revision": 2,
+      "status": "partial",
+      "requested": 2,
+      "matched": 0,
+      "evaluated": 4,
+      "qualifyingUnique": 0,
+      "childTaskIds": [
+        "research-fd88375f69e716ff5cbc9fef",
+        "research-b30bacd90e74569b33e06bfc"
+      ]
+    }
+  ],
+  "latestPolls": [
+    {
+      "taskId": "research-d22f5bc3f9c80da1a4979ca5",
+      "call": {
+        "id": "6978f7b6-2af4-4c22-a12a-4fe29fb05bf9",
+        "kind": "wavesurge",
+        "createdAt": 1791597639071,
+        "path": "/creator-search/requests/b5722567-4ae0-435a-b6e9-0c5873d6486e",
+        "method": "GET",
+        "request": null,
+        "status": 200,
+        "response": {
+          "status": "done",
+          "strategyOperationId": null,
+          "creators": [
+            {
+              "handle": "tylerlcrawford",
+              "region": "US",
+              "missing": [
+                "Cooperation and commercial consent remain deferred and are not asserted.",
+                "audience_profile_not_measured",
+                "contacts_not_collected"
+              ],
+              "evidence": [
+                {
+                  "url": "https://www.instagram.com/tylerlcrawford/",
+                  "kind": "content",
+                  "text": "Profile: My apartment runs itself. Hometel systems | tech + hotel reviews; austin, tx. Followers 31,213; business account false; professional account true.",
+                  "check": "profile_and_creator_in_payload",
+                  "provider": "tikhub",
+                  "verified": true,
+                  "evidenceId": "ev_a23676ba",
+                  "publishedAt": "2026-10-09T18:58:31Z"
+                },
+                {
+                  "url": "https://www.instagram.com/p/DcZxbpBAJDI/",
+                  "kind": "content",
+                  "text": "My apartment runs itself... Shades close at 9:22... #smarthome #homeautomation #hometel. This smart-home reel had 1,000,430 views.",
+                  "check": "post_and_creator_in_payload",
+                  "provider": "tikhub",
+                  "verified": true,
+                  "evidenceId": "ev_a23676ba",
+                  "publishedAt": "2026-08-24T00:27:53Z"
+                }
+              ],
+              "platform": "instagram",
+              "avatarUrl": "https://pompe-ai-analysis-artifacts.sgp1.cdn.digitaloceanspaces.com/creator-avatars/instagram/fff8c3a1791f0692864c68b9ac647d3c.jpg",
+              "fitReason": "Individual technology creator focused on smart-home automation, home-tech systems and technology reviews; located in Austin, Texas, with 31,213 Instagram followers.",
+              "providers": [
+                "tikhub"
+              ],
+              "profileUrl": "https://www.instagram.com/tylerlcrawford/",
+              "displayName": "Tyler Crawford",
+              "overallTier": "A",
+              "factorGrades": {
+                "role": "strong",
+                "activity": "observed",
+                "identity": "individual",
+                "location": "confirmed_country",
+                "followers": "in_range",
+                "relevance": "strong"
+              },
+              "regionSource": "codex",
+              "followerCount": 31213,
+              "hardConditions": [
+                {
+                  "basis": "Retained Instagram profile and reels identify this Instagram account.",
+                  "status": "met",
+                  "condition": "Instagram platform"
+                },
+                {
+                  "basis": "Profile edge_followed_by/count equals 31,213 in evidence ev_a23676ba.",
+                  "status": "met",
+                  "condition": "Followers at least 10,000 and at most 100,000"
+                },
+                {
+                  "basis": "Self-location in profile text: 'austin, tx', attributable in evidence ev_a23676ba.",
+                  "status": "met",
+                  "condition": "Creator based in United States or Canada"
+                },
+                {
+                  "basis": "Profile has full name Tyler Crawford and is_business_account=false; content is personal creator work.",
+                  "status": "met",
+                  "condition": "Individual creators only"
+                },
+                {
+                  "basis": "Profile describes 'tech + hotel reviews'; retained smart-home/homeautomation reels are attributable to the same account.",
+                  "status": "met",
+                  "condition": "Technology content creator"
+                },
+                {
+                  "basis": "Only this distinct Instagram person is selected; no duplicate person appears elsewhere in the selected set.",
+                  "status": "met",
+                  "condition": "No person on two platforms"
+                }
+              ],
+              "providerUserId": "48426799147",
+              "searchMatchTier": "precise",
+              "profileCompleteness": "full"
+            },
+            {
+              "handle": "valstechtalkk",
+              "region": "US",
+              "missing": [
+                "Cooperation and commercial consent remain deferred and are not asserted.",
+                "The profile references an off-Instagram TikTok audience, but only the Instagram person/account is selected.",
+                "audience_profile_not_measured",
+                "contacts_not_collected"
+              ],
+              "evidence": [
+                {
+                  "url": "https://www.instagram.com/valstechtalkk/",
+                  "kind": "content",
+                  "text": "Profile: 'tech but make it cute 📱 | HTX; Reviews + a little glam... 400k+ tech besties on tiktok.' Followers 39,639; category_name Tech; is_business_account false; is_verified true.",
+                  "check": "profile_and_creator_in_payload",
+                  "provider": "tikhub",
+                  "verified": true,
+                  "evidenceId": "ev_8efe50f9",
+                  "publishedAt": "2026-10-09T18:59:36Z"
+                },
+                {
+                  "url": "https://www.instagram.com/p/Ddk7C9lKgE4/",
+                  "kind": "content",
+                  "text": "Day 1 of iPhone features you may not know. Welcome to all of the tips and tricks! #iphone18 #iphonetips #iphonetipsandtricks. Reel had 389,651 views.",
+                  "check": "post_and_creator_in_payload",
+                  "provider": "tikhub",
+                  "verified": true,
+                  "evidenceId": "ev_239397ac",
+                  "publishedAt": "2026-09-22T04:54:35Z"
+                }
+              ],
+              "platform": "instagram",
+              "avatarUrl": "https://pompe-ai-analysis-artifacts.sgp1.cdn.digitaloceanspaces.com/creator-avatars/instagram/cc7af1eb461186ce8fa2a5e4e2481ae6.jpg",
+              "fitReason": "Individual technology creator and Instagram category 'Tech'; creates iPhone feature/review content, is located in Houston, Texas, and has 39,639 Instagram followers.",
+              "providers": [
+                "tikhub"
+              ],
+              "profileUrl": "https://www.instagram.com/valstechtalkk/",
+              "displayName": "V",
+              "overallTier": "A",
+              "factorGrades": {
+                "role": "strong",
+                "activity": "observed",
+                "identity": "individual",
+                "location": "confirmed_country",
+                "followers": "in_range",
+                "relevance": "strong"
+              },
+              "regionSource": "codex",
+              "followerCount": 39639,
+              "hardConditions": [
+                {
+                  "basis": "Retained Instagram profile and reel identify this Instagram account.",
+                  "status": "met",
+                  "condition": "Instagram platform"
+                },
+                {
+                  "basis": "Profile edge_followed_by/count equals 39,639 in evidence ev_8efe50f9.",
+                  "status": "met",
+                  "condition": "Followers at least 10,000 and at most 100,000"
+                },
+                {
+                  "basis": "Profile self-location 'HTX' (Houston, Texas) is attributable in evidence ev_8efe50f9.",
+                  "status": "met",
+                  "condition": "Creator based in United States or Canada"
+                },
+                {
+                  "basis": "Profile is_business_account=false; personal technology creator brand with management email.",
+                  "status": "met",
+                  "condition": "Individual creators only"
+                },
+                {
+                  "basis": "Profile says 'tech' and 'Reviews'; retained reel is an iPhone feature/tips review attributable to this account.",
+                  "status": "met",
+                  "condition": "Technology content creator"
+                },
+                {
+                  "basis": "Only this distinct Instagram person is selected; no duplicate person appears elsewhere in the selected set.",
+                  "status": "met",
+                  "condition": "No person on two platforms"
+                }
+              ],
+              "providerUserId": "10561673222",
+              "searchMatchTier": "precise",
+              "profileCompleteness": "full"
+            }
+          ],
+          "alsoFound": [],
+          "summary": {
+            "lanes": [
+              {
+                "a": 2,
+                "b": 0,
+                "market": {
+                  "unclear": 0,
+                  "inMarket": 2,
+                  "otherMarket": 0
+                },
+                "target": 2,
+                "location": {
+                  "unverified": 0,
+                  "confirmedCountry": 2,
+                  "knownOtherCountry": 0
+                },
+                "platform": "instagram",
+                "rejected": {
+                  "notNeeded": 0,
+                  "notPerson": 0,
+                  "offPersona": 0,
+                  "notReviewed": 0,
+                  "otherMarket": 0,
+                  "locationUnknown": 0,
+                  "noPublicContact": 0,
+                  "audienceRegionBelow": 0,
+                  "contactLookupFailed": 0,
+                  "audienceRegionUnread": 0,
+                  "outsideFollowerWindow": 0,
+                  "contactBehindPlatformGate": 0
+                },
+                "delivered": 2,
+                "shortfallReason": null
+              }
+            ],
+            "delivered": 2,
+            "requested": 2
+          },
+          "usage": {
+            "byPath": {
+              "/api/v1/instagram/v3/search_users": 1,
+              "/api/v1/instagram/v3/general_search": 11,
+              "/api/v1/instagram/v3/get_user_about": 1,
+              "/api/v1/instagram/v2/fetch_user_info": 3,
+              "/api/v1/instagram/v1/fetch_user_info_by_username": 19
+            },
+            "refusals": 4,
+            "modelCalls": 37,
+            "inputTokens": 1035783,
+            "msPacerWait": 1966,
+            "pageFetches": 0,
+            "totalTokens": 1041978,
+            "modelCostUsd": 0,
+            "msInProvider": 225606,
+            "outputTokens": 6195,
+            "providerCalls": 35,
+            "providerCostUsd": 0.262,
+            "providerTimeouts": 0,
+            "agentModelCostUsd": 0.6218440399999999,
+            "cachedInputTokens": 936064,
+            "msInProviderByPath": {
+              "/api/v1/instagram/v3/search_users": 2659,
+              "/api/v1/instagram/v3/general_search": 57695,
+              "/api/v1/instagram/v3/get_user_about": 854,
+              "/api/v1/instagram/v2/fetch_user_info": 1760,
+              "/api/v1/instagram/v1/fetch_user_info_by_username": 162638
+            }
+          },
+          "expectedDurationHours": null
+        },
+        "finishedAt": 1791597639570
+      }
+    },
+    {
+      "taskId": "research-a183b9437d676713c0f2812f",
+      "call": {
+        "id": "de07f394-addb-4984-8bd2-4930b0211771",
+        "kind": "wavesurge",
+        "createdAt": 1791599679139,
+        "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+        "method": "GET",
+        "request": null,
+        "status": 200,
+        "response": {
+          "status": "running",
+          "strategyOperationId": null,
+          "creators": [
+            {
+              "handle": "franhaddock_",
+              "region": "GB",
+              "missing": [
+                "audience_profile_not_measured",
+                "contacts_not_collected"
+              ],
+              "evidence": [
+                {
+                  "url": "https://www.instagram.com/p/Dd6iln9NJ9f/",
+                  "kind": "content",
+                  "text": "Video description: a white woman with glasses and her hair in 2 plaits talks to the screen from her bed.",
+                  "check": "post_and_creator_in_payload",
+                  "provider": "tikhub",
+                  "verified": true,
+                  "evidenceId": "ev_4fd1b2b8",
+                  "publishedAt": "2026-09-30T14:24:37Z"
+                },
+                {
+                  "url": "https://www.instagram.com/franhaddock_/",
+                  "kind": "content",
+                  "text": "Fran Haddock 🌳 she/her; 14,872 followers; is_business false; biography includes Sheffield, current reading, advocacy from bed, and category Blogger.",
+                  "check": "profile_and_creator_in_payload",
+                  "provider": "tikhub",
+                  "verified": true,
+                  "evidenceId": "ev_4308c807",
+                  "publishedAt": null
+                },
+                {
+                  "url": "https://www.instagram.com/franhaddock_/",
+                  "kind": "content",
+                  "text": "Instagram About This Account reports Account based in United Kingdom.",
+                  "check": "creator_not_in_payload",
+                  "provider": "tikhub",
+                  "verified": false,
+                  "evidenceId": "ev_76d3ca98",
+                  "publishedAt": null
+                },
+                {
+                  "url": "https://www.instagram.com/p/Ddo72ZptXRA/",
+                  "kind": "content",
+                  "text": "Halloween raffle: Dr Bradbury’s Compendium of Curiosities Halloween calendar, crochet pumpkin wreath, S’mores Jellycat, stickers, cards, meds diary, spoonie hat, prints and coloring pages.",
+                  "check": "post_and_creator_in_payload",
+                  "provider": "tikhub",
+                  "verified": true,
+                  "evidenceId": "ev_fea290f9",
+                  "publishedAt": null
+                },
+                {
+                  "url": "https://linktr.ee/franhaddock_",
+                  "kind": "content",
+                  "text": "Linktree contains fundraisers, articles, products and BBC link; no TikTok, YouTube or other social-platform account link.",
+                  "check": "no_evidence_id",
+                  "provider": "tikhub",
+                  "verified": false,
+                  "evidenceId": null,
+                  "publishedAt": null
+                }
+              ],
+              "platform": "instagram",
+              "avatarUrl": null,
+              "fitReason": "Individual UK blogger advocating from bed with severe M.E. and Long Covid. Her own caption identifies a white woman with glasses in the relevant video, and her account has a whimsical, bookish/geeky creator aesthetic (Halloween prize draw, coloring pages, stickers, reading-related bio and Jellycat/compendium prizes) consistent with an ordinary consumer creator rather than a business.",
+              "providers": [
+                "tikhub"
+              ],
+              "profileUrl": "https://www.instagram.com/franhaddock_/",
+              "displayName": "Fran Haddock 🌳 she/her",
+              "overallTier": "A",
+              "factorGrades": {
+                "role": "strong",
+                "activity": "observed",
+                "identity": "individual",
+                "location": "confirmed_country",
+                "followers": "in_range",
+                "relevance": "strong"
+              },
+              "regionSource": "codex",
+              "followerCount": 14872,
+              "hardConditions": [
+                {
+                  "basis": "Profile follower_count is exactly 14,872 in ev_4308c807.",
+                  "status": "met",
+                  "condition": "Instagram followers between 10,000 and 100,000"
+                },
+                {
+                  "basis": "Instagram About This Account reports United Kingdom in ev_76d3ca98; biography explicitly lists Sheffield.",
+                  "status": "met",
+                  "condition": "Creator based in United States, Canada, United Kingdom, Germany, or France"
+                },
+                {
+                  "basis": "Profile reports is_business false and represents one named individual, Fran Haddock.",
+                  "status": "met",
+                  "condition": "Individual creators only"
+                },
+                {
+                  "basis": "Profile has only a Linktree and direct Linktree inspection found no TikTok, YouTube or other social-platform account link.",
+                  "status": "met",
+                  "condition": "No person on two platforms"
+                },
+                {
+                  "basis": "The creator’s own video description says 'a white woman with glasses'; posts show fandom-adjacent Halloween prizes including a compendium of curiosities, stickers, coloring pages and a Jellycat prize; bio includes current reading and whimsical interests.",
+                  "status": "met",
+                  "condition": "Geek aesthetic and glasses"
+                },
+                {
+                  "basis": "The creator-owned accessibility description for the cited reel identifies the speaker as 'a white woman with glasses'.",
+                  "status": "met",
+                  "condition": "Publicly self-identify as white"
+                }
+              ],
+              "providerUserId": "5824909564",
+              "searchMatchTier": "precise",
+              "profileCompleteness": "full"
+            }
+          ],
+          "alsoFound": [],
+          "qualificationProgress": {
+            "passed": 1,
+            "pending": 0,
+            "excluded": 7,
+            "gaps": {},
+            "asOf": "2026-10-10T02:34:35.010Z"
+          },
+          "expectedDurationHours": 5
+        },
+        "finishedAt": 1791599679618
+      }
+    },
+    {
+      "taskId": "research-fd88375f69e716ff5cbc9fef",
+      "call": {
+        "id": "3d168f3a-9282-4e0f-a21c-7fcab211d680",
+        "kind": "wavesurge",
+        "createdAt": 1791598239218,
+        "path": "/creator-search/requests/7c1837b8-3ec0-4d06-9f4d-752eebc40f64",
+        "method": "GET",
+        "request": null,
+        "status": 200,
+        "response": {
+          "status": "done",
+          "strategyOperationId": null,
+          "creators": [
+            {
+              "handle": "SchoolHabits",
+              "region": null,
+              "missing": [
+                "Exact subscriber integer is not disclosed; public display rounds to 20.4K.",
+                "Email collection was not required and was not performed.",
+                "follower_count_unverified",
+                "audience_profile_not_measured",
+                "contacts_not_collected",
+                "creator_location_unverified"
+              ],
+              "evidence": [
+                {
+                  "url": "https://www.youtube.com/channel/UCif2xthZcmDp2NxvG56Gdlg",
+                  "kind": "content",
+                  "text": "Channel reports 20.4K subscribers, 131 videos, country United States, and describes study skills, procrastination, time management, and note-taking content.",
+                  "check": "post_id_not_readable_from_url",
+                  "provider": "tikhub",
+                  "verified": false,
+                  "evidenceId": "ev_02ec3572",
+                  "publishedAt": null
+                },
+                {
+                  "url": "https://www.youtube.com/watch?v=2-hEEuugLxs",
+                  "kind": "content",
+                  "text": "Recent SchoolHabits video titled 'How to Study from a Study Guide You Got from Your Teacher.'",
+                  "check": "creator_not_in_payload",
+                  "provider": "tikhub",
+                  "verified": false,
+                  "evidenceId": "ev_12cdeef7",
+                  "publishedAt": null
+                },
+                {
+                  "url": "https://www.youtube.com/watch?v=izW6jnOqOYI",
+                  "kind": "content",
+                  "text": "SchoolHabits video titled 'How to Use Dual Coding to Study.'",
+                  "check": "creator_not_in_payload",
+                  "provider": "tikhub",
+                  "verified": false,
+                  "evidenceId": "ev_12cdeef7",
+                  "publishedAt": null
+                }
+              ],
+              "platform": "youtube",
+              "avatarUrl": "https://pompe-ai-analysis-artifacts.sgp1.cdn.digitaloceanspaces.com/creator-avatars/youtube/f609c9ea1c8244c8020b115a26de0775.jpg",
+              "fitReason": "Individual study-skills coach whose channel explicitly covers study skills, note-taking, study guides, and exam preparation. Attributable videos include how to study from a teacher-provided study guide and how to use dual coding to study.",
+              "providers": [
+                "tikhub"
+              ],
+              "profileUrl": "https://www.youtube.com/@schoolhabits",
+              "displayName": "SchoolHabits",
+              "overallTier": "A",
+              "factorGrades": {
+                "role": "strong",
+                "activity": "observed",
+                "identity": "individual",
+                "location": "location_unverified",
+                "followers": "unknown",
+                "relevance": "strong"
+              },
+              "followerCount": null,
+              "hardConditions": [
+                {
+                  "basis": "Attributable YouTube channel record reports 20.4K subscribers.",
+                  "status": "met",
+                  "condition": "Followers at least 10,000 and at most 100,000"
+                },
+                {
+                  "basis": "YouTube channel country field reports United States.",
+                  "status": "met",
+                  "condition": "Creator is based in the United States"
+                },
+                {
+                  "basis": "Channel presents a single educator providing study-skills guidance; no organization or business identity is shown.",
+                  "status": "met",
+                  "condition": "Individual creators only"
+                },
+                {
+                  "basis": "The person is selected only once, on YouTube, with no other-platform selection.",
+                  "status": "met",
+                  "condition": "No person on two platforms"
+                }
+              ],
+              "providerUserId": "UCif2xthZcmDp2NxvG56Gdlg",
+              "searchMatchTier": "precise",
+              "profileCompleteness": "full"
+            },
+            {
+              "handle": "raytubelcsw",
+              "region": null,
+              "missing": [
+                "Exact subscriber integer is not disclosed; public display rounds to 67.6K.",
+                "The YouTube country field is null, so US location is supported by the attributable first-person New Jersey statement rather than the channel metadata field.",
+                "Email collection was not required and was not performed.",
+                "follower_count_unverified",
+                "audience_profile_not_measured",
+                "contacts_not_collected",
+                "creator_location_unverified"
+              ],
+              "evidence": [
+                {
+                  "url": "https://www.youtube.com/channel/UCAfjBzlKPCtVUsJzE8KQhlA",
+                  "kind": "content",
+                  "text": "Channel description reports 67.6K subscribers and states: 'My name is Rayshawn Ledet,' 'I'm a Licensed Clinical Social Worker in New Jersey,' and 'My goal is to help you pass your ASWB exam!'",
+                  "check": "post_id_not_readable_from_url",
+                  "provider": "tikhub",
+                  "verified": false,
+                  "evidenceId": "ev_800381fb",
+                  "publishedAt": null
+                },
+                {
+                  "url": "https://www.youtube.com/watch?v=anuo5h-9CKA",
+                  "kind": "content",
+                  "text": "Attributable RayTube video titled 'ASWB Practice Questions for ALL ASWB Exam Types! RayTube #52.'",
+                  "check": "creator_not_in_payload",
+                  "provider": "tikhub",
+                  "verified": false,
+                  "evidenceId": "ev_5c2fdd59",
+                  "publishedAt": null
+                },
+                {
+                  "url": "https://www.youtube.com/watch?v=AvZvgLVVggg",
+                  "kind": "content",
+                  "text": "Attributable RayTube video titled 'NEW Study with Ray Outline! Cost: $100.'",
+                  "check": "creator_not_in_payload",
+                  "provider": "tikhub",
+                  "verified": false,
+                  "evidenceId": "ev_5c2fdd59",
+                  "publishedAt": null
+                }
+              ],
+              "platform": "youtube",
+              "avatarUrl": "https://pompe-ai-analysis-artifacts.sgp1.cdn.digitaloceanspaces.com/creator-avatars/youtube/2d81c4126b473b2c0419b09507369a4b.jpg",
+              "fitReason": "Individual ASWB exam-revision coach whose channel explicitly aims to help viewers pass the exam through practice questions, structured study sessions, study outlines, and question breakdowns.",
+              "providers": [
+                "tikhub"
+              ],
+              "profileUrl": "https://www.youtube.com/@raytubelcsw",
+              "displayName": "RayTube",
+              "overallTier": "A",
+              "factorGrades": {
+                "role": "strong",
+                "activity": "observed",
+                "identity": "individual",
+                "location": "location_unverified",
+                "followers": "unknown",
+                "relevance": "strong"
+              },
+              "followerCount": null,
+              "hardConditions": [
+                {
+                  "basis": "Attributable YouTube channel record reports 67.6K subscribers.",
+                  "status": "met",
+                  "condition": "Followers at least 10,000 and at most 100,000"
+                },
+                {
+                  "basis": "First-person channel description states that Rayshawn Ledet is a Licensed Clinical Social Worker in New Jersey.",
+                  "status": "met",
+                  "condition": "Creator is based in the United States"
+                },
+                {
+                  "basis": "The channel is operated by named individual Rayshawn Ledet as a sole-person exam-prep coach; no organization identity is presented.",
+                  "status": "met",
+                  "condition": "Individual creators only"
+                },
+                {
+                  "basis": "The person is selected only once, on YouTube, with no other-platform selection.",
+                  "status": "met",
+                  "condition": "No person on two platforms"
+                }
+              ],
+              "providerUserId": "UCAfjBzlKPCtVUsJzE8KQhlA",
+              "searchMatchTier": "precise",
+              "profileCompleteness": "full"
+            }
+          ],
+          "alsoFound": [],
+          "summary": {
+            "lanes": [
+              {
+                "a": 2,
+                "b": 0,
+                "market": {
+                  "unclear": 0,
+                  "inMarket": 2,
+                  "otherMarket": 0
+                },
+                "target": 2,
+                "location": {
+                  "unverified": 2,
+                  "confirmedCountry": 0,
+                  "knownOtherCountry": 0
+                },
+                "platform": "youtube",
+                "rejected": {
+                  "notNeeded": 0,
+                  "notPerson": 0,
+                  "offPersona": 0,
+                  "notReviewed": 0,
+                  "otherMarket": 0,
+                  "locationUnknown": 0,
+                  "noPublicContact": 0,
+                  "audienceRegionBelow": 0,
+                  "contactLookupFailed": 0,
+                  "audienceRegionUnread": 0,
+                  "outsideFollowerWindow": 0,
+                  "contactBehindPlatformGate": 0
+                },
+                "delivered": 2,
+                "shortfallReason": null
+              }
+            ],
+            "delivered": 2,
+            "requested": 2
+          },
+          "usage": {
+            "byPath": {
+              "/api/v1/youtube/web/search_video": 5,
+              "/api/v1/youtube/web/get_channel_info": 15,
+              "/api/v1/youtube/web_v2/search_channels": 14,
+              "/api/v1/youtube/web_v2/get_channel_videos": 7,
+              "/api/v1/youtube/web_v2/get_general_search_v2": 12,
+              "/api/v1/youtube/web_v2/get_channel_description": 10
+            },
+            "refusals": 0,
+            "modelCalls": 59,
+            "inputTokens": 2590228,
+            "msPacerWait": 154,
+            "pageFetches": 0,
+            "totalTokens": 2601638,
+            "modelCostUsd": 0,
+            "msInProvider": 109485,
+            "outputTokens": 11410,
+            "providerCalls": 63,
+            "providerCostUsd": 0.20800000000000002,
+            "providerTimeouts": 0,
+            "agentModelCostUsd": 0.42169084999999984,
+            "cachedInputTokens": 2455680,
+            "msInProviderByPath": {
+              "/api/v1/youtube/web/search_video": 7948,
+              "/api/v1/youtube/web/get_channel_info": 18333,
+              "/api/v1/youtube/web_v2/search_channels": 27216,
+              "/api/v1/youtube/web_v2/get_channel_videos": 10881,
+              "/api/v1/youtube/web_v2/get_general_search_v2": 30727,
+              "/api/v1/youtube/web_v2/get_channel_description": 14380
+            }
+          },
+          "expectedDurationHours": null
+        },
+        "finishedAt": 1791598239343
+      }
+    },
+    {
+      "taskId": "research-b30bacd90e74569b33e06bfc",
+      "call": {
+        "id": "8850aad8-5faf-422d-b3ee-9d6fa3bdc79f",
+        "kind": "wavesurge",
+        "createdAt": 1791597943993,
+        "path": "/creator-search/requests/ff3ac6fb-fa15-4b8d-b358-e7bf18e642de",
+        "method": "GET",
+        "request": null,
+        "status": 200,
+        "response": {
+          "status": "done",
+          "strategyOperationId": null,
+          "creators": [
+            {
+              "handle": "ColeLangs",
+              "region": null,
+              "missing": [
+                "Email not requested and not collected.",
+                "follower_count_unverified",
+                "provider_user_id_unverified",
+                "audience_profile_not_measured",
+                "contacts_not_collected",
+                "creator_location_unverified"
+              ],
+              "evidence": [
+                {
+                  "url": "https://www.youtube.com/channel/UCsMpVWATEEON-9A0ac64lfQ",
+                  "kind": "content",
+                  "text": "Channel reads 37.4K subscribers, 140 videos, country United States. Evidence ID ev_8a24d1b9.",
+                  "check": "creator_not_in_payload",
+                  "provider": "tikhub",
+                  "verified": false,
+                  "evidenceId": "ev_8a24d1b9",
+                  "publishedAt": null
+                },
+                {
+                  "url": "https://www.youtube.com/watch?v=CnGlPXgGQbo",
+                  "kind": "content",
+                  "text": "Full step-by-step Anki guide with timestamps for cards, cloze, image occlusion, decks and study workflows. Evidence ID ev_987b63c6.",
+                  "check": "creator_not_in_payload",
+                  "provider": "tikhub",
+                  "verified": false,
+                  "evidenceId": "ev_987b63c6",
+                  "publishedAt": "2024-04-26T08:42:46-07:00"
+                }
+              ],
+              "platform": "youtube",
+              "avatarUrl": null,
+              "fitReason": "US-based individual creator whose 18-minute step-by-step Anki tutorial covers card creation, cloze cards, image occlusion, decks and study workflows applicable to classroom notes and exam revision.",
+              "providers": [
+                "tikhub"
+              ],
+              "profileUrl": "https://www.youtube.com/@colelangs",
+              "displayName": "ColeLangs",
+              "overallTier": "A",
+              "factorGrades": {
+                "role": "strong",
+                "activity": "observed",
+                "identity": "individual",
+                "location": "location_unverified",
+                "followers": "unknown",
+                "relevance": "strong"
+              },
+              "followerCount": null,
+              "hardConditions": [
+                {
+                  "basis": "37.4K subscribers per retained profile evidence ev_8a24d1b9.",
+                  "status": "met",
+                  "condition": "YouTube followers 10,000-100,000"
+                },
+                {
+                  "basis": "Profile country is United States per ev_8a24d1b9.",
+                  "status": "met",
+                  "condition": "Creator based in United States"
+                },
+                {
+                  "basis": "Personal creator account with first-person content and no organization disclosure.",
+                  "status": "met",
+                  "condition": "Individual creators only"
+                },
+                {
+                  "basis": "Detailed timestamped Anki tutorial ev_987b63c6.",
+                  "status": "met",
+                  "condition": "Step-by-step tutorials for classroom notes and exam revision"
+                },
+                {
+                  "basis": "Selected only as one YouTube creator.",
+                  "status": "met",
+                  "condition": "No person on two platforms"
+                }
+              ],
+              "providerUserId": null,
+              "searchMatchTier": "precise",
+              "profileCompleteness": "full"
+            },
+            {
+              "handle": "WesleyAnna",
+              "region": null,
+              "missing": [
+                "Email not requested and not collected.",
+                "follower_count_unverified",
+                "provider_user_id_unverified",
+                "audience_profile_not_measured",
+                "contacts_not_collected",
+                "creator_location_unverified"
+              ],
+              "evidence": [
+                {
+                  "url": "https://www.youtube.com/channel/UCmxHnI5y-XFqMAJksgUAbig",
+                  "kind": "content",
+                  "text": "Channel reads 91.3K subscribers, 147 videos, country United States, with Notion template links. Evidence ID ev_51247b7e.",
+                  "check": "creator_not_in_payload",
+                  "provider": "tikhub",
+                  "verified": false,
+                  "evidenceId": "ev_51247b7e",
+                  "publishedAt": null
+                },
+                {
+                  "url": "https://www.youtube.com/watch?v=FrhFvIsq86g",
+                  "kind": "content",
+                  "text": "Timestamped Notion beginner walkthrough covering workspaces and beginner tips, plus student template resources. Evidence ID ev_37a75581.",
+                  "check": "creator_not_in_payload",
+                  "provider": "tikhub",
+                  "verified": false,
+                  "evidenceId": "ev_37a75581",
+                  "publishedAt": "2023-01-20T18:22:42-08:00"
+                }
+              ],
+              "platform": "youtube",
+              "avatarUrl": null,
+              "fitReason": "US-based individual Notion educator producing timestamped beginner tutorials and student-oriented workspaces useful for classroom notes and revision.",
+              "providers": [
+                "tikhub"
+              ],
+              "profileUrl": "https://www.youtube.com/@wesleyanna",
+              "displayName": "Wesley Anna",
+              "overallTier": "A",
+              "factorGrades": {
+                "role": "strong",
+                "activity": "observed",
+                "identity": "individual",
+                "location": "location_unverified",
+                "followers": "unknown",
+                "relevance": "strong"
+              },
+              "followerCount": null,
+              "hardConditions": [
+                {
+                  "basis": "91.3K subscribers per retained profile evidence ev_51247b7e.",
+                  "status": "met",
+                  "condition": "YouTube followers 10,000-100,000"
+                },
+                {
+                  "basis": "Profile country is United States per ev_51247b7e.",
+                  "status": "met",
+                  "condition": "Creator based in United States"
+                },
+                {
+                  "basis": "Personal creator branding and first-person content.",
+                  "status": "met",
+                  "condition": "Individual creators only"
+                },
+                {
+                  "basis": "Timestamped Notion tutorial and student workspace resources ev_37a75581.",
+                  "status": "met",
+                  "condition": "Step-by-step tutorials for classroom notes and exam revision"
+                },
+                {
+                  "basis": "Selected only as one YouTube creator.",
+                  "status": "met",
+                  "condition": "No person on two platforms"
+                }
+              ],
+              "providerUserId": null,
+              "searchMatchTier": "precise",
+              "profileCompleteness": "full"
+            }
+          ],
+          "alsoFound": [],
+          "summary": {
+            "lanes": [
+              {
+                "a": 2,
+                "b": 0,
+                "market": {
+                  "unclear": 0,
+                  "inMarket": 2,
+                  "otherMarket": 0
+                },
+                "target": 2,
+                "location": {
+                  "unverified": 2,
+                  "confirmedCountry": 0,
+                  "knownOtherCountry": 0
+                },
+                "platform": "youtube",
+                "rejected": {
+                  "notNeeded": 0,
+                  "notPerson": 0,
+                  "offPersona": 0,
+                  "notReviewed": 0,
+                  "otherMarket": 0,
+                  "locationUnknown": 0,
+                  "noPublicContact": 0,
+                  "audienceRegionBelow": 0,
+                  "contactLookupFailed": 0,
+                  "audienceRegionUnread": 0,
+                  "outsideFollowerWindow": 0,
+                  "contactBehindPlatformGate": 0
+                },
+                "delivered": 2,
+                "shortfallReason": null
+              }
+            ],
+            "delivered": 2,
+            "requested": 2
+          },
+          "usage": {
+            "byPath": {
+              "/api/v1/youtube/web/get_channel_info": 10,
+              "/api/v1/youtube/web_v2/search_channels": 10,
+              "/api/v1/youtube/web_v2/get_video_info_v2": 3,
+              "/api/v1/youtube/web_v2/get_channel_videos": 1,
+              "/api/v1/youtube/web_v2/get_general_search": 4,
+              "/api/v1/youtube/web_v2/get_general_search_v2": 10,
+              "/api/v1/youtube/web_v2/get_channel_description": 13
+            },
+            "refusals": 4,
+            "modelCalls": 46,
+            "inputTokens": 866735,
+            "msPacerWait": 292,
+            "pageFetches": 0,
+            "totalTokens": 872851,
+            "modelCostUsd": 0,
+            "msInProvider": 81165,
+            "outputTokens": 6116,
+            "providerCalls": 51,
+            "providerCostUsd": 0.18,
+            "providerTimeouts": 0,
+            "agentModelCostUsd": 0.23939266999999995,
+            "cachedInputTokens": 794304,
+            "msInProviderByPath": {
+              "/api/v1/youtube/web/get_channel_info": 10842,
+              "/api/v1/youtube/web_v2/search_channels": 18202,
+              "/api/v1/youtube/web_v2/get_video_info_v2": 7248,
+              "/api/v1/youtube/web_v2/get_channel_videos": 2007,
+              "/api/v1/youtube/web_v2/get_general_search": 8604,
+              "/api/v1/youtube/web_v2/get_general_search_v2": 15150,
+              "/api/v1/youtube/web_v2/get_channel_description": 19112
+            }
+          },
+          "expectedDurationHours": null
+        },
+        "finishedAt": 1791597944131
+      }
+    }
+  ],
+  "results": []
+}

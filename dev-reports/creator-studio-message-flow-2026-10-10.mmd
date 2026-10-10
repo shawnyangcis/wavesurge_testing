@@ -1,0 +1,13 @@
+flowchart TD
+  U["用户发送消息 / 补充消息"] --> W["Web 程序：鉴权、消息入库"]
+  W --> A["主 Agent：最新事实 + 历史上下文<br/>理解需求、追问、规划、调用工具"]
+  A --> P["直接筛选 / 确认 Campaign 版本"]
+  P --> T["程序：持久化后台任务与稳定 requestId"]
+  T --> S["WaveSurge<br/>POST /creator-search/requests<br/>GET /creator-search/requests/:taskId"]
+  S --> V["逐人 Agent：资料 + 条件<br/>有头浏览器文字/链接/截图<br/>三态判断 + evidenceId"]
+  V --> H["需要协助：暂停桌面 → 人工 noVNC<br/>交还 → 原候选重新观察"]
+  H --> V
+  V --> D["程序：校验数值/证据、保存结果和标签<br/>Campaign 跨组去重分配 → HTML/CSV"]
+  D --> R["Web：真实任务卡、结果、报告"]
+  R --> U
+  W -. "后台研究继续，主会话接收新消息" .-> A

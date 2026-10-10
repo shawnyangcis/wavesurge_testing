@@ -1,0 +1,291 @@
+{
+  "startedAt": "2026-10-10T11:30:43.993Z",
+  "checks": [
+    "Actual app restart preserves authenticated session and all 30 real result records/tags/versions",
+    "Terminal tasks preserved; no model or Wave requests replayed",
+    "Exactly six final real-request/campaign notifications preserved without duplicates",
+    "No pending or claimed desktop assistance remains"
+  ],
+  "pageErrors": [],
+  "before": {
+    "epoch": 0,
+    "active": false,
+    "tasks": [
+      {
+        "id": "research-be8026ae73f12c86682a616a",
+        "title": "两个指定 Instagram 账号逐人核验与画像标注",
+        "status": "completed",
+        "requested": 1,
+        "evaluated": 2,
+        "matched": 1,
+        "qualifying": 1,
+        "updatedAt": 1791631103053,
+        "detail": "已选合格 1/1，已核验 2；证据不足者保持待核实。",
+        "remoteStatus": "done",
+        "nextPollAt": 1791628232816
+      },
+      {
+        "id": "research-e920ecebfcfaea4ad9406b7a",
+        "title": "20位 Instagram geek风个人KOC候选逐人核验",
+        "status": "partial",
+        "requested": 20,
+        "evaluated": 20,
+        "matched": 0,
+        "qualifying": 0,
+        "updatedAt": 1791630028704,
+        "detail": "已选合格 0/20，已核验 20；证据不足者保持待核实。",
+        "remoteStatus": "done",
+        "nextPollAt": 1791629799652
+      },
+      {
+        "id": "research-c36566806dda80292637ea63",
+        "title": "智能家居／家庭自动化个人体验博主",
+        "status": "completed",
+        "requested": 1,
+        "evaluated": 2,
+        "matched": 1,
+        "qualifying": 1,
+        "updatedAt": 1791630064575,
+        "detail": "已选合格 1/1，已核验 2；证据不足者保持待核实。",
+        "remoteStatus": "done",
+        "nextPollAt": 1791629676668
+      },
+      {
+        "id": "research-20ffdb8a68e722d07e967be2",
+        "title": "手机技巧／实用数码工具个人博主",
+        "status": "completed",
+        "requested": 1,
+        "evaluated": 2,
+        "matched": 1,
+        "qualifying": 2,
+        "updatedAt": 1791630103414,
+        "detail": "已选合格 1/1，已核验 2；证据不足者保持待核实。",
+        "remoteStatus": "done",
+        "nextPollAt": 1791629701161
+      },
+      {
+        "id": "research-2908c0a899a69bd5afeca2db",
+        "title": "TikTok手机／数码个人体验博主：两位候选逐人核验",
+        "status": "partial",
+        "requested": 1,
+        "evaluated": 2,
+        "matched": 0,
+        "qualifying": 0,
+        "updatedAt": 1791630566241,
+        "detail": "已选合格 0/1，已核验 2；证据不足者保持待核实。tiktok：读取 500 条，基础条件排除 324 条；/discover/db?platform=tiktok&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。核验/来源错误 1 次，可对已有结果重新核验。",
+        "remoteStatus": "done",
+        "nextPollAt": 0
+      },
+      {
+        "id": "research-ac84c5f2eb4a7e21e69ce1d2",
+        "title": "YouTube学习方法个人博主：四位候选文字核验",
+        "status": "partial",
+        "requested": 2,
+        "evaluated": 0,
+        "matched": 0,
+        "updatedAt": 1791629701557,
+        "detail": "已选合格 0/2，已核验 0；证据不足者保持待核实。youtube：读取 500 条，基础条件排除 500 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。",
+        "remoteStatus": "done",
+        "nextPollAt": 1791629702555
+      },
+      {
+        "id": "research-50afd1df3c59e15af7ca2577",
+        "title": "X编程／开发工具个人博主：两位候选文字核验",
+        "status": "partial",
+        "requested": 1,
+        "evaluated": 2,
+        "matched": 0,
+        "qualifying": 0,
+        "updatedAt": 1791629730362,
+        "detail": "已选合格 0/1，已核验 2；证据不足者保持待核实。twitter：读取 500 条，基础条件排除 493 条；/discover/db?platform=twitter&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。",
+        "remoteStatus": "done",
+        "nextPollAt": 1791629704150
+      },
+      {
+        "id": "enrich-f0dedf9da0840c27b9aa14ad",
+        "title": "重新核验：两个指定 Instagram 账号逐人核验与画像标注",
+        "status": "completed",
+        "requested": 2,
+        "evaluated": 2,
+        "matched": 1,
+        "resultTaskId": "research-be8026ae73f12c86682a616a",
+        "updatedAt": 1791631103125,
+        "detail": "已处理 2 个已有账号；失败 0。"
+      }
+    ],
+    "reports": [
+      {
+        "id": "report-request-0fabc016-9161-43d4-976a-c6e8235b852e-1fed213f3e149344",
+        "text": "本次请求的 1 项工作已全部结束。\n\n- 两个指定 Instagram 账号逐人核验与画像标注：已完成；已选合格 1/1，已核验 2；证据不足者保持待核实。 [查看报告](/api/reports/research-be8026ae73f12c86682a616a)\n\n[查看本次综合报告](/api/work-batches/0fabc016-9161-43d4-976a-c6e8235b852e/report) · [下载综合 CSV](/api/work-batches/0fabc016-9161-43d4-976a-c6e8235b852e/report?format=csv)",
+        "createdAt": 1791628270576
+      },
+      {
+        "id": "report-request-a01de880-2d32-47b3-a6d7-ba663944d36a-58947e45896a8cbe",
+        "text": "本次请求的 2 项工作已全部结束。\n\n- YouTube学习方法个人博主：四位候选文字核验：已结束，仍有缺额或失败；已选合格 0/2，已核验 0；证据不足者保持待核实。youtube：读取 500 条，基础条件排除 500 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。 [查看报告](/api/reports/research-ac84c5f2eb4a7e21e69ce1d2)\n- X编程／开发工具个人博主：两位候选文字核验：已结束，仍有缺额或失败；已选合格 0/1，已核验 2；证据不足者保持待核实。twitter：读取 500 条，基础条件排除 493 条；/discover/db?platform=twitter&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。 [查看报告](/api/reports/research-50afd1df3c59e15af7ca2577)\n\n[查看本次综合报告](/api/work-batches/a01de880-2d32-47b3-a6d7-ba663944d36a/report) · [下载综合 CSV](/api/work-batches/a01de880-2d32-47b3-a6d7-ba663944d36a/report?format=csv)",
+        "createdAt": 1791629730967
+      },
+      {
+        "id": "report-campaign-400c66f262a9672f04ebd06e-c513a6ecdbb93925",
+        "text": "Campaign「美国年轻人智能生活App小预算Instagram推广方案」已完成。去重入选 2/2 人。\n\n- 智能家居／家庭自动化个人体验博主：1/1\n- 手机技巧／实用数码工具个人博主：1/1\n\n[查看 Campaign 总报告](/api/campaigns/campaign-400c66f262a9672f04ebd06e/report)",
+        "createdAt": 1791630127192
+      },
+      {
+        "id": "report-request-0710085f-0695-4561-8f75-eedd112288ad-547adbd05c3b0605",
+        "text": "本次请求的 1 项工作已全部结束。\n\n- 20位 Instagram geek风个人KOC候选逐人核验：已结束，仍有缺额或失败；已选合格 0/20，已核验 20；证据不足者保持待核实。 [查看报告](/api/reports/research-e920ecebfcfaea4ad9406b7a)\n\n[查看本次综合报告](/api/work-batches/0710085f-0695-4561-8f75-eedd112288ad/report) · [下载综合 CSV](/api/work-batches/0710085f-0695-4561-8f75-eedd112288ad/report?format=csv)",
+        "createdAt": 1791630127193
+      },
+      {
+        "id": "report-request-ea140273-05dc-4494-931f-b6151446b244-5929a4d940dc7e59",
+        "text": "本次请求的 1 项工作已全部结束。\n\n- TikTok手机／数码个人体验博主：两位候选逐人核验：已结束，仍有缺额或失败；已选合格 0/1，已核验 2；证据不足者保持待核实。tiktok：读取 500 条，基础条件排除 324 条；/discover/db?platform=tiktok&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。核验/来源错误 1 次，可对已有结果重新核验。 [查看报告](/api/reports/research-2908c0a899a69bd5afeca2db)\n\n[查看本次综合报告](/api/work-batches/ea140273-05dc-4494-931f-b6151446b244/report) · [下载综合 CSV](/api/work-batches/ea140273-05dc-4494-931f-b6151446b244/report?format=csv)",
+        "createdAt": 1791630566929
+      },
+      {
+        "id": "report-request-f14b6222-dd88-40b2-b780-14f820aa4898-e7e83abf3feadb51",
+        "text": "本次请求的 1 项工作已全部结束。\n\n- 重新核验：两个指定 Instagram 账号逐人核验与画像标注：已完成；已处理 2 个已有账号；失败 0。 [查看报告](/api/reports/research-be8026ae73f12c86682a616a)\n\n[查看本次综合报告](/api/work-batches/f14b6222-dd88-40b2-b780-14f820aa4898/report) · [下载综合 CSV](/api/work-batches/f14b6222-dd88-40b2-b780-14f820aa4898/report?format=csv)",
+        "createdAt": 1791631103761
+      }
+    ]
+  },
+  "resultCount": 30,
+  "waveCalls": 133,
+  "after": {
+    "epoch": 0,
+    "active": false,
+    "tasks": [
+      {
+        "id": "research-be8026ae73f12c86682a616a",
+        "title": "两个指定 Instagram 账号逐人核验与画像标注",
+        "status": "completed",
+        "requested": 1,
+        "evaluated": 2,
+        "matched": 1,
+        "qualifying": 1,
+        "updatedAt": 1791631103053,
+        "detail": "已选合格 1/1，已核验 2；证据不足者保持待核实。",
+        "remoteStatus": "done",
+        "nextPollAt": 1791628232816
+      },
+      {
+        "id": "research-e920ecebfcfaea4ad9406b7a",
+        "title": "20位 Instagram geek风个人KOC候选逐人核验",
+        "status": "partial",
+        "requested": 20,
+        "evaluated": 20,
+        "matched": 0,
+        "qualifying": 0,
+        "updatedAt": 1791630028704,
+        "detail": "已选合格 0/20，已核验 20；证据不足者保持待核实。",
+        "remoteStatus": "done",
+        "nextPollAt": 1791629799652
+      },
+      {
+        "id": "research-c36566806dda80292637ea63",
+        "title": "智能家居／家庭自动化个人体验博主",
+        "status": "completed",
+        "requested": 1,
+        "evaluated": 2,
+        "matched": 1,
+        "qualifying": 1,
+        "updatedAt": 1791630064575,
+        "detail": "已选合格 1/1，已核验 2；证据不足者保持待核实。",
+        "remoteStatus": "done",
+        "nextPollAt": 1791629676668
+      },
+      {
+        "id": "research-20ffdb8a68e722d07e967be2",
+        "title": "手机技巧／实用数码工具个人博主",
+        "status": "completed",
+        "requested": 1,
+        "evaluated": 2,
+        "matched": 1,
+        "qualifying": 2,
+        "updatedAt": 1791630103414,
+        "detail": "已选合格 1/1，已核验 2；证据不足者保持待核实。",
+        "remoteStatus": "done",
+        "nextPollAt": 1791629701161
+      },
+      {
+        "id": "research-2908c0a899a69bd5afeca2db",
+        "title": "TikTok手机／数码个人体验博主：两位候选逐人核验",
+        "status": "partial",
+        "requested": 1,
+        "evaluated": 2,
+        "matched": 0,
+        "qualifying": 0,
+        "updatedAt": 1791630566241,
+        "detail": "已选合格 0/1，已核验 2；证据不足者保持待核实。tiktok：读取 500 条，基础条件排除 324 条；/discover/db?platform=tiktok&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。核验/来源错误 1 次，可对已有结果重新核验。",
+        "remoteStatus": "done",
+        "nextPollAt": 0
+      },
+      {
+        "id": "research-ac84c5f2eb4a7e21e69ce1d2",
+        "title": "YouTube学习方法个人博主：四位候选文字核验",
+        "status": "partial",
+        "requested": 2,
+        "evaluated": 0,
+        "matched": 0,
+        "updatedAt": 1791629701557,
+        "detail": "已选合格 0/2，已核验 0；证据不足者保持待核实。youtube：读取 500 条，基础条件排除 500 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。",
+        "remoteStatus": "done",
+        "nextPollAt": 1791629702555
+      },
+      {
+        "id": "research-50afd1df3c59e15af7ca2577",
+        "title": "X编程／开发工具个人博主：两位候选文字核验",
+        "status": "partial",
+        "requested": 1,
+        "evaluated": 2,
+        "matched": 0,
+        "qualifying": 0,
+        "updatedAt": 1791629730362,
+        "detail": "已选合格 0/1，已核验 2；证据不足者保持待核实。twitter：读取 500 条，基础条件排除 493 条；/discover/db?platform=twitter&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。",
+        "remoteStatus": "done",
+        "nextPollAt": 1791629704150
+      },
+      {
+        "id": "enrich-f0dedf9da0840c27b9aa14ad",
+        "title": "重新核验：两个指定 Instagram 账号逐人核验与画像标注",
+        "status": "completed",
+        "requested": 2,
+        "evaluated": 2,
+        "matched": 1,
+        "resultTaskId": "research-be8026ae73f12c86682a616a",
+        "updatedAt": 1791631103125,
+        "detail": "已处理 2 个已有账号；失败 0。"
+      }
+    ],
+    "reports": [
+      {
+        "id": "report-request-0fabc016-9161-43d4-976a-c6e8235b852e-1fed213f3e149344",
+        "text": "本次请求的 1 项工作已全部结束。\n\n- 两个指定 Instagram 账号逐人核验与画像标注：已完成；已选合格 1/1，已核验 2；证据不足者保持待核实。 [查看报告](/api/reports/research-be8026ae73f12c86682a616a)\n\n[查看本次综合报告](/api/work-batches/0fabc016-9161-43d4-976a-c6e8235b852e/report) · [下载综合 CSV](/api/work-batches/0fabc016-9161-43d4-976a-c6e8235b852e/report?format=csv)",
+        "createdAt": 1791628270576
+      },
+      {
+        "id": "report-request-a01de880-2d32-47b3-a6d7-ba663944d36a-58947e45896a8cbe",
+        "text": "本次请求的 2 项工作已全部结束。\n\n- YouTube学习方法个人博主：四位候选文字核验：已结束，仍有缺额或失败；已选合格 0/2，已核验 0；证据不足者保持待核实。youtube：读取 500 条，基础条件排除 500 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。 [查看报告](/api/reports/research-ac84c5f2eb4a7e21e69ce1d2)\n- X编程／开发工具个人博主：两位候选文字核验：已结束，仍有缺额或失败；已选合格 0/1，已核验 2；证据不足者保持待核实。twitter：读取 500 条，基础条件排除 493 条；/discover/db?platform=twitter&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。 [查看报告](/api/reports/research-50afd1df3c59e15af7ca2577)\n\n[查看本次综合报告](/api/work-batches/a01de880-2d32-47b3-a6d7-ba663944d36a/report) · [下载综合 CSV](/api/work-batches/a01de880-2d32-47b3-a6d7-ba663944d36a/report?format=csv)",
+        "createdAt": 1791629730967
+      },
+      {
+        "id": "report-campaign-400c66f262a9672f04ebd06e-c513a6ecdbb93925",
+        "text": "Campaign「美国年轻人智能生活App小预算Instagram推广方案」已完成。去重入选 2/2 人。\n\n- 智能家居／家庭自动化个人体验博主：1/1\n- 手机技巧／实用数码工具个人博主：1/1\n\n[查看 Campaign 总报告](/api/campaigns/campaign-400c66f262a9672f04ebd06e/report)",
+        "createdAt": 1791630127192
+      },
+      {
+        "id": "report-request-0710085f-0695-4561-8f75-eedd112288ad-547adbd05c3b0605",
+        "text": "本次请求的 1 项工作已全部结束。\n\n- 20位 Instagram geek风个人KOC候选逐人核验：已结束，仍有缺额或失败；已选合格 0/20，已核验 20；证据不足者保持待核实。 [查看报告](/api/reports/research-e920ecebfcfaea4ad9406b7a)\n\n[查看本次综合报告](/api/work-batches/0710085f-0695-4561-8f75-eedd112288ad/report) · [下载综合 CSV](/api/work-batches/0710085f-0695-4561-8f75-eedd112288ad/report?format=csv)",
+        "createdAt": 1791630127193
+      },
+      {
+        "id": "report-request-ea140273-05dc-4494-931f-b6151446b244-5929a4d940dc7e59",
+        "text": "本次请求的 1 项工作已全部结束。\n\n- TikTok手机／数码个人体验博主：两位候选逐人核验：已结束，仍有缺额或失败；已选合格 0/1，已核验 2；证据不足者保持待核实。tiktok：读取 500 条，基础条件排除 324 条；/discover/db?platform=tiktok&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。核验/来源错误 1 次，可对已有结果重新核验。 [查看报告](/api/reports/research-2908c0a899a69bd5afeca2db)\n\n[查看本次综合报告](/api/work-batches/ea140273-05dc-4494-931f-b6151446b244/report) · [下载综合 CSV](/api/work-batches/ea140273-05dc-4494-931f-b6151446b244/report?format=csv)",
+        "createdAt": 1791630566929
+      },
+      {
+        "id": "report-request-f14b6222-dd88-40b2-b780-14f820aa4898-e7e83abf3feadb51",
+        "text": "本次请求的 1 项工作已全部结束。\n\n- 重新核验：两个指定 Instagram 账号逐人核验与画像标注：已完成；已处理 2 个已有账号；失败 0。 [查看报告](/api/reports/research-be8026ae73f12c86682a616a)\n\n[查看本次综合报告](/api/work-batches/f14b6222-dd88-40b2-b780-14f820aa4898/report) · [下载综合 CSV](/api/work-batches/f14b6222-dd88-40b2-b780-14f820aa4898/report?format=csv)",
+        "createdAt": 1791631103761
+      }
+    ]
+  },
+  "finishedAt": "2026-10-10T11:31:04.967Z"
+}

@@ -1,0 +1,40 @@
+{
+  "desktop": {
+    "viewport": 900,
+    "documentHeight": 900,
+    "composerBottom": 872,
+    "taskPane": {
+      "height": 812,
+      "scrollHeight": 4117
+    }
+  },
+  "activeAssistance": false,
+  "realCampaign": {
+    "id": "campaign-b53cd12a94d4d418b31949d3",
+    "title": "耳机 Campaign 独立候选发现",
+    "goal": "推广面向大学生的降噪耳机，提高产品认知和购买意愿。筛选2位不同Instagram账号，两组各1位，每组候选上限2，总候选预算4。跨组去重由本地系统完成。不要求邮箱，不做外联。仅保存新草案，不启动搜索，保留原Campaign及其报告。",
+    "revision": 1,
+    "status": "partial",
+    "requested": 2,
+    "matched": 1,
+    "childTaskIds": [
+      "research-329ed36c04d98223b610f7c0",
+      "research-58949888b306ad726d60be23"
+    ],
+    "groups": [
+      {
+        "id": "tech_reviews",
+        "title": "科技/耳机评测",
+        "requested": 1,
+        "matched": 0
+      },
+      {
+        "id": "study_productivity",
+        "title": "学习/效率生活",
+        "requested": 1,
+        "matched": 1
+      }
+    ],
+    "reportUrl": "/api/campaigns/campaign-b53cd12a94d4d418b31949d3/report"
+  }
+}

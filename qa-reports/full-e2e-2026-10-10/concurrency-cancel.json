@@ -1,0 +1,127 @@
+{
+  "source": "A is an explicit controlled blocked-browser candidate; B is started and cancelled through natural-language UI with actual model and real free WaveSurge API; passed defect reproduction does NOT mean independent scheduling works",
+  "blocked": {
+    "a": {
+      "id": "research-5ecc501dbf9d49fa1bd21ed2",
+      "title": "浏览器人工协助验收 block-1791596516838",
+      "status": "needs_input",
+      "requested": 1,
+      "evaluated": 0,
+      "matched": 0,
+      "updatedAt": 1791596528259,
+      "detail": "需要人工协助：来源页面 http://127.0.0.1:8085/skip 显示“Verify you are human”，公开帖子被人工验证阻挡（证据 664d6488cd418db790356f2b），尚无法核验帖子画面中的 CHIP / CIRCUIT BOARD 字样。请在同一浏览器桌面完成验证；交还后我将重新观察页面。；请打开桌面协助，完成后继续原候选",
+      "remoteId": "fixture-block-1791596516838",
+      "remoteStatus": "done",
+      "nextPollAt": 0
+    },
+    "b": {
+      "id": "research-eec15e9fea76882b8f4a22de",
+      "title": "Review独立文字队列 block-1791596516838",
+      "status": "queued",
+      "requested": 1,
+      "evaluated": 0,
+      "matched": 0,
+      "updatedAt": 1791596533961,
+      "detail": "等待向 WaveSurge 提交免费搜索",
+      "nextPollAt": 0
+    },
+    "desktop": {
+      "request": {
+        "id": "57b007ef-364b-4393-bc01-ef736714b30e",
+        "taskId": "research-5ecc501dbf9d49fa1bd21ed2",
+        "creatorId": "instagram:fixture-block-1791596516838",
+        "reason": "来源页面 http://127.0.0.1:8085/skip 显示“Verify you are human”，公开帖子被人工验证阻挡（证据 664d6488cd418db790356f2b），尚无法核验帖子画面中的 CHIP / CIRCUIT BOARD 字样。请在同一浏览器桌面完成验证；交还后我将重新观察页面。",
+        "status": "pending",
+        "createdAt": 1791596528251,
+        "leaseUntil": 0
+      },
+      "connected": true
+    },
+    "waveCalls": []
+  },
+  "recovered": {
+    "a": {
+      "id": "research-5ecc501dbf9d49fa1bd21ed2",
+      "title": "浏览器人工协助验收 block-1791596516838",
+      "status": "cancelled",
+      "requested": 1,
+      "evaluated": 0,
+      "matched": 0,
+      "updatedAt": 1791596561897,
+      "detail": "已停止本地核验；WaveSurge 没有已验证的远端取消接口，远端搜索可能继续",
+      "remoteId": "fixture-block-1791596516838",
+      "remoteStatus": "done",
+      "nextPollAt": 0
+    },
+    "b": {
+      "id": "research-eec15e9fea76882b8f4a22de",
+      "title": "Review独立文字队列 block-1791596516838",
+      "status": "running",
+      "requested": 1,
+      "evaluated": 0,
+      "matched": 0,
+      "updatedAt": 1791596562134,
+      "detail": "搜索已提交，等待 WaveSurge 返回候选",
+      "remoteId": "85e8afa6-89da-4c10-9563-767059a7d223",
+      "nextPollAt": 1791596622134
+    },
+    "waveCalls": [
+      {
+        "id": "ec16e835-5d4c-4550-81b8-283efdfd7cd6",
+        "kind": "wavesurge",
+        "createdAt": 1791596561904,
+        "path": "/creator-search/requests",
+        "method": "POST",
+        "request": {
+          "requestId": "research-eec15e9fea76882b8f4a22de",
+          "personaText": "Technology content creators sharing technology topics on Instagram.",
+          "count": 1,
+          "platforms": [
+            "instagram"
+          ],
+          "regions": [
+            "United States"
+          ],
+          "minFollowers": 10000,
+          "maxFollowers": 100000,
+          "emailReadyRequired": false
+        },
+        "status": 201,
+        "response": {
+          "taskId": "85e8afa6-89da-4c10-9563-767059a7d223"
+        },
+        "finishedAt": 1791596562131
+      }
+    ]
+  },
+  "cancelled": {
+    "a": {
+      "id": "research-5ecc501dbf9d49fa1bd21ed2",
+      "title": "浏览器人工协助验收 block-1791596516838",
+      "status": "cancelled",
+      "requested": 1,
+      "evaluated": 0,
+      "matched": 0,
+      "updatedAt": 1791596561897,
+      "detail": "已停止本地核验；WaveSurge 没有已验证的远端取消接口，远端搜索可能继续",
+      "remoteId": "fixture-block-1791596516838",
+      "remoteStatus": "done",
+      "nextPollAt": 0
+    },
+    "b": {
+      "id": "research-eec15e9fea76882b8f4a22de",
+      "title": "Review独立文字队列 block-1791596516838",
+      "status": "cancelled",
+      "requested": 1,
+      "evaluated": 0,
+      "matched": 0,
+      "updatedAt": 1791596574082,
+      "detail": "已停止本地核验；WaveSurge 没有已验证的远端取消接口，远端搜索可能继续",
+      "remoteId": "85e8afa6-89da-4c10-9563-767059a7d223",
+      "nextPollAt": 1791596622134
+    },
+    "desktop": {
+      "connected": true
+    }
+  }
+}

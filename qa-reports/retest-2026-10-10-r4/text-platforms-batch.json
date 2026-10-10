@@ -1,0 +1,194 @@
+{
+  "at": "2026-10-10T14:36:25.546Z",
+  "scope": "live",
+  "batchId": "65daf5d6-fa5b-46f3-8efc-f09180f70340",
+  "checks": [
+    "Exactly one final notification after all work and result writes",
+    "Actual automatic chat link opened structured aggregate HTML",
+    "Actual aggregate CSV downloaded",
+    "Reload retains one delivery and report link"
+  ],
+  "pageErrors": [],
+  "batch": {
+    "id": "65daf5d6-fa5b-46f3-8efc-f09180f70340",
+    "items": [
+      {
+        "kind": "research",
+        "id": "research-e0790a628a71f83e4ff8fbe1",
+        "title": "YouTube 学习方法个人博主：4位候选文字全量评估",
+        "reportUrl": "/api/reports/research-e0790a628a71f83e4ff8fbe1"
+      },
+      {
+        "kind": "research",
+        "id": "research-f966a5bcdb3279fda8313cc8",
+        "title": "X 编程或开发工具个人博主：2位候选文字全量评估",
+        "reportUrl": "/api/reports/research-f966a5bcdb3279fda8313cc8"
+      }
+    ],
+    "sealed": true,
+    "delivered": true
+  },
+  "summary": {
+    "states": [
+      {
+        "id": "research-e0790a628a71f83e4ff8fbe1",
+        "title": "YouTube 学习方法个人博主：4位候选文字全量评估",
+        "spec": {
+          "title": "YouTube 学习方法个人博主：4位候选文字全量评估",
+          "personaText": "分享学习方法与学习技巧的个人博主",
+          "count": 2,
+          "platforms": [
+            "youtube"
+          ],
+          "regions": [],
+          "minFollowers": 10000,
+          "maxFollowers": 100000,
+          "candidateBudget": 4,
+          "analyzeAll": true,
+          "verificationMode": "text",
+          "criteria": [
+            {
+              "id": "personal_creator",
+              "label": "个人博主，非品牌、公司或机构官方账号",
+              "required": true,
+              "basis": "text"
+            },
+            {
+              "id": "study_methods",
+              "label": "实际内容讲解学习方法或学习技巧",
+              "required": true,
+              "basis": "text"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "content_direction",
+              "label": "内容方向"
+            },
+            {
+              "id": "expression_style",
+              "label": "表达风格"
+            }
+          ]
+        },
+        "status": "partial",
+        "requested": 2,
+        "evaluated": 0,
+        "matched": 0,
+        "updatedAt": 1791640294485,
+        "detail": "已选合格 0/2，已核验 0；证据不足者保持待核实。youtube：读取 500 条，基础条件排除 500 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。",
+        "nextPollAt": 1791640295483,
+        "failures": [],
+        "deliveryBatchId": "65daf5d6-fa5b-46f3-8efc-f09180f70340",
+        "discoveryAttempts": 0,
+        "remoteStatus": "done"
+      },
+      {
+        "id": "research-f966a5bcdb3279fda8313cc8",
+        "title": "X 编程或开发工具个人博主：2位候选文字全量评估",
+        "spec": {
+          "title": "X 编程或开发工具个人博主：2位候选文字全量评估",
+          "personaText": "分享编程或开发工具内容的个人博主",
+          "count": 1,
+          "platforms": [
+            "twitter"
+          ],
+          "regions": [],
+          "minFollowers": 10000,
+          "maxFollowers": 100000,
+          "candidateBudget": 2,
+          "analyzeAll": true,
+          "verificationMode": "text",
+          "criteria": [
+            {
+              "id": "personal_creator",
+              "label": "个人博主，非品牌、公司或机构官方账号",
+              "required": true,
+              "basis": "text"
+            },
+            {
+              "id": "programming_devtools",
+              "label": "实际内容涉及编程或开发工具",
+              "required": true,
+              "basis": "text"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "content_direction",
+              "label": "内容方向"
+            },
+            {
+              "id": "expression_style",
+              "label": "表达风格"
+            }
+          ]
+        },
+        "status": "partial",
+        "requested": 1,
+        "evaluated": 2,
+        "matched": 0,
+        "updatedAt": 1791640327939,
+        "detail": "已选合格 0/1，已核验 2；证据不足者保持待核实。twitter：读取 500 条，基础条件排除 493 条；/discover/db?platform=twitter&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。",
+        "nextPollAt": 1791640297921,
+        "failures": [],
+        "deliveryBatchId": "65daf5d6-fa5b-46f3-8efc-f09180f70340",
+        "discoveryAttempts": 0,
+        "remoteStatus": "done",
+        "qualifying": 0
+      }
+    ],
+    "ready": true
+  },
+  "task": {
+    "id": "65daf5d6-fa5b-46f3-8efc-f09180f70340",
+    "title": "本次请求综合报告",
+    "requested": 3,
+    "evaluated": 2,
+    "matched": 0,
+    "updatedAt": 1791640327939,
+    "detail": "YouTube 学习方法个人博主：4位候选文字全量评估：已选合格 0/2，已核验 0；证据不足者保持待核实。youtube：读取 500 条，基础条件排除 500 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。\nX 编程或开发工具个人博主：2位候选文字全量评估：已选合格 0/1，已核验 2；证据不足者保持待核实。twitter：读取 500 条，基础条件排除 493 条；/discover/db?platform=twitter&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。"
+  },
+  "results": [
+    {
+      "id": "research-f966a5bcdb3279fda8313cc8|twitter:professordilly",
+      "handle": "professordilly",
+      "platform": "twitter",
+      "verdict": "unknown",
+      "selected": false,
+      "tags": [
+        "Web3 / NFT 项目相关"
+      ],
+      "updatedAt": 1791640315167
+    },
+    {
+      "id": "research-f966a5bcdb3279fda8313cc8|twitter:solalbertor",
+      "handle": "solalbertor",
+      "platform": "twitter",
+      "verdict": "unknown",
+      "selected": false,
+      "tags": [],
+      "updatedAt": 1791640327560
+    }
+  ],
+  "notifications": [
+    {
+      "id": "report-request-65daf5d6-fa5b-46f3-8efc-f09180f70340-88eb44ca7d617ff7",
+      "role": "assistant",
+      "text": "本次请求的 2 项工作已全部结束。\n\n- YouTube 学习方法个人博主：4位候选文字全量评估：已结束，仍有缺额或失败；已选合格 0/2，已核验 0；证据不足者保持待核实。youtube：读取 500 条，基础条件排除 500 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。 [查看报告](/api/reports/research-e0790a628a71f83e4ff8fbe1)\n- X 编程或开发工具个人博主：2位候选文字全量评估：已结束，仍有缺额或失败；已选合格 0/1，已核验 2；证据不足者保持待核实。twitter：读取 500 条，基础条件排除 493 条；/discover/db?platform=twitter&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。 [查看报告](/api/reports/research-f966a5bcdb3279fda8313cc8)\n\n[查看本次综合报告](/api/work-batches/65daf5d6-fa5b-46f3-8efc-f09180f70340/report) · [下载综合 CSV](/api/work-batches/65daf5d6-fa5b-46f3-8efc-f09180f70340/report?format=csv)",
+      "createdAt": 1791640328633,
+      "epoch": 0,
+      "state": "delivered",
+      "attachments": []
+    }
+  ],
+  "allResultWritesBeforeDelivery": true,
+  "html": {
+    "url": "http://127.0.0.1:3592/api/work-batches/65daf5d6-fa5b-46f3-8efc-f09180f70340/report",
+    "articles": 2,
+    "embeddedImages": 0,
+    "body": "本次请求综合报告\n\n目标 3 人；本地已合格 0 人；已核验 2 人。\n\nYouTube 学习方法个人博主：4位候选文字全量评估：已选合格 0/2，已核验 0；证据不足者保持待核实。youtube：读取 500 条，基础条件排除 500 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。 X 编程或开发工具个人博主：2位候选文字全量评估：已选合格 0/1，已核验 2；证据不足者保持待核实。twitter：读取 500 条，基础条件排除 493 条；/discover/db?platform=twitter&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。\n\n来源：WaveSurge + 本地核验。远端搜索完成不代表本地条件通过。本次报告包含 2 条筛选记录。报告更新时间：2026-10-10T13:52:07.939Z\nCryptoDilly · 待核实\n\ntwitter / professordilly / 粉丝 10342 / 未知\n\n标签：Web3 / NFT 项目相关\n\n画像 content_direction：Web3 / NFT 项目相关；主页简介明确提及 Unboxingweb3、Apechain 项目及 NFT NYC 演讲者；仅支持简介所呈现的方向，不能代表已核验实际帖子内容。；证据 dcbe3ecaa9a39673bc070f59\n\n画像 expression_style：待核实；只有履历式主页简介，没有帖子文字，无法判断日常内容表达风格。；证据 dcbe3ecaa9a39673bc070f59\n\n条件\t判断\t依据\n平台\t符合要求\t创作者平台：twitter\n\n粉丝范围\t符合要求\tWaveSurge 粉丝数 10342，要求 10000–100000\nprofile 日期未知\n个人博主，非品牌、公司或机构官方账号\t符合要求\t已取得的主页简介以个人身份自述为联合创始人、项目创作者、NFT NYC 演讲者和提案共同作者，支持其为个人账号而非机构官方账号。本轮复用 wavesurge-pool 文字资料，未重新打开页面。\nprofile 日期未知\n实际内容涉及编程或开发工具\t待核实\t现有证据仅为主页简介，提及 Web3、NFT、Apechain 与项目创作，但没有实际帖子文字或编程、开发工具使用内容；不能将 Web3 项目身份等同于分享编程或开发工具。资料采集时间为 1791640294488，帖子发布日期缺失，本轮未重新打开页面。\nprofile 日期未知\n完整证据映射与截图\ndcbe3ecaa9a39673bc070f59 · profile\n原始来源\n\n提供方：wavesurge-pool · 捕获：2026-10-10T13:51:34.488Z · 发布时间：日期未知\n\nCo-Founder of @Unboxingweb3 (MBA #462) • Creator of R0N1 World & @fishiesonape Apechain • NFT NYC Speaker 2024 & 2025 • AIP-440 Co-Author\nAlbertor · 待核实\n\ntwitter / solalbertor / 粉丝 12667 / 未知\n\n标签：\n\n画像 content_direction：待核实；简介体现 Web3 从业背景，但没有实际帖子文字，无法据此确认账号的实际内容方向。；证据 e7b0e5d717fde30b5d9010ae\n\n画像 expression_style：待核实；只有简短职业简介，没有实际发帖样本，无法判断内容表达风格。；证据 e7b0e5d717fde30b5d9010ae\n\n条件\t判断\t依据\n平台\t符合要求\t创作者平台：twitter\n\n粉丝范围\t符合要求\tWaveSurge 粉丝数 12667，要求 10000–100000\nprofile 日期未知\n个人博主，非品牌、公司或机构官方账号\t符合要求\t所提供的主页简介以个人职业身份自述“FULLTIME WEB3 CEO - @PlaymakerDAO”及“Hunter/CM”，并列出所属项目，支持这是个人从业者账号，而非这些品牌或机构的官方账号。依据为 wavesurge-pool 已采集的主页文字，本轮未重新打开主页。\nprofile 日期未知\n实际内容涉及编程或开发工具\t待核实\t现有证据仅为主页简介，提及 Web3、CEO 和 Hunter/CM，未包含编程或开发工具相关的实际帖子、帖子日期或内容文字。Web3 从业身份不能替代编程内容证据，因此无法确认此必选条件。\nprofile 日期未知\n完整证据映射与截图\ne7b0e5d717fde30b5d9010ae · profile\n原始来源\n\n提供方：wavesurge-pool · 捕获：2026-10-10T13:51:34.488Z · 发布时间：日期未知\n\nFULLTIME WEB3 CEO - @PlaymakerDAO\n\n Hunter/CM |@LunaLabsVC |@insiders_xyz | @Validators_\n | @solayer_labs"
+  },
+  "csv": ".gstack/qa-reports/retest-2026-10-10-r4/text-platforms-batch.csv",
+  "finishedAt": "2026-10-10T14:36:33.321Z"
+}

@@ -1,0 +1,627 @@
+{
+  "scope": "Current production browser and actual model; controlled candidates for deterministic boundary tests.",
+  "sections": [
+    {
+      "name": "foundation-ui",
+      "source": "Independent real Chrome UI on controlled-candidate isolated deployment; actual configured model and production desktop",
+      "startedAt": "2026-10-10T17:28:27.168Z",
+      "finishedAt": "2026-10-10T17:29:25.980Z",
+      "checks": [
+        {
+          "label": "Unauthenticated state/debug denied",
+          "evidence": 401
+        },
+        {
+          "label": "Empty/wrong password validation",
+          "evidence": "密码不正确"
+        },
+        {
+          "label": "Login and disabled blank send",
+          "evidence": true
+        },
+        {
+          "label": "Reference image upload and removal",
+          "evidence": true
+        },
+        {
+          "label": "Actual image chat persisted; no unsolicited discovery",
+          "evidence": [
+            "图片能看清：是一张正方形色块图，**左半边为绿色，右半边为蓝色**，中间由一条竖直边界分隔。没有看到人物、物品或文字。\n\n本次只确认图片内容，不查找创作者。"
+          ]
+        },
+        {
+          "label": "Settings save without replacing credential/model",
+          "evidence": 3
+        },
+        {
+          "label": "Actual context backup download parses as JSON",
+          "evidence": [
+            "format",
+            "messages",
+            "batches",
+            "checkpoint"
+          ]
+        },
+        {
+          "label": "Invalid context JSON rejected",
+          "evidence": "Unexpected token 'o', \"not-json\" is not valid JSON"
+        },
+        {
+          "label": "Context compression browser action",
+          "evidence": "操作已完成。"
+        },
+        {
+          "label": "Context reset changes model epoch and retains transcript/tasks/results",
+          "evidence": 5
+        },
+        {
+          "label": "Backup restore retains tasks and does not replay discovery tools",
+          "evidence": true
+        },
+        {
+          "label": "Settings shows configuration/context without exposing call records",
+          "evidence": true
+        },
+        {
+          "label": "Read-only noVNC browser connected",
+          "evidence": true
+        },
+        {
+          "label": "Campaign dialog opens and closes",
+          "evidence": true
+        },
+        {
+          "label": "Mobile layout captured",
+          "evidence": {
+            "width": 375,
+            "scrollWidth": 375
+          }
+        },
+        {
+          "label": "App restart persists context/tasks and auth; no repeated Wave calls",
+          "evidence": true
+        },
+        {
+          "label": "Logout revokes session",
+          "evidence": 401
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "extended-ui",
+      "source": "Independent actual Chrome UI and real configured model; controlled Wave and candidate fixture",
+      "startedAt": "2026-10-10T17:33:58.619Z",
+      "finishedAt": "2026-10-10T17:34:04.140Z",
+      "checks": [
+        {
+          "label": "Invalid threshold rejected by actual UI without changing settings",
+          "evidence": true
+        },
+        {
+          "label": "UI prompt save takes effect in next actual model request/response",
+          "evidence": {
+            "revision": 4,
+            "reply": "本轮设置回归标记1791653639725\n你好！很高兴见到你。"
+          }
+        },
+        {
+          "label": "Original model prompt restored through UI",
+          "evidence": true
+        },
+        {
+          "label": "11 unauthenticated routes deny data, report, evidence and desktop access",
+          "evidence": [
+            {
+              "path": "/api/state",
+              "status": 401
+            },
+            {
+              "path": "/api/settings",
+              "status": 401
+            },
+            {
+              "path": "/api/debug",
+              "status": 401
+            },
+            {
+              "path": "/api/results",
+              "status": 401
+            },
+            {
+              "path": "/api/campaigns",
+              "status": 401
+            },
+            {
+              "path": "/api/backup",
+              "status": 401
+            },
+            {
+              "path": "/api/work-batches/missing/report",
+              "status": 401
+            },
+            {
+              "path": "/api/reports/missing",
+              "status": 401
+            },
+            {
+              "path": "/api/assets/missing",
+              "status": 401
+            },
+            {
+              "path": "/api/desktop",
+              "status": 401
+            },
+            {
+              "path": "/api/desktop/view/vnc.html",
+              "status": 401
+            }
+          ]
+        },
+        {
+          "label": "Cross-origin write refused and no message created",
+          "evidence": 403
+        },
+        {
+          "label": "Empty/whitespace/oversize message and malformed image rejected",
+          "evidence": 4
+        },
+        {
+          "label": "Missing objects return 404; unclaimed control mode rejected",
+          "evidence": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "interaction-regressions",
+      "source": "Actual UI, configured real model, controlled Wave/pages; duplicate submission uses authenticated public HTTP API",
+      "startedAt": "2026-10-10T17:37:38.085Z",
+      "finishedAt": "2026-10-10T17:38:25.456Z",
+      "checks": [
+        "Actual natural reverify completed both existing creators with fresh browser evidence, revision 2 and preserved revision 1 history",
+        "Actual messages accepted during an active turn; explicit cancellation invokes the correct task; prior results retained and no extra search tasks",
+        "No late result writes or restart after cancellation and in-flight worker settlement",
+        "Identical message ID is idempotent; conflicting reuse returns 409; no model/tools/tasks replayed"
+      ],
+      "errors": []
+    },
+    {
+      "name": "compression-populated",
+      "source": "Actual model compression through product UI",
+      "startedAt": "2026-10-10T17:27:39.267Z",
+      "finishedAt": "2026-10-10T17:28:22.270Z",
+      "checks": [
+        "Actual browser compression created a nonempty checkpoint using configured model",
+        "Visible transcript and tasks retained",
+        "Latest user and answer remain outside compression boundary",
+        "No discovery tools replayed",
+        "Checkpoint persisted after page reload"
+      ],
+      "errors": []
+    }
+  ],
+  "modelFailureInjection": {
+    "source": "actual application UI + configured real model through explicit isolated HTTP failure injection; controlled candidates",
+    "originalEndpointRestored": true,
+    "cases": [
+      {
+        "name": "chat-408",
+        "target": "chat",
+        "injectedStatus": 408,
+        "input": "你好，前面的任务先保留，简单说一下目前怎么样就行，不用新搜索。",
+        "calls": [
+          {
+            "at": "2026-10-10T17:42:19.479Z",
+            "kind": "chat",
+            "toolNames": [
+              "get_tasks",
+              "search_history",
+              "start_research",
+              "start_research_batch",
+              "cancel_research",
+              "enrich_results",
+              "get_results",
+              "save_campaign_plan",
+              "get_campaigns",
+              "start_campaign"
+            ],
+            "messageCount": 37,
+            "imageCount": 0,
+            "payloadHash": "775c9727606d969c7277e13914cb0374e7780d2c9849cd63bbe22e0d3de5a1e3",
+            "injected": true,
+            "status": 408
+          },
+          {
+            "at": "2026-10-10T17:42:20.535Z",
+            "kind": "chat",
+            "toolNames": [
+              "get_tasks",
+              "search_history",
+              "start_research",
+              "start_research_batch",
+              "cancel_research",
+              "enrich_results",
+              "get_results",
+              "save_campaign_plan",
+              "get_campaigns",
+              "start_campaign"
+            ],
+            "messageCount": 37,
+            "imageCount": 0,
+            "payloadHash": "775c9727606d969c7277e13914cb0374e7780d2c9849cd63bbe22e0d3de5a1e3",
+            "injected": false,
+            "status": 200
+          },
+          {
+            "specHash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+            "creatorHash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+            "at": "2026-10-10T17:42:23.654Z",
+            "kind": "chat",
+            "toolNames": [
+              "get_tasks",
+              "search_history",
+              "start_research",
+              "start_research_batch",
+              "cancel_research",
+              "enrich_results",
+              "get_results",
+              "save_campaign_plan",
+              "get_campaigns",
+              "start_campaign"
+            ],
+            "messageCount": 39,
+            "imageCount": 0,
+            "payloadHash": "eda1b355269161b27ca4eab71079f53ccd0a1c68b0421b1c1e431f064fc15119",
+            "injected": false,
+            "status": 200
+          }
+        ],
+        "sameWorkAttempts": 2,
+        "pass": true
+      },
+      {
+        "name": "selection-408",
+        "target": "candidate-selection",
+        "injectedStatus": 408,
+        "input": "再开一项新的 YouTube 科技个人博主研究，选1人，最多核验1位候选。国家和粉丝不限，只用已有文字资料，不打开网页，帮他标一下内容方向。",
+        "calls": [
+          {
+            "at": "2026-10-10T17:42:40.283Z",
+            "kind": "chat",
+            "toolNames": [
+              "get_tasks",
+              "search_history",
+              "start_research",
+              "start_research_batch",
+              "cancel_research",
+              "enrich_results",
+              "get_results",
+              "save_campaign_plan",
+              "get_campaigns",
+              "start_campaign"
+            ],
+            "messageCount": 41,
+            "imageCount": 0,
+            "payloadHash": "31f04f81f23aaba38f1499fd9508ba864db5749a01f68870cf013a59f045d842",
+            "injected": false,
+            "status": 200
+          },
+          {
+            "specHash": "e0e622ef6d70e92f4ba0a1aca11fd0e6ddc94f9a4e7888c4e47dfe12cb1db296",
+            "creatorHash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+            "at": "2026-10-10T17:42:46.295Z",
+            "kind": "candidate-selection",
+            "toolNames": [
+              "select_candidates"
+            ],
+            "messageCount": 3,
+            "imageCount": 0,
+            "payloadHash": "d55db6324ab2883096eacf5630cfbf6d72cbf8caf956db167e3c00545cde6684",
+            "injected": true,
+            "status": 408
+          },
+          {
+            "specHash": "e0e622ef6d70e92f4ba0a1aca11fd0e6ddc94f9a4e7888c4e47dfe12cb1db296",
+            "creatorHash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+            "at": "2026-10-10T17:42:46.297Z",
+            "kind": "chat",
+            "toolNames": [
+              "get_tasks",
+              "search_history",
+              "start_research",
+              "start_research_batch",
+              "cancel_research",
+              "enrich_results",
+              "get_results",
+              "save_campaign_plan",
+              "get_campaigns",
+              "start_campaign"
+            ],
+            "messageCount": 43,
+            "imageCount": 0,
+            "payloadHash": "2ee97f6518151455ebc206c2d26356023e07cc59f149971a90f1b16cb4a914bd",
+            "injected": false,
+            "status": 200
+          },
+          {
+            "specHash": "e0e622ef6d70e92f4ba0a1aca11fd0e6ddc94f9a4e7888c4e47dfe12cb1db296",
+            "creatorHash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+            "at": "2026-10-10T17:42:47.303Z",
+            "kind": "candidate-selection",
+            "toolNames": [
+              "select_candidates"
+            ],
+            "messageCount": 3,
+            "imageCount": 0,
+            "payloadHash": "d55db6324ab2883096eacf5630cfbf6d72cbf8caf956db167e3c00545cde6684",
+            "injected": false,
+            "status": 200
+          },
+          {
+            "taskId": "research-2a4220466dc81686e395bad8",
+            "creatorId": "youtube:http://wave-fixture:8087/creator/alice",
+            "specHash": "e0e622ef6d70e92f4ba0a1aca11fd0e6ddc94f9a4e7888c4e47dfe12cb1db296",
+            "creatorHash": "00077fd2d0a96c6533af9d750f78f5998f2c7ef0094c5e9f743f13fcc31b592f",
+            "at": "2026-10-10T17:42:49.848Z",
+            "kind": "verification",
+            "toolNames": [
+              "submit_judgments"
+            ],
+            "messageCount": 3,
+            "imageCount": 0,
+            "payloadHash": "c6d4304936ed1118241f4db97786b7dfbc0a28f28c63b0f8a1aaa7c52439e804",
+            "injected": false,
+            "status": 200
+          },
+          {
+            "specHash": "e0e622ef6d70e92f4ba0a1aca11fd0e6ddc94f9a4e7888c4e47dfe12cb1db296",
+            "creatorHash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+            "at": "2026-10-10T17:42:53.574Z",
+            "kind": "chat",
+            "toolNames": [
+              "get_tasks",
+              "search_history",
+              "start_research",
+              "start_research_batch",
+              "cancel_research",
+              "enrich_results",
+              "get_results",
+              "save_campaign_plan",
+              "get_campaigns",
+              "start_campaign"
+            ],
+            "messageCount": 43,
+            "imageCount": 0,
+            "payloadHash": "729697838f6896253ef225a6c4e5f45f4f3e9a973406bf61f7eaa2cc9ede861a",
+            "injected": false,
+            "status": 200
+          },
+          {
+            "specHash": "e0e622ef6d70e92f4ba0a1aca11fd0e6ddc94f9a4e7888c4e47dfe12cb1db296",
+            "creatorHash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+            "at": "2026-10-10T17:43:01.211Z",
+            "kind": "chat",
+            "toolNames": [
+              "get_tasks",
+              "search_history",
+              "start_research",
+              "start_research_batch",
+              "cancel_research",
+              "enrich_results",
+              "get_results",
+              "save_campaign_plan",
+              "get_campaigns",
+              "start_campaign"
+            ],
+            "messageCount": 43,
+            "imageCount": 0,
+            "payloadHash": "74ada0dd68519d8652e7f937adaa3a00c1d03833e33432a3093cb2c9bf2872e9",
+            "injected": false,
+            "status": 200
+          }
+        ],
+        "sameWorkAttempts": 2,
+        "pass": true
+      },
+      {
+        "name": "verification-408",
+        "target": "verification",
+        "injectedStatus": 408,
+        "input": "再做一项新的 YouTube 耳机博主研究，最后选1个，这次2个候选都看完。只用现有文字资料，不打开网页，粉丝和国家不限，每人标上内容方向。",
+        "calls": [
+          {
+            "at": "2026-10-10T17:43:11.000Z",
+            "kind": "chat",
+            "toolNames": [
+              "get_tasks",
+              "search_history",
+              "start_research",
+              "start_research_batch",
+              "cancel_research",
+              "enrich_results",
+              "get_results",
+              "save_campaign_plan",
+              "get_campaigns",
+              "start_campaign"
+            ],
+            "messageCount": 46,
+            "imageCount": 0,
+            "payloadHash": "4ee160562c8b6684c510ebc48cdd9e41f6559328de521bd6c657c1d5f7d6c89e",
+            "injected": false,
+            "status": 200
+          },
+          {
+            "specHash": "65ac221ce4a86eb5a913c8d879f9b8fdb4c60b0dd9a51d4cfac8fa52df2cacf3",
+            "creatorHash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+            "at": "2026-10-10T17:43:16.812Z",
+            "kind": "chat",
+            "toolNames": [
+              "get_tasks",
+              "search_history",
+              "start_research",
+              "start_research_batch",
+              "cancel_research",
+              "enrich_results",
+              "get_results",
+              "save_campaign_plan",
+              "get_campaigns",
+              "start_campaign"
+            ],
+            "messageCount": 48,
+            "imageCount": 0,
+            "payloadHash": "efb7e4273fe6a053479b166b9a25e309e5395ef724203f3e719a1dd6d29a8ed8",
+            "injected": false,
+            "status": 200
+          },
+          {
+            "taskId": "research-7f48733d5bfddd2c3414ea51",
+            "creatorId": "youtube:http://wave-fixture:8087/creator/alice",
+            "specHash": "65ac221ce4a86eb5a913c8d879f9b8fdb4c60b0dd9a51d4cfac8fa52df2cacf3",
+            "creatorHash": "efb193cf493810a044906ff83972d4cb623ac346ad1072bbe07cfd55f5bdf967",
+            "at": "2026-10-10T17:43:16.827Z",
+            "kind": "verification",
+            "toolNames": [
+              "submit_judgments"
+            ],
+            "messageCount": 3,
+            "imageCount": 0,
+            "payloadHash": "3a4a32f4b9bceafedc3f41b4c64bca1427f6e60c9fcd287dcf3b5029db006f2a",
+            "injected": true,
+            "status": 408
+          },
+          {
+            "taskId": "research-7f48733d5bfddd2c3414ea51",
+            "creatorId": "youtube:http://wave-fixture:8087/creator/alice",
+            "specHash": "65ac221ce4a86eb5a913c8d879f9b8fdb4c60b0dd9a51d4cfac8fa52df2cacf3",
+            "creatorHash": "efb193cf493810a044906ff83972d4cb623ac346ad1072bbe07cfd55f5bdf967",
+            "at": "2026-10-10T17:43:18.817Z",
+            "kind": "verification",
+            "toolNames": [
+              "submit_judgments"
+            ],
+            "messageCount": 3,
+            "imageCount": 0,
+            "payloadHash": "28fb8991b95604498c36ac81db6278dc93043b59d77b0460507889d801abc885",
+            "injected": false,
+            "status": 200
+          },
+          {
+            "specHash": "65ac221ce4a86eb5a913c8d879f9b8fdb4c60b0dd9a51d4cfac8fa52df2cacf3",
+            "creatorHash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+            "at": "2026-10-10T17:43:23.338Z",
+            "kind": "chat",
+            "toolNames": [
+              "get_tasks",
+              "search_history",
+              "start_research",
+              "start_research_batch",
+              "cancel_research",
+              "enrich_results",
+              "get_results",
+              "save_campaign_plan",
+              "get_campaigns",
+              "start_campaign"
+            ],
+            "messageCount": 48,
+            "imageCount": 0,
+            "payloadHash": "63e8e44c4d386c5959d1dfaee1dcb7b7e84020d58a17e63261b721e3f23e3fbf",
+            "injected": false,
+            "status": 200
+          },
+          {
+            "taskId": "research-7f48733d5bfddd2c3414ea51",
+            "creatorId": "youtube:http://wave-fixture:8087/creator/bob",
+            "specHash": "65ac221ce4a86eb5a913c8d879f9b8fdb4c60b0dd9a51d4cfac8fa52df2cacf3",
+            "creatorHash": "4a79217da1d21075516638d92e847244c8acb882dd6a0bbdf8a67f4b0264aecd",
+            "at": "2026-10-10T17:43:25.520Z",
+            "kind": "verification",
+            "toolNames": [
+              "submit_judgments"
+            ],
+            "messageCount": 3,
+            "imageCount": 0,
+            "payloadHash": "0f1159b446fb608caab7f9732bd05272940c1c86d0d81337d97d092756a8e103",
+            "injected": false,
+            "status": 200
+          },
+          {
+            "specHash": "65ac221ce4a86eb5a913c8d879f9b8fdb4c60b0dd9a51d4cfac8fa52df2cacf3",
+            "creatorHash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+            "at": "2026-10-10T17:43:29.137Z",
+            "kind": "chat",
+            "toolNames": [
+              "get_tasks",
+              "search_history",
+              "start_research",
+              "start_research_batch",
+              "cancel_research",
+              "enrich_results",
+              "get_results",
+              "save_campaign_plan",
+              "get_campaigns",
+              "start_campaign"
+            ],
+            "messageCount": 48,
+            "imageCount": 0,
+            "payloadHash": "55f3d81894c45c09e2ff40bc11bdd024047e7de0692f5dd5a9e0bfb3f5ff8220",
+            "injected": false,
+            "status": 200
+          }
+        ],
+        "sameWorkAttempts": 2,
+        "pass": true
+      },
+      {
+        "name": "chat-400",
+        "target": "chat",
+        "injectedStatus": 400,
+        "input": "先停一下新搜索，告诉我前面的任务还在不在。",
+        "calls": [
+          {
+            "at": "2026-10-10T17:43:37.315Z",
+            "kind": "chat",
+            "toolNames": [
+              "get_tasks",
+              "search_history",
+              "start_research",
+              "start_research_batch",
+              "cancel_research",
+              "enrich_results",
+              "get_results",
+              "save_campaign_plan",
+              "get_campaigns",
+              "start_campaign"
+            ],
+            "messageCount": 51,
+            "imageCount": 0,
+            "payloadHash": "2abb2b74dba2b02613ef26866af7a3101fd23eed45513e0673b5e3957f5adff9",
+            "injected": true,
+            "status": 400
+          }
+        ],
+        "sameWorkAttempts": 1,
+        "pass": true
+      }
+    ]
+  },
+  "contextDuringRegistration": {
+    "source": "Actual configured model and natural UI input; controlled Wave/candidates; real context reset/load during unsealed work registration, then app restart",
+    "caseCount": 2,
+    "passed": true,
+    "errors": [],
+    "normalRestartPassed": {
+      "passed": true,
+      "replayedWaveCalls": 0,
+      "duplicateReports": 0
+    }
+  },
+  "freshReverification": {
+    "source": "Actual fresh headed browser visits with configured real model; explicit controlled public creator pages",
+    "taskId": "research-ca30a88339a2c54dc79941d1",
+    "input": "刚才那项 research-ca30a88339a2c54dc79941d1，帮我重新打开两位候选各自的本人主页，按原来的条件再核一遍，也更新内容方向标签。两个都看，不重新搜索，原来的版本留着。这批全结束再给我报告。",
+    "newWaveCalls": 0,
+    "passed": true,
+    "assertion": "Both existing creators have new browser observations/screenshots, revision 2 and retained revision 1."
+  }
+}

@@ -1,0 +1,20 @@
+import { expect, test } from '@playwright/test';
+import { execFileSync } from 'node:child_process';
+import { writeFileSync } from 'node:fs';
+test('桌面正常重启后同一 profile 的人工验证 Cookie 保留', async ({ page }) => {
+  test.setTimeout(60000); const docker = (...args: string[]) => execFileSync('docker', ['compose', ...args], { encoding: 'utf8' });
+  const observe = () => JSON.parse(docker('exec', '-T', 'desktop', 'node', '-e', "const fs=require('fs'); fetch('http://127.0.0.1:8810/command',{method:'POST',headers:{'Content-Type':'application/json',Authorization:'Bearer '+fs.readFileSync('/run/studio-secrets/desktop-token','utf8')},body:JSON.stringify({action:'navigate',url:'http://127.0.0.1:8085/'})}).then(r=>r.json()).then(({screenshotBase64,...metadata})=>process.stdout.write(JSON.stringify(metadata)))"));
+  const password = docker('exec', '-T', 'app', 'cat', '/app/data/admin-bootstrap.txt').trim();
+  await page.goto('/'); await page.getByLabel('管理员密码').fill(password); await page.getByRole('button', { name: /进入工作室/ }).click(); await expect(page.getByLabel('研究对话')).toBeVisible();
+  docker('cp', 'tests/fixtures/browser-assistance-server.mjs', 'desktop:/tmp/browser-assistance-server.mjs'); docker('exec', '-d', 'desktop', 'node', '/tmp/browser-assistance-server.mjs');
+  const before = observe(); expect(before.title).toContain('Test Creator');
+  await page.getByRole('button', { name: '浏览器桌面', exact: true }).click(); const canvas = page.frameLocator('iframe[title="持久浏览器桌面"]').locator('#noVNC_container canvas'); await expect(canvas).toBeVisible({ timeout: 30000 });
+  await page.screenshot({ path: '.gstack/qa-reports/full-e2e-2026-10-10/isolated-evidence/profile-before-restart.png', fullPage: true });
+  writeFileSync('.gstack/qa-reports/full-e2e-2026-10-10/isolated-evidence/profile-before-restart.json', JSON.stringify(before,null,2));
+  docker('restart', 'desktop'); await expect.poll(() => docker('exec', '-T', 'desktop', 'node', '-e', "fetch('http://127.0.0.1:8810/health').then(r=>process.stdout.write(String(r.ok))).catch(()=>process.stdout.write('false'))"), { timeout: 45000 }).toBe('true');
+  docker('exec', '-d', 'desktop', 'node', '/tmp/browser-assistance-server.mjs'); const after = observe();
+  await page.getByRole('button', { name: '重新连接桌面' }).click(); await expect(canvas).toBeVisible({timeout:30000});
+  await page.screenshot({ path: '.gstack/qa-reports/full-e2e-2026-10-10/isolated-evidence/profile-after-restart.png', fullPage: true });
+  writeFileSync('.gstack/qa-reports/full-e2e-2026-10-10/isolated-evidence/stage-4-profile-restart.json', JSON.stringify({ source: 'same headed Chromium profile; actual noVNC manual-fixture cookie; Docker restart; observed via runtime and noVNC', before, after }, null, 2));
+  expect(after.title).toContain('Test Creator'); expect(after.text).toContain('CHIP / CIRCUIT BOARD');
+});

@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "source": "Current report renderer with unchanged saved real Wave/model results; layout only, no new research",
+  "checks": [
+    {
+      "viewport": 1440,
+      "horizontalOverflow": false,
+      "judgmentWidth": 117.5,
+      "judgmentNoWrap": true,
+      "rows": 16
+    },
+    {
+      "viewport": 768,
+      "horizontalOverflow": false,
+      "judgmentWidth": 117.5,
+      "judgmentNoWrap": true,
+      "rows": 16
+    },
+    {
+      "viewport": 375,
+      "horizontalOverflow": false,
+      "judgmentWidth": 117.5,
+      "judgmentNoWrap": true,
+      "rows": 16
+    }
+  ]
+}

@@ -1,0 +1,1006 @@
+{
+  "caseName": "campaign-revise",
+  "base": "http://127.0.0.1:3552",
+  "startedAt": "2026-10-10T06:17:40.673Z",
+  "source": "Actual application UI; configured real model and WaveSurge API; no seeded candidates or modified prompts",
+  "input": "第二类我更想要实际讲过 Notion 或 AI 笔记工具的人，把这个作为优先项，别改成硬门槛。其他范围、人数和每类2个候选的上限都不变，更新一下方案，我看完再开始。",
+  "before": {
+    "tasks": [
+      {
+        "id": "research-7e157f91534c9f8f156d257d",
+        "title": "美国 TikTok 数码男博主筛选",
+        "status": "partial",
+        "requested": 2,
+        "evaluated": 4,
+        "matched": 0,
+        "qualifying": 0,
+        "updatedAt": 1791612872357,
+        "detail": "已选合格 0/2，已核验 4；证据不足者保持待核实。",
+        "remoteStatus": "done",
+        "nextPollAt": 1791612813015
+      }
+    ],
+    "results": [
+      {
+        "id": "research-7e157f91534c9f8f156d257d|tiktok:ritualesmayte331",
+        "taskId": "research-7e157f91534c9f8f156d257d",
+        "handle": "ritualesmayte331",
+        "displayName": "Rituales Mayte 🐍🍀✨",
+        "platform": "tiktok",
+        "tags": [],
+        "verdict": "no_match",
+        "selected": false,
+        "revision": 1,
+        "annotations": [
+          {
+            "dimensionId": "content_direction",
+            "status": "unknown",
+            "values": [],
+            "reason": "没有可观察的简介或帖子内容。",
+            "evidenceIds": [
+              "a13f3f3f6fdb1fc89e0ab5b6"
+            ]
+          },
+          {
+            "dimensionId": "style",
+            "status": "unknown",
+            "values": [],
+            "reason": "空白页面不提供内容风格依据。",
+            "evidenceIds": [
+              "a13f3f3f6fdb1fc89e0ab5b6"
+            ]
+          },
+          {
+            "dimensionId": "glasses",
+            "status": "unknown",
+            "values": [],
+            "reason": "没有实际创作者图像可核验。",
+            "evidenceIds": [
+              "a13f3f3f6fdb1fc89e0ab5b6"
+            ]
+          }
+        ],
+        "followers": 331181300,
+        "region": null,
+        "judgments": [
+          {
+            "criterionId": "__region",
+            "verdict": "unknown",
+            "reason": "未取得创作者地区",
+            "evidenceIds": [],
+            "label": "所在地区"
+          },
+          {
+            "criterionId": "__platform",
+            "verdict": "match",
+            "reason": "创作者平台：tiktok",
+            "evidenceIds": [],
+            "label": "平台"
+          },
+          {
+            "criterionId": "__followers",
+            "verdict": "no_match",
+            "reason": "WaveSurge 粉丝数 331181300，要求 10000–100000",
+            "evidenceIds": [],
+            "label": "粉丝范围"
+          },
+          {
+            "criterionId": "digital_content",
+            "verdict": "unknown",
+            "reason": "唯一来源为 about:blank 空白页，没有简介或帖子文字，无法确认发布数码或消费电子内容；未提供可访问的主页或帖子链接。",
+            "evidenceIds": [
+              "a13f3f3f6fdb1fc89e0ab5b6"
+            ],
+            "label": "发布数码或消费电子相关内容"
+          },
+          {
+            "criterionId": "male_self_description",
+            "verdict": "unknown",
+            "reason": "空白页没有账号自身的公开介绍，无法核实明确男性自述；不从名称或外貌推断。",
+            "evidenceIds": [
+              "a13f3f3f6fdb1fc89e0ab5b6"
+            ],
+            "label": "账号自身的公开介绍明确表明为男性；未明确说明则为待确认，不从外貌推断"
+          },
+          {
+            "criterionId": "glasses_preference",
+            "verdict": "unknown",
+            "reason": "实际截图为空白，没有可用于判断佩戴眼镜的创作者图像。",
+            "evidenceIds": [
+              "a13f3f3f6fdb1fc89e0ab5b6"
+            ],
+            "label": "佩戴眼镜，优先但非硬性要求；需基于实际观察到的图像"
+          }
+        ],
+        "evidence": [
+          {
+            "id": "a13f3f3f6fdb1fc89e0ab5b6",
+            "url": "about:blank",
+            "kind": "browser_snapshot",
+            "text": "",
+            "assetId": "31534d0ff8b0900213a111990b158c5b950eb67812e29c91cece6292ddac76c1"
+          }
+        ]
+      },
+      {
+        "id": "research-7e157f91534c9f8f156d257d|tiktok:stephencurry30",
+        "taskId": "research-7e157f91534c9f8f156d257d",
+        "handle": "stephencurry30",
+        "displayName": "Stephen Curry",
+        "platform": "tiktok",
+        "tags": [],
+        "verdict": "no_match",
+        "selected": false,
+        "revision": 1,
+        "annotations": [
+          {
+            "dimensionId": "content_direction",
+            "status": "unknown",
+            "values": [],
+            "reason": "未取得实际简介或帖子内容。",
+            "evidenceIds": [
+              "a13f3f3f6fdb1fc89e0ab5b6"
+            ]
+          },
+          {
+            "dimensionId": "style",
+            "status": "unknown",
+            "values": [],
+            "reason": "空白页没有内容风格的文字或视觉依据。",
+            "evidenceIds": [
+              "a13f3f3f6fdb1fc89e0ab5b6"
+            ]
+          },
+          {
+            "dimensionId": "glasses",
+            "status": "unknown",
+            "values": [],
+            "reason": "截图未显示人物，无法进行眼镜视觉核验。",
+            "evidenceIds": [
+              "a13f3f3f6fdb1fc89e0ab5b6"
+            ]
+          }
+        ],
+        "followers": 308900000,
+        "region": null,
+        "judgments": [
+          {
+            "criterionId": "__region",
+            "verdict": "unknown",
+            "reason": "未取得创作者地区",
+            "evidenceIds": [],
+            "label": "所在地区"
+          },
+          {
+            "criterionId": "__platform",
+            "verdict": "match",
+            "reason": "创作者平台：tiktok",
+            "evidenceIds": [],
+            "label": "平台"
+          },
+          {
+            "criterionId": "__followers",
+            "verdict": "no_match",
+            "reason": "WaveSurge 粉丝数 308900000，要求 10000–100000",
+            "evidenceIds": [],
+            "label": "粉丝范围"
+          },
+          {
+            "criterionId": "digital_content",
+            "verdict": "unknown",
+            "reason": "已有来源及本次观察均为 about:blank 空白页，没有简介、帖子文字或日期；未提供可访问的真实主页或帖子链接，无法判断是否发布数码或消费电子内容。",
+            "evidenceIds": [
+              "a13f3f3f6fdb1fc89e0ab5b6"
+            ],
+            "label": "发布数码或消费电子相关内容"
+          },
+          {
+            "criterionId": "male_self_description",
+            "verdict": "unknown",
+            "reason": "空白页未显示账号自身公开介绍，没有明确男性自述；不能从姓名或外部印象推断。",
+            "evidenceIds": [
+              "a13f3f3f6fdb1fc89e0ab5b6"
+            ],
+            "label": "账号自身的公开介绍明确表明为男性；未明确说明则为待确认，不从外貌推断"
+          },
+          {
+            "criterionId": "glasses_preference",
+            "verdict": "unknown",
+            "reason": "实际截图为空白，无创作者可观察图像，无法确认是否佩戴眼镜。",
+            "evidenceIds": [
+              "a13f3f3f6fdb1fc89e0ab5b6"
+            ],
+            "label": "佩戴眼镜，优先但非硬性要求；需基于实际观察到的图像"
+          }
+        ],
+        "evidence": [
+          {
+            "id": "a13f3f3f6fdb1fc89e0ab5b6",
+            "url": "about:blank",
+            "kind": "browser_snapshot",
+            "text": "",
+            "assetId": "31534d0ff8b0900213a111990b158c5b950eb67812e29c91cece6292ddac76c1"
+          }
+        ]
+      },
+      {
+        "id": "research-7e157f91534c9f8f156d257d|tiktok:seed02678",
+        "taskId": "research-7e157f91534c9f8f156d257d",
+        "handle": "seed02678",
+        "displayName": "seed02678",
+        "platform": "tiktok",
+        "tags": [],
+        "verdict": "no_match",
+        "selected": false,
+        "revision": 1,
+        "annotations": [
+          {
+            "dimensionId": "content_direction",
+            "status": "unknown",
+            "values": [],
+            "reason": "无可核验的简介或帖子内容。",
+            "evidenceIds": [
+              "a13f3f3f6fdb1fc89e0ab5b6"
+            ]
+          },
+          {
+            "dimensionId": "style",
+            "status": "unknown",
+            "values": [],
+            "reason": "无可观察的创作者内容，无法判断内容风格。",
+            "evidenceIds": [
+              "a13f3f3f6fdb1fc89e0ab5b6"
+            ]
+          },
+          {
+            "dimensionId": "glasses",
+            "status": "unknown",
+            "values": [],
+            "reason": "截图为空白，无法判断是否戴眼镜。",
+            "evidenceIds": [
+              "a13f3f3f6fdb1fc89e0ab5b6"
+            ]
+          }
+        ],
+        "followers": 267848000,
+        "region": null,
+        "judgments": [
+          {
+            "criterionId": "__region",
+            "verdict": "unknown",
+            "reason": "未取得创作者地区",
+            "evidenceIds": [],
+            "label": "所在地区"
+          },
+          {
+            "criterionId": "__platform",
+            "verdict": "match",
+            "reason": "创作者平台：tiktok",
+            "evidenceIds": [],
+            "label": "平台"
+          },
+          {
+            "criterionId": "__followers",
+            "verdict": "no_match",
+            "reason": "WaveSurge 粉丝数 267848000，要求 10000–100000",
+            "evidenceIds": [],
+            "label": "粉丝范围"
+          },
+          {
+            "criterionId": "digital_content",
+            "verdict": "unknown",
+            "reason": "现有来源仅为 about:blank 空白页；未提供有效主页链接或帖子文字，无法核实是否发布数码或消费电子内容。",
+            "evidenceIds": [
+              "a13f3f3f6fdb1fc89e0ab5b6"
+            ],
+            "label": "发布数码或消费电子相关内容"
+          },
+          {
+            "criterionId": "male_self_description",
+            "verdict": "unknown",
+            "reason": "空白页无账号公开介绍，现有资料也无男性自述，无法确认。",
+            "evidenceIds": [
+              "a13f3f3f6fdb1fc89e0ab5b6"
+            ],
+            "label": "账号自身的公开介绍明确表明为男性；未明确说明则为待确认，不从外貌推断"
+          },
+          {
+            "criterionId": "glasses_preference",
+            "verdict": "unknown",
+            "reason": "实际观察到的截图为空白，没有可用于核验佩戴眼镜的创作者图像。",
+            "evidenceIds": [
+              "a13f3f3f6fdb1fc89e0ab5b6"
+            ],
+            "label": "佩戴眼镜，优先但非硬性要求；需基于实际观察到的图像"
+          }
+        ],
+        "evidence": [
+          {
+            "id": "a13f3f3f6fdb1fc89e0ab5b6",
+            "url": "about:blank",
+            "kind": "browser_snapshot",
+            "text": "",
+            "assetId": "31534d0ff8b0900213a111990b158c5b950eb67812e29c91cece6292ddac76c1"
+          }
+        ]
+      },
+      {
+        "id": "research-7e157f91534c9f8f156d257d|tiktok:voodoo_248",
+        "taskId": "research-7e157f91534c9f8f156d257d",
+        "handle": "voodoo_248",
+        "displayName": "voodoo248",
+        "platform": "tiktok",
+        "tags": [],
+        "verdict": "no_match",
+        "selected": false,
+        "revision": 1,
+        "annotations": [
+          {
+            "dimensionId": "content_direction",
+            "status": "unknown",
+            "values": [],
+            "reason": "没有可核验的简介或帖子内容。",
+            "evidenceIds": [
+              "a13f3f3f6fdb1fc89e0ab5b6"
+            ]
+          },
+          {
+            "dimensionId": "style",
+            "status": "unknown",
+            "values": [],
+            "reason": "空白页面不提供内容风格依据。",
+            "evidenceIds": [
+              "a13f3f3f6fdb1fc89e0ab5b6"
+            ]
+          },
+          {
+            "dimensionId": "glasses",
+            "status": "unknown",
+            "values": [],
+            "reason": "截图无人物，无法提供眼镜画像值。",
+            "evidenceIds": [
+              "a13f3f3f6fdb1fc89e0ab5b6"
+            ]
+          }
+        ],
+        "followers": 248207800,
+        "region": null,
+        "judgments": [
+          {
+            "criterionId": "__region",
+            "verdict": "unknown",
+            "reason": "未取得创作者地区",
+            "evidenceIds": [],
+            "label": "所在地区"
+          },
+          {
+            "criterionId": "__platform",
+            "verdict": "match",
+            "reason": "创作者平台：tiktok",
+            "evidenceIds": [],
+            "label": "平台"
+          },
+          {
+            "criterionId": "__followers",
+            "verdict": "no_match",
+            "reason": "WaveSurge 粉丝数 248207800，要求 10000–100000",
+            "evidenceIds": [],
+            "label": "粉丝范围"
+          },
+          {
+            "criterionId": "digital_content",
+            "verdict": "unknown",
+            "reason": "已有来源及当前观察均为 about:blank 空白页，无简介或帖子文字；未提供可访问的主页或帖子 HTTP 链接，无法核验数码或消费电子内容。",
+            "evidenceIds": [
+              "a13f3f3f6fdb1fc89e0ab5b6"
+            ],
+            "label": "发布数码或消费电子相关内容"
+          },
+          {
+            "criterionId": "male_self_description",
+            "verdict": "unknown",
+            "reason": "当前来源为空白页，无账号自身公开介绍或明确男性自述，不能推断性别。",
+            "evidenceIds": [
+              "a13f3f3f6fdb1fc89e0ab5b6"
+            ],
+            "label": "账号自身的公开介绍明确表明为男性；未明确说明则为待确认，不从外貌推断"
+          },
+          {
+            "criterionId": "glasses_preference",
+            "verdict": "unknown",
+            "reason": "实际截图为空白页，没有创作者图像，无法判断是否佩戴眼镜。",
+            "evidenceIds": [
+              "a13f3f3f6fdb1fc89e0ab5b6"
+            ],
+            "label": "佩戴眼镜，优先但非硬性要求；需基于实际观察到的图像"
+          }
+        ],
+        "evidence": [
+          {
+            "id": "a13f3f3f6fdb1fc89e0ab5b6",
+            "url": "about:blank",
+            "kind": "browser_snapshot",
+            "text": "",
+            "assetId": "31534d0ff8b0900213a111990b158c5b950eb67812e29c91cece6292ddac76c1"
+          }
+        ]
+      }
+    ]
+  },
+  "finishedAt": "2026-10-10T06:18:16.965Z",
+  "active": false,
+  "messages": [
+    {
+      "id": "ab423783-fbea-4410-8aa5-a9d571db88e1",
+      "role": "user",
+      "text": "第二类我更想要实际讲过 Notion 或 AI 笔记工具的人，把这个作为优先项，别改成硬门槛。其他范围、人数和每类2个候选的上限都不变，更新一下方案，我看完再开始。",
+      "state": "delivered",
+      "createdAt": 1791613061483,
+      "attachmentCount": 0
+    },
+    {
+      "id": "5b5ded39-2df1-4317-9dd5-8a6904d8879a",
+      "role": "assistant",
+      "text": "已更新并保存为 **v2 草案**，**尚未启动研究，也不会联系创作者**。\n\n### 更新后的两类范围\n\n| 类型 | 必选内容条件 | 优先项 | 目标 / 候选上限 |\n|---|---|---|---|\n| **大学学习方法类** | 有学习方法、课堂笔记或复习内容，且有明确面向大学生的内容依据 | 不新增 | 1 人 / 最多 2 个候选 |\n| **大学生 AI 与效率工具类** | 有 AI 或效率工具教程、实测或评测，且有明确面向大学生的内容依据 | **实际讲过 Notion 或 AI 笔记工具**，有具体内容依据者优先 | 1 人 / 最多 2 个候选 |\n\n第二类的新增项**不是硬门槛**：没有相关内容仍可合格；证据不足则写“待确认”，不视为已满足优先项。\n\n### 其余全部保持不变\n- **YouTube**，创作者**本人在美国**，订阅数 **1万–10万**。\n- 不要求本人是在校生。\n- 每类找 1 人，总目标 **2 位不同创作者**；同一人不重复计入两类配额。\n- 每类最多看 2 个候选，不自动扩大上限。\n- 每人标注**内容方向、表达风格、适合的合作方式**，附简短依据；无证据写“待确认”，合作建议与已证实事实分开。\n- 仅研究，不联系创作者、不自动开展付费搜索。\n\n**方案编号：** `campaign-9d63bb971fa097c467999073`  \n**当前版本：v2**\n\n等你看完并确认 v2 后再开始。",
+      "state": "delivered",
+      "createdAt": 1791613096057,
+      "attachmentCount": 0
+    }
+  ],
+  "tasks": [
+    {
+      "id": "research-7e157f91534c9f8f156d257d",
+      "title": "美国 TikTok 数码男博主筛选",
+      "status": "partial",
+      "requested": 2,
+      "evaluated": 4,
+      "matched": 0,
+      "qualifying": 0,
+      "updatedAt": 1791612872357,
+      "detail": "已选合格 0/2，已核验 4；证据不足者保持待核实。",
+      "remoteStatus": "done",
+      "nextPollAt": 1791612813015
+    }
+  ],
+  "results": [
+    {
+      "id": "research-7e157f91534c9f8f156d257d|tiktok:ritualesmayte331",
+      "taskId": "research-7e157f91534c9f8f156d257d",
+      "handle": "ritualesmayte331",
+      "displayName": "Rituales Mayte 🐍🍀✨",
+      "platform": "tiktok",
+      "tags": [],
+      "verdict": "no_match",
+      "selected": false,
+      "revision": 1,
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "unknown",
+          "values": [],
+          "reason": "没有可观察的简介或帖子内容。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ]
+        },
+        {
+          "dimensionId": "style",
+          "status": "unknown",
+          "values": [],
+          "reason": "空白页面不提供内容风格依据。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ]
+        },
+        {
+          "dimensionId": "glasses",
+          "status": "unknown",
+          "values": [],
+          "reason": "没有实际创作者图像可核验。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ]
+        }
+      ],
+      "followers": 331181300,
+      "region": null,
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "unknown",
+          "reason": "未取得创作者地区",
+          "evidenceIds": [],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：tiktok",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "no_match",
+          "reason": "WaveSurge 粉丝数 331181300，要求 10000–100000",
+          "evidenceIds": [],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "digital_content",
+          "verdict": "unknown",
+          "reason": "唯一来源为 about:blank 空白页，没有简介或帖子文字，无法确认发布数码或消费电子内容；未提供可访问的主页或帖子链接。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ],
+          "label": "发布数码或消费电子相关内容"
+        },
+        {
+          "criterionId": "male_self_description",
+          "verdict": "unknown",
+          "reason": "空白页没有账号自身的公开介绍，无法核实明确男性自述；不从名称或外貌推断。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ],
+          "label": "账号自身的公开介绍明确表明为男性；未明确说明则为待确认，不从外貌推断"
+        },
+        {
+          "criterionId": "glasses_preference",
+          "verdict": "unknown",
+          "reason": "实际截图为空白，没有可用于判断佩戴眼镜的创作者图像。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ],
+          "label": "佩戴眼镜，优先但非硬性要求；需基于实际观察到的图像"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "a13f3f3f6fdb1fc89e0ab5b6",
+          "url": "about:blank",
+          "kind": "browser_snapshot",
+          "text": "",
+          "assetId": "31534d0ff8b0900213a111990b158c5b950eb67812e29c91cece6292ddac76c1"
+        }
+      ]
+    },
+    {
+      "id": "research-7e157f91534c9f8f156d257d|tiktok:stephencurry30",
+      "taskId": "research-7e157f91534c9f8f156d257d",
+      "handle": "stephencurry30",
+      "displayName": "Stephen Curry",
+      "platform": "tiktok",
+      "tags": [],
+      "verdict": "no_match",
+      "selected": false,
+      "revision": 1,
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "unknown",
+          "values": [],
+          "reason": "未取得实际简介或帖子内容。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ]
+        },
+        {
+          "dimensionId": "style",
+          "status": "unknown",
+          "values": [],
+          "reason": "空白页没有内容风格的文字或视觉依据。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ]
+        },
+        {
+          "dimensionId": "glasses",
+          "status": "unknown",
+          "values": [],
+          "reason": "截图未显示人物，无法进行眼镜视觉核验。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ]
+        }
+      ],
+      "followers": 308900000,
+      "region": null,
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "unknown",
+          "reason": "未取得创作者地区",
+          "evidenceIds": [],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：tiktok",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "no_match",
+          "reason": "WaveSurge 粉丝数 308900000，要求 10000–100000",
+          "evidenceIds": [],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "digital_content",
+          "verdict": "unknown",
+          "reason": "已有来源及本次观察均为 about:blank 空白页，没有简介、帖子文字或日期；未提供可访问的真实主页或帖子链接，无法判断是否发布数码或消费电子内容。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ],
+          "label": "发布数码或消费电子相关内容"
+        },
+        {
+          "criterionId": "male_self_description",
+          "verdict": "unknown",
+          "reason": "空白页未显示账号自身公开介绍，没有明确男性自述；不能从姓名或外部印象推断。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ],
+          "label": "账号自身的公开介绍明确表明为男性；未明确说明则为待确认，不从外貌推断"
+        },
+        {
+          "criterionId": "glasses_preference",
+          "verdict": "unknown",
+          "reason": "实际截图为空白，无创作者可观察图像，无法确认是否佩戴眼镜。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ],
+          "label": "佩戴眼镜，优先但非硬性要求；需基于实际观察到的图像"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "a13f3f3f6fdb1fc89e0ab5b6",
+          "url": "about:blank",
+          "kind": "browser_snapshot",
+          "text": "",
+          "assetId": "31534d0ff8b0900213a111990b158c5b950eb67812e29c91cece6292ddac76c1"
+        }
+      ]
+    },
+    {
+      "id": "research-7e157f91534c9f8f156d257d|tiktok:seed02678",
+      "taskId": "research-7e157f91534c9f8f156d257d",
+      "handle": "seed02678",
+      "displayName": "seed02678",
+      "platform": "tiktok",
+      "tags": [],
+      "verdict": "no_match",
+      "selected": false,
+      "revision": 1,
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "unknown",
+          "values": [],
+          "reason": "无可核验的简介或帖子内容。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ]
+        },
+        {
+          "dimensionId": "style",
+          "status": "unknown",
+          "values": [],
+          "reason": "无可观察的创作者内容，无法判断内容风格。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ]
+        },
+        {
+          "dimensionId": "glasses",
+          "status": "unknown",
+          "values": [],
+          "reason": "截图为空白，无法判断是否戴眼镜。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ]
+        }
+      ],
+      "followers": 267848000,
+      "region": null,
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "unknown",
+          "reason": "未取得创作者地区",
+          "evidenceIds": [],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：tiktok",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "no_match",
+          "reason": "WaveSurge 粉丝数 267848000，要求 10000–100000",
+          "evidenceIds": [],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "digital_content",
+          "verdict": "unknown",
+          "reason": "现有来源仅为 about:blank 空白页；未提供有效主页链接或帖子文字，无法核实是否发布数码或消费电子内容。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ],
+          "label": "发布数码或消费电子相关内容"
+        },
+        {
+          "criterionId": "male_self_description",
+          "verdict": "unknown",
+          "reason": "空白页无账号公开介绍，现有资料也无男性自述，无法确认。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ],
+          "label": "账号自身的公开介绍明确表明为男性；未明确说明则为待确认，不从外貌推断"
+        },
+        {
+          "criterionId": "glasses_preference",
+          "verdict": "unknown",
+          "reason": "实际观察到的截图为空白，没有可用于核验佩戴眼镜的创作者图像。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ],
+          "label": "佩戴眼镜，优先但非硬性要求；需基于实际观察到的图像"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "a13f3f3f6fdb1fc89e0ab5b6",
+          "url": "about:blank",
+          "kind": "browser_snapshot",
+          "text": "",
+          "assetId": "31534d0ff8b0900213a111990b158c5b950eb67812e29c91cece6292ddac76c1"
+        }
+      ]
+    },
+    {
+      "id": "research-7e157f91534c9f8f156d257d|tiktok:voodoo_248",
+      "taskId": "research-7e157f91534c9f8f156d257d",
+      "handle": "voodoo_248",
+      "displayName": "voodoo248",
+      "platform": "tiktok",
+      "tags": [],
+      "verdict": "no_match",
+      "selected": false,
+      "revision": 1,
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "unknown",
+          "values": [],
+          "reason": "没有可核验的简介或帖子内容。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ]
+        },
+        {
+          "dimensionId": "style",
+          "status": "unknown",
+          "values": [],
+          "reason": "空白页面不提供内容风格依据。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ]
+        },
+        {
+          "dimensionId": "glasses",
+          "status": "unknown",
+          "values": [],
+          "reason": "截图无人物，无法提供眼镜画像值。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ]
+        }
+      ],
+      "followers": 248207800,
+      "region": null,
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "unknown",
+          "reason": "未取得创作者地区",
+          "evidenceIds": [],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：tiktok",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "no_match",
+          "reason": "WaveSurge 粉丝数 248207800，要求 10000–100000",
+          "evidenceIds": [],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "digital_content",
+          "verdict": "unknown",
+          "reason": "已有来源及当前观察均为 about:blank 空白页，无简介或帖子文字；未提供可访问的主页或帖子 HTTP 链接，无法核验数码或消费电子内容。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ],
+          "label": "发布数码或消费电子相关内容"
+        },
+        {
+          "criterionId": "male_self_description",
+          "verdict": "unknown",
+          "reason": "当前来源为空白页，无账号自身公开介绍或明确男性自述，不能推断性别。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ],
+          "label": "账号自身的公开介绍明确表明为男性；未明确说明则为待确认，不从外貌推断"
+        },
+        {
+          "criterionId": "glasses_preference",
+          "verdict": "unknown",
+          "reason": "实际截图为空白页，没有创作者图像，无法判断是否佩戴眼镜。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ],
+          "label": "佩戴眼镜，优先但非硬性要求；需基于实际观察到的图像"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "a13f3f3f6fdb1fc89e0ab5b6",
+          "url": "about:blank",
+          "kind": "browser_snapshot",
+          "text": "",
+          "assetId": "31534d0ff8b0900213a111990b158c5b950eb67812e29c91cece6292ddac76c1"
+        }
+      ]
+    }
+  ],
+  "modelCalls": [
+    {
+      "id": "e64f4719-8b24-4afc-b611-15aa790bfb4b",
+      "kind": "chat",
+      "createdAt": 1791613061497,
+      "finishedAt": 1791613065408,
+      "model": "gpt-6.1-sol",
+      "toolNames": [
+        "get_tasks",
+        "search_history",
+        "start_research",
+        "cancel_research",
+        "enrich_results",
+        "get_results",
+        "save_campaign_plan",
+        "get_campaigns",
+        "start_campaign"
+      ],
+      "response": {
+        "role": "assistant",
+        "content": null,
+        "reasoning_content": null,
+        "tool_calls": [
+          {
+            "id": "call_6TQn8D5Bm0xMGwi4PvAqnQRI",
+            "type": "function",
+            "function": {
+              "name": "get_campaigns",
+              "arguments": "{\"id\":\"campaign-9d63bb971fa097c467999073\"}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "95804b1d-163f-412a-bb0c-1926e0444ffa",
+      "kind": "chat",
+      "createdAt": 1791613065429,
+      "finishedAt": 1791613080599,
+      "model": "gpt-6.1-sol",
+      "toolNames": [
+        "get_tasks",
+        "search_history",
+        "start_research",
+        "cancel_research",
+        "enrich_results",
+        "get_results",
+        "save_campaign_plan",
+        "get_campaigns",
+        "start_campaign"
+      ],
+      "response": {
+        "role": "assistant",
+        "content": null,
+        "reasoning_content": null,
+        "tool_calls": [
+          {
+            "id": "call_guNNpXGFiuAgOBUeoIPoYv4t",
+            "type": "function",
+            "function": {
+              "name": "save_campaign_plan",
+              "arguments": "{\"id\":\"campaign-9d63bb971fa097c467999073\",\"revision\":1,\"plan\":{\"title\":\"美国 AI 课堂笔记工具 YouTube 小规模注册测试\",\"goal\":\"下个月在美国推广 AI 课堂笔记工具：将英文课堂录音转成笔记与复习题，免费试用无需绑卡，注册网址已准备好；通过小规模创作者合作促进大学生注册。本阶段仅研究，不联系创作者。\",\"audience\":\"美国大学生，有课堂笔记整理和复习自测需求。\",\"groups\":[{\"id\":\"study_methods\",\"rationale\":\"通过大学学习方法和复习场景展示录音转笔记与复习题的用途，帮助大学生理解产品价值并愿意免费注册。\",\"spec\":{\"title\":\"YouTube 大学学习方法创作者\",\"personaText\":\"college study methods, lecture note taking and exam revision creators\",\"count\":1,\"platforms\":[\"youtube\"],\"regions\":[\"United States\"],\"minFollowers\":10000,\"maxFollowers\":100000,\"candidateBudget\":2,\"criteria\":[{\"id\":\"study_content\",\"label\":\"有学习方法、课堂笔记整理或备考复习相关内容依据\",\"required\":true,\"basis\":\"text\"},{\"id\":\"college_audience\",\"label\":\"有明确面向大学生的内容依据，不要求创作者本人是在校生\",\"required\":true,\"basis\":\"text\"}],\"annotations\":[{\"id\":\"content_direction\",\"label\":\"内容方向\"},{\"id\":\"expression_style\",\"label\":\"表达风格\"},{\"id\":\"collaboration_fit\",\"label\":\"适合的合作方式\"}]}},{\"id\":\"ai_productivity\",\"rationale\":\"通过面向大学生的 AI 和效率工具实测或教程展示产品操作流程及适用场景，降低免费试用门槛并引导注册；优先考虑实际讲过 Notion 或 AI 笔记工具的人，但不作为合格硬门槛。\",\"spec\":{\"title\":\"YouTube 大学生 AI 与效率工具创作者\",\"personaText\":\"AI and productivity tool tutorials and reviews for college students, Notion and AI note-taking tools\",\"count\":1,\"platforms\":[\"youtube\"],\"regions\":[\"United States\"],\"minFollowers\":10000,\"maxFollowers\":100000,\"candidateBudget\":2,\"criteria\":[{\"id\":\"ai_productivity_content\",\"label\":\"有 AI 或效率工具教程、实测或评测相关内容依据\",\"required\":true,\"basis\":\"text\"},{\"id\":\"college_audience\",\"label\":\"有明确面向大学生的内容依据，不要求创作者本人是在校生\",\"required\":true,\"basis\":\"text\"},{\"id\":\"notion_ai_notes_preference\",\"label\":\"实际发布过讲解、演示、实测或评测 Notion 或 AI 笔记工具的内容；仅为优先项，缺少该内容不影响必选条件合格判定\",\"required\":false,\"basis\":\"text\"}],\"annotations\":[{\"id\":\"content_direction\",\"label\":\"内容方向\"},{\"id\":\"expression_style\",\"label\":\"表达风格\"},{\"id\":\"collaboration_fit\",\"label\":\"适合的合作方式\"}]}}]}}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "2b8ff1ab-57cd-4674-9fa1-7dddd2500a32",
+      "kind": "chat",
+      "createdAt": 1791613080639,
+      "finishedAt": 1791613096049,
+      "model": "gpt-6.1-sol",
+      "toolNames": [
+        "get_tasks",
+        "search_history",
+        "start_research",
+        "cancel_research",
+        "enrich_results",
+        "get_results",
+        "save_campaign_plan",
+        "get_campaigns",
+        "start_campaign"
+      ],
+      "response": {
+        "role": "assistant",
+        "content": "已更新并保存为 **v2 草案**，**尚未启动研究，也不会联系创作者**。\n\n### 更新后的两类范围\n\n| 类型 | 必选内容条件 | 优先项 | 目标 / 候选上限 |\n|---|---|---|---|\n| **大学学习方法类** | 有学习方法、课堂笔记或复习内容，且有明确面向大学生的内容依据 | 不新增 | 1 人 / 最多 2 个候选 |\n| **大学生 AI 与效率工具类** | 有 AI 或效率工具教程、实测或评测，且有明确面向大学生的内容依据 | **实际讲过 Notion 或 AI 笔记工具**，有具体内容依据者优先 | 1 人 / 最多 2 个候选 |\n\n第二类的新增项**不是硬门槛**：没有相关内容仍可合格；证据不足则写“待确认”，不视为已满足优先项。\n\n### 其余全部保持不变\n- **YouTube**，创作者**本人在美国**，订阅数 **1万–10万**。\n- 不要求本人是在校生。\n- 每类找 1 人，总目标 **2 位不同创作者**；同一人不重复计入两类配额。\n- 每类最多看 2 个候选，不自动扩大上限。\n- 每人标注**内容方向、表达风格、适合的合作方式**，附简短依据；无证据写“待确认”，合作建议与已证实事实分开。\n- 仅研究，不联系创作者、不自动开展付费搜索。\n\n**方案编号：** `campaign-9d63bb971fa097c467999073`  \n**当前版本：v2**\n\n等你看完并确认 v2 后再开始。",
+        "reasoning_content": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "toolReceipts": [
+    {
+      "call": {
+        "id": "call_6TQn8D5Bm0xMGwi4PvAqnQRI",
+        "type": "function",
+        "function": {
+          "name": "get_campaigns",
+          "arguments": "{\"id\":\"campaign-9d63bb971fa097c467999073\"}"
+        }
+      },
+      "message": {
+        "role": "tool",
+        "tool_call_id": "call_6TQn8D5Bm0xMGwi4PvAqnQRI",
+        "content": "{\"title\":\"美国 AI 课堂笔记工具 YouTube 小规模注册测试\",\"goal\":\"下个月在美国推广 AI 课堂笔记工具：将英文课堂录音转成笔记与复习题，免费试用无需绑卡，注册网址已准备好；通过小规模创作者合作促进大学生注册。本阶段仅研究，不联系创作者。\",\"audience\":\"美国大学生，有课堂笔记整理和复习自测需求。\",\"groups\":[{\"id\":\"study_methods\",\"rationale\":\"通过大学学习方法和复习场景展示录音转笔记与复习题的用途，帮助大学生理解产品价值并愿意免费注册。\",\"spec\":{\"title\":\"YouTube 大学学习方法创作者\",\"personaText\":\"college study methods, lecture note taking and exam revision creators\",\"count\":1,\"platforms\":[\"youtube\"],\"regions\":[\"United States\"],\"minFollowers\":10000,\"maxFollowers\":100000,\"candidateBudget\":2,\"criteria\":[{\"id\":\"study_content\",\"label\":\"有学习方法、课堂笔记整理或备考复习相关内容依据\",\"required\":true,\"basis\":\"text\"},{\"id\":\"college_audience\",\"label\":\"有明确面向大学生的内容依据，不要求创作者本人是在校生\",\"required\":true,\"basis\":\"text\"}],\"annotations\":[{\"id\":\"content_direction\",\"label\":\"内容方向\"},{\"id\":\"expression_style\",\"label\":\"表达风格\"},{\"id\":\"collaboration_fit\",\"label\":\"适合的合作方式\"}]},\"matched\":0,\"eligible\":0},{\"id\":\"ai_productivity\",\"rationale\":\"通过面向大学生的 AI 和效率工具实测或教程展示产品操作流程及适用场景，降低免费试用门槛并引导注册。\",\"spec\":{\"title\":\"YouTube 大学生 AI 与效率工具创作者\",\"personaText\":\"AI and productivity tool tutorials and reviews for college students\",\"count\":1,\"platforms\":[\"youtube\"],\"regions\":[\"United States\"],\"minFollowers\":10000,\"maxFollowers\":100000,\"candidateBudget\":2,\"criteria\":[{\"id\":\"ai_productivity_content\",\"label\":\"有 AI 或效率工具教程、实测或评测相关内容依据\",\"required\":true,\"basis\":\"text\"},{\"id\":\"college_audience\",\"label\":\"有明确面向大学生的内容依据，不要求创作者本人是在校生\",\"required\":true,\"basis\":\"text\"}],\"annotations\":[{\"id\":\"content_direction\",\"label\":\"内容方向\"},{\"id\":\"expression_style\",\"label\":\"表达风格\"},{\"id\":\"collaboration_fit\",\"label\":\"适合的合作方式\"}]},\"matched\":0,\"eligible\":0}],\"id\":\"campaign-9d63bb971fa097c467999073\",\"revision\":1,\"childTaskIds\":[],\"createdAt\":1791612977824,\"updatedAt\":1791612977824,\"status\":\"draft\",\"requested\":2,\"matched\":0,\"qualifyingUnique\":0,\"evaluated\":0,\"selections\":[],\"reportUrl\":\"/api/campaigns/campaign-9d63bb971fa097c467999073/report\"}"
+      }
+    },
+    {
+      "call": {
+        "id": "call_guNNpXGFiuAgOBUeoIPoYv4t",
+        "type": "function",
+        "function": {
+          "name": "save_campaign_plan",
+          "arguments": "{\"id\":\"campaign-9d63bb971fa097c467999073\",\"revision\":1,\"plan\":{\"title\":\"美国 AI 课堂笔记工具 YouTube 小规模注册测试\",\"goal\":\"下个月在美国推广 AI 课堂笔记工具：将英文课堂录音转成笔记与复习题，免费试用无需绑卡，注册网址已准备好；通过小规模创作者合作促进大学生注册。本阶段仅研究，不联系创作者。\",\"audience\":\"美国大学生，有课堂笔记整理和复习自测需求。\",\"groups\":[{\"id\":\"study_methods\",\"rationale\":\"通过大学学习方法和复习场景展示录音转笔记与复习题的用途，帮助大学生理解产品价值并愿意免费注册。\",\"spec\":{\"title\":\"YouTube 大学学习方法创作者\",\"personaText\":\"college study methods, lecture note taking and exam revision creators\",\"count\":1,\"platforms\":[\"youtube\"],\"regions\":[\"United States\"],\"minFollowers\":10000,\"maxFollowers\":100000,\"candidateBudget\":2,\"criteria\":[{\"id\":\"study_content\",\"label\":\"有学习方法、课堂笔记整理或备考复习相关内容依据\",\"required\":true,\"basis\":\"text\"},{\"id\":\"college_audience\",\"label\":\"有明确面向大学生的内容依据，不要求创作者本人是在校生\",\"required\":true,\"basis\":\"text\"}],\"annotations\":[{\"id\":\"content_direction\",\"label\":\"内容方向\"},{\"id\":\"expression_style\",\"label\":\"表达风格\"},{\"id\":\"collaboration_fit\",\"label\":\"适合的合作方式\"}]}},{\"id\":\"ai_productivity\",\"rationale\":\"通过面向大学生的 AI 和效率工具实测或教程展示产品操作流程及适用场景，降低免费试用门槛并引导注册；优先考虑实际讲过 Notion 或 AI 笔记工具的人，但不作为合格硬门槛。\",\"spec\":{\"title\":\"YouTube 大学生 AI 与效率工具创作者\",\"personaText\":\"AI and productivity tool tutorials and reviews for college students, Notion and AI note-taking tools\",\"count\":1,\"platforms\":[\"youtube\"],\"regions\":[\"United States\"],\"minFollowers\":10000,\"maxFollowers\":100000,\"candidateBudget\":2,\"criteria\":[{\"id\":\"ai_productivity_content\",\"label\":\"有 AI 或效率工具教程、实测或评测相关内容依据\",\"required\":true,\"basis\":\"text\"},{\"id\":\"college_audience\",\"label\":\"有明确面向大学生的内容依据，不要求创作者本人是在校生\",\"required\":true,\"basis\":\"text\"},{\"id\":\"notion_ai_notes_preference\",\"label\":\"实际发布过讲解、演示、实测或评测 Notion 或 AI 笔记工具的内容；仅为优先项，缺少该内容不影响必选条件合格判定\",\"required\":false,\"basis\":\"text\"}],\"annotations\":[{\"id\":\"content_direction\",\"label\":\"内容方向\"},{\"id\":\"expression_style\",\"label\":\"表达风格\"},{\"id\":\"collaboration_fit\",\"label\":\"适合的合作方式\"}]}}]}}"
+        }
+      },
+      "message": {
+        "role": "tool",
+        "tool_call_id": "call_guNNpXGFiuAgOBUeoIPoYv4t",
+        "content": "{\"title\":\"美国 AI 课堂笔记工具 YouTube 小规模注册测试\",\"goal\":\"下个月在美国推广 AI 课堂笔记工具：将英文课堂录音转成笔记与复习题，免费试用无需绑卡，注册网址已准备好；通过小规模创作者合作促进大学生注册。本阶段仅研究，不联系创作者。\",\"audience\":\"美国大学生，有课堂笔记整理和复习自测需求。\",\"groups\":[{\"id\":\"study_methods\",\"rationale\":\"通过大学学习方法和复习场景展示录音转笔记与复习题的用途，帮助大学生理解产品价值并愿意免费注册。\",\"spec\":{\"title\":\"YouTube 大学学习方法创作者\",\"personaText\":\"college study methods, lecture note taking and exam revision creators\",\"count\":1,\"platforms\":[\"youtube\"],\"regions\":[\"United States\"],\"minFollowers\":10000,\"maxFollowers\":100000,\"candidateBudget\":2,\"criteria\":[{\"id\":\"study_content\",\"label\":\"有学习方法、课堂笔记整理或备考复习相关内容依据\",\"required\":true,\"basis\":\"text\"},{\"id\":\"college_audience\",\"label\":\"有明确面向大学生的内容依据，不要求创作者本人是在校生\",\"required\":true,\"basis\":\"text\"}],\"annotations\":[{\"id\":\"content_direction\",\"label\":\"内容方向\"},{\"id\":\"expression_style\",\"label\":\"表达风格\"},{\"id\":\"collaboration_fit\",\"label\":\"适合的合作方式\"}]}},{\"id\":\"ai_productivity\",\"rationale\":\"通过面向大学生的 AI 和效率工具实测或教程展示产品操作流程及适用场景，降低免费试用门槛并引导注册；优先考虑实际讲过 Notion 或 AI 笔记工具的人，但不作为合格硬门槛。\",\"spec\":{\"title\":\"YouTube 大学生 AI 与效率工具创作者\",\"personaText\":\"AI and productivity tool tutorials and reviews for college students, Notion and AI note-taking tools\",\"count\":1,\"platforms\":[\"youtube\"],\"regions\":[\"United States\"],\"minFollowers\":10000,\"maxFollowers\":100000,\"candidateBudget\":2,\"criteria\":[{\"id\":\"ai_productivity_content\",\"label\":\"有 AI 或效率工具教程、实测或评测相关内容依据\",\"required\":true,\"basis\":\"text\"},{\"id\":\"college_audience\",\"label\":\"有明确面向大学生的内容依据，不要求创作者本人是在校生\",\"required\":true,\"basis\":\"text\"},{\"id\":\"notion_ai_notes_preference\",\"label\":\"实际发布过讲解、演示、实测或评测 Notion 或 AI 笔记工具的内容；仅为优先项，缺少该内容不影响必选条件合格判定\",\"required\":false,\"basis\":\"text\"}],\"annotations\":[{\"id\":\"content_direction\",\"label\":\"内容方向\"},{\"id\":\"expression_style\",\"label\":\"表达风格\"},{\"id\":\"collaboration_fit\",\"label\":\"适合的合作方式\"}]}}],\"id\":\"campaign-9d63bb971fa097c467999073\",\"revision\":2,\"childTaskIds\":[],\"createdAt\":1791612977824,\"updatedAt\":1791613080615}"
+      }
+    }
+  ],
+  "waveCalls": [],
+  "chatReportLinks": [
+    {
+      "text": "查看完整报告",
+      "href": "/api/reports/research-7e157f91534c9f8f156d257d"
+    },
+    {
+      "text": "下载 CSV",
+      "href": "/api/reports/research-7e157f91534c9f8f156d257d?format=csv"
+    }
+  ]
+}

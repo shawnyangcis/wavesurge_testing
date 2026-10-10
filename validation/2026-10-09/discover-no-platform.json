@@ -1,0 +1,12 @@
+{
+  "atUtc": "2026-10-09T14:19:57.519367+00:00",
+  "method": "GET",
+  "path": "/discover/db",
+  "status": 400,
+  "elapsedSeconds": 0.511,
+  "contentType": "application/json; charset=utf-8",
+  "responseSha256": "48d8002f769c1a80bd4d6b51e74efef81ed4d5d09b6bac94f50f28f837b6e5e4",
+  "response": {
+    "error": "platform required"
+  }
+}

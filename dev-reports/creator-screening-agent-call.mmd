@@ -1,0 +1,41 @@
+flowchart TD
+    ENTRY["调用方：聊天 Agent / CampaignPlanner / 逐人 Agent / 压缩任务"] --> GUARD["检查调用与工具预算、期限、取消状态<br/>取得 conversation epoch / revision 与 task revision"]
+    GUARD --> BUDGET{"预算和运行状态允许？"}
+    BUDGET -->|否| PAUSE
+    BUDGET -->|是| CONFIG["每次调用前读取最新 configuration_versions<br/>固定本次 system / workflow / model profile 版本<br/>Key 只从后端秘密配置读取"]
+    CONFIG --> CONTEXT["代码组装本次工作上下文<br/>系统 + 工作流 + 当前任务事实 + 有界历史引用<br/>摘要 + 完整消息与工具配对 + 当前输入<br/>规划调用注入当前 Brief / Plan 与用户修改<br/>逐人调用仅注入当前 Creator 和 evidenceId"]
+    CONTEXT --> SIZE{"完整输入预算超过阈值？"}
+    SIZE -->|是| COMPACT["压缩器选择已完成的旧消息前缀<br/>保留当前请求、最新纠正及未结清工具批次<br/>有界压缩调用不递归压缩；记录调用与摘要"]
+    COMPACT --> REV{"摘要有效且上下文 revision 未变？"}
+    REV -->|是| CHECKPOINT["事务保存 context_checkpoints<br/>成功后才切换摘要与保留尾部"]
+    CHECKPOINT --> GUARD
+    REV -->|上下文已变| GUARD
+    REV -->|失败或仍超限| PAUSE["保存失败或 needs_input<br/>保留原历史；停止超限重试"]
+    SIZE -->|否| CALL["先保存 llm_calls 的实际请求<br/>消息、图片引用、工具 schema、版本、调用关联 ID<br/>调用 OpenAI 兼容模型并接收 stream"]
+    CALL --> RESPONSE["保存实际 response、usage、耗时和错误<br/>完整可见消息进入 events；文本 delta 供 SSE 展示"]
+    RESPONSE --> TYPE{"返回类型？"}
+    TYPE -->|暂时失败且预算内| GUARD
+    TYPE -->|不可恢复错误| PAUSE
+    TYPE -->|工具调用| TOOLS["注册表校验名称、参数 schema、权限与任务范围<br/>保存 tool intent；未知或非法调用返回工具错误"]
+    TOOLS --> EXEC["受限执行器执行工具并保存 effect / result<br/>同一工具调用 ID 去重；有副作用先持久化意图<br/>结果过大：保存原文，只返回有限摘要与引用"]
+    EXEC --> ASSIST{"工具要求人工协助？"}
+    ASSIST -->|是| HUMANWAIT["保存配对工具结果、协助与 run 等待状态；SSE 显示接管卡<br/>停止循环调用模型；人工操作后投递原 work binding continuation<br/>校验代次、取消与预算，重新观察；不重放旧点击"]
+    HUMANWAIT --> GUARD
+    ASSIST -->|否| PAIR["保存 assistant tool_call 与完整 tool_result 配对<br/>任务创建工具调用确定性工作流<br/>远端轮询由后台调度器接手"]
+    PAIR --> GUARD
+    TYPE -->|最终输出| VALIDATE["调用方校验结构与业务语义<br/>CampaignPlan：类型、配额、假设与授权版本完整<br/>TaskSpec：条件与歧义完整<br/>Assessment：逐条件三态与有效证据引用"]
+    VALIDATE -->|可修复且预算内| GUARD
+    VALIDATE -->|有效| COMMIT["提交前复核 epoch、revision、lease 与取消状态<br/>事务保存采用的输出版本和事件<br/>返回聊天答复或逐人结果给工作流"]
+    VALIDATE -->|无效且重试耗尽| PAUSE
+    COMMIT --> RETURN["UI 显示答复 / 工作流更新结果计数<br/>调试查看本次实际 payload 与 response"]
+
+    SETTINGS["用户保存新提示词或模型配置"] -.-> CONFIG
+    RESET["清空上下文"] -.-> BOUNDARY["写新 epoch / reset 边界<br/>历史、任务与结果保留；旧调用不写入新 epoch"]
+    BOUNDARY -.-> GUARD
+    BACKUP["备份或载入工作上下文"] -.-> SNAPSHOT["导出上下文、配置非秘密字段、工具配对和媒体<br/>载入校验后建调试会话；不重放历史工具"]
+    SNAPSHOT -.-> GUARD
+
+    classDef agent fill:#e8eefc,stroke:#4169a1,color:#14263d;
+    classDef saved fill:#fff4df,stroke:#aa7d37,color:#493015;
+    class CONTEXT,COMPACT,CALL,VALIDATE agent;
+    class CHECKPOINT,CALL,RESPONSE,EXEC,PAIR,COMMIT,BOUNDARY,SNAPSHOT saved;

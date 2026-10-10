@@ -1,0 +1,5 @@
+import type { SearchSpec } from './research.ts';
+import { searchSchema } from './research.ts';
+export type CampaignGroup = { id: string; rationale: string; spec: SearchSpec };
+export type Campaign = { id: string; title: string; goal: string; audience: string; groups: CampaignGroup[]; revision: number; childTaskIds: string[]; createdAt: number; updatedAt: number; deliveryBatchId?: string };
+export const campaignSchema = { type: 'object', required: ['title', 'goal', 'audience', 'groups'], additionalProperties: false, properties: { title: { type: 'string', minLength: 1, maxLength: 200 }, goal: { type: 'string', minLength: 1, maxLength: 4000 }, audience: { type: 'string', minLength: 1, maxLength: 4000 }, groups: { type: 'array', minItems: 1, maxItems: 8, items: { type: 'object', required: ['id', 'rationale', 'spec'], additionalProperties: false, properties: { id: { type: 'string', pattern: '^[a-zA-Z0-9_-]+$', minLength: 1, maxLength: 100 }, rationale: { type: 'string', minLength: 1, maxLength: 2000 }, spec: searchSchema } } } } };

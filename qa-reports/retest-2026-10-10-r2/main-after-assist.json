@@ -1,0 +1,5005 @@
+{
+  "at": "2026-10-10T06:51:51.072Z",
+  "tasks": [
+    {
+      "id": "research-a333d174361fcf1bed6c0698",
+      "title": "Instagram 科技创作者筛选（加拿大或美国）",
+      "spec": {
+        "title": "Instagram 科技创作者筛选（加拿大或美国）",
+        "personaText": "寻找 2 位 Instagram 科技内容创作者，创作者所在地为 Canada 或 United States，粉丝数 10,000 至 100,000（含边界）。分享科技内容为必选文字条件；没有视觉条件，无邮箱要求。最多搜索并核验 4 位候选。仅检索与核验，不进行任何外联。",
+        "count": 2,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [
+          "Canada",
+          "United States"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "candidateBudget": 4,
+        "criteria": [
+          {
+            "id": "technology_content",
+            "label": "分享科技内容，依据本人简介或内容文字核验",
+            "required": true,
+            "basis": "text"
+          }
+        ]
+      },
+      "body": {
+        "requestId": "research-a333d174361fcf1bed6c0698",
+        "personaText": "寻找 2 位 Instagram 科技内容创作者，创作者所在地为 Canada 或 United States，粉丝数 10,000 至 100,000（含边界）。分享科技内容为必选文字条件；没有视觉条件，无邮箱要求。最多搜索并核验 4 位候选。仅检索与核验，不进行任何外联。",
+        "count": 4,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [
+          "Canada",
+          "United States"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "emailReadyRequired": false
+      },
+      "status": "partial",
+      "requested": 2,
+      "evaluated": 1,
+      "matched": 1,
+      "updatedAt": 1791607303205,
+      "detail": "历史结果已按统一账号身份、国家名称和证据重算：已选合格 1/2，核验 1。未确认条件保持 unknown；原分析已保留审计版本。",
+      "nextPollAt": 1791569460099,
+      "candidates": [
+        {
+          "id": "instagram:imthegeekjr",
+          "handle": "imthegeekjr",
+          "profileUrl": "https://www.instagram.com/imthegeekjr/",
+          "followers": 79634,
+          "region": "United States",
+          "evidenceCount": 2
+        }
+      ],
+      "failures": [],
+      "remoteId": "24b86cb6-354f-45ac-b5a6-d98c90e8a541",
+      "remoteStatus": "done",
+      "qualifying": 1
+    },
+    {
+      "id": "research-010f8c5e484e38738b2b3640",
+      "title": "浏览器人工协助验收 browser-1791571235315",
+      "spec": {
+        "title": "浏览器人工协助验收 browser-1791571235315",
+        "personaText": "控制性测试创作者，公开帖子必须人工验证后访问。",
+        "count": 1,
+        "candidateBudget": 1,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [],
+        "minFollowers": 0,
+        "maxFollowers": 100000,
+        "criteria": [
+          {
+            "id": "technology",
+            "label": "公开帖子画面可见 CHIP / CIRCUIT BOARD 字样；先访问来源取得截图，遇到验证须人工协助，不能以简介代替画面",
+            "basis": "visual",
+            "required": true
+          }
+        ]
+      },
+      "body": {
+        "requestId": "research-010f8c5e484e38738b2b3640",
+        "personaText": "控制性测试创作者，公开帖子必须人工验证后访问。",
+        "count": 1,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [],
+        "minFollowers": 0,
+        "maxFollowers": 100000,
+        "emailReadyRequired": false
+      },
+      "status": "completed",
+      "requested": 1,
+      "evaluated": 1,
+      "matched": 1,
+      "updatedAt": 1791607303229,
+      "detail": "历史结果已按统一账号身份、国家名称和证据重算：已选合格 1/1，核验 1。未确认条件保持 unknown；原分析已保留审计版本。",
+      "nextPollAt": 0,
+      "candidates": [
+        {
+          "id": "instagram:fixture-browser-1791571235315",
+          "handle": "fixture-browser-1791571235315",
+          "profileUrl": "http://127.0.0.1:8085/",
+          "followers": 10000,
+          "region": null,
+          "evidenceCount": 4
+        }
+      ],
+      "failures": [],
+      "remoteId": "fixture-browser-1791571235315",
+      "remoteStatus": "done",
+      "qualifying": 1
+    },
+    {
+      "id": "research-98350042b636d08a5d424a6c",
+      "title": "科技/耳机评测创作者 1791572085141",
+      "spec": {
+        "title": "科技/耳机评测创作者 1791572085141",
+        "personaText": "筛选1位Instagram创作者，所在地Canada或United States，粉丝10,000至100,000，分享科技或耳机评测内容。所有条件均为必选文字条件，无视觉条件。不要求邮箱、不做外联。最多核验2个候选。与学习/效率生活组须为不同Instagram账号。",
+        "count": 1,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [
+          "Canada",
+          "United States"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "candidateBudget": 2,
+        "criteria": [
+          {
+            "id": "tech_review_content",
+            "label": "分享科技或耳机评测内容，须有内容文字证据支持。",
+            "required": true,
+            "basis": "text"
+          }
+        ]
+      },
+      "body": {
+        "requestId": "research-98350042b636d08a5d424a6c",
+        "personaText": "筛选1位Instagram创作者，所在地Canada或United States，粉丝10,000至100,000，分享科技或耳机评测内容。所有条件均为必选文字条件，无视觉条件。不要求邮箱、不做外联。最多核验2个候选。与学习/效率生活组须为不同Instagram账号。",
+        "count": 2,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [
+          "Canada",
+          "United States"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "emailReadyRequired": false
+      },
+      "status": "partial",
+      "requested": 1,
+      "evaluated": 0,
+      "matched": 0,
+      "updatedAt": 1791572491151,
+      "detail": "已合格 0/1，已核验 0；证据不足者保持待核实。",
+      "nextPollAt": 1791572431048,
+      "candidates": [],
+      "failures": [],
+      "exhaustive": true,
+      "remoteId": "6f09acf3-e189-4e88-8dc9-b6f1403aa1d7",
+      "remoteStatus": "done",
+      "qualifying": 0
+    },
+    {
+      "id": "research-d7687a09b9a84db8c236a706",
+      "title": "学习/效率生活创作者 1791572085141",
+      "spec": {
+        "title": "学习/效率生活创作者 1791572085141",
+        "personaText": "筛选1位Instagram创作者，所在地Canada或United States，粉丝10,000至100,000，分享学习或效率生活内容。所有条件均为必选文字条件，无视觉条件。不要求邮箱、不做外联。最多核验2个候选。与科技/耳机评测组须为不同Instagram账号。",
+        "count": 1,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [
+          "Canada",
+          "United States"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "candidateBudget": 2,
+        "criteria": [
+          {
+            "id": "study_campus_content",
+            "label": "分享学习或效率生活内容，须有内容文字证据支持。",
+            "required": true,
+            "basis": "text"
+          }
+        ]
+      },
+      "body": {
+        "requestId": "research-d7687a09b9a84db8c236a706",
+        "personaText": "筛选1位Instagram创作者，所在地Canada或United States，粉丝10,000至100,000，分享学习或效率生活内容。所有条件均为必选文字条件，无视觉条件。不要求邮箱、不做外联。最多核验2个候选。与科技/耳机评测组须为不同Instagram账号。",
+        "count": 2,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [
+          "Canada",
+          "United States"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "emailReadyRequired": false
+      },
+      "status": "partial",
+      "requested": 1,
+      "evaluated": 0,
+      "matched": 0,
+      "updatedAt": 1791572371165,
+      "detail": "已合格 0/1，已核验 0；证据不足者保持待核实。",
+      "nextPollAt": 1791572311436,
+      "candidates": [],
+      "failures": [],
+      "exhaustive": true,
+      "remoteId": "7fde3d0c-efa7-49ca-9a84-d28e27f2d2e3",
+      "remoteStatus": "done",
+      "qualifying": 0
+    },
+    {
+      "id": "research-329ed36c04d98223b610f7c0",
+      "title": "科技/耳机评测",
+      "spec": {
+        "title": "科技/耳机评测",
+        "personaText": "technology and headphone reviewers",
+        "count": 1,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [
+          "Canada",
+          "United States"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "candidateBudget": 2,
+        "criteria": [
+          {
+            "id": "tech_review_content",
+            "label": "分享科技或耳机评测内容，须有文字证据支持。",
+            "required": true,
+            "basis": "text"
+          }
+        ]
+      },
+      "body": {
+        "requestId": "research-329ed36c04d98223b610f7c0",
+        "personaText": "technology and headphone reviewers",
+        "count": 2,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [
+          "Canada",
+          "United States"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "emailReadyRequired": false
+      },
+      "status": "partial",
+      "requested": 1,
+      "evaluated": 0,
+      "matched": 0,
+      "updatedAt": 1791574391734,
+      "detail": "已合格 0/1，已核验 0；证据不足者保持待核实。",
+      "nextPollAt": 1791574126543,
+      "candidates": [],
+      "failures": [],
+      "exhaustive": true,
+      "remoteId": "f9690908-d01c-4c74-a839-c048379f984a",
+      "remoteStatus": "done",
+      "qualifying": 0
+    },
+    {
+      "id": "research-58949888b306ad726d60be23",
+      "title": "学习/效率生活",
+      "spec": {
+        "title": "学习/效率生活",
+        "personaText": "study and productivity creators",
+        "count": 1,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [
+          "Canada",
+          "United States"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "candidateBudget": 2,
+        "criteria": [
+          {
+            "id": "study_productivity_content",
+            "label": "分享学习或效率生活内容，须有文字证据支持。",
+            "required": true,
+            "basis": "text"
+          }
+        ]
+      },
+      "body": {
+        "requestId": "research-58949888b306ad726d60be23",
+        "personaText": "study and productivity creators",
+        "count": 2,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [
+          "Canada",
+          "United States"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "emailReadyRequired": false
+      },
+      "status": "completed",
+      "requested": 1,
+      "evaluated": 2,
+      "matched": 1,
+      "updatedAt": 1791607303284,
+      "detail": "历史结果已按统一账号身份、国家名称和证据重算：已选合格 1/1，核验 2。未确认条件保持 unknown；原分析已保留审计版本。",
+      "nextPollAt": 0,
+      "candidates": [
+        {
+          "id": "instagram:scorpiorisingmedia",
+          "handle": "scorpiorisingmedia",
+          "profileUrl": "https://www.instagram.com/scorpiorisingmedia/",
+          "followers": 51901,
+          "region": "Philadelphia (Philly), United States",
+          "evidenceCount": 5
+        },
+        {
+          "id": "instagram:khushleenvirk",
+          "handle": "khushleenvirk",
+          "profileUrl": "https://www.instagram.com/khushleenvirk/",
+          "followers": 52727,
+          "region": "Canada",
+          "evidenceCount": 6
+        }
+      ],
+      "failures": [],
+      "exhaustive": true,
+      "remoteId": "81a2c6c7-32b9-4db3-9c16-ebb7b7adf986",
+      "remoteStatus": "done",
+      "qualifying": 1
+    },
+    {
+      "id": "research-5e4db1193ded213e791cd417",
+      "title": "浏览器人工协助验收 skip-1791573434577",
+      "spec": {
+        "title": "浏览器人工协助验收 skip-1791573434577",
+        "personaText": "控制性测试创作者，公开帖子必须人工验证后访问。",
+        "count": 1,
+        "candidateBudget": 1,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [],
+        "minFollowers": 0,
+        "maxFollowers": 100000,
+        "criteria": [
+          {
+            "id": "technology",
+            "label": "公开帖子画面可见 CHIP / CIRCUIT BOARD 字样；先访问来源取得截图，遇到验证须人工协助，不能以简介代替画面",
+            "basis": "visual",
+            "required": true
+          }
+        ]
+      },
+      "body": {
+        "requestId": "research-5e4db1193ded213e791cd417",
+        "personaText": "控制性测试创作者，公开帖子必须人工验证后访问。",
+        "count": 1,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [],
+        "minFollowers": 0,
+        "maxFollowers": 100000,
+        "emailReadyRequired": false
+      },
+      "status": "partial",
+      "requested": 1,
+      "evaluated": 1,
+      "matched": 0,
+      "updatedAt": 1791607303299,
+      "detail": "历史结果已按统一账号身份、国家名称和证据重算：已选合格 0/1，核验 1。未确认条件保持 unknown；原分析已保留审计版本。",
+      "nextPollAt": 0,
+      "candidates": [
+        {
+          "id": "instagram:fixture-skip-1791573434577",
+          "handle": "fixture-skip-1791573434577",
+          "profileUrl": "http://127.0.0.1:8085/skip",
+          "followers": 10000,
+          "region": null,
+          "evidenceCount": 2
+        }
+      ],
+      "failures": [],
+      "remoteId": "fixture-skip-1791573434577",
+      "remoteStatus": "done",
+      "qualifying": 0
+    },
+    {
+      "id": "research-5b048604116d7fcbdce4e705",
+      "title": "测试类型 A",
+      "spec": {
+        "title": "测试类型 A",
+        "personaText": "controlled technology creator fixture",
+        "count": 1,
+        "candidateBudget": 2,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [],
+        "minFollowers": 0,
+        "maxFollowers": 100000,
+        "criteria": [
+          {
+            "id": "chip",
+            "label": "公开帖子截图中可见 CHIP / CIRCUIT BOARD 字样；必须取得真实浏览器截图",
+            "basis": "visual",
+            "required": true
+          }
+        ]
+      },
+      "body": {
+        "requestId": "research-5b048604116d7fcbdce4e705",
+        "personaText": "controlled technology creator fixture",
+        "count": 2,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [],
+        "minFollowers": 0,
+        "maxFollowers": 100000,
+        "emailReadyRequired": false
+      },
+      "status": "cancelled",
+      "requested": 1,
+      "evaluated": 0,
+      "matched": 0,
+      "updatedAt": 1791573633809,
+      "detail": "已停止本地核验；WaveSurge 没有已验证的远端取消接口，远端搜索可能继续",
+      "nextPollAt": 1791573671384,
+      "candidates": [],
+      "failures": [],
+      "exhaustive": true,
+      "remoteId": "05b79b83-a3c7-4dd1-a90b-81a958601b15",
+      "remoteStatus": "running",
+      "qualifying": 0
+    },
+    {
+      "id": "research-9698a6d1fc749a4a3df6084e",
+      "title": "测试类型 B",
+      "spec": {
+        "title": "测试类型 B",
+        "personaText": "controlled technology creator fixture",
+        "count": 1,
+        "candidateBudget": 2,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [],
+        "minFollowers": 0,
+        "maxFollowers": 100000,
+        "criteria": [
+          {
+            "id": "chip",
+            "label": "公开帖子截图中可见 CHIP / CIRCUIT BOARD 字样；必须取得真实浏览器截图",
+            "basis": "visual",
+            "required": true
+          }
+        ]
+      },
+      "body": {
+        "requestId": "research-9698a6d1fc749a4a3df6084e",
+        "personaText": "controlled technology creator fixture",
+        "count": 2,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [],
+        "minFollowers": 0,
+        "maxFollowers": 100000,
+        "emailReadyRequired": false
+      },
+      "status": "cancelled",
+      "requested": 1,
+      "evaluated": 0,
+      "matched": 0,
+      "updatedAt": 1791573633815,
+      "detail": "已停止本地核验；WaveSurge 没有已验证的远端取消接口，远端搜索可能继续",
+      "nextPollAt": 1791573611649,
+      "candidates": [],
+      "failures": [],
+      "exhaustive": true,
+      "remoteId": "d4678638-98d2-4c18-9d2c-3d1c5adf6587",
+      "qualifying": 0
+    },
+    {
+      "id": "research-53d5f515c5959e5d00495f27",
+      "title": "测试类型 A",
+      "spec": {
+        "title": "测试类型 A",
+        "personaText": "controlled technology creator fixture",
+        "count": 1,
+        "candidateBudget": 2,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [],
+        "minFollowers": 0,
+        "maxFollowers": 100000,
+        "criteria": [
+          {
+            "id": "chip",
+            "label": "公开帖子截图中可见 CHIP / CIRCUIT BOARD 字样；必须取得真实浏览器截图",
+            "basis": "visual",
+            "required": true
+          }
+        ]
+      },
+      "body": {
+        "requestId": "research-53d5f515c5959e5d00495f27",
+        "personaText": "controlled technology creator fixture",
+        "count": 2,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [],
+        "minFollowers": 0,
+        "maxFollowers": 100000,
+        "emailReadyRequired": false
+      },
+      "status": "cancelled",
+      "requested": 1,
+      "evaluated": 0,
+      "matched": 0,
+      "updatedAt": 1791573842258,
+      "detail": "已停止本地核验；WaveSurge 没有已验证的远端取消接口，远端搜索可能继续",
+      "nextPollAt": 0,
+      "candidates": [
+        {
+          "id": "instagram:fixture-campaign-shared",
+          "handle": "fixture-campaign-shared",
+          "profileUrl": "http://127.0.0.1:8085/",
+          "followers": 20000,
+          "region": null,
+          "evidenceCount": 2
+        },
+        {
+          "id": "instagram:fixture-campaign-only-a",
+          "handle": "fixture-campaign-only-a",
+          "profileUrl": "http://127.0.0.1:8085/",
+          "followers": 20000,
+          "region": null,
+          "evidenceCount": 1
+        }
+      ],
+      "failures": [],
+      "exhaustive": true,
+      "remoteId": "fixture-research-53d5f515c5959e5d00495f27",
+      "remoteStatus": "done",
+      "qualifying": 0
+    },
+    {
+      "id": "research-b2efbf875587dbc4b18f0e68",
+      "title": "测试类型 B",
+      "spec": {
+        "title": "测试类型 B",
+        "personaText": "controlled technology creator fixture",
+        "count": 1,
+        "candidateBudget": 2,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [],
+        "minFollowers": 0,
+        "maxFollowers": 100000,
+        "criteria": [
+          {
+            "id": "chip",
+            "label": "公开帖子截图中可见 CHIP / CIRCUIT BOARD 字样；必须取得真实浏览器截图",
+            "basis": "visual",
+            "required": true
+          }
+        ]
+      },
+      "body": {
+        "requestId": "research-b2efbf875587dbc4b18f0e68",
+        "personaText": "controlled technology creator fixture",
+        "count": 2,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [],
+        "minFollowers": 0,
+        "maxFollowers": 100000,
+        "emailReadyRequired": false
+      },
+      "status": "cancelled",
+      "requested": 1,
+      "evaluated": 0,
+      "matched": 0,
+      "updatedAt": 1791573842261,
+      "detail": "已停止本地核验；WaveSurge 没有已验证的远端取消接口，远端搜索可能继续",
+      "nextPollAt": 0,
+      "candidates": [
+        {
+          "id": "instagram:fixture-campaign-shared",
+          "handle": "fixture-campaign-shared",
+          "profileUrl": "http://127.0.0.1:8085/",
+          "followers": 20000,
+          "region": null,
+          "evidenceCount": 1
+        }
+      ],
+      "failures": [],
+      "exhaustive": true,
+      "remoteId": "fixture-research-b2efbf875587dbc4b18f0e68",
+      "remoteStatus": "done",
+      "qualifying": 0
+    },
+    {
+      "id": "research-6b62fedb31c94ffb3dfd83b8",
+      "title": "测试类型 A",
+      "spec": {
+        "title": "测试类型 A",
+        "personaText": "controlled technology creator fixture",
+        "count": 1,
+        "candidateBudget": 2,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [],
+        "minFollowers": 0,
+        "maxFollowers": 100000,
+        "criteria": [
+          {
+            "id": "chip",
+            "label": "公开帖子截图中可见 CHIP / CIRCUIT BOARD 字样；必须取得真实浏览器截图",
+            "basis": "visual",
+            "required": true
+          }
+        ]
+      },
+      "body": {
+        "requestId": "research-6b62fedb31c94ffb3dfd83b8",
+        "personaText": "controlled technology creator fixture",
+        "count": 2,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [],
+        "minFollowers": 0,
+        "maxFollowers": 100000,
+        "emailReadyRequired": false
+      },
+      "status": "completed",
+      "requested": 1,
+      "evaluated": 2,
+      "matched": 1,
+      "updatedAt": 1791607303338,
+      "detail": "历史结果已按统一账号身份、国家名称和证据重算：已选合格 1/1，核验 2。未确认条件保持 unknown；原分析已保留审计版本。",
+      "nextPollAt": 0,
+      "candidates": [
+        {
+          "id": "instagram:fixture-campaign-shared",
+          "handle": "fixture-campaign-shared",
+          "profileUrl": "http://127.0.0.1:8085/",
+          "followers": 20000,
+          "region": null,
+          "evidenceCount": 2
+        },
+        {
+          "id": "instagram:fixture-campaign-only-a",
+          "handle": "fixture-campaign-only-a",
+          "profileUrl": "http://127.0.0.1:8085/",
+          "followers": 20000,
+          "region": null,
+          "evidenceCount": 2
+        }
+      ],
+      "failures": [],
+      "exhaustive": true,
+      "remoteId": "fixture-research-6b62fedb31c94ffb3dfd83b8",
+      "remoteStatus": "done",
+      "qualifying": 2
+    },
+    {
+      "id": "research-7df22029caef61df6134e885",
+      "title": "测试类型 B",
+      "spec": {
+        "title": "测试类型 B",
+        "personaText": "controlled technology creator fixture",
+        "count": 1,
+        "candidateBudget": 2,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [],
+        "minFollowers": 0,
+        "maxFollowers": 100000,
+        "criteria": [
+          {
+            "id": "chip",
+            "label": "公开帖子截图中可见 CHIP / CIRCUIT BOARD 字样；必须取得真实浏览器截图",
+            "basis": "visual",
+            "required": true
+          }
+        ]
+      },
+      "body": {
+        "requestId": "research-7df22029caef61df6134e885",
+        "personaText": "controlled technology creator fixture",
+        "count": 2,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [],
+        "minFollowers": 0,
+        "maxFollowers": 100000,
+        "emailReadyRequired": false
+      },
+      "status": "completed",
+      "requested": 1,
+      "evaluated": 1,
+      "matched": 1,
+      "updatedAt": 1791607303350,
+      "detail": "历史结果已按统一账号身份、国家名称和证据重算：已选合格 1/1，核验 1。未确认条件保持 unknown；原分析已保留审计版本。",
+      "nextPollAt": 0,
+      "candidates": [
+        {
+          "id": "instagram:fixture-campaign-shared",
+          "handle": "fixture-campaign-shared",
+          "profileUrl": "http://127.0.0.1:8085/",
+          "followers": 20000,
+          "region": null,
+          "evidenceCount": 2
+        }
+      ],
+      "failures": [],
+      "exhaustive": true,
+      "remoteId": "fixture-research-7df22029caef61df6134e885",
+      "remoteStatus": "done",
+      "qualifying": 1
+    },
+    {
+      "id": "research-bcebf909d61af9519dc124f3",
+      "title": "浏览器人工协助验收 skip-1791574367119",
+      "spec": {
+        "title": "浏览器人工协助验收 skip-1791574367119",
+        "personaText": "控制性测试创作者，公开帖子必须人工验证后访问。",
+        "count": 1,
+        "candidateBudget": 1,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [],
+        "minFollowers": 0,
+        "maxFollowers": 100000,
+        "criteria": [
+          {
+            "id": "technology",
+            "label": "公开帖子画面可见 CHIP / CIRCUIT BOARD 字样；先访问来源取得截图，遇到验证须人工协助，不能以简介代替画面",
+            "basis": "visual",
+            "required": true
+          }
+        ]
+      },
+      "body": {
+        "requestId": "research-bcebf909d61af9519dc124f3",
+        "personaText": "控制性测试创作者，公开帖子必须人工验证后访问。",
+        "count": 1,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [],
+        "minFollowers": 0,
+        "maxFollowers": 100000,
+        "emailReadyRequired": false
+      },
+      "status": "partial",
+      "requested": 1,
+      "evaluated": 1,
+      "matched": 0,
+      "updatedAt": 1791607303360,
+      "detail": "历史结果已按统一账号身份、国家名称和证据重算：已选合格 0/1，核验 1。未确认条件保持 unknown；原分析已保留审计版本。",
+      "nextPollAt": 0,
+      "candidates": [
+        {
+          "id": "instagram:fixture-skip-1791574367119",
+          "handle": "fixture-skip-1791574367119",
+          "profileUrl": "http://127.0.0.1:8085/skip",
+          "followers": 10000,
+          "region": null,
+          "evidenceCount": 2
+        }
+      ],
+      "failures": [],
+      "remoteId": "fixture-skip-1791574367119",
+      "remoteStatus": "done",
+      "qualifying": 0
+    },
+    {
+      "id": "research-a5b580b3d9a62868bf773f08",
+      "title": "浏览器人工协助验收 browser-1791575005743",
+      "spec": {
+        "title": "浏览器人工协助验收 browser-1791575005743",
+        "personaText": "控制性测试创作者，公开帖子必须人工验证后访问。",
+        "count": 1,
+        "candidateBudget": 1,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [],
+        "minFollowers": 0,
+        "maxFollowers": 100000,
+        "criteria": [
+          {
+            "id": "technology",
+            "label": "公开帖子画面可见 CHIP / CIRCUIT BOARD 字样；先访问来源取得截图，遇到验证须人工协助，不能以简介代替画面",
+            "basis": "visual",
+            "required": true
+          }
+        ]
+      },
+      "body": {
+        "requestId": "research-a5b580b3d9a62868bf773f08",
+        "personaText": "控制性测试创作者，公开帖子必须人工验证后访问。",
+        "count": 1,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [],
+        "minFollowers": 0,
+        "maxFollowers": 100000,
+        "emailReadyRequired": false
+      },
+      "status": "completed",
+      "requested": 1,
+      "evaluated": 1,
+      "matched": 1,
+      "updatedAt": 1791607303371,
+      "detail": "历史结果已按统一账号身份、国家名称和证据重算：已选合格 1/1，核验 1。未确认条件保持 unknown；原分析已保留审计版本。",
+      "nextPollAt": 0,
+      "candidates": [
+        {
+          "id": "instagram:fixture-browser-1791575005743",
+          "handle": "fixture-browser-1791575005743",
+          "profileUrl": "http://127.0.0.1:8085/?case=browser-1791575005743",
+          "followers": 10000,
+          "region": null,
+          "evidenceCount": 3
+        }
+      ],
+      "failures": [],
+      "remoteId": "fixture-browser-1791575005743",
+      "remoteStatus": "done",
+      "qualifying": 1
+    },
+    {
+      "id": "research-d22f5bc3f9c80da1a4979ca5",
+      "title": "Review独立真实筛选",
+      "spec": {
+        "title": "Review独立真实筛选",
+        "personaText": "technology content creators",
+        "count": 1,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [
+          "United States",
+          "Canada"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "candidateBudget": 2,
+        "criteria": [
+          {
+            "id": "technology_content",
+            "label": "公开文字内容明确分享科技内容",
+            "required": true,
+            "basis": "text"
+          }
+        ]
+      },
+      "body": {
+        "requestId": "research-d22f5bc3f9c80da1a4979ca5",
+        "personaText": "technology content creators",
+        "count": 2,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [
+          "United States",
+          "Canada"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "emailReadyRequired": false
+      },
+      "status": "completed",
+      "requested": 1,
+      "evaluated": 2,
+      "matched": 1,
+      "updatedAt": 1791613527411,
+      "detail": "历史结果已按统一账号身份、国家名称和证据重算：已选合格 1/1，核验 2。未确认条件保持 unknown；原分析已保留审计版本。",
+      "nextPollAt": 0,
+      "candidates": [
+        {
+          "id": "instagram:tylerlcrawford",
+          "handle": "tylerlcrawford",
+          "profileUrl": "https://www.instagram.com/tylerlcrawford/",
+          "followers": 31213,
+          "region": "US",
+          "evidenceCount": 4
+        },
+        {
+          "id": "instagram:valstechtalkk",
+          "handle": "valstechtalkk",
+          "profileUrl": "https://www.instagram.com/valstechtalkk/",
+          "followers": 39639,
+          "region": "US",
+          "evidenceCount": 5
+        }
+      ],
+      "failures": [],
+      "remoteId": "b5722567-4ae0-435a-b6e9-0c5873d6486e",
+      "remoteStatus": "done",
+      "qualifying": 1
+    },
+    {
+      "id": "research-a183b9437d676713c0f2812f",
+      "title": "Geek风戴眼镜的Instagram普通消费者创作者",
+      "spec": {
+        "title": "Geek风戴眼镜的Instagram普通消费者创作者",
+        "personaText": "ordinary consumer creators with a geek aesthetic and glasses who publicly self-identify as white",
+        "count": 20,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [
+          "United States",
+          "Canada",
+          "United Kingdom",
+          "Germany",
+          "France"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "candidateBudget": 40,
+        "criteria": [
+          {
+            "id": "geek_visual",
+            "label": "近期公开内容呈现科技宅、书卷或极客穿搭风格；依据内容视觉证据，不仅依据头像",
+            "required": true,
+            "basis": "visual"
+          },
+          {
+            "id": "glasses_visual",
+            "label": "公开内容中佩戴眼镜，以内容视觉证据核验，不仅依据头像",
+            "required": true,
+            "basis": "visual"
+          },
+          {
+            "id": "white_self_identification",
+            "label": "创作者本人明确公开自述为白人；不得根据外貌、姓名或所在地推断；没有明确自述证据则为unknown，不计为合格",
+            "required": true,
+            "basis": "text"
+          },
+          {
+            "id": "ordinary_consumer_koc",
+            "label": "KOC为普通消费者创作者，排除机构账号和明星；须以公开资料核验，不能仅凭粉丝数量认定KOC身份",
+            "required": true,
+            "basis": "text"
+          }
+        ]
+      },
+      "body": {
+        "requestId": "research-a183b9437d676713c0f2812f",
+        "personaText": "ordinary consumer creators with a geek aesthetic and glasses who publicly self-identify as white",
+        "count": 40,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [
+          "United States",
+          "Canada",
+          "United Kingdom",
+          "Germany",
+          "France"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "emailReadyRequired": false
+      },
+      "status": "needs_input",
+      "requested": 20,
+      "evaluated": 1,
+      "matched": 0,
+      "updatedAt": 1791615077330,
+      "detail": "需要人工协助：Instagram 帖子 https://www.instagram.com/kennedyslocum/p/Dd1rVBxGpxj/ 出现登录/注册弹窗，帖子媒体未显示，无法核验近期极客风格和佩戴眼镜。请通过同一浏览器桌面协助恢复公开内容访问；我不会输入登录凭据或绕过限制。；请打开桌面协助，完成后继续原候选",
+      "nextPollAt": 0,
+      "candidates": [
+        {
+          "id": "instagram:franhaddock_",
+          "handle": "franhaddock_",
+          "profileUrl": "https://www.instagram.com/franhaddock_/",
+          "followers": 14872,
+          "region": "GB",
+          "evidenceCount": 9
+        },
+        {
+          "id": "instagram:kennedyslocum",
+          "handle": "kennedyslocum",
+          "profileUrl": "https://www.instagram.com/kennedyslocum/",
+          "followers": 16974,
+          "region": "US",
+          "evidenceCount": 5
+        },
+        {
+          "id": "instagram:neighbourbecci",
+          "handle": "neighbourbecci",
+          "profileUrl": "https://www.instagram.com/neighbourbecci/",
+          "followers": 60586,
+          "region": "CA",
+          "evidenceCount": 3
+        }
+      ],
+      "failures": [
+        "WaveSurge 远端搜索失败；保留已返回候选继续本地核验，不重新提交搜索"
+      ],
+      "exhaustive": true,
+      "remoteId": "bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "remoteStatus": "failed",
+      "qualifying": 0
+    },
+    {
+      "id": "research-fd88375f69e716ff5cbc9fef",
+      "title": "课堂笔记与考试复习方法创作者",
+      "spec": {
+        "title": "课堂笔记与考试复习方法创作者",
+        "personaText": "study methods, classroom note-taking and exam revision creators",
+        "count": 1,
+        "platforms": [
+          "youtube"
+        ],
+        "regions": [
+          "United States"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "candidateBudget": 2,
+        "criteria": [
+          {
+            "id": "english_content",
+            "label": "公开内容使用英语",
+            "required": true,
+            "basis": "text"
+          },
+          {
+            "id": "study_scenarios",
+            "label": "公开内容明确分享课堂笔记整理或考试复习方法，至少涉及其中一种场景",
+            "required": true,
+            "basis": "text"
+          },
+          {
+            "id": "college_relevance",
+            "label": "公开内容明确面向大学学习场景或大学生受众，不推断创作者本人学生身份",
+            "required": true,
+            "basis": "text"
+          }
+        ]
+      },
+      "body": {
+        "requestId": "research-fd88375f69e716ff5cbc9fef",
+        "personaText": "study methods, classroom note-taking and exam revision creators",
+        "count": 2,
+        "platforms": [
+          "youtube"
+        ],
+        "regions": [
+          "United States"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "emailReadyRequired": false
+      },
+      "status": "partial",
+      "requested": 1,
+      "evaluated": 2,
+      "matched": 0,
+      "updatedAt": 1791613295017,
+      "detail": "历史结果已按统一账号身份、国家名称和证据重算：已选合格 0/1，核验 2。未确认条件保持 unknown；原分析已保留审计版本。",
+      "nextPollAt": 1791598003992,
+      "candidates": [
+        {
+          "id": "youtube:schoolhabits",
+          "handle": "schoolhabits",
+          "profileUrl": "https://www.youtube.com/@schoolhabits",
+          "followers": null,
+          "region": null,
+          "evidenceCount": 8
+        },
+        {
+          "id": "youtube:raytubelcsw",
+          "handle": "raytubelcsw",
+          "profileUrl": "https://www.youtube.com/@raytubelcsw",
+          "followers": null,
+          "region": null,
+          "evidenceCount": 5
+        }
+      ],
+      "failures": [],
+      "exhaustive": true,
+      "remoteId": "7c1837b8-3ec0-4d06-9f4d-752eebc40f64",
+      "remoteStatus": "done",
+      "qualifying": 0
+    },
+    {
+      "id": "research-b30bacd90e74569b33e06bfc",
+      "title": "AI与数字学习工具教学创作者",
+      "spec": {
+        "title": "AI与数字学习工具教学创作者",
+        "personaText": "step-by-step AI and digital learning tool tutorial creators for classroom notes and exam revision",
+        "count": 1,
+        "platforms": [
+          "youtube"
+        ],
+        "regions": [
+          "United States"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "candidateBudget": 2,
+        "criteria": [
+          {
+            "id": "english_content",
+            "label": "公开内容使用英语",
+            "required": true,
+            "basis": "text"
+          },
+          {
+            "id": "tool_tutorials",
+            "label": "公开文字内容须提供AI工具或数字学习效率工具的实际教学教程，明确呈现具体操作步骤；仅有概括讲解、展示或评测不满足条件",
+            "required": true,
+            "basis": "text"
+          },
+          {
+            "id": "notes_revision_use",
+            "label": "公开文字教程必须明确展示将工具用于课堂笔记或考试复习的具体步骤，至少涉及其中一种用途；仅提及用途而无具体步骤不满足条件",
+            "required": true,
+            "basis": "text"
+          },
+          {
+            "id": "college_relevance",
+            "label": "公开内容明确面向大学学习场景或大学生受众，不推断创作者本人学生身份",
+            "required": true,
+            "basis": "text"
+          }
+        ]
+      },
+      "body": {
+        "requestId": "research-b30bacd90e74569b33e06bfc",
+        "personaText": "step-by-step AI and digital learning tool tutorial creators for classroom notes and exam revision",
+        "count": 2,
+        "platforms": [
+          "youtube"
+        ],
+        "regions": [
+          "United States"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "emailReadyRequired": false
+      },
+      "status": "partial",
+      "requested": 1,
+      "evaluated": 2,
+      "matched": 0,
+      "updatedAt": 1791613319922,
+      "detail": "历史结果已按统一账号身份、国家名称和证据重算：已选合格 0/1，核验 2。未确认条件保持 unknown；原分析已保留审计版本。",
+      "nextPollAt": 1791597579739,
+      "candidates": [
+        {
+          "id": "youtube:colelangs",
+          "handle": "colelangs",
+          "profileUrl": "https://www.youtube.com/@colelangs",
+          "followers": null,
+          "region": null,
+          "evidenceCount": 9
+        },
+        {
+          "id": "youtube:wesleyanna",
+          "handle": "wesleyanna",
+          "profileUrl": "https://www.youtube.com/@wesleyanna",
+          "followers": null,
+          "region": null,
+          "evidenceCount": 9
+        }
+      ],
+      "failures": [],
+      "exhaustive": true,
+      "remoteId": "ff3ac6fb-fa15-4b8d-b358-e7bf18e642de",
+      "remoteStatus": "done",
+      "qualifying": 0
+    },
+    {
+      "id": "enrich-8871961801ae75d3e4c07269",
+      "resultTaskId": "research-b30bacd90e74569b33e06bfc",
+      "title": "补充画像：AI与数字学习工具教学创作者",
+      "status": "completed",
+      "requested": 2,
+      "evaluated": 2,
+      "matched": 0,
+      "detail": "已处理 2 个已有账号；失败 0。",
+      "updatedAt": 1791607507825
+    },
+    {
+      "id": "enrich-e6bac783cce66bf50203c22a",
+      "resultTaskId": "research-b30bacd90e74569b33e06bfc",
+      "title": "补充画像：AI与数字学习工具教学创作者",
+      "status": "completed",
+      "requested": 2,
+      "evaluated": 2,
+      "matched": 0,
+      "detail": "已处理 2 个已有账号；失败 0。",
+      "updatedAt": 1791608204740
+    },
+    {
+      "id": "enrich-19b749da2108bcce416e3a31",
+      "resultTaskId": "research-d22f5bc3f9c80da1a4979ca5",
+      "title": "补充画像：Review独立真实筛选",
+      "status": "partial",
+      "requested": 2,
+      "evaluated": 2,
+      "matched": 2,
+      "detail": "已处理 2 个已有账号；失败 1。research-d22f5bc3f9c80da1a4979ca5|instagram:tylerlcrawford: 模型请求失败（408）",
+      "updatedAt": 1791613177057
+    },
+    {
+      "id": "enrich-32f9c222ba018ba1748b584e",
+      "resultTaskId": "research-fd88375f69e716ff5cbc9fef",
+      "title": "补充画像：课堂笔记与考试复习方法创作者",
+      "status": "completed",
+      "requested": 2,
+      "evaluated": 2,
+      "matched": 0,
+      "detail": "已处理 2 个已有账号；失败 0。",
+      "updatedAt": 1791613295025
+    },
+    {
+      "id": "enrich-150446afeae8ce042413a76e",
+      "resultTaskId": "research-b30bacd90e74569b33e06bfc",
+      "title": "补充画像：AI与数字学习工具教学创作者",
+      "status": "completed",
+      "requested": 2,
+      "evaluated": 2,
+      "matched": 0,
+      "detail": "已处理 2 个已有账号；失败 0。",
+      "updatedAt": 1791613319931
+    },
+    {
+      "id": "enrich-6fcbc9e0deacef35d5bcc9df",
+      "resultTaskId": "research-d22f5bc3f9c80da1a4979ca5",
+      "title": "补充画像：Review独立真实筛选",
+      "status": "completed",
+      "requested": 1,
+      "evaluated": 1,
+      "matched": 0,
+      "detail": "已处理 1 个已有账号；失败 0。",
+      "updatedAt": 1791613527419
+    },
+    {
+      "id": "research-deadf97a7b6138ba6d316943",
+      "title": "tylerlcrawford 数码内容文字核验",
+      "spec": {
+        "title": "tylerlcrawford 数码内容文字核验",
+        "personaText": "Instagram account tylerlcrawford, digital technology content",
+        "instagram": {
+          "queries": [
+            "tylerlcrawford"
+          ],
+          "version": "v3"
+        },
+        "annotations": [
+          {
+            "id": "content_direction",
+            "label": "内容方向"
+          }
+        ],
+        "count": 1,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "candidateBudget": 1,
+        "criteria": [
+          {
+            "id": "digital_content",
+            "label": "仅核验 Instagram 账号 tylerlcrawford 是否发布数码内容；仅使用接口取得的公开简介和帖子文字，不打开浏览器，不观察照片或外貌；缺少充分文字证据则保持待核实",
+            "required": true,
+            "basis": "text"
+          }
+        ]
+      },
+      "body": {
+        "requestId": "research-deadf97a7b6138ba6d316943",
+        "personaText": "Instagram account tylerlcrawford, digital technology content",
+        "count": 1,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "emailReadyRequired": false
+      },
+      "status": "running",
+      "requested": 1,
+      "evaluated": 0,
+      "matched": 0,
+      "updatedAt": 1791614142370,
+      "detail": "已读取 1 位候选；来源 已到本次读取边界，本地已合格 0 人",
+      "nextPollAt": 1791614143370,
+      "candidates": [
+        {
+          "id": "instagram:tylerlcrawford",
+          "handle": "tylerlcrawford",
+          "profileUrl": "https://www.instagram.com/tylerlcrawford/",
+          "followers": 31221,
+          "region": null,
+          "evidenceCount": 75,
+          "sourceErrors": []
+        }
+      ],
+      "failures": [],
+      "discovery": {
+        "platform": 0,
+        "keyword": 1,
+        "page": 0,
+        "cursor": "",
+        "seenCursors": [],
+        "seenUsers": [
+          "tylerlcrawford",
+          "tylercrawford118",
+          "tyler.crawford10",
+          "tylerjohncrawford",
+          "tyleracrawford",
+          "tyler.crawford03",
+          "tylerr.crawfordd",
+          "tyler_crawford3",
+          "tylercrawford.11",
+          "tycrawford1134",
+          "tyler_crawford___",
+          "_tyler_crawford__",
+          "tylermatthewcrawford",
+          "tyler_crawford23",
+          "tyler_crawford05",
+          "_864tyler",
+          "tyler.crawford.3517",
+          "tyler_crawford8",
+          "tyler_crawford88",
+          "tyler_crawford45",
+          "crawford.tyler5",
+          "tyler.crawford.311056",
+          "crawfish_kid",
+          "moosermantough",
+          "tcrawww",
+          "tyler.crawford.79656",
+          "tylercrawford503",
+          "tylercrawford4hallcounty",
+          "tyler__clayton",
+          "trenler.o.c"
+        ],
+        "pending": [
+          {
+            "username": "tylercrawford118"
+          },
+          {
+            "username": "tyler.crawford10"
+          },
+          {
+            "username": "tylerjohncrawford"
+          },
+          {
+            "username": "tyleracrawford"
+          },
+          {
+            "username": "tyler.crawford03"
+          },
+          {
+            "username": "tylerr.crawfordd"
+          },
+          {
+            "username": "tyler_crawford3"
+          },
+          {
+            "username": "tylercrawford.11"
+          },
+          {
+            "username": "tycrawford1134"
+          },
+          {
+            "username": "tyler_crawford___"
+          },
+          {
+            "username": "_tyler_crawford__"
+          },
+          {
+            "username": "tylermatthewcrawford"
+          },
+          {
+            "username": "tyler_crawford23"
+          },
+          {
+            "username": "tyler_crawford05"
+          },
+          {
+            "username": "_864tyler"
+          },
+          {
+            "username": "tyler.crawford.3517"
+          },
+          {
+            "username": "tyler_crawford8"
+          },
+          {
+            "username": "tyler_crawford88"
+          },
+          {
+            "username": "tyler_crawford45"
+          },
+          {
+            "username": "crawford.tyler5"
+          },
+          {
+            "username": "tyler.crawford.311056"
+          },
+          {
+            "username": "crawfish_kid"
+          },
+          {
+            "username": "moosermantough"
+          },
+          {
+            "username": "tcrawww"
+          },
+          {
+            "username": "tyler.crawford.79656"
+          },
+          {
+            "username": "tylercrawford503"
+          },
+          {
+            "username": "tylercrawford4hallcounty"
+          },
+          {
+            "username": "tyler__clayton"
+          },
+          {
+            "username": "trenler.o.c"
+          }
+        ],
+        "delivered": 1,
+        "done": true
+      },
+      "discoveryAttempts": 0,
+      "remoteStatus": "done"
+    }
+  ],
+  "assistance": [
+    {
+      "id": "785c48cd-9abc-439a-9638-e5d7dbc8ec17",
+      "taskId": "research-010f8c5e484e38738b2b3640",
+      "creatorId": "instagram:fixture-browser-1791571235315",
+      "reason": "已访问候选来源 http://127.0.0.1:8085/，页面显示“Verify you are human”，公开帖子须人工验证后才能查看（证据 50b100482bd8152145424db0）。请在同一浏览器桌面完成验证；之后我会重新观察并核验帖子画面中的 CHIP / CIRCUIT BOARD 字样。",
+      "status": "done"
+    },
+    {
+      "id": "97c46cdc-bc3e-4cf2-9e60-85e138889773",
+      "taskId": "research-5e4db1193ded213e791cd417",
+      "creatorId": "instagram:fixture-skip-1791573434577",
+      "reason": "来源页面出现“Verify you are human”人工验证，当前截图仅有验证提示，尚未显示公开帖子。请通过同一浏览器桌面完成验证；完成后我会重新观察页面，核验帖子画面是否出现 CHIP / CIRCUIT BOARD 字样。",
+      "status": "done"
+    },
+    {
+      "id": "cd97e624-9104-4861-8373-f001a7f0d1fe",
+      "taskId": "research-53d5f515c5959e5d00495f27",
+      "creatorId": "instagram:fixture-campaign-shared",
+      "reason": "候选页面 http://127.0.0.1:8085/skip 显示“Verify you are human”，公开帖子需要人工验证。目前截图仅为验证页，无法核验 CHIP / CIRCUIT BOARD 字样。请通过同一 noVNC 桌面完成验证，完成后我会重新观察页面并继续核验。",
+      "status": "done"
+    },
+    {
+      "id": "82e1d260-0c96-4809-a8f4-d1da8ba9de0d",
+      "taskId": "research-58949888b306ad726d60be23",
+      "creatorId": "instagram:khushleenvirk",
+      "reason": "Instagram 帖子出现注册/登录弹窗，遮挡公开内容。请在同一浏览器桌面协助解除弹窗或访问限制；当前主页仅自称 Productivity Coach，已读帖子主要推广信念与行动工作坊，尚不足以确认分享学习或效率生活内容。",
+      "status": "done"
+    },
+    {
+      "id": "f0bc4cdd-fd74-414e-92ee-08fefbdc8365",
+      "taskId": "research-bcebf909d61af9519dc124f3",
+      "creatorId": "instagram:fixture-skip-1791574367119",
+      "reason": "来源 http://127.0.0.1:8085/skip 当前显示“Verify you are human”，公开帖子被人工验证阻挡。截图仅有验证提示，无法核验帖子画面中的 CHIP / CIRCUIT BOARD 字样。请通过同一浏览器桌面完成验证；交还后我会重新观察页面。",
+      "status": "done"
+    },
+    {
+      "id": "8b25b676-cc58-4174-be58-a159c802506d",
+      "taskId": "research-a5b580b3d9a62868bf773f08",
+      "creatorId": "instagram:fixture-browser-1791575005743",
+      "reason": "来源页面停留在“Verify you are human”人工验证页，尚未显示公开帖子，无法核验画面中的 CHIP / CIRCUIT BOARD 字样。请在同一浏览器桌面完成验证；完成后我会重新观察页面并核验帖子截图。",
+      "status": "done"
+    },
+    {
+      "id": "6f47c3f9-594b-4f98-abcd-ca5633f8bbde",
+      "taskId": "research-d22f5bc3f9c80da1a4979ca5",
+      "creatorId": "instagram:valstechtalkk",
+      "reason": "Instagram 帖子页面出现注册/登录弹窗，遮挡帖子截图。已取得公开文字，包含“camera settings i turn on for the CRISP quality”及 #iphone、#iphonetips，但需请你在同一浏览器桌面处理弹窗；我不会输入登录凭据或绕过限制。",
+      "status": "done"
+    },
+    {
+      "id": "c1a80edd-7603-47c9-a36a-1c51720904ee",
+      "taskId": "research-a183b9437d676713c0f2812f",
+      "creatorId": "instagram:franhaddock_",
+      "reason": "Instagram 帖子出现登录/注册弹窗，遮挡视频中的人物，无法核验眼镜及 Geek 穿搭视觉条件。已保存主页与9月30日帖子文字；帖子作者的视频描述明确写有“a white woman with glasses”。请通过同一桌面协助解除遮挡或访问限制，完成后我会重新观察，不会输入登录凭据。",
+      "status": "done"
+    },
+    {
+      "id": "5349982f-1f76-4e48-a2b6-428bdca3ad62",
+      "taskId": "research-a183b9437d676713c0f2812f",
+      "creatorId": "instagram:kennedyslocum",
+      "reason": "Instagram 帖子 https://www.instagram.com/kennedyslocum/p/Dd1rVBxGpxj/ 出现登录/注册弹窗，帖子媒体未显示，无法核验近期极客风格和佩戴眼镜。请通过同一浏览器桌面协助恢复公开内容访问；我不会输入登录凭据或绕过限制。",
+      "status": "pending"
+    }
+  ],
+  "waveCalls": [
+    {
+      "path": "/creator-search/requests",
+      "status": 201,
+      "createdAt": 1791568955898,
+      "finishedAt": 1791568956259,
+      "responseKeys": [
+        "taskId"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/24b86cb6-354f-45ac-b5a6-d98c90e8a541",
+      "status": 200,
+      "createdAt": 1791569039519,
+      "finishedAt": 1791569040029,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/24b86cb6-354f-45ac-b5a6-d98c90e8a541",
+      "status": 200,
+      "createdAt": 1791569159533,
+      "finishedAt": 1791569160017,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/24b86cb6-354f-45ac-b5a6-d98c90e8a541",
+      "status": 200,
+      "createdAt": 1791569279568,
+      "finishedAt": 1791569280079,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/24b86cb6-354f-45ac-b5a6-d98c90e8a541",
+      "status": 200,
+      "createdAt": 1791569399601,
+      "finishedAt": 1791569400097,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/24b86cb6-354f-45ac-b5a6-d98c90e8a541",
+      "status": 200,
+      "createdAt": 1791569519631,
+      "finishedAt": 1791569520326,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "summary",
+        "usage",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests",
+      "status": 201,
+      "createdAt": 1791572154948,
+      "finishedAt": 1791572155194,
+      "responseKeys": [
+        "taskId"
+      ]
+    },
+    {
+      "path": "/creator-search/requests",
+      "status": 201,
+      "createdAt": 1791572155206,
+      "finishedAt": 1791572155433,
+      "responseKeys": [
+        "taskId"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/6f09acf3-e189-4e88-8dc9-b6f1403aa1d7",
+      "status": 200,
+      "createdAt": 1791572250811,
+      "finishedAt": 1791572251314,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/7fde3d0c-efa7-49ca-9a84-d28e27f2d2e3",
+      "status": 200,
+      "createdAt": 1791572251318,
+      "finishedAt": 1791572251434,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/6f09acf3-e189-4e88-8dc9-b6f1403aa1d7",
+      "status": 200,
+      "createdAt": 1791572370827,
+      "finishedAt": 1791572371045,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/7fde3d0c-efa7-49ca-9a84-d28e27f2d2e3",
+      "status": 200,
+      "createdAt": 1791572371049,
+      "finishedAt": 1791572371161,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "summary",
+        "usage",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/6f09acf3-e189-4e88-8dc9-b6f1403aa1d7",
+      "status": 200,
+      "createdAt": 1791572490910,
+      "finishedAt": 1791572491146,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "summary",
+        "usage",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests",
+      "status": 201,
+      "createdAt": 1791573263663,
+      "finishedAt": 1791573264180,
+      "responseKeys": [
+        "taskId"
+      ]
+    },
+    {
+      "path": "/creator-search/requests",
+      "status": 201,
+      "createdAt": 1791573264186,
+      "finishedAt": 1791573264641,
+      "responseKeys": [
+        "taskId"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/f9690908-d01c-4c74-a839-c048379f984a",
+      "status": 200,
+      "createdAt": 1791573370882,
+      "finishedAt": 1791573371106,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/81a2c6c7-32b9-4db3-9c16-ebb7b7adf986",
+      "status": 200,
+      "createdAt": 1791573371110,
+      "finishedAt": 1791573371224,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/f9690908-d01c-4c74-a839-c048379f984a",
+      "status": 200,
+      "createdAt": 1791573490912,
+      "finishedAt": 1791573491133,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/81a2c6c7-32b9-4db3-9c16-ebb7b7adf986",
+      "status": 200,
+      "createdAt": 1791573491138,
+      "finishedAt": 1791573491250,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests",
+      "status": 201,
+      "createdAt": 1791573550921,
+      "finishedAt": 1791573551164,
+      "responseKeys": [
+        "taskId"
+      ]
+    },
+    {
+      "path": "/creator-search/requests",
+      "status": 201,
+      "createdAt": 1791573551169,
+      "finishedAt": 1791573551643,
+      "responseKeys": [
+        "taskId"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/f9690908-d01c-4c74-a839-c048379f984a",
+      "status": 200,
+      "createdAt": 1791573610927,
+      "finishedAt": 1791573611154,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/81a2c6c7-32b9-4db3-9c16-ebb7b7adf986",
+      "status": 200,
+      "createdAt": 1791573611158,
+      "finishedAt": 1791573611269,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/05b79b83-a3c7-4dd1-a90b-81a958601b15",
+      "status": 200,
+      "createdAt": 1791573611273,
+      "finishedAt": 1791573611381,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/f9690908-d01c-4c74-a839-c048379f984a",
+      "status": 200,
+      "createdAt": 1791573728921,
+      "finishedAt": 1791573729147,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/81a2c6c7-32b9-4db3-9c16-ebb7b7adf986",
+      "status": 200,
+      "createdAt": 1791573729151,
+      "finishedAt": 1791573729257,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/f9690908-d01c-4c74-a839-c048379f984a",
+      "status": 200,
+      "createdAt": 1791573842357,
+      "finishedAt": 1791573842861,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/81a2c6c7-32b9-4db3-9c16-ebb7b7adf986",
+      "status": 200,
+      "createdAt": 1791573842866,
+      "finishedAt": 1791573842983,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/f9690908-d01c-4c74-a839-c048379f984a",
+      "status": 200,
+      "createdAt": 1791573958203,
+      "finishedAt": 1791573958736,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/81a2c6c7-32b9-4db3-9c16-ebb7b7adf986",
+      "status": 200,
+      "createdAt": 1791573958744,
+      "finishedAt": 1791573958859,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/f9690908-d01c-4c74-a839-c048379f984a",
+      "status": 200,
+      "createdAt": 1791574066039,
+      "finishedAt": 1791574066536,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/81a2c6c7-32b9-4db3-9c16-ebb7b7adf986",
+      "status": 200,
+      "createdAt": 1791574066546,
+      "finishedAt": 1791574066667,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "summary",
+        "usage",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/f9690908-d01c-4c74-a839-c048379f984a",
+      "status": 200,
+      "createdAt": 1791574391474,
+      "finishedAt": 1791574391731,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "summary",
+        "usage",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests",
+      "status": 201,
+      "createdAt": 1791594280559,
+      "finishedAt": 1791594280821,
+      "responseKeys": [
+        "taskId"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/b5722567-4ae0-435a-b6e9-0c5873d6486e",
+      "status": 200,
+      "createdAt": 1791594355091,
+      "finishedAt": 1791594355316,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/b5722567-4ae0-435a-b6e9-0c5873d6486e",
+      "status": 200,
+      "createdAt": 1791594475098,
+      "finishedAt": 1791594475314,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/b5722567-4ae0-435a-b6e9-0c5873d6486e",
+      "status": 200,
+      "createdAt": 1791594595106,
+      "finishedAt": 1791594595566,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/b5722567-4ae0-435a-b6e9-0c5873d6486e",
+      "status": 200,
+      "createdAt": 1791594657364,
+      "finishedAt": 1791594657898,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/b5722567-4ae0-435a-b6e9-0c5873d6486e",
+      "status": 200,
+      "createdAt": 1791594777373,
+      "finishedAt": 1791594777842,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/b5722567-4ae0-435a-b6e9-0c5873d6486e",
+      "status": 200,
+      "createdAt": 1791594897383,
+      "finishedAt": 1791594897820,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/b5722567-4ae0-435a-b6e9-0c5873d6486e",
+      "status": 200,
+      "createdAt": 1791595017395,
+      "finishedAt": 1791595017600,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/b5722567-4ae0-435a-b6e9-0c5873d6486e",
+      "status": 200,
+      "createdAt": 1791595137433,
+      "finishedAt": 1791595137654,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/b5722567-4ae0-435a-b6e9-0c5873d6486e",
+      "status": 200,
+      "createdAt": 1791595257444,
+      "finishedAt": 1791595257658,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/b5722567-4ae0-435a-b6e9-0c5873d6486e",
+      "status": 200,
+      "createdAt": 1791595377454,
+      "finishedAt": 1791595377925,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/b5722567-4ae0-435a-b6e9-0c5873d6486e",
+      "status": 200,
+      "createdAt": 1791595497468,
+      "finishedAt": 1791595497692,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/b5722567-4ae0-435a-b6e9-0c5873d6486e",
+      "status": 200,
+      "createdAt": 1791595617482,
+      "finishedAt": 1791595617680,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/b5722567-4ae0-435a-b6e9-0c5873d6486e",
+      "status": 200,
+      "createdAt": 1791595737495,
+      "finishedAt": 1791595737958,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests",
+      "status": 201,
+      "createdAt": 1791595746445,
+      "finishedAt": 1791595746670,
+      "responseKeys": [
+        "taskId"
+      ]
+    },
+    {
+      "path": "/creator-search/requests",
+      "status": 201,
+      "createdAt": 1791595748882,
+      "finishedAt": 1791595749024,
+      "responseKeys": [
+        "taskId"
+      ]
+    },
+    {
+      "path": "/creator-search/requests",
+      "status": 201,
+      "createdAt": 1791595749034,
+      "finishedAt": 1791595749497,
+      "responseKeys": [
+        "taskId"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/b5722567-4ae0-435a-b6e9-0c5873d6486e",
+      "status": 200,
+      "createdAt": 1791595857507,
+      "finishedAt": 1791595858030,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791595858036,
+      "finishedAt": 1791595858146,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/7c1837b8-3ec0-4d06-9f4d-752eebc40f64",
+      "status": 200,
+      "createdAt": 1791595858150,
+      "finishedAt": 1791595858253,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/ff3ac6fb-fa15-4b8d-b358-e7bf18e642de",
+      "status": 200,
+      "createdAt": 1791595858257,
+      "finishedAt": 1791595858373,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/b5722567-4ae0-435a-b6e9-0c5873d6486e",
+      "status": 200,
+      "createdAt": 1791595977521,
+      "finishedAt": 1791595977951,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791595977955,
+      "finishedAt": 1791595978053,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/7c1837b8-3ec0-4d06-9f4d-752eebc40f64",
+      "status": 200,
+      "createdAt": 1791595978056,
+      "finishedAt": 1791595978154,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/ff3ac6fb-fa15-4b8d-b358-e7bf18e642de",
+      "status": 200,
+      "createdAt": 1791595978157,
+      "finishedAt": 1791595978258,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/b5722567-4ae0-435a-b6e9-0c5873d6486e",
+      "status": 200,
+      "createdAt": 1791596097559,
+      "finishedAt": 1791596097783,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791596097786,
+      "finishedAt": 1791596097902,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/7c1837b8-3ec0-4d06-9f4d-752eebc40f64",
+      "status": 200,
+      "createdAt": 1791596097907,
+      "finishedAt": 1791596098037,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/ff3ac6fb-fa15-4b8d-b358-e7bf18e642de",
+      "status": 200,
+      "createdAt": 1791596098040,
+      "finishedAt": 1791596098167,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/b5722567-4ae0-435a-b6e9-0c5873d6486e",
+      "status": 200,
+      "createdAt": 1791596217568,
+      "finishedAt": 1791596218035,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791596218039,
+      "finishedAt": 1791596218147,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/7c1837b8-3ec0-4d06-9f4d-752eebc40f64",
+      "status": 200,
+      "createdAt": 1791596218151,
+      "finishedAt": 1791596218258,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/ff3ac6fb-fa15-4b8d-b358-e7bf18e642de",
+      "status": 200,
+      "createdAt": 1791596218265,
+      "finishedAt": 1791596218375,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/b5722567-4ae0-435a-b6e9-0c5873d6486e",
+      "status": 200,
+      "createdAt": 1791596337577,
+      "finishedAt": 1791596338070,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791596338072,
+      "finishedAt": 1791596338188,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/7c1837b8-3ec0-4d06-9f4d-752eebc40f64",
+      "status": 200,
+      "createdAt": 1791596338191,
+      "finishedAt": 1791596338310,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/ff3ac6fb-fa15-4b8d-b358-e7bf18e642de",
+      "status": 200,
+      "createdAt": 1791596338314,
+      "finishedAt": 1791596338438,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/b5722567-4ae0-435a-b6e9-0c5873d6486e",
+      "status": 200,
+      "createdAt": 1791596457590,
+      "finishedAt": 1791596458006,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791596458009,
+      "finishedAt": 1791596458108,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/7c1837b8-3ec0-4d06-9f4d-752eebc40f64",
+      "status": 200,
+      "createdAt": 1791596458111,
+      "finishedAt": 1791596458209,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/ff3ac6fb-fa15-4b8d-b358-e7bf18e642de",
+      "status": 200,
+      "createdAt": 1791596458212,
+      "finishedAt": 1791596458318,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/b5722567-4ae0-435a-b6e9-0c5873d6486e",
+      "status": 200,
+      "createdAt": 1791596577600,
+      "finishedAt": 1791596578038,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791596578042,
+      "finishedAt": 1791596578141,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/7c1837b8-3ec0-4d06-9f4d-752eebc40f64",
+      "status": 200,
+      "createdAt": 1791596578143,
+      "finishedAt": 1791596578237,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/ff3ac6fb-fa15-4b8d-b358-e7bf18e642de",
+      "status": 200,
+      "createdAt": 1791596578244,
+      "finishedAt": 1791596578341,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/b5722567-4ae0-435a-b6e9-0c5873d6486e",
+      "status": 200,
+      "createdAt": 1791596697613,
+      "finishedAt": 1791596698136,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791596698141,
+      "finishedAt": 1791596698262,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/7c1837b8-3ec0-4d06-9f4d-752eebc40f64",
+      "status": 200,
+      "createdAt": 1791596698266,
+      "finishedAt": 1791596698386,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/ff3ac6fb-fa15-4b8d-b358-e7bf18e642de",
+      "status": 200,
+      "createdAt": 1791596698389,
+      "finishedAt": 1791596698525,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/b5722567-4ae0-435a-b6e9-0c5873d6486e",
+      "status": 200,
+      "createdAt": 1791596817646,
+      "finishedAt": 1791596818070,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791596818078,
+      "finishedAt": 1791596818170,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/7c1837b8-3ec0-4d06-9f4d-752eebc40f64",
+      "status": 200,
+      "createdAt": 1791596818174,
+      "finishedAt": 1791596818280,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/ff3ac6fb-fa15-4b8d-b358-e7bf18e642de",
+      "status": 200,
+      "createdAt": 1791596818285,
+      "finishedAt": 1791596818382,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/b5722567-4ae0-435a-b6e9-0c5873d6486e",
+      "status": 200,
+      "createdAt": 1791596919010,
+      "finishedAt": 1791596919601,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791596919612,
+      "finishedAt": 1791596919740,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/7c1837b8-3ec0-4d06-9f4d-752eebc40f64",
+      "status": 200,
+      "createdAt": 1791596919748,
+      "finishedAt": 1791596919868,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/ff3ac6fb-fa15-4b8d-b358-e7bf18e642de",
+      "status": 200,
+      "createdAt": 1791596919875,
+      "finishedAt": 1791596920004,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/b5722567-4ae0-435a-b6e9-0c5873d6486e",
+      "status": 200,
+      "createdAt": 1791597039016,
+      "finishedAt": 1791597039229,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791597039233,
+      "finishedAt": 1791597039338,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/7c1837b8-3ec0-4d06-9f4d-752eebc40f64",
+      "status": 200,
+      "createdAt": 1791597039346,
+      "finishedAt": 1791597039448,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/ff3ac6fb-fa15-4b8d-b358-e7bf18e642de",
+      "status": 200,
+      "createdAt": 1791597039454,
+      "finishedAt": 1791597039559,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/b5722567-4ae0-435a-b6e9-0c5873d6486e",
+      "status": 200,
+      "createdAt": 1791597159026,
+      "finishedAt": 1791597159290,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791597159297,
+      "finishedAt": 1791597159419,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/7c1837b8-3ec0-4d06-9f4d-752eebc40f64",
+      "status": 200,
+      "createdAt": 1791597159425,
+      "finishedAt": 1791597159536,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/ff3ac6fb-fa15-4b8d-b358-e7bf18e642de",
+      "status": 200,
+      "createdAt": 1791597159543,
+      "finishedAt": 1791597159649,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/b5722567-4ae0-435a-b6e9-0c5873d6486e",
+      "status": 200,
+      "createdAt": 1791597279038,
+      "finishedAt": 1791597279259,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791597279264,
+      "finishedAt": 1791597279371,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/7c1837b8-3ec0-4d06-9f4d-752eebc40f64",
+      "status": 200,
+      "createdAt": 1791597279377,
+      "finishedAt": 1791597279478,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/ff3ac6fb-fa15-4b8d-b358-e7bf18e642de",
+      "status": 200,
+      "createdAt": 1791597279484,
+      "finishedAt": 1791597279602,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/b5722567-4ae0-435a-b6e9-0c5873d6486e",
+      "status": 200,
+      "createdAt": 1791597399050,
+      "finishedAt": 1791597399486,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791597399493,
+      "finishedAt": 1791597399597,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/7c1837b8-3ec0-4d06-9f4d-752eebc40f64",
+      "status": 200,
+      "createdAt": 1791597399602,
+      "finishedAt": 1791597399707,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/ff3ac6fb-fa15-4b8d-b358-e7bf18e642de",
+      "status": 200,
+      "createdAt": 1791597399713,
+      "finishedAt": 1791597399818,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/b5722567-4ae0-435a-b6e9-0c5873d6486e",
+      "status": 200,
+      "createdAt": 1791597519061,
+      "finishedAt": 1791597519291,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791597519296,
+      "finishedAt": 1791597519455,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/7c1837b8-3ec0-4d06-9f4d-752eebc40f64",
+      "status": 200,
+      "createdAt": 1791597519461,
+      "finishedAt": 1791597519583,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/ff3ac6fb-fa15-4b8d-b358-e7bf18e642de",
+      "status": 200,
+      "createdAt": 1791597519590,
+      "finishedAt": 1791597519737,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/b5722567-4ae0-435a-b6e9-0c5873d6486e",
+      "status": 200,
+      "createdAt": 1791597639071,
+      "finishedAt": 1791597639570,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "summary",
+        "usage",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791597943629,
+      "finishedAt": 1791597943855,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/7c1837b8-3ec0-4d06-9f4d-752eebc40f64",
+      "status": 200,
+      "createdAt": 1791597943860,
+      "finishedAt": 1791597943989,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/ff3ac6fb-fa15-4b8d-b358-e7bf18e642de",
+      "status": 200,
+      "createdAt": 1791597943993,
+      "finishedAt": 1791597944131,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "summary",
+        "usage",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791598238992,
+      "finishedAt": 1791598239215,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/7c1837b8-3ec0-4d06-9f4d-752eebc40f64",
+      "status": 200,
+      "createdAt": 1791598239218,
+      "finishedAt": 1791598239343,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "summary",
+        "usage",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791598359004,
+      "finishedAt": 1791598359450,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791598479017,
+      "finishedAt": 1791598479502,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791598599034,
+      "finishedAt": 1791598599493,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791598719042,
+      "finishedAt": 1791598719560,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791598839080,
+      "finishedAt": 1791598839572,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791598959089,
+      "finishedAt": 1791598959363,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791599079104,
+      "finishedAt": 1791599079601,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791599199113,
+      "finishedAt": 1791599199320,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791599319120,
+      "finishedAt": 1791599319319,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791599439130,
+      "finishedAt": 1791599439589,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791599559142,
+      "finishedAt": 1791599559625,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791599679139,
+      "finishedAt": 1791599679618,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791599799148,
+      "finishedAt": 1791599799653,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791599919156,
+      "finishedAt": 1791599919649,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791600039166,
+      "finishedAt": 1791600039606,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791600159173,
+      "finishedAt": 1791600159383,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791600279182,
+      "finishedAt": 1791600279425,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791600399190,
+      "finishedAt": 1791600399674,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791600519201,
+      "finishedAt": 1791600519689,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791600639170,
+      "finishedAt": 1791600639610,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791600759181,
+      "finishedAt": 1791600759615,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791600879187,
+      "finishedAt": 1791600879406,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791600999197,
+      "finishedAt": 1791600999685,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791601119209,
+      "finishedAt": 1791601119726,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "error": "fetch failed",
+      "createdAt": 1791601239217,
+      "finishedAt": 1791601245568,
+      "responseKeys": []
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791601359225,
+      "finishedAt": 1791601359458,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791601479296,
+      "finishedAt": 1791601479545,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791601599307,
+      "finishedAt": 1791601599747,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791601719320,
+      "finishedAt": 1791601719829,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791601839331,
+      "finishedAt": 1791601839809,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791601959343,
+      "finishedAt": 1791601959555,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791602079357,
+      "finishedAt": 1791602079619,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791602199364,
+      "finishedAt": 1791602199839,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791602319375,
+      "finishedAt": 1791602319857,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791602439423,
+      "finishedAt": 1791602439874,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791602559433,
+      "finishedAt": 1791602559907,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791602679443,
+      "finishedAt": 1791602679984,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791602799455,
+      "finishedAt": 1791602799895,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791602919466,
+      "finishedAt": 1791602919938,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791603039475,
+      "finishedAt": 1791603039732,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791603159485,
+      "finishedAt": 1791603159978,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791603279522,
+      "finishedAt": 1791603279750,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791603399537,
+      "finishedAt": 1791603400003,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791603519551,
+      "finishedAt": 1791603520000,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791603639569,
+      "finishedAt": 1791603640051,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791603759586,
+      "finishedAt": 1791603760044,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791603879601,
+      "finishedAt": 1791603880093,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791603999616,
+      "finishedAt": 1791604000137,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791604119627,
+      "finishedAt": 1791604120097,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791604239578,
+      "finishedAt": 1791604240030,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791604359589,
+      "finishedAt": 1791604360034,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791604479602,
+      "finishedAt": 1791604479819,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791604599611,
+      "finishedAt": 1791604599869,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791604719628,
+      "finishedAt": 1791604720101,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791604839637,
+      "finishedAt": 1791604840327,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791604959763,
+      "finishedAt": 1791604960232,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791605079768,
+      "finishedAt": 1791605080222,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791605199742,
+      "finishedAt": 1791605200251,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791605319753,
+      "finishedAt": 1791605319963,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791605439764,
+      "finishedAt": 1791605440012,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791605559772,
+      "finishedAt": 1791605559991,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791605679781,
+      "finishedAt": 1791605680225,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791605799790,
+      "finishedAt": 1791605800250,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791605919798,
+      "finishedAt": 1791605920268,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791606039777,
+      "finishedAt": 1791606040301,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791606159787,
+      "finishedAt": 1791606160239,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791606279797,
+      "finishedAt": 1791606280013,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791606399808,
+      "finishedAt": 1791606400021,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791606519815,
+      "finishedAt": 1791606520047,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791606639823,
+      "finishedAt": 1791606640112,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791606759833,
+      "finishedAt": 1791606760333,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791606879848,
+      "finishedAt": 1791606880347,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791606999911,
+      "finishedAt": 1791607000364,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791607119921,
+      "finishedAt": 1791607120169,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791607239931,
+      "finishedAt": 1791607240186,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791607303883,
+      "finishedAt": 1791607304443,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "qualificationProgress",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "status": 200,
+      "createdAt": 1791608421394,
+      "finishedAt": 1791608421635,
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours",
+        "error"
+      ]
+    },
+    {
+      "path": "/instagram/v3/search_users?query=tylerlcrawford",
+      "status": 200,
+      "createdAt": 1791614109505,
+      "finishedAt": 1791614113052,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=tylerlcrawford",
+      "status": 200,
+      "createdAt": 1791614114299,
+      "finishedAt": 1791614119082,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_posts?user_id=48426799147&count=12",
+      "status": 200,
+      "createdAt": 1791614119089,
+      "finishedAt": 1791614127216,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_posts?user_id=48426799147&count=12&max_id=3997965466461395273_48426799147",
+      "status": 200,
+      "createdAt": 1791614127226,
+      "finishedAt": 1791614137899,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DcZxbpBAJDI",
+      "status": 200,
+      "createdAt": 1791614137907,
+      "finishedAt": 1791614139992,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DZoHkAvAbm5",
+      "status": 200,
+      "createdAt": 1791614139995,
+      "finishedAt": 1791614142365,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    }
+  ],
+  "deliveries": [
+    {
+      "id": "report-research-a333d174361fcf1bed6c0698-db4dfc9647b9a9d6",
+      "subject": "research-a333d174361fcf1bed6c0698",
+      "revision": {
+        "status": "partial",
+        "matched": 1,
+        "evaluated": 1,
+        "results": [
+          [
+            "research-a333d174361fcf1bed6c0698|instagram:imthegeekjr",
+            1791607303200
+          ]
+        ]
+      },
+      "createdAt": 1791607303208
+    },
+    {
+      "id": "report-research-010f8c5e484e38738b2b3640-951d8c89aa2b1eef",
+      "subject": "research-010f8c5e484e38738b2b3640",
+      "revision": {
+        "status": "completed",
+        "matched": 1,
+        "evaluated": 1,
+        "results": [
+          [
+            "research-010f8c5e484e38738b2b3640|instagram:fixture-browser-1791571235315",
+            1791607303211
+          ]
+        ]
+      },
+      "createdAt": 1791607303235
+    },
+    {
+      "id": "report-research-58949888b306ad726d60be23-b4f7b1c22804dc6e",
+      "subject": "research-58949888b306ad726d60be23",
+      "revision": {
+        "status": "completed",
+        "matched": 1,
+        "evaluated": 2,
+        "results": [
+          [
+            "research-58949888b306ad726d60be23|instagram:scorpiorisingmedia",
+            1791607303255
+          ],
+          [
+            "research-58949888b306ad726d60be23|instagram:khushleenvirk",
+            1791607303256
+          ]
+        ]
+      },
+      "createdAt": 1791607303286
+    },
+    {
+      "id": "report-research-5e4db1193ded213e791cd417-0002dd5b50abbb36",
+      "subject": "research-5e4db1193ded213e791cd417",
+      "revision": {
+        "status": "partial",
+        "matched": 0,
+        "evaluated": 1,
+        "results": [
+          [
+            "research-5e4db1193ded213e791cd417|instagram:fixture-skip-1791573434577",
+            1791607303293
+          ]
+        ]
+      },
+      "createdAt": 1791607303302
+    },
+    {
+      "id": "report-research-6b62fedb31c94ffb3dfd83b8-3171421f92985fb2",
+      "subject": "research-6b62fedb31c94ffb3dfd83b8",
+      "revision": {
+        "status": "completed",
+        "matched": 1,
+        "evaluated": 2,
+        "results": [
+          [
+            "research-6b62fedb31c94ffb3dfd83b8|instagram:fixture-campaign-shared",
+            1791607303331
+          ],
+          [
+            "research-6b62fedb31c94ffb3dfd83b8|instagram:fixture-campaign-only-a",
+            1791607303331
+          ]
+        ]
+      },
+      "createdAt": 1791607303341
+    },
+    {
+      "id": "report-research-7df22029caef61df6134e885-9e7d2ac385ddbfa5",
+      "subject": "research-7df22029caef61df6134e885",
+      "revision": {
+        "status": "completed",
+        "matched": 1,
+        "evaluated": 1,
+        "results": [
+          [
+            "research-7df22029caef61df6134e885|instagram:fixture-campaign-shared",
+            1791607303345
+          ]
+        ]
+      },
+      "createdAt": 1791607303353
+    },
+    {
+      "id": "report-research-bcebf909d61af9519dc124f3-05d2f810a1d4999f",
+      "subject": "research-bcebf909d61af9519dc124f3",
+      "revision": {
+        "status": "partial",
+        "matched": 0,
+        "evaluated": 1,
+        "results": [
+          [
+            "research-bcebf909d61af9519dc124f3|instagram:fixture-skip-1791574367119",
+            1791607303357
+          ]
+        ]
+      },
+      "createdAt": 1791607303363
+    },
+    {
+      "id": "report-research-a5b580b3d9a62868bf773f08-09a4ffe89e9e5ab0",
+      "subject": "research-a5b580b3d9a62868bf773f08",
+      "revision": {
+        "status": "completed",
+        "matched": 1,
+        "evaluated": 1,
+        "results": [
+          [
+            "research-a5b580b3d9a62868bf773f08|instagram:fixture-browser-1791575005743",
+            1791607303367
+          ]
+        ]
+      },
+      "createdAt": 1791607303374
+    },
+    {
+      "id": "report-research-d22f5bc3f9c80da1a4979ca5-fac108215033a02d",
+      "subject": "research-d22f5bc3f9c80da1a4979ca5",
+      "revision": {
+        "status": "completed",
+        "matched": 1,
+        "evaluated": 2,
+        "results": [
+          [
+            "research-d22f5bc3f9c80da1a4979ca5|instagram:tylerlcrawford",
+            1791607303379
+          ],
+          [
+            "research-d22f5bc3f9c80da1a4979ca5|instagram:valstechtalkk",
+            1791607303379
+          ]
+        ]
+      },
+      "createdAt": 1791607303409
+    },
+    {
+      "id": "report-research-fd88375f69e716ff5cbc9fef-35897ab20e2ab457",
+      "subject": "research-fd88375f69e716ff5cbc9fef",
+      "revision": {
+        "status": "partial",
+        "matched": 0,
+        "evaluated": 2,
+        "results": [
+          [
+            "research-fd88375f69e716ff5cbc9fef|youtube:schoolhabits",
+            1791607303424
+          ],
+          [
+            "research-fd88375f69e716ff5cbc9fef|youtube:raytubelcsw",
+            1791607303425
+          ]
+        ]
+      },
+      "createdAt": 1791607303473
+    },
+    {
+      "id": "report-research-b30bacd90e74569b33e06bfc-62b10e24d0d3e7ce",
+      "subject": "research-b30bacd90e74569b33e06bfc",
+      "revision": {
+        "status": "partial",
+        "matched": 0,
+        "evaluated": 2,
+        "results": [
+          [
+            "research-b30bacd90e74569b33e06bfc|youtube:colelangs",
+            1791607303475
+          ],
+          [
+            "research-b30bacd90e74569b33e06bfc|youtube:wesleyanna",
+            1791607303476
+          ]
+        ]
+      },
+      "createdAt": 1791607303640
+    },
+    {
+      "id": "report-campaign-49090173cf0f56b698b97456-752c8f21a79161b6",
+      "subject": "campaign-49090173cf0f56b698b97456",
+      "revision": {
+        "status": "partial",
+        "selections": [],
+        "results": []
+      },
+      "createdAt": 1791607324912
+    },
+    {
+      "id": "report-campaign-b53cd12a94d4d418b31949d3-e10f6d0a24ac659c",
+      "subject": "campaign-b53cd12a94d4d418b31949d3",
+      "revision": {
+        "status": "partial",
+        "selections": [
+          {
+            "creatorId": "instagram:scorpiorisingmedia",
+            "groupId": "study_productivity",
+            "resultId": "research-58949888b306ad726d60be23|instagram:scorpiorisingmedia"
+          }
+        ],
+        "results": [
+          [
+            "research-58949888b306ad726d60be23|instagram:scorpiorisingmedia",
+            1791607303255
+          ],
+          [
+            "research-58949888b306ad726d60be23|instagram:khushleenvirk",
+            1791607303256
+          ]
+        ]
+      },
+      "createdAt": 1791607324918
+    },
+    {
+      "id": "report-campaign-b7101ed72a227a84edd7056f-752c8f21a79161b6",
+      "subject": "campaign-b7101ed72a227a84edd7056f",
+      "revision": {
+        "status": "partial",
+        "selections": [],
+        "results": []
+      },
+      "createdAt": 1791607324924
+    },
+    {
+      "id": "report-campaign-1c96b719f2c801ecb1ba8e7a-752c8f21a79161b6",
+      "subject": "campaign-1c96b719f2c801ecb1ba8e7a",
+      "revision": {
+        "status": "partial",
+        "selections": [],
+        "results": []
+      },
+      "createdAt": 1791607324928
+    },
+    {
+      "id": "report-campaign-cfcdf187e2cbb5eb48935b7b-3ac29c051847e735",
+      "subject": "campaign-cfcdf187e2cbb5eb48935b7b",
+      "revision": {
+        "status": "completed",
+        "selections": [
+          {
+            "creatorId": "instagram:fixture-campaign-only-a",
+            "groupId": "tech",
+            "resultId": "research-6b62fedb31c94ffb3dfd83b8|instagram:fixture-campaign-only-a"
+          },
+          {
+            "creatorId": "instagram:fixture-campaign-shared",
+            "groupId": "study",
+            "resultId": "research-7df22029caef61df6134e885|instagram:fixture-campaign-shared"
+          }
+        ],
+        "results": [
+          [
+            "research-6b62fedb31c94ffb3dfd83b8|instagram:fixture-campaign-shared",
+            1791607303331
+          ],
+          [
+            "research-6b62fedb31c94ffb3dfd83b8|instagram:fixture-campaign-only-a",
+            1791607303331
+          ],
+          [
+            "research-7df22029caef61df6134e885|instagram:fixture-campaign-shared",
+            1791607303345
+          ]
+        ]
+      },
+      "createdAt": 1791607324935
+    },
+    {
+      "id": "report-campaign-bb62e1767e97593d5e070a7d-6bf449f43b6fc9ca",
+      "subject": "campaign-bb62e1767e97593d5e070a7d",
+      "revision": {
+        "status": "partial",
+        "selections": [],
+        "results": [
+          [
+            "research-fd88375f69e716ff5cbc9fef|youtube:schoolhabits",
+            1791607303424
+          ],
+          [
+            "research-fd88375f69e716ff5cbc9fef|youtube:raytubelcsw",
+            1791607303425
+          ],
+          [
+            "research-b30bacd90e74569b33e06bfc|youtube:colelangs",
+            1791607303475
+          ],
+          [
+            "research-b30bacd90e74569b33e06bfc|youtube:wesleyanna",
+            1791607303476
+          ]
+        ]
+      },
+      "createdAt": 1791607324967
+    },
+    {
+      "id": "report-research-b30bacd90e74569b33e06bfc-0c9cd0ed75bb69df",
+      "subject": "research-b30bacd90e74569b33e06bfc",
+      "revision": {
+        "status": "partial",
+        "matched": 0,
+        "evaluated": 2,
+        "results": [
+          [
+            "research-b30bacd90e74569b33e06bfc|youtube:colelangs",
+            1791607485506
+          ],
+          [
+            "research-b30bacd90e74569b33e06bfc|youtube:wesleyanna",
+            1791607303476
+          ]
+        ]
+      },
+      "createdAt": 1791607485512
+    },
+    {
+      "id": "report-campaign-bb62e1767e97593d5e070a7d-a14a0b906f42a451",
+      "subject": "campaign-bb62e1767e97593d5e070a7d",
+      "revision": {
+        "status": "partial",
+        "selections": [],
+        "results": [
+          [
+            "research-fd88375f69e716ff5cbc9fef|youtube:schoolhabits",
+            1791607303424
+          ],
+          [
+            "research-fd88375f69e716ff5cbc9fef|youtube:raytubelcsw",
+            1791607303425
+          ],
+          [
+            "research-b30bacd90e74569b33e06bfc|youtube:colelangs",
+            1791607485506
+          ],
+          [
+            "research-b30bacd90e74569b33e06bfc|youtube:wesleyanna",
+            1791607303476
+          ]
+        ]
+      },
+      "createdAt": 1791607485538
+    },
+    {
+      "id": "report-research-b30bacd90e74569b33e06bfc-3e34b57c491dc731",
+      "subject": "research-b30bacd90e74569b33e06bfc",
+      "revision": {
+        "status": "partial",
+        "matched": 0,
+        "evaluated": 2,
+        "results": [
+          [
+            "research-b30bacd90e74569b33e06bfc|youtube:colelangs",
+            1791607485506
+          ],
+          [
+            "research-b30bacd90e74569b33e06bfc|youtube:wesleyanna",
+            1791607507807
+          ]
+        ]
+      },
+      "createdAt": 1791607507814
+    },
+    {
+      "id": "report-enrich-8871961801ae75d3e4c07269-39b82b31d14a7ace",
+      "subject": "enrich-8871961801ae75d3e4c07269",
+      "revision": {
+        "status": "completed",
+        "completed": [
+          "research-b30bacd90e74569b33e06bfc|youtube:colelangs",
+          "research-b30bacd90e74569b33e06bfc|youtube:wesleyanna"
+        ],
+        "failures": []
+      },
+      "createdAt": 1791607507825
+    },
+    {
+      "id": "report-campaign-bb62e1767e97593d5e070a7d-5d1b83de1da0add9",
+      "subject": "campaign-bb62e1767e97593d5e070a7d",
+      "revision": {
+        "status": "partial",
+        "selections": [],
+        "results": [
+          [
+            "research-fd88375f69e716ff5cbc9fef|youtube:schoolhabits",
+            1791607303424
+          ],
+          [
+            "research-fd88375f69e716ff5cbc9fef|youtube:raytubelcsw",
+            1791607303425
+          ],
+          [
+            "research-b30bacd90e74569b33e06bfc|youtube:colelangs",
+            1791607485506
+          ],
+          [
+            "research-b30bacd90e74569b33e06bfc|youtube:wesleyanna",
+            1791607507807
+          ]
+        ]
+      },
+      "createdAt": 1791607507845
+    },
+    {
+      "id": "report-research-b30bacd90e74569b33e06bfc-a8473ba6baa18fa8",
+      "subject": "research-b30bacd90e74569b33e06bfc",
+      "revision": {
+        "status": "partial",
+        "matched": 0,
+        "evaluated": 2,
+        "results": [
+          [
+            "research-b30bacd90e74569b33e06bfc|youtube:colelangs",
+            1791608187947
+          ],
+          [
+            "research-b30bacd90e74569b33e06bfc|youtube:wesleyanna",
+            1791607507807
+          ]
+        ]
+      },
+      "createdAt": 1791608187953
+    },
+    {
+      "id": "report-campaign-bb62e1767e97593d5e070a7d-e70ac737a66404af",
+      "subject": "campaign-bb62e1767e97593d5e070a7d",
+      "revision": {
+        "status": "partial",
+        "selections": [],
+        "results": [
+          [
+            "research-fd88375f69e716ff5cbc9fef|youtube:schoolhabits",
+            1791607303424
+          ],
+          [
+            "research-fd88375f69e716ff5cbc9fef|youtube:raytubelcsw",
+            1791607303425
+          ],
+          [
+            "research-b30bacd90e74569b33e06bfc|youtube:colelangs",
+            1791608187947
+          ],
+          [
+            "research-b30bacd90e74569b33e06bfc|youtube:wesleyanna",
+            1791607507807
+          ]
+        ]
+      },
+      "createdAt": 1791608187975
+    },
+    {
+      "id": "report-research-b30bacd90e74569b33e06bfc-c2b26a81096a737d",
+      "subject": "research-b30bacd90e74569b33e06bfc",
+      "revision": {
+        "status": "partial",
+        "matched": 0,
+        "evaluated": 2,
+        "results": [
+          [
+            "research-b30bacd90e74569b33e06bfc|youtube:colelangs",
+            1791608187947
+          ],
+          [
+            "research-b30bacd90e74569b33e06bfc|youtube:wesleyanna",
+            1791608204731
+          ]
+        ]
+      },
+      "createdAt": 1791608204737
+    },
+    {
+      "id": "report-enrich-e6bac783cce66bf50203c22a-39b82b31d14a7ace",
+      "subject": "enrich-e6bac783cce66bf50203c22a",
+      "revision": {
+        "status": "completed",
+        "completed": [
+          "research-b30bacd90e74569b33e06bfc|youtube:colelangs",
+          "research-b30bacd90e74569b33e06bfc|youtube:wesleyanna"
+        ],
+        "failures": []
+      },
+      "createdAt": 1791608204740
+    },
+    {
+      "id": "report-campaign-bb62e1767e97593d5e070a7d-25080b6f69c0150d",
+      "subject": "campaign-bb62e1767e97593d5e070a7d",
+      "revision": {
+        "status": "partial",
+        "selections": [],
+        "results": [
+          [
+            "research-fd88375f69e716ff5cbc9fef|youtube:schoolhabits",
+            1791607303424
+          ],
+          [
+            "research-fd88375f69e716ff5cbc9fef|youtube:raytubelcsw",
+            1791607303425
+          ],
+          [
+            "research-b30bacd90e74569b33e06bfc|youtube:colelangs",
+            1791608187947
+          ],
+          [
+            "research-b30bacd90e74569b33e06bfc|youtube:wesleyanna",
+            1791608204731
+          ]
+        ]
+      },
+      "createdAt": 1791608204761
+    },
+    {
+      "id": "report-research-d22f5bc3f9c80da1a4979ca5-8234440f5cb11b17",
+      "subject": "research-d22f5bc3f9c80da1a4979ca5",
+      "revision": {
+        "status": "completed",
+        "matched": 1,
+        "evaluated": 2,
+        "results": [
+          [
+            "research-d22f5bc3f9c80da1a4979ca5|instagram:tylerlcrawford",
+            1791607303379
+          ],
+          [
+            "research-d22f5bc3f9c80da1a4979ca5|instagram:valstechtalkk",
+            1791613177046
+          ]
+        ]
+      },
+      "createdAt": 1791613177052
+    },
+    {
+      "id": "report-enrich-19b749da2108bcce416e3a31-a34a0097333d36a1",
+      "subject": "enrich-19b749da2108bcce416e3a31",
+      "revision": {
+        "status": "partial",
+        "completed": [
+          "research-d22f5bc3f9c80da1a4979ca5|instagram:tylerlcrawford",
+          "research-d22f5bc3f9c80da1a4979ca5|instagram:valstechtalkk"
+        ],
+        "failures": [
+          "research-d22f5bc3f9c80da1a4979ca5|instagram:tylerlcrawford: 模型请求失败（408）"
+        ]
+      },
+      "createdAt": 1791613177057
+    },
+    {
+      "id": "report-research-fd88375f69e716ff5cbc9fef-873a60edea62b457",
+      "subject": "research-fd88375f69e716ff5cbc9fef",
+      "revision": {
+        "status": "partial",
+        "matched": 0,
+        "evaluated": 2,
+        "results": [
+          [
+            "research-fd88375f69e716ff5cbc9fef|youtube:schoolhabits",
+            1791613201373
+          ],
+          [
+            "research-fd88375f69e716ff5cbc9fef|youtube:raytubelcsw",
+            1791607303425
+          ]
+        ]
+      },
+      "createdAt": 1791613201380
+    },
+    {
+      "id": "report-research-b30bacd90e74569b33e06bfc-9497f37137fc690d",
+      "subject": "research-b30bacd90e74569b33e06bfc",
+      "revision": {
+        "status": "partial",
+        "matched": 0,
+        "evaluated": 2,
+        "results": [
+          [
+            "research-b30bacd90e74569b33e06bfc|youtube:colelangs",
+            1791613229715
+          ],
+          [
+            "research-b30bacd90e74569b33e06bfc|youtube:wesleyanna",
+            1791608204731
+          ]
+        ]
+      },
+      "createdAt": 1791613229725
+    },
+    {
+      "id": "report-campaign-bb62e1767e97593d5e070a7d-628be32c04aba29c",
+      "subject": "campaign-bb62e1767e97593d5e070a7d",
+      "revision": {
+        "status": "partial",
+        "selections": [],
+        "results": [
+          [
+            "research-fd88375f69e716ff5cbc9fef|youtube:schoolhabits",
+            1791613201373
+          ],
+          [
+            "research-fd88375f69e716ff5cbc9fef|youtube:raytubelcsw",
+            1791607303425
+          ],
+          [
+            "research-b30bacd90e74569b33e06bfc|youtube:colelangs",
+            1791613229715
+          ],
+          [
+            "research-b30bacd90e74569b33e06bfc|youtube:wesleyanna",
+            1791608204731
+          ]
+        ]
+      },
+      "createdAt": 1791613229762
+    },
+    {
+      "id": "report-research-fd88375f69e716ff5cbc9fef-ea657bfa7ec15036",
+      "subject": "research-fd88375f69e716ff5cbc9fef",
+      "revision": {
+        "status": "partial",
+        "matched": 0,
+        "evaluated": 2,
+        "results": [
+          [
+            "research-fd88375f69e716ff5cbc9fef|youtube:schoolhabits",
+            1791613201373
+          ],
+          [
+            "research-fd88375f69e716ff5cbc9fef|youtube:raytubelcsw",
+            1791613295013
+          ]
+        ]
+      },
+      "createdAt": 1791613295021
+    },
+    {
+      "id": "report-enrich-32f9c222ba018ba1748b584e-def7b09d79ee7d0d",
+      "subject": "enrich-32f9c222ba018ba1748b584e",
+      "revision": {
+        "status": "completed",
+        "completed": [
+          "research-fd88375f69e716ff5cbc9fef|youtube:schoolhabits",
+          "research-fd88375f69e716ff5cbc9fef|youtube:raytubelcsw"
+        ],
+        "failures": []
+      },
+      "createdAt": 1791613295025
+    },
+    {
+      "id": "report-research-b30bacd90e74569b33e06bfc-d413aab075233e9e",
+      "subject": "research-b30bacd90e74569b33e06bfc",
+      "revision": {
+        "status": "partial",
+        "matched": 0,
+        "evaluated": 2,
+        "results": [
+          [
+            "research-b30bacd90e74569b33e06bfc|youtube:colelangs",
+            1791613229715
+          ],
+          [
+            "research-b30bacd90e74569b33e06bfc|youtube:wesleyanna",
+            1791613319918
+          ]
+        ]
+      },
+      "createdAt": 1791613319925
+    },
+    {
+      "id": "report-enrich-150446afeae8ce042413a76e-39b82b31d14a7ace",
+      "subject": "enrich-150446afeae8ce042413a76e",
+      "revision": {
+        "status": "completed",
+        "completed": [
+          "research-b30bacd90e74569b33e06bfc|youtube:colelangs",
+          "research-b30bacd90e74569b33e06bfc|youtube:wesleyanna"
+        ],
+        "failures": []
+      },
+      "createdAt": 1791613319931
+    },
+    {
+      "id": "report-campaign-bb62e1767e97593d5e070a7d-ae696659981a0490",
+      "subject": "campaign-bb62e1767e97593d5e070a7d",
+      "revision": {
+        "status": "partial",
+        "selections": [],
+        "results": [
+          [
+            "research-fd88375f69e716ff5cbc9fef|youtube:schoolhabits",
+            1791613201373
+          ],
+          [
+            "research-fd88375f69e716ff5cbc9fef|youtube:raytubelcsw",
+            1791613295013
+          ],
+          [
+            "research-b30bacd90e74569b33e06bfc|youtube:colelangs",
+            1791613229715
+          ],
+          [
+            "research-b30bacd90e74569b33e06bfc|youtube:wesleyanna",
+            1791613319918
+          ]
+        ]
+      },
+      "createdAt": 1791613319958
+    },
+    {
+      "id": "report-research-d22f5bc3f9c80da1a4979ca5-31ee6acba8265e02",
+      "subject": "research-d22f5bc3f9c80da1a4979ca5",
+      "revision": {
+        "status": "completed",
+        "matched": 1,
+        "evaluated": 2,
+        "results": [
+          [
+            "research-d22f5bc3f9c80da1a4979ca5|instagram:tylerlcrawford",
+            1791613527408
+          ],
+          [
+            "research-d22f5bc3f9c80da1a4979ca5|instagram:valstechtalkk",
+            1791613177046
+          ]
+        ]
+      },
+      "createdAt": 1791613527414
+    },
+    {
+      "id": "report-enrich-6fcbc9e0deacef35d5bcc9df-4ed424a1ec3a88e1",
+      "subject": "enrich-6fcbc9e0deacef35d5bcc9df",
+      "revision": {
+        "status": "completed",
+        "completed": [
+          "research-d22f5bc3f9c80da1a4979ca5|instagram:tylerlcrawford"
+        ],
+        "failures": []
+      },
+      "createdAt": 1791613527419
+    }
+  ]
+}

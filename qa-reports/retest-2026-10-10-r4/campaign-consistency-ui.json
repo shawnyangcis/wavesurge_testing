@@ -1,0 +1,63 @@
+{
+  "startedAt": "2026-10-10T14:09:47.916Z",
+  "source": "Actual browser comparing final real Campaign report, linked child HTML, results API and persisted group allocation",
+  "campaignId": "campaign-73faf22be1fd823d6a0f58d6",
+  "groups": [
+    {
+      "groupId": "life_efficiency",
+      "title": "生活效率分享：指定两账号全量评估",
+      "taskId": "research-7f22924e895fdf79bc9bfb73",
+      "campaignSelected": [
+        "instagram:tylerlcrawford"
+      ],
+      "childSelected": [
+        "instagram:tylerlcrawford"
+      ],
+      "consistent": true,
+      "childHref": "/api/reports/research-7f22924e895fdf79bc9bfb73",
+      "childHeadings": [
+        "Tyler Crawford · 符合要求 · 已入选",
+        "V · 待核实"
+      ],
+      "selectedHeadings": [
+        "Tyler Crawford · 符合要求 · 已入选"
+      ]
+    },
+    {
+      "groupId": "practical_tech_apps",
+      "title": "实用数码和 App 体验：指定两账号全量评估",
+      "taskId": "research-1c0a7ca9deb257bd0144ee1f",
+      "campaignSelected": [
+        "instagram:valstechtalkk"
+      ],
+      "childSelected": [
+        "instagram:tylerlcrawford"
+      ],
+      "consistent": false,
+      "childHref": "/api/reports/research-1c0a7ca9deb257bd0144ee1f",
+      "childHeadings": [
+        "Tyler Crawford · 符合要求 · 已入选",
+        "V · 符合要求 · 合格备选"
+      ],
+      "selectedHeadings": [
+        "Tyler Crawford · 符合要求 · 已入选"
+      ]
+    }
+  ],
+  "status": "completed",
+  "selections": [
+    {
+      "creatorId": "instagram:tylerlcrawford",
+      "groupId": "life_efficiency",
+      "resultId": "research-7f22924e895fdf79bc9bfb73|instagram:tylerlcrawford"
+    },
+    {
+      "creatorId": "instagram:valstechtalkk",
+      "groupId": "practical_tech_apps",
+      "resultId": "research-1c0a7ca9deb257bd0144ee1f|instagram:valstechtalkk"
+    }
+  ],
+  "uniqueSelectedCount": 2,
+  "productPass": false,
+  "finishedAt": "2026-10-10T14:09:55.623Z"
+}

@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "case": "three groups",
+      "reportAt": 1791653020950,
+      "lastTerminalAt": 1791653020853,
+      "passed": true
+    },
+    {
+      "case": "all record annotation",
+      "reportAt": 1791653117584,
+      "lastTerminalAt": 1791653117579,
+      "passed": true
+    },
+    {
+      "case": "campaign",
+      "reportAt": 1791653634809,
+      "lastResultAt": 1791653633056,
+      "passed": true
+    }
+  ],
+  "finalNotificationsPerRequest": 1
+}

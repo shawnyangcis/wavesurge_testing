@@ -1,0 +1,738 @@
+{
+  "scope": "main",
+  "name": "retag-study-results",
+  "taskId": "research-fd88375f69e716ff5cbc9fef",
+  "startedAt": "2026-10-10T11:00:57.433Z",
+  "checks": [
+    "Actual CSV link downloaded",
+    "Chat-accessible structured HTML report opened in actual browser",
+    "Tag values and versions persisted after page reload"
+  ],
+  "queries": [
+    {
+      "tag": "学习方法",
+      "count": 1,
+      "handles": [
+        "schoolhabits"
+      ],
+      "csvPath": ".gstack/qa-reports/retest-2026-10-10-r3/retag-study-results-filter-0.csv",
+      "href": "/api/reports/research-fd88375f69e716ff5cbc9fef?format=csv&tag=%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95"
+    },
+    {
+      "tag": "考试复习",
+      "count": 2,
+      "handles": [
+        "schoolhabits",
+        "raytubelcsw"
+      ],
+      "csvPath": ".gstack/qa-reports/retest-2026-10-10-r3/retag-study-results-filter-1.csv",
+      "href": "/api/reports/research-fd88375f69e716ff5cbc9fef?format=csv&tag=%E8%80%83%E8%AF%95%E5%A4%8D%E4%B9%A0"
+    },
+    {
+      "tag": "Notion",
+      "count": 0,
+      "handles": [],
+      "csvPath": ".gstack/qa-reports/retest-2026-10-10-r3/retag-study-results-filter-2.csv",
+      "href": "/api/reports/research-fd88375f69e716ff5cbc9fef?format=csv&tag=Notion"
+    },
+    {
+      "tag": "geek",
+      "count": 0,
+      "handles": [],
+      "csvPath": ".gstack/qa-reports/retest-2026-10-10-r3/retag-study-results-filter-3.csv",
+      "href": "/api/reports/research-fd88375f69e716ff5cbc9fef?format=csv&tag=geek"
+    },
+    {
+      "tag": "不会存在的画像标签",
+      "count": 0,
+      "handles": [],
+      "csvPath": ".gstack/qa-reports/retest-2026-10-10-r3/retag-study-results-filter-4.csv",
+      "href": "/api/reports/research-fd88375f69e716ff5cbc9fef?format=csv&tag=%E4%B8%8D%E4%BC%9A%E5%AD%98%E5%9C%A8%E7%9A%84%E7%94%BB%E5%83%8F%E6%A0%87%E7%AD%BE"
+    }
+  ],
+  "networkErrors": [
+    {
+      "url": "http://127.0.0.1:3000/api/session",
+      "status": 401
+    }
+  ],
+  "pageErrors": [],
+  "task": {
+    "id": "research-fd88375f69e716ff5cbc9fef",
+    "title": "课堂笔记与考试复习方法创作者",
+    "status": "partial",
+    "requested": 1,
+    "evaluated": 2,
+    "matched": 0,
+    "qualifying": 0,
+    "updatedAt": 1791628339021,
+    "detail": "已依据补标前审计版本恢复原事实与筛选结论，保留新增画像：已选合格 0/1，核验 2。",
+    "remoteId": "7c1837b8-3ec0-4d06-9f4d-752eebc40f64",
+    "remoteStatus": "done",
+    "nextPollAt": 1791598003992
+  },
+  "results": [
+    {
+      "id": "research-fd88375f69e716ff5cbc9fef|youtube:schoolhabits",
+      "taskId": "research-fd88375f69e716ff5cbc9fef",
+      "creator": {
+        "id": "youtube:schoolhabits",
+        "platform": "youtube",
+        "handle": "schoolhabits",
+        "profileUrl": "https://www.youtube.com/@schoolhabits",
+        "displayName": "SchoolHabits",
+        "followers": null,
+        "region": null,
+        "evidence": [
+          {
+            "id": "71aaaf4300a17dbf7fd4b5de",
+            "url": "https://www.youtube.com/channel/UCif2xthZcmDp2NxvG56Gdlg",
+            "text": "Channel reports 20.4K subscribers, 131 videos, country United States, and describes study skills, procrastination, time management, and note-taking content.",
+            "kind": "content",
+            "provider": "tikhub",
+            "publishedAt": null,
+            "capturedAt": 1791598239346
+          },
+          {
+            "id": "71ae0814ecd55edf0f91627a",
+            "url": "https://www.youtube.com/watch?v=2-hEEuugLxs",
+            "text": "Recent SchoolHabits video titled 'How to Study from a Study Guide You Got from Your Teacher.'",
+            "kind": "content",
+            "provider": "tikhub",
+            "publishedAt": null,
+            "capturedAt": 1791598239346
+          },
+          {
+            "id": "a6f9b7d414241735718c39e7",
+            "url": "https://www.youtube.com/watch?v=izW6jnOqOYI",
+            "text": "SchoolHabits video titled 'How to Use Dual Coding to Study.'",
+            "kind": "content",
+            "provider": "tikhub",
+            "publishedAt": null,
+            "capturedAt": 1791598239346
+          },
+          {
+            "id": "b0cd132da717a5851430b971",
+            "url": "https://www.youtube.com/@schoolhabits",
+            "kind": "browser_snapshot",
+            "text": "",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791598241759,
+            "assetId": "22ed3657216e816b93ea8043a691799b57e6cb4d2e7a59786dcced3eec3c079e"
+          },
+          {
+            "id": "28fa021bbdbca5feb8039546",
+            "url": "https://www.youtube.com/@schoolhabits",
+            "kind": "browser_snapshot",
+            "text": "SG\nSkip navigation\nSign in\nHome\nShorts\nSubscriptions\nYou\nHistory\nSign in to like videos, comment, and subscribe.\nSign in\nExplore\nMusic\nMovies\nGaming\nShow more\nMore from YouTube\nYouTube Premium\nYouTube Kids\nReport history\nAboutPressCopyrightContact usCreatorsAdvertiseDevelopers\nTermsPrivacyPolicy & SafetyHow YouTube worksTest new features\n© 2026 Google LLC\nSchoolHabits\n@SchoolHabits\n•\n20.4K subscribers\n•\n131 videos\nI teach students and professionals strategies to learn and work smarter. I cover everything from study skills to procrastination, time management to note-taking. Trust me - with the right systems, habits, strategies and tweaks, things can be wayyy easier than they are now. \n...more\n schoolhabits.com\nand 3 more links\nSubscribe\nHome\nVideos\nShorts\nPlaylists\nPosts\nWelcome to SchoolHabits\n0:00 / 1:10\nWelcome to SchoolHabits\n1,651 views\n1y ago\nMy name is Katie Azevedo. Through private coaching, video tutorials and online courses, I teach students how to learn.\n\nHaving taught in both public and private school systems, I have seen first-hand how our students are expected to learn - but they are rarely given the tools or strategies to do so.\n\nSince 2006, I have personally coached thousands of students, one-on-one, on:\n\nstandardized tests (SAT/ACT, SSAT, GRE)\napplication essays\nstudy skills\nexecutive functions\nwriting and reading instruction\n\nI work with students in grade 6 through graduate school, as well as adults looking to further their work productivity habits.\n\nWith a Master's Degree in Special Education, I specialize in the intersection between ADHD and academics. I also work with students with ASD and other learning disabilities. I can work in communion with your child's IEP and can help you to navigate and understand your child's services.\n\nIn addition to being a private executive function coach, I'm also a mother of two teens.\n\n⭐SCHOOLHABITS UNIVERSITY⭐\nMy online study skills course for high school and college students:  https://www.schoolhabitsuniversity.co...\nREAD MORE\nVideos\n12:29\nHow to Study from a Study Guide You Got from Your Teacher\n326\n4w ago\nCC\n13:21\nNo Time to Study? Do This.\n2.2K\n1mo ago\nCC\n13:10\nYou're So Smart...But... (And Why That's a Lie)\n249\n2mo ago\nCC\n18:22\nWhy You're Good at Homework But Bad at Tests\n235\n3mo ago\nCC\n15:02\n5 Secret Study Rules that Make Studying Easier\n756\n4mo ago\nCC\n14:56\nWhat to Do When You Don't Understand What You're Learning (10 Strategies for Students)\n690\n5mo ago\nCC\nShorts\nFlash card study hack! #studyhacks ￼\n1.5K views\nStudy Hack!!\n1.7K views\nBusy Isn't a Feeling 😉#studymotivation #timemanagement #studentslife\n86 views\nDo you HEAR me!?\n460 views\nYour story is getting so old...\n868 views\nYou Need a Timer #pomodorotechnique #studyhacks #5010pomodorostudywithme\n597 views\nPosts\nSchoolHabits\n•\n5 years ago\nJust saying hi 🤓 and hoping you are all staying healthy ✨ Xoxo Katie\n18\nSchoolHabits\n•\n6 years ago\nMy last few videos have been all about remote learning. Here’s a shot of one of my home workspaces for my own kids that are learning remotely. Grades 2 and 4. They alternate between this and one we set up in the kitchen. Not perfect but it’s totally working right now 🙌🏼\n13\n1\nSchoolHabits\n•\n6 years ago\nBack to school season is basically my favorite holiday 😭 Flippin’ my calendar to September gets me all warm, fuzzy, and thinking about school supplies hauls 🤓 Who’s with me?! Xo\n10\nSchoolHabits\n•\n6 years ago\nIt's back to school time!! If you're doing remote learning this year (or hybrid), I've been pumping out a ton of remote learning videos lately to help guide you through it. Lots of tips for students, parents and teachers too. If there's a specific video that would be helpful, let me know!! xoxox Katie\n14",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791598245697,
+            "assetId": "c935944b64e979625c9bdab6e5778bb0b5c08567a40439c37ccf5615236a3097"
+          },
+          {
+            "id": "668f2650035e9b9523e7a1b0",
+            "url": "https://www.youtube.com/watch?v=2-hEEuugLxs",
+            "kind": "browser_snapshot",
+            "text": "Only brand with 8 Brain Building Nutrients*| Enfagrow A+ Pro\n0:00 / 0:06",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791598256296,
+            "assetId": "cd124b0ae75e0f523ed4b01f29190559c702943bb332b0f798c9d12b5e1400d9"
+          },
+          {
+            "id": "81170219b9276d3c01049525",
+            "url": "https://www.youtube.com/watch?v=2-hEEuugLxs",
+            "kind": "browser_snapshot",
+            "text": "SG\nSkip navigation\nSign in\n0:00 / 2:35\nHow to Study from a Study Guide You Got from Your Teacher\nSchoolHabits\n20.4K subscribers\nSubscribe\n10\nShare\nSave\n328 views  4w ago\nMY COURSES\n🧠 SchoolHabits University → (This is the ultimate “How to Do School Way Easier” program for students who don’t have time to do a “How to Do School Way Easier” program. 🤓) https://www.schoolhabitsuniversity.co... …\nmore\n\nComments\n \n \n \n \n3:54\nMemorize Anything So Fast It's Almost Unfair\nBetterU\n2M\n6mo ago\n18:19\nNICHE Things I Put in My Personal Statement (Got Me Into Imperial)\nwill brito\n24K\n1mo ago\n5:09\n3 tips on how to study effectively\nTED-Ed\n9.1M\n2y ago\n15:02\n5 Secret Study Rules that Make Studying Easier\nSchoolHabits\n756\n4mo ago\n11:16\nhow to study less and get higher grades\nGohar Khan\n6.4M\n2y ago\n8:10\nChinese SECRET study methods( study less & get straight A’s)\nmouno\n398K\n4mo ago\n14:00\nhow to take notes like the top 1% of students\nGohar Khan\n1.6M\n1y ago\n9:49\nHow to organize your ENTIRE LIFE in 10 minutes as a student | FREE Notion template + full tutorial)\nfayefilms\n158K\n6mo ago\n16:59\nHow to Use Anki for Beginners!\nAlec Palmerton, MD\n62K\n5mo ago\n8:23\nHow to Learn So Fast People Assume You're Naturally Gifted\nJustin Sung\n4.7M\n1mo ago\n8:25\nHow to Make Your Brain LOVE Studying l\nthat simple guy\n157K\n2w ago\n11:03\nHow to get PINTEREST HANDWRITING!! Calligraphy tutorial + Improve Your Handwriting Step by Step✍️\npinkiezbabe\n409K\n2mo ago\n12:32\nHow to memorize so easily it feels ILLEGAL\nAmy Wang\n195K\n3w ago\n3:49:59\nBeautiful Relaxing Music - Stop Overthinking, Stress Relief Music, Sleep Music, Calming Music #242\nInner Peace Look Inside\n17M\nStreamed 2y ago\n8:13\nNew\nHow to Stop Forgetting Everything You Study\nThe Angry Explainer\n53K\n4d ago\n8:35\nhow to make notes like an Oxford student | learn everything\nThe IO PREP\n569K\n1mo ago\n13:08\nHow to get ahead of 99% of students THIS school year\nAmy Wang\n436K\n1mo ago\n26:39\nUse Gemini Notebook better than 99% of people (Beginner to Pro)\nPenolopie\n89K\n1mo ago\n6:45\nHow To Become ADDICTED To Studying (Stop Forcing Yourself) 📚✨\n𝑺𝒏𝒆𝒔𝒕𝒖𝒅𝒊𝒐\n157K\n2mo ago\n10:09\nthis DOPAMINE based routine got me EASILY ADDICTED to studying\nKai Notebook\n4.4M\n1y ago\n \n \n \n ",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791598264591,
+            "assetId": "634b7d7f9716a67b389733cde146447340a482e199591df198ce5726c401790b"
+          },
+          {
+            "id": "1a70681ec7a4c14c043ba6bd",
+            "url": "https://www.youtube.com/watch?v=2-hEEuugLxs",
+            "kind": "browser_snapshot",
+            "text": "SG\nSkip navigation\nSign in\nSee why 16,000 companies chose Vanta\nvanta.com/customers/fileAI\nVisit site\nSponsored\nvanta.com/customers/fileai\nSkip\n0:02 / 2:35\nHow to Study from a Study Guide You Got from Your Teacher\nSchoolHabits\n20.4K subscribers\nSubscribe\n10\nShare\nSave\n328 views  Sep 10, 2026\nMY COURSES\n🧠 SchoolHabits University → (This is the ultimate “How to Do School Way Easier” program for students who don’t have time to do a “How to Do School Way Easier” program. 🤓) https://www.schoolhabitsuniversity.co...\n✅ Assignment Management Power System → https://www.assignmentmanagementsyste...\n📝 Note-Taking Power System → https://www.notetakingsystem.com/?utm...\n\nTHE JOURNAL\n📖 The Executive Function Journal (physical product, 90-day journal that targets and builds core executive functions, for people with ADHD/EF deficits) → https://www.executivefunctionjournal....\n\nYou got a study guide from your teacher. That's awesome. \n\nThe problem is that most students think that the better the study guide their teacher gives them, the better they'll do on the test\n\nYeah, that's not true.\n\nWhen you get a study guide from your teacher, there's a very specific thing you have to do with that study guide: you have to get the information from it and put it in your head. \n\nIn this video, I show you exactly how to do that. 😉\n\nI appreciate you xo - Katie\n\n🕑 TIMESTAMPS\n\n0:00 The problem with teacher study guides\n1:00 The 2 types of study guides you get\n2:51 Why study guides can backfire\n4:31 What to actually do with a study guide\n10:17 How to remember information for the test\n27:47 The ultimate power move for study guides … and school in general\n\nCONNECT WITH ME\n🌍 My blog → https://schoolhabits.com\n📸  Instagram→   / schoolhabits  \n🙂 Facebook→   / schoolhabitskatie  \n👨‍💻 Linkedin → www.linkedin.com/in/katie-azevedo\n🎙️Podcast →    / @learnandworksmarter   \n📱TikTok →   / schoolhabits_katie  \nHow this was made\nAuto-dubbed\nAudio tracks for some languages were automatically generated. Learn more\nChapters\nView all\nThe problem with teacher study guides\n0:00\nThe 2 types of study guides you get\n1:00\nWhy study guides can backfire\n2:51\nWhat to actually do with a study guide\n4:31\nHow to remember information for the test\n10:17\nTranscript\n\nFollow along using the transcript.\n\nShow transcript\nSchoolHabits\n20.4K subscribers\nVideos\nAbout\nPodcast Channel\nShow less\n\nComments\n \n \n \n \nSee why 16,000 companies chose Vanta\nSponsored\nvanta.com/customers/fileAI\nCase study: Clay\nClay achieves six-figure\nsavings with Vanta\nTrust Center\nDemonstrate trust\nin real-time\nCase study: Github\nGithub automates 93% of\nquestionnaires using Vanta\nContinuous GRC\nA new way to GRC.\nContinuous, complete visibility\nVisit site\n3:54\nMemorize Anything So Fast It's Almost Unfair\nBetterU\n2M\n6mo ago\n18:19\nNICHE Things I Put in My Personal Statement (Got Me Into Imperial)\nwill brito\n24K\n1mo ago\n5:09\n3 tips on how to study effectively\nTED-Ed\n9.1M\n2y ago\n15:02\n5 Secret Study Rules that Make Studying Easier\nSchoolHabits\n756\n4mo ago\n11:16\nhow to study less and get higher grades\nGohar Khan\n6.4M\n2y ago\n8:10\nChinese SECRET study methods( study less & get straight A’s)\nmouno\n398K\n4mo ago\n14:00\nhow to take notes like the top 1% of students\nGohar Khan\n1.6M\n1y ago\n9:49\nHow to organize your ENTIRE LIFE in 10 minutes as a student | FREE Notion template + full tutorial)\nfayefilms\n158K\n6mo ago\n16:59\nHow to Use Anki for Beginners!\nAlec Palmerton, MD\n62K\n5mo ago\n8:23\nHow to Learn So Fast People Assume You're Naturally Gifted\nJustin Sung\n4.7M\n1mo ago\n8:25\nHow to Make Your Brain LOVE Studying l\nthat simple guy\n157K\n2w ago\n11:03\nHow to get PINTEREST HANDWRITING!! Calligraphy tutorial + Improve Your Handwriting Step by Step✍️\npinkiezbabe\n409K\n2mo ago\n12:32\nHow to memorize so easily it feels ILLEGAL\nAmy Wang\n195K\n3w ago\n3:49:59\nBeautiful Relaxing Music - Stop Overthinking, Stress Relief Music, Sleep Music, Calming Music #242\nInner Peace Look Inside\n17M\nStreamed 2y ago\n8:13\nNew\nHow to Stop Forgetting Everything You Study\nThe Angry Explainer\n53K\n4d ago\n8:35\nhow to make notes like an Oxford student | learn everything\nThe IO PREP\n569K\n1mo ago\n13:08\nHow to get ahead of 99% of students THIS school year\nAmy Wang\n436K\n1mo ago\n26:39\nUse Gemini Notebook better than 99% of people (Beginner to Pro)\nPenolopie\n89K\n1mo ago\n6:45\nHow To Become ADDICTED To Studying (Stop Forcing Yourself) 📚✨\n𝑺𝒏𝒆𝒔𝒕𝒖𝒅𝒊𝒐\n157K\n2mo ago\n10:09\nthis DOPAMINE based routine got me EASILY ADDICTED to studying\nKai Notebook\n4.4M\n1y ago\n \n \n \n ",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791598276791,
+            "assetId": "de7186a07dbc42268ad7391b0cbe0bd12c576ffbd14ae533eae1e2c4f088f3c4"
+          }
+        ]
+      },
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "unknown",
+          "reason": "未取得创作者地区",
+          "evidenceIds": [
+            "71aaaf4300a17dbf7fd4b5de",
+            "71ae0814ecd55edf0f91627a",
+            "a6f9b7d414241735718c39e7"
+          ],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：youtube",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "unknown",
+          "reason": "未取得粉丝数",
+          "evidenceIds": [
+            "71aaaf4300a17dbf7fd4b5de",
+            "71ae0814ecd55edf0f91627a",
+            "a6f9b7d414241735718c39e7"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "english_content",
+          "verdict": "match",
+          "reason": "频道公开简介、视频标题及展开后的视频说明均使用英语，例如“How to Study from a Study Guide You Got from Your Teacher”及“In this video, I show you exactly how to do that.”，满足公开内容使用英语；不据此断言全部音轨只有英语。",
+          "evidenceIds": [
+            "28fa021bbdbca5feb8039546",
+            "1a70681ec7a4c14c043ba6bd"
+          ],
+          "label": "公开内容使用英语"
+        },
+        {
+          "criterionId": "study_scenarios",
+          "verdict": "match",
+          "reason": "视频页面显示发布日期为2026年9月10日；说明明确讲解如何使用老师给的复习指南把信息记住以应对考试，章节包括“What to actually do with a study guide”和“How to remember information for the test”，直接满足考试复习方法场景。",
+          "evidenceIds": [
+            "1a70681ec7a4c14c043ba6bd"
+          ],
+          "label": "公开内容明确分享课堂笔记整理或考试复习方法，至少涉及其中一种场景"
+        },
+        {
+          "criterionId": "college_relevance",
+          "verdict": "match",
+          "reason": "频道主页的公开欢迎视频说明明确写“My online study skills course for high school and college students”，直接指明学习技巧内容面向大学生（同时也面向高中生），不是从外观或创作者本人身份推断。主页仅显示欢迎视频相对日期1y ago，不推算精确发布日期。",
+          "evidenceIds": [
+            "28fa021bbdbca5feb8039546"
+          ],
+          "label": "公开内容明确面向大学学习场景或大学生受众，不推断创作者本人学生身份"
+        }
+      ],
+      "verdict": "unknown",
+      "tags": [
+        "学习方法",
+        "考试复习",
+        "笔记整理",
+        "时间管理",
+        "执行功能",
+        "分章节方法教学",
+        "亲切的文字表达"
+      ],
+      "updatedAt": 1791628292959,
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "学习方法",
+            "考试复习",
+            "笔记整理",
+            "时间管理",
+            "执行功能"
+          ],
+          "reason": "频道介绍明确列出 study skills、time management、note-taking 与 executive functions；视频说明直接涉及考试复习。",
+          "evidenceIds": [
+            "28fa021bbdbca5feb8039546",
+            "1a70681ec7a4c14c043ba6bd"
+          ]
+        },
+        {
+          "dimensionId": "presentation_style",
+          "status": "supported",
+          "values": [
+            "分章节方法教学",
+            "亲切的文字表达"
+          ],
+          "reason": "公开视频说明提供时间戳章节和具体方法教学介绍，并使用表情符号及“I appreciate you xo - Katie”等亲切措辞；仅判断文字与内容组织，不判断未观察的画面或口播风格。",
+          "evidenceIds": [
+            "1a70681ec7a4c14c043ba6bd"
+          ]
+        },
+        {
+          "dimensionId": "collaboration_format",
+          "status": "unknown",
+          "values": [],
+          "reason": "现有资料展示视频教程和自有课程，但没有明确的品牌合作形式或合作意愿信息，不能将营销建议当作已确认画像。",
+          "evidenceIds": [
+            "28fa021bbdbca5feb8039546",
+            "1a70681ec7a4c14c043ba6bd"
+          ]
+        }
+      ],
+      "revision": 6,
+      "selected": false
+    },
+    {
+      "id": "research-fd88375f69e716ff5cbc9fef|youtube:raytubelcsw",
+      "taskId": "research-fd88375f69e716ff5cbc9fef",
+      "creator": {
+        "id": "youtube:raytubelcsw",
+        "platform": "youtube",
+        "handle": "raytubelcsw",
+        "profileUrl": "https://www.youtube.com/@raytubelcsw",
+        "displayName": "RayTube",
+        "followers": null,
+        "region": null,
+        "evidence": [
+          {
+            "id": "875b0be160346ad60789d6f0",
+            "url": "https://www.youtube.com/channel/UCAfjBzlKPCtVUsJzE8KQhlA",
+            "text": "Channel description reports 67.6K subscribers and states: 'My name is Rayshawn Ledet,' 'I'm a Licensed Clinical Social Worker in New Jersey,' and 'My goal is to help you pass your ASWB exam!'",
+            "kind": "content",
+            "provider": "tikhub",
+            "publishedAt": null,
+            "capturedAt": 1791598239346
+          },
+          {
+            "id": "335465a4bae927d12bbeaf8e",
+            "url": "https://www.youtube.com/watch?v=anuo5h-9CKA",
+            "text": "Attributable RayTube video titled 'ASWB Practice Questions for ALL ASWB Exam Types! RayTube #52.'",
+            "kind": "content",
+            "provider": "tikhub",
+            "publishedAt": null,
+            "capturedAt": 1791598239346
+          },
+          {
+            "id": "04739b1d9808b5bc22a5b253",
+            "url": "https://www.youtube.com/watch?v=AvZvgLVVggg",
+            "text": "Attributable RayTube video titled 'NEW Study with Ray Outline! Cost: $100.'",
+            "kind": "content",
+            "provider": "tikhub",
+            "publishedAt": null,
+            "capturedAt": 1791598239346
+          },
+          {
+            "id": "af48ec56547d84ba5bd874c5",
+            "url": "https://www.youtube.com/@raytubelcsw",
+            "kind": "browser_snapshot",
+            "text": "",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791598296854,
+            "assetId": "22ed3657216e816b93ea8043a691799b57e6cb4d2e7a59786dcced3eec3c079e"
+          },
+          {
+            "id": "82f948b56674feb4a64e9eae",
+            "url": "https://www.youtube.com/@raytubelcsw",
+            "kind": "browser_snapshot",
+            "text": "SG\nSkip navigation\nSign in\nHome\nShorts\nSubscriptions\nYou\nHistory\nSign in to like videos, comment, and subscribe.\nSign in\nExplore\nMusic\nMovies\nGaming\nShow more\nMore from YouTube\nYouTube Premium\nYouTube Kids\nReport history\nAboutPressCopyrightContact usCreatorsAdvertiseDevelopers\nTermsPrivacyPolicy & SafetyHow YouTube worksTest new features\n© 2026 Google LLC\nRayTube\n@raytubelcsw\n•\n67.6K subscribers\n•\n968 videos\nHello, Friends! \n...more\n studywithray.com\nand 3 more links\nSubscribe\nHome\nVideos\nShorts\nPlaylists\nPosts\nMy course is NOW UPDATED to reflect the new exam changes! Cost: $100\n50,031 views\n11mo ago\nStudy with Ray course: https://www.studywithray.com/\n\nPaid study group link: https://raytube.as.me/schedule.php\n\nUSE CODE: RAYTUBE25 for 25% OFF ALL Practice Exams! \nWebsite: https://www.socialworktestprep.com/\nFacebook group: https://www.facebook.com/groups/65228...\n\nDSM guide: Please email me for a pdf copy: raysocialwork@gmail.com\n\nMy book to Improve self-awareness: https://www.amazon.com/Hmm-Rayshawn-L...\n___________________________ \n\nRemember, doing AT LEAST 2 practice questions a day, helps keep the exam anxiety at BAY!!! \n\nPractice questions:\n\nhttps://www.youtube.com/watch?v=GKGhg...\n___________________________ \n\nSubscribe to Join our Social Work Tribe! https://www.youtube.com/channel/UCAfj...\n___________________________ \n\nLet’s stay connected!\n\nWebsite: https://www.studywithray.com/\nInstagram: https://www.instagram.com/raytubelcsw/\nLinkedIn: https://www.linkedin.com/in/rayshawn-...\nTikTok: https://www.tiktok.com/@raytubelcsw?i...\nEmail: raysocialwork@gmail.com \n___________________________\n\nHelp support the channel: *CashApp: https://cash.app/$RayshawnLedet \n\nThank you, I appreciate it!\n\nYou’re going to PASS these exams by staying POSITIVE, PRODUCTIVE, and CONSISTENT when studying!\n___________________________ \n\n#lmsw #lsw #lcsw #aswb #lswexam #lcswexam #socialworkexam #socialworkerexam #aswbexam #mswexam #pass #raytube #study #lswexamprep #lcswexamprep #passthelswexam #passthelcswexam #lswpracticequestions #lcswpracticequestions #nasw #msw #socialwork #socialworker \n___________________________ \n\nDISCLAIMER! PLEASE READ BELOW! \n\nThe content discussed and shared in this video was NOT taken from the actual Licensed Social Work (LSW) Exam, Licensed Clinical Social Work (LCSW) Exam, ASWB Master Exam, or ASWB Clinical Exam. I do NOT know what questions will be on the Licensed Social Work (LSW) Exam, Licensed Clinical Social Work (LCSW) Exam, ASWB Master Exam, or ASWB Clinical Exam. I do NOT have ANY knowledge of the questions that will appear on the actual Licensed Social Work (LSW) Exam, Licensed Clinical Social Work (LCSW) Exam, ASWB Master Exam, or ASWB Clinical Exam. AGAIN, all content discussed and shared within this video was NOT taken from the actual Licensed Social Work (LSW) Exam, Licensed Clinical Social Work (LCSW) Exam, ASWB Master Exam, or ASWB Clinical Exam.\n\n#LMSW #LSW #LCSW\nREAD MORE\nVideos\n23:37\nASWB Practice Questions for ALL ASWB Exam Types! RayTube #52\n16K\n1mo ago\n16:13\nNEW Study with Ray Outline! Cost: $100\n6K\n2mo ago\n9:38\nMy course is NOW UPDATED to reflect the new exam changes! Cost: $100\n50K\n11mo ago\n5:08\n\"It means a lot to me\" ❤️🙏🏾\n2K\n11mo ago\n10:55\n\"You keep me engaged\" ❤️🙏🏾\n752\n11mo ago\n17:25\nASWB LMSW, LSW, LCSW Exam Prep | Evaluation & Analysis\n35K\n11mo ago\nPopular videos\n9:54\nASWB (LMSW, LSW, LCSW) Exam Prep | Practice questions with RayTube #1\n220K\n4y ago\n20:56\nLSW & LCSW EXAM | Erik Erikson’s Psychosocial Stages of Development + Practice Questions\n217K\n4y ago\n18:53\nASWB (LMSW, LSW, LCSW) Exam Prep | The Social Work Helping Process\n188K\n3y ago\n11:04\nNASW Code of Ethics BREAKDOWN | 1.01 Commitment to Clients & 1.02 Self-Determination | PART 1\n187K\n4y ago\n19:56\nASWB (LMSW, LSW, LCSW) Exam Prep | Therapy Modalities\n172K\n2y ago\n24:53\nDefense Mechanisms - ASWB EXAM (LMSW, LSW, LCSW)\n169K\n3y ago\nMultiple playlists\n6 videos\nASWB Exam: Theories!\nRayTube\nPlaylist\nView full playlist\n9 videos\nASWB Exam: DSM-5!\nRayTube\nPlaylist\nView full playlist\n55 videos\nASWB Exam: Practice Questions!\nRayTube\nPlaylist\nView full playlist\n13 videos\nASWB Exam: NASW Code of Ethics!\nRayTube\nPlaylist\nView full playlist\n132 videos\nASWB Exam: Study Group Feedback!\nRayTube\nPlaylist\nView full playlist\nShorts\nHeads or Tails? 🤔\n308 views\n🙏🏾\n589 views\n🙏🏾\n588 views\n🙏🏾\n211 views\n🙏🏾\n230 views\nLet’s PASS‼️🙏🏾\n2.1K views\nPosts\nRayTube\n•\n6 hours ago\n🙏🏾\n21\n4\nRayTube\n•\n9 days ago\nLet me know below in the comments‼️👇🏾\n2\n16\nRayTube\n•\n2 weeks ago\n🙏🏾\n29\n3\nRayTube\n•\n3 weeks ago\n🙏🏾\n24\n3\nRayTube\n•\n1 month ago\nI got us! 🙏🏾\n20\n2\nRayTube\n•\n1 month ago\n🙏🏾\n30\n4",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791598299840,
+            "assetId": "779509ed5246aacbede7d8b63d5c0ce7fed63872b32d2d4115a4150689ae84af"
+          }
+        ]
+      },
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "unknown",
+          "reason": "未取得创作者地区",
+          "evidenceIds": [
+            "875b0be160346ad60789d6f0",
+            "335465a4bae927d12bbeaf8e",
+            "04739b1d9808b5bc22a5b253"
+          ],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：youtube",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "unknown",
+          "reason": "未取得粉丝数",
+          "evidenceIds": [
+            "875b0be160346ad60789d6f0",
+            "335465a4bae927d12bbeaf8e",
+            "04739b1d9808b5bc22a5b253"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "english_content",
+          "verdict": "match",
+          "reason": "2026-10-10 核验的频道公开页面中，视频标题、课程说明及备考建议均使用英语，例如“ASWB Practice Questions for ALL ASWB Exam Types! RayTube #52”和“Remember, doing AT LEAST 2 practice questions a day, helps keep the exam anxiety at BAY!!!”。",
+          "evidenceIds": [
+            "82f948b56674feb4a64e9eae"
+          ],
+          "label": "公开内容使用英语"
+        },
+        {
+          "criterionId": "study_scenarios",
+          "verdict": "match",
+          "reason": "频道公开说明明确建议每天至少做两道练习题，并提供 ASWB 考试练习题、备考课程与学习提纲，满足考试复习方法场景；不据此认定其分享课堂笔记。核验页面将练习题视频标为“1mo ago”、学习提纲视频标为“2mo ago”，仅保留相对日期，不推算精确发布日期。",
+          "evidenceIds": [
+            "82f948b56674feb4a64e9eae"
+          ],
+          "label": "公开内容明确分享课堂笔记整理或考试复习方法，至少涉及其中一种场景"
+        },
+        {
+          "criterionId": "college_relevance",
+          "verdict": "unknown",
+          "reason": "已观察内容明确针对 ASWB、LSW 和 LCSW 等社会工作执照考试备考，但未明确说明面向大学课程学习或大学生受众。ASWB Master Exam 字样及 #msw 标签不足以证明大学学习场景；不能从专业考试或创作者职业推断大学生受众。",
+          "evidenceIds": [
+            "82f948b56674feb4a64e9eae",
+            "875b0be160346ad60789d6f0"
+          ],
+          "label": "公开内容明确面向大学学习场景或大学生受众，不推断创作者本人学生身份"
+        }
+      ],
+      "verdict": "unknown",
+      "tags": [
+        "社会工作执照考试备考",
+        "ASWB 练习题与知识点讲解",
+        "考试复习提纲",
+        "练习题讲解型",
+        "分主题系列内容",
+        "备考练习题讲解",
+        "复习提纲介绍",
+        "学习课程介绍"
+      ],
+      "updatedAt": 1791628339020,
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "社会工作执照考试备考",
+            "ASWB 练习题与知识点讲解",
+            "考试复习提纲"
+          ],
+          "reason": "主页视频标题、说明与播放列表直接呈现这些内容方向。",
+          "evidenceIds": [
+            "82f948b56674feb4a64e9eae"
+          ]
+        },
+        {
+          "dimensionId": "presentation_style",
+          "status": "supported",
+          "values": [
+            "练习题讲解型",
+            "分主题系列内容"
+          ],
+          "reason": "依据 Practice Questions、Evaluation & Analysis 等标题和按理论、DSM-5、伦理守则分类的播放列表判断内容组织方式，不涉及未观察到的画面或口播风格。",
+          "evidenceIds": [
+            "82f948b56674feb4a64e9eae"
+          ]
+        },
+        {
+          "dimensionId": "collaboration_format",
+          "status": "supported",
+          "values": [
+            "备考练习题讲解",
+            "复习提纲介绍",
+            "学习课程介绍"
+          ],
+          "reason": "这些形式已有公开内容支持，可作为合作形式建议；不代表创作者已确认合作意愿。",
+          "evidenceIds": [
+            "82f948b56674feb4a64e9eae"
+          ]
+        }
+      ],
+      "revision": 6,
+      "selected": false
+    }
+  ],
+  "report": {
+    "url": "http://127.0.0.1:3000/api/reports/research-fd88375f69e716ff5cbc9fef",
+    "articles": 2,
+    "embeddedImages": 7,
+    "profileLinks": 2,
+    "body": "课堂笔记与考试复习方法创作者\n\n目标 1 人；本地已合格 0 人；已核验 2 人。\n\n已依据补标前审计版本恢复原事实与筛选结论，保留新增画像：已选合格 0/1，核验 2。\n\n来源：WaveSurge + 本地核验。远端搜索完成不代表本地条件通过。本次报告包含 2 条筛选记录。报告更新时间：2026-10-10T10:32:19.021Z\nSchoolHabits · 待核实\n\nyoutube / schoolhabits / 粉丝 未知 / 未知\n\n标签：学习方法、考试复习、笔记整理、时间管理、执行功能、分章节方法教学、亲切的文字表达\n\n画像 content_direction：学习方法、考试复习、笔记整理、时间管理、执行功能；频道介绍明确列出 study skills、time management、note-taking 与 executive functions；视频说明直接涉及考试复习。；证据 28fa021bbdbca5feb8039546、1a70681ec7a4c14c043ba6bd\n\n画像 presentation_style：分章节方法教学、亲切的文字表达；公开视频说明提供时间戳章节和具体方法教学介绍，并使用表情符号及“I appreciate you xo - Katie”等亲切措辞；仅判断文字与内容组织，不判断未观察的画面或口播风格。；证据 1a70681ec7a4c14c043ba6bd\n\n画像 collaboration_format：待核实；现有资料展示视频教程和自有课程，但没有明确的品牌合作形式或合作意愿信息，不能将营销建议当作已确认画像。；证据 28fa021bbdbca5feb8039546、1a70681ec7a4c14c043ba6bd\n\n条件\t判断\t依据\n所在地区\t待核实\t未取得创作者地区\ncontent 日期未知\ncontent 日期未知\ncontent 日期未知\n平台\t符合要求\t创作者平台：youtube\n\n粉丝范围\t待核实\t未取得粉丝数\ncontent 日期未知\ncontent 日期未知\ncontent 日期未知\n公开内容使用英语\t符合要求\t频道公开简介、视频标题及展开后的视频说明均使用英语，例如“How to Study from a Study Guide You Got from Your Teacher”及“In this video, I show you exactly how to do that.”，满足公开内容使用英语；不据此断言全部音轨只有英语。\nbrowser_snapshot 日期未知\nbrowser_snapshot 日期未知\n公开内容明确分享课堂笔记整理或考试复习方法，至少涉及其中一种场景\t符合要求\t视频页面显示发布日期为2026年9月10日；说明明确讲解如何使用老师给的复习指南把信息记住以应对考试，章节包括“What to actually do with a study guide”和“How to remember information for the test”，直接满足考试复习方法场景。\nbrowser_snapshot 日期未知\n公开内容明确面向大学学习场景或大学生受众，不推断创作者本人学生身份\t符合要求\t频道主页的公开欢迎视频说明明确写“My online study skills course for high school and college students”，直接指明学习技巧内容面向大学生（同时也面向高中生），不是从外观或创作者本人身份推断。主页仅显示欢迎视频相对日期1y ago，不推算精确发布日期。\nbrowser_snapshot 日期未知\n完整证据映射与截图\n71aaaf4300a17dbf7fd4b5de · content\n原始来源\n\n提供方：tikhub · 捕获：2026-10-10T02:10:39.346Z · 发布时间：日期未知\n\nChannel reports 20.4K subscribers, 131 videos, country United States, and describes study skills, procrastination, time management, and note-taking content.\n71ae0814ecd55edf0f91627a · content\n原始来源\n\n提供方：tikhub · 捕获：2026-10-10T02:10:39.346Z · 发布时间：日期未知\n\nRecent SchoolHabits video titled 'How to Study from a Study Guide You Got from Your Teacher.'\na6f9b7d414241735718c39e7 · content\n原始来源\n\n提供方：tikhub · 捕获：2026-10-10T02:10:39.346Z · 发布时间：日期未知\n\nSchoolHabits video titled 'How to Use Dual Coding to Study.'\nb0cd132da717a5851430b971 · browser_snapshot\n原始来源\n\n提供方：headed-chromium · 捕获：2026-10-10T02:10:41.759Z · 发布时间：日期未知 · 截图编号：22ed3657216e816b93ea8043a691799b57e6cb4d2e7a59786dcced3eec3c079e\n\n28fa021bbdbca5feb8039546 · browser_snapshot\n原始来源\n\n提供方：headed-chromium · 捕获：2026-10-10T02:10:45.697Z · 发布时间：日期未知 · 截图编号：c935944b64e979625c9bdab6e5778bb0b5c08567a40439c37ccf5615236a3097\n\nSG\nSkip navigation\nSign in\nHome\nShorts\nSubscriptions\nYou\nHistory\nSign in to like videos, comment, and subscribe.\nSign in\nExplore\nMusic\nMovies\nGaming\nShow more\nMore from YouTube\nYouTube Premium\nYouTube Kids\nReport history\nAboutPressCopyrightContact usCreatorsAdvertiseDevelopers\nTermsPrivacyPolicy & SafetyHow YouTube worksTest new features\n© 2026 Google LLC\nSchoolHabits\n@SchoolHabits\n•\n20.4K subscribers\n•\n131 videos\nI teach students and professionals strategies to learn and work smarter. I cover everything from study skills to procrastination, time management to note-taking. Trust me - with the right systems, habits, strategies and tweaks, things can be wayyy easier than they are now. \n...more\n schoolhabits.com\nand 3 more links\nSubscribe\nHome\nVideos\nShorts\nPlaylists\nPosts\nWelcome to SchoolHabits\n0:00 / 1:10\nWelcome to SchoolHabits\n1,651 views\n1y ago\nMy name is Katie Azevedo. Through private coaching, video tutorials and online courses, I teach students how to learn.\n\nHaving taught in both public and private school systems, I have seen first-hand how our students are expected to learn - but they are rarely given the tools or strategies to do so.\n\nSince 2006, I have personally coached thousands of students, one-on-one, on:\n\nstandardized tests (SAT/ACT, SSAT, GRE)\napplication essays\nstudy skills\nexecutive functions\nwriting and reading instruction\n\nI work with students in grade 6 through graduate school, as well as adults looking to further their work productivity habits.\n\nWith a Master's Degree in Special Education, I specialize in the intersection between ADHD and academics. I also work with students with ASD and other learning disabilities. I can work in communion with your child's IEP and can help you to navigate and understand your child's services.\n\nIn addition to being a private executive function coach, I'm also a mother of two teens.\n\n⭐SCHOOLHABITS UNIVERSITY⭐\nMy online study skills course for high school and college students:  https://www.schoolhabitsuniversity.co...\nREAD MORE\nVideos\n12:29\nHow to Study from a Study Guide You Got from Your Teacher\n326\n4w ago\nCC\n13:21\nNo Time to Study? Do This.\n2.2K\n1mo ago\nCC\n13:10\nYou're So Smart...But... (And Why That's a Lie)\n249\n2mo ago\nCC\n18:22\nWhy You're Good at Homework But Bad at Tests\n235\n3mo ago\nCC\n15:02\n5 Secret Study Rules that Make Studying Easier\n756\n4mo ago\nCC\n14:56\nWhat to Do When You Don't Understand What You're Learning (10 Strategies for Students)\n690\n5mo ago\nCC\nShorts\nFlash card study hack! #studyhacks ￼\n1.5K views\nStudy Hack!!\n1.7K views\nBusy Isn't a Feeling 😉#studymotivation #timemanagement #studentslife\n86 views\nDo you HEAR me!?\n460 views\nYour story is getting so old...\n868 views\nYou Need a Timer #pomodorotechnique #studyhacks #5010pomodorostudywithme\n597 views\nPosts\nSchoolHabits\n•\n5 years ago\nJust saying hi 🤓 and hoping you are all staying healthy ✨ Xoxo Katie\n18\nSchoolHabits\n•\n6 years ago\nMy last few videos have been all about remote learning. Here’s a shot of one of my home workspaces for my own kids that are learning remotely. Grades 2 and 4. They alternate between this and one we set up in the kitchen. Not perfect but it’s totally working right now 🙌🏼\n13\n1\nSchoolHabits\n•\n6 years ago\nBack to school season is basically my favorite holiday 😭 Flippin’ my calendar to September gets me all warm, fuzzy, and thinking about school supplies hauls 🤓 Who’s with me?! Xo\n10\nSchoolHabits\n•\n6 years ago\nIt's back to school time!! If you're doing remote learning this year (or hybrid), I've been pumping out a ton of remote learning videos lately to help guide you through it. Lots of tips for students, parents and teachers too. If there's a specific video that would be helpful, let me know!! xoxox Katie\n14\n668f2650035e9b9523e7a1b0 · browser_snapshot\n原始来源\n\n提供方：headed-chromium · 捕获：2026-10-10T02:10:56.296Z · 发布时间：日期未知 · 截图编号：cd124b0ae75e0f523ed4b01f29190559c702943bb332b0f798c9d12b5e1400d9\n\nOnly brand with 8 Brain Building Nutrients*| Enfagrow A+ Pro\n0:00 / 0:06\n81170219b9276d3c01049525 · browser_snapshot\n原始来源\n\n提供方：headed-chromium · 捕获：2026-10-10T02:11:04.591Z · 发布时间：日期未知 · 截图编号：634b7d7f9716a67b389733cde146447340a482e199591df198ce5726c401790b\n\nSG\nSkip navigation\nSign in\n0:00 / 2:35\nHow to Study from a Study Guide You Got from Your Teacher\nSchoolHabits\n20.4K subscribers\nSubscribe\n10\nShare\nSave\n328 views  4w ago\nMY COURSES\n🧠 SchoolHabits University → (This is the ultimate “How to Do School Way Easier” program for students who don’t have time to do a “How to Do School Way Easier” program. 🤓) https://www.schoolhabitsuniversity.co... …\nmore\n\nComments\n \n \n \n \n3:54\nMemorize Anything So Fast It's Almost Unfair\nBetterU\n2M\n6mo ago\n18:19\nNICHE Things I Put in My Personal Statement (Got Me Into Imperial)\nwill brito\n24K\n1mo ago\n5:09\n3 tips on how to study effectively\nTED-Ed\n9.1M\n2y ago\n15:02\n5 Secret Study Rules that Make Studying Easier\nSchoolHabits\n756\n4mo ago\n11:16\nhow to study less and get higher grades\nGohar Khan\n6.4M\n2y ago\n8:10\nChinese SECRET study methods( study less & get straight A’s)\nmouno\n398K\n4mo ago\n14:00\nhow to take notes like the top 1% of students\nGohar Khan\n1.6M\n1y ago\n9:49\nHow to organize your ENTIRE LIFE in 10 minutes as a student | FREE Notion template + full tutorial)\nfayefilms\n158K\n6mo ago\n16:59\nHow to Use Anki for Beginners!\nAlec Palmerton, MD\n62K\n5mo ago\n8:23\nHow to Learn So Fast People Assume You're Naturally Gifted\nJustin Sung\n4.7M\n1mo ago\n8:25\nHow to Make Your Brain LOVE Studying l\nthat simple guy\n157K\n2w ago\n11:03\nHow to get PINTEREST HANDWRITING!! Calligraphy tutorial + Improve Your Handwriting Step by Step✍️\npinkiezbabe\n409K\n2mo ago\n12:32\nHow to memorize so easily it feels ILLEGAL\nAmy Wang\n195K\n3w ago\n3:49:59\nBeautiful Relaxing Music - Stop Overthinking, Stress Relief Music, Sleep Music, Calming Music #242\nInner Peace Look Inside\n17M\nStreamed 2y ago\n8:13\nNew\nHow to Stop Forgetting Everything You Study\nThe Angry Explainer\n53K\n4d ago\n8:35\nhow to make notes like an Oxford student | learn everything\nThe IO PREP\n569K\n1mo ago\n13:08\nHow to get ahead of 99% of students THIS school year\nAmy Wang\n436K\n1mo ago\n26:39\nUse Gemini Notebook better than 99% of people (Beginner to Pro)\nPenolopie\n89K\n1mo ago\n6:45\nHow To Become ADDICTED To Studying (Stop Forcing Yourself) 📚✨\n𝑺𝒏𝒆𝒔𝒕𝒖𝒅𝒊𝒐\n157K\n2mo ago\n10:09\nthis DOPAMINE based routine got me EASILY ADDICTED to studying\nKai Notebook\n4.4M\n1y ago\n \n \n \n \n1a70681ec7a4c14c043ba6bd · browser_snapshot\n原始来源\n\n提供方：headed-chromium · 捕获：2026-10-10T02:11:16.791Z · 发布时间：日期未知 · 截图编号：de7186a07dbc42268ad7391b0cbe0bd12c576ffbd14ae533eae1e2c4f088f3c4\n\nSG\nSkip navigation\nSign in\nSee why 16,000 companies chose Vanta\nvanta.com/customers/fileAI\nVisit site\nSponsored\nvanta.com/customers/fileai\nSkip\n0:02 / 2:35\nHow to Study from a Study Guide You Got from Your Teacher\nSchoolHabits\n20.4K subscribers\nSubscribe\n10\nShare\nSave\n328 views  Sep 10, 2026\nMY COURSES\n🧠 SchoolHabits University → (This is the ultimate “How to Do School Way Easier” program for students who don’t have time to do a “How to Do School Way Easier” program. 🤓) https://www.schoolhabitsuniversity.co...\n✅ Assignment Management Power System → https://www.assignmentmanagementsyste...\n📝 Note-Taking Power System → https://www.notetakingsystem.com/?utm...\n\nTHE JOURNAL\n📖 The Executive Function Journal (physical product, 90-day journal that targets and builds core executive functions, for people with ADHD/EF deficits) → https://www.executivefunctionjournal....\n\nYou got a study guide from your teacher. That's awesome. \n\nThe problem is that most students think that the better the study guide their teacher gives them, the better they'll do on the test\n\nYeah, that's not true.\n\nWhen you get a study guide from your teacher, there's a very specific thing you have to do with that study guide: you have to get the information from it and put it in your head. \n\nIn this video, I show you exactly how to do that. 😉\n\nI appreciate you xo - Katie\n\n🕑 TIMESTAMPS\n\n0:00 The problem with teacher study guides\n1:00 The 2 types of study guides you get\n2:51 Why study guides can backfire\n4:31 What to actually do with a study guide\n10:17 How to remember information for the test\n27:47 The ultimate power move for study guides … and school in general\n\nCONNECT WITH ME\n🌍 My blog → https://schoolhabits.com\n📸  Instagram→   / schoolhabits  \n🙂 Facebook→   / schoolhabitskatie  \n👨‍💻 Linkedin → www.linkedin.com/in/katie-azevedo\n🎙️Podcast →    / @learnandworksmarter   \n📱TikTok →   / schoolhabits_katie  \nHow this was made\nAuto-dubbed\nAudio tracks for some languages were automatically generated. Learn more\nChapters\nView all\nThe problem with teacher study guides\n0:00\nThe 2 types of study guides you get\n1:00\nWhy study guides can backfire\n2:51\nWhat to actually do with a study guide\n4:31\nHow to remember information for the test\n10:17\nTranscript\n\nFollow along using the transcript.\n\nShow transcript\nSchoolHabits\n20.4K subscribers\nVideos\nAbout\nPodcast Channel\nShow less\n\nComments\n \n \n \n \nSee why 16,000 companies chose Vanta\nSponsored\nvanta.com/customers/fileAI\nCase study: Clay\nClay achieves six-figure\nsavings with Vanta\nTrust Center\nDemonstrate trust\nin real-time\nCase study: Github\nGithub automates 93% of\nquestionnaires using Vanta\nContinuous GRC\nA new way to GRC.\nContinuous, complete visibility\nVisit site\n3:54\nMemorize Anything So Fast It's Almost Unfair\nBetterU\n2M\n6mo ago\n18:19\nNICHE Things I Put in My Personal Statement (Got Me Into Imperial)\nwill brito\n24K\n1mo ago\n5:09\n3 tips on how to study effectively\nTED-Ed\n9.1M\n2y ago\n15:02\n5 Secret Study Rules that Make Studying Easier\nSchoolHabits\n756\n4mo ago\n11:16\nhow to study less and get higher grades\nGohar Khan\n6.4M\n2y ago\n8:10\nChinese SECRET study methods( study less & get straight A’s)\nmouno\n398K\n4mo ago\n14:00\nhow to take notes like the top 1% of students\nGohar Khan\n1.6M\n1y ago\n9:49\nHow to organize your ENTIRE LIFE in 10 minutes as a student | FREE Notion template + full tutorial)\nfayefilms\n158K\n6mo ago\n16:59\nHow to Use Anki for Beginners!\nAlec Palmerton, MD\n62K\n5mo ago\n8:23\nHow to Learn So Fast People Assume You're Naturally Gifted\nJustin Sung\n4.7M\n1mo ago\n8:25\nHow to Make Your Brain LOVE Studying l\nthat simple guy\n157K\n2w ago\n11:03\nHow to get PINTEREST HANDWRITING!! Calligraphy tutorial + Improve Your Handwriting Step by Step✍️\npinkiezbabe\n409K\n2mo ago\n12:32\nHow to memorize so easily it feels ILLEGAL\nAmy Wang\n195K\n3w ago\n3:49:59\nBeautiful Relaxing Music - Stop Overthinking, Stress Relief Music, Sleep Music, Calming Music #242\nInner Peace Look Inside\n17M\nStreamed 2y ago\n8:13\nNew\nHow to Stop Forgetting Everything You Study\nThe Angry Explainer\n53K\n4d ago\n8:35\nhow to make notes like an Oxford student | learn everything\nThe IO PREP\n569K\n1mo ago\n13:08\nHow to get ahead of 99% of students THIS school year\nAmy Wang\n436K\n1mo ago\n26:39\nUse Gemini Notebook better than 99% of people (Beginner to Pro)\nPenolopie\n89K\n1mo ago\n6:45\nHow To Become ADDICTED To Studying (Stop Forcing Yourself) 📚✨\n𝑺𝒏𝒆𝒔𝒕𝒖𝒅𝒊𝒐\n157K\n2mo ago\n10:09\nthis DOPAMINE based routine got me EASILY ADDICTED to studying\nKai Notebook\n4.4M\n1y ago\n \n \n \n \nRayTube · 待核实\n\nyoutube / raytubelcsw / 粉丝 未知 / 未知\n\n标签：社会工作执照考试备考、ASWB 练习题与知识点讲解、考试复习提纲、练习题讲解型、分主题系列内容、备考练习题讲解、复习提纲介绍、学习课程介绍\n\n画像 content_direction：社会工作执照考试备考、ASWB 练习题与知识点讲解、考试复习提纲；主页视频标题、说明与播放列表直接呈现这些内容方向。；证据 82f948b56674feb4a64e9eae\n\n画像 presentation_style：练习题讲解型、分主题系列内容；依据 Practice Questions、Evaluation & Analysis 等标题和按理论、DSM-5、伦理守则分类的播放列表判断内容组织方式，不涉及未观察到的画面或口播风格。；证据 82f948b56674feb4a64e9eae\n\n画像 collaboration_format：备考练习题讲解、复习提纲介绍、学习课程介绍；这些形式已有公开内容支持，可作为合作形式建议；不代表创作者已确认合作意愿。；证据 82f948b56674feb4a64e9eae\n\n条件\t判断\t依据\n所在地区\t待核实\t未取得创作者地区\ncontent 日期未知\ncontent 日期未知\ncontent 日期未知\n平台\t符合要求\t创作者平台：youtube\n\n粉丝范围\t待核实\t未取得粉丝数\ncontent 日期未知\ncontent 日期未知\ncontent 日期未知\n公开内容使用英语\t符合要求\t2026-10-10 核验的频道公开页面中，视频标题、课程说明及备考建议均使用英语，例如“ASWB Practice Questions for ALL ASWB Exam Types! RayTube #52”和“Remember, doing AT LEAST 2 practice questions a day, helps keep the exam anxiety at BAY!!!”。\nbrowser_snapshot 日期未知\n公开内容明确分享课堂笔记整理或考试复习方法，至少涉及其中一种场景\t符合要求\t频道公开说明明确建议每天至少做两道练习题，并提供 ASWB 考试练习题、备考课程与学习提纲，满足考试复习方法场景；不据此认定其分享课堂笔记。核验页面将练习题视频标为“1mo ago”、学习提纲视频标为“2mo ago”，仅保留相对日期，不推算精确发布日期。\nbrowser_snapshot 日期未知\n公开内容明确面向大学学习场景或大学生受众，不推断创作者本人学生身份\t待核实\t已观察内容明确针对 ASWB、LSW 和 LCSW 等社会工作执照考试备考，但未明确说明面向大学课程学习或大学生受众。ASWB Master Exam 字样及 #msw 标签不足以证明大学学习场景；不能从专业考试或创作者职业推断大学生受众。\nbrowser_snapshot 日期未知\ncontent 日期未知\n完整证据映射与截图\n875b0be160346ad60789d6f0 · content\n原始来源\n\n提供方：tikhub · 捕获：2026-10-10T02:10:39.346Z · 发布时间：日期未知\n\nChannel description reports 67.6K subscribers and states: 'My name is Rayshawn Ledet,' 'I'm a Licensed Clinical Social Worker in New Jersey,' and 'My goal is to help you pass your ASWB exam!'\n335465a4bae927d12bbeaf8e · content\n原始来源\n\n提供方：tikhub · 捕获：2026-10-10T02:10:39.346Z · 发布时间：日期未知\n\nAttributable RayTube video titled 'ASWB Practice Questions for ALL ASWB Exam Types! RayTube #52.'\n04739b1d9808b5bc22a5b253 · content\n原始来源\n\n提供方：tikhub · 捕获：2026-10-10T02:10:39.346Z · 发布时间：日期未知\n\nAttributable RayTube video titled 'NEW Study with Ray Outline! Cost: $100.'\naf48ec56547d84ba5bd874c5 · browser_snapshot\n原始来源\n\n提供方：headed-chromium · 捕获：2026-10-10T02:11:36.854Z · 发布时间：日期未知 · 截图编号：22ed3657216e816b93ea8043a691799b57e6cb4d2e7a59786dcced3eec3c079e\n\n82f948b56674feb4a64e9eae · browser_snapshot\n原始来源\n\n提供方：headed-chromium · 捕获：2026-10-10T02:11:39.840Z · 发布时间：日期未知 · 截图编号：779509ed5246aacbede7d8b63d5c0ce7fed63872b32d2d4115a4150689ae84af\n\nSG\nSkip navigation\nSign in\nHome\nShorts\nSubscriptions\nYou\nHistory\nSign in to like videos, comment, and subscribe.\nSign in\nExplore\nMusic\nMovies\nGaming\nShow more\nMore from YouTube\nYouTube Premium\nYouTube Kids\nReport history\nAboutPressCopyrightContact usCreatorsAdvertiseDevelopers\nTermsPrivacyPolicy & SafetyHow YouTube worksTest new features\n© 2026 Google LLC\nRayTube\n@raytubelcsw\n•\n67.6K subscribers\n•\n968 videos\nHello, Friends! \n...more\n studywithray.com\nand 3 more links\nSubscribe\nHome\nVideos\nShorts\nPlaylists\nPosts\nMy course is NOW UPDATED to reflect the new exam changes! Cost: $100\n50,031 views\n11mo ago\nStudy with Ray course: https://www.studywithray.com/\n\nPaid study group link: https://raytube.as.me/schedule.php\n\nUSE CODE: RAYTUBE25 for 25% OFF ALL Practice Exams! \nWebsite: https://www.socialworktestprep.com/\nFacebook group: https://www.facebook.com/groups/65228...\n\nDSM guide: Please email me for a pdf copy: raysocialwork@gmail.com\n\nMy book to Improve self-awareness: https://www.amazon.com/Hmm-Rayshawn-L...\n___________________________ \n\nRemember, doing AT LEAST 2 practice questions a day, helps keep the exam anxiety at BAY!!! \n\nPractice questions:\n\nhttps://www.youtube.com/watch?v=GKGhg...\n___________________________ \n\nSubscribe to Join our Social Work Tribe! https://www.youtube.com/channel/UCAfj...\n___________________________ \n\nLet’s stay connected!\n\nWebsite: https://www.studywithray.com/\nInstagram: https://www.instagram.com/raytubelcsw/\nLinkedIn: https://www.linkedin.com/in/rayshawn-...\nTikTok: https://www.tiktok.com/@raytubelcsw?i...\nEmail: raysocialwork@gmail.com \n___________________________\n\nHelp support the channel: *CashApp: https://cash.app/$RayshawnLedet \n\nThank you, I appreciate it!\n\nYou’re going to PASS these exams by staying POSITIVE, PRODUCTIVE, and CONSISTENT when studying!\n___________________________ \n\n#lmsw #lsw #lcsw #aswb #lswexam #lcswexam #socialworkexam #socialworkerexam #aswbexam #mswexam #pass #raytube #study #lswexamprep #lcswexamprep #passthelswexam #passthelcswexam #lswpracticequestions #lcswpracticequestions #nasw #msw #socialwork #socialworker \n___________________________ \n\nDISCLAIMER! PLEASE READ BELOW! \n\nThe content discussed and shared in this video was NOT taken from the actual Licensed Social Work (LSW) Exam, Licensed Clinical Social Work (LCSW) Exam, ASWB Master Exam, or ASWB Clinical Exam. I do NOT know what questions will be on the Licensed Social Work (LSW) Exam, Licensed Clinical Social Work (LCSW) Exam, ASWB Master Exam, or ASWB Clinical Exam. I do NOT have ANY knowledge of the questions that will appear on the actual Licensed Social Work (LSW) Exam, Licensed Clinical Social Work (LCSW) Exam, ASWB Master Exam, or ASWB Clinical Exam. AGAIN, all content discussed and shared within this video was NOT taken from the actual Licensed Social Work (LSW) Exam, Licensed Clinical Social Work (LCSW) Exam, ASWB Master Exam, or ASWB Clinical Exam.\n\n#LMSW #LSW #LCSW\nREAD MORE\nVideos\n23:37\nASWB Practice Questions for ALL ASWB Exam Types! RayTube #52\n16K\n1mo ago\n16:13\nNEW Study with Ray Outline! Cost: $100\n6K\n2mo ago\n9:38\nMy course is NOW UPDATED to reflect the new exam changes! Cost: $100\n50K\n11mo ago\n5:08\n\"It means a lot to me\" ❤️🙏🏾\n2K\n11mo ago\n10:55\n\"You keep me engaged\" ❤️🙏🏾\n752\n11mo ago\n17:25\nASWB LMSW, LSW, LCSW Exam Prep | Evaluation & Analysis\n35K\n11mo ago\nPopular videos\n9:54\nASWB (LMSW, LSW, LCSW) Exam Prep | Practice questions with RayTube #1\n220K\n4y ago\n20:56\nLSW & LCSW EXAM | Erik Erikson’s Psychosocial Stages of Development + Practice Questions\n217K\n4y ago\n18:53\nASWB (LMSW, LSW, LCSW) Exam Prep | The Social Work Helping Process\n188K\n3y ago\n11:04\nNASW Code of Ethics BREAKDOWN | 1.01 Commitment to Clients & 1.02 Self-Determination | PART 1\n187K\n4y ago\n19:56\nASWB (LMSW, LSW, LCSW) Exam Prep | Therapy Modalities\n172K\n2y ago\n24:53\nDefense Mechanisms - ASWB EXAM (LMSW, LSW, LCSW)\n169K\n3y ago\nMultiple playlists\n6 videos\nASWB Exam: Theories!\nRayTube\nPlaylist\nView full playlist\n9 videos\nASWB Exam: DSM-5!\nRayTube\nPlaylist\nView full playlist\n55 videos\nASWB Exam: Practice Questions!\nRayTube\nPlaylist\nView full playlist\n13 videos\nASWB Exam: NASW Code of Ethics!\nRayTube\nPlaylist\nView full playlist\n132 videos\nASWB Exam: Study Group Feedback!\nRayTube\nPlaylist\nView full playlist\nShorts\nHeads or Tails? 🤔\n308 views\n🙏🏾\n589 views\n🙏🏾\n588 views\n🙏🏾\n211 views\n🙏🏾\n230 views\nLet’s PASS‼️🙏🏾\n2.1K views\nPosts\nRayTube\n•\n6 hours ago\n🙏🏾\n21\n4\nRayTube\n•\n9 days ago\nLet me know below in the comments‼️👇🏾\n2\n16\nRayTube\n•\n2 weeks ago\n🙏🏾\n29\n3\nRayTube\n•\n3 weeks ago\n🙏🏾\n24\n3\nRayTube\n•\n1 month ago\nI got us! 🙏🏾\n20\n2\nRayTube\n•\n1 month ago\n🙏🏾\n30\n4"
+  },
+  "chatLinks": [
+    {
+      "label": "tylerlcrawford、valstechtalkk 原报告",
+      "href": "/api/reports/research-d22f5bc3f9c80da1a4979ca5"
+    },
+    {
+      "label": "SchoolHabits、raytubelcsw 原报告",
+      "href": "/api/reports/research-fd88375f69e716ff5cbc9fef"
+    },
+    {
+      "label": "colelangs、wesleyanna 原报告",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-a333d174361fcf1bed6c0698"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-a333d174361fcf1bed6c0698?format=csv"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-010f8c5e484e38738b2b3640"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-010f8c5e484e38738b2b3640?format=csv"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-58949888b306ad726d60be23"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-58949888b306ad726d60be23?format=csv"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-5e4db1193ded213e791cd417"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-5e4db1193ded213e791cd417?format=csv"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-6b62fedb31c94ffb3dfd83b8"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-6b62fedb31c94ffb3dfd83b8?format=csv"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-7df22029caef61df6134e885"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-7df22029caef61df6134e885?format=csv"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-bcebf909d61af9519dc124f3"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-bcebf909d61af9519dc124f3?format=csv"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-a5b580b3d9a62868bf773f08"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-a5b580b3d9a62868bf773f08?format=csv"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-d22f5bc3f9c80da1a4979ca5"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-d22f5bc3f9c80da1a4979ca5?format=csv"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-fd88375f69e716ff5cbc9fef"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-fd88375f69e716ff5cbc9fef?format=csv"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc?format=csv"
+    },
+    {
+      "label": "查看报告",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc?format=csv"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc?format=csv"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc?format=csv"
+    },
+    {
+      "label": "查看更新后的报告",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc"
+    },
+    {
+      "label": "查看已保存报告",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc"
+    },
+    {
+      "label": "查看报告",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc?format=csv"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc?format=csv"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc?format=csv"
+    },
+    {
+      "label": "查看更新后的报告",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-d22f5bc3f9c80da1a4979ca5"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-d22f5bc3f9c80da1a4979ca5?format=csv"
+    },
+    {
+      "label": "查看更新后的报告",
+      "href": "/api/reports/research-d22f5bc3f9c80da1a4979ca5"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-fd88375f69e716ff5cbc9fef"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-fd88375f69e716ff5cbc9fef?format=csv"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc?format=csv"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-fd88375f69e716ff5cbc9fef"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-fd88375f69e716ff5cbc9fef?format=csv"
+    },
+    {
+      "label": "查看更新后的报告",
+      "href": "/api/reports/research-fd88375f69e716ff5cbc9fef"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc?format=csv"
+    },
+    {
+      "label": "查看更新后的报告",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc"
+    },
+    {
+      "label": "原报告",
+      "href": "/api/reports/research-d22f5bc3f9c80da1a4979ca5"
+    },
+    {
+      "label": "CSV 导出",
+      "href": "/api/reports/research-d22f5bc3f9c80da1a4979ca5?format=csv"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-d22f5bc3f9c80da1a4979ca5"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-d22f5bc3f9c80da1a4979ca5?format=csv"
+    },
+    {
+      "label": "查看更新后的报告",
+      "href": "/api/reports/research-d22f5bc3f9c80da1a4979ca5"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-a183b9437d676713c0f2812f"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-a183b9437d676713c0f2812f?format=csv"
+    },
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-deadf97a7b6138ba6d316943"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-deadf97a7b6138ba6d316943?format=csv"
+    },
+    {
+      "label": "查看原报告",
+      "href": "/api/reports/research-d22f5bc3f9c80da1a4979ca5"
+    },
+    {
+      "label": "查看报告",
+      "href": "/api/reports/research-d22f5bc3f9c80da1a4979ca5"
+    },
+    {
+      "label": "查看报告",
+      "href": "/api/reports/research-fd88375f69e716ff5cbc9fef"
+    },
+    {
+      "label": "查看报告",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc"
+    },
+    {
+      "label": "查看本次综合报告",
+      "href": "/api/work-batches/32fde236-b5e4-4605-bdc8-13d54916c825/report"
+    },
+    {
+      "label": "下载综合 CSV",
+      "href": "/api/work-batches/32fde236-b5e4-4605-bdc8-13d54916c825/report?format=csv"
+    }
+  ],
+  "gfmTables": 12,
+  "finishedAt": "2026-10-10T11:01:06.349Z"
+}

@@ -1,0 +1,57 @@
+{
+  "atUtc": "2026-10-09T15:03:13.418138+00:00",
+  "method": "GET",
+  "path": "/credits/ledger?limit=5",
+  "authMode": "cookie",
+  "status": 200,
+  "elapsedSeconds": 0.569,
+  "contentType": "application/json; charset=utf-8",
+  "responseSha256": "4e075809ec3684025dd27d8bcec748f0cd6c463dc960721f54778c49299d36c2",
+  "response": {
+    "entries": [
+      {
+        "id": "2b1d0fbf-8078-4302-a349-56ececdf47b2",
+        "action": "opening_balance",
+        "cost": 58,
+        "balanceAfter": 2058,
+        "refId": "80c49336-d454-44e6-a7e6-69c02e95fd46",
+        "refType": "CreditWallet",
+        "metadata": {
+          "note": "Balance that pre-dated ledger completeness (signup grant and any manual adjustment). No money moved.",
+          "reason": "reconciliation_opening_balance",
+          "observedBalance": 2058,
+          "observedLedgerTotal": 2000
+        },
+        "createdAt": "2026-10-09T13:38:42.277Z",
+        "ref": {
+          "name": null
+        },
+        "actor": null
+      },
+      {
+        "id": "4ca41434-d297-4365-b478-23bd9da5b6ae",
+        "action": "admin_grant",
+        "cost": 2000,
+        "balanceAfter": 2058,
+        "refId": null,
+        "refType": "AdminGrant",
+        "metadata": {
+          "reason": "Comp: 100 USD worth of credits (2,000 credits at 5 cents/credit), requested by mifan 2026-10-09",
+          "actorRole": "admin",
+          "grantedBy": "8244c25f-8509-40bc-9f4c-27c234de3f7b",
+          "actorUserId": "8244c25f-8509-40bc-9f4c-27c234de3f7b",
+          "grantedByEmail": "mifan@unifai.network"
+        },
+        "createdAt": "2026-10-09T13:24:27.847Z",
+        "ref": null,
+        "actor": {
+          "id": "8244c25f-8509-40bc-9f4c-27c234de3f7b",
+          "name": "Wenlong Xing",
+          "email": "mifan@unifai.network",
+          "role": "admin"
+        }
+      }
+    ],
+    "nextCursor": null
+  }
+}

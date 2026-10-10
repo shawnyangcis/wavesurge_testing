@@ -1,0 +1,119 @@
+{
+  "startedAt": "2026-10-10T15:41:52.748Z",
+  "source": "Production Campaign/report/results/Agent query routes against actual saved R4 Campaign; browser opens parent/children and downloads standard CSV. No new research or webpage observations.",
+  "campaignId": "campaign-73faf22be1fd823d6a0f58d6",
+  "groups": [
+    {
+      "id": "life_efficiency",
+      "title": "生活效率分享：指定两账号全量评估",
+      "taskId": "research-7f22924e895fdf79bc9bfb73",
+      "qualifying": 1,
+      "selectedIds": [
+        "research-7f22924e895fdf79bc9bfb73|instagram:tylerlcrawford"
+      ],
+      "independentPreselectedIds": [
+        "research-7f22924e895fdf79bc9bfb73|instagram:tylerlcrawford"
+      ],
+      "results": [
+        {
+          "id": "research-7f22924e895fdf79bc9bfb73|instagram:tylerlcrawford",
+          "verdict": "match",
+          "selected": true,
+          "context": {
+            "sourceTaskTitle": "生活效率分享：指定两账号全量评估",
+            "groupId": "life_efficiency",
+            "groupTitle": "生活效率分享：指定两账号全量评估",
+            "selectionScope": "campaign",
+            "campaignId": "campaign-73faf22be1fd823d6a0f58d6",
+            "campaignTitle": "智能生活 App 美国年轻人 Instagram 首轮合作方案",
+            "researchSelected": true,
+            "allocatedGroupId": "life_efficiency",
+            "allocatedGroupTitle": "生活效率分享：指定两账号全量评估"
+          }
+        },
+        {
+          "id": "research-7f22924e895fdf79bc9bfb73|instagram:valstechtalkk",
+          "verdict": "unknown",
+          "selected": false,
+          "context": {
+            "sourceTaskTitle": "生活效率分享：指定两账号全量评估",
+            "groupId": "life_efficiency",
+            "groupTitle": "生活效率分享：指定两账号全量评估",
+            "selectionScope": "campaign",
+            "campaignId": "campaign-73faf22be1fd823d6a0f58d6",
+            "campaignTitle": "智能生活 App 美国年轻人 Instagram 首轮合作方案",
+            "researchSelected": false,
+            "allocatedGroupId": "practical_tech_apps",
+            "allocatedGroupTitle": "实用数码和 App 体验：指定两账号全量评估"
+          }
+        }
+      ],
+      "agentQueryMatched": true
+    },
+    {
+      "id": "practical_tech_apps",
+      "title": "实用数码和 App 体验：指定两账号全量评估",
+      "taskId": "research-1c0a7ca9deb257bd0144ee1f",
+      "qualifying": 2,
+      "selectedIds": [
+        "research-1c0a7ca9deb257bd0144ee1f|instagram:valstechtalkk"
+      ],
+      "independentPreselectedIds": [
+        "research-1c0a7ca9deb257bd0144ee1f|instagram:tylerlcrawford"
+      ],
+      "results": [
+        {
+          "id": "research-1c0a7ca9deb257bd0144ee1f|instagram:tylerlcrawford",
+          "verdict": "match",
+          "selected": false,
+          "context": {
+            "sourceTaskTitle": "实用数码和 App 体验：指定两账号全量评估",
+            "groupId": "practical_tech_apps",
+            "groupTitle": "实用数码和 App 体验：指定两账号全量评估",
+            "selectionScope": "campaign",
+            "campaignId": "campaign-73faf22be1fd823d6a0f58d6",
+            "campaignTitle": "智能生活 App 美国年轻人 Instagram 首轮合作方案",
+            "researchSelected": true,
+            "allocatedGroupId": "life_efficiency",
+            "allocatedGroupTitle": "生活效率分享：指定两账号全量评估"
+          }
+        },
+        {
+          "id": "research-1c0a7ca9deb257bd0144ee1f|instagram:valstechtalkk",
+          "verdict": "match",
+          "selected": true,
+          "context": {
+            "sourceTaskTitle": "实用数码和 App 体验：指定两账号全量评估",
+            "groupId": "practical_tech_apps",
+            "groupTitle": "实用数码和 App 体验：指定两账号全量评估",
+            "selectionScope": "campaign",
+            "campaignId": "campaign-73faf22be1fd823d6a0f58d6",
+            "campaignTitle": "智能生活 App 美国年轻人 Instagram 首轮合作方案",
+            "researchSelected": false,
+            "allocatedGroupId": "practical_tech_apps",
+            "allocatedGroupTitle": "实用数码和 App 体验：指定两账号全量评估"
+          }
+        }
+      ],
+      "agentQueryMatched": true
+    }
+  ],
+  "pageErrors": [],
+  "selections": [
+    {
+      "creatorId": "instagram:tylerlcrawford",
+      "groupId": "life_efficiency",
+      "resultId": "research-7f22924e895fdf79bc9bfb73|instagram:tylerlcrawford"
+    },
+    {
+      "creatorId": "instagram:valstechtalkk",
+      "groupId": "practical_tech_apps",
+      "resultId": "research-1c0a7ca9deb257bd0144ee1f|instagram:valstechtalkk"
+    }
+  ],
+  "passed": true,
+  "noResultMutation": true,
+  "newWaveCalls": 0,
+  "finalCsvOnlySelected": true,
+  "finishedAt": "2026-10-10T15:42:46.978Z"
+}

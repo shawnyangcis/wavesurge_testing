@@ -1,0 +1,38 @@
+{
+  "archiveFilesOrEmbeddedArchives": 1,
+  "archiveMembersChecked": 5,
+  "credentialExposures": [],
+  "scopeCount": 5,
+  "includesRetainedAcceptanceVolumeBootstrapSecrets": true,
+  "redactions": [
+    {
+      "file": "acceptance/browser-reports/creator-studio-retest-r4-20261010-second/index.html::embedded-zip",
+      "member": "db02bec54e34b72d22a6.json",
+      "scope": "creator-studio-retest-r4-20261010-second",
+      "kind": "admin",
+      "occurrences": 1
+    },
+    {
+      "file": "acceptance/browser-reports/creator-studio-retest-r4-20261010-second/index.html::embedded-zip",
+      "member": "752b471a939fb00c199e.json",
+      "scope": "creator-studio-retest-r4-20261010-second",
+      "kind": "admin",
+      "occurrences": 1
+    },
+    {
+      "file": "acceptance/browser-reports/creator-studio-retest-r4-20261010-second/index.html::embedded-zip",
+      "member": "a14fdc57fadb5e2a2fc0.json",
+      "scope": "creator-studio-retest-r4-20261010-second",
+      "kind": "admin",
+      "occurrences": 1
+    },
+    {
+      "file": "acceptance/browser-reports/creator-studio-retest-r4-20261010-second/index.html::embedded-zip",
+      "member": "d4ee3251b4daed9dd2ef.json",
+      "scope": "creator-studio-retest-r4-20261010-second-persistence",
+      "kind": "admin",
+      "occurrences": 1
+    }
+  ],
+  "redactedArchiveJsonStillValid": true
+}

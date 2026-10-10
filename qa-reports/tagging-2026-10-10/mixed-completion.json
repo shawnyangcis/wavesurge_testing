@@ -1,0 +1,656 @@
+{
+  "source": "Controlled real-candidate replay, real production model and live browser; NOT new discovery",
+  "scope": "mixed",
+  "base": "http://127.0.0.1:3300",
+  "startedAt": "2026-10-10T03:05:10.306Z",
+  "ids": [
+    "research-d88d897d041645bd6758ac19"
+  ],
+  "timeline": [
+    {
+      "at": "2026-10-10T03:05:10.734Z",
+      "tasks": [
+        {
+          "id": "research-d88d897d041645bd6758ac19",
+          "title": "原题四项特征核验：真实部分候选重放（非完整搜索）",
+          "status": "running",
+          "requested": 1,
+          "evaluated": 0,
+          "matched": 0,
+          "updatedAt": 1791601488906,
+          "detail": "人工协助已结束，将重新观察当前页面后继续原候选核验",
+          "remoteId": "review-replay:bd260f50-b76f-440c-9e47-a022a6697ac6",
+          "remoteStatus": "done",
+          "nextPollAt": 0
+        }
+      ]
+    },
+    {
+      "at": "2026-10-10T03:05:25.920Z",
+      "tasks": [
+        {
+          "id": "research-d88d897d041645bd6758ac19",
+          "title": "原题四项特征核验：真实部分候选重放（非完整搜索）",
+          "status": "partial",
+          "requested": 1,
+          "evaluated": 1,
+          "matched": 0,
+          "updatedAt": 1791601516375,
+          "detail": "已合格 0/1，已核验 1；证据不足者保持待核实。",
+          "remoteId": "review-replay:bd260f50-b76f-440c-9e47-a022a6697ac6",
+          "remoteStatus": "done",
+          "nextPollAt": 0
+        }
+      ]
+    }
+  ],
+  "observedAt": "2026-10-10T03:05:26.003Z",
+  "tasks": [
+    {
+      "id": "research-d88d897d041645bd6758ac19",
+      "title": "原题四项特征核验：真实部分候选重放（非完整搜索）",
+      "status": "partial",
+      "requested": 1,
+      "evaluated": 1,
+      "matched": 0,
+      "updatedAt": 1791601516375,
+      "detail": "已合格 0/1，已核验 1；证据不足者保持待核实。",
+      "remoteId": "review-replay:bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "remoteStatus": "done",
+      "nextPollAt": 0
+    }
+  ],
+  "results": [
+    {
+      "id": "research-d88d897d041645bd6758ac19|instagram:franhaddock_",
+      "taskId": "research-d88d897d041645bd6758ac19",
+      "creator": {
+        "id": "instagram:franhaddock_",
+        "platform": "instagram",
+        "handle": "franhaddock_",
+        "profileUrl": "https://www.instagram.com/franhaddock_/",
+        "displayName": "Fran Haddock 🌳 she/her",
+        "followers": 14872,
+        "region": "GB",
+        "evidence": [
+          {
+            "id": "ac40b5a127cc9c57cc319875",
+            "url": "https://www.instagram.com/p/Dd6iln9NJ9f/",
+            "text": "Video description: a white woman with glasses and her hair in 2 plaits talks to the screen from her bed.",
+            "kind": "content",
+            "provider": "tikhub",
+            "publishedAt": "2026-09-30T14:24:37Z",
+            "capturedAt": 1791601119209
+          },
+          {
+            "id": "f08d92181c5158c69b604c94",
+            "url": "https://www.instagram.com/franhaddock_/",
+            "text": "Fran Haddock 🌳 she/her; 14,872 followers; is_business false; biography includes Sheffield, current reading, advocacy from bed, and category Blogger.",
+            "kind": "content",
+            "provider": "tikhub",
+            "publishedAt": null,
+            "capturedAt": 1791601119209
+          },
+          {
+            "id": "76314094127e0b2b00ae9b8b",
+            "url": "https://www.instagram.com/franhaddock_/",
+            "text": "Instagram About This Account reports Account based in United Kingdom.",
+            "kind": "content",
+            "provider": "tikhub",
+            "publishedAt": null,
+            "capturedAt": 1791601119209
+          },
+          {
+            "id": "cc62cf14f0c9d0fe5a86fd81",
+            "url": "https://www.instagram.com/p/Ddo72ZptXRA/",
+            "text": "Halloween raffle: Dr Bradbury’s Compendium of Curiosities Halloween calendar, crochet pumpkin wreath, S’mores Jellycat, stickers, cards, meds diary, spoonie hat, prints and coloring pages.",
+            "kind": "content",
+            "provider": "tikhub",
+            "publishedAt": null,
+            "capturedAt": 1791601119209
+          },
+          {
+            "id": "059a2b1bd84fc521816e3cef",
+            "url": "https://linktr.ee/franhaddock_",
+            "text": "Linktree contains fundraisers, articles, products and BBC link; no TikTok, YouTube or other social-platform account link.",
+            "kind": "content",
+            "provider": "tikhub",
+            "publishedAt": null,
+            "capturedAt": 1791601119209
+          },
+          {
+            "id": "de37ecca47f5627975c74c35",
+            "url": "https://www.instagram.com/franhaddock_/",
+            "kind": "browser_snapshot",
+            "text": "Log In\nSign Up\nfranhaddock_\n14.8K followers\n3,857 following\nFran Haddock 🌳 she/her\nshe/her\nfranhaddock_\n🛌 Severe M.E. & Long C (funcap 2.5)\n💖 Advocacy from bed\n✨ Reality & tiny joys\n📍 Sheffield\n🎧📖 CR: Where sleeping girls... \nmore\nlinktr.ee/franhaddock_\nPrecautions q&a\nBoundaries\nBirthday MA\nFave things\nAudiobooks\nSpring Raffle\nFeb 2026 💘\nWinter raffle❄️\n2025 Faves\nHolidays MA\nShow more posts from franhaddock_\nMeta\nAbout\nBlog\nJobs\nHelp\nAPI\nPrivacy\nTerms\nLocations\nPopular\nInstagram Lite\nMeta AI\nMuse\nThreads\nContact Uploading & Non-Users\nMeta Verified\nEnglish\nAfrikaans\nالعربية\nČeština\nDansk\nDeutsch\nΕλληνικά\nEnglish\nEnglish (UK)\nEspañol (España)\nEspañol\nفارسی\nSuomi\nFrançais\nעברית\nBahasa Indonesia\nItaliano\n日本語\n한국어\nBahasa Melayu\nNorsk\nNederlands\nPolski\nPortuguês (Brasil)\nPortuguês (Portugal)\nРусский\nSvenska\nภาษาไทย\nFilipino\nTürkçe\n中文(简体)\n中文(台灣)\nবাংলা\nગુજરાતી\nहिन्दी\nHrvatski\nMagyar\nಕನ್ನಡ\nമലയാളം\nमराठी\nनेपाली\nਪੰਜਾਬੀ\nසිංහල\nSlovenčina\nதமிழ்\nతెలుగు\nاردو\nTiếng Việt\n中文(香港)\nБългарски\nFrançais (Canada)\nRomână\nСрпски\nУкраїнська\n© 2026 Instagram from Meta",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791601155750,
+            "assetId": "27d234e513de7511748c8909d7d2f52f5ad9bc4208b39f8adca38d1c5db9c93d"
+          },
+          {
+            "id": "7959a29a3503802b8f3b04e3",
+            "url": "https://www.instagram.com/p/Dd6iln9NJ9f/",
+            "kind": "browser_snapshot",
+            "text": "",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791601165902,
+            "assetId": "be169388627f31e578460cb0ccdaf67c893c8883ac191222f5447575e302f67a"
+          },
+          {
+            "id": "e550ca6c9d84ba9821d8d9ef",
+            "url": "https://www.instagram.com/p/Dd6iln9NJ9f/",
+            "kind": "browser_snapshot",
+            "text": "Log In\nSign Up\nNever miss a post from franhaddock_\nSign up for Instagram to stay in the loop.\nBy continuing, you agree to Instagram's Terms of Use and Privacy Policy.\nSign up\nLog in\nfranhaddock_\n•\nFollow\nOriginal audio\nfranhaddock_\n \n1w\nME= myalgic encephalomyelitis (Also known as ME/CFS)\n\n#myalgicencephalomyelitis #SevereME #MECFS #LongCovid #ChronicIllness \n\nVideo description: a white woman with glasses and her hair in 2 plaits talks to the screen from her bed. She wears a blue t-shirt and there is a bat squishmallow stuffed down the bed behind her\nbearsandbestfriends\n \n4d\nI love that you were able to go to the woods. No one has the right to question that. But also no one knows how long you had to reserve tiny bubbles of energy to be able to do that or how long it will take to get those tiny bubbles back again. Why would anyone question that?\nLike\nReply\nburgess.tracey6\n \n4d\nI get you totally Fran. Everyone's situation is different & after a while I think we adjust to take account of where we estimate the edge of our energy capacity is. I don't discuss much about my fluctuating health issues anymore, as it's too frustrating & upsetting. I'm able to work part time & that has to be my focus. But it's exhausting & anything else gets the scraps. All we can do is manage as best as we can. 💙💕\nLike\nReply\nnantes_accessibilite\n \n6d\nHonestly it shocks me you have to prove yourself. It shocks me even more that people will judge you on one or two videos of two minutes. What about the 23 hours and 56 minutes of the reste of your day? They just don’t see you. So they can judge. 🤨\n\nHope you can go to enjoy forest again without paying such a price. 🌲\nLike\nReply\nkimx9634\n \n1w\nI am so sorry, this illness is so frustrating. I have been totally overdoing it the last few days and i have been so happy, spending time in nature. i am off to bed now to try and minimise the damage i have done by role playing not being ill. 😔\n1 like\nReply\nvintagegirllllllly\n \n1w\nBeing able to go to the fucking woods once in a blue moon, Jesus, what’s wrong with people!!\nLike\nReply\nvintagegirllllllly\n \n1w\nDon’t explain yourself to anyone ❤️ xxx.\nLike\nReply\nsuddendeparture\n \n1w\nI find the policing that goes on in the ME community rather curious. I don’t see this kind of questioning happening with other chronic illness groups. Makes me think the stigmatization and misunderstanding of this condition has been internalized by many sufferers, which is a little bit heartbreaking really. 💙🩵\nLike\nReply\npostvak_tanja\n \n1w\nWtf is wrong with people?? I dont have MCAS but I do have moderate ME and I can tolerate make-up and some perfumes. The ME community is now policing our appearance? \"You dont look sick\" is exactly the judgement from healthy people including doctors that we have to be subjected to, we dont need it from other ME sufferers- Its not a competition and the goal is to get WELL , not to virtue signal any suffering we have. Omg!!\nLike\nReply\nkarpydm\n \n1w\nIt affects everyone in such different ways. It's a spectrum of symptoms and severity and it ebbs and flows. Severity fluctuates. Symptoms fluctuate. ❤️\nLike\nReply\nthemme_fatale\n \n1w\nThere’s already so much suffering with this disease, it’s cooked that anyone is made to spend the precious energy they do have justifying themselves. You’re always so open about your experiences and fluctuations and personally I am so grateful and have learned a lot from you!\n\nI’m so glad you’ve been able to do something nice, I hope any dip is as short as possible you get many more trips to the woods 💕\n9 likes\nReply\njessicajaponica\n \n1w\nThis was me in my late teens, fluctuating between occasionally moderate and mostly severe. Comments people made did so much damage to me, especially when they came from other people with M.E. I didn’t know about pacing back then, either (now I do and I’m still rubbish at it!).\nNow, I’m very severe and worsening and I get the same sort of comments from my carers, which do just as much harm.\nThis is such a helpful video ☺️ I wish 18/19yo me could have seen it. Thank you for saying it 🫶🏻\nIt was lovely to see you make it to the woods. Hope the memories sustain you and wishing you more improved days to come.\nLike\nReply\nwestaussi\n \n1w\nHonestly, the relentless drag of feeling insulted all the time, is a huge energy burden within itself.\nLike\nReply\nbean.and.bear.boutique\n \n1w\nOh goodness! Do not apologise for posting your happy moments - they are the things which allow us to continue living. Recognise that these comments came from a place of envy and you’ll be able to pity the person who felt the need to rain on your sunshine.\nFinally, severity labels do not have clear edges. It’s much more like a colour wheel than coloured blocks. We know what red is and what orange is - but at what point does red become orange?\nLike\nReply\nheresbeckyadhd_\n \n1w\nM.e has no effect on makeup or products I have it and it’s mainly absolute fatigue weakness falls nuro issues ect people have no right to judge mines moderate but I have no choice but to function and the crash and burn out but nobody should be judging anyone with M.E\n1 like\nReply\nsystems4change\n \n1w\n😢😢❤️❤️❤️\n1 like\nReply\n564\n83\nSeptember 30\nLog in to like or comment.\nMore posts from franhaddock_\nSee more posts\nMeta\nAbout\nBlog\nJobs\nHelp\nAPI\nPrivacy\nTerms\nLocations\nPopular\nInstagram Lite\nMeta AI\nMuse\nThreads\nContact Uploading & Non-Users\nMeta Verified\nEnglish\nAfrikaans\nالعربية\nČeština\nDansk\nDeutsch\nΕλληνικά\nEnglish\nEnglish (UK)\nEspañol (España)\nEspañol\nفارسی\nSuomi\nFrançais\nעברית\nBahasa Indonesia\nItaliano\n日本語\n한국어\nBahasa Melayu\nNorsk\nNederlands\nPolski\nPortuguês (Brasil)\nPortuguês (Portugal)\nРусский\nSvenska\nภาษาไทย\nFilipino\nTürkçe\n中文(简体)\n中文(台灣)\nবাংলা\nગુજરાતી\nहिन्दी\nHrvatski\nMagyar\nಕನ್ನಡ\nമലയാളം\nमराठी\nनेपाली\nਪੰਜਾਬੀ\nසිංහල\nSlovenčina\nதமிழ்\nతెలుగు\nاردو\nTiếng Việt\n中文(香港)\nБългарски\nFrançais (Canada)\nRomână\nСрпски\nУкраїнська\n© 2026 Instagram from Meta",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791601175170,
+            "assetId": "427457c967f6cf5d53899329eb4e05e213412e3c47ec108672809095243cdae4"
+          },
+          {
+            "id": "d78b6f76990686c9e23d39bb",
+            "url": "https://www.instagram.com/p/Dd6iln9NJ9f/",
+            "kind": "browser_snapshot",
+            "text": "Log In\nSign Up\nfranhaddock_\n•\nFollow\nOriginal audio\nfranhaddock_\n \n1w\nME= myalgic encephalomyelitis (Also known as ME/CFS)\n\n#myalgicencephalomyelitis #SevereME #MECFS #LongCovid #ChronicIllness \n\nVideo description: a white woman with glasses and her hair in 2 plaits talks to the screen from her bed. She wears a blue t-shirt and there is a bat squishmallow stuffed down the bed behind her\nbearsandbestfriends\n \n4d\nI love that you were able to go to the woods. No one has the right to question that. But also no one knows how long you had to reserve tiny bubbles of energy to be able to do that or how long it will take to get those tiny bubbles back again. Why would anyone question that?\nLike\nReply\nburgess.tracey6\n \n4d\nI get you totally Fran. Everyone's situation is different & after a while I think we adjust to take account of where we estimate the edge of our energy capacity is. I don't discuss much about my fluctuating health issues anymore, as it's too frustrating & upsetting. I'm able to work part time & that has to be my focus. But it's exhausting & anything else gets the scraps. All we can do is manage as best as we can. 💙💕\nLike\nReply\nnantes_accessibilite\n \n6d\nHonestly it shocks me you have to prove yourself. It shocks me even more that people will judge you on one or two videos of two minutes. What about the 23 hours and 56 minutes of the reste of your day? They just don’t see you. So they can judge. 🤨\n\nHope you can go to enjoy forest again without paying such a price. 🌲\nLike\nReply\nkimx9634\n \n1w\nI am so sorry, this illness is so frustrating. I have been totally overdoing it the last few days and i have been so happy, spending time in nature. i am off to bed now to try and minimise the damage i have done by role playing not being ill. 😔\n1 like\nReply\nvintagegirllllllly\n \n1w\nBeing able to go to the fucking woods once in a blue moon, Jesus, what’s wrong with people!!\nLike\nReply\nvintagegirllllllly\n \n1w\nDon’t explain yourself to anyone ❤️ xxx.\nLike\nReply\nsuddendeparture\n \n1w\nI find the policing that goes on in the ME community rather curious. I don’t see this kind of questioning happening with other chronic illness groups. Makes me think the stigmatization and misunderstanding of this condition has been internalized by many sufferers, which is a little bit heartbreaking really. 💙🩵\nLike\nReply\npostvak_tanja\n \n1w\nWtf is wrong with people?? I dont have MCAS but I do have moderate ME and I can tolerate make-up and some perfumes. The ME community is now policing our appearance? \"You dont look sick\" is exactly the judgement from healthy people including doctors that we have to be subjected to, we dont need it from other ME sufferers- Its not a competition and the goal is to get WELL , not to virtue signal any suffering we have. Omg!!\nLike\nReply\nkarpydm\n \n1w\nIt affects everyone in such different ways. It's a spectrum of symptoms and severity and it ebbs and flows. Severity fluctuates. Symptoms fluctuate. ❤️\nLike\nReply\nthemme_fatale\n \n1w\nThere’s already so much suffering with this disease, it’s cooked that anyone is made to spend the precious energy they do have justifying themselves. You’re always so open about your experiences and fluctuations and personally I am so grateful and have learned a lot from you!\n\nI’m so glad you’ve been able to do something nice, I hope any dip is as short as possible you get many more trips to the woods 💕\n9 likes\nReply\njessicajaponica\n \n1w\nThis was me in my late teens, fluctuating between occasionally moderate and mostly severe. Comments people made did so much damage to me, especially when they came from other people with M.E. I didn’t know about pacing back then, either (now I do and I’m still rubbish at it!).\nNow, I’m very severe and worsening and I get the same sort of comments from my carers, which do just as much harm.\nThis is such a helpful video ☺️ I wish 18/19yo me could have seen it. Thank you for saying it 🫶🏻\nIt was lovely to see you make it to the woods. Hope the memories sustain you and wishing you more improved days to come.\nLike\nReply\nwestaussi\n \n1w\nHonestly, the relentless drag of feeling insulted all the time, is a huge energy burden within itself.\nLike\nReply\nbean.and.bear.boutique\n \n1w\nOh goodness! Do not apologise for posting your happy moments - they are the things which allow us to continue living. Recognise that these comments came from a place of envy and you’ll be able to pity the person who felt the need to rain on your sunshine.\nFinally, severity labels do not have clear edges. It’s much more like a colour wheel than coloured blocks. We know what red is and what orange is - but at what point does red become orange?\nLike\nReply\nheresbeckyadhd_\n \n1w\nM.e has no effect on makeup or products I have it and it’s mainly absolute fatigue weakness falls nuro issues ect people have no right to judge mines moderate but I have no choice but to function and the crash and burn out but nobody should be judging anyone with M.E\n1 like\nReply\nsystems4change\n \n1w\n😢😢❤️❤️❤️\n1 like\nReply\n564\n83\nSeptember 30\nLog in to like or comment.\nMore posts from franhaddock_\nSee more posts\nMeta\nAbout\nBlog\nJobs\nHelp\nAPI\nPrivacy\nTerms\nLocations\nPopular\nInstagram Lite\nMeta AI\nMuse\nThreads\nContact Uploading & Non-Users\nMeta Verified\nEnglish\nAfrikaans\nالعربية\nČeština\nDansk\nDeutsch\nΕλληνικά\nEnglish\nEnglish (UK)\nEspañol (España)\nEspañol\nفارسی\nSuomi\nFrançais\nעברית\nBahasa Indonesia\nItaliano\n日本語\n한국어\nBahasa Melayu\nNorsk\nNederlands\nPolski\nPortuguês (Brasil)\nPortuguês (Portugal)\nРусский\nSvenska\nภาษาไทย\nFilipino\nTürkçe\n中文(简体)\n中文(台灣)\nবাংলা\nગુજરાતી\nहिन्दी\nHrvatski\nMagyar\nಕನ್ನಡ\nമലയാളം\nमराठी\nनेपाली\nਪੰਜਾਬੀ\nසිංහල\nSlovenčina\nதமிழ்\nతెలుగు\nاردو\nTiếng Việt\n中文(香港)\nБългарски\nFrançais (Canada)\nRomână\nСрпски\nУкраїнська\n© 2026 Instagram from Meta",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791601489072,
+            "assetId": "2aae5f489cabcbcd43e65cdf6edc3bf207388d548a074e5bfd4fba7449abd8e8"
+          }
+        ],
+        "raw": {
+          "handle": "franhaddock_",
+          "region": "GB",
+          "missing": [
+            "audience_profile_not_measured",
+            "contacts_not_collected"
+          ],
+          "evidence": [
+            {
+              "url": "https://www.instagram.com/p/Dd6iln9NJ9f/",
+              "kind": "content",
+              "text": "Video description: a white woman with glasses and her hair in 2 plaits talks to the screen from her bed.",
+              "check": "post_and_creator_in_payload",
+              "provider": "tikhub",
+              "verified": true,
+              "evidenceId": "ev_4fd1b2b8",
+              "publishedAt": "2026-09-30T14:24:37Z"
+            },
+            {
+              "url": "https://www.instagram.com/franhaddock_/",
+              "kind": "content",
+              "text": "Fran Haddock 🌳 she/her; 14,872 followers; is_business false; biography includes Sheffield, current reading, advocacy from bed, and category Blogger.",
+              "check": "profile_and_creator_in_payload",
+              "provider": "tikhub",
+              "verified": true,
+              "evidenceId": "ev_4308c807",
+              "publishedAt": null
+            },
+            {
+              "url": "https://www.instagram.com/franhaddock_/",
+              "kind": "content",
+              "text": "Instagram About This Account reports Account based in United Kingdom.",
+              "check": "creator_not_in_payload",
+              "provider": "tikhub",
+              "verified": false,
+              "evidenceId": "ev_76d3ca98",
+              "publishedAt": null
+            },
+            {
+              "url": "https://www.instagram.com/p/Ddo72ZptXRA/",
+              "kind": "content",
+              "text": "Halloween raffle: Dr Bradbury’s Compendium of Curiosities Halloween calendar, crochet pumpkin wreath, S’mores Jellycat, stickers, cards, meds diary, spoonie hat, prints and coloring pages.",
+              "check": "post_and_creator_in_payload",
+              "provider": "tikhub",
+              "verified": true,
+              "evidenceId": "ev_fea290f9",
+              "publishedAt": null
+            },
+            {
+              "url": "https://linktr.ee/franhaddock_",
+              "kind": "content",
+              "text": "Linktree contains fundraisers, articles, products and BBC link; no TikTok, YouTube or other social-platform account link.",
+              "check": "no_evidence_id",
+              "provider": "tikhub",
+              "verified": false,
+              "evidenceId": null,
+              "publishedAt": null
+            }
+          ],
+          "platform": "instagram",
+          "avatarUrl": null,
+          "fitReason": "Individual UK blogger advocating from bed with severe M.E. and Long Covid. Her own caption identifies a white woman with glasses in the relevant video, and her account has a whimsical, bookish/geeky creator aesthetic (Halloween prize draw, coloring pages, stickers, reading-related bio and Jellycat/compendium prizes) consistent with an ordinary consumer creator rather than a business.",
+          "providers": [
+            "tikhub"
+          ],
+          "profileUrl": "https://www.instagram.com/franhaddock_/",
+          "displayName": "Fran Haddock 🌳 she/her",
+          "overallTier": "A",
+          "factorGrades": {
+            "role": "strong",
+            "activity": "observed",
+            "identity": "individual",
+            "location": "confirmed_country",
+            "followers": "in_range",
+            "relevance": "strong"
+          },
+          "regionSource": "codex",
+          "followerCount": 14872,
+          "hardConditions": [
+            {
+              "basis": "Profile follower_count is exactly 14,872 in ev_4308c807.",
+              "status": "met",
+              "condition": "Instagram followers between 10,000 and 100,000"
+            },
+            {
+              "basis": "Instagram About This Account reports United Kingdom in ev_76d3ca98; biography explicitly lists Sheffield.",
+              "status": "met",
+              "condition": "Creator based in United States, Canada, United Kingdom, Germany, or France"
+            },
+            {
+              "basis": "Profile reports is_business false and represents one named individual, Fran Haddock.",
+              "status": "met",
+              "condition": "Individual creators only"
+            },
+            {
+              "basis": "Profile has only a Linktree and direct Linktree inspection found no TikTok, YouTube or other social-platform account link.",
+              "status": "met",
+              "condition": "No person on two platforms"
+            },
+            {
+              "basis": "The creator’s own video description says 'a white woman with glasses'; posts show fandom-adjacent Halloween prizes including a compendium of curiosities, stickers, coloring pages and a Jellycat prize; bio includes current reading and whimsical interests.",
+              "status": "met",
+              "condition": "Geek aesthetic and glasses"
+            },
+            {
+              "basis": "The creator-owned accessibility description for the cited reel identifies the speaker as 'a white woman with glasses'.",
+              "status": "met",
+              "condition": "Publicly self-identify as white"
+            }
+          ],
+          "providerUserId": "5824909564",
+          "searchMatchTier": "precise",
+          "profileCompleteness": "full"
+        }
+      },
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "no_match",
+          "reason": "WaveSurge 地区：GB；服务标记国家已确认",
+          "evidenceIds": [],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 14872，要求 10000–100000",
+          "evidenceIds": [],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "geek_visual",
+          "verdict": "unknown",
+          "reason": "重新观察后帖子无遮挡：页面标注 September 30、1w，数据来源记录发布时间2026-09-30。画面可见框架眼镜、双辫、蓝色印字T恤及蝙蝠玩偶，但不足以明确证明科技宅、书卷或极客穿搭风格；阅读简介与抽奖物品文字只能提供兴趣线索，不能替代近期内容视觉证据。",
+          "evidenceIds": [
+            "d78b6f76990686c9e23d39bb",
+            "ac40b5a127cc9c57cc319875",
+            "de37ecca47f5627975c74c35",
+            "cc62cf14f0c9d0fe5a86fd81"
+          ],
+          "label": "近期公开内容呈现科技宅、书卷或极客穿搭风格；依据内容视觉证据，不仅依据头像"
+        },
+        {
+          "criterionId": "glasses_visual",
+          "verdict": "match",
+          "reason": "人工关闭提示后已重新观察公开帖子，视频截图清楚显示本人佩戴框架眼镜，非头像依据；页面日期为 September 30。",
+          "evidenceIds": [
+            "d78b6f76990686c9e23d39bb"
+          ],
+          "label": "公开内容中佩戴眼镜，以内容视觉证据核验，不仅依据头像"
+        },
+        {
+          "criterionId": "white_self_identification",
+          "verdict": "match",
+          "reason": "该帖本人账号 franhaddock_ 发布的视频无障碍说明明确写道 'Video description: a white woman with glasses and her hair in 2 plaits talks to the screen from her bed'，描述视频中的自己，属于本人公开自述，不依据外貌、姓名或所在地推断。",
+          "evidenceIds": [
+            "d78b6f76990686c9e23d39bb"
+          ],
+          "label": "创作者本人明确公开自述为白人；不得根据外貌、姓名或所在地推断；没有明确自述证据则为unknown，不计为合格"
+        },
+        {
+          "criterionId": "ordinary_consumer_koc",
+          "verdict": "match",
+          "reason": "公开主页为具名个人博主，简介呈现个人日常、阅读与个人倡导，相关帖子分享个人生活及消费类物品抽奖（玩偶、手工花环、贴纸等）；资料标记 Blogger、is_business false。结合这些公开内容，符合普通个人消费者创作者定位而非机构或明星，并非仅以粉丝数认定。",
+          "evidenceIds": [
+            "de37ecca47f5627975c74c35",
+            "f08d92181c5158c69b604c94",
+            "cc62cf14f0c9d0fe5a86fd81",
+            "d78b6f76990686c9e23d39bb"
+          ],
+          "label": "KOC为普通消费者创作者，排除机构账号和明星；须以公开资料核验，不能仅凭粉丝数量认定KOC身份"
+        }
+      ],
+      "verdict": "no_match",
+      "tags": [
+        "公开内容中佩戴眼镜，以内容视觉证据核验，不仅依据头像",
+        "创作者本人明确公开自述为白人；不得根据外貌、姓名或所在地推断；没有明确自述证据则为unknown，不计为合格",
+        "KOC为普通消费者创作者，排除机构账号和明星；须以公开资料核验，不能仅凭粉丝数量认定KOC身份"
+      ],
+      "updatedAt": 1791601516350
+    }
+  ],
+  "finalChat": [
+    {
+      "role": "user",
+      "text": "请取消任务“浏览器人工协助验收 block-1791596516838”（编号 research-5ecc501dbf9d49fa1bd21ed2），我不处理这次人工协助。保持独立任务“Review独立文字队列 block-1791596516838”继续执行，不要重新提交或另建任何研究。",
+      "state": "delivered"
+    },
+    {
+      "role": "assistant",
+      "text": "已取消 **“浏览器人工协助验收 block-1791596516838”**（`research-5ecc501dbf9d49fa1bd21ed2`）的本地核验，不再等待你处理此次人工协助。远端搜索无法保证同步取消。\n\n独立任务 **“Review独立文字队列 block-1791596516838”** 保持执行，最新状态为：搜索已提交，等待候选返回。\n\n未重新提交或另建研究，也未取消其他任务。",
+      "state": "delivered"
+    },
+    {
+      "role": "user",
+      "text": "请停止“Review独立文字队列 block-1791596516838”（编号 research-eec15e9fea76882b8f4a22de）的本地研究，不要另建研究。",
+      "state": "delivered"
+    },
+    {
+      "role": "assistant",
+      "text": "已停止 **“Review独立文字队列 block-1791596516838”**（`research-eec15e9fea76882b8f4a22de`）的本地研究，未另建研究。\n\n远端搜索可能仍继续，无法保证同步取消。",
+      "state": "delivered"
+    }
+  ],
+  "waveCalls": [],
+  "modelCalls": [
+    {
+      "id": "7f73d27c-a20c-44c0-9659-f7a74017fdde",
+      "kind": "browser-verification",
+      "createdAt": 1791601155793,
+      "finishedAt": 1791601164509,
+      "taskId": "research-d88d897d041645bd6758ac19",
+      "handle": "franhaddock_",
+      "model": "gpt-6.1-sol",
+      "criteria": [
+        {
+          "id": "geek_visual",
+          "label": "近期公开内容呈现科技宅、书卷或极客穿搭风格；依据内容视觉证据，不仅依据头像",
+          "required": true,
+          "basis": "visual"
+        },
+        {
+          "id": "glasses_visual",
+          "label": "公开内容中佩戴眼镜，以内容视觉证据核验，不仅依据头像",
+          "required": true,
+          "basis": "visual"
+        },
+        {
+          "id": "white_self_identification",
+          "label": "创作者本人明确公开自述为白人；不得根据外貌、姓名或所在地推断；没有明确自述证据则为unknown，不计为合格",
+          "required": true,
+          "basis": "text"
+        },
+        {
+          "id": "ordinary_consumer_koc",
+          "label": "KOC为普通消费者创作者，排除机构账号和明星；须以公开资料核验，不能仅凭粉丝数量认定KOC身份",
+          "required": true,
+          "basis": "text"
+        }
+      ],
+      "tools": [
+        "submit_judgments",
+        "browser",
+        "request_human_assistance"
+      ],
+      "images": 1,
+      "response": {
+        "role": "assistant",
+        "content": null,
+        "reasoning_content": null,
+        "tool_calls": [
+          {
+            "id": "call_LduhLtIJgBQVR0Y5RYpDwbDY",
+            "type": "function",
+            "function": {
+              "name": "browser",
+              "arguments": "{\"action\":\"navigate\",\"url\":\"https://www.instagram.com/p/Dd6iln9NJ9f/\"}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "cd585e81-79fc-4a16-8217-99e60bc9621b",
+      "kind": "browser-verification",
+      "createdAt": 1791601165917,
+      "finishedAt": 1791601174985,
+      "taskId": "research-d88d897d041645bd6758ac19",
+      "handle": "franhaddock_",
+      "model": "gpt-6.1-sol",
+      "criteria": [
+        {
+          "id": "geek_visual",
+          "label": "近期公开内容呈现科技宅、书卷或极客穿搭风格；依据内容视觉证据，不仅依据头像",
+          "required": true,
+          "basis": "visual"
+        },
+        {
+          "id": "glasses_visual",
+          "label": "公开内容中佩戴眼镜，以内容视觉证据核验，不仅依据头像",
+          "required": true,
+          "basis": "visual"
+        },
+        {
+          "id": "white_self_identification",
+          "label": "创作者本人明确公开自述为白人；不得根据外貌、姓名或所在地推断；没有明确自述证据则为unknown，不计为合格",
+          "required": true,
+          "basis": "text"
+        },
+        {
+          "id": "ordinary_consumer_koc",
+          "label": "KOC为普通消费者创作者，排除机构账号和明星；须以公开资料核验，不能仅凭粉丝数量认定KOC身份",
+          "required": true,
+          "basis": "text"
+        }
+      ],
+      "tools": [
+        "submit_judgments",
+        "browser",
+        "request_human_assistance"
+      ],
+      "images": 2,
+      "response": {
+        "role": "assistant",
+        "content": null,
+        "reasoning_content": null,
+        "tool_calls": [
+          {
+            "id": "call_FyGnjXyfIh0IuHJ1g28G0k3a",
+            "type": "function",
+            "function": {
+              "name": "browser",
+              "arguments": "{\"action\":\"observe\"}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "889074cd-3226-44ca-a17a-c942b3717901",
+      "kind": "browser-verification",
+      "createdAt": 1791601175193,
+      "finishedAt": 1791601190192,
+      "taskId": "research-d88d897d041645bd6758ac19",
+      "handle": "franhaddock_",
+      "model": "gpt-6.1-sol",
+      "criteria": [
+        {
+          "id": "geek_visual",
+          "label": "近期公开内容呈现科技宅、书卷或极客穿搭风格；依据内容视觉证据，不仅依据头像",
+          "required": true,
+          "basis": "visual"
+        },
+        {
+          "id": "glasses_visual",
+          "label": "公开内容中佩戴眼镜，以内容视觉证据核验，不仅依据头像",
+          "required": true,
+          "basis": "visual"
+        },
+        {
+          "id": "white_self_identification",
+          "label": "创作者本人明确公开自述为白人；不得根据外貌、姓名或所在地推断；没有明确自述证据则为unknown，不计为合格",
+          "required": true,
+          "basis": "text"
+        },
+        {
+          "id": "ordinary_consumer_koc",
+          "label": "KOC为普通消费者创作者，排除机构账号和明星；须以公开资料核验，不能仅凭粉丝数量认定KOC身份",
+          "required": true,
+          "basis": "text"
+        }
+      ],
+      "tools": [
+        "submit_judgments",
+        "browser",
+        "request_human_assistance"
+      ],
+      "images": 3,
+      "response": {
+        "role": "assistant",
+        "content": null,
+        "reasoning_content": null,
+        "tool_calls": [
+          {
+            "id": "call_twklavd5tosNZacESmOVes9n",
+            "type": "function",
+            "function": {
+              "name": "request_human_assistance",
+              "arguments": "{\"reason\":\"Instagram 帖子出现登录/注册弹窗，遮挡视频人物，无法核验眼镜与极客穿搭视觉条件。请通过同一桌面协助恢复可查看的帖子页面；无需发送消息、关注或点赞。已保留帖子文字和来源，协助结束后我会重新观察。\"}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "fc1eb514-6db9-48d8-9943-e6956a08aad9",
+      "kind": "browser-verification",
+      "createdAt": 1791601489140,
+      "finishedAt": 1791601499171,
+      "taskId": "research-d88d897d041645bd6758ac19",
+      "handle": "franhaddock_",
+      "model": "gpt-6.1-sol",
+      "criteria": [
+        {
+          "id": "geek_visual",
+          "label": "近期公开内容呈现科技宅、书卷或极客穿搭风格；依据内容视觉证据，不仅依据头像",
+          "required": true,
+          "basis": "visual"
+        },
+        {
+          "id": "glasses_visual",
+          "label": "公开内容中佩戴眼镜，以内容视觉证据核验，不仅依据头像",
+          "required": true,
+          "basis": "visual"
+        },
+        {
+          "id": "white_self_identification",
+          "label": "创作者本人明确公开自述为白人；不得根据外貌、姓名或所在地推断；没有明确自述证据则为unknown，不计为合格",
+          "required": true,
+          "basis": "text"
+        },
+        {
+          "id": "ordinary_consumer_koc",
+          "label": "KOC为普通消费者创作者，排除机构账号和明星；须以公开资料核验，不能仅凭粉丝数量认定KOC身份",
+          "required": true,
+          "basis": "text"
+        }
+      ],
+      "tools": [
+        "submit_judgments",
+        "browser",
+        "request_human_assistance"
+      ],
+      "images": 4,
+      "response": {
+        "role": "assistant",
+        "content": null,
+        "reasoning_content": null,
+        "tool_calls": [
+          {
+            "id": "call_87WEFcqoS6hIufLZFM1x2g2u",
+            "type": "function",
+            "function": {
+              "name": "browser",
+              "arguments": "{\"action\":\"observe\"}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "41b178ec-6916-44a1-aff9-b844ebfaf7fd",
+      "kind": "browser-verification",
+      "createdAt": 1791601499365,
+      "finishedAt": 1791601516291,
+      "taskId": "research-d88d897d041645bd6758ac19",
+      "handle": "franhaddock_",
+      "model": "gpt-6.1-sol",
+      "criteria": [
+        {
+          "id": "geek_visual",
+          "label": "近期公开内容呈现科技宅、书卷或极客穿搭风格；依据内容视觉证据，不仅依据头像",
+          "required": true,
+          "basis": "visual"
+        },
+        {
+          "id": "glasses_visual",
+          "label": "公开内容中佩戴眼镜，以内容视觉证据核验，不仅依据头像",
+          "required": true,
+          "basis": "visual"
+        },
+        {
+          "id": "white_self_identification",
+          "label": "创作者本人明确公开自述为白人；不得根据外貌、姓名或所在地推断；没有明确自述证据则为unknown，不计为合格",
+          "required": true,
+          "basis": "text"
+        },
+        {
+          "id": "ordinary_consumer_koc",
+          "label": "KOC为普通消费者创作者，排除机构账号和明星；须以公开资料核验，不能仅凭粉丝数量认定KOC身份",
+          "required": true,
+          "basis": "text"
+        }
+      ],
+      "tools": [
+        "submit_judgments",
+        "browser",
+        "request_human_assistance"
+      ],
+      "images": 5,
+      "response": {
+        "role": "assistant",
+        "content": null,
+        "reasoning_content": null,
+        "tool_calls": [
+          {
+            "id": "call_Y70hGMyeIpSLSIBF8304qqco",
+            "type": "function",
+            "function": {
+              "name": "submit_judgments",
+              "arguments": "{\"judgments\":[{\"criterionId\":\"geek_visual\",\"verdict\":\"unknown\",\"reason\":\"重新观察后帖子无遮挡：页面标注 September 30、1w，数据来源记录发布时间2026-09-30。画面可见框架眼镜、双辫、蓝色印字T恤及蝙蝠玩偶，但不足以明确证明科技宅、书卷或极客穿搭风格；阅读简介与抽奖物品文字只能提供兴趣线索，不能替代近期内容视觉证据。\",\"evidenceIds\":[\"d78b6f76990686c9e23d39bb\",\"ac40b5a127cc9c57cc319875\",\"de37ecca47f5627975c74c35\",\"cc62cf14f0c9d0fe5a86fd81\"]},{\"criterionId\":\"glasses_visual\",\"verdict\":\"match\",\"reason\":\"人工关闭提示后已重新观察公开帖子，视频截图清楚显示本人佩戴框架眼镜，非头像依据；页面日期为 September 30。\",\"evidenceIds\":[\"d78b6f76990686c9e23d39bb\"]},{\"criterionId\":\"white_self_identification\",\"verdict\":\"match\",\"reason\":\"该帖本人账号 franhaddock_ 发布的视频无障碍说明明确写道 'Video description: a white woman with glasses and her hair in 2 plaits talks to the screen from her bed'，描述视频中的自己，属于本人公开自述，不依据外貌、姓名或所在地推断。\",\"evidenceIds\":[\"d78b6f76990686c9e23d39bb\"]},{\"criterionId\":\"ordinary_consumer_koc\",\"verdict\":\"match\",\"reason\":\"公开主页为具名个人博主，简介呈现个人日常、阅读与个人倡导，相关帖子分享个人生活及消费类物品抽奖（玩偶、手工花环、贴纸等）；资料标记 Blogger、is_business false。结合这些公开内容，符合普通个人消费者创作者定位而非机构或明星，并非仅以粉丝数认定。\",\"evidenceIds\":[\"de37ecca47f5627975c74c35\",\"f08d92181c5158c69b604c94\",\"cc62cf14f0c9d0fe5a86fd81\",\"d78b6f76990686c9e23d39bb\"]}]}"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,366 @@
+{
+  "at": "2026-10-10T17:37:38.085Z",
+  "source": "Actual UI, configured real model, controlled Wave/pages; duplicate submission uses authenticated public HTTP API",
+  "checks": [
+    "Actual natural reverify completed both existing creators with fresh browser evidence, revision 2 and preserved revision 1 history",
+    "Actual messages accepted during an active turn; explicit cancellation invokes the correct task; prior results retained and no extra search tasks",
+    "No late result writes or restart after cancellation and in-flight worker settlement",
+    "Identical message ID is idempotent; conflicting reuse returns 409; no model/tools/tasks replayed"
+  ],
+  "pageErrors": [],
+  "before": {
+    "taskIds": [
+      "research-f2077ddcf969dbe1ea2725c9",
+      "research-d3f162a17908dc7c2289bc31",
+      "research-38c5b00b7fcd7e7975f94673",
+      "enrich-774cfd5383b9882202a945ff",
+      "research-83429f7705d019c6c09c196e",
+      "research-ca30a88339a2c54dc79941d1",
+      "research-01793024e6878ba8d7d898d5",
+      "enrich-b16469c3adc88735fd5e597a"
+    ],
+    "waveCalls": 10
+  },
+  "reverify": {
+    "source": {
+      "id": "research-ca30a88339a2c54dc79941d1",
+      "title": "YouTube 科技博主文字研究（两名候选全量分析）",
+      "spec": {
+        "title": "YouTube 科技博主文字研究（两名候选全量分析）",
+        "personaText": "Technology creators on YouTube",
+        "count": 1,
+        "platforms": [
+          "youtube"
+        ],
+        "regions": [],
+        "minFollowers": 0,
+        "maxFollowers": 9007199254740991,
+        "candidateBudget": 2,
+        "analyzeAll": true,
+        "verificationMode": "text",
+        "criteria": [
+          {
+            "id": "technology_content",
+            "label": "公开内容包含科技内容，依据已有文字资料核验。",
+            "required": true,
+            "basis": "text"
+          }
+        ],
+        "annotations": [
+          {
+            "id": "content_direction",
+            "label": "内容方向"
+          }
+        ]
+      },
+      "status": "completed",
+      "requested": 1,
+      "evaluated": 2,
+      "matched": 1,
+      "updatedAt": 1791653816446,
+      "detail": "已选合格 0/1，已核验 2；证据不足者保持待核实。youtube：读取 2 条，基础条件排除 0 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。",
+      "nextPollAt": 1791653415073,
+      "failures": [],
+      "deliveryBatchId": "9a71a798-4e88-4afb-8f7a-72d0a00c5ac9",
+      "discoveryAttempts": 0,
+      "remoteStatus": "done",
+      "qualifying": 2
+    },
+    "jobs": [
+      {
+        "id": "enrich-b16469c3adc88735fd5e597a",
+        "taskId": "research-ca30a88339a2c54dc79941d1",
+        "mode": "reverify",
+        "resultIds": [
+          "research-ca30a88339a2c54dc79941d1|youtube:http://wave-fixture:8087/creator/alice",
+          "research-ca30a88339a2c54dc79941d1|youtube:http://wave-fixture:8087/creator/bob"
+        ],
+        "annotations": [
+          {
+            "id": "content_direction",
+            "label": "内容方向"
+          }
+        ],
+        "completed": [
+          "research-ca30a88339a2c54dc79941d1|youtube:http://wave-fixture:8087/creator/alice",
+          "research-ca30a88339a2c54dc79941d1|youtube:http://wave-fixture:8087/creator/bob"
+        ],
+        "attempts": {},
+        "nextAt": 0,
+        "failures": []
+      }
+    ],
+    "results": [
+      {
+        "id": "research-ca30a88339a2c54dc79941d1|youtube:http://wave-fixture:8087/creator/alice",
+        "revision": 2,
+        "verdict": "match",
+        "selected": true,
+        "evidence": [
+          {
+            "id": "75020ba51c2f962669bcb825",
+            "url": "http://wave-fixture:8087/creator/alice",
+            "assetId": "d02348d0feab0652ea9e9e80942e6458e9a7a0dd928403052ec77013bed99a12",
+            "capturedAt": 1791653798498
+          }
+        ]
+      },
+      {
+        "id": "research-ca30a88339a2c54dc79941d1|youtube:http://wave-fixture:8087/creator/bob",
+        "revision": 2,
+        "verdict": "match",
+        "selected": false,
+        "evidence": [
+          {
+            "id": "e3859d70bcd8ba64a2071a7f",
+            "url": "http://wave-fixture:8087/creator/bob",
+            "assetId": "d3dfe79cb4c5b36d6299632981ca7a9cf8acd03a8fa79e79c57cb306b11f666c",
+            "capturedAt": 1791653807936
+          }
+        ]
+      }
+    ],
+    "sessions": [
+      {
+        "id": "enrich-b16469c3adc88735fd5e597a|youtube:http://wave-fixture:8087/creator/alice",
+        "observations": [
+          {
+            "url": "http://wave-fixture:8087/creator/alice",
+            "observedAt": 1791653798498,
+            "assetId": "d02348d0feab0652ea9e9e80942e6458e9a7a0dd928403052ec77013bed99a12"
+          }
+        ]
+      },
+      {
+        "id": "enrich-b16469c3adc88735fd5e597a|youtube:http://wave-fixture:8087/creator/bob",
+        "observations": [
+          {
+            "url": "http://wave-fixture:8087/creator/bob",
+            "observedAt": 1791653807936,
+            "assetId": "d3dfe79cb4c5b36d6299632981ca7a9cf8acd03a8fa79e79c57cb306b11f666c"
+          }
+        ]
+      }
+    ],
+    "history": [
+      {
+        "id": "research-ca30a88339a2c54dc79941d1|youtube:http://wave-fixture:8087/creator/alice",
+        "revision": 1,
+        "verdict": "unknown",
+        "selected": false
+      },
+      {
+        "id": "research-ca30a88339a2c54dc79941d1|youtube:http://wave-fixture:8087/creator/bob",
+        "revision": 1,
+        "verdict": "unknown",
+        "selected": false
+      }
+    ]
+  },
+  "inputs": [
+    {
+      "id": "9056fe0f-543c-4615-bbf4-25f701c3f98d",
+      "text": "再单独开一项 YouTube 科技内容博主的公开网页研究，选1位合作，最多看2位候选，两位都分析完。所在地和粉丝数不限，只看个人分享科技内容，顺便标好内容方向。现在开始，跟前面的任务分开。",
+      "acceptedAt": "2026-10-10T17:37:39.978Z"
+    },
+    {
+      "id": "e97b362a-da03-4247-9bfb-2fbdb3066bdc",
+      "text": "先把刚才新开的“YouTube 个人科技内容博主公开网页研究（独立任务）”停下来，之前那些任务和结果别动。",
+      "acceptedAt": "2026-10-10T17:37:50.946Z"
+    },
+    {
+      "id": "4d4ed272-3f2e-4ed9-84ed-513e86ad9f4d",
+      "text": "顺便告诉我前面的 Alice、Bob 网页复核完成了多少位，只看保存的结果，不用再搜索。",
+      "acceptedAt": "2026-10-10T17:37:51.121Z"
+    },
+    {
+      "id": "452df888-d786-4ac1-89ed-ac64311282e7",
+      "text": "新任务取消后就保持停止，其他已经完成的研究照常保留，不用恢复。",
+      "acceptedAt": "2026-10-10T17:37:51.289Z"
+    }
+  ],
+  "taskAtCancellation": {
+    "id": "research-470976190a34964b1b6ea94e",
+    "title": "YouTube 个人科技内容博主公开网页研究（独立任务）",
+    "status": "running",
+    "requested": 1,
+    "evaluated": 0,
+    "matched": 0,
+    "matchedMeaning": "研究组入选的合格账号数；合格候选总数见qualifying",
+    "updatedAt": 1791653870741,
+    "detail": "已读取 2 位候选；来源 已到本次读取边界，合格候选 0 人，研究组预选 0 人",
+    "remoteStatus": "done",
+    "nextPollAt": 1791653871740
+  },
+  "agentActiveAtCancellation": true,
+  "cancelled": {
+    "task": {
+      "id": "research-470976190a34964b1b6ea94e",
+      "title": "YouTube 个人科技内容博主公开网页研究（独立任务）",
+      "status": "cancelled",
+      "requested": 1,
+      "evaluated": 0,
+      "matched": 0,
+      "matchedMeaning": "研究组入选的合格账号数；合格候选总数见qualifying",
+      "updatedAt": 1791653880482,
+      "detail": "已停止本地核验；WaveSurge 没有已验证的远端取消接口，远端搜索可能继续",
+      "remoteStatus": "done",
+      "nextPollAt": 1791653871740
+    },
+    "results": [],
+    "messages": [
+      {
+        "id": "9056fe0f-543c-4615-bbf4-25f701c3f98d",
+        "role": "user",
+        "text": "再单独开一项 YouTube 科技内容博主的公开网页研究，选1位合作，最多看2位候选，两位都分析完。所在地和粉丝数不限，只看个人分享科技内容，顺便标好内容方向。现在开始，跟前面的任务分开。",
+        "createdAt": 1791653859877,
+        "epoch": 4,
+        "state": "delivered",
+        "attachments": []
+      },
+      {
+        "id": "e97b362a-da03-4247-9bfb-2fbdb3066bdc",
+        "role": "user",
+        "text": "先把刚才新开的“YouTube 个人科技内容博主公开网页研究（独立任务）”停下来，之前那些任务和结果别动。",
+        "createdAt": 1791653870893,
+        "epoch": 4,
+        "state": "delivered",
+        "attachments": []
+      },
+      {
+        "id": "4d4ed272-3f2e-4ed9-84ed-513e86ad9f4d",
+        "role": "user",
+        "text": "顺便告诉我前面的 Alice、Bob 网页复核完成了多少位，只看保存的结果，不用再搜索。",
+        "createdAt": 1791653871075,
+        "epoch": 4,
+        "state": "delivered",
+        "attachments": []
+      },
+      {
+        "id": "452df888-d786-4ac1-89ed-ac64311282e7",
+        "role": "user",
+        "text": "新任务取消后就保持停止，其他已经完成的研究照常保留，不用恢复。",
+        "createdAt": 1791653871240,
+        "epoch": 4,
+        "state": "delivered",
+        "attachments": []
+      },
+      {
+        "id": "5f061d30-39a9-47b2-8916-b7b79910bc99",
+        "role": "assistant",
+        "text": "已取消刚才新开的独立任务，**本地核验已停止，保持停止，不会恢复**。之前的研究、结果及版本均未改动。远端取消无法保证，但该任务当前远端状态已结束。\n\n只查询了保存的任务和结果，没有重新搜索或打开网页。前面的 Alice、Bob 网页复核已完成 **2/2 位**，失败 **0 位**：\n\n| 候选 | 保存的复核结论 | 内容方向标签 |\n|---|---|---|\n| Alice | 网页观察已完成，原条件通过；配额内入选 | 科技知识与教程、生产力工具、学生学习效率与工作流 |\n| Bob | 网页观察已完成，原条件通过；未占用入选配额 | 科技科普、耳机评测、处理器与降噪技术教程、数码设备演示 |\n\n**注意：两者保存的页面均明确为受控测试账号，并非真实社交创作者。**上述结论仅针对测试页面内容，不能视为真实合作人选。\n\n[查看已保存的复核报告](/api/reports/research-ca30a88339a2c54dc79941d1)",
+        "epoch": 4,
+        "createdAt": 1791653892295,
+        "state": "delivered",
+        "attachments": []
+      },
+      {
+        "id": "report-request-9056fe0f-543c-4615-bbf4-25f701c3f98d-26475843db4a38f5",
+        "role": "assistant",
+        "text": "本次请求的 1 项工作已全部结束。\n\n- YouTube 个人科技内容博主公开网页研究（独立任务）：已取消；已停止本地核验；WaveSurge 没有已验证的远端取消接口，远端搜索可能继续 [查看报告](/api/reports/research-470976190a34964b1b6ea94e)\n\n[查看本次综合报告](/api/work-batches/9056fe0f-543c-4615-bbf4-25f701c3f98d/report) · [下载综合 CSV](/api/work-batches/9056fe0f-543c-4615-bbf4-25f701c3f98d/report?format=csv)",
+        "createdAt": 1791653892299,
+        "epoch": 4,
+        "state": "delivered",
+        "attachments": []
+      }
+    ],
+    "toolReceipts": [
+      {
+        "call": {
+          "id": "call_ZlJlfbyPQKqPF0tePjyHzlIu",
+          "type": "function",
+          "function": {
+            "name": "get_tasks",
+            "arguments": "{}"
+          }
+        },
+        "message": {
+          "role": "tool",
+          "tool_call_id": "call_ZlJlfbyPQKqPF0tePjyHzlIu",
+          "content": "[{\"id\":\"research-f2077ddcf969dbe1ea2725c9\",\"title\":\"科技耳机内容\",\"status\":\"completed\",\"requested\":1,\"evaluated\":2,\"matched\":1,\"qualifying\":2,\"parentCampaignId\":\"campaign-dc20d2ce3ca6259c8568821b\",\"matchedMeaning\":\"独立研究的组内预选数；Campaign最终入选见Campaign分配\",\"updatedAt\":1791652757802,\"detail\":\"已选合格 1/1，已核验 2；证据不足者保持待核实。youtube：读取 2 条，基础条件排除 0 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。\",\"remoteStatus\":\"done\",\"nextPollAt\":1791652736574},{\"id\":\"research-d3f162a17908dc7c2289bc31\",\"title\":\"大学生学习效率内容\",\"status\":\"completed\",\"requested\":1,\"evaluated\":2,\"matched\":1,\"qualifying\":1,\"parentCampaignId\":\"campaign-dc20d2ce3ca6259c8568821b\",\"matchedMeaning\":\"独立研究的组内预选数；Campaign最终入选见Campaign分配\",\"updatedAt\":1791652782615,\"detail\":\"已选合格 1/1，已核验 2；证据不足者保持待核实。youtube：读取 2 条，基础条件排除 0 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。\",\"remoteStatus\":\"done\",\"nextPollAt\":1791652758834},{\"id\":\"research-38c5b00b7fcd7e7975f94673\",\"title\":\"完整回归 1791652811593\",\"status\":\"completed\",\"requested\":1,\"evaluated\":2,\"matched\":1,\"qualifying\":2,\"matchedMeaning\":\"研究组入选的合格账号数；合格候选总数见qualifying\",\"updatedAt\":1791652897106,\"detail\":\"已选合格 1/1，已核验 2；证据不足者保持待核实。youtube：读取 2 条，基础条件排除 0 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。\",\"remoteStatus\":\"done\",\"nextPollAt\":1791652833348},{\"id\":\"enrich-774cfd5383b9882202a945ff\",\"title\":\"补充画像：完整回归 1791652811593\",\"status\":\"completed\",\"requested\":2,\"evaluated\":2,\"matched\":2,\"resultTaskId\":\"research-38c5b00b7fcd7e7975f94673\",\"matchedMeaning\":\"本轮处理结果中合格的记录数，不是入选人数\",\"updatedAt\":1791652897109,\"detail\":\"已处理 2 个已有账号；失败 0。\"},{\"id\":\"research-83429f7705d019c6c09c196e\",\"title\":\"新版 Instagram 1791652906209\",\"status\":\"completed\",\"requested\":1,\"evaluated\":1,\"matched\":1,\"qualifying\":1,\"matchedMeaning\":\"研究组入选的合格账号数；合格候选总数见qualifying\",\"updatedAt\":1791652927808,\"detail\":\"已选合格 1/1，已核验 1；证据不足者保持待核实。Instagram：读取 1 个本人基础账号，基础条件排除 0 个；基础读取上限 20，逐人分析上限 1（本次有界来源，不代表全站穷尽）。\",\"remoteStatus\":\"done\",\"nextPollAt\":1791652916808},{\"id\":\"research-ca30a88339a2c54dc79941d1\",\"title\":\"YouTube 科技博主文字研究（两名候选全量分析）\",\"status\":\"completed\",\"requested\":1,\"evaluated\":2,\"matched\":1,\"qualifying\":2,\"matchedMeaning\":\"研究组入选的合格账号数；合格候选总数见qualifying\",\"updatedAt\":1791653816446,\"detail\":\"已选合格 0/1，已核验 2；证据不足者保持待核实。youtube：读取 2 条，基础条件排除 0 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。\",\"remoteStatus\":\"done\",\"nextPollAt\":1791653415073},{\"id\":\"research-01793024e6878ba8d7d898d5\",\"title\":\"YouTube 耳机博主文字研究（两名候选全量分析）\",\"status\":\"partial\",\"requested\":1,\"evaluated\":2,\"matched\":0,\"qualifying\":0,\"matchedMeaning\":\"研究组入选的合格账号数；合格候选总数见qualifying\",\"updatedAt\":1791653453053,\"detail\":\"已选合格 0/1，已核验 2；证据不足者保持待核实。youtube：读取 2 条，基础条件排除 0 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。\",\"remoteStatus\":\"done\",\"nextPollAt\":1791653439359},{\"id\":\"enrich-b16469c3adc88735fd5e597a\",\"title\":\"重新核验：YouTube 科技博主文字研究（两名候选全量分析）\",\"status\":\"completed\",\"requested\":2,\"evaluated\":2,\"matched\":2,\"resultTaskId\":\"research-ca30a88339a2c54dc79941d1\",\"matchedMeaning\":\"本轮处理结果中合格的记录数，不是入选人数\",\"updatedAt\":1791653816450,\"detail\":\"已处理 2 个已有账号；失败 0。 本轮本人主页已观察 2/2；未取得本轮页面证据者不能宣称网页核验成功。\"}]"
+        }
+      },
+      {
+        "call": {
+          "id": "call_TWUDPvVUomw68JpMKinxopZg",
+          "type": "function",
+          "function": {
+            "name": "get_campaigns",
+            "arguments": "{}"
+          }
+        },
+        "message": {
+          "role": "tool",
+          "tool_call_id": "call_TWUDPvVUomw68JpMKinxopZg",
+          "content": "[{\"id\":\"campaign-dc20d2ce3ca6259c8568821b\",\"title\":\"耳机 Campaign 1791652692747\",\"goal\":\"推广降噪耳机，提升产品认知与推荐转化。\",\"revision\":1,\"status\":\"completed\",\"requested\":2,\"matched\":2,\"childTaskIds\":[\"research-f2077ddcf969dbe1ea2725c9\",\"research-d3f162a17908dc7c2289bc31\"],\"groups\":[{\"id\":\"headphone_tech\",\"title\":\"科技耳机内容\",\"requested\":1,\"matched\":1},{\"id\":\"study_productivity\",\"title\":\"大学生学习效率内容\",\"requested\":1,\"matched\":1}],\"reportUrl\":\"/api/campaigns/campaign-dc20d2ce3ca6259c8568821b/report\"}]"
+        }
+      },
+      {
+        "call": {
+          "id": "call_fUzmrmtZvSixdLKYJsaJtw9V",
+          "type": "function",
+          "function": {
+            "name": "start_research",
+            "arguments": "{\"title\":\"YouTube 个人科技内容博主公开网页研究（独立任务）\",\"personaText\":\"个人分享科技内容的 YouTube 创作者\",\"count\":1,\"platforms\":[\"youtube\"],\"regions\":[],\"minFollowers\":0,\"maxFollowers\":9007199254740991,\"candidateBudget\":2,\"analyzeAll\":true,\"verificationMode\":\"browser\",\"criteria\":[{\"id\":\"personal_creator\",\"label\":\"个人分享型创作者，而非品牌、公司或店铺官方账号；依据本人简介与实际公开内容核验。\",\"required\":true,\"basis\":\"text\"},{\"id\":\"technology_content\",\"label\":\"公开内容包含本人分享的科技内容。\",\"required\":true,\"basis\":\"text\"}],\"annotations\":[{\"id\":\"content_direction\",\"label\":\"内容方向\"}]}"
+          }
+        },
+        "message": {
+          "role": "tool",
+          "tool_call_id": "call_fUzmrmtZvSixdLKYJsaJtw9V",
+          "content": "{\"id\":\"research-470976190a34964b1b6ea94e\",\"title\":\"YouTube 个人科技内容博主公开网页研究（独立任务）\",\"spec\":{\"title\":\"YouTube 个人科技内容博主公开网页研究（独立任务）\",\"personaText\":\"个人分享科技内容的 YouTube 创作者\",\"count\":1,\"platforms\":[\"youtube\"],\"regions\":[],\"minFollowers\":0,\"maxFollowers\":9007199254740991,\"candidateBudget\":2,\"analyzeAll\":true,\"verificationMode\":\"browser\",\"criteria\":[{\"id\":\"personal_creator\",\"label\":\"个人分享型创作者，而非品牌、公司或店铺官方账号；依据本人简介与实际公开内容核验。\",\"required\":true,\"basis\":\"text\"},{\"id\":\"technology_content\",\"label\":\"公开内容包含本人分享的科技内容。\",\"required\":true,\"basis\":\"text\"}],\"annotations\":[{\"id\":\"content_direction\",\"label\":\"内容方向\"}]},\"status\":\"running\",\"requested\":1,\"evaluated\":0,\"matched\":0,\"updatedAt\":1791653870701,\"detail\":\"正在读取 WaveSurge 原始资料；本地筛选尚未完成\",\"nextPollAt\":0,\"failures\":[],\"deliveryBatchId\":\"9056fe0f-543c-4615-bbf4-25f701c3f98d\"}"
+        }
+      },
+      {
+        "call": {
+          "id": "call_dEqiL1Sh0CuhcAHFmmuEB1VH",
+          "type": "function",
+          "function": {
+            "name": "cancel_research",
+            "arguments": "{\"taskId\":\"research-470976190a34964b1b6ea94e\"}"
+          }
+        },
+        "message": {
+          "role": "tool",
+          "tool_call_id": "call_dEqiL1Sh0CuhcAHFmmuEB1VH",
+          "content": "{\"id\":\"research-470976190a34964b1b6ea94e\",\"title\":\"YouTube 个人科技内容博主公开网页研究（独立任务）\",\"spec\":{\"title\":\"YouTube 个人科技内容博主公开网页研究（独立任务）\",\"personaText\":\"个人分享科技内容的 YouTube 创作者\",\"count\":1,\"platforms\":[\"youtube\"],\"regions\":[],\"minFollowers\":0,\"maxFollowers\":9007199254740991,\"candidateBudget\":2,\"analyzeAll\":true,\"verificationMode\":\"browser\",\"criteria\":[{\"id\":\"personal_creator\",\"label\":\"个人分享型创作者，而非品牌、公司或店铺官方账号；依据本人简介与实际公开内容核验。\",\"required\":true,\"basis\":\"text\"},{\"id\":\"technology_content\",\"label\":\"公开内容包含本人分享的科技内容。\",\"required\":true,\"basis\":\"text\"}],\"annotations\":[{\"id\":\"content_direction\",\"label\":\"内容方向\"}]},\"body\":{\"requestId\":\"research-470976190a34964b1b6ea94e\",\"personaText\":\"个人分享科技内容的 YouTube 创作者\",\"count\":2,\"platforms\":[\"youtube\"],\"regions\":[],\"minFollowers\":0,\"maxFollowers\":9007199254740991,\"emailReadyRequired\":false},\"status\":\"cancelled\",\"requested\":1,\"evaluated\":0,\"matched\":0,\"updatedAt\":1791653880482,\"detail\":\"已停止本地核验；WaveSurge 没有已验证的远端取消接口，远端搜索可能继续\",\"nextPollAt\":1791653871740,\"candidates\":[{\"id\":\"youtube:http://wave-fixture:8087/creator/alice\",\"platform\":\"youtube\",\"handle\":\"\",\"profileUrl\":\"http://wave-fixture:8087/creator/alice\",\"displayName\":\"受控夹具 alice\",\"followers\":null,\"region\":null,\"evidence\":[{\"id\":\"41a22cd5e0b68893a736f301\",\"url\":\"http://wave-fixture:8087/creator/alice\",\"text\":\"这是受控验收账号，公开主页供真实浏览器核验。不是 WaveSurge 实际发现的社交账号。\",\"kind\":\"profile\",\"provider\":\"qa-controlled-fixture\",\"publishedAt\":null,\"capturedAt\":1791653870702}],\"raw\":{\"platform\":\"youtube\",\"profileUrl\":\"http://wave-fixture:8087/creator/alice\",\"displayName\":\"受控夹具 alice\",\"followerCount\":null,\"region\":null,\"evidence\":[{\"url\":\"http://wave-fixture:8087/creator/alice\",\"kind\":\"profile\",\"provider\":\"qa-controlled-fixture\",\"text\":\"这是受控验收账号，公开主页供真实浏览器核验。不是 WaveSurge 实际发现的社交账号。\"}],\"fixture\":true}},{\"id\":\"youtube:http://wave-fixture:8087/creator/bob\",\"platform\":\"youtube\",\"handle\":\"\",\"profileUrl\":\"http://wave-fixture:8087/creator/bob\",\"displayName\":\"受控夹具 bob\",\"followers\":null,\"region\":null,\"evidence\":[{\"id\":\"b1a3964a29cd07793976f609\",\"url\":\"http://wave-fixture:8087/creator/bob\",\"text\":\"这是受控验收账号，公开主页供真实浏览器核验。不是 WaveSurge 实际发现的社交账号。\",\"kind\":\"profile\",\"provider\":\"qa-controlled-fixture\",\"publishedAt\":null,\"capturedAt\":1791653870702}],\"raw\":{\"platform\":\"youtube\",\"profileUrl\":\"http://wave-fixture:8087/creator/bob\",\"displayName\":\"受控夹具 bob\",\"followerCount\":null,\"region\":null,\"evidence\":[{\"url\":\"http://wave-fixture:8087/creator/bob\",\"kind\":\"profile\",\"provider\":\"qa-controlled-fixture\",\"text\":\"这是受控验收账号，公开主页供真实浏览器核验。不是 WaveSurge 实际发现的社交账号。\"}],\"fixture\":true}}],\"failures\":[],\"deliveryBatchId\":\"9056fe0f-543c-4615-bbf4-25f701c3f98d\",\"discovery\":{\"platform\":1,\"keyword\":0,\"page\":0,\"cursor\":\"\",\"seenCursors\":[],\"seenUsers\":[],\"pending\":[],\"delivered\":2,\"done\":true,\"sources\":[{\"platform\":\"youtube\",\"path\":\"/discover/db?platform=youtube&limit=500&sort=fit_desc\",\"read\":2,\"excluded\":0}]},\"discoveryAttempts\":0,\"remoteStatus\":\"done\"}"
+        }
+      },
+      {
+        "call": {
+          "id": "call_ktUF4JtiNHGl4lT2BvA8wPtA",
+          "type": "function",
+          "function": {
+            "name": "get_tasks",
+            "arguments": "{}"
+          }
+        },
+        "message": {
+          "role": "tool",
+          "tool_call_id": "call_ktUF4JtiNHGl4lT2BvA8wPtA",
+          "content": "[{\"id\":\"research-f2077ddcf969dbe1ea2725c9\",\"title\":\"科技耳机内容\",\"status\":\"completed\",\"requested\":1,\"evaluated\":2,\"matched\":1,\"qualifying\":2,\"parentCampaignId\":\"campaign-dc20d2ce3ca6259c8568821b\",\"matchedMeaning\":\"独立研究的组内预选数；Campaign最终入选见Campaign分配\",\"updatedAt\":1791652757802,\"detail\":\"已选合格 1/1，已核验 2；证据不足者保持待核实。youtube：读取 2 条，基础条件排除 0 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。\",\"remoteStatus\":\"done\",\"nextPollAt\":1791652736574},{\"id\":\"research-d3f162a17908dc7c2289bc31\",\"title\":\"大学生学习效率内容\",\"status\":\"completed\",\"requested\":1,\"evaluated\":2,\"matched\":1,\"qualifying\":1,\"parentCampaignId\":\"campaign-dc20d2ce3ca6259c8568821b\",\"matchedMeaning\":\"独立研究的组内预选数；Campaign最终入选见Campaign分配\",\"updatedAt\":1791652782615,\"detail\":\"已选合格 1/1，已核验 2；证据不足者保持待核实。youtube：读取 2 条，基础条件排除 0 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。\",\"remoteStatus\":\"done\",\"nextPollAt\":1791652758834},{\"id\":\"research-38c5b00b7fcd7e7975f94673\",\"title\":\"完整回归 1791652811593\",\"status\":\"completed\",\"requested\":1,\"evaluated\":2,\"matched\":1,\"qualifying\":2,\"matchedMeaning\":\"研究组入选的合格账号数；合格候选总数见qualifying\",\"updatedAt\":1791652897106,\"detail\":\"已选合格 1/1，已核验 2；证据不足者保持待核实。youtube：读取 2 条，基础条件排除 0 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。\",\"remoteStatus\":\"done\",\"nextPollAt\":1791652833348},{\"id\":\"enrich-774cfd5383b9882202a945ff\",\"title\":\"补充画像：完整回归 1791652811593\",\"status\":\"completed\",\"requested\":2,\"evaluated\":2,\"matched\":2,\"resultTaskId\":\"research-38c5b00b7fcd7e7975f94673\",\"matchedMeaning\":\"本轮处理结果中合格的记录数，不是入选人数\",\"updatedAt\":1791652897109,\"detail\":\"已处理 2 个已有账号；失败 0。\"},{\"id\":\"research-83429f7705d019c6c09c196e\",\"title\":\"新版 Instagram 1791652906209\",\"status\":\"completed\",\"requested\":1,\"evaluated\":1,\"matched\":1,\"qualifying\":1,\"matchedMeaning\":\"研究组入选的合格账号数；合格候选总数见qualifying\",\"updatedAt\":1791652927808,\"detail\":\"已选合格 1/1，已核验 1；证据不足者保持待核实。Instagram：读取 1 个本人基础账号，基础条件排除 0 个；基础读取上限 20，逐人分析上限 1（本次有界来源，不代表全站穷尽）。\",\"remoteStatus\":\"done\",\"nextPollAt\":1791652916808},{\"id\":\"research-ca30a88339a2c54dc79941d1\",\"title\":\"YouTube 科技博主文字研究（两名候选全量分析）\",\"status\":\"completed\",\"requested\":1,\"evaluated\":2,\"matched\":1,\"qualifying\":2,\"matchedMeaning\":\"研究组入选的合格账号数；合格候选总数见qualifying\",\"updatedAt\":1791653816446,\"detail\":\"已选合格 0/1，已核验 2；证据不足者保持待核实。youtube：读取 2 条，基础条件排除 0 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。\",\"remoteStatus\":\"done\",\"nextPollAt\":1791653415073},{\"id\":\"research-01793024e6878ba8d7d898d5\",\"title\":\"YouTube 耳机博主文字研究（两名候选全量分析）\",\"status\":\"partial\",\"requested\":1,\"evaluated\":2,\"matched\":0,\"qualifying\":0,\"matchedMeaning\":\"研究组入选的合格账号数；合格候选总数见qualifying\",\"updatedAt\":1791653453053,\"detail\":\"已选合格 0/1，已核验 2；证据不足者保持待核实。youtube：读取 2 条，基础条件排除 0 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。\",\"remoteStatus\":\"done\",\"nextPollAt\":1791653439359},{\"id\":\"enrich-b16469c3adc88735fd5e597a\",\"title\":\"重新核验：YouTube 科技博主文字研究（两名候选全量分析）\",\"status\":\"completed\",\"requested\":2,\"evaluated\":2,\"matched\":2,\"resultTaskId\":\"research-ca30a88339a2c54dc79941d1\",\"matchedMeaning\":\"本轮处理结果中合格的记录数，不是入选人数\",\"updatedAt\":1791653816450,\"detail\":\"已处理 2 个已有账号；失败 0。 本轮本人主页已观察 2/2；未取得本轮页面证据者不能宣称网页核验成功。\"},{\"id\":\"research-470976190a34964b1b6ea94e\",\"title\":\"YouTube 个人科技内容博主公开网页研究（独立任务）\",\"status\":\"cancelled\",\"requested\":1,\"evaluated\":0,\"matched\":0,\"matchedMeaning\":\"研究组入选的合格账号数；合格候选总数见qualifying\",\"updatedAt\":1791653880482,\"detail\":\"已停止本地核验；WaveSurge 没有已验证的远端取消接口，远端搜索可能继续\",\"remoteStatus\":\"done\",\"nextPollAt\":1791653871740}]"
+        }
+      },
+      {
+        "call": {
+          "id": "call_JT18X5tcPZAkR7v3PF4y8t9u",
+          "type": "function",
+          "function": {
+            "name": "get_results",
+            "arguments": "{\"taskId\":\"research-ca30a88339a2c54dc79941d1\",\"limit\":20}"
+          }
+        },
+        "message": {
+          "role": "tool",
+          "tool_call_id": "call_JT18X5tcPZAkR7v3PF4y8t9u",
+          "content": "{\"total\":2,\"qualifiedRecords\":2,\"selectedRecords\":1,\"offset\":0,\"limit\":20,\"results\":[{\"id\":\"research-ca30a88339a2c54dc79941d1|youtube:http://wave-fixture:8087/creator/alice\",\"taskId\":\"research-ca30a88339a2c54dc79941d1\",\"verdict\":\"match\",\"tags\":[\"科技知识与教程\",\"生产力工具\",\"学生学习效率与工作流\"],\"judgments\":[{\"criterionId\":\"__profile_visit\",\"verdict\":\"match\",\"reason\":\"本轮已取得本人主页实际页面观察与截图；网页上的其他条件仍按各自证据判断\",\"evidenceIds\":[\"75020ba51c2f962669bcb825\"],\"label\":\"本轮本人主页访问\"},{\"criterionId\":\"__platform\",\"verdict\":\"match\",\"reason\":\"创作者平台：youtube\",\"evidenceIds\":[],\"label\":\"平台\"},{\"criterionId\":\"__followers\",\"verdict\":\"match\",\"reason\":\"主页显示 20.4K subscribers；保守区间 20350–20499，要求 0–9007199254740991\",\"evidenceIds\":[\"75020ba51c2f962669bcb825\"],\"label\":\"粉丝范围\"},{\"criterionId\":\"technology_content\",\"verdict\":\"match\",\"reason\":\"本轮已提供的 headed-chromium 本人主页实际观察文字明确列出科技教程，且公开内容说明涉及处理器与降噪原理，支持公开内容包含科技内容。该主页明确为受控测试夹具，不是真实社交账号；判断仅针对所提供的夹具内容。\",\"evidenceIds\":[\"75020ba51c2f962669bcb825\"],\"label\":\"公开内容包含科技内容，依据已有文字资料核验。\"}],\"annotations\":[{\"dimensionId\":\"content_direction\",\"status\":\"supported\",\"values\":[\"科技知识与教程\",\"生产力工具\",\"学生学习效率与工作流\"],\"reason\":\"本轮主页观察文字列出 technology tutorials、productivity tools 和 student study workflows，并具体说明处理器、降噪以及 Notion、番茄钟与闪卡学习流程；标签依据页面文字，不推断视觉风格或真实身份。\",\"evidenceIds\":[\"75020ba51c2f962669bcb825\"]}],\"revision\":2,\"selected\":true,\"reportContext\":{\"sourceTaskTitle\":\"YouTube 科技博主文字研究（两名候选全量分析）\",\"groupId\":\"research-ca30a88339a2c54dc79941d1\",\"groupTitle\":\"YouTube 科技博主文字研究（两名候选全量分析）\",\"selectionScope\":\"research\"},\"creator\":{\"id\":\"youtube:http://wave-fixture:8087/creator/alice\",\"platform\":\"youtube\",\"handle\":\"\",\"displayName\":\"受控夹具 alice\",\"followers\":null,\"region\":null,\"facts\":{\"conflicts\":[],\"followers\":{\"min\":20350,\"max\":20499,\"rawValue\":\"20.4K subscribers\",\"evidenceIds\":[\"75020ba51c2f962669bcb825\"]},\"country\":{\"code\":\"US\",\"rawValue\":\"Location: United States\",\"evidenceIds\":[\"75020ba51c2f962669bcb825\"]}},\"profileUrl\":\"http://wave-fixture:8087/creator/alice\"},\"reportUrl\":\"/api/reports/research-ca30a88339a2c54dc79941d1\"},{\"id\":\"research-ca30a88339a2c54dc79941d1|youtube:http://wave-fixture:8087/creator/bob\",\"taskId\":\"research-ca30a88339a2c54dc79941d1\",\"verdict\":\"match\",\"tags\":[\"科技科普\",\"耳机评测\",\"处理器与降噪技术教程\",\"数码设备演示\"],\"judgments\":[{\"criterionId\":\"__profile_visit\",\"verdict\":\"match\",\"reason\":\"本轮已取得本人主页实际页面观察与截图；网页上的其他条件仍按各自证据判断\",\"evidenceIds\":[\"e3859d70bcd8ba64a2071a7f\"],\"label\":\"本轮本人主页访问\"},{\"criterionId\":\"__platform\",\"verdict\":\"match\",\"reason\":\"创作者平台：youtube\",\"evidenceIds\":[],\"label\":\"平台\"},{\"criterionId\":\"__followers\",\"verdict\":\"match\",\"reason\":\"主页显示 67.6K subscribers；保守区间 67550–67699，要求 0–9007199254740991\",\"evidenceIds\":[\"e3859d70bcd8ba64a2071a7f\"],\"label\":\"粉丝范围\"},{\"criterionId\":\"technology_content\",\"verdict\":\"match\",\"reason\":\"本轮 headed-chromium 主页观察文字明确写有“Technology education and headphone reviews”，并介绍讲解处理器与降噪的公开科技教程，支持公开内容包含科技内容。该页面明确为受控测试夹具，并非真实社交账号；判断仅针对所提供页面文字。\",\"evidenceIds\":[\"e3859d70bcd8ba64a2071a7f\"],\"label\":\"公开内容包含科技内容，依据已有文字资料核验。\"}],\"annotations\":[{\"dimensionId\":\"content_direction\",\"status\":\"supported\",\"values\":[\"科技科普\",\"耳机评测\",\"处理器与降噪技术教程\",\"数码设备演示\"],\"reason\":\"本轮主页文字明确描述科技教育、耳机评测、处理器及降噪讲解和设备演示；这些是受控夹具展示的内容方向。\",\"evidenceIds\":[\"e3859d70bcd8ba64a2071a7f\"]}],\"revision\":2,\"selected\":false,\"reportContext\":{\"sourceTaskTitle\":\"YouTube 科技博主文字研究（两名候选全量分析）\",\"groupId\":\"research-ca30a88339a2c54dc79941d1\",\"groupTitle\":\"YouTube 科技博主文字研究（两名候选全量分析）\",\"selectionScope\":\"research\"},\"creator\":{\"id\":\"youtube:http://wave-fixture:8087/creator/bob\",\"platform\":\"youtube\",\"handle\":\"\",\"displayName\":\"受控夹具 bob\",\"followers\":null,\"region\":null,\"facts\":{\"conflicts\":[],\"followers\":{\"min\":67550,\"max\":67699,\"rawValue\":\"67.6K subscribers\",\"evidenceIds\":[\"e3859d70bcd8ba64a2071a7f\"]},\"country\":{\"code\":\"US\",\"rawValue\":\"Location: United States\",\"evidenceIds\":[\"e3859d70bcd8ba64a2071a7f\"]}},\"profileUrl\":\"http://wave-fixture:8087/creator/bob\"},\"reportUrl\":\"/api/reports/research-ca30a88339a2c54dc79941d1\"}]}"
+        }
+      }
+    ]
+  },
+  "duplicate": {
+    "sameStatus": 200,
+    "differentStatus": 409,
+    "extraModelCalls": 0
+  },
+  "finishedAt": "2026-10-10T17:38:25.456Z"
+}

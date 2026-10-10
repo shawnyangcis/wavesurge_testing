@@ -1,0 +1,37 @@
+{
+  "startedAt": "2026-10-10T17:44:23.213Z",
+  "source": "New actual WaveSurge pool lookup and real model registration; browser empty-document verification",
+  "input": "再单独看看 TikTok，粉丝1亿到2亿的科技内容个人博主找1位就行，只用现有文字名单，不访问网页；这次仍最多分析1个候选。没找到就给我空名单和缺额说明，前面的结果保留。",
+  "task": {
+    "id": "research-c980f49ce7cdac71d79e9110",
+    "title": "TikTok 科技个人博主：粉丝1亿至2亿",
+    "status": "partial",
+    "requested": 1,
+    "evaluated": 0,
+    "matched": 0,
+    "matchedMeaning": "研究组入选的合格账号数；合格候选总数见qualifying",
+    "updatedAt": 1791654274368,
+    "detail": "已选合格 0/1，已核验 0；证据不足者保持待核实。tiktok：读取 500 条，基础条件排除 500 条；/discover/db?platform=tiktok&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。",
+    "remoteStatus": "done",
+    "nextPollAt": 1791654275362
+  },
+  "notices": [
+    {
+      "id": "report-request-96840e38-23c7-4905-a36b-b3f84de37eed-86b76807780110b6",
+      "role": "assistant",
+      "text": "本次请求的 1 项工作已全部结束。\n\n- TikTok 科技个人博主：粉丝1亿至2亿：已结束，仍有缺额或失败；已选合格 0/1，已核验 0；证据不足者保持待核实。tiktok：读取 500 条，基础条件排除 500 条；/discover/db?platform=tiktok&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。 [查看报告](/api/reports/research-c980f49ce7cdac71d79e9110)\n\n[查看本次综合报告](/api/work-batches/96840e38-23c7-4905-a36b-b3f84de37eed/report) · [下载综合 CSV](/api/work-batches/96840e38-23c7-4905-a36b-b3f84de37eed/report?format=csv)",
+      "createdAt": 1791654289936,
+      "epoch": 0,
+      "state": "delivered",
+      "attachments": []
+    }
+  ],
+  "summary": "目标 1 人；合格候选 0 人；最终入选 0 人；缺额 1 人；已核验 0 人（0 条记录）。",
+  "csv": {
+    "columns": 25,
+    "records": 0
+  },
+  "results": [],
+  "passed": true,
+  "assertions": 14
+}

@@ -1,0 +1,49 @@
+{
+  "round": "R4",
+  "completedAt": "2026-10-10T15:12:44.104591+00:00",
+  "testCases": 36,
+  "caseCounts": {
+    "failed": 2,
+    "partial": 3,
+    "passed": 31
+  },
+  "newRegressionCases": 7,
+  "realRuntime": {
+    "url": "http://127.0.0.1:3592",
+    "project": "creator-studio-retest-r4-live",
+    "tasks": 15,
+    "allTasksTerminal": true,
+    "resultRecords": 38,
+    "active": false,
+    "pendingCurrentEpoch": 0,
+    "unresolvedAssistance": [],
+    "waveReadCalls": 244,
+    "modelCalls": 112,
+    "finalRestartEvidence": "restart-final-ui.json"
+  },
+  "screenshotsInPrimaryFolder": 152,
+  "unitAndIntegration": {
+    "testFiles": 28,
+    "tests": 226,
+    "productionExecutableSourceFiles": 56,
+    "statementBranchFunctionLineCoveragePercent": 100
+  },
+  "controlledDockerAcceptance": {
+    "tests": 4,
+    "passed": 4,
+    "report": "acceptance/browser-reports/creator-studio-retest-r4-20261010-second/index.html"
+  },
+  "manualValidation": "remaining-validation.md",
+  "confirmedFindings": [
+    "F28",
+    "F29",
+    "F30",
+    "F31",
+    "F26",
+    "F27",
+    "F32"
+  ],
+  "resourceCleanup": "cleanup.json",
+  "archiveCredentialScan": "artifact-archive-scan.json",
+  "sanitizedAcceptanceReportValidated": "acceptance-report-ui.json"
+}

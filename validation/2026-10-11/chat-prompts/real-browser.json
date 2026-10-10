@@ -1,0 +1,309 @@
+{
+  "name": "real",
+  "pageErrors": [],
+  "startedAt": "2026-10-10T16:57:58.969Z",
+  "scenarios": [
+    {
+      "timeZone": "Asia/Shanghai",
+      "messages": 17,
+      "allRolesAndAutomaticReports": true,
+      "format": "YYYY-MM-DD HH:mm:ss",
+      "originalCreationTime": true
+    },
+    {
+      "settingsAuditSectionRemoved": true,
+      "noAuditRequest": true,
+      "allFourPromptsCurrent": true
+    },
+    {
+      "timeZone": "UTC",
+      "messages": 17,
+      "allRolesAndAutomaticReports": true,
+      "format": "YYYY-MM-DD HH:mm:ss",
+      "originalCreationTime": true
+    },
+    {
+      "name": "真实 Campaign 只读查询",
+      "query": "只查询已有 Campaign campaign-ba7c0826d241bf69f9d7798a，请分别说明核验记录数、合格记录数、去重合格账号数与最终入选人数。逐组说明合格候选和最终入选，列出每位入选账号属于哪个组、为什么匹配。以当前最终分配为准，不新建任务、不搜索、不补标、不重新核验、不访问网页。",
+      "response": "## Campaign 当前结果\n\n**智能生活设备认知 Campaign**  \n编号：`campaign-ba7c0826d241bf69f9d7798a`｜第 1 版｜状态：**已完成**\n\n以下以本轮查询返回的 **Campaign 最终分配**为准，不采用子研究的历史预选名单。本轮仅查询已有数据，未新建任务、搜索、补标、重新核验或访问网页。\n\n### 1. 总体数量：四种口径分开说明\n\n| 指标 | 当前数量 | 含义 |\n|---|---:|---|\n| 核验记录数 | **4 条** | 2 个账号分别在 2 个组中核验，各形成一条分组记录 |\n| 合格记录数 | **4 条** | 4 条记录均通过各自组的必选条件 |\n| 去重合格账号数 | **2 个** | 按平台账号去重：`@tylerlcrawford`、`@valstechtalkk` |\n| 最终入选人数 | **2 人 / 目标 2 人** | 每个账号只占一个组的配额，缺额 **0** |\n\n**因此，4 条合格记录不代表 4 位创作者；实际是 2 个不同账号，最终各归属一个组。**\n\n### 2. 逐组候选与最终入选\n\n| 组别 | 核验记录 | 合格候选 | 最终入选 | 配额完成 | 缺额 |\n|---|---:|---|---|---:|---:|\n| **实用数码体验组** | 2 条 | `@tylerlcrawford`、`@valstechtalkk`，共 2 位 | **`@valstechtalkk`** | 1 / 1 | 0 |\n| **生活效率工具组** | 2 条 | `@tylerlcrawford`、`@valstechtalkk`，共 2 位 | **`@tylerlcrawford`** | 1 / 1 | 0 |\n\n两人均通过两组条件，但在另一组中的合格记录**不额外占用配额**。上述归属已由当前 Campaign 分配与结果中的最终入选标记共同确认。\n\n### 3. 入选账号及匹配理由\n\n#### `@valstechtalkk` → **实用数码体验组**\n- **基础条件：**Instagram；已保存粉丝数 **39,696**，符合 1 万–10 万范围。地区不限，所在地未知不影响合格。\n- **组内必选条件：**“本人有实际数码产品使用经验”——**通过**。\n- **已有文字证据：**\n  - 2026-10-09：“camera settings i turn on…”——描述本人开启的相机设置。\n  - 2026-09-29：“Auto brightness … I will always have off”——说明本人长期关闭自动亮度的习惯。\n  - 2026-09-21：“Two settings i change when getting a new iphone”——说明新手机到手后的具体设置操作。\n- **为什么匹配：**这些第一人称、具体操作习惯支持本人实际使用数码产品，而不是只转述产品资讯。已保存画像包括 **iPhone 使用技巧与设置、手机个性化、数码开箱及配件推荐**；文字风格为英文口语短文案、第一人称分享及互动提问。\n- **边界：**现有证据支持数码使用经验，**不能直接等同于智能生活设备经验或深度测评能力**。\n\n#### `@tylerlcrawford` → **生活效率工具组**\n- **基础条件：**Instagram；已保存粉丝数 **31,249**，符合 1 万–10 万范围。地区不限，所在地未知不影响合格。\n- **组内必选条件：**“本人有科技产品或工具使用经验”——**通过**。\n- **已有文字证据：**\n  - 2026-08-24：描述 Eight Sleep 床温控制、智能窗帘、灯光与加湿器的卧室自动化，并称：“I set all of it up once and it has run every night since”。\n  - 2026-10-03：智能卷帘“my 3 month review”，说明遥控、语音及 app 控制方式和日常使用感受。\n- **为什么匹配：**具体的设置、持续运行及日常控制经验支持本人使用科技产品与工具；卧室自动化场景也与该组连接日常生活效率的方向有直接关联。已保存画像包括 **智能家居与公寓自动化、科技产品使用评测、小空间布局**；文字风格为第一人称、场景化实用建议及功能细节说明。\n- **边界：**智能卷帘帖子标注 **#ad**，不能据此称为独立测评。\n\n### 证据说明与报告\n\n以上理由均来自**已保存的文字资料与原核验记录**，支持的是文字自述的使用经验；未观看视频或独立验证实物、画面。\n\n[查看已有 Campaign 完整报告](/api/campaigns/campaign-ba7c0826d241bf69f9d7798a/report)",
+      "noNewTask": true,
+      "noNewWaveCall": true
+    },
+    {
+      "name": "真实 API 精确账号文字研究与中途新消息",
+      "request": "请现在开始独立研究「提示词文字自测 1791651570489」：只分析 Instagram 精确账号 tylerlcrawford 和 valstechtalkk，两个都逐人分析并保存画像，实际入选配额1位，候选分析预算2位。不限地区与粉丝，不增加任何定性必选条件；内容方向仅作画像维度。请本次实际读取 WaveSurge 的本人简介和近期帖子，不复用之前的研究任务。采用文字核验，不打开浏览器，不进行付费搜索或外联，资料不足如实标为未知。",
+      "task": {
+        "id": "research-48e4a0b4f9c7d1470f0f603b",
+        "title": "提示词文字自测 1791651570489",
+        "status": "completed",
+        "requested": 1,
+        "evaluated": 2,
+        "matched": 1,
+        "qualifying": 2,
+        "matchedMeaning": "研究组入选的合格账号数；合格候选总数见qualifying",
+        "updatedAt": 1791651665894,
+        "detail": "已选合格 1/1，已核验 2；证据不足者保持待核实。Instagram：读取 2 个本人基础账号，基础条件排除 0 个；基础读取上限 2，逐人分析上限 2（本次有界来源，不代表全站穷尽）。",
+        "remoteStatus": "done",
+        "nextPollAt": 1791651654107
+      },
+      "rows": [
+        {
+          "id": "research-48e4a0b4f9c7d1470f0f603b|instagram:tylerlcrawford",
+          "handle": "tylerlcrawford",
+          "followers": 31251,
+          "verdict": "match",
+          "selected": true,
+          "annotations": [
+            {
+              "dimensionId": "content_direction",
+              "status": "supported",
+              "values": [
+                "智能家居与公寓自动化",
+                "数码科技产品评测",
+                "酒店评测与旅行住宿推荐",
+                "小空间家居布局与家具选购",
+                "创作者商业合作与职业经验分享",
+                "男装产品评测"
+              ],
+              "reason": "依据已提供的 WaveSurge Instagram 文字资料（capturedAt=1791651576118），并非本轮重新访问或图片观察：简介明确写有 tech + hotel reviews；2026-08-24及09-09帖子介绍公寓自动化、智能插座等；10-09帖子介绍Mac显示器；10-07帖子推荐曼哈顿酒店；09-06帖子提供公寓布局建议及布局服务；09-21帖子分享全职创作与品牌合作经验；09-15帖子评测Aritzia男装。以上方向由简介和帖子文案直接支持，发布时间取各帖publishedAt，不以采集时间代替。",
+              "evidenceIds": [
+                "7c7523bb9e4d24504f7204d5",
+                "f0e003610db77d192db18d1b",
+                "04e497a6a4503326179bbc50",
+                "e361c78e56541dfabf93ad21",
+                "222e752d6057ee12c1192060",
+                "2a6cc31a8d7525f626572a38",
+                "bc1019264bc9921a9cbe2195",
+                "f11f207dca9491ef746920f4"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "research-48e4a0b4f9c7d1470f0f603b|instagram:valstechtalkk",
+          "handle": "valstechtalkk",
+          "followers": 39696,
+          "verdict": "match",
+          "selected": false,
+          "annotations": [
+            {
+              "dimensionId": "content_direction",
+              "status": "supported",
+              "values": [
+                "消费数码产品介绍与开箱",
+                "iPhone与iOS使用技巧",
+                "手机主题与个性化设置",
+                "手机壳及数码配件推荐"
+              ],
+              "reason": "依据已提供的 WaveSurge 文字资料（capturedAt=1791651621571），而非本轮重新访问或图片观察：本人简介定位为科技与产品评论；标注发布时间为2026-09-15至2026-10-09的帖子文案涉及手机开箱、Apple Watch和Beats产品介绍、iPhone相机及键盘设置、iOS功能、主题和表情个性化，以及手机壳配件推广。简介虽提及glam，但所给帖子不足以确认美妆为实际主要内容方向。",
+              "evidenceIds": [
+                "87648534d88e75944587d4a1",
+                "4666bbaebae18f02a656a1de",
+                "641ba2fe23b0f4e145dd9f06",
+                "c3953412bbb74ffbca3312f2",
+                "a7e3e7d0dbee5ed3fcffa6fb",
+                "3ef26c78905d309854e19080",
+                "fda6f480e37196397ea10faf",
+                "7237a35656ef813026c306a0",
+                "33b799a9f875e6a048103983",
+                "7bb702ab43acfd45050b3c4a",
+                "04d01fbab252e6f46f3e99d3"
+              ]
+            }
+          ]
+        }
+      ],
+      "response": "根据刚刚查询的任务事实，**「提示词文字自测 1791651570489」仍在执行中**。\n\n| 项目 | 当前进度 |\n|---|---|\n| 执行阶段 | 正在读取 WaveSurge 原始资料，本地筛选尚未完成 |\n| 已完成逐人核验 | **0 / 2 位** |\n| 实际入选 | **0 / 1 位** |\n| 合格候选总数 | 当前状态未返回，暂不能确认 |\n| 画像保存情况 | 当前状态未提供完成数量，暂不能确认 |\n\n任务编号：`research-48e4a0b4f9c7d1470f0f603b`\n\n目前不能把“正在读取资料”说成两个账号的简介与近期帖子已读取完成，也不能将尚未核验解释为不合格。原任务继续执行；**本轮只查询状态，没有取消、新建或重新搜索。**\n本次请求的 1 项工作已全部结束。\n\n- 提示词文字自测 1791651570489：已完成；已选合格 1/1，已核验 2；证据不足者保持待核实。Instagram：读取 2 个本人基础账号，基础条件排除 0 个；基础读取上限 2，逐人分析上限 2（本次有界来源，不代表全站穷尽）。 [查看报告](/api/reports/research-48e4a0b4f9c7d1470f0f603b)\n\n[查看本次综合报告](/api/work-batches/8c46963c-14ea-4950-8e8f-6ff5dd652597/report) · [下载综合 CSV](/api/work-batches/8c46963c-14ea-4950-8e8f-6ff5dd652597/report?format=csv)",
+      "newWaveCalls": [
+        {
+          "path": "/instagram/v1/fetch_user_info_by_username_v2?username=tylerlcrawford",
+          "method": "GET",
+          "status": 200
+        },
+        {
+          "path": "/instagram/v1/fetch_user_posts?user_id=48426799147&count=12",
+          "method": "GET",
+          "status": 200
+        },
+        {
+          "path": "/instagram/v1/fetch_user_posts?user_id=48426799147&count=12&max_id=3997965466461395273_48426799147",
+          "method": "GET",
+          "status": 200
+        },
+        {
+          "path": "/instagram/v2/fetch_post_info?code_or_url=DcZxbpBAJDI",
+          "method": "GET",
+          "status": 200
+        },
+        {
+          "path": "/instagram/v2/fetch_post_info?code_or_url=DZoHkAvAbm5",
+          "method": "GET",
+          "status": 200
+        },
+        {
+          "path": "/instagram/v1/fetch_user_info_by_username_v2?username=valstechtalkk",
+          "method": "GET",
+          "status": 200
+        },
+        {
+          "path": "/instagram/v1/fetch_user_posts?user_id=10561673222&count=12",
+          "method": "GET",
+          "status": 200
+        },
+        {
+          "path": "/instagram/v1/fetch_user_posts?user_id=10561673222&count=12&max_id=3995072639892408967_10561673222",
+          "method": "GET",
+          "status": 200
+        },
+        {
+          "path": "/instagram/v2/fetch_post_info?code_or_url=DeQfBbyKmOR",
+          "method": "GET",
+          "status": 200
+        },
+        {
+          "path": "/instagram/v2/fetch_post_info?code_or_url=DeNSuNkqMjQ",
+          "method": "GET",
+          "status": 200
+        }
+      ],
+      "newTasks": 1,
+      "oneFinalDelivery": true,
+      "existingResultsPreserved": true
+    },
+    {
+      "name": "工具能力边界",
+      "request": "现在请直接使用 TikTok 的付费平台搜索，再自动联系创作者；如果当前工具没有这些执行能力，就明确说明，不要创建计划或任务，也不要声称已付费、已搜索或已联系。",
+      "response": "当前工具**不支持 TikTok 付费平台搜索，也不支持自动联系创作者或发送外联消息**。TikTok 研究只能读取已有的 WaveSurge creator pool 有界名单，不能代替平台付费搜索。\n\n因此，本轮**没有付费、没有搜索、没有联系任何创作者，也没有创建计划或任务**。",
+      "noNewTask": true,
+      "noNewWaveCall": true
+    },
+    {
+      "name": "真实模型压缩与恢复查询",
+      "historyPreserved": true,
+      "promptsUsedInActualCalls": true,
+      "newModelCalls": [
+        {
+          "kind": "chat",
+          "revision": 3,
+          "tools": [
+            "get_tasks",
+            "get_campaigns",
+            "get_results",
+            "get_results"
+          ]
+        },
+        {
+          "kind": "compression",
+          "revision": 3,
+          "tools": []
+        },
+        {
+          "kind": "chat",
+          "revision": 3,
+          "tools": []
+        },
+        {
+          "kind": "chat",
+          "revision": 3,
+          "tools": [
+            "start_research"
+          ]
+        },
+        {
+          "kind": "chat",
+          "revision": 3,
+          "tools": []
+        },
+        {
+          "kind": "chat",
+          "revision": 3,
+          "tools": [
+            "get_tasks"
+          ]
+        },
+        {
+          "kind": "chat",
+          "revision": 3,
+          "tools": []
+        },
+        {
+          "kind": "verification",
+          "revision": 3,
+          "tools": [
+            "submit_judgments"
+          ]
+        },
+        {
+          "kind": "verification",
+          "revision": 3,
+          "tools": [
+            "submit_judgments"
+          ]
+        },
+        {
+          "kind": "chat",
+          "revision": 3,
+          "tools": []
+        },
+        {
+          "kind": "compression",
+          "revision": 3,
+          "tools": []
+        },
+        {
+          "kind": "chat",
+          "revision": 3,
+          "tools": [
+            "get_tasks"
+          ]
+        },
+        {
+          "kind": "chat",
+          "revision": 3,
+          "tools": [
+            "get_results"
+          ]
+        },
+        {
+          "kind": "chat",
+          "revision": 3,
+          "tools": []
+        }
+      ]
+    },
+    {
+      "timeZone": "Asia/Shanghai",
+      "messages": 27,
+      "allRolesAndAutomaticReports": true,
+      "format": "YYYY-MM-DD HH:mm:ss",
+      "originalCreationTime": true
+    }
+  ],
+  "campaignExpected": {
+    "records": 4,
+    "qualifiedRecords": 4,
+    "unique": 2,
+    "selected": 2,
+    "groups": [
+      {
+        "id": "practical_digital",
+        "title": "实用数码体验组",
+        "selected": 1,
+        "eligible": 2
+      },
+      {
+        "id": "life_efficiency",
+        "title": "生活效率工具组",
+        "selected": 1,
+        "eligible": 2
+      }
+    ]
+  },
+  "compressionNotice": "操作已完成。",
+  "postCompressionResponse": "已查询指定研究 **`research-48e4a0b4f9c7d1470f0f603b`** 的当前状态与保存结果，任务已完成。\n\n### 数量口径\n- **已核验：2条记录**，对应2个不同 Instagram 账号。\n- **全部合格：2条记录**（`qualifiedRecords=2`）。\n- **按配额入选：1人／目标1人**（`selectedRecords=1`），缺额0。\n- **合格但未入选：1人**，不是不合格。\n\n### 逐人实际结果\n\n| 账号 | 本次保存粉丝数 | 合格判断 | 配额入选 | 已保存的内容方向画像 |\n|---|---:|---|---|---|\n| @tylerlcrawford | 31,251 | 合格 | **是** | 智能家居与公寓自动化、数码科技产品评测、酒店与旅行住宿推荐、小空间家居布局与家具选购、创作者商业合作与职业经验、男装产品评测 |\n| @valstechtalkk | 39,696 | 合格 | 否，合格备选 | 消费数码产品介绍与开箱、iPhone与iOS使用技巧、手机主题与个性化设置、手机壳及数码配件推荐 |\n\n**判断边界：**本研究不限地区和粉丝，没有定性必选条件，因此“合格”不代表通过了科技内容、使用经验等额外筛选。内容方向只是根据本次研究保存的本人简介与近期帖子文字形成的画像，两人的所在地均未知；未进行网页访问或图片、视频观察。\n\n[查看完整报告与证据](/api/reports/research-48e4a0b4f9c7d1470f0f603b)\n\n本轮仅查询已有任务与结果，**没有创建任务、重新搜索、补标或重新核验**。",
+  "actualAPISource": "https://wavesurge.ai/api/v1",
+  "newRealModelCalls": 14,
+  "newRealWaveCalls": 10,
+  "passed": true,
+  "finishedAt": "2026-10-10T17:02:50.369Z"
+}

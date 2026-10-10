@@ -1,0 +1,364 @@
+{
+  "scope": "live",
+  "name": "tiktok-results",
+  "taskId": "research-2908c0a899a69bd5afeca2db",
+  "startedAt": "2026-10-10T11:14:08.344Z",
+  "checks": [
+    "Actual CSV link downloaded",
+    "Chat-accessible structured HTML report opened in actual browser",
+    "Tag values and versions persisted after page reload"
+  ],
+  "queries": [
+    {
+      "tag": "影视制作",
+      "count": 1,
+      "handles": [
+        "juanescalonafilms"
+      ],
+      "csvPath": ".gstack/qa-reports/retest-2026-10-10-r3/tiktok-results-filter-0.csv",
+      "href": "/api/reports/research-2908c0a899a69bd5afeca2db?format=csv&tag=%E5%BD%B1%E8%A7%86%E5%88%B6%E4%BD%9C"
+    },
+    {
+      "tag": "人工智能",
+      "count": 1,
+      "handles": [
+        "juanescalonafilms"
+      ],
+      "csvPath": ".gstack/qa-reports/retest-2026-10-10-r3/tiktok-results-filter-1.csv",
+      "href": "/api/reports/research-2908c0a899a69bd5afeca2db?format=csv&tag=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD"
+    },
+    {
+      "tag": "Notion",
+      "count": 0,
+      "handles": [],
+      "csvPath": ".gstack/qa-reports/retest-2026-10-10-r3/tiktok-results-filter-2.csv",
+      "href": "/api/reports/research-2908c0a899a69bd5afeca2db?format=csv&tag=Notion"
+    },
+    {
+      "tag": "geek",
+      "count": 0,
+      "handles": [],
+      "csvPath": ".gstack/qa-reports/retest-2026-10-10-r3/tiktok-results-filter-3.csv",
+      "href": "/api/reports/research-2908c0a899a69bd5afeca2db?format=csv&tag=geek"
+    },
+    {
+      "tag": "不会存在的画像标签",
+      "count": 0,
+      "handles": [],
+      "csvPath": ".gstack/qa-reports/retest-2026-10-10-r3/tiktok-results-filter-4.csv",
+      "href": "/api/reports/research-2908c0a899a69bd5afeca2db?format=csv&tag=%E4%B8%8D%E4%BC%9A%E5%AD%98%E5%9C%A8%E7%9A%84%E7%94%BB%E5%83%8F%E6%A0%87%E7%AD%BE"
+    }
+  ],
+  "networkErrors": [
+    {
+      "url": "http://127.0.0.1:3572/api/session",
+      "status": 401
+    }
+  ],
+  "pageErrors": [],
+  "task": {
+    "id": "research-2908c0a899a69bd5afeca2db",
+    "title": "TikTok手机／数码个人体验博主：两位候选逐人核验",
+    "status": "partial",
+    "requested": 1,
+    "evaluated": 2,
+    "matched": 0,
+    "qualifying": 0,
+    "updatedAt": 1791630566241,
+    "detail": "已选合格 0/1，已核验 2；证据不足者保持待核实。tiktok：读取 500 条，基础条件排除 324 条；/discover/db?platform=tiktok&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。核验/来源错误 1 次，可对已有结果重新核验。",
+    "remoteStatus": "done",
+    "nextPollAt": 0
+  },
+  "results": [
+    {
+      "id": "research-2908c0a899a69bd5afeca2db|tiktok:larissa2468_",
+      "taskId": "research-2908c0a899a69bd5afeca2db",
+      "creator": {
+        "id": "tiktok:larissa2468_",
+        "platform": "tiktok",
+        "handle": "larissa2468_",
+        "profileUrl": "https://www.tiktok.com/@larissa2468_",
+        "displayName": "Larissa",
+        "followers": 59785,
+        "region": "Mexico",
+        "evidence": [
+          {
+            "id": "b19bcf613b7b25c484e27069",
+            "url": "https://www.tiktok.com/@larissa2468_",
+            "text": "Gaming + Tech | Storyteller \n🟣 Larissa2468 \nEn vivo Jue, Vie, Sab \n📩c***@gmail.com",
+            "kind": "profile",
+            "provider": "wavesurge-pool",
+            "publishedAt": null,
+            "capturedAt": 1791629549207
+          },
+          {
+            "id": "3ee5102d08ced446bd287f37",
+            "url": "https://www.tiktok.com/@larissa2468_",
+            "kind": "browser_snapshot",
+            "text": "",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791629567147,
+            "assetId": "903986930c51e380cba5cb835bc3a2f01885f59604ecc3553ac03537eb9c448a"
+          },
+          {
+            "id": "a5b322f4da24aad283b71515",
+            "url": "https://www.tiktok.com/@larissa2468_",
+            "kind": "browser_snapshot",
+            "text": "TikTok\nSearch\nFor You\nExplore\nFollowing\nLIVE\nUpload\nProfile\nMore\nLog in\n© 2026 TikTok\nLarissa\nlarissa2468_\n40\nFollowing\n61.9K\nFollowers\n4.5M\nLikes\nFollow\nMessage\nGaming + Tech | Storyteller\n\n🟣 Twitch: Larissa2468\nEn vivo Jue, Vie, Sab\n📩contacto.laars@gmail.com\nlinktr.ee/laaars\n\nSuggested accounts\n\nView all\n\nVideos\n\nLiked\n\nLatest\nPopular\nOldest\n\nPlaylists\n\nGame Dev\n\n19 posts\n\nSide quests\n\n10 posts\n\nFrame by frame\n\n3 posts\n\nMis Historias\n\n36 posts\n\nOpiniones\n\n34 posts\n\nVideos\n\nLog in\nDrag the slider to fit the puzzle\nAudio\n20261010185253C209B2585F5E0D922B01",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791629575863,
+            "assetId": "e8421f30361a21f28fb49b78b6c00bba23aecde9e357871aef8fcac1679795c8"
+          }
+        ]
+      },
+      "judgments": [
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：tiktok",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 59785，要求 10000–100000",
+          "evidenceIds": [
+            "b19bcf613b7b25c484e27069"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "personal_creator",
+          "verdict": "unknown",
+          "reason": "尚未取得足够证据",
+          "evidenceIds": [],
+          "label": "个人博主，非品牌、公司或店铺官方账号"
+        },
+        {
+          "criterionId": "digital_usage_experience",
+          "verdict": "unknown",
+          "reason": "尚未取得足够证据",
+          "evidenceIds": [],
+          "label": "实际分享手机或数码产品的个人使用体验"
+        }
+      ],
+      "verdict": "unknown",
+      "tags": [],
+      "revision": 1,
+      "updatedAt": 1791630103608,
+      "selected": false
+    },
+    {
+      "id": "research-2908c0a899a69bd5afeca2db|tiktok:juanescalonafilms",
+      "taskId": "research-2908c0a899a69bd5afeca2db",
+      "creator": {
+        "id": "tiktok:juanescalonafilms",
+        "platform": "tiktok",
+        "handle": "juanescalonafilms",
+        "profileUrl": "https://www.tiktok.com/@juanescalonafilms",
+        "displayName": "Juan Escalona | Videografo",
+        "followers": 23739,
+        "region": "Mexico",
+        "evidence": [
+          {
+            "id": "17e394d5b28ab5042a704ac6",
+            "url": "https://www.tiktok.com/@juanescalonafilms",
+            "text": "Creador de contenido\nFilmmaking | IA | Tutoriales | Reviews \n\nMI CURSO DE IA REAL ESTATE YA ESTÁ DISPONIBLE",
+            "kind": "profile",
+            "provider": "wavesurge-pool",
+            "publishedAt": null,
+            "capturedAt": 1791629549207
+          },
+          {
+            "id": "bdfab54bb71c3c718eea915f",
+            "url": "https://www.tiktok.com/@juanescalonafilms",
+            "kind": "browser_snapshot",
+            "text": "",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791630109459,
+            "assetId": "9960f29f80fdfa06770c252e1762c0041387b3005574a4e5db266cd68acbe63b"
+          },
+          {
+            "id": "347930de3e583a02cecc72be",
+            "url": "https://www.tiktok.com/@juanescalonafilms",
+            "kind": "browser_snapshot",
+            "text": "Juan Escalona | Videografo\njuanescalonafilms\n2899\nFollowing\n23.8K\nFollowers\n706.3K\nLikes\nCreador de contenido\nFilmmaking | IA | Tutoriales | Reviews\n\nMI CURSO DE IA REAL ESTATE YA ESTÁ DISPONIBLE\njuanescalonafilms.com/cursos-digitales\nLog in\nDrag the slider to fit the puzzle\nAudio\n20261010190154373A42366DD864AFD2D4",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791630117846,
+            "assetId": "737bcfa1e5c3319aedc71d054800191735090378b1987a4a45fe84eb2721041f"
+          },
+          {
+            "id": "bf540076773af9fa69601381",
+            "url": "https://www.tiktok.com/@juanescalonafilms",
+            "kind": "browser_snapshot",
+            "text": "TikTok\nSearch\nFor You\nExplore\nFollowing\nLIVE\nUpload\nProfile\nMore\nLog in\nCompany\nProgram\nTerms & Policies\n© 2026 TikTok\nJuan Escalona | Videografo\njuanescalonafilms\n2899\nFollowing\n23.8K\nFollowers\n706.3K\nLikes\nFollow\nMessage\nCreador de contenido\nFilmmaking | IA | Tutoriales | Reviews\n\nMI CURSO DE IA REAL ESTATE YA ESTÁ DISPONIBLE\njuanescalonafilms.com/cursos-digitales\n\nSuggested accounts\n\nView all\n\nbtwitslucky\n\n18.5M followers\n\nFollow\n\nFadil Jaidi\n\n16.6M followers\n\nFollow\n\nDramaBox - Stream Drama Shorts\n\n14.9M followers\n\nFollow\n\nMobile Legends\n\n12M followers\n\nFollow\n\nCAFlareFlowonline\n\n9.5M followers\n\nFollow\n\nHumphries family\n\n9.4M followers\n\nFollow\n\nAleksei Kuznetsov\n\n9M followers\n\nFollow\n\nRed Bull Racing\n\n8.8M followers\n\nFollow\n\nXiaomi\n\n8.3M followers\n\nFollow\n\nffonion\n\n8M followers\n\nFollow\n\nSteven He\n\n8M followers\n\nFollow\n\nTrấn Thành\n\n7.7M followers\n\nFollow\n\nPUBG Mobile ببجي موبايل\n\n7.7M followers\n\nFollow\n\nDramaWave - Dramas & Reels\n\n7.6M followers\n\nFollow\n\nDramaBox- movies&drama\n\n7.4M followers\n\nFollow\n\nNay Sann🇲🇲\n\n7.3M followers\n\nFollow\n\nSAMUELLAKOUASSIOFFICIEL.T.S.k\n\n6.7M followers\n\nFollow\n\nTikTok Thailand\n\n6.6M followers\n\nFollow\n\n🥤DJSODA🥤\n\n6.3M followers\n\nFollow\n\nDramaBox - Streaming de Dramas\n\n6M followers\n\nFollow\n\nVideos\n\nLiked\n\nLatest\nPopular\nOldest\n\nSomething went wrong\n\nSorry about that! Please try again later.\n\nRefresh\nLog in",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791630550065,
+            "assetId": "c092d38bce09cee189d22dd91a4371944a30fb9dbea9c7c176b13818e11bb369"
+          }
+        ],
+        "facts": {
+          "conflicts": [
+            "followers: 来源数值冲突"
+          ]
+        }
+      },
+      "judgments": [
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：tiktok",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "unknown",
+          "reason": "WaveSurge 粉丝数 23739，要求 10000–100000",
+          "evidenceIds": [
+            "17e394d5b28ab5042a704ac6"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "personal_creator",
+          "verdict": "match",
+          "reason": "主页以个人姓名 Juan Escalona 和 Videografo（摄像师）呈现，自述 Creador de contenido（内容创作者），并称“MI CURSO”（我的课程），支持个人创作者身份而非品牌或店铺官方账号。",
+          "evidenceIds": [
+            "17e394d5b28ab5042a704ac6",
+            "bf540076773af9fa69601381"
+          ],
+          "label": "个人博主，非品牌、公司或店铺官方账号"
+        },
+        {
+          "criterionId": "digital_usage_experience",
+          "verdict": "unknown",
+          "reason": "简介仅列 Filmmaking、IA、Tutoriales、Reviews，未说明具体手机或数码设备的个人实际使用体验。曾遇验证码，用户要求跳过；最新页面帖子区显示 Something went wrong，未取得帖子文字或日期，因此不能确认也不能判定不符合。",
+          "evidenceIds": [
+            "17e394d5b28ab5042a704ac6",
+            "347930de3e583a02cecc72be",
+            "bf540076773af9fa69601381"
+          ],
+          "label": "实际分享手机或数码产品的个人使用体验"
+        }
+      ],
+      "verdict": "unknown",
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "影视制作",
+            "人工智能",
+            "教程",
+            "评测"
+          ],
+          "reason": "仅记录主页简介自述方向：Filmmaking | IA | Tutoriales | Reviews；并非已核实的帖子内容。",
+          "evidenceIds": [
+            "bf540076773af9fa69601381"
+          ]
+        },
+        {
+          "dimensionId": "presentation_style",
+          "status": "unknown",
+          "values": [],
+          "reason": "帖子未加载，无法确认实际呈现风格。",
+          "evidenceIds": [
+            "bf540076773af9fa69601381"
+          ]
+        },
+        {
+          "dimensionId": "wears_glasses",
+          "status": "unknown",
+          "values": [],
+          "reason": "未取得本人出镜帖子；头像不能作为本人身体特征的核验依据。",
+          "evidenceIds": [
+            "bf540076773af9fa69601381"
+          ]
+        }
+      ],
+      "tags": [
+        "影视制作",
+        "人工智能",
+        "教程",
+        "评测"
+      ],
+      "revision": 1,
+      "updatedAt": 1791630565434,
+      "selected": false
+    }
+  ],
+  "report": {
+    "url": "http://127.0.0.1:3572/api/reports/research-2908c0a899a69bd5afeca2db",
+    "articles": 2,
+    "embeddedImages": 5,
+    "profileLinks": 2,
+    "body": "TikTok手机／数码个人体验博主：两位候选逐人核验\n\n目标 1 人；本地已合格 0 人；已核验 2 人。\n\n已选合格 0/1，已核验 2；证据不足者保持待核实。tiktok：读取 500 条，基础条件排除 324 条；/discover/db?platform=tiktok&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。核验/来源错误 1 次，可对已有结果重新核验。\n\n来源：WaveSurge + 本地核验。远端搜索完成不代表本地条件通过。本次报告包含 2 条筛选记录。报告更新时间：2026-10-10T11:09:26.241Z\nLarissa · 待核实\n\ntiktok / larissa2468_ / 粉丝 59785 / Mexico\n\n标签：\n\n条件\t判断\t依据\n平台\t符合要求\t创作者平台：tiktok\n\n粉丝范围\t符合要求\tWaveSurge 粉丝数 59785，要求 10000–100000\nprofile 日期未知\n个人博主，非品牌、公司或店铺官方账号\t待核实\t尚未取得足够证据\n\n实际分享手机或数码产品的个人使用体验\t待核实\t尚未取得足够证据\n\n完整证据映射与截图\nb19bcf613b7b25c484e27069 · profile\n原始来源\n\n提供方：wavesurge-pool · 捕获：2026-10-10T10:52:29.207Z · 发布时间：日期未知\n\nGaming + Tech | Storyteller \n🟣 Larissa2468 \nEn vivo Jue, Vie, Sab \n📩c***@gmail.com\n3ee5102d08ced446bd287f37 · browser_snapshot\n原始来源\n\n提供方：headed-chromium · 捕获：2026-10-10T10:52:47.147Z · 发布时间：日期未知 · 截图编号：903986930c51e380cba5cb835bc3a2f01885f59604ecc3553ac03537eb9c448a\n\na5b322f4da24aad283b71515 · browser_snapshot\n原始来源\n\n提供方：headed-chromium · 捕获：2026-10-10T10:52:55.863Z · 发布时间：日期未知 · 截图编号：e8421f30361a21f28fb49b78b6c00bba23aecde9e357871aef8fcac1679795c8\n\nTikTok\nSearch\nFor You\nExplore\nFollowing\nLIVE\nUpload\nProfile\nMore\nLog in\n© 2026 TikTok\nLarissa\nlarissa2468_\n40\nFollowing\n61.9K\nFollowers\n4.5M\nLikes\nFollow\nMessage\nGaming + Tech | Storyteller\n\n🟣 Twitch: Larissa2468\nEn vivo Jue, Vie, Sab\n📩contacto.laars@gmail.com\nlinktr.ee/laaars\n\nSuggested accounts\n\nView all\n\nVideos\n\nLiked\n\nLatest\nPopular\nOldest\n\nPlaylists\n\nGame Dev\n\n19 posts\n\nSide quests\n\n10 posts\n\nFrame by frame\n\n3 posts\n\nMis Historias\n\n36 posts\n\nOpiniones\n\n34 posts\n\nVideos\n\nLog in\nDrag the slider to fit the puzzle\nAudio\n20261010185253C209B2585F5E0D922B01\nJuan Escalona | Videografo · 待核实\n\ntiktok / juanescalonafilms / 粉丝 23739 / Mexico\n\n标签：影视制作、人工智能、教程、评测\n\n画像 content_direction：影视制作、人工智能、教程、评测；仅记录主页简介自述方向：Filmmaking | IA | Tutoriales | Reviews；并非已核实的帖子内容。；证据 bf540076773af9fa69601381\n\n画像 presentation_style：待核实；帖子未加载，无法确认实际呈现风格。；证据 bf540076773af9fa69601381\n\n画像 wears_glasses：待核实；未取得本人出镜帖子；头像不能作为本人身体特征的核验依据。；证据 bf540076773af9fa69601381\n\n条件\t判断\t依据\n平台\t符合要求\t创作者平台：tiktok\n\n粉丝范围\t待核实\tWaveSurge 粉丝数 23739，要求 10000–100000\nprofile 日期未知\n个人博主，非品牌、公司或店铺官方账号\t符合要求\t主页以个人姓名 Juan Escalona 和 Videografo（摄像师）呈现，自述 Creador de contenido（内容创作者），并称“MI CURSO”（我的课程），支持个人创作者身份而非品牌或店铺官方账号。\nprofile 日期未知\nbrowser_snapshot 日期未知\n实际分享手机或数码产品的个人使用体验\t待核实\t简介仅列 Filmmaking、IA、Tutoriales、Reviews，未说明具体手机或数码设备的个人实际使用体验。曾遇验证码，用户要求跳过；最新页面帖子区显示 Something went wrong，未取得帖子文字或日期，因此不能确认也不能判定不符合。\nprofile 日期未知\nbrowser_snapshot 日期未知\nbrowser_snapshot 日期未知\n完整证据映射与截图\n17e394d5b28ab5042a704ac6 · profile\n原始来源\n\n提供方：wavesurge-pool · 捕获：2026-10-10T10:52:29.207Z · 发布时间：日期未知\n\nCreador de contenido\nFilmmaking | IA | Tutoriales | Reviews \n\nMI CURSO DE IA REAL ESTATE YA ESTÁ DISPONIBLE\nbdfab54bb71c3c718eea915f · browser_snapshot\n原始来源\n\n提供方：headed-chromium · 捕获：2026-10-10T11:01:49.459Z · 发布时间：日期未知 · 截图编号：9960f29f80fdfa06770c252e1762c0041387b3005574a4e5db266cd68acbe63b\n\n347930de3e583a02cecc72be · browser_snapshot\n原始来源\n\n提供方：headed-chromium · 捕获：2026-10-10T11:01:57.846Z · 发布时间：日期未知 · 截图编号：737bcfa1e5c3319aedc71d054800191735090378b1987a4a45fe84eb2721041f\n\nJuan Escalona | Videografo\njuanescalonafilms\n2899\nFollowing\n23.8K\nFollowers\n706.3K\nLikes\nCreador de contenido\nFilmmaking | IA | Tutoriales | Reviews\n\nMI CURSO DE IA REAL ESTATE YA ESTÁ DISPONIBLE\njuanescalonafilms.com/cursos-digitales\nLog in\nDrag the slider to fit the puzzle\nAudio\n20261010190154373A42366DD864AFD2D4\nbf540076773af9fa69601381 · browser_snapshot\n原始来源\n\n提供方：headed-chromium · 捕获：2026-10-10T11:09:10.065Z · 发布时间：日期未知 · 截图编号：c092d38bce09cee189d22dd91a4371944a30fb9dbea9c7c176b13818e11bb369\n\nTikTok\nSearch\nFor You\nExplore\nFollowing\nLIVE\nUpload\nProfile\nMore\nLog in\nCompany\nProgram\nTerms & Policies\n© 2026 TikTok\nJuan Escalona | Videografo\njuanescalonafilms\n2899\nFollowing\n23.8K\nFollowers\n706.3K\nLikes\nFollow\nMessage\nCreador de contenido\nFilmmaking | IA | Tutoriales | Reviews\n\nMI CURSO DE IA REAL ESTATE YA ESTÁ DISPONIBLE\njuanescalonafilms.com/cursos-digitales\n\nSuggested accounts\n\nView all\n\nbtwitslucky\n\n18.5M followers\n\nFollow\n\nFadil Jaidi\n\n16.6M followers\n\nFollow\n\nDramaBox - Stream Drama Shorts\n\n14.9M followers\n\nFollow\n\nMobile Legends\n\n12M followers\n\nFollow\n\nCAFlareFlowonline\n\n9.5M followers\n\nFollow\n\nHumphries family\n\n9.4M followers\n\nFollow\n\nAleksei Kuznetsov\n\n9M followers\n\nFollow\n\nRed Bull Racing\n\n8.8M followers\n\nFollow\n\nXiaomi\n\n8.3M followers\n\nFollow\n\nffonion\n\n8M followers\n\nFollow\n\nSteven He\n\n8M followers\n\nFollow\n\nTrấn Thành\n\n7.7M followers\n\nFollow\n\nPUBG Mobile ببجي موبايل\n\n7.7M followers\n\nFollow\n\nDramaWave - Dramas & Reels\n\n7.6M followers\n\nFollow\n\nDramaBox- movies&drama\n\n7.4M followers\n\nFollow\n\nNay Sann🇲🇲\n\n7.3M followers\n\nFollow\n\nSAMUELLAKOUASSIOFFICIEL.T.S.k\n\n6.7M followers\n\nFollow\n\nTikTok Thailand\n\n6.6M followers\n\nFollow\n\n🥤DJSODA🥤\n\n6.3M followers\n\nFollow\n\nDramaBox - Streaming de Dramas\n\n6M followers\n\nFollow\n\nVideos\n\nLiked\n\nLatest\nPopular\nOldest\n\nSomething went wrong\n\nSorry about that! Please try again later.\n\nRefresh\nLog in"
+  },
+  "chatLinks": [
+    {
+      "label": "查看报告",
+      "href": "/api/reports/research-be8026ae73f12c86682a616a"
+    },
+    {
+      "label": "查看本次综合报告",
+      "href": "/api/work-batches/0fabc016-9161-43d4-976a-c6e8235b852e/report"
+    },
+    {
+      "label": "下载综合 CSV",
+      "href": "/api/work-batches/0fabc016-9161-43d4-976a-c6e8235b852e/report?format=csv"
+    },
+    {
+      "label": "查看报告",
+      "href": "/api/reports/research-ac84c5f2eb4a7e21e69ce1d2"
+    },
+    {
+      "label": "查看报告",
+      "href": "/api/reports/research-50afd1df3c59e15af7ca2577"
+    },
+    {
+      "label": "查看本次综合报告",
+      "href": "/api/work-batches/a01de880-2d32-47b3-a6d7-ba663944d36a/report"
+    },
+    {
+      "label": "下载综合 CSV",
+      "href": "/api/work-batches/a01de880-2d32-47b3-a6d7-ba663944d36a/report?format=csv"
+    },
+    {
+      "label": "查看报告",
+      "href": "/api/reports/research-e920ecebfcfaea4ad9406b7a"
+    },
+    {
+      "label": "查看本次综合报告",
+      "href": "/api/work-batches/0710085f-0695-4561-8f75-eedd112288ad/report"
+    },
+    {
+      "label": "下载综合 CSV",
+      "href": "/api/work-batches/0710085f-0695-4561-8f75-eedd112288ad/report?format=csv"
+    },
+    {
+      "label": "查看报告",
+      "href": "/api/reports/research-2908c0a899a69bd5afeca2db"
+    },
+    {
+      "label": "查看本次综合报告",
+      "href": "/api/work-batches/ea140273-05dc-4494-931f-b6151446b244/report"
+    },
+    {
+      "label": "下载综合 CSV",
+      "href": "/api/work-batches/ea140273-05dc-4494-931f-b6151446b244/report?format=csv"
+    },
+    {
+      "label": "查看已保存报告",
+      "href": "/api/reports/research-be8026ae73f12c86682a616a"
+    }
+  ],
+  "gfmTables": 6,
+  "finishedAt": "2026-10-10T11:14:36.617Z"
+}

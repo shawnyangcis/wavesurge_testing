@@ -1,0 +1,157 @@
+{
+  "at": "2026-10-10T07:39:28.797Z",
+  "queries": [
+    {
+      "tag": "品牌",
+      "returned": 1,
+      "handles": [
+        "valstechtalkk"
+      ],
+      "actualAnnotationContainsTag": false,
+      "matchedInstructionLabels": [
+        "个人创作者账号，不是品牌、商店或机构账号"
+      ],
+      "csv": ".gstack/qa-reports/retest-2026-10-10-r2/negative-tag-0.csv"
+    },
+    {
+      "tag": "来源缺额",
+      "returned": 1,
+      "handles": [
+        "valstechtalkk"
+      ],
+      "actualAnnotationContainsTag": false,
+      "matchedInstructionLabels": [
+        "账号用户名必须精确为 valstechtalkk；相似用户名不可替代，若未找到则报告来源缺额，不核验其他人"
+      ],
+      "csv": ".gstack/qa-reports/retest-2026-10-10-r2/negative-tag-1.csv"
+    }
+  ],
+  "source": "Actual completed real Val task; no extra discovery or model calls",
+  "result": [
+    {
+      "handle": "valstechtalkk",
+      "verdict": "match",
+      "tags": [
+        "账号用户名必须精确为 valstechtalkk；相似用户名不可替代，若未找到则报告来源缺额，不核验其他人",
+        "个人创作者账号，不是品牌、商店或机构账号",
+        "实际发布数码产品或消费电子相关内容，须有内容依据",
+        "手机使用技巧",
+        "消费电子产品介绍",
+        "手机配件",
+        "白色上衣搭配首饰",
+        "数码与可爱、glam审美结合"
+      ],
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "手机使用技巧",
+            "消费电子产品介绍",
+            "手机配件"
+          ],
+          "reason": "原帖相机设置技巧，以及耳机、折叠手机、手机配件帖文字支持这些方向。",
+          "evidenceIds": [
+            "2ec8aa60f92398720b1683a6",
+            "c3953412bbb74ffbca3312f2",
+            "9663118351ea35ea5636ea0e",
+            "7bb702ab43acfd45050b3c4a"
+          ]
+        },
+        {
+          "dimensionId": "style",
+          "status": "supported",
+          "values": [
+            "白色上衣搭配首饰",
+            "数码与可爱、glam审美结合"
+          ],
+          "reason": "当前原帖可见白色上衣、项链手链和装饰手机壳；简介明确 tech but make it cute 与 Reviews + a little glam。仅描述所见与自述，不推广为geek标签。",
+          "evidenceIds": [
+            "2ec8aa60f92398720b1683a6",
+            "bc9d51f1a199cb3ef086f815"
+          ]
+        },
+        {
+          "dimensionId": "glasses",
+          "status": "unknown",
+          "values": [],
+          "reason": "当前画面未戴眼镜，缺少其他实际佩戴眼镜的照片或视频观察，整体佩戴情况待确认。",
+          "evidenceIds": [
+            "2ec8aa60f92398720b1683a6"
+          ]
+        }
+      ],
+      "judgments": [
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "主页显示 39660 followers；保守区间 39660–39660，要求 10000–100000",
+          "evidenceIds": [
+            "bc9d51f1a199cb3ef086f815"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "exact_username",
+          "verdict": "match",
+          "reason": "本人简介原始 username 为 valstechtalkk，公开原帖作者亦精确显示 valstechtalkk；未替换相似账号。",
+          "evidenceIds": [
+            "bc9d51f1a199cb3ef086f815",
+            "2ec8aa60f92398720b1683a6"
+          ],
+          "label": "账号用户名必须精确为 valstechtalkk；相似用户名不可替代，若未找到则报告来源缺额，不核验其他人"
+        },
+        {
+          "criterionId": "personal_account",
+          "verdict": "match",
+          "reason": "简介以个人测评与 glam 定位，公开原帖中个人出镜持手机讲解，文案使用第一人称说明自己的相机设置；支持个人创作者而非品牌商店机构。",
+          "evidenceIds": [
+            "bc9d51f1a199cb3ef086f815",
+            "2ec8aa60f92398720b1683a6"
+          ],
+          "label": "个人创作者账号，不是品牌、商店或机构账号"
+        },
+        {
+          "criterionId": "digital_content",
+          "verdict": "match",
+          "reason": "原帖实见个人持手机，画面文字 DAY NINE: IPHONE CAMERA TIPS，文案 camera settings i turn on for the CRISP quality；原始帖日期为2026-10-09，页面显示1 day ago。另有2026-10-07 Beats耳机及2026-09-29 Motorola Razr相关帖子文字，属于实际消费电子内容。",
+          "evidenceIds": [
+            "2ec8aa60f92398720b1683a6",
+            "a7e3e7d0dbee5ed3fcffa6fb",
+            "c3953412bbb74ffbca3312f2",
+            "9663118351ea35ea5636ea0e"
+          ],
+          "label": "实际发布数码产品或消费电子相关内容，须有内容依据"
+        },
+        {
+          "criterionId": "glasses_preference",
+          "verdict": "unknown",
+          "reason": "人工关闭提示后重新观察公开原帖，当前可见人物画面未戴眼镜，但单个画面不能否定其他照片或视频中佩戴；没有观察到戴眼镜的正向证据。",
+          "evidenceIds": [
+            "2ec8aa60f92398720b1683a6"
+          ],
+          "label": "实际观察到的照片或视频中戴眼镜，仅为优先项，视觉证据不足则待确认"
+        },
+        {
+          "criterionId": "geek_preference",
+          "verdict": "unknown",
+          "reason": "实见白色上衣、项链及手链、装饰手机壳，内容为iPhone相机技巧；不足以证明理工宅geek穿搭、表达或深度折腾设备，不能仅因讲数码或使用🤓表情判匹配。",
+          "evidenceIds": [
+            "2ec8aa60f92398720b1683a6",
+            "bc9d51f1a199cb3ef086f815"
+          ],
+          "label": "实际穿搭、表达或折腾设备呈现理工宅 geek 气质，光讲数码不算；仅为优先项，看不出来则待确认"
+        }
+      ]
+    }
+  ],
+  "reproduced": true,
+  "finishedAt": "2026-10-10T07:39:35.258Z"
+}

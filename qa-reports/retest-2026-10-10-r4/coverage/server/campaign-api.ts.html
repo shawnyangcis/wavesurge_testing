@@ -1,0 +1,124 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Code coverage report for server/campaign-api.ts</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../prettify.css" />
+    <link rel="stylesheet" href="../base.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+    
+<body>
+<div class='wrapper'>
+    <div class='pad1'>
+        <h1><a href="../index.html">All files</a> / <a href="index.html">server</a> campaign-api.ts</h1>
+        <div class='clearfix'>
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Statements</span>
+                <span class='fraction'>23/23</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Branches</span>
+                <span class='fraction'>6/6</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Functions</span>
+                <span class='fraction'>9/9</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Lines</span>
+                <span class='fraction'>6/6</span>
+            </div>
+        
+            
+        </div>
+        <p class="quiet">
+            Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
+        </p>
+        <template id="filterTemplate">
+            <div class="quiet">
+                Filter:
+                <input type="search" id="fileSearch">
+            </div>
+        </template>
+    </div>
+    <div class='status-line high'></div>
+    <pre><table class="coverage">
+<tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
+<a name='L2'></a><a href='#L2'>2</a>
+<a name='L3'></a><a href='#L3'>3</a>
+<a name='L4'></a><a href='#L4'>4</a>
+<a name='L5'></a><a href='#L5'>5</a>
+<a name='L6'></a><a href='#L6'>6</a>
+<a name='L7'></a><a href='#L7'>7</a>
+<a name='L8'></a><a href='#L8'>8</a>
+<a name='L9'></a><a href='#L9'>9</a>
+<a name='L10'></a><a href='#L10'>10</a>
+<a name='L11'></a><a href='#L11'>11</a>
+<a name='L12'></a><a href='#L12'>12</a>
+<a name='L13'></a><a href='#L13'>13</a>
+<a name='L14'></a><a href='#L14'>14</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import type { FastifyInstance } from 'fastify';
+import type { CampaignService } from './campaign.ts';
+import type { Campaign } from '../shared/campaign.ts';
+import { escapeHtml, safeLink, evidenceReport } from './reports.ts';
+export function registerCampaigns(app: FastifyInstance, service: CampaignService, image?: (id: string) =&gt; string) {
+  app.get('/api/campaigns', async () =&gt; service.facts());
+  app.get&lt;{ Params: { id: string } }&gt;('/api/campaigns/:id', async (request, reply) =&gt; { const campaign = service.store.get&lt;Campaign&gt;('campaign', request.params.id); if (!campaign) return reply.code(404).send({ error: 'Campaign 不存在' }); return service.summary(campaign); });
+  app.post&lt;{ Params: { id: string }; Body: { revision: number } }&gt;('/api/campaigns/:id/start', { schema: { body: { type: 'object', required: ['revision'], additionalProperties: false, properties: { revision: { type: 'integer', minimum: 1 } } } } }, async (request, reply) =&gt; { try { return service.start(request.params.id, request.body.revision); } catch (error) { return reply.code(409).send({ error: (error as Error).message }); } });
+  app.get&lt;{ Params: { id: string } }&gt;('/api/campaigns/:id/report', async (request, reply) =&gt; {
+    const campaign = service.store.get&lt;Campaign&gt;('campaign', request.params.id); if (!campaign) return reply.code(404).send({ error: 'Campaign 不存在' }); const summary = service.summary(campaign);
+    reply.header('Content-Security-Policy', "default-src 'none'; style-src 'unsafe-inline'; img-src data:"); return reply.type('text/html; charset=utf-8').send(`&lt;!doctype html&gt;&lt;html lang="zh"&gt;&lt;meta charset="utf-8"&gt;&lt;title&gt;${escapeHtml(campaign.title)}&lt;/title&gt;&lt;style&gt;body{max-width:960px;margin:48px auto;font:16px/1.8 sans-serif;padding:24px;color:#172f2d}article{border-bottom:1px solid #ddd;padding:24px 0}a{color:#116653}&lt;/style&gt;&lt;h1&gt;${escapeHtml(campaign.title)}&lt;/h1&gt;&lt;p&gt;${escapeHtml(campaign.goal)}&lt;/p&gt;&lt;p&gt;受众：${escapeHtml(campaign.audience)}&lt;/p&gt;&lt;p&gt;方案 v${campaign.revision} · ${summary.status} · 去重入选 ${summary.matched}/${summary.requested}，合格账号池 ${summary.qualifyingUnique}。同一平台账号只占一个类型配额；跨平台同一人缺乏可靠关联时不猜测合并。&lt;/p&gt;${summary.groups.map(group =&gt; `&lt;article&gt;&lt;h2&gt;${escapeHtml(group.spec.title)} · ${group.matched}/${group.spec.count}&lt;/h2&gt;&lt;p&gt;${escapeHtml(group.rationale)}&lt;/p&gt;&lt;pre&gt;${escapeHtml(JSON.stringify(group.spec, null, 2))}&lt;/pre&gt;${summary.selections.filter(selection =&gt; selection.groupId === group.id).map(selection =&gt; { const result = summary.results.find(item =&gt; item.id === selection.resultId)!; return `&lt;p&gt;&lt;a href="${safeLink(result.creator.profileUrl)}"&gt;${escapeHtml(result.creator.displayName)} @${escapeHtml(result.creator.handle)}&lt;/a&gt;&lt;/p&gt;${evidenceReport(result, image)}`; }).join('')}${group.taskId ? `&lt;a href="/api/reports/${encodeURIComponent(group.taskId)}"&gt;逐条件证据与未入选结果&lt;/a&gt;` : ''}&lt;/article&gt;`).join('')}&lt;/html&gt;`);
+  });
+}
+&nbsp;</pre></td></tr></table></pre>
+
+                <div class='push'></div><!-- for sticky footer -->
+            </div><!-- /wrapper -->
+            <div class='footer quiet pad2 space-top1 center small'>
+                Code coverage generated by
+                <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
+                at 2026-10-10T13:29:51.355Z
+            </div>
+        <script src="../prettify.js"></script>
+        <script>
+            window.onload = function () {
+                prettyPrint();
+            };
+        </script>
+        <script src="../sorter.js"></script>
+        <script src="../block-navigation.js"></script>
+    </body>
+</html>
+    

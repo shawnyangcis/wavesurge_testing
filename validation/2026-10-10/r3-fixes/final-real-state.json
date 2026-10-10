@@ -1,0 +1,771 @@
+{
+  "at": "2026-10-10T12:52:06.669Z",
+  "passed": true,
+  "source": "Final production R3 deployment, persisted real WaveSurge runs. Eight studies and one reverify, seven user batches; no new external requests for this check.",
+  "actualGetCalls": 91,
+  "profiles": 20,
+  "searches": 3,
+  "results": 17,
+  "notifications": 7,
+  "tasks": [
+    {
+      "id": "research-cfdc57e0efcbc1730c77f22a",
+      "title": "独立的R3基础预筛研究1791633196151",
+      "status": "partial",
+      "requested": 1,
+      "evaluated": 3,
+      "matched": 0
+    },
+    {
+      "id": "research-ed70bcadeedf1c4b76c2c75f",
+      "title": "R3精确账号核验1791633437890",
+      "status": "completed",
+      "requested": 1,
+      "evaluated": 2,
+      "matched": 1
+    },
+    {
+      "id": "research-b3a082a4ff1d931414e05792",
+      "title": "独立Instagram数码个人创作者研究—文字核验",
+      "status": "completed",
+      "requested": 1,
+      "evaluated": 2,
+      "matched": 1
+    },
+    {
+      "id": "research-6ba2897c6f1e0b36aaac9121",
+      "title": "独立Instagram数码个人创作者研究—公开主页核验",
+      "status": "completed",
+      "requested": 1,
+      "evaluated": 2,
+      "matched": 1
+    },
+    {
+      "id": "research-ed35dc990c066bb9b25831cf",
+      "title": "独立Instagram数码产品个人创作者研究—已有文字核验",
+      "status": "completed",
+      "requested": 1,
+      "evaluated": 2,
+      "matched": 1
+    },
+    {
+      "id": "research-430b323df0abf053f0b4631a",
+      "title": "独立Instagram耳机产品分享个人创作者研究—已有文字核验",
+      "status": "completed",
+      "requested": 1,
+      "evaluated": 2,
+      "matched": 1
+    },
+    {
+      "id": "research-c193bf0dbbe4441d185a38dd",
+      "title": "独立Instagram数码个人创作者研究—已有文字分析",
+      "status": "completed",
+      "requested": 1,
+      "evaluated": 2,
+      "matched": 1
+    },
+    {
+      "id": "research-e9505a2e153dd2827f5fbc21",
+      "title": "独立Instagram数码个人创作者研究—本人公开主页核验",
+      "status": "partial",
+      "requested": 1,
+      "evaluated": 2,
+      "matched": 0
+    },
+    {
+      "id": "enrich-abf39e4dc91f917771abccd1",
+      "title": "重新核验：独立Instagram数码个人创作者研究—本人公开主页核验",
+      "status": "partial",
+      "requested": 2,
+      "evaluated": 2,
+      "matched": 0
+    }
+  ],
+  "batches": [
+    {
+      "id": "a4eedad4-41be-479d-8438-b406bdc1b983",
+      "sealed": true,
+      "delivered": true,
+      "items": 1
+    },
+    {
+      "id": "4017ca7d-90ac-4314-bc51-c095741e2f0e",
+      "sealed": true,
+      "delivered": true,
+      "items": 1
+    },
+    {
+      "id": "84246f74-415c-4f5b-af5e-724a409b1fde",
+      "sealed": true,
+      "delivered": true,
+      "items": 2
+    },
+    {
+      "id": "1c8f5e73-4931-4453-adfb-2121ed6744c9",
+      "sealed": true,
+      "delivered": true,
+      "closureReason": "context_changed",
+      "items": 1
+    },
+    {
+      "id": "1b5f5acf-606c-48c4-9892-bfb26ddba8c8",
+      "sealed": true,
+      "delivered": true,
+      "closureReason": "context_changed",
+      "items": 1
+    },
+    {
+      "id": "804e2bd7-382c-4228-bd1f-41fd1bbfc3ce",
+      "sealed": true,
+      "delivered": true,
+      "items": 2
+    },
+    {
+      "id": "f9593ab7-d832-4c12-9446-766c1fdfdfc9",
+      "sealed": true,
+      "delivered": true,
+      "items": 1
+    }
+  ],
+  "waveCalls": [
+    {
+      "id": "2984beb6-792a-46ff-a4e8-addfdd1e6dbf",
+      "createdAt": 1791633203249,
+      "path": "/instagram/v3/search_users?query=tech",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "d0af1641-d1c2-4b4d-8bac-fb49c755f14e",
+      "createdAt": 1791633208190,
+      "path": "/instagram/v3/search_users?query=headphones",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "e60537a4-c68e-4563-a243-49ef9b257e2e",
+      "createdAt": 1791633212193,
+      "path": "/instagram/v3/search_users?query=smartphone",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "4d6ed8ba-505d-4bcd-9222-11aa1135bace",
+      "createdAt": 1791633216199,
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=nails_2at",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "01cca5c4-d543-44aa-bb80-0c72db507990",
+      "createdAt": 1791633224839,
+      "path": "/instagram/v1/fetch_user_posts?user_id=49255990331&count=12",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "3943e2da-dbff-403e-b138-581805b4d2f4",
+      "createdAt": 1791633232147,
+      "path": "/instagram/v1/fetch_user_posts?user_id=49255990331&count=12&max_id=3993479363354660867_49255990331",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "29eb366c-66e6-4af5-9582-3ff240bea2b6",
+      "createdAt": 1791633247317,
+      "path": "/instagram/v2/fetch_post_info?code_or_url=C6AKMFoLKwi",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "3f1e8634-206c-4ef4-bcf7-816839812d42",
+      "createdAt": 1791633250502,
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DeSVlr_G_Q_",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "a4e8ac0f-a942-4f8c-9a3b-9ca62fe9cc1a",
+      "createdAt": 1791633274298,
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=halo_headphones",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "aefa09dc-5ba5-428d-b095-5e1bec6213a0",
+      "createdAt": 1791633283323,
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=smart_phone_hub",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "1311e5db-244c-48b4-845a-a32a006f378b",
+      "createdAt": 1791633292674,
+      "path": "/instagram/v1/fetch_user_posts?user_id=4927260027&count=12",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "4d8a5657-5c79-4ab1-b575-08a78dca3efe",
+      "createdAt": 1791633300224,
+      "path": "/instagram/v1/fetch_user_posts?user_id=4927260027&count=12&max_id=3998852043707529174_4927260027",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "fec9c1c2-629a-4233-be72-2a24dbb63620",
+      "createdAt": 1791633314009,
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DeRHpZYiDtk",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "344f7b20-fa5d-47e5-8aba-9f5c19daf440",
+      "createdAt": 1791633319630,
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DePbjuhCPeI",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "6fc6e0a0-215a-4854-af32-7bbdc99835fe",
+      "createdAt": 1791633346378,
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=_lashedbymelanie",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "d6c19822-51bc-4c92-9870-c497b4f60895",
+      "createdAt": 1791633352438,
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=_headphonesgirl",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "c27dd957-b0ea-42c5-b5cd-a7fd479682d8",
+      "createdAt": 1791633362367,
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=smartphonefreechildhoodus",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "ed8b8c7b-bf21-4187-b8ca-cea2ceaf895e",
+      "createdAt": 1791633380452,
+      "path": "/instagram/v1/fetch_user_posts?user_id=67708868534&count=12",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "2af20e3c-2871-4795-a2e2-7f7ee4d2b3a0",
+      "createdAt": 1791633385160,
+      "path": "/instagram/v1/fetch_user_posts?user_id=67708868534&count=12&max_id=3992611999443673984_67708868534",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "4a587c6a-19a6-4626-8dd3-af7ddf39460f",
+      "createdAt": 1791633393606,
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DdtkM2TTIVw",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "628f352a-3662-4b5a-845d-9c08900d22bd",
+      "createdAt": 1791633398830,
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DdmIygKTdzf",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "623a6423-759d-4238-a468-a82b8184f982",
+      "createdAt": 1791633450987,
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=tylerlcrawford",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "da977829-76ec-419c-a0c9-00062f6c931c",
+      "createdAt": 1791633456796,
+      "path": "/instagram/v1/fetch_user_posts?user_id=48426799147&count=12",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "46e154ca-bc4c-4032-903d-8103e76041e9",
+      "createdAt": 1791633466951,
+      "path": "/instagram/v1/fetch_user_posts?user_id=48426799147&count=12&max_id=3997965466461395273_48426799147",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "bd9446e3-88c3-434a-8aa3-ffc5fbf1d03a",
+      "createdAt": 1791633473123,
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DcZxbpBAJDI",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "ef3335ba-0b85-47ca-8174-381081ddda0a",
+      "createdAt": 1791633475763,
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DZoHkAvAbm5",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "ebef6f73-9914-45aa-9f57-6c03142c98e8",
+      "createdAt": 1791633491602,
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=valstechtalkk",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "a88d1ac4-3fed-4c5a-90ba-fdbce96935a2",
+      "createdAt": 1791633496673,
+      "path": "/instagram/v1/fetch_user_posts?user_id=10561673222&count=12",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "72f32832-0093-43e1-b7aa-72a4442f47ea",
+      "createdAt": 1791633506427,
+      "path": "/instagram/v1/fetch_user_posts?user_id=10561673222&count=12&max_id=3995072639892408967_10561673222",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "a1c7dc83-6a54-4fc4-acaf-7965bdb830ae",
+      "createdAt": 1791633514169,
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DeQfBbyKmOR",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "4138d4ac-c5a0-4d47-99cc-57f34153fd66",
+      "createdAt": 1791633516715,
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DeNSuNkqMjQ",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "310b8547-9613-48ad-8a0f-650d7b6a048a",
+      "createdAt": 1791634129000,
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=tylerlcrawford",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "3ecde08e-b774-4b9f-ad85-77f82cbb49fe",
+      "createdAt": 1791634136920,
+      "path": "/instagram/v1/fetch_user_posts?user_id=48426799147&count=12",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "15ee61b6-9651-4faa-89f6-6181a8db3345",
+      "createdAt": 1791634156774,
+      "path": "/instagram/v1/fetch_user_posts?user_id=48426799147&count=12&max_id=3997965466461395273_48426799147",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "52c88b35-3203-4808-85d3-efeb9cdebf6d",
+      "createdAt": 1791634177142,
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DcZxbpBAJDI",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "a0570cb4-4912-4e93-8aa2-9d488dc348d0",
+      "createdAt": 1791634179550,
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DZoHkAvAbm5",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "24d6b934-a9a7-4cd2-8bb6-24e4ced7dec6",
+      "createdAt": 1791634203981,
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=tylerlcrawford",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "35febb71-ded8-46c7-a215-973ebff23cea",
+      "createdAt": 1791634209508,
+      "path": "/instagram/v1/fetch_user_posts?user_id=48426799147&count=12",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "afbbbe55-ea84-4629-acd3-bd25bae241b9",
+      "createdAt": 1791634218572,
+      "path": "/instagram/v1/fetch_user_posts?user_id=48426799147&count=12&max_id=3997965466461395273_48426799147",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "290633bc-bacd-4fb9-8814-a37bd2d6de73",
+      "createdAt": 1791634231591,
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DcZxbpBAJDI",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "172ff2be-6596-4cb1-a9bf-f46b00731188",
+      "createdAt": 1791634236589,
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DZoHkAvAbm5",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "92da9b35-1a64-4c42-9b25-cb20c677033d",
+      "createdAt": 1791634242386,
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=valstechtalkk",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "fd78572e-160c-459a-8b3b-5f9521aacd86",
+      "createdAt": 1791634247139,
+      "path": "/instagram/v1/fetch_user_posts?user_id=10561673222&count=12",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "b085df26-4e67-4589-9de3-ce094aa0a266",
+      "createdAt": 1791634252360,
+      "path": "/instagram/v1/fetch_user_posts?user_id=10561673222&count=12&max_id=3995072639892408967_10561673222",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "b0303cf9-224b-46f4-ade8-428f98ccc03c",
+      "createdAt": 1791634271087,
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DeQfBbyKmOR",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "e2c187b6-5c50-4a78-8dcd-831933feec82",
+      "createdAt": 1791634278869,
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DeNSuNkqMjQ",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "c42f39ce-b0f3-4115-a727-94d7a9f4e48c",
+      "createdAt": 1791634301266,
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=valstechtalkk",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "dc9231a7-55db-4d1c-9c8b-45f0122c4c5b",
+      "createdAt": 1791634306934,
+      "path": "/instagram/v1/fetch_user_posts?user_id=10561673222&count=12",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "191ad4f8-a9f9-429f-9553-49e8be344b75",
+      "createdAt": 1791634313102,
+      "path": "/instagram/v1/fetch_user_posts?user_id=10561673222&count=12&max_id=3995072639892408967_10561673222",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "42035e47-03f2-47c8-934a-5b18b1a96924",
+      "createdAt": 1791634320621,
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DeQfBbyKmOR",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "c53f5e08-69f3-43d2-aaac-8764ef5dbf7a",
+      "createdAt": 1791634322985,
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DeNSuNkqMjQ",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "250f59f3-e8a7-4dd4-b4f9-3d727c39fe20",
+      "createdAt": 1791634474021,
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=tylerlcrawford",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "300b7ee4-25fc-492c-93f8-404952c2a3b7",
+      "createdAt": 1791634484087,
+      "path": "/instagram/v1/fetch_user_posts?user_id=48426799147&count=12",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "5eb3be2a-99df-4c32-a7fc-e3cda4fbe60e",
+      "createdAt": 1791634507412,
+      "path": "/instagram/v1/fetch_user_posts?user_id=48426799147&count=12&max_id=3997965466461395273_48426799147",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "4595eaac-30e3-479b-ac23-ceee35ffc742",
+      "createdAt": 1791634512709,
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DcZxbpBAJDI",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "03a9ade5-b8a2-4bc3-86a1-599780ae5088",
+      "createdAt": 1791634515485,
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DZoHkAvAbm5",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "627b916e-5901-4511-bb85-5072d6fd711c",
+      "createdAt": 1791634538441,
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=valstechtalkk",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "908cdfc9-8a10-4945-bbf6-0c76e3d37ba5",
+      "createdAt": 1791634542947,
+      "path": "/instagram/v1/fetch_user_posts?user_id=10561673222&count=12",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "aed2d576-6cdb-41ba-9189-a5c25d2fbacb",
+      "createdAt": 1791634551088,
+      "path": "/instagram/v1/fetch_user_posts?user_id=10561673222&count=12&max_id=3995072639892408967_10561673222",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "608999ee-3a74-4b06-af15-0c6f03ba6f54",
+      "createdAt": 1791634562057,
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DeQfBbyKmOR",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "0893c389-f1ed-474d-9564-2f87a6cf5fbe",
+      "createdAt": 1791634564222,
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DeNSuNkqMjQ",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "5f164404-f14e-4448-a116-c825005342b5",
+      "createdAt": 1791634599868,
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=tylerlcrawford",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "6eb1e314-547a-4821-9f59-e30c3346ed25",
+      "createdAt": 1791634605068,
+      "path": "/instagram/v1/fetch_user_posts?user_id=48426799147&count=12",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "266da272-de30-4baf-b72c-19aaf63a74f2",
+      "createdAt": 1791634625560,
+      "path": "/instagram/v1/fetch_user_posts?user_id=48426799147&count=12&max_id=3997965466461395273_48426799147",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "f8a2bcc8-8ce1-4969-9208-55f6e526b980",
+      "createdAt": 1791634635604,
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DcZxbpBAJDI",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "471d41ca-caef-471e-b34b-51a1168eb368",
+      "createdAt": 1791634638614,
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DZoHkAvAbm5",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "f6c8ea54-2093-4b5f-b3a9-833027e21403",
+      "createdAt": 1791634662749,
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=valstechtalkk",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "d214d513-bf65-444e-bc48-9fff77bea1c0",
+      "createdAt": 1791634681070,
+      "path": "/instagram/v1/fetch_user_posts?user_id=10561673222&count=12",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "28b39f15-4b1f-4858-bd9f-f971c268ef91",
+      "createdAt": 1791634688521,
+      "path": "/instagram/v1/fetch_user_posts?user_id=10561673222&count=12&max_id=3995072639892408967_10561673222",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "69a2f430-1c06-4a2f-9967-bf2688707894",
+      "createdAt": 1791634695933,
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DeQfBbyKmOR",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "122800e3-573a-46f8-94e6-124882933751",
+      "createdAt": 1791634702193,
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DeNSuNkqMjQ",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "955cf6ab-0b1b-46e3-8c10-58d45557d462",
+      "createdAt": 1791635581392,
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=tylerlcrawford",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "9764d8ae-1a25-449d-8e9e-cedb446dcc59",
+      "createdAt": 1791635594033,
+      "path": "/instagram/v1/fetch_user_posts?user_id=48426799147&count=12",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "66143b66-f4bb-477f-b75d-9f13f501f149",
+      "createdAt": 1791635610689,
+      "path": "/instagram/v1/fetch_user_posts?user_id=48426799147&count=12&max_id=3997965466461395273_48426799147",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "742274d4-750e-410c-8e5f-5a9d362a94eb",
+      "createdAt": 1791635619675,
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DcZxbpBAJDI",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "a3e99615-d641-42ff-938b-4d4f8921f237",
+      "createdAt": 1791635622007,
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DZoHkAvAbm5",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "620ef328-e910-485d-b33b-ba3aad3b799f",
+      "createdAt": 1791635653612,
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=tylerlcrawford",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "c003ae54-e15f-42f1-9e2f-fec3da976095",
+      "createdAt": 1791635660276,
+      "path": "/instagram/v1/fetch_user_posts?user_id=48426799147&count=12",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "6769be01-3e29-46ba-9e59-1a3f41b21e4e",
+      "createdAt": 1791635674372,
+      "path": "/instagram/v1/fetch_user_posts?user_id=48426799147&count=12&max_id=3997965466461395273_48426799147",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "7c955de7-df58-4dc2-8a42-bbe28a42955f",
+      "createdAt": 1791635687155,
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DcZxbpBAJDI",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "0dbefebe-052b-4289-b98c-8f41465c8e88",
+      "createdAt": 1791635689996,
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DZoHkAvAbm5",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "aa04eea3-231f-4314-bc46-ddfeca9874a4",
+      "createdAt": 1791635692747,
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=valstechtalkk",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "86c4c05f-bfd7-46f9-9672-1f46126cb010",
+      "createdAt": 1791635697906,
+      "path": "/instagram/v1/fetch_user_posts?user_id=10561673222&count=12",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "74a671c1-5f94-4b75-ab95-74cebba5f770",
+      "createdAt": 1791635717004,
+      "path": "/instagram/v1/fetch_user_posts?user_id=10561673222&count=12&max_id=3995072639892408967_10561673222",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "27a7f3b6-e769-4e25-8750-e0fa8ca7e796",
+      "createdAt": 1791635724690,
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DeQfBbyKmOR",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "5b702016-ac6b-4945-8231-c0fa89266e64",
+      "createdAt": 1791635728999,
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DeNSuNkqMjQ",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "6068062d-0550-444a-adf3-312f4caff61f",
+      "createdAt": 1791635752693,
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=valstechtalkk",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "fabc1fc7-9f69-4d83-8efb-8ab74dc48928",
+      "createdAt": 1791635758516,
+      "path": "/instagram/v1/fetch_user_posts?user_id=10561673222&count=12",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "581b9a39-d0b0-4fc4-8607-575ad5966074",
+      "createdAt": 1791635769129,
+      "path": "/instagram/v1/fetch_user_posts?user_id=10561673222&count=12&max_id=3995072639892408967_10561673222",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "6bde3191-5cc8-4c09-bc19-888b2ac2c600",
+      "createdAt": 1791635785640,
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DeQfBbyKmOR",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "9d738a2c-689f-494a-a2a1-2f221e899f9a",
+      "createdAt": 1791635792843,
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DeNSuNkqMjQ",
+      "method": "GET",
+      "status": 200
+    }
+  ],
+  "apiErrors": 0,
+  "activeAssistance": 0
+}

@@ -1,0 +1,1207 @@
+{
+  "at": "2026-10-10T06:32:35.115Z",
+  "tasks": [
+    {
+      "id": "research-7e157f91534c9f8f156d257d",
+      "title": "美国 TikTok 数码男博主筛选",
+      "spec": {
+        "title": "美国 TikTok 数码男博主筛选",
+        "personaText": "US digital technology and consumer electronics content creators",
+        "count": 2,
+        "platforms": [
+          "tiktok"
+        ],
+        "regions": [
+          "United States"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "candidateBudget": 4,
+        "criteria": [
+          {
+            "id": "digital_content",
+            "label": "发布数码或消费电子相关内容",
+            "required": true,
+            "basis": "text"
+          },
+          {
+            "id": "male_self_description",
+            "label": "账号自身的公开介绍明确表明为男性；未明确说明则为待确认，不从外貌推断",
+            "required": true,
+            "basis": "text"
+          },
+          {
+            "id": "glasses_preference",
+            "label": "佩戴眼镜，优先但非硬性要求；需基于实际观察到的图像",
+            "required": false,
+            "basis": "visual"
+          }
+        ],
+        "annotations": [
+          {
+            "id": "content_direction",
+            "label": "内容方向"
+          },
+          {
+            "id": "style",
+            "label": "内容风格"
+          },
+          {
+            "id": "glasses",
+            "label": "是否戴眼镜",
+            "values": [
+              "戴眼镜",
+              "未戴眼镜"
+            ]
+          }
+        ]
+      },
+      "body": {
+        "requestId": "research-7e157f91534c9f8f156d257d",
+        "personaText": "US digital technology and consumer electronics content creators",
+        "count": 4,
+        "platforms": [
+          "tiktok"
+        ],
+        "regions": [
+          "United States"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "emailReadyRequired": false
+      },
+      "status": "partial",
+      "requested": 2,
+      "evaluated": 4,
+      "matched": 0,
+      "updatedAt": 1791612872357,
+      "detail": "已选合格 0/2，已核验 4；证据不足者保持待核实。",
+      "nextPollAt": 1791612813015,
+      "candidates": [
+        {
+          "id": "tiktok:ritualesmayte331",
+          "handle": "ritualesmayte331",
+          "profileUrl": "",
+          "followers": 331181300,
+          "region": null,
+          "evidenceCount": 1
+        },
+        {
+          "id": "tiktok:stephencurry30",
+          "handle": "stephencurry30",
+          "profileUrl": "",
+          "followers": 308900000,
+          "region": null,
+          "evidenceCount": 1
+        },
+        {
+          "id": "tiktok:seed02678",
+          "handle": "seed02678",
+          "profileUrl": "",
+          "followers": 267848000,
+          "region": null,
+          "evidenceCount": 1
+        },
+        {
+          "id": "tiktok:voodoo_248",
+          "handle": "voodoo_248",
+          "profileUrl": "",
+          "followers": 248207800,
+          "region": null,
+          "evidenceCount": 1
+        }
+      ],
+      "failures": [],
+      "discovery": {
+        "platform": 1,
+        "keyword": 0,
+        "page": 0,
+        "cursor": "",
+        "seenCursors": [],
+        "seenUsers": [],
+        "pending": [],
+        "delivered": 100,
+        "done": true
+      },
+      "discoveryAttempts": 0,
+      "remoteStatus": "done",
+      "qualifying": 0
+    },
+    {
+      "id": "research-a8e3309218440957ace846fd",
+      "title": "YouTube 大学学习方法创作者",
+      "spec": {
+        "title": "YouTube 大学学习方法创作者",
+        "personaText": "college study methods, lecture note taking and exam revision creators",
+        "count": 1,
+        "platforms": [
+          "youtube"
+        ],
+        "regions": [
+          "United States"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "candidateBudget": 2,
+        "criteria": [
+          {
+            "id": "study_content",
+            "label": "有学习方法、课堂笔记整理或备考复习相关内容依据",
+            "required": true,
+            "basis": "text"
+          },
+          {
+            "id": "college_audience",
+            "label": "有明确面向大学生的内容依据，不要求创作者本人是在校生",
+            "required": true,
+            "basis": "text"
+          }
+        ],
+        "annotations": [
+          {
+            "id": "content_direction",
+            "label": "内容方向"
+          },
+          {
+            "id": "expression_style",
+            "label": "表达风格"
+          },
+          {
+            "id": "collaboration_fit",
+            "label": "适合的合作方式"
+          }
+        ]
+      },
+      "body": {
+        "requestId": "research-a8e3309218440957ace846fd",
+        "personaText": "college study methods, lecture note taking and exam revision creators",
+        "count": 2,
+        "platforms": [
+          "youtube"
+        ],
+        "regions": [
+          "United States"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "emailReadyRequired": false
+      },
+      "status": "partial",
+      "requested": 1,
+      "evaluated": 2,
+      "matched": 0,
+      "updatedAt": 1791613297872,
+      "detail": "已选合格 0/1，已核验 2；证据不足者保持待核实。",
+      "nextPollAt": 1791613195766,
+      "candidates": [
+        {
+          "id": "youtube:5minutecraftsyoutube",
+          "handle": "5minutecraftsyoutube",
+          "profileUrl": "",
+          "followers": 80600000,
+          "region": null,
+          "evidenceCount": 2
+        },
+        {
+          "id": "youtube:beatboxjcop",
+          "handle": "beatboxjcop",
+          "profileUrl": "",
+          "followers": 51000000,
+          "region": null,
+          "evidenceCount": 2
+        }
+      ],
+      "failures": [],
+      "exhaustive": true,
+      "discovery": {
+        "platform": 1,
+        "keyword": 0,
+        "page": 0,
+        "cursor": "",
+        "seenCursors": [],
+        "seenUsers": [],
+        "pending": [],
+        "delivered": 100,
+        "done": true
+      },
+      "discoveryAttempts": 0,
+      "remoteStatus": "done",
+      "qualifying": 0
+    },
+    {
+      "id": "research-11deee85612adbbdea75b835",
+      "title": "YouTube 大学生 AI 与效率工具创作者",
+      "spec": {
+        "title": "YouTube 大学生 AI 与效率工具创作者",
+        "personaText": "AI and productivity tool tutorials and reviews for college students, Notion and AI note-taking tools",
+        "count": 1,
+        "platforms": [
+          "youtube"
+        ],
+        "regions": [
+          "United States"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "candidateBudget": 2,
+        "criteria": [
+          {
+            "id": "ai_productivity_content",
+            "label": "有 AI 或效率工具教程、实测或评测相关内容依据",
+            "required": true,
+            "basis": "text"
+          },
+          {
+            "id": "college_audience",
+            "label": "有明确面向大学生的内容依据，不要求创作者本人是在校生",
+            "required": true,
+            "basis": "text"
+          },
+          {
+            "id": "notion_ai_notes_preference",
+            "label": "实际发布过讲解、演示、实测或评测 Notion 或 AI 笔记工具的内容；仅为优先项，缺少该内容不影响必选条件合格判定",
+            "required": false,
+            "basis": "text"
+          }
+        ],
+        "annotations": [
+          {
+            "id": "content_direction",
+            "label": "内容方向"
+          },
+          {
+            "id": "expression_style",
+            "label": "表达风格"
+          },
+          {
+            "id": "collaboration_fit",
+            "label": "适合的合作方式"
+          }
+        ]
+      },
+      "body": {
+        "requestId": "research-11deee85612adbbdea75b835",
+        "personaText": "AI and productivity tool tutorials and reviews for college students, Notion and AI note-taking tools",
+        "count": 2,
+        "platforms": [
+          "youtube"
+        ],
+        "regions": [
+          "United States"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "emailReadyRequired": false
+      },
+      "status": "partial",
+      "requested": 1,
+      "evaluated": 2,
+      "matched": 0,
+      "updatedAt": 1791613335684,
+      "detail": "已选合格 0/1，已核验 2；证据不足者保持待核实。",
+      "nextPollAt": 1791613301194,
+      "candidates": [
+        {
+          "id": "youtube:5minutecraftsyoutube",
+          "handle": "5minutecraftsyoutube",
+          "profileUrl": "",
+          "followers": 80600000,
+          "region": null,
+          "evidenceCount": 2
+        },
+        {
+          "id": "youtube:beatboxjcop",
+          "handle": "beatboxjcop",
+          "profileUrl": "",
+          "followers": 51000000,
+          "region": null,
+          "evidenceCount": 2
+        }
+      ],
+      "failures": [],
+      "exhaustive": true,
+      "discovery": {
+        "platform": 1,
+        "keyword": 0,
+        "page": 0,
+        "cursor": "",
+        "seenCursors": [],
+        "seenUsers": [],
+        "pending": [],
+        "delivered": 100,
+        "done": true
+      },
+      "discoveryAttempts": 0,
+      "remoteStatus": "done",
+      "qualifying": 0
+    },
+    {
+      "id": "research-06587523c43581240c9622f3",
+      "title": "Instagram 指定两账号数码产品适配核验",
+      "spec": {
+        "title": "Instagram 指定两账号数码产品适配核验",
+        "personaText": "Instagram accounts tylerlcrawford and valstechtalkk",
+        "instagram": {
+          "queries": [
+            "tylerlcrawford",
+            "valstechtalkk"
+          ],
+          "version": "v3"
+        },
+        "count": 2,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "candidateBudget": 2,
+        "criteria": [
+          {
+            "id": "specified_accounts",
+            "label": "仅限 Instagram 用户名 tylerlcrawford 或 valstechtalkk，其他账号不纳入核验",
+            "required": true,
+            "basis": "text"
+          },
+          {
+            "id": "personal_account",
+            "label": "个人创作者账号，而非品牌、商店或机构账号",
+            "required": true,
+            "basis": "either"
+          },
+          {
+            "id": "digital_content",
+            "label": "实际发布数码产品或消费电子相关内容，需有帖子内容依据",
+            "required": true,
+            "basis": "either"
+          },
+          {
+            "id": "glasses",
+            "label": "实际照片或视频中佩戴眼镜；仅为优先项，未观察到可靠视觉证据则待确认",
+            "required": false,
+            "basis": "visual"
+          },
+          {
+            "id": "geek_style",
+            "label": "实际穿搭、表达和折腾设备呈现理工宅气质；光讲数码不算，看不出来则待确认，仅为优先项",
+            "required": false,
+            "basis": "either"
+          }
+        ],
+        "annotations": [
+          {
+            "id": "content_direction",
+            "label": "内容方向"
+          },
+          {
+            "id": "style",
+            "label": "穿搭与表达风格"
+          },
+          {
+            "id": "glasses_status",
+            "label": "是否戴眼镜",
+            "values": [
+              "戴眼镜",
+              "未戴眼镜"
+            ]
+          }
+        ]
+      },
+      "body": {
+        "requestId": "research-06587523c43581240c9622f3",
+        "personaText": "Instagram accounts tylerlcrawford and valstechtalkk",
+        "count": 2,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "emailReadyRequired": false
+      },
+      "status": "partial",
+      "requested": 2,
+      "evaluated": 2,
+      "matched": 1,
+      "updatedAt": 1791613827249,
+      "detail": "已选合格 1/2，已核验 2；证据不足者保持待核实。",
+      "nextPollAt": 1791613773544,
+      "candidates": [
+        {
+          "id": "instagram:tylerlcrawford",
+          "handle": "tylerlcrawford",
+          "profileUrl": "https://www.instagram.com/tylerlcrawford/",
+          "followers": 31221,
+          "region": null,
+          "evidenceCount": 77,
+          "sourceErrors": []
+        },
+        {
+          "id": "instagram:tylercrawford118",
+          "handle": "tylercrawford118",
+          "profileUrl": "https://www.instagram.com/tylercrawford118/",
+          "followers": 847,
+          "region": null,
+          "evidenceCount": 203,
+          "sourceErrors": []
+        }
+      ],
+      "failures": [],
+      "discovery": {
+        "platform": 0,
+        "keyword": 1,
+        "page": 0,
+        "cursor": "",
+        "seenCursors": [],
+        "seenUsers": [
+          "tylerlcrawford",
+          "tylercrawford118",
+          "tylerjohncrawford",
+          "tyleracrawford",
+          "tyler.crawford03",
+          "tyler.crawford10",
+          "tylerr.crawfordd",
+          "tyler_crawford3",
+          "tylercrawford.11",
+          "tycrawford1134",
+          "tyler_crawford___",
+          "_tyler_crawford__",
+          "tylermatthewcrawford",
+          "tyler_crawford23",
+          "tyler_crawford05",
+          "_864tyler",
+          "tyler.crawford.3517",
+          "tyler_crawford8",
+          "tyler_crawford88",
+          "tyler_crawford45",
+          "crawford.tyler5",
+          "tyler.crawford.311056",
+          "crawfish_kid",
+          "moosermantough",
+          "tcrawww",
+          "tyler.crawford.79656",
+          "tylercrawford503",
+          "tylercrawford4hallcounty",
+          "tyler__clayton",
+          "trenler.o.c"
+        ],
+        "pending": [
+          {
+            "pk": "17428359336",
+            "id": "17428359336",
+            "username": "tylerjohncrawford",
+            "full_name": "Tyler Crawford",
+            "is_private": true,
+            "is_verified": false,
+            "profile_pic_url": "https://instagram.fagc1-2.fna.fbcdn.net/v/t51.82787-19/764116120_18138135892583337_7173343692945901235_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=instagram.fagc1-2.fna.fbcdn.net&_nc_cat=109&_nc_oc=Q6cZ2gF-taxQpGRaaCZ6dZ7N2uHNBMMV8U6abklzMJV5viM1_mZ9YUqh6K1vfByRWWfX6rQ&_nc_ohc=mhB_yfHyuysQ7kNvwGZ88OK&_nc_gid=0V8o3Nkb2297atljReVR2g&edm=AM7KJZYBAAAA&ccb=7-5&ig_cache_key=GJh8iy2p48PaiXBAALNG1C0V1oxjbmNDAQAB1501500j-ccb7-5&oh=00_AQO5s5uF2DC2Jr-WtNXNmKjW2eGf_KuhjqDwXWrdVw8mSQ&oe=6ACFA499&_nc_sid=8ec269"
+          },
+          {
+            "pk": "186977174",
+            "id": "186977174",
+            "username": "tyleracrawford",
+            "full_name": "Tyler Crawford",
+            "is_private": false,
+            "is_verified": true,
+            "profile_pic_url": "https://instagram.fagc1-1.fna.fbcdn.net/v/t51.2885-19/410255472_732149625464854_2526210607750033500_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=instagram.fagc1-1.fna.fbcdn.net&_nc_cat=110&_nc_oc=Q6cZ2gF-taxQpGRaaCZ6dZ7N2uHNBMMV8U6abklzMJV5viM1_mZ9YUqh6K1vfByRWWfX6rQ&_nc_ohc=m-hBdAk7WBkQ7kNvwH_F9ws&_nc_gid=0V8o3Nkb2297atljReVR2g&edm=AM7KJZYBAAAA&ccb=7-5&ig_cache_key=GHAAdBgWKFne4pkCAFyww84p5w4jbkULAAAB1501500j-ccb7-5&oh=00_AQNZLWmcHaW2jeTaLl1TQVvZtTlH9wi4KAmsE-WaKywJuA&oe=6ACFBA44&_nc_sid=8ec269"
+          },
+          {
+            "pk": "38860058760",
+            "id": "38860058760",
+            "username": "tyler.crawford03",
+            "full_name": "Tyler Crawford",
+            "is_private": false,
+            "is_verified": false,
+            "profile_pic_url": "https://instagram.fagc1-2.fna.fbcdn.net/v/t51.82787-19/787942571_18090009413290761_8936771511972400290_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=instagram.fagc1-2.fna.fbcdn.net&_nc_cat=109&_nc_oc=Q6cZ2gF-taxQpGRaaCZ6dZ7N2uHNBMMV8U6abklzMJV5viM1_mZ9YUqh6K1vfByRWWfX6rQ&_nc_ohc=h2woVJ7WjK0Q7kNvwHxJsAr&_nc_gid=0V8o3Nkb2297atljReVR2g&edm=AM7KJZYBAAAA&ccb=7-5&ig_cache_key=GKsM9y4JCxCJxERAAKIM8lFXygV8bmNDAQAB1501500j-ccb7-5&oh=00_AQP0YBekuRblnqMJsfT2-LtLvMHqWsez_NuJ1iGhklqIIQ&oe=6ACF922C&_nc_sid=8ec269"
+          },
+          {
+            "pk": "49133927975",
+            "id": "49133927975",
+            "username": "tyler.crawford10",
+            "full_name": "Tyler Crawford",
+            "is_private": true,
+            "is_verified": false,
+            "profile_pic_url": "https://instagram.fagc1-2.fna.fbcdn.net/v/t51.82787-19/702319762_18076661960639976_3352647096950391476_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=instagram.fagc1-2.fna.fbcdn.net&_nc_cat=100&_nc_oc=Q6cZ2gF-taxQpGRaaCZ6dZ7N2uHNBMMV8U6abklzMJV5viM1_mZ9YUqh6K1vfByRWWfX6rQ&_nc_ohc=ue-2bRbZYKEQ7kNvwGcukCq&_nc_gid=0V8o3Nkb2297atljReVR2g&edm=AM7KJZYBAAAA&ccb=7-5&ig_cache_key=GJKM3CnohePWoDhAALQC_YbF-oYubmNDAQAB1501500j-ccb7-5&oh=00_AQOVtYfj42HU6ifLHE0D3R5HIczgQOByZrYf-G71RdDAgA&oe=6ACF9BFA&_nc_sid=8ec269"
+          },
+          {
+            "pk": "10609038308",
+            "id": "10609038308",
+            "username": "tylerr.crawfordd",
+            "full_name": "Tyler Crawford",
+            "is_private": false,
+            "is_verified": false,
+            "profile_pic_url": "https://instagram.fagc1-1.fna.fbcdn.net/v/t51.82787-19/791942685_18214702990358309_3081589750573741476_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDE5LmMyIn0&_nc_ht=instagram.fagc1-1.fna.fbcdn.net&_nc_cat=105&_nc_oc=Q6cZ2gF-taxQpGRaaCZ6dZ7N2uHNBMMV8U6abklzMJV5viM1_mZ9YUqh6K1vfByRWWfX6rQ&_nc_ohc=ofjb3eVwtQUQ7kNvwEkb-Nx&_nc_gid=0V8o3Nkb2297atljReVR2g&edm=AM7KJZYBAAAA&ccb=7-5&ig_cache_key=GB0WNC8l920FLbZAAKS1bhqNAcQqbmNDAQAB1501500j-ccb7-5&oh=00_AQOVSggLNF160nT-UdLBOYtUiHc_hkMIsmn_e2V6TkAPbA&oe=6ACFA1E1&_nc_sid=8ec269"
+          },
+          {
+            "pk": "48965108727",
+            "id": "48965108727",
+            "username": "tyler_crawford3",
+            "full_name": "Tyler Crawford",
+            "is_private": true,
+            "is_verified": false,
+            "profile_pic_url": "https://instagram.fagc1-2.fna.fbcdn.net/v/t51.82787-19/762892381_18097522517636728_3678138575974583604_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=instagram.fagc1-2.fna.fbcdn.net&_nc_cat=104&_nc_oc=Q6cZ2gF-taxQpGRaaCZ6dZ7N2uHNBMMV8U6abklzMJV5viM1_mZ9YUqh6K1vfByRWWfX6rQ&_nc_ohc=gV-v-lz8zx0Q7kNvwEBZmBg&_nc_gid=0V8o3Nkb2297atljReVR2g&edm=AM7KJZYBAAAA&ccb=7-5&ig_cache_key=GF3QeC14dvrQmUtAADRNoBeMXwszbmNDAQAB1501500j-ccb7-5&oh=00_AQNGcH782CUmc9D0vpzP4dZ2_sk4FD_4sZN8KLePYdNJew&oe=6ACFC39E&_nc_sid=8ec269"
+          },
+          {
+            "pk": "3969641061",
+            "id": "3969641061",
+            "username": "tylercrawford.11",
+            "full_name": "Tyler Crawford",
+            "is_private": false,
+            "is_verified": false,
+            "profile_pic_url": "https://instagram.fagc1-1.fna.fbcdn.net/v/t51.82787-19/793850102_18477191710129062_4006301516351584029_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=instagram.fagc1-1.fna.fbcdn.net&_nc_cat=106&_nc_oc=Q6cZ2gF-taxQpGRaaCZ6dZ7N2uHNBMMV8U6abklzMJV5viM1_mZ9YUqh6K1vfByRWWfX6rQ&_nc_ohc=KCPny4K9_yMQ7kNvwGRHwEW&_nc_gid=0V8o3Nkb2297atljReVR2g&edm=AM7KJZYBAAAA&ccb=7-5&ig_cache_key=GPYwUS_mO1Rw6KRBAB23PrkAPpk3bmNDAQAB1501500j-ccb7-5&oh=00_AQNvpUeJMFCTJn2jMWF6ovwJl2tNE5XRRYKuX5b76Yxo0g&oe=6ACFA63D&_nc_sid=8ec269"
+          },
+          {
+            "pk": "16167989790",
+            "id": "16167989790",
+            "username": "tycrawford1134",
+            "full_name": "Tyler Crawford",
+            "is_private": false,
+            "is_verified": false,
+            "profile_pic_url": "https://instagram.fagc1-2.fna.fbcdn.net/v/t51.82787-19/758553807_18144635587541791_6644989584336250470_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=instagram.fagc1-2.fna.fbcdn.net&_nc_cat=107&_nc_oc=Q6cZ2gF-taxQpGRaaCZ6dZ7N2uHNBMMV8U6abklzMJV5viM1_mZ9YUqh6K1vfByRWWfX6rQ&_nc_ohc=ReNa0WVlZBoQ7kNvwEMdGEw&_nc_gid=0V8o3Nkb2297atljReVR2g&edm=AM7KJZYBAAAA&ccb=7-5&ig_cache_key=GM_cNi0fO8Yuc3ZAAGZmiP7RvjdcbmNDAQAB1501500j-ccb7-5&oh=00_AQPMf0jWANNywrSRA6GtH1HiTNJ76eh_SzlYqCW45DQuRw&oe=6ACFAA35&_nc_sid=8ec269"
+          },
+          {
+            "pk": "1349317276",
+            "id": "1349317276",
+            "username": "tyler_crawford___",
+            "full_name": "Tyler",
+            "is_private": false,
+            "is_verified": false,
+            "profile_pic_url": "https://instagram.fagc1-2.fna.fbcdn.net/v/t51.2885-19/419587812_1497596667469905_331161075519447109_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby44MjguYzIifQ&_nc_ht=instagram.fagc1-2.fna.fbcdn.net&_nc_cat=109&_nc_oc=Q6cZ2gF-taxQpGRaaCZ6dZ7N2uHNBMMV8U6abklzMJV5viM1_mZ9YUqh6K1vfByRWWfX6rQ&_nc_ohc=RvP5ymy_npUQ7kNvwEEnGzv&_nc_gid=0V8o3Nkb2297atljReVR2g&edm=AM7KJZYBAAAA&ccb=7-5&ig_cache_key=GORmAhlRoGFlDlIFAEXgxV0_hZgEbkULAAAB1501500j-ccb7-5&oh=00_AQMZ5agVNT4dSTi1OGSJvFQkGY0rvcW8mhNc1NdpzqjjmA&oe=6ACFAD6D&_nc_sid=8ec269"
+          },
+          {
+            "pk": "4004865137",
+            "id": "4004865137",
+            "username": "_tyler_crawford__",
+            "full_name": "Tyler Crawford",
+            "is_private": true,
+            "is_verified": false,
+            "profile_pic_url": "https://instagram.fagc1-1.fna.fbcdn.net/v/t51.82787-19/554867372_18420203920129138_8708964535881949686_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=instagram.fagc1-1.fna.fbcdn.net&_nc_cat=110&_nc_oc=Q6cZ2gF-taxQpGRaaCZ6dZ7N2uHNBMMV8U6abklzMJV5viM1_mZ9YUqh6K1vfByRWWfX6rQ&_nc_ohc=poMcYj0RkWoQ7kNvwFTkEJr&_nc_gid=0V8o3Nkb2297atljReVR2g&edm=AM7KJZYBAAAA&ccb=7-5&ig_cache_key=GKyaEiFyfFnvE3FBAPbht3Iaddx4bmNDAQAB1501500j-ccb7-5&oh=00_AQMcXoYi-1jHH5RCYMU3_EGib9P02NHsv_W8lE4DbwFELQ&oe=6ACFA19A&_nc_sid=8ec269"
+          },
+          {
+            "pk": "43818171468",
+            "id": "43818171468",
+            "username": "tylermatthewcrawford",
+            "full_name": "Tyler Crawford",
+            "is_private": false,
+            "is_verified": false,
+            "profile_pic_url": "https://instagram.fagc1-1.fna.fbcdn.net/v/t51.2885-19/144960806_883178322225106_4636129467657755341_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby43MjAuYzIifQ&_nc_ht=instagram.fagc1-1.fna.fbcdn.net&_nc_cat=110&_nc_oc=Q6cZ2gF-taxQpGRaaCZ6dZ7N2uHNBMMV8U6abklzMJV5viM1_mZ9YUqh6K1vfByRWWfX6rQ&_nc_ohc=_NQCIoVNOFcQ7kNvwGtLIVM&_nc_gid=0V8o3Nkb2297atljReVR2g&edm=AM7KJZYBAAAA&ccb=7-5&ig_cache_key=GCbtowjSZyv6PiMDAM0adgQw11ZAbkULAAAB1501500j-ccb7-5&oh=00_AQOcpsJp332hmscW3ZDy0yblhmQUy4OS8WLbwVdq83JDXg&oe=6ACFBE71&_nc_sid=8ec269"
+          },
+          {
+            "pk": "5970591151",
+            "id": "5970591151",
+            "username": "tyler_crawford23",
+            "full_name": "Tyler Crawford",
+            "is_private": false,
+            "is_verified": false,
+            "profile_pic_url": "https://instagram.fagc1-2.fna.fbcdn.net/v/t51.82787-19/746350960_18419162395199152_2387956753874991878_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby45MzkuYzIifQ&_nc_ht=instagram.fagc1-2.fna.fbcdn.net&_nc_cat=104&_nc_oc=Q6cZ2gF-taxQpGRaaCZ6dZ7N2uHNBMMV8U6abklzMJV5viM1_mZ9YUqh6K1vfByRWWfX6rQ&_nc_ohc=9ZGTrVBraH0Q7kNvwHDnsZY&_nc_gid=0V8o3Nkb2297atljReVR2g&edm=AM7KJZYBAAAA&ccb=7-5&ig_cache_key=GHBpfCywRqBvIXBBAAa7tgUEuiMhbmNDAQAB1501500j-ccb7-5&oh=00_AQO6wsWsNKJ1WV34IhAYog1-rrm1wEgbz1-x31GTUgbdSw&oe=6ACF97B1&_nc_sid=8ec269"
+          },
+          {
+            "pk": "7382710336",
+            "id": "7382710336",
+            "username": "tyler_crawford05",
+            "full_name": "Tyler Crawford",
+            "is_private": false,
+            "is_verified": false,
+            "profile_pic_url": "https://instagram.fagc1-2.fna.fbcdn.net/v/t51.2885-19/312315582_422748510031975_1847254637867308028_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby43NDguYzIifQ&_nc_ht=instagram.fagc1-2.fna.fbcdn.net&_nc_cat=107&_nc_oc=Q6cZ2gF-taxQpGRaaCZ6dZ7N2uHNBMMV8U6abklzMJV5viM1_mZ9YUqh6K1vfByRWWfX6rQ&_nc_ohc=V40tKRxg1zIQ7kNvwFlxDs5&_nc_gid=0V8o3Nkb2297atljReVR2g&edm=AM7KJZYBAAAA&ccb=7-5&ig_cache_key=GL6OnRJnEMXOfIABAPwTxlNOxKIZbkULAAAB1501500j-ccb7-5&oh=00_AQNzqaXgTnKNPMx_FpE7Ratz7LMgRoCU5zonysIZvYghdg&oe=6ACF9374&_nc_sid=8ec269"
+          },
+          {
+            "pk": "231622603",
+            "id": "231622603",
+            "username": "_864tyler",
+            "full_name": "Tyler Crawford",
+            "is_private": false,
+            "is_verified": false,
+            "profile_pic_url": "https://instagram.fagc1-2.fna.fbcdn.net/v/t51.2885-19/310962965_834089081108063_2971169127617701026_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=instagram.fagc1-2.fna.fbcdn.net&_nc_cat=111&_nc_oc=Q6cZ2gF-taxQpGRaaCZ6dZ7N2uHNBMMV8U6abklzMJV5viM1_mZ9YUqh6K1vfByRWWfX6rQ&_nc_ohc=OgkSNtV7iDEQ7kNvwE-j-iM&_nc_gid=0V8o3Nkb2297atljReVR2g&edm=AM7KJZYBAAAA&ccb=7-5&ig_cache_key=GBXriBJf9mN-mfYCAKKkQmOUtjspbkULAAAB1501500j-ccb7-5&oh=00_AQOVgcZWGTWCOWVd9r375zDTbUiiDQS1sLpCeqIG__MDdA&oe=6ACF9F94&_nc_sid=8ec269"
+          },
+          {
+            "pk": "1420994210",
+            "id": "1420994210",
+            "username": "tyler.crawford.3517",
+            "full_name": "Tyler Crawford",
+            "is_private": false,
+            "is_verified": false,
+            "profile_pic_url": "https://instagram.fagc1-2.fna.fbcdn.net/v/t51.2885-19/15802424_1799877233611221_2371980982971531264_a.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=instagram.fagc1-2.fna.fbcdn.net&_nc_cat=109&_nc_oc=Q6cZ2gF-taxQpGRaaCZ6dZ7N2uHNBMMV8U6abklzMJV5viM1_mZ9YUqh6K1vfByRWWfX6rQ&_nc_ohc=2W62OemAqwAQ7kNvwGI-ZQM&_nc_gid=0V8o3Nkb2297atljReVR2g&edm=AM7KJZYBAAAA&ccb=7-5&ig_cache_key=GDgg8QDVESaT_mQGAAAAAAAj_OogYUULAAAB1501500j-ccb7-5&oh=00_AQNWdTrZhVC_IXydPhqpFSWwWqg1hFGZSawlD85fCryqdg&oe=6ACFBA72&_nc_sid=8ec269"
+          },
+          {
+            "pk": "69233693676",
+            "id": "69233693676",
+            "username": "tyler_crawford8",
+            "full_name": "Tyler Crawford",
+            "is_private": false,
+            "is_verified": false,
+            "profile_pic_url": "https://instagram.fagc1-1.fna.fbcdn.net/v/t51.82787-19/726926546_17931551958309677_2749329291305146955_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=instagram.fagc1-1.fna.fbcdn.net&_nc_cat=105&_nc_oc=Q6cZ2gF-taxQpGRaaCZ6dZ7N2uHNBMMV8U6abklzMJV5viM1_mZ9YUqh6K1vfByRWWfX6rQ&_nc_ohc=hmqzSp0T5LgQ7kNvwHt2dQg&_nc_gid=0V8o3Nkb2297atljReVR2g&edm=AM7KJZYBAAAA&ccb=7-5&ig_cache_key=GNIEVCstG7-IprQ-AEva0YJslCcmbmNDAQAB1501500j-ccb7-5&oh=00_AQM75Qfo5AIrYWZAhxDAH0JzZPVuCY8hdc-3TTgBo6UNXA&oe=6ACFC6D0&_nc_sid=8ec269"
+          },
+          {
+            "pk": "455896674",
+            "id": "455896674",
+            "username": "tyler_crawford88",
+            "full_name": "Tyler Crawford",
+            "is_private": false,
+            "is_verified": false,
+            "profile_pic_url": "https://instagram.fagc1-2.fna.fbcdn.net/v/t51.2885-19/253401716_1853474574850099_5376691887578749344_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby43NTAuYzIifQ&_nc_ht=instagram.fagc1-2.fna.fbcdn.net&_nc_cat=107&_nc_oc=Q6cZ2gF-taxQpGRaaCZ6dZ7N2uHNBMMV8U6abklzMJV5viM1_mZ9YUqh6K1vfByRWWfX6rQ&_nc_ohc=6HVfyhBdCxUQ7kNvwGKe_mo&_nc_gid=0V8o3Nkb2297atljReVR2g&edm=AM7KJZYBAAAA&ccb=7-5&ig_cache_key=GHSaGg8zWKKtuZUGAKAZ2_nI2J1KbkULAAAB1501500j-ccb7-5&oh=00_AQNiq7AVaYwhJ44WnI23oM2B3962e1NvcNJOQKwip_KvHg&oe=6ACF937B&_nc_sid=8ec269"
+          },
+          {
+            "pk": "13014146427",
+            "id": "13014146427",
+            "username": "tyler_crawford45",
+            "full_name": "Tyler Crawford",
+            "is_private": false,
+            "is_verified": false,
+            "profile_pic_url": "https://instagram.fagc1-2.fna.fbcdn.net/v/t51.82787-19/729664115_18153351049434428_6422931031698103718_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=instagram.fagc1-2.fna.fbcdn.net&_nc_cat=108&_nc_oc=Q6cZ2gF-taxQpGRaaCZ6dZ7N2uHNBMMV8U6abklzMJV5viM1_mZ9YUqh6K1vfByRWWfX6rQ&_nc_ohc=x-jT8T-KuhwQ7kNvwEkwvjV&_nc_gid=0V8o3Nkb2297atljReVR2g&edm=AM7KJZYBAAAA&ccb=7-5&ig_cache_key=GHPKfSs81choYH5AAKbdMkG_1SJZbmNDAQAB1501500j-ccb7-5&oh=00_AQPL1Ee_yTtfAvEHkyu6Y7CR8HZtlbn-DcolAKyT6U8Elg&oe=6ACFAFF0&_nc_sid=8ec269"
+          },
+          {
+            "pk": "7385024686",
+            "id": "7385024686",
+            "username": "crawford.tyler5",
+            "full_name": "Tyler Crawford",
+            "is_private": false,
+            "is_verified": false,
+            "profile_pic_url": "https://instagram.fagc1-2.fna.fbcdn.net/v/t51.82787-19/783617801_18365451685240687_6668971193209146373_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=instagram.fagc1-2.fna.fbcdn.net&_nc_cat=107&_nc_oc=Q6cZ2gF-taxQpGRaaCZ6dZ7N2uHNBMMV8U6abklzMJV5viM1_mZ9YUqh6K1vfByRWWfX6rQ&_nc_ohc=1vjMZJoYn1kQ7kNvwH_GnqI&_nc_gid=0V8o3Nkb2297atljReVR2g&edm=AM7KJZYBAAAA&ccb=7-5&ig_cache_key=GAkPtS5vn9bvRz9BAAVMi2z38YxcbmNDAQAB1501500j-ccb7-5&oh=00_AQP2jCU3J1SJu9p2sUhAQrQqo6KuAXZwA44BYQVDmSlXJQ&oe=6ACFA0FC&_nc_sid=8ec269"
+          },
+          {
+            "pk": "10175137964",
+            "id": "10175137964",
+            "username": "tyler.crawford.311056",
+            "full_name": "Tyler Crawford",
+            "is_private": false,
+            "is_verified": false,
+            "profile_pic_url": "https://instagram.fagc1-2.fna.fbcdn.net/v/t51.2885-19/68903590_3484070664952027_6293248530370789376_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=instagram.fagc1-2.fna.fbcdn.net&_nc_cat=107&_nc_oc=Q6cZ2gF-taxQpGRaaCZ6dZ7N2uHNBMMV8U6abklzMJV5viM1_mZ9YUqh6K1vfByRWWfX6rQ&_nc_ohc=YPMerWavY88Q7kNvwFhN9CU&_nc_gid=0V8o3Nkb2297atljReVR2g&edm=AM7KJZYBAAAA&ccb=7-5&ig_cache_key=GKZiGwTbWFtqvmAMAAAAAAAyHFZXbkULAAAB1501500j-ccb7-5&oh=00_AQNZtGzpC7MuStQCa36PxamgKvCJQgpOO_fOaS923Kc6Rg&oe=6ACFB73B&_nc_sid=8ec269"
+          },
+          {
+            "pk": "1819211132",
+            "id": "1819211132",
+            "username": "crawfish_kid",
+            "full_name": "Tyler Crawford",
+            "is_private": false,
+            "is_verified": false,
+            "profile_pic_url": "https://instagram.fagc1-1.fna.fbcdn.net/v/t51.2885-19/16465454_483651762022558_7412061200009134080_a.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=instagram.fagc1-1.fna.fbcdn.net&_nc_cat=110&_nc_oc=Q6cZ2gF-taxQpGRaaCZ6dZ7N2uHNBMMV8U6abklzMJV5viM1_mZ9YUqh6K1vfByRWWfX6rQ&_nc_ohc=WdnViCGDcwgQ7kNvwEfHQ43&_nc_gid=0V8o3Nkb2297atljReVR2g&edm=AM7KJZYBAAAA&ccb=7-5&ig_cache_key=GC4__wCeaHjz4LcBAAAAAABk7txmYUULAAAB1501500j-ccb7-5&oh=00_AQO_NUXqiKBKpZT-iFXCbqBAEgztQKACjEvT5NcbKXzMiQ&oe=6ACFC1A2&_nc_sid=8ec269"
+          },
+          {
+            "pk": "2154120061",
+            "id": "2154120061",
+            "username": "moosermantough",
+            "full_name": "Tyler Crawford",
+            "is_private": false,
+            "is_verified": false,
+            "profile_pic_url": "https://instagram.fagc1-1.fna.fbcdn.net/v/t51.2885-19/11875378_1631906830412885_848859529_a.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4yMDAuYzIifQ&_nc_ht=instagram.fagc1-1.fna.fbcdn.net&_nc_cat=105&_nc_oc=Q6cZ2gF-taxQpGRaaCZ6dZ7N2uHNBMMV8U6abklzMJV5viM1_mZ9YUqh6K1vfByRWWfX6rQ&_nc_ohc=8AB3oCC1XTUQ7kNvwHtPeuB&_nc_gid=0V8o3Nkb2297atljReVR2g&edm=AM7KJZYBAAAA&ccb=7-5&ig_cache_key=GDI0tQBV7O7qNcwFAImRmDIAAAAAYUULAAAB1501500j-ccb7-5&oh=00_AQMG7GI5tFxBgxGzohq5ilWEQi9puzRnXSBrnkysibjpBQ&oe=6ACFC7FF&_nc_sid=8ec269"
+          },
+          {
+            "pk": "205019514",
+            "id": "205019514",
+            "username": "tcrawww",
+            "full_name": "Tyler Crawford",
+            "is_private": false,
+            "is_verified": false,
+            "profile_pic_url": "https://instagram.fagc1-2.fna.fbcdn.net/v/t51.2885-19/12317834_1535028430149048_1351689285_a.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=instagram.fagc1-2.fna.fbcdn.net&_nc_cat=100&_nc_oc=Q6cZ2gF-taxQpGRaaCZ6dZ7N2uHNBMMV8U6abklzMJV5viM1_mZ9YUqh6K1vfByRWWfX6rQ&_nc_ohc=JOZeqwV9fFsQ7kNvwGo5IPQ&_nc_gid=0V8o3Nkb2297atljReVR2g&edm=AM7KJZYBAAAA&ccb=7-5&ig_cache_key=GIr0uwC4lUyoGXQFAEUkkVAAAAAAYUULAAAB1501500j-ccb7-5&oh=00_AQP402HPoxRzJHCJk7aD6fQ4FQgKab2AC7I99yT57EFisQ&oe=6ACF9C6C&_nc_sid=8ec269"
+          },
+          {
+            "pk": "46918081713",
+            "id": "46918081713",
+            "username": "tyler.crawford.79656",
+            "full_name": "Tyler Crawford",
+            "is_private": false,
+            "is_verified": false,
+            "profile_pic_url": "https://instagram.fagc1-2.fna.fbcdn.net/v/t51.2885-19/486054205_1578543740215196_1232265099102036548_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=instagram.fagc1-2.fna.fbcdn.net&_nc_cat=108&_nc_oc=Q6cZ2gF-taxQpGRaaCZ6dZ7N2uHNBMMV8U6abklzMJV5viM1_mZ9YUqh6K1vfByRWWfX6rQ&_nc_ohc=Wh3HMU5nATkQ7kNvwEsI0lG&_nc_gid=0V8o3Nkb2297atljReVR2g&edm=AM7KJZYBAAAA&ccb=7-5&ig_cache_key=GD2Z_Byc3_VarZsFAESiFi2U4hkRbkULAAAB1501500j-ccb7-5&oh=00_AQPPxnThKalrvz_RFKtUlSjdpKDDWmklu7s5LgVZVkE_7A&oe=6ACFA1D1&_nc_sid=8ec269"
+          },
+          {
+            "pk": "66347542076",
+            "id": "66347542076",
+            "username": "tylercrawford503",
+            "full_name": "Tyler Crawford",
+            "is_private": false,
+            "is_verified": false,
+            "profile_pic_url": "https://instagram.fagc1-2.fna.fbcdn.net/v/t51.82787-19/836458640_17959056762214077_3128359324559945737_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=instagram.fagc1-2.fna.fbcdn.net&_nc_cat=109&_nc_oc=Q6cZ2gF-taxQpGRaaCZ6dZ7N2uHNBMMV8U6abklzMJV5viM1_mZ9YUqh6K1vfByRWWfX6rQ&_nc_ohc=po7XhpD6_KgQ7kNvwFt5rf6&_nc_gid=0V8o3Nkb2297atljReVR2g&edm=AM7KJZYBAAAA&ccb=7-5&ig_cache_key=GJBY2zG9FtC_qs0-AAkwLR47KmorbmNDAQAB1501500j-ccb7-5&oh=00_AQNwE0XPItJVNs39PPWs7yI9p2gVyZ55aonSnndeIJf_rA&oe=6ACF92DE&_nc_sid=8ec269"
+          },
+          {
+            "pk": "76140366737",
+            "id": "76140366737",
+            "username": "tylercrawford4hallcounty",
+            "full_name": "Tyler Crawford",
+            "is_private": false,
+            "is_verified": false,
+            "profile_pic_url": "https://instagram.fagc1-1.fna.fbcdn.net/v/t51.82787-19/612219955_17865666597542738_4952992332133044433_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=instagram.fagc1-1.fna.fbcdn.net&_nc_cat=102&_nc_oc=Q6cZ2gF-taxQpGRaaCZ6dZ7N2uHNBMMV8U6abklzMJV5viM1_mZ9YUqh6K1vfByRWWfX6rQ&_nc_ohc=yDMgySO3mxgQ7kNvwH8AysB&_nc_gid=0V8o3Nkb2297atljReVR2g&edm=AM7KJZYBAAAA&ccb=7-5&ig_cache_key=GDO8fSRS2zinung-ANEQBrRIkLxEbmNDAQAB1501500j-ccb7-5&oh=00_AQPTROy85ct5tkxgHFPrrdKRgW9N48t2TdxtrkVDvH4jiQ&oe=6ACFB0D8&_nc_sid=8ec269"
+          },
+          {
+            "pk": "2137827044",
+            "id": "2137827044",
+            "username": "tyler__clayton",
+            "full_name": "Tyler Crawford",
+            "is_private": false,
+            "is_verified": false,
+            "profile_pic_url": "https://instagram.fagc1-1.fna.fbcdn.net/v/t51.2885-19/130501990_2491772964463085_7517504770728044570_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=instagram.fagc1-1.fna.fbcdn.net&_nc_cat=105&_nc_oc=Q6cZ2gF-taxQpGRaaCZ6dZ7N2uHNBMMV8U6abklzMJV5viM1_mZ9YUqh6K1vfByRWWfX6rQ&_nc_ohc=HfOqxwf3kQkQ7kNvwGc34Ae&_nc_gid=0V8o3Nkb2297atljReVR2g&edm=AM7KJZYBAAAA&ccb=7-5&ig_cache_key=GGZNxwftYWgaQdoIABqojHDCilNobkULAAAB1501500j-ccb7-5&oh=00_AQNjE2YG7K6buOMATzbq_onQzh9puvbDk06UdFhiO3Q5MQ&oe=6ACFA0B3&_nc_sid=8ec269"
+          },
+          {
+            "pk": "61219600979",
+            "id": "61219600979",
+            "username": "trenler.o.c",
+            "full_name": "Tyler Crawford",
+            "is_private": false,
+            "is_verified": false,
+            "profile_pic_url": "https://instagram.fagc1-1.fna.fbcdn.net/v/t51.2885-19/361768517_1008882243804579_5006675455062597282_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby45MjAuYzIifQ&_nc_ht=instagram.fagc1-1.fna.fbcdn.net&_nc_cat=103&_nc_oc=Q6cZ2gF-taxQpGRaaCZ6dZ7N2uHNBMMV8U6abklzMJV5viM1_mZ9YUqh6K1vfByRWWfX6rQ&_nc_ohc=WU9SShBl1boQ7kNvwEuhRHQ&_nc_gid=0V8o3Nkb2297atljReVR2g&edm=AM7KJZYBAAAA&ccb=7-5&ig_cache_key=GEUmkBWjHcOzkpUDAKJerMTMSHtFbkULAAAB1501500j-ccb7-5&oh=00_AQO2Jl7PhesuIiPN36hw5YL3enJK9YZcnajzlY9k6O1p5A&oe=6ACFB314&_nc_sid=8ec269"
+          }
+        ],
+        "delivered": 2,
+        "done": true
+      },
+      "discoveryAttempts": 0,
+      "remoteStatus": "done",
+      "qualifying": 1
+    }
+  ],
+  "assistance": [],
+  "waveCalls": [
+    {
+      "path": "/discover/db?platform=tiktok&limit=100&sort=followers_desc",
+      "status": 200,
+      "createdAt": 1791612810632,
+      "finishedAt": 1791612811999,
+      "responseKeys": [
+        "summary",
+        "tiers",
+        "creators",
+        "strategy",
+        "screening",
+        "scraping",
+        "collecting",
+        "latestCreatorSearchTaskId",
+        "latestSearchFunnel",
+        "target",
+        "fulfilled",
+        "campaignState"
+      ],
+      "pool": {
+        "count": 100,
+        "range": {
+          "min": 5000000,
+          "max": 331181300
+        },
+        "profiles": 0
+      }
+    },
+    {
+      "path": "/discover/db?platform=youtube&limit=100&sort=followers_desc",
+      "status": 200,
+      "createdAt": 1791613193525,
+      "finishedAt": 1791613194755,
+      "responseKeys": [
+        "summary",
+        "tiers",
+        "creators",
+        "strategy",
+        "screening",
+        "scraping",
+        "collecting",
+        "latestCreatorSearchTaskId",
+        "latestSearchFunnel",
+        "target",
+        "fulfilled",
+        "campaignState"
+      ],
+      "pool": {
+        "count": 100,
+        "range": {
+          "min": 5280000,
+          "max": 80600000
+        },
+        "profiles": 0
+      }
+    },
+    {
+      "path": "/discover/db?platform=youtube&limit=100&sort=followers_desc",
+      "status": 200,
+      "createdAt": 1791613297875,
+      "finishedAt": 1791613300183,
+      "responseKeys": [
+        "summary",
+        "tiers",
+        "creators",
+        "strategy",
+        "screening",
+        "scraping",
+        "collecting",
+        "latestCreatorSearchTaskId",
+        "latestSearchFunnel",
+        "target",
+        "fulfilled",
+        "campaignState"
+      ],
+      "pool": {
+        "count": 100,
+        "range": {
+          "min": 5280000,
+          "max": 80600000
+        },
+        "profiles": 0
+      }
+    },
+    {
+      "path": "/instagram/v3/search_users?query=tylerlcrawford",
+      "status": 200,
+      "createdAt": 1791613649216,
+      "finishedAt": 1791613652230,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=tylerlcrawford",
+      "status": 200,
+      "createdAt": 1791613654023,
+      "finishedAt": 1791613659891,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_posts?user_id=48426799147&count=12",
+      "status": 200,
+      "createdAt": 1791613659897,
+      "finishedAt": 1791613668796,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_posts?user_id=48426799147&count=12&max_id=3997965466461395273_48426799147",
+      "status": 200,
+      "createdAt": 1791613668808,
+      "finishedAt": 1791613679509,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DcZxbpBAJDI",
+      "status": 200,
+      "createdAt": 1791613679520,
+      "finishedAt": 1791613681765,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DZoHkAvAbm5",
+      "status": 200,
+      "createdAt": 1791613681768,
+      "finishedAt": 1791613687560,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=tylercrawford118",
+      "status": 200,
+      "createdAt": 1791613742243,
+      "finishedAt": 1791613749969,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_posts?user_id=1451272281&count=12",
+      "status": 200,
+      "createdAt": 1791613749979,
+      "finishedAt": 1791613757018,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_posts?user_id=1451272281&count=12&max_id=3690010286682182188_1451272281",
+      "status": 200,
+      "createdAt": 1791613757066,
+      "finishedAt": 1791613763047,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DOUs-OpDB6L",
+      "status": 200,
+      "createdAt": 1791613763057,
+      "finishedAt": 1791613766248,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DMmcu6JM9kK",
+      "status": 200,
+      "createdAt": 1791613766256,
+      "finishedAt": 1791613772488,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    }
+  ],
+  "deliveries": [
+    {
+      "id": "report-research-7e157f91534c9f8f156d257d-53dc75d0e2ad9884",
+      "subject": "research-7e157f91534c9f8f156d257d",
+      "revision": {
+        "status": "partial",
+        "matched": 0,
+        "evaluated": 4,
+        "results": [
+          [
+            "research-7e157f91534c9f8f156d257d|tiktok:ritualesmayte331",
+            1791612827781
+          ],
+          [
+            "research-7e157f91534c9f8f156d257d|tiktok:stephencurry30",
+            1791612843326
+          ],
+          [
+            "research-7e157f91534c9f8f156d257d|tiktok:seed02678",
+            1791612856785
+          ],
+          [
+            "research-7e157f91534c9f8f156d257d|tiktok:voodoo_248",
+            1791612872354
+          ]
+        ]
+      },
+      "createdAt": 1791612872357
+    },
+    {
+      "id": "report-research-a8e3309218440957ace846fd-e3983f752aa5541c",
+      "subject": "research-a8e3309218440957ace846fd",
+      "revision": {
+        "status": "partial",
+        "matched": 0,
+        "evaluated": 2,
+        "results": [
+          [
+            "research-a8e3309218440957ace846fd|youtube:5minutecraftsyoutube",
+            1791613224375
+          ],
+          [
+            "research-a8e3309218440957ace846fd|youtube:beatboxjcop",
+            1791613297870
+          ]
+        ]
+      },
+      "createdAt": 1791613297873
+    },
+    {
+      "id": "report-research-11deee85612adbbdea75b835-fd118feb87c3272c",
+      "subject": "research-11deee85612adbbdea75b835",
+      "revision": {
+        "status": "partial",
+        "matched": 0,
+        "evaluated": 2,
+        "results": [
+          [
+            "research-11deee85612adbbdea75b835|youtube:5minutecraftsyoutube",
+            1791613317442
+          ],
+          [
+            "research-11deee85612adbbdea75b835|youtube:beatboxjcop",
+            1791613335676
+          ]
+        ]
+      },
+      "createdAt": 1791613335685
+    },
+    {
+      "id": "report-campaign-9d63bb971fa097c467999073-33e0fae56690b428",
+      "subject": "campaign-9d63bb971fa097c467999073",
+      "revision": {
+        "status": "partial",
+        "selections": [],
+        "results": [
+          [
+            "research-a8e3309218440957ace846fd|youtube:5minutecraftsyoutube",
+            1791613224375
+          ],
+          [
+            "research-a8e3309218440957ace846fd|youtube:beatboxjcop",
+            1791613297870
+          ],
+          [
+            "research-11deee85612adbbdea75b835|youtube:5minutecraftsyoutube",
+            1791613317442
+          ],
+          [
+            "research-11deee85612adbbdea75b835|youtube:beatboxjcop",
+            1791613335676
+          ]
+        ]
+      },
+      "createdAt": 1791613335688
+    },
+    {
+      "id": "report-research-06587523c43581240c9622f3-89005babe3c42010",
+      "subject": "research-06587523c43581240c9622f3",
+      "revision": {
+        "status": "partial",
+        "matched": 1,
+        "evaluated": 2,
+        "results": [
+          [
+            "research-06587523c43581240c9622f3|instagram:tylerlcrawford",
+            1791613741976
+          ],
+          [
+            "research-06587523c43581240c9622f3|instagram:tylercrawford118",
+            1791613826654
+          ]
+        ]
+      },
+      "createdAt": 1791613827405
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "path": "/auth/me",
+  "status": 200,
+  "contentType": "application/json; charset=utf-8",
+  "ms": 593,
+  "body": {
+    "user": {
+      "id": "cdb79b20-bd03-4e0e-a8a0-ba374c0fc384",
+      "email": "yangyinqi1991@gmail.com",
+      "name": "Shawn Yang",
+      "avatarUrl": "https://lh3.googleusercontent.com/a/ACg8ocJTr9Zmhf1ZsJ9DnRBfqDvKGzNFS-vRxOEsbvMYu4wO7RFQBIU=s96-c",
+      "role": "user"
+    }
+  }
+}

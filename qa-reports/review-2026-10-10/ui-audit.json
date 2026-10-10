@@ -1,0 +1,15 @@
+{
+  "unauthenticated state rejected": true,
+  "wrong password error": true,
+  "two results available": true,
+  "snapshot links in UI": true,
+  "match filter returns one": true,
+  "reportHasScreenshotLinks": false,
+  "all original criteria visible": true,
+  "mobileFit": {
+    "horizontal": true,
+    "composerVisible": true
+  },
+  "logout revokes session": true,
+  "pageErrors": []
+}

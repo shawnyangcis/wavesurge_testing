@@ -1,0 +1,52 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+admin-bootstrap.txt
+desktop-token
+vnc-password
+*.pem
+*.key
+
+# Runtime state, databases and browser profiles
+/data/
+/backups/
+**/private/
+*.sqlite
+*.sqlite-*
+*.db
+*.db-wal
+*.db-shm
+/browser-profile/
+/desktop-state/
+
+# Dependencies and build/test output
+node_modules/
+/dist/
+/coverage/
+/test-results*/
+/playwright-report/
+/.gstack/
+/.playwright-cli/
+/output/
+validation/**/artifacts/
+validation/**/browser-report*/
+validation/**/acceptance-browser-report/
+validation/**/source-before/
+validation/**/source-after/
+**/trace.zip
+*.log
+*.tsbuildinfo
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Source, lockfile, docs/testing reports and curated screenshots remain tracked.

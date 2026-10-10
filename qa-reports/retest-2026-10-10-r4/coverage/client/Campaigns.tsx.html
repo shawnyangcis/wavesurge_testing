@@ -1,0 +1,121 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Code coverage report for client/Campaigns.tsx</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../prettify.css" />
+    <link rel="stylesheet" href="../base.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+    
+<body>
+<div class='wrapper'>
+    <div class='pad1'>
+        <h1><a href="../index.html">All files</a> / <a href="index.html">client</a> Campaigns.tsx</h1>
+        <div class='clearfix'>
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Statements</span>
+                <span class='fraction'>29/29</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Branches</span>
+                <span class='fraction'>14/14</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Functions</span>
+                <span class='fraction'>13/13</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Lines</span>
+                <span class='fraction'>6/6</span>
+            </div>
+        
+            
+        </div>
+        <p class="quiet">
+            Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
+        </p>
+        <template id="filterTemplate">
+            <div class="quiet">
+                Filter:
+                <input type="search" id="fileSearch">
+            </div>
+        </template>
+    </div>
+    <div class='status-line high'></div>
+    <pre><table class="coverage">
+<tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
+<a name='L2'></a><a href='#L2'>2</a>
+<a name='L3'></a><a href='#L3'>3</a>
+<a name='L4'></a><a href='#L4'>4</a>
+<a name='L5'></a><a href='#L5'>5</a>
+<a name='L6'></a><a href='#L6'>6</a>
+<a name='L7'></a><a href='#L7'>7</a>
+<a name='L8'></a><a href='#L8'>8</a>
+<a name='L9'></a><a href='#L9'>9</a>
+<a name='L10'></a><a href='#L10'>10</a>
+<a name='L11'></a><a href='#L11'>11</a>
+<a name='L12'></a><a href='#L12'>12</a>
+<a name='L13'></a><a href='#L13'>13</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">16x</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-yes">16x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">16x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import { useEffect, useState } from 'react';
+import { api } from './api.ts';
+import type { Campaign } from '../shared/campaign.ts';
+type Plan = Omit&lt;Campaign, 'groups'&gt; &amp; { status: string; matched: number; requested: number; qualifyingUnique: number; reportUrl: string; groups: (Campaign['groups'][number] &amp; { matched: number; eligible: number; taskId?: string })[] };
+const statuses: Record&lt;string, string&gt; = { draft: '待确认方案', running: '研究中', needs_input: '需要协助', completed: '配额已满足', partial: '部分完成' };
+export function Campaigns({ onClose }: { onClose: () =&gt; void }) {
+  const [plans, setPlans] = useState&lt;Plan[]&gt;([]); const [selected, setSelected] = useState&lt;Plan&gt;(); const [error, setError] = useState('');
+  async function refresh() { try { const facts = await api&lt;{ id: string }[]&gt;('/campaigns'); const values = await Promise.all(facts.map(fact =&gt; api&lt;Plan&gt;(`/campaigns/${encodeURIComponent(fact.id)}`))); setPlans(values); setSelected(current =&gt; values.find(value =&gt; value.id === current?.id)); } catch (e) { setError((e as Error).message); } }
+  useEffect(() =&gt; { void refresh(); const timer = setInterval(refresh, 3000); return () =&gt; clearInterval(timer); }, []);
+  async function start(plan: Plan) { setError(''); try { await api(`/campaigns/${encodeURIComponent(plan.id)}/start`, { revision: plan.revision }); await refresh(); } catch (e) { setError((e as Error).message); } }
+  return &lt;div className="scrim"&gt;&lt;section className="inspector" role="dialog" aria-modal="true" aria-label="Campaign 方案"&gt;&lt;div className="inspector-heading"&gt;&lt;div&gt;&lt;span className="eyebrow"&gt;CAMPAIGN / STRATEGY&lt;/span&gt;&lt;h2&gt;Campaign 方案&lt;/h2&gt;&lt;/div&gt;&lt;button className="quiet" onClick={onClose}&gt;关闭&lt;/button&gt;&lt;/div&gt;&lt;p className="muted"&gt;在对话中描述产品、受众和目标，助手会与你共同确定创作者类型、范围和配额。&lt;/p&gt;{error &amp;&amp; &lt;p role="alert"&gt;{error}&lt;/p&gt;}{plans.length === 0 &amp;&amp; &lt;p&gt;暂无方案。先在对话中描述你的 Campaign 目标。&lt;/p&gt;}{plans.map(plan =&gt; &lt;article className="task" key={plan.id}&gt;&lt;span className="task-status"&gt;{statuses[plan.status]}&lt;/span&gt;&lt;h3&gt;{plan.title} · v{plan.revision}&lt;/h3&gt;&lt;p&gt;{plan.goal}&lt;/p&gt;&lt;p&gt;去重入选 {plan.matched}/{plan.requested}&lt;/p&gt;&lt;button className="quiet" onClick={() =&gt; setSelected(plan)}&gt;查看方案与配额&lt;/button&gt;&lt;/article&gt;)}{selected &amp;&amp; &lt;div className="campaign-detail"&gt;&lt;h3&gt;{selected.title} · v{selected.revision}&lt;/h3&gt;&lt;p&gt;受众：{selected.audience}&lt;/p&gt;&lt;p&gt;同一平台账号只占一个类型配额；没有可靠跨平台身份时不猜测合并。&lt;/p&gt;{selected.groups.map(group =&gt; &lt;article className="finding" key={group.id}&gt;&lt;h3&gt;{group.spec.title} · {group.matched}/{group.spec.count}&lt;/h3&gt;&lt;p&gt;{group.rationale}&lt;/p&gt;&lt;p&gt;{group.spec.platforms.join('、')} · {group.spec.regions.length ? group.spec.regions.join('、') : '地区不限'} · {group.spec.minFollowers}–{group.spec.maxFollowers} 粉丝&lt;/p&gt;&lt;p&gt;候选上限 {group.spec.candidateBudget} · 合格账号池 {group.eligible}&lt;/p&gt;&lt;ul&gt;{group.spec.criteria.map(criterion =&gt; &lt;li key={criterion.id}&gt;{criterion.required ? '必选' : '偏好'}：{criterion.label}（{criterion.basis}）&lt;/li&gt;)}&lt;/ul&gt;{group.taskId &amp;&amp; &lt;a href={`/api/reports/${encodeURIComponent(group.taskId)}`} target="_blank" rel="noreferrer"&gt;查看此类核验报告&lt;/a&gt;}&lt;/article&gt;)}{selected.status === 'draft' &amp;&amp; &lt;button onClick={() =&gt; void start(selected)}&gt;确认此方案并开始研究&lt;/button&gt;}&lt;p&gt;&lt;a href={selected.reportUrl} target="_blank" rel="noreferrer"&gt;查看去重汇总报告&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;}&lt;/section&gt;&lt;/div&gt;;
+}
+&nbsp;</pre></td></tr></table></pre>
+
+                <div class='push'></div><!-- for sticky footer -->
+            </div><!-- /wrapper -->
+            <div class='footer quiet pad2 space-top1 center small'>
+                Code coverage generated by
+                <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
+                at 2026-10-10T13:29:51.355Z
+            </div>
+        <script src="../prettify.js"></script>
+        <script>
+            window.onload = function () {
+                prettyPrint();
+            };
+        </script>
+        <script src="../sorter.js"></script>
+        <script src="../block-navigation.js"></script>
+    </body>
+</html>
+    

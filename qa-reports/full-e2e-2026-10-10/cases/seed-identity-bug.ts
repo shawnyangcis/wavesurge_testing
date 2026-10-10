@@ -1,0 +1,13 @@
+import { Store } from '../../src/server/store.ts';
+import { ResearchEngine } from '../../src/server/research.ts';
+import { CampaignService } from '../../src/server/campaign.ts';
+import { normalizeCreator } from '../../src/server/wave.ts';
+const store=new Store('/app/data/studio.sqlite');
+const engine=new ResearchEngine(store,{submit:async()=>{throw Error('fixture must not submit external search');},poll:async()=>({status:'done',creators:[]})},async()=>[],Date.now);engine.stopped=true;
+const service=new CampaignService(store,engine,Date.now);
+const spec={title:'同主页身份夹具',personaText:'controlled identity-shape test; NOT real discovery',count:1,candidateBudget:1,platforms:['instagram'],regions:[],minFollowers:10000,maxFollowers:100000,criteria:[]};
+const plan=service.save({title:'Review同主页重复计数 '+process.argv[2],goal:'Controlled test: two groups require two distinct accounts; both raw records identify one canonical profile.',audience:'测试夹具',groups:[{id:'a',rationale:'controlled group A',spec},{id:'b',rationale:'controlled group B',spec}]},'identity-ui-'+process.argv[2]);
+const started=service.start(plan.id,plan.revision);
+const raws=[{platform:'instagram',handle:'same_person',displayName:'同一主页记录（有 handle，控制夹具）',profileUrl:'https://www.instagram.com/same_person/',followerCount:20000},{platform:'instagram',displayName:'同一主页记录（无 handle，控制夹具）',profileUrl:'https://www.instagram.com/same_person/',followerCount:20000}];
+raws.forEach((raw,i)=>{const task=store.get<any>('task',started.childTaskIds[i]);task.candidates=[normalizeCreator(raw,Date.now())];task.remoteId='fixture-identity-'+task.id;task.remoteStatus='done';task.status='running';task.nextPollAt=0;engine.save(task);});
+store.close();process.stdout.write(plan.id);

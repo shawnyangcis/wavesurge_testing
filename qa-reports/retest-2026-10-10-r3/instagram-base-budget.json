@@ -1,0 +1,80 @@
+{
+  "source": "Actual original request UI + real Wave responses; final pipeline; no synthetic candidate data",
+  "taskId": "research-e920ecebfcfaea4ad9406b7a",
+  "minFollowers": 10000,
+  "maxFollowers": 100000,
+  "candidateBudget": 20,
+  "delivered": 20,
+  "discoveryDone": true,
+  "unreadQueueSizes": [
+    24,
+    24,
+    23
+  ],
+  "knownOutOfRange": [
+    {
+      "handle": "avery.nailedit",
+      "followers": 234
+    },
+    {
+      "handle": "vandypb",
+      "followers": 5656
+    },
+    {
+      "handle": "gaming",
+      "followers": 1003420
+    },
+    {
+      "handle": "techkappasigma",
+      "followers": 3294
+    },
+    {
+      "handle": "know.programming",
+      "followers": 155368
+    },
+    {
+      "handle": "houseofgaming",
+      "followers": 2113156
+    },
+    {
+      "handle": "texastechclassof2031_",
+      "followers": 9263
+    },
+    {
+      "handle": "dartmouthpb",
+      "followers": 3006
+    },
+    {
+      "handle": "gamingzar",
+      "followers": 724598
+    },
+    {
+      "handle": "brgaming",
+      "followers": 1006155
+    },
+    {
+      "handle": "z.acrylicz",
+      "followers": 1579
+    },
+    {
+      "handle": "fgcu_pb",
+      "followers": 9694
+    },
+    {
+      "handle": "oleprogramming",
+      "followers": 1864
+    },
+    {
+      "handle": "runya.gaming",
+      "followers": 5293
+    },
+    {
+      "handle": "tech",
+      "followers": 377123
+    },
+    {
+      "handle": "programming",
+      "followers": 1016
+    }
+  ]
+}

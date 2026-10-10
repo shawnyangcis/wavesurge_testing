@@ -1,0 +1,482 @@
+{
+  "startedAt": "2026-10-10T17:29:56.950Z",
+  "source": "Actual configured model and natural UI input; controlled Wave/candidates; real context reset/load during unsealed work registration, then app restart",
+  "cases": [
+    {
+      "action": "reset",
+      "at": "2026-10-10T17:30:00.114Z",
+      "beforeEpoch": 2,
+      "input": "另外新做一项 YouTube 科技博主研究，最后选1个就行。这次2个候选都看完，只用现有文字资料，不打开网页。粉丝和国家不限，每个人标一下内容方向，全部处理完再给我报告。",
+      "registration": {
+        "active": true,
+        "pending": [
+          "9a71a798-4e88-4afb-8f7a-72d0a00c5ac9"
+        ],
+        "task": {
+          "id": "research-ca30a88339a2c54dc79941d1",
+          "title": "YouTube 科技博主文字研究（两名候选全量分析）",
+          "status": "running",
+          "requested": 1,
+          "evaluated": 0,
+          "matched": 0,
+          "matchedMeaning": "研究组入选的合格账号数；合格候选总数见qualifying",
+          "updatedAt": 1791653414011,
+          "detail": "正在读取 WaveSurge 原始资料；本地筛选尚未完成",
+          "nextPollAt": 0
+        },
+        "batch": {
+          "id": "9a71a798-4e88-4afb-8f7a-72d0a00c5ac9",
+          "items": [
+            {
+              "kind": "research",
+              "id": "research-ca30a88339a2c54dc79941d1",
+              "title": "YouTube 科技博主文字研究（两名候选全量分析）",
+              "reportUrl": "/api/reports/research-ca30a88339a2c54dc79941d1"
+            }
+          ],
+          "sealed": false
+        }
+      },
+      "taskId": "research-ca30a88339a2c54dc79941d1",
+      "batchId": "9a71a798-4e88-4afb-8f7a-72d0a00c5ac9",
+      "afterEpoch": 3,
+      "closed": {
+        "id": "9a71a798-4e88-4afb-8f7a-72d0a00c5ac9",
+        "items": [
+          {
+            "kind": "research",
+            "id": "research-ca30a88339a2c54dc79941d1",
+            "title": "YouTube 科技博主文字研究（两名候选全量分析）",
+            "reportUrl": "/api/reports/research-ca30a88339a2c54dc79941d1"
+          }
+        ],
+        "sealed": true,
+        "closureReason": "context_changed"
+      },
+      "finalTask": {
+        "id": "research-ca30a88339a2c54dc79941d1",
+        "title": "YouTube 科技博主文字研究（两名候选全量分析）",
+        "status": "partial",
+        "requested": 1,
+        "evaluated": 2,
+        "matched": 0,
+        "qualifying": 0,
+        "matchedMeaning": "研究组入选的合格账号数；合格候选总数见qualifying",
+        "updatedAt": 1791653426804,
+        "detail": "已选合格 0/1，已核验 2；证据不足者保持待核实。youtube：读取 2 条，基础条件排除 0 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。",
+        "remoteStatus": "done",
+        "nextPollAt": 1791653415073
+      },
+      "reportMessages": [
+        {
+          "id": "report-request-9a71a798-4e88-4afb-8f7a-72d0a00c5ac9-e0509936a6ad6182",
+          "role": "assistant",
+          "text": "中断请求中已登记的 1 项工作已结束。上下文切换或登记中断前尚未登记的事项没有执行；以下只汇总实际已登记工作。\n\n- YouTube 科技博主文字研究（两名候选全量分析）：已结束，仍有缺额或失败；已选合格 0/1，已核验 2；证据不足者保持待核实。youtube：读取 2 条，基础条件排除 0 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。 [查看报告](/api/reports/research-ca30a88339a2c54dc79941d1)\n\n[查看本次综合报告](/api/work-batches/9a71a798-4e88-4afb-8f7a-72d0a00c5ac9/report) · [下载综合 CSV](/api/work-batches/9a71a798-4e88-4afb-8f7a-72d0a00c5ac9/report?format=csv)",
+          "createdAt": 1791653426811,
+          "epoch": 3,
+          "state": "delivered",
+          "attachments": []
+        }
+      ],
+      "results": [
+        {
+          "id": "research-ca30a88339a2c54dc79941d1|youtube:http://wave-fixture:8087/creator/alice",
+          "taskId": "research-ca30a88339a2c54dc79941d1",
+          "creator": {
+            "id": "youtube:http://wave-fixture:8087/creator/alice",
+            "platform": "youtube",
+            "handle": "",
+            "profileUrl": "http://wave-fixture:8087/creator/alice",
+            "displayName": "受控夹具 alice",
+            "followers": null,
+            "region": null,
+            "evidence": [
+              {
+                "id": "41a22cd5e0b68893a736f301",
+                "url": "http://wave-fixture:8087/creator/alice",
+                "text": "这是受控验收账号，公开主页供真实浏览器核验。不是 WaveSurge 实际发现的社交账号。",
+                "kind": "profile",
+                "provider": "qa-controlled-fixture",
+                "publishedAt": null,
+                "capturedAt": 1791653414013
+              }
+            ]
+          },
+          "judgments": [
+            {
+              "criterionId": "__platform",
+              "verdict": "match",
+              "reason": "创作者平台：youtube",
+              "evidenceIds": [],
+              "label": "平台"
+            },
+            {
+              "criterionId": "__followers",
+              "verdict": "unknown",
+              "reason": "未取得粉丝数",
+              "evidenceIds": [],
+              "label": "粉丝范围"
+            },
+            {
+              "criterionId": "technology_content",
+              "verdict": "unknown",
+              "reason": "已有文字仅为 qa-controlled-fixture 来源的受控验收账号说明，未提供简介中的科技定位或公开帖子内容，无法判断公开内容是否包含科技内容。本轮仅复用该文字证据，未重新访问主页。",
+              "evidenceIds": [
+                "41a22cd5e0b68893a736f301"
+              ],
+              "label": "公开内容包含科技内容，依据已有文字资料核验。"
+            }
+          ],
+          "verdict": "unknown",
+          "annotations": [
+            {
+              "dimensionId": "content_direction",
+              "status": "unknown",
+              "values": [],
+              "reason": "提供的受控夹具主页说明不含内容主题或帖子文字，无法确定内容方向。",
+              "evidenceIds": [
+                "41a22cd5e0b68893a736f301"
+              ]
+            }
+          ],
+          "tags": [],
+          "revision": 1,
+          "updatedAt": 1791653420761,
+          "selected": false,
+          "reportContext": {
+            "sourceTaskTitle": "YouTube 科技博主文字研究（两名候选全量分析）",
+            "groupId": "research-ca30a88339a2c54dc79941d1",
+            "groupTitle": "YouTube 科技博主文字研究（两名候选全量分析）",
+            "selectionScope": "research"
+          }
+        },
+        {
+          "id": "research-ca30a88339a2c54dc79941d1|youtube:http://wave-fixture:8087/creator/bob",
+          "taskId": "research-ca30a88339a2c54dc79941d1",
+          "creator": {
+            "id": "youtube:http://wave-fixture:8087/creator/bob",
+            "platform": "youtube",
+            "handle": "",
+            "profileUrl": "http://wave-fixture:8087/creator/bob",
+            "displayName": "受控夹具 bob",
+            "followers": null,
+            "region": null,
+            "evidence": [
+              {
+                "id": "b1a3964a29cd07793976f609",
+                "url": "http://wave-fixture:8087/creator/bob",
+                "text": "这是受控验收账号，公开主页供真实浏览器核验。不是 WaveSurge 实际发现的社交账号。",
+                "kind": "profile",
+                "provider": "qa-controlled-fixture",
+                "publishedAt": null,
+                "capturedAt": 1791653414013
+              }
+            ]
+          },
+          "judgments": [
+            {
+              "criterionId": "__platform",
+              "verdict": "match",
+              "reason": "创作者平台：youtube",
+              "evidenceIds": [],
+              "label": "平台"
+            },
+            {
+              "criterionId": "__followers",
+              "verdict": "unknown",
+              "reason": "未取得粉丝数",
+              "evidenceIds": [],
+              "label": "粉丝范围"
+            },
+            {
+              "criterionId": "technology_content",
+              "verdict": "unknown",
+              "reason": "已有文字仅为 qa-controlled-fixture 提供的受控账号说明，未包含本人简介、公开视频标题或内容描述，无法判断公开内容是否包含科技内容。本轮未重新访问主页；该来源的 capturedAt 为采集时间，publishedAt 为空，不能证明内容发布时间。",
+              "evidenceIds": [
+                "b1a3964a29cd07793976f609"
+              ],
+              "label": "公开内容包含科技内容，依据已有文字资料核验。"
+            }
+          ],
+          "verdict": "unknown",
+          "annotations": [
+            {
+              "dimensionId": "content_direction",
+              "status": "unknown",
+              "values": [],
+              "reason": "现有受控夹具主页说明没有具体内容主题信息，无法据此确定内容方向。",
+              "evidenceIds": [
+                "b1a3964a29cd07793976f609"
+              ]
+            }
+          ],
+          "tags": [],
+          "revision": 1,
+          "updatedAt": 1791653426803,
+          "selected": false,
+          "reportContext": {
+            "sourceTaskTitle": "YouTube 科技博主文字研究（两名候选全量分析）",
+            "groupId": "research-ca30a88339a2c54dc79941d1",
+            "groupTitle": "YouTube 科技博主文字研究（两名候选全量分析）",
+            "selectionScope": "research"
+          }
+        }
+      ],
+      "receipts": [
+        {
+          "id": "call_qy1nv3lgR35AhSSH7V99B2yc",
+          "name": "get_tasks"
+        },
+        {
+          "id": "call_1s2N7OPwcFWPyfa9DCS7WqXD",
+          "name": "start_research"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "action": "load",
+      "at": "2026-10-10T17:30:28.877Z",
+      "beforeEpoch": 3,
+      "input": "再单独做一项 YouTube 耳机博主研究，最后选1个。先看2个候选，两个都分析，粉丝和国家不限，只用现有文字资料不打开网页。每人标一下内容方向，等这一批全结束再给我报告。",
+      "registration": {
+        "active": true,
+        "pending": [
+          "fe55f6c3-aa45-47fa-8cbb-6b26e8ce98b7"
+        ],
+        "task": {
+          "id": "research-01793024e6878ba8d7d898d5",
+          "title": "YouTube 耳机博主文字研究（两名候选全量分析）",
+          "status": "running",
+          "requested": 1,
+          "evaluated": 0,
+          "matched": 0,
+          "matchedMeaning": "研究组入选的合格账号数；合格候选总数见qualifying",
+          "updatedAt": 1791653438323,
+          "detail": "正在读取 WaveSurge 原始资料；本地筛选尚未完成",
+          "nextPollAt": 0
+        },
+        "batch": {
+          "id": "fe55f6c3-aa45-47fa-8cbb-6b26e8ce98b7",
+          "items": [
+            {
+              "kind": "research",
+              "id": "research-01793024e6878ba8d7d898d5",
+              "title": "YouTube 耳机博主文字研究（两名候选全量分析）",
+              "reportUrl": "/api/reports/research-01793024e6878ba8d7d898d5"
+            }
+          ],
+          "sealed": false
+        }
+      },
+      "taskId": "research-01793024e6878ba8d7d898d5",
+      "batchId": "fe55f6c3-aa45-47fa-8cbb-6b26e8ce98b7",
+      "afterEpoch": 4,
+      "closed": {
+        "id": "fe55f6c3-aa45-47fa-8cbb-6b26e8ce98b7",
+        "items": [
+          {
+            "kind": "research",
+            "id": "research-01793024e6878ba8d7d898d5",
+            "title": "YouTube 耳机博主文字研究（两名候选全量分析）",
+            "reportUrl": "/api/reports/research-01793024e6878ba8d7d898d5"
+          }
+        ],
+        "sealed": true,
+        "closureReason": "context_changed"
+      },
+      "finalTask": {
+        "id": "research-01793024e6878ba8d7d898d5",
+        "title": "YouTube 耳机博主文字研究（两名候选全量分析）",
+        "status": "partial",
+        "requested": 1,
+        "evaluated": 2,
+        "matched": 0,
+        "qualifying": 0,
+        "matchedMeaning": "研究组入选的合格账号数；合格候选总数见qualifying",
+        "updatedAt": 1791653453053,
+        "detail": "已选合格 0/1，已核验 2；证据不足者保持待核实。youtube：读取 2 条，基础条件排除 0 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。",
+        "remoteStatus": "done",
+        "nextPollAt": 1791653439359
+      },
+      "reportMessages": [
+        {
+          "id": "report-request-fe55f6c3-aa45-47fa-8cbb-6b26e8ce98b7-7f03c80061651984",
+          "role": "assistant",
+          "text": "中断请求中已登记的 1 项工作已结束。上下文切换或登记中断前尚未登记的事项没有执行；以下只汇总实际已登记工作。\n\n- YouTube 耳机博主文字研究（两名候选全量分析）：已结束，仍有缺额或失败；已选合格 0/1，已核验 2；证据不足者保持待核实。youtube：读取 2 条，基础条件排除 0 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。 [查看报告](/api/reports/research-01793024e6878ba8d7d898d5)\n\n[查看本次综合报告](/api/work-batches/fe55f6c3-aa45-47fa-8cbb-6b26e8ce98b7/report) · [下载综合 CSV](/api/work-batches/fe55f6c3-aa45-47fa-8cbb-6b26e8ce98b7/report?format=csv)",
+          "createdAt": 1791653453062,
+          "epoch": 4,
+          "state": "delivered",
+          "attachments": []
+        }
+      ],
+      "results": [
+        {
+          "id": "research-01793024e6878ba8d7d898d5|youtube:http://wave-fixture:8087/creator/alice",
+          "taskId": "research-01793024e6878ba8d7d898d5",
+          "creator": {
+            "id": "youtube:http://wave-fixture:8087/creator/alice",
+            "platform": "youtube",
+            "handle": "",
+            "profileUrl": "http://wave-fixture:8087/creator/alice",
+            "displayName": "受控夹具 alice",
+            "followers": null,
+            "region": null,
+            "evidence": [
+              {
+                "id": "41a22cd5e0b68893a736f301",
+                "url": "http://wave-fixture:8087/creator/alice",
+                "text": "这是受控验收账号，公开主页供真实浏览器核验。不是 WaveSurge 实际发现的社交账号。",
+                "kind": "profile",
+                "provider": "qa-controlled-fixture",
+                "publishedAt": null,
+                "capturedAt": 1791653438325
+              }
+            ]
+          },
+          "judgments": [
+            {
+              "criterionId": "__platform",
+              "verdict": "match",
+              "reason": "创作者平台：youtube",
+              "evidenceIds": [],
+              "label": "平台"
+            },
+            {
+              "criterionId": "__followers",
+              "verdict": "unknown",
+              "reason": "未取得粉丝数",
+              "evidenceIds": [],
+              "label": "粉丝范围"
+            },
+            {
+              "criterionId": "headphone_content",
+              "verdict": "unknown",
+              "reason": "本轮仅复用 qa-controlled-fixture 提供的既有主页文字，未重新访问页面。该文字只说明账号为受控验收夹具，没有耳机评测、使用体验、推荐或其他内容记录，无法确认是否发布耳机相关内容；采集时间不能视为内容发布时间。",
+              "evidenceIds": [
+                "41a22cd5e0b68893a736f301"
+              ],
+              "label": "发布耳机相关内容，例如耳机评测、使用体验或推荐；依据已有文字资料核验"
+            }
+          ],
+          "verdict": "unknown",
+          "annotations": [
+            {
+              "dimensionId": "content_direction",
+              "status": "unknown",
+              "values": [],
+              "reason": "现有受控夹具主页文字未描述创作者的作品或内容主题，无法确定内容方向。",
+              "evidenceIds": [
+                "41a22cd5e0b68893a736f301"
+              ]
+            }
+          ],
+          "tags": [],
+          "revision": 1,
+          "updatedAt": 1791653444967,
+          "selected": false,
+          "reportContext": {
+            "sourceTaskTitle": "YouTube 耳机博主文字研究（两名候选全量分析）",
+            "groupId": "research-01793024e6878ba8d7d898d5",
+            "groupTitle": "YouTube 耳机博主文字研究（两名候选全量分析）",
+            "selectionScope": "research"
+          }
+        },
+        {
+          "id": "research-01793024e6878ba8d7d898d5|youtube:http://wave-fixture:8087/creator/bob",
+          "taskId": "research-01793024e6878ba8d7d898d5",
+          "creator": {
+            "id": "youtube:http://wave-fixture:8087/creator/bob",
+            "platform": "youtube",
+            "handle": "",
+            "profileUrl": "http://wave-fixture:8087/creator/bob",
+            "displayName": "受控夹具 bob",
+            "followers": null,
+            "region": null,
+            "evidence": [
+              {
+                "id": "b1a3964a29cd07793976f609",
+                "url": "http://wave-fixture:8087/creator/bob",
+                "text": "这是受控验收账号，公开主页供真实浏览器核验。不是 WaveSurge 实际发现的社交账号。",
+                "kind": "profile",
+                "provider": "qa-controlled-fixture",
+                "publishedAt": null,
+                "capturedAt": 1791653438325
+              }
+            ]
+          },
+          "judgments": [
+            {
+              "criterionId": "__platform",
+              "verdict": "match",
+              "reason": "创作者平台：youtube",
+              "evidenceIds": [],
+              "label": "平台"
+            },
+            {
+              "criterionId": "__followers",
+              "verdict": "unknown",
+              "reason": "未取得粉丝数",
+              "evidenceIds": [],
+              "label": "粉丝范围"
+            },
+            {
+              "criterionId": "headphone_content",
+              "verdict": "unknown",
+              "reason": "本轮仅复用 qa-controlled-fixture 提供的主页文字，未重新访问页面。该资料只说明这是受控验收账号，未包含耳机评测、使用体验、推荐或其他发布内容，无法判断是否发布耳机相关内容；采集时间不能视为内容发布时间。",
+              "evidenceIds": [
+                "b1a3964a29cd07793976f609"
+              ],
+              "label": "发布耳机相关内容，例如耳机评测、使用体验或推荐；依据已有文字资料核验"
+            }
+          ],
+          "verdict": "unknown",
+          "annotations": [
+            {
+              "dimensionId": "content_direction",
+              "status": "unknown",
+              "values": [],
+              "reason": "已有主页文字仅说明账号为受控验收夹具，没有简介中的内容定位或具体作品文字，无法确定内容方向。",
+              "evidenceIds": [
+                "b1a3964a29cd07793976f609"
+              ]
+            }
+          ],
+          "tags": [],
+          "revision": 1,
+          "updatedAt": 1791653453049,
+          "selected": false,
+          "reportContext": {
+            "sourceTaskTitle": "YouTube 耳机博主文字研究（两名候选全量分析）",
+            "groupId": "research-01793024e6878ba8d7d898d5",
+            "groupTitle": "YouTube 耳机博主文字研究（两名候选全量分析）",
+            "selectionScope": "research"
+          }
+        }
+      ],
+      "receipts": [
+        {
+          "id": "call_pqEKmbYIPIsWxUwLnbfIBAPq",
+          "name": "get_tasks"
+        },
+        {
+          "id": "call_lxM9RXsRs3zReA2bkqj6UaOq",
+          "name": "get_campaigns"
+        },
+        {
+          "id": "call_nj8bquVc1nO2ydHQrSwUwhLl",
+          "name": "start_research"
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "pageErrors": [],
+  "restart": {
+    "passed": true,
+    "replayedWaveCalls": 0,
+    "duplicateReports": 0
+  },
+  "passed": true,
+  "finishedAt": "2026-10-10T17:31:05.503Z"
+}

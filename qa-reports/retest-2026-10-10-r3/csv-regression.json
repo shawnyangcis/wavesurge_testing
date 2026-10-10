@@ -1,0 +1,294 @@
+[
+  {
+    "name": "original20-results",
+    "csvRows": 20,
+    "savedResults": 20,
+    "sameCount": true,
+    "headers": [
+      "﻿账号",
+      "平台",
+      "粉丝数",
+      "地区",
+      "本地判断",
+      "标签",
+      "链接",
+      "逐条件核验",
+      "证据映射",
+      "入选",
+      "画像标注",
+      "基础事实",
+      "互动率及样本",
+      "照片资源"
+    ],
+    "checks": [
+      "Actual CSV link downloaded",
+      "Chat-accessible structured HTML report opened in actual browser",
+      "Tag values and versions persisted after page reload"
+    ],
+    "errors": null
+  },
+  {
+    "name": "exact-two-results",
+    "csvRows": 2,
+    "savedResults": 2,
+    "sameCount": true,
+    "headers": [
+      "﻿账号",
+      "平台",
+      "粉丝数",
+      "地区",
+      "本地判断",
+      "标签",
+      "链接",
+      "逐条件核验",
+      "证据映射",
+      "入选",
+      "画像标注",
+      "基础事实",
+      "互动率及样本",
+      "照片资源"
+    ],
+    "checks": [
+      "Actual CSV link downloaded",
+      "Chat-accessible structured HTML report opened in actual browser",
+      "Tag values and versions persisted after page reload"
+    ],
+    "errors": null
+  },
+  {
+    "name": "tiktok-results",
+    "csvRows": 2,
+    "savedResults": 2,
+    "sameCount": true,
+    "headers": [
+      "﻿账号",
+      "平台",
+      "粉丝数",
+      "地区",
+      "本地判断",
+      "标签",
+      "链接",
+      "逐条件核验",
+      "证据映射",
+      "入选",
+      "画像标注",
+      "基础事实",
+      "互动率及样本",
+      "照片资源"
+    ],
+    "checks": [
+      "Actual CSV link downloaded",
+      "Chat-accessible structured HTML report opened in actual browser",
+      "Tag values and versions persisted after page reload"
+    ],
+    "errors": null
+  },
+  {
+    "name": "x-text-results",
+    "csvRows": 2,
+    "savedResults": 2,
+    "sameCount": true,
+    "headers": [
+      "﻿账号",
+      "平台",
+      "粉丝数",
+      "地区",
+      "本地判断",
+      "标签",
+      "链接",
+      "逐条件核验",
+      "证据映射",
+      "入选",
+      "画像标注",
+      "基础事实",
+      "互动率及样本",
+      "照片资源"
+    ],
+    "checks": [
+      "Actual CSV link downloaded",
+      "Chat-accessible structured HTML report opened in actual browser",
+      "Tag values and versions persisted after page reload"
+    ],
+    "errors": null
+  },
+  {
+    "name": "youtube-text-results",
+    "csvRows": 0,
+    "savedResults": 0,
+    "sameCount": true,
+    "headers": [
+      "﻿账号",
+      "平台",
+      "粉丝数",
+      "地区",
+      "本地判断",
+      "标签",
+      "链接",
+      "逐条件核验",
+      "证据映射",
+      "入选",
+      "画像标注",
+      "基础事实",
+      "互动率及样本",
+      "照片资源"
+    ],
+    "checks": [
+      "Actual CSV link downloaded",
+      "Chat-accessible structured HTML report opened in actual browser",
+      "Tag values and versions persisted after page reload"
+    ],
+    "errors": null
+  },
+  {
+    "name": "campaign-home-results",
+    "csvRows": 2,
+    "savedResults": 2,
+    "sameCount": true,
+    "headers": [
+      "﻿账号",
+      "平台",
+      "粉丝数",
+      "地区",
+      "本地判断",
+      "标签",
+      "链接",
+      "逐条件核验",
+      "证据映射",
+      "入选",
+      "画像标注",
+      "基础事实",
+      "互动率及样本",
+      "照片资源"
+    ],
+    "checks": [
+      "Actual CSV link downloaded",
+      "Chat-accessible structured HTML report opened in actual browser",
+      "Tag values and versions persisted after page reload"
+    ],
+    "errors": null
+  },
+  {
+    "name": "campaign-mobile-results",
+    "csvRows": 2,
+    "savedResults": 2,
+    "sameCount": true,
+    "headers": [
+      "﻿账号",
+      "平台",
+      "粉丝数",
+      "地区",
+      "本地判断",
+      "标签",
+      "链接",
+      "逐条件核验",
+      "证据映射",
+      "入选",
+      "画像标注",
+      "基础事实",
+      "互动率及样本",
+      "照片资源"
+    ],
+    "checks": [
+      "Actual CSV link downloaded",
+      "Chat-accessible structured HTML report opened in actual browser",
+      "Tag values and versions persisted after page reload"
+    ],
+    "errors": null
+  },
+  {
+    "name": "retag-tech-results",
+    "csvRows": 2,
+    "savedResults": 2,
+    "sameCount": true,
+    "headers": [
+      "﻿账号",
+      "平台",
+      "粉丝数",
+      "地区",
+      "本地判断",
+      "标签",
+      "链接",
+      "逐条件核验",
+      "证据映射",
+      "入选",
+      "画像标注",
+      "基础事实",
+      "互动率及样本",
+      "照片资源"
+    ],
+    "checks": [
+      "Actual CSV link downloaded",
+      "Chat-accessible structured HTML report opened in actual browser",
+      "Tag values and versions persisted after page reload"
+    ],
+    "errors": null
+  },
+  {
+    "name": "retag-study-results",
+    "csvRows": 2,
+    "savedResults": 2,
+    "sameCount": true,
+    "headers": [
+      "﻿账号",
+      "平台",
+      "粉丝数",
+      "地区",
+      "本地判断",
+      "标签",
+      "链接",
+      "逐条件核验",
+      "证据映射",
+      "入选",
+      "画像标注",
+      "基础事实",
+      "互动率及样本",
+      "照片资源"
+    ],
+    "checks": [
+      "Actual CSV link downloaded",
+      "Chat-accessible structured HTML report opened in actual browser",
+      "Tag values and versions persisted after page reload"
+    ],
+    "errors": null
+  },
+  {
+    "name": "retag-tools-results",
+    "csvRows": 2,
+    "savedResults": 2,
+    "sameCount": true,
+    "headers": [
+      "﻿账号",
+      "平台",
+      "粉丝数",
+      "地区",
+      "本地判断",
+      "标签",
+      "链接",
+      "逐条件核验",
+      "证据映射",
+      "入选",
+      "画像标注",
+      "基础事实",
+      "互动率及样本",
+      "照片资源"
+    ],
+    "checks": [
+      "Actual CSV link downloaded",
+      "Chat-accessible structured HTML report opened in actual browser",
+      "Tag values and versions persisted after page reload"
+    ],
+    "errors": null
+  },
+  {
+    "name": "instagram-reverified-results",
+    "csvRows": 2,
+    "savedResults": 2,
+    "sameCount": true,
+    "checks": [
+      "Actual CSV link downloaded",
+      "Chat-accessible structured HTML report opened in actual browser",
+      "Tag values and versions persisted after page reload"
+    ],
+    "errors": null
+  }
+]

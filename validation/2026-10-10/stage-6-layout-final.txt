@@ -1,0 +1,9 @@
+
+Running 2 tests using 1 worker
+
+(node:48549) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/e2e/desktop-view.spec.ts:3:1 › 真实容器有头浏览器：受控只读 noVNC 桌面 (2.6s)
+  ✓  2 tests/e2e/foundation.spec.ts:3:1 › 生产 compose 登录、连续消息、刷新、退出与移动端 (7.0s)
+
+  2 passed (11.0s)

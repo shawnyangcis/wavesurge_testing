@@ -1,0 +1,511 @@
+{
+  "scope": "live",
+  "name": "basic-results",
+  "taskId": "research-7e157f91534c9f8f156d257d",
+  "startedAt": "2026-10-10T06:20:22.260Z",
+  "checks": [
+    "Actual CSV link downloaded",
+    "Chat-accessible structured HTML report opened in actual browser",
+    "Tag values and versions persisted after page reload"
+  ],
+  "queries": [
+    {
+      "tag": "Notion",
+      "count": 0,
+      "handles": [],
+      "csvPath": ".gstack/qa-reports/retest-2026-10-10-r2/basic-results-filter-0.csv",
+      "href": "/api/reports/research-7e157f91534c9f8f156d257d?format=csv&tag=Notion"
+    },
+    {
+      "tag": "geek",
+      "count": 0,
+      "handles": [],
+      "csvPath": ".gstack/qa-reports/retest-2026-10-10-r2/basic-results-filter-1.csv",
+      "href": "/api/reports/research-7e157f91534c9f8f156d257d?format=csv&tag=geek"
+    },
+    {
+      "tag": "不会存在的画像标签",
+      "count": 0,
+      "handles": [],
+      "csvPath": ".gstack/qa-reports/retest-2026-10-10-r2/basic-results-filter-2.csv",
+      "href": "/api/reports/research-7e157f91534c9f8f156d257d?format=csv&tag=%E4%B8%8D%E4%BC%9A%E5%AD%98%E5%9C%A8%E7%9A%84%E7%94%BB%E5%83%8F%E6%A0%87%E7%AD%BE"
+    }
+  ],
+  "networkErrors": [
+    {
+      "url": "http://127.0.0.1:3552/api/session",
+      "status": 401
+    }
+  ],
+  "pageErrors": [],
+  "task": {
+    "id": "research-7e157f91534c9f8f156d257d",
+    "title": "美国 TikTok 数码男博主筛选",
+    "status": "partial",
+    "requested": 2,
+    "evaluated": 4,
+    "matched": 0,
+    "qualifying": 0,
+    "updatedAt": 1791612872357,
+    "detail": "已选合格 0/2，已核验 4；证据不足者保持待核实。",
+    "remoteStatus": "done",
+    "nextPollAt": 1791612813015
+  },
+  "results": [
+    {
+      "id": "research-7e157f91534c9f8f156d257d|tiktok:ritualesmayte331",
+      "taskId": "research-7e157f91534c9f8f156d257d",
+      "creator": {
+        "id": "tiktok:ritualesmayte331",
+        "platform": "tiktok",
+        "handle": "ritualesmayte331",
+        "profileUrl": "",
+        "displayName": "Rituales Mayte 🐍🍀✨",
+        "followers": 331181300,
+        "region": null,
+        "evidence": [
+          {
+            "id": "a13f3f3f6fdb1fc89e0ab5b6",
+            "url": "about:blank",
+            "kind": "browser_snapshot",
+            "text": "",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791612816928,
+            "assetId": "31534d0ff8b0900213a111990b158c5b950eb67812e29c91cece6292ddac76c1"
+          }
+        ]
+      },
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "unknown",
+          "reason": "未取得创作者地区",
+          "evidenceIds": [],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：tiktok",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "no_match",
+          "reason": "WaveSurge 粉丝数 331181300，要求 10000–100000",
+          "evidenceIds": [],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "digital_content",
+          "verdict": "unknown",
+          "reason": "唯一来源为 about:blank 空白页，没有简介或帖子文字，无法确认发布数码或消费电子内容；未提供可访问的主页或帖子链接。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ],
+          "label": "发布数码或消费电子相关内容"
+        },
+        {
+          "criterionId": "male_self_description",
+          "verdict": "unknown",
+          "reason": "空白页没有账号自身的公开介绍，无法核实明确男性自述；不从名称或外貌推断。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ],
+          "label": "账号自身的公开介绍明确表明为男性；未明确说明则为待确认，不从外貌推断"
+        },
+        {
+          "criterionId": "glasses_preference",
+          "verdict": "unknown",
+          "reason": "实际截图为空白，没有可用于判断佩戴眼镜的创作者图像。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ],
+          "label": "佩戴眼镜，优先但非硬性要求；需基于实际观察到的图像"
+        }
+      ],
+      "verdict": "no_match",
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "unknown",
+          "values": [],
+          "reason": "没有可观察的简介或帖子内容。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ]
+        },
+        {
+          "dimensionId": "style",
+          "status": "unknown",
+          "values": [],
+          "reason": "空白页面不提供内容风格依据。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ]
+        },
+        {
+          "dimensionId": "glasses",
+          "status": "unknown",
+          "values": [],
+          "reason": "没有实际创作者图像可核验。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ]
+        }
+      ],
+      "tags": [],
+      "revision": 1,
+      "updatedAt": 1791612827781,
+      "selected": false
+    },
+    {
+      "id": "research-7e157f91534c9f8f156d257d|tiktok:stephencurry30",
+      "taskId": "research-7e157f91534c9f8f156d257d",
+      "creator": {
+        "id": "tiktok:stephencurry30",
+        "platform": "tiktok",
+        "handle": "stephencurry30",
+        "profileUrl": "",
+        "displayName": "Stephen Curry",
+        "followers": 308900000,
+        "region": null,
+        "evidence": [
+          {
+            "id": "a13f3f3f6fdb1fc89e0ab5b6",
+            "url": "about:blank",
+            "kind": "browser_snapshot",
+            "text": "",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791612832857,
+            "assetId": "31534d0ff8b0900213a111990b158c5b950eb67812e29c91cece6292ddac76c1"
+          }
+        ]
+      },
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "unknown",
+          "reason": "未取得创作者地区",
+          "evidenceIds": [],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：tiktok",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "no_match",
+          "reason": "WaveSurge 粉丝数 308900000，要求 10000–100000",
+          "evidenceIds": [],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "digital_content",
+          "verdict": "unknown",
+          "reason": "已有来源及本次观察均为 about:blank 空白页，没有简介、帖子文字或日期；未提供可访问的真实主页或帖子链接，无法判断是否发布数码或消费电子内容。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ],
+          "label": "发布数码或消费电子相关内容"
+        },
+        {
+          "criterionId": "male_self_description",
+          "verdict": "unknown",
+          "reason": "空白页未显示账号自身公开介绍，没有明确男性自述；不能从姓名或外部印象推断。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ],
+          "label": "账号自身的公开介绍明确表明为男性；未明确说明则为待确认，不从外貌推断"
+        },
+        {
+          "criterionId": "glasses_preference",
+          "verdict": "unknown",
+          "reason": "实际截图为空白，无创作者可观察图像，无法确认是否佩戴眼镜。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ],
+          "label": "佩戴眼镜，优先但非硬性要求；需基于实际观察到的图像"
+        }
+      ],
+      "verdict": "no_match",
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "unknown",
+          "values": [],
+          "reason": "未取得实际简介或帖子内容。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ]
+        },
+        {
+          "dimensionId": "style",
+          "status": "unknown",
+          "values": [],
+          "reason": "空白页没有内容风格的文字或视觉依据。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ]
+        },
+        {
+          "dimensionId": "glasses",
+          "status": "unknown",
+          "values": [],
+          "reason": "截图未显示人物，无法进行眼镜视觉核验。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ]
+        }
+      ],
+      "tags": [],
+      "revision": 1,
+      "updatedAt": 1791612843326,
+      "selected": false
+    },
+    {
+      "id": "research-7e157f91534c9f8f156d257d|tiktok:seed02678",
+      "taskId": "research-7e157f91534c9f8f156d257d",
+      "creator": {
+        "id": "tiktok:seed02678",
+        "platform": "tiktok",
+        "handle": "seed02678",
+        "profileUrl": "",
+        "displayName": "seed02678",
+        "followers": 267848000,
+        "region": null,
+        "evidence": [
+          {
+            "id": "a13f3f3f6fdb1fc89e0ab5b6",
+            "url": "about:blank",
+            "kind": "browser_snapshot",
+            "text": "",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791612845750,
+            "assetId": "31534d0ff8b0900213a111990b158c5b950eb67812e29c91cece6292ddac76c1"
+          }
+        ]
+      },
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "unknown",
+          "reason": "未取得创作者地区",
+          "evidenceIds": [],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：tiktok",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "no_match",
+          "reason": "WaveSurge 粉丝数 267848000，要求 10000–100000",
+          "evidenceIds": [],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "digital_content",
+          "verdict": "unknown",
+          "reason": "现有来源仅为 about:blank 空白页；未提供有效主页链接或帖子文字，无法核实是否发布数码或消费电子内容。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ],
+          "label": "发布数码或消费电子相关内容"
+        },
+        {
+          "criterionId": "male_self_description",
+          "verdict": "unknown",
+          "reason": "空白页无账号公开介绍，现有资料也无男性自述，无法确认。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ],
+          "label": "账号自身的公开介绍明确表明为男性；未明确说明则为待确认，不从外貌推断"
+        },
+        {
+          "criterionId": "glasses_preference",
+          "verdict": "unknown",
+          "reason": "实际观察到的截图为空白，没有可用于核验佩戴眼镜的创作者图像。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ],
+          "label": "佩戴眼镜，优先但非硬性要求；需基于实际观察到的图像"
+        }
+      ],
+      "verdict": "no_match",
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "unknown",
+          "values": [],
+          "reason": "无可核验的简介或帖子内容。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ]
+        },
+        {
+          "dimensionId": "style",
+          "status": "unknown",
+          "values": [],
+          "reason": "无可观察的创作者内容，无法判断内容风格。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ]
+        },
+        {
+          "dimensionId": "glasses",
+          "status": "unknown",
+          "values": [],
+          "reason": "截图为空白，无法判断是否戴眼镜。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ]
+        }
+      ],
+      "tags": [],
+      "revision": 1,
+      "updatedAt": 1791612856785,
+      "selected": false
+    },
+    {
+      "id": "research-7e157f91534c9f8f156d257d|tiktok:voodoo_248",
+      "taskId": "research-7e157f91534c9f8f156d257d",
+      "creator": {
+        "id": "tiktok:voodoo_248",
+        "platform": "tiktok",
+        "handle": "voodoo_248",
+        "profileUrl": "",
+        "displayName": "voodoo248",
+        "followers": 248207800,
+        "region": null,
+        "evidence": [
+          {
+            "id": "a13f3f3f6fdb1fc89e0ab5b6",
+            "url": "about:blank",
+            "kind": "browser_snapshot",
+            "text": "",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791612859835,
+            "assetId": "31534d0ff8b0900213a111990b158c5b950eb67812e29c91cece6292ddac76c1"
+          }
+        ]
+      },
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "unknown",
+          "reason": "未取得创作者地区",
+          "evidenceIds": [],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：tiktok",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "no_match",
+          "reason": "WaveSurge 粉丝数 248207800，要求 10000–100000",
+          "evidenceIds": [],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "digital_content",
+          "verdict": "unknown",
+          "reason": "已有来源及当前观察均为 about:blank 空白页，无简介或帖子文字；未提供可访问的主页或帖子 HTTP 链接，无法核验数码或消费电子内容。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ],
+          "label": "发布数码或消费电子相关内容"
+        },
+        {
+          "criterionId": "male_self_description",
+          "verdict": "unknown",
+          "reason": "当前来源为空白页，无账号自身公开介绍或明确男性自述，不能推断性别。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ],
+          "label": "账号自身的公开介绍明确表明为男性；未明确说明则为待确认，不从外貌推断"
+        },
+        {
+          "criterionId": "glasses_preference",
+          "verdict": "unknown",
+          "reason": "实际截图为空白页，没有创作者图像，无法判断是否佩戴眼镜。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ],
+          "label": "佩戴眼镜，优先但非硬性要求；需基于实际观察到的图像"
+        }
+      ],
+      "verdict": "no_match",
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "unknown",
+          "values": [],
+          "reason": "没有可核验的简介或帖子内容。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ]
+        },
+        {
+          "dimensionId": "style",
+          "status": "unknown",
+          "values": [],
+          "reason": "空白页面不提供内容风格依据。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ]
+        },
+        {
+          "dimensionId": "glasses",
+          "status": "unknown",
+          "values": [],
+          "reason": "截图无人物，无法提供眼镜画像值。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ]
+        }
+      ],
+      "tags": [],
+      "revision": 1,
+      "updatedAt": 1791612872354,
+      "selected": false
+    }
+  ],
+  "report": {
+    "url": "http://127.0.0.1:3552/api/reports/research-7e157f91534c9f8f156d257d",
+    "articles": 4,
+    "embeddedImages": 4,
+    "profileLinks": 4,
+    "body": "美国 TikTok 数码男博主筛选\n\n目标 2 人；本地已合格 0 人；已核验 4 人。\n\n已选合格 0/2，已核验 4；证据不足者保持待核实。\n\n来源：WaveSurge + 本地核验。远端搜索完成不代表本地条件通过。本次报告包含 4 条筛选记录。报告更新时间：2026-10-10T06:14:32.357Z\nRituales Mayte 🐍🍀✨ · 不符合\n\ntiktok / ritualesmayte331 / 粉丝 331181300 / 未知\n\n标签：\n\n画像 content_direction：待核实；没有可观察的简介或帖子内容。；证据 a13f3f3f6fdb1fc89e0ab5b6\n\n画像 style：待核实；空白页面不提供内容风格依据。；证据 a13f3f3f6fdb1fc89e0ab5b6\n\n画像 glasses：待核实；没有实际创作者图像可核验。；证据 a13f3f3f6fdb1fc89e0ab5b6\n\n条件\t判断\t依据\n所在地区\t待核实\t未取得创作者地区\n\n平台\t符合要求\t创作者平台：tiktok\n\n粉丝范围\t不符合\tWaveSurge 粉丝数 331181300，要求 10000–100000\n\n发布数码或消费电子相关内容\t待核实\t唯一来源为 about:blank 空白页，没有简介或帖子文字，无法确认发布数码或消费电子内容；未提供可访问的主页或帖子链接。\nbrowser_snapshot 日期未知\n账号自身的公开介绍明确表明为男性；未明确说明则为待确认，不从外貌推断\t待核实\t空白页没有账号自身的公开介绍，无法核实明确男性自述；不从名称或外貌推断。\nbrowser_snapshot 日期未知\n佩戴眼镜，优先但非硬性要求；需基于实际观察到的图像\t待核实\t实际截图为空白，没有可用于判断佩戴眼镜的创作者图像。\nbrowser_snapshot 日期未知\n完整证据映射与截图\na13f3f3f6fdb1fc89e0ab5b6 · browser_snapshot\n原始来源\n\n提供方：headed-chromium · 捕获：2026-10-10T06:13:36.928Z · 发布时间：日期未知 · 截图编号：31534d0ff8b0900213a111990b158c5b950eb67812e29c91cece6292ddac76c1\n\nStephen Curry · 不符合\n\ntiktok / stephencurry30 / 粉丝 308900000 / 未知\n\n标签：\n\n画像 content_direction：待核实；未取得实际简介或帖子内容。；证据 a13f3f3f6fdb1fc89e0ab5b6\n\n画像 style：待核实；空白页没有内容风格的文字或视觉依据。；证据 a13f3f3f6fdb1fc89e0ab5b6\n\n画像 glasses：待核实；截图未显示人物，无法进行眼镜视觉核验。；证据 a13f3f3f6fdb1fc89e0ab5b6\n\n条件\t判断\t依据\n所在地区\t待核实\t未取得创作者地区\n\n平台\t符合要求\t创作者平台：tiktok\n\n粉丝范围\t不符合\tWaveSurge 粉丝数 308900000，要求 10000–100000\n\n发布数码或消费电子相关内容\t待核实\t已有来源及本次观察均为 about:blank 空白页，没有简介、帖子文字或日期；未提供可访问的真实主页或帖子链接，无法判断是否发布数码或消费电子内容。\nbrowser_snapshot 日期未知\n账号自身的公开介绍明确表明为男性；未明确说明则为待确认，不从外貌推断\t待核实\t空白页未显示账号自身公开介绍，没有明确男性自述；不能从姓名或外部印象推断。\nbrowser_snapshot 日期未知\n佩戴眼镜，优先但非硬性要求；需基于实际观察到的图像\t待核实\t实际截图为空白，无创作者可观察图像，无法确认是否佩戴眼镜。\nbrowser_snapshot 日期未知\n完整证据映射与截图\na13f3f3f6fdb1fc89e0ab5b6 · browser_snapshot\n原始来源\n\n提供方：headed-chromium · 捕获：2026-10-10T06:13:52.857Z · 发布时间：日期未知 · 截图编号：31534d0ff8b0900213a111990b158c5b950eb67812e29c91cece6292ddac76c1\n\nseed02678 · 不符合\n\ntiktok / seed02678 / 粉丝 267848000 / 未知\n\n标签：\n\n画像 content_direction：待核实；无可核验的简介或帖子内容。；证据 a13f3f3f6fdb1fc89e0ab5b6\n\n画像 style：待核实；无可观察的创作者内容，无法判断内容风格。；证据 a13f3f3f6fdb1fc89e0ab5b6\n\n画像 glasses：待核实；截图为空白，无法判断是否戴眼镜。；证据 a13f3f3f6fdb1fc89e0ab5b6\n\n条件\t判断\t依据\n所在地区\t待核实\t未取得创作者地区\n\n平台\t符合要求\t创作者平台：tiktok\n\n粉丝范围\t不符合\tWaveSurge 粉丝数 267848000，要求 10000–100000\n\n发布数码或消费电子相关内容\t待核实\t现有来源仅为 about:blank 空白页；未提供有效主页链接或帖子文字，无法核实是否发布数码或消费电子内容。\nbrowser_snapshot 日期未知\n账号自身的公开介绍明确表明为男性；未明确说明则为待确认，不从外貌推断\t待核实\t空白页无账号公开介绍，现有资料也无男性自述，无法确认。\nbrowser_snapshot 日期未知\n佩戴眼镜，优先但非硬性要求；需基于实际观察到的图像\t待核实\t实际观察到的截图为空白，没有可用于核验佩戴眼镜的创作者图像。\nbrowser_snapshot 日期未知\n完整证据映射与截图\na13f3f3f6fdb1fc89e0ab5b6 · browser_snapshot\n原始来源\n\n提供方：headed-chromium · 捕获：2026-10-10T06:14:05.750Z · 发布时间：日期未知 · 截图编号：31534d0ff8b0900213a111990b158c5b950eb67812e29c91cece6292ddac76c1\n\nvoodoo248 · 不符合\n\ntiktok / voodoo_248 / 粉丝 248207800 / 未知\n\n标签：\n\n画像 content_direction：待核实；没有可核验的简介或帖子内容。；证据 a13f3f3f6fdb1fc89e0ab5b6\n\n画像 style：待核实；空白页面不提供内容风格依据。；证据 a13f3f3f6fdb1fc89e0ab5b6\n\n画像 glasses：待核实；截图无人物，无法提供眼镜画像值。；证据 a13f3f3f6fdb1fc89e0ab5b6\n\n条件\t判断\t依据\n所在地区\t待核实\t未取得创作者地区\n\n平台\t符合要求\t创作者平台：tiktok\n\n粉丝范围\t不符合\tWaveSurge 粉丝数 248207800，要求 10000–100000\n\n发布数码或消费电子相关内容\t待核实\t已有来源及当前观察均为 about:blank 空白页，无简介或帖子文字；未提供可访问的主页或帖子 HTTP 链接，无法核验数码或消费电子内容。\nbrowser_snapshot 日期未知\n账号自身的公开介绍明确表明为男性；未明确说明则为待确认，不从外貌推断\t待核实\t当前来源为空白页，无账号自身公开介绍或明确男性自述，不能推断性别。\nbrowser_snapshot 日期未知\n佩戴眼镜，优先但非硬性要求；需基于实际观察到的图像\t待核实\t实际截图为空白页，没有创作者图像，无法判断是否佩戴眼镜。\nbrowser_snapshot 日期未知\n完整证据映射与截图\na13f3f3f6fdb1fc89e0ab5b6 · browser_snapshot\n原始来源\n\n提供方：headed-chromium · 捕获：2026-10-10T06:14:19.835Z · 发布时间：日期未知 · 截图编号：31534d0ff8b0900213a111990b158c5b950eb67812e29c91cece6292ddac76c1"
+  },
+  "chatLinks": [
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-7e157f91534c9f8f156d257d"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-7e157f91534c9f8f156d257d?format=csv"
+    }
+  ],
+  "gfmTables": 4,
+  "finishedAt": "2026-10-10T06:20:24.312Z"
+}

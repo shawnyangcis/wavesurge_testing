@@ -1,0 +1,61 @@
+flowchart TB
+  subgraph CHAT["Web 与主会话 Agent"]
+    U["用户文字/图片/执行期间的补充"] --> API["Fastify：登录会话、Origin、内容上限、消息 ID 幂等"]
+    API --> INBOX["SQLite：原始 message + pending inbox"]
+    INBOX --> LOOP["单个主 Agent loop<br/>安全边界注入新消息；每轮重新读取配置"]
+    LOOP --> CTX["系统角色 + 主工作流 + 最新 tasks/campaigns 事实<br/>摘要 checkpoint + 完整保留批次 + 新消息/图片"]
+    CTX --> CMP{"旧批次超过估算压缩阈值？"}
+    CMP -->|是| COMP["LLM 压缩旧批次<br/>保留最近用户批次；revision/epoch 检查后保存 checkpoint"]
+    COMP --> CALL
+    CMP -->|否| CALL["ModelClient：实际 OpenAI 兼容请求<br/>保存 request/response/error/配置版本"]
+    CALL --> DEC{"主 Agent 的决策"}
+    DEC -->|澄清/答复| FRESH{"新消息到达或任务事实改变？"}
+    FRESH -->|是| LOOP
+    FRESH -->|否| OUT["保存 assistant 原话；标记输入 delivered；前端刷新"]
+    DEC -->|查进度/结果/历史| LOOKUP["get_tasks / get_campaigns / get_results / search_history"]
+    LOOKUP --> PAIR
+    DEC -->|Campaign 目标| PLAN["LLM 交互形成类型、理由、完整条件、配额/预算<br/>save_campaign_plan：保存本地草案与 revision"]
+    PLAN --> CONFIRM["用户自然语言确认或方案卡确认当前版本"]
+    CONFIRM --> START["start_campaign：事务创建各组子任务<br/>已开始版本保留；修改需新草案"]
+    DEC -->|直接筛选| DIRECT["start_research：校验 SearchSpec"]
+    DEC -->|明确取消| CANCEL["cancel_research：本地停止，撤销该任务人工租约<br/>远端取消能力未获验证"]
+    DIRECT --> SAVE
+    START --> SAVE
+    SAVE["SQLite：task / spec / 固定 body / 稳定 requestId<br/>tool receipt 保存；恢复同一任务"] --> PAIR["持久工具 flight → 每项 receipt<br/>完整 assistant/tools 配对入 batch；再注入补充消息"]
+    CANCEL --> PAIR
+    PAIR --> LOOP
+  end
+  subgraph RESEARCH["后台程序与逐人 Agent：不占用主聊天 loop"]
+    SAVE --> SUBMIT["POST https://wavesurge.ai/api/v1/creator-search/requests<br/>画像、期望返回数、平台、地区、粉丝范围、emailReadyRequired=false"]
+    SUBMIT --> REMOTE["保存远端 taskId；每约 60 秒 GET /creator-search/requests/:taskId<br/>保留原始响应；429/临时故障保存时间后重试"]
+    REMOTE --> READY{"远端结果状态"}
+    READY -->|queued/running| REMOTE
+    READY -->|failed| FAIL["真实失败记录；保留已完成结果"]
+    READY -->|done| NORM["creators + alsoFound 归一化、平台账号去重、预算截断<br/>保存候选/原始字段/来源；补充候选不直接合格"]
+    NORM --> EACH["选尚未保存结果的候选<br/>独立核验 session / 条件 / evidence"]
+    EACH --> TARGET["首次先 navigate 本候选 profileUrl<br/>不能把上个候选页面作为证据"]
+    TARGET --> VC["逐人 LLM：已有来源 + 最新截图/页面 + 固定条件<br/>browser / request_human_assistance / submit_judgments"]
+    VC --> BD["DesktopBroker → 内部鉴权 API → Playwright<br/>DOM 观察/导航/点击/填表/按键；最新 observationId"]
+    BD --> ASSET["PNG 资产文件 + SQLite 元数据<br/>保存 URL/时间/文字/链接；图像进入真实模型请求"]
+    ASSET --> VC
+    VC --> HUMAN["人工需求保存 taskId/creatorId<br/>阻止新输入 + 排空动作；后台让出共享桌面"]
+    HUMAN --> VNC["admin 认领 → 短期控制 grant → noVNC 同一 profile<br/>人类完成登录/挑战或说明无法完成"]
+    VNC --> RESUME["交还/到期：撤销控制与 WS，恢复原任务<br/>注入人工结果 + fresh observe；旧点击不重放"]
+    RESUME --> VC
+    VC --> J["提交每项 match / no_match / unknown、理由、evidenceIds"]
+    J --> CHECK["程序：粉丝/平台/已确认国家边界；引用存在；视觉须截图<br/>全部必选 match 才通过，偏好仅作标签"]
+    CHECK --> RESULT["SQLite 事务：result + creator/evidence/judgments/tags<br/>更新真实 evaluated/matched；失败按人隔离"]
+    RESULT --> MORE{"还有未处理候选且未超出本地目标/预算？"}
+    MORE -->|是；Campaign 穷尽预算候选| EACH
+    MORE -->|否| FINAL["completed / partial + 实际缺口<br/>取消后的晚到结果不复活任务"]
+    FAIL --> FINAL
+  end
+  subgraph OUTPUT["持久结果与展示"]
+    FINAL --> GROUP["Campaign：只在已合格关系内增广分配配额<br/>同平台账号只占一组；引用对应组结果与证据"]
+    GROUP --> REPORT["本地 HTML 总/分组报告；研究 CSV<br/>标签/平台/判断查询；来源/截图链接"]
+    FINAL --> REPORT
+    RESULT -. "即时保存可查看" .-> REPORT
+    REPORT --> UI["React：每 2 秒真实任务卡；聊天；设置/记录；结果/报告"]
+    OUT --> UI
+    UI --> U
+  end

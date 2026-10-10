@@ -1,0 +1,675 @@
+{
+  "task": {
+    "id": "enrich-f0dedf9da0840c27b9aa14ad",
+    "resultTaskId": "research-be8026ae73f12c86682a616a",
+    "title": "重新核验：两个指定 Instagram 账号逐人核验与画像标注",
+    "status": "completed",
+    "requested": 2,
+    "evaluated": 2,
+    "matched": 1,
+    "detail": "已处理 2 个已有账号；失败 0。",
+    "updatedAt": 1791631103125,
+    "deliveryBatchId": "f14b6222-dd88-40b2-b780-14f820aa4898"
+  },
+  "job": {
+    "id": "enrich-f0dedf9da0840c27b9aa14ad",
+    "taskId": "research-be8026ae73f12c86682a616a",
+    "mode": "reverify",
+    "resultIds": [
+      "research-be8026ae73f12c86682a616a|instagram:tylerlcrawford",
+      "research-be8026ae73f12c86682a616a|instagram:valstechtalkk"
+    ],
+    "annotations": [
+      {
+        "id": "content_direction",
+        "label": "内容方向"
+      },
+      {
+        "id": "presentation_style",
+        "label": "呈现风格"
+      },
+      {
+        "id": "wears_glasses",
+        "label": "是否戴眼镜"
+      },
+      {
+        "id": "geek_style",
+        "label": "geek 风格"
+      }
+    ],
+    "completed": [
+      "research-be8026ae73f12c86682a616a|instagram:tylerlcrawford",
+      "research-be8026ae73f12c86682a616a|instagram:valstechtalkk"
+    ],
+    "attempts": {},
+    "nextAt": 0,
+    "failures": []
+  },
+  "results": [
+    {
+      "id": "research-be8026ae73f12c86682a616a|instagram:tylerlcrawford",
+      "revision": 2,
+      "updatedAt": 1791631058715,
+      "verdict": "match",
+      "tags": [
+        "智能家居与家庭自动化",
+        "数码产品使用体验",
+        "酒店与旅行推荐",
+        "生活方式",
+        "第一人称体验分享",
+        "实用教程与购买建议",
+        "生活场景化",
+        "已观察照片中未戴眼镜"
+      ],
+      "evidence": [
+        {
+          "id": "b6de4a526316333dd2469e9f",
+          "url": "https://instagram.fdel25-5.fna.fbcdn.net/v/t51.82787-15/829407021_18105491066615148_3021605988754565846_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_cat=103&ig_cache_key=Mzk5ODY1OTc3MjQwOTM2MTk5Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMzA3Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=eHP9CN_XyxgQ7kNvwGxSstr&_nc_oc=AdpFINLVQGjSB0j6Yp01jhWuZXLodHjOG7hca7xDGHHJY8OFcfngmS_rlu7VsF_rYIk&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fdel25-5.fna&_nc_gid=2ey39y72qfj6WVrHzkrC7w&_nc_ss=7a3ba&oh=00_AQOElAy7sjNDG-BsdSWPNiR6R2TaeuMUiIoj76x7NL5DGA&oe=6ACFE72D",
+          "assetId": "2201fe76dc02ebe0c298463f6c163966d12ff3bc12867eaf9c0a831fa36c7c1f",
+          "capturedAt": 1791628167673
+        }
+      ],
+      "history": {
+        "revision": 1,
+        "evidence": [
+          {
+            "id": "b6de4a526316333dd2469e9f",
+            "url": "https://instagram.fdel25-5.fna.fbcdn.net/v/t51.82787-15/829407021_18105491066615148_3021605988754565846_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_cat=103&ig_cache_key=Mzk5ODY1OTc3MjQwOTM2MTk5Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMzA3Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=eHP9CN_XyxgQ7kNvwGxSstr&_nc_oc=AdpFINLVQGjSB0j6Yp01jhWuZXLodHjOG7hca7xDGHHJY8OFcfngmS_rlu7VsF_rYIk&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fdel25-5.fna&_nc_gid=2ey39y72qfj6WVrHzkrC7w&_nc_ss=7a3ba&oh=00_AQOElAy7sjNDG-BsdSWPNiR6R2TaeuMUiIoj76x7NL5DGA&oe=6ACFE72D",
+            "assetId": "2201fe76dc02ebe0c298463f6c163966d12ff3bc12867eaf9c0a831fa36c7c1f",
+            "capturedAt": 1791628167673
+          }
+        ]
+      }
+    },
+    {
+      "id": "research-be8026ae73f12c86682a616a|instagram:valstechtalkk",
+      "revision": 2,
+      "updatedAt": 1791631102384,
+      "verdict": "unknown",
+      "tags": [
+        "数码产品分享",
+        "iPhone 使用技巧",
+        "手机及配件体验",
+        "系统新功能介绍",
+        "第一人称使用体验",
+        "技巧教学",
+        "开箱分享",
+        "可爱与时尚融合的文字定位"
+      ],
+      "evidence": [
+        {
+          "id": "834e31e4ad5d6471a34c29b6",
+          "url": "https://www.instagram.com/valstechtalkk/",
+          "assetId": "ca68eec12d3e2421614e3bbab49aaff4cb59898e749ce2fc4aa79a67fb439090",
+          "capturedAt": 1791628249528
+        }
+      ],
+      "history": {
+        "revision": 1,
+        "evidence": [
+          {
+            "id": "834e31e4ad5d6471a34c29b6",
+            "url": "https://www.instagram.com/valstechtalkk/",
+            "assetId": "ca68eec12d3e2421614e3bbab49aaff4cb59898e749ce2fc4aa79a67fb439090",
+            "capturedAt": 1791628249528
+          }
+        ]
+      }
+    }
+  ],
+  "sessions": [
+    {
+      "fresh": false,
+      "toolCalls": [
+        {
+          "id": "call_IPu8ZDMdSwUVOwYJhwMnueMz",
+          "type": "function",
+          "function": {
+            "name": "browser",
+            "arguments": "{\"action\":\"observe\"}"
+          }
+        },
+        {
+          "id": "call_LjHOzviZiyfvVgn0QJUKhECG",
+          "type": "function",
+          "function": {
+            "name": "browser",
+            "arguments": "{\"action\":\"navigate\",\"url\":\"https://instagram.fdel25-5.fna.fbcdn.net/v/t51.82787-15/829407021_18105491066615148_3021605988754565846_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_cat=103&ig_cache_key=Mzk5ODY1OTc3MjQwOTM2MTk5Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMzA3Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=eHP9CN_XyxgQ7kNvwGxSstr&_nc_oc=AdpFINLVQGjSB0j6Yp01jhWuZXLodHjOG7hca7xDGHHJY8OFcfngmS_rlu7VsF_rYIk&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fdel25-5.fna&_nc_gid=2ey39y72qfj6WVrHzkrC7w&_nc_ss=7a3ba&oh=00_AQOElAy7sjNDG-BsdSWPNiR6R2TaeuMUiIoj76x7NL5DGA&oe=6ACFE72D\"}"
+          }
+        },
+        {
+          "id": "call_R2zZN0HXfZhJmtfeQukRVdRh",
+          "type": "function",
+          "function": {
+            "name": "submit_judgments",
+            "arguments": "{\"judgments\":[{\"criterionId\":\"personal_creator\",\"verdict\":\"match\",\"reason\":\"本人简介以个人公寓及评测为定位；2026-09-21帖子自述离开软件工程工作、独立开展品牌合作且无经纪公司或经理，支持个人创作者而非品牌官方账号。\",\"evidenceIds\":[\"ff1a381a09a86e58d73cad1b\",\"41bccc068633704b72701adf\"]},{\"criterionId\":\"digital_content\",\"verdict\":\"match\",\"reason\":\"简介明确 tech + hotel reviews；2026-10-09分享Mac用5K显示器，2026-10-03分享智能窗帘三个月使用体验，2026-09-09讲解智能插座与SwitchBot配置，数码科技分享有多帖支持；同时兼有酒店及生活方式内容，并非纯数码账号。\",\"evidenceIds\":[\"ff1a381a09a86e58d73cad1b\",\"4375c28c23199f49b39721bc\",\"7a75d8ce88cc1bf78cf523ab\",\"04e497a6a4503326179bbc50\"]}],\"annotations\":[{\"dimensionId\":\"content_direction\",\"status\":\"supported\",\"values\":[\"智能家居与家庭自动化\",\"数码产品使用体验\",\"酒店与旅行推荐\",\"生活方式\"],\"reason\":\"简介及显示器、智能家居和酒店推荐帖分别支持这些内容方向。\",\"evidenceIds\":[\"ff1a381a09a86e58d73cad1b\",\"4375c28c23199f49b39721bc\",\"04e497a6a4503326179bbc50\",\"222e752d6057ee12c1192060\"]},{\"dimensionId\":\"presentation_style\",\"status\":\"supported\",\"values\":[\"第一人称体验分享\",\"实用教程与购买建议\",\"生活场景化\"],\"reason\":\"智能窗帘帖叙述三个月实际使用，智能家居帖分步骤说明产品与价格，酒店帖按亲身入住体验推荐；此处为文字呈现风格，不推断视频镜头或剪辑。\",\"evidenceIds\":[\"7a75d8ce88cc1bf78cf523ab\",\"04e497a6a4503326179bbc50\",\"222e752d6057ee12c1192060\"]},{\"dimensionId\":\"wears_glasses\",\"status\":\"supported\",\"values\":[\"已观察照片中未戴眼镜\"],\"reason\":\"实际观察2026-10-02品牌旅行照片中的人物未佩戴眼镜；仅限该照片，不代表日常始终不戴眼镜。\",\"evidenceIds\":[\"b6de4a526316333dd2469e9f\",\"eb8b626fc083f31d44320636\"]},{\"dimensionId\":\"geek_style\",\"status\":\"unknown\",\"values\":[],\"reason\":\"智能家居内容及软件工程背景不能直接证明geek外观风格；已观察照片为休闲穿搭，无充分依据给出整体geek风格标签。\",\"evidenceIds\":[\"b6de4a526316333dd2469e9f\",\"41bccc068633704b72701adf\"]}],\"facts\":[{\"kind\":\"followers\",\"rawValue\":\"31227 followers\",\"evidenceIds\":[\"ff1a381a09a86e58d73cad1b\"]}]}"
+          }
+        }
+      ],
+      "observations": [
+        {
+          "url": "https://instagram.fdel25-5.fna.fbcdn.net/v/t51.82787-15/829407021_18105491066615148_3021605988754565846_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_cat=103&ig_cache_key=Mzk5ODY1OTc3MjQwOTM2MTk5Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMzA3Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=eHP9CN_XyxgQ7kNvwGxSstr&_nc_oc=AdpFINLVQGjSB0j6Yp01jhWuZXLodHjOG7hca7xDGHHJY8OFcfngmS_rlu7VsF_rYIk&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fdel25-5.fna&_nc_gid=2ey39y72qfj6WVrHzkrC7w&_nc_ss=7a3ba&oh=00_AQOElAy7sjNDG-BsdSWPNiR6R2TaeuMUiIoj76x7NL5DGA&oe=6ACFE72D",
+          "assetId": "2201fe76dc02ebe0c298463f6c163966d12ff3bc12867eaf9c0a831fa36c7c1f",
+          "observedAt": 1791631030086
+        }
+      ],
+      "errors": [
+        {
+          "toolCallId": "call_IPu8ZDMdSwUVOwYJhwMnueMz",
+          "error": "尚未定位当前候选；请先 navigate 给出的本人主页、原帖或照片资源，不能观察之前其他候选页面"
+        }
+      ],
+      "submitted": {
+        "judgments": [
+          {
+            "criterionId": "personal_creator",
+            "verdict": "match",
+            "reason": "本人简介以个人公寓及评测为定位；2026-09-21帖子自述离开软件工程工作、独立开展品牌合作且无经纪公司或经理，支持个人创作者而非品牌官方账号。",
+            "evidenceIds": [
+              "ff1a381a09a86e58d73cad1b",
+              "41bccc068633704b72701adf"
+            ]
+          },
+          {
+            "criterionId": "digital_content",
+            "verdict": "match",
+            "reason": "简介明确 tech + hotel reviews；2026-10-09分享Mac用5K显示器，2026-10-03分享智能窗帘三个月使用体验，2026-09-09讲解智能插座与SwitchBot配置，数码科技分享有多帖支持；同时兼有酒店及生活方式内容，并非纯数码账号。",
+            "evidenceIds": [
+              "ff1a381a09a86e58d73cad1b",
+              "4375c28c23199f49b39721bc",
+              "7a75d8ce88cc1bf78cf523ab",
+              "04e497a6a4503326179bbc50"
+            ]
+          }
+        ],
+        "annotations": [
+          {
+            "dimensionId": "content_direction",
+            "status": "supported",
+            "values": [
+              "智能家居与家庭自动化",
+              "数码产品使用体验",
+              "酒店与旅行推荐",
+              "生活方式"
+            ],
+            "reason": "简介及显示器、智能家居和酒店推荐帖分别支持这些内容方向。",
+            "evidenceIds": [
+              "ff1a381a09a86e58d73cad1b",
+              "4375c28c23199f49b39721bc",
+              "04e497a6a4503326179bbc50",
+              "222e752d6057ee12c1192060"
+            ]
+          },
+          {
+            "dimensionId": "presentation_style",
+            "status": "supported",
+            "values": [
+              "第一人称体验分享",
+              "实用教程与购买建议",
+              "生活场景化"
+            ],
+            "reason": "智能窗帘帖叙述三个月实际使用，智能家居帖分步骤说明产品与价格，酒店帖按亲身入住体验推荐；此处为文字呈现风格，不推断视频镜头或剪辑。",
+            "evidenceIds": [
+              "7a75d8ce88cc1bf78cf523ab",
+              "04e497a6a4503326179bbc50",
+              "222e752d6057ee12c1192060"
+            ]
+          },
+          {
+            "dimensionId": "wears_glasses",
+            "status": "supported",
+            "values": [
+              "已观察照片中未戴眼镜"
+            ],
+            "reason": "实际观察2026-10-02品牌旅行照片中的人物未佩戴眼镜；仅限该照片，不代表日常始终不戴眼镜。",
+            "evidenceIds": [
+              "b6de4a526316333dd2469e9f",
+              "eb8b626fc083f31d44320636"
+            ]
+          },
+          {
+            "dimensionId": "geek_style",
+            "status": "unknown",
+            "values": [],
+            "reason": "智能家居内容及软件工程背景不能直接证明geek外观风格；已观察照片为休闲穿搭，无充分依据给出整体geek风格标签。",
+            "evidenceIds": [
+              "b6de4a526316333dd2469e9f",
+              "41bccc068633704b72701adf"
+            ]
+          }
+        ],
+        "facts": [
+          {
+            "kind": "followers",
+            "rawValue": "31227 followers",
+            "evidenceIds": [
+              "ff1a381a09a86e58d73cad1b"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fresh": false,
+      "toolCalls": [
+        {
+          "id": "call_nGfVzMFmpxlXG5fRcDeBWKyP",
+          "type": "function",
+          "function": {
+            "name": "browser",
+            "arguments": "{\"action\":\"observe\"}"
+          }
+        },
+        {
+          "id": "call_JVpYbxMikXeZRFUFnt9TWPMK",
+          "type": "function",
+          "function": {
+            "name": "browser",
+            "arguments": "{\"action\":\"navigate\",\"url\":\"https://www.instagram.com/valstechtalkk/\"}"
+          }
+        },
+        {
+          "id": "call_n5ywhX4Yh3mHOgpmJvqAgnCu",
+          "type": "function",
+          "function": {
+            "name": "submit_judgments",
+            "arguments": "{\"judgments\":[{\"criterionId\":\"personal_creator\",\"verdict\":\"match\",\"reason\":\"本人简介以 V 为名，描述 Reviews + a little glam，并提供个人创作者合作邮箱；帖子以第一人称分享自己更换手机设置、购买和开箱体验，支持个人创作者而非品牌或店铺官方账号。\",\"evidenceIds\":[\"46bb307f3da8c3ffa26c0f10\",\"40ede6d8cdfe49e9626e73a8\",\"9ab396bb0a0b4b411bbe2876\"]},{\"criterionId\":\"digital_content\",\"verdict\":\"match\",\"reason\":\"简介明确定位 tech 和 Reviews；已取得的帖子文字覆盖 iPhone 相机设置、手机使用技巧、Motorola Razr、Apple Watch 和手机配件，内容为数码产品及科技分享。来源帖子日期包括 2026-09-29、2026-10-05 和 2026-10-09。\",\"evidenceIds\":[\"46bb307f3da8c3ffa26c0f10\",\"a7e3e7d0dbee5ed3fcffa6fb\",\"9663118351ea35ea5636ea0e\",\"76c551a09859ee2dfe764c66\"]}],\"annotations\":[{\"dimensionId\":\"content_direction\",\"status\":\"supported\",\"values\":[\"数码产品分享\",\"iPhone 使用技巧\",\"手机及配件体验\",\"系统新功能介绍\"],\"reason\":\"帖子文字直接介绍手机、手机配件、iPhone 设置及 iOS 新功能。\",\"evidenceIds\":[\"a7e3e7d0dbee5ed3fcffa6fb\",\"7bb702ab43acfd45050b3c4a\",\"9663118351ea35ea5636ea0e\",\"fda6f480e37196397ea10faf\"]},{\"dimensionId\":\"presentation_style\",\"status\":\"supported\",\"values\":[\"第一人称使用体验\",\"技巧教学\",\"开箱分享\",\"可爱与时尚融合的文字定位\"],\"reason\":\"依据文字而非未观察的视频画面：简介为 tech but make it cute、Reviews + a little glam；帖子包含个人设置偏好、技巧及开箱表达。\",\"evidenceIds\":[\"46bb307f3da8c3ffa26c0f10\",\"8a11fd6d66c0c8afe86cea45\",\"40d85a86a3c3070e63930b95\",\"9ab396bb0a0b4b411bbe2876\"]},{\"dimensionId\":\"wears_glasses\",\"status\":\"unknown\",\"values\":[],\"reason\":\"未取得可核验的本人实际画面；所给媒体均标注为视频封面，且未观察其像素。文字中的 🤓 表情不能证明本人戴眼镜。\",\"evidenceIds\":[\"c033fb0940eaeb292a6f3339\"]},{\"dimensionId\":\"geek_style\",\"status\":\"unknown\",\"values\":[],\"reason\":\"数码主题和 🤓 表情不足以证明 geek 视觉风格；缺少实际观察到的本人穿搭及呈现画面。\",\"evidenceIds\":[\"46bb307f3da8c3ffa26c0f10\",\"c033fb0940eaeb292a6f3339\"]}],\"facts\":[{\"kind\":\"followers\",\"rawValue\":\"39.6K followers\",\"evidenceIds\":[\"834e31e4ad5d6471a34c29b6\"]}]}"
+          }
+        }
+      ],
+      "observations": [],
+      "errors": [
+        {
+          "toolCallId": "call_nGfVzMFmpxlXG5fRcDeBWKyP",
+          "error": "尚未定位当前候选；请先 navigate 给出的本人主页、原帖或照片资源，不能观察之前其他候选页面"
+        },
+        {
+          "toolCallId": "call_JVpYbxMikXeZRFUFnt9TWPMK",
+          "error": "当前页面没有确认属于本候选主页、帖子或媒体；不能保存空白页或其他账号的观察作为证据"
+        }
+      ],
+      "submitted": {
+        "judgments": [
+          {
+            "criterionId": "personal_creator",
+            "verdict": "match",
+            "reason": "本人简介以 V 为名，描述 Reviews + a little glam，并提供个人创作者合作邮箱；帖子以第一人称分享自己更换手机设置、购买和开箱体验，支持个人创作者而非品牌或店铺官方账号。",
+            "evidenceIds": [
+              "46bb307f3da8c3ffa26c0f10",
+              "40ede6d8cdfe49e9626e73a8",
+              "9ab396bb0a0b4b411bbe2876"
+            ]
+          },
+          {
+            "criterionId": "digital_content",
+            "verdict": "match",
+            "reason": "简介明确定位 tech 和 Reviews；已取得的帖子文字覆盖 iPhone 相机设置、手机使用技巧、Motorola Razr、Apple Watch 和手机配件，内容为数码产品及科技分享。来源帖子日期包括 2026-09-29、2026-10-05 和 2026-10-09。",
+            "evidenceIds": [
+              "46bb307f3da8c3ffa26c0f10",
+              "a7e3e7d0dbee5ed3fcffa6fb",
+              "9663118351ea35ea5636ea0e",
+              "76c551a09859ee2dfe764c66"
+            ]
+          }
+        ],
+        "annotations": [
+          {
+            "dimensionId": "content_direction",
+            "status": "supported",
+            "values": [
+              "数码产品分享",
+              "iPhone 使用技巧",
+              "手机及配件体验",
+              "系统新功能介绍"
+            ],
+            "reason": "帖子文字直接介绍手机、手机配件、iPhone 设置及 iOS 新功能。",
+            "evidenceIds": [
+              "a7e3e7d0dbee5ed3fcffa6fb",
+              "7bb702ab43acfd45050b3c4a",
+              "9663118351ea35ea5636ea0e",
+              "fda6f480e37196397ea10faf"
+            ]
+          },
+          {
+            "dimensionId": "presentation_style",
+            "status": "supported",
+            "values": [
+              "第一人称使用体验",
+              "技巧教学",
+              "开箱分享",
+              "可爱与时尚融合的文字定位"
+            ],
+            "reason": "依据文字而非未观察的视频画面：简介为 tech but make it cute、Reviews + a little glam；帖子包含个人设置偏好、技巧及开箱表达。",
+            "evidenceIds": [
+              "46bb307f3da8c3ffa26c0f10",
+              "8a11fd6d66c0c8afe86cea45",
+              "40d85a86a3c3070e63930b95",
+              "9ab396bb0a0b4b411bbe2876"
+            ]
+          },
+          {
+            "dimensionId": "wears_glasses",
+            "status": "unknown",
+            "values": [],
+            "reason": "未取得可核验的本人实际画面；所给媒体均标注为视频封面，且未观察其像素。文字中的 🤓 表情不能证明本人戴眼镜。",
+            "evidenceIds": [
+              "c033fb0940eaeb292a6f3339"
+            ]
+          },
+          {
+            "dimensionId": "geek_style",
+            "status": "unknown",
+            "values": [],
+            "reason": "数码主题和 🤓 表情不足以证明 geek 视觉风格；缺少实际观察到的本人穿搭及呈现画面。",
+            "evidenceIds": [
+              "46bb307f3da8c3ffa26c0f10",
+              "c033fb0940eaeb292a6f3339"
+            ]
+          }
+        ],
+        "facts": [
+          {
+            "kind": "followers",
+            "rawValue": "39.6K followers",
+            "evidenceIds": [
+              "834e31e4ad5d6471a34c29b6"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "calls": [
+    {
+      "id": "f3f6f6e9-2aff-41e3-b0a3-a59b7b9531b6",
+      "createdAt": 1791631014082,
+      "finishedAt": 1791631017581,
+      "imageCount": 0,
+      "response": {
+        "id": "resp_0d571eef27a11c9c016aca1ea7b1d487d08ac326ab57a5b44e",
+        "object": "chat.completion",
+        "created": 1791631015,
+        "model": "gpt-6.1-sol",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": null,
+              "reasoning_content": null,
+              "tool_calls": [
+                {
+                  "id": "call_IPu8ZDMdSwUVOwYJhwMnueMz",
+                  "type": "function",
+                  "function": {
+                    "name": "browser",
+                    "arguments": "{\"action\":\"observe\"}"
+                  }
+                }
+              ]
+            },
+            "finish_reason": "tool_calls",
+            "native_finish_reason": "tool_calls"
+          }
+        ],
+        "service_tier": "default",
+        "usage": {
+          "completion_tokens": 17,
+          "total_tokens": 37682,
+          "prompt_tokens": 37665,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "cached_creation_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        }
+      }
+    },
+    {
+      "id": "315d3860-067f-41b8-84ec-10d66532536c",
+      "createdAt": 1791631017595,
+      "finishedAt": 1791631028617,
+      "imageCount": 0,
+      "response": {
+        "id": "resp_0173ec3f3ea58421016aca1eac1e3887d08b09583c11d0e540",
+        "object": "chat.completion",
+        "created": 1791631020,
+        "model": "gpt-6.1-sol",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": null,
+              "reasoning_content": null,
+              "tool_calls": [
+                {
+                  "id": "call_LjHOzviZiyfvVgn0QJUKhECG",
+                  "type": "function",
+                  "function": {
+                    "name": "browser",
+                    "arguments": "{\"action\":\"navigate\",\"url\":\"https://instagram.fdel25-5.fna.fbcdn.net/v/t51.82787-15/829407021_18105491066615148_3021605988754565846_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_cat=103&ig_cache_key=Mzk5ODY1OTc3MjQwOTM2MTk5Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMzA3Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=eHP9CN_XyxgQ7kNvwGxSstr&_nc_oc=AdpFINLVQGjSB0j6Yp01jhWuZXLodHjOG7hca7xDGHHJY8OFcfngmS_rlu7VsF_rYIk&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fdel25-5.fna&_nc_gid=2ey39y72qfj6WVrHzkrC7w&_nc_ss=7a3ba&oh=00_AQOElAy7sjNDG-BsdSWPNiR6R2TaeuMUiIoj76x7NL5DGA&oe=6ACFE72D\"}"
+                  }
+                }
+              ]
+            },
+            "finish_reason": "tool_calls",
+            "native_finish_reason": "tool_calls"
+          }
+        ],
+        "service_tier": "default",
+        "usage": {
+          "completion_tokens": 367,
+          "total_tokens": 38091,
+          "prompt_tokens": 37724,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "cached_creation_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        }
+      }
+    },
+    {
+      "id": "bf9f7014-39dd-4776-9281-63ae5817a452",
+      "createdAt": 1791631030165,
+      "finishedAt": 1791631058623,
+      "imageCount": 1,
+      "response": {
+        "id": "resp_0498ce25a8b2c823016aca1ebfaa4087d0bb6e5d729e596df6",
+        "object": "chat.completion",
+        "created": 1791631039,
+        "model": "gpt-6.1-sol",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": null,
+              "reasoning_content": null,
+              "tool_calls": [
+                {
+                  "id": "call_R2zZN0HXfZhJmtfeQukRVdRh",
+                  "type": "function",
+                  "function": {
+                    "name": "submit_judgments",
+                    "arguments": "{\"judgments\":[{\"criterionId\":\"personal_creator\",\"verdict\":\"match\",\"reason\":\"本人简介以个人公寓及评测为定位；2026-09-21帖子自述离开软件工程工作、独立开展品牌合作且无经纪公司或经理，支持个人创作者而非品牌官方账号。\",\"evidenceIds\":[\"ff1a381a09a86e58d73cad1b\",\"41bccc068633704b72701adf\"]},{\"criterionId\":\"digital_content\",\"verdict\":\"match\",\"reason\":\"简介明确 tech + hotel reviews；2026-10-09分享Mac用5K显示器，2026-10-03分享智能窗帘三个月使用体验，2026-09-09讲解智能插座与SwitchBot配置，数码科技分享有多帖支持；同时兼有酒店及生活方式内容，并非纯数码账号。\",\"evidenceIds\":[\"ff1a381a09a86e58d73cad1b\",\"4375c28c23199f49b39721bc\",\"7a75d8ce88cc1bf78cf523ab\",\"04e497a6a4503326179bbc50\"]}],\"annotations\":[{\"dimensionId\":\"content_direction\",\"status\":\"supported\",\"values\":[\"智能家居与家庭自动化\",\"数码产品使用体验\",\"酒店与旅行推荐\",\"生活方式\"],\"reason\":\"简介及显示器、智能家居和酒店推荐帖分别支持这些内容方向。\",\"evidenceIds\":[\"ff1a381a09a86e58d73cad1b\",\"4375c28c23199f49b39721bc\",\"04e497a6a4503326179bbc50\",\"222e752d6057ee12c1192060\"]},{\"dimensionId\":\"presentation_style\",\"status\":\"supported\",\"values\":[\"第一人称体验分享\",\"实用教程与购买建议\",\"生活场景化\"],\"reason\":\"智能窗帘帖叙述三个月实际使用，智能家居帖分步骤说明产品与价格，酒店帖按亲身入住体验推荐；此处为文字呈现风格，不推断视频镜头或剪辑。\",\"evidenceIds\":[\"7a75d8ce88cc1bf78cf523ab\",\"04e497a6a4503326179bbc50\",\"222e752d6057ee12c1192060\"]},{\"dimensionId\":\"wears_glasses\",\"status\":\"supported\",\"values\":[\"已观察照片中未戴眼镜\"],\"reason\":\"实际观察2026-10-02品牌旅行照片中的人物未佩戴眼镜；仅限该照片，不代表日常始终不戴眼镜。\",\"evidenceIds\":[\"b6de4a526316333dd2469e9f\",\"eb8b626fc083f31d44320636\"]},{\"dimensionId\":\"geek_style\",\"status\":\"unknown\",\"values\":[],\"reason\":\"智能家居内容及软件工程背景不能直接证明geek外观风格；已观察照片为休闲穿搭，无充分依据给出整体geek风格标签。\",\"evidenceIds\":[\"b6de4a526316333dd2469e9f\",\"41bccc068633704b72701adf\"]}],\"facts\":[{\"kind\":\"followers\",\"rawValue\":\"31227 followers\",\"evidenceIds\":[\"ff1a381a09a86e58d73cad1b\"]}]}"
+                  }
+                }
+              ]
+            },
+            "finish_reason": "tool_calls",
+            "native_finish_reason": "tool_calls"
+          }
+        ],
+        "service_tier": "default",
+        "usage": {
+          "completion_tokens": 741,
+          "total_tokens": 69828,
+          "prompt_tokens": 69087,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "cached_creation_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        }
+      }
+    },
+    {
+      "id": "aad0a23f-77c3-47b7-a1e5-3416ef15b404",
+      "createdAt": 1791631060244,
+      "finishedAt": 1791631068050,
+      "imageCount": 0,
+      "response": {
+        "id": "resp_03178ae065c51f15016aca1ed9a43887d082d723541ac3b304",
+        "object": "chat.completion",
+        "created": 1791631065,
+        "model": "gpt-6.1-sol",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": null,
+              "reasoning_content": null,
+              "tool_calls": [
+                {
+                  "id": "call_nGfVzMFmpxlXG5fRcDeBWKyP",
+                  "type": "function",
+                  "function": {
+                    "name": "browser",
+                    "arguments": "{\"action\":\"observe\"}"
+                  }
+                }
+              ]
+            },
+            "finish_reason": "tool_calls",
+            "native_finish_reason": "tool_calls"
+          }
+        ],
+        "service_tier": "default",
+        "usage": {
+          "completion_tokens": 17,
+          "total_tokens": 16393,
+          "prompt_tokens": 16376,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "cached_creation_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        }
+      }
+    },
+    {
+      "id": "53b40ac2-2f3f-4a35-af95-7f36df81e6d3",
+      "createdAt": 1791631068056,
+      "finishedAt": 1791631074553,
+      "imageCount": 0,
+      "response": {
+        "id": "resp_02d182491cc23bee016aca1edeff0487d09a7ca91e66d3a013",
+        "object": "chat.completion",
+        "created": 1791631071,
+        "model": "gpt-6.1-sol",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": null,
+              "reasoning_content": null,
+              "tool_calls": [
+                {
+                  "id": "call_JVpYbxMikXeZRFUFnt9TWPMK",
+                  "type": "function",
+                  "function": {
+                    "name": "browser",
+                    "arguments": "{\"action\":\"navigate\",\"url\":\"https://www.instagram.com/valstechtalkk/\"}"
+                  }
+                }
+              ]
+            },
+            "finish_reason": "tool_calls",
+            "native_finish_reason": "tool_calls"
+          }
+        ],
+        "service_tier": "default",
+        "usage": {
+          "completion_tokens": 54,
+          "total_tokens": 16489,
+          "prompt_tokens": 16435,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "cached_creation_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 20
+          }
+        }
+      }
+    },
+    {
+      "id": "06e45648-490f-469a-87fa-9e672714710c",
+      "createdAt": 1791631077602,
+      "finishedAt": 1791631102338,
+      "imageCount": 0,
+      "response": {
+        "id": "resp_0d96fa74d60ab37e016aca1ee95c8087d089a35cec781326f4",
+        "object": "chat.completion",
+        "created": 1791631081,
+        "model": "gpt-6.1-sol",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": null,
+              "reasoning_content": null,
+              "tool_calls": [
+                {
+                  "id": "call_n5ywhX4Yh3mHOgpmJvqAgnCu",
+                  "type": "function",
+                  "function": {
+                    "name": "submit_judgments",
+                    "arguments": "{\"judgments\":[{\"criterionId\":\"personal_creator\",\"verdict\":\"match\",\"reason\":\"本人简介以 V 为名，描述 Reviews + a little glam，并提供个人创作者合作邮箱；帖子以第一人称分享自己更换手机设置、购买和开箱体验，支持个人创作者而非品牌或店铺官方账号。\",\"evidenceIds\":[\"46bb307f3da8c3ffa26c0f10\",\"40ede6d8cdfe49e9626e73a8\",\"9ab396bb0a0b4b411bbe2876\"]},{\"criterionId\":\"digital_content\",\"verdict\":\"match\",\"reason\":\"简介明确定位 tech 和 Reviews；已取得的帖子文字覆盖 iPhone 相机设置、手机使用技巧、Motorola Razr、Apple Watch 和手机配件，内容为数码产品及科技分享。来源帖子日期包括 2026-09-29、2026-10-05 和 2026-10-09。\",\"evidenceIds\":[\"46bb307f3da8c3ffa26c0f10\",\"a7e3e7d0dbee5ed3fcffa6fb\",\"9663118351ea35ea5636ea0e\",\"76c551a09859ee2dfe764c66\"]}],\"annotations\":[{\"dimensionId\":\"content_direction\",\"status\":\"supported\",\"values\":[\"数码产品分享\",\"iPhone 使用技巧\",\"手机及配件体验\",\"系统新功能介绍\"],\"reason\":\"帖子文字直接介绍手机、手机配件、iPhone 设置及 iOS 新功能。\",\"evidenceIds\":[\"a7e3e7d0dbee5ed3fcffa6fb\",\"7bb702ab43acfd45050b3c4a\",\"9663118351ea35ea5636ea0e\",\"fda6f480e37196397ea10faf\"]},{\"dimensionId\":\"presentation_style\",\"status\":\"supported\",\"values\":[\"第一人称使用体验\",\"技巧教学\",\"开箱分享\",\"可爱与时尚融合的文字定位\"],\"reason\":\"依据文字而非未观察的视频画面：简介为 tech but make it cute、Reviews + a little glam；帖子包含个人设置偏好、技巧及开箱表达。\",\"evidenceIds\":[\"46bb307f3da8c3ffa26c0f10\",\"8a11fd6d66c0c8afe86cea45\",\"40d85a86a3c3070e63930b95\",\"9ab396bb0a0b4b411bbe2876\"]},{\"dimensionId\":\"wears_glasses\",\"status\":\"unknown\",\"values\":[],\"reason\":\"未取得可核验的本人实际画面；所给媒体均标注为视频封面，且未观察其像素。文字中的 🤓 表情不能证明本人戴眼镜。\",\"evidenceIds\":[\"c033fb0940eaeb292a6f3339\"]},{\"dimensionId\":\"geek_style\",\"status\":\"unknown\",\"values\":[],\"reason\":\"数码主题和 🤓 表情不足以证明 geek 视觉风格；缺少实际观察到的本人穿搭及呈现画面。\",\"evidenceIds\":[\"46bb307f3da8c3ffa26c0f10\",\"c033fb0940eaeb292a6f3339\"]}],\"facts\":[{\"kind\":\"followers\",\"rawValue\":\"39.6K followers\",\"evidenceIds\":[\"834e31e4ad5d6471a34c29b6\"]}]}"
+                  }
+                }
+              ]
+            },
+            "finish_reason": "tool_calls",
+            "native_finish_reason": "tool_calls"
+          }
+        ],
+        "service_tier": "default",
+        "usage": {
+          "completion_tokens": 782,
+          "total_tokens": 17290,
+          "prompt_tokens": 16508,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "cached_creation_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 20
+          }
+        }
+      }
+    }
+  ],
+  "waveCalls": [],
+  "auditAt": "2026-10-10T11:23:10.500Z",
+  "inputStart": "2026-10-10T11:16:45.305Z"
+}

@@ -1,0 +1,68 @@
+{
+  "at": "2026-10-10T08:05:39.819Z",
+  "method": "GET only, no platform search creation",
+  "requestedLimit": 1000,
+  "results": [
+    {
+      "path": "/discover/db?platform=tiktok&limit=1000&sort=followers_asc",
+      "http": 200,
+      "elapsedMs": 1176.4627090000013,
+      "count": 500,
+      "summaryTotal": 500,
+      "paginationKeys": [],
+      "followers": {
+        "min": 1000,
+        "max": 1055
+      },
+      "matchingFollowers": 0,
+      "missingProfileUrl": 500,
+      "sampleMatchingIdentities": []
+    },
+    {
+      "path": "/discover/db?platform=tiktok&limit=1000&sort=followers_desc",
+      "http": 200,
+      "elapsedMs": 1005.2064219999993,
+      "count": 500,
+      "summaryTotal": 500,
+      "paginationKeys": [],
+      "followers": {
+        "min": 5000000,
+        "max": 331181300
+      },
+      "matchingFollowers": 0,
+      "missingProfileUrl": 500,
+      "sampleMatchingIdentities": []
+    },
+    {
+      "path": "/discover/db?platform=youtube&limit=1000&sort=followers_asc",
+      "http": 200,
+      "elapsedMs": 595.7628050000003,
+      "count": 500,
+      "summaryTotal": 500,
+      "paginationKeys": [],
+      "followers": {
+        "min": 1000,
+        "max": 1390
+      },
+      "matchingFollowers": 0,
+      "missingProfileUrl": 500,
+      "sampleMatchingIdentities": []
+    },
+    {
+      "path": "/discover/db?platform=youtube&limit=1000&sort=followers_desc",
+      "http": 200,
+      "elapsedMs": 1056.547165,
+      "count": 500,
+      "summaryTotal": 500,
+      "paginationKeys": [],
+      "followers": {
+        "min": 5200000,
+        "max": 502000000
+      },
+      "matchingFollowers": 0,
+      "missingProfileUrl": 500,
+      "sampleMatchingIdentities": []
+    }
+  ],
+  "boundary": "Counts do not prove profile existence, identity, location or qualitative suitability."
+}

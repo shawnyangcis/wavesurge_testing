@@ -1,0 +1,261 @@
+[
+  {
+    "handle": "tylerlcrawford",
+    "followers": 31233,
+    "judgment": {
+      "criterionId": "__followers",
+      "verdict": "match",
+      "reason": "主页显示 31233 followers；保守区间 31233–31233，要求 10000–100000；WaveSurge 精确数 31233",
+      "evidenceIds": [
+        "5ece0499197951eedaffbf5f",
+        "c65b1d20c658699d9194778d",
+        "04a98ed366c8c5aef07880b6",
+        "a4dd43b7fc3a961babfdb93c",
+        "1ce01e5c1cf58cebd44b4f0a",
+        "c0325d33e03a100701ef0c27",
+        "7d937d45e427b77a2e455872",
+        "93d22f94b4e064d4d54060ae",
+        "1f98352377048de21ea03ad1",
+        "c5ab0737dea5864d3654aadb",
+        "455a7da5a2f926ab9a98ae3e",
+        "222e752d6057ee12c1192060",
+        "48629119150dc140b68105c3",
+        "eb8a5e7ba0636f6e0d328f63",
+        "21486ad3467f6c52d44baf48",
+        "f36062cdc839024882e91b01",
+        "ad5fed1d37bae8b1d81eb2c4",
+        "a851ab1c9bf85317f23aa2c9",
+        "4241d4bcdf4736c409f1e020",
+        "26ff234b16784c413aa39f80",
+        "fc30ab3412e8cfc3374e08cd",
+        "ade64ccf912c6a13d52ed158",
+        "019620d03cc8afcd15566cdc",
+        "b3f43f7781beb90fc2745dd3",
+        "ee4ee6480dd8237b39d1b036",
+        "8da42b38b1ceb7b221206a5b",
+        "211770cd7c648c892873e2d9",
+        "b10a06b2fb866bed5eedb7e6",
+        "6708a0fdc22873b44e071faa",
+        "eb8b626fc083f31d44320636",
+        "68281c7a5fba763a12f54b0f",
+        "c4b0d226c388d8415ff8fa2b",
+        "cd1a53c4ffb7d389267f01a2",
+        "6f943d89048c78a8652002f6",
+        "5a67aa083c375536a7882f23",
+        "addd24605bcc378a04a5ee68",
+        "42df165096e2bab2ddca905b",
+        "eefb16b4a71527d93432e71b",
+        "c89c13fbb99983a4ea858f27",
+        "134e0b12eec625d6eb8fbf44",
+        "2c0548303fa91b3392e6efd2",
+        "f2c455b693fd0d8afc70fd47",
+        "3f0e394ca538e7c46fb38edb",
+        "c692940c2803a36ff656789c",
+        "5f38f275d4294ad8c5f4d134",
+        "cdd30f73ce28fd235e69eddb",
+        "776f208198a63af7966af029",
+        "92577323fc70aa459e5b39b8",
+        "62b92eb330d0245d25acc7d9",
+        "381618d7add3d242ee4bd43c",
+        "0449f6d0afc4ee32f01e6ede",
+        "24e978f2d3b0c6406c6c3a97",
+        "56ae80c958570a9c0e18cd09",
+        "39d877dd6ef40f706e07304f",
+        "d52dbeeef9c96b89c1877469",
+        "9d6aa1f91dd328b10dcc01f5",
+        "05fcc7c7358ad842d24eba99",
+        "034473b6149e77ff5a18edd7",
+        "70e42e30c2e51dbac398317f",
+        "a533ba9d9382d83a6d456fe1",
+        "93a3747bd9483a946f3372c7",
+        "f11f207dca9491ef746920f4",
+        "0885deb7856e8fd0886aa244",
+        "ac2d6dc067b497d06f102bef",
+        "bde66194fc72f2ab3d642137",
+        "7c7f4035fdac91c5b2c15351",
+        "54ea06f86ddeb86ffeba5c44",
+        "e6a30906ec2c35031ed671b3",
+        "d6576c5c66a8b49da8ab446e",
+        "04e497a6a4503326179bbc50",
+        "db91a2c84c49fc10185cc284",
+        "2a6cc31a8d7525f626572a38",
+        "3082452af5deee9d3c9e2cdf",
+        "f36338c1234c1259f019121c",
+        "3567fa90843f685e2c08b6b2"
+      ],
+      "label": "粉丝范围"
+    },
+    "facts": {
+      "conflicts": [],
+      "followers": {
+        "min": 31233,
+        "max": 31233,
+        "rawValue": "31233 followers",
+        "evidenceIds": [
+          "5ece0499197951eedaffbf5f"
+        ]
+      }
+    },
+    "referenceCount": 75,
+    "referenceKinds": {
+      "post": 24,
+      "post_photo": 20,
+      "profile": 1,
+      "video_cover": 30
+    },
+    "samples": [
+      {
+        "id": "5ece0499197951eedaffbf5f",
+        "url": "https://www.instagram.com/tylerlcrawford/",
+        "kind": "profile",
+        "text": "My apartment runs itself.\nHometel systems | tech + hotel reviews\naustin, tx | hello@tylerLcrawford.com\nall my links & faves ↓\n31233 followers\n{\"username\":\"tylerlcrawford\",\"userId\":\"48426799147\",\"isPrivate\":false,\"isVerified\":true}",
+        "provider": "wavesurge-instagram-raw",
+        "publishedAt": null,
+        "capturedAt": 1791639128795
+      },
+      {
+        "id": "c65b1d20c658699d9194778d",
+        "url": "https://www.instagram.com/p/DcZxbpBAJDI/",
+        "kind": "post",
+        "text": "{\"caption\":\"My apartment runs itself, and this one is everything that happens while I am asleep.\\n\\nShades close at 9:22. Kitchen shelf lights shut off at 9:50, which is my signal that the day is over. The Pura kicks on lavender. My Eight Sleep adjusts the bed temperature all night based on my body. The humidifier holds the room at 60%. And 45 minutes after sunrise the blackout layer opens first, then the solar shades, so I wake up to the skyline",
+        "provider": "wavesurge-instagram-raw",
+        "publishedAt": "2026-08-24T00:27:53.000Z",
+        "capturedAt": 1791639128795
+      },
+      {
+        "id": "04a98ed366c8c5aef07880b6",
+        "url": "https://scontent-bru2-1.cdninstagram.com/v/t51.82787-15/783875922_18099985466615148_6610446332735907778_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=111&ig_cache_key=Mzk3MDQyMTk1MDI0ODk0NzkxMjE4MDk5OTg1NDYwNjE1MTQ4.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX3VzZXJfdXBsb2FkZWRfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=dCnMQcg6dc0Q7kNvwGMRRwv&_nc_oc=Adpi-NF9fp8qmIyrNMdkdAFy3mriNOMDt_xwuJlbOWr3azqlOXueeYdQrIrROi-AqTo&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-bru2-1.cdninstagram.com&_nc_gid=ynzel30hDiEN_k_u8Pv9Tw&_nc_ss=7a3ba&oh=00_AQPSXOvkWFUt8CXouLAfkQRzN4TuwEiZxBCwzw_Ik7lXUQ&oe=6AD00D18",
+        "kind": "video_cover",
+        "text": "视频封面资源；不能当作照片帖。",
+        "provider": "wavesurge-instagram-raw",
+        "publishedAt": "2026-08-24T00:27:53.000Z",
+        "capturedAt": 1791639128795
+      },
+      {
+        "id": "a4dd43b7fc3a961babfdb93c",
+        "url": "https://www.instagram.com/p/DZoHkAvAbm5/",
+        "kind": "post",
+        "text": "{\"caption\":\"My apartment basically runs itself, and I’m not exaggerating.\\n\\nThese are the 4 things doing my chores for me: Easyplants that water themselves, a Roomba that cleans my floors on a schedule (and spot-cleans any mess from the app), a Pura that keeps my place smelling like a 5-star resort on a timer, and smart plugs that run all my lights so they’re on at sunset and off by 10. This is how I keep a small apartment feeling like a hotel w",
+        "provider": "wavesurge-instagram-raw",
+        "publishedAt": "2026-06-16T00:36:32.000Z",
+        "capturedAt": 1791639128795
+      }
+    ]
+  },
+  {
+    "handle": "valstechtalkk",
+    "followers": 39674,
+    "judgment": {
+      "criterionId": "__followers",
+      "verdict": "match",
+      "reason": "主页显示 39674 followers；保守区间 39674–39674，要求 10000–100000；WaveSurge 精确数 39674",
+      "evidenceIds": [
+        "e9ece5c3e79f7621d0c86e67",
+        "a7e3e7d0dbee5ed3fcffa6fb",
+        "e3991a2b82d284535a868995",
+        "c3953412bbb74ffbca3312f2",
+        "f14e7ded3baaf82cf350dd6b",
+        "641ba2fe23b0f4e145dd9f06",
+        "4b645bf1b5b348345a182d24",
+        "33b799a9f875e6a048103983",
+        "e03ec4e2c214ac81eb532225",
+        "7237a35656ef813026c306a0",
+        "aec7ae2b6ea17191b5c8c3e3",
+        "5cda524e8da383ea651ea60b",
+        "a1d57b7d842a0e812b7864a5",
+        "7bb702ab43acfd45050b3c4a",
+        "803efce0a4745c52b083e69b",
+        "f482f9b0fd99a8f6e3c6c3ef",
+        "390b30e2821196c66bc0d2be",
+        "2b22e29ae0eb86d0544ac2cb",
+        "852ea2df336e96d0549146bf",
+        "dca899590280eb658c797f0e",
+        "d834cab04d60bdd7d2d71892",
+        "f9a6d747f6fce38337625b78",
+        "95552e31c8192a7a940af01c",
+        "17b36859992e5b7793a2cec4",
+        "748dec2f4cd8209fa914f06b",
+        "065050e8db12421e84c73fc7",
+        "66559c59ac04d87279a0fd24",
+        "04d01fbab252e6f46f3e99d3",
+        "6388aeec17efa8ff40ba9216",
+        "3ef26c78905d309854e19080",
+        "06f62c763676d806336bab60",
+        "d05b38e75cd48b3bf74b83a8",
+        "d06d7199a05674a81303e6dd",
+        "40ede6d8cdfe49e9626e73a8",
+        "23942b1430b674e7550445de",
+        "9ab396bb0a0b4b411bbe2876",
+        "62e8f3668f62529fe28d66fa",
+        "b0d56e2e77ad6b5b29e1dafd",
+        "9ae97c99be09bb1768d72da8",
+        "62f8301f53e0d10f92546f01",
+        "545118969e79bf338ba288d7",
+        "c1f34e89b0c4fb215ffd0c21",
+        "8b01c57f00d3e94c7ac8e3d3",
+        "633ae5dfe1d62c4f204824ce",
+        "51464d648a6ffa924c7b2f96",
+        "fda6f480e37196397ea10faf",
+        "e3acbeea6f7c64aac3097009",
+        "7c9d34bcf88db9341c24b3f7",
+        "4307d2454221ff87b9b2008b"
+      ],
+      "label": "粉丝范围"
+    },
+    "facts": {
+      "conflicts": [],
+      "followers": {
+        "min": 39674,
+        "max": 39674,
+        "rawValue": "39674 followers",
+        "evidenceIds": [
+          "e9ece5c3e79f7621d0c86e67"
+        ]
+      }
+    },
+    "referenceCount": 49,
+    "referenceKinds": {
+      "post": 24,
+      "profile": 1,
+      "video_cover": 24
+    },
+    "samples": [
+      {
+        "id": "e9ece5c3e79f7621d0c86e67",
+        "url": "https://www.instagram.com/valstechtalkk/",
+        "kind": "profile",
+        "text": "tech but make it cute 📱 | HTX\nReviews + a little glam  💒💄 \n400k+ tech besties on tiktok 👩🏻‍💻\n📧 : Valstech@swipemgmt.com\n39674 followers\n{\"username\":\"valstechtalkk\",\"userId\":\"10561673222\",\"isPrivate\":false,\"isVerified\":true}",
+        "provider": "wavesurge-instagram-raw",
+        "publishedAt": null,
+        "capturedAt": 1791639217266
+      },
+      {
+        "id": "a7e3e7d0dbee5ed3fcffa6fb",
+        "url": "https://www.instagram.com/p/DeQfBbyKmOR/",
+        "kind": "post",
+        "text": "{\"caption\":\"camera settings i turn on for the CRISP quality 🤩 #iphone #iphonetips #iphone18promax #iphonecamera\",\"likes\":null,\"comments\":15,\"photoCount\":0,\"videoCoverCount\":1}",
+        "provider": "wavesurge-instagram-raw",
+        "publishedAt": "2026-10-09T02:57:55.000Z",
+        "capturedAt": 1791639217266
+      },
+      {
+        "id": "e3991a2b82d284535a868995",
+        "url": "https://scontent-arn2-1.cdninstagram.com/v/t51.71878-15/841296526_958471830672089_2399261896424278889_n.jpg?stp=dst-jpg_e15_p360x360_tt6&_nc_cat=109&ig_cache_key=NDAwMzgzNjUwNjcyNjM1OTk1Mw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZmlyc3RfZnJhbWVfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=Oagi4O3js2QQ7kNvwFGjGkm&_nc_oc=Adpwi-mGiuayqYHVhk65IGirnIMaP1lL64lSCPGrKG_FUHmRWPy5poD9AUsgGHTyebk&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_gid=26Syt72MoO3HhxGGe4qLvQ&_nc_ss=7a3ba&oh=00_AQMaOqvrbT1DKoohkwjdZWIOZ_iyE-eQVcXwv-l7Tb1Q-Q&oe=6AD01FA9",
+        "kind": "video_cover",
+        "text": "视频封面资源；不能当作照片帖。",
+        "provider": "wavesurge-instagram-raw",
+        "publishedAt": "2026-10-09T02:57:55.000Z",
+        "capturedAt": 1791639217266
+      },
+      {
+        "id": "c3953412bbb74ffbca3312f2",
+        "url": "https://www.instagram.com/p/DeNSuNkqMjQ/",
+        "kind": "post",
+        "text": "{\"caption\":\"You don’t have to stick with the same colored cushion anymore!! 🤩🤩 #beats360 #beatsbydre #beatsheadphones #apple\",\"likes\":null,\"comments\":4,\"photoCount\":0,\"videoCoverCount\":1}",
+        "provider": "wavesurge-instagram-raw",
+        "publishedAt": "2026-10-07T21:19:37.000Z",
+        "capturedAt": 1791639217266
+      }
+    ]
+  }
+]

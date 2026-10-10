@@ -1,0 +1,518 @@
+{
+  "atUtc": "2026-10-09T14:56:01.321273+00:00",
+  "method": "GET",
+  "path": "/strategy-projects/3af8e0fc-d70b-4f2c-8447-eaa165d4bf61/brief",
+  "authMode": "cookie",
+  "status": 200,
+  "elapsedSeconds": 0.684,
+  "contentType": "application/json; charset=utf-8",
+  "responseSha256": "91542feba52a893b48979dec3f8f6db2efc37fa48f3f25ae9d12f4f3173c4eab",
+  "response": {
+    "project": {
+      "id": "3af8e0fc-d70b-4f2c-8447-eaa165d4bf61",
+      "title": "New conversation",
+      "campaignId": null,
+      "updatedAt": "2026-10-09T13:52:14.708Z"
+    },
+    "brief": {},
+    "briefFieldAudit": {},
+    "briefFieldStates": {
+      "A01": "unanswered",
+      "A02": "unanswered",
+      "A03": "unanswered",
+      "A04": "unanswered",
+      "A05": "unanswered",
+      "A06": "unanswered",
+      "A07": "unanswered",
+      "A08": "unanswered",
+      "A09": "unanswered",
+      "A10": "unanswered",
+      "B01": "unanswered",
+      "B02": "unanswered",
+      "B03": "unanswered",
+      "B04": "unanswered",
+      "B05": "unanswered",
+      "B06": "unanswered",
+      "B07": "unanswered",
+      "B08": "unanswered",
+      "B09": "unanswered",
+      "B10": "unanswered",
+      "C01": "unanswered",
+      "C02": "unanswered",
+      "C03": "unanswered",
+      "C04": "unanswered",
+      "C05": "unanswered",
+      "C06": "unanswered",
+      "C07": "unanswered",
+      "C08": "unanswered",
+      "C09": "unanswered",
+      "C10": "unanswered",
+      "D01": "unanswered",
+      "D02": "unanswered",
+      "D03": "unanswered",
+      "D04": "unanswered",
+      "D05": "unanswered",
+      "D06": "unanswered",
+      "D07": "unanswered",
+      "D08": "unanswered",
+      "D09": "unanswered",
+      "E01": "unanswered",
+      "E02": "unanswered",
+      "E03": "unanswered",
+      "E04": "unanswered",
+      "E05": "unanswered",
+      "E06": "unanswered",
+      "E07": "unanswered",
+      "E08": "unanswered",
+      "E09": "unanswered"
+    },
+    "briefVersion": 0,
+    "briefRevision": 0,
+    "fieldCoverage": {
+      "strategy_report": {
+        "action": "strategy_report",
+        "missing": [
+          {
+            "id": "A01",
+            "label": "Brand and product",
+            "state": "unanswered"
+          },
+          {
+            "id": "A02",
+            "label": "Business context",
+            "state": "unanswered"
+          },
+          {
+            "id": "A03",
+            "label": "Campaign type",
+            "state": "unanswered"
+          },
+          {
+            "id": "A04",
+            "label": "Primary goal",
+            "state": "unanswered"
+          },
+          {
+            "id": "A05",
+            "label": "Secondary goals",
+            "state": "unanswered"
+          },
+          {
+            "id": "A06",
+            "label": "Desired change",
+            "state": "unanswered"
+          },
+          {
+            "id": "A07",
+            "label": "Success definition",
+            "state": "unanswered"
+          },
+          {
+            "id": "A08",
+            "label": "Current barriers",
+            "state": "unanswered"
+          },
+          {
+            "id": "A10",
+            "label": "Prior learnings",
+            "state": "unanswered"
+          },
+          {
+            "id": "B01",
+            "label": "Target market",
+            "state": "unanswered"
+          },
+          {
+            "id": "B02",
+            "label": "Audience profile",
+            "state": "unanswered"
+          },
+          {
+            "id": "B03",
+            "label": "Use cases",
+            "state": "unanswered"
+          },
+          {
+            "id": "B04",
+            "label": "Needs and motivations",
+            "state": "unanswered"
+          },
+          {
+            "id": "B05",
+            "label": "Conversion barriers",
+            "state": "unanswered"
+          },
+          {
+            "id": "B06",
+            "label": "Message hierarchy",
+            "state": "unanswered"
+          },
+          {
+            "id": "C01",
+            "label": "Overall marketing budget",
+            "state": "unanswered"
+          },
+          {
+            "id": "C02",
+            "label": "Creator budget",
+            "state": "unanswered"
+          },
+          {
+            "id": "C04",
+            "label": "Schedule",
+            "state": "unanswered"
+          },
+          {
+            "id": "D01",
+            "label": "Brand voice",
+            "state": "unanswered"
+          },
+          {
+            "id": "E01",
+            "label": "Marketing plan",
+            "state": "unanswered"
+          },
+          {
+            "id": "E02",
+            "label": "Historical metrics",
+            "state": "unanswered"
+          },
+          {
+            "id": "E04",
+            "label": "Measurement window",
+            "state": "unanswered"
+          },
+          {
+            "id": "E07",
+            "label": "Brand outcomes",
+            "state": "unanswered"
+          }
+        ],
+        "answered": 0,
+        "reads": 23
+      },
+      "competitor_report": {
+        "action": "competitor_report",
+        "missing": [
+          {
+            "id": "B08",
+            "label": "Alternatives",
+            "state": "unanswered"
+          }
+        ],
+        "answered": 0,
+        "reads": 1
+      },
+      "creator_search": {
+        "action": "creator_search",
+        "missing": [
+          {
+            "id": "A01",
+            "label": "Brand and product",
+            "state": "unanswered"
+          },
+          {
+            "id": "B02",
+            "label": "Audience profile",
+            "state": "unanswered"
+          },
+          {
+            "id": "B03",
+            "label": "Use cases",
+            "state": "unanswered"
+          },
+          {
+            "id": "C05",
+            "label": "Platform scope",
+            "state": "unanswered"
+          }
+        ],
+        "answered": 0,
+        "reads": 4
+      },
+      "outreach": {
+        "action": "outreach",
+        "missing": [
+          {
+            "id": "B06",
+            "label": "Message hierarchy",
+            "state": "unanswered"
+          },
+          {
+            "id": "B07",
+            "label": "Claim evidence",
+            "state": "unanswered"
+          },
+          {
+            "id": "B10",
+            "label": "CTA destination",
+            "state": "unanswered"
+          },
+          {
+            "id": "C04",
+            "label": "Schedule",
+            "state": "unanswered"
+          },
+          {
+            "id": "C08",
+            "label": "Fulfillment",
+            "state": "unanswered"
+          },
+          {
+            "id": "D01",
+            "label": "Brand voice",
+            "state": "unanswered"
+          },
+          {
+            "id": "D05",
+            "label": "Prohibited content",
+            "state": "unanswered"
+          }
+        ],
+        "answered": 0,
+        "reads": 7
+      },
+      "negotiation": {
+        "action": "negotiation",
+        "missing": [
+          {
+            "id": "C02",
+            "label": "Creator budget",
+            "state": "unanswered"
+          },
+          {
+            "id": "C06",
+            "label": "Deliverable scope",
+            "state": "unanswered"
+          },
+          {
+            "id": "C07",
+            "label": "Compensation",
+            "state": "unanswered"
+          },
+          {
+            "id": "C09",
+            "label": "Usage rights",
+            "state": "unanswered"
+          }
+        ],
+        "answered": 0,
+        "reads": 4
+      }
+    },
+    "creatorSearch": {
+      "status": "pending",
+      "summary": null,
+      "requested": null,
+      "delivered": null,
+      "operationId": null,
+      "operationState": null,
+      "taskId": null,
+      "failure": null,
+      "updatedAt": "2026-10-09T13:52:14.708Z"
+    },
+    "allowedActions": [
+      "get_current_project_state",
+      "read_current_task_board",
+      "read_web_research",
+      "lookup_playbook",
+      "read_campaign_rules",
+      "edit_brief",
+      "set_project_title",
+      "update_brief_from_message",
+      "set_report_language",
+      "set_standard",
+      "suggest_competitors",
+      "search_web_evidence",
+      "deep_web_research",
+      "keep_current_report",
+      "record_project_note",
+      "skip_competitor_report"
+    ],
+    "taskBoard": {
+      "policyVersion": "strategy-v2",
+      "goal": {
+        "version": 0,
+        "text": "Create a creator campaign",
+        "status": "collecting",
+        "successCriteria": {
+          "targetCreators": null,
+          "targetEmailReady": null,
+          "contactRequirement": "optional",
+          "emailOwnership": "creator_owned_auto_sendable"
+        },
+        "updatedAt": "2026-10-09T13:52:14.708Z"
+      },
+      "currentStep": "brief",
+      "steps": [
+        {
+          "key": "campaign_name",
+          "label": "Campaign name",
+          "status": "done",
+          "summary": "New conversation",
+          "evidence": [
+            {
+              "type": "project",
+              "id": "3af8e0fc-d70b-4f2c-8447-eaa165d4bf61",
+              "label": "project.title",
+              "value": "New conversation"
+            }
+          ],
+          "missing": [],
+          "failure": null,
+          "nextAction": null,
+          "startedAt": null,
+          "completedAt": "2026-10-09T13:52:14.708Z",
+          "updatedAt": "2026-10-09T13:52:14.708Z",
+          "progress": null
+        },
+        {
+          "key": "brief",
+          "label": "Brief",
+          "status": "waiting_user",
+          "summary": null,
+          "evidence": [],
+          "missing": [
+            "website",
+            "budgetUsd",
+            "regions"
+          ],
+          "failure": null,
+          "nextAction": {
+            "type": "answer",
+            "label": "Complete Brief"
+          },
+          "startedAt": null,
+          "completedAt": null,
+          "updatedAt": "2026-10-09T13:52:14.708Z",
+          "progress": null
+        },
+        {
+          "key": "competitor_report",
+          "label": "Competitor report",
+          "status": "pending",
+          "summary": null,
+          "evidence": [],
+          "missing": [],
+          "failure": null,
+          "nextAction": null,
+          "startedAt": null,
+          "completedAt": null,
+          "updatedAt": "2026-10-09T13:52:14.708Z",
+          "progress": null
+        },
+        {
+          "key": "strategy_report",
+          "label": "Strategy report",
+          "status": "pending",
+          "summary": null,
+          "evidence": [],
+          "missing": [],
+          "failure": null,
+          "nextAction": null,
+          "startedAt": null,
+          "completedAt": null,
+          "updatedAt": "2026-10-09T13:52:14.708Z",
+          "progress": null
+        },
+        {
+          "key": "campaign_create",
+          "label": "Campaign creation",
+          "status": "pending",
+          "summary": null,
+          "evidence": [],
+          "missing": [],
+          "failure": null,
+          "nextAction": null,
+          "startedAt": null,
+          "completedAt": null,
+          "updatedAt": "2026-10-09T13:52:14.708Z",
+          "progress": null
+        },
+        {
+          "key": "creator_confirmation",
+          "label": "Creator requirements",
+          "status": "pending",
+          "summary": null,
+          "evidence": [],
+          "missing": [],
+          "failure": null,
+          "nextAction": null,
+          "startedAt": null,
+          "completedAt": null,
+          "updatedAt": "2026-10-09T13:52:14.708Z",
+          "progress": null
+        },
+        {
+          "key": "creator_search",
+          "label": "Creator search",
+          "status": "pending",
+          "summary": null,
+          "evidence": [],
+          "missing": [],
+          "failure": null,
+          "nextAction": null,
+          "startedAt": null,
+          "completedAt": null,
+          "updatedAt": "2026-10-09T13:52:14.708Z",
+          "progress": null
+        },
+        {
+          "key": "delivery",
+          "label": "Final delivery",
+          "status": "pending",
+          "summary": null,
+          "evidence": [],
+          "missing": [],
+          "failure": null,
+          "nextAction": null,
+          "startedAt": null,
+          "completedAt": null,
+          "updatedAt": "2026-10-09T13:52:14.708Z",
+          "progress": null
+        }
+      ],
+      "allowedActions": [
+        "get_current_project_state",
+        "read_current_task_board",
+        "read_web_research",
+        "lookup_playbook",
+        "read_campaign_rules",
+        "edit_brief",
+        "set_project_title",
+        "update_brief_from_message",
+        "set_report_language",
+        "set_standard",
+        "suggest_competitors",
+        "search_web_evidence",
+        "deep_web_research",
+        "keep_current_report",
+        "record_project_note",
+        "skip_competitor_report"
+      ],
+      "mountableActions": [
+        "get_current_project_state",
+        "read_current_task_board",
+        "read_web_research",
+        "lookup_playbook",
+        "read_campaign_rules",
+        "edit_brief",
+        "set_project_title",
+        "update_brief_from_message",
+        "set_report_language",
+        "set_standard",
+        "suggest_competitors",
+        "search_web_evidence",
+        "deep_web_research",
+        "keep_current_report",
+        "record_project_note",
+        "strategy_report",
+        "competitor_report",
+        "skip_competitor_report"
+      ],
+      "canDeliver": false,
+      "updatedAt": "2026-10-09T13:52:14.708Z"
+    },
+    "asOf": "2026-10-09T14:56:02.341Z"
+  }
+}

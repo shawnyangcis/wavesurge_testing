@@ -1,0 +1,55 @@
+{
+  "previousFindings": [
+    {
+      "id": "F26",
+      "status": "passed",
+      "case": "T19",
+      "evidence": "regression-c-browser.json"
+    },
+    {
+      "id": "F27",
+      "status": "passed",
+      "case": "T20",
+      "evidence": "regression-c-browser.json / natural-tag-query.json"
+    },
+    {
+      "id": "F28",
+      "status": "passed",
+      "case": "T21",
+      "evidence": "regression-c-browser.json"
+    },
+    {
+      "id": "F29",
+      "status": "passed",
+      "case": "T18",
+      "evidence": "document-validation.json / business-workflows.json"
+    },
+    {
+      "id": "F30",
+      "status": "passed",
+      "case": "T15",
+      "evidence": "document-validation.json"
+    },
+    {
+      "id": "F31",
+      "status": "passed",
+      "case": "T16",
+      "evidence": "document-validation.json"
+    },
+    {
+      "id": "F32",
+      "status": "passed",
+      "case": "T17",
+      "evidence": "document-validation.json"
+    }
+  ],
+  "newFindings": [
+    {
+      "id": "F33",
+      "status": "failed",
+      "case": "T37",
+      "priority": "P2",
+      "evidence": "reverify-description.json"
+    }
+  ]
+}

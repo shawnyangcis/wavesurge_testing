@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-10T14:50:58.765Z",
+  "sourceTaskId": "research-294320f8d1c060255d3310e8",
+  "jobId": "enrich-0d892ef5d3c99544ad387107",
+  "checks": {
+    "allExistingTwoReverified": true,
+    "noNewWaveRequests": true,
+    "bothNewOwnedProfileVisits": true,
+    "v2ToV3AndV1V2Preserved": true
+  },
+  "records": [
+    {
+      "id": "research-294320f8d1c060255d3310e8|instagram:tylerlcrawford",
+      "revision": 3,
+      "priorRevisions": [
+        1,
+        2
+      ],
+      "newVisitIds": [
+        "d282204c7c2d6b470100cdcf"
+      ],
+      "browserStartedAt": 1791643671694
+    },
+    {
+      "id": "research-294320f8d1c060255d3310e8|instagram:valstechtalkk",
+      "revision": 3,
+      "priorRevisions": [
+        1,
+        2
+      ],
+      "newVisitIds": [
+        "051d8de9515a4fee3be729a1"
+      ],
+      "browserStartedAt": 1791643722861
+    }
+  ]
+}

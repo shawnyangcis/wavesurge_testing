@@ -1,0 +1,158 @@
+{
+  "source": "explicit controlled raw candidate fixture; actual production normalizer, scheduler, matching, UI and HTML report; no real discovery or social-page visit; assertions deliberately reproduce a defect",
+  "actualCanonicalProfileCount": 1,
+  "summary": {
+    "title": "Review同主页重复计数 1791596603205",
+    "goal": "Controlled test: two groups require two distinct accounts; both raw records identify one canonical profile.",
+    "audience": "测试夹具",
+    "groups": [
+      {
+        "id": "a",
+        "rationale": "controlled group A",
+        "spec": {
+          "title": "同主页身份夹具",
+          "personaText": "controlled identity-shape test; NOT real discovery",
+          "count": 1,
+          "candidateBudget": 1,
+          "platforms": [
+            "instagram"
+          ],
+          "regions": [],
+          "minFollowers": 10000,
+          "maxFollowers": 100000,
+          "criteria": []
+        },
+        "taskId": "research-60ab39c0403298dc551b6d65",
+        "matched": 1,
+        "eligible": 1
+      },
+      {
+        "id": "b",
+        "rationale": "controlled group B",
+        "spec": {
+          "title": "同主页身份夹具",
+          "personaText": "controlled identity-shape test; NOT real discovery",
+          "count": 1,
+          "candidateBudget": 1,
+          "platforms": [
+            "instagram"
+          ],
+          "regions": [],
+          "minFollowers": 10000,
+          "maxFollowers": 100000,
+          "criteria": []
+        },
+        "taskId": "research-f1be70f116be21838270e003",
+        "matched": 1,
+        "eligible": 1
+      }
+    ],
+    "id": "campaign-dced582f19ca9003c7c64a87",
+    "revision": 1,
+    "childTaskIds": [
+      "research-60ab39c0403298dc551b6d65",
+      "research-f1be70f116be21838270e003"
+    ],
+    "createdAt": 1791596603830,
+    "updatedAt": 1791596603835,
+    "status": "completed",
+    "requested": 2,
+    "matched": 2,
+    "qualifyingUnique": 2,
+    "evaluated": 2,
+    "selections": [
+      {
+        "creatorId": "instagram:same_person",
+        "groupId": "a",
+        "resultId": "research-60ab39c0403298dc551b6d65|instagram:same_person"
+      },
+      {
+        "creatorId": "instagram:https://www.instagram.com/same_person",
+        "groupId": "b",
+        "resultId": "research-f1be70f116be21838270e003|instagram:https://www.instagram.com/same_person"
+      }
+    ],
+    "reportUrl": "/api/campaigns/campaign-dced582f19ca9003c7c64a87/report",
+    "results": [
+      {
+        "id": "research-60ab39c0403298dc551b6d65|instagram:same_person",
+        "taskId": "research-60ab39c0403298dc551b6d65",
+        "creator": {
+          "id": "instagram:same_person",
+          "platform": "instagram",
+          "handle": "same_person",
+          "profileUrl": "https://www.instagram.com/same_person/",
+          "displayName": "同一主页记录（有 handle，控制夹具）",
+          "followers": 20000,
+          "region": null,
+          "evidence": [],
+          "raw": {
+            "platform": "instagram",
+            "handle": "same_person",
+            "displayName": "同一主页记录（有 handle，控制夹具）",
+            "profileUrl": "https://www.instagram.com/same_person/",
+            "followerCount": 20000
+          }
+        },
+        "judgments": [
+          {
+            "criterionId": "__platform",
+            "verdict": "match",
+            "reason": "创作者平台：instagram",
+            "evidenceIds": [],
+            "label": "平台"
+          },
+          {
+            "criterionId": "__followers",
+            "verdict": "match",
+            "reason": "WaveSurge 粉丝数 20000，要求 10000–100000",
+            "evidenceIds": [],
+            "label": "粉丝范围"
+          }
+        ],
+        "verdict": "match",
+        "tags": [],
+        "updatedAt": 1791596642547
+      },
+      {
+        "id": "research-f1be70f116be21838270e003|instagram:https://www.instagram.com/same_person",
+        "taskId": "research-f1be70f116be21838270e003",
+        "creator": {
+          "id": "instagram:https://www.instagram.com/same_person",
+          "platform": "instagram",
+          "handle": "",
+          "profileUrl": "https://www.instagram.com/same_person/",
+          "displayName": "同一主页记录（无 handle，控制夹具）",
+          "followers": 20000,
+          "region": null,
+          "evidence": [],
+          "raw": {
+            "platform": "instagram",
+            "displayName": "同一主页记录（无 handle，控制夹具）",
+            "profileUrl": "https://www.instagram.com/same_person/",
+            "followerCount": 20000
+          }
+        },
+        "judgments": [
+          {
+            "criterionId": "__platform",
+            "verdict": "match",
+            "reason": "创作者平台：instagram",
+            "evidenceIds": [],
+            "label": "平台"
+          },
+          {
+            "criterionId": "__followers",
+            "verdict": "match",
+            "reason": "WaveSurge 粉丝数 20000，要求 10000–100000",
+            "evidenceIds": [],
+            "label": "粉丝范围"
+          }
+        ],
+        "verdict": "match",
+        "tags": [],
+        "updatedAt": 1791596642556
+      }
+    ]
+  }
+}

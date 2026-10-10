@@ -1,0 +1,139 @@
+{
+  "verifierCalls": 1,
+  "task": {
+    "id": "research-7edb360f06acaef2cc80dba1",
+    "title": "temporary model timeout",
+    "spec": {
+      "title": "temporary model timeout",
+      "personaText": "technology",
+      "count": 1,
+      "candidateBudget": 1,
+      "platforms": [
+        "instagram"
+      ],
+      "regions": [],
+      "minFollowers": 10000,
+      "maxFollowers": 100000,
+      "criteria": [
+        {
+          "id": "technology",
+          "label": "technology content",
+          "required": true,
+          "basis": "text"
+        }
+      ]
+    },
+    "body": {
+      "requestId": "research-7edb360f06acaef2cc80dba1",
+      "personaText": "technology",
+      "count": 1,
+      "platforms": [
+        "instagram"
+      ],
+      "regions": [],
+      "minFollowers": 10000,
+      "maxFollowers": 100000,
+      "emailReadyRequired": false
+    },
+    "status": "partial",
+    "requested": 1,
+    "evaluated": 1,
+    "matched": 0,
+    "updatedAt": 60001,
+    "detail": "已合格 0/1，已核验 1；证据不足者保持待核实。",
+    "nextPollAt": 60000,
+    "candidates": [
+      {
+        "id": "instagram:temporary",
+        "platform": "instagram",
+        "handle": "temporary",
+        "profileUrl": "https://www.instagram.com/temporary/",
+        "displayName": "temporary",
+        "followers": 20000,
+        "region": null,
+        "evidence": [
+          {
+            "id": "42c1c82cb7afa30a5d2f060c",
+            "url": "https://www.instagram.com/temporary/",
+            "text": "technology reviews",
+            "kind": "profile",
+            "provider": "wavesurge-pool",
+            "publishedAt": null,
+            "capturedAt": 60001
+          }
+        ],
+        "raw": {
+          "platform": "instagram",
+          "handle": "temporary",
+          "profileUrl": "https://www.instagram.com/temporary/",
+          "followerCount": 20000,
+          "bio": "technology reviews"
+        }
+      }
+    ],
+    "failures": [
+      "instagram:temporary: 模型请求失败（503）"
+    ],
+    "remoteId": "remote",
+    "remoteStatus": "done"
+  },
+  "results": [
+    {
+      "id": "research-7edb360f06acaef2cc80dba1|instagram:temporary",
+      "taskId": "research-7edb360f06acaef2cc80dba1",
+      "creator": {
+        "id": "instagram:temporary",
+        "platform": "instagram",
+        "handle": "temporary",
+        "profileUrl": "https://www.instagram.com/temporary/",
+        "displayName": "temporary",
+        "followers": 20000,
+        "region": null,
+        "evidence": [
+          {
+            "id": "42c1c82cb7afa30a5d2f060c",
+            "url": "https://www.instagram.com/temporary/",
+            "text": "technology reviews",
+            "kind": "profile",
+            "provider": "wavesurge-pool",
+            "publishedAt": null,
+            "capturedAt": 60001
+          }
+        ],
+        "raw": {
+          "platform": "instagram",
+          "handle": "temporary",
+          "profileUrl": "https://www.instagram.com/temporary/",
+          "followerCount": 20000,
+          "bio": "technology reviews"
+        }
+      },
+      "judgments": [
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 20000，要求 10000–100000",
+          "evidenceIds": [],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "technology",
+          "verdict": "unknown",
+          "reason": "尚未取得足够证据",
+          "evidenceIds": [],
+          "label": "technology content"
+        }
+      ],
+      "verdict": "unknown",
+      "tags": [],
+      "updatedAt": 60001
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "query": "headphones",
+  "source": "Direct read-only actual current application Wave adapter, three real API versions; no new research/candidates submitted",
+  "rows": [
+    {
+      "version": "v1",
+      "ok": false,
+      "error": "WaveSurge 请求失败（400）",
+      "status": 400
+    },
+    {
+      "version": "v2",
+      "ok": true,
+      "count": 49,
+      "rootKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ],
+      "dataKeys": [
+        "data"
+      ],
+      "cursorPresent": false,
+      "sample": [
+        {
+          "id": "2038661033",
+          "username": "remacs.tz",
+          "fullName": "Bluetooth speakers,Airpods, Headphones , Tribit,Remax, W-king"
+        },
+        {
+          "id": "62062884688",
+          "username": "swahiligadgets",
+          "fullName": "iPhone,Samsung,Airpods,Laptops,Soundbars,Headphones,Smart Tv"
+        }
+      ],
+      "upstreamMessage": "Request successful. This request will incur a charge."
+    },
+    {
+      "version": "v3",
+      "ok": true,
+      "count": 25,
+      "rootKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ],
+      "dataKeys": [
+        "users",
+        "items",
+        "count",
+        "rank_token",
+        "_rid"
+      ],
+      "cursorPresent": false,
+      "sample": [
+        {
+          "id": "77658563793",
+          "username": "halo_headphones",
+          "fullName": "Halo Headphones"
+        },
+        {
+          "id": "620513615",
+          "username": "_headphonesgirl",
+          "fullName": "Headphones Girl"
+        }
+      ],
+      "upstreamMessage": "Request successful. This request will incur a charge."
+    }
+  ],
+  "at": "2026-10-10T14:06:29.424Z"
+}

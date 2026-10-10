@@ -1,0 +1,120 @@
+{
+  "source": "actual configured model; independent AI note-taking objective; interactive clarification; persisted draft; no external search",
+  "question": "明白，这是一个**独立的 AI 笔记应用 Campaign**，不沿用降噪耳机的筛选范围；现在只澄清需求，**不启动任何研究**。\n\n请先确认以下 4 项，尚未决定的可以写“希望你建议”：\n\n1. **产品与试用方式**：应用的核心功能是什么（如课堂录音转写、笔记整理、生成复习题）？支持哪些语言和设备？学生如何试用，是否有免费额度？\n2. **目标学生与地区**：主要面向哪些国家或地区、使用什么语言的大学生？是否限定专业或本科／研究生？Creator 所在地是否也有限制？\n3. **推广平台与效果目标**：希望在哪些平台推广？主要衡量注册试用、首次完成课堂笔记、复习功能使用，还是付费转化？\n4. **Creator 筛选规模与限制**：希望最终筛选多少人、粉丝量范围是多少？是否要求在校大学生身份，以及有哪些必选条件、排除项或偏好？\n\n确认后，我会提出 **2–4 类 Creator 的分组方案与人数配额**，供你审核；未经你同意，不会启动搜索。",
+  "plan": {
+    "title": "AI笔记 Campaign 目标验证 1791595810421",
+    "goal": "让大学生在课堂整理和考试复习时试用 AI 笔记应用；本草案仅规划创作者筛选，不启动研究。",
+    "audience": "使用英文内容的大学生，关注课堂笔记整理与考试复习。Creator 所在地限定 United States 或 United Kingdom；不根据外貌或内容主题推断真实学生身份。",
+    "groups": [
+      {
+        "id": "classroom_notes",
+        "rationale": "课堂笔记与学习工具教程型 Creator 可通过课堂记录、笔记结构化和学习工具使用场景，展示 AI 笔记应用如何帮助整理课堂信息，支持大学生试用。",
+        "spec": {
+          "title": "课堂笔记与学习工具教程型",
+          "personaText": "English-language creators publishing classroom note-taking methods, lecture note organization, and study productivity tool tutorials for university audiences.",
+          "count": 1,
+          "platforms": [
+            "youtube",
+            "tiktok"
+          ],
+          "regions": [
+            "United States",
+            "United Kingdom"
+          ],
+          "minFollowers": 10000,
+          "maxFollowers": 100000,
+          "candidateBudget": 2,
+          "criteria": [
+            {
+              "id": "english_content",
+              "label": "公开内容文字表明创作者发布英文内容",
+              "required": true,
+              "basis": "text"
+            },
+            {
+              "id": "creator_location",
+              "label": "公开文字资料支持 Creator 所在国家为 United States 或 United Kingdom；不以受众所在地或内容语言替代所在地证据",
+              "required": true,
+              "basis": "text"
+            },
+            {
+              "id": "classroom_notes_content",
+              "label": "公开内容文字包含面向大学学习场景的课堂笔记记录、课堂信息整理或课程笔记结构化教程",
+              "required": true,
+              "basis": "text"
+            },
+            {
+              "id": "tool_tutorial_preference",
+              "label": "优先选择公开文字内容中有学习工具教程或笔记工作流程讲解的创作者",
+              "required": false,
+              "basis": "text"
+            }
+          ]
+        },
+        "matched": 0,
+        "eligible": 0
+      },
+      {
+        "id": "exam_revision",
+        "rationale": "考试复习与学习策略型 Creator 可把课堂笔记连接到复习提纲、知识回顾及自测流程，补充课堂整理场景，展示 AI 笔记应用在备考阶段的试用价值。",
+        "spec": {
+          "title": "考试复习与学习策略型",
+          "personaText": "English-language creators sharing university exam revision strategies, revision planning, active recall, and methods for turning course notes into study materials.",
+          "count": 1,
+          "platforms": [
+            "youtube",
+            "tiktok"
+          ],
+          "regions": [
+            "United States",
+            "United Kingdom"
+          ],
+          "minFollowers": 10000,
+          "maxFollowers": 100000,
+          "candidateBudget": 2,
+          "criteria": [
+            {
+              "id": "english_content",
+              "label": "公开内容文字表明创作者发布英文内容",
+              "required": true,
+              "basis": "text"
+            },
+            {
+              "id": "creator_location",
+              "label": "公开文字资料支持 Creator 所在国家为 United States 或 United Kingdom；不以受众所在地或内容语言替代所在地证据",
+              "required": true,
+              "basis": "text"
+            },
+            {
+              "id": "exam_revision_content",
+              "label": "公开内容文字包含面向大学课程或考试的复习策略，并涉及利用课程笔记制作复习提纲、知识回顾或自测材料",
+              "required": true,
+              "basis": "text"
+            },
+            {
+              "id": "actionable_revision_preference",
+              "label": "优先选择公开文字内容中有可操作的复习步骤、主动回忆或自测方法讲解的创作者",
+              "required": false,
+              "basis": "text"
+            }
+          ]
+        },
+        "matched": 0,
+        "eligible": 0
+      }
+    ],
+    "id": "campaign-8f13b35c19a3900255279d81",
+    "revision": 1,
+    "childTaskIds": [],
+    "createdAt": 1791595839384,
+    "updatedAt": 1791595839384,
+    "status": "draft",
+    "requested": 2,
+    "matched": 0,
+    "qualifyingUnique": 0,
+    "evaluated": 0,
+    "selections": [],
+    "reportUrl": "/api/campaigns/campaign-8f13b35c19a3900255279d81/report",
+    "results": []
+  }
+}

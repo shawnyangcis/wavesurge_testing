@@ -1,0 +1,13 @@
+{
+  "atUtc": "2026-10-09T14:22:26.941242+00:00",
+  "method": "GET",
+  "path": "/discover/db?platform=instagram&limit=1",
+  "authMode": "none",
+  "status": 401,
+  "elapsedSeconds": 0.54,
+  "contentType": "application/json; charset=utf-8",
+  "responseSha256": "ca730ec7fc2b7edb7277e5b8e58d6a474971ca59dafb499141a4856c06132638",
+  "response": {
+    "error": "Authentication required"
+  }
+}

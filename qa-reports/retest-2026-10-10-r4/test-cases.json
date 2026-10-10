@@ -1,0 +1,685 @@
+[
+  {
+    "id": "ENV01",
+    "title": "验证运行版本与新卷部署",
+    "requirement": "可重复部署",
+    "source": "部署/浏览器",
+    "preconditions": "主部署健康且新端口可用",
+    "input": "无",
+    "steps": "记录源码/镜像版本；建立全新真实与受控实例；登录",
+    "expected": "主应用与桌面执行源码一致；新实例空数据且健康；不重用旧结果证明本轮成功",
+    "status": "passed",
+    "evidence": [
+      "source-check-final.json",
+      "configuration.json"
+    ],
+    "observations": [
+      "当前主部署、本轮真实/受控实例57个TS/TSX源码相符；新数据卷从0任务0结果开始。"
+    ]
+  },
+  {
+    "id": "BASE01",
+    "title": "登录、鉴权与退出",
+    "requirement": "全部功能回归",
+    "source": "实际浏览器+接口",
+    "preconditions": "未登录",
+    "input": "空密码、错误密码、正确密码",
+    "steps": "逐项登录；读取受保护状态/报告/资产/noVNC；退出重试",
+    "expected": "空/错误拒绝，正确进入；未登录全部401；退出撤销会话",
+    "status": "passed",
+    "evidence": [
+      "foundation-ui.json",
+      "extended-ui.json"
+    ],
+    "observations": [
+      "浏览器空/错误/正确登录、退出，11类未授权路由401与写入Origin403。"
+    ]
+  },
+  {
+    "id": "BASE02",
+    "title": "文字/图片对话与消息保存",
+    "requirement": "自然语言交互",
+    "source": "实际浏览器+真实模型",
+    "preconditions": "无活动研究",
+    "input": "看一下这张参考图里有什么，先确认图片能看清就好，不用找创作者。",
+    "steps": "上传/移除/发送图片；检查回复及持久附件；刷新",
+    "expected": "正确识别图片；不擅自研究；用户/回复完整保存",
+    "status": "passed",
+    "evidence": [
+      "foundation-ui.json"
+    ],
+    "observations": [
+      "图片左右颜色识别正确，附件上传/移除/保存；无擅自搜索。"
+    ]
+  },
+  {
+    "id": "BASE03",
+    "title": "配置与提示词更新",
+    "requirement": "全部功能回归",
+    "source": "实际浏览器+真实模型",
+    "preconditions": "独立受控实例",
+    "input": "普通问候；1999压缩阈值",
+    "steps": "保存空API Key和当前配置；验证无效阈值；更新提示词再对话；还原",
+    "expected": "密钥不丢；非法阈值不保存；下一模型请求/回复采用新revision；恢复默认",
+    "status": "passed",
+    "evidence": [
+      "extended-ui.json",
+      "extended-prompt-audit.json",
+      "fault-ui.json"
+    ],
+    "observations": [
+      "无效阈值拒绝；新设置revision进入下一真实模型请求，唯一标记回复成功；提示词与代理端点已还原。"
+    ]
+  },
+  {
+    "id": "BASE04",
+    "title": "备份、重置与压缩",
+    "requirement": "全部功能回归",
+    "source": "实际浏览器+真实模型",
+    "preconditions": "有对话记录",
+    "input": "有效/非法备份JSON",
+    "steps": "下载备份、拒绝非法JSON、空/有历史压缩、闲置reset/load并刷新",
+    "expected": "配对与附件保留；任务不重放；摘要checkpoint可追溯；密钥不导出",
+    "status": "passed",
+    "evidence": [
+      "foundation-ui.json",
+      "compression-populated.json"
+    ],
+    "observations": [
+      "实际下载/拒绝非法JSON/闲置reset与load；有历史压缩生成可追溯checkpoint，原任务与消息保留。"
+    ]
+  },
+  {
+    "id": "BASE05",
+    "title": "桌面查看与移动界面",
+    "requirement": "全部功能回归",
+    "source": "实际浏览器",
+    "preconditions": "桌面可用",
+    "input": "1440/768/375宽度",
+    "steps": "打开noVNC检查连接与canvas；打开Campaign/设置/结果页；移动布局",
+    "expected": "实际可连接；无未授权输入；页面按钮可用；横向无溢出",
+    "status": "passed",
+    "evidence": [
+      "foundation-ui.json",
+      "exact-layout.json",
+      "acceptance"
+    ],
+    "observations": [
+      "noVNC真实连接；375px主页面、1440/768/375报告无横向溢出；实际人工控制与三个桌面重启另有证据。"
+    ]
+  },
+  {
+    "id": "BIZ01",
+    "title": "原题混合20人条件和澄清",
+    "requirement": "核心要求1、2",
+    "source": "真实Wave/模型/浏览器",
+    "preconditions": "新真实实例",
+    "input": "帮我找20个 geek风、戴眼镜、欧美白人，粉丝数在1万到10万之间的 ins 平台 KOC",
+    "steps": "用原话发起；自然回复歧义；检查范围/criteria/annotation；等待有界终态",
+    "expected": "全部硬条件AND；视觉/文字区分；白人仅本人公开自述；KOC口径明确；不保证无证据满额",
+    "status": "passed",
+    "evidence": [
+      "original20.json",
+      "original20-scope.json",
+      "discovery-final-audit.json",
+      "original20-batch.json",
+      "original20-results.json"
+    ],
+    "observations": [
+      "原话+自然澄清实际完成：88个本人基础账号，排除68，20候选全分析，0合格/3未知/17不符，5个条件+4画像逐人保存；1最终文档，不伪造满额。"
+    ]
+  },
+  {
+    "id": "BIZ02",
+    "title": "基础条件预筛及读取/分析双预算",
+    "requirement": "核心要求2；旧F25",
+    "source": "真实Wave+受控边界",
+    "preconditions": "泛IG查询粉丝范围已明确",
+    "input": "技术个人创作者、1万到10万粉丝、先看20个基础可行候选",
+    "steps": "逐账号核对原始followers与GET顺序；分析预算与profileBudget；排除账号检查帖子读取",
+    "expected": "已知数值超范围不取帖子、不占定性名额；继续队列；读取/来源耗尽真实交付；指定名单例外",
+    "status": "passed",
+    "evidence": [
+      "discovery-final-audit.json",
+      "original20-final-tasks.json",
+      "exact-two-results.json"
+    ],
+    "observations": [
+      "真实88/100基础读取；68已知粉丝范围外均未取帖子且不占20分析预算；3词轮转及双预算正确，指定账号例外有真实2人证据。"
+    ]
+  },
+  {
+    "id": "BIZ03",
+    "title": "指定账号全部分析与逐人画像",
+    "requirement": "核心要求2",
+    "source": "真实Wave/模型/浏览器",
+    "preconditions": "tylerlcrawford、valstechtalkk公开信息可读",
+    "input": "只看这两个人，两位都分析，帮每个人标内容方向、风格、戴不戴眼镜、有没有geek感。",
+    "steps": "实际UI发送；检查2个canonical身份均写结果、判断和画像值；查看证据",
+    "expected": "不搜索相似账号；2人都落库；实际画像值与筛选指令分开；每值引用；不把unknown打成肯定",
+    "status": "passed",
+    "evidence": [
+      "exact-two-results.json",
+      "exact-two-batch.json"
+    ],
+    "observations": [
+      "真实Tyler/Val两位都逐人保存画像与引用；2合格候选选1；未知眼镜/geek不硬猜。"
+    ]
+  },
+  {
+    "id": "BIZ04",
+    "title": "数值缩写精度、边界和冲突",
+    "requirement": "核心要求2；旧F24/F13",
+    "source": "真实来源回放+单元/集成+新真实结果",
+    "preconditions": "历史R3原始Val来源保留",
+    "input": "39667与39.6K；9999/10000/100000/100001",
+    "steps": "原始来源因果回放；新真实任务核对followers；边界/真冲突集成用例",
+    "expected": "39667兼容39.6K；边界不武断匹配；真冲突保留审计/unknown；不清除其他冲突",
+    "status": "passed",
+    "evidence": [
+      "follower-replay.json",
+      "logs/coverage.log"
+    ],
+    "observations": [
+      "真实R3 39667/39.6K原来源只读回放恢复match，区间39550–39699；新真实数值均match；边界与真冲突完整测试。"
+    ]
+  },
+  {
+    "id": "BIZ05",
+    "title": "硬条件、偏好与不能推断属性",
+    "requirement": "核心要求1、2",
+    "source": "真实模型+受控E2E",
+    "preconditions": "基本候选有支持/未知/反例",
+    "input": "必选数码内容，戴眼镜优先；未知别算满足",
+    "steps": "检查required/basis；资格先硬条件再偏好；实际人像/族裔/地区证据",
+    "expected": "偏好不变硬条件；必选未知不得入选；不凭外貌猜族裔或受众所在地",
+    "status": "passed",
+    "evidence": [
+      "acceptance/natural-e2e.json",
+      "exact-two-results.json",
+      "original20-scope.json"
+    ],
+    "observations": [
+      "受控偏好选择Bob有真实页面依据；真实结果未知geek保留；原题族裔仅本人自述。语义准确率未作总体统计。"
+    ]
+  },
+  {
+    "id": "BIZ06",
+    "title": "明确本人主页访问与重新核验",
+    "requirement": "核心要求2",
+    "source": "真实浏览器+受控成功链路",
+    "preconditions": "已有2人结果",
+    "input": "重新打开这两个人本人主页核验，保留之前的记录。",
+    "steps": "enrich reverify，无新搜索；检查本轮URL/截图/observation/访问判断；人工阻塞如实跳过",
+    "expected": "text/auto/browser语义区分；本轮本人证据才通过；旧图/他人页/登录页不足；保留v1→v2；批次一次交付",
+    "status": "passed",
+    "evidence": [
+      "instagram-reverify.json",
+      "instagram-reverify-audit.json",
+      "reverify-final-invariants.json",
+      "instagram-reverify-batch.json",
+      "interaction-regressions.json"
+    ],
+    "observations": [
+      "真实原2人复核2/2新本人主页观察，v2→v3且v1/v2均保留、0新Wave、一次最终报告；受控新访问2/2也通过。"
+    ]
+  },
+  {
+    "id": "BIZ07",
+    "title": "其他三平台的基础筛选与标签",
+    "requirement": "核心要求1、2",
+    "source": "真实Wave/模型/浏览器",
+    "preconditions": "已有池可读",
+    "input": "TikTok数码个人创作者；YouTube学习创作者；X程序员",
+    "steps": "自然消息；核对discover/db、基础范围、候选去重、逐人分析；不足查看报告",
+    "expected": "只读真实池；超范围不进分析预算；3平台结果/短缺都真实；不是仅获取列表",
+    "status": "passed",
+    "evidence": [
+      "basic-tiktok.json",
+      "text-platforms.json",
+      "live-progress.json"
+    ],
+    "observations": [
+      "真实TikTok2人、X2人均定性并标签化，YT500条全超范围0分析；不足如实结束。"
+    ]
+  },
+  {
+    "id": "BIZ08",
+    "title": "已有结果补标与标签查询",
+    "requirement": "核心要求2、3",
+    "source": "真实模型/浏览器",
+    "preconditions": "至少两组已落库结果",
+    "input": "把这批已有的人都补上内容方向和适合的合作形式，别重搜；全做完再汇总。",
+    "steps": "补标全部旧记录；比较原判断/选择；查询眼镜/geek/内容标签；标签过滤导出",
+    "expected": "无新Wave/浏览器；画像值持久并保留版本；原筛选不改；查询不重搜；未知如实返回0",
+    "status": "partial",
+    "evidence": [
+      "six-retag-invariants.json",
+      "six-retag-batch.json",
+      "saved-glasses.json",
+      "tag-semantics-ui.json"
+    ],
+    "observations": [
+      "三组6记录/2人全部补标完成，原creator/事实/证据/条件/verdict/selected保留，v1→v2、无新研究；自然眼镜查询正确0。UI包含检索混淆正负标签F27。"
+    ]
+  },
+  {
+    "id": "DOC01",
+    "title": "Chat最终文档与整批只交付一次",
+    "requirement": "核心要求3；用户新增",
+    "source": "真实浏览器+数据库时间线",
+    "preconditions": "研究已登记",
+    "input": "等这一批全部完成后给我一份汇总",
+    "steps": "期间观察0最终消息；终态点Chat HTML/CSV；核对时间与人数；刷新/重启",
+    "expected": "报告入口在Chat可见；一份完整结构化名单、每人匹配说明/标签/证据/缺额；晚于全部结果；不逐人推送",
+    "status": "passed",
+    "evidence": [
+      "original20-batch.json",
+      "exact-two-batch.json",
+      "six-retag-batch.json",
+      "text-platforms-batch.json",
+      "phase-b-real-required.json",
+      "phase-b-fixture-required.json",
+      "instagram-reverify-batch.json",
+      "live-campaign-ui.json",
+      "restart-final-ui.json"
+    ],
+    "observations": [
+      "原题20、指定2、3组补标、多平台双项、真实/受控文字网页双项、复核、Campaign均全部终态后1最终通知；Chat实际打开HTML/下载CSV，刷新重启不重放。文档内容缺陷另见DOC04。"
+    ]
+  },
+  {
+    "id": "DOC02",
+    "title": "筛选结果、CSV、证据和安全渲染",
+    "requirement": "核心要求3",
+    "source": "真实浏览器+受控E2E",
+    "preconditions": "有合格/不符/未知结果",
+    "input": "内容标签/平台/任务过滤与无匹配",
+    "steps": "UI应用筛选、下载CSV、打开完整HTML、展开来源及历史；注入样本文本",
+    "expected": "下载与当前筛选相符；合法CSV转义；图片/时间/本人引用映射；无匹配空表正确；不执行源文本",
+    "status": "failed",
+    "evidence": [
+      "exact-two-results.json",
+      "original20-results.json",
+      "tiktok-results.json",
+      "x-results.json",
+      "result-select-filter-ui.json",
+      "result-race-ui.json",
+      "follower-reference-audit.json"
+    ],
+    "observations": [
+      "常规标签/平台/判断/组合筛选及CSV下载一致；真实旧全量响应覆盖已应用过滤2/2复现，CSV退回全量F28；粉丝引用无关来源F26。安全转义/证据截图有受控E2E与集成证据。"
+    ]
+  },
+  {
+    "id": "DOC03",
+    "title": "报告长证据的桌面/平板/手机排版",
+    "requirement": "核心要求3",
+    "source": "实际浏览器",
+    "preconditions": "本轮长报告存在",
+    "input": "1440、768、375宽度",
+    "steps": "实际打开本轮报告，各宽度查看表格并截图",
+    "expected": "判断词不竖排；长理由/URL正常换行；无横向溢出；账号及内容可读",
+    "status": "partial",
+    "evidence": [
+      "exact-layout.json",
+      "follower-reference-audit.json"
+    ],
+    "observations": [
+      "三宽度无横溢出、判断词不竖排已通过；F26来源冗余造成375px两条粉丝行高8827.5/5863.5px，阅读仍不足。"
+    ]
+  },
+  {
+    "id": "CAM01",
+    "title": "只描述Campaign目标的交互规划",
+    "requirement": "进阶要求4",
+    "source": "真实模型/浏览器",
+    "preconditions": "没有确认计划",
+    "input": "我们要推一个智能生活App，想拉欧美年轻人的下载，达人这块你帮我想想怎么找。",
+    "steps": "首次目标→追问；自然补充受众/预算/配额；打开草案卡",
+    "expected": "角色对应下载漏斗；不同类型及范围/人数；建议假设区分事实；未授权不提前搜索",
+    "status": "passed",
+    "evidence": [
+      "campaign-goal.json",
+      "campaign-clarify.json"
+    ],
+    "observations": [
+      "目标→4项澄清→2类草案v1；未授权时无新任务。"
+    ]
+  },
+  {
+    "id": "CAM02",
+    "title": "目标变化、方案修改与版本保护",
+    "requirement": "进阶要求4",
+    "source": "真实模型/浏览器+接口",
+    "preconditions": "CAM01草案存在",
+    "input": "改成轻量旅行背包，英国25到35岁，周末短途和轻徒步的人会买。",
+    "steps": "另一个目标生成不同类型；改人数/地区/平台；旧revision启动；新revision实际UI启动",
+    "expected": "两目标角色不同；总数/配额一致；旧版409且0任务；新版可执行；重复点击不重复",
+    "status": "passed",
+    "evidence": [
+      "campaign-revise.json",
+      "campaign-start-ui.json",
+      "campaign-travel.json"
+    ],
+    "observations": [
+      "自然修改v2；旧版409；真实UI启动2组、重复启动幂等；旅行背包目标角色不同且未搜索。"
+    ]
+  },
+  {
+    "id": "CAM03",
+    "title": "多类型研究、重叠去重和配额交付",
+    "requirement": "进阶要求4、核心3",
+    "source": "真实Wave/模型/浏览器+受控满额",
+    "preconditions": "确认两组实际范围",
+    "input": "两种类型各1人，指定Tyler和Val都分析，完成一起给我文档",
+    "steps": "UI确认执行；各lane结果；核对合格/selected/唯一身份配额；最终点Campaign报告",
+    "expected": "每组真实执行/逐人标签；跨组同人唯一；缺额可解释；只有一次Campaign最终汇总，结构引用完整",
+    "status": "partial",
+    "evidence": [
+      "live-campaign-ui.json",
+      "campaign-consistency-ui.json",
+      "doc04-campaign-children-ui.json"
+    ],
+    "observations": [
+      "真实2类各1、唯一2/2、4条逐人结果、最终1次报告通过；总/子已入选标記矛盾F29，總文档缺直接匹配说明F32。"
+    ]
+  },
+  {
+    "id": "BATCH01",
+    "title": "接管期间自然语言登记两项",
+    "requirement": "旧F20/F02；整批新增",
+    "source": "真实模型/浏览器；受控租约",
+    "preconditions": "实际noVNC认领人工控制",
+    "input": "帮我另外做两项科技博主研究，第一项只用现有文字，第二项要看公开主页；我还在操作桌面，等两项都结束给我一份汇总。",
+    "steps": "实际UI原话；检查atomic2项登记；文字结束/网页未运行；0最终通知；交还→2项终态",
+    "expected": "不只口头延迟第二项，不退回草案；text独立；browser等桌面；结束一次完整文档",
+    "status": "passed",
+    "evidence": [
+      "phase-b-fixture-required.json"
+    ],
+    "observations": [
+      "受控两变体均一次登记2项，实际noVNC认领；text2人完成/browser0/报告0，交还后browser2个新本人观察、综合1报告。"
+    ]
+  },
+  {
+    "id": "BATCH02",
+    "title": "已明确授权登记的变体和真实平台双项",
+    "requirement": "旧F02；业务组合",
+    "source": "真实Wave/模型/浏览器；受控租约",
+    "preconditions": "人工仍占桌面",
+    "input": "两项现在都登记，网页先排队，文字先做，全部结束统一给我报告。",
+    "steps": "受控/真实分别重复；明确browser；核对visit/真实登录阻塞/最终批次",
+    "expected": "一次注册全部；不给重复确认；无法访问不假造通过；两项报告/标签都包含",
+    "status": "passed",
+    "evidence": [
+      "phase-b-real-required.json"
+    ],
+    "observations": [
+      "真实自然语气一次start_research_batch登记2项；人占桌面时text2完成/browser0/报告0；交还实际两本人主页新观察，帖子阻挡未知，最终综合1报告。"
+    ]
+  },
+  {
+    "id": "CTX01",
+    "title": "登记中清空上下文仍能最终交付",
+    "requirement": "旧F23；并发",
+    "source": "实际浏览器+真实/受控来源",
+    "preconditions": "捕获active+pending+task注册+sealed=false",
+    "input": "清空上下文按钮",
+    "steps": "UI中断在途主Agent；后台继续；核对epoch、seal、terminal、最终链接、刷新/重启",
+    "expected": "未登记事项标明未执行；旧主循环停；后台结果保留；一份报告且无工具/API重放",
+    "status": "passed",
+    "evidence": [
+      "context-real-browser.json",
+      "context-browser.json"
+    ],
+    "observations": [
+      "真实与受控均捕获active/pending/task注册/sealed=false后实际UI清空；closureReason=context_changed，2结果+新epoch一次报告，实际重启0Wave/通知重放。"
+    ]
+  },
+  {
+    "id": "CTX02",
+    "title": "登记中载入备份仍能最终交付",
+    "requirement": "旧F23；并发",
+    "source": "实际浏览器+真实/受控来源",
+    "preconditions": "有效备份；捕获同上时序",
+    "input": "载入调试上下文按钮",
+    "steps": "在注册未封口时load；核对迟到动作与结果、报告、重启",
+    "expected": "新epoch收到最终报告一次；不会把仍pending输入错误封口；业务数据不丢",
+    "status": "passed",
+    "evidence": [
+      "context-real-browser.json",
+      "context-browser.json"
+    ],
+    "observations": [
+      "相同时序实际UI载入备份，真实与受控2结果+新epoch一次交付，未登记工作明确没执行，重启0重放。"
+    ]
+  },
+  {
+    "id": "INT01",
+    "title": "连续发消息、查询与取消",
+    "requirement": "全部业务回归",
+    "source": "真实模型/浏览器+受控任务",
+    "preconditions": "后台任务处理中",
+    "input": "先停刚才那项；前面的结果留着；查询状态",
+    "steps": "在任务运行/Agent active时连发3条；核对安全边界、inbox、cancel；等待晚到写",
+    "expected": "消息全处理；只取消指明任务；前结果不变；晚到不继续写；无额外研究",
+    "status": "passed",
+    "evidence": [
+      "interaction-regressions.json"
+    ],
+    "observations": [
+      "Agent/worker active期间3条实际消息，正确取消指定任务；旧结果不变，10秒后无晚写。"
+    ]
+  },
+  {
+    "id": "INT02",
+    "title": "消息与启动幂等、并发事务",
+    "requirement": "业务可靠性",
+    "source": "实际API+单元/集成",
+    "preconditions": "同一请求id已提交",
+    "input": "相同id/body及相同id/不同body；批登记一项非法",
+    "steps": "重复API/启动；观察新模型/任务数；无效批原子回滚",
+    "expected": "相同重放200不重复；冲突409；任意非法项全批0注册；不新造批次",
+    "status": "passed",
+    "evidence": [
+      "interaction-regressions.json",
+      "campaign-start-ui.json",
+      "logs/coverage.log"
+    ],
+    "observations": [
+      "同ID/body200、冲突409、0重放；Campaign重复启动0新任务；非法多项事务回滚为本轮集成测试。"
+    ]
+  },
+  {
+    "id": "ERR01",
+    "title": "模型临时错误的有限重试",
+    "requirement": "旧F03；业务可靠性",
+    "source": "实际UI/真实模型；单次故障代理",
+    "preconditions": "自有受控实例代理",
+    "input": "chat/选择/逐人核验一次408/429/503",
+    "steps": "自然消息触发，观察重试同任务/候选，随后成功，恢复原配置",
+    "expected": "不吞错误为unknown；有限重试且0新搜索/重复结果；调用记录含错误；全部结束再报告",
+    "status": "passed",
+    "evidence": [
+      "fault-ui.json",
+      "fault-proxy-audit.json"
+    ],
+    "observations": [
+      "Chat、候选选择、逐人核验各一次408→同工作200，不重启搜索/重复结果。"
+    ]
+  },
+  {
+    "id": "ERR02",
+    "title": "永久错误、空来源、来源耗尽与取消",
+    "requirement": "核心2/3；异常",
+    "source": "单元/集成+实际UI故障代理",
+    "preconditions": "可控错误来源",
+    "input": "模型400、Wave401/402/429、空列表",
+    "steps": "验证终态与报告原因；不会无限等待/付费写；失败组纳入综合文档",
+    "expected": "永久错误停止，不伪装合格；不足如实；所有失败/取消工作结束后一次交付",
+    "status": "passed",
+    "evidence": [
+      "fault-ui.json",
+      "live-progress.json",
+      "logs/coverage.log"
+    ],
+    "observations": [
+      "真实模型代理400仅1次、明确失败；真实来源耗尽如实短缺；Wave各种错误边界为完整单元/集成层。"
+    ]
+  },
+  {
+    "id": "HUM01",
+    "title": "真实平台登录/验证码的人工链路",
+    "requirement": "核心2；全部回归",
+    "source": "真实浏览器",
+    "preconditions": "实际平台阻塞",
+    "input": "没有登录，跳过当前页面，未知就保留未知。",
+    "steps": "本人导航失败→请求协助→UI认领noVNC/可查看→明确未登录跳过→续接",
+    "expected": "归属失败页面不当本人证据；每人不重复催协助；真实状态/partial；不称登录成功",
+    "status": "passed",
+    "evidence": [
+      "live-progress.json",
+      "phase-b-real-required.json",
+      "instagram-reverify-wait.json",
+      "remaining-validation.md"
+    ],
+    "observations": [
+      "真实IG/TikTok请求→认领noVNC→明确未登录跳过→后台终态；未知保留，没有每人重复催同一挑战。实际公开主页/照片及复核成功另有证据；真实登录/OTP成功需人工验证。"
+    ]
+  },
+  {
+    "id": "HUM02",
+    "title": "持久桌面和人工成功/到期/撤销",
+    "requirement": "全部功能回归",
+    "source": "受控浏览器+单元/集成",
+    "preconditions": "夹具登录/挑战页面",
+    "input": "UI实际点击、cookie/localStorage新值",
+    "steps": "VNC实际操作；三次desktop重启；接管期间取消/到期领域边界",
+    "expected": "同profile/URL状态保留；动作互斥；原授权撤销不继续；页面状态证据而非HTTP200",
+    "status": "passed",
+    "evidence": [
+      "acceptance",
+      "logs/acceptance.log",
+      "phase-b-fixture-required.json",
+      "logs/coverage.log"
+    ],
+    "observations": [
+      "受控noVNC实际操作，Cookie/localStorage三次desktop重启均保留；到期/撤销为集成层，真实社交成功仍未验证。"
+    ]
+  },
+  {
+    "id": "SEC01",
+    "title": "URL、来源归属和敏感输入限制",
+    "requirement": "全部功能回归",
+    "source": "实际桌面RPC+单元/集成",
+    "preconditions": "独立受控实例",
+    "input": "file://、127.0.0.1、169.254.169.254、带凭据URL、他人引用",
+    "steps": "实际RPC拒绝；无权写请求；源文本注入/敏感字段单元边界",
+    "expected": "拒绝私网/凭据；来源必须属本人且新观察有效；不自动填写密码/OTP或外联",
+    "status": "passed",
+    "evidence": [
+      "policy-runtime.json",
+      "extended-ui.json",
+      "logs/coverage.log"
+    ],
+    "observations": [
+      "真实桌面RPC四类禁止URL、未授权路由、Origin边界已测；敏感输入/来源归属/注入为完整集成层，不代表渗透测试。"
+    ]
+  },
+  {
+    "id": "PERF01",
+    "title": "后台研究时页面和桌面响应",
+    "requirement": "全部功能回归",
+    "source": "真实浏览器",
+    "preconditions": "20人或其他研究运行中",
+    "input": "状态/首页/3次打开noVNC",
+    "steps": "采样请求时延及连接时延；同时记录活动任务与人工占用状态",
+    "expected": "界面继续可用；如实记录样本量/负载，不能推论高并发或全量性能",
+    "status": "passed",
+    "evidence": [
+      "performance-ui.json"
+    ],
+    "observations": [
+      "20人研究运行中，20次首页/状态样本及3次noVNC连接；p95约398/39ms，连接7.10/3.52/3.55秒。不是高并发压测。"
+    ]
+  },
+  {
+    "id": "PERSIST01",
+    "title": "完成状态和标签的重启回归",
+    "requirement": "核心3；可靠性",
+    "source": "实际浏览器+自有Compose重启",
+    "preconditions": "所有任务终态；无人工租约",
+    "input": "刷新并docker compose restart app",
+    "steps": "比较消息、批次交付、结果/标签/版本、Wave/模型次数、授权",
+    "expected": "结果报告可见保留；0工具/搜索/最终通知重放；无遗漏任务",
+    "status": "passed",
+    "evidence": [
+      "restart-final-ui.json",
+      "live-final.json",
+      "acceptance"
+    ],
+    "observations": [
+      "实际最终重启保留登录、15终态任务、38结果/标签/版本和10条最终报告；模型/Wave0重放、0pending、无人工租约。受控三个桌面重启通过。"
+    ]
+  },
+  {
+    "id": "TEST01",
+    "title": "类型、构建、完整测试及覆盖",
+    "requirement": "完整回归",
+    "source": "本轮命令实跑",
+    "preconditions": "当前源码",
+    "input": "typecheck、build、coverage",
+    "steps": "保存全部输出和coverage明细；与运行源码核对",
+    "expected": "全部测试通过；逐文件覆盖不被遗漏；仅支撑代码分支不能代替真实语义验收",
+    "status": "passed",
+    "evidence": [
+      "logs/typecheck.log",
+      "logs/build.log",
+      "logs/coverage.log",
+      "coverage"
+    ],
+    "observations": [
+      "本轮typecheck/build通过；28文件226测试，全生产TS/TSX逐文件行/分支100%。"
+    ]
+  },
+  {
+    "id": "E2E01",
+    "title": "全新Docker受控核心及进阶验收",
+    "requirement": "核心1–4；全功能",
+    "source": "真实模型/UI/desktop；受控Wave/页面",
+    "preconditions": "新数据卷且明确来源标记",
+    "input": "现有4项acceptance",
+    "steps": "独立compose build/up→4项业务E2E→截图/trace/日志→保留卷",
+    "expected": "核心、IG接口链、Campaign配额/互斥、人工与桌面持久全通过；不与真实平台混算",
+    "status": "passed",
+    "evidence": [
+      "logs/acceptance-first-attempt.log",
+      "logs/acceptance.log",
+      "acceptance"
+    ],
+    "observations": [
+      "全新Docker4/4受控业务浏览器验收通过；首启动网段耗尽为环境问题，独立空闲网段重跑，失败日志与卷保留。"
+    ]
+  },
+  {
+    "id": "DOC04",
+    "title": "题目要求的结构化结果文档专项验收",
+    "requirement": "核心要求3：最终输出结构化的结果文档，包含符合条件的创作者清单、特征匹配说明等信息",
+    "source": "真实模型/Wave数据；实际浏览器从Chat打开HTML并下载CSV，按用户可见字段和业务事实核对",
+    "preconditions": "所验批次的研究/多组任务全部终态，最终通知已出现",
+    "input": "分别使用真实指定账号正向结果、原题零合格结果、无候选结果、Campaign多类型和三组补标的最终文档",
+    "steps": "1 从Chat最终消息点击实际HTML文档；2 检查清单、账号/平台/链接/粉丝/地区、逐条件三态判断/理由/标签/证据与缺额；3 合格推荐、备选、待核实及不符不能混淆；4 核对文档人数统计、每人归属及Campaign配额和唯一身份；5 下载实际CSV，解析列结构和逐条件JSON，与HTML/保存结果核对；6 保留每种输出的截图及原始文档",
+    "expected": "输出为可打开的结构化文档，不能仅有Chat自然段或未经核验列表；清单和匹配说明字段齐全可追溯；零合格明确0和短缺；多组有清晰分组/归属；统计区分已核验记录、合格候选、最终入选和去重人数；CSV与可见结果一致",
+    "status": "failed",
+    "evidence": [
+      "structured-document-validation.md",
+      "structured-document-ui.json",
+      "doc04-campaign-children-ui.json",
+      "findings.md"
+    ],
+    "observations": [
+      "5类真实文档专项67检查62通过5失败。实际HTML及14列CSV有逐人条件/说明/标签/证据，零合格和无候选正确；正向合格人数标记、跨组归属与人数单位、Campaign总匹配说明不足F30–F32。"
+    ]
+  }
+]

@@ -1,0 +1,77 @@
+{
+  "source": "new writes through actual headed Chromium + actual noVNC control lease + normal Docker restart; controlled test cookies only, no real platform credentials",
+  "records": [
+    {
+      "round": 1,
+      "key": "persistence_1791636643749",
+      "before": {
+        "observationId": "1bd6f3e4-fdb1-4aa4-bb8b-dcaa932ba198",
+        "url": "http://127.0.0.1:8086/?case=persistence_1791636643749",
+        "title": "Persistence fixture",
+        "text": "Controlled persistence fixture — no real login\n保存受控测试状态\n{\n  \"persistentCookie\": \"persistent_persistence_1791636643749=test_value\",\n  \"sessionCookie\": \"session_persistence_1791636643749=test_value\",\n  \"localStorage\": \"test_value\"\n}",
+        "links": [],
+        "scope": "page-viewport",
+        "observedAt": 1791636650682
+      },
+      "after": {
+        "observationId": "e84a71ef-2553-452f-90ba-87fa2be761a0",
+        "url": "http://127.0.0.1:8086/?case=persistence_1791636643749",
+        "title": "Persistence fixture",
+        "text": "Controlled persistence fixture — no real login\n保存受控测试状态\n{\n  \"persistentCookie\": \"persistent_persistence_1791636643749=test_value\",\n  \"sessionCookie\": null,\n  \"localStorage\": \"test_value\"\n}",
+        "links": [],
+        "scope": "page-viewport",
+        "observedAt": 1791636659478
+      },
+      "persistentCookieKept": true,
+      "localStorageKept": true
+    },
+    {
+      "round": 2,
+      "key": "persistence_1791636659532",
+      "before": {
+        "observationId": "0de23b8d-a1cc-49e9-9a54-682b0af394f2",
+        "url": "http://127.0.0.1:8086/?case=persistence_1791636659532",
+        "title": "Persistence fixture",
+        "text": "Controlled persistence fixture — no real login\n保存受控测试状态\n{\n  \"persistentCookie\": \"persistent_persistence_1791636659532=test_value\",\n  \"sessionCookie\": \"session_persistence_1791636659532=test_value\",\n  \"localStorage\": \"test_value\"\n}",
+        "links": [],
+        "scope": "page-viewport",
+        "observedAt": 1791636663621
+      },
+      "after": {
+        "observationId": "ab1aac46-39e7-461c-afa6-02da66d651c6",
+        "url": "http://127.0.0.1:8086/?case=persistence_1791636659532",
+        "title": "Persistence fixture",
+        "text": "Controlled persistence fixture — no real login\n保存受控测试状态\n{\n  \"persistentCookie\": \"persistent_persistence_1791636659532=test_value\",\n  \"sessionCookie\": null,\n  \"localStorage\": \"test_value\"\n}",
+        "links": [],
+        "scope": "page-viewport",
+        "observedAt": 1791636670838
+      },
+      "persistentCookieKept": true,
+      "localStorageKept": true
+    },
+    {
+      "round": 3,
+      "key": "persistence_1791636670905",
+      "before": {
+        "observationId": "f922e082-8d81-4f2c-a1f5-286b9721ba57",
+        "url": "http://127.0.0.1:8086/?case=persistence_1791636670905",
+        "title": "Persistence fixture",
+        "text": "Controlled persistence fixture — no real login\n保存受控测试状态\n{\n  \"persistentCookie\": \"persistent_persistence_1791636670905=test_value\",\n  \"sessionCookie\": \"session_persistence_1791636670905=test_value\",\n  \"localStorage\": \"test_value\"\n}",
+        "links": [],
+        "scope": "page-viewport",
+        "observedAt": 1791636674783
+      },
+      "after": {
+        "observationId": "68f718d1-abb0-4d0e-ab41-ed79a1f4f46f",
+        "url": "http://127.0.0.1:8086/?case=persistence_1791636670905",
+        "title": "Persistence fixture",
+        "text": "Controlled persistence fixture — no real login\n保存受控测试状态\n{\n  \"persistentCookie\": \"persistent_persistence_1791636670905=test_value\",\n  \"sessionCookie\": null,\n  \"localStorage\": \"test_value\"\n}",
+        "links": [],
+        "scope": "page-viewport",
+        "observedAt": 1791636683329
+      },
+      "persistentCookieKept": true,
+      "localStorageKept": true
+    }
+  ]
+}

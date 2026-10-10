@@ -1,0 +1,88 @@
+{
+  "startedAt": "2026-10-10T02:07:48.465Z",
+  "source": "controlled fixture, actual headed production Chromium/runtime, real noVNC, three normal Docker restarts; no real platform login",
+  "rounds": [
+    {
+      "round": 1,
+      "settleMs": 0,
+      "before": {
+        "observationId": "408b336a-d304-4aed-8df0-a07601079b1f",
+        "url": "http://127.0.0.1:8086/?case=persistence_review_1791598074274",
+        "title": "受控持久化验证",
+        "text": "受控浏览器持久化夹具\n\n所有状态均为测试值，不是实际账号或登录凭据。\n\n保存受控测试状态\n{\n  \"persistentCookie\": \"persistent_persistence_review_1791598074274=test_value\",\n  \"sessionCookie\": \"session_persistence_review_1791598074274=test_value\",\n  \"localStorage\": \"test_value\"\n}",
+        "links": [],
+        "scope": "page-viewport",
+        "observedAt": 1791598076489
+      },
+      "after": {
+        "observationId": "48d724f9-2e51-4fa9-aae4-cee19ca57234",
+        "url": "http://127.0.0.1:8086/?case=persistence_review_1791598074274",
+        "title": "受控持久化验证",
+        "text": "受控浏览器持久化夹具\n\n所有状态均为测试值，不是实际账号或登录凭据。\n\n保存受控测试状态\n{\n  \"persistentCookie\": null,\n  \"sessionCookie\": null,\n  \"localStorage\": null\n}",
+        "links": [],
+        "scope": "page-viewport",
+        "observedAt": 1791598085299
+      },
+      "kept": {
+        "persistentCookie": false,
+        "localStorage": false,
+        "sessionCookie": false
+      }
+    },
+    {
+      "round": 2,
+      "settleMs": 0,
+      "before": {
+        "observationId": "8d7b2118-4b15-4403-8ed3-b22bbccc2920",
+        "url": "http://127.0.0.1:8086/?case=persistence_review_1791598087355",
+        "title": "受控持久化验证",
+        "text": "受控浏览器持久化夹具\n\n所有状态均为测试值，不是实际账号或登录凭据。\n\n保存受控测试状态\n{\n  \"persistentCookie\": \"persistent_persistence_review_1791598087355=test_value\",\n  \"sessionCookie\": \"session_persistence_review_1791598087355=test_value\",\n  \"localStorage\": \"test_value\"\n}",
+        "links": [],
+        "scope": "page-viewport",
+        "observedAt": 1791598088809
+      },
+      "after": {
+        "observationId": "94afe73c-d0b8-46f6-9b0a-fb4e022fd032",
+        "url": "http://127.0.0.1:8086/?case=persistence_review_1791598087355",
+        "title": "受控持久化验证",
+        "text": "受控浏览器持久化夹具\n\n所有状态均为测试值，不是实际账号或登录凭据。\n\n保存受控测试状态\n{\n  \"persistentCookie\": null,\n  \"sessionCookie\": null,\n  \"localStorage\": null\n}",
+        "links": [],
+        "scope": "page-viewport",
+        "observedAt": 1791598094707
+      },
+      "kept": {
+        "persistentCookie": false,
+        "localStorage": false,
+        "sessionCookie": false
+      }
+    },
+    {
+      "round": 3,
+      "settleMs": 8000,
+      "before": {
+        "observationId": "dd1930d9-9697-4682-a27c-f0edb4205312",
+        "url": "http://127.0.0.1:8086/?case=persistence_review_1791598096761",
+        "title": "受控持久化验证",
+        "text": "受控浏览器持久化夹具\n\n所有状态均为测试值，不是实际账号或登录凭据。\n\n保存受控测试状态\n{\n  \"persistentCookie\": \"persistent_persistence_review_1791598096761=test_value\",\n  \"sessionCookie\": \"session_persistence_review_1791598096761=test_value\",\n  \"localStorage\": \"test_value\"\n}",
+        "links": [],
+        "scope": "page-viewport",
+        "observedAt": 1791598098325
+      },
+      "after": {
+        "observationId": "b510d4a1-f407-4093-8458-424d6cdcdee2",
+        "url": "http://127.0.0.1:8086/?case=persistence_review_1791598096761",
+        "title": "受控持久化验证",
+        "text": "受控浏览器持久化夹具\n\n所有状态均为测试值，不是实际账号或登录凭据。\n\n保存受控测试状态\n{\n  \"persistentCookie\": null,\n  \"sessionCookie\": null,\n  \"localStorage\": \"test_value\"\n}",
+        "links": [],
+        "scope": "page-viewport",
+        "observedAt": 1791598111885
+      },
+      "kept": {
+        "persistentCookie": false,
+        "localStorage": true,
+        "sessionCookie": false
+      }
+    }
+  ],
+  "finishedAt": "2026-10-10T02:08:33.411Z"
+}

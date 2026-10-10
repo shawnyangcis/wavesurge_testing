@@ -1,0 +1,110 @@
+{
+  "date": "2026-10-10",
+  "url": "http://127.0.0.1:3000",
+  "status": "DONE_WITH_CONCERNS",
+  "acceptance": "partial",
+  "issues": [
+    {
+      "id": "F01",
+      "severity": "P1",
+      "title": "账号身份重复计数"
+    },
+    {
+      "id": "F02",
+      "severity": "P1",
+      "title": "人工请求阻塞其他研究"
+    },
+    {
+      "id": "F03",
+      "severity": "P2",
+      "title": "模型临时失败终态化"
+    },
+    {
+      "id": "F04",
+      "severity": "P2",
+      "title": "偏好不参与排序"
+    },
+    {
+      "id": "F05",
+      "severity": "P2",
+      "title": "导出忽略当前过滤"
+    },
+    {
+      "id": "F06",
+      "severity": "P2",
+      "title": "导出证据不完整"
+    },
+    {
+      "id": "F07",
+      "severity": "P2",
+      "title": "浏览器执行边界仅靠提示词"
+    },
+    {
+      "id": "F08",
+      "severity": "P2",
+      "title": "E2E依赖历史数据"
+    },
+    {
+      "id": "F09",
+      "severity": "P3",
+      "title": "Markdown表格未渲染"
+    },
+    {
+      "id": "F10",
+      "severity": "P2",
+      "title": "任务结束后没有在对话中交付报告",
+      "evidence": "../full-e2e-2026-10-10/primary-completion.json",
+      "earlierEvidence": "../full-e2e-2026-10-10/document-delivery.json",
+      "scope": "历史任务浏览器UI及新的真实完成事件均确认无chat交付；checks仍记录第一轮执行"
+    },
+    {
+      "id": "F11",
+      "severity": "P1",
+      "title": "国家代码与名称比较造成真实合格候选错误排除",
+      "evidence": "../full-e2e-2026-10-10/primary-completion.json"
+    },
+    {
+      "id": "F12",
+      "severity": "P1",
+      "title": "桌面正常重启丢失新持久Cookie",
+      "evidence": "../full-e2e-2026-10-10/persistence-audit-painted.json"
+    },
+    {
+      "id": "F13",
+      "severity": "P2",
+      "title": "浏览器基础数值证据不能补充筛选判断",
+      "evidence": "../full-e2e-2026-10-10/campaign-final-audit.json"
+    },
+    {
+      "id": "F14",
+      "severity": "P1",
+      "title": "打标指令被当作标签值，画像标签丢失且检索误召回"
+    },
+    {
+      "id": "F15",
+      "severity": "P2",
+      "title": "搜索运行中已返回候选仍不开始本地核验"
+    }
+  ],
+  "checks": {
+    "unitTests": 93,
+    "unitFiles": 17,
+    "typecheck": "pass",
+    "build": "pass",
+    "selectedE2E": 3,
+    "newExternalSearch": "original20 running with partial creators; three new TikTok searches queued",
+    "taggingReview": {
+      "report": "/Users/shawn/coding/projects/wavesurge/wavesurge_testing/.gstack/qa-reports/tagging-2026-10-10/tagging-review.md",
+      "naturalRequests": 6,
+      "realExistingAccountsReviewed": 6,
+      "genreReplayAccounts": 2,
+      "originalPartialReplayAccounts": 1,
+      "businessCodeChanged": false,
+      "acceptance": "fail: label values not saved; missing retag tools and final chat delivery",
+      "newExternalSearches": "3 queued on isolated3400; original20 running with partial creator data, local evaluated0"
+    }
+  },
+  "healthScore": null,
+  "healthScoreReason": "本次评估需求验收与可复现缺陷；未测性能与全平台准确率，避免将界面启发式分数作为整体完成度。",
+  "updatedAt": "2026-10-10T03:24:20.629Z"
+}

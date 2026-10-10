@@ -1,0 +1,467 @@
+{
+  "source": "Controlled real-candidate replay, real production model and live browser; NOT new discovery",
+  "scope": "replay",
+  "base": "http://127.0.0.1:3300",
+  "startedAt": "2026-10-10T02:50:45.961Z",
+  "ids": [
+    "research-5839ab193c0487161eb47357"
+  ],
+  "timeline": [
+    {
+      "at": "2026-10-10T02:50:46.416Z",
+      "tasks": [
+        {
+          "id": "research-5839ab193c0487161eb47357",
+          "title": "标签字段核验：真实候选重放（非新搜索）",
+          "status": "partial",
+          "requested": 2,
+          "evaluated": 2,
+          "matched": 0,
+          "updatedAt": 1791600540982,
+          "detail": "已合格 0/2，已核验 2；证据不足者保持待核实。",
+          "remoteId": "review-replay:genuine-prior-wavesurge-candidates",
+          "remoteStatus": "done",
+          "nextPollAt": 0
+        }
+      ]
+    }
+  ],
+  "observedAt": "2026-10-10T02:50:46.609Z",
+  "tasks": [
+    {
+      "id": "research-5839ab193c0487161eb47357",
+      "title": "标签字段核验：真实候选重放（非新搜索）",
+      "status": "partial",
+      "requested": 2,
+      "evaluated": 2,
+      "matched": 0,
+      "updatedAt": 1791600540982,
+      "detail": "已合格 0/2，已核验 2；证据不足者保持待核实。",
+      "remoteId": "review-replay:genuine-prior-wavesurge-candidates",
+      "remoteStatus": "done",
+      "nextPollAt": 0
+    }
+  ],
+  "results": [
+    {
+      "id": "research-5839ab193c0487161eb47357|youtube:wesleyanna",
+      "taskId": "research-5839ab193c0487161eb47357",
+      "creator": {
+        "id": "youtube:wesleyanna",
+        "platform": "youtube",
+        "handle": "wesleyanna",
+        "profileUrl": "https://www.youtube.com/@wesleyanna",
+        "displayName": "Wesley Anna",
+        "followers": null,
+        "region": null,
+        "evidence": [
+          {
+            "id": "53255d17c10112d35a860bee",
+            "url": "https://www.youtube.com/@wesleyanna",
+            "kind": "browser_snapshot",
+            "text": "",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791600497863,
+            "assetId": "22ed3657216e816b93ea8043a691799b57e6cb4d2e7a59786dcced3eec3c079e"
+          },
+          {
+            "id": "5ed08cb782ac9a5c289e1b4c",
+            "url": "https://www.youtube.com/@wesleyanna",
+            "kind": "browser_snapshot",
+            "text": "SG\nSkip navigation\nSign in\nHome\nShorts\nSubscriptions\nYou\nHistory\nSign in to like videos, comment, and subscribe.\nSign in\nExplore\nMusic\nMovies\nGaming\nShow more\nMore from YouTube\nYouTube Premium\nYouTube Music\nYouTube Kids\nReport history\nAboutPressCopyrightContact usCreatorsAdvertiseDevelopers\nTermsPrivacyPolicy & SafetyHow YouTube worksTest new features\n© 2026 Google LLC\nWesley Anna\n@WesleyAnna\n•\n91.3K subscribers\n•\n147 videos\njust trying to make the internet fun again  ʕ•́ᴥ•̀ʔっ \n...more\n wesleyanna.gumroad.com/l/ultimate-notion-dashboard\nand 5 more links\nSubscribe\nHome\nVideos\nPlaylists\nPosts\nVideos\n12:18\nmy channel was hacked (what happened & how i got it back)\n7.1K\n1d ago\n17:54\ni built myself a home on the internet ‎🪐 ✩˚₊‧\n22K\n2w ago\n30:03\nhow i organize the chaos in my head (2026 capacities tour)\n11K\n4w ago\n12:17\nanti-AI is the new virtue signal\n5.2K\n1mo ago\n13:54\nso...i flew to seoul to get work done 😬\n2.8K\n2mo ago\n24:57\ni was wrong about kyoto 🍵 japan vlog\n2.3K\n2mo ago\nbest of wes (ง •̀_•́)ง\nPlay all\n16:06\nhow to get started in notion *without losing your mind* | notion for beginners\nWesley Anna\n4.3M\n3y ago\n11:52\nhow to get your life together\nWesley Anna\n9.8K\n3y ago\n22:28\nnyc vlog | 🌱 new beginnings, creating routines, unpacking from abroad\nWesley Anna\n29K\n2y ago\n13:26\nturning 30 in LA 🫰🏼 | disney, universal, korean spa, kbbq\nWesley Anna\n1.6K\n3y ago\n18:02\nthe end of the \"9-to-5\" & the future of work\nWesley Anna\n94K\n2y ago\n16:59\ni booked a one-way ticket to tokyo | japan vlog 2024\nWesley Anna\n9.9K\n2y ago\nMultiple playlists\n74 videos\nvlogs (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧\nWesley Anna\nPlaylist\nView full playlist\n14 videos\nchatty stuff ☕ ͜ (◍´ᴗ｀◍)\nWesley Anna\nPlaylist\nUpdated yesterday\nView full playlist\n25 videos\nproductivity, notion & tech (๑˘ᵕ˘)\nWesley Anna\nPlaylist\nView full playlist\n13 videos\ngrowth & development ໒(⊙ᴗ⊙)७✎▤\nWesley Anna\nPlaylist\nView full playlist\n14 videos\nfilms (◕ㅅ◕✿)\nWesley Anna\nPlaylist\nView full playlist\nPosts\nWesley Anna\n•\n4 days ago\ndoes never revisiting your saved content (posts, videos, or bookmarks) bother you?\n89 votes\nVote now\n7\n2\nWesley Anna\n•\n4 months ago\nこんにちは! officially back from our dizzying & delicious 3 weeks in japan/korea. my original plans to dive back into work this week have been somewhat thwarted by a power outage/family duties/jet lag (ok and maybe a weee bit too much pokopia..) i have been making an effort over the last few years to give myself some grace during life's big transitions. i hope you'll be patient with me as i take this week to rest & reset! i have SO much content from this trip that i'm excited to share!! but first up will be a very special NYC vlog. catch me in the editing cave this summer... 🙂‍↕️🤝🏼\n62\nWesley Anna\n•\n5 months ago\nwhere are you at with vibe coding/building with AI?\n365 votes\nVote now\n9\n4\nWesley Anna\n•\n6 months ago\nhappy friday friends!! 🌾 this week's video will be delayed, i've been in a 72 hr editing hole trying to wrap-up a documentary i filmed two years ago for another channel that my husband and i run (do you really have ADHD if you don't put something off for years and then fall into a weeklong hyper-focus spiral just to get it done??). might share with u when it's finished, it's a story worth sharing and i'm very proud of the final result :,)! anyway, trying to get this week's vlog out by monday so stayed tuned~ MUWAH! *P.S. here's a cute pic of my dog in the meantime\n70\n1\nWesley Anna\n•\n7 months ago\none of my goals this year has been to find a go-to video format that feels sustainable, joyful, and (most importantly) fun for you to watch! which type of video do you want to see more of from me? thanks to everyone who’s been patient with me as i experiment 🥲🤍\n192 votes\nVote now\n15\n3\nWesley Anna\n•\n7 months ago\nspent the last week in southern GA visiting the old man 🚜🌾 new video coming very soon!\n51\n3",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791600503062,
+            "assetId": "94b161e6eba136241306932218300583a22aa31046ef3647572bc3dd32429f26"
+          }
+        ],
+        "raw": {
+          "factorGrades": {
+            "role": "strong",
+            "activity": "observed",
+            "identity": "individual",
+            "location": "location_unverified",
+            "followers": "unknown",
+            "relevance": "strong"
+          },
+          "hardConditions": [
+            {
+              "basis": "91.3K subscribers per retained profile evidence ev_51247b7e.",
+              "status": "met",
+              "condition": "YouTube followers 10,000-100,000"
+            },
+            {
+              "basis": "Profile country is United States per ev_51247b7e.",
+              "status": "met",
+              "condition": "Creator based in United States"
+            },
+            {
+              "basis": "Personal creator branding and first-person content.",
+              "status": "met",
+              "condition": "Individual creators only"
+            },
+            {
+              "basis": "Timestamped Notion tutorial and student workspace resources ev_37a75581.",
+              "status": "met",
+              "condition": "Step-by-step tutorials for classroom notes and exam revision"
+            },
+            {
+              "basis": "Selected only as one YouTube creator.",
+              "status": "met",
+              "condition": "No person on two platforms"
+            }
+          ]
+        }
+      },
+      "judgments": [
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：youtube",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "unknown",
+          "reason": "未取得粉丝数",
+          "evidenceIds": [],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "content_direction",
+          "verdict": "match",
+          "reason": "内容方向标注：效率工具与科技、生活及旅行 Vlog。频道公开列出“productivity, notion & tech”播放列表，以及 Notion 入门、Capacities 整理工具、AI 讨论和京都/首尔旅行视频；主页显示 Capacities 视频为“4w ago”、京都 Vlog 为“2mo ago”（页面相对日期，不作为精确发布日期）。来源为本次观察的 YouTube 频道主页。",
+          "evidenceIds": [
+            "5ed08cb782ac9a5c289e1b4c"
+          ],
+          "label": "根据可核实的内容标注内容方向，例如数码、生活或其他方向，并给出一句依据；证据不足则待确认"
+        },
+        {
+          "criterionId": "content_style",
+          "verdict": "match",
+          "reason": "呈现风格标注：个人化、轻松聊天与工具讲解结合的 Vlog 风。主页截图中多条视频缩略图展示居家人物出镜，其中 Capacities 视频将人物与软件界面并置；公开标题使用第一人称，且设有“chatty stuff”及“vlogs”播放列表。可据此标注上述风格，但不足以明确标为 geek 风，也未据头像判断身体或身份特征。",
+          "evidenceIds": [
+            "5ed08cb782ac9a5c289e1b4c"
+          ],
+          "label": "根据可核实的内容标注呈现风格，例如 geek 风或其他风格，并给出一句依据；看不清或证据不足则待确认"
+        }
+      ],
+      "verdict": "unknown",
+      "tags": [
+        "根据可核实的内容标注内容方向，例如数码、生活或其他方向，并给出一句依据；证据不足则待确认",
+        "根据可核实的内容标注呈现风格，例如 geek 风或其他风格，并给出一句依据；看不清或证据不足则待确认"
+      ],
+      "updatedAt": 1791600518408
+    },
+    {
+      "id": "research-5839ab193c0487161eb47357|youtube:schoolhabits",
+      "taskId": "research-5839ab193c0487161eb47357",
+      "creator": {
+        "id": "youtube:schoolhabits",
+        "platform": "youtube",
+        "handle": "schoolhabits",
+        "profileUrl": "https://www.youtube.com/@schoolhabits",
+        "displayName": "SchoolHabits",
+        "followers": null,
+        "region": null,
+        "evidence": [
+          {
+            "id": "b0cd132da717a5851430b971",
+            "url": "https://www.youtube.com/@schoolhabits",
+            "kind": "browser_snapshot",
+            "text": "",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791600520762,
+            "assetId": "22ed3657216e816b93ea8043a691799b57e6cb4d2e7a59786dcced3eec3c079e"
+          },
+          {
+            "id": "0bad909a2e8d5954005d5c06",
+            "url": "https://www.youtube.com/@schoolhabits",
+            "kind": "browser_snapshot",
+            "text": "SG\nSkip navigation\nSign in\nHome\nShorts\nSubscriptions\nYou\nHistory\nSign in to like videos, comment, and subscribe.\nSign in\nExplore\nMusic\nMovies\nGaming\nShow more\nMore from YouTube\nYouTube Premium\nYouTube Music\nYouTube Kids\nReport history\nAboutPressCopyrightContact usCreatorsAdvertiseDevelopers\nTermsPrivacyPolicy & SafetyHow YouTube worksTest new features\n© 2026 Google LLC\nSchoolHabits\n@SchoolHabits\n•\n20.4K subscribers\n•\n131 videos\nI teach students and professionals strategies to learn and work smarter. I cover everything from study skills to procrastination, time management to note-taking. Trust me - with the right systems, habits, strategies and tweaks, things can be wayyy easier than they are now. \n...more\n schoolhabits.com\nand 3 more links\nSubscribe\nHome\nVideos\nShorts\nPlaylists\nPosts\nWelcome to SchoolHabits\n0:01 / 1:10\nWelcome to SchoolHabits\n1,651 views\n1y ago\nMy name is Katie Azevedo. Through private coaching, video tutorials and online courses, I teach students how to learn.\n\nHaving taught in both public and private school systems, I have seen first-hand how our students are expected to learn - but they are rarely given the tools or strategies to do so.\n\nSince 2006, I have personally coached thousands of students, one-on-one, on:\n\nstandardized tests (SAT/ACT, SSAT, GRE)\napplication essays\nstudy skills\nexecutive functions\nwriting and reading instruction\n\nI work with students in grade 6 through graduate school, as well as adults looking to further their work productivity habits.\n\nWith a Master's Degree in Special Education, I specialize in the intersection between ADHD and academics. I also work with students with ASD and other learning disabilities. I can work in communion with your child's IEP and can help you to navigate and understand your child's services.\n\nIn addition to being a private executive function coach, I'm also a mother of two teens.\n\n⭐SCHOOLHABITS UNIVERSITY⭐\nMy online study skills course for high school and college students:  https://www.schoolhabitsuniversity.co...\nREAD MORE\nVideos\n12:29\nHow to Study from a Study Guide You Got from Your Teacher\n326\n4w ago\nCC\n13:21\nNo Time to Study? Do This.\n2.2K\n1mo ago\nCC\n13:10\nYou're So Smart...But... (And Why That's a Lie)\n249\n2mo ago\nCC\n18:22\nWhy You're Good at Homework But Bad at Tests\n235\n3mo ago\nCC\n15:02\n5 Secret Study Rules that Make Studying Easier\n756\n4mo ago\nCC\n14:56\nWhat to Do When You Don't Understand What You're Learning (10 Strategies for Students)\n690\n5mo ago\nCC\nShorts\nFlash card study hack! #studyhacks ￼\n1.5K views\nStudy Hack!!\n1.7K views\nBusy Isn't a Feeling 😉#studymotivation #timemanagement #studentslife\n86 views\nDo you HEAR me!?\n460 views\nYour story is getting so old...\n868 views\nYou Need a Timer #pomodorotechnique #studyhacks #5010pomodorostudywithme\n597 views\nPosts\nSchoolHabits\n•\n5 years ago\nJust saying hi 🤓 and hoping you are all staying healthy ✨ Xoxo Katie\n18\nSchoolHabits\n•\n6 years ago\nMy last few videos have been all about remote learning. Here’s a shot of one of my home workspaces for my own kids that are learning remotely. Grades 2 and 4. They alternate between this and one we set up in the kitchen. Not perfect but it’s totally working right now 🙌🏼\n13\n1\nSchoolHabits\n•\n6 years ago\nBack to school season is basically my favorite holiday 😭 Flippin’ my calendar to September gets me all warm, fuzzy, and thinking about school supplies hauls 🤓 Who’s with me?! Xo\n10\nSchoolHabits\n•\n6 years ago\nIt's back to school time!! If you're doing remote learning this year (or hybrid), I've been pumping out a ton of remote learning videos lately to help guide you through it. Lots of tips for students, parents and teachers too. If there's a specific video that would be helpful, let me know!! xoxox Katie\n14",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791600525923,
+            "assetId": "6f02c2c5e9f30fe10783c1838de371b20a58a15e070e1ceeb820f49298e96000"
+          }
+        ],
+        "raw": {
+          "factorGrades": {
+            "role": "strong",
+            "activity": "observed",
+            "identity": "individual",
+            "location": "location_unverified",
+            "followers": "unknown",
+            "relevance": "strong"
+          },
+          "hardConditions": [
+            {
+              "basis": "Attributable YouTube channel record reports 20.4K subscribers.",
+              "status": "met",
+              "condition": "Followers at least 10,000 and at most 100,000"
+            },
+            {
+              "basis": "YouTube channel country field reports United States.",
+              "status": "met",
+              "condition": "Creator is based in the United States"
+            },
+            {
+              "basis": "Channel presents a single educator providing study-skills guidance; no organization or business identity is shown.",
+              "status": "met",
+              "condition": "Individual creators only"
+            },
+            {
+              "basis": "The person is selected only once, on YouTube, with no other-platform selection.",
+              "status": "met",
+              "condition": "No person on two platforms"
+            }
+          ]
+        }
+      },
+      "judgments": [
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：youtube",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "unknown",
+          "reason": "未取得粉丝数",
+          "evidenceIds": [],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "content_direction",
+          "verdict": "match",
+          "reason": "内容方向标注：教育／学习方法与效率提升。频道简介明确介绍学习技巧、拖延管理、时间管理及笔记方法，视频《How to Study from a Study Guide You Got from Your Teacher》（页面显示4w ago）及《No Time to Study? Do This.》（1mo ago）与该方向一致。来源为2026-10-10观察的频道页面；仅保留页面相对日期，不推定确切发布日期。",
+          "evidenceIds": [
+            "0bad909a2e8d5954005d5c06"
+          ],
+          "label": "根据可核实的内容标注内容方向，例如数码、生活或其他方向，并给出一句依据；证据不足则待确认"
+        },
+        {
+          "criterionId": "content_style",
+          "verdict": "match",
+          "reason": "呈现风格标注：教师式知识讲解／实用学习指导。频道首页《Welcome to SchoolHabits》视频截图实际可见真人面对镜头、室内背景的讲解画面，配文明确以视频教程教学生学习；可支持教学讲解风格，但不足以标注geek风，也不据此推断全部视频的视觉风格。来源为2026-10-10观察的频道页面，介绍视频页面显示1y ago。",
+          "evidenceIds": [
+            "0bad909a2e8d5954005d5c06"
+          ],
+          "label": "根据可核实的内容标注呈现风格，例如 geek 风或其他风格，并给出一句依据；看不清或证据不足则待确认"
+        }
+      ],
+      "verdict": "unknown",
+      "tags": [
+        "根据可核实的内容标注内容方向，例如数码、生活或其他方向，并给出一句依据；证据不足则待确认",
+        "根据可核实的内容标注呈现风格，例如 geek 风或其他风格，并给出一句依据；看不清或证据不足则待确认"
+      ],
+      "updatedAt": 1791600540979
+    }
+  ],
+  "finalChat": [
+    {
+      "role": "user",
+      "text": "请取消任务“浏览器人工协助验收 block-1791596516838”（编号 research-5ecc501dbf9d49fa1bd21ed2），我不处理这次人工协助。保持独立任务“Review独立文字队列 block-1791596516838”继续执行，不要重新提交或另建任何研究。",
+      "state": "delivered"
+    },
+    {
+      "role": "assistant",
+      "text": "已取消 **“浏览器人工协助验收 block-1791596516838”**（`research-5ecc501dbf9d49fa1bd21ed2`）的本地核验，不再等待你处理此次人工协助。远端搜索无法保证同步取消。\n\n独立任务 **“Review独立文字队列 block-1791596516838”** 保持执行，最新状态为：搜索已提交，等待候选返回。\n\n未重新提交或另建研究，也未取消其他任务。",
+      "state": "delivered"
+    },
+    {
+      "role": "user",
+      "text": "请停止“Review独立文字队列 block-1791596516838”（编号 research-eec15e9fea76882b8f4a22de）的本地研究，不要另建研究。",
+      "state": "delivered"
+    },
+    {
+      "role": "assistant",
+      "text": "已停止 **“Review独立文字队列 block-1791596516838”**（`research-eec15e9fea76882b8f4a22de`）的本地研究，未另建研究。\n\n远端搜索可能仍继续，无法保证同步取消。",
+      "state": "delivered"
+    }
+  ],
+  "waveCalls": [],
+  "modelCalls": [
+    {
+      "id": "30e3fb1f-64f1-4fcf-a9d1-39a7128f6011",
+      "kind": "browser-verification",
+      "createdAt": 1791600497889,
+      "finishedAt": 1791600502842,
+      "taskId": "research-5839ab193c0487161eb47357",
+      "handle": "wesleyanna",
+      "model": "gpt-6.1-sol",
+      "criteria": [
+        {
+          "id": "content_direction",
+          "label": "根据可核实的内容标注内容方向，例如数码、生活或其他方向，并给出一句依据；证据不足则待确认",
+          "required": false,
+          "basis": "either"
+        },
+        {
+          "id": "content_style",
+          "label": "根据可核实的内容标注呈现风格，例如 geek 风或其他风格，并给出一句依据；看不清或证据不足则待确认",
+          "required": false,
+          "basis": "either"
+        }
+      ],
+      "tools": [
+        "submit_judgments",
+        "browser",
+        "request_human_assistance"
+      ],
+      "images": 1,
+      "response": {
+        "role": "assistant",
+        "content": null,
+        "reasoning_content": null,
+        "tool_calls": [
+          {
+            "id": "call_yVGAs5rj0036u7enJKkpXg16",
+            "type": "function",
+            "function": {
+              "name": "browser",
+              "arguments": "{\"action\":\"observe\"}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "ff2cd14f-9019-4c2b-86ae-854dcf92f2b6",
+      "kind": "browser-verification",
+      "createdAt": 1791600503127,
+      "finishedAt": 1791600518359,
+      "taskId": "research-5839ab193c0487161eb47357",
+      "handle": "wesleyanna",
+      "model": "gpt-6.1-sol",
+      "criteria": [
+        {
+          "id": "content_direction",
+          "label": "根据可核实的内容标注内容方向，例如数码、生活或其他方向，并给出一句依据；证据不足则待确认",
+          "required": false,
+          "basis": "either"
+        },
+        {
+          "id": "content_style",
+          "label": "根据可核实的内容标注呈现风格，例如 geek 风或其他风格，并给出一句依据；看不清或证据不足则待确认",
+          "required": false,
+          "basis": "either"
+        }
+      ],
+      "tools": [
+        "submit_judgments",
+        "browser",
+        "request_human_assistance"
+      ],
+      "images": 2,
+      "response": {
+        "role": "assistant",
+        "content": null,
+        "reasoning_content": null,
+        "tool_calls": [
+          {
+            "id": "call_p16n3nH1Q4irwM9J9t64ufuP",
+            "type": "function",
+            "function": {
+              "name": "submit_judgments",
+              "arguments": "{\"judgments\":[{\"criterionId\":\"content_direction\",\"verdict\":\"match\",\"reason\":\"内容方向标注：效率工具与科技、生活及旅行 Vlog。频道公开列出“productivity, notion & tech”播放列表，以及 Notion 入门、Capacities 整理工具、AI 讨论和京都/首尔旅行视频；主页显示 Capacities 视频为“4w ago”、京都 Vlog 为“2mo ago”（页面相对日期，不作为精确发布日期）。来源为本次观察的 YouTube 频道主页。\",\"evidenceIds\":[\"5ed08cb782ac9a5c289e1b4c\"]},{\"criterionId\":\"content_style\",\"verdict\":\"match\",\"reason\":\"呈现风格标注：个人化、轻松聊天与工具讲解结合的 Vlog 风。主页截图中多条视频缩略图展示居家人物出镜，其中 Capacities 视频将人物与软件界面并置；公开标题使用第一人称，且设有“chatty stuff”及“vlogs”播放列表。可据此标注上述风格，但不足以明确标为 geek 风，也未据头像判断身体或身份特征。\",\"evidenceIds\":[\"5ed08cb782ac9a5c289e1b4c\"]}]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "831f5026-93a9-40c1-9c8b-be799c9b123c",
+      "kind": "browser-verification",
+      "createdAt": 1791600520771,
+      "finishedAt": 1791600525705,
+      "taskId": "research-5839ab193c0487161eb47357",
+      "handle": "schoolhabits",
+      "model": "gpt-6.1-sol",
+      "criteria": [
+        {
+          "id": "content_direction",
+          "label": "根据可核实的内容标注内容方向，例如数码、生活或其他方向，并给出一句依据；证据不足则待确认",
+          "required": false,
+          "basis": "either"
+        },
+        {
+          "id": "content_style",
+          "label": "根据可核实的内容标注呈现风格，例如 geek 风或其他风格，并给出一句依据；看不清或证据不足则待确认",
+          "required": false,
+          "basis": "either"
+        }
+      ],
+      "tools": [
+        "submit_judgments",
+        "browser",
+        "request_human_assistance"
+      ],
+      "images": 1,
+      "response": {
+        "role": "assistant",
+        "content": null,
+        "reasoning_content": null,
+        "tool_calls": [
+          {
+            "id": "call_fjRPM7e2QhIx4SubtRxd9omk",
+            "type": "function",
+            "function": {
+              "name": "browser",
+              "arguments": "{\"action\":\"observe\"}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "5d17c6f4-f82b-4723-8fd2-aa00de349bb7",
+      "kind": "browser-verification",
+      "createdAt": 1791600525957,
+      "finishedAt": 1791600540880,
+      "taskId": "research-5839ab193c0487161eb47357",
+      "handle": "schoolhabits",
+      "model": "gpt-6.1-sol",
+      "criteria": [
+        {
+          "id": "content_direction",
+          "label": "根据可核实的内容标注内容方向，例如数码、生活或其他方向，并给出一句依据；证据不足则待确认",
+          "required": false,
+          "basis": "either"
+        },
+        {
+          "id": "content_style",
+          "label": "根据可核实的内容标注呈现风格，例如 geek 风或其他风格，并给出一句依据；看不清或证据不足则待确认",
+          "required": false,
+          "basis": "either"
+        }
+      ],
+      "tools": [
+        "submit_judgments",
+        "browser",
+        "request_human_assistance"
+      ],
+      "images": 2,
+      "response": {
+        "role": "assistant",
+        "content": null,
+        "reasoning_content": null,
+        "tool_calls": [
+          {
+            "id": "call_JegUHX4etpPLtu77gncTSL9n",
+            "type": "function",
+            "function": {
+              "name": "submit_judgments",
+              "arguments": "{\"judgments\":[{\"criterionId\":\"content_direction\",\"verdict\":\"match\",\"reason\":\"内容方向标注：教育／学习方法与效率提升。频道简介明确介绍学习技巧、拖延管理、时间管理及笔记方法，视频《How to Study from a Study Guide You Got from Your Teacher》（页面显示4w ago）及《No Time to Study? Do This.》（1mo ago）与该方向一致。来源为2026-10-10观察的频道页面；仅保留页面相对日期，不推定确切发布日期。\",\"evidenceIds\":[\"0bad909a2e8d5954005d5c06\"]},{\"criterionId\":\"content_style\",\"verdict\":\"match\",\"reason\":\"呈现风格标注：教师式知识讲解／实用学习指导。频道首页《Welcome to SchoolHabits》视频截图实际可见真人面对镜头、室内背景的讲解画面，配文明确以视频教程教学生学习；可支持教学讲解风格，但不足以标注geek风，也不据此推断全部视频的视觉风格。来源为2026-10-10观察的频道页面，介绍视频页面显示1y ago。\",\"evidenceIds\":[\"0bad909a2e8d5954005d5c06\"]}]}"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

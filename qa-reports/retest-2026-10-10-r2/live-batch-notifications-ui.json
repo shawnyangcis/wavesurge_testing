@@ -1,0 +1,30 @@
+{
+  "scope": "live",
+  "at": "2026-10-10T06:39:51.630Z",
+  "reportNotificationCount": 3,
+  "checks": [
+    {
+      "id": "report-research-a8e3309218440957ace846fd-e3983f752aa5541c",
+      "text": "研究助手\n\n研究「YouTube 大学学习方法创作者」已结束，仍有缺额。已选合格 0/1 人，核验 2 人。\n\n已选合格 0/1，已核验 2；证据不足者保持待核实。\n\n查看完整报告 · 下载 CSV",
+      "links": [
+        "/api/reports/research-a8e3309218440957ace846fd",
+        "/api/reports/research-a8e3309218440957ace846fd?format=csv"
+      ]
+    },
+    {
+      "id": "report-research-11deee85612adbbdea75b835-fd118feb87c3272c",
+      "text": "研究助手\n\n研究「YouTube 大学生 AI 与效率工具创作者」已结束，仍有缺额。已选合格 0/1 人，核验 2 人。\n\n已选合格 0/1，已核验 2；证据不足者保持待核实。\n\n查看完整报告 · 下载 CSV",
+      "links": [
+        "/api/reports/research-11deee85612adbbdea75b835",
+        "/api/reports/research-11deee85612adbbdea75b835?format=csv"
+      ]
+    },
+    {
+      "id": "report-campaign-9d63bb971fa097c467999073-33e0fae56690b428",
+      "text": "研究助手\n\nCampaign「美国 AI 课堂笔记工具 YouTube 小规模注册测试」已结束，仍有缺额。去重入选 0/2 人。\n\nYouTube 大学学习方法创作者：0/1\nYouTube 大学生 AI 与效率工具创作者：0/1\n\n查看 Campaign 总报告",
+      "links": [
+        "/api/campaigns/campaign-9d63bb971fa097c467999073/report"
+      ]
+    }
+  ]
+}

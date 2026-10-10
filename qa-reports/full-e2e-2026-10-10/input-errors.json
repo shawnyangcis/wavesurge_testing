@@ -1,0 +1,12 @@
+{
+  "source": "actual production UI on isolated deployment; all invalid operations rejected without changing model settings",
+  "checks": [
+    "credential/query-bearing model URL rejected",
+    "malformed JSON backup rejected",
+    "invalid backup format rejected",
+    "5 attachments rejected atomically",
+    "add/remove attachment previews",
+    "non-image rejected"
+  ],
+  "pageErrors": []
+}

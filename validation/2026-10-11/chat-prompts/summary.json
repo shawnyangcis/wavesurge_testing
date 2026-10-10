@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "unitAndIntegrationTests": 242,
+  "browserAcceptanceFlows": 4,
+  "actualWaveCalls": 10,
+  "actualModelCalls": 14,
+  "waveSource": "https://wavesurge.ai/api/v1",
+  "main": {
+    "name": "main",
+    "defaultFieldsUpdated": [
+      "systemPrompt",
+      "workflowPrompt",
+      "verificationPrompt",
+      "compressionPrompt"
+    ],
+    "settingsRevision": 17,
+    "preservedDocuments": 1069,
+    "messages": 211,
+    "tasks": 29,
+    "sourceFilesMatched": 59,
+    "noHistoricalRedelivery": true,
+    "passed": true
+  },
+  "realInstallation": {
+    "name": "real",
+    "defaultFieldsUpdated": [
+      "systemPrompt",
+      "workflowPrompt",
+      "verificationPrompt",
+      "compressionPrompt"
+    ],
+    "settingsRevision": 3,
+    "preservedDocuments": 182,
+    "messages": 17,
+    "tasks": 8,
+    "sourceFilesMatched": 59,
+    "noHistoricalRedelivery": true,
+    "passed": true
+  },
+  "browserErrors": {
+    "main": [],
+    "real": []
+  }
+}

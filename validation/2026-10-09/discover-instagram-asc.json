@@ -1,0 +1,2481 @@
+{
+  "atUtc": "2026-10-09T14:19:57.520301+00:00",
+  "method": "GET",
+  "path": "/discover/db?platform=instagram&limit=10&sort=followers_asc",
+  "status": 200,
+  "elapsedSeconds": 2.015,
+  "contentType": "application/json; charset=utf-8",
+  "responseSha256": "f8a0e730fc8648b146abac52e252c8f4bfb59286152a44c05c92b3fbc96e4274",
+  "response": {
+    "summary": {
+      "total": 10,
+      "byPlatform": {
+        "instagram": 500
+      },
+      "fromCompetitors": 0,
+      "lookalikes": 10,
+      "avgFit": 76,
+      "sourceTypes": {
+        "exa": 0,
+        "runner": 10,
+        "manual": 0,
+        "import": 0,
+        "cache": 0,
+        "unknown": 0
+      },
+      "emailUsable": 3,
+      "emailQualified": 2,
+      "emailAutoSendable": 2,
+      "contactable": 2,
+      "nonEmailContactable": 5
+    },
+    "tiers": {
+      "all": 10,
+      "koc": 10,
+      "micro": 0,
+      "mid": 0,
+      "macro": 0
+    },
+    "creators": [
+      {
+        "id": "22e78ce6-eb1f-4280-8a82-749a1b1bc3d6",
+        "handle": "aiguyjay",
+        "displayName": "AI Tools",
+        "bio": "🚀 Unlocking AI for business & life \n🤖 Trends, hacks & automation \n🎥 Video creation & monetization \n📩 DM for collabs",
+        "details": [
+          {
+            "group": "identity",
+            "key": "source",
+            "label": "Found via",
+            "value": "This campaign search",
+            "hint": "How this creator reached your list."
+          },
+          {
+            "group": "identity",
+            "key": "foundAt",
+            "label": "Added",
+            "value": "2026-10-07",
+            "hint": "When this creator entered our database."
+          },
+          {
+            "group": "content",
+            "key": "medianViews",
+            "label": "Median reel views",
+            "value": "20,739 (1 posts)",
+            "hint": "The middle value of their recent REELS. Instagram photo posts have no view count, so this describes their video reach only. Posts we could not read a count for are left out rather than counted as zero."
+          }
+        ],
+        "platform": "instagram",
+        "region": null,
+        "audience": null,
+        "followerCount": 1565,
+        "engagementRate": null,
+        "engagementKnown": false,
+        "kolType": "ai_tools",
+        "avatarUrl": "https://pompe-ai-analysis-artifacts.sgp1.cdn.digitaloceanspaces.com/creator-avatars/instagram/f728471337992d58ce98e363dd60e5b7.jpg",
+        "publishedLink": null,
+        "tier": "koc",
+        "fit": 87,
+        "fromCompetitor": false,
+        "source": "creator_search_agent",
+        "sourceType": "runner",
+        "sourceSubType": "unknown",
+        "origin": "system",
+        "foundAt": "2026-08-28T06:59:21.622Z",
+        "batchLabel": null,
+        "emailStatus": "email_ready",
+        "emailReadyAt": "2026-10-08T07:08:11.388Z",
+        "email": null,
+        "emailUsable": true,
+        "emailQualified": true,
+        "emailAutoSendable": true,
+        "emailConfidence": "high",
+        "emailOwnerType": "creator",
+        "emailReasons": [
+          "email_matches_creator_handle_or_name",
+          "personal_mailbox_domain"
+        ],
+        "contactChannels": [
+          {
+            "channel": "instagram",
+            "value": "aiguyjay",
+            "isPrimary": true
+          },
+          {
+            "channel": "website",
+            "value": "https://ai.contentkingdomhq.com/",
+            "isPrimary": false
+          },
+          {
+            "channel": "tiktok",
+            "value": "aiguyjay",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://ai.contentkingdomhq.com/assets/img/hero-1.jpg",
+            "isPrimary": false
+          }
+        ],
+        "contactChannelCount": 4,
+        "contactable": true,
+        "lastSeenAt": "2026-08-28T06:59:21.622Z",
+        "searchKind": "trial",
+        "accountIdentity": null,
+        "recommendationKind": null,
+        "audienceStatus": "unavailable",
+        "qualification": null,
+        "searchMatchTier": null
+      },
+      {
+        "id": "39105445-f431-4c0b-98b8-c13f6b570dea",
+        "handle": "advantage.accountingnc",
+        "displayName": "Advantage Accounting & Tax | Financial Services",
+        "bio": null,
+        "details": [
+          {
+            "group": "identity",
+            "key": "source",
+            "label": "Found via",
+            "value": "This campaign search",
+            "hint": "How this creator reached your list."
+          }
+        ],
+        "platform": "instagram",
+        "region": null,
+        "audience": null,
+        "followerCount": 1765,
+        "engagementRate": null,
+        "engagementKnown": false,
+        "kolType": null,
+        "avatarUrl": null,
+        "publishedLink": null,
+        "tier": "koc",
+        "fit": 69,
+        "fromCompetitor": false,
+        "source": "creator_search_agent",
+        "sourceType": "runner",
+        "sourceSubType": "unknown",
+        "origin": "system",
+        "foundAt": "2026-10-07T13:58:40.444Z",
+        "batchLabel": null,
+        "emailStatus": "finding_email",
+        "emailReadyAt": null,
+        "email": null,
+        "emailUsable": false,
+        "emailQualified": false,
+        "emailAutoSendable": false,
+        "emailConfidence": "low",
+        "emailOwnerType": "unknown",
+        "emailReasons": [
+          "missing_or_unusable_email"
+        ],
+        "contactChannels": [],
+        "contactChannelCount": 0,
+        "contactable": false,
+        "lastSeenAt": "2026-10-07T13:58:40.444Z",
+        "searchKind": "trial",
+        "accountIdentity": null,
+        "recommendationKind": null,
+        "audienceStatus": "unavailable",
+        "qualification": null,
+        "searchMatchTier": null
+      },
+      {
+        "id": "1d30dfed-9a25-4754-96fa-ec5e788f4c0e",
+        "handle": "aiunboxiing",
+        "displayName": "AI UNBOXIING",
+        "bio": "AI Unboxing Studio 🤖\nCinematic product reveals 📦\nVisuals beyond reality 🎬\nFollow the next reveal.",
+        "details": [
+          {
+            "group": "identity",
+            "key": "source",
+            "label": "Found via",
+            "value": "This campaign search",
+            "hint": "How this creator reached your list."
+          },
+          {
+            "group": "identity",
+            "key": "foundAt",
+            "label": "Added",
+            "value": "2026-08-28",
+            "hint": "When this creator entered our database."
+          }
+        ],
+        "platform": "instagram",
+        "region": null,
+        "audience": null,
+        "followerCount": 2179,
+        "engagementRate": null,
+        "engagementKnown": false,
+        "kolType": null,
+        "avatarUrl": "https://pompe-ai-analysis-artifacts.sgp1.cdn.digitaloceanspaces.com/creator-avatars/instagram/ee568ee4e2aa6862e9b48496048f99c1.jpg",
+        "publishedLink": null,
+        "tier": "koc",
+        "fit": 69,
+        "fromCompetitor": false,
+        "source": "creator_search_agent",
+        "sourceType": "runner",
+        "sourceSubType": "unknown",
+        "origin": "system",
+        "foundAt": "2026-08-28T07:02:19.461Z",
+        "batchLabel": null,
+        "emailStatus": "finding_email",
+        "emailReadyAt": null,
+        "email": null,
+        "emailUsable": false,
+        "emailQualified": false,
+        "emailAutoSendable": false,
+        "emailConfidence": "low",
+        "emailOwnerType": "unknown",
+        "emailReasons": [
+          "missing_or_unusable_email"
+        ],
+        "contactChannels": [
+          {
+            "channel": "youtube",
+            "value": "aiunboxing-u5v",
+            "isPrimary": false
+          }
+        ],
+        "contactChannelCount": 1,
+        "contactable": false,
+        "lastSeenAt": "2026-08-28T07:02:19.461Z",
+        "searchKind": "trial",
+        "accountIdentity": null,
+        "recommendationKind": null,
+        "audienceStatus": "unavailable",
+        "qualification": null,
+        "searchMatchTier": null
+      },
+      {
+        "id": "24d6eb8b-259c-482a-b8ff-93f61fdacbbf",
+        "handle": "missybuilds",
+        "displayName": "Missy",
+        "bio": null,
+        "details": [
+          {
+            "group": "identity",
+            "key": "source",
+            "label": "Found via",
+            "value": "This campaign search",
+            "hint": "How this creator reached your list."
+          },
+          {
+            "group": "identity",
+            "key": "foundAt",
+            "label": "Added",
+            "value": "2026-10-07",
+            "hint": "When this creator entered our database."
+          },
+          {
+            "group": "content",
+            "key": "medianViews",
+            "label": "Median reel views",
+            "value": "40,638 (2 posts)",
+            "hint": "The middle value of their recent REELS. Instagram photo posts have no view count, so this describes their video reach only. Posts we could not read a count for are left out rather than counted as zero."
+          }
+        ],
+        "platform": "instagram",
+        "region": null,
+        "audience": null,
+        "followerCount": 2394,
+        "engagementRate": null,
+        "engagementKnown": false,
+        "kolType": "ai_tools",
+        "avatarUrl": "https://pompe-ai-analysis-artifacts.sgp1.cdn.digitaloceanspaces.com/creator-avatars/instagram/a72ce48db4dea6c544c8bb4912f6d60c.jpg",
+        "publishedLink": null,
+        "tier": "koc",
+        "fit": 77,
+        "fromCompetitor": false,
+        "source": "creator_search_agent",
+        "sourceType": "runner",
+        "sourceSubType": "unknown",
+        "origin": "system",
+        "foundAt": "2026-10-07T10:30:08.302Z",
+        "batchLabel": null,
+        "emailStatus": "finding_email",
+        "emailReadyAt": null,
+        "email": null,
+        "emailUsable": false,
+        "emailQualified": false,
+        "emailAutoSendable": false,
+        "emailConfidence": "low",
+        "emailOwnerType": "unknown",
+        "emailReasons": [
+          "missing_or_unusable_email"
+        ],
+        "contactChannels": [],
+        "contactChannelCount": 0,
+        "contactable": false,
+        "lastSeenAt": "2026-10-07T10:30:08.302Z",
+        "searchKind": "trial",
+        "accountIdentity": null,
+        "recommendationKind": null,
+        "audienceStatus": "unavailable",
+        "qualification": null,
+        "searchMatchTier": null
+      },
+      {
+        "id": "196fe456-22e5-43ee-a41f-b29fd5fd0962",
+        "handle": "minutely.ai_",
+        "displayName": "Minutely.",
+        "bio": null,
+        "details": [
+          {
+            "group": "identity",
+            "key": "source",
+            "label": "Found via",
+            "value": "This campaign search",
+            "hint": "How this creator reached your list."
+          },
+          {
+            "group": "identity",
+            "key": "foundAt",
+            "label": "Added",
+            "value": "2026-10-07",
+            "hint": "When this creator entered our database."
+          },
+          {
+            "group": "content",
+            "key": "medianViews",
+            "label": "Median reel views",
+            "value": "768,862 (1 posts)",
+            "hint": "The middle value of their recent REELS. Instagram photo posts have no view count, so this describes their video reach only. Posts we could not read a count for are left out rather than counted as zero."
+          }
+        ],
+        "platform": "instagram",
+        "region": null,
+        "audience": null,
+        "followerCount": 2855,
+        "engagementRate": null,
+        "engagementKnown": false,
+        "kolType": "ai_tools",
+        "avatarUrl": "https://pompe-ai-analysis-artifacts.sgp1.cdn.digitaloceanspaces.com/creator-avatars/instagram/52be24a2362c05f5007352413f972eda.jpg",
+        "publishedLink": null,
+        "tier": "koc",
+        "fit": 77,
+        "fromCompetitor": false,
+        "source": "creator_search_agent",
+        "sourceType": "runner",
+        "sourceSubType": "unknown",
+        "origin": "system",
+        "foundAt": "2026-10-07T10:30:08.706Z",
+        "batchLabel": null,
+        "emailStatus": "finding_email",
+        "emailReadyAt": null,
+        "email": null,
+        "emailUsable": false,
+        "emailQualified": false,
+        "emailAutoSendable": false,
+        "emailConfidence": "low",
+        "emailOwnerType": "unknown",
+        "emailReasons": [
+          "missing_or_unusable_email"
+        ],
+        "contactChannels": [
+          {
+            "channel": "website",
+            "value": "http://getminutely.org/",
+            "isPrimary": false
+          },
+          {
+            "channel": "twitter",
+            "value": "karpathy",
+            "isPrimary": false
+          },
+          {
+            "channel": "linkedin",
+            "value": "andrej-karpathy-9a650716",
+            "isPrimary": false
+          },
+          {
+            "channel": "twitter",
+            "value": "sama",
+            "isPrimary": false
+          },
+          {
+            "channel": "twitter",
+            "value": "ylecun",
+            "isPrimary": false
+          },
+          {
+            "channel": "twitter",
+            "value": "drfeifei",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&family=JetBrains+Mono:wght@400;500;700&family=Instrument+Serif:ital@0;1&family=Instrument+Sans:ital@0;1&displa",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://fonts.googleapis.com/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://fonts.gstatic.com/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://metana.io/ai-skills/begin",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a0bcfd87-196d-4ad2-a962-3292a8ceb118/id-preview-da5a5e3b--b9989ca5-14a7-48f8-b900-3ec9d055d70c.lovable.app-1782747115679.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "http://www.w3.org/2000/svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://www.google.com/s2/favicons?sz=128&domain=openai.com",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://www.google.com/s2/favicons?sz=128&domain=claude.ai",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://www.google.com/s2/favicons?sz=128&domain=perplexity.ai",
+            "isPrimary": false
+          }
+        ],
+        "contactChannelCount": 15,
+        "contactable": false,
+        "lastSeenAt": "2026-10-07T10:30:08.706Z",
+        "searchKind": "trial",
+        "accountIdentity": null,
+        "recommendationKind": null,
+        "audienceStatus": "unavailable",
+        "qualification": null,
+        "searchMatchTier": null
+      },
+      {
+        "id": "b66191d4-443f-4605-a6e6-8271b1eee687",
+        "handle": "evgeniashu.ai",
+        "displayName": "evgenia.ai.creator",
+        "bio": null,
+        "details": [
+          {
+            "group": "identity",
+            "key": "source",
+            "label": "Found via",
+            "value": "This campaign search",
+            "hint": "How this creator reached your list."
+          }
+        ],
+        "platform": "instagram",
+        "region": null,
+        "audience": {
+          "availability": "available",
+          "basis": "Sampled 25 of their most recent followers.",
+          "capturedAt": "2026-09-30T12:45:04.911Z",
+          "rows": [
+            {
+              "key": "gender",
+              "label": "Gender",
+              "value": "Female 55% · Male 41% · Unknown 5%",
+              "hint": "Estimated from 22 accounts.",
+              "primarySegment": {
+                "key": "female",
+                "label": "Female 55%",
+                "pct": 55
+              },
+              "distribution": [
+                {
+                  "key": "female",
+                  "label": "Female",
+                  "pct": 54.541015625
+                },
+                {
+                  "key": "male",
+                  "label": "Male",
+                  "pct": 40.90576171875
+                },
+                {
+                  "key": "unknown",
+                  "label": "Unknown",
+                  "pct": 4.55322265625
+                }
+              ],
+              "segments": [
+                {
+                  "key": "female",
+                  "label": "Female 55%",
+                  "pct": 55,
+                  "tone": "categorical-1"
+                },
+                {
+                  "key": "male",
+                  "label": "Male 41%",
+                  "pct": 41,
+                  "tone": "categorical-2"
+                },
+                {
+                  "key": "unknown",
+                  "label": "Unknown 5%",
+                  "pct": 5,
+                  "tone": "unknown"
+                }
+              ]
+            },
+            {
+              "key": "age",
+              "label": "Age",
+              "value": "19-29 45% · 30-39 14% · +2 more · Unknown 41%",
+              "hint": "Estimated from 22 accounts.",
+              "primarySegment": {
+                "key": "19-29",
+                "label": "19-29 45%",
+                "pct": 45
+              },
+              "distribution": [
+                {
+                  "key": "19-29",
+                  "label": "19-29",
+                  "pct": 45.458984375
+                },
+                {
+                  "key": "30-39",
+                  "label": "30-39",
+                  "pct": 13.63525390625
+                },
+                {
+                  "key": "<=18",
+                  "label": "<=18",
+                  "pct": 0
+                },
+                {
+                  "key": ">=40",
+                  "label": ">=40",
+                  "pct": 0
+                },
+                {
+                  "key": "unknown",
+                  "label": "Unknown",
+                  "pct": 40.90576171875
+                }
+              ],
+              "segments": [
+                {
+                  "key": "19-29",
+                  "label": "19-29 45%",
+                  "pct": 45,
+                  "tone": "ordinal-2"
+                },
+                {
+                  "key": "30-39",
+                  "label": "30-39 14%",
+                  "pct": 14,
+                  "tone": "ordinal-3"
+                },
+                {
+                  "key": "unknown",
+                  "label": "Unknown 41%",
+                  "pct": 41,
+                  "tone": "unknown"
+                }
+              ]
+            },
+            {
+              "key": "location",
+              "label": "Country",
+              "value": "United States 16% · France 8% · Indonesia 8% · +4 more · Unknown 52%",
+              "hint": "Estimated from 25 accounts.",
+              "primarySegment": {
+                "key": "US",
+                "label": "United States 16%",
+                "pct": 16
+              },
+              "distribution": [
+                {
+                  "key": "US",
+                  "label": "United States",
+                  "pct": 16.00341796875
+                },
+                {
+                  "key": "FR",
+                  "label": "France",
+                  "pct": 7.99560546875
+                },
+                {
+                  "key": "ID",
+                  "label": "Indonesia",
+                  "pct": 7.99560546875
+                },
+                {
+                  "key": "AE",
+                  "label": "United Arab Emirates",
+                  "pct": 4.00390625
+                },
+                {
+                  "key": "IN",
+                  "label": "India",
+                  "pct": 4.00390625
+                },
+                {
+                  "key": "VE",
+                  "label": "Venezuela",
+                  "pct": 4.00390625
+                },
+                {
+                  "key": "ZA",
+                  "label": "South Africa",
+                  "pct": 3.99169921875
+                },
+                {
+                  "key": "unknown",
+                  "label": "Unknown",
+                  "pct": 52.001953125
+                }
+              ],
+              "segments": null
+            }
+          ]
+        },
+        "followerCount": 3027,
+        "engagementRate": null,
+        "engagementKnown": false,
+        "kolType": "ai_tools",
+        "avatarUrl": "https://pompe-ai-analysis-artifacts.sgp1.cdn.digitaloceanspaces.com/creator-avatars/instagram/08edac78d8ff35605fd112194f7d8b20.jpg",
+        "publishedLink": null,
+        "tier": "koc",
+        "fit": 87,
+        "fromCompetitor": false,
+        "source": "creator_search_agent",
+        "sourceType": "runner",
+        "sourceSubType": "unknown",
+        "origin": "system",
+        "foundAt": "2026-09-26T11:37:54.787Z",
+        "batchLabel": null,
+        "emailStatus": "email_ready",
+        "emailReadyAt": "2026-09-30T03:37:13.347Z",
+        "email": null,
+        "emailUsable": true,
+        "emailQualified": true,
+        "emailAutoSendable": true,
+        "emailConfidence": "high",
+        "emailOwnerType": "creator",
+        "emailReasons": [
+          "profile_harvested_contact",
+          "email_matches_creator_handle_or_name",
+          "personal_mailbox_domain"
+        ],
+        "contactChannels": [],
+        "contactChannelCount": 0,
+        "contactable": true,
+        "lastSeenAt": "2026-09-26T11:37:54.787Z",
+        "searchKind": "trial",
+        "accountIdentity": null,
+        "recommendationKind": null,
+        "audienceStatus": "profiled",
+        "qualification": null,
+        "searchMatchTier": null
+      },
+      {
+        "id": "51b58915-8d51-48ba-a4e6-4e31e216867f",
+        "handle": "ailockup",
+        "displayName": "AI Lockup",
+        "bio": null,
+        "details": [
+          {
+            "group": "identity",
+            "key": "source",
+            "label": "Found via",
+            "value": "This campaign search",
+            "hint": "How this creator reached your list."
+          },
+          {
+            "group": "identity",
+            "key": "foundAt",
+            "label": "Added",
+            "value": "2026-10-07",
+            "hint": "When this creator entered our database."
+          }
+        ],
+        "platform": "instagram",
+        "region": null,
+        "audience": null,
+        "followerCount": 3480,
+        "engagementRate": null,
+        "engagementKnown": false,
+        "kolType": null,
+        "avatarUrl": "https://pompe-ai-analysis-artifacts.sgp1.cdn.digitaloceanspaces.com/creator-avatars/instagram/c5cc5a5056781fc9eb81eaafacc82dc9.jpg",
+        "publishedLink": null,
+        "tier": "koc",
+        "fit": 69,
+        "fromCompetitor": false,
+        "source": "creator_search_agent",
+        "sourceType": "runner",
+        "sourceSubType": "unknown",
+        "origin": "system",
+        "foundAt": "2026-10-07T11:59:10.279Z",
+        "batchLabel": null,
+        "emailStatus": "finding_email",
+        "emailReadyAt": null,
+        "email": null,
+        "emailUsable": false,
+        "emailQualified": false,
+        "emailAutoSendable": false,
+        "emailConfidence": "low",
+        "emailOwnerType": "unknown",
+        "emailReasons": [
+          "missing_or_unusable_email"
+        ],
+        "contactChannels": [
+          {
+            "channel": "telegram",
+            "value": "ailockupofficial",
+            "isPrimary": true
+          },
+          {
+            "channel": "website",
+            "value": "https://static.cdninstagram.com/rsrc.php/yP/r/0Qa-AOmHi0c.ico",
+            "isPrimary": true
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/2bl_U6oIbOE/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==\\u0026rs=AOn4CLAapAbPRu6eeYdNsYMfkXw7J3gldg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://rr4---sn-npoeenez.googlevideo.com/initplayback?source=youtube\\u0026oeis=1\\u0026c=WEB\\u0026oad=3200\\u0026ovd=3200\\u0026oaad=11000\\u0026oavd=11000\\u0026ocs=700\\u0026oewis=1\\u0026oputc=1\\u0026msp=1\\u0026odepv=1\\u0026id=7d0b8975c74ba446\\u0026ip=143.19",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/fQuJdcdLpEY/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=\\u0026rs=AOn4CLBQVKgChXubBkp2WFStqIKiUWiGGw",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/fQuJdcdLpEY/hqdefault.jpg?sqp=-oaymwEWCKgBEF5IWvKriqkDCQgBFQAAiEIYAQ==\\u0026rs=AOn4CLA4P-WWzBbcKt4sk0NhwOq6SnBT1A",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://rr2---sn-npoe7nk7.googlevideo.com/initplayback?source=youtube\\u0026oeis=1\\u0026c=WEB\\u0026oad=3200\\u0026ovd=3200\\u0026oaad=11000\\u0026oavd=11000\\u0026ocs=700\\u0026oewis=1\\u0026oputc=1\\u0026msp=1\\u0026odepv=1\\u0026id=2a3773de0030acbe\\u0026ip=143.19",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://yt3.ggpht.com/LjB0kVubhbHzfdYYH3vyXM4J7AfPo5OhUX4E8l_mh-FHd8WRpdVgb0PmI9Xw21KYVcaNorZCCw=s68-c-k-c0x00ffffff-no-rj",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/an_webp/Kjdz3gAwrL4/mqdefault_6s.webp?du=3000\\u0026sqp=CMSundYG\\u0026rs=AOn4CLB2U-Ly0cVFtQvA-sCJ4hXNtkkujg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/Kjdz3gAwrL4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==\\u0026rs=AOn4CLBk6fYtLriGD_aEplOh-nICX4dzqQ",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/Kjdz3gAwrL4/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG\\u0026rs=AOn4CLAa02pSrKXecmfY9wQqURNh72U-gA",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://rr4---sn-u1npoc-5p.googlevideo.com/initplayback?source=youtube\\u0026oeis=1\\u0026c=WEB\\u0026oad=3200\\u0026ovd=3200\\u0026oaad=11000\\u0026oavd=11000\\u0026ocs=700\\u0026oewis=1\\u0026oputc=1\\u0026msp=1\\u0026odepv=1\\u0026id=192624135af52544\\u0026ip=143.1",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://yt3.ggpht.com/caF8kL4fTY7c_j5tnbldWnyUVNTpSBDbYVAXROGkeF4gc39Izlfwg1L7Yx2q4YA3pYWRNTP_=s68-c-k-c0x00ffffff-no-rj",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/an_webp/GSYkE1r1JUQ/mqdefault_6s.webp?du=3000\\u0026sqp=CMDAndYG\\u0026rs=AOn4CLAG9GR9EH53SpLgYTLTWaEHwCAoRA",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/GSYkE1r1JUQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==\\u0026rs=AOn4CLAH0DyKokUIYz2CG8bxC-4fNogyog",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/wlIQKx2qpC0/hqdefault.jpg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://rr3---sn-npoldn7d.googlevideo.com/generate_204",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/GSYkE1r1JUQ/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG\\u0026rs=AOn4CLBAglNAUzAM7w2s9D3U01hx0fTRIw",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://accounts.google.com/ServiceLogin?service=youtube\\u0026uilel=3\\u0026passive=true\\u0026continue=https://www.youtube.com/signin?action_handle_signin=true&app=desktop&hl=en\\u0026hl=en",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://developers.google.com/youtube",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://rr3---sn-u1npoc-cx.googlevideo.com/initplayback?source=youtube\\u0026oeis=1\\u0026c=WEB\\u0026oad=3200\\u0026ovd=3200\\u0026oaad=11000\\u0026oavd=11000\\u0026ocs=700\\u0026oewis=1\\u0026oputc=1\\u0026msp=1\\u0026odepv=1\\u0026id=01e8b23ffb1b1645\\u0026ip=143.1",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://yt3.ggpht.com/8d-opgq2S0X9z0iYChZHKWzXDfNuurpC3M9P5pypjMmFnEdzXWNMM7Zwq1HcULHmczReNBI1byE=s68-c-k-c0x00ffffff-no-rj",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/an_webp/AeiyP_sbFkU/mqdefault_6s.webp?du=3000\\u0026sqp=CJTLndYG\\u0026rs=AOn4CLB5aM-ekgNOK71cxclj9_1Gf_oF4Q",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://www.gstatic.com/youtube/img/lottie/audio_indicator/audio_indicator_v2.json",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://www.gstatic.com/youtube/img/emojis/emojis-png-15.1.json",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://apis.google.com/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/AeiyP_sbFkU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==\\u0026rs=AOn4CLDW7l508zPYzwbRDwUHbUdtfN4A-g",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/AeiyP_sbFkU/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG\\u0026rs=AOn4CLDu0heLn1lPZ84_owr9kPyZj9ZJAg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://www.gstatic.com/youtube/img/watch/yt_favicon_ringo2.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://www.gstatic.com/youtube/img/watch/social_media/twitter_1x_v2.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://rr5---sn-npoldn7z.googlevideo.com/initplayback?source=youtube\\u0026oeis=1\\u0026c=WEB\\u0026oad=3200\\u0026ovd=3200\\u0026oaad=11000\\u0026oavd=11000\\u0026ocs=700\\u0026oewis=1\\u0026oputc=1\\u0026msp=1\\u0026odepv=1\\u0026id=32bec3380ca9026e\\u0026ip=143.19",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://yt3.ggpht.com/ojImbBiBNasOvXqKn0yYo1PBYby06M3J-VZRjoOh0-8v3JnjIPeQxXQUEQVOrNRzeRKg_KSmdQ=s68-c-k-c0x00ffffff-no-rj",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/an_webp/Mr7DOAypAm4/mqdefault_6s.webp?du=3000\\u0026sqp=CPbDndYG\\u0026rs=AOn4CLBRqAodsKJHPGUQHHJene6mvg8mNQ",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/Mr7DOAypAm4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==\\u0026rs=AOn4CLCCMFkQlwDAmKRJO4VKDqznhJVIVQ",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/Mr7DOAypAm4/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG\\u0026rs=AOn4CLBt8GIHeYEWRl5GwWIUdlKgJWWjdA",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://rr2---sn-u1npoc-cq.googlevideo.com/initplayback?source=youtube\\u0026oeis=1\\u0026c=WEB\\u0026oad=3200\\u0026ovd=3200\\u0026oaad=11000\\u0026oavd=11000\\u0026ocs=700\\u0026oewis=1\\u0026oputc=1\\u0026msp=1\\u0026odepv=1\\u0026id=1b611cde1e427c0f\\u0026ip=143.1",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://yt3.ggpht.com/FHaircC3fnPqOhk3M4POJQlPF2_yVnCj5W60SNbFL_zK5jzmJ5mNyFVaoLKZufC4uPo4WP8gQw=s68-c-k-c0x00ffffff-no-rj",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/an_webp/G2Ec3h5CfA8/mqdefault_6s.webp?du=3000\\u0026sqp=COTcndYG\\u0026rs=AOn4CLCIs7yG7rDOei8UlkPf1TSH3tpr8g",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/G2Ec3h5CfA8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==\\u0026rs=AOn4CLBVKxRoD6YbjU_ecHK0Pej2IFhytg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/G2Ec3h5CfA8/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG\\u0026rs=AOn4CLDfEyTaAd0d2RcegqJkDz_IHRzFTg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://rr5---sn-npoeenl7.googlevideo.com/initplayback?source=youtube\\u0026oeis=1\\u0026c=WEB\\u0026oad=3200\\u0026ovd=3200\\u0026oaad=11000\\u0026oavd=11000\\u0026ocs=700\\u0026oewis=1\\u0026oputc=1\\u0026msp=1\\u0026odepv=1\\u0026id=8d6c486bf03ef1ea\\u0026ip=143.19",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://yt3.ggpht.com/9scUba3AE5kuU-5NmbKBahk0CgxBJlP42VjniwUJ1REwY8ikseLFtE7XLfCNbbZTJB7xLLj8=s68-c-k-c0x00ffffff-no-rj",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/an_webp/jWxIa_A-8eo/mqdefault_6s.webp?du=3000\\u0026sqp=CNjXndYG\\u0026rs=AOn4CLBzKNCkSinIZ7b0D-Q6CfLqO2o-MQ",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/jWxIa_A-8eo/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==\\u0026rs=AOn4CLDoVteLS6CuaDHyssi4e2cjlMR3yg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/jWxIa_A-8eo/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG\\u0026rs=AOn4CLDoj7pwX0x3mFda4R2FRN0Mf6QweA",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://rr4---sn-npoe7ndl.googlevideo.com/initplayback?source=youtube\\u0026oeis=1\\u0026c=WEB\\u0026oad=3200\\u0026ovd=3200\\u0026oaad=11000\\u0026oavd=11000\\u0026ocs=700\\u0026oewis=1\\u0026oputc=1\\u0026msp=1\\u0026odepv=1\\u0026id=d9b97f53aa086ce1\\u0026ip=143.19",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://yt3.ggpht.com/3flla5VUBPZj2TyuiTibeVFJ7QcGn1NfHM1vbCgVVqK_sMxsCphRRpNqAryEXG_Khljmxvu3HBw=s68-c-k-c0x00ffffff-no-rj",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/an_webp/2bl_U6oIbOE/mqdefault_6s.webp?du=3000\\u0026sqp=COXBndYG\\u0026rs=AOn4CLC2n_a8bSXqDWfBeOREgbiki1JaNQ",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/2bl_U6oIbOE/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG\\u0026rs=AOn4CLB3GNZ7A1qCMv9-on7E1qUyAlFZvg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://www.gstatic.com/youtube/img/watch/social_media/instagram_1x.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://www.gstatic.com/youtube/img/watch/social_media/discord_1x.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://rr3---sn-npoeenl7.googlevideo.com/initplayback?source=youtube\\u0026oeis=1\\u0026c=WEB\\u0026oad=3200\\u0026ovd=3200\\u0026oaad=11000\\u0026oavd=11000\\u0026ocs=700\\u0026oewis=1\\u0026oputc=1\\u0026msp=1\\u0026odepv=1\\u0026id=141d1f63fbd6e080\\u0026ip=143.19",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://rr5---sn-npoldn7z.googlevideo.com/initplayback?source=youtube\\u0026oeis=1\\u0026c=WEB\\u0026oad=3200\\u0026ovd=3200\\u0026oaad=11000\\u0026oavd=11000\\u0026ocs=700\\u0026oewis=1\\u0026oputc=1\\u0026msp=1\\u0026odepv=1\\u0026id=c7f243c255aa6c44\\u0026ip=143.19",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://rr3---sn-npoldnez.googlevideo.com/initplayback?source=youtube\\u0026oeis=1\\u0026c=WEB\\u0026oad=3200\\u0026ovd=3200\\u0026oaad=11000\\u0026oavd=11000\\u0026ocs=700\\u0026oewis=1\\u0026oputc=1\\u0026msp=1\\u0026odepv=1\\u0026id=8e2004613bc96e55\\u0026ip=143.19",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://rr3---sn-npoldn7l.googlevideo.com/initplayback?source=youtube\\u0026oeis=1\\u0026c=WEB\\u0026oad=3200\\u0026ovd=3200\\u0026oaad=11000\\u0026oavd=11000\\u0026ocs=700\\u0026oewis=1\\u0026oputc=1\\u0026msp=1\\u0026odepv=1\\u0026id=539f348ceb3144d9\\u0026ip=143.19",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://cutt.ly/hyiPtBkA/n/n%F0%9F%94%97",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://cutt.ly/hyiPtBkA",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://accounts.google.com/ServiceLogin?service=youtube\\u0026uilel=3\\u0026passive=true\\u0026continue=https://www.youtube.com/signin?action_handle_signin=true&app=desktop&hl=en&next=/watch?v=wlIQKx2qpC0&continue_action=QUZZTVljRnNuQVktNW5LeVJIalYzcy03MFlC",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://yt3.ggpht.com/TTz3LCe9VvwvX9oYhScapvDCIzFfAzVVpwUwtzyEqGmNKKIaH9pZcnE5IGMqjE54Bp77hm2p3Q=s176-c-k-c0x00ffffff-no-rj",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://yt3.ggpht.com/TTz3LCe9VvwvX9oYhScapvDCIzFfAzVVpwUwtzyEqGmNKKIaH9pZcnE5IGMqjE54Bp77hm2p3Q=s88-c-k-c0x00ffffff-no-rj",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://yt3.ggpht.com/TTz3LCe9VvwvX9oYhScapvDCIzFfAzVVpwUwtzyEqGmNKKIaH9pZcnE5IGMqjE54Bp77hm2p3Q=s48-c-k-c0x00ffffff-no-rj",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://rr3---sn-npoldn7d.googlevideo.com/initplayback?source=youtube\\u0026oeis=1\\u0026c=WEB\\u0026oad=3200\\u0026ovd=3200\\u0026oaad=11000\\u0026oavd=11000\\u0026ocs=700\\u0026oewis=1\\u0026oputc=1\\u0026msp=1\\u0026odepv=1\\u0026id=c252102b1daaa42d\\u0026ip=143.19",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://accounts.google.com/ServiceLogin?service=youtube\\u0026uilel=3\\u0026passive=true\\u0026continue=https://www.youtube.com/signin?action_handle_signin=true&app=desktop&hl=en&next=/watch?v=wlIQKx2qpC0\\u0026hl=en\\u0026ec=66427",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://static.cdninstagram.com/rsrc.php/v5/yV/l/0,cross/EqRbdE_KCIBWA-QrfM_8oJ.css",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://static.cdninstagram.com/rsrc.php/v4/yA/r/1WKi-cANTvQ.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://static.cdninstagram.com/rsrc.php/v4iidi4/yu/l/en_US-j/8mlcClFcXIm_Ro6nvrEzMB1uDCfxt0hdolBK6n6_KCaA9Yjq_nNKkxt5tE_QqYvTG_ObHKVhRT4SSejqT8sF-ImL.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://accounts.google.com/ServiceLogin?service=youtube\\u0026uilel=3\\u0026passive=true\\u0026continue=https://www.youtube.com/signin?action_handle_signin=true&app=desktop&hl=en\\u0026hl=en\\u0026ec=66425",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://accounts.google.com/ServiceLogin?service=youtube\\u0026uilel=3\\u0026passive=true\\u0026continue=https://www.youtube.com/signin?action_handle_signin=true&app=desktop&hl=en\\u0026hl=en\\u0026ec=66426",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "http://www.w3.org/2000/svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https://www.youtube.com/signin?action_handle_signin=true&app=desktop&hl=en&next=/signin_passive&feature=passive&hl=en",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://www.gstatic.com/youtube/img/promos/growth/6ad5a99c727579634bc3e2fb67562a2621170bdd11578967392667be5a05c5e4_384x384.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://support.google.com/youtube/answer/3037019#zippy=,check-that-youre-signed-into-youtube",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://accounts.google.com/ServiceLogin?service=youtube\\u0026uilel=3\\u0026passive=true\\u0026continue=https://www.youtube.com/signin?action_handle_signin=true&app=desktop&hl=en&next=/watch?v=wlIQKx2qpC0\\u0026hl=en",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://www.google.com.sg/pagead/lvz?evtid\\u003dACd6KtxsR6dtplZ5mrjeiRVFaYXGpMmMolAA9_vkJJWvU6Fb13JdUNsOVbpW_kdjzOsohBgCkUGD0x9t-ENEAPxB0a0c5b-fbA\\u0026req_ts\\u003d1791455264\\u0026pg\\u003dMainAppBootstrap:Watch\\u0026az\\u003d1\\u0026sigh\\u003dAB9vU40pjc5YRx",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://www.google.com/pagead/lvz?evtid\\u003dACd6KtxsR6dtplZ5mrjeiRVFaYXGpMmMolAA9_vkJJWvU6Fb13JdUNsOVbpW_kdjzOsohBgCkUGD0x9t-ENEAPxB0a0c5b-fbA\\u0026req_ts\\u003d1791455264\\u0026pg\\u003dMainAppBootstrap:Watch\\u0026az\\u003d1\\u0026sigh\\u003dAB9vU40pjc5YRx8Ty",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://support.google.com/youtube/?p\\u003dcreator_community",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://youtubei-att.googleapis.com/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://clients4.google.com/invalidation/lcs/client",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://client-channel.google.com/client-channel/client",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://families.google.com/webcreation?usegapi\\u003d1",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://accounts.google.com/ServiceLogin?service\\u003dyoutube\\u0026uilel\\u003d3\\u0026passive\\u003dtrue\\u0026continue\\u003dhttps://www.youtube.com/signin?action_handle_signin=true&app=desktop&hl=en&next=https://www.youtube.com/watch?v=wlIQKx2qpC0&feature=_",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://rr5---sn-npoldn7l.googlevideo.com/initplayback?source=youtube\\u0026oeis=1\\u0026c=WEB\\u0026oad=3200\\u0026ovd=3200\\u0026oaad=11000\\u0026oavd=11000\\u0026ocs=700\\u0026oewis=1\\u0026oputc=1\\u0026msp=1\\u0026odepv=1\\u0026id=565f32149b8af114\\u0026ip=143.19",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://yt3.ggpht.com/7kqag482FvkoUEcpGQyO4i6YUw3DOBc4WFStDz-VIh1FpHQKiaMkDVR1GixCx6Kuvwe0hsP0=s68-c-k-c0x00ffffff-no-rj",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/an_webp/Vl8yFJuK8RQ/mqdefault_6s.webp?du=3000\\u0026sqp=CODSndYG\\u0026rs=AOn4CLBdUJJjYd8NBf7qP4b-GrABrhmTGw",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/Vl8yFJuK8RQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==\\u0026rs=AOn4CLD1VVFgBef8h1xZyYGVZhd2ohRqrA",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/Vl8yFJuK8RQ/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG\\u0026rs=AOn4CLBR-1ZH3mJZmrc96tvu1QNDvtCk-w",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://rr5---sn-npoeene6.googlevideo.com/initplayback?source=youtube\\u0026oeis=1\\u0026c=WEB\\u0026oad=3200\\u0026ovd=3200\\u0026oaad=11000\\u0026oavd=11000\\u0026ocs=700\\u0026oewis=1\\u0026oputc=1\\u0026msp=1\\u0026odepv=1\\u0026id=e379273f5e471289\\u0026ip=143.19",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://yt3.ggpht.com/dNxPu3uEXYHW9VNTJ419bg3-l_I-r0clYIx183sfgdK3YqqoFnSBqq6bGSXA7lnnHEObt8pm=s68-c-k-c0x00ffffff-no-rj",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/an_webp/43knP15HEok/mqdefault_6s.webp?du=3000\\u0026sqp=CN7ZndYG\\u0026rs=AOn4CLANgxMIpfGnsyHgo0tUVJnd4ZTUZA",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/43knP15HEok/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==\\u0026rs=AOn4CLB1YuY6jJjOxbsqj1AZ8irpLSti5w",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/43knP15HEok/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG\\u0026rs=AOn4CLC6_RX4NE3K8mz7_P13svhE9z0mWg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://rr1---sn-npoeenll.googlevideo.com/initplayback?source=youtube\\u0026oeis=1\\u0026c=WEB\\u0026oad=3200\\u0026ovd=3200\\u0026oaad=11000\\u0026oavd=11000\\u0026ocs=700\\u0026oewis=1\\u0026oputc=1\\u0026msp=1\\u0026odepv=1\\u0026id=02ebe22dd1bf3d27\\u0026ip=143.19",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://yt3.ggpht.com/3zyScxdcSY9pGwv4juhJgpl4UNCa5V-dt9Ge3fAXhl3FlKEEIo3nar6E7hpY1yGPnkoMiHNa=s68-c-k-c0x00ffffff-no-rj",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/an_webp/AuviLdG_PSc/mqdefault_6s.webp?du=3000\\u0026sqp=CKHIndYG\\u0026rs=AOn4CLAR_t3H595CBWTAKn-d3Gq36LC7JQ",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://static.cdninstagram.com/rsrc.php/v4ifRU4/yh/l/en_US-j/79fHGfauQvm.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://static.cdninstagram.com/rsrc.php/v4ilI84/y6/l/en_US-j/kh57JDIYMMI.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://static.cdninstagram.com/rsrc.php/v5/yC/l/0,cross/fgQe914iiBfONMKn3YhINqU49pVNahkCk.css",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://static.cdninstagram.com/rsrc.php/v4/yH/r/mM2699HaE9C.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://static.cdninstagram.com/rsrc.php/yz/r/GC4Jc-xramm.ico",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/generate_204",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/AuviLdG_PSc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==\\u0026rs=AOn4CLBgF83ikO6qWFMaOuwCLcQ-AXcrhA",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/AuviLdG_PSc/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG\\u0026rs=AOn4CLCylR1_EvXGPNodAsNMgRUYZq1lEQ",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://rr5---sn-u1npoc-cq.googlevideo.com/initplayback?source=youtube\\u0026oeis=1\\u0026c=WEB\\u0026oad=3200\\u0026ovd=3200\\u0026oaad=11000\\u0026oavd=11000\\u0026ocs=700\\u0026oewis=1\\u0026oputc=1\\u0026msp=1\\u0026odepv=1\\u0026id=51f8e26a920f9707\\u0026ip=143.1",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://yt3.ggpht.com/1IUE1b6L2Vrek1tPo7CtXHQOOO47HqMgZ2VDuzK_ok5wmBbyOX5aJ2iD-fRNVcaUyNFXSLD7=s68-c-k-c0x00ffffff-no-rj",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/an_webp/UfjiapIPlwc/mqdefault_6s.webp?du=3000\\u0026sqp=CMnGndYG\\u0026rs=AOn4CLDGJUWjCfzx6kNJMscZhm72UmNAwg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/UfjiapIPlwc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==\\u0026rs=AOn4CLD0lgOuOglV0BLFhojlrQOvyb9cSA",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/UfjiapIPlwc/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG\\u0026rs=AOn4CLBgWrS7K9JYZ6-oeUzpxUi8Mp0MCA",
+            "isPrimary": false
+          }
+        ],
+        "contactChannelCount": 108,
+        "contactable": false,
+        "lastSeenAt": "2026-10-07T11:59:10.279Z",
+        "searchKind": "trial",
+        "accountIdentity": null,
+        "recommendationKind": null,
+        "audienceStatus": "unavailable",
+        "qualification": null,
+        "searchMatchTier": null
+      },
+      {
+        "id": "f4a84dc3-d1a9-408f-83ac-57429d871dce",
+        "handle": "_the_girl_with_the_hair_",
+        "displayName": "The Girl With The Hair | Jordan Johnstone",
+        "bio": null,
+        "details": [
+          {
+            "group": "identity",
+            "key": "source",
+            "label": "Found via",
+            "value": "This campaign search",
+            "hint": "How this creator reached your list."
+          },
+          {
+            "group": "identity",
+            "key": "foundAt",
+            "label": "Added",
+            "value": "2026-10-07",
+            "hint": "When this creator entered our database."
+          },
+          {
+            "group": "content",
+            "key": "medianViews",
+            "label": "Median reel views",
+            "value": "2,957 (1 posts)",
+            "hint": "The middle value of their recent REELS. Instagram photo posts have no view count, so this describes their video reach only. Posts we could not read a count for are left out rather than counted as zero."
+          }
+        ],
+        "platform": "instagram",
+        "region": null,
+        "audience": null,
+        "followerCount": 3621,
+        "engagementRate": null,
+        "engagementKnown": false,
+        "kolType": null,
+        "avatarUrl": "https://pompe-ai-analysis-artifacts.sgp1.cdn.digitaloceanspaces.com/creator-avatars/instagram/d6ea63361fb6b0cf9620aaaaacaad802.jpg",
+        "publishedLink": null,
+        "tier": "koc",
+        "fit": 69,
+        "fromCompetitor": false,
+        "source": "creator_search_agent",
+        "sourceType": "runner",
+        "sourceSubType": "unknown",
+        "origin": "system",
+        "foundAt": "2026-10-07T11:45:48.577Z",
+        "batchLabel": null,
+        "emailStatus": "finding_email",
+        "emailReadyAt": null,
+        "email": null,
+        "emailUsable": false,
+        "emailQualified": false,
+        "emailAutoSendable": false,
+        "emailConfidence": "low",
+        "emailOwnerType": "unknown",
+        "emailReasons": [
+          "missing_or_unusable_email"
+        ],
+        "contactChannels": [],
+        "contactChannelCount": 0,
+        "contactable": false,
+        "lastSeenAt": "2026-10-07T11:45:48.577Z",
+        "searchKind": "trial",
+        "accountIdentity": null,
+        "recommendationKind": null,
+        "audienceStatus": "unavailable",
+        "qualification": null,
+        "searchMatchTier": null
+      },
+      {
+        "id": "8eec16e6-864d-488e-97b8-f3f2053ca841",
+        "handle": "bymaddiexoxo",
+        "displayName": "Maddie",
+        "bio": null,
+        "details": [
+          {
+            "group": "identity",
+            "key": "source",
+            "label": "Found via",
+            "value": "This campaign search",
+            "hint": "How this creator reached your list."
+          },
+          {
+            "group": "identity",
+            "key": "foundAt",
+            "label": "Added",
+            "value": "2026-10-07",
+            "hint": "When this creator entered our database."
+          },
+          {
+            "group": "content",
+            "key": "medianViews",
+            "label": "Median reel views",
+            "value": "236,759 (1 posts)",
+            "hint": "The middle value of their recent REELS. Instagram photo posts have no view count, so this describes their video reach only. Posts we could not read a count for are left out rather than counted as zero."
+          }
+        ],
+        "platform": "instagram",
+        "region": null,
+        "audience": null,
+        "followerCount": 4220,
+        "engagementRate": null,
+        "engagementKnown": false,
+        "kolType": "ai_tools",
+        "avatarUrl": "https://pompe-ai-analysis-artifacts.sgp1.cdn.digitaloceanspaces.com/creator-avatars/instagram/c749fa302e3582a3f8a0c4b9ed755cff.jpg",
+        "publishedLink": null,
+        "tier": "koc",
+        "fit": 87,
+        "fromCompetitor": false,
+        "source": "creator_search_agent",
+        "sourceType": "runner",
+        "sourceSubType": "unknown",
+        "origin": "system",
+        "foundAt": "2026-10-07T10:30:05.639Z",
+        "batchLabel": null,
+        "emailStatus": "finding_email",
+        "emailReadyAt": null,
+        "email": null,
+        "emailUsable": false,
+        "emailQualified": false,
+        "emailAutoSendable": false,
+        "emailConfidence": "low",
+        "emailOwnerType": "unknown",
+        "emailReasons": [
+          "missing_or_unusable_email"
+        ],
+        "contactChannels": [],
+        "contactChannelCount": 0,
+        "contactable": false,
+        "lastSeenAt": "2026-10-07T10:30:05.639Z",
+        "searchKind": "trial",
+        "accountIdentity": null,
+        "recommendationKind": null,
+        "audienceStatus": "unavailable",
+        "qualification": null,
+        "searchMatchTier": null
+      },
+      {
+        "id": "1f7ba321-107e-4c32-9b15-e4e472f0f288",
+        "handle": "arfunnel.io",
+        "displayName": "AR Funnel | Automated Lead Funnels for Online Coaches",
+        "bio": "Automated Lead funnels software for online coaches ➡️ 4 Major Automated Funnels | Coaches Have Sold $30+ Mil | 1300+ Coaches\n👇🏽Tickets for Lead Summit",
+        "details": [
+          {
+            "group": "identity",
+            "key": "region",
+            "label": "Market",
+            "value": "United States",
+            "hint": "The region recorded for this creator. This field alone does not verify where they live or where their audience is. Check qualification evidence for any location requirement."
+          },
+          {
+            "group": "identity",
+            "key": "source",
+            "label": "Found via",
+            "value": "This campaign search",
+            "hint": "How this creator reached your list."
+          },
+          {
+            "group": "identity",
+            "key": "foundAt",
+            "label": "Added",
+            "value": "2026-09-24",
+            "hint": "When this creator entered our database."
+          }
+        ],
+        "platform": "instagram",
+        "region": "United States",
+        "audience": null,
+        "followerCount": 4757,
+        "engagementRate": null,
+        "engagementKnown": false,
+        "kolType": null,
+        "avatarUrl": "https://pompe-ai-analysis-artifacts.sgp1.cdn.digitaloceanspaces.com/creator-avatars/instagram/0cfbec129b6c75badd92c7ea617320ca.webp",
+        "publishedLink": null,
+        "tier": "koc",
+        "fit": 69,
+        "fromCompetitor": false,
+        "source": "creator_search_agent",
+        "sourceType": "runner",
+        "sourceSubType": "unknown",
+        "origin": "system",
+        "foundAt": "2026-09-24T03:43:34.829Z",
+        "batchLabel": null,
+        "emailStatus": "email_review",
+        "emailReadyAt": null,
+        "email": null,
+        "emailUsable": true,
+        "emailQualified": false,
+        "emailAutoSendable": false,
+        "emailConfidence": "low",
+        "emailOwnerType": "unknown",
+        "emailReasons": [
+          "email_domain_matches_profile_link",
+          "email_matches_creator_handle_or_name",
+          "generic_role_inbox",
+          "public_web_mailbox_not_bound_to_creator_identity"
+        ],
+        "contactChannels": [
+          {
+            "channel": "instagram",
+            "value": "arfunnel.io",
+            "isPrimary": true
+          },
+          {
+            "channel": "website",
+            "value": "https://fonts.gstatic.com/",
+            "isPrimary": true
+          },
+          {
+            "channel": "website",
+            "value": "http://arfunnel.io/workshop",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://arfunnel.io/lead-summit-tickets",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6984f0cb24a58b7b8c8fa273.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/69867f133fae0a193f424400.jpg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/funnel/icon/favicon.ico",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://services.leadconnectorhq.com/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/_preview/eSHp3d3o.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/_preview/DYiSzAhx.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/_preview/ConS9HT5.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/intl-tel-input/17.0.12/img/flags@2x.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/intl-tel-input/17.0.12/img/flags.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983ddb026ea643c18b4ede4.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983ddb026ea643c18b4ede4.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983ddb026ea643c18b4ede4.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983dcc7a54afa4c5bac339e.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983dcc7a54afa4c5bac339e.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983dcc7a54afa4c5bac339e.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983dab6a54afa1988abdcd2.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983dab6a54afa1988abdcd2.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983dab6a54afa1988abdcd2.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983dc3626ea642991b4ab5b.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983dc3626ea642991b4ab5b.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983dc3626ea642991b4ab5b.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983752518c3356fb42935f2.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983752518c3356fb42935f2.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983752518c3356fb42935f2.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://arfunnel.io/workshop",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/_preview/DfzEHoKS.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/_preview/CyPzke6V.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/_preview/CHYml469.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/_preview/bXG9yUDj.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/_preview/C7u4sErq.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/_preview/DR88hh9l.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://backend.leadconnectorhq.com/ecommerce",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/_preview/e3oIQqCF.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/_preview/CenvAvwo.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/_preview/DyaW2dO0.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/_preview/b_E3N7Ru.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://services.leadconnectorhq.com/common-google",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://secure.safewebservices.com/token/Collect.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://js.authorize.net/v1/Accept.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://jstest.authorize.net/v1/Accept.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://content.apisystem.tech/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://payment-embed.leadconnectorhq.com/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://backend.leadconnectorhq.com/appengine/reviews/get_widget/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://assets.cdn.filesafe.space/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://assets.cdn.msgsndr.com/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://cdn.msgsndr.com/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://backend.leadconnectorhq.com/appengine",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://apisystem.tech/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983d28a26ea64b775b2fc0a.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983d28a26ea64b775b2fc0a.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983d28a26ea64b775b2fc0a.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983d28a26ea64b775b2fc0a.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983d28a26ea64b775b2fc0a.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6984f0cb24a58b7b8c8fa273.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6984f0cb24a58b7b8c8fa273.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6984f0cb24a58b7b8c8fa273.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6984f0cb24a58b7b8c8fa273.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983bc5426ea640ff2af0548.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983bc5426ea640ff2af0548.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983bc5426ea640ff2af0548.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983bc5426ea640ff2af0548.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983bc5426ea640ff2af0548.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983b07d1dfc02b9285dabc9.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983b07d1dfc02b9285dabc9.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983b07d1dfc02b9285dabc9.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983b07d1dfc02b9285dabc9.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983b07d1dfc02b9285dabc9.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983b07d18c335ec5a3882c1.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983b07d18c335ec5a3882c1.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983b07d18c335ec5a3882c1.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983b07d18c335ec5a3882c1.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983b07d18c335ec5a3882c1.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983b07d0708e4456ab06f27.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983b07d0708e4456ab06f27.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983b07d0708e4456ab06f27.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983b07d0708e4456ab06f27.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983b07d0708e4456ab06f27.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983b07dd017c3308479f293.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983b07dd017c3308479f293.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983b07dd017c3308479f293.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983b07dd017c3308479f293.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983b07dd017c3308479f293.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983b07d2dd98550511346e0.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983b07d2dd98550511346e0.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983b07d2dd98550511346e0.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983b07d2dd98550511346e0.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983b07d2dd98550511346e0.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983ada07732b5fe7d3b0d44.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983ada07732b5fe7d3b0d44.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983ada07732b5fe7d3b0d44.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983ada07732b5fe7d3b0d44.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983ada07732b5fe7d3b0d44.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6995ed933fd4206fee3f53c1.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6995ed933fd4206fee3f53c1.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6995ed933fd4206fee3f53c1.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6995ed933fd4206fee3f53c1.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6995ed933fd4206fee3f53c1.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/_preview/C3h9HDah.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/_preview/BCFd6tDZ.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/_preview/D0mAmvsc.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/_preview/DT6pKBTi.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/_preview/Dl-x8CJl.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/_preview/uHKR0ql4.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/_preview/PyyIl4xt.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/_preview/7SBfHb3l.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/_preview/BoA7liN9.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/_preview/DRNKrJGC.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/_preview/DFiheZjC.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/_preview/D1nErt21.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/_preview/DQE77ral.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/_preview/DuPoDUne.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/_preview/DYa7OZHt.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/_preview/Dkf_I5JF.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/_preview/wdic_FQ1.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/_preview/DmZj5-u6.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/_preview/CqWH0BZP.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://fonts.googleapis.com/css?family=Open%20Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Inter:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto:100,100i,200,200i,300,300i,4",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://cdn.filesafe.space/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://backend.leadconnectorhq.com/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983aacc0708e45cc8af4fff.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983aacc0708e45cc8af4fff.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983aacc0708e45cc8af4fff.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983aacc0708e45cc8af4fff.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983aacc0708e45cc8af4fff.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/698a6641650512b6054632bf.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/698a6641650512b6054632bf.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/698a6641650512b6054632bf.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/698a6641650512b6054632bf.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/698a6641650512b6054632bf.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983a35613fe2b2bada35189.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983a35613fe2b2bada35189.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983a35613fe2b2bada35189.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983a35613fe2b2bada35189.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983a35613fe2b2bada35189.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983a3562dd9855248105e6f.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983a3562dd9855248105e6f.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983a3562dd9855248105e6f.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983a3562dd9855248105e6f.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983a3562dd9855248105e6f.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983a35613fe2bf5f5a35188.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983a35613fe2bf5f5a35188.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983a35613fe2bf5f5a35188.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983a35613fe2bf5f5a35188.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983a35613fe2bf5f5a35188.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://fast.vidalytics.com/embeds/QgjqcstS/E0rY32RXaNHypS95/player.settings.json",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/69839df013fe2ba3c6a2050c.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/69839df013fe2ba3c6a2050c.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/69839df013fe2ba3c6a2050c.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/69839df013fe2ba3c6a2050c.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/69839df013fe2ba3c6a2050c.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/69839df0e4411b2f0e3e4aac.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/69839df0e4411b2f0e3e4aac.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/69839df0e4411b2f0e3e4aac.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/69839df0e4411b2f0e3e4aac.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/69839df0e4411b2f0e3e4aac.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6986432d0708e40a472589ae.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6986432d0708e40a472589ae.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6986432d0708e40a472589ae.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6986432d0708e40a472589ae.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6986432d0708e40a472589ae.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983c5910708e454cdb47aa4.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983c5910708e454cdb47aa4.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983c5910708e454cdb47aa4.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983c5910708e454cdb47aa4.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983c5910708e454cdb47aa4.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://fast.vidalytics.com/embeds/QgjqcstS/PCZNWOJdxTYbbinK/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983747d4599862ec7477418.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983747d4599862ec7477418.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983747d4599862ec7477418.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983747d4599862ec7477418.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/ZgYbF8yht2hlp24ERq6L/media/6983747d4599862ec7477418.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/funnel/fontawesome/webfonts/fa-brands-400.svg#fontawesome",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/funnel/fontawesome/webfonts/fa-brands-400.ttf",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/funnel/fontawesome/webfonts/fa-brands-400.woff",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/funnel/fontawesome/webfonts/fa-brands-400.woff2",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/funnel/fontawesome/webfonts/fa-brands-400.eot?#iefix",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/funnel/fontawesome/webfonts/fa-brands-400.eot",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/funnel/fontawesome/webfonts/fa-solid-900.svg#fontawesome",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/funnel/fontawesome/webfonts/fa-solid-900.ttf",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/funnel/fontawesome/webfonts/fa-solid-900.woff",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/funnel/fontawesome/webfonts/fa-solid-900.woff2",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/funnel/fontawesome/webfonts/fa-solid-900.eot?#iefix",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/funnel/fontawesome/webfonts/fa-solid-900.eot",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/funnel/fontawesome/webfonts/fa-regular-400.svg#fontawesome",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/funnel/fontawesome/webfonts/fa-regular-400.ttf",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/funnel/fontawesome/webfonts/fa-regular-400.woff",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/funnel/fontawesome/webfonts/fa-regular-400.woff2",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/funnel/fontawesome/webfonts/fa-regular-400.eot?#iefix",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/funnel/fontawesome/webfonts/fa-regular-400.eot",
+            "isPrimary": false
+          }
+        ],
+        "contactChannelCount": 195,
+        "contactable": false,
+        "lastSeenAt": "2026-09-24T03:43:34.829Z",
+        "searchKind": "trial",
+        "accountIdentity": null,
+        "recommendationKind": null,
+        "audienceStatus": "unavailable",
+        "qualification": null,
+        "searchMatchTier": null
+      }
+    ],
+    "strategy": null,
+    "screening": null,
+    "scraping": null,
+    "collecting": false,
+    "latestCreatorSearchTaskId": null,
+    "latestSearchFunnel": null,
+    "target": null,
+    "fulfilled": null,
+    "campaignState": null
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "startedAt": "2026-10-10T18:26:07.708577+08:00",
+  "scope": "full independent browser regression; source review for causes; do not edit business code",
+  "priorBaseline": "/Users/shawn/coding/projects/wavesurge/wavesurge_testing/.gstack/qa-reports/retest-2026-10-10-r2/baseline.json",
+  "main": "http://127.0.0.1:3000",
+  "realNew": "http://127.0.0.1:3572",
+  "controlled": "http://127.0.0.1:3573",
+  "finishedAt": "2026-10-10T19:35:00.014957+08:00",
+  "status": "DONE_WITH_CONCERNS",
+  "issues": 5,
+  "manualValidationDocument": "/Users/shawn/coding/projects/wavesurge/wavesurge_testing/.gstack/qa-reports/retest-2026-10-10-r3/remaining-validation.md"
+}

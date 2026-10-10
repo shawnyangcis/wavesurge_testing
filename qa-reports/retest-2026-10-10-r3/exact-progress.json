@@ -1,0 +1,226 @@
+{
+  "at": "2026-10-10T10:29:49.856Z",
+  "tasks": [
+    {
+      "id": "research-be8026ae73f12c86682a616a",
+      "title": "两个指定 Instagram 账号逐人核验与画像标注",
+      "spec": {
+        "title": "两个指定 Instagram 账号逐人核验与画像标注",
+        "personaText": "个人数码博主，分享数码产品与个人使用体验",
+        "count": 1,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "candidateBudget": 2,
+        "instagram": {
+          "handles": [
+            "tylerlcrawford",
+            "valstechtalkk"
+          ],
+          "version": "v3"
+        },
+        "analyzeAll": true,
+        "verificationMode": "auto",
+        "criteria": [
+          {
+            "id": "personal_creator",
+            "label": "个人创作者，而非品牌、公司或店铺官方账号",
+            "required": true,
+            "basis": "text"
+          },
+          {
+            "id": "digital_content",
+            "label": "内容方向为数码产品或数码科技分享",
+            "required": true,
+            "basis": "text"
+          }
+        ],
+        "annotations": [
+          {
+            "id": "content_direction",
+            "label": "内容方向"
+          },
+          {
+            "id": "presentation_style",
+            "label": "呈现风格"
+          },
+          {
+            "id": "wears_glasses",
+            "label": "是否戴眼镜"
+          },
+          {
+            "id": "geek_style",
+            "label": "geek 风格"
+          }
+        ]
+      },
+      "body": {
+        "requestId": "research-be8026ae73f12c86682a616a",
+        "personaText": "个人数码博主，分享数码产品与个人使用体验",
+        "count": 2,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "emailReadyRequired": false
+      },
+      "status": "running",
+      "requested": 1,
+      "evaluated": 0,
+      "matched": 0,
+      "updatedAt": 1791628148061,
+      "detail": "已读取 1 位候选；来源 继续读取，本地已合格 0 人",
+      "nextPollAt": 1791628149061,
+      "candidates": [
+        {
+          "id": "instagram:tylerlcrawford",
+          "handle": "tylerlcrawford",
+          "profileUrl": "https://www.instagram.com/tylerlcrawford/",
+          "followers": 31227,
+          "region": null,
+          "evidenceCount": 75,
+          "sourceErrors": []
+        }
+      ],
+      "failures": [],
+      "deliveryBatchId": "0fabc016-9161-43d4-976a-c6e8235b852e",
+      "discovery": {
+        "platform": 0,
+        "keyword": 1,
+        "page": 0,
+        "cursor": "",
+        "seenCursors": [],
+        "seenUsers": [],
+        "pending": [],
+        "delivered": 1,
+        "done": false
+      },
+      "discoveryAttempts": 0,
+      "remoteStatus": "running"
+    }
+  ],
+  "assistance": [],
+  "waveCalls": [
+    {
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=tylerlcrawford",
+      "status": 200,
+      "createdAt": 1791628119306,
+      "finishedAt": 1791628124511,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_posts?user_id=48426799147&count=12",
+      "status": 200,
+      "createdAt": 1791628124542,
+      "finishedAt": 1791628133340,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_posts?user_id=48426799147&count=12&max_id=3997965466461395273_48426799147",
+      "status": 200,
+      "createdAt": 1791628133352,
+      "finishedAt": 1791628140989,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DcZxbpBAJDI",
+      "status": 200,
+      "createdAt": 1791628140999,
+      "finishedAt": 1791628143542,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DZoHkAvAbm5",
+      "status": 200,
+      "createdAt": 1791628143545,
+      "finishedAt": 1791628148050,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    }
+  ],
+  "deliveries": []
+}

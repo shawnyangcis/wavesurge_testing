@@ -1,0 +1,364 @@
+{
+  "source": "explicit HTTP fault injection in isolated test deployment; successful requests forwarded to unchanged configured real model",
+  "endpointHost": "127.0.0.1:8317",
+  "calls": [
+    {
+      "at": "2026-10-10T13:45:13.460Z",
+      "kind": "chat",
+      "toolNames": [
+        "get_tasks",
+        "search_history",
+        "start_research",
+        "start_research_batch",
+        "cancel_research",
+        "enrich_results",
+        "get_results",
+        "save_campaign_plan",
+        "get_campaigns",
+        "start_campaign"
+      ],
+      "messageCount": 6,
+      "imageCount": 0,
+      "payloadHash": "e410e8c69d04f22e5b1da99bf4ed25396f982629c239fd733fdbe1f3d425f18c",
+      "injected": true,
+      "status": 408
+    },
+    {
+      "at": "2026-10-10T13:45:14.498Z",
+      "kind": "chat",
+      "toolNames": [
+        "get_tasks",
+        "search_history",
+        "start_research",
+        "start_research_batch",
+        "cancel_research",
+        "enrich_results",
+        "get_results",
+        "save_campaign_plan",
+        "get_campaigns",
+        "start_campaign"
+      ],
+      "messageCount": 6,
+      "imageCount": 0,
+      "payloadHash": "e410e8c69d04f22e5b1da99bf4ed25396f982629c239fd733fdbe1f3d425f18c",
+      "injected": false,
+      "status": 200
+    },
+    {
+      "specHash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "creatorHash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "at": "2026-10-10T13:45:18.279Z",
+      "kind": "chat",
+      "toolNames": [
+        "get_tasks",
+        "search_history",
+        "start_research",
+        "start_research_batch",
+        "cancel_research",
+        "enrich_results",
+        "get_results",
+        "save_campaign_plan",
+        "get_campaigns",
+        "start_campaign"
+      ],
+      "messageCount": 8,
+      "imageCount": 0,
+      "payloadHash": "46c6114efd568778cf9614c052a65936a20f1275451e51536c43e0c201743b9d",
+      "injected": false,
+      "status": 200
+    },
+    {
+      "at": "2026-10-10T13:45:27.896Z",
+      "kind": "chat",
+      "toolNames": [
+        "get_tasks",
+        "search_history",
+        "start_research",
+        "start_research_batch",
+        "cancel_research",
+        "enrich_results",
+        "get_results",
+        "save_campaign_plan",
+        "get_campaigns",
+        "start_campaign"
+      ],
+      "messageCount": 10,
+      "imageCount": 0,
+      "payloadHash": "2b68951201385b53259baf8969307ccd4ad88616c701d8a3e2e43a95fe61d570",
+      "injected": false,
+      "status": 200
+    },
+    {
+      "specHash": "ffbef952ca747932eb1fa053ff8701629b479e3e4805991cf7bfb2591883c43e",
+      "creatorHash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "at": "2026-10-10T13:45:34.957Z",
+      "kind": "candidate-selection",
+      "toolNames": [
+        "select_candidates"
+      ],
+      "messageCount": 3,
+      "imageCount": 0,
+      "payloadHash": "dfdd18317b36802835704f10d8f44c21127d9555c0137d6f84a061bd76cb2b37",
+      "injected": true,
+      "status": 408
+    },
+    {
+      "specHash": "ffbef952ca747932eb1fa053ff8701629b479e3e4805991cf7bfb2591883c43e",
+      "creatorHash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "at": "2026-10-10T13:45:34.958Z",
+      "kind": "chat",
+      "toolNames": [
+        "get_tasks",
+        "search_history",
+        "start_research",
+        "start_research_batch",
+        "cancel_research",
+        "enrich_results",
+        "get_results",
+        "save_campaign_plan",
+        "get_campaigns",
+        "start_campaign"
+      ],
+      "messageCount": 12,
+      "imageCount": 0,
+      "payloadHash": "d9b5ab69327fddf6264213df1ad5693e270ad05806612d92daa45180ca6fa22c",
+      "injected": false,
+      "status": 200
+    },
+    {
+      "specHash": "ffbef952ca747932eb1fa053ff8701629b479e3e4805991cf7bfb2591883c43e",
+      "creatorHash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "at": "2026-10-10T13:45:36.035Z",
+      "kind": "candidate-selection",
+      "toolNames": [
+        "select_candidates"
+      ],
+      "messageCount": 3,
+      "imageCount": 0,
+      "payloadHash": "dfdd18317b36802835704f10d8f44c21127d9555c0137d6f84a061bd76cb2b37",
+      "injected": false,
+      "status": 200
+    },
+    {
+      "taskId": "research-d72dd4cc2cc121c876afcb99",
+      "creatorId": "youtube:http://wave-fixture:8087/creator/alice",
+      "specHash": "ffbef952ca747932eb1fa053ff8701629b479e3e4805991cf7bfb2591883c43e",
+      "creatorHash": "f085f13fd9445c3b34ecd950b80cb3f6ee62132c686ccbd7dca832c95ef20ee7",
+      "at": "2026-10-10T13:45:38.468Z",
+      "kind": "verification",
+      "toolNames": [
+        "submit_judgments"
+      ],
+      "messageCount": 3,
+      "imageCount": 0,
+      "payloadHash": "72c8b7bd87405509f9ad7ddf0cff80e329e3fc81a066de06d0cfa287b4626b8c",
+      "injected": false,
+      "status": 200
+    },
+    {
+      "specHash": "ffbef952ca747932eb1fa053ff8701629b479e3e4805991cf7bfb2591883c43e",
+      "creatorHash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "at": "2026-10-10T13:45:42.890Z",
+      "kind": "chat",
+      "toolNames": [
+        "get_tasks",
+        "search_history",
+        "start_research",
+        "start_research_batch",
+        "cancel_research",
+        "enrich_results",
+        "get_results",
+        "save_campaign_plan",
+        "get_campaigns",
+        "start_campaign"
+      ],
+      "messageCount": 12,
+      "imageCount": 0,
+      "payloadHash": "72506591b527fac10d0f9230d8efbc3aba093221d3175fa731ceda8277b12fdf",
+      "injected": false,
+      "status": 200
+    },
+    {
+      "specHash": "ffbef952ca747932eb1fa053ff8701629b479e3e4805991cf7bfb2591883c43e",
+      "creatorHash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "at": "2026-10-10T13:45:48.536Z",
+      "kind": "chat",
+      "toolNames": [
+        "get_tasks",
+        "search_history",
+        "start_research",
+        "start_research_batch",
+        "cancel_research",
+        "enrich_results",
+        "get_results",
+        "save_campaign_plan",
+        "get_campaigns",
+        "start_campaign"
+      ],
+      "messageCount": 12,
+      "imageCount": 0,
+      "payloadHash": "18aa1ba5c87594221474ba327fda484d2d77b66d284ec7377341caadd5e90ed9",
+      "injected": false,
+      "status": 200
+    },
+    {
+      "at": "2026-10-10T13:45:57.454Z",
+      "kind": "chat",
+      "toolNames": [
+        "get_tasks",
+        "search_history",
+        "start_research",
+        "start_research_batch",
+        "cancel_research",
+        "enrich_results",
+        "get_results",
+        "save_campaign_plan",
+        "get_campaigns",
+        "start_campaign"
+      ],
+      "messageCount": 15,
+      "imageCount": 0,
+      "payloadHash": "3bff7b83b3d3bacd86f7ce9e5c7bf8e32f1538645e37e5457913079709e3515d",
+      "injected": false,
+      "status": 200
+    },
+    {
+      "taskId": "research-1acc74143fa3a77f12f77384",
+      "creatorId": "youtube:http://wave-fixture:8087/creator/alice",
+      "specHash": "b2bd980b308a736254b7a37e6b696e7cf46197559513fde19b17c3e4d3fc2e68",
+      "creatorHash": "8e08d58a954f16f898cf873cf73e6b9d36b80d3e15c55d1a160c59182212c2a0",
+      "at": "2026-10-10T13:46:04.710Z",
+      "kind": "verification",
+      "toolNames": [
+        "submit_judgments"
+      ],
+      "messageCount": 3,
+      "imageCount": 0,
+      "payloadHash": "fb2ba8797b256524085395c2f4b3709a5ab9f3048027721b1b7b04a04f2d33bc",
+      "injected": true,
+      "status": 408
+    },
+    {
+      "specHash": "b2bd980b308a736254b7a37e6b696e7cf46197559513fde19b17c3e4d3fc2e68",
+      "creatorHash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "at": "2026-10-10T13:46:04.711Z",
+      "kind": "chat",
+      "toolNames": [
+        "get_tasks",
+        "search_history",
+        "start_research",
+        "start_research_batch",
+        "cancel_research",
+        "enrich_results",
+        "get_results",
+        "save_campaign_plan",
+        "get_campaigns",
+        "start_campaign"
+      ],
+      "messageCount": 17,
+      "imageCount": 0,
+      "payloadHash": "dc8af15820b6f58a1aded1a3eb1cca96c45bcb1f426ec4cd860f814f2f179614",
+      "injected": false,
+      "status": 200
+    },
+    {
+      "taskId": "research-1acc74143fa3a77f12f77384",
+      "creatorId": "youtube:http://wave-fixture:8087/creator/alice",
+      "specHash": "b2bd980b308a736254b7a37e6b696e7cf46197559513fde19b17c3e4d3fc2e68",
+      "creatorHash": "8e08d58a954f16f898cf873cf73e6b9d36b80d3e15c55d1a160c59182212c2a0",
+      "at": "2026-10-10T13:46:06.446Z",
+      "kind": "verification",
+      "toolNames": [
+        "submit_judgments"
+      ],
+      "messageCount": 3,
+      "imageCount": 0,
+      "payloadHash": "6f066614257e4a72d0cfef08bc6b2e2528aa2df9b4c2bb7389181ad62a1c7998",
+      "injected": false,
+      "status": 200
+    },
+    {
+      "taskId": "research-1acc74143fa3a77f12f77384",
+      "creatorId": "youtube:http://wave-fixture:8087/creator/bob",
+      "specHash": "b2bd980b308a736254b7a37e6b696e7cf46197559513fde19b17c3e4d3fc2e68",
+      "creatorHash": "f9e4f1dc26b923e24c2ce4fde5b686e75bfda65b73b7e39ab6672e2cb2478e41",
+      "at": "2026-10-10T13:46:14.515Z",
+      "kind": "verification",
+      "toolNames": [
+        "submit_judgments"
+      ],
+      "messageCount": 3,
+      "imageCount": 0,
+      "payloadHash": "683df14330268ddfc707880c10c4b676b1fb5784249654968a9b795afa488e35",
+      "injected": false,
+      "status": 200
+    },
+    {
+      "specHash": "b2bd980b308a736254b7a37e6b696e7cf46197559513fde19b17c3e4d3fc2e68",
+      "creatorHash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "at": "2026-10-10T13:46:18.913Z",
+      "kind": "chat",
+      "toolNames": [
+        "get_tasks",
+        "search_history",
+        "start_research",
+        "start_research_batch",
+        "cancel_research",
+        "enrich_results",
+        "get_results",
+        "save_campaign_plan",
+        "get_campaigns",
+        "start_campaign"
+      ],
+      "messageCount": 17,
+      "imageCount": 0,
+      "payloadHash": "0129aa2578c343e964c104fff8f9a1474b394fce823c1577425f1707cd9cafb4",
+      "injected": false,
+      "status": 200
+    },
+    {
+      "specHash": "b2bd980b308a736254b7a37e6b696e7cf46197559513fde19b17c3e4d3fc2e68",
+      "creatorHash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "at": "2026-10-10T13:46:27.099Z",
+      "kind": "chat",
+      "toolNames": [
+        "get_tasks",
+        "search_history",
+        "start_research",
+        "start_research_batch",
+        "cancel_research",
+        "enrich_results",
+        "get_results",
+        "save_campaign_plan",
+        "get_campaigns",
+        "start_campaign"
+      ],
+      "messageCount": 17,
+      "imageCount": 0,
+      "payloadHash": "7a49e351d0375ca09c211e5e66984d4a2a6e23643a6c64ed9e74404846f343b0",
+      "injected": false,
+      "status": 200
+    },
+    {
+      "at": "2026-10-10T13:46:35.573Z",
+      "kind": "chat",
+      "toolNames": [
+        "get_tasks",
+        "search_history",
+        "start_research",
+        "start_research_batch",
+        "cancel_research",
+        "enrich_results",
+        "get_results",
+        "save_campaign_plan",
+        "get_campaigns",
+        "start_campaign"
+      ],
+      "messageCount": 20,
+      "imageCount": 0,
+      "payloadHash": "435b7d2e62efac5702a67fddf40931bcf7ba739547eb818964ca14d8e3825c4e",
+      "injected": true,
+      "status": 400
+    }
+  ]
+}

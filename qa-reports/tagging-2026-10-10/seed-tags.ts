@@ -1,0 +1,15 @@
+import {readFileSync} from 'node:fs';
+import {Store} from '../../src/server/store.ts';
+import {ResearchEngine} from '../../src/server/research.ts';
+const input=JSON.parse(readFileSync('/app/data/fixtures/replay-input.json','utf8'));
+if(input.source.creators.length!==2)throw Error('Expected two genuine candidates');
+const store=new Store('/app/data/studio.sqlite');
+if(store.list<any>('assistance').some(a=>a.status!=='done'))throw Error('Unfinished assistance would invalidate independent replay');
+const engine=new ResearchEngine(store,{submit:async()=>{throw Error('Replay must never submit a new discovery request');},poll:async()=>{throw Error('Replay must never poll a discovery request');}},async()=>[],Date.now);
+const task=engine.start(input.spec,'review-tagging-replay-20261010');
+task.remoteId='review-replay:genuine-prior-wavesurge-candidates';
+task.remoteStatus='done';task.status='running';task.nextPollAt=0;
+task.candidates=input.source.creators.map((c:any)=>c.creator);
+task.exhaustive=true;
+task.detail='受控重放：真实历史候选，使用原生产模型及浏览器核验；不测试新的召回';
+engine.save(task);store.close();process.stdout.write(task.id);

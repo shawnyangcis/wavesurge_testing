@@ -1,0 +1,10 @@
+{
+  "at": "2026-10-10T06:55:27.390Z",
+  "checks": [],
+  "before": {
+    "messages": 17,
+    "tasks": 2,
+    "batches": 7
+  },
+  "error": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"report-research-0fe5e8f81bff440a90d5bb89-462b4f1063855969\"\nReceived: \"67a1a43b-5ae6-4fe1-9b0d-9fa63f31033e\""
+}

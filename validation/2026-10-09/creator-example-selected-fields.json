@@ -1,0 +1,84 @@
+{
+  "platform": "instagram",
+  "handle": "mikebanh_",
+  "displayName": "mike.banh",
+  "providerUserId": "62359153528",
+  "profileUrl": "https://www.instagram.com/mikebanh_/",
+  "avatarUrl": "https://pompe-ai-analysis-artifacts.sgp1.cdn.digitaloceanspaces.com/creator-avatars/instagram/3c46f72f0356d76905aef8ad644f924f.jpg",
+  "followerCount": 36502,
+  "region": "Canada",
+  "overallTier": "A",
+  "searchMatchTier": "precise",
+  "factorGrades": {
+    "role": "strong",
+    "activity": "recent",
+    "identity": "individual",
+    "location": "confirmed_country",
+    "followers": "in_range",
+    "relevance": "strong"
+  },
+  "contact": {
+    "email": "partnerships@mikebanhmedia.com",
+    "website": "http://linktr.ee/mikebanh.media",
+    "emailSurface": "profile_text",
+    "contactValues": [],
+    "deliverability": "unverified",
+    "emailOwnership": "representative",
+    "emailEvidenceUrl": "https://www.instagram.com/mikebanh_/"
+  },
+  "audience": {
+    "view": {
+      "method": "follower_sample",
+      "sampledCount": 25,
+      "capturedAt": "2026-10-09T14:58:00.229Z",
+      "location": {
+        "n": 25,
+        "moePct": 19.6,
+        "buckets": [
+          {
+            "key": "US",
+            "share": 0.199951171875
+          },
+          {
+            "key": "AU",
+            "share": 0.0799560546875
+          },
+          {
+            "key": "GB",
+            "share": 0.0799560546875
+          },
+          {
+            "key": "DE",
+            "share": 0.0400390625
+          },
+          {
+            "key": "ET",
+            "share": 0.0400390625
+          },
+          {
+            "key": "HK",
+            "share": 0.0400390625
+          },
+          {
+            "key": "TW",
+            "share": 0.0400390625
+          },
+          {
+            "key": "unknown",
+            "share": 0.47998046875
+          }
+        ],
+        "confidence": "low"
+      }
+    }
+  },
+  "evidence": [
+    {
+      "url": "https://www.instagram.com/reel/DdoxusdytNc/",
+      "kind": "content",
+      "text": "“This gadget completely changed the way I read” with #tech and #techgadgets.",
+      "provider": "tikhub",
+      "publishedAt": "2026-09-23T16:49:50+00:00"
+    }
+  ]
+}

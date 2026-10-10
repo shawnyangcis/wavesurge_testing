@@ -1,0 +1,21 @@
+{
+  "at": "2026-10-10T18:19:03.955732+00:00",
+  "ownedControlledContainersRemoved": true,
+  "ownedFaultProxyStopped": true,
+  "ownedControlledVolumesRetained": [
+    "creator-studio-final-r5-edge_desktop-secrets",
+    "creator-studio-final-r5-edge_desktop-state",
+    "creator-studio-final-r5-edge_studio-data"
+  ],
+  "mainAndLiveAvailable": {
+    "main": {
+      "port": 3000,
+      "httpStatus": 200
+    },
+    "live": {
+      "port": 3612,
+      "httpStatus": 200
+    }
+  },
+  "unrelatedDeploymentsUntouched": true
+}

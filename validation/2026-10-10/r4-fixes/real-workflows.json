@@ -1,0 +1,2606 @@
+{
+  "startedAt": "2026-10-10T15:58:30.625Z",
+  "source": "New natural-language chat via browser; configured actual LLM and WaveSurge API; no mocked candidates, verdicts, tools, or API responses",
+  "cases": [
+    {
+      "name": "Three separate natural-language groups, each analyze all two candidates, select one",
+      "input": "请立即同时开始三个独立的研究，不要创建 Campaign。每项都只分析 Instagram 的 tylerlcrawford 和 valstechtalkk，v3，仅使用 WaveSurge 已有文字资料，不打开浏览器。地区不限，粉丝1万到10万，每组目标入选1人、逐人分析预算2人，而且两位都必须完整分析并标注，即使已达到1人配额也不能停。第一组叫“R4 实用数码”，必选分享实际数码产品使用经验；第二组叫“R4 生活效率”，必选分享实际科技设备或工具使用经验；第三组叫“R4 内容教程”，必选分享具体科技产品信息。每组同时标注实际内容方向和文字呈现风格。请按这些已明确的范围开始，并在全部结束后交付有分组归属和逐人说明的综合报告。",
+      "taskIds": [
+        "research-2699e0b7548c89d406af3288",
+        "research-8027cbb15670a5c068eddc4e",
+        "research-093ae49f7e613e242027ff84"
+      ],
+      "duringMessage": "查询一下现在三项研究的真实进度。不要取消、不重新启动，也不要把已入选人数说成合格候选总数。",
+      "tasks": [
+        {
+          "id": "research-2699e0b7548c89d406af3288",
+          "title": "R4 实用数码",
+          "status": "completed",
+          "requested": 1,
+          "evaluated": 2,
+          "matched": 1,
+          "qualifying": 2,
+          "matchedMeaning": "研究组入选的合格账号数；合格候选总数见qualifying",
+          "updatedAt": 1791648182472,
+          "detail": "已选合格 1/1，已核验 2；证据不足者保持待核实。Instagram：读取 2 个本人基础账号，基础条件排除 0 个；基础读取上限 2，逐人分析上限 2（本次有界来源，不代表全站穷尽）。",
+          "remoteStatus": "done",
+          "nextPollAt": 1791648164148
+        },
+        {
+          "id": "research-8027cbb15670a5c068eddc4e",
+          "title": "R4 生活效率",
+          "status": "completed",
+          "requested": 1,
+          "evaluated": 2,
+          "matched": 1,
+          "qualifying": 2,
+          "matchedMeaning": "研究组入选的合格账号数；合格候选总数见qualifying",
+          "updatedAt": 1791648234255,
+          "detail": "已选合格 1/1，已核验 2；证据不足者保持待核实。Instagram：读取 2 个本人基础账号，基础条件排除 0 个；基础读取上限 2，逐人分析上限 2（本次有界来源，不代表全站穷尽）。",
+          "remoteStatus": "done",
+          "nextPollAt": 1791648215361
+        },
+        {
+          "id": "research-093ae49f7e613e242027ff84",
+          "title": "R4 内容教程",
+          "status": "completed",
+          "requested": 1,
+          "evaluated": 2,
+          "matched": 1,
+          "qualifying": 2,
+          "matchedMeaning": "研究组入选的合格账号数；合格候选总数见qualifying",
+          "updatedAt": 1791648297695,
+          "detail": "已选合格 1/1，已核验 2；证据不足者保持待核实。Instagram：读取 2 个本人基础账号，基础条件排除 0 个；基础读取上限 2，逐人分析上限 2（本次有界来源，不代表全站穷尽）。",
+          "remoteStatus": "done",
+          "nextPollAt": 1791648272592
+        }
+      ],
+      "rows": [
+        {
+          "id": "research-2699e0b7548c89d406af3288|instagram:tylerlcrawford",
+          "verdict": "match",
+          "selected": true,
+          "tags": [
+            "智能家居与公寓自动化",
+            "数码产品评测与购买建议",
+            "酒店体验与旅行推荐",
+            "第一人称体验叙述",
+            "具体场景与操作细节",
+            "价格与功能对比",
+            "收藏分享引导",
+            "商业合作披露"
+          ],
+          "reportContext": {
+            "sourceTaskTitle": "R4 实用数码",
+            "groupId": "research-2699e0b7548c89d406af3288",
+            "groupTitle": "R4 实用数码",
+            "selectionScope": "research"
+          }
+        },
+        {
+          "id": "research-8027cbb15670a5c068eddc4e|instagram:tylerlcrawford",
+          "verdict": "match",
+          "selected": true,
+          "tags": [
+            "智能家居与公寓自动化",
+            "科技设备使用评测",
+            "酒店体验与旅行推荐",
+            "第一人称体验叙述",
+            "具体参数与操作细节",
+            "实用比较与购买建议",
+            "收藏与转发引导"
+          ],
+          "reportContext": {
+            "sourceTaskTitle": "R4 生活效率",
+            "groupId": "research-8027cbb15670a5c068eddc4e",
+            "groupTitle": "R4 生活效率",
+            "selectionScope": "research"
+          }
+        },
+        {
+          "id": "research-093ae49f7e613e242027ff84|instagram:tylerlcrawford",
+          "verdict": "match",
+          "selected": true,
+          "tags": [
+            "智能家居与公寓自动化",
+            "科技产品功能介绍与评测",
+            "酒店与旅行推荐",
+            "英文第一人称体验叙述",
+            "功能、价格与使用限制说明",
+            "实用教程与选择建议",
+            "收藏分享引导",
+            "广告与联盟链接披露"
+          ],
+          "reportContext": {
+            "sourceTaskTitle": "R4 内容教程",
+            "groupId": "research-093ae49f7e613e242027ff84",
+            "groupTitle": "R4 内容教程",
+            "selectionScope": "research"
+          }
+        },
+        {
+          "id": "research-2699e0b7548c89d406af3288|instagram:valstechtalkk",
+          "verdict": "match",
+          "selected": false,
+          "tags": [
+            "iPhone 使用技巧与设置经验",
+            "手机界面个性化",
+            "数码配件与外观分享",
+            "英文短句与口语表达",
+            "第一人称体验分享",
+            "提问式互动",
+            "频繁使用表情符号与话题标签"
+          ],
+          "reportContext": {
+            "sourceTaskTitle": "R4 实用数码",
+            "groupId": "research-2699e0b7548c89d406af3288",
+            "groupTitle": "R4 实用数码",
+            "selectionScope": "research"
+          }
+        },
+        {
+          "id": "research-8027cbb15670a5c068eddc4e|instagram:valstechtalkk",
+          "verdict": "match",
+          "selected": false,
+          "tags": [
+            "iPhone设置与使用技巧",
+            "手机界面个性化",
+            "消费电子与手机配件体验",
+            "英文口语化短文案",
+            "第一人称体验表达",
+            "表情符号丰富",
+            "提问互动",
+            "技巧教程导向"
+          ],
+          "reportContext": {
+            "sourceTaskTitle": "R4 生活效率",
+            "groupId": "research-8027cbb15670a5c068eddc4e",
+            "groupTitle": "R4 生活效率",
+            "selectionScope": "research"
+          }
+        },
+        {
+          "id": "research-093ae49f7e613e242027ff84|instagram:valstechtalkk",
+          "verdict": "match",
+          "selected": false,
+          "tags": [
+            "iPhone 功能与设置技巧",
+            "手机个性化与配件推荐",
+            "科技产品开箱与外观分享",
+            "英文口语化短文案",
+            "频繁使用表情与话题标签",
+            "提问式互动",
+            "技巧系列化标题",
+            "含优惠码推广"
+          ],
+          "reportContext": {
+            "sourceTaskTitle": "R4 内容教程",
+            "groupId": "research-093ae49f7e613e242027ff84",
+            "groupTitle": "R4 内容教程",
+            "selectionScope": "research"
+          }
+        }
+      ],
+      "notices": [
+        {
+          "id": "report-request-41cee1a6-9f5c-452c-beb8-52273c2c9a18-6a5c53462910d6c7",
+          "role": "assistant",
+          "text": "本次请求的 3 项工作已全部结束。\n\n- R4 实用数码：已完成；已选合格 1/1，已核验 2；证据不足者保持待核实。Instagram：读取 2 个本人基础账号，基础条件排除 0 个；基础读取上限 2，逐人分析上限 2（本次有界来源，不代表全站穷尽）。 [查看报告](/api/reports/research-2699e0b7548c89d406af3288)\n- R4 生活效率：已完成；已选合格 1/1，已核验 2；证据不足者保持待核实。Instagram：读取 2 个本人基础账号，基础条件排除 0 个；基础读取上限 2，逐人分析上限 2（本次有界来源，不代表全站穷尽）。 [查看报告](/api/reports/research-8027cbb15670a5c068eddc4e)\n- R4 内容教程：已完成；已选合格 1/1，已核验 2；证据不足者保持待核实。Instagram：读取 2 个本人基础账号，基础条件排除 0 个；基础读取上限 2，逐人分析上限 2（本次有界来源，不代表全站穷尽）。 [查看报告](/api/reports/research-093ae49f7e613e242027ff84)\n\n[查看本次综合报告](/api/work-batches/41cee1a6-9f5c-452c-beb8-52273c2c9a18/report) · [下载综合 CSV](/api/work-batches/41cee1a6-9f5c-452c-beb8-52273c2c9a18/report?format=csv)",
+          "createdAt": 1791648297955,
+          "epoch": 0,
+          "state": "delivered",
+          "attachments": []
+        }
+      ],
+      "batch": {
+        "id": "41cee1a6-9f5c-452c-beb8-52273c2c9a18",
+        "items": [
+          {
+            "kind": "research",
+            "id": "research-2699e0b7548c89d406af3288",
+            "title": "R4 实用数码",
+            "reportUrl": "/api/reports/research-2699e0b7548c89d406af3288"
+          },
+          {
+            "kind": "research",
+            "id": "research-8027cbb15670a5c068eddc4e",
+            "title": "R4 生活效率",
+            "reportUrl": "/api/reports/research-8027cbb15670a5c068eddc4e"
+          },
+          {
+            "kind": "research",
+            "id": "research-093ae49f7e613e242027ff84",
+            "title": "R4 内容教程",
+            "reportUrl": "/api/reports/research-093ae49f7e613e242027ff84"
+          }
+        ],
+        "sealed": true,
+        "delivered": true
+      },
+      "passed": true
+    },
+    {
+      "name": "Natural-language all-record annotation, six rows across three groups, no rediscovery",
+      "input": "对刚刚三项研究 research-2699e0b7548c89d406af3288、research-8027cbb15670a5c068eddc4e、research-093ae49f7e613e242027ff84 的全部6条记录补充标注，包括未入选的合格备选以及同一账号在不同研究里的每条记录。只用已保存的文字证据，新增“内容使用场景”画像，保持原筛选条件、事实、判断、入选和原有画像。不要搜索、不重新核验、不访问浏览器。全部结束后交付一次综合 HTML/CSV，每条写清来源研究和分组。",
+      "batch": {
+        "id": "277bd562-c754-4943-ab03-b6975ea4ce5d",
+        "items": [
+          {
+            "kind": "enrichment",
+            "id": "enrich-e5b742c0a4057281eccaad2f",
+            "title": "补充画像：R4 实用数码",
+            "reportUrl": "/api/reports/research-2699e0b7548c89d406af3288"
+          },
+          {
+            "kind": "enrichment",
+            "id": "enrich-03f77d00e1c9bd33f6536613",
+            "title": "补充画像：R4 生活效率",
+            "reportUrl": "/api/reports/research-8027cbb15670a5c068eddc4e"
+          },
+          {
+            "kind": "enrichment",
+            "id": "enrich-4fd5461d841730b50aeb4366",
+            "title": "补充画像：R4 内容教程",
+            "reportUrl": "/api/reports/research-093ae49f7e613e242027ff84"
+          }
+        ],
+        "sealed": true,
+        "delivered": true
+      },
+      "jobs": [
+        {
+          "id": "enrich-e5b742c0a4057281eccaad2f",
+          "title": "补充画像：R4 实用数码",
+          "status": "completed",
+          "requested": 2,
+          "evaluated": 2,
+          "matched": 2,
+          "resultTaskId": "research-2699e0b7548c89d406af3288",
+          "matchedMeaning": "本轮处理结果中合格的记录数，不是入选人数",
+          "updatedAt": 1791648708618,
+          "detail": "已处理 2 个已有账号；失败 0。"
+        },
+        {
+          "id": "enrich-03f77d00e1c9bd33f6536613",
+          "title": "补充画像：R4 生活效率",
+          "status": "completed",
+          "requested": 2,
+          "evaluated": 2,
+          "matched": 2,
+          "resultTaskId": "research-8027cbb15670a5c068eddc4e",
+          "matchedMeaning": "本轮处理结果中合格的记录数，不是入选人数",
+          "updatedAt": 1791648763593,
+          "detail": "已处理 2 个已有账号；失败 0。"
+        },
+        {
+          "id": "enrich-4fd5461d841730b50aeb4366",
+          "title": "补充画像：R4 内容教程",
+          "status": "completed",
+          "requested": 2,
+          "evaluated": 2,
+          "matched": 2,
+          "resultTaskId": "research-093ae49f7e613e242027ff84",
+          "matchedMeaning": "本轮处理结果中合格的记录数，不是入选人数",
+          "updatedAt": 1791648779715,
+          "detail": "已处理 2 个已有账号；失败 0。"
+        }
+      ],
+      "notices": [
+        {
+          "id": "report-request-277bd562-c754-4943-ab03-b6975ea4ce5d-1b30055e8b48cca0",
+          "role": "assistant",
+          "text": "本次请求的 3 项工作已全部结束。\n\n- 补充画像：R4 实用数码：已完成；已处理 2 个已有账号；失败 0。 [查看报告](/api/reports/research-2699e0b7548c89d406af3288)\n- 补充画像：R4 生活效率：已完成；已处理 2 个已有账号；失败 0。 [查看报告](/api/reports/research-8027cbb15670a5c068eddc4e)\n- 补充画像：R4 内容教程：已完成；已处理 2 个已有账号；失败 0。 [查看报告](/api/reports/research-093ae49f7e613e242027ff84)\n\n[查看本次综合报告](/api/work-batches/277bd562-c754-4943-ab03-b6975ea4ce5d/report) · [下载综合 CSV](/api/work-batches/277bd562-c754-4943-ab03-b6975ea4ce5d/report?format=csv)",
+          "createdAt": 1791648779720,
+          "epoch": 0,
+          "state": "delivered",
+          "attachments": []
+        }
+      ],
+      "preservedAllSix": true,
+      "newWaveCalls": 0,
+      "passed": true
+    },
+    {
+      "name": "Campaign goal -> interactive scope -> confirmation -> true cross-group allocation",
+      "goal": "我想做一个提高智能生活设备认知的 Campaign，受众是喜欢科技的年轻工作者。请先帮我规划两种创作者类型，我们再一起确定筛选范围，不要立即启动。",
+      "goalReply": "可以，先规划两种互补的创作者类型，**暂不启动研究**。针对“提高智能生活设备认知”，建议兼顾“认识产品功能”与“理解生活用途”。\n\n| 创作者类型 | 内容定位 | 如何支持认知目标 | 可考虑的内容形式 |\n|---|---|---|---|\n| **实用科技体验型** | 通过实际体验，解释智能设备的功能、操作方式和使用限制 | 帮喜欢科技的年轻工作者理解“这是什么、能做什么、与普通设备有何不同” | 功能演示、上手体验、同类产品对比 |\n| **工作与生活效率型** | 将智能设备融入工作日常、下班生活和居家场景 | 帮受众理解“它与我的生活有什么关系”，降低陌生感 | 日常使用记录、场景教程、设备联动演示 |\n\n两组建议分别以**实际产品使用经验**和**具体生活场景应用**为筛选重点；这是待确认的建议，还不是最终条件。此前的研究账号也不会自动进入本次 Campaign。\n\n为确定范围，先请你确认三点：\n\n1. **产品与认知重点**：推广什么设备或品牌？更希望受众认识某款产品、理解功能，还是了解整个智能生活设备品类？\n2. **平台与地区**：仍以 Instagram 为主吗？创作者所在地、内容语言及目标受众市场有什么要求？\n3. **规模与粉丝范围**：两类各希望入选几人？是否沿用此前的 **1万–10万粉丝**？本轮希望最多分析多少条候选记录？\n\n确认后，我会整理成包含两组理由、配额、候选预算、必选条件及偏好的**待确认方案**，保存编号和版本；只有你同意该版本后才启动。",
+      "scope": "我确认希望两组：实用数码体验组、生活效率工具组，每组1位且同一平台账号总共只能占一个组。两组都只考虑 Instagram 的 tylerlcrawford 与 valstechtalkk，v3，地区不限，粉丝1万到10万，每组逐人分析预算2，两位都完整分析并标注。第一组必选本人有实际数码产品使用经验，第二组必选本人有科技产品或工具使用经验。只依据已有文字、不打开网页。标注实际内容方向和文字呈现风格。请将与提高智能生活设备认知的关联写在各类型理由中，保存待确认的 Campaign 方案。",
+      "id": "campaign-ba7c0826d241bf69f9d7798a",
+      "revision": 1,
+      "plan": {
+        "title": "智能生活设备认知 Campaign",
+        "goal": "提高智能生活设备认知",
+        "audience": "喜欢科技的年轻工作者",
+        "groups": [
+          {
+            "id": "practical_digital",
+            "rationale": "通过本人实际数码产品使用经验解释设备功能、操作方式与使用限制，帮助喜欢科技的年轻工作者认识智能生活设备的能力与实际价值。与智能生活设备的具体关联仍需依据证据判断，不将一般数码经验等同于智能生活设备经验。",
+            "spec": {
+              "title": "实用数码体验组",
+              "personaText": "本人有实际数码产品使用经验的创作者",
+              "count": 1,
+              "platforms": [
+                "instagram"
+              ],
+              "regions": [],
+              "minFollowers": 10000,
+              "maxFollowers": 100000,
+              "candidateBudget": 2,
+              "analyzeAll": true,
+              "verificationMode": "text",
+              "instagram": {
+                "handles": [
+                  "tylerlcrawford",
+                  "valstechtalkk"
+                ],
+                "version": "v3"
+              },
+              "criteria": [
+                {
+                  "id": "personal_digital_experience",
+                  "label": "本人有实际数码产品使用经验",
+                  "required": true,
+                  "basis": "text"
+                }
+              ],
+              "annotations": [
+                {
+                  "id": "content_direction",
+                  "label": "实际内容方向"
+                },
+                {
+                  "id": "text_style",
+                  "label": "文字呈现风格"
+                }
+              ]
+            },
+            "matched": 0,
+            "eligible": 0
+          },
+          {
+            "id": "life_efficiency",
+            "rationale": "通过本人科技产品或工具使用经验，将设备用途连接到年轻工作者的工作与生活效率需求，帮助受众理解智能生活设备可以解决哪些日常问题。具体场景和智能生活设备关联以已有文字证据为准，不预设候选已具备相关经验。",
+            "spec": {
+              "title": "生活效率工具组",
+              "personaText": "本人有科技产品或工具使用经验的创作者",
+              "count": 1,
+              "platforms": [
+                "instagram"
+              ],
+              "regions": [],
+              "minFollowers": 10000,
+              "maxFollowers": 100000,
+              "candidateBudget": 2,
+              "analyzeAll": true,
+              "verificationMode": "text",
+              "instagram": {
+                "handles": [
+                  "tylerlcrawford",
+                  "valstechtalkk"
+                ],
+                "version": "v3"
+              },
+              "criteria": [
+                {
+                  "id": "personal_tech_tool_experience",
+                  "label": "本人有科技产品或工具使用经验",
+                  "required": true,
+                  "basis": "text"
+                }
+              ],
+              "annotations": [
+                {
+                  "id": "content_direction",
+                  "label": "实际内容方向"
+                },
+                {
+                  "id": "text_style",
+                  "label": "文字呈现风格"
+                }
+              ]
+            },
+            "matched": 0,
+            "eligible": 0
+          }
+        ],
+        "id": "campaign-ba7c0826d241bf69f9d7798a",
+        "revision": 1,
+        "childTaskIds": [],
+        "createdAt": 1791648826168,
+        "updatedAt": 1791648826168,
+        "status": "draft",
+        "requested": 2,
+        "matched": 0,
+        "qualifyingUnique": 0,
+        "evaluated": 0,
+        "selections": [],
+        "reportUrl": "/api/campaigns/campaign-ba7c0826d241bf69f9d7798a/report",
+        "results": []
+      },
+      "confirm": "我确认 Campaign campaign-ba7c0826d241bf69f9d7798a 的第 1 版，范围和配额都同意，请现在开始。",
+      "childTaskIds": [
+        "research-c4ec97cc917af74387f57095",
+        "research-15be79e6bff916f857396921"
+      ],
+      "summary": {
+        "status": "completed",
+        "requested": 2,
+        "matched": 2,
+        "qualifyingUnique": 2,
+        "selections": [
+          {
+            "creatorId": "instagram:tylerlcrawford",
+            "groupId": "life_efficiency",
+            "resultId": "research-15be79e6bff916f857396921|instagram:tylerlcrawford"
+          },
+          {
+            "creatorId": "instagram:valstechtalkk",
+            "groupId": "practical_digital",
+            "resultId": "research-c4ec97cc917af74387f57095|instagram:valstechtalkk"
+          }
+        ],
+        "groups": [
+          {
+            "id": "practical_digital",
+            "rationale": "通过本人实际数码产品使用经验解释设备功能、操作方式与使用限制，帮助喜欢科技的年轻工作者认识智能生活设备的能力与实际价值。与智能生活设备的具体关联仍需依据证据判断，不将一般数码经验等同于智能生活设备经验。",
+            "spec": {
+              "title": "实用数码体验组",
+              "personaText": "本人有实际数码产品使用经验的创作者",
+              "count": 1,
+              "platforms": [
+                "instagram"
+              ],
+              "regions": [],
+              "minFollowers": 10000,
+              "maxFollowers": 100000,
+              "candidateBudget": 2,
+              "analyzeAll": true,
+              "verificationMode": "text",
+              "instagram": {
+                "handles": [
+                  "tylerlcrawford",
+                  "valstechtalkk"
+                ],
+                "version": "v3"
+              },
+              "criteria": [
+                {
+                  "id": "personal_digital_experience",
+                  "label": "本人有实际数码产品使用经验",
+                  "required": true,
+                  "basis": "text"
+                }
+              ],
+              "annotations": [
+                {
+                  "id": "content_direction",
+                  "label": "实际内容方向"
+                },
+                {
+                  "id": "text_style",
+                  "label": "文字呈现风格"
+                }
+              ]
+            },
+            "taskId": "research-c4ec97cc917af74387f57095",
+            "matched": 1,
+            "eligible": 2
+          },
+          {
+            "id": "life_efficiency",
+            "rationale": "通过本人科技产品或工具使用经验，将设备用途连接到年轻工作者的工作与生活效率需求，帮助受众理解智能生活设备可以解决哪些日常问题。具体场景和智能生活设备关联以已有文字证据为准，不预设候选已具备相关经验。",
+            "spec": {
+              "title": "生活效率工具组",
+              "personaText": "本人有科技产品或工具使用经验的创作者",
+              "count": 1,
+              "platforms": [
+                "instagram"
+              ],
+              "regions": [],
+              "minFollowers": 10000,
+              "maxFollowers": 100000,
+              "candidateBudget": 2,
+              "analyzeAll": true,
+              "verificationMode": "text",
+              "instagram": {
+                "handles": [
+                  "tylerlcrawford",
+                  "valstechtalkk"
+                ],
+                "version": "v3"
+              },
+              "criteria": [
+                {
+                  "id": "personal_tech_tool_experience",
+                  "label": "本人有科技产品或工具使用经验",
+                  "required": true,
+                  "basis": "text"
+                }
+              ],
+              "annotations": [
+                {
+                  "id": "content_direction",
+                  "label": "实际内容方向"
+                },
+                {
+                  "id": "text_style",
+                  "label": "文字呈现风格"
+                }
+              ]
+            },
+            "taskId": "research-15be79e6bff916f857396921",
+            "matched": 1,
+            "eligible": 2
+          }
+        ],
+        "results": [
+          {
+            "id": "research-c4ec97cc917af74387f57095|instagram:tylerlcrawford",
+            "verdict": "match",
+            "selected": false,
+            "reportContext": {
+              "sourceTaskTitle": "实用数码体验组",
+              "groupId": "practical_digital",
+              "groupTitle": "实用数码体验组",
+              "selectionScope": "campaign",
+              "campaignId": "campaign-ba7c0826d241bf69f9d7798a",
+              "campaignTitle": "智能生活设备认知 Campaign",
+              "researchSelected": true,
+              "allocatedGroupId": "life_efficiency",
+              "allocatedGroupTitle": "生活效率工具组"
+            },
+            "judgments": [
+              {
+                "criterionId": "__platform",
+                "verdict": "match",
+                "reason": "创作者平台：instagram",
+                "evidenceIds": [],
+                "label": "平台"
+              },
+              {
+                "criterionId": "__followers",
+                "verdict": "match",
+                "reason": "主页显示 31249 followers；保守区间 31249–31249，要求 10000–100000；WaveSurge 精确数 31249",
+                "evidenceIds": [
+                  "de1cfed4de4e781281cfa100"
+                ],
+                "label": "粉丝范围"
+              },
+              {
+                "criterionId": "personal_digital_experience",
+                "verdict": "match",
+                "reason": "复用已取得的帖子文字，未重新打开页面。2026-10-03 的三个月智能卷帘使用评测明确描述本人长期使用及遥控、语音和 app 控制的具体场景；2026-08-24 的帖子说明本人设置卧室智能设备并持续每晚运行（“I set all of it up once and it has run every night since”）。这些第一人称、具体使用细节支持本人有实际数码产品使用经验；判断限于文字自述，不代表独立实物验证。",
+                "evidenceIds": [
+                  "b10a06b2fb866bed5eedb7e6",
+                  "c46bd8e22ac529d6511e9ba1"
+                ],
+                "label": "本人有实际数码产品使用经验"
+              }
+            ],
+            "tags": [
+              "智能家居与公寓自动化",
+              "数码产品体验与选购建议",
+              "酒店体验与旅行推荐",
+              "英文第一人称体验叙述",
+              "具体场景与功能细节",
+              "实用推荐与购买引导",
+              "收藏与分享号召"
+            ],
+            "annotations": [
+              {
+                "dimensionId": "content_direction",
+                "status": "supported",
+                "values": [
+                  "智能家居与公寓自动化",
+                  "数码产品体验与选购建议",
+                  "酒店体验与旅行推荐"
+                ],
+                "reason": "2026-10-03 智能卷帘长期评测、2026-10-09 Mac 显示器介绍和2026-10-07 曼哈顿酒店推荐支持这些实际内容方向；资料来自已采集的帖子文字。",
+                "evidenceIds": [
+                  "b10a06b2fb866bed5eedb7e6",
+                  "14d3224699a4d99e665fecfa",
+                  "222e752d6057ee12c1192060"
+                ]
+              },
+              {
+                "dimensionId": "text_style",
+                "status": "supported",
+                "values": [
+                  "英文第一人称体验叙述",
+                  "具体场景与功能细节",
+                  "实用推荐与购买引导",
+                  "收藏与分享号召"
+                ],
+                "reason": "帖子以本人体验切入，列明控制方式、作息时间或产品功能，并使用链接、优惠信息以及“Save this”“send it”等行动号召；部分帖子明确标注广告。",
+                "evidenceIds": [
+                  "b10a06b2fb866bed5eedb7e6",
+                  "c46bd8e22ac529d6511e9ba1",
+                  "14d3224699a4d99e665fecfa"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "research-15be79e6bff916f857396921|instagram:tylerlcrawford",
+            "verdict": "match",
+            "selected": true,
+            "reportContext": {
+              "sourceTaskTitle": "生活效率工具组",
+              "groupId": "life_efficiency",
+              "groupTitle": "生活效率工具组",
+              "selectionScope": "campaign",
+              "campaignId": "campaign-ba7c0826d241bf69f9d7798a",
+              "campaignTitle": "智能生活设备认知 Campaign",
+              "researchSelected": true,
+              "allocatedGroupId": "life_efficiency",
+              "allocatedGroupTitle": "生活效率工具组"
+            },
+            "judgments": [
+              {
+                "criterionId": "__platform",
+                "verdict": "match",
+                "reason": "创作者平台：instagram",
+                "evidenceIds": [],
+                "label": "平台"
+              },
+              {
+                "criterionId": "__followers",
+                "verdict": "match",
+                "reason": "主页显示 31249 followers；保守区间 31249–31249，要求 10000–100000；WaveSurge 精确数 31249",
+                "evidenceIds": [
+                  "de1cfed4de4e781281cfa100"
+                ],
+                "label": "粉丝范围"
+              },
+              {
+                "criterionId": "personal_tech_tool_experience",
+                "verdict": "match",
+                "reason": "复用已取得的 WaveSurge 帖子文字，未重新打开页面。2026-08-24 帖子本人称“I set all of it up once and it has run every night since”，具体描述 Eight Sleep 床温控制、智能窗帘、灯光及加湿器的自动化使用；2026-10-03 帖子称“my 3 month review”，详述智能卷帘通过遥控、语音和 app 独立控制以及日常使用感受。两条第一人称具体经历支持本人有科技产品或工具使用经验；后一条标注 #ad，不据此推断独立测评。",
+                "evidenceIds": [
+                  "f0ee4eba4c74692757980557",
+                  "b10a06b2fb866bed5eedb7e6"
+                ],
+                "label": "本人有科技产品或工具使用经验"
+              }
+            ],
+            "tags": [
+              "智能家居与公寓自动化",
+              "科技产品使用评测",
+              "酒店与旅行推荐",
+              "小空间家居布局",
+              "英文第一人称体验叙述",
+              "场景化实用建议",
+              "具体参数与价格比较",
+              "收藏与转发引导",
+              "广告及联盟链接披露"
+            ],
+            "annotations": [
+              {
+                "dimensionId": "content_direction",
+                "status": "supported",
+                "values": [
+                  "智能家居与公寓自动化",
+                  "科技产品使用评测",
+                  "酒店与旅行推荐",
+                  "小空间家居布局"
+                ],
+                "reason": "已取得文字涵盖居家自动化、智能窗帘三个月使用评测、显示器选购体验、曼哈顿酒店推荐及公寓布局建议；这是实际观察到的内容方向，不代表全部内容占比。",
+                "evidenceIds": [
+                  "f0ee4eba4c74692757980557",
+                  "b10a06b2fb866bed5eedb7e6",
+                  "14d3224699a4d99e665fecfa",
+                  "222e752d6057ee12c1192060",
+                  "2a6cc31a8d7525f626572a38"
+                ]
+              },
+              {
+                "dimensionId": "text_style",
+                "status": "supported",
+                "values": [
+                  "英文第一人称体验叙述",
+                  "场景化实用建议",
+                  "具体参数与价格比较",
+                  "收藏与转发引导",
+                  "广告及联盟链接披露"
+                ],
+                "reason": "帖子以本人居家与产品体验开场，分段给出控制方式、使用时间、价格及功能限制，常以“Save this”和“send it”引导收藏转发；部分文字明确标注 #ad 或说明 affiliate links。",
+                "evidenceIds": [
+                  "f0ee4eba4c74692757980557",
+                  "b10a06b2fb866bed5eedb7e6",
+                  "04e497a6a4503326179bbc50",
+                  "14d3224699a4d99e665fecfa"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "research-c4ec97cc917af74387f57095|instagram:valstechtalkk",
+            "verdict": "match",
+            "selected": true,
+            "reportContext": {
+              "sourceTaskTitle": "实用数码体验组",
+              "groupId": "practical_digital",
+              "groupTitle": "实用数码体验组",
+              "selectionScope": "campaign",
+              "campaignId": "campaign-ba7c0826d241bf69f9d7798a",
+              "campaignTitle": "智能生活设备认知 Campaign",
+              "researchSelected": false,
+              "allocatedGroupId": "practical_digital",
+              "allocatedGroupTitle": "实用数码体验组"
+            },
+            "judgments": [
+              {
+                "criterionId": "__platform",
+                "verdict": "match",
+                "reason": "创作者平台：instagram",
+                "evidenceIds": [],
+                "label": "平台"
+              },
+              {
+                "criterionId": "__followers",
+                "verdict": "match",
+                "reason": "主页显示 39696 followers；保守区间 39696–39696，要求 10000–100000；WaveSurge 精确数 39696",
+                "evidenceIds": [
+                  "87648534d88e75944587d4a1"
+                ],
+                "label": "粉丝范围"
+              },
+              {
+                "criterionId": "personal_digital_experience",
+                "verdict": "match",
+                "reason": "已取得的帖子文字包含具体、第一人称的手机使用设置经验：2026-10-09称“camera settings i turn on for the CRISP quality”；2026-09-29称“Auto brightness has to be a setting I will always have off”；2026-09-21称“Two settings i change when getting a new iphone”。这些自述支持本人有实际数码产品使用经验，而非仅凭主页的评测定位判断。本轮复用已有文字资料，未重新打开页面或观看视频。",
+                "evidenceIds": [
+                  "a7e3e7d0dbee5ed3fcffa6fb",
+                  "8a11fd6d66c0c8afe86cea45",
+                  "40ede6d8cdfe49e9626e73a8"
+                ],
+                "label": "本人有实际数码产品使用经验"
+              }
+            ],
+            "tags": [
+              "iPhone使用技巧与设置",
+              "手机主题与个性化",
+              "数码产品开箱",
+              "手机配件推荐",
+              "英文口语化短文案",
+              "第一人称体验分享",
+              "表情符号与话题标签较多",
+              "提问式互动",
+              "优惠码推广"
+            ],
+            "annotations": [
+              {
+                "dimensionId": "content_direction",
+                "status": "supported",
+                "values": [
+                  "iPhone使用技巧与设置",
+                  "手机主题与个性化",
+                  "数码产品开箱",
+                  "手机配件推荐"
+                ],
+                "reason": "帖子文字涉及相机设置、自动亮度、月度手机主题、手机开箱和带优惠码的配件推荐；仅描述已取得文字所支持的内容方向，不推断视频具体画面或深度测评能力。",
+                "evidenceIds": [
+                  "a7e3e7d0dbee5ed3fcffa6fb",
+                  "8a11fd6d66c0c8afe86cea45",
+                  "87ebf59f2901128398c958c2",
+                  "7eaa270ac77d4c9b8d01c6f9",
+                  "7bb702ab43acfd45050b3c4a"
+                ]
+              },
+              {
+                "dimensionId": "text_style",
+                "status": "supported",
+                "values": [
+                  "英文口语化短文案",
+                  "第一人称体验分享",
+                  "表情符号与话题标签较多",
+                  "提问式互动",
+                  "优惠码推广"
+                ],
+                "reason": "文案使用“i turn on”“I will always have off”等第一人称表述，搭配表情符号、标签、“What about you?”等互动提问；配件帖出现优惠码及#ad。",
+                "evidenceIds": [
+                  "a7e3e7d0dbee5ed3fcffa6fb",
+                  "8a11fd6d66c0c8afe86cea45",
+                  "7bb702ab43acfd45050b3c4a"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "research-15be79e6bff916f857396921|instagram:valstechtalkk",
+            "verdict": "match",
+            "selected": false,
+            "reportContext": {
+              "sourceTaskTitle": "生活效率工具组",
+              "groupId": "life_efficiency",
+              "groupTitle": "生活效率工具组",
+              "selectionScope": "campaign",
+              "campaignId": "campaign-ba7c0826d241bf69f9d7798a",
+              "campaignTitle": "智能生活设备认知 Campaign",
+              "researchSelected": false,
+              "allocatedGroupId": "practical_digital",
+              "allocatedGroupTitle": "实用数码体验组"
+            },
+            "judgments": [
+              {
+                "criterionId": "__platform",
+                "verdict": "match",
+                "reason": "创作者平台：instagram",
+                "evidenceIds": [],
+                "label": "平台"
+              },
+              {
+                "criterionId": "__followers",
+                "verdict": "match",
+                "reason": "主页显示 39696 followers；保守区间 39696–39696，要求 10000–100000；WaveSurge 精确数 39696",
+                "evidenceIds": [
+                  "87648534d88e75944587d4a1"
+                ],
+                "label": "粉丝范围"
+              },
+              {
+                "criterionId": "personal_tech_tool_experience",
+                "verdict": "match",
+                "reason": "复用已提供的 WaveSurge 帖子文字，本轮未重新打开页面。2026-10-09 帖文明确说“camera settings i turn on”，2026-09-29 说“Auto brightness has to be a setting I will always have off”，2026-09-21 说“Two settings i change when getting a new iphone!”；这些第一人称具体设置习惯支持本人有科技产品使用经验，而非仅转述产品资讯。资料采集时间为2026-10-10，判断仅基于文字。",
+                "evidenceIds": [
+                  "a7e3e7d0dbee5ed3fcffa6fb",
+                  "2b22e29ae0eb86d0544ac2cb",
+                  "40ede6d8cdfe49e9626e73a8"
+                ],
+                "label": "本人有科技产品或工具使用经验"
+              }
+            ],
+            "tags": [
+              "iPhone功能与设置技巧",
+              "手机及科技配件介绍",
+              "科技产品外观与个性化",
+              "英文口语化短文案",
+              "第一人称体验表达",
+              "表情符号与话题标签较多",
+              "提问式互动"
+            ],
+            "annotations": [
+              {
+                "dimensionId": "content_direction",
+                "status": "supported",
+                "values": [
+                  "iPhone功能与设置技巧",
+                  "手机及科技配件介绍",
+                  "科技产品外观与个性化"
+                ],
+                "reason": "已提供帖文涉及相机设置、键盘技巧、消息背景更换、手机开箱与手机壳搭配，内容方向以消费科技使用技巧及外观个性化为主。",
+                "evidenceIds": [
+                  "a7e3e7d0dbee5ed3fcffa6fb",
+                  "3ef26c78905d309854e19080",
+                  "17b36859992e5b7793a2cec4",
+                  "7eaa270ac77d4c9b8d01c6f9",
+                  "dca899590280eb658c797f0e"
+                ]
+              },
+              {
+                "dimensionId": "text_style",
+                "status": "supported",
+                "values": [
+                  "英文口语化短文案",
+                  "第一人称体验表达",
+                  "表情符号与话题标签较多",
+                  "提问式互动"
+                ],
+                "reason": "帖文使用“i turn on”“I will always have off”等第一人称表达，配有表情与科技话题标签，并用“What about you?”“What do you change first?”邀请互动。",
+                "evidenceIds": [
+                  "a7e3e7d0dbee5ed3fcffa6fb",
+                  "2b22e29ae0eb86d0544ac2cb",
+                  "40ede6d8cdfe49e9626e73a8"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "notices": [
+        {
+          "id": "report-request-616c7d35-09b2-46fb-a7b1-5a0750cfc8cb-641bce8787dc24dd",
+          "role": "assistant",
+          "text": "本次请求的 1 项工作已全部结束。\n\n- 智能生活设备认知 Campaign：已完成；去重入选 2/2；实用数码体验组 1/1；生活效率工具组 1/1 [查看报告](/api/campaigns/campaign-ba7c0826d241bf69f9d7798a/report)\n\n[查看本次综合报告](/api/work-batches/616c7d35-09b2-46fb-a7b1-5a0750cfc8cb/report) · [下载综合 CSV](/api/work-batches/616c7d35-09b2-46fb-a7b1-5a0750cfc8cb/report?format=csv)",
+          "createdAt": 1791649358703,
+          "epoch": 0,
+          "state": "delivered",
+          "attachments": []
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "finishedAt": "2026-10-10T16:23:27.186Z",
+  "runnerRepairs": [
+    {
+      "at": "2026-10-10T16:06:37.234Z",
+      "reason": "Correct automatic delivery ID prefix to report-; resume actual already completed three research jobs without rediscovery",
+      "previousFailure": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 1\nReceived: 0\n\nCall Log:\n- Timeout 40000ms exceeded while waiting on the predicate"
+    },
+    {
+      "at": "2026-10-10T16:08:09.925Z",
+      "reason": "Test harness: use actual report- delivery IDs and retain authenticated browser context for report tabs; resume the same actual jobs without rediscovery",
+      "previousFailure": "TimeoutError: locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('heading').first() to be visible\u001b[22m\n"
+    },
+    {
+      "at": "2026-10-10T16:10:58.217Z",
+      "reason": "Test harness: use actual report- delivery IDs and retain authenticated browser context for report tabs; resume the same actual jobs without rediscovery",
+      "previousFailure": "Error: Please use browser.newContext()"
+    },
+    {
+      "at": "2026-10-10T16:18:34.876Z",
+      "reason": "Campaign API exposes status and childTaskIds, not started; confirm the same saved draft after checking the actual contract",
+      "previousFailure": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: false\nReceived: undefined"
+    }
+  ],
+  "finalQuery": "只查询已有 R4 三项研究和 Campaign campaign-ba7c0826d241bf69f9d7798a，逐组说明合格候选、实际入选、缺额，以及 Campaign 最终分配的账号及分组。合格候选和入选必须分开说；不创建任务、不补标、不重搜、不打开浏览器。",
+  "finalResponse": "已查询最新保存状态及 Campaign 最终分配。**本次仅查询，没有创建任务、补标、重新搜索或访问浏览器。**\n\n### 一、R4 三项独立研究\n\n三项均已完成，每组均完整分析了2条记录。\n\n| 研究组 | 合格候选总数 | 实际入选 / 配额 | 入选缺额 | 未入选的合格备选 |\n|---|---:|---:|---:|---:|\n| R4 实用数码 | 2位 | 1 / 1位 | 0位 | 1位 |\n| R4 生活效率 | 2位 | 1 / 1位 | 0位 | 1位 |\n| R4 内容教程 | 2位 | 1 / 1位 | 0位 | 1位 |\n\n这里的**合格候选**指全部必选条件通过；**实际入选**指按该组配额选中的账号，两者不是同一个数量。\n\n三组共有 **6条合格分组记录、3条入选记录**；同一账号在不同研究里的记录不能算作不同的人，因此不能将其称为“6位合格创作者”或“3位不同的入选创作者”。\n\n### 二、Campaign 第1版\n\n编号：`campaign-ba7c0826d241bf69f9d7798a`  \n状态：**已完成**\n\n| Campaign 分组 | 组内合格候选 | 最终实际入选 / 配额 | 入选缺额 | 最终分配账号 |\n|---|---:|---:|---:|---|\n| 实用数码体验组 | 2位 | 1 / 1位 | 0位 | **@valstechtalkk** |\n| 生活效率工具组 | 2位 | 1 / 1位 | 0位 | **@tylerlcrawford** |\n\n**Campaign 总体口径：**\n- 已分析：**4条分组记录**，对应 **2个不同的 Instagram 账号**。\n- 合格：**4条分组记录**，去重后 **2个合格账号**；两位均通过两组各自条件。\n- 最终入选：去重后 **2 / 2位**。\n- 总缺额：**0位**。\n\n最终分配中：\n- `@tylerlcrawford` 在实用数码体验组也合格，但**不占该组配额**，最终分配到生活效率工具组。\n- `@valstechtalkk` 在生活效率工具组也合格，但**不占该组配额**，最终分配到实用数码体验组。\n\n上述名单采用 **Campaign 最终跨组分配**，不是子研究的组内预选名单；每个账号只占一个组。\n\n[查看 Campaign 已保存综合报告](/api/campaigns/campaign-ba7c0826d241bf69f9d7798a/report)",
+  "waveCalls": [
+    {
+      "id": "2c232214-9c15-4958-985e-cc174e1ef7e3",
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=tylerlcrawford",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "0031b914-0034-4c8e-b64e-08eeb1b9d28c",
+      "path": "/instagram/v1/fetch_user_posts?user_id=48426799147&count=12",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "4a3db047-c2b7-4b35-ac75-54ac9cd9113a",
+      "path": "/instagram/v1/fetch_user_posts?user_id=48426799147&count=12&max_id=3997965466461395273_48426799147",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "680fe81e-ffae-4686-afc3-8fa92fe4831c",
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DcZxbpBAJDI",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "c1404187-7231-4fc2-a886-25ce997bb3e4",
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DZoHkAvAbm5",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "4e00bdcd-e062-4774-9898-531bd8047514",
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=tylerlcrawford",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "012f7df5-5f41-4be1-a405-bc25d3cb77f6",
+      "path": "/instagram/v1/fetch_user_posts?user_id=48426799147&count=12",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "33e8c52f-be19-4413-9884-2df2a6d83258",
+      "path": "/instagram/v1/fetch_user_posts?user_id=48426799147&count=12&max_id=3997965466461395273_48426799147",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "dfb655ef-9443-438d-b48f-cfa0f6273239",
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DcZxbpBAJDI",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "5b2391bb-616c-45bb-b9a2-144e77bd5bf6",
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DZoHkAvAbm5",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "37c66af8-47e7-4ec5-9498-b01eee58bd68",
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=tylerlcrawford",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "5a59d4db-2c5b-4c0b-9d21-8a82c0da81ff",
+      "path": "/instagram/v1/fetch_user_posts?user_id=48426799147&count=12",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "b171fdf9-90fa-4967-8620-7253f2893f43",
+      "path": "/instagram/v1/fetch_user_posts?user_id=48426799147&count=12&max_id=3997965466461395273_48426799147",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "c36bd343-d4db-4015-b213-d1596ff277d6",
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DcZxbpBAJDI",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "5557c1d0-537a-45be-a3ba-cb6d2ca62c6c",
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DZoHkAvAbm5",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "1d30b22f-fa73-4cdd-a572-1ff0fbd05dc2",
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=valstechtalkk",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "0011af04-247b-4664-b891-4ecc75edea00",
+      "path": "/instagram/v1/fetch_user_posts?user_id=10561673222&count=12",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "ee1b8fec-9ec9-40c0-bb68-3223ab36c42b",
+      "path": "/instagram/v1/fetch_user_posts?user_id=10561673222&count=12&max_id=3995072639892408967_10561673222",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "502e29ce-52c1-4427-b55a-67504aaa82a6",
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DeQfBbyKmOR",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "f5576cc1-ae7c-48d0-ad53-64ae4b4c651b",
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DeNSuNkqMjQ",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "4314b398-06d4-428f-a77b-f6a747b3977c",
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=valstechtalkk",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "a875c269-1a32-41e0-a411-5cc5cb9f4e4b",
+      "path": "/instagram/v1/fetch_user_posts?user_id=10561673222&count=12",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "6953e12b-8d84-4d60-b47f-1c027d79da08",
+      "path": "/instagram/v1/fetch_user_posts?user_id=10561673222&count=12&max_id=3995072639892408967_10561673222",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "16a4bbdf-5b22-4e2d-aeed-4041a4da04e9",
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DeQfBbyKmOR",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "4c67f051-4f6d-42a9-ad12-e293cebf5cb3",
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DeNSuNkqMjQ",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "1e91ee0e-c041-4cda-8d1a-3d39dcb71101",
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=valstechtalkk",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "6386566a-0f61-41cf-98b0-48b891963116",
+      "path": "/instagram/v1/fetch_user_posts?user_id=10561673222&count=12",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "86b04d5f-773a-4f3f-89b9-3eb25f55db20",
+      "path": "/instagram/v1/fetch_user_posts?user_id=10561673222&count=12&max_id=3995072639892408967_10561673222",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "8d8331d6-7fd4-4549-8677-6edd574f6c05",
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DeQfBbyKmOR",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "c167f290-b336-49d8-a692-954d46301c25",
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DeNSuNkqMjQ",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "95cedaf6-4874-4d24-a276-f6b48e577872",
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=tylerlcrawford",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "0f67df31-fd11-49d2-aa8e-77d4521a5e5e",
+      "path": "/instagram/v1/fetch_user_posts?user_id=48426799147&count=12",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "dbfd2998-34ca-4c7a-9b06-397d89a5c7ab",
+      "path": "/instagram/v1/fetch_user_posts?user_id=48426799147&count=12&max_id=3997965466461395273_48426799147",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "0373257f-27bb-43f0-a57e-047c7cda6520",
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DcZxbpBAJDI",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "0495dee2-0376-4ddc-95d4-ed2c8b722e5c",
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DZoHkAvAbm5",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "df9de1a1-9ef7-4f78-a651-d235fe12f867",
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=tylerlcrawford",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "fabf8c62-ccdc-43ab-8f64-8d0d2fa81fba",
+      "path": "/instagram/v1/fetch_user_posts?user_id=48426799147&count=12",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "01e96910-3e01-4360-a116-b87523a526ca",
+      "path": "/instagram/v1/fetch_user_posts?user_id=48426799147&count=12&max_id=3997965466461395273_48426799147",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "1e45ec58-1589-4ab8-bf83-032251957751",
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DcZxbpBAJDI",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "e73637ae-4d20-4186-893a-03a857df97c0",
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DZoHkAvAbm5",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "09e02374-38ee-422e-ac6a-cfab9336adf5",
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=valstechtalkk",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "e8fa97f7-b182-467c-9b38-4b5d8749d619",
+      "path": "/instagram/v1/fetch_user_posts?user_id=10561673222&count=12",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "59a887e9-0af8-4b86-adb1-6da410fb4bb0",
+      "path": "/instagram/v1/fetch_user_posts?user_id=10561673222&count=12&max_id=3995072639892408967_10561673222",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "29d6ed86-7d10-4c1a-8df0-b38dbf2a5995",
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DeQfBbyKmOR",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "d7cc21f7-224e-423d-8555-aea881131922",
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DeNSuNkqMjQ",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "b7f81953-9a81-4619-a7ee-573432f98464",
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=valstechtalkk",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "1d754ad5-ef05-4825-9f37-82e4e289a679",
+      "path": "/instagram/v1/fetch_user_posts?user_id=10561673222&count=12",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "21f46607-1d06-4b5d-87cb-f54fdf9db450",
+      "path": "/instagram/v1/fetch_user_posts?user_id=10561673222&count=12&max_id=3995072639892408967_10561673222",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "38da9635-8a15-4ad4-8698-7ca5c7e82f7e",
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DeQfBbyKmOR",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "id": "85dc3c41-11a1-4d98-ba25-0771ced0ef09",
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DeNSuNkqMjQ",
+      "method": "GET",
+      "status": 200
+    }
+  ],
+  "modelCalls": [
+    {
+      "id": "5a6a6aa4-2c9e-409a-9043-0567d3cbd78d",
+      "kind": "chat",
+      "tools": [
+        {
+          "name": "start_research_batch",
+          "args": {
+            "specs": [
+              {
+                "title": "R4 实用数码",
+                "personaText": "分享实际数码产品使用经验的创作者",
+                "count": 1,
+                "platforms": [
+                  "instagram"
+                ],
+                "regions": [],
+                "minFollowers": 10000,
+                "maxFollowers": 100000,
+                "candidateBudget": 2,
+                "analyzeAll": true,
+                "verificationMode": "text",
+                "instagram": {
+                  "handles": [
+                    "tylerlcrawford",
+                    "valstechtalkk"
+                  ],
+                  "version": "v3"
+                },
+                "criteria": [
+                  {
+                    "id": "digital_use_experience",
+                    "label": "分享实际数码产品使用经验",
+                    "required": true,
+                    "basis": "text"
+                  }
+                ],
+                "annotations": [
+                  {
+                    "id": "content_direction",
+                    "label": "实际内容方向"
+                  },
+                  {
+                    "id": "text_style",
+                    "label": "文字呈现风格"
+                  }
+                ]
+              },
+              {
+                "title": "R4 生活效率",
+                "personaText": "分享实际科技设备或工具使用经验的创作者",
+                "count": 1,
+                "platforms": [
+                  "instagram"
+                ],
+                "regions": [],
+                "minFollowers": 10000,
+                "maxFollowers": 100000,
+                "candidateBudget": 2,
+                "analyzeAll": true,
+                "verificationMode": "text",
+                "instagram": {
+                  "handles": [
+                    "tylerlcrawford",
+                    "valstechtalkk"
+                  ],
+                  "version": "v3"
+                },
+                "criteria": [
+                  {
+                    "id": "tech_tool_experience",
+                    "label": "分享实际科技设备或工具使用经验",
+                    "required": true,
+                    "basis": "text"
+                  }
+                ],
+                "annotations": [
+                  {
+                    "id": "content_direction",
+                    "label": "实际内容方向"
+                  },
+                  {
+                    "id": "text_style",
+                    "label": "文字呈现风格"
+                  }
+                ]
+              },
+              {
+                "title": "R4 内容教程",
+                "personaText": "分享具体科技产品信息的创作者",
+                "count": 1,
+                "platforms": [
+                  "instagram"
+                ],
+                "regions": [],
+                "minFollowers": 10000,
+                "maxFollowers": 100000,
+                "candidateBudget": 2,
+                "analyzeAll": true,
+                "verificationMode": "text",
+                "instagram": {
+                  "handles": [
+                    "tylerlcrawford",
+                    "valstechtalkk"
+                  ],
+                  "version": "v3"
+                },
+                "criteria": [
+                  {
+                    "id": "specific_tech_info",
+                    "label": "分享具体科技产品信息",
+                    "required": true,
+                    "basis": "text"
+                  }
+                ],
+                "annotations": [
+                  {
+                    "id": "content_direction",
+                    "label": "实际内容方向"
+                  },
+                  {
+                    "id": "text_style",
+                    "label": "文字呈现风格"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "9a6b6b47-ae1a-4f1d-9d86-8b0f10c1ab7b",
+      "kind": "chat"
+    },
+    {
+      "id": "b0c9c80e-191c-4e38-98d5-42df03000838",
+      "kind": "chat",
+      "tools": [
+        {
+          "name": "get_tasks",
+          "args": {}
+        }
+      ]
+    },
+    {
+      "id": "e26bc2d8-cf2b-4a43-90b5-9b73f03768af",
+      "kind": "chat"
+    },
+    {
+      "id": "f92f1611-fc9c-4838-b44d-f3190fccaf7a",
+      "kind": "verification",
+      "tools": [
+        {
+          "name": "submit_judgments",
+          "args": {
+            "judgments": [
+              {
+                "criterionId": "digital_use_experience",
+                "verdict": "match",
+                "reason": "复用已取得的帖子文字，未重新打开页面。2026-10-03 的三个月智能卷帘评测明确描述实际使用中的意外发现：“what I did not expect is how much I use the manual control”，并说明遥控、语音和 App 独立控制及日出后45分钟自动升起的设置；2026-08-24 描述 Eight Sleep、智能窗帘等设备的夜间自动化及“I set all of it up once and it has run every night since”；2026-09-09 说明智能插座与 SwitchBot 的安装和日出日落触发限制。上述文字支持分享实际数码及智能家居产品使用经验，而非仅介绍参数。部分内容标有广告或联盟链接，不影响该条件的文字匹配；未核验视频像素或产品性能真实性。",
+                "evidenceIds": [
+                  "b10a06b2fb866bed5eedb7e6",
+                  "ca84f2e8b6cf2973071a5213",
+                  "04e497a6a4503326179bbc50"
+                ]
+              }
+            ],
+            "annotations": [
+              {
+                "dimensionId": "content_direction",
+                "status": "supported",
+                "values": [
+                  "智能家居与公寓自动化",
+                  "数码产品评测与购买建议",
+                  "酒店体验与旅行推荐"
+                ],
+                "reason": "2026-10-03 智能卷帘长期使用评测、2026-10-09 Mac显示器选择介绍，以及2026-10-07 曼哈顿酒店入住与房型推荐，支持其内容混合智能家居、数码与酒店旅行，并非纯数码账号。",
+                "evidenceIds": [
+                  "b10a06b2fb866bed5eedb7e6",
+                  "eed282f9ebd851c9deff6dcb",
+                  "222e752d6057ee12c1192060"
+                ]
+              },
+              {
+                "dimensionId": "text_style",
+                "status": "supported",
+                "values": [
+                  "第一人称体验叙述",
+                  "具体场景与操作细节",
+                  "价格与功能对比",
+                  "收藏分享引导",
+                  "商业合作披露"
+                ],
+                "reason": "文字以自身使用场景展开，提供时间设置、控制方式、价格和功能限制，常以收藏、转发及主页链接引导结尾；卷帘帖标注#ad，智能插座帖声明部分链接为联盟链接。",
+                "evidenceIds": [
+                  "b10a06b2fb866bed5eedb7e6",
+                  "04e497a6a4503326179bbc50",
+                  "eed282f9ebd851c9deff6dcb"
+                ]
+              }
+            ],
+            "facts": [
+              {
+                "kind": "followers",
+                "rawValue": "31249 followers",
+                "evidenceIds": [
+                  "de1cfed4de4e781281cfa100"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2942d08-9373-4089-a83a-b7aa70dabb25",
+      "kind": "verification",
+      "tools": [
+        {
+          "name": "submit_judgments",
+          "args": {
+            "judgments": [
+              {
+                "criterionId": "tech_tool_experience",
+                "verdict": "match",
+                "reason": "复用已提供的帖子文字，未重新打开页面。2026-10-03帖子明确为双层智能窗帘的三个月使用评测，描述日出后45分钟升起、21:22落下，以及遥控、语音和应用分别控制的实际使用偏好；2026-08-24帖子以“I set all of it up once”说明本人设置并持续使用窗帘、Pura、Eight Sleep与加湿器的夜间自动化；2026-09-09帖子提供智能插座和SwitchBot安装方法，并说明定时与日出日落触发的功能限制。文字足以支持分享实际科技设备或工具使用经验，部分帖子标注广告或联盟链接不影响本条件判断。",
+                "evidenceIds": [
+                  "b10a06b2fb866bed5eedb7e6",
+                  "dec59d82c715d92ef8f8b6a5",
+                  "04e497a6a4503326179bbc50"
+                ]
+              }
+            ],
+            "annotations": [
+              {
+                "dimensionId": "content_direction",
+                "status": "supported",
+                "values": [
+                  "智能家居与公寓自动化",
+                  "科技设备使用评测",
+                  "酒店体验与旅行推荐"
+                ],
+                "reason": "2026-10-03窗帘三个月评测、2026-09-09智能家居安装指导及2026-08-24夜间自动化体现智能家居与设备使用内容；2026-10-07帖子分享本人住过的曼哈顿酒店房型和预订建议。仅据提供的文字概括内容方向。",
+                "evidenceIds": [
+                  "b10a06b2fb866bed5eedb7e6",
+                  "04e497a6a4503326179bbc50",
+                  "dec59d82c715d92ef8f8b6a5",
+                  "222e752d6057ee12c1192060"
+                ]
+              },
+              {
+                "dimensionId": "text_style",
+                "status": "supported",
+                "values": [
+                  "第一人称体验叙述",
+                  "具体参数与操作细节",
+                  "实用比较与购买建议",
+                  "收藏与转发引导"
+                ],
+                "reason": "窗帘评测以第一人称讲述使用偏好；智能插座与SwitchBot帖子列出价格、安装步骤与功能限制；夜间自动化文字给出具体时间和湿度，多篇以收藏、转发提示结尾。",
+                "evidenceIds": [
+                  "b10a06b2fb866bed5eedb7e6",
+                  "04e497a6a4503326179bbc50",
+                  "dec59d82c715d92ef8f8b6a5"
+                ]
+              }
+            ],
+            "facts": [
+              {
+                "kind": "followers",
+                "rawValue": "31249 followers",
+                "evidenceIds": [
+                  "de1cfed4de4e781281cfa100"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "953e711e-edba-4452-b4f0-334b4a2708b2",
+      "kind": "verification",
+      "tools": [
+        {
+          "name": "submit_judgments",
+          "args": {
+            "judgments": [
+              {
+                "criterionId": "specific_tech_info",
+                "verdict": "match",
+                "reason": "已取得的帖子文字明确分享具体科技产品功能与使用方法：2026-09-09介绍SwitchBot价格、免布线安装、基础定时及日出日落触发需要hub的限制；2026-10-03介绍3dayblinds双层电动窗帘的定时、独立控制和遥控/语音/app操作；2026-10-09介绍Mac显示器的5K Nano Gloss面板及Thunderbolt显示、数据、充电功能。依据复用的WaveSurge帖子文字判断，本轮未重新打开页面，不代表独立验证产品宣称准确性。",
+                "evidenceIds": [
+                  "04e497a6a4503326179bbc50",
+                  "b10a06b2fb866bed5eedb7e6",
+                  "eed282f9ebd851c9deff6dcb"
+                ]
+              }
+            ],
+            "annotations": [
+              {
+                "dimensionId": "content_direction",
+                "status": "supported",
+                "values": [
+                  "智能家居与公寓自动化",
+                  "科技产品功能介绍与评测",
+                  "酒店与旅行推荐"
+                ],
+                "reason": "2026-09-09智能插座/SwitchBot教程、2026-10-03电动窗帘评测、2026-10-09显示器功能介绍支持科技和智能家居方向；2026-10-07曼哈顿酒店选择与房型建议支持酒店旅行方向，内容并非纯科技。",
+                "evidenceIds": [
+                  "04e497a6a4503326179bbc50",
+                  "b10a06b2fb866bed5eedb7e6",
+                  "eed282f9ebd851c9deff6dcb",
+                  "222e752d6057ee12c1192060"
+                ]
+              },
+              {
+                "dimensionId": "text_style",
+                "status": "supported",
+                "values": [
+                  "英文第一人称体验叙述",
+                  "功能、价格与使用限制说明",
+                  "实用教程与选择建议",
+                  "收藏分享引导",
+                  "广告与联盟链接披露"
+                ],
+                "reason": "帖子以个人使用经验引入，结合产品功能、价格及限制给出实用建议，多次使用Save/send引导；智能家居教程注明affiliate，窗帘及显示器帖子注明#ad。",
+                "evidenceIds": [
+                  "04e497a6a4503326179bbc50",
+                  "b10a06b2fb866bed5eedb7e6",
+                  "eed282f9ebd851c9deff6dcb"
+                ]
+              }
+            ],
+            "facts": [
+              {
+                "kind": "followers",
+                "rawValue": "31249 followers",
+                "evidenceIds": [
+                  "de1cfed4de4e781281cfa100"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "f0453514-6202-4b6d-9a3b-6391f32d2699",
+      "kind": "verification",
+      "tools": [
+        {
+          "name": "submit_judgments",
+          "args": {
+            "judgments": [
+              {
+                "criterionId": "digital_use_experience",
+                "verdict": "match",
+                "reason": "复用已提供的 WaveSurge 帖子文字，未重新打开页面。2026-10-09 帖子明确分享本人为提高画质开启的相机设置（“camera settings i turn on for the CRISP quality”）；2026-09-29 帖子分享始终关闭自动亮度的个人使用习惯；2026-09-21 帖子分享换新 iPhone 后本人修改的两项设置。多条第一人称设置经验及操作技巧支持分享实际数码产品使用经验，不仅是产品外观展示。",
+                "evidenceIds": [
+                  "a7e3e7d0dbee5ed3fcffa6fb",
+                  "2b22e29ae0eb86d0544ac2cb",
+                  "40ede6d8cdfe49e9626e73a8"
+                ]
+              }
+            ],
+            "annotations": [
+              {
+                "dimensionId": "content_direction",
+                "status": "supported",
+                "values": [
+                  "iPhone 使用技巧与设置经验",
+                  "手机界面个性化",
+                  "数码配件与外观分享"
+                ],
+                "reason": "帖子文字涵盖相机设置、自动亮度习惯、消息背景修改、月度手机主题及手机壳搭配；画像仅依据已取得文字，不推断视频演示细节。",
+                "evidenceIds": [
+                  "a7e3e7d0dbee5ed3fcffa6fb",
+                  "2b22e29ae0eb86d0544ac2cb",
+                  "17b36859992e5b7793a2cec4",
+                  "7237a35656ef813026c306a0",
+                  "dca899590280eb658c797f0e"
+                ]
+              },
+              {
+                "dimensionId": "text_style",
+                "status": "supported",
+                "values": [
+                  "英文短句与口语表达",
+                  "第一人称体验分享",
+                  "提问式互动",
+                  "频繁使用表情符号与话题标签"
+                ],
+                "reason": "文案使用“I”“What about you?”等第一人称与互动问句，搭配 🤓📱👀 等表情及 iPhone 技巧相关标签，整体简短、轻松。",
+                "evidenceIds": [
+                  "2b22e29ae0eb86d0544ac2cb",
+                  "40ede6d8cdfe49e9626e73a8",
+                  "5cda524e8da383ea651ea60b"
+                ]
+              }
+            ],
+            "facts": [
+              {
+                "kind": "followers",
+                "rawValue": "39693 followers",
+                "evidenceIds": [
+                  "7dd2053933bf7ad055700a92"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "4fd8b512-26bc-4aad-9619-3e053d10ef1a",
+      "kind": "verification",
+      "tools": [
+        {
+          "name": "submit_judgments",
+          "args": {
+            "judgments": [
+              {
+                "criterionId": "tech_tool_experience",
+                "verdict": "match",
+                "reason": "复用已取得的帖子文字，未重新打开页面。2026-10-09 帖子称“camera settings i turn on for the CRISP quality”，明确分享本人开启的相机设置；2026-09-29 称自动亮度是自己始终关闭的设置；2026-09-27 分享如何修改消息背景，2026-09-25 分享键盘使用技巧。上述文字直接支持实际设备设置经验与使用技巧，不依赖视频封面推断。来源为 wavesurge-instagram-raw，采集时间为1791648182622。",
+                "evidenceIds": [
+                  "a7e3e7d0dbee5ed3fcffa6fb",
+                  "2b22e29ae0eb86d0544ac2cb",
+                  "17b36859992e5b7793a2cec4",
+                  "3ef26c78905d309854e19080"
+                ]
+              }
+            ],
+            "annotations": [
+              {
+                "dimensionId": "content_direction",
+                "status": "supported",
+                "values": [
+                  "iPhone设置与使用技巧",
+                  "手机界面个性化",
+                  "消费电子与手机配件体验"
+                ],
+                "reason": "帖子文字涉及相机设置、消息背景、键盘技巧、主题定制及手机壳选择；支持这些实际内容方向，不据此认定深度评测或效率提升效果。",
+                "evidenceIds": [
+                  "a7e3e7d0dbee5ed3fcffa6fb",
+                  "17b36859992e5b7793a2cec4",
+                  "3ef26c78905d309854e19080",
+                  "7237a35656ef813026c306a0",
+                  "04d01fbab252e6f46f3e99d3"
+                ]
+              },
+              {
+                "dimensionId": "text_style",
+                "status": "supported",
+                "values": [
+                  "英文口语化短文案",
+                  "第一人称体验表达",
+                  "表情符号丰富",
+                  "提问互动",
+                  "技巧教程导向"
+                ],
+                "reason": "文案使用“i turn on”“I will always have off”等第一人称表达，配合表情符号、“What about you?”互动问句，以及“How to”和“tips and tricks”等教程措辞。仅描述已提供文字风格。",
+                "evidenceIds": [
+                  "a7e3e7d0dbee5ed3fcffa6fb",
+                  "2b22e29ae0eb86d0544ac2cb",
+                  "17b36859992e5b7793a2cec4",
+                  "3ef26c78905d309854e19080"
+                ]
+              }
+            ],
+            "facts": [
+              {
+                "kind": "followers",
+                "rawValue": "39695 followers",
+                "evidenceIds": [
+                  "8a8d4a8fe5480441be56fc31"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "89c72f25-ed63-4d87-b443-7c44c37ae2ad",
+      "kind": "verification",
+      "tools": [
+        {
+          "name": "submit_judgments",
+          "args": {
+            "judgments": [
+              {
+                "criterionId": "specific_tech_info",
+                "verdict": "match",
+                "reason": "复用已提供的 WaveSurge 帖子文字，本轮未重新打开页面。2026-09-29 文案明确分享 iPhone 自动亮度设置偏好（“Auto brightness ... always have off”）；2026-09-27 文案介绍更改消息背景；2026-09-25 文案涉及键盘技巧；2026-10-01 文案提及超大组件。多条文字涉及明确产品的功能或设置，支持分享具体科技产品信息；不据此认定视频包含完整操作步骤或产品说法已获独立验证。",
+                "evidenceIds": [
+                  "2b22e29ae0eb86d0544ac2cb",
+                  "17b36859992e5b7793a2cec4",
+                  "3ef26c78905d309854e19080",
+                  "5cda524e8da383ea651ea60b"
+                ]
+              }
+            ],
+            "annotations": [
+              {
+                "dimensionId": "content_direction",
+                "status": "supported",
+                "values": [
+                  "iPhone 功能与设置技巧",
+                  "手机个性化与配件推荐",
+                  "科技产品开箱与外观分享"
+                ],
+                "reason": "所提供帖子文字涵盖自动亮度、消息背景、键盘技巧、主题、手机壳与 iPhone 开箱；画像限于这些文字反映的内容方向。",
+                "evidenceIds": [
+                  "2b22e29ae0eb86d0544ac2cb",
+                  "17b36859992e5b7793a2cec4",
+                  "3ef26c78905d309854e19080",
+                  "7237a35656ef813026c306a0",
+                  "7bb702ab43acfd45050b3c4a",
+                  "7eaa270ac77d4c9b8d01c6f9"
+                ]
+              },
+              {
+                "dimensionId": "text_style",
+                "status": "supported",
+                "values": [
+                  "英文口语化短文案",
+                  "频繁使用表情与话题标签",
+                  "提问式互动",
+                  "技巧系列化标题",
+                  "含优惠码推广"
+                ],
+                "reason": "文案多为简短口语表达，使用表情和产品话题标签，通过“What about you?”等提问互动；出现 Day 1/Day two 系列标题及配件优惠码。",
+                "evidenceIds": [
+                  "2b22e29ae0eb86d0544ac2cb",
+                  "3ef26c78905d309854e19080",
+                  "d05b38e75cd48b3bf74b83a8",
+                  "7bb702ab43acfd45050b3c4a"
+                ]
+              }
+            ],
+            "facts": [
+              {
+                "kind": "followers",
+                "rawValue": "39695 followers",
+                "evidenceIds": [
+                  "8a8d4a8fe5480441be56fc31"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "5961579e-619c-4156-88d9-79af22acc038",
+      "kind": "chat",
+      "tools": [
+        {
+          "name": "enrich_results",
+          "args": {
+            "taskId": "research-2699e0b7548c89d406af3288",
+            "mode": "annotate",
+            "annotations": [
+              {
+                "id": "content_usage_scenario",
+                "label": "内容使用场景"
+              }
+            ]
+          }
+        },
+        {
+          "name": "enrich_results",
+          "args": {
+            "taskId": "research-8027cbb15670a5c068eddc4e",
+            "mode": "annotate",
+            "annotations": [
+              {
+                "id": "content_usage_scenario",
+                "label": "内容使用场景"
+              }
+            ]
+          }
+        },
+        {
+          "name": "enrich_results",
+          "args": {
+            "taskId": "research-093ae49f7e613e242027ff84",
+            "mode": "annotate",
+            "annotations": [
+              {
+                "id": "content_usage_scenario",
+                "label": "内容使用场景"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "a4a37ca4-c970-4817-a9a2-00e55cd038a3",
+      "kind": "verification",
+      "tools": [
+        {
+          "name": "submit_judgments",
+          "args": {
+            "judgments": [
+              {
+                "criterionId": "digital_use_experience",
+                "verdict": "match",
+                "reason": "已取得的帖子文字明确分享本人实际使用与长期体验：2026-10-03 的三个月智能窗帘评测描述定时、遥控、语音和 App 分窗控制及意外常用的手动功能；2026-08-24 描述本人设置并持续运行的睡眠自动化，包括 Eight Sleep 温度调节、灯光与窗帘联动；2026-09-09 给出智能插座与 SwitchBot 的安装方法及日出日落触发需额外 hub 的限制。足以支持实际数码产品使用经验，不仅是产品参数转述。依据所提供 WaveSurge 文字资料，本轮未重新打开页面。",
+                "evidenceIds": [
+                  "b10a06b2fb866bed5eedb7e6",
+                  "ca84f2e8b6cf2973071a5213",
+                  "04e497a6a4503326179bbc50"
+                ]
+              }
+            ],
+            "annotations": [
+              {
+                "dimensionId": "content_usage_scenario",
+                "status": "supported",
+                "values": [
+                  "小户型公寓智能家居自动化",
+                  "睡眠环境与晨起自动化",
+                  "租房灯光控制",
+                  "Mac 外接显示器与桌面办公"
+                ],
+                "reason": "2026-08-24 和 2026-06-16 帖子描述公寓睡眠、清洁、灯光与香氛自动化；2026-09-09 描述租房友好的灯光改造；2026-10-09 描述本人替代 Studio Display 购入 Mac 显示器及单线连接显示、数据和充电，该帖标注广告。场景标签依据文字，不作视觉推断。",
+                "evidenceIds": [
+                  "ca84f2e8b6cf2973071a5213",
+                  "e927632451f8701ff366e560",
+                  "04e497a6a4503326179bbc50",
+                  "eed282f9ebd851c9deff6dcb"
+                ]
+              }
+            ],
+            "facts": [
+              {
+                "kind": "followers",
+                "rawValue": "31249 followers",
+                "evidenceIds": [
+                  "de1cfed4de4e781281cfa100"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "b0b52a35-8e21-4e07-809f-fb8651940722",
+      "kind": "chat"
+    },
+    {
+      "id": "737227e9-1611-4182-8e02-29a8f87cf942",
+      "kind": "verification",
+      "tools": [
+        {
+          "name": "submit_judgments",
+          "args": {
+            "judgments": [
+              {
+                "criterionId": "digital_use_experience",
+                "verdict": "match",
+                "reason": "复用已取得的 WaveSurge 帖子文字，本轮未重新打开页面。2026-10-09 帖文明确分享自己开启的相机设置（“camera settings i turn on for the CRISP quality”）；2026-09-29 分享自己始终关闭自动亮度的使用偏好；2026-09-21 分享换新 iPhone 时调整的两项设置。结合 2026-09-27 信息背景更换教程，足以支持分享实际数码产品使用经验，而非仅展示产品外观。",
+                "evidenceIds": [
+                  "a7e3e7d0dbee5ed3fcffa6fb",
+                  "2b22e29ae0eb86d0544ac2cb",
+                  "40ede6d8cdfe49e9626e73a8",
+                  "17b36859992e5b7793a2cec4"
+                ]
+              }
+            ],
+            "annotations": [
+              {
+                "dimensionId": "content_usage_scenario",
+                "status": "supported",
+                "values": [
+                  "手机摄影与相机设置",
+                  "手机日常设置与使用技巧",
+                  "手机界面与消息个性化",
+                  "手机配件搭配"
+                ],
+                "reason": "2026-10-09 分享相机设置；2026-09-29 分享自动亮度偏好；2026-09-27 介绍更换消息背景；2026-10-02 分享月度手机主题；2026-09-28 介绍手机壳与手机颜色搭配。画像仅依据帖文，不推断视频画面。",
+                "evidenceIds": [
+                  "a7e3e7d0dbee5ed3fcffa6fb",
+                  "2b22e29ae0eb86d0544ac2cb",
+                  "17b36859992e5b7793a2cec4",
+                  "7237a35656ef813026c306a0",
+                  "dca899590280eb658c797f0e"
+                ]
+              }
+            ],
+            "facts": [
+              {
+                "kind": "followers",
+                "rawValue": "39693 followers",
+                "evidenceIds": [
+                  "7dd2053933bf7ad055700a92"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "da868d9b-e1fa-4358-85fe-71bb61a331b4",
+      "kind": "verification",
+      "tools": [
+        {
+          "name": "submit_judgments",
+          "args": {
+            "judgments": [
+              {
+                "criterionId": "tech_tool_experience",
+                "verdict": "match",
+                "reason": "复用已取得的帖子文字，未重新打开页面。2026-10-03 帖子明确为双层电动窗帘的三个月使用评测，描述日出后45分钟升起、21:22降下，以及遥控器、语音和App独立控制各窗帘的实际习惯；2026-08-24 帖子说明本人一次设置后持续运行的夜间自动化，包括Eight Sleep床温调节、加湿器和遮光帘；2026-06-16 帖子描述本人用Roomba定时清扫和App局部清洁、智能插座定时照明。具有具体使用经验而非仅产品信息或主页定位，支持该条件。来源均为wavesurge-instagram-raw，采集时间1791648002992。",
+                "evidenceIds": [
+                  "b10a06b2fb866bed5eedb7e6",
+                  "dec59d82c715d92ef8f8b6a5",
+                  "e927632451f8701ff366e560"
+                ]
+              }
+            ],
+            "annotations": [
+              {
+                "dimensionId": "content_usage_scenario",
+                "status": "supported",
+                "values": [
+                  "智能家居与公寓自动化",
+                  "睡眠与晨间流程",
+                  "家务与照明自动化",
+                  "Mac桌面设备升级"
+                ],
+                "reason": "2026-10-03窗帘三个月评测及2026-06-16自动清扫、照明帖子支持家居与家务场景；2026-08-24夜间设备运行帖子支持睡眠与晨间流程；2026-10-09本人替换显示器的帖子支持Mac桌面设备升级场景。仅据帖子文字标注，未观察图片或视频。",
+                "evidenceIds": [
+                  "b10a06b2fb866bed5eedb7e6",
+                  "e927632451f8701ff366e560",
+                  "dec59d82c715d92ef8f8b6a5",
+                  "eed282f9ebd851c9deff6dcb"
+                ]
+              }
+            ],
+            "facts": [
+              {
+                "kind": "followers",
+                "rawValue": "31249 followers",
+                "evidenceIds": [
+                  "de1cfed4de4e781281cfa100"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "e3a755b9-32bf-46cd-8f23-7a6ac26d6caf",
+      "kind": "verification",
+      "tools": [
+        {
+          "name": "submit_judgments",
+          "args": {
+            "judgments": [
+              {
+                "criterionId": "specific_tech_info",
+                "verdict": "match",
+                "reason": "复用已取得的帖子文字，未重新打开页面。2026-09-09 的智能家居教程具体介绍智能插座约 $28/两只、SwitchBot $26、免布线安装，以及日出日落触发需搭配 hub 的限制；2026-10-03 的 3dayblinds 双层卷帘评测说明遮光结构、定时及遥控/语音/app 独立控制；2026-10-09 的显示器帖子说明 5K Nano Gloss 面板和 Thunderbolt 显示、数据、充电功能。足以支持分享具体科技产品信息；此判断不代表已独立验证产品参数真实性。来源均为 wavesurge-instagram-raw，采集时间为 1791648084235。",
+                "evidenceIds": [
+                  "04e497a6a4503326179bbc50",
+                  "b10a06b2fb866bed5eedb7e6",
+                  "eed282f9ebd851c9deff6dcb"
+                ]
+              }
+            ],
+            "annotations": [
+              {
+                "dimensionId": "content_usage_scenario",
+                "status": "supported",
+                "values": [
+                  "租住公寓智能家居自动化",
+                  "睡眠环境自动化",
+                  "Mac 桌面显示器升级"
+                ],
+                "reason": "帖子文字描述租客免布线灯光改造、夜间窗帘/香氛/床温/湿度自动化，以及 Mac 外接显示器的升级用途。画像来自具体使用场景，不依赖未观察的图片。",
+                "evidenceIds": [
+                  "04e497a6a4503326179bbc50",
+                  "dec59d82c715d92ef8f8b6a5",
+                  "eed282f9ebd851c9deff6dcb"
+                ]
+              }
+            ],
+            "facts": [
+              {
+                "kind": "followers",
+                "rawValue": "31249 followers",
+                "evidenceIds": [
+                  "de1cfed4de4e781281cfa100"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "3bd8f359-38e9-45f2-8910-1d6d5b958ca4",
+      "kind": "verification",
+      "tools": [
+        {
+          "name": "submit_judgments",
+          "args": {
+            "judgments": [
+              {
+                "criterionId": "tech_tool_experience",
+                "verdict": "match",
+                "reason": "复用已取得的帖子文字，未重新打开页面。2026-10-09 帖子称“camera settings i turn on for the CRISP quality”，明确分享本人启用的相机设置；2026-09-29 称“Auto brightness has to be a setting I will always have off”，分享个人设置习惯；2026-09-25 分享“Keyboard tips and tricks”。这些具体设置经验和操作技巧支持分享实际科技设备或工具使用经验，不仅是产品外观展示。来源均为 wavesurge-instagram-raw，采集时间为2026-10-10。",
+                "evidenceIds": [
+                  "a7e3e7d0dbee5ed3fcffa6fb",
+                  "2b22e29ae0eb86d0544ac2cb",
+                  "3ef26c78905d309854e19080"
+                ]
+              }
+            ],
+            "annotations": [
+              {
+                "dimensionId": "content_usage_scenario",
+                "status": "supported",
+                "values": [
+                  "手机摄影与相机设置",
+                  "手机日常操作技巧",
+                  "手机界面与消息个性化"
+                ],
+                "reason": "2026-10-09 文字分享相机画质设置；2026-09-25 分享键盘技巧；2026-09-27 分享修改消息背景的方法。画像仅基于已提供的帖子文字，不推断视频画面或实际效率提升。",
+                "evidenceIds": [
+                  "a7e3e7d0dbee5ed3fcffa6fb",
+                  "3ef26c78905d309854e19080",
+                  "17b36859992e5b7793a2cec4"
+                ]
+              }
+            ],
+            "facts": [
+              {
+                "kind": "followers",
+                "rawValue": "39695 followers",
+                "evidenceIds": [
+                  "8a8d4a8fe5480441be56fc31"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "cb51374f-eadd-44b4-b170-6f9ea2b5b81d",
+      "kind": "verification",
+      "tools": [
+        {
+          "name": "submit_judgments",
+          "args": {
+            "judgments": [
+              {
+                "criterionId": "specific_tech_info",
+                "verdict": "match",
+                "reason": "复用已采集的 WaveSurge 帖子文字，本轮未重新打开页面。2026-09-29 帖文明确分享 iPhone 自动亮度设置并表示始终关闭；2026-09-27 帖文介绍如何更换信息背景；2026-09-25 帖文分享 iPhone 键盘技巧；2026-10-09 帖文介绍提升相机清晰度的设置。多条文字明确涉及具体科技产品的功能及使用设置，支持该条件；不据此推断视频内具体操作步骤或技术准确性。",
+                "evidenceIds": [
+                  "2b22e29ae0eb86d0544ac2cb",
+                  "17b36859992e5b7793a2cec4",
+                  "3ef26c78905d309854e19080",
+                  "a7e3e7d0dbee5ed3fcffa6fb"
+                ]
+              }
+            ],
+            "annotations": [
+              {
+                "dimensionId": "content_usage_scenario",
+                "status": "supported",
+                "values": [
+                  "手机功能与设置教程",
+                  "手机界面个性化",
+                  "科技产品开箱",
+                  "手机配件展示与推广"
+                ],
+                "reason": "帖子文字支持以上实际内容场景：自动亮度及键盘技巧、信息背景与表情个性化、iPhone 18 Pro Max 开箱，以及含折扣码和 #ad 的 Casetify 配件推广。来源为已有 WaveSurge 文字资料，采集于2026-10-10，本轮未观看视频或观察封面像素。",
+                "evidenceIds": [
+                  "2b22e29ae0eb86d0544ac2cb",
+                  "3ef26c78905d309854e19080",
+                  "17b36859992e5b7793a2cec4",
+                  "065050e8db12421e84c73fc7",
+                  "7eaa270ac77d4c9b8d01c6f9",
+                  "7bb702ab43acfd45050b3c4a"
+                ]
+              }
+            ],
+            "facts": [
+              {
+                "kind": "followers",
+                "rawValue": "39695 followers",
+                "evidenceIds": [
+                  "8a8d4a8fe5480441be56fc31"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "761900e5-1411-41a4-8dde-5caf759231ca",
+      "kind": "chat"
+    },
+    {
+      "id": "e3bd6837-ea5f-4169-b6ea-006de57e5e70",
+      "kind": "chat",
+      "tools": [
+        {
+          "name": "save_campaign_plan",
+          "args": {
+            "plan": {
+              "title": "智能生活设备认知 Campaign",
+              "goal": "提高智能生活设备认知",
+              "audience": "喜欢科技的年轻工作者",
+              "groups": [
+                {
+                  "id": "practical_digital",
+                  "rationale": "通过本人实际数码产品使用经验解释设备功能、操作方式与使用限制，帮助喜欢科技的年轻工作者认识智能生活设备的能力与实际价值。与智能生活设备的具体关联仍需依据证据判断，不将一般数码经验等同于智能生活设备经验。",
+                  "spec": {
+                    "title": "实用数码体验组",
+                    "personaText": "本人有实际数码产品使用经验的创作者",
+                    "count": 1,
+                    "platforms": [
+                      "instagram"
+                    ],
+                    "regions": [],
+                    "minFollowers": 10000,
+                    "maxFollowers": 100000,
+                    "candidateBudget": 2,
+                    "analyzeAll": true,
+                    "verificationMode": "text",
+                    "instagram": {
+                      "handles": [
+                        "tylerlcrawford",
+                        "valstechtalkk"
+                      ],
+                      "version": "v3"
+                    },
+                    "criteria": [
+                      {
+                        "id": "personal_digital_experience",
+                        "label": "本人有实际数码产品使用经验",
+                        "required": true,
+                        "basis": "text"
+                      }
+                    ],
+                    "annotations": [
+                      {
+                        "id": "content_direction",
+                        "label": "实际内容方向"
+                      },
+                      {
+                        "id": "text_style",
+                        "label": "文字呈现风格"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "life_efficiency",
+                  "rationale": "通过本人科技产品或工具使用经验，将设备用途连接到年轻工作者的工作与生活效率需求，帮助受众理解智能生活设备可以解决哪些日常问题。具体场景和智能生活设备关联以已有文字证据为准，不预设候选已具备相关经验。",
+                  "spec": {
+                    "title": "生活效率工具组",
+                    "personaText": "本人有科技产品或工具使用经验的创作者",
+                    "count": 1,
+                    "platforms": [
+                      "instagram"
+                    ],
+                    "regions": [],
+                    "minFollowers": 10000,
+                    "maxFollowers": 100000,
+                    "candidateBudget": 2,
+                    "analyzeAll": true,
+                    "verificationMode": "text",
+                    "instagram": {
+                      "handles": [
+                        "tylerlcrawford",
+                        "valstechtalkk"
+                      ],
+                      "version": "v3"
+                    },
+                    "criteria": [
+                      {
+                        "id": "personal_tech_tool_experience",
+                        "label": "本人有科技产品或工具使用经验",
+                        "required": true,
+                        "basis": "text"
+                      }
+                    ],
+                    "annotations": [
+                      {
+                        "id": "content_direction",
+                        "label": "实际内容方向"
+                      },
+                      {
+                        "id": "text_style",
+                        "label": "文字呈现风格"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "65d652b4-2dd5-4c43-a9ba-379f4354e473",
+      "kind": "chat"
+    },
+    {
+      "id": "799f341b-4157-4bb6-8eb1-37d4a08e787c",
+      "kind": "chat",
+      "tools": [
+        {
+          "name": "start_campaign",
+          "args": {
+            "id": "campaign-ba7c0826d241bf69f9d7798a",
+            "revision": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "96b46965-051e-4ac2-a61c-f99272350a93",
+      "kind": "chat"
+    },
+    {
+      "id": "eb4dd7f2-df55-49c2-98a4-73f0ed099693",
+      "kind": "verification",
+      "tools": [
+        {
+          "name": "submit_judgments",
+          "args": {
+            "judgments": [
+              {
+                "criterionId": "personal_digital_experience",
+                "verdict": "match",
+                "reason": "复用已取得的帖子文字，未重新打开页面。2026-10-03 的三个月智能卷帘使用评测明确描述本人长期使用及遥控、语音和 app 控制的具体场景；2026-08-24 的帖子说明本人设置卧室智能设备并持续每晚运行（“I set all of it up once and it has run every night since”）。这些第一人称、具体使用细节支持本人有实际数码产品使用经验；判断限于文字自述，不代表独立实物验证。",
+                "evidenceIds": [
+                  "b10a06b2fb866bed5eedb7e6",
+                  "c46bd8e22ac529d6511e9ba1"
+                ]
+              }
+            ],
+            "annotations": [
+              {
+                "dimensionId": "content_direction",
+                "status": "supported",
+                "values": [
+                  "智能家居与公寓自动化",
+                  "数码产品体验与选购建议",
+                  "酒店体验与旅行推荐"
+                ],
+                "reason": "2026-10-03 智能卷帘长期评测、2026-10-09 Mac 显示器介绍和2026-10-07 曼哈顿酒店推荐支持这些实际内容方向；资料来自已采集的帖子文字。",
+                "evidenceIds": [
+                  "b10a06b2fb866bed5eedb7e6",
+                  "14d3224699a4d99e665fecfa",
+                  "222e752d6057ee12c1192060"
+                ]
+              },
+              {
+                "dimensionId": "text_style",
+                "status": "supported",
+                "values": [
+                  "英文第一人称体验叙述",
+                  "具体场景与功能细节",
+                  "实用推荐与购买引导",
+                  "收藏与分享号召"
+                ],
+                "reason": "帖子以本人体验切入，列明控制方式、作息时间或产品功能，并使用链接、优惠信息以及“Save this”“send it”等行动号召；部分帖子明确标注广告。",
+                "evidenceIds": [
+                  "b10a06b2fb866bed5eedb7e6",
+                  "c46bd8e22ac529d6511e9ba1",
+                  "14d3224699a4d99e665fecfa"
+                ]
+              }
+            ],
+            "facts": [
+              {
+                "kind": "followers",
+                "rawValue": "31249 followers",
+                "evidenceIds": [
+                  "de1cfed4de4e781281cfa100"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "eddc5799-d456-4642-9e84-f054cdc8c0d6",
+      "kind": "verification",
+      "tools": [
+        {
+          "name": "submit_judgments",
+          "args": {
+            "judgments": [
+              {
+                "criterionId": "personal_tech_tool_experience",
+                "verdict": "match",
+                "reason": "复用已取得的 WaveSurge 帖子文字，未重新打开页面。2026-08-24 帖子本人称“I set all of it up once and it has run every night since”，具体描述 Eight Sleep 床温控制、智能窗帘、灯光及加湿器的自动化使用；2026-10-03 帖子称“my 3 month review”，详述智能卷帘通过遥控、语音和 app 独立控制以及日常使用感受。两条第一人称具体经历支持本人有科技产品或工具使用经验；后一条标注 #ad，不据此推断独立测评。",
+                "evidenceIds": [
+                  "f0ee4eba4c74692757980557",
+                  "b10a06b2fb866bed5eedb7e6"
+                ]
+              }
+            ],
+            "annotations": [
+              {
+                "dimensionId": "content_direction",
+                "status": "supported",
+                "values": [
+                  "智能家居与公寓自动化",
+                  "科技产品使用评测",
+                  "酒店与旅行推荐",
+                  "小空间家居布局"
+                ],
+                "reason": "已取得文字涵盖居家自动化、智能窗帘三个月使用评测、显示器选购体验、曼哈顿酒店推荐及公寓布局建议；这是实际观察到的内容方向，不代表全部内容占比。",
+                "evidenceIds": [
+                  "f0ee4eba4c74692757980557",
+                  "b10a06b2fb866bed5eedb7e6",
+                  "14d3224699a4d99e665fecfa",
+                  "222e752d6057ee12c1192060",
+                  "2a6cc31a8d7525f626572a38"
+                ]
+              },
+              {
+                "dimensionId": "text_style",
+                "status": "supported",
+                "values": [
+                  "英文第一人称体验叙述",
+                  "场景化实用建议",
+                  "具体参数与价格比较",
+                  "收藏与转发引导",
+                  "广告及联盟链接披露"
+                ],
+                "reason": "帖子以本人居家与产品体验开场，分段给出控制方式、使用时间、价格及功能限制，常以“Save this”和“send it”引导收藏转发；部分文字明确标注 #ad 或说明 affiliate links。",
+                "evidenceIds": [
+                  "f0ee4eba4c74692757980557",
+                  "b10a06b2fb866bed5eedb7e6",
+                  "04e497a6a4503326179bbc50",
+                  "14d3224699a4d99e665fecfa"
+                ]
+              }
+            ],
+            "facts": [
+              {
+                "kind": "followers",
+                "rawValue": "31249 followers",
+                "evidenceIds": [
+                  "de1cfed4de4e781281cfa100"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ea8225e2-ebdf-46cb-a600-4b5f8ff327c6",
+      "kind": "verification",
+      "tools": [
+        {
+          "name": "submit_judgments",
+          "args": {
+            "judgments": [
+              {
+                "criterionId": "personal_digital_experience",
+                "verdict": "match",
+                "reason": "已取得的帖子文字包含具体、第一人称的手机使用设置经验：2026-10-09称“camera settings i turn on for the CRISP quality”；2026-09-29称“Auto brightness has to be a setting I will always have off”；2026-09-21称“Two settings i change when getting a new iphone”。这些自述支持本人有实际数码产品使用经验，而非仅凭主页的评测定位判断。本轮复用已有文字资料，未重新打开页面或观看视频。",
+                "evidenceIds": [
+                  "a7e3e7d0dbee5ed3fcffa6fb",
+                  "8a11fd6d66c0c8afe86cea45",
+                  "40ede6d8cdfe49e9626e73a8"
+                ]
+              }
+            ],
+            "annotations": [
+              {
+                "dimensionId": "content_direction",
+                "status": "supported",
+                "values": [
+                  "iPhone使用技巧与设置",
+                  "手机主题与个性化",
+                  "数码产品开箱",
+                  "手机配件推荐"
+                ],
+                "reason": "帖子文字涉及相机设置、自动亮度、月度手机主题、手机开箱和带优惠码的配件推荐；仅描述已取得文字所支持的内容方向，不推断视频具体画面或深度测评能力。",
+                "evidenceIds": [
+                  "a7e3e7d0dbee5ed3fcffa6fb",
+                  "8a11fd6d66c0c8afe86cea45",
+                  "87ebf59f2901128398c958c2",
+                  "7eaa270ac77d4c9b8d01c6f9",
+                  "7bb702ab43acfd45050b3c4a"
+                ]
+              },
+              {
+                "dimensionId": "text_style",
+                "status": "supported",
+                "values": [
+                  "英文口语化短文案",
+                  "第一人称体验分享",
+                  "表情符号与话题标签较多",
+                  "提问式互动",
+                  "优惠码推广"
+                ],
+                "reason": "文案使用“i turn on”“I will always have off”等第一人称表述，搭配表情符号、标签、“What about you?”等互动提问；配件帖出现优惠码及#ad。",
+                "evidenceIds": [
+                  "a7e3e7d0dbee5ed3fcffa6fb",
+                  "8a11fd6d66c0c8afe86cea45",
+                  "7bb702ab43acfd45050b3c4a"
+                ]
+              }
+            ],
+            "facts": [
+              {
+                "kind": "followers",
+                "rawValue": "39696 followers",
+                "evidenceIds": [
+                  "87648534d88e75944587d4a1"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "6f665772-9f76-4cf2-8e5d-94bed26fe0ef",
+      "kind": "verification",
+      "tools": [
+        {
+          "name": "submit_judgments",
+          "args": {
+            "judgments": [
+              {
+                "criterionId": "personal_tech_tool_experience",
+                "verdict": "match",
+                "reason": "复用已提供的 WaveSurge 帖子文字，本轮未重新打开页面。2026-10-09 帖文明确说“camera settings i turn on”，2026-09-29 说“Auto brightness has to be a setting I will always have off”，2026-09-21 说“Two settings i change when getting a new iphone!”；这些第一人称具体设置习惯支持本人有科技产品使用经验，而非仅转述产品资讯。资料采集时间为2026-10-10，判断仅基于文字。",
+                "evidenceIds": [
+                  "a7e3e7d0dbee5ed3fcffa6fb",
+                  "2b22e29ae0eb86d0544ac2cb",
+                  "40ede6d8cdfe49e9626e73a8"
+                ]
+              }
+            ],
+            "annotations": [
+              {
+                "dimensionId": "content_direction",
+                "status": "supported",
+                "values": [
+                  "iPhone功能与设置技巧",
+                  "手机及科技配件介绍",
+                  "科技产品外观与个性化"
+                ],
+                "reason": "已提供帖文涉及相机设置、键盘技巧、消息背景更换、手机开箱与手机壳搭配，内容方向以消费科技使用技巧及外观个性化为主。",
+                "evidenceIds": [
+                  "a7e3e7d0dbee5ed3fcffa6fb",
+                  "3ef26c78905d309854e19080",
+                  "17b36859992e5b7793a2cec4",
+                  "7eaa270ac77d4c9b8d01c6f9",
+                  "dca899590280eb658c797f0e"
+                ]
+              },
+              {
+                "dimensionId": "text_style",
+                "status": "supported",
+                "values": [
+                  "英文口语化短文案",
+                  "第一人称体验表达",
+                  "表情符号与话题标签较多",
+                  "提问式互动"
+                ],
+                "reason": "帖文使用“i turn on”“I will always have off”等第一人称表达，配有表情与科技话题标签，并用“What about you?”“What do you change first?”邀请互动。",
+                "evidenceIds": [
+                  "a7e3e7d0dbee5ed3fcffa6fb",
+                  "2b22e29ae0eb86d0544ac2cb",
+                  "40ede6d8cdfe49e9626e73a8"
+                ]
+              }
+            ],
+            "facts": [
+              {
+                "kind": "followers",
+                "rawValue": "39696 followers",
+                "evidenceIds": [
+                  "87648534d88e75944587d4a1"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "d1ed4aeb-d0e2-4e4e-bd00-d213a083b302",
+      "kind": "chat",
+      "tools": [
+        {
+          "name": "get_tasks",
+          "args": {}
+        },
+        {
+          "name": "get_campaigns",
+          "args": {
+            "id": "campaign-ba7c0826d241bf69f9d7798a"
+          }
+        },
+        {
+          "name": "get_results",
+          "args": {
+            "taskId": "research-c4ec97cc917af74387f57095",
+            "limit": 20
+          }
+        },
+        {
+          "name": "get_results",
+          "args": {
+            "taskId": "research-15be79e6bff916f857396921",
+            "limit": 20
+          }
+        }
+      ]
+    },
+    {
+      "id": "1bbd66c5-17f3-43c9-a9f9-8e6d1fb8bbfb",
+      "kind": "chat"
+    }
+  ],
+  "passed": true,
+  "semanticReview": {
+    "source": "Codex inspected the actual final model reply against saved API/HTML/CSV counts and allocation",
+    "passed": true,
+    "independentGroupQualified": [
+      2,
+      2,
+      2
+    ],
+    "independentGroupSelected": [
+      1,
+      1,
+      1
+    ],
+    "independentRecords": 6,
+    "campaignRecords": 4,
+    "campaignQualifiedUnique": 2,
+    "campaignSelectedUnique": 2
+  }
+}

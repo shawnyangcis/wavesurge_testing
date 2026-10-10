@@ -1,0 +1,85 @@
+{
+  "at": "2026-10-10T13:37:24.030Z",
+  "source": "Independent actual Chrome UI and real configured model; controlled Wave and candidate fixture",
+  "checks": [
+    {
+      "label": "Invalid threshold rejected by actual UI without changing settings",
+      "evidence": true
+    },
+    {
+      "label": "UI prompt save takes effect in next actual model request/response",
+      "evidence": {
+        "revision": 6,
+        "reply": "本轮设置回归标记1791639445844\n你好！👋"
+      }
+    },
+    {
+      "label": "Original model prompt restored through UI",
+      "evidence": true
+    },
+    {
+      "label": "11 unauthenticated routes deny data, report, evidence and desktop access",
+      "evidence": [
+        {
+          "path": "/api/state",
+          "status": 401
+        },
+        {
+          "path": "/api/settings",
+          "status": 401
+        },
+        {
+          "path": "/api/debug",
+          "status": 401
+        },
+        {
+          "path": "/api/results",
+          "status": 401
+        },
+        {
+          "path": "/api/campaigns",
+          "status": 401
+        },
+        {
+          "path": "/api/backup",
+          "status": 401
+        },
+        {
+          "path": "/api/work-batches/missing/report",
+          "status": 401
+        },
+        {
+          "path": "/api/reports/missing",
+          "status": 401
+        },
+        {
+          "path": "/api/assets/missing",
+          "status": 401
+        },
+        {
+          "path": "/api/desktop",
+          "status": 401
+        },
+        {
+          "path": "/api/desktop/view/vnc.html",
+          "status": 401
+        }
+      ]
+    },
+    {
+      "label": "Cross-origin write refused and no message created",
+      "evidence": 403
+    },
+    {
+      "label": "Empty/whitespace/oversize message and malformed image rejected",
+      "evidence": 4
+    },
+    {
+      "label": "Missing objects return 404; unclaimed control mode rejected",
+      "evidence": true
+    }
+  ],
+  "epochCases": [],
+  "pageErrors": [],
+  "finishedAt": "2026-10-10T13:37:31.756Z"
+}

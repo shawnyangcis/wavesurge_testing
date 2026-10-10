@@ -1,0 +1,356 @@
+{
+  "checkedAt": "2026-10-10",
+  "files": [
+    {
+      "service": "app",
+      "path": "src/client/App.tsx",
+      "local": "28f7a4f4e7cef7d0a10443b9317cfa8035a1e5baf354ef2d115818fa7e6004fc",
+      "container": "28f7a4f4e7cef7d0a10443b9317cfa8035a1e5baf354ef2d115818fa7e6004fc",
+      "same": true
+    },
+    {
+      "service": "app",
+      "path": "src/client/Campaigns.tsx",
+      "local": "82b37448a7773c4ece5b18425b87402f5f33ad8e6d02874f575bed555a478e47",
+      "container": "82b37448a7773c4ece5b18425b87402f5f33ad8e6d02874f575bed555a478e47",
+      "same": true
+    },
+    {
+      "service": "app",
+      "path": "src/client/Desktop.tsx",
+      "local": "2dbd8e276372c5b6a62d462e463257ab75784b765ebdf4840fbda890bf7f485e",
+      "container": "2dbd8e276372c5b6a62d462e463257ab75784b765ebdf4840fbda890bf7f485e",
+      "same": true
+    },
+    {
+      "service": "app",
+      "path": "src/client/Inspector.tsx",
+      "local": "72eb452f69c2c33c7e02880e072259ee3200e0908aafdbe96013eb85752c2bd4",
+      "container": "72eb452f69c2c33c7e02880e072259ee3200e0908aafdbe96013eb85752c2bd4",
+      "same": true
+    },
+    {
+      "service": "app",
+      "path": "src/client/Markdown.tsx",
+      "local": "91e584220d6e873e080bfb522d4325dd407ed1f946fb05873ba04b20464d64a0",
+      "container": "91e584220d6e873e080bfb522d4325dd407ed1f946fb05873ba04b20464d64a0",
+      "same": true
+    },
+    {
+      "service": "app",
+      "path": "src/client/Results.tsx",
+      "local": "d2f5b984a40e2053748779bc46eb1786c28f844ad6c5c058ae7cb9cd5ef60a21",
+      "container": "d2f5b984a40e2053748779bc46eb1786c28f844ad6c5c058ae7cb9cd5ef60a21",
+      "same": true
+    },
+    {
+      "service": "app",
+      "path": "src/client/api.ts",
+      "local": "389de024eb1c2f6518ca4d4a2b3ea2d2d8804dca15454b859f65f8b48fe46548",
+      "container": "389de024eb1c2f6518ca4d4a2b3ea2d2d8804dca15454b859f65f8b48fe46548",
+      "same": true
+    },
+    {
+      "service": "app",
+      "path": "src/client/env.d.ts",
+      "local": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5",
+      "container": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5",
+      "same": true
+    },
+    {
+      "service": "app",
+      "path": "src/client/main.tsx",
+      "local": "298a3d510f7109c8891010cba7b3bcde48e0a23ab81927499c19f3e8aeaaa68a",
+      "container": "298a3d510f7109c8891010cba7b3bcde48e0a23ab81927499c19f3e8aeaaa68a",
+      "same": true
+    },
+    {
+      "service": "app",
+      "path": "src/client/media.ts",
+      "local": "07776c0a4649e354f6ddbd5a9ab3b2bd1b99f2ab8f5acb63d1a0f441ab7f8f37",
+      "container": "07776c0a4649e354f6ddbd5a9ab3b2bd1b99f2ab8f5acb63d1a0f441ab7f8f37",
+      "same": true
+    },
+    {
+      "service": "app",
+      "path": "src/desktop/main.ts",
+      "local": "b162c095a9914f495b9730ba70ec1c518598f90fe783b503a96ba3b7951d89f7",
+      "container": "b162c095a9914f495b9730ba70ec1c518598f90fe783b503a96ba3b7951d89f7",
+      "same": true
+    },
+    {
+      "service": "app",
+      "path": "src/desktop/runtime.ts",
+      "local": "211d207ef45ff1203e50a1cede8cb3726fc37da289c0e861142e62c565310a41",
+      "container": "211d207ef45ff1203e50a1cede8cb3726fc37da289c0e861142e62c565310a41",
+      "same": true
+    },
+    {
+      "service": "app",
+      "path": "src/desktop/server.ts",
+      "local": "9a2ff817022c843ee842c739ad950618ebb020e6455d5d5e274613c1d7a98c99",
+      "container": "9a2ff817022c843ee842c739ad950618ebb020e6455d5d5e274613c1d7a98c99",
+      "same": true
+    },
+    {
+      "service": "app",
+      "path": "src/desktop/start.ts",
+      "local": "ce7a98a8cd824830e7c0348b3789035f8d112bafa29276b3321b7ff03fb9223b",
+      "container": "ce7a98a8cd824830e7c0348b3789035f8d112bafa29276b3321b7ff03fb9223b",
+      "same": true
+    },
+    {
+      "service": "app",
+      "path": "src/server/agent.ts",
+      "local": "7c321ab868b6ad6ec7f9639c5294c9bdbef50595a27f926259458c942dd952c1",
+      "container": "7c321ab868b6ad6ec7f9639c5294c9bdbef50595a27f926259458c942dd952c1",
+      "same": true
+    },
+    {
+      "service": "app",
+      "path": "src/server/app.ts",
+      "local": "8db97714a9db84dd34333e35c09001e70fc7935279837c79d0beb5993693cfdf",
+      "container": "8db97714a9db84dd34333e35c09001e70fc7935279837c79d0beb5993693cfdf",
+      "same": true
+    },
+    {
+      "service": "app",
+      "path": "src/server/auth.ts",
+      "local": "8033c6030dcb092b1b72c36e5589d5665b7b8f78bddbe68005e8af50255b6641",
+      "container": "8033c6030dcb092b1b72c36e5589d5665b7b8f78bddbe68005e8af50255b6641",
+      "same": true
+    },
+    {
+      "service": "app",
+      "path": "src/server/bootstrap.ts",
+      "local": "79152418ba70f9f319e812a8935035d1eb1062b0fc3c33b36288b470d9e21ef5",
+      "container": "79152418ba70f9f319e812a8935035d1eb1062b0fc3c33b36288b470d9e21ef5",
+      "same": true
+    },
+    {
+      "service": "app",
+      "path": "src/server/browser-verifier.ts",
+      "local": "2a88d39bb2ef8a0d5f224e646737c3540d3b35f764a77e9c958e812e2f855ae4",
+      "container": "2a88d39bb2ef8a0d5f224e646737c3540d3b35f764a77e9c958e812e2f855ae4",
+      "same": true
+    },
+    {
+      "service": "app",
+      "path": "src/server/campaign-api.ts",
+      "local": "4b3a57da1b0a4071c06203b126239f6818bed8216e706d221f025d03940e91a8",
+      "container": "4b3a57da1b0a4071c06203b126239f6818bed8216e706d221f025d03940e91a8",
+      "same": true
+    },
+    {
+      "service": "app",
+      "path": "src/server/campaign-tools.ts",
+      "local": "09621cf47578ff80b6dc795d01e7bb0cbc3d0d592f668e04d0fa5b19caad5e1d",
+      "container": "09621cf47578ff80b6dc795d01e7bb0cbc3d0d592f668e04d0fa5b19caad5e1d",
+      "same": true
+    },
+    {
+      "service": "app",
+      "path": "src/server/campaign.ts",
+      "local": "50df8c8f17a42e8faef161b4b4fcf8b31296e50e8f1f971857ac8d2c97010495",
+      "container": "50df8c8f17a42e8faef161b4b4fcf8b31296e50e8f1f971857ac8d2c97010495",
+      "same": true
+    },
+    {
+      "service": "app",
+      "path": "src/server/context.ts",
+      "local": "e883dc211f78c19da1f1a0bdf725ba4bea6a0e163d1ee96a6433acaff4814db6",
+      "container": "e883dc211f78c19da1f1a0bdf725ba4bea6a0e163d1ee96a6433acaff4814db6",
+      "same": true
+    },
+    {
+      "service": "app",
+      "path": "src/server/debug-api.ts",
+      "local": "a54023a49de47d0d5e59dc04e0ca8bc4281e70c1f2c44c3b5cddeb5a37ac0761",
+      "container": "a54023a49de47d0d5e59dc04e0ca8bc4281e70c1f2c44c3b5cddeb5a37ac0761",
+      "same": true
+    },
+    {
+      "service": "app",
+      "path": "src/server/desktop-api.ts",
+      "local": "7d9c93dde4e11a80c14fa2799f40d696f746e3c1ec13d3db620976a82f77f0e2",
+      "container": "7d9c93dde4e11a80c14fa2799f40d696f746e3c1ec13d3db620976a82f77f0e2",
+      "same": true
+    },
+    {
+      "service": "app",
+      "path": "src/server/desktop-secret-init.ts",
+      "local": "71da68e7a1d84b5eff48b75cd979a1c7a6111aa7e2429cc11577d9ba03f115d3",
+      "container": "71da68e7a1d84b5eff48b75cd979a1c7a6111aa7e2429cc11577d9ba03f115d3",
+      "same": true
+    },
+    {
+      "service": "app",
+      "path": "src/server/desktop-secret-main.ts",
+      "local": "d410356eb6e9ee4edbd85f9ff17d6aaf89db2510c233f2f95d43e9369dc03aef",
+      "container": "d410356eb6e9ee4edbd85f9ff17d6aaf89db2510c233f2f95d43e9369dc03aef",
+      "same": true
+    },
+    {
+      "service": "app",
+      "path": "src/server/desktop.ts",
+      "local": "81b012689ee5888be0adc4540eef41f327867e5cbcc1e00acd7a081403b7b3e0",
+      "container": "81b012689ee5888be0adc4540eef41f327867e5cbcc1e00acd7a081403b7b3e0",
+      "same": true
+    },
+    {
+      "service": "app",
+      "path": "src/server/main.ts",
+      "local": "87d4e549b8236ff2e0fb05b5d9a0b225803e494c1a22ed0c395f4215027c142c",
+      "container": "87d4e549b8236ff2e0fb05b5d9a0b225803e494c1a22ed0c395f4215027c142c",
+      "same": true
+    },
+    {
+      "service": "app",
+      "path": "src/server/model.ts",
+      "local": "15fda35f7f376a3b8255f6e5013468b51bd6bade5a25126ea416e9a380fe607e",
+      "container": "15fda35f7f376a3b8255f6e5013468b51bd6bade5a25126ea416e9a380fe607e",
+      "same": true
+    },
+    {
+      "service": "app",
+      "path": "src/server/reports.ts",
+      "local": "005457f734e770d657dcc5a9efcabd20137e493a5039543e63a3db81000221df",
+      "container": "005457f734e770d657dcc5a9efcabd20137e493a5039543e63a3db81000221df",
+      "same": true
+    },
+    {
+      "service": "app",
+      "path": "src/server/research-api.ts",
+      "local": "9e4364951907dc70ec2e18b13082a09f72826dbf73295ad752ff25b80f14c33d",
+      "container": "9e4364951907dc70ec2e18b13082a09f72826dbf73295ad752ff25b80f14c33d",
+      "same": true
+    },
+    {
+      "service": "app",
+      "path": "src/server/research-tools.ts",
+      "local": "8b548166776aa480cbbd8662b088c1b81d6fcb583802454994f5b84ab72e0f79",
+      "container": "8b548166776aa480cbbd8662b088c1b81d6fcb583802454994f5b84ab72e0f79",
+      "same": true
+    },
+    {
+      "service": "app",
+      "path": "src/server/research.ts",
+      "local": "93a515749297ed896a674152e2e950c876a2a337f9e127be3f00f90487c61dde",
+      "container": "93a515749297ed896a674152e2e950c876a2a337f9e127be3f00f90487c61dde",
+      "same": true
+    },
+    {
+      "service": "app",
+      "path": "src/server/settings.ts",
+      "local": "22ac4e3ba819311fda8dc012fafd1c0e30b88d35ec01439906fe562aece22529",
+      "container": "22ac4e3ba819311fda8dc012fafd1c0e30b88d35ec01439906fe562aece22529",
+      "same": true
+    },
+    {
+      "service": "app",
+      "path": "src/server/store.ts",
+      "local": "891aa6cc268173129e7643722479fcce4499a6c0d12194a035a92aabd5472407",
+      "container": "891aa6cc268173129e7643722479fcce4499a6c0d12194a035a92aabd5472407",
+      "same": true
+    },
+    {
+      "service": "app",
+      "path": "src/server/task-facts.ts",
+      "local": "75c545740b26db90614600213bd79566bf7cdaf6f6e59fa48947f456432fbc07",
+      "container": "75c545740b26db90614600213bd79566bf7cdaf6f6e59fa48947f456432fbc07",
+      "same": true
+    },
+    {
+      "service": "app",
+      "path": "src/server/tools.ts",
+      "local": "330443d5b1a01630d07dea826ddab4608de72af45a8ddafd50181db01a66aa53",
+      "container": "330443d5b1a01630d07dea826ddab4608de72af45a8ddafd50181db01a66aa53",
+      "same": true
+    },
+    {
+      "service": "app",
+      "path": "src/server/verdict.ts",
+      "local": "a3f1a3a9e7922cc3887d72b0e38d36e349212c9d05cb5463072370544a2c005e",
+      "container": "a3f1a3a9e7922cc3887d72b0e38d36e349212c9d05cb5463072370544a2c005e",
+      "same": true
+    },
+    {
+      "service": "app",
+      "path": "src/server/verify.ts",
+      "local": "1aedbaa742e508f627721d0b15644ebc09e2ba3f543ae3e55f1a2c75c76bba3c",
+      "container": "1aedbaa742e508f627721d0b15644ebc09e2ba3f543ae3e55f1a2c75c76bba3c",
+      "same": true
+    },
+    {
+      "service": "app",
+      "path": "src/server/wave.ts",
+      "local": "2b330636a7a0db12c5bb33fb37fa479da214b3139b67ce625846e28be455cbfb",
+      "container": "2b330636a7a0db12c5bb33fb37fa479da214b3139b67ce625846e28be455cbfb",
+      "same": true
+    },
+    {
+      "service": "app",
+      "path": "src/shared/campaign.ts",
+      "local": "2a8be0b38a56d4e0f769a145aa96e5b5fe4fae66a9ce550e8bff649ac4f29ecc",
+      "container": "2a8be0b38a56d4e0f769a145aa96e5b5fe4fae66a9ce550e8bff649ac4f29ecc",
+      "same": true
+    },
+    {
+      "service": "app",
+      "path": "src/shared/contracts.ts",
+      "local": "0e8009f0c2b736d2b131f8f2ae2abf8f7fe2d24eec66ddf636689fbe60f1e741",
+      "container": "0e8009f0c2b736d2b131f8f2ae2abf8f7fe2d24eec66ddf636689fbe60f1e741",
+      "same": true
+    },
+    {
+      "service": "app",
+      "path": "src/shared/prompts.ts",
+      "local": "266e3e91be14e60361ff5fd8fcbaad7d7ac9c6a439185772ff1d53508df6c39a",
+      "container": "266e3e91be14e60361ff5fd8fcbaad7d7ac9c6a439185772ff1d53508df6c39a",
+      "same": true
+    },
+    {
+      "service": "app",
+      "path": "src/shared/research.ts",
+      "local": "849299c06b786c6434927000098735c087e2a30c4c51b733269ec0469b0bfc90",
+      "container": "849299c06b786c6434927000098735c087e2a30c4c51b733269ec0469b0bfc90",
+      "same": true
+    },
+    {
+      "service": "desktop",
+      "path": "deploy/desktop-entrypoint.sh",
+      "local": "a03ea4917130904382d202a5bf77563cc1ffce3e38b24ec687e9deef16c31b3a",
+      "container": "a03ea4917130904382d202a5bf77563cc1ffce3e38b24ec687e9deef16c31b3a",
+      "same": true
+    },
+    {
+      "service": "desktop",
+      "path": "src/desktop/main.ts",
+      "local": "b162c095a9914f495b9730ba70ec1c518598f90fe783b503a96ba3b7951d89f7",
+      "container": "b162c095a9914f495b9730ba70ec1c518598f90fe783b503a96ba3b7951d89f7",
+      "same": true
+    },
+    {
+      "service": "desktop",
+      "path": "src/desktop/runtime.ts",
+      "local": "211d207ef45ff1203e50a1cede8cb3726fc37da289c0e861142e62c565310a41",
+      "container": "211d207ef45ff1203e50a1cede8cb3726fc37da289c0e861142e62c565310a41",
+      "same": true
+    },
+    {
+      "service": "desktop",
+      "path": "src/desktop/server.ts",
+      "local": "9a2ff817022c843ee842c739ad950618ebb020e6455d5d5e274613c1d7a98c99",
+      "container": "9a2ff817022c843ee842c739ad950618ebb020e6455d5d5e274613c1d7a98c99",
+      "same": true
+    },
+    {
+      "service": "desktop",
+      "path": "src/desktop/start.ts",
+      "local": "ce7a98a8cd824830e7c0348b3789035f8d112bafa29276b3321b7ff03fb9223b",
+      "container": "ce7a98a8cd824830e7c0348b3789035f8d112bafa29276b3321b7ff03fb9223b",
+      "same": true
+    }
+  ],
+  "different": []
+}

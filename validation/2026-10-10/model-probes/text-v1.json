@@ -1,0 +1,39 @@
+{
+  "atUtc": "2026-10-09T17:07:42.573360+00:00",
+  "probe": "text-v1",
+  "status": 200,
+  "elapsedSeconds": 3.47,
+  "response": {
+    "id": "resp_0b48eb56534dfb21016ac91f5c956c87d09539f68bbf304476",
+    "object": "chat.completion",
+    "created": 1791565660,
+    "model": "gpt-6.1-sol",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "READY",
+          "reasoning_content": null,
+          "tool_calls": null
+        },
+        "finish_reason": "stop",
+        "native_finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "completion_tokens": 5,
+      "total_tokens": 315,
+      "prompt_tokens": 310,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_creation_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  }
+}

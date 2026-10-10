@@ -1,0 +1,154 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Code coverage report for client/Inspector.tsx</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../prettify.css" />
+    <link rel="stylesheet" href="../base.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+    
+<body>
+<div class='wrapper'>
+    <div class='pad1'>
+        <h1><a href="../index.html">All files</a> / <a href="index.html">client</a> Inspector.tsx</h1>
+        <div class='clearfix'>
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Statements</span>
+                <span class='fraction'>49/49</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Branches</span>
+                <span class='fraction'>10/10</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Functions</span>
+                <span class='fraction'>19/19</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Lines</span>
+                <span class='fraction'>12/12</span>
+            </div>
+        
+            
+        </div>
+        <p class="quiet">
+            Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
+        </p>
+        <template id="filterTemplate">
+            <div class="quiet">
+                Filter:
+                <input type="search" id="fileSearch">
+            </div>
+        </template>
+    </div>
+    <div class='status-line high'></div>
+    <pre><table class="coverage">
+<tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
+<a name='L2'></a><a href='#L2'>2</a>
+<a name='L3'></a><a href='#L3'>3</a>
+<a name='L4'></a><a href='#L4'>4</a>
+<a name='L5'></a><a href='#L5'>5</a>
+<a name='L6'></a><a href='#L6'>6</a>
+<a name='L7'></a><a href='#L7'>7</a>
+<a name='L8'></a><a href='#L8'>8</a>
+<a name='L9'></a><a href='#L9'>9</a>
+<a name='L10'></a><a href='#L10'>10</a>
+<a name='L11'></a><a href='#L11'>11</a>
+<a name='L12'></a><a href='#L12'>12</a>
+<a name='L13'></a><a href='#L13'>13</a>
+<a name='L14'></a><a href='#L14'>14</a>
+<a name='L15'></a><a href='#L15'>15</a>
+<a name='L16'></a><a href='#L16'>16</a>
+<a name='L17'></a><a href='#L17'>17</a>
+<a name='L18'></a><a href='#L18'>18</a>
+<a name='L19'></a><a href='#L19'>19</a>
+<a name='L20'></a><a href='#L20'>20</a>
+<a name='L21'></a><a href='#L21'>21</a>
+<a name='L22'></a><a href='#L22'>22</a>
+<a name='L23'></a><a href='#L23'>23</a>
+<a name='L24'></a><a href='#L24'>24</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">133x</span>
+<span class="cline-any cline-yes">133x</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">133x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">90x</span>
+<span class="cline-any cline-yes">133x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import { useEffect, useState } from 'react';
+import { api } from './api.ts';
+import type { PublicSettings } from '../shared/contracts.ts';
+export function Inspector({ onClose }: { onClose: () =&gt; void }) {
+  const [settings, setSettings] = useState&lt;PublicSettings&gt;(); const [key, setKey] = useState('');
+  const [debug, setDebug] = useState&lt;unknown&gt;(); const [error, setError] = useState(''); const [notice, setNotice] = useState(''); const [backupText, setBackupText] = useState('');
+  async function refresh() { try { setSettings(await api&lt;PublicSettings&gt;('/settings')); setDebug(await api('/debug')); } catch (e) { setError((e as Error).message); } }
+  useEffect(() =&gt; { void refresh(); }, []);
+  async function save(event: React.SubmitEvent) {
+    event.preventDefault(); setError(''); setNotice('');
+    try { setSettings(await api&lt;PublicSettings&gt;('/settings', { ...settings, ...(key ? { apiKey: key } : {}) })); setKey(''); setNotice('已保存，下一次调用生效。'); } catch (e) { setError((e as Error).message); }
+  }
+  async function action(path: string) {
+    setError(''); setNotice('');
+    try { const result = await api&lt;{ compacted?: boolean }&gt;(path, {}); setNotice(result.compacted === false ? '当前没有可压缩的旧消息。' : '操作已完成。'); setDebug(await api('/debug')); } catch (e) { setError((e as Error).message); }
+  }
+  async function load(event: React.SubmitEvent) {
+    event.preventDefault(); setError(''); setNotice('');
+    try { await api('/context/load', JSON.parse(backupText)); setNotice('已载入调试上下文，历史工具不会重新执行。'); setDebug(await api('/debug')); } catch (e) { setError((e as Error).message); }
+  }
+  function change&lt;K extends keyof PublicSettings&gt;(field: K, value: PublicSettings[K]) { setSettings({ ...settings!, [field]: value }); }
+  return &lt;div className="scrim"&gt;&lt;section className="inspector" role="dialog" aria-modal="true" aria-label="工作室设置"&gt;&lt;div className="inspector-heading"&gt;&lt;div&gt;&lt;span className="eyebrow"&gt;STUDIO / SETTINGS&lt;/span&gt;&lt;h2&gt;工作室设置&lt;/h2&gt;&lt;/div&gt;&lt;button className="quiet" onClick={onClose}&gt;关闭&lt;/button&gt;&lt;/div&gt;{error &amp;&amp; &lt;p role="alert"&gt;{error}&lt;/p&gt;}{notice &amp;&amp; &lt;p role="status"&gt;{notice}&lt;/p&gt;}{settings &amp;&amp; &lt;form onSubmit={save}&gt;&lt;h3&gt;模型与工作方式&lt;/h3&gt;&lt;label&gt;模型地址&lt;input value={settings.baseUrl} onChange={e =&gt; change('baseUrl', e.target.value)} required /&gt;&lt;/label&gt;&lt;label&gt;模型名称&lt;input value={settings.modelId} onChange={e =&gt; change('modelId', e.target.value)} required /&gt;&lt;/label&gt;&lt;label&gt;更新 API Key&lt;input type="password" value={key} autoComplete="off" onChange={e =&gt; setKey(e.target.value)} placeholder="留空保留现有密钥" /&gt;&lt;/label&gt;&lt;label&gt;压缩阈值（估算 Token）&lt;input type="number" min={2000} max={200000} value={settings.compressionThreshold} onChange={e =&gt; change('compressionThreshold', Number(e.target.value))} required /&gt;&lt;/label&gt;&lt;label&gt;系统提示词&lt;textarea rows={8} value={settings.systemPrompt} onChange={e =&gt; change('systemPrompt', e.target.value)} required /&gt;&lt;/label&gt;&lt;label&gt;工作流提示词&lt;textarea rows={5} value={settings.workflowPrompt} onChange={e =&gt; change('workflowPrompt', e.target.value)} required /&gt;&lt;/label&gt;&lt;label&gt;逐人核验提示词&lt;textarea rows={5} value={settings.verificationPrompt} onChange={e =&gt; change('verificationPrompt', e.target.value)} /&gt;&lt;/label&gt;&lt;label&gt;压缩提示词&lt;textarea rows={4} value={settings.compressionPrompt} onChange={e =&gt; change('compressionPrompt', e.target.value)} /&gt;&lt;/label&gt;&lt;button type="submit"&gt;保存设置&lt;/button&gt;&lt;/form&gt;}&lt;section&gt;&lt;h3&gt;上下文&lt;/h3&gt;&lt;p className="muted"&gt;完整历史保留在本机。清空只影响后续对话上下文，已有任务保留。&lt;/p&gt;&lt;div className="controls"&gt;&lt;a className="download" href="/api/backup" download&gt;下载备份&lt;/a&gt;&lt;button className="quiet" onClick={() =&gt; void action('/context/compress')}&gt;压缩旧消息&lt;/button&gt;&lt;button className="quiet" onClick={() =&gt; void action('/context/reset')}&gt;清空上下文&lt;/button&gt;&lt;/div&gt;&lt;form onSubmit={load}&gt;&lt;label&gt;载入备份&lt;textarea value={backupText} onChange={e =&gt; setBackupText(e.target.value)} rows={4} placeholder="粘贴备份 JSON" required /&gt;&lt;/label&gt;&lt;button type="submit"&gt;载入调试上下文&lt;/button&gt;&lt;/form&gt;&lt;/section&gt;&lt;section&gt;&lt;div className="controls"&gt;&lt;h3&gt;实际调用与上下文&lt;/h3&gt;&lt;button className="quiet" onClick={() =&gt; void refresh()}&gt;刷新记录&lt;/button&gt;&lt;/div&gt;&lt;details&gt;&lt;summary&gt;展开完整请求、返回和工具消息&lt;/summary&gt;&lt;pre&gt;{JSON.stringify(debug, null, 2)}&lt;/pre&gt;&lt;/details&gt;&lt;/section&gt;&lt;/section&gt;&lt;/div&gt;;
+}
+&nbsp;</pre></td></tr></table></pre>
+
+                <div class='push'></div><!-- for sticky footer -->
+            </div><!-- /wrapper -->
+            <div class='footer quiet pad2 space-top1 center small'>
+                Code coverage generated by
+                <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
+                at 2026-10-10T13:29:51.355Z
+            </div>
+        <script src="../prettify.js"></script>
+        <script>
+            window.onload = function () {
+                prettyPrint();
+            };
+        </script>
+        <script src="../sorter.js"></script>
+        <script src="../block-navigation.js"></script>
+    </body>
+</html>
+    

@@ -1,0 +1,11 @@
+{
+  "appSourceMatches": true,
+  "appFiles": 46,
+  "desktopRuntimeMatches": true,
+  "desktopRuntimeFiles": [
+    "src/desktop/main.ts",
+    "src/desktop/runtime.ts",
+    "src/desktop/server.ts",
+    "src/desktop/start.ts"
+  ]
+}

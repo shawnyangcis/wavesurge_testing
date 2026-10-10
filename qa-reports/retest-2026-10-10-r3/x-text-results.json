@@ -1,0 +1,317 @@
+{
+  "scope": "live",
+  "name": "x-text-results",
+  "taskId": "research-50afd1df3c59e15af7ca2577",
+  "startedAt": "2026-10-10T11:09:53.514Z",
+  "checks": [
+    "Actual CSV link downloaded",
+    "Chat-accessible structured HTML report opened in actual browser",
+    "Tag values and versions persisted after page reload"
+  ],
+  "queries": [
+    {
+      "tag": "Web3／NFT 项目",
+      "count": 1,
+      "handles": [
+        "professordilly"
+      ],
+      "csvPath": ".gstack/qa-reports/retest-2026-10-10-r3/x-text-results-filter-0.csv",
+      "href": "/api/reports/research-50afd1df3c59e15af7ca2577?format=csv&tag=Web3%EF%BC%8FNFT%20%E9%A1%B9%E7%9B%AE"
+    },
+    {
+      "tag": "Apechain 生态",
+      "count": 1,
+      "handles": [
+        "professordilly"
+      ],
+      "csvPath": ".gstack/qa-reports/retest-2026-10-10-r3/x-text-results-filter-1.csv",
+      "href": "/api/reports/research-50afd1df3c59e15af7ca2577?format=csv&tag=Apechain%20%E7%94%9F%E6%80%81"
+    },
+    {
+      "tag": "Notion",
+      "count": 0,
+      "handles": [],
+      "csvPath": ".gstack/qa-reports/retest-2026-10-10-r3/x-text-results-filter-2.csv",
+      "href": "/api/reports/research-50afd1df3c59e15af7ca2577?format=csv&tag=Notion"
+    },
+    {
+      "tag": "geek",
+      "count": 0,
+      "handles": [],
+      "csvPath": ".gstack/qa-reports/retest-2026-10-10-r3/x-text-results-filter-3.csv",
+      "href": "/api/reports/research-50afd1df3c59e15af7ca2577?format=csv&tag=geek"
+    },
+    {
+      "tag": "不会存在的画像标签",
+      "count": 0,
+      "handles": [],
+      "csvPath": ".gstack/qa-reports/retest-2026-10-10-r3/x-text-results-filter-4.csv",
+      "href": "/api/reports/research-50afd1df3c59e15af7ca2577?format=csv&tag=%E4%B8%8D%E4%BC%9A%E5%AD%98%E5%9C%A8%E7%9A%84%E7%94%BB%E5%83%8F%E6%A0%87%E7%AD%BE"
+    }
+  ],
+  "networkErrors": [
+    {
+      "url": "http://127.0.0.1:3572/api/session",
+      "status": 401
+    }
+  ],
+  "pageErrors": [],
+  "task": {
+    "id": "research-50afd1df3c59e15af7ca2577",
+    "title": "X编程／开发工具个人博主：两位候选文字核验",
+    "status": "partial",
+    "requested": 1,
+    "evaluated": 2,
+    "matched": 0,
+    "qualifying": 0,
+    "updatedAt": 1791629730362,
+    "detail": "已选合格 0/1，已核验 2；证据不足者保持待核实。twitter：读取 500 条，基础条件排除 493 条；/discover/db?platform=twitter&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。",
+    "remoteStatus": "done",
+    "nextPollAt": 1791629704150
+  },
+  "results": [
+    {
+      "id": "research-50afd1df3c59e15af7ca2577|twitter:professordilly",
+      "taskId": "research-50afd1df3c59e15af7ca2577",
+      "creator": {
+        "id": "twitter:professordilly",
+        "platform": "twitter",
+        "handle": "professordilly",
+        "profileUrl": "https://x.com/professordilly",
+        "displayName": "CryptoDilly",
+        "followers": 10342,
+        "region": null,
+        "evidence": [
+          {
+            "id": "dcbe3ecaa9a39673bc070f59",
+            "url": "https://x.com/professordilly",
+            "text": "Co-Founder of @Unboxingweb3 (MBA #462) • Creator of R0N1 World & @fishiesonape Apechain • NFT NYC Speaker 2024 & 2025 • AIP-440 Co-Author",
+            "kind": "profile",
+            "provider": "wavesurge-pool",
+            "publishedAt": null,
+            "capturedAt": 1791629701559
+          }
+        ]
+      },
+      "judgments": [
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：twitter",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 10342，要求 10000–100000",
+          "evidenceIds": [
+            "dcbe3ecaa9a39673bc070f59"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "personal_creator",
+          "verdict": "match",
+          "reason": "主页简介以个人身份列出联合创始人、项目创作者、演讲者和提案共同作者经历，支持个人博主身份，而非机构官方账号。依据为已取得的 WaveSurge 主页文字，本轮未重新打开页面。",
+          "evidenceIds": [
+            "dcbe3ecaa9a39673bc070f59"
+          ],
+          "label": "个人博主，非品牌、公司或机构官方账号"
+        },
+        {
+          "criterionId": "programming_tools",
+          "verdict": "unknown",
+          "reason": "现有资料仅为主页简介，提及 Web3、NFT、Apechain 和项目创建经历，未提供实际讨论编程或开发工具的帖子文字及日期；不能仅凭相关行业身份判断符合。",
+          "evidenceIds": [
+            "dcbe3ecaa9a39673bc070f59"
+          ],
+          "label": "实际讨论编程或开发工具相关内容"
+        }
+      ],
+      "verdict": "unknown",
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "Web3／NFT 项目",
+            "Apechain 生态"
+          ],
+          "reason": "主页简介提及 Unboxingweb3、NFT NYC Speaker 以及 Apechain 项目；仅支持简介呈现的方向，不证明近期发帖主题。",
+          "evidenceIds": [
+            "dcbe3ecaa9a39673bc070f59"
+          ]
+        },
+        {
+          "dimensionId": "expression_style",
+          "status": "unknown",
+          "values": [],
+          "reason": "缺少帖子文字，无法核验实际内容的表达风格。",
+          "evidenceIds": [
+            "dcbe3ecaa9a39673bc070f59"
+          ]
+        }
+      ],
+      "tags": [
+        "Web3／NFT 项目",
+        "Apechain 生态"
+      ],
+      "revision": 1,
+      "updatedAt": 1791629718902,
+      "selected": false
+    },
+    {
+      "id": "research-50afd1df3c59e15af7ca2577|twitter:solalbertor",
+      "taskId": "research-50afd1df3c59e15af7ca2577",
+      "creator": {
+        "id": "twitter:solalbertor",
+        "platform": "twitter",
+        "handle": "solalbertor",
+        "profileUrl": "https://x.com/solalbertor",
+        "displayName": "Albertor",
+        "followers": 12667,
+        "region": null,
+        "evidence": [
+          {
+            "id": "e7b0e5d717fde30b5d9010ae",
+            "url": "https://x.com/solalbertor",
+            "text": "FULLTIME WEB3 CEO - @PlaymakerDAO\n\n Hunter/CM |@LunaLabsVC |@insiders_xyz | @Validators_\n | @solayer_labs",
+            "kind": "profile",
+            "provider": "wavesurge-pool",
+            "publishedAt": null,
+            "capturedAt": 1791629701559
+          }
+        ]
+      },
+      "judgments": [
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：twitter",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 12667，要求 10000–100000",
+          "evidenceIds": [
+            "e7b0e5d717fde30b5d9010ae"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "personal_creator",
+          "verdict": "match",
+          "reason": "已有主页简介以个人身份自述“FULLTIME WEB3 CEO”，并列出其在多个组织的任职或关联，支持这是个人账号而非机构官方账号。本轮复用 wavesurge-pool 采集的主页文字，未重新打开页面。",
+          "evidenceIds": [
+            "e7b0e5d717fde30b5d9010ae"
+          ],
+          "label": "个人博主，非品牌、公司或机构官方账号"
+        },
+        {
+          "criterionId": "programming_tools",
+          "verdict": "unknown",
+          "reason": "现有证据仅为主页简介中的 Web3 CEO、Hunter/CM 和组织关联，没有实际帖子文字或日期；Web3 身份本身不能证明实际讨论编程或开发工具。",
+          "evidenceIds": [
+            "e7b0e5d717fde30b5d9010ae"
+          ],
+          "label": "实际讨论编程或开发工具相关内容"
+        }
+      ],
+      "verdict": "unknown",
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "Web3 相关身份与组织关联"
+          ],
+          "reason": "主页简介明确列出 Web3 CEO、Hunter/CM 及相关组织；仅支持主页定位，不代表已核验实际发帖方向。",
+          "evidenceIds": [
+            "e7b0e5d717fde30b5d9010ae"
+          ]
+        },
+        {
+          "dimensionId": "expression_style",
+          "status": "unknown",
+          "values": [],
+          "reason": "没有实际帖子文字，无法判断内容表达风格。",
+          "evidenceIds": [
+            "e7b0e5d717fde30b5d9010ae"
+          ]
+        }
+      ],
+      "tags": [
+        "Web3 相关身份与组织关联"
+      ],
+      "revision": 1,
+      "updatedAt": 1791629729860,
+      "selected": false
+    }
+  ],
+  "report": {
+    "url": "http://127.0.0.1:3572/api/reports/research-50afd1df3c59e15af7ca2577",
+    "articles": 2,
+    "embeddedImages": 0,
+    "profileLinks": 2,
+    "body": "X编程／开发工具个人博主：两位候选文字核验\n\n目标 1 人；本地已合格 0 人；已核验 2 人。\n\n已选合格 0/1，已核验 2；证据不足者保持待核实。twitter：读取 500 条，基础条件排除 493 条；/discover/db?platform=twitter&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。\n\n来源：WaveSurge + 本地核验。远端搜索完成不代表本地条件通过。本次报告包含 2 条筛选记录。报告更新时间：2026-10-10T10:55:30.362Z\nCryptoDilly · 待核实\n\ntwitter / professordilly / 粉丝 10342 / 未知\n\n标签：Web3／NFT 项目、Apechain 生态\n\n画像 content_direction：Web3／NFT 项目、Apechain 生态；主页简介提及 Unboxingweb3、NFT NYC Speaker 以及 Apechain 项目；仅支持简介呈现的方向，不证明近期发帖主题。；证据 dcbe3ecaa9a39673bc070f59\n\n画像 expression_style：待核实；缺少帖子文字，无法核验实际内容的表达风格。；证据 dcbe3ecaa9a39673bc070f59\n\n条件\t判断\t依据\n平台\t符合要求\t创作者平台：twitter\n\n粉丝范围\t符合要求\tWaveSurge 粉丝数 10342，要求 10000–100000\nprofile 日期未知\n个人博主，非品牌、公司或机构官方账号\t符合要求\t主页简介以个人身份列出联合创始人、项目创作者、演讲者和提案共同作者经历，支持个人博主身份，而非机构官方账号。依据为已取得的 WaveSurge 主页文字，本轮未重新打开页面。\nprofile 日期未知\n实际讨论编程或开发工具相关内容\t待核实\t现有资料仅为主页简介，提及 Web3、NFT、Apechain 和项目创建经历，未提供实际讨论编程或开发工具的帖子文字及日期；不能仅凭相关行业身份判断符合。\nprofile 日期未知\n完整证据映射与截图\ndcbe3ecaa9a39673bc070f59 · profile\n原始来源\n\n提供方：wavesurge-pool · 捕获：2026-10-10T10:55:01.559Z · 发布时间：日期未知\n\nCo-Founder of @Unboxingweb3 (MBA #462) • Creator of R0N1 World & @fishiesonape Apechain • NFT NYC Speaker 2024 & 2025 • AIP-440 Co-Author\nAlbertor · 待核实\n\ntwitter / solalbertor / 粉丝 12667 / 未知\n\n标签：Web3 相关身份与组织关联\n\n画像 content_direction：Web3 相关身份与组织关联；主页简介明确列出 Web3 CEO、Hunter/CM 及相关组织；仅支持主页定位，不代表已核验实际发帖方向。；证据 e7b0e5d717fde30b5d9010ae\n\n画像 expression_style：待核实；没有实际帖子文字，无法判断内容表达风格。；证据 e7b0e5d717fde30b5d9010ae\n\n条件\t判断\t依据\n平台\t符合要求\t创作者平台：twitter\n\n粉丝范围\t符合要求\tWaveSurge 粉丝数 12667，要求 10000–100000\nprofile 日期未知\n个人博主，非品牌、公司或机构官方账号\t符合要求\t已有主页简介以个人身份自述“FULLTIME WEB3 CEO”，并列出其在多个组织的任职或关联，支持这是个人账号而非机构官方账号。本轮复用 wavesurge-pool 采集的主页文字，未重新打开页面。\nprofile 日期未知\n实际讨论编程或开发工具相关内容\t待核实\t现有证据仅为主页简介中的 Web3 CEO、Hunter/CM 和组织关联，没有实际帖子文字或日期；Web3 身份本身不能证明实际讨论编程或开发工具。\nprofile 日期未知\n完整证据映射与截图\ne7b0e5d717fde30b5d9010ae · profile\n原始来源\n\n提供方：wavesurge-pool · 捕获：2026-10-10T10:55:01.559Z · 发布时间：日期未知\n\nFULLTIME WEB3 CEO - @PlaymakerDAO\n\n Hunter/CM |@LunaLabsVC |@insiders_xyz | @Validators_\n | @solayer_labs"
+  },
+  "chatLinks": [
+    {
+      "label": "查看报告",
+      "href": "/api/reports/research-be8026ae73f12c86682a616a"
+    },
+    {
+      "label": "查看本次综合报告",
+      "href": "/api/work-batches/0fabc016-9161-43d4-976a-c6e8235b852e/report"
+    },
+    {
+      "label": "下载综合 CSV",
+      "href": "/api/work-batches/0fabc016-9161-43d4-976a-c6e8235b852e/report?format=csv"
+    },
+    {
+      "label": "查看报告",
+      "href": "/api/reports/research-ac84c5f2eb4a7e21e69ce1d2"
+    },
+    {
+      "label": "查看报告",
+      "href": "/api/reports/research-50afd1df3c59e15af7ca2577"
+    },
+    {
+      "label": "查看本次综合报告",
+      "href": "/api/work-batches/a01de880-2d32-47b3-a6d7-ba663944d36a/report"
+    },
+    {
+      "label": "下载综合 CSV",
+      "href": "/api/work-batches/a01de880-2d32-47b3-a6d7-ba663944d36a/report?format=csv"
+    },
+    {
+      "label": "查看报告",
+      "href": "/api/reports/research-e920ecebfcfaea4ad9406b7a"
+    },
+    {
+      "label": "查看本次综合报告",
+      "href": "/api/work-batches/0710085f-0695-4561-8f75-eedd112288ad/report"
+    },
+    {
+      "label": "下载综合 CSV",
+      "href": "/api/work-batches/0710085f-0695-4561-8f75-eedd112288ad/report?format=csv"
+    },
+    {
+      "label": "查看报告",
+      "href": "/api/reports/research-2908c0a899a69bd5afeca2db"
+    },
+    {
+      "label": "查看本次综合报告",
+      "href": "/api/work-batches/ea140273-05dc-4494-931f-b6151446b244/report"
+    },
+    {
+      "label": "下载综合 CSV",
+      "href": "/api/work-batches/ea140273-05dc-4494-931f-b6151446b244/report?format=csv"
+    }
+  ],
+  "gfmTables": 5,
+  "finishedAt": "2026-10-10T11:10:51.955Z"
+}

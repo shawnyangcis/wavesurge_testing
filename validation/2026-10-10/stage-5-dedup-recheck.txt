@@ -1,0 +1,10 @@
+
+Running 1 test using 1 worker
+
+(node:47239) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ wavesurge_testing-app-1 Copying tests/fixtures/seed-campaign.ts to wavesurge_testing-app-1:/app/data/fixtures/seed-campaign.ts
+ wavesurge_testing-app-1 Copied tests/fixtures/seed-campaign.ts to wavesurge_testing-app-1:/app/data/fixtures/seed-campaign.ts
+  ✓  1 tests/e2e/campaign-dedup.spec.ts:4:1 › 重叠候选经真实模型/浏览器核验：配额 2/2、唯一账号 2、报告逐组引用 (2.7s)
+
+  1 passed (3.9s)

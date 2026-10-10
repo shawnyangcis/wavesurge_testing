@@ -1,0 +1,33 @@
+{
+  "at": "2026-10-10T07:03:25.370Z",
+  "assists": [
+    {
+      "id": "054c0fe8-0451-4cc8-b5d0-2e82c9ec6e00",
+      "creatorId": "instagram:geekprincess7",
+      "reason": "@geekprincess7 主页显示“This profile is private”，并要求登录后查看照片和视频；当前无法核验个人分享内容、眼镜及 geek 风格。请通过同一浏览器桌面协助，如无已有合法访问权限则保持待确认，不需关注或联系账号。当前主页显示 736 followers。",
+      "before": "BROWSER / ASSISTANCE\n浏览器桌面\n关闭\n\n默认只读。需要协助时，可在同一个浏览器完成登录或验证；不要将密码发到对话中。交还前请打开可核验的公开页面。\n\n原候选：instagram:geekprincess7\n\n@geekprincess7 主页显示“This profile is private”，并要求登录后查看照片和视频；当前无法核验个人分享内容、眼镜及 geek 风格。请通过同一浏览器桌面协助，如无已有合法访问权限则保持待确认，不需关注或联系账号。当前主页显示 736 followers。\n\n工作编号：research-90121727019a7e5d682f5a65接管并协助\n重新连接桌面",
+      "outcome": "Skipped unavailable private content through UI without desktop interaction",
+      "finishedAt": "2026-10-10T07:04:26.681Z"
+    }
+  ],
+  "source": "Actual application UI. Operator outcomes only skip inaccessible private profiles; no login, follows or desktop input.",
+  "latestTask": {
+    "id": "research-90121727019a7e5d682f5a65",
+    "title": "Instagram 欧美个人 KOC 眼镜与 geek 风筛选",
+    "status": "needs_input",
+    "requested": 20,
+    "evaluated": 17,
+    "matched": 0,
+    "qualifying": 0,
+    "updatedAt": 1791616184058,
+    "detail": "需要人工协助：访问 @geekderella 主页被重定向至 Instagram 登录页，无法看到本人主页或帖子。请通过同一 noVNC 桌面协助完成登录；当前暂停核验。现有简介不足以确认个人 KOC、白人本人自述、佩戴眼镜或 geek 风格，登录页宣传图不能作为该创作者证据。；请打开桌面协助，完成后继续原候选",
+    "remoteStatus": "done",
+    "nextPollAt": 0
+  },
+  "requiresObservedPublicInteraction": {
+    "creatorId": "instagram:geekderella",
+    "reason": "访问 @geekderella 主页被重定向至 Instagram 登录页，无法看到本人主页或帖子。请通过同一 noVNC 桌面协助完成登录；当前暂停核验。现有简介不足以确认个人 KOC、白人本人自述、佩戴眼镜或 geek 风格，登录页宣传图不能作为该创作者证据。"
+  },
+  "finishedAt": "2026-10-10T07:09:49.208Z",
+  "reportLinks": []
+}

@@ -1,0 +1,8 @@
+
+Running 1 test using 1 worker
+
+(node:48296) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/e2e/campaign-second-goal.spec.ts:4:1 › 另一个营销目标：AI 笔记产品交互形成类型范围，草案不启动外部搜索 (39.0s)
+
+  1 passed (40.1s)

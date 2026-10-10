@@ -1,0 +1,73 @@
+{
+  "at": "2026-10-10T12:57:27.965Z",
+  "source": "Upgraded main, actual saved evidence and configured model; read-only natural-language query plus result/report UI",
+  "pageErrors": [],
+  "query": "仅查询已有研究 research-a183b9437d676713c0f2812f 的 franhaddock_、kennedyslocum 和 neighbourbecci：按保存的核验结果说明各自粉丝范围是否满足、还有什么条件未确认、是否入选。不要新增研究、不重新搜索、不补标、不重新核验，不打开网页。",
+  "response": "已查询最新已存结果，三位均为**第3版**：\n\n| 创作者 | 粉丝范围是否满足（1万–10万） | 尚未确认的条件（`unknown`） | 入选状态 |\n|---|---|---|---|\n| **franhaddock_** | **满足（`match`）**。主页显示14.8K；已存保守区间14,750–14,899；接口记录14,872 | **Geek风**：已存视频画面不足以确认科技宅、书卷或极客穿搭风格 | **未入选** |\n| **kennedyslocum** | **满足（`match`）**。主页显示16.9K；已存保守区间16,850–16,999；接口记录16,974 | **Geek风**；**普通消费者KOC身份**：演艺／游戏创作者资料不足以确认普通消费者身份或排除明星身份 | **未入选** |\n| **neighbourbecci** | **满足（`match`）**。主页显示60.5K；已存保守区间60,450–60,599；接口记录60,586 | **Geek风**；**戴眼镜的视觉条件**：照片中人物身份未明确，不能确认戴眼镜者就是本人；已有文字描述不能替代视觉证据 | **未入选** |\n\n三位其余必选条件均已保存为 `match`，但由于上述条件仍待确认，**整体结论均为 `unknown`，不是已确认不合格**；入选标记均为 `selected=false`。\n\n**对应证据 ID**\n- **franhaddock_**：粉丝 `660be26273455f643e821c0d`；Geek风待确认依据 `d78b6f76990686c9e23d39bb`。\n- **kennedyslocum**：粉丝及KOC待确认依据 `eac9ec4fd2d4a9047b89e690`；Geek风待确认依据 `69fde83e4e3909d6a1b3dbae`。\n- **neighbourbecci**：粉丝 `96894c1f0c43f552b6912d77`；Geek风及眼镜待确认依据 `3b36f50f2abd2546d6713aba`。\n\n本轮仅查询，没有新增研究、重新搜索、补标、重新核验或打开网页。\n\n[查看已存报告](/api/reports/research-a183b9437d676713c0f2812f)",
+  "results": [
+    {
+      "handle": "franhaddock_",
+      "verdict": "unknown",
+      "selected": false,
+      "followers": {
+        "criterionId": "__followers",
+        "verdict": "match",
+        "reason": "主页显示 14.8K followers；保守区间 14750–14899，要求 10000–100000；WaveSurge 精确数 14872",
+        "evidenceIds": [
+          "660be26273455f643e821c0d",
+          "ac40b5a127cc9c57cc319875",
+          "f08d92181c5158c69b604c94",
+          "76314094127e0b2b00ae9b8b",
+          "cc62cf14f0c9d0fe5a86fd81",
+          "059a2b1bd84fc521816e3cef"
+        ],
+        "label": "粉丝范围"
+      },
+      "revision": 3,
+      "tags": []
+    },
+    {
+      "handle": "kennedyslocum",
+      "verdict": "unknown",
+      "selected": false,
+      "followers": {
+        "criterionId": "__followers",
+        "verdict": "match",
+        "reason": "主页显示 16.9K followers；保守区间 16850–16999，要求 10000–100000；WaveSurge 精确数 16974",
+        "evidenceIds": [
+          "eac9ec4fd2d4a9047b89e690",
+          "2db0f8705c2c58729bbba620",
+          "a608004bf5c25dbe802ef251",
+          "ec7418c9de7a200f124c6bb2"
+        ],
+        "label": "粉丝范围"
+      },
+      "revision": 3,
+      "tags": []
+    },
+    {
+      "handle": "neighbourbecci",
+      "verdict": "unknown",
+      "selected": false,
+      "followers": {
+        "criterionId": "__followers",
+        "verdict": "match",
+        "reason": "主页显示 60.5K followers；保守区间 60450–60599，要求 10000–100000；WaveSurge 精确数 60586",
+        "evidenceIds": [
+          "96894c1f0c43f552b6912d77",
+          "09a45f47d899e94560570de3",
+          "282bba84f42bd1ffe6bc7c80",
+          "e55f8a58fcbecc005f150439"
+        ],
+        "label": "粉丝范围"
+      },
+      "revision": 3,
+      "tags": []
+    }
+  ],
+  "newWaveCalls": 0,
+  "newTasks": 0,
+  "resultsUnchanged": true,
+  "refreshPassed": true,
+  "passed": true
+}

@@ -1,0 +1,44 @@
+{
+  "at": "2026-10-10T17:49:34.845Z",
+  "sourceFiles": 59,
+  "sourceChangesDuringQA": [],
+  "runtimes": [
+    {
+      "scope": "main",
+      "service": "app",
+      "checkedFiles": 59,
+      "mismatches": []
+    },
+    {
+      "scope": "main",
+      "service": "desktop",
+      "checkedFiles": 5,
+      "mismatches": []
+    },
+    {
+      "scope": "live",
+      "service": "app",
+      "checkedFiles": 59,
+      "mismatches": []
+    },
+    {
+      "scope": "live",
+      "service": "desktop",
+      "checkedFiles": 5,
+      "mismatches": []
+    },
+    {
+      "scope": "edge",
+      "service": "app",
+      "checkedFiles": 59,
+      "mismatches": []
+    },
+    {
+      "scope": "edge",
+      "service": "desktop",
+      "checkedFiles": 5,
+      "mismatches": []
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,16 @@
+// @vitest-environment jsdom
+import { afterEach, expect, it, vi } from 'vitest';
+import { act, cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+import { Campaigns } from '../src/client/Campaigns.tsx';
+import { api } from '../src/client/api.ts';
+vi.mock('../src/client/api.ts', () => ({ api: vi.fn() })); const mocked = vi.mocked(api); afterEach(() => { cleanup(); mocked.mockReset(); vi.useRealTimers(); });
+const plan = { id: 'c', title: '耳机推广', goal: '提升购买意愿', audience: '学生', revision: 1, status: 'draft', matched: 0, requested: 2, qualifyingUnique: 0, reportUrl: '/report', groups: [{ id: 'tech', rationale: '帮助转化', matched: 0, eligible: 0, spec: { title: '科技', count: 1, platforms: ['instagram'], regions: [], minFollowers: 1000, maxFollowers: 100000, candidateBudget: 2, criteria: [{ id: 'tech', label: '科技内容', required: true, basis: 'text' }] } }, { id: 'study', rationale: '帮助触达', matched: 0, eligible: 0, taskId: 'task', spec: { title: '学习', count: 1, platforms: ['youtube'], regions: ['Canada'], minFollowers: 0, maxFollowers: 100000, candidateBudget: 2, criteria: [{ id: 'study', label: '学习内容', required: false, basis: 'visual' }] } }] };
+it('空计划与关闭、轮询失败明确反馈', async () => {
+  mocked.mockResolvedValue([]); const close = vi.fn(); vi.useFakeTimers(); render(<Campaigns onClose={close} />); await act(async () => { await vi.advanceTimersByTimeAsync(1); }); expect(screen.getByText(/暂无方案/)).toBeTruthy(); mocked.mockRejectedValueOnce(new Error('refresh failed')); await act(async () => { await vi.advanceTimersByTimeAsync(3000); }); expect(screen.getByRole('alert').textContent).toBe('refresh failed'); fireEvent.click(screen.getByText('关闭')); expect(close).toHaveBeenCalledOnce();
+});
+it('草案完整范围、偏好、配额与报告链接，确认启动采用当前版本', async () => {
+  let current = structuredClone(plan); mocked.mockImplementation(async path => { if (path === '/campaigns') return [{ id: 'c' }]; if (path.endsWith('/start')) { current.status = 'running'; return {}; } return current; }); render(<Campaigns onClose={() => {}} />); await screen.findByText('耳机推广 · v1'); fireEvent.click(screen.getByText('查看方案与配额')); expect(screen.getByText('地区不限', { exact: false })).toBeTruthy(); expect(screen.getByText(/偏好：学习内容/)).toBeTruthy(); expect(screen.getByText(/必选：科技内容/)).toBeTruthy(); expect(screen.getByRole('link', { name: '查看此类核验报告' }).getAttribute('href')).toBe('/api/reports/task'); fireEvent.click(screen.getByText('确认此方案并开始研究')); await waitFor(() => expect(mocked).toHaveBeenCalledWith('/campaigns/c/start', { revision: 1 })); await screen.findByText('研究中'); expect(screen.queryByText('确认此方案并开始研究')).toBeNull();
+});
+it('启动失败保留草案，刷新后消失的方案不能继续确认', async () => {
+  mocked.mockImplementation(async path => { if (path === '/campaigns') return [{ id: 'c' }]; if (path.endsWith('/start')) throw new Error('version conflict'); return plan; }); vi.useFakeTimers(); render(<Campaigns onClose={() => {}} />); await act(async () => { await vi.advanceTimersByTimeAsync(1); }); fireEvent.click(screen.getByText('查看方案与配额')); fireEvent.click(screen.getByText('确认此方案并开始研究')); await act(async () => { await vi.advanceTimersByTimeAsync(1); }); expect(screen.getByRole('alert').textContent).toBe('version conflict'); mocked.mockResolvedValue([]); await act(async () => { await vi.advanceTimersByTimeAsync(3000); }); expect(screen.queryByText('确认此方案并开始研究')).toBeNull();
+});

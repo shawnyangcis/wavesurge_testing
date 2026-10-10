@@ -1,0 +1,112 @@
+{
+  "at": "2026-10-10T10:02:30.643Z",
+  "source": "actual configured model, natural original-scope interpretation and production Campaign draft UI; no execution or Wave requests",
+  "errors": [],
+  "query": "把原题“帮我找20个 geek风、戴眼镜、欧美白人，粉丝数在1万到10万之间的 ins 平台 KOC”重新校准为一个名为R2原题范围校准1791626560095的单组Campaign草案，供我查看条件，绝对不要开始执行或新搜索。这是眼镜产品推广的候选规划，目标受众为欧美眼镜消费者。目标20、候选预算20，20位都分析。欧美本人所在地允许美国、加拿大、英国、德国、法国、意大利、西班牙、荷兰、瑞典、瑞士；族裔仅采用本人明确公开自述，否则未知，不从外观推断；geek风看实际本人出镜风格，不能只根据科技主题；眼镜也看本人佩戴。原题每项都作为必选，并标注内容方向、呈现风格、眼镜和geek特征。使用Instagram新版三个搜索词geek、tech、glasses及有头浏览器核验。保存草案等待后续明确确认，本次不要启动。",
+  "plan": {
+    "title": "R2原题范围校准1791626560095",
+    "goal": "为眼镜产品推广规划符合全部原题必选条件的个人消费者型KOC候选；本次仅保存草案，不执行研究、不搜索、不外联。",
+    "audience": "欧美眼镜消费者；目标受众市场不作为候选观众所在地已证实事实。",
+    "groups": [
+      {
+        "id": "geek_glasses_koc",
+        "rationale": "通过本人佩戴眼镜且具geek出镜风格的个人消费者型KOC展示眼镜产品的使用场景；全部原题条件独立核验，不能用科技主题替代geek风，也不能从外貌推断族裔。",
+        "spec": {
+          "title": "geek风眼镜个人KOC",
+          "personaText": "Geek-style personal consumer creators wearing glasses",
+          "count": 20,
+          "candidateBudget": 20,
+          "analyzeAll": true,
+          "verificationMode": "auto",
+          "platforms": [
+            "instagram"
+          ],
+          "regions": [
+            "United States",
+            "Canada",
+            "United Kingdom",
+            "Germany",
+            "France",
+            "Italy",
+            "Spain",
+            "Netherlands",
+            "Sweden",
+            "Switzerland"
+          ],
+          "minFollowers": 10000,
+          "maxFollowers": 100000,
+          "instagram": {
+            "queries": [
+              "geek",
+              "tech",
+              "glasses"
+            ],
+            "version": "v3"
+          },
+          "criteria": [
+            {
+              "id": "personal_consumer_koc",
+              "label": "本人简介及实际内容证明为个人消费者型KOC，分享个人消费者经验，而非品牌、公司、店铺官方账号；身份不清为unknown，明确官方商业账号为no_match",
+              "required": true,
+              "basis": "text"
+            },
+            {
+              "id": "geek_style",
+              "label": "通过有头浏览器实际观察本人出镜照片或视频，核验geek风呈现；不能仅根据科技主题认定，风格口径或视觉证据不足保持unknown",
+              "required": true,
+              "basis": "visual"
+            },
+            {
+              "id": "wears_glasses",
+              "label": "通过有头浏览器实际观察本人照片或视频中的眼镜佩戴；头像、媒体链接或产品展示不证明本人佩戴，视觉证据不足保持unknown",
+              "required": true,
+              "basis": "visual"
+            },
+            {
+              "id": "white_self_identification",
+              "label": "白人族裔身份仅采用本人明确公开自述；无自述保持unknown，绝不从外貌、肤色或姓名推断",
+              "required": true,
+              "basis": "text"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "content_direction",
+              "label": "内容方向"
+            },
+            {
+              "id": "presentation_style",
+              "label": "呈现风格"
+            },
+            {
+              "id": "glasses_features",
+              "label": "眼镜特征"
+            },
+            {
+              "id": "geek_features",
+              "label": "geek特征"
+            }
+          ]
+        },
+        "matched": 0,
+        "eligible": 0
+      }
+    ],
+    "id": "campaign-93cc116c3b19c937e5a74738",
+    "revision": 1,
+    "childTaskIds": [],
+    "createdAt": 1791626583566,
+    "updatedAt": 1791626583566,
+    "status": "draft",
+    "requested": 20,
+    "matched": 0,
+    "qualifyingUnique": 0,
+    "evaluated": 0,
+    "selections": [],
+    "reportUrl": "/api/campaigns/campaign-93cc116c3b19c937e5a74738/report",
+    "results": []
+  },
+  "passed": true,
+  "newWaveCalls": 0,
+  "newTasks": 0
+}

@@ -1,0 +1,467 @@
+{
+  "scope": "live",
+  "name": "tiktok-results",
+  "taskId": "research-abb4b5f8d3f19fb7de150e81",
+  "startedAt": "2026-10-10T14:38:59.657Z",
+  "checks": [
+    "Actual CSV link downloaded",
+    "Chat-accessible structured HTML report opened in actual browser",
+    "Tag values and versions persisted after page reload"
+  ],
+  "queries": [
+    {
+      "tag": "影视制作",
+      "count": 1,
+      "handles": [
+        "juanescalonafilms"
+      ],
+      "csvPath": ".gstack/qa-reports/retest-2026-10-10-r4/tiktok-results-filter-0.csv",
+      "href": "/api/reports/research-abb4b5f8d3f19fb7de150e81?format=csv&tag=%E5%BD%B1%E8%A7%86%E5%88%B6%E4%BD%9C"
+    },
+    {
+      "tag": "人工智能",
+      "count": 1,
+      "handles": [
+        "juanescalonafilms"
+      ],
+      "csvPath": ".gstack/qa-reports/retest-2026-10-10-r4/tiktok-results-filter-1.csv",
+      "href": "/api/reports/research-abb4b5f8d3f19fb7de150e81?format=csv&tag=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD"
+    },
+    {
+      "tag": "Notion",
+      "count": 0,
+      "handles": [],
+      "csvPath": ".gstack/qa-reports/retest-2026-10-10-r4/tiktok-results-filter-2.csv",
+      "href": "/api/reports/research-abb4b5f8d3f19fb7de150e81?format=csv&tag=Notion"
+    },
+    {
+      "tag": "geek",
+      "count": 0,
+      "handles": [],
+      "csvPath": ".gstack/qa-reports/retest-2026-10-10-r4/tiktok-results-filter-3.csv",
+      "href": "/api/reports/research-abb4b5f8d3f19fb7de150e81?format=csv&tag=geek"
+    },
+    {
+      "tag": "不会存在的画像标签",
+      "count": 0,
+      "handles": [],
+      "csvPath": ".gstack/qa-reports/retest-2026-10-10-r4/tiktok-results-filter-4.csv",
+      "href": "/api/reports/research-abb4b5f8d3f19fb7de150e81?format=csv&tag=%E4%B8%8D%E4%BC%9A%E5%AD%98%E5%9C%A8%E7%9A%84%E7%94%BB%E5%83%8F%E6%A0%87%E7%AD%BE"
+    }
+  ],
+  "networkErrors": [
+    {
+      "url": "http://127.0.0.1:3592/api/session",
+      "status": 401
+    }
+  ],
+  "pageErrors": [],
+  "task": {
+    "id": "research-abb4b5f8d3f19fb7de150e81",
+    "title": "TikTok 数码男博主：两位候选全量评估",
+    "status": "partial",
+    "requested": 1,
+    "evaluated": 2,
+    "matched": 0,
+    "qualifying": 0,
+    "updatedAt": 1791640282191,
+    "detail": "已选合格 0/1，已核验 2；证据不足者保持待核实。tiktok：读取 500 条，基础条件排除 324 条；/discover/db?platform=tiktok&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。",
+    "remoteStatus": "done",
+    "nextPollAt": 1791640197249
+  },
+  "results": [
+    {
+      "id": "research-abb4b5f8d3f19fb7de150e81|tiktok:juanescalonafilms",
+      "taskId": "research-abb4b5f8d3f19fb7de150e81",
+      "creator": {
+        "id": "tiktok:juanescalonafilms",
+        "platform": "tiktok",
+        "handle": "juanescalonafilms",
+        "profileUrl": "https://www.tiktok.com/@juanescalonafilms",
+        "displayName": "Juan Escalona | Videografo",
+        "followers": 23739,
+        "region": "Mexico",
+        "evidence": [
+          {
+            "id": "17e394d5b28ab5042a704ac6",
+            "url": "https://www.tiktok.com/@juanescalonafilms",
+            "text": "Creador de contenido\nFilmmaking | IA | Tutoriales | Reviews \n\nMI CURSO DE IA REAL ESTATE YA ESTÁ DISPONIBLE",
+            "kind": "profile",
+            "provider": "wavesurge-pool",
+            "publishedAt": null,
+            "capturedAt": 1791640194249
+          },
+          {
+            "id": "ebd7512f449301e3f7fada60",
+            "url": "https://www.tiktok.com/@juanescalonafilms",
+            "kind": "browser_snapshot",
+            "text": "",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791640206045,
+            "assetId": "31534d0ff8b0900213a111990b158c5b950eb67812e29c91cece6292ddac76c1"
+          },
+          {
+            "id": "0925e57ddbd9647798ddff61",
+            "url": "https://www.tiktok.com/@juanescalonafilms",
+            "kind": "browser_snapshot",
+            "text": "",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791640211574,
+            "assetId": "11a43d2058ee98ff1f24623fa6c5e96ffae327427be68ce8bfebf71f63e00d03"
+          },
+          {
+            "id": "32a9394ce2a31f4aaec4d2d4",
+            "url": "https://www.tiktok.com/@juanescalonafilms",
+            "kind": "browser_snapshot",
+            "text": "",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791640223847,
+            "assetId": "31534d0ff8b0900213a111990b158c5b950eb67812e29c91cece6292ddac76c1"
+          }
+        ]
+      },
+      "judgments": [
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：tiktok",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 23739，要求 10000–100000",
+          "evidenceIds": [
+            "17e394d5b28ab5042a704ac6"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "digital_content",
+          "verdict": "unknown",
+          "reason": "简介列出 Filmmaking、IA、Tutoriales、Reviews，但没有可读取的实际帖子或数码产品使用体验内容，不能仅凭方向标签确认实际内容。主页截图为空白或加载占位。",
+          "evidenceIds": [
+            "17e394d5b28ab5042a704ac6",
+            "0925e57ddbd9647798ddff61",
+            "32a9394ce2a31f4aaec4d2d4"
+          ],
+          "label": "实际内容涉及数码产品或数码使用体验"
+        },
+        {
+          "criterionId": "personal_creator",
+          "verdict": "match",
+          "reason": "简介自称“Creador de contenido”，并以第一人称“MI CURSO DE IA REAL ESTATE”介绍自己的课程，支持个人内容创作者账号身份，而非品牌、公司或店铺官方账号。",
+          "evidenceIds": [
+            "17e394d5b28ab5042a704ac6"
+          ],
+          "label": "个人博主账号，非品牌、公司或店铺官方账号"
+        },
+        {
+          "criterionId": "male_identity",
+          "verdict": "unknown",
+          "reason": "现有简介没有明确的男性身份自述；西班牙语职业词 Creador 的语法形式不足以独立确认男性身份，也不依据姓名或外貌推断。",
+          "evidenceIds": [
+            "17e394d5b28ab5042a704ac6"
+          ],
+          "label": "男性身份有本人公开介绍或明确自述支持，不从外貌推断；没有证据则待核实"
+        },
+        {
+          "criterionId": "wears_glasses",
+          "verdict": "unknown",
+          "reason": "实际观察的页面为空白或加载占位，没有可观察的本人影像，无法核验是否戴眼镜。",
+          "evidenceIds": [
+            "0925e57ddbd9647798ddff61",
+            "32a9394ce2a31f4aaec4d2d4"
+          ],
+          "label": "本人戴眼镜，须有可观察的本人影像证据，看不清则待核实"
+        }
+      ],
+      "verdict": "unknown",
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "影视制作",
+            "人工智能"
+          ],
+          "reason": "仅记录简介明确声明的内容方向 Filmmaking 与 IA，不代表已验证实际帖子。",
+          "evidenceIds": [
+            "17e394d5b28ab5042a704ac6"
+          ]
+        },
+        {
+          "dimensionId": "presentation_style",
+          "status": "unknown",
+          "values": [],
+          "reason": "未取得可读取或观看的帖子，无法确认实际呈现风格。",
+          "evidenceIds": [
+            "32a9394ce2a31f4aaec4d2d4"
+          ]
+        },
+        {
+          "dimensionId": "glasses",
+          "status": "unknown",
+          "values": [],
+          "reason": "页面无可观察的本人影像，戴眼镜情况待核实。",
+          "evidenceIds": [
+            "0925e57ddbd9647798ddff61",
+            "32a9394ce2a31f4aaec4d2d4"
+          ]
+        }
+      ],
+      "tags": [
+        "影视制作",
+        "人工智能"
+      ],
+      "revision": 1,
+      "updatedAt": 1791640240399,
+      "selected": false
+    },
+    {
+      "id": "research-abb4b5f8d3f19fb7de150e81|tiktok:larissa2468_",
+      "taskId": "research-abb4b5f8d3f19fb7de150e81",
+      "creator": {
+        "id": "tiktok:larissa2468_",
+        "platform": "tiktok",
+        "handle": "larissa2468_",
+        "profileUrl": "https://www.tiktok.com/@larissa2468_",
+        "displayName": "Larissa",
+        "followers": 59785,
+        "region": "Mexico",
+        "evidence": [
+          {
+            "id": "b19bcf613b7b25c484e27069",
+            "url": "https://www.tiktok.com/@larissa2468_",
+            "text": "Gaming + Tech | Storyteller \n🟣 Larissa2468 \nEn vivo Jue, Vie, Sab \n📩c***@gmail.com",
+            "kind": "profile",
+            "provider": "wavesurge-pool",
+            "publishedAt": null,
+            "capturedAt": 1791640194249
+          },
+          {
+            "id": "33ffef0ab3c31db40ac2eb53",
+            "url": "https://www.tiktok.com/@larissa2468_",
+            "kind": "browser_snapshot",
+            "text": "",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791640244985,
+            "assetId": "31534d0ff8b0900213a111990b158c5b950eb67812e29c91cece6292ddac76c1"
+          },
+          {
+            "id": "d4bdd57a2e211b3979673415",
+            "url": "https://www.tiktok.com/@larissa2468_",
+            "kind": "browser_snapshot",
+            "text": "",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791640248000,
+            "assetId": "31534d0ff8b0900213a111990b158c5b950eb67812e29c91cece6292ddac76c1"
+          },
+          {
+            "id": "cae0dd67afbdf6275c162da4",
+            "url": "https://www.tiktok.com/@larissa2468_",
+            "kind": "browser_snapshot",
+            "text": "",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791640268887,
+            "assetId": "31534d0ff8b0900213a111990b158c5b950eb67812e29c91cece6292ddac76c1"
+          }
+        ]
+      },
+      "judgments": [
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：tiktok",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 59785，要求 10000–100000",
+          "evidenceIds": [
+            "b19bcf613b7b25c484e27069"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "digital_content",
+          "verdict": "unknown",
+          "reason": "简介自述“Gaming + Tech”，但主页持续空白，未取得实际帖子文字或影像，不能确认实际内容涉及数码产品或使用体验。",
+          "evidenceIds": [
+            "b19bcf613b7b25c484e27069",
+            "cae0dd67afbdf6275c162da4"
+          ],
+          "label": "实际内容涉及数码产品或数码使用体验"
+        },
+        {
+          "criterionId": "personal_creator",
+          "verdict": "match",
+          "reason": "简介以个人名号 Larissa2468 自称 Storyteller，并列个人直播安排及联系邮箱，支持个人创作者账号而非品牌、公司或店铺官方账号。",
+          "evidenceIds": [
+            "b19bcf613b7b25c484e27069"
+          ],
+          "label": "个人博主账号，非品牌、公司或店铺官方账号"
+        },
+        {
+          "criterionId": "male_identity",
+          "verdict": "unknown",
+          "reason": "已有简介没有男性身份的本人公开介绍或明确自述；不能从名字推断性别。",
+          "evidenceIds": [
+            "b19bcf613b7b25c484e27069"
+          ],
+          "label": "男性身份有本人公开介绍或明确自述支持，不从外貌推断；没有证据则待核实"
+        },
+        {
+          "criterionId": "wears_glasses",
+          "verdict": "unknown",
+          "reason": "实际页面截图为空白，未取得可观察的本人影像，无法核验是否戴眼镜。",
+          "evidenceIds": [
+            "cae0dd67afbdf6275c162da4"
+          ],
+          "label": "本人戴眼镜，须有可观察的本人影像证据，看不清则待核实"
+        }
+      ],
+      "verdict": "unknown",
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "游戏",
+            "科技"
+          ],
+          "reason": "仅为简介“Gaming + Tech”声明的方向，尚无实际帖子核验。",
+          "evidenceIds": [
+            "b19bcf613b7b25c484e27069"
+          ]
+        },
+        {
+          "dimensionId": "presentation_style",
+          "status": "supported",
+          "values": [
+            "故事讲述",
+            "直播"
+          ],
+          "reason": "简介自述“Storyteller”，并列出“En vivo Jue, Vie, Sab”直播安排；未核验实际呈现。",
+          "evidenceIds": [
+            "b19bcf613b7b25c484e27069"
+          ]
+        },
+        {
+          "dimensionId": "glasses",
+          "status": "unknown",
+          "values": [],
+          "reason": "页面为空白，没有可用的本人影像。",
+          "evidenceIds": [
+            "cae0dd67afbdf6275c162da4"
+          ]
+        }
+      ],
+      "tags": [
+        "游戏",
+        "科技",
+        "故事讲述",
+        "直播"
+      ],
+      "revision": 1,
+      "updatedAt": 1791640281671,
+      "selected": false
+    }
+  ],
+  "report": {
+    "url": "http://127.0.0.1:3592/api/reports/research-abb4b5f8d3f19fb7de150e81",
+    "articles": 2,
+    "embeddedImages": 6,
+    "profileLinks": 2,
+    "body": "TikTok 数码男博主：两位候选全量评估\n\n目标 1 人；本地已合格 0 人；已核验 2 人。\n\n已选合格 0/1，已核验 2；证据不足者保持待核实。tiktok：读取 500 条，基础条件排除 324 条；/discover/db?platform=tiktok&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。\n\n来源：WaveSurge + 本地核验。远端搜索完成不代表本地条件通过。本次报告包含 2 条筛选记录。报告更新时间：2026-10-10T13:51:22.191Z\nJuan Escalona | Videografo · 待核实\n\ntiktok / juanescalonafilms / 粉丝 23739 / Mexico\n\n标签：影视制作、人工智能\n\n画像 content_direction：影视制作、人工智能；仅记录简介明确声明的内容方向 Filmmaking 与 IA，不代表已验证实际帖子。；证据 17e394d5b28ab5042a704ac6\n\n画像 presentation_style：待核实；未取得可读取或观看的帖子，无法确认实际呈现风格。；证据 32a9394ce2a31f4aaec4d2d4\n\n画像 glasses：待核实；页面无可观察的本人影像，戴眼镜情况待核实。；证据 0925e57ddbd9647798ddff61、32a9394ce2a31f4aaec4d2d4\n\n条件\t判断\t依据\n平台\t符合要求\t创作者平台：tiktok\n\n粉丝范围\t符合要求\tWaveSurge 粉丝数 23739，要求 10000–100000\nprofile 日期未知\n实际内容涉及数码产品或数码使用体验\t待核实\t简介列出 Filmmaking、IA、Tutoriales、Reviews，但没有可读取的实际帖子或数码产品使用体验内容，不能仅凭方向标签确认实际内容。主页截图为空白或加载占位。\nprofile 日期未知\nbrowser_snapshot 日期未知\nbrowser_snapshot 日期未知\n个人博主账号，非品牌、公司或店铺官方账号\t符合要求\t简介自称“Creador de contenido”，并以第一人称“MI CURSO DE IA REAL ESTATE”介绍自己的课程，支持个人内容创作者账号身份，而非品牌、公司或店铺官方账号。\nprofile 日期未知\n男性身份有本人公开介绍或明确自述支持，不从外貌推断；没有证据则待核实\t待核实\t现有简介没有明确的男性身份自述；西班牙语职业词 Creador 的语法形式不足以独立确认男性身份，也不依据姓名或外貌推断。\nprofile 日期未知\n本人戴眼镜，须有可观察的本人影像证据，看不清则待核实\t待核实\t实际观察的页面为空白或加载占位，没有可观察的本人影像，无法核验是否戴眼镜。\nbrowser_snapshot 日期未知\nbrowser_snapshot 日期未知\n完整证据映射与截图\n17e394d5b28ab5042a704ac6 · profile\n原始来源\n\n提供方：wavesurge-pool · 捕获：2026-10-10T13:49:54.249Z · 发布时间：日期未知\n\nCreador de contenido\nFilmmaking | IA | Tutoriales | Reviews \n\nMI CURSO DE IA REAL ESTATE YA ESTÁ DISPONIBLE\nebd7512f449301e3f7fada60 · browser_snapshot\n原始来源\n\n提供方：headed-chromium · 捕获：2026-10-10T13:50:06.045Z · 发布时间：日期未知 · 截图编号：31534d0ff8b0900213a111990b158c5b950eb67812e29c91cece6292ddac76c1\n\n0925e57ddbd9647798ddff61 · browser_snapshot\n原始来源\n\n提供方：headed-chromium · 捕获：2026-10-10T13:50:11.574Z · 发布时间：日期未知 · 截图编号：11a43d2058ee98ff1f24623fa6c5e96ffae327427be68ce8bfebf71f63e00d03\n\n32a9394ce2a31f4aaec4d2d4 · browser_snapshot\n原始来源\n\n提供方：headed-chromium · 捕获：2026-10-10T13:50:23.847Z · 发布时间：日期未知 · 截图编号：31534d0ff8b0900213a111990b158c5b950eb67812e29c91cece6292ddac76c1\n\nLarissa · 待核实\n\ntiktok / larissa2468_ / 粉丝 59785 / Mexico\n\n标签：游戏、科技、故事讲述、直播\n\n画像 content_direction：游戏、科技；仅为简介“Gaming + Tech”声明的方向，尚无实际帖子核验。；证据 b19bcf613b7b25c484e27069\n\n画像 presentation_style：故事讲述、直播；简介自述“Storyteller”，并列出“En vivo Jue, Vie, Sab”直播安排；未核验实际呈现。；证据 b19bcf613b7b25c484e27069\n\n画像 glasses：待核实；页面为空白，没有可用的本人影像。；证据 cae0dd67afbdf6275c162da4\n\n条件\t判断\t依据\n平台\t符合要求\t创作者平台：tiktok\n\n粉丝范围\t符合要求\tWaveSurge 粉丝数 59785，要求 10000–100000\nprofile 日期未知\n实际内容涉及数码产品或数码使用体验\t待核实\t简介自述“Gaming + Tech”，但主页持续空白，未取得实际帖子文字或影像，不能确认实际内容涉及数码产品或使用体验。\nprofile 日期未知\nbrowser_snapshot 日期未知\n个人博主账号，非品牌、公司或店铺官方账号\t符合要求\t简介以个人名号 Larissa2468 自称 Storyteller，并列个人直播安排及联系邮箱，支持个人创作者账号而非品牌、公司或店铺官方账号。\nprofile 日期未知\n男性身份有本人公开介绍或明确自述支持，不从外貌推断；没有证据则待核实\t待核实\t已有简介没有男性身份的本人公开介绍或明确自述；不能从名字推断性别。\nprofile 日期未知\n本人戴眼镜，须有可观察的本人影像证据，看不清则待核实\t待核实\t实际页面截图为空白，未取得可观察的本人影像，无法核验是否戴眼镜。\nbrowser_snapshot 日期未知\n完整证据映射与截图\nb19bcf613b7b25c484e27069 · profile\n原始来源\n\n提供方：wavesurge-pool · 捕获：2026-10-10T13:49:54.249Z · 发布时间：日期未知\n\nGaming + Tech | Storyteller \n🟣 Larissa2468 \nEn vivo Jue, Vie, Sab \n📩c***@gmail.com\n33ffef0ab3c31db40ac2eb53 · browser_snapshot\n原始来源\n\n提供方：headed-chromium · 捕获：2026-10-10T13:50:44.985Z · 发布时间：日期未知 · 截图编号：31534d0ff8b0900213a111990b158c5b950eb67812e29c91cece6292ddac76c1\n\nd4bdd57a2e211b3979673415 · browser_snapshot\n原始来源\n\n提供方：headed-chromium · 捕获：2026-10-10T13:50:48.000Z · 发布时间：日期未知 · 截图编号：31534d0ff8b0900213a111990b158c5b950eb67812e29c91cece6292ddac76c1\n\ncae0dd67afbdf6275c162da4 · browser_snapshot\n原始来源\n\n提供方：headed-chromium · 捕获：2026-10-10T13:51:08.887Z · 发布时间：日期未知 · 截图编号：31534d0ff8b0900213a111990b158c5b950eb67812e29c91cece6292ddac76c1"
+  },
+  "chatLinks": [
+    {
+      "label": "查看报告",
+      "href": "/api/reports/research-294320f8d1c060255d3310e8"
+    },
+    {
+      "label": "查看本次综合报告",
+      "href": "/api/work-batches/60770594-be94-4f4a-a79d-0de38d3fd1b6/report"
+    },
+    {
+      "label": "下载综合 CSV",
+      "href": "/api/work-batches/60770594-be94-4f4a-a79d-0de38d3fd1b6/report?format=csv"
+    },
+    {
+      "label": "查看报告",
+      "href": "/api/reports/research-abb4b5f8d3f19fb7de150e81"
+    },
+    {
+      "label": "查看本次综合报告",
+      "href": "/api/work-batches/4545918b-14f4-4fc3-a2d7-a2426b2e7579/report"
+    },
+    {
+      "label": "下载综合 CSV",
+      "href": "/api/work-batches/4545918b-14f4-4fc3-a2d7-a2426b2e7579/report?format=csv"
+    },
+    {
+      "label": "查看报告",
+      "href": "/api/reports/research-e0790a628a71f83e4ff8fbe1"
+    },
+    {
+      "label": "查看报告",
+      "href": "/api/reports/research-f966a5bcdb3279fda8313cc8"
+    },
+    {
+      "label": "查看本次综合报告",
+      "href": "/api/work-batches/65daf5d6-fa5b-46f3-8efc-f09180f70340/report"
+    },
+    {
+      "label": "下载综合 CSV",
+      "href": "/api/work-batches/65daf5d6-fa5b-46f3-8efc-f09180f70340/report?format=csv"
+    },
+    {
+      "label": "查看原结果报告",
+      "href": "/api/reports/research-294320f8d1c060255d3310e8"
+    },
+    {
+      "label": "查看报告",
+      "href": "/api/reports/research-294320f8d1c060255d3310e8"
+    },
+    {
+      "label": "查看报告",
+      "href": "/api/reports/research-7f22924e895fdf79bc9bfb73"
+    },
+    {
+      "label": "查看报告",
+      "href": "/api/reports/research-1c0a7ca9deb257bd0144ee1f"
+    },
+    {
+      "label": "查看本次综合报告",
+      "href": "/api/work-batches/ec514915-f6b2-4081-9fe9-43525119d6a4/report"
+    },
+    {
+      "label": "下载综合 CSV",
+      "href": "/api/work-batches/ec514915-f6b2-4081-9fe9-43525119d6a4/report?format=csv"
+    },
+    {
+      "label": "查看报告",
+      "href": "/api/reports/research-290c9d1e55ab57958eebf69f"
+    },
+    {
+      "label": "查看本次综合报告",
+      "href": "/api/work-batches/9037ad63-8ffb-4518-822a-75c099e0b835/report"
+    },
+    {
+      "label": "下载综合 CSV",
+      "href": "/api/work-batches/9037ad63-8ffb-4518-822a-75c099e0b835/report?format=csv"
+    }
+  ],
+  "gfmTables": 6,
+  "finishedAt": "2026-10-10T14:39:29.405Z"
+}

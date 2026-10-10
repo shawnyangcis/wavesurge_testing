@@ -1,0 +1,229 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Code coverage report for server/model.ts</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../prettify.css" />
+    <link rel="stylesheet" href="../base.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+    
+<body>
+<div class='wrapper'>
+    <div class='pad1'>
+        <h1><a href="../index.html">All files</a> / <a href="index.html">server</a> model.ts</h1>
+        <div class='clearfix'>
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Statements</span>
+                <span class='fraction'>50/50</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Branches</span>
+                <span class='fraction'>42/42</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Functions</span>
+                <span class='fraction'>8/8</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Lines</span>
+                <span class='fraction'>27/27</span>
+            </div>
+        
+            
+        </div>
+        <p class="quiet">
+            Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
+        </p>
+        <template id="filterTemplate">
+            <div class="quiet">
+                Filter:
+                <input type="search" id="fileSearch">
+            </div>
+        </template>
+    </div>
+    <div class='status-line high'></div>
+    <pre><table class="coverage">
+<tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
+<a name='L2'></a><a href='#L2'>2</a>
+<a name='L3'></a><a href='#L3'>3</a>
+<a name='L4'></a><a href='#L4'>4</a>
+<a name='L5'></a><a href='#L5'>5</a>
+<a name='L6'></a><a href='#L6'>6</a>
+<a name='L7'></a><a href='#L7'>7</a>
+<a name='L8'></a><a href='#L8'>8</a>
+<a name='L9'></a><a href='#L9'>9</a>
+<a name='L10'></a><a href='#L10'>10</a>
+<a name='L11'></a><a href='#L11'>11</a>
+<a name='L12'></a><a href='#L12'>12</a>
+<a name='L13'></a><a href='#L13'>13</a>
+<a name='L14'></a><a href='#L14'>14</a>
+<a name='L15'></a><a href='#L15'>15</a>
+<a name='L16'></a><a href='#L16'>16</a>
+<a name='L17'></a><a href='#L17'>17</a>
+<a name='L18'></a><a href='#L18'>18</a>
+<a name='L19'></a><a href='#L19'>19</a>
+<a name='L20'></a><a href='#L20'>20</a>
+<a name='L21'></a><a href='#L21'>21</a>
+<a name='L22'></a><a href='#L22'>22</a>
+<a name='L23'></a><a href='#L23'>23</a>
+<a name='L24'></a><a href='#L24'>24</a>
+<a name='L25'></a><a href='#L25'>25</a>
+<a name='L26'></a><a href='#L26'>26</a>
+<a name='L27'></a><a href='#L27'>27</a>
+<a name='L28'></a><a href='#L28'>28</a>
+<a name='L29'></a><a href='#L29'>29</a>
+<a name='L30'></a><a href='#L30'>30</a>
+<a name='L31'></a><a href='#L31'>31</a>
+<a name='L32'></a><a href='#L32'>32</a>
+<a name='L33'></a><a href='#L33'>33</a>
+<a name='L34'></a><a href='#L34'>34</a>
+<a name='L35'></a><a href='#L35'>35</a>
+<a name='L36'></a><a href='#L36'>36</a>
+<a name='L37'></a><a href='#L37'>37</a>
+<a name='L38'></a><a href='#L38'>38</a>
+<a name='L39'></a><a href='#L39'>39</a>
+<a name='L40'></a><a href='#L40'>40</a>
+<a name='L41'></a><a href='#L41'>41</a>
+<a name='L42'></a><a href='#L42'>42</a>
+<a name='L43'></a><a href='#L43'>43</a>
+<a name='L44'></a><a href='#L44'>44</a>
+<a name='L45'></a><a href='#L45'>45</a>
+<a name='L46'></a><a href='#L46'>46</a>
+<a name='L47'></a><a href='#L47'>47</a>
+<a name='L48'></a><a href='#L48'>48</a>
+<a name='L49'></a><a href='#L49'>49</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">19x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">16x</span>
+<span class="cline-any cline-yes">17x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">13x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">18x</span>
+<span class="cline-any cline-yes">18x</span>
+<span class="cline-any cline-yes">18x</span>
+<span class="cline-any cline-yes">18x</span>
+<span class="cline-any cline-yes">18x</span>
+<span class="cline-any cline-yes">18x</span>
+<span class="cline-any cline-yes">18x</span>
+<span class="cline-any cline-yes">17x</span>
+<span class="cline-any cline-yes">17x</span>
+<span class="cline-any cline-yes">15x</span>
+<span class="cline-any cline-yes">15x</span>
+<span class="cline-any cline-yes">18x</span>
+<span class="cline-any cline-yes">10x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">14x</span>
+<span class="cline-any cline-yes">18x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import type { Store } from './store.ts';
+import type { SettingsManager } from './settings.ts';
+export type Content = string | null | { type: 'text'; text: string }[] | ({ type: 'text'; text: string } | { type: 'image_url'; image_url: { url: string; detail?: 'high' } })[];
+export type ToolCall = { id: string; type: 'function'; function: { name: string; arguments: string } };
+export type ChatMessage = { role: 'system' | 'user' | 'assistant' | 'tool'; content: Content; tool_calls?: ToolCall[]; tool_call_id?: string };
+export type ToolDefinition = { type: 'function'; function: { name: string; description: string; parameters: object } };
+export type CallRecord = { id: string; kind: string; epoch: number; createdAt: number; revision: number; endpoint: string; request: object; response?: unknown; error?: string; finishedAt?: number };
+export type Model = { complete(messages: ChatMessage[], tools: ToolDefinition[], epoch: number, kind: string): Promise&lt;ChatMessage&gt; };
+export class ModelError extends Error {
+  status: number; retryAfterMs: number;
+  constructor(message: string, status: number, retryAfterMs = 1000) { super(message); this.status = status; this.retryAfterMs = retryAfterMs; }
+  retryable() { return this.status === 0 || this.status === 408 || this.status === 429 || this.status &gt;= 500; }
+}
+export class ModelClient implements Model {
+  store: Store; settings: SettingsManager; fetcher: typeof fetch; now: () =&gt; number; id: () =&gt; string;
+  constructor(store: Store, settings: SettingsManager, fetcher: typeof fetch, now: () =&gt; number, id: () =&gt; string) { this.store = store; this.settings = settings; this.fetcher = fetcher; this.now = now; this.id = id; }
+  async complete(messages: ChatMessage[], tools: ToolDefinition[], epoch: number, kind: string) {
+    for (let attempt = 0; ; attempt++) {
+      try { const answer = await this.request(messages, tools, epoch, kind); this.store.delete('model-retry', `${epoch}:${kind}`); return answer; }
+      catch (error) {
+        if (!(error instanceof ModelError) || !error.retryable() || !['chat', 'compression', 'candidate-selection'].includes(kind) || attempt &gt;= 2) { this.store.delete('model-retry', `${epoch}:${kind}`); throw error; }
+        const delay = Math.min(60000, Math.max(error.retryAfterMs, 1000 * 2 ** attempt));
+        this.store.set('model-retry', `${epoch}:${kind}`, { epoch, kind, attempt: attempt + 1, nextAt: this.now() + delay, status: 'waiting' });
+        await new Promise(resolve =&gt; setTimeout(resolve, delay));
+      }
+    }
+  }
+  async request(messages: ChatMessage[], tools: ToolDefinition[], epoch: number, kind: string) {
+    const config = this.settings.current(); const id = this.id();
+    const body = { model: config.modelId, messages, max_tokens: 4096, ...(tools.length ? { tools } : {}) };
+    const record: CallRecord = { id, kind, epoch, createdAt: this.now(), revision: config.revision, endpoint: this.settings.endpoint(), request: this.settings.redact(body) };
+    this.store.set('call', id, record);
+    let received = false;
+    try {
+      const response = await this.fetcher(record.endpoint, { method: 'POST', redirect: 'error', headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${config.apiKey}` }, body: JSON.stringify(body), signal: AbortSignal.timeout(120000) });
+      received = true;
+      if (!response.ok) throw new ModelError(`模型请求失败（${response.status}）`, response.status, Math.max(1000, Math.min(300000, Number(response.headers.get('Retry-After')) * 1000 || 1000)));
+      const result = await response.json(); record.response = this.settings.redact(result);
+      const message = result?.choices?.[0]?.message as ChatMessage | undefined;
+      if (!message || (typeof message.content !== 'string' &amp;&amp; message.content !== null) || (message.content === null &amp;&amp; !message.tool_calls?.length)) throw new Error('模型返回格式不正确');
+      if (message.tool_calls &amp;&amp; (!message.tool_calls.every(call =&gt; typeof call.id === 'string' &amp;&amp; call.id.length &gt; 0 &amp;&amp; call.type === 'function' &amp;&amp; typeof call.function?.name === 'string' &amp;&amp; typeof call.function.arguments === 'string') || new Set(message.tool_calls.map(call =&gt; call.id)).size !== message.tool_calls.length)) throw new Error('模型工具调用格式不正确');
+      const answer: ChatMessage = { role: 'assistant', content: message.content };
+      if (message.tool_calls?.length) answer.tool_calls = message.tool_calls;
+      return answer;
+    } catch (error) { record.error = this.settings.redact((error as Error).message); throw new ModelError(record.error, error instanceof ModelError ? error.status : received ? 400 : 0, error instanceof ModelError ? error.retryAfterMs : 1000); }
+    finally { record.finishedAt = this.now(); this.store.set('call', id, record); }
+  }
+}
+&nbsp;</pre></td></tr></table></pre>
+
+                <div class='push'></div><!-- for sticky footer -->
+            </div><!-- /wrapper -->
+            <div class='footer quiet pad2 space-top1 center small'>
+                Code coverage generated by
+                <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
+                at 2026-10-10T13:29:51.355Z
+            </div>
+        <script src="../prettify.js"></script>
+        <script>
+            window.onload = function () {
+                prettyPrint();
+            };
+        </script>
+        <script src="../sorter.js"></script>
+        <script src="../block-navigation.js"></script>
+    </body>
+</html>
+    

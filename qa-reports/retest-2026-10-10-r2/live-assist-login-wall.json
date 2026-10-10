@@ -1,0 +1,7 @@
+{
+  "at": "2026-10-10T07:13:31.225Z",
+  "scope": "live",
+  "actions": [],
+  "before": "BROWSER / ASSISTANCE\n浏览器桌面\n关闭\n\n默认只读。需要协助时，可在同一个浏览器完成登录或验证；不要将密码发到对话中。交还前请打开可核验的公开页面。\n\n原候选：instagram:geekderella\n\n访问 @geekderella 主页被重定向至 Instagram 登录页，无法看到本人主页或帖子。请通过同一 noVNC 桌面协助完成登录；当前暂停核验。现有简介不足以确认个人 KOC、白人本人自述、佩戴眼镜或 geek 风格，登录页宣传图不能作为该创作者证据。\n\n工作编号：research-90121727019a7e5d682f5a65接管并协助\n重新连接桌面",
+  "error": "Error: expect(locator).toContainText(expected) failed\n\nLocator: locator('iframe[title=\"持久浏览器桌面\"]').contentFrame().locator('#noVNC_status')\nExpected pattern: /Connected|connected|已连接/\nReceived string:  \"\"\nTimeout: 60000ms\n\nCall log:\n  - Expect \"toContainText\" locator('iframe[title=\"持久浏览器桌面\"]').contentFrame().locator('#noVNC_status') with timeout 60000ms\n  - waiting for locator('iframe[title=\"持久浏览器桌面\"]').contentFrame().locator('#noVNC_status')\n    82 × locator resolved to <div id=\"noVNC_status\"></div>\n       - unexpected value \"\"\n"
+}

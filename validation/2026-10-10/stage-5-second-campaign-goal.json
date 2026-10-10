@@ -1,0 +1,102 @@
+{
+  "source": "actual configured model; independent AI note-taking objective; interactive clarification; persisted draft; no external search",
+  "question": "明白，这是一个**独立的 AI 笔记应用 Campaign**，不沿用降噪耳机的筛选条件，暂时不启动任何研究。\n\n已确认：产品是 AI 笔记应用，目标受众是大学生，使用场景是课堂整理与考试复习，希望推动试用。先请你补充以下必要信息：\n\n1. **产品与试用方式**：核心功能是什么（如录音转写、笔记总结、生成复习题）？支持哪些语言？学生能否免费试用？\n2. **目标市场与平台**：希望触达哪些国家或地区的大学生？创作者所在地区是否也有限制？想在哪些平台推广，还是希望我建议？\n3. **筛选规模**：希望最终筛选多少位创作者？粉丝量范围、最多核验的候选人数是否有要求？尚未确定的话，我可以先建议。\n4. **效果与必选条件**：主要关注注册试用人数，还是也希望提升产品认知？对创作者是否有必选要求，例如本人在校、持续分享学习内容或能演示应用？\n\n你可以只回答已确定的部分；其余我会标为待讨论，再据此提出创作者类型与人数分配方案。",
+  "plan": {
+    "title": "AI笔记 Campaign 目标验证 1791575156045",
+    "goal": "推广 AI 笔记应用，让大学生在课堂笔记整理与考试复习场景中试用。筛选2位不同账号，两个互补类型各1位，每组最多核验2个返回候选，总候选预算4。仅保存草案，不启动研究。基于公开文字内容筛选，不推断真实学生身份；产品具体功能与试用机制尚未确认，不擅自添加要求。",
+    "audience": "英文内容面向大学生的课堂整理与考试复习场景；Creator 所在国家限定 United States 或 United Kingdom，不将创作者所在地等同于受众所在地。",
+    "groups": [
+      {
+        "id": "study_revision",
+        "rationale": "通过学习方法、笔记整理或考试复习内容，把 AI 笔记应用放入大学生熟悉的使用场景，帮助受众理解课堂资料如何用于后续复习并产生试用兴趣；不要求或推断创作者本人是学生。",
+        "spec": {
+          "title": "学习方法与复习内容创作者",
+          "personaText": "study techniques, note-taking and exam revision creators",
+          "count": 1,
+          "platforms": [
+            "youtube",
+            "tiktok"
+          ],
+          "regions": [
+            "United States",
+            "United Kingdom"
+          ],
+          "minFollowers": 10000,
+          "maxFollowers": 100000,
+          "candidateBudget": 2,
+          "criteria": [
+            {
+              "id": "english_content",
+              "label": "公开内容使用英文",
+              "required": true,
+              "basis": "text"
+            },
+            {
+              "id": "study_revision_content",
+              "label": "公开文字内容明确分享学习方法、课堂笔记整理或考试复习技巧，至少涉及其中一种场景",
+              "required": true,
+              "basis": "text"
+            }
+          ]
+        },
+        "matched": 0,
+        "eligible": 0
+      },
+      {
+        "id": "ai_productivity",
+        "rationale": "通过 AI 工具或数字效率应用的讲解与评测，帮助受众理解应用用途与使用方式；与学习场景型创作者互补，支持从用途认知到试用的转化。不要求评测过本应用或尚未确认的具体功能。",
+        "spec": {
+          "title": "AI与数字学习效率工具创作者",
+          "personaText": "AI tools and digital productivity creators for learning and note-taking",
+          "count": 1,
+          "platforms": [
+            "youtube",
+            "tiktok"
+          ],
+          "regions": [
+            "United States",
+            "United Kingdom"
+          ],
+          "minFollowers": 10000,
+          "maxFollowers": 100000,
+          "candidateBudget": 2,
+          "criteria": [
+            {
+              "id": "english_content",
+              "label": "公开内容使用英文",
+              "required": true,
+              "basis": "text"
+            },
+            {
+              "id": "ai_productivity_content",
+              "label": "公开文字内容明确讲解或评测 AI 工具或数字效率应用",
+              "required": true,
+              "basis": "text"
+            },
+            {
+              "id": "learning_notetaking_use",
+              "label": "公开文字内容明确将工具应用于学习、笔记整理或复习用途，至少涉及其中一种用途",
+              "required": true,
+              "basis": "text"
+            }
+          ]
+        },
+        "matched": 0,
+        "eligible": 0
+      }
+    ],
+    "id": "campaign-45f58b48a20c7a2ab5f06606",
+    "revision": 1,
+    "childTaskIds": [],
+    "createdAt": 1791575182150,
+    "updatedAt": 1791575182150,
+    "status": "draft",
+    "requested": 2,
+    "matched": 0,
+    "qualifyingUnique": 0,
+    "evaluated": 0,
+    "selections": [],
+    "reportUrl": "/api/campaigns/campaign-45f58b48a20c7a2ab5f06606/report",
+    "results": []
+  }
+}

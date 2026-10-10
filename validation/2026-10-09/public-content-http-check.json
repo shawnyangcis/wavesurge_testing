@@ -1,0 +1,29 @@
+{
+  "atUtc": "2026-10-09T15:32:01.699229+00:00",
+  "authenticationSent": false,
+  "records": [
+    {
+      "kind": "profile",
+      "url": "https://www.instagram.com/mikebanh_/",
+      "finalUrl": "https://www.instagram.com/mikebanh_/",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=\"utf-8\"",
+      "bytesRead": 600000,
+      "title": "mike.banh (&#064;mikebanh_) • Instagram photos and videos",
+      "hasLoginMarker": true,
+      "bodyTruncated": true
+    },
+    {
+      "kind": "post",
+      "url": "https://www.instagram.com/reel/DdoxusdytNc/",
+      "finalUrl": "https://www.instagram.com/reel/DdoxusdytNc/",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=\"utf-8\"",
+      "bytesRead": 600000,
+      "title": "Instagram",
+      "hasLoginMarker": false,
+      "bodyTruncated": true
+    }
+  ],
+  "interpretation": "HTTP or login markers alone do not establish whether a JS browser can retrieve actual post media."
+}

@@ -1,0 +1,341 @@
+{
+  "round": "final-2026-10-11",
+  "scope": "autonomous; human takeover excluded",
+  "cases": [
+    {
+      "id": "T01",
+      "title": "自然语言与原题混合条件",
+      "steps": "输入原题；澄清 geek、自述、个人KOC口径；限定两个真实账号，目标/预算保留20，使用文字资料。",
+      "expected": "数量、平台、粉丝及硬条件分别保存；两人均核验；缺证待核实；不伪造20位正例。",
+      "evidenceKey": "additional-live",
+      "status": "passed",
+      "actual": "原题经自然澄清保存20人目标；限定2账号实际核验2人，均待核实，入选0、缺额20。"
+    },
+    {
+      "id": "T02",
+      "title": "分析预算与入选配额",
+      "steps": "一条自然消息登记三项独立研究；每组两人全部分析，最终选一位。",
+      "expected": "3项任务、6条核验、2个去重账号；每组2合格/1入选/0缺额。",
+      "evidenceKey": "real-workflows",
+      "status": "passed",
+      "actual": "3项独立研究完整核验6条/2账号，每组2合格、1入选；均通过。"
+    },
+    {
+      "id": "T03",
+      "title": "真实 Instagram 获取",
+      "steps": "对指定两位账号启动新研究和两组 Campaign，核对 Wave 调用日志。",
+      "expected": "实际 token 对实际接口 GET 获取基础资料、帖子与详情；不是只返回列表。",
+      "evidenceKey": "real-workflows",
+      "status": "passed",
+      "actual": "本轮真实Wave共64次GET，全部HTTP200；新研究使用当前原始数据链路。"
+    },
+    {
+      "id": "T04",
+      "title": "Instagram 关键词/分页/单帖",
+      "steps": "新部署运行 qa-instagram 浏览器场景。",
+      "expected": "v3搜索、详情、两页帖子、单帖均按GET执行；大整数ID和分页令牌保留。",
+      "evidenceKey": "acceptance",
+      "status": "passed",
+      "actual": "全新Docker的5次Instagram GET、分页及大整数身份检查通过。"
+    },
+    {
+      "id": "T05",
+      "title": "YouTube/TikTok/X 有界来源",
+      "steps": "自然语言分别启动三个平台文字研究，每项分析1人并标内容方向。",
+      "expected": "各平台读取已有名单；基于实际来源完成或交付失败/缺额；整批一次报告。",
+      "evidenceKey": "additional-live",
+      "status": "passed",
+      "actual": "YouTube、TikTok、X各读取500条有界资料并实际分析/标注1位，三项均完成。"
+    },
+    {
+      "id": "T06",
+      "title": "逐人模型分析与实际画像",
+      "steps": "读取新研究的调用、工具回执与结果；展开两位的条件和标签。",
+      "expected": "每位实际submit_judgments，保存逐条件理由/引用与独立annotations；真实值进入tags。",
+      "evidenceKey": "real-workflows",
+      "status": "passed",
+      "actual": "15条真实核验记录保存判断、理由、引用及实际画像；不是仅返回候选列表。"
+    },
+    {
+      "id": "T07",
+      "title": "视觉条件与图像证据",
+      "steps": "运行真实配置模型、生产有头浏览器及受控公开耳机照片。",
+      "expected": "观察实际像素，视觉条件引用保存截图；HTML可离线查看；无人工操作。",
+      "evidenceKey": "acceptance",
+      "status": "passed",
+      "actual": "真实模型观察受控耳机照片并保存截图，视觉条件通过，HTML嵌入PNG。"
+    },
+    {
+      "id": "T08",
+      "title": "未知与不符合分开",
+      "steps": "检查原题缺证记录及受控学习效率组的一位不匹配候选。",
+      "expected": "未知不成为肯定标签或入选；不符合单独保存；缺额不补成合格。",
+      "evidenceKey": "document-validation",
+      "status": "passed",
+      "actual": "真实原题两条unknown不入选；受控Campaign保留不符合记录。"
+    },
+    {
+      "id": "T09",
+      "title": "硬条件与偏好",
+      "steps": "YouTube科技必选，geek文字自述仅偏好；两位均核验。",
+      "expected": "两位可同时合格；偏好影响最终入选，未满足偏好不把合格备选改成不符合。",
+      "evidenceKey": "acceptance",
+      "status": "passed",
+      "actual": "两位科技候选均合格；geek文字自述偏好改变入选而不改合格备选。"
+    },
+    {
+      "id": "T10",
+      "title": "全部记录补标",
+      "steps": "自然要求三组全部6条、含备选和同账号跨组记录补内容使用场景。",
+      "expected": "6条均新增画像和版本；原事实/判断/入选不变；0新Wave调用；1综合交付。",
+      "evidenceKey": "real-workflows",
+      "status": "passed",
+      "actual": "6条全部新增画像/版本，原creator、judgments、selected和原画像逐项相等；新增Wave0。"
+    },
+    {
+      "id": "T11",
+      "title": "已有结果重新核验",
+      "steps": "自然要求重新打开两位本人主页，按原条件复核。",
+      "expected": "本轮新观察/截图、版本更新、旧版本保存；不重新发现候选。",
+      "evidenceKey": "reverify-new",
+      "status": "passed",
+      "actual": "两位均取得本轮本人主页观察及截图，版本1→2、旧版本保留、新增Wave0。"
+    },
+    {
+      "id": "T12",
+      "title": "整批完成后一次交付",
+      "steps": "对多研究、多补标和Campaign核对终态时间与消息时间。",
+      "expected": "登记封口且全部工作终态后才交付；最终报告不按每位候选分别上报。",
+      "evidenceKey": "real-workflows",
+      "status": "passed",
+      "actual": "研究、补标、Campaign各只交付一次；交付时间均不早于末项结束/结果写入。"
+    },
+    {
+      "id": "T13",
+      "title": "DOC04结构化正向文档",
+      "steps": "聊天打开报告，核对DOM、保存结果并实际下载解析CSV。",
+      "expected": "清单、逐条件状态/理由、画像/标签/引用、来源/分组、入选均齐全；25列可解析。",
+      "evidenceKey": "document-validation",
+      "status": "passed",
+      "actual": "11组文档完成320项显式字段/统计/归属比对，全部通过；CSV每行25列。"
+    },
+    {
+      "id": "T14",
+      "title": "DOC04空/未知文档",
+      "steps": "检查零合格研究、空候选及筛选空集的HTML与CSV。",
+      "expected": "空清单保持结构、表头和真实缺额；筛选不修改研究整体统计。",
+      "evidenceKey": "document-validation",
+      "status": "passed",
+      "actual": "另一个真实空候选场景为0条，缺额1，CSV保留25列表头；原题未知及筛选空集均验证。"
+    },
+    {
+      "id": "T15",
+      "title": "F30合格与入选统计",
+      "steps": "两位合格选一位，分别检查聊天、HTML、API、CSV。",
+      "expected": "合格候选2人、最终入选1人、缺额0；备选保留。",
+      "evidenceKey": "document-validation",
+      "status": "passed",
+      "actual": "正向单组始终显示2合格、1入选、0缺额；备选保留。"
+    },
+    {
+      "id": "T16",
+      "title": "F31归属与计数单位",
+      "steps": "三组同两人，及三项全记录补标的综合HTML/CSV逐条检查。",
+      "expected": "6记录/2账号；每条任务/分组来源完整；各组名额及去重人数分开。",
+      "evidenceKey": "document-validation",
+      "status": "passed",
+      "actual": "三组及六条补标各显示6记录/2账号，全部记录任务与分组来源可追踪。"
+    },
+    {
+      "id": "T17",
+      "title": "F32Campaign逐人说明",
+      "steps": "从聊天打开Campaign总文档，检查每位入选者的条件、理由和画像。",
+      "expected": "总文档直接含逐人说明、实际标签和引用，不依赖读者自行推断原始帖子。",
+      "evidenceKey": "document-validation",
+      "status": "passed",
+      "actual": "Campaign总报告直接呈现每位条件、状态、理由、标签、画像及来源。"
+    },
+    {
+      "id": "T18",
+      "title": "F29Campaign分配一致",
+      "steps": "重叠候选两组各一配额，逐一核对总/子/API/弹窗/CSV/Agent查询。",
+      "expected": "2个不同账号；各视图使用同一最终分配；原预选作为审计保留。",
+      "evidenceKey": "document-validation",
+      "status": "passed",
+      "actual": "总/子/API/CSV/弹窗/实际Agent查询使用相同2账号分配，原预选审计保留。"
+    },
+    {
+      "id": "T19",
+      "title": "F26粉丝证据引用",
+      "steps": "当前生产路由加载历史反例的私有副本，执行定向引用修复并打开报告。",
+      "expected": "287引用缩为对应数值来源1条；原288条资料保留；结论不改变。",
+      "evidenceKey": "regression-c-browser",
+      "status": "passed",
+      "actual": "同历史反例287引用→1，全部288条原资料保留；当前浏览器数值行可读。"
+    },
+    {
+      "id": "T20",
+      "title": "F27肯定/否定标签",
+      "steps": "结果界面查询戴眼镜，先默认精确，再切换显式文字包含。",
+      "expected": "精确0条，不命中不戴眼镜；包含模式1条且界面说明；导出范围同步。",
+      "evidenceKey": "regression-c-browser",
+      "status": "passed",
+      "actual": "戴眼镜精确0、显式包含命中不戴眼镜1；真实自然查询科技精确2、包含11，工具模式正确。"
+    },
+    {
+      "id": "T21",
+      "title": "F28迟到响应",
+      "steps": "分别延迟初始请求、上一条查询；新查询完成后释放原响应，下载CSV。",
+      "expected": "两种乱序均保持新结果1条及新导出范围；不改原响应内容。",
+      "evidenceKey": "regression-c-browser",
+      "status": "passed",
+      "actual": "初始及上一查询的真实迟到响应均未覆盖新范围；下载均为新查询1行。"
+    },
+    {
+      "id": "T22",
+      "title": "Campaign目标与修订",
+      "steps": "从智能设备认知目标开始，交互形成两种类型并补充目标保存新版。",
+      "expected": "草案含不同类型理由/范围/配额；修订至v2，确认前无搜索和子任务。",
+      "evidenceKey": "real-workflows",
+      "status": "passed",
+      "actual": "从营销目标形成两种类型草案，修订至v2，确认前无子任务/新Wave。"
+    },
+    {
+      "id": "T23",
+      "title": "Campaign确认与幂等",
+      "steps": "提交旧版本启动；在方案页确认v2；重复当前版本启动。",
+      "expected": "旧版本409；确认后登记两项；重复启动复用原任务；终态后1综合报告。",
+      "evidenceKey": "real-workflows",
+      "status": "passed",
+      "actual": "旧版启动409；v2页面确认后登记2项；重复启动返回相同子任务。"
+    },
+    {
+      "id": "T24",
+      "title": "持续消息/取消/幂等",
+      "steps": "活动研究中连续发送取消、旧结果查询、保持停止；重复消息ID。",
+      "expected": "取消正确任务；旧结果保留；无迟到写入；同内容200、冲突409且不重执行。",
+      "evidenceKey": "interaction-regressions",
+      "status": "passed",
+      "actual": "活动消息全部接收；正确取消、旧结果保留、无迟到写入；同ID同文200、冲突409。"
+    },
+    {
+      "id": "T25",
+      "title": "活动任务清空/载入",
+      "steps": "登记未封口时通过设置页清空/载入，然后等待后台结束与重启。",
+      "expected": "后台任务保留；批次封口；当前epoch一次报告，说明尚未登记事项未执行。",
+      "evidenceKey": "context-browser",
+      "status": "passed",
+      "actual": "在未封口登记期间分别清空/载入；原任务继续，当前epoch各交付1次；重启无重放。"
+    },
+    {
+      "id": "T26",
+      "title": "模型/提示词设置",
+      "steps": "不更新Key保存设置；非法阈值；保存提示词标记后实际问候，再恢复。",
+      "expected": "Key保留；非法阈值拒绝；下一次模型请求及回复使用新提示词；恢复成功。",
+      "evidenceKey": "extended-ui",
+      "status": "passed",
+      "actual": "留空Key保留凭据，1999阈值拒绝；真实模型请求/答复使用新提示词后恢复。"
+    },
+    {
+      "id": "T27",
+      "title": "参考图片对话",
+      "steps": "上传/移除图片，再发送色块参考图且明确不搜索。",
+      "expected": "真实模型读取图片；附件及回复保存；无额外研究或Wave调用。",
+      "evidenceKey": "foundation-ui",
+      "status": "passed",
+      "actual": "参考图片上传、移除、实际图像答复与附件持久化通过，无新Wave。"
+    },
+    {
+      "id": "T28",
+      "title": "备份与非法载入",
+      "steps": "实际下载JSON，提交非法JSON，再加载有效备份。",
+      "expected": "可解析；非法载入拒绝；有效载入保留任务/结果且不重放工具。",
+      "evidenceKey": "foundation-ui",
+      "status": "passed",
+      "actual": "实际备份JSON可解析；非法JSON拒绝；有效载入不重放历史工具。"
+    },
+    {
+      "id": "T29",
+      "title": "历史压缩",
+      "steps": "对已有完整研究对话点击压缩，再刷新。",
+      "expected": "实际模型生成非空摘要；最新用户留在边界外；原消息/任务保留；无搜索重放。",
+      "evidenceKey": "compression-populated",
+      "status": "passed",
+      "actual": "实际压缩非空摘要，最新用户在边界之外；消息与任务保留，刷新一致。"
+    },
+    {
+      "id": "T30",
+      "title": "认证和输入边界",
+      "steps": "错误登录/退出；11个未认证路由；跨Origin写入和非法消息/图片。",
+      "expected": "401/403/400按约束返回；缺对象404；状态不被非法请求改变。",
+      "evidenceKey": "extended-ui",
+      "status": "passed",
+      "actual": "11未认证路径401、跨Origin403、4类非法输入400、缺对象404，均符合契约。"
+    },
+    {
+      "id": "T31",
+      "title": "消息时间与设置界面",
+      "steps": "核对用户/回复/自动报告time元素，刷新；打开设置。",
+      "expected": "原createdAt按本地时区显示至秒，刷新不改；设置无调用记录展示。",
+      "evidenceKey": "submission-ui",
+      "status": "passed",
+      "actual": "真实验收与主部署用户/助手/自动报告原时间精确到秒，刷新不改；设置页无调用记录。"
+    },
+    {
+      "id": "T32",
+      "title": "响应布局与报告链接",
+      "steps": "1440/768/375浏览器打开正向、分组、Campaign、空文档及结果界面。",
+      "expected": "页面无正文横向溢出；条件、状态、理由可读；Chat链接可打开。",
+      "evidenceKey": "document-validation",
+      "status": "passed",
+      "actual": "报告1440/768/375和应用375无横向溢出，实际Chat链接/下载可用。"
+    },
+    {
+      "id": "T33",
+      "title": "最终重启与持久性",
+      "steps": "所有任务终态后普通重启自有app/desktop，重新打开文档/结果。",
+      "expected": "结果、标签、版本、分配及消息保留；0新增Wave/模型调用；报告不重发。",
+      "evidenceKey": "restart-final",
+      "status": "passed",
+      "actual": "两套自有app/desktop正常重启：13/11任务、15/14结果及历史等内容哈希不变，0额外Wave/模型和重复报告。"
+    },
+    {
+      "id": "T34",
+      "title": "临时/永久模型错误",
+      "steps": "隔离代理仅注入一次408至会话、候选排序、核验；会话另注入400。",
+      "expected": "408重试原工作并成功，400不无限重试且真实错误可见；配置恢复。",
+      "evidenceKey": "fault-ui",
+      "status": "passed",
+      "actual": "3种408均原工作2次尝试408→200；400仅1次并可见；原模型地址恢复。"
+    },
+    {
+      "id": "T35",
+      "title": "构建与自动化",
+      "steps": "类型检查、Vite构建、完整Vitest覆盖率。",
+      "expected": "全部通过；源码行/分支/函数/语句按既有逐文件门槛100%。",
+      "evidenceKey": "automation-summary",
+      "status": "passed",
+      "actual": "默认命令限制4 worker后242/242、32文件通过；四项覆盖率100%，类型与构建通过。"
+    },
+    {
+      "id": "T36",
+      "title": "提交文档与文件整理",
+      "steps": "核对README、架构、设计/测试入口、相对链接、忽略规则和公开证据。",
+      "expected": "入口完整、链接可用、源码版本一致、凭据/数据库/临时材料不进入提交文件。",
+      "evidenceKey": "submission-check",
+      "status": "passed",
+      "actual": "8份入口文档242个相对链接均存在；14条忽略/保留规则通过；完整提交包源码59文件一致、83截图哈希一致、无数据库/私有追踪/已知凭据。"
+    },
+    {
+      "id": "T37",
+      "title": "F33重新核验后的源任务说明一致性",
+      "steps": "从两位待核实的文字研究重新访问本人主页核验，查看原任务卡与更新报告。",
+      "expected": "原任务status、合格/入选数及detail描述一致；旧0/1应更新为当前1/1。",
+      "actual": "status=completed、qualifying=2、matched=1，CSV入选1；任务卡与报告正文detail仍为已选合格0/1。",
+      "evidenceKey": "reverify-description",
+      "status": "failed",
+      "priority": "P2",
+      "impact": "文案误导；实际判断、名单、CSV与新研究/Campaign核心流程正确。"
+    }
+  ]
+}

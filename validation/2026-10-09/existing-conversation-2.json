@@ -1,0 +1,1269 @@
+{
+  "atUtc": "2026-10-09T14:18:58.747506+00:00",
+  "method": "GET",
+  "path": "/codex-chat/conversations/2ae8fc20-fec5-426d-8833-be447af7a463",
+  "status": 200,
+  "elapsedSeconds": 0.71,
+  "contentType": "application/json; charset=utf-8",
+  "responseSha256": "8fff81dbff7e47dc9b2c633d04d5627d566d29f3fc933bde0de0d55033b97d08",
+  "response": {
+    "id": "2ae8fc20-fec5-426d-8833-be447af7a463",
+    "title": "New conversation",
+    "campaignId": null,
+    "messages": [
+      {
+        "id": "fbec1606-085a-4e16-aa5e-cb1d25a562d4:user",
+        "role": "user",
+        "text": "I want to run a creator marketing campaign. What can you help me with, and what do you need from me to start?",
+        "createdAt": "2026-10-09T09:41:03.632Z"
+      },
+      {
+        "id": "fbec1606-085a-4e16-aa5e-cb1d25a562d4:question:0",
+        "role": "assistant",
+        "text": "你想在哪些平台找创作者？",
+        "createdAt": "2026-10-09T09:51:20.012Z"
+      },
+      {
+        "id": "fbec1606-085a-4e16-aa5e-cb1d25a562d4:answer:0",
+        "role": "user",
+        "text": "平台: —",
+        "createdAt": "2026-10-09T09:51:20.012Z"
+      },
+      {
+        "id": "fbec1606-085a-4e16-aa5e-cb1d25a562d4:assistant",
+        "role": "assistant",
+        "text": "我可以帮你梳理营销目标和受众、制定创作者筛选条件、寻找创作者，也可以准备策略或竞品报告；找创作者是主要下一步，报告是可选的。\n\n目前还没有活动要求。要开始规划，请告诉我：\n\n- 品牌或产品是什么？有网站的话请发链接。\n- 这次主要想达成什么，以及想触达哪些人、哪些地区？\n- 平台还没确定的话，我先按“待定”处理；你也可以告诉我偏好的平台。",
+        "createdAt": "2026-10-09T09:51:20.012Z"
+      }
+    ],
+    "permissions": {
+      "view": true,
+      "manage": true,
+      "owner": true,
+      "canChat": true,
+      "canSaveBrief": true,
+      "canRunPaidOperation": true
+    },
+    "briefRevision": 0,
+    "brief": {},
+    "briefView": {
+      "en": {
+        "locale": "en",
+        "filledFields": 0,
+        "totalFields": 48,
+        "creatorSearch": {
+          "creatorLocations": [],
+          "audienceLocations": [],
+          "audienceLocationMinShare": null,
+          "audienceLocationApplied": false,
+          "platformCounts": {}
+        },
+        "groups": [
+          {
+            "id": "desired_change",
+            "label": "Goals and desired change",
+            "filledFields": 0,
+            "totalFields": 10,
+            "fields": [
+              {
+                "id": "A01",
+                "label": "Brand and product",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "A02",
+                "label": "Business context",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "A03",
+                "label": "Campaign type",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "A04",
+                "label": "Primary goal",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "A05",
+                "label": "Secondary goals",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "A06",
+                "label": "Desired change",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "A07",
+                "label": "Success definition",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "A08",
+                "label": "Current barriers",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "A09",
+                "label": "Approval owners",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": false
+              },
+              {
+                "id": "A10",
+                "label": "Prior learnings",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              }
+            ]
+          },
+          {
+            "id": "audience",
+            "label": "Audience",
+            "filledFields": 0,
+            "totalFields": 5,
+            "fields": [
+              {
+                "id": "B01",
+                "label": "Target market",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "B02",
+                "label": "Audience profile",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "B03",
+                "label": "Use cases",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "B04",
+                "label": "Needs and motivations",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "B05",
+                "label": "Conversion barriers",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              }
+            ]
+          },
+          {
+            "id": "product_value",
+            "label": "Product and value",
+            "filledFields": 0,
+            "totalFields": 5,
+            "fields": [
+              {
+                "id": "B06",
+                "label": "Message hierarchy",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "B07",
+                "label": "Claim evidence",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "B08",
+                "label": "Alternatives",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "B09",
+                "label": "Product offer",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "B10",
+                "label": "CTA destination",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              }
+            ]
+          },
+          {
+            "id": "budget_timing",
+            "label": "Budget and timing",
+            "filledFields": 0,
+            "totalFields": 10,
+            "fields": [
+              {
+                "id": "C01",
+                "label": "Overall marketing budget",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "C02",
+                "label": "Creator budget",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "C03",
+                "label": "Creator budget basis",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "C04",
+                "label": "Schedule",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "C05",
+                "label": "Platform scope",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "C06",
+                "label": "Deliverable scope",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "C07",
+                "label": "Compensation",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "C08",
+                "label": "Fulfillment",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "C09",
+                "label": "Usage rights",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "C10",
+                "label": "Negotiation policy",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": false
+              }
+            ]
+          },
+          {
+            "id": "expression",
+            "label": "Expression and boundaries",
+            "filledFields": 0,
+            "totalFields": 9,
+            "fields": [
+              {
+                "id": "D01",
+                "label": "Brand voice",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "D02",
+                "label": "Positive references",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "D03",
+                "label": "Negative references",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "D04",
+                "label": "Mandatory messages",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "D05",
+                "label": "Prohibited content",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "D06",
+                "label": "Creative freedom",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "D07",
+                "label": "Asset library",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "D08",
+                "label": "Review process",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "D09",
+                "label": "Disclosure requirements",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              }
+            ]
+          },
+          {
+            "id": "measurement",
+            "label": "Measurement and review",
+            "filledFields": 0,
+            "totalFields": 9,
+            "fields": [
+              {
+                "id": "E01",
+                "label": "Marketing plan",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "E02",
+                "label": "Historical metrics",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "E03",
+                "label": "Without-campaign baseline",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "E04",
+                "label": "Measurement window",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "E05",
+                "label": "Tracking setup",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "E06",
+                "label": "Conversion event",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "E07",
+                "label": "Brand outcomes",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "E08",
+                "label": "Attribution limits",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "E09",
+                "label": "Client evaluation",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              }
+            ]
+          }
+        ]
+      },
+      "zh": {
+        "locale": "zh",
+        "filledFields": 0,
+        "totalFields": 48,
+        "creatorSearch": {
+          "creatorLocations": [],
+          "audienceLocations": [],
+          "audienceLocationMinShare": null,
+          "audienceLocationApplied": false,
+          "platformCounts": {}
+        },
+        "groups": [
+          {
+            "id": "desired_change",
+            "label": "目标与期望变化",
+            "filledFields": 0,
+            "totalFields": 10,
+            "fields": [
+              {
+                "id": "A01",
+                "label": "品牌与产品",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "A02",
+                "label": "业务背景",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "A03",
+                "label": "项目类型",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "A04",
+                "label": "首要目标",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "A05",
+                "label": "次要目标",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "A06",
+                "label": "期望变化",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "A07",
+                "label": "成功标准",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "A08",
+                "label": "当前瓶颈",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "A09",
+                "label": "审批责任人",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": false
+              },
+              {
+                "id": "A10",
+                "label": "历史经验",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              }
+            ]
+          },
+          {
+            "id": "audience",
+            "label": "受众",
+            "filledFields": 0,
+            "totalFields": 5,
+            "fields": [
+              {
+                "id": "B01",
+                "label": "目标市场",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "B02",
+                "label": "核心人群",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "B03",
+                "label": "使用场景",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "B04",
+                "label": "需求与动机",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "B05",
+                "label": "行动阻碍",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              }
+            ]
+          },
+          {
+            "id": "product_value",
+            "label": "产品与价值",
+            "filledFields": 0,
+            "totalFields": 5,
+            "fields": [
+              {
+                "id": "B06",
+                "label": "优先主张",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "B07",
+                "label": "主张证据",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "B08",
+                "label": "竞品与替代",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "B09",
+                "label": "产品与优惠条件",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "B10",
+                "label": "行动路径",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              }
+            ]
+          },
+          {
+            "id": "budget_timing",
+            "label": "预算与时间",
+            "filledFields": 0,
+            "totalFields": 10,
+            "fields": [
+              {
+                "id": "C01",
+                "label": "总营销预算",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "C02",
+                "label": "达人预算",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "C03",
+                "label": "单人预算基准",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "C04",
+                "label": "时间节奏",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "C05",
+                "label": "平台与人数",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "C06",
+                "label": "交付范围",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "C07",
+                "label": "报酬方式",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "C08",
+                "label": "寄样与履约",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "C09",
+                "label": "内容权益",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "C10",
+                "label": "谈判权限",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": false
+              }
+            ]
+          },
+          {
+            "id": "expression",
+            "label": "表达与边界",
+            "filledFields": 0,
+            "totalFields": 9,
+            "fields": [
+              {
+                "id": "D01",
+                "label": "品牌语气",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "D02",
+                "label": "正面参考",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "D03",
+                "label": "反面参考",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "D04",
+                "label": "必讲信息",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "D05",
+                "label": "禁止内容",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "D06",
+                "label": "创作自由度",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "D07",
+                "label": "素材库",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "D08",
+                "label": "审核与返工",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "D09",
+                "label": "披露要求",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              }
+            ]
+          },
+          {
+            "id": "measurement",
+            "label": "衡量与复盘",
+            "filledFields": 0,
+            "totalFields": 9,
+            "fields": [
+              {
+                "id": "E01",
+                "label": "整体营销计划",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "E02",
+                "label": "历史表现",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "E03",
+                "label": "无达人基线",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "E04",
+                "label": "观察窗口",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "E05",
+                "label": "追踪方式",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "E06",
+                "label": "转化事件",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "E07",
+                "label": "品牌收益",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "E08",
+                "label": "归因限制",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              },
+              {
+                "id": "E09",
+                "label": "客户复盘",
+                "value": null,
+                "state": "unanswered",
+                "filled": false,
+                "editable": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "ruleView": {
+      "sections": [
+        {
+          "id": "basic_information",
+          "order": 1,
+          "label": "Basic Information",
+          "fields": [
+            {
+              "key": "product",
+              "label": "Product / website",
+              "state": "empty"
+            },
+            {
+              "key": "goal",
+              "label": "Goal / KPI",
+              "state": "empty"
+            },
+            {
+              "key": "budget",
+              "label": "Budget",
+              "state": "empty"
+            },
+            {
+              "key": "timeline",
+              "label": "Campaign timeline",
+              "state": "empty"
+            },
+            {
+              "key": "target_audience",
+              "label": "Target audience",
+              "state": "empty"
+            },
+            {
+              "key": "deliverables",
+              "label": "Deliverable options",
+              "state": "empty"
+            },
+            {
+              "key": "target_markets",
+              "label": "Target markets",
+              "state": "empty"
+            },
+            {
+              "key": "follower_range",
+              "label": "Follower range",
+              "state": "empty"
+            },
+            {
+              "key": "discovery_themes",
+              "label": "Discovery themes",
+              "state": "empty"
+            },
+            {
+              "key": "platforms",
+              "label": "Platforms and counts",
+              "state": "empty"
+            }
+          ],
+          "set": 0,
+          "missing": [
+            "Product / website",
+            "Goal / KPI",
+            "Budget",
+            "Campaign timeline",
+            "Target audience",
+            "Deliverable options",
+            "Target markets",
+            "Follower range",
+            "Discovery themes",
+            "Platforms and counts"
+          ]
+        },
+        {
+          "id": "deal_guardrails",
+          "order": 2,
+          "label": "Deal Guardrails",
+          "fields": [
+            {
+              "key": "paymentSchedule",
+              "label": "Payment schedule",
+              "state": "default"
+            },
+            {
+              "key": "paymentMethod",
+              "label": "Payment method",
+              "state": "default"
+            },
+            {
+              "key": "tax",
+              "label": "Tax and fees",
+              "state": "default"
+            },
+            {
+              "key": "contentAds",
+              "label": "Content / ads",
+              "state": "default"
+            },
+            {
+              "key": "revisions",
+              "label": "Revisions",
+              "state": "default"
+            },
+            {
+              "key": "timeline",
+              "label": "Turnaround times",
+              "state": "default"
+            }
+          ],
+          "set": 0,
+          "missing": [
+            "Payment schedule",
+            "Payment method",
+            "Tax and fees",
+            "Content / ads",
+            "Revisions",
+            "Turnaround times"
+          ]
+        },
+        {
+          "id": "price_range",
+          "order": 3,
+          "label": "Price Range",
+          "fields": [
+            {
+              "key": "follower_price_caps",
+              "label": "Price ceilings by follower band",
+              "state": "default"
+            }
+          ],
+          "set": 0,
+          "missing": [
+            "Price ceilings by follower band"
+          ]
+        },
+        {
+          "id": "outreach_frequency",
+          "order": 4,
+          "label": "Outreach Frequency",
+          "fields": [
+            {
+              "key": "first_outreach_repeat_days",
+              "label": "First outreach repeat interval",
+              "state": "empty"
+            },
+            {
+              "key": "max_first_outreach_repeats",
+              "label": "Maximum first-outreach repeats",
+              "state": "empty"
+            },
+            {
+              "key": "conversation_reminder_days",
+              "label": "Conversation reminder interval",
+              "state": "empty"
+            }
+          ],
+          "set": 0,
+          "missing": [
+            "First outreach repeat interval",
+            "Maximum first-outreach repeats",
+            "Conversation reminder interval"
+          ]
+        },
+        {
+          "id": "usage_rights",
+          "order": 5,
+          "label": "Usage Rights",
+          "fields": [
+            {
+              "key": "link_in_bio",
+              "label": "Link in bio",
+              "state": "empty"
+            },
+            {
+              "key": "whitelisting",
+              "label": "Paid amplification / Spark Ads",
+              "state": "empty"
+            },
+            {
+              "key": "post_retention",
+              "label": "Post retention",
+              "state": "empty"
+            },
+            {
+              "key": "secondary_reuse",
+              "label": "Brand reuse",
+              "state": "empty"
+            },
+            {
+              "key": "exclusivity",
+              "label": "Competitor exclusivity",
+              "state": "empty"
+            },
+            {
+              "key": "exclusivity_category",
+              "label": "Exclusivity category",
+              "state": "empty"
+            }
+          ],
+          "set": 0,
+          "missing": [
+            "Link in bio",
+            "Paid amplification / Spark Ads",
+            "Post retention",
+            "Brand reuse",
+            "Competitor exclusivity",
+            "Exclusivity category"
+          ]
+        },
+        {
+          "id": "content_review_flow",
+          "order": 6,
+          "label": "Content Review Flow",
+          "fields": [
+            {
+              "key": "review_flow",
+              "label": "Review sequence",
+              "state": "empty"
+            }
+          ],
+          "set": 0,
+          "missing": [
+            "Review sequence"
+          ]
+        },
+        {
+          "id": "brief_assets",
+          "order": 7,
+          "label": "Brief Assets",
+          "fields": [
+            {
+              "key": "company_website",
+              "label": "Company website",
+              "state": "empty"
+            },
+            {
+              "key": "referral_url",
+              "label": "Referral URL",
+              "state": "empty"
+            },
+            {
+              "key": "share_keywords",
+              "label": "Required talking points",
+              "state": "empty"
+            },
+            {
+              "key": "forbidden_topics",
+              "label": "Topics the AI must not discuss",
+              "state": "empty"
+            },
+            {
+              "key": "content_briefs",
+              "label": "Brief references by creator type",
+              "state": "empty"
+            }
+          ],
+          "set": 0,
+          "missing": [
+            "Company website",
+            "Referral URL",
+            "Required talking points",
+            "Topics the AI must not discuss",
+            "Brief references by creator type"
+          ]
+        }
+      ],
+      "missing": [
+        "Product / website",
+        "Goal / KPI",
+        "Budget",
+        "Campaign timeline",
+        "Target audience",
+        "Deliverable options",
+        "Target markets",
+        "Follower range",
+        "Discovery themes",
+        "Platforms and counts",
+        "Payment schedule",
+        "Payment method",
+        "Tax and fees",
+        "Content / ads",
+        "Revisions",
+        "Turnaround times",
+        "Price ceilings by follower band",
+        "First outreach repeat interval",
+        "Maximum first-outreach repeats",
+        "Conversation reminder interval",
+        "Link in bio",
+        "Paid amplification / Spark Ads",
+        "Post retention",
+        "Brand reuse",
+        "Competitor exclusivity",
+        "Exclusivity category",
+        "Review sequence",
+        "Company website",
+        "Referral URL",
+        "Required talking points",
+        "Topics the AI must not discuss",
+        "Brief references by creator type"
+      ],
+      "setFields": 0,
+      "totalFields": 32
+    },
+    "actionReadiness": {
+      "creator_search": {
+        "state": "needs_input",
+        "canRequestConfirmation": false,
+        "missingCount": 3
+      },
+      "strategy_report": {
+        "state": "needs_input",
+        "canRequestConfirmation": false,
+        "missingCount": 3
+      },
+      "competitor_report": {
+        "state": "needs_input",
+        "canRequestConfirmation": false,
+        "missingCount": 1
+      }
+    },
+    "tasks": [],
+    "outputs": [],
+    "artifacts": [],
+    "confirmation": null,
+    "activeTurn": null,
+    "pendingUserInput": null
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "at": "2026-10-10T10:57:31.839Z",
+  "source": "Explicit controlled assistance setup through production DesktopBroker, then actual UI claim/release and real model/worker; controlled Wave/candidate pages. This does not prove social login.",
+  "checks": [
+    "Actual noVNC claim establishes human control for explicit controlled assistance"
+  ],
+  "pageErrors": [],
+  "prepared": {
+    "request": {
+      "id": "c6c77995-444d-4da2-8963-65416950432f",
+      "taskId": "controlled-handoff-r3",
+      "creatorId": "controlled-fixture:alice",
+      "reason": "R3受控人工接管回归：没有真实社交登录，不需要凭据",
+      "status": "human",
+      "createdAt": 1791629619434,
+      "leaseUntil": 1791630519730
+    }
+  },
+  "input": "再做新的一批，和前面那批分开。这一批两项现在都登记：YouTube科技博主的文字研究，和YouTube科技博主的公开网页核验。每项选1个人、先看2个人，两个都标上内容方向，粉丝和国家都不限。文字项只用已有资料；网页项现在先排队，必须等我交还桌面才操作。不用再问是否启动，等这两项都完成再发一份报告，文字项做完不要提前通知。",
+  "error": "Error: expect(received).toHaveLength(expected)\n\nExpected length: 2\nReceived length: 0\nReceived array:  []"
+}

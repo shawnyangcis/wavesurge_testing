@@ -1,0 +1,64 @@
+{
+  "at": "2026-10-10T08:07:21.478Z",
+  "method": "GET only, no platform search creation",
+  "requestedLimit": 1000,
+  "results": [
+    {
+      "path": "/discover/db?platform=tiktok&limit=1000&sort=fit_desc",
+      "http": 200,
+      "elapsedMs": 781.533958,
+      "count": 500,
+      "summaryTotal": 500,
+      "paginationKeys": [],
+      "followers": {
+        "min": 1009,
+        "max": 17602623
+      },
+      "matchingFollowers": 176,
+      "missingProfileUrl": 500,
+      "sampleMatchingIdentities": [
+        {
+          "handle": "ibtshamcrypto7",
+          "followers": 28389,
+          "region": "South Korea"
+        },
+        {
+          "handle": "hasnaingujjar0623",
+          "followers": 10543,
+          "region": "Saudi Arabia"
+        },
+        {
+          "handle": "hqltdacademy",
+          "followers": 28467,
+          "region": "Japan"
+        },
+        {
+          "handle": "dammybright_digitals",
+          "followers": 58643,
+          "region": "Mexico"
+        },
+        {
+          "handle": "caaplima_",
+          "followers": 26500,
+          "region": "Brazil"
+        }
+      ]
+    },
+    {
+      "path": "/discover/db?platform=youtube&limit=1000&sort=fit_desc",
+      "http": 200,
+      "elapsedMs": 1186.928515,
+      "count": 500,
+      "summaryTotal": 500,
+      "paginationKeys": [],
+      "followers": {
+        "min": 5200000,
+        "max": 502000000
+      },
+      "matchingFollowers": 0,
+      "missingProfileUrl": 500,
+      "sampleMatchingIdentities": []
+    }
+  ],
+  "boundary": "Counts do not prove profile existence, identity, location or qualitative suitability."
+}

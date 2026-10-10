@@ -1,0 +1,73 @@
+{
+  "F01": {
+    "ids": [
+      "instagram:same_person",
+      "instagram:https://www.instagram.com/same_person"
+    ],
+    "sameProfile": true,
+    "matched": 2
+  },
+  "F02": {
+    "submits": 0,
+    "task": {
+      "id": "research-c2703a7ddf6c74b39505339a",
+      "title": "review probe",
+      "spec": {
+        "title": "review probe",
+        "personaText": "technology",
+        "count": 1,
+        "candidateBudget": 2,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "criteria": []
+      },
+      "body": {
+        "requestId": "research-c2703a7ddf6c74b39505339a",
+        "personaText": "technology",
+        "count": 2,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "emailReadyRequired": false
+      },
+      "status": "queued",
+      "requested": 1,
+      "evaluated": 0,
+      "matched": 0,
+      "updatedAt": 0,
+      "detail": "等待向 WaveSurge 提交免费搜索",
+      "nextPollAt": 0,
+      "candidates": [],
+      "failures": []
+    }
+  },
+  "F03": {
+    "calls": 1,
+    "status": "partial",
+    "verdict": "unknown"
+  },
+  "F04": {
+    "evaluated": 1,
+    "selected": "no-preference",
+    "optionalVerdict": "no_match"
+  },
+  "F07": {
+    "actions": [
+      {
+        "action": "navigate",
+        "url": "http://127.0.0.1:8810/health"
+      },
+      {
+        "action": "fill",
+        "text": "DUMMY_NOT_A_SECRET"
+      }
+    ]
+  }
+}

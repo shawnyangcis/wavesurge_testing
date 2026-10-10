@@ -1,0 +1,16 @@
+{
+  "name": "real",
+  "defaultFieldsUpdated": [
+    "systemPrompt",
+    "workflowPrompt",
+    "verificationPrompt",
+    "compressionPrompt"
+  ],
+  "settingsRevision": 3,
+  "preservedDocuments": 182,
+  "messages": 17,
+  "tasks": 8,
+  "sourceFilesMatched": 59,
+  "noHistoricalRedelivery": true,
+  "passed": true
+}

@@ -1,0 +1,101 @@
+{
+  "capturedAt": "2026-10-10T02:45:07.632Z",
+  "source": "Genuine WaveSurge candidates returned by prior live production searches; replay is NOT a new discovery search",
+  "creators": [
+    {
+      "originalTaskId": "research-b30bacd90e74569b33e06bfc",
+      "creator": {
+        "id": "youtube:wesleyanna",
+        "platform": "youtube",
+        "handle": "wesleyanna",
+        "profileUrl": "https://www.youtube.com/@wesleyanna",
+        "displayName": "Wesley Anna",
+        "followers": null,
+        "region": null,
+        "evidence": [],
+        "raw": {
+          "factorGrades": {
+            "role": "strong",
+            "activity": "observed",
+            "identity": "individual",
+            "location": "location_unverified",
+            "followers": "unknown",
+            "relevance": "strong"
+          },
+          "hardConditions": [
+            {
+              "basis": "91.3K subscribers per retained profile evidence ev_51247b7e.",
+              "status": "met",
+              "condition": "YouTube followers 10,000-100,000"
+            },
+            {
+              "basis": "Profile country is United States per ev_51247b7e.",
+              "status": "met",
+              "condition": "Creator based in United States"
+            },
+            {
+              "basis": "Personal creator branding and first-person content.",
+              "status": "met",
+              "condition": "Individual creators only"
+            },
+            {
+              "basis": "Timestamped Notion tutorial and student workspace resources ev_37a75581.",
+              "status": "met",
+              "condition": "Step-by-step tutorials for classroom notes and exam revision"
+            },
+            {
+              "basis": "Selected only as one YouTube creator.",
+              "status": "met",
+              "condition": "No person on two platforms"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalTaskId": "research-fd88375f69e716ff5cbc9fef",
+      "creator": {
+        "id": "youtube:schoolhabits",
+        "platform": "youtube",
+        "handle": "schoolhabits",
+        "profileUrl": "https://www.youtube.com/@schoolhabits",
+        "displayName": "SchoolHabits",
+        "followers": null,
+        "region": null,
+        "evidence": [],
+        "raw": {
+          "factorGrades": {
+            "role": "strong",
+            "activity": "observed",
+            "identity": "individual",
+            "location": "location_unverified",
+            "followers": "unknown",
+            "relevance": "strong"
+          },
+          "hardConditions": [
+            {
+              "basis": "Attributable YouTube channel record reports 20.4K subscribers.",
+              "status": "met",
+              "condition": "Followers at least 10,000 and at most 100,000"
+            },
+            {
+              "basis": "YouTube channel country field reports United States.",
+              "status": "met",
+              "condition": "Creator is based in the United States"
+            },
+            {
+              "basis": "Channel presents a single educator providing study-skills guidance; no organization or business identity is shown.",
+              "status": "met",
+              "condition": "Individual creators only"
+            },
+            {
+              "basis": "The person is selected only once, on YouTube, with no other-platform selection.",
+              "status": "met",
+              "condition": "No person on two platforms"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

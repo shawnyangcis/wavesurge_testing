@@ -1,0 +1,262 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Code coverage report for server/assessment.ts</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../prettify.css" />
+    <link rel="stylesheet" href="../base.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+    
+<body>
+<div class='wrapper'>
+    <div class='pad1'>
+        <h1><a href="../index.html">All files</a> / <a href="index.html">server</a> assessment.ts</h1>
+        <div class='clearfix'>
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Statements</span>
+                <span class='fraction'>86/86</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Branches</span>
+                <span class='fraction'>98/98</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Functions</span>
+                <span class='fraction'>15/15</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Lines</span>
+                <span class='fraction'>45/45</span>
+            </div>
+        
+            
+        </div>
+        <p class="quiet">
+            Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
+        </p>
+        <template id="filterTemplate">
+            <div class="quiet">
+                Filter:
+                <input type="search" id="fileSearch">
+            </div>
+        </template>
+    </div>
+    <div class='status-line high'></div>
+    <pre><table class="coverage">
+<tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
+<a name='L2'></a><a href='#L2'>2</a>
+<a name='L3'></a><a href='#L3'>3</a>
+<a name='L4'></a><a href='#L4'>4</a>
+<a name='L5'></a><a href='#L5'>5</a>
+<a name='L6'></a><a href='#L6'>6</a>
+<a name='L7'></a><a href='#L7'>7</a>
+<a name='L8'></a><a href='#L8'>8</a>
+<a name='L9'></a><a href='#L9'>9</a>
+<a name='L10'></a><a href='#L10'>10</a>
+<a name='L11'></a><a href='#L11'>11</a>
+<a name='L12'></a><a href='#L12'>12</a>
+<a name='L13'></a><a href='#L13'>13</a>
+<a name='L14'></a><a href='#L14'>14</a>
+<a name='L15'></a><a href='#L15'>15</a>
+<a name='L16'></a><a href='#L16'>16</a>
+<a name='L17'></a><a href='#L17'>17</a>
+<a name='L18'></a><a href='#L18'>18</a>
+<a name='L19'></a><a href='#L19'>19</a>
+<a name='L20'></a><a href='#L20'>20</a>
+<a name='L21'></a><a href='#L21'>21</a>
+<a name='L22'></a><a href='#L22'>22</a>
+<a name='L23'></a><a href='#L23'>23</a>
+<a name='L24'></a><a href='#L24'>24</a>
+<a name='L25'></a><a href='#L25'>25</a>
+<a name='L26'></a><a href='#L26'>26</a>
+<a name='L27'></a><a href='#L27'>27</a>
+<a name='L28'></a><a href='#L28'>28</a>
+<a name='L29'></a><a href='#L29'>29</a>
+<a name='L30'></a><a href='#L30'>30</a>
+<a name='L31'></a><a href='#L31'>31</a>
+<a name='L32'></a><a href='#L32'>32</a>
+<a name='L33'></a><a href='#L33'>33</a>
+<a name='L34'></a><a href='#L34'>34</a>
+<a name='L35'></a><a href='#L35'>35</a>
+<a name='L36'></a><a href='#L36'>36</a>
+<a name='L37'></a><a href='#L37'>37</a>
+<a name='L38'></a><a href='#L38'>38</a>
+<a name='L39'></a><a href='#L39'>39</a>
+<a name='L40'></a><a href='#L40'>40</a>
+<a name='L41'></a><a href='#L41'>41</a>
+<a name='L42'></a><a href='#L42'>42</a>
+<a name='L43'></a><a href='#L43'>43</a>
+<a name='L44'></a><a href='#L44'>44</a>
+<a name='L45'></a><a href='#L45'>45</a>
+<a name='L46'></a><a href='#L46'>46</a>
+<a name='L47'></a><a href='#L47'>47</a>
+<a name='L48'></a><a href='#L48'>48</a>
+<a name='L49'></a><a href='#L49'>49</a>
+<a name='L50'></a><a href='#L50'>50</a>
+<a name='L51'></a><a href='#L51'>51</a>
+<a name='L52'></a><a href='#L52'>52</a>
+<a name='L53'></a><a href='#L53'>53</a>
+<a name='L54'></a><a href='#L54'>54</a>
+<a name='L55'></a><a href='#L55'>55</a>
+<a name='L56'></a><a href='#L56'>56</a>
+<a name='L57'></a><a href='#L57'>57</a>
+<a name='L58'></a><a href='#L58'>58</a>
+<a name='L59'></a><a href='#L59'>59</a>
+<a name='L60'></a><a href='#L60'>60</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">47x</span>
+<span class="cline-any cline-yes">47x</span>
+<span class="cline-any cline-yes">44x</span>
+<span class="cline-any cline-yes">43x</span>
+<span class="cline-any cline-yes">47x</span>
+<span class="cline-any cline-yes">47x</span>
+<span class="cline-any cline-yes">47x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">47x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">66x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">89x</span>
+<span class="cline-any cline-yes">89x</span>
+<span class="cline-any cline-yes">157x</span>
+<span class="cline-any cline-yes">86x</span>
+<span class="cline-any cline-yes">86x</span>
+<span class="cline-any cline-yes">86x</span>
+<span class="cline-any cline-yes">31x</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">11x</span>
+<span class="cline-any cline-yes">11x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">77x</span>
+<span class="cline-any cline-yes">77x</span>
+<span class="cline-any cline-yes">39x</span>
+<span class="cline-any cline-yes">35x</span>
+<span class="cline-any cline-yes">35x</span>
+<span class="cline-any cline-yes">35x</span>
+<span class="cline-any cline-yes">35x</span>
+<span class="cline-any cline-yes">32x</span>
+<span class="cline-any cline-yes">18x</span>
+<span class="cline-any cline-yes">18x</span>
+<span class="cline-any cline-yes">17x</span>
+<span class="cline-any cline-yes">17x</span>
+<span class="cline-any cline-yes">17x</span>
+<span class="cline-any cline-yes">13x</span>
+<span class="cline-any cline-yes">13x</span>
+<span class="cline-any cline-yes">10x</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">14x</span>
+<span class="cline-any cline-yes">14x</span>
+<span class="cline-any cline-yes">14x</span>
+<span class="cline-any cline-yes">14x</span>
+<span class="cline-any cline-yes">10x</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">73x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">56x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import type { Annotation, Assessment, Creator, Judgment, SearchSpec } from '../shared/research.ts';
+import { countryCode, creatorIdentity } from './canonical.ts';
+export function followerInterval(display: string) {
+ const match = display.trim().match(/^([\d,.]+)\s*([kmb万亿]?)\s*(?:followers|subscribers|粉丝|位订阅者)$/i);
+ if (!match) return undefined;
+ const value = Number(match[1].replaceAll(',', '')); if (!Number.isFinite(value) || value &lt; 0) return undefined;
+ const multiplier = ({ k: 1000, m: 1000000, b: 1000000000, 万: 10000, 亿: 100000000 } as Record&lt;string, number&gt;)[match[2].toLowerCase()] ?? 1;
+ const center = value * multiplier;
+ if (!match[2]) return Number.isSafeInteger(center) ? { min: center, max: center } : undefined;
+ const decimals = match[1].split('.')[1]?.length ?? 0; const step = multiplier / 10 ** decimals;
+ // Platforms may round or truncate their abbreviated displays. Keep both possibilities.
+ return { min: Math.max(0, Math.ceil(center - step / 2)), max: Math.ceil(center + step) - 1 };
+}
+const normalized = (text: string) =&gt; text.replace(/\s+/g, ' ').trim().toLowerCase();
+export function applyAssessment(spec: SearchSpec, creator: Creator, output: Judgment[] | Assessment): Assessment {
+ const assessment: Assessment = Array.isArray(output) ? { judgments: output } : output;
+ if (!assessment || !Array.isArray(assessment.judgments)) throw new Error('核验提交格式不正确');
+ const evidence = new Map(creator.evidence.map(item =&gt; [item.id, item]));
+ const references = (ids: string[]) =&gt; Array.isArray(ids) &amp;&amp; ids.length &gt; 0 &amp;&amp; ids.every(id =&gt; evidence.has(id));
+ const annotations: Annotation[] = []; const dimensions = new Set&lt;string&gt;();
+ for (const item of assessment.annotations ?? []) {
+  const dimension = spec.annotations?.find(value =&gt; value.id === item.dimensionId);
+  if (!dimension || dimensions.has(item.dimensionId) || !['supported', 'unknown'].includes(item.status) || typeof item.reason !== 'string' || !Array.isArray(item.values) || item.values.some(value =&gt; typeof value !== 'string' || !value.trim() || value.length &gt; 100 || dimension.values &amp;&amp; !dimension.values.includes(value))) throw new Error('画像标签格式不正确');
+  dimensions.add(item.dimensionId);
+  if (item.status === 'supported' &amp;&amp; references(item.evidenceIds) &amp;&amp; item.values.length) annotations.push({ ...item, values: [...new Set(item.values.map(value =&gt; value.trim()))] });
+  else annotations.push({ ...item, status: 'unknown', values: [], reason: item.status === 'supported' ? '缺少可追溯的标签证据' : item.reason });
+ }
+ for (const dimension of spec.annotations ?? []) if (!dimensions.has(dimension.id)) annotations.push({ dimensionId: dimension.id, status: 'unknown', values: [], reason: '尚未取得足够画像证据', evidenceIds: [] });
+ for (const fact of assessment.facts ?? []) {
+  if (!['followers', 'country'].includes(fact.kind) || typeof fact.rawValue !== 'string' || !references(fact.evidenceIds)) throw new Error('基础事实缺少有效来源');
+  const sources = fact.evidenceIds.map(id =&gt; evidence.get(id)!);
+  const own = sources.every(source =&gt; creatorIdentity({ ...creator, handle: '', profileUrl: source.url.split('?')[0].replace(/\/(featured|about|videos)\/?$/, '') }) === creatorIdentity(creator) &amp;&amp; normalized(source.text).includes(normalized(fact.rawValue)));
+  creator.facts ??= { conflicts: [] };
+   if (!own) { creator.facts.rejected ??= []; creator.facts.rejected.push(`${fact.kind}: 来源未确认属于当前创作者主页或没有显示该值`); continue; }
+  if (fact.kind === 'followers') {
+   const interval = followerInterval(fact.rawValue);
+    if (!interval) { creator.facts.rejected ??= []; creator.facts.rejected.push('followers: 无法解析显示数值'); continue; }
+   const previous = creator.facts.followers;
+   const conflict = 'followers: 来源数值冲突';
+   if (creator.followers === null &amp;&amp; previous &amp;&amp; (previous.max &lt; interval.min || previous.min &gt; interval.max)) { if (!creator.facts.conflicts.includes(conflict)) creator.facts.conflicts.push(conflict); continue; }
+   creator.facts.followers = { ...interval, rawValue: fact.rawValue, evidenceIds: fact.evidenceIds };
+   if (creator.followers !== null) {
+    if (creator.followers &lt; interval.min || creator.followers &gt; interval.max) { if (!creator.facts.conflicts.includes(conflict)) creator.facts.conflicts.push(conflict); }
+    else creator.facts.conflicts = creator.facts.conflicts.filter(value =&gt; value !== conflict);
+   }
+  } else {
+   const raw = fact.rawValue.replace(/^(?:location|based in|located in|所在地|居住于)\s*[:：]?\s*/i, ''); const code = countryCode(raw) ?? countryCode(raw.replace(/[。.!！?？;；]+$/u, ''));
+   const stated = /^(?:location|based in|located in|所在地|居住于)\s*[:：]?/i.test(fact.rawValue);
+   const wave = creator.region &amp;&amp; (creator.raw.factorGrades as { location?: string } | undefined)?.location === 'confirmed_country' ? countryCode(creator.region) : undefined;
+   if (!code || !stated) { creator.facts.rejected ??= []; creator.facts.rejected.push('country: 缺少可解析的本人所在地声明'); continue; }
+   if (wave &amp;&amp; wave !== code || creator.facts.country &amp;&amp; creator.facts.country.code !== code) { creator.facts.conflicts.push('country: 本人所在地来源冲突'); continue; }
+   creator.facts.country = { code, rawValue: fact.rawValue, evidenceIds: fact.evidenceIds };
+  }
+ }
+ return { ...assessment, annotations };
+}
+export function resultTags(spec: SearchSpec, assessment: Assessment) {
+ return [...new Set((assessment.annotations ?? []).filter(item =&gt; item.status === 'supported').flatMap(item =&gt; item.values))];
+}
+&nbsp;</pre></td></tr></table></pre>
+
+                <div class='push'></div><!-- for sticky footer -->
+            </div><!-- /wrapper -->
+            <div class='footer quiet pad2 space-top1 center small'>
+                Code coverage generated by
+                <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
+                at 2026-10-10T13:29:51.355Z
+            </div>
+        <script src="../prettify.js"></script>
+        <script>
+            window.onload = function () {
+                prettyPrint();
+            };
+        </script>
+        <script src="../sorter.js"></script>
+        <script src="../block-navigation.js"></script>
+    </body>
+</html>
+    

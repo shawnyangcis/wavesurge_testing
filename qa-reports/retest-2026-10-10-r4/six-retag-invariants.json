@@ -1,0 +1,132 @@
+{
+  "at": "2026-10-10T14:22:14.295Z",
+  "records": [
+    {
+      "id": "research-294320f8d1c060255d3310e8|instagram:tylerlcrawford",
+      "taskId": "research-294320f8d1c060255d3310e8",
+      "handle": "tylerlcrawford",
+      "beforeRevision": 1,
+      "afterRevision": 2,
+      "preserved": {
+        "creator": true,
+        "judgments": true,
+        "verdict": true,
+        "selected": true
+      },
+      "annotationUpdated": true,
+      "newAnnotationDimensions": [
+        "presentation_style",
+        "glasses",
+        "geek_style",
+        "content_direction",
+        "collaboration_fit"
+      ]
+    },
+    {
+      "id": "research-294320f8d1c060255d3310e8|instagram:valstechtalkk",
+      "taskId": "research-294320f8d1c060255d3310e8",
+      "handle": "valstechtalkk",
+      "beforeRevision": 1,
+      "afterRevision": 2,
+      "preserved": {
+        "creator": true,
+        "judgments": true,
+        "verdict": true,
+        "selected": true
+      },
+      "annotationUpdated": true,
+      "newAnnotationDimensions": [
+        "presentation_style",
+        "glasses",
+        "geek_style",
+        "content_direction",
+        "collaboration_fit"
+      ]
+    },
+    {
+      "id": "research-7f22924e895fdf79bc9bfb73|instagram:tylerlcrawford",
+      "taskId": "research-7f22924e895fdf79bc9bfb73",
+      "handle": "tylerlcrawford",
+      "beforeRevision": 1,
+      "afterRevision": 2,
+      "preserved": {
+        "creator": true,
+        "judgments": true,
+        "verdict": true,
+        "selected": true
+      },
+      "annotationUpdated": true,
+      "newAnnotationDimensions": [
+        "presentation_style",
+        "content_language",
+        "content_direction",
+        "collaboration_fit"
+      ]
+    },
+    {
+      "id": "research-1c0a7ca9deb257bd0144ee1f|instagram:tylerlcrawford",
+      "taskId": "research-1c0a7ca9deb257bd0144ee1f",
+      "handle": "tylerlcrawford",
+      "beforeRevision": 1,
+      "afterRevision": 2,
+      "preserved": {
+        "creator": true,
+        "judgments": true,
+        "verdict": true,
+        "selected": true
+      },
+      "annotationUpdated": true,
+      "newAnnotationDimensions": [
+        "presentation_style",
+        "content_language",
+        "content_direction",
+        "collaboration_fit"
+      ]
+    },
+    {
+      "id": "research-7f22924e895fdf79bc9bfb73|instagram:valstechtalkk",
+      "taskId": "research-7f22924e895fdf79bc9bfb73",
+      "handle": "valstechtalkk",
+      "beforeRevision": 1,
+      "afterRevision": 2,
+      "preserved": {
+        "creator": true,
+        "judgments": true,
+        "verdict": true,
+        "selected": true
+      },
+      "annotationUpdated": true,
+      "newAnnotationDimensions": [
+        "presentation_style",
+        "content_language",
+        "content_direction",
+        "collaboration_fit"
+      ]
+    },
+    {
+      "id": "research-1c0a7ca9deb257bd0144ee1f|instagram:valstechtalkk",
+      "taskId": "research-1c0a7ca9deb257bd0144ee1f",
+      "handle": "valstechtalkk",
+      "beforeRevision": 1,
+      "afterRevision": 2,
+      "preserved": {
+        "creator": true,
+        "judgments": true,
+        "verdict": true,
+        "selected": true
+      },
+      "annotationUpdated": true,
+      "newAnnotationDimensions": [
+        "presentation_style",
+        "content_language",
+        "content_direction",
+        "collaboration_fit"
+      ]
+    }
+  ],
+  "allSixPreserved": true,
+  "allSixAnnotated": true,
+  "uniqueCreators": 2,
+  "newResearchTasks": 0,
+  "globalWaveCountDifferenceIsNotAnInvariantBecauseOriginal20RanConcurrently": true
+}

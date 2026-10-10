@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-10-10T18:17:12.201207+00:00",
+  "passed": true,
+  "documentation": {
+    "primaryDocuments": 8,
+    "relativeLinksChecked": 242,
+    "brokenLinks": [],
+    "passed": true
+  },
+  "archive": {
+    "requiredFilesPresent": true,
+    "forbiddenFiles": [],
+    "embeddedTraceArchives": [],
+    "sourceFilesVerified": 59,
+    "sourceMismatches": [],
+    "primaryArchiveLinksChecked": 242,
+    "brokenArchiveLinks": [],
+    "screenshots": 83,
+    "passed": true
+  },
+  "credentials": {
+    "knownProjectCredentialsFoundInPublicFiles": false,
+    "knownProjectCredentialsFoundInArchive": false,
+    "credentialValuesNeverPrintedOrPublished": true,
+    "scope": "Known administrator passwords and model/WaveSurge credentials from project deployments; complete archive bytes checked."
+  },
+  "gitignoreCheck": "gitignore-check.json (14 expected ignore/retain cases passed)",
+  "runtimeState": "Database/browser state/private traces excluded; .env.example included; actual .env excluded."
+}

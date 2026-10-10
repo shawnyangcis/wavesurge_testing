@@ -1,0 +1,70 @@
+[
+  {
+    "scope": "main",
+    "observedAt": "2026-10-10T03:30:30.472Z",
+    "tasks": [
+      {
+        "id": "research-a183b9437d676713c0f2812f",
+        "status": "running",
+        "remoteStatus": "running",
+        "evaluated": 0,
+        "matched": 0,
+        "localCandidateCount": 0,
+        "latestRemote": {
+          "at": 1791602919466,
+          "httpStatus": 200,
+          "status": "running",
+          "creatorCount": 1
+        }
+      }
+    ]
+  },
+  {
+    "scope": "new-natural-tests",
+    "observedAt": "2026-10-10T03:30:30.886Z",
+    "tasks": [
+      {
+        "id": "research-ea8649d3fc1258c3d1017445",
+        "status": "running",
+        "remoteStatus": "queued",
+        "evaluated": 0,
+        "matched": 0,
+        "localCandidateCount": 0,
+        "latestRemote": {
+          "at": 1791603008349,
+          "httpStatus": 200,
+          "status": "queued",
+          "creatorCount": 0
+        }
+      },
+      {
+        "id": "research-b936fbc06246aea943518299",
+        "status": "running",
+        "remoteStatus": "queued",
+        "evaluated": 0,
+        "matched": 0,
+        "localCandidateCount": 0,
+        "latestRemote": {
+          "at": 1791603008920,
+          "httpStatus": 200,
+          "status": "queued",
+          "creatorCount": 0
+        }
+      },
+      {
+        "id": "research-e3aad23438e47a041a9d8b86",
+        "status": "running",
+        "remoteStatus": "queued",
+        "evaluated": 0,
+        "matched": 0,
+        "localCandidateCount": 0,
+        "latestRemote": {
+          "at": 1791603009064,
+          "httpStatus": 200,
+          "status": "queued",
+          "creatorCount": 0
+        }
+      }
+    ]
+  }
+]

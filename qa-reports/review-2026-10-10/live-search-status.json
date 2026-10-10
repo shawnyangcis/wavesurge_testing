@@ -1,0 +1,249 @@
+{
+  "task": {
+    "id": "research-d22f5bc3f9c80da1a4979ca5",
+    "title": "Review独立真实筛选",
+    "status": "running",
+    "requested": 1,
+    "evaluated": 0,
+    "matched": 0,
+    "updatedAt": 1791595617684,
+    "detail": "WaveSurge 搜索等待执行；本地已合格 0 人",
+    "remoteId": "b5722567-4ae0-435a-b6e9-0c5873d6486e",
+    "remoteStatus": "queued",
+    "nextPollAt": 1791595677684
+  },
+  "results": [],
+  "waveCalls": [
+    {
+      "id": "3c08e6d9-5641-4c8b-8892-4dc8ed350336",
+      "kind": "wavesurge",
+      "createdAt": 1791594280559,
+      "path": "/creator-search/requests",
+      "method": "POST",
+      "request": {
+        "requestId": "research-d22f5bc3f9c80da1a4979ca5",
+        "personaText": "technology content creators",
+        "count": 2,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [
+          "United States",
+          "Canada"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "emailReadyRequired": false
+      },
+      "status": 201,
+      "response": {
+        "taskId": "b5722567-4ae0-435a-b6e9-0c5873d6486e"
+      },
+      "finishedAt": 1791594280821
+    },
+    {
+      "id": "7633cc3b-ef06-4da2-b74a-f852950756ac",
+      "kind": "wavesurge",
+      "createdAt": 1791594355091,
+      "path": "/creator-search/requests/b5722567-4ae0-435a-b6e9-0c5873d6486e",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791594355316
+    },
+    {
+      "id": "ca020e23-86bf-4277-82b1-ec74afe7209e",
+      "kind": "wavesurge",
+      "createdAt": 1791594475098,
+      "path": "/creator-search/requests/b5722567-4ae0-435a-b6e9-0c5873d6486e",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791594475314
+    },
+    {
+      "id": "90877f10-25f8-4262-acf6-6d011a1e5c66",
+      "kind": "wavesurge",
+      "createdAt": 1791594595106,
+      "path": "/creator-search/requests/b5722567-4ae0-435a-b6e9-0c5873d6486e",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791594595566
+    },
+    {
+      "id": "1b093a93-194d-4342-86e9-0ab26812e18e",
+      "kind": "wavesurge",
+      "createdAt": 1791594657364,
+      "path": "/creator-search/requests/b5722567-4ae0-435a-b6e9-0c5873d6486e",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791594657898
+    },
+    {
+      "id": "b768fe26-e671-4b02-97d9-2ecdae702838",
+      "kind": "wavesurge",
+      "createdAt": 1791594777373,
+      "path": "/creator-search/requests/b5722567-4ae0-435a-b6e9-0c5873d6486e",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791594777842
+    },
+    {
+      "id": "29fee320-021a-4bfe-bc33-5258786ec0b5",
+      "kind": "wavesurge",
+      "createdAt": 1791594897383,
+      "path": "/creator-search/requests/b5722567-4ae0-435a-b6e9-0c5873d6486e",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791594897820
+    },
+    {
+      "id": "748d56bd-b391-40df-9096-73bdb36090f3",
+      "kind": "wavesurge",
+      "createdAt": 1791595017395,
+      "path": "/creator-search/requests/b5722567-4ae0-435a-b6e9-0c5873d6486e",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791595017600
+    },
+    {
+      "id": "28c20e9b-d275-4b6c-89ef-0180bd8b25ba",
+      "kind": "wavesurge",
+      "createdAt": 1791595137433,
+      "path": "/creator-search/requests/b5722567-4ae0-435a-b6e9-0c5873d6486e",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791595137654
+    },
+    {
+      "id": "152d8426-33c2-4721-833b-2ca29bdfe9d0",
+      "kind": "wavesurge",
+      "createdAt": 1791595257444,
+      "path": "/creator-search/requests/b5722567-4ae0-435a-b6e9-0c5873d6486e",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791595257658
+    },
+    {
+      "id": "40673c7a-0d01-4b37-8622-4025ef4394fa",
+      "kind": "wavesurge",
+      "createdAt": 1791595377454,
+      "path": "/creator-search/requests/b5722567-4ae0-435a-b6e9-0c5873d6486e",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791595377925
+    },
+    {
+      "id": "03f73f42-9e83-417b-b909-13df71c718e7",
+      "kind": "wavesurge",
+      "createdAt": 1791595497468,
+      "path": "/creator-search/requests/b5722567-4ae0-435a-b6e9-0c5873d6486e",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791595497692
+    },
+    {
+      "id": "da4a1d68-1b76-4f33-995f-a6d1ef9d5480",
+      "kind": "wavesurge",
+      "createdAt": 1791595617482,
+      "path": "/creator-search/requests/b5722567-4ae0-435a-b6e9-0c5873d6486e",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791595617680
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+[
+  {
+    "id": "RG28",
+    "findingId": "F28",
+    "title": "迟到的初始结果覆盖已应用筛选，并把CSV恢复为全量",
+    "preconditions": "使用本轮保存的真实任务/报告；先确认被测结果没有后续修改",
+    "action": "打开指定两人的研究结果，在初始加载未完成时查询“不戴眼镜”。筛选响应返回Tyler一条，界面先显示一条、CSV带tag；初始全量响应随后把界面覆盖成Tyler和Val两条，CSV链接丢掉tag，但输入框仍显示“不戴眼镜”。用户看到、导出的名单都可能违背所选条件。",
+    "expected": "修复后不再出现上述错误；保持已有条件、证据、配额和补标版本的正确行为",
+    "actual": "打开指定两人的研究结果，在初始加载未完成时查询“不戴眼镜”。筛选响应返回Tyler一条，界面先显示一条、CSV带tag；初始全量响应随后把界面覆盖成Tyler和Val两条，CSV链接丢掉tag，但输入框仍显示“不戴眼镜”。用户看到、导出的名单都可能违背所选条件。",
+    "status": "failed",
+    "evidence": [
+      "result-race-ui.json",
+      "screenshots/result-race-1-filter-applied.png",
+      "screenshots/result-race-1-overwritten.png"
+    ]
+  },
+  {
+    "id": "RG29",
+    "findingId": "F29",
+    "title": "Campaign总报告与子报告的已入选身份矛盾",
+    "preconditions": "使用本轮保存的真实任务/报告；先确认被测结果没有后续修改",
+    "action": "两类各一位、同人不占两个名额的真实Campaign，总报告正确分配Tyler到生活效率组、Val到实用数码组，去重2/2。点击实用数码的子报告却显示Tyler“已入选”、Val“合格备选”。用户得到两份矛盾的最终名单。",
+    "expected": "修复后不再出现上述错误；保持已有条件、证据、配额和补标版本的正确行为",
+    "actual": "两类各一位、同人不占两个名额的真实Campaign，总报告正确分配Tyler到生活效率组、Val到实用数码组，去重2/2。点击实用数码的子报告却显示Tyler“已入选”、Val“合格备选”。用户得到两份矛盾的最终名单。",
+    "status": "failed",
+    "evidence": [
+      "campaign-consistency-ui.json",
+      "screenshots/campaign-allocation-1-parent.png",
+      "screenshots/campaign-allocation-1-child.png"
+    ]
+  },
+  {
+    "id": "RG30",
+    "findingId": "F30",
+    "title": "报告将最终入选人数标成合格候选人数",
+    "preconditions": "使用本轮保存的真实任务/报告；先确认被测结果没有后续修改",
+    "action": "真实指定两人研究：两人verdict均为match，卡片分别显示“符合要求·已入选”和“符合要求·合格备选”。目标一人，所以selected只有一人；报告摘要却写“目标1人；本地已合格1人；已核验2人”，与两位合格者矛盾。",
+    "expected": "修复后不再出现上述错误；保持已有条件、证据、配额和补标版本的正确行为",
+    "actual": "真实指定两人研究：两人verdict均为match，卡片分别显示“符合要求·已入选”和“符合要求·合格备选”。目标一人，所以selected只有一人；报告摘要却写“目标1人；本地已合格1人；已核验2人”，与两位合格者矛盾。",
+    "status": "failed",
+    "evidence": [
+      "structured-document-ui.json",
+      "doc04-positive.html",
+      "screenshots/doc04-positive-report.png",
+      "report-source-regression-audit.json"
+    ]
+  },
+  {
+    "id": "RG31",
+    "findingId": "F31",
+    "title": "多组补标综合文档缺少每条记录的分组归属，人数单位含糊",
+    "preconditions": "使用本轮保存的真实任务/报告；先确认被测结果没有后续修改",
+    "action": "用户要求三个研究各两条记录都补标，同人在多个组的记录也更新。实际六条记录对应两位创作者，其中五条合格、三条在各自独立研究入选。补标与保留原判断都正确。综合HTML却平铺六张重名卡片，不带原taskId、标题或分组；14列CSV也没有任务/分组字段。Val在不同组同时出现“符合要求”和“待核实”，导出记录无法明确对应适用范围。",
+    "expected": "修复后不再出现上述错误；保持已有条件、证据、配额和补标版本的正确行为",
+    "actual": "用户要求三个研究各两条记录都补标，同人在多个组的记录也更新。实际六条记录对应两位创作者，其中五条合格、三条在各自独立研究入选。补标与保留原判断都正确。综合HTML却平铺六张重名卡片，不带原taskId、标题或分组；14列CSV也没有任务/分组字段。Val在不同组同时出现“符合要求”和“待核实”，导出记录无法明确对应适用范围。",
+    "status": "failed",
+    "evidence": [
+      "six-retag-invariants.json",
+      "structured-document-ui.json",
+      "doc04-three-groups-retag.html",
+      "doc04-three-groups-retag.csv",
+      "screenshots/doc04-three-groups-retag-report.png"
+    ]
+  },
+  {
+    "id": "RG26",
+    "findingId": "F26",
+    "title": "粉丝判断引用了全部无关Wave来源，报告显著拉长",
+    "preconditions": "使用本轮保存的真实任务/报告；先确认被测结果没有后续修改",
+    "action": "Tyler/Val粉丝基础事实各只有一条本人profile引用，__followers.evidenceIds却分别达到75/49条，包含普通帖子、照片资源和只有“视频封面资源；不能当作照片帖”文字的封面。这些来源不能证明粉丝数，削弱匹配说明的可追溯性。数值与资格判断正确。",
+    "expected": "修复后不再出现上述错误；保持已有条件、证据、配额和补标版本的正确行为",
+    "actual": "Tyler/Val粉丝基础事实各只有一条本人profile引用，__followers.evidenceIds却分别达到75/49条，包含普通帖子、照片资源和只有“视频封面资源；不能当作照片帖”文字的封面。这些来源不能证明粉丝数，削弱匹配说明的可追溯性。数值与资格判断正确。",
+    "status": "failed",
+    "evidence": [
+      "follower-reference-audit.json",
+      "reference-regression.json",
+      "exact-layout.json",
+      "screenshots/exact-layout-375.png"
+    ]
+  },
+  {
+    "id": "RG27",
+    "findingId": "F27",
+    "title": "标签字面包含检索混淆正负值",
+    "preconditions": "使用本轮保存的真实任务/报告；先确认被测结果没有后续修改",
+    "action": "实际标签只有“不戴眼镜”的Tyler，在结果弹窗查询“戴眼镜”仍被召回。自然语言查询则正确排除他及未知的Val，返回零人；不能宣称所有自然语言筛选都错误。",
+    "expected": "修复后不再出现上述错误；保持已有条件、证据、配额和补标版本的正确行为",
+    "actual": "实际标签只有“不戴眼镜”的Tyler，在结果弹窗查询“戴眼镜”仍被召回。自然语言查询则正确排除他及未知的Val，返回零人；不能宣称所有自然语言筛选都错误。",
+    "status": "product_gap",
+    "evidence": [
+      "tag-semantics-ui.json",
+      "saved-glasses.json",
+      "screenshots/tag-semantic-0.png"
+    ]
+  },
+  {
+    "id": "RG32",
+    "findingId": "F32",
+    "title": "Campaign总文档缺逐人匹配说明和画像标签",
+    "preconditions": "使用本轮保存的真实任务/报告；先确认被测结果没有后续修改",
+    "action": "总文档的分组、配额、两位去重入选者正确，但每位之后直接展示完整原始证据，没有逐条件结论、匹配理由或画像标签。用户需要跳到子报告才看到这些内容，子报告还存在F29的入选矛盾。",
+    "expected": "修复后不再出现上述错误；保持已有条件、证据、配额和补标版本的正确行为",
+    "actual": "总文档的分组、配额、两位去重入选者正确，但每位之后直接展示完整原始证据，没有逐条件结论、匹配理由或画像标签。用户需要跳到子报告才看到这些内容，子报告还存在F29的入选矛盾。",
+    "status": "failed",
+    "evidence": [
+      "doc04-campaign.html",
+      "doc04-campaign-children-ui.json",
+      "screenshots/doc04-campaign-report.png"
+    ]
+  }
+]

@@ -1,0 +1,6 @@
+services:
+  app:
+    ports: !override ["127.0.0.1:${QA_PERSISTENCE_PORT:-3501}:3000"]
+  desktop:
+    environment:
+      DESKTOP_ALLOWED_TEST_ORIGINS: "http://127.0.0.1:8086"

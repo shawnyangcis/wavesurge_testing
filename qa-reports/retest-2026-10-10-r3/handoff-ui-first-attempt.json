@@ -1,0 +1,26 @@
+{
+  "at": "2026-10-10T10:53:37.424Z",
+  "source": "Explicit controlled assistance setup through production DesktopBroker, then actual UI claim/release and real model/worker; controlled Wave/candidate pages. This does not prove social login.",
+  "checks": [
+    "Actual noVNC claim establishes human control for explicit controlled assistance"
+  ],
+  "pageErrors": [],
+  "prepared": {
+    "initialPage": {
+      "url": "http://wave-fixture:8087/creator/alice",
+      "title": "公开研究夹具 Alice",
+      "assetId": "d02348d0feab0652ea9e9e80942e6458e9a7a0dd928403052ec77013bed99a12"
+    },
+    "request": {
+      "id": "c6c77995-444d-4da2-8963-65416950432f",
+      "taskId": "controlled-handoff-r3",
+      "creatorId": "controlled-fixture:alice",
+      "reason": "R3受控人工接管回归：没有真实社交登录，不需要凭据",
+      "status": "pending",
+      "createdAt": 1791629619434,
+      "leaseUntil": 0
+    }
+  },
+  "input": "帮我另外做两项 YouTube 科技博主研究，粉丝和国家都不限，每项选1个人、先看2个人，两个都标上内容方向。第一项只用现有文字资料，不打开网页；第二项需要打开公开主页核验。现在我还在操作桌面，先别动我的浏览器，等两项都结束再给我一份汇总。",
+  "error": "Error: expect(received).toHaveLength(expected)\n\nExpected length: 2\nReceived length: 1\nReceived array:  [{\"detail\": \"已选合格 0/1，已核验 2；证据不足者保持待核实。youtube：读取 2 条，基础条件排除 0 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。\", \"evaluated\": 2, \"id\": \"research-e8e0d945f91b47f7803a1e87\", \"matched\": 0, \"nextPollAt\": 1791629644210, \"qualifying\": 0, \"remoteStatus\": \"done\", \"requested\": 1, \"status\": \"partial\", \"title\": \"YouTube 科技博主研究（一）：2位候选全量文字核验及内容方向标注\", \"updatedAt\": 1791629662154}]"
+}

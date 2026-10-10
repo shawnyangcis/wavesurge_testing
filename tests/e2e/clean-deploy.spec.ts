@@ -1,0 +1,20 @@
+import { expect, test } from '@playwright/test';
+import { execFileSync } from 'node:child_process';
+import { writeFileSync } from 'node:fs';
+test('独立 Compose 项目与全新卷：随机密码、真实模型网络、内部桌面、刷新与重启', async ({ page }) => {
+  test.setTimeout(180000);
+  const docker = (...args: string[]) => execFileSync('docker', ['compose', '-p', 'creator-studio-clean', '-f', 'compose.yaml', '-f', 'tests/fixtures/clean-compose.yaml', ...args], { encoding: 'utf8' });
+  const password = docker('exec', '-T', 'app', 'node', '-e', "process.stdout.write(require('fs').readFileSync('/app/data/admin-bootstrap.txt','utf8'))"); expect(password).toHaveLength(24);
+  expect((await page.request.get('http://localhost:3001/api/state')).status()).toBe(401);
+  await page.goto('http://localhost:3001'); await page.getByLabel('管理员密码').fill(password); await page.getByRole('button', { name: /进入工作室/ }).click(); await expect(page.getByLabel('研究对话')).toBeVisible();
+  const state = async () => (await (await page.request.get('http://localhost:3001/api/state')).json()); expect((await state()).messages).toHaveLength(0); expect((await state()).tasks).toHaveLength(0);
+  const text = `全新部署验证 ${Date.now()}：请简短回复“模型网络已验证”，不要启动研究。`; await page.getByRole('textbox', { name: '发送消息' }).fill(text); await page.getByRole('button', { name: '发送消息' }).click();
+  await expect.poll(async () => (await state()).messages.filter((m: any) => m.role === 'assistant').at(-1)?.text, { timeout: 120000 }).toContain('模型网络已验证');
+  await page.getByRole('button', { name: '浏览器桌面', exact: true }).click(); const frame = page.frameLocator('iframe[title="持久浏览器桌面"]'); await expect(frame.locator('#noVNC_container canvas')).toBeVisible({ timeout: 30000 }); await expect(frame.locator('#noVNC_status')).toContainText(/Connected|connected|已连接/, { timeout: 30000 });
+  await page.screenshot({ path: 'validation/2026-10-10/stage-6-clean-desktop.png', fullPage: true }); await page.getByRole('button', { name: '关闭' }).click();
+  docker('restart', 'app'); await expect.poll(async () => { try { return (await page.request.get('http://localhost:3001/api/health')).status(); } catch { return 0; } }, { timeout: 45000 }).toBe(200); await page.reload(); await expect(page.getByText(text, { exact: true })).toBeVisible();
+  const debug = await (await page.request.get('http://localhost:3001/api/debug')).json(); expect(debug.calls[0].endpoint).toContain('host.docker.internal'); expect(debug.calls[0].response.choices).toHaveLength(1);
+  const list = docker('ps', '--format', 'json').trim().split('\n').map(line => JSON.parse(line)); expect((list.find((s: any) => s.Service === 'desktop').Publishers ?? []).filter((p: any) => p.PublishedPort > 0)).toHaveLength(0);
+  writeFileSync('validation/2026-10-10/stage-6-clean-deploy.json', JSON.stringify({ source: 'new named volumes and independent Compose project; real model request', snapshot: await state(), calls: debug.calls, services: list }, null, 2));
+  await page.getByRole('button', { name: '退出' }).click(); await expect(page.getByLabel('管理员密码')).toBeVisible();
+});

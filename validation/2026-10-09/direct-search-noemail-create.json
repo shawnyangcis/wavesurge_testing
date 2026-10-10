@@ -1,0 +1,13 @@
+{
+  "atUtc": "2026-10-09T14:49:46.489073+00:00",
+  "method": "POST",
+  "path": "/creator-search/requests",
+  "authMode": "cookie",
+  "status": 201,
+  "elapsedSeconds": 0.299,
+  "contentType": "application/json; charset=utf-8",
+  "responseSha256": "a107c454d3d3ff7a5f8b99caf9e04a400b40f2542de756dceebc93dfe8456693",
+  "response": {
+    "taskId": "184099be-3293-4547-a46e-83adae772fd1"
+  }
+}

@@ -1,0 +1,523 @@
+{
+  "at": "2026-10-10T06:24:07.306Z",
+  "tasks": [
+    {
+      "id": "research-7e157f91534c9f8f156d257d",
+      "title": "美国 TikTok 数码男博主筛选",
+      "spec": {
+        "title": "美国 TikTok 数码男博主筛选",
+        "personaText": "US digital technology and consumer electronics content creators",
+        "count": 2,
+        "platforms": [
+          "tiktok"
+        ],
+        "regions": [
+          "United States"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "candidateBudget": 4,
+        "criteria": [
+          {
+            "id": "digital_content",
+            "label": "发布数码或消费电子相关内容",
+            "required": true,
+            "basis": "text"
+          },
+          {
+            "id": "male_self_description",
+            "label": "账号自身的公开介绍明确表明为男性；未明确说明则为待确认，不从外貌推断",
+            "required": true,
+            "basis": "text"
+          },
+          {
+            "id": "glasses_preference",
+            "label": "佩戴眼镜，优先但非硬性要求；需基于实际观察到的图像",
+            "required": false,
+            "basis": "visual"
+          }
+        ],
+        "annotations": [
+          {
+            "id": "content_direction",
+            "label": "内容方向"
+          },
+          {
+            "id": "style",
+            "label": "内容风格"
+          },
+          {
+            "id": "glasses",
+            "label": "是否戴眼镜",
+            "values": [
+              "戴眼镜",
+              "未戴眼镜"
+            ]
+          }
+        ]
+      },
+      "body": {
+        "requestId": "research-7e157f91534c9f8f156d257d",
+        "personaText": "US digital technology and consumer electronics content creators",
+        "count": 4,
+        "platforms": [
+          "tiktok"
+        ],
+        "regions": [
+          "United States"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "emailReadyRequired": false
+      },
+      "status": "partial",
+      "requested": 2,
+      "evaluated": 4,
+      "matched": 0,
+      "updatedAt": 1791612872357,
+      "detail": "已选合格 0/2，已核验 4；证据不足者保持待核实。",
+      "nextPollAt": 1791612813015,
+      "candidates": [
+        {
+          "id": "tiktok:ritualesmayte331",
+          "handle": "ritualesmayte331",
+          "profileUrl": "",
+          "followers": 331181300,
+          "region": null,
+          "evidenceCount": 1
+        },
+        {
+          "id": "tiktok:stephencurry30",
+          "handle": "stephencurry30",
+          "profileUrl": "",
+          "followers": 308900000,
+          "region": null,
+          "evidenceCount": 1
+        },
+        {
+          "id": "tiktok:seed02678",
+          "handle": "seed02678",
+          "profileUrl": "",
+          "followers": 267848000,
+          "region": null,
+          "evidenceCount": 1
+        },
+        {
+          "id": "tiktok:voodoo_248",
+          "handle": "voodoo_248",
+          "profileUrl": "",
+          "followers": 248207800,
+          "region": null,
+          "evidenceCount": 1
+        }
+      ],
+      "failures": [],
+      "discovery": {
+        "platform": 1,
+        "keyword": 0,
+        "page": 0,
+        "cursor": "",
+        "seenCursors": [],
+        "seenUsers": [],
+        "pending": [],
+        "delivered": 100,
+        "done": true
+      },
+      "discoveryAttempts": 0,
+      "remoteStatus": "done",
+      "qualifying": 0
+    },
+    {
+      "id": "research-a8e3309218440957ace846fd",
+      "title": "YouTube 大学学习方法创作者",
+      "spec": {
+        "title": "YouTube 大学学习方法创作者",
+        "personaText": "college study methods, lecture note taking and exam revision creators",
+        "count": 1,
+        "platforms": [
+          "youtube"
+        ],
+        "regions": [
+          "United States"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "candidateBudget": 2,
+        "criteria": [
+          {
+            "id": "study_content",
+            "label": "有学习方法、课堂笔记整理或备考复习相关内容依据",
+            "required": true,
+            "basis": "text"
+          },
+          {
+            "id": "college_audience",
+            "label": "有明确面向大学生的内容依据，不要求创作者本人是在校生",
+            "required": true,
+            "basis": "text"
+          }
+        ],
+        "annotations": [
+          {
+            "id": "content_direction",
+            "label": "内容方向"
+          },
+          {
+            "id": "expression_style",
+            "label": "表达风格"
+          },
+          {
+            "id": "collaboration_fit",
+            "label": "适合的合作方式"
+          }
+        ]
+      },
+      "body": {
+        "requestId": "research-a8e3309218440957ace846fd",
+        "personaText": "college study methods, lecture note taking and exam revision creators",
+        "count": 2,
+        "platforms": [
+          "youtube"
+        ],
+        "regions": [
+          "United States"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "emailReadyRequired": false
+      },
+      "status": "partial",
+      "requested": 1,
+      "evaluated": 2,
+      "matched": 0,
+      "updatedAt": 1791613297872,
+      "detail": "已选合格 0/1，已核验 2；证据不足者保持待核实。",
+      "nextPollAt": 1791613195766,
+      "candidates": [
+        {
+          "id": "youtube:5minutecraftsyoutube",
+          "handle": "5minutecraftsyoutube",
+          "profileUrl": "",
+          "followers": 80600000,
+          "region": null,
+          "evidenceCount": 2
+        },
+        {
+          "id": "youtube:beatboxjcop",
+          "handle": "beatboxjcop",
+          "profileUrl": "",
+          "followers": 51000000,
+          "region": null,
+          "evidenceCount": 2
+        }
+      ],
+      "failures": [],
+      "exhaustive": true,
+      "discovery": {
+        "platform": 1,
+        "keyword": 0,
+        "page": 0,
+        "cursor": "",
+        "seenCursors": [],
+        "seenUsers": [],
+        "pending": [],
+        "delivered": 100,
+        "done": true
+      },
+      "discoveryAttempts": 0,
+      "remoteStatus": "done",
+      "qualifying": 0
+    },
+    {
+      "id": "research-11deee85612adbbdea75b835",
+      "title": "YouTube 大学生 AI 与效率工具创作者",
+      "spec": {
+        "title": "YouTube 大学生 AI 与效率工具创作者",
+        "personaText": "AI and productivity tool tutorials and reviews for college students, Notion and AI note-taking tools",
+        "count": 1,
+        "platforms": [
+          "youtube"
+        ],
+        "regions": [
+          "United States"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "candidateBudget": 2,
+        "criteria": [
+          {
+            "id": "ai_productivity_content",
+            "label": "有 AI 或效率工具教程、实测或评测相关内容依据",
+            "required": true,
+            "basis": "text"
+          },
+          {
+            "id": "college_audience",
+            "label": "有明确面向大学生的内容依据，不要求创作者本人是在校生",
+            "required": true,
+            "basis": "text"
+          },
+          {
+            "id": "notion_ai_notes_preference",
+            "label": "实际发布过讲解、演示、实测或评测 Notion 或 AI 笔记工具的内容；仅为优先项，缺少该内容不影响必选条件合格判定",
+            "required": false,
+            "basis": "text"
+          }
+        ],
+        "annotations": [
+          {
+            "id": "content_direction",
+            "label": "内容方向"
+          },
+          {
+            "id": "expression_style",
+            "label": "表达风格"
+          },
+          {
+            "id": "collaboration_fit",
+            "label": "适合的合作方式"
+          }
+        ]
+      },
+      "body": {
+        "requestId": "research-11deee85612adbbdea75b835",
+        "personaText": "AI and productivity tool tutorials and reviews for college students, Notion and AI note-taking tools",
+        "count": 2,
+        "platforms": [
+          "youtube"
+        ],
+        "regions": [
+          "United States"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "emailReadyRequired": false
+      },
+      "status": "partial",
+      "requested": 1,
+      "evaluated": 2,
+      "matched": 0,
+      "updatedAt": 1791613335684,
+      "detail": "已选合格 0/1，已核验 2；证据不足者保持待核实。",
+      "nextPollAt": 1791613301194,
+      "candidates": [
+        {
+          "id": "youtube:5minutecraftsyoutube",
+          "handle": "5minutecraftsyoutube",
+          "profileUrl": "",
+          "followers": 80600000,
+          "region": null,
+          "evidenceCount": 2
+        },
+        {
+          "id": "youtube:beatboxjcop",
+          "handle": "beatboxjcop",
+          "profileUrl": "",
+          "followers": 51000000,
+          "region": null,
+          "evidenceCount": 2
+        }
+      ],
+      "failures": [],
+      "exhaustive": true,
+      "discovery": {
+        "platform": 1,
+        "keyword": 0,
+        "page": 0,
+        "cursor": "",
+        "seenCursors": [],
+        "seenUsers": [],
+        "pending": [],
+        "delivered": 100,
+        "done": true
+      },
+      "discoveryAttempts": 0,
+      "remoteStatus": "done",
+      "qualifying": 0
+    }
+  ],
+  "assistance": [],
+  "waveCalls": [
+    {
+      "path": "/discover/db?platform=tiktok&limit=100&sort=followers_desc",
+      "status": 200,
+      "createdAt": 1791612810632,
+      "finishedAt": 1791612811999,
+      "responseKeys": [
+        "summary",
+        "tiers",
+        "creators",
+        "strategy",
+        "screening",
+        "scraping",
+        "collecting",
+        "latestCreatorSearchTaskId",
+        "latestSearchFunnel",
+        "target",
+        "fulfilled",
+        "campaignState"
+      ],
+      "pool": {
+        "count": 100,
+        "range": {
+          "min": 5000000,
+          "max": 331181300
+        },
+        "profiles": 0
+      }
+    },
+    {
+      "path": "/discover/db?platform=youtube&limit=100&sort=followers_desc",
+      "status": 200,
+      "createdAt": 1791613193525,
+      "finishedAt": 1791613194755,
+      "responseKeys": [
+        "summary",
+        "tiers",
+        "creators",
+        "strategy",
+        "screening",
+        "scraping",
+        "collecting",
+        "latestCreatorSearchTaskId",
+        "latestSearchFunnel",
+        "target",
+        "fulfilled",
+        "campaignState"
+      ],
+      "pool": {
+        "count": 100,
+        "range": {
+          "min": 5280000,
+          "max": 80600000
+        },
+        "profiles": 0
+      }
+    },
+    {
+      "path": "/discover/db?platform=youtube&limit=100&sort=followers_desc",
+      "status": 200,
+      "createdAt": 1791613297875,
+      "finishedAt": 1791613300183,
+      "responseKeys": [
+        "summary",
+        "tiers",
+        "creators",
+        "strategy",
+        "screening",
+        "scraping",
+        "collecting",
+        "latestCreatorSearchTaskId",
+        "latestSearchFunnel",
+        "target",
+        "fulfilled",
+        "campaignState"
+      ],
+      "pool": {
+        "count": 100,
+        "range": {
+          "min": 5280000,
+          "max": 80600000
+        },
+        "profiles": 0
+      }
+    }
+  ],
+  "deliveries": [
+    {
+      "id": "report-research-7e157f91534c9f8f156d257d-53dc75d0e2ad9884",
+      "subject": "research-7e157f91534c9f8f156d257d",
+      "revision": {
+        "status": "partial",
+        "matched": 0,
+        "evaluated": 4,
+        "results": [
+          [
+            "research-7e157f91534c9f8f156d257d|tiktok:ritualesmayte331",
+            1791612827781
+          ],
+          [
+            "research-7e157f91534c9f8f156d257d|tiktok:stephencurry30",
+            1791612843326
+          ],
+          [
+            "research-7e157f91534c9f8f156d257d|tiktok:seed02678",
+            1791612856785
+          ],
+          [
+            "research-7e157f91534c9f8f156d257d|tiktok:voodoo_248",
+            1791612872354
+          ]
+        ]
+      },
+      "createdAt": 1791612872357
+    },
+    {
+      "id": "report-research-a8e3309218440957ace846fd-e3983f752aa5541c",
+      "subject": "research-a8e3309218440957ace846fd",
+      "revision": {
+        "status": "partial",
+        "matched": 0,
+        "evaluated": 2,
+        "results": [
+          [
+            "research-a8e3309218440957ace846fd|youtube:5minutecraftsyoutube",
+            1791613224375
+          ],
+          [
+            "research-a8e3309218440957ace846fd|youtube:beatboxjcop",
+            1791613297870
+          ]
+        ]
+      },
+      "createdAt": 1791613297873
+    },
+    {
+      "id": "report-research-11deee85612adbbdea75b835-fd118feb87c3272c",
+      "subject": "research-11deee85612adbbdea75b835",
+      "revision": {
+        "status": "partial",
+        "matched": 0,
+        "evaluated": 2,
+        "results": [
+          [
+            "research-11deee85612adbbdea75b835|youtube:5minutecraftsyoutube",
+            1791613317442
+          ],
+          [
+            "research-11deee85612adbbdea75b835|youtube:beatboxjcop",
+            1791613335676
+          ]
+        ]
+      },
+      "createdAt": 1791613335685
+    },
+    {
+      "id": "report-campaign-9d63bb971fa097c467999073-33e0fae56690b428",
+      "subject": "campaign-9d63bb971fa097c467999073",
+      "revision": {
+        "status": "partial",
+        "selections": [],
+        "results": [
+          [
+            "research-a8e3309218440957ace846fd|youtube:5minutecraftsyoutube",
+            1791613224375
+          ],
+          [
+            "research-a8e3309218440957ace846fd|youtube:beatboxjcop",
+            1791613297870
+          ],
+          [
+            "research-11deee85612adbbdea75b835|youtube:5minutecraftsyoutube",
+            1791613317442
+          ],
+          [
+            "research-11deee85612adbbdea75b835|youtube:beatboxjcop",
+            1791613335676
+          ]
+        ]
+      },
+      "createdAt": 1791613335688
+    }
+  ]
+}

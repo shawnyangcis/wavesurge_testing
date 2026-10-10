@@ -1,0 +1,27 @@
+{
+  "at": "2026-10-10T10:27:29.913Z",
+  "scope": "live",
+  "state": {
+    "messages": [],
+    "tasks": [],
+    "active": false,
+    "epoch": 0
+  },
+  "campaigns": [],
+  "results": [],
+  "calls": [],
+  "waveCalls": [],
+  "toolReceipts": [],
+  "errors": [
+    "Failed to load resource: the server responded with a status of 401 (Unauthorized)",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)"
+  ],
+  "reportLinks": [],
+  "buttons": [
+    "Campaign 方案",
+    "浏览器桌面",
+    "设置与记录",
+    "退出",
+    "发送 ↗"
+  ]
+}

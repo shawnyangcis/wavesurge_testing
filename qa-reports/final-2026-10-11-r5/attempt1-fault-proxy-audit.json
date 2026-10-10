@@ -1,0 +1,71 @@
+{
+  "source": "explicit HTTP fault injection in isolated test deployment; successful requests forwarded to unchanged configured real model",
+  "endpointHost": "127.0.0.1:8317",
+  "calls": [
+    {
+      "at": "2026-10-10T17:38:51.295Z",
+      "kind": "chat",
+      "toolNames": [
+        "get_tasks",
+        "search_history",
+        "start_research",
+        "start_research_batch",
+        "cancel_research",
+        "enrich_results",
+        "get_results",
+        "save_campaign_plan",
+        "get_campaigns",
+        "start_campaign"
+      ],
+      "messageCount": 33,
+      "imageCount": 0,
+      "payloadHash": "c6c39e194232d2dda043aae4f24883dc66ff4c5cb8a83ebd442648da3c000bea",
+      "injected": true,
+      "status": 408
+    },
+    {
+      "at": "2026-10-10T17:38:52.319Z",
+      "kind": "chat",
+      "toolNames": [
+        "get_tasks",
+        "search_history",
+        "start_research",
+        "start_research_batch",
+        "cancel_research",
+        "enrich_results",
+        "get_results",
+        "save_campaign_plan",
+        "get_campaigns",
+        "start_campaign"
+      ],
+      "messageCount": 33,
+      "imageCount": 0,
+      "payloadHash": "b0f4a086212d3b361023c12637d8ef6a490b897e8e276e7973820211e8cf10c4",
+      "injected": false,
+      "status": 200
+    },
+    {
+      "specHash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "creatorHash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "at": "2026-10-10T17:38:57.453Z",
+      "kind": "chat",
+      "toolNames": [
+        "get_tasks",
+        "search_history",
+        "start_research",
+        "start_research_batch",
+        "cancel_research",
+        "enrich_results",
+        "get_results",
+        "save_campaign_plan",
+        "get_campaigns",
+        "start_campaign"
+      ],
+      "messageCount": 35,
+      "imageCount": 0,
+      "payloadHash": "942fac05bc207f0d70c66c1330d634099658e6cac4eac92e0bed4f56f684c40d",
+      "injected": false,
+      "status": 200
+    }
+  ]
+}

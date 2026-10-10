@@ -1,0 +1,17 @@
+{
+  "phase": "20-candidate batch waiting for public-page assistance",
+  "samples": [
+    {
+      "http": 200,
+      "seconds": 10.335
+    },
+    {
+      "http": 200,
+      "seconds": 10.888
+    },
+    {
+      "http": 200,
+      "seconds": 10.814
+    }
+  ]
+}

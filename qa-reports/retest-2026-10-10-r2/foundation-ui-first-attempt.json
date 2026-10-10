@@ -1,0 +1,72 @@
+{
+  "source": "Independent real Chrome UI on controlled-candidate isolated deployment; actual configured model and production desktop",
+  "at": "2026-10-10T06:28:57.038Z",
+  "checks": [
+    {
+      "label": "Unauthenticated state/debug denied",
+      "evidence": 401
+    },
+    {
+      "label": "Empty/wrong password validation",
+      "evidence": "密码不正确"
+    },
+    {
+      "label": "Login and disabled blank send",
+      "evidence": true
+    },
+    {
+      "label": "Reference image upload and removal",
+      "evidence": true
+    },
+    {
+      "label": "Actual image chat persisted; no unsolicited discovery",
+      "evidence": [
+        "图片能看清：是一张正方形色块图，左半边为绿色，右半边为蓝色，中间竖直分界，没有人物、文字或其他物体。\n\n这次不启动创作者搜索。"
+      ]
+    },
+    {
+      "label": "Settings save without replacing credential/model",
+      "evidence": 2
+    },
+    {
+      "label": "Actual context backup download parses as JSON",
+      "evidence": [
+        "format",
+        "messages",
+        "batches"
+      ]
+    },
+    {
+      "label": "Invalid context JSON rejected",
+      "evidence": "Unexpected token 'o', \"not-json\" is not valid JSON"
+    },
+    {
+      "label": "Context compression browser action",
+      "evidence": "操作已完成。"
+    }
+  ],
+  "errors": [],
+  "imageReply": [
+    {
+      "id": "46163513-6d4b-469a-a025-0b55dad1603f",
+      "role": "user",
+      "text": "看一下这张参考图里有什么，先确认图片能看清就好，不用找创作者。",
+      "createdAt": 1791613738989,
+      "epoch": 0,
+      "state": "delivered",
+      "attachments": [
+        "data:image/png;base64,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"
+      ]
+    },
+    {
+      "id": "c168b97b-39a5-4a24-b79e-59d7ec3f9f96",
+      "role": "assistant",
+      "text": "图片能看清：是一张正方形色块图，左半边为绿色，右半边为蓝色，中间竖直分界，没有人物、文字或其他物体。\n\n这次不启动创作者搜索。",
+      "epoch": 0,
+      "createdAt": 1791613753941,
+      "state": "delivered",
+      "attachments": []
+    }
+  ],
+  "error": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 0\nReceived: 5\n\nCall Log:\n- Timeout 5000ms exceeded while waiting on the predicate"
+}

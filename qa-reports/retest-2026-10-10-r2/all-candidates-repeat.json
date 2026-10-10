@@ -1,0 +1,706 @@
+{
+  "caseName": "all-candidates-repeat",
+  "base": "http://127.0.0.1:3553",
+  "startedAt": "2026-10-10T06:36:13.544Z",
+  "source": "Actual application UI and configured real model/headed browser; explicit controlled Wave and candidate fixtures",
+  "input": "再单独跑一轮这个流程看看，最后只选1人，但返回的两个候选都必须看完并保存内容方向、风格标签。粉丝1万到10万、美国 YouTube 科技内容这几个条件不变，没有额外偏好，最多两个候选。不要沿用上次只有一个人的结果。",
+  "before": {
+    "tasks": [
+      {
+        "id": "research-7ebf0f7a246b6a5ac3921cb7",
+        "title": "美国 YouTube 科技博主筛选与双候选画像标注",
+        "status": "completed",
+        "requested": 1,
+        "evaluated": 1,
+        "matched": 1,
+        "qualifying": 1,
+        "updatedAt": 1791613507092,
+        "detail": "已选合格 1/1，已核验 1；证据不足者保持待核实。",
+        "remoteStatus": "done",
+        "nextPollAt": 1791613490440
+      }
+    ],
+    "results": [
+      {
+        "id": "research-7ebf0f7a246b6a5ac3921cb7|youtube:http://wave-fixture:8087/creator/alice",
+        "taskId": "research-7ebf0f7a246b6a5ac3921cb7",
+        "handle": "",
+        "displayName": "受控夹具 alice",
+        "platform": "youtube",
+        "tags": [
+          "确实发布科技相关内容",
+          "科技知识教程",
+          "生产力工具",
+          "学生学习工作流",
+          "分步骤教学讲解",
+          "实用操作演示"
+        ],
+        "verdict": "match",
+        "selected": true,
+        "revision": 1,
+        "annotations": [
+          {
+            "dimensionId": "content_direction",
+            "status": "supported",
+            "values": [
+              "科技知识教程",
+              "生产力工具",
+              "学生学习工作流"
+            ],
+            "reason": "主页介绍为科技教程、生产力工具及学生学习工作流；2026年10月9日教程介绍处理器与降噪，2026年10月8日教程介绍Notion、番茄钟和闪卡的学习规划。",
+            "evidenceIds": [
+              "c9d0740ba34a45f99db427fc"
+            ]
+          },
+          {
+            "dimensionId": "content_style",
+            "status": "supported",
+            "values": [
+              "分步骤教学讲解",
+              "实用操作演示"
+            ],
+            "reason": "页面文字明确描述清晰的分步骤教师式讲解及屏幕上的生产力工具操作演示；此为文字支持的表达风格，不是对人物外观的推断。",
+            "evidenceIds": [
+              "c9d0740ba34a45f99db427fc"
+            ]
+          }
+        ],
+        "followers": null,
+        "region": null,
+        "facts": {
+          "conflicts": [],
+          "followers": {
+            "min": 20350,
+            "max": 20449,
+            "rawValue": "20.4K subscribers",
+            "evidenceIds": [
+              "c9d0740ba34a45f99db427fc"
+            ]
+          },
+          "country": {
+            "code": "US",
+            "rawValue": "Location: United States",
+            "evidenceIds": [
+              "c9d0740ba34a45f99db427fc"
+            ]
+          }
+        },
+        "judgments": [
+          {
+            "criterionId": "__region",
+            "verdict": "match",
+            "reason": "本人主页所在地声明：Location: United States",
+            "evidenceIds": [
+              "c9d0740ba34a45f99db427fc"
+            ],
+            "label": "所在地区"
+          },
+          {
+            "criterionId": "__platform",
+            "verdict": "match",
+            "reason": "创作者平台：youtube",
+            "evidenceIds": [],
+            "label": "平台"
+          },
+          {
+            "criterionId": "__followers",
+            "verdict": "match",
+            "reason": "主页显示 20.4K subscribers；保守区间 20350–20449，要求 10000–100000",
+            "evidenceIds": [
+              "c9d0740ba34a45f99db427fc"
+            ],
+            "label": "粉丝范围"
+          },
+          {
+            "criterionId": "technology_content",
+            "verdict": "match",
+            "reason": "已观察的候选主页明确写明科技教程，且列出发表于2026年10月9日、讲解处理器与降噪原理的公开科技教程，支持科技内容条件。该页面明确为受控测试账号，并非真实社交账号；判断仅针对提供的测试资料。",
+            "evidenceIds": [
+              "c9d0740ba34a45f99db427fc"
+            ],
+            "label": "确实发布科技相关内容"
+          }
+        ],
+        "evidence": [
+          {
+            "id": "41a22cd5e0b68893a736f301",
+            "url": "http://wave-fixture:8087/creator/alice",
+            "kind": "profile",
+            "text": "这是受控验收账号，公开主页供真实浏览器核验。不是 WaveSurge 实际发现的社交账号。"
+          },
+          {
+            "id": "c9d0740ba34a45f99db427fc",
+            "url": "http://wave-fixture:8087/creator/alice",
+            "kind": "browser_snapshot",
+            "text": "Alice — controlled test creator, NOT a real social account\n\n20.4K subscribers\n\nLocation: United States\n\nTechnology tutorials, productivity tools and student study workflows.\n\nCHIP / CIRCUIT BOARD / HEADPHONES\n\nOriginal public technology tutorial, published October 9, 2026. Explains processors and noise cancellation.\n\nPresentation style: clear step-by-step teacher explanation, everyday casual clothing. There is no evidence of geek fashion.\n\nSTUDY WORKFLOW / NOTION / POMODORO\n\nOriginal public study efficiency tutorial, published October 8, 2026. For university students: organize lecture notes and assignment deadlines in Notion, use a 25-minute Pomodoro focus block, then test recall with flashcards to reduce distracted study time. Demonstrates the complete study planning workflow step by step.\n\nPresentation style: practical teacher explanation and on-screen productivity walkthrough.",
+            "assetId": "d02348d0feab0652ea9e9e80942e6458e9a7a0dd928403052ec77013bed99a12"
+          }
+        ]
+      }
+    ]
+  },
+  "finishedAt": "2026-10-10T06:37:22.633Z",
+  "active": false,
+  "messages": [
+    {
+      "id": "5d6744df-635a-4f12-9f14-6840e01cfe93",
+      "role": "user",
+      "text": "再单独跑一轮这个流程看看，最后只选1人，但返回的两个候选都必须看完并保存内容方向、风格标签。粉丝1万到10万、美国 YouTube 科技内容这几个条件不变，没有额外偏好，最多两个候选。不要沿用上次只有一个人的结果。",
+      "state": "delivered",
+      "createdAt": 1791614174085,
+      "attachmentCount": 0
+    },
+    {
+      "id": "report-research-0fe5e8f81bff440a90d5bb89-462b4f1063855969",
+      "role": "assistant",
+      "text": "研究「美国 YouTube 科技创作者独立双候选核验与画像标注」已完成。已选合格 1/1 人，核验 1 人。\n\n已选合格 1/1，已核验 1；证据不足者保持待核实。\n\n[查看完整报告](/api/reports/research-0fe5e8f81bff440a90d5bb89) · [下载 CSV](/api/reports/research-0fe5e8f81bff440a90d5bb89?format=csv)",
+      "state": "delivered",
+      "createdAt": 1791614200766,
+      "attachmentCount": 0
+    },
+    {
+      "id": "896201b2-ae97-495d-bb5c-7bd1dda52e4c",
+      "role": "assistant",
+      "text": "本轮已单独提交，设置为**最终选 1 人、最多 2 个候选**，条件仍是美国、YouTube、粉丝 1万–10万、发布科技内容，无额外偏好。\n\n但实际结果**未完成你要求的双候选检查**：本轮只保存并核验了 **1 个候选**，不能说两个都已看完。\n\n已保存候选的标签：\n- **内容方向**：科技原理教程、生产力工具、学生学习工作流\n- **风格**：循序渐进的教学讲解、实用工具操作演示\n\n另外，该候选页面明确标注为**受控测试账号，并非真实社交账号**。因此，虽然系统记录其条件通过并选中，也不能将它作为真实创作者推荐交付。\n\n[查看本轮报告](/api/reports/research-0fe5e8f81bff440a90d5bb89)\n\n当前缺口是：**第二个候选的核验与标签记录，以及真实创作者的最终人选。**",
+      "state": "delivered",
+      "createdAt": 1791614242176,
+      "attachmentCount": 0
+    }
+  ],
+  "tasks": [
+    {
+      "id": "research-7ebf0f7a246b6a5ac3921cb7",
+      "title": "美国 YouTube 科技博主筛选与双候选画像标注",
+      "status": "completed",
+      "requested": 1,
+      "evaluated": 1,
+      "matched": 1,
+      "qualifying": 1,
+      "updatedAt": 1791613507092,
+      "detail": "已选合格 1/1，已核验 1；证据不足者保持待核实。",
+      "remoteStatus": "done",
+      "nextPollAt": 1791613490440
+    },
+    {
+      "id": "research-0fe5e8f81bff440a90d5bb89",
+      "title": "美国 YouTube 科技创作者独立双候选核验与画像标注",
+      "status": "completed",
+      "requested": 1,
+      "evaluated": 1,
+      "matched": 1,
+      "qualifying": 1,
+      "updatedAt": 1791614200766,
+      "detail": "已选合格 1/1，已核验 1；证据不足者保持待核实。",
+      "remoteStatus": "done",
+      "nextPollAt": 1791614186681
+    }
+  ],
+  "results": [
+    {
+      "id": "research-7ebf0f7a246b6a5ac3921cb7|youtube:http://wave-fixture:8087/creator/alice",
+      "taskId": "research-7ebf0f7a246b6a5ac3921cb7",
+      "handle": "",
+      "displayName": "受控夹具 alice",
+      "platform": "youtube",
+      "tags": [
+        "确实发布科技相关内容",
+        "科技知识教程",
+        "生产力工具",
+        "学生学习工作流",
+        "分步骤教学讲解",
+        "实用操作演示"
+      ],
+      "verdict": "match",
+      "selected": true,
+      "revision": 1,
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "科技知识教程",
+            "生产力工具",
+            "学生学习工作流"
+          ],
+          "reason": "主页介绍为科技教程、生产力工具及学生学习工作流；2026年10月9日教程介绍处理器与降噪，2026年10月8日教程介绍Notion、番茄钟和闪卡的学习规划。",
+          "evidenceIds": [
+            "c9d0740ba34a45f99db427fc"
+          ]
+        },
+        {
+          "dimensionId": "content_style",
+          "status": "supported",
+          "values": [
+            "分步骤教学讲解",
+            "实用操作演示"
+          ],
+          "reason": "页面文字明确描述清晰的分步骤教师式讲解及屏幕上的生产力工具操作演示；此为文字支持的表达风格，不是对人物外观的推断。",
+          "evidenceIds": [
+            "c9d0740ba34a45f99db427fc"
+          ]
+        }
+      ],
+      "followers": null,
+      "region": null,
+      "facts": {
+        "conflicts": [],
+        "followers": {
+          "min": 20350,
+          "max": 20449,
+          "rawValue": "20.4K subscribers",
+          "evidenceIds": [
+            "c9d0740ba34a45f99db427fc"
+          ]
+        },
+        "country": {
+          "code": "US",
+          "rawValue": "Location: United States",
+          "evidenceIds": [
+            "c9d0740ba34a45f99db427fc"
+          ]
+        }
+      },
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "match",
+          "reason": "本人主页所在地声明：Location: United States",
+          "evidenceIds": [
+            "c9d0740ba34a45f99db427fc"
+          ],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：youtube",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "主页显示 20.4K subscribers；保守区间 20350–20449，要求 10000–100000",
+          "evidenceIds": [
+            "c9d0740ba34a45f99db427fc"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "technology_content",
+          "verdict": "match",
+          "reason": "已观察的候选主页明确写明科技教程，且列出发表于2026年10月9日、讲解处理器与降噪原理的公开科技教程，支持科技内容条件。该页面明确为受控测试账号，并非真实社交账号；判断仅针对提供的测试资料。",
+          "evidenceIds": [
+            "c9d0740ba34a45f99db427fc"
+          ],
+          "label": "确实发布科技相关内容"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "41a22cd5e0b68893a736f301",
+          "url": "http://wave-fixture:8087/creator/alice",
+          "kind": "profile",
+          "text": "这是受控验收账号，公开主页供真实浏览器核验。不是 WaveSurge 实际发现的社交账号。"
+        },
+        {
+          "id": "c9d0740ba34a45f99db427fc",
+          "url": "http://wave-fixture:8087/creator/alice",
+          "kind": "browser_snapshot",
+          "text": "Alice — controlled test creator, NOT a real social account\n\n20.4K subscribers\n\nLocation: United States\n\nTechnology tutorials, productivity tools and student study workflows.\n\nCHIP / CIRCUIT BOARD / HEADPHONES\n\nOriginal public technology tutorial, published October 9, 2026. Explains processors and noise cancellation.\n\nPresentation style: clear step-by-step teacher explanation, everyday casual clothing. There is no evidence of geek fashion.\n\nSTUDY WORKFLOW / NOTION / POMODORO\n\nOriginal public study efficiency tutorial, published October 8, 2026. For university students: organize lecture notes and assignment deadlines in Notion, use a 25-minute Pomodoro focus block, then test recall with flashcards to reduce distracted study time. Demonstrates the complete study planning workflow step by step.\n\nPresentation style: practical teacher explanation and on-screen productivity walkthrough.",
+          "assetId": "d02348d0feab0652ea9e9e80942e6458e9a7a0dd928403052ec77013bed99a12"
+        }
+      ]
+    },
+    {
+      "id": "research-0fe5e8f81bff440a90d5bb89|youtube:http://wave-fixture:8087/creator/alice",
+      "taskId": "research-0fe5e8f81bff440a90d5bb89",
+      "handle": "",
+      "displayName": "受控夹具 alice",
+      "platform": "youtube",
+      "tags": [
+        "发布科技内容",
+        "科技原理教程",
+        "生产力工具",
+        "学生学习工作流",
+        "循序渐进的教学讲解",
+        "实用工具操作演示"
+      ],
+      "verdict": "match",
+      "selected": true,
+      "revision": 1,
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "科技原理教程",
+            "生产力工具",
+            "学生学习工作流"
+          ],
+          "reason": "主页介绍及教程文字包含处理器、降噪原理、Notion笔记与任务管理、番茄钟和闪卡学习流程。",
+          "evidenceIds": [
+            "c9d0740ba34a45f99db427fc"
+          ]
+        },
+        {
+          "dimensionId": "style",
+          "status": "supported",
+          "values": [
+            "循序渐进的教学讲解",
+            "实用工具操作演示"
+          ],
+          "reason": "页面文字明确描述逐步教学讲解及屏幕上的生产力工具操作演示；不据此推断实际穿搭或身体特征。",
+          "evidenceIds": [
+            "c9d0740ba34a45f99db427fc"
+          ]
+        }
+      ],
+      "followers": null,
+      "region": null,
+      "facts": {
+        "conflicts": [],
+        "followers": {
+          "min": 20350,
+          "max": 20449,
+          "rawValue": "20.4K subscribers",
+          "evidenceIds": [
+            "c9d0740ba34a45f99db427fc"
+          ]
+        },
+        "country": {
+          "code": "US",
+          "rawValue": "Location: United States",
+          "evidenceIds": [
+            "c9d0740ba34a45f99db427fc"
+          ]
+        }
+      },
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "match",
+          "reason": "本人主页所在地声明：Location: United States",
+          "evidenceIds": [
+            "c9d0740ba34a45f99db427fc"
+          ],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：youtube",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "主页显示 20.4K subscribers；保守区间 20350–20449，要求 10000–100000",
+          "evidenceIds": [
+            "c9d0740ba34a45f99db427fc"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "technology_content",
+          "verdict": "match",
+          "reason": "已观察主页明确介绍科技教程，并列出2026年10月9日发布的处理器与降噪原理教程，支持发布科技内容。该页面明确为受控测试账号，不是真实社交账号。",
+          "evidenceIds": [
+            "c9d0740ba34a45f99db427fc"
+          ],
+          "label": "发布科技内容"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "41a22cd5e0b68893a736f301",
+          "url": "http://wave-fixture:8087/creator/alice",
+          "kind": "profile",
+          "text": "这是受控验收账号，公开主页供真实浏览器核验。不是 WaveSurge 实际发现的社交账号。"
+        },
+        {
+          "id": "c9d0740ba34a45f99db427fc",
+          "url": "http://wave-fixture:8087/creator/alice",
+          "kind": "browser_snapshot",
+          "text": "Alice — controlled test creator, NOT a real social account\n\n20.4K subscribers\n\nLocation: United States\n\nTechnology tutorials, productivity tools and student study workflows.\n\nCHIP / CIRCUIT BOARD / HEADPHONES\n\nOriginal public technology tutorial, published October 9, 2026. Explains processors and noise cancellation.\n\nPresentation style: clear step-by-step teacher explanation, everyday casual clothing. There is no evidence of geek fashion.\n\nSTUDY WORKFLOW / NOTION / POMODORO\n\nOriginal public study efficiency tutorial, published October 8, 2026. For university students: organize lecture notes and assignment deadlines in Notion, use a 25-minute Pomodoro focus block, then test recall with flashcards to reduce distracted study time. Demonstrates the complete study planning workflow step by step.\n\nPresentation style: practical teacher explanation and on-screen productivity walkthrough.",
+          "assetId": "d02348d0feab0652ea9e9e80942e6458e9a7a0dd928403052ec77013bed99a12"
+        }
+      ]
+    }
+  ],
+  "modelCalls": [
+    {
+      "id": "6ae7190e-7a19-423e-a619-4ea4dc8a388d",
+      "kind": "chat",
+      "createdAt": 1791614174098,
+      "finishedAt": 1791614185616,
+      "model": "gpt-6.1-sol",
+      "toolNames": [
+        "get_tasks",
+        "search_history",
+        "start_research",
+        "cancel_research",
+        "enrich_results",
+        "get_results",
+        "save_campaign_plan",
+        "get_campaigns",
+        "start_campaign"
+      ],
+      "response": {
+        "role": "assistant",
+        "content": null,
+        "reasoning_content": null,
+        "tool_calls": [
+          {
+            "id": "call_NblIVo9QiP35p1s1W2GPa6Gd",
+            "type": "function",
+            "function": {
+              "name": "start_research",
+              "arguments": "{\"title\":\"美国 YouTube 科技创作者独立双候选核验与画像标注\",\"personaText\":\"United States YouTube technology content creators\",\"count\":1,\"platforms\":[\"youtube\"],\"regions\":[\"United States\"],\"minFollowers\":10000,\"maxFollowers\":100000,\"candidateBudget\":2,\"criteria\":[{\"id\":\"technology_content\",\"label\":\"发布科技内容\",\"required\":true,\"basis\":\"text\"}],\"annotations\":[{\"id\":\"content_direction\",\"label\":\"内容方向\"},{\"id\":\"style\",\"label\":\"风格\"}]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "4fe7161f-0424-4460-a52b-9fc20af3f5d7",
+      "kind": "chat",
+      "createdAt": 1791614185660,
+      "finishedAt": 1791614194278,
+      "model": "gpt-6.1-sol",
+      "toolNames": [
+        "get_tasks",
+        "search_history",
+        "start_research",
+        "cancel_research",
+        "enrich_results",
+        "get_results",
+        "save_campaign_plan",
+        "get_campaigns",
+        "start_campaign"
+      ],
+      "response": {
+        "role": "assistant",
+        "content": "已提交这轮独立核验，不沿用上次只有一人的结果：\n\n- **筛选条件**：美国、YouTube、科技内容，粉丝 **1万–10万**，无额外偏好。\n- **候选上限**：2人；两位候选都要核验并保存**内容方向、风格标签**，不会选出1人后就跳过另一位。\n- **最终入选**：1人，须全部必选条件通过。\n\n本轮只读取已有候选库并核验。若来源不足两人，或标签证据不足，会明确说明，不补造结果。",
+        "reasoning_content": null,
+        "tool_calls": null
+      }
+    },
+    {
+      "id": "7bb5ecd1-9f71-4c1b-996a-c0df9d942b89",
+      "kind": "browser-verification",
+      "createdAt": 1791614185977,
+      "finishedAt": 1791614200753,
+      "model": "gpt-6.1-sol",
+      "toolNames": [
+        "submit_judgments",
+        "browser",
+        "request_human_assistance"
+      ],
+      "response": {
+        "role": "assistant",
+        "content": null,
+        "reasoning_content": null,
+        "tool_calls": [
+          {
+            "id": "call_0EVmDbpXoD4TYQLlgUQFJPG1",
+            "type": "function",
+            "function": {
+              "name": "submit_judgments",
+              "arguments": "{\"judgments\":[{\"criterionId\":\"technology_content\",\"verdict\":\"match\",\"reason\":\"已观察主页明确介绍科技教程，并列出2026年10月9日发布的处理器与降噪原理教程，支持发布科技内容。该页面明确为受控测试账号，不是真实社交账号。\",\"evidenceIds\":[\"c9d0740ba34a45f99db427fc\"]}],\"annotations\":[{\"dimensionId\":\"content_direction\",\"status\":\"supported\",\"values\":[\"科技原理教程\",\"生产力工具\",\"学生学习工作流\"],\"reason\":\"主页介绍及教程文字包含处理器、降噪原理、Notion笔记与任务管理、番茄钟和闪卡学习流程。\",\"evidenceIds\":[\"c9d0740ba34a45f99db427fc\"]},{\"dimensionId\":\"style\",\"status\":\"supported\",\"values\":[\"循序渐进的教学讲解\",\"实用工具操作演示\"],\"reason\":\"页面文字明确描述逐步教学讲解及屏幕上的生产力工具操作演示；不据此推断实际穿搭或身体特征。\",\"evidenceIds\":[\"c9d0740ba34a45f99db427fc\"]}],\"facts\":[{\"kind\":\"followers\",\"rawValue\":\"20.4K subscribers\",\"evidenceIds\":[\"c9d0740ba34a45f99db427fc\"]},{\"kind\":\"country\",\"rawValue\":\"Location: United States\",\"evidenceIds\":[\"c9d0740ba34a45f99db427fc\"]}]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "4122f54e-8602-408b-be3d-57d3a8f0f492",
+      "kind": "chat",
+      "createdAt": 1791614194290,
+      "finishedAt": 1791614208140,
+      "model": "gpt-6.1-sol",
+      "toolNames": [
+        "get_tasks",
+        "search_history",
+        "start_research",
+        "cancel_research",
+        "enrich_results",
+        "get_results",
+        "save_campaign_plan",
+        "get_campaigns",
+        "start_campaign"
+      ],
+      "response": {
+        "role": "assistant",
+        "content": "已提交这一轮独立核验，不沿用上次仅一人的结果。\n\n- **最终名额：**1 人\n- **候选上限：**2 人\n- **条件：**美国、YouTube、粉丝 1万–10万、发布科技内容\n- **额外偏好：**无\n- **保存标签：**内容方向、风格\n\n本轮要求两位返回候选都完成核验并保存标签，不会选到第一位合格者就跳过第二位。证据不足的条件或标签会保留为未知，不强行判定。\n\n目前任务已提交，尚未完成候选核验。",
+        "reasoning_content": null,
+        "tool_calls": null
+      }
+    },
+    {
+      "id": "650f2bcc-c414-43b7-b648-05b7086946de",
+      "kind": "chat",
+      "createdAt": 1791614208147,
+      "finishedAt": 1791614227390,
+      "model": "gpt-6.1-sol",
+      "toolNames": [
+        "get_tasks",
+        "search_history",
+        "start_research",
+        "cancel_research",
+        "enrich_results",
+        "get_results",
+        "save_campaign_plan",
+        "get_campaigns",
+        "start_campaign"
+      ],
+      "response": {
+        "role": "assistant",
+        "content": null,
+        "reasoning_content": null,
+        "tool_calls": [
+          {
+            "id": "call_7GWCPoF3dHuBzUhE0WGavpRP",
+            "type": "function",
+            "function": {
+              "name": "get_tasks",
+              "arguments": "{}"
+            }
+          },
+          {
+            "id": "call_2MRYmo4wZA233WcH7ztnJOB9",
+            "type": "function",
+            "function": {
+              "name": "get_results",
+              "arguments": "{\"taskId\":\"research-0fe5e8f81bff440a90d5bb89\",\"limit\":20}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "0642a23c-ecc7-4957-ac11-6a1c839c54a1",
+      "kind": "chat",
+      "createdAt": 1791614227418,
+      "finishedAt": 1791614242169,
+      "model": "gpt-6.1-sol",
+      "toolNames": [
+        "get_tasks",
+        "search_history",
+        "start_research",
+        "cancel_research",
+        "enrich_results",
+        "get_results",
+        "save_campaign_plan",
+        "get_campaigns",
+        "start_campaign"
+      ],
+      "response": {
+        "role": "assistant",
+        "content": "本轮已单独提交，设置为**最终选 1 人、最多 2 个候选**，条件仍是美国、YouTube、粉丝 1万–10万、发布科技内容，无额外偏好。\n\n但实际结果**未完成你要求的双候选检查**：本轮只保存并核验了 **1 个候选**，不能说两个都已看完。\n\n已保存候选的标签：\n- **内容方向**：科技原理教程、生产力工具、学生学习工作流\n- **风格**：循序渐进的教学讲解、实用工具操作演示\n\n另外，该候选页面明确标注为**受控测试账号，并非真实社交账号**。因此，虽然系统记录其条件通过并选中，也不能将它作为真实创作者推荐交付。\n\n[查看本轮报告](/api/reports/research-0fe5e8f81bff440a90d5bb89)\n\n当前缺口是：**第二个候选的核验与标签记录，以及真实创作者的最终人选。**",
+        "reasoning_content": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "toolReceipts": [
+    {
+      "call": {
+        "id": "call_NblIVo9QiP35p1s1W2GPa6Gd",
+        "type": "function",
+        "function": {
+          "name": "start_research",
+          "arguments": "{\"title\":\"美国 YouTube 科技创作者独立双候选核验与画像标注\",\"personaText\":\"United States YouTube technology content creators\",\"count\":1,\"platforms\":[\"youtube\"],\"regions\":[\"United States\"],\"minFollowers\":10000,\"maxFollowers\":100000,\"candidateBudget\":2,\"criteria\":[{\"id\":\"technology_content\",\"label\":\"发布科技内容\",\"required\":true,\"basis\":\"text\"}],\"annotations\":[{\"id\":\"content_direction\",\"label\":\"内容方向\"},{\"id\":\"style\",\"label\":\"风格\"}]}"
+        }
+      },
+      "message": {
+        "role": "tool",
+        "tool_call_id": "call_NblIVo9QiP35p1s1W2GPa6Gd",
+        "content": "{\"id\":\"research-0fe5e8f81bff440a90d5bb89\",\"title\":\"美国 YouTube 科技创作者独立双候选核验与画像标注\",\"spec\":{\"title\":\"美国 YouTube 科技创作者独立双候选核验与画像标注\",\"personaText\":\"United States YouTube technology content creators\",\"count\":1,\"platforms\":[\"youtube\"],\"regions\":[\"United States\"],\"minFollowers\":10000,\"maxFollowers\":100000,\"candidateBudget\":2,\"criteria\":[{\"id\":\"technology_content\",\"label\":\"发布科技内容\",\"required\":true,\"basis\":\"text\"}],\"annotations\":[{\"id\":\"content_direction\",\"label\":\"内容方向\"},{\"id\":\"style\",\"label\":\"风格\"}]},\"body\":{\"requestId\":\"research-0fe5e8f81bff440a90d5bb89\",\"personaText\":\"United States YouTube technology content creators\",\"count\":2,\"platforms\":[\"youtube\"],\"regions\":[\"United States\"],\"minFollowers\":10000,\"maxFollowers\":100000,\"emailReadyRequired\":false},\"status\":\"queued\",\"requested\":1,\"evaluated\":0,\"matched\":0,\"updatedAt\":1791614185627,\"detail\":\"等待读取 WaveSurge 候选与原始资料\",\"nextPollAt\":0,\"candidates\":[],\"failures\":[]}"
+      }
+    },
+    {
+      "call": {
+        "id": "call_7GWCPoF3dHuBzUhE0WGavpRP",
+        "type": "function",
+        "function": {
+          "name": "get_tasks",
+          "arguments": "{}"
+        }
+      },
+      "message": {
+        "role": "tool",
+        "tool_call_id": "call_7GWCPoF3dHuBzUhE0WGavpRP",
+        "content": "[{\"id\":\"research-7ebf0f7a246b6a5ac3921cb7\",\"title\":\"美国 YouTube 科技博主筛选与双候选画像标注\",\"status\":\"completed\",\"requested\":1,\"evaluated\":1,\"matched\":1,\"qualifying\":1,\"updatedAt\":1791613507092,\"detail\":\"已选合格 1/1，已核验 1；证据不足者保持待核实。\",\"remoteStatus\":\"done\",\"nextPollAt\":1791613490440},{\"id\":\"research-0fe5e8f81bff440a90d5bb89\",\"title\":\"美国 YouTube 科技创作者独立双候选核验与画像标注\",\"status\":\"completed\",\"requested\":1,\"evaluated\":1,\"matched\":1,\"qualifying\":1,\"updatedAt\":1791614200766,\"detail\":\"已选合格 1/1，已核验 1；证据不足者保持待核实。\",\"remoteStatus\":\"done\",\"nextPollAt\":1791614186681}]"
+      }
+    },
+    {
+      "call": {
+        "id": "call_2MRYmo4wZA233WcH7ztnJOB9",
+        "type": "function",
+        "function": {
+          "name": "get_results",
+          "arguments": "{\"taskId\":\"research-0fe5e8f81bff440a90d5bb89\",\"limit\":20}"
+        }
+      },
+      "message": {
+        "role": "tool",
+        "tool_call_id": "call_2MRYmo4wZA233WcH7ztnJOB9",
+        "content": "{\"total\":1,\"offset\":0,\"limit\":20,\"results\":[{\"id\":\"research-0fe5e8f81bff440a90d5bb89|youtube:http://wave-fixture:8087/creator/alice\",\"taskId\":\"research-0fe5e8f81bff440a90d5bb89\",\"verdict\":\"match\",\"tags\":[\"发布科技内容\",\"科技原理教程\",\"生产力工具\",\"学生学习工作流\",\"循序渐进的教学讲解\",\"实用工具操作演示\"],\"judgments\":[{\"criterionId\":\"__region\",\"verdict\":\"match\",\"reason\":\"本人主页所在地声明：Location: United States\",\"evidenceIds\":[\"c9d0740ba34a45f99db427fc\"],\"label\":\"所在地区\"},{\"criterionId\":\"__platform\",\"verdict\":\"match\",\"reason\":\"创作者平台：youtube\",\"evidenceIds\":[],\"label\":\"平台\"},{\"criterionId\":\"__followers\",\"verdict\":\"match\",\"reason\":\"主页显示 20.4K subscribers；保守区间 20350–20449，要求 10000–100000\",\"evidenceIds\":[\"c9d0740ba34a45f99db427fc\"],\"label\":\"粉丝范围\"},{\"criterionId\":\"technology_content\",\"verdict\":\"match\",\"reason\":\"已观察主页明确介绍科技教程，并列出2026年10月9日发布的处理器与降噪原理教程，支持发布科技内容。该页面明确为受控测试账号，不是真实社交账号。\",\"evidenceIds\":[\"c9d0740ba34a45f99db427fc\"],\"label\":\"发布科技内容\"}],\"annotations\":[{\"dimensionId\":\"content_direction\",\"status\":\"supported\",\"values\":[\"科技原理教程\",\"生产力工具\",\"学生学习工作流\"],\"reason\":\"主页介绍及教程文字包含处理器、降噪原理、Notion笔记与任务管理、番茄钟和闪卡学习流程。\",\"evidenceIds\":[\"c9d0740ba34a45f99db427fc\"]},{\"dimensionId\":\"style\",\"status\":\"supported\",\"values\":[\"循序渐进的教学讲解\",\"实用工具操作演示\"],\"reason\":\"页面文字明确描述逐步教学讲解及屏幕上的生产力工具操作演示；不据此推断实际穿搭或身体特征。\",\"evidenceIds\":[\"c9d0740ba34a45f99db427fc\"]}],\"revision\":1,\"selected\":true,\"creator\":{\"id\":\"youtube:http://wave-fixture:8087/creator/alice\",\"platform\":\"youtube\",\"handle\":\"\",\"displayName\":\"受控夹具 alice\",\"followers\":null,\"region\":null,\"facts\":{\"conflicts\":[],\"followers\":{\"min\":20350,\"max\":20449,\"rawValue\":\"20.4K subscribers\",\"evidenceIds\":[\"c9d0740ba34a45f99db427fc\"]},\"country\":{\"code\":\"US\",\"rawValue\":\"Location: United States\",\"evidenceIds\":[\"c9d0740ba34a45f99db427fc\"]}},\"profileUrl\":\"http://wave-fixture:8087/creator/alice\"},\"reportUrl\":\"/api/reports/research-0fe5e8f81bff440a90d5bb89\"}]}"
+      }
+    }
+  ],
+  "waveCalls": [
+    {
+      "id": "d55fb243-4a51-4a0f-9d48-bb670b454a09",
+      "path": "/discover/db?platform=youtube&limit=100&sort=followers_desc",
+      "method": "GET",
+      "status": 200,
+      "createdAt": 1791614185637,
+      "finishedAt": 1791614185674
+    }
+  ],
+  "chatReportLinks": [
+    {
+      "text": "查看完整报告",
+      "href": "/api/reports/research-7ebf0f7a246b6a5ac3921cb7"
+    },
+    {
+      "text": "下载 CSV",
+      "href": "/api/reports/research-7ebf0f7a246b6a5ac3921cb7?format=csv"
+    },
+    {
+      "text": "查看现有报告",
+      "href": "/api/reports/research-7ebf0f7a246b6a5ac3921cb7"
+    },
+    {
+      "text": "下载 CSV",
+      "href": "/api/reports/research-7ebf0f7a246b6a5ac3921cb7?format=csv"
+    },
+    {
+      "text": "查看完整报告",
+      "href": "/api/reports/research-7ebf0f7a246b6a5ac3921cb7"
+    },
+    {
+      "text": "下载 CSV",
+      "href": "/api/reports/research-7ebf0f7a246b6a5ac3921cb7?format=csv"
+    },
+    {
+      "text": "查看现有报告",
+      "href": "/api/reports/research-7ebf0f7a246b6a5ac3921cb7"
+    },
+    {
+      "text": "下载 CSV",
+      "href": "/api/reports/research-7ebf0f7a246b6a5ac3921cb7?format=csv"
+    },
+    {
+      "text": "查看完整报告",
+      "href": "/api/reports/research-0fe5e8f81bff440a90d5bb89"
+    },
+    {
+      "text": "下载 CSV",
+      "href": "/api/reports/research-0fe5e8f81bff440a90d5bb89?format=csv"
+    }
+  ]
+}

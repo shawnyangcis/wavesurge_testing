@@ -1,0 +1,219 @@
+{
+  "source": "read-only causal replay of actual saved Wave result, same real browser snapshot, same model conditions; no persistent mutation",
+  "taskId": "research-be8026ae73f12c86682a616a",
+  "handle": "valstechtalkk",
+  "requestedRange": [
+    10000,
+    100000
+  ],
+  "apiExact": 39667,
+  "browserDisplay": "39.6K followers",
+  "parserInterval": {
+    "min": 39550,
+    "max": 39649
+  },
+  "actualStoredVerdict": "unknown",
+  "actualStoredFacts": {
+    "conflicts": [
+      "followers: 来源数值冲突"
+    ]
+  },
+  "cases": [
+    {
+      "name": "real-abbreviated-observation",
+      "followers": 39667,
+      "facts": {
+        "conflicts": [
+          "followers: 来源数值冲突"
+        ]
+      },
+      "verdict": "unknown",
+      "judgments": [
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "unknown",
+          "reason": "WaveSurge 粉丝数 39667，要求 10000–100000",
+          "evidenceIds": [
+            "46bb307f3da8c3ffa26c0f10",
+            "a7e3e7d0dbee5ed3fcffa6fb",
+            "1fb5693a3b0023984f72c6b9",
+            "c3953412bbb74ffbca3312f2",
+            "1c21b8e95992c64058cfac8b",
+            "76c551a09859ee2dfe764c66",
+            "d2189042f956f38a9525395a",
+            "c033fb0940eaeb292a6f3339",
+            "52f492da0fe03299184c0fa5",
+            "87ebf59f2901128398c958c2",
+            "c26d19047a589f35057611c8",
+            "5cda524e8da383ea651ea60b",
+            "a3d8791d4a209d89a0139a22",
+            "7bb702ab43acfd45050b3c4a",
+            "679308566b6ae5bc4f8cbf37",
+            "9663118351ea35ea5636ea0e",
+            "8651027e4121719240221dba",
+            "8a11fd6d66c0c8afe86cea45",
+            "43deb1ff834dd699441a736d",
+            "dca899590280eb658c797f0e",
+            "717a043dd0f37cc227ff95f6",
+            "40d85a86a3c3070e63930b95",
+            "f74080156ea96d0158320785",
+            "993795164f56180fa677016a",
+            "96df2585e5daa832df5e3e2f",
+            "065050e8db12421e84c73fc7",
+            "17fd963eabff98c0e8511814",
+            "04d01fbab252e6f46f3e99d3",
+            "4155221819a205568e8d0482",
+            "3ef26c78905d309854e19080",
+            "d8e5bc9c00851cb670aff520",
+            "d05b38e75cd48b3bf74b83a8",
+            "3741d6ccadd5694dd8f8f8bc",
+            "40ede6d8cdfe49e9626e73a8",
+            "f68cdd7ee190327945d056cd",
+            "9ab396bb0a0b4b411bbe2876",
+            "5499fcaebd7cbeb314d4ef48",
+            "b0d56e2e77ad6b5b29e1dafd",
+            "bf6140f7d0fd33928e8a1b22",
+            "62f8301f53e0d10f92546f01",
+            "4ed024f8ac08754d1090e7a6",
+            "c1f34e89b0c4fb215ffd0c21",
+            "f3cfe7e82f0bf3fe16309506",
+            "633ae5dfe1d62c4f204824ce",
+            "5ba27e0c1613a0d32117b1ee",
+            "fda6f480e37196397ea10faf",
+            "90fe0422dcc0bc844c034564",
+            "7c9d34bcf88db9341c24b3f7",
+            "87c02ca0c03d5c22958a2891"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "personal_creator",
+          "verdict": "match",
+          "reason": "主页以 V 为个人名称，自述 Reviews + a little glam、tech besties；2026-09-29 帖子以第一人称分享自己始终关闭自动亮度的使用偏好，2026-09-19 分享开箱及个人感受，支持个人创作者而非品牌官方账号。",
+          "evidenceIds": [
+            "834e31e4ad5d6471a34c29b6",
+            "8a11fd6d66c0c8afe86cea45",
+            "9ab396bb0a0b4b411bbe2876"
+          ],
+          "label": "个人创作者，而非品牌、公司或店铺官方账号"
+        },
+        {
+          "criterionId": "digital_content",
+          "verdict": "match",
+          "reason": "简介明确定位 tech 与 Reviews；2026-10-09 分享 iPhone 相机设置，2026-09-29 分享 Motorola Razr，2026-09-19 分享手机开箱，数码产品及使用技巧方向明确。",
+          "evidenceIds": [
+            "46bb307f3da8c3ffa26c0f10",
+            "a7e3e7d0dbee5ed3fcffa6fb",
+            "9663118351ea35ea5636ea0e",
+            "9ab396bb0a0b4b411bbe2876"
+          ],
+          "label": "内容方向为数码产品或数码科技分享"
+        }
+      ]
+    },
+    {
+      "name": "same-result-without-extra-fact",
+      "followers": 39667,
+      "facts": {
+        "conflicts": []
+      },
+      "verdict": "match",
+      "judgments": [
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 39667，要求 10000–100000",
+          "evidenceIds": [
+            "46bb307f3da8c3ffa26c0f10",
+            "a7e3e7d0dbee5ed3fcffa6fb",
+            "1fb5693a3b0023984f72c6b9",
+            "c3953412bbb74ffbca3312f2",
+            "1c21b8e95992c64058cfac8b",
+            "76c551a09859ee2dfe764c66",
+            "d2189042f956f38a9525395a",
+            "c033fb0940eaeb292a6f3339",
+            "52f492da0fe03299184c0fa5",
+            "87ebf59f2901128398c958c2",
+            "c26d19047a589f35057611c8",
+            "5cda524e8da383ea651ea60b",
+            "a3d8791d4a209d89a0139a22",
+            "7bb702ab43acfd45050b3c4a",
+            "679308566b6ae5bc4f8cbf37",
+            "9663118351ea35ea5636ea0e",
+            "8651027e4121719240221dba",
+            "8a11fd6d66c0c8afe86cea45",
+            "43deb1ff834dd699441a736d",
+            "dca899590280eb658c797f0e",
+            "717a043dd0f37cc227ff95f6",
+            "40d85a86a3c3070e63930b95",
+            "f74080156ea96d0158320785",
+            "993795164f56180fa677016a",
+            "96df2585e5daa832df5e3e2f",
+            "065050e8db12421e84c73fc7",
+            "17fd963eabff98c0e8511814",
+            "04d01fbab252e6f46f3e99d3",
+            "4155221819a205568e8d0482",
+            "3ef26c78905d309854e19080",
+            "d8e5bc9c00851cb670aff520",
+            "d05b38e75cd48b3bf74b83a8",
+            "3741d6ccadd5694dd8f8f8bc",
+            "40ede6d8cdfe49e9626e73a8",
+            "f68cdd7ee190327945d056cd",
+            "9ab396bb0a0b4b411bbe2876",
+            "5499fcaebd7cbeb314d4ef48",
+            "b0d56e2e77ad6b5b29e1dafd",
+            "bf6140f7d0fd33928e8a1b22",
+            "62f8301f53e0d10f92546f01",
+            "4ed024f8ac08754d1090e7a6",
+            "c1f34e89b0c4fb215ffd0c21",
+            "f3cfe7e82f0bf3fe16309506",
+            "633ae5dfe1d62c4f204824ce",
+            "5ba27e0c1613a0d32117b1ee",
+            "fda6f480e37196397ea10faf",
+            "90fe0422dcc0bc844c034564",
+            "7c9d34bcf88db9341c24b3f7",
+            "87c02ca0c03d5c22958a2891"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "personal_creator",
+          "verdict": "match",
+          "reason": "主页以 V 为个人名称，自述 Reviews + a little glam、tech besties；2026-09-29 帖子以第一人称分享自己始终关闭自动亮度的使用偏好，2026-09-19 分享开箱及个人感受，支持个人创作者而非品牌官方账号。",
+          "evidenceIds": [
+            "834e31e4ad5d6471a34c29b6",
+            "8a11fd6d66c0c8afe86cea45",
+            "9ab396bb0a0b4b411bbe2876"
+          ],
+          "label": "个人创作者，而非品牌、公司或店铺官方账号"
+        },
+        {
+          "criterionId": "digital_content",
+          "verdict": "match",
+          "reason": "简介明确定位 tech 与 Reviews；2026-10-09 分享 iPhone 相机设置，2026-09-29 分享 Motorola Razr，2026-09-19 分享手机开箱，数码产品及使用技巧方向明确。",
+          "evidenceIds": [
+            "46bb307f3da8c3ffa26c0f10",
+            "a7e3e7d0dbee5ed3fcffa6fb",
+            "9663118351ea35ea5636ea0e",
+            "9ab396bb0a0b4b411bbe2876"
+          ],
+          "label": "内容方向为数码产品或数码科技分享"
+        }
+      ]
+    }
+  ]
+}

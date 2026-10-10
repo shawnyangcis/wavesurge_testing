@@ -1,0 +1,501 @@
+{
+  "source": "isolated Docker project, new named volumes, explicit controlled Wave/candidate fixture; actual configured model + production headed Chromium/noVNC + real UI/worker/export; NOT real social discovery",
+  "initial": {
+    "messages": 6,
+    "tasks": 2
+  },
+  "task": {
+    "id": "research-5e2a0e53cd14c4db4e877973",
+    "title": "完整回归 1791636505047",
+    "status": "completed",
+    "requested": 1,
+    "evaluated": 2,
+    "matched": 1,
+    "qualifying": 2,
+    "updatedAt": 1791636582282,
+    "detail": "已选合格 1/1，已核验 2；证据不足者保持待核实。youtube：读取 2 条，基础条件排除 0 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。",
+    "remoteStatus": "done",
+    "nextPollAt": 1791636515749
+  },
+  "results": [
+    {
+      "id": "research-5e2a0e53cd14c4db4e877973|youtube:http://wave-fixture:8087/creator/alice",
+      "taskId": "research-5e2a0e53cd14c4db4e877973",
+      "creator": {
+        "id": "youtube:http://wave-fixture:8087/creator/alice",
+        "platform": "youtube",
+        "handle": "",
+        "profileUrl": "http://wave-fixture:8087/creator/alice",
+        "displayName": "受控夹具 alice",
+        "followers": null,
+        "region": null,
+        "evidence": [
+          {
+            "id": "41a22cd5e0b68893a736f301",
+            "url": "http://wave-fixture:8087/creator/alice",
+            "text": "这是受控验收账号，公开主页供真实浏览器核验。不是 WaveSurge 实际发现的社交账号。",
+            "kind": "profile",
+            "provider": "qa-controlled-fixture",
+            "publishedAt": null,
+            "capturedAt": 1791636514715
+          },
+          {
+            "id": "7a316a2485fb4a7d1810de4d",
+            "url": "http://wave-fixture:8087/creator/alice",
+            "kind": "browser_snapshot",
+            "text": "Alice — controlled test creator, NOT a real social account\n\n20.4K subscribers\n\nLocation: United States\n\nTechnology tutorials, productivity tools and student study workflows.\n\nCHIP / CIRCUIT BOARD / HEADPHONES\n\nOriginal public technology tutorial, published October 9, 2026. Explains processors and noise cancellation.\n\nPresentation style: clear step-by-step teacher explanation, everyday casual clothing. There is no evidence of geek fashion.\n\nSTUDY WORKFLOW / NOTION / POMODORO\n\nOriginal public study efficiency tutorial, published October 8, 2026. For university students: organize lecture notes and assignment deadlines in Notion, use a 25-minute Pomodoro focus block, then test recall with flashcards to reduce distracted study time. Demonstrates the complete study planning workflow step by step.\n\nPresentation style: practical teacher explanation and on-screen productivity walkthrough.",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791636515052,
+            "assetId": "d02348d0feab0652ea9e9e80942e6458e9a7a0dd928403052ec77013bed99a12"
+          }
+        ],
+        "raw": {
+          "platform": "youtube",
+          "profileUrl": "http://wave-fixture:8087/creator/alice",
+          "displayName": "受控夹具 alice",
+          "followerCount": null,
+          "region": null,
+          "evidence": [
+            {
+              "url": "http://wave-fixture:8087/creator/alice",
+              "kind": "profile",
+              "provider": "qa-controlled-fixture",
+              "text": "这是受控验收账号，公开主页供真实浏览器核验。不是 WaveSurge 实际发现的社交账号。"
+            }
+          ],
+          "fixture": true
+        },
+        "facts": {
+          "conflicts": [],
+          "followers": {
+            "min": 20350,
+            "max": 20499,
+            "rawValue": "20.4K subscribers",
+            "evidenceIds": [
+              "7a316a2485fb4a7d1810de4d"
+            ]
+          },
+          "country": {
+            "code": "US",
+            "rawValue": "Location: United States",
+            "evidenceIds": [
+              "7a316a2485fb4a7d1810de4d"
+            ]
+          }
+        }
+      },
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "match",
+          "reason": "本人主页所在地声明：Location: United States",
+          "evidenceIds": [
+            "7a316a2485fb4a7d1810de4d"
+          ],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：youtube",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "主页显示 20.4K subscribers；保守区间 20350–20499，要求 10000–100000",
+          "evidenceIds": [
+            "7a316a2485fb4a7d1810de4d",
+            "41a22cd5e0b68893a736f301"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "technology_content",
+          "verdict": "match",
+          "reason": "主页明确介绍 Technology tutorials；公开教程文字标注发布于2026年10月9日，内容讲解处理器与降噪，支持科技内容条件。来源为受控测试主页，并非真实社交账号。",
+          "evidenceIds": [
+            "7a316a2485fb4a7d1810de4d"
+          ],
+          "label": "公开内容为科技内容，需逐人证据核验"
+        },
+        {
+          "criterionId": "self_described_geek_style",
+          "verdict": "unknown",
+          "reason": "所见主页文字描述逐步教学和实用演示，但未明确自述 geek 科技讲解风格。有关无 geek fashion 证据的文字不等同于否认 geek 讲解风格，不能从科技主题或穿搭推断。",
+          "evidenceIds": [
+            "7a316a2485fb4a7d1810de4d"
+          ],
+          "label": "本人主页文字明确自述 geek 科技讲解风格；仅依据文字自述，不从科技主题或外貌穿搭推断"
+        }
+      ],
+      "verdict": "match",
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "科技教程",
+            "生产力工具",
+            "学生学习工作流"
+          ],
+          "reason": "主页简介及2026年10月9日科技教程、10月8日Notion与番茄钟学习教程文字支持这些内容方向。",
+          "evidenceIds": [
+            "7a316a2485fb4a7d1810de4d"
+          ]
+        },
+        {
+          "dimensionId": "presentation_style",
+          "status": "supported",
+          "values": [
+            "清晰分步教学",
+            "实用操作演示"
+          ],
+          "reason": "页面明确描述 clear step-by-step teacher explanation 及 on-screen productivity walkthrough；仅依据文字描述。",
+          "evidenceIds": [
+            "7a316a2485fb4a7d1810de4d"
+          ]
+        },
+        {
+          "dimensionId": "collaboration_type",
+          "status": "unknown",
+          "values": [],
+          "reason": "现有资料未明确说明可接受的合作类型。",
+          "evidenceIds": [
+            "7a316a2485fb4a7d1810de4d"
+          ]
+        }
+      ],
+      "tags": [
+        "科技教程",
+        "生产力工具",
+        "学生学习工作流",
+        "清晰分步教学",
+        "实用操作演示"
+      ],
+      "revision": 2,
+      "updatedAt": 1791636572744,
+      "selected": false
+    },
+    {
+      "id": "research-5e2a0e53cd14c4db4e877973|youtube:http://wave-fixture:8087/creator/bob",
+      "taskId": "research-5e2a0e53cd14c4db4e877973",
+      "creator": {
+        "id": "youtube:http://wave-fixture:8087/creator/bob",
+        "platform": "youtube",
+        "handle": "",
+        "profileUrl": "http://wave-fixture:8087/creator/bob",
+        "displayName": "受控夹具 bob",
+        "followers": null,
+        "region": null,
+        "evidence": [
+          {
+            "id": "b1a3964a29cd07793976f609",
+            "url": "http://wave-fixture:8087/creator/bob",
+            "text": "这是受控验收账号，公开主页供真实浏览器核验。不是 WaveSurge 实际发现的社交账号。",
+            "kind": "profile",
+            "provider": "qa-controlled-fixture",
+            "publishedAt": null,
+            "capturedAt": 1791636514715
+          },
+          {
+            "id": "638671ae98f565745c78cf7c",
+            "url": "http://wave-fixture:8087/creator/bob",
+            "kind": "browser_snapshot",
+            "text": "Bob — controlled test creator, NOT a real social account\n\n67.6K subscribers\n\nLocation: United States\n\nTechnology education and headphone reviews.\n\nCHIP / CIRCUIT BOARD / HEADPHONES\n\nOriginal public technology tutorial, published October 9, 2026. Explains processors and noise cancellation.\n\nPresentation style: detailed geek technology enthusiast tutorials and gadget demonstrations.",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791636528586,
+            "assetId": "d3dfe79cb4c5b36d6299632981ca7a9cf8acd03a8fa79e79c57cb306b11f666c"
+          }
+        ],
+        "raw": {
+          "platform": "youtube",
+          "profileUrl": "http://wave-fixture:8087/creator/bob",
+          "displayName": "受控夹具 bob",
+          "followerCount": null,
+          "region": null,
+          "evidence": [
+            {
+              "url": "http://wave-fixture:8087/creator/bob",
+              "kind": "profile",
+              "provider": "qa-controlled-fixture",
+              "text": "这是受控验收账号，公开主页供真实浏览器核验。不是 WaveSurge 实际发现的社交账号。"
+            }
+          ],
+          "fixture": true
+        },
+        "facts": {
+          "conflicts": [],
+          "followers": {
+            "min": 67550,
+            "max": 67699,
+            "rawValue": "67.6K subscribers",
+            "evidenceIds": [
+              "638671ae98f565745c78cf7c"
+            ]
+          },
+          "country": {
+            "code": "US",
+            "rawValue": "Location: United States",
+            "evidenceIds": [
+              "638671ae98f565745c78cf7c"
+            ]
+          }
+        }
+      },
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "match",
+          "reason": "本人主页所在地声明：Location: United States",
+          "evidenceIds": [
+            "638671ae98f565745c78cf7c"
+          ],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：youtube",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "主页显示 67.6K subscribers；保守区间 67550–67699，要求 10000–100000",
+          "evidenceIds": [
+            "638671ae98f565745c78cf7c",
+            "b1a3964a29cd07793976f609"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "technology_content",
+          "verdict": "match",
+          "reason": "主页明确写有“Technology education and headphone reviews.”，公开教程注明发布于2026年10月9日，讲解处理器与降噪，支持科技内容条件。此页面为受控测试账号，并非真实社交账号。",
+          "evidenceIds": [
+            "638671ae98f565745c78cf7c"
+          ],
+          "label": "公开内容为科技内容，需逐人证据核验"
+        },
+        {
+          "criterionId": "self_described_geek_style",
+          "verdict": "match",
+          "reason": "主页文字明确自述“Presentation style: detailed geek technology enthusiast tutorials and gadget demonstrations.”，直接支持 geek 科技讲解风格，无需从主题或外观推断。",
+          "evidenceIds": [
+            "638671ae98f565745c78cf7c"
+          ],
+          "label": "本人主页文字明确自述 geek 科技讲解风格；仅依据文字自述，不从科技主题或外貌穿搭推断"
+        }
+      ],
+      "verdict": "match",
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "科技教育",
+            "耳机评测",
+            "处理器与降噪技术讲解"
+          ],
+          "reason": "主页介绍及标注2026年10月9日发布的教程文字明确支持这些内容方向。",
+          "evidenceIds": [
+            "638671ae98f565745c78cf7c"
+          ]
+        },
+        {
+          "dimensionId": "presentation_style",
+          "status": "supported",
+          "values": [
+            "详细的 geek 科技爱好者教程",
+            "数码设备演示"
+          ],
+          "reason": "主页 Presentation style 原文明确自述详细 geek 科技教程及设备演示风格。",
+          "evidenceIds": [
+            "638671ae98f565745c78cf7c"
+          ]
+        },
+        {
+          "dimensionId": "collaboration_type",
+          "status": "unknown",
+          "values": [],
+          "reason": "已有主页文字描述内容和讲解风格，但未明确声明合作类型。",
+          "evidenceIds": [
+            "638671ae98f565745c78cf7c"
+          ]
+        }
+      ],
+      "tags": [
+        "科技教育",
+        "耳机评测",
+        "处理器与降噪技术讲解",
+        "详细的 geek 科技爱好者教程",
+        "数码设备演示"
+      ],
+      "revision": 2,
+      "updatedAt": 1791636582282,
+      "selected": true
+    }
+  ],
+  "delivery": [
+    {
+      "id": "report-request-9aed3420-629c-4bab-b37d-196c15d0d976-196c470f26a51bff",
+      "role": "assistant",
+      "text": "本次请求的 1 项工作已全部结束。\n\n- 完整回归 1791636505047：已完成；已选合格 1/1，已核验 2；证据不足者保持待核实。youtube：读取 2 条，基础条件排除 0 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。 [查看报告](/api/reports/research-5e2a0e53cd14c4db4e877973)\n\n[查看本次综合报告](/api/work-batches/9aed3420-629c-4bab-b37d-196c15d0d976/report) · [下载综合 CSV](/api/work-batches/9aed3420-629c-4bab-b37d-196c15d0d976/report?format=csv)",
+      "createdAt": 1791636551899,
+      "epoch": 0,
+      "state": "delivered",
+      "attachments": []
+    }
+  ],
+  "waveCalls": [
+    {
+      "id": "22cba305-5d27-49f5-9421-84abb87f5d2a",
+      "kind": "wavesurge",
+      "createdAt": 1791636428365,
+      "path": "/discover/db?platform=youtube&limit=500&sort=fit_desc",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "contentType": "application/json",
+      "response": {
+        "creators": [
+          {
+            "platform": "youtube",
+            "profileUrl": "http://wave-fixture:8087/creator/alice",
+            "displayName": "受控夹具 alice",
+            "followerCount": null,
+            "region": null,
+            "evidence": [
+              {
+                "url": "http://wave-fixture:8087/creator/alice",
+                "kind": "profile",
+                "provider": "qa-controlled-fixture",
+                "text": "这是受控验收账号，公开主页供真实浏览器核验。不是 WaveSurge 实际发现的社交账号。"
+              }
+            ],
+            "fixture": true
+          },
+          {
+            "platform": "youtube",
+            "profileUrl": "http://wave-fixture:8087/creator/bob",
+            "displayName": "受控夹具 bob",
+            "followerCount": null,
+            "region": null,
+            "evidence": [
+              {
+                "url": "http://wave-fixture:8087/creator/bob",
+                "kind": "profile",
+                "provider": "qa-controlled-fixture",
+                "text": "这是受控验收账号，公开主页供真实浏览器核验。不是 WaveSurge 实际发现的社交账号。"
+              }
+            ],
+            "fixture": true
+          }
+        ],
+        "fixture": true
+      },
+      "finishedAt": 1791636428402
+    },
+    {
+      "id": "614c0fe6-985c-471a-a804-c5c14b75f3ab",
+      "kind": "wavesurge",
+      "createdAt": 1791636456620,
+      "path": "/discover/db?platform=youtube&limit=500&sort=fit_desc",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "contentType": "application/json",
+      "response": {
+        "creators": [
+          {
+            "platform": "youtube",
+            "profileUrl": "http://wave-fixture:8087/creator/alice",
+            "displayName": "受控夹具 alice",
+            "followerCount": null,
+            "region": null,
+            "evidence": [
+              {
+                "url": "http://wave-fixture:8087/creator/alice",
+                "kind": "profile",
+                "provider": "qa-controlled-fixture",
+                "text": "这是受控验收账号，公开主页供真实浏览器核验。不是 WaveSurge 实际发现的社交账号。"
+              }
+            ],
+            "fixture": true
+          },
+          {
+            "platform": "youtube",
+            "profileUrl": "http://wave-fixture:8087/creator/bob",
+            "displayName": "受控夹具 bob",
+            "followerCount": null,
+            "region": null,
+            "evidence": [
+              {
+                "url": "http://wave-fixture:8087/creator/bob",
+                "kind": "profile",
+                "provider": "qa-controlled-fixture",
+                "text": "这是受控验收账号，公开主页供真实浏览器核验。不是 WaveSurge 实际发现的社交账号。"
+              }
+            ],
+            "fixture": true
+          }
+        ],
+        "fixture": true
+      },
+      "finishedAt": 1791636456630
+    },
+    {
+      "id": "432d4f61-8725-42ab-b44e-1eaa8878db3e",
+      "kind": "wavesurge",
+      "createdAt": 1791636514715,
+      "path": "/discover/db?platform=youtube&limit=500&sort=fit_desc",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "contentType": "application/json",
+      "response": {
+        "creators": [
+          {
+            "platform": "youtube",
+            "profileUrl": "http://wave-fixture:8087/creator/alice",
+            "displayName": "受控夹具 alice",
+            "followerCount": null,
+            "region": null,
+            "evidence": [
+              {
+                "url": "http://wave-fixture:8087/creator/alice",
+                "kind": "profile",
+                "provider": "qa-controlled-fixture",
+                "text": "这是受控验收账号，公开主页供真实浏览器核验。不是 WaveSurge 实际发现的社交账号。"
+              }
+            ],
+            "fixture": true
+          },
+          {
+            "platform": "youtube",
+            "profileUrl": "http://wave-fixture:8087/creator/bob",
+            "displayName": "受控夹具 bob",
+            "followerCount": null,
+            "region": null,
+            "evidence": [
+              {
+                "url": "http://wave-fixture:8087/creator/bob",
+                "kind": "profile",
+                "provider": "qa-controlled-fixture",
+                "text": "这是受控验收账号，公开主页供真实浏览器核验。不是 WaveSurge 实际发现的社交账号。"
+              }
+            ],
+            "fixture": true
+          }
+        ],
+        "fixture": true
+      },
+      "finishedAt": 1791636514746
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "source": "isolated audit deployment before stop; controlled fixtures are explicitly labelled",
+  "tasks": [
+    {
+      "id": "research-21814bf584dc130ca53c93e3",
+      "title": "浏览器人工协助验收 browser-1791595925169",
+      "status": "completed",
+      "remoteId": "fixture-browser-1791595925169",
+      "requested": 1,
+      "evaluated": 1,
+      "matched": 1
+    },
+    {
+      "id": "research-0d3c76fdbe398bc09c5380c2",
+      "title": "浏览器人工协助验收 browser-1791596090106",
+      "status": "completed",
+      "remoteId": "fixture-browser-1791596090106",
+      "requested": 1,
+      "evaluated": 1,
+      "matched": 1
+    },
+    {
+      "id": "research-f9afe5c783bb603040150148",
+      "title": "测试类型 A",
+      "status": "completed",
+      "remoteId": "fixture-research-f9afe5c783bb603040150148",
+      "requested": 1,
+      "evaluated": 2,
+      "matched": 2
+    },
+    {
+      "id": "research-e76cb2047382b0913313d583",
+      "title": "测试类型 B",
+      "status": "completed",
+      "remoteId": "fixture-research-e76cb2047382b0913313d583",
+      "requested": 1,
+      "evaluated": 1,
+      "matched": 1
+    },
+    {
+      "id": "research-e3c374b7e4e437d50ef08071",
+      "title": "浏览器人工协助验收 skip-1791596254229",
+      "status": "partial",
+      "remoteId": "fixture-skip-1791596254229",
+      "requested": 1,
+      "evaluated": 1,
+      "matched": 0
+    },
+    {
+      "id": "research-6f0c55a71fef68d5fc3704f1",
+      "title": "浏览器人工协助验收 block-1791596318201",
+      "status": "cancelled",
+      "remoteId": "fixture-block-1791596318201",
+      "requested": 1,
+      "evaluated": 0,
+      "matched": 0
+    },
+    {
+      "id": "research-fd5a68a36f43604907a7d9fb",
+      "title": "Review独立文字队列 block-1791596318201",
+      "status": "cancelled",
+      "remoteId": "4051b2b2-33d2-4da9-b7e2-7306f3d29ef9",
+      "requested": 1,
+      "evaluated": 0,
+      "matched": 0
+    },
+    {
+      "id": "research-5ecc501dbf9d49fa1bd21ed2",
+      "title": "浏览器人工协助验收 block-1791596516838",
+      "status": "cancelled",
+      "remoteId": "fixture-block-1791596516838",
+      "requested": 1,
+      "evaluated": 0,
+      "matched": 0
+    },
+    {
+      "id": "research-eec15e9fea76882b8f4a22de",
+      "title": "Review独立文字队列 block-1791596516838",
+      "status": "cancelled",
+      "remoteId": "85e8afa6-89da-4c10-9563-767059a7d223",
+      "requested": 1,
+      "evaluated": 0,
+      "matched": 0
+    },
+    {
+      "id": "research-60ab39c0403298dc551b6d65",
+      "title": "同主页身份夹具",
+      "status": "completed",
+      "remoteId": "fixture-identity-research-60ab39c0403298dc551b6d65",
+      "requested": 1,
+      "evaluated": 1,
+      "matched": 1
+    },
+    {
+      "id": "research-f1be70f116be21838270e003",
+      "title": "同主页身份夹具",
+      "status": "completed",
+      "remoteId": "fixture-identity-research-f1be70f116be21838270e003",
+      "requested": 1,
+      "evaluated": 1,
+      "matched": 1
+    },
+    {
+      "id": "research-563948999dcc7052e294f5d2",
+      "title": "Review真实Instagram候选重放 1791596615480",
+      "status": "partial",
+      "remoteId": "historical-replay:research-58949888b306ad726d60be23",
+      "requested": 1,
+      "evaluated": 1,
+      "matched": 0
+    }
+  ],
+  "campaigns": [
+    {
+      "id": "campaign-8f13b35c19a3900255279d81",
+      "title": "AI笔记 Campaign 目标验证 1791595810421",
+      "revision": 1,
+      "childTaskIds": []
+    },
+    {
+      "id": "campaign-f52afe86fd9a529cb7ab28b1",
+      "title": "Campaign 去重集成夹具 dedup-1791596203649",
+      "revision": 1,
+      "childTaskIds": [
+        "research-f9afe5c783bb603040150148",
+        "research-e76cb2047382b0913313d583"
+      ]
+    },
+    {
+      "id": "campaign-dced582f19ca9003c7c64a87",
+      "title": "Review同主页重复计数 1791596603205",
+      "revision": 1,
+      "childTaskIds": [
+        "research-60ab39c0403298dc551b6d65",
+        "research-f1be70f116be21838270e003"
+      ]
+    }
+  ],
+  "unfinishedAssistance": []
+}

@@ -1,0 +1,199 @@
+{
+  "path": "/discover/db?platform=youtube,tiktok,twitter&limit=2&sort=followers_desc",
+  "status": 200,
+  "contentType": "application/json; charset=utf-8",
+  "body": {
+    "summary": {
+      "total": 2,
+      "byPlatform": {
+        "youtube": 500
+      },
+      "fromCompetitors": 0,
+      "lookalikes": 2,
+      "avgFit": 56,
+      "sourceTypes": {
+        "exa": 0,
+        "runner": 2,
+        "manual": 0,
+        "import": 0,
+        "cache": 0,
+        "unknown": 0
+      },
+      "emailUsable": 2,
+      "emailQualified": 2,
+      "emailAutoSendable": 2,
+      "contactable": 2,
+      "nonEmailContactable": 2
+    },
+    "tiers": {
+      "all": 2,
+      "koc": 0,
+      "micro": 0,
+      "mid": 0,
+      "macro": 2
+    },
+    "creators": [
+      {
+        "id": "702ed098-efa1-4f62-a69d-e2224b257ac4",
+        "handle": "UCeVMnSShP_Iviwkknt83cww",
+        "displayName": "CodeWithHarry",
+        "bio": "Try OpenClaw today: https://www.hostg.xyz/SHIys Use Coupon Code: HARRY20 for 20% coupon code until end of March 2026 ...",
+        "details": [
+          {
+            "group": "identity",
+            "key": "source",
+            "label": "Found via",
+            "value": "This campaign search",
+            "hint": "How this creator reached your list."
+          },
+          {
+            "group": "identity",
+            "key": "foundAt",
+            "label": "Added",
+            "value": "2026-10-09",
+            "hint": "When this creator entered our database."
+          },
+          {
+            "group": "content",
+            "key": "medianViews",
+            "label": "Median views",
+            "value": "289,147 (2 posts)",
+            "hint": "The middle value of their recent posts — a fairer picture of a typical post than an average, which one viral video distorts. Posts we could not read a count for are left out rather than counted as zero."
+          }
+        ],
+        "platform": "youtube",
+        "region": null,
+        "audience": null,
+        "followerCount": 10000000,
+        "engagementRate": null,
+        "engagementKnown": false,
+        "kolType": "ai_tools",
+        "avatarUrl": "https://pompe-ai-analysis-artifacts.sgp1.cdn.digitaloceanspaces.com/creator-avatars/youtube/2711fd320bea5ac2b286be908ccebf49.jpg",
+        "publishedLink": null,
+        "tier": "macro",
+        "fit": 51,
+        "fromCompetitor": false,
+        "source": "creator_search_agent",
+        "sourceType": "runner",
+        "sourceSubType": "unknown",
+        "origin": "system",
+        "foundAt": "2026-10-07T11:24:14.550Z",
+        "batchLabel": null,
+        "emailStatus": "email_ready",
+        "emailReadyAt": null,
+        "email": null,
+        "emailUsable": true,
+        "emailQualified": true,
+        "emailAutoSendable": true,
+        "emailConfidence": "high",
+        "emailOwnerType": "creator",
+        "emailReasons": [
+          "email_domain_brand_matches_creator",
+          "email_matches_creator_handle_or_name"
+        ],
+        "contactChannels": [
+          {
+            "channel": "youtube",
+            "value": "channel/UCeVMnSShP_Iviwkknt83cww",
+            "isPrimary": false
+          }
+        ],
+        "contactChannelCount": 1,
+        "contactable": true,
+        "lastSeenAt": "2026-10-07T11:24:14.550Z",
+        "searchKind": "trial",
+        "accountIdentity": null,
+        "recommendationKind": null,
+        "audienceStatus": "unavailable",
+        "qualification": null,
+        "searchMatchTier": null
+      },
+      {
+        "id": "876ee3c2-539a-4eab-892d-abb187b9f899",
+        "handle": "UCZDCqcWZVNyvTSsoc-chKJg",
+        "displayName": "Spreading Gyan",
+        "bio": "Ai Video Kaise Banaye | Ai se Video Kaise Banaye | ai se cartoon video kaise banaye | ai video Ai Mastery Course ...",
+        "details": [
+          {
+            "group": "identity",
+            "key": "source",
+            "label": "Found via",
+            "value": "This campaign search",
+            "hint": "How this creator reached your list."
+          },
+          {
+            "group": "identity",
+            "key": "foundAt",
+            "label": "Added",
+            "value": "2026-10-09",
+            "hint": "When this creator entered our database."
+          },
+          {
+            "group": "content",
+            "key": "medianViews",
+            "label": "Median views",
+            "value": "1,780,212 (4 posts)",
+            "hint": "The middle value of their recent posts — a fairer picture of a typical post than an average, which one viral video distorts. Posts we could not read a count for are left out rather than counted as zero."
+          }
+        ],
+        "platform": "youtube",
+        "region": null,
+        "audience": null,
+        "followerCount": 5860000,
+        "engagementRate": null,
+        "engagementKnown": false,
+        "kolType": "ai_tools",
+        "avatarUrl": "https://pompe-ai-analysis-artifacts.sgp1.cdn.digitaloceanspaces.com/creator-avatars/youtube/3603ff68d28b8a45b633b3b6601bb7b1.jpg",
+        "publishedLink": null,
+        "tier": "macro",
+        "fit": 61,
+        "fromCompetitor": false,
+        "source": "creator_search_agent",
+        "sourceType": "runner",
+        "sourceSubType": "unknown",
+        "origin": "system",
+        "foundAt": "2026-10-07T11:26:31.483Z",
+        "batchLabel": null,
+        "emailStatus": "email_ready",
+        "emailReadyAt": "2026-10-07T14:42:51.923Z",
+        "email": null,
+        "emailUsable": true,
+        "emailQualified": true,
+        "emailAutoSendable": true,
+        "emailConfidence": "high",
+        "emailOwnerType": "agency",
+        "emailReasons": [
+          "profile_harvested_contact",
+          "email_matches_creator_handle_or_name",
+          "personal_mailbox_domain",
+          "agency_or_management_signal"
+        ],
+        "contactChannels": [
+          {
+            "channel": "youtube",
+            "value": "channel/UCZDCqcWZVNyvTSsoc-chKJg",
+            "isPrimary": false
+          }
+        ],
+        "contactChannelCount": 1,
+        "contactable": true,
+        "lastSeenAt": "2026-10-07T11:26:31.483Z",
+        "searchKind": "trial",
+        "accountIdentity": null,
+        "recommendationKind": null,
+        "audienceStatus": "unavailable",
+        "qualification": null,
+        "searchMatchTier": null
+      }
+    ],
+    "strategy": null,
+    "screening": null,
+    "scraping": null,
+    "collecting": false,
+    "latestCreatorSearchTaskId": null,
+    "latestSearchFunnel": null,
+    "target": null,
+    "fulfilled": null,
+    "campaignState": null
+  }
+}

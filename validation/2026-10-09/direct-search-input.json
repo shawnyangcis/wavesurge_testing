@@ -1,0 +1,9 @@
+{
+  "requestId": "creator-filter-contract-20261009-instagram-01",
+  "personaText": "Find Instagram technology creators who make English-language content about coding, gadgets, technology reviews, or desk setups. Prefer profiles with public recent content and links that can be checked. This is a small API contract verification search.",
+  "count": 2,
+  "platforms": ["instagram"],
+  "minFollowers": 10000,
+  "maxFollowers": 100000,
+  "language": "en"
+}

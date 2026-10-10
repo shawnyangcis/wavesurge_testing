@@ -1,0 +1,14 @@
+{
+  "at": "2026-10-10T15:51:19.340641+08:00",
+  "controlledProject": "creator-studio-retest-r2-edge",
+  "containersAndNetwork": "removed",
+  "volumes": "preserved",
+  "preservedVolumes": [
+    "creator-studio-retest-r2-edge_desktop-secrets",
+    "creator-studio-retest-r2-edge_desktop-state",
+    "creator-studio-retest-r2-edge_studio-data"
+  ],
+  "main3000": "retained",
+  "real3552": "retained",
+  "prior3400": "unchanged"
+}

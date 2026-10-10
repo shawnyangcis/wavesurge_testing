@@ -1,0 +1,43 @@
+{
+  "input": [
+    {
+      "platform": "instagram",
+      "handle": "same_person",
+      "profileUrl": "https://www.instagram.com/same_person/",
+      "followerCount": 20000
+    },
+    {
+      "platform": "instagram",
+      "profileUrl": "https://www.instagram.com/same_person/",
+      "followerCount": 20000
+    }
+  ],
+  "normalized": [
+    {
+      "id": "instagram:same_person",
+      "profileUrl": "https://www.instagram.com/same_person/"
+    },
+    {
+      "id": "instagram:https://www.instagram.com/same_person",
+      "profileUrl": "https://www.instagram.com/same_person/"
+    }
+  ],
+  "summary": {
+    "status": "completed",
+    "matched": 2,
+    "requested": 2,
+    "qualifyingUnique": 2,
+    "selections": [
+      {
+        "creatorId": "instagram:same_person",
+        "groupId": "a",
+        "resultId": "research-fc865c7f5e872e584b77712f|instagram:same_person"
+      },
+      {
+        "creatorId": "instagram:https://www.instagram.com/same_person",
+        "groupId": "b",
+        "resultId": "research-1c76ef1193d7fc87fa31bf9e|instagram:https://www.instagram.com/same_person"
+      }
+    ]
+  }
+}

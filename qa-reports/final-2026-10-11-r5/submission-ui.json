@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-10T17:45:38.307Z",
+  "scope": "Actual read-only Chrome checks of final test deployment and main deployment",
+  "cases": [
+    {
+      "scope": "live",
+      "checks": [
+        "Original user/assistant/report timestamps shown to seconds in local timezone",
+        "Reload preserves original timestamps",
+        "Settings presents model/prompts/context with no call-record UI",
+        "375px application has no horizontal overflow"
+      ],
+      "timestamps": {
+        "rows": 30,
+        "user": 12,
+        "assistant": 18,
+        "automatedReports": 6,
+        "timezone": "Asia/Shanghai"
+      },
+      "mobile": {
+        "viewport": 375,
+        "scrollWidth": 375
+      },
+      "passed": true
+    },
+    {
+      "scope": "main",
+      "checks": [
+        "Original user/assistant/report timestamps shown to seconds in local timezone",
+        "Reload preserves original timestamps",
+        "Settings presents model/prompts/context with no call-record UI",
+        "375px application has no horizontal overflow"
+      ],
+      "timestamps": {
+        "rows": 211,
+        "user": 109,
+        "assistant": 102,
+        "automatedReports": 43,
+        "timezone": "Asia/Shanghai"
+      },
+      "mobile": {
+        "viewport": 375,
+        "scrollWidth": 375
+      },
+      "passed": true
+    }
+  ],
+  "passed": true
+}

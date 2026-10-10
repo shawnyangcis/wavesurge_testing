@@ -1,0 +1,923 @@
+{
+  "source": "New actual WaveSurge and actual configured model, natural browser input",
+  "inputs": [
+    {
+      "case": "Three separate natural-language groups, each analyze all two candidates, select one",
+      "stage": "input",
+      "text": "帮我分三组看看这两个账号，直接开始就行，这次先不做 Campaign。每项都只分析 Instagram 的 tylerlcrawford 和 valstechtalkk，v3，仅使用 WaveSurge 已有文字资料，不打开浏览器。地区不限，粉丝1万到10万，每组目标入选1人、逐人分析预算2人，而且两位都必须完整分析并标注，即使已达到1人配额也不能停。第一组叫“提交验收 实用数码”，必选分享实际数码产品使用经验；第二组叫“提交验收 生活效率”，必选分享实际科技设备或工具使用经验；第三组叫“提交验收 内容教程”，必选分享具体科技产品信息。每组同时标注实际内容方向和文字呈现风格。请按这些已明确的范围开始，并在全部结束后交付有分组归属和逐人说明的综合报告。"
+    },
+    {
+      "case": "Three separate natural-language groups, each analyze all two candidates, select one",
+      "stage": "duringMessage",
+      "text": "查询一下现在三项研究的真实进度。不要取消、不重新启动，也不要把已入选人数说成合格候选总数。"
+    },
+    {
+      "case": "Natural-language all-record annotation, six rows across three groups, no rediscovery",
+      "stage": "input",
+      "text": "对刚刚三项研究 research-411f1e1ee3778536fc1cfea9、research-0f58c6d952a48f2141973492、research-ec6b59bc5af4b3eb822cee2f 的全部6条记录补充标注，包括未入选的合格备选以及同一账号在不同研究里的每条记录。只用已保存的文字证据，新增“内容使用场景”画像，保持原筛选条件、事实、判断、入选和原有画像。不要搜索、不重新核验、不访问浏览器。全部结束后交付一次综合 HTML/CSV，每条写清来源研究和分组。"
+    },
+    {
+      "case": "Campaign goal -> interactive scope -> confirmation -> true cross-group allocation",
+      "stage": "goal",
+      "text": "我想做一个提高智能生活设备认知的 Campaign，受众是喜欢科技的年轻工作者。请先帮我规划两种创作者类型，我们再一起确定筛选范围，不要立即启动。"
+    },
+    {
+      "case": "Campaign goal -> interactive scope -> confirmation -> true cross-group allocation",
+      "stage": "scope",
+      "text": "两组就按这个来：实用数码体验组、生活效率工具组，每组1位且同一平台账号总共只能占一个组。两组都只考虑 Instagram 的 tylerlcrawford 与 valstechtalkk，v3，地区不限，粉丝1万到10万，每组逐人分析预算2，两位都完整分析并标注。第一组必选本人有实际数码产品使用经验，第二组必选本人有科技产品或工具使用经验。只依据已有文字、不打开网页。标注实际内容方向和文字呈现风格。请将与提高智能生活设备认知的关联写在各类型理由中，保存待确认的 Campaign 方案。"
+    },
+    {
+      "case": "Campaign goal -> interactive scope -> confirmation -> true cross-group allocation",
+      "stage": "reviseInput",
+      "text": "方案里再补一句：我们的主要目标是提高智能生活设备认知，不要求创作者本人是大学生。两个类型、两位候选、范围和配额都保持原样，先存一个新版让我看，不要开始。"
+    }
+  ],
+  "groups": {
+    "taskIds": [
+      "research-411f1e1ee3778536fc1cfea9",
+      "research-0f58c6d952a48f2141973492",
+      "research-ec6b59bc5af4b3eb822cee2f"
+    ],
+    "tasks": [
+      {
+        "id": "research-411f1e1ee3778536fc1cfea9",
+        "title": "提交验收 实用数码",
+        "status": "completed",
+        "requested": 1,
+        "evaluated": 2,
+        "matched": 1,
+        "qualifying": 2,
+        "matchedMeaning": "研究组入选的合格账号数；合格候选总数见qualifying",
+        "updatedAt": 1791652921713,
+        "detail": "已选合格 1/1，已核验 2；证据不足者保持待核实。Instagram：读取 2 个本人基础账号，基础条件排除 0 个；基础读取上限 2，逐人分析上限 2（本次有界来源，不代表全站穷尽）。",
+        "remoteStatus": "done",
+        "nextPollAt": 1791652907840
+      },
+      {
+        "id": "research-0f58c6d952a48f2141973492",
+        "title": "提交验收 生活效率",
+        "status": "completed",
+        "requested": 1,
+        "evaluated": 2,
+        "matched": 1,
+        "qualifying": 2,
+        "matchedMeaning": "研究组入选的合格账号数；合格候选总数见qualifying",
+        "updatedAt": 1791652972476,
+        "detail": "已选合格 1/1，已核验 2；证据不足者保持待核实。Instagram：读取 2 个本人基础账号，基础条件排除 0 个；基础读取上限 2，逐人分析上限 2（本次有界来源，不代表全站穷尽）。",
+        "remoteStatus": "done",
+        "nextPollAt": 1791652958594
+      },
+      {
+        "id": "research-ec6b59bc5af4b3eb822cee2f",
+        "title": "提交验收 内容教程",
+        "status": "completed",
+        "requested": 1,
+        "evaluated": 2,
+        "matched": 1,
+        "qualifying": 2,
+        "matchedMeaning": "研究组入选的合格账号数；合格候选总数见qualifying",
+        "updatedAt": 1791653020853,
+        "detail": "已选合格 1/1，已核验 2；证据不足者保持待核实。Instagram：读取 2 个本人基础账号，基础条件排除 0 个；基础读取上限 2，逐人分析上限 2（本次有界来源，不代表全站穷尽）。",
+        "remoteStatus": "done",
+        "nextPollAt": 1791653004859
+      }
+    ],
+    "rows": [
+      {
+        "id": "research-411f1e1ee3778536fc1cfea9|instagram:tylerlcrawford",
+        "verdict": "match",
+        "selected": true,
+        "tags": [
+          "智能家居与公寓自动化",
+          "消费数码产品推荐",
+          "酒店体验与旅行推荐",
+          "小空间布局",
+          "第一人称体验叙述",
+          "实用教程与清单",
+          "具体价格和功能对比",
+          "收藏分享引导",
+          "商业合作与链接推荐"
+        ],
+        "reportContext": {
+          "sourceTaskTitle": "提交验收 实用数码",
+          "groupId": "research-411f1e1ee3778536fc1cfea9",
+          "groupTitle": "提交验收 实用数码",
+          "selectionScope": "research"
+        }
+      },
+      {
+        "id": "research-0f58c6d952a48f2141973492|instagram:tylerlcrawford",
+        "verdict": "match",
+        "selected": true,
+        "tags": [
+          "智能家居与公寓自动化",
+          "科技设备使用评测",
+          "酒店体验与旅行住宿推荐",
+          "第一人称体验叙述",
+          "清单式实用说明",
+          "具体参数与价格对比",
+          "收藏分享引导",
+          "商业合作与链接导购"
+        ],
+        "reportContext": {
+          "sourceTaskTitle": "提交验收 生活效率",
+          "groupId": "research-0f58c6d952a48f2141973492",
+          "groupTitle": "提交验收 生活效率",
+          "selectionScope": "research"
+        }
+      },
+      {
+        "id": "research-ec6b59bc5af4b3eb822cee2f|instagram:tylerlcrawford",
+        "verdict": "match",
+        "selected": true,
+        "tags": [
+          "智能家居与公寓自动化",
+          "科技产品功能介绍",
+          "酒店评测与旅行住宿推荐",
+          "小空间家居布局",
+          "第一人称体验分享",
+          "具体参数与价格说明",
+          "实用步骤和选购建议",
+          "收藏与转发行动引导",
+          "商业合作与链接推广"
+        ],
+        "reportContext": {
+          "sourceTaskTitle": "提交验收 内容教程",
+          "groupId": "research-ec6b59bc5af4b3eb822cee2f",
+          "groupTitle": "提交验收 内容教程",
+          "selectionScope": "research"
+        }
+      },
+      {
+        "id": "research-411f1e1ee3778536fc1cfea9|instagram:valstechtalkk",
+        "verdict": "match",
+        "selected": false,
+        "tags": [
+          "iPhone实用设置与使用技巧",
+          "手机主题与个性化",
+          "数码配件介绍与推广",
+          "英文短句口语化",
+          "第一人称体验表达",
+          "表情符号与话题标签丰富",
+          "提问式互动"
+        ],
+        "reportContext": {
+          "sourceTaskTitle": "提交验收 实用数码",
+          "groupId": "research-411f1e1ee3778536fc1cfea9",
+          "groupTitle": "提交验收 实用数码",
+          "selectionScope": "research"
+        }
+      },
+      {
+        "id": "research-0f58c6d952a48f2141973492|instagram:valstechtalkk",
+        "verdict": "match",
+        "selected": false,
+        "tags": [
+          "iPhone 使用技巧与设置",
+          "手机功能与界面个性化",
+          "科技设备开箱与配件分享",
+          "英语口语化短文案",
+          "表情符号与话题标签密集",
+          "第一人称体验分享",
+          "提问式互动"
+        ],
+        "reportContext": {
+          "sourceTaskTitle": "提交验收 生活效率",
+          "groupId": "research-0f58c6d952a48f2141973492",
+          "groupTitle": "提交验收 生活效率",
+          "selectionScope": "research"
+        }
+      },
+      {
+        "id": "research-ec6b59bc5af4b3eb822cee2f|instagram:valstechtalkk",
+        "verdict": "match",
+        "selected": false,
+        "tags": [
+          "iPhone功能与设置教程",
+          "iOS更新与Siri功能介绍",
+          "手机及配件开箱与推荐",
+          "英语口语化短文案",
+          "表情符号与话题标签丰富",
+          "提问互动",
+          "教程提示与个人体验结合"
+        ],
+        "reportContext": {
+          "sourceTaskTitle": "提交验收 内容教程",
+          "groupId": "research-ec6b59bc5af4b3eb822cee2f",
+          "groupTitle": "提交验收 内容教程",
+          "selectionScope": "research"
+        }
+      }
+    ],
+    "notices": [
+      {
+        "id": "report-request-b07be064-61d3-4928-934c-afc855d8d3b0-2a5828a6c160a1cf",
+        "role": "assistant",
+        "text": "本次请求的 3 项工作已全部结束。\n\n- 提交验收 实用数码：已完成；已选合格 1/1，已核验 2；证据不足者保持待核实。Instagram：读取 2 个本人基础账号，基础条件排除 0 个；基础读取上限 2，逐人分析上限 2（本次有界来源，不代表全站穷尽）。 [查看报告](/api/reports/research-411f1e1ee3778536fc1cfea9)\n- 提交验收 生活效率：已完成；已选合格 1/1，已核验 2；证据不足者保持待核实。Instagram：读取 2 个本人基础账号，基础条件排除 0 个；基础读取上限 2，逐人分析上限 2（本次有界来源，不代表全站穷尽）。 [查看报告](/api/reports/research-0f58c6d952a48f2141973492)\n- 提交验收 内容教程：已完成；已选合格 1/1，已核验 2；证据不足者保持待核实。Instagram：读取 2 个本人基础账号，基础条件排除 0 个；基础读取上限 2，逐人分析上限 2（本次有界来源，不代表全站穷尽）。 [查看报告](/api/reports/research-ec6b59bc5af4b3eb822cee2f)\n\n[查看本次综合报告](/api/work-batches/b07be064-61d3-4928-934c-afc855d8d3b0/report) · [下载综合 CSV](/api/work-batches/b07be064-61d3-4928-934c-afc855d8d3b0/report?format=csv)",
+        "createdAt": 1791653020950,
+        "epoch": 0,
+        "state": "delivered",
+        "attachments": []
+      }
+    ]
+  },
+  "annotation": {
+    "jobs": [
+      {
+        "id": "enrich-52c863e175ca17e6da031d8b",
+        "title": "补充画像：提交验收 实用数码",
+        "status": "completed",
+        "requested": 2,
+        "evaluated": 2,
+        "matched": 2,
+        "resultTaskId": "research-411f1e1ee3778536fc1cfea9",
+        "matchedMeaning": "本轮处理结果中合格的记录数，不是入选人数",
+        "updatedAt": 1791653063488,
+        "detail": "已处理 2 个已有账号；失败 0。"
+      },
+      {
+        "id": "enrich-9f9b10173dee04000c2f7395",
+        "title": "补充画像：提交验收 生活效率",
+        "status": "completed",
+        "requested": 2,
+        "evaluated": 2,
+        "matched": 2,
+        "resultTaskId": "research-0f58c6d952a48f2141973492",
+        "matchedMeaning": "本轮处理结果中合格的记录数，不是入选人数",
+        "updatedAt": 1791653105975,
+        "detail": "已处理 2 个已有账号；失败 0。"
+      },
+      {
+        "id": "enrich-97ae0601a07d5a57439513e6",
+        "title": "补充画像：提交验收 内容教程",
+        "status": "completed",
+        "requested": 2,
+        "evaluated": 2,
+        "matched": 2,
+        "resultTaskId": "research-ec6b59bc5af4b3eb822cee2f",
+        "matchedMeaning": "本轮处理结果中合格的记录数，不是入选人数",
+        "updatedAt": 1791653117579,
+        "detail": "已处理 2 个已有账号；失败 0。"
+      }
+    ],
+    "preservedAllSix": true,
+    "newWaveCalls": 0,
+    "notices": [
+      {
+        "id": "report-request-2f347044-8f0e-4fc1-87a9-f76d4206d014-5191e28f4557047f",
+        "role": "assistant",
+        "text": "本次请求的 3 项工作已全部结束。\n\n- 补充画像：提交验收 实用数码：已完成；已处理 2 个已有账号；失败 0。 [查看报告](/api/reports/research-411f1e1ee3778536fc1cfea9)\n- 补充画像：提交验收 生活效率：已完成；已处理 2 个已有账号；失败 0。 [查看报告](/api/reports/research-0f58c6d952a48f2141973492)\n- 补充画像：提交验收 内容教程：已完成；已处理 2 个已有账号；失败 0。 [查看报告](/api/reports/research-ec6b59bc5af4b3eb822cee2f)\n\n[查看本次综合报告](/api/work-batches/2f347044-8f0e-4fc1-87a9-f76d4206d014/report) · [下载综合 CSV](/api/work-batches/2f347044-8f0e-4fc1-87a9-f76d4206d014/report?format=csv)",
+        "createdAt": 1791653117584,
+        "epoch": 0,
+        "state": "delivered",
+        "attachments": []
+      }
+    ]
+  },
+  "campaign": {
+    "id": "campaign-7235b855cebc66206807b08c",
+    "revision": 2,
+    "summary": {
+      "status": "completed",
+      "requested": 2,
+      "matched": 2,
+      "qualifyingUnique": 2,
+      "selections": [
+        {
+          "creatorId": "instagram:tylerlcrawford",
+          "groupId": "life_efficiency",
+          "resultId": "research-91eb9f0400c59d0b5d1aedf2|instagram:tylerlcrawford"
+        },
+        {
+          "creatorId": "instagram:valstechtalkk",
+          "groupId": "practical_digital",
+          "resultId": "research-dbb5fb4bf357b0cdb6e6bda7|instagram:valstechtalkk"
+        }
+      ]
+    },
+    "staleStartStatus": 409,
+    "repeatStartIdempotent": true,
+    "notices": [
+      {
+        "id": "report-campaign-7235b855cebc66206807b08c-04ff76104d1f124e",
+        "role": "assistant",
+        "text": "Campaign「智能生活设备认知 Campaign」已完成。去重入选 2/2 人。\n\n- 实用数码体验组：1/1\n- 生活效率工具组：1/1\n\n[查看 Campaign 总报告](/api/campaigns/campaign-7235b855cebc66206807b08c/report)",
+        "createdAt": 1791653634809,
+        "epoch": 0,
+        "state": "delivered",
+        "attachments": []
+      }
+    ]
+  },
+  "originalRequest": {
+    "input": "帮我找20个 geek风、戴眼镜、欧美白人，粉丝数在1万到10万之间的 ins 平台 KOC",
+    "reply": "geek风我说的是偏书呆子、极客的穿搭，眼镜要本人戴，个人KOC身份也单独检查；白人只按本人公开自述，没证据就待核实。所在地看美国、加拿大、英国、德国、法国。先只拿 Instagram 的 tylerlcrawford 和 valstechtalkk 这两个账号做这一轮，两个都分析并打好内容方向、风格、眼镜和公开身份的标签。这轮只用已有文字资料，不打开网页，不需要人工介入，外观资料不够也别猜。入选目标仍保留20人，分析预算20，但候选限定这两个，不扩搜。直接开始，这批全结束再给我结构化文档，缺多少写清楚。",
+    "clarification": [
+      "可以。已明确的范围是：**Instagram、20位 KOC、粉丝1万–10万、戴眼镜**。开始前需要集中确认三点，避免把“geek风”和“欧美白人”筛偏：\n\n1. **“geek风”指什么？**  \n   是外观／穿搭上的书卷气、极客感，还是要求本人分享科技、编程、游戏等内容？若是内容方向，请说明哪些算。\n\n2. **“欧美白人”的范围怎么定？**  \n   创作者所在地是限定**美国、加拿大及哪些欧洲国家**，还是所在地不限？白人身份只能依据本人明确自述核验，不能从肤色、长相或姓名推断；没有自述证据的会标为待核实。\n\n3. **戴眼镜的要求是什么？**  \n   近期内容中经常佩戴普通眼镜即可，还是需要大多数出镜都戴？太阳镜是否排除？\n\n另外建议设置**逐人分析预算100位，目标入选20位**；这是分析人数上限，不是付费金额，也不保证一定凑齐。你是否接受？\n\nKOC 会另设必选条件：**个人消费者型创作者，以本人体验和分享为主，排除品牌、公司或店铺官方账号**。视觉风格和戴眼镜需要观察实际内容，不能仅凭头像判断。确认上述口径后再开始；此前研究和 Campaign 保持不变。"
+    ],
+    "spec": {
+      "title": "Instagram geek穿搭个人KOC：限定两账号文字分析",
+      "personaText": "偏书呆子、极客穿搭且本人戴眼镜的个人消费者型创作者",
+      "count": 20,
+      "platforms": [
+        "instagram"
+      ],
+      "regions": [
+        "United States",
+        "Canada",
+        "United Kingdom",
+        "Germany",
+        "France"
+      ],
+      "minFollowers": 10000,
+      "maxFollowers": 100000,
+      "candidateBudget": 20,
+      "analyzeAll": true,
+      "verificationMode": "text",
+      "instagram": {
+        "handles": [
+          "tylerlcrawford",
+          "valstechtalkk"
+        ],
+        "version": "v3"
+      },
+      "criteria": [
+        {
+          "id": "geek_outfit",
+          "label": "本人穿搭呈现偏书呆子、极客的风格；不以科技内容方向替代穿搭判断，外观证据不足为unknown",
+          "required": true,
+          "basis": "visual"
+        },
+        {
+          "id": "wears_glasses",
+          "label": "眼镜由创作者本人佩戴；不能仅凭头像或媒体链接确认，证据不足为unknown",
+          "required": true,
+          "basis": "visual"
+        },
+        {
+          "id": "personal_koc",
+          "label": "个人消费者型KOC，以本人体验分享为主，而非品牌、公司或店铺官方账号；身份不明为unknown",
+          "required": true,
+          "basis": "text"
+        },
+        {
+          "id": "public_white_identification",
+          "label": "本人公开明确自述白人身份；不得依据外貌、姓名或所在地推断，无本人自述证据为unknown",
+          "required": true,
+          "basis": "text"
+        }
+      ],
+      "annotations": [
+        {
+          "id": "content_direction",
+          "label": "内容方向"
+        },
+        {
+          "id": "style",
+          "label": "穿搭风格"
+        },
+        {
+          "id": "glasses",
+          "label": "本人佩戴眼镜情况"
+        },
+        {
+          "id": "public_identity",
+          "label": "本人公开自述身份"
+        },
+        {
+          "id": "account_identity",
+          "label": "个人KOC身份"
+        }
+      ]
+    },
+    "task": {
+      "id": "research-c88806574dd68d9fc2c4257a",
+      "title": "Instagram geek穿搭个人KOC：限定两账号文字分析",
+      "status": "partial",
+      "requested": 20,
+      "evaluated": 2,
+      "matched": 0,
+      "qualifying": 0,
+      "matchedMeaning": "研究组入选的合格账号数；合格候选总数见qualifying",
+      "updatedAt": 1791653942460,
+      "detail": "已选合格 0/20，已核验 2；证据不足者保持待核实。Instagram：读取 2 个本人基础账号，基础条件排除 0 个；基础读取上限 2，逐人分析上限 20（本次有界来源，不代表全站穷尽）。",
+      "remoteStatus": "done",
+      "nextPollAt": 1791653915400
+    },
+    "results": [
+      {
+        "id": "research-c88806574dd68d9fc2c4257a|instagram:tylerlcrawford",
+        "handle": "tylerlcrawford",
+        "verdict": "unknown",
+        "selected": false,
+        "tags": [
+          "智能家居与公寓自动化",
+          "科技产品测评",
+          "酒店住宿与旅行体验",
+          "男装消费测评",
+          "自述曾任软件工程师",
+          "自述全职内容创作者",
+          "个人消费者型KOC",
+          "有品牌合作的个人创作者"
+        ],
+        "judgments": [
+          {
+            "criterionId": "__region",
+            "verdict": "unknown",
+            "reason": "未取得创作者地区",
+            "evidenceIds": [],
+            "label": "所在地区"
+          },
+          {
+            "criterionId": "__platform",
+            "verdict": "match",
+            "reason": "创作者平台：instagram",
+            "evidenceIds": [],
+            "label": "平台"
+          },
+          {
+            "criterionId": "__followers",
+            "verdict": "match",
+            "reason": "WaveSurge 粉丝数 31255，要求 10000–100000",
+            "evidenceIds": [
+              "0e3eaced0f1b1f1483471e71"
+            ],
+            "label": "粉丝范围"
+          },
+          {
+            "criterionId": "geek_outfit",
+            "verdict": "unknown",
+            "reason": "本次仅复用 WaveSurge 文字资料（capturedAt=1791653815861），没有实际传入的本人内容截图像素。2026-09-15 发布的服装测评描述卫衣版型，但不能证明本人穿搭呈现书呆子或极客风格；科技内容方向不能替代穿搭判断。照片资源明确尚未观察像素。",
+            "evidenceIds": [
+              "f11f207dca9491ef746920f4",
+              "b773f447261872fc05b5141e"
+            ],
+            "label": "本人穿搭呈现偏书呆子、极客的风格；不以科技内容方向替代穿搭判断，外观证据不足为unknown"
+          },
+          {
+            "criterionId": "wears_glasses",
+            "verdict": "unknown",
+            "reason": "所提供简介与帖子文字未明确说明本人佩戴眼镜；只有尚未观察像素的照片资源及视频封面链接，没有可核验的本人佩戴眼镜视觉证据。本轮未重新访问页面。",
+            "evidenceIds": [
+              "0e3eaced0f1b1f1483471e71",
+              "b773f447261872fc05b5141e"
+            ],
+            "label": "眼镜由创作者本人佩戴；不能仅凭头像或媒体链接确认，证据不足为unknown"
+          },
+          {
+            "criterionId": "personal_koc",
+            "verdict": "match",
+            "reason": "WaveSurge 取得的本人简介以个人公寓、科技及酒店测评定位；2026-09-27 帖子明确自述自购 Away 行李箱并长期免费分享使用体验，2026-10-07 帖子自述自费订房并分享实际入住体验，支持以本人消费者体验为主的个人创作者，而非品牌、公司或店铺官方账号。存在品牌合作不否定该个人消费者型身份。上述为既有文字证据，非本轮页面访问。",
+            "evidenceIds": [
+              "0e3eaced0f1b1f1483471e71",
+              "39d877dd6ef40f706e07304f",
+              "222e752d6057ee12c1192060"
+            ],
+            "label": "个人消费者型KOC，以本人体验分享为主，而非品牌、公司或店铺官方账号；身份不明为unknown"
+          },
+          {
+            "criterionId": "public_white_identification",
+            "verdict": "unknown",
+            "reason": "所提供本人简介与帖子文字中没有本人明确自述白人身份的证据；不依据姓名、所在地、职业、外貌或表情符号推断族裔。",
+            "evidenceIds": [
+              "0e3eaced0f1b1f1483471e71"
+            ],
+            "label": "本人公开明确自述白人身份；不得依据外貌、姓名或所在地推断，无本人自述证据为unknown"
+          }
+        ],
+        "annotations": [
+          {
+            "dimensionId": "content_direction",
+            "status": "supported",
+            "values": [
+              "智能家居与公寓自动化",
+              "科技产品测评",
+              "酒店住宿与旅行体验",
+              "男装消费测评"
+            ],
+            "reason": "既有 WaveSurge 本人简介及帖子文字分别记录公寓自动化设置、手机使用比较、实际入住酒店推荐和自购 Aritzia 男装测评；这些是内容方向，不代表视觉穿搭风格。",
+            "evidenceIds": [
+              "0e3eaced0f1b1f1483471e71",
+              "0dcd17845290f3ab689fe1ad",
+              "a8f116c36f985933209c95e4",
+              "222e752d6057ee12c1192060",
+              "f11f207dca9491ef746920f4"
+            ]
+          },
+          {
+            "dimensionId": "style",
+            "status": "unknown",
+            "values": [],
+            "reason": "服装测评文字不能证明本人实际穿搭风格，所提供照片仅有资源 URL，未观察像素。",
+            "evidenceIds": [
+              "f11f207dca9491ef746920f4",
+              "b773f447261872fc05b5141e"
+            ]
+          },
+          {
+            "dimensionId": "glasses",
+            "status": "unknown",
+            "values": [],
+            "reason": "没有本人佩戴眼镜的明确文字或实际可见内容像素。",
+            "evidenceIds": [
+              "0e3eaced0f1b1f1483471e71",
+              "b773f447261872fc05b5141e"
+            ]
+          },
+          {
+            "dimensionId": "public_identity",
+            "status": "supported",
+            "values": [
+              "自述曾任软件工程师",
+              "自述全职内容创作者"
+            ],
+            "reason": "2026-09-21 本人帖子自述一年前离开软件工程工作，2026-09-23 帖子自述辞职后全职从事创作；仅记录其公开职业自述，没有白人身份自述证据。",
+            "evidenceIds": [
+              "bc1019264bc9921a9cbe2195",
+              "4f87a696037c5a1583a84bb4"
+            ]
+          },
+          {
+            "dimensionId": "account_identity",
+            "status": "supported",
+            "values": [
+              "个人消费者型KOC",
+              "有品牌合作的个人创作者"
+            ],
+            "reason": "本人自述自购行李箱后长期分享、以自费酒店入住体验作推荐，并明确披露品牌旅行合作，支持个人消费体验分享账号身份。",
+            "evidenceIds": [
+              "39d877dd6ef40f706e07304f",
+              "222e752d6057ee12c1192060"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "research-c88806574dd68d9fc2c4257a|instagram:valstechtalkk",
+        "handle": "valstechtalkk",
+        "verdict": "unknown",
+        "selected": false,
+        "tags": [
+          "消费科技体验与测评",
+          "iPhone与iOS使用技巧",
+          "手机配件分享",
+          "个人消费者型KOC"
+        ],
+        "judgments": [
+          {
+            "criterionId": "__region",
+            "verdict": "unknown",
+            "reason": "未取得创作者地区",
+            "evidenceIds": [],
+            "label": "所在地区"
+          },
+          {
+            "criterionId": "__platform",
+            "verdict": "match",
+            "reason": "创作者平台：instagram",
+            "evidenceIds": [],
+            "label": "平台"
+          },
+          {
+            "criterionId": "__followers",
+            "verdict": "match",
+            "reason": "WaveSurge 粉丝数 39696，要求 10000–100000",
+            "evidenceIds": [
+              "87648534d88e75944587d4a1"
+            ],
+            "label": "粉丝范围"
+          },
+          {
+            "criterionId": "geek_outfit",
+            "verdict": "unknown",
+            "reason": "本轮仅复用 WaveSurge 文字和视频封面资源链接，没有实际传入的本人内容像素。科技测评主题及简介中的 cute、glam 不能证明本人穿搭呈现书呆子或极客风格。",
+            "evidenceIds": [
+              "87648534d88e75944587d4a1",
+              "799896e6ac492e7dea92c67b"
+            ],
+            "label": "本人穿搭呈现偏书呆子、极客的风格；不以科技内容方向替代穿搭判断，外观证据不足为unknown"
+          },
+          {
+            "criterionId": "wears_glasses",
+            "verdict": "unknown",
+            "reason": "未提供可观察的本人佩戴眼镜图像或视频像素；封面链接和文案中的 🤓 表情不能确认本人戴眼镜。",
+            "evidenceIds": [
+              "799896e6ac492e7dea92c67b",
+              "33b799a9f875e6a048103983"
+            ],
+            "label": "眼镜由创作者本人佩戴；不能仅凭头像或媒体链接确认，证据不足为unknown"
+          },
+          {
+            "criterionId": "personal_koc",
+            "verdict": "match",
+            "reason": "WaveSurge 获取的本人简介写有“Reviews + a little glam”，提供个人创作者商务联系方式；所给帖子以第一人称分享手机预订、开箱、设置偏好和配件体验，支持以本人消费体验分享为主的个人账号，而非品牌、公司或店铺官方账号。部分广告合作不改变该身份判断。本轮未重新访问页面。",
+            "evidenceIds": [
+              "87648534d88e75944587d4a1",
+              "4666bbaebae18f02a656a1de",
+              "2b22e29ae0eb86d0544ac2cb",
+              "633ae5dfe1d62c4f204824ce",
+              "7bb702ab43acfd45050b3c4a"
+            ],
+            "label": "个人消费者型KOC，以本人体验分享为主，而非品牌、公司或店铺官方账号；身份不明为unknown"
+          },
+          {
+            "criterionId": "public_white_identification",
+            "verdict": "unknown",
+            "reason": "所提供的本人简介及帖子文字没有明确自述白人身份；不能依据姓名、HTX、表情或未观察的外貌推断族裔。",
+            "evidenceIds": [
+              "87648534d88e75944587d4a1"
+            ],
+            "label": "本人公开明确自述白人身份；不得依据外貌、姓名或所在地推断，无本人自述证据为unknown"
+          }
+        ],
+        "annotations": [
+          {
+            "dimensionId": "content_direction",
+            "status": "supported",
+            "values": [
+              "消费科技体验与测评",
+              "iPhone与iOS使用技巧",
+              "手机配件分享"
+            ],
+            "reason": "依据本轮提供的 wavesurge-instagram-raw 简介及帖子文字：简介注明科技与 Reviews，帖子涵盖手机开箱、系统功能、相机设置及手机壳。帖子 publishedAt 与采集时间为不同字段，本轮没有重新访问来源页面。",
+            "evidenceIds": [
+              "87648534d88e75944587d4a1",
+              "4666bbaebae18f02a656a1de",
+              "a7e3e7d0dbee5ed3fcffa6fb",
+              "cba94411322992f36d73e9d5",
+              "0cae18c890342b5f1d42dd66"
+            ]
+          },
+          {
+            "dimensionId": "style",
+            "status": "unknown",
+            "values": [],
+            "reason": "没有实际传入的本人穿搭像素；简介中的 cute、glam 只能说明文字定位，不能作为已观察的穿搭风格。",
+            "evidenceIds": [
+              "87648534d88e75944587d4a1"
+            ]
+          },
+          {
+            "dimensionId": "glasses",
+            "status": "unknown",
+            "values": [],
+            "reason": "仅有文字和视频封面资源链接，无本人佩戴眼镜的可观察像素；🤓 表情不构成佩戴证据。",
+            "evidenceIds": [
+              "33b799a9f875e6a048103983",
+              "1a210569ff461572ff0b1298"
+            ]
+          },
+          {
+            "dimensionId": "public_identity",
+            "status": "unknown",
+            "values": [],
+            "reason": "所给本人文字未明确公开自述族裔身份。",
+            "evidenceIds": [
+              "87648534d88e75944587d4a1"
+            ]
+          },
+          {
+            "dimensionId": "account_identity",
+            "status": "supported",
+            "values": [
+              "个人消费者型KOC"
+            ],
+            "reason": "本人简介的 Reviews 定位与第一人称预订、开箱及日常使用偏好分享共同支持个人消费体验型创作者身份；非仅凭科技主题推断。",
+            "evidenceIds": [
+              "87648534d88e75944587d4a1",
+              "633ae5dfe1d62c4f204824ce",
+              "4666bbaebae18f02a656a1de",
+              "2b22e29ae0eb86d0544ac2cb"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "otherPlatforms": {
+    "input": "再分别帮我看看 YouTube、TikTok 和 X 上分享科技或数码内容的个人创作者，每个平台先选1位，各自最多分析1个候选，地区和粉丝数不限。只用 WaveSurge 现有的文字资料，不打开网页。每位标一下内容方向；拿不到名单或者证据不够就按实际情况交付，不用补成合格。这三项都结束后给我一份综合报告。",
+    "tasks": [
+      {
+        "id": "research-f709082840c02b38d49c3fee",
+        "title": "YouTube 科技数码个人创作者",
+        "status": "completed",
+        "requested": 1,
+        "evaluated": 1,
+        "matched": 1,
+        "qualifying": 1,
+        "matchedMeaning": "研究组入选的合格账号数；合格候选总数见qualifying",
+        "updatedAt": 1791653971344,
+        "detail": "已选合格 1/1，已核验 1；证据不足者保持待核实。youtube：读取 500 条，基础条件排除 0 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。",
+        "remoteStatus": "done",
+        "nextPollAt": 1791653959647
+      },
+      {
+        "id": "research-ac2e4eea4df073106f89558d",
+        "title": "TikTok 科技数码个人创作者",
+        "status": "completed",
+        "requested": 1,
+        "evaluated": 1,
+        "matched": 1,
+        "qualifying": 1,
+        "matchedMeaning": "研究组入选的合格账号数；合格候选总数见qualifying",
+        "updatedAt": 1791653984491,
+        "detail": "已选合格 1/1，已核验 1；证据不足者保持待核实。tiktok：读取 500 条，基础条件排除 0 条；/discover/db?platform=tiktok&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。",
+        "remoteStatus": "done",
+        "nextPollAt": 1791653973232
+      },
+      {
+        "id": "research-9466fb6b1bba777d135388d3",
+        "title": "X 科技数码个人创作者",
+        "status": "completed",
+        "requested": 1,
+        "evaluated": 1,
+        "matched": 1,
+        "qualifying": 1,
+        "matchedMeaning": "研究组入选的合格账号数；合格候选总数见qualifying",
+        "updatedAt": 1791653997210,
+        "detail": "已选合格 1/1，已核验 1；证据不足者保持待核实。twitter：读取 500 条，基础条件排除 0 条；/discover/db?platform=twitter&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。",
+        "remoteStatus": "done",
+        "nextPollAt": 1791653987664
+      }
+    ],
+    "results": [
+      {
+        "id": "research-f709082840c02b38d49c3fee|youtube:mrwhosetheboss",
+        "platform": "youtube",
+        "handle": "mrwhosetheboss",
+        "verdict": "match",
+        "tags": [
+          "科技数码"
+        ],
+        "judgments": [
+          {
+            "criterionId": "__platform",
+            "verdict": "match",
+            "reason": "创作者平台：youtube",
+            "evidenceIds": [],
+            "label": "平台"
+          },
+          {
+            "criterionId": "__followers",
+            "verdict": "match",
+            "reason": "WaveSurge 粉丝数 22700000，要求 0–9007199254740991",
+            "evidenceIds": [
+              "9cd5bb289bd908574441ac43"
+            ],
+            "label": "粉丝范围"
+          },
+          {
+            "criterionId": "tech_content",
+            "verdict": "match",
+            "reason": "已提供的 WaveSurge 本人主页简介文字明确表示致力于制作有趣且实用的科技视频（“FUN and USEFUL Tech videos”），支持科技数码内容方向。此判断复用已有采集资料，非本轮重新访问；采集时间不代表视频发布时间。",
+            "evidenceIds": [
+              "b77104292024ca8d26bd8f12"
+            ],
+            "label": "分享科技或数码内容"
+          },
+          {
+            "criterionId": "personal_creator",
+            "verdict": "match",
+            "reason": "WaveSurge 采集的本人主页简介以第一人称明确自我介绍“I'm Arun Maini”，并描述本人制作科技视频的使命，支持该账号为具名个人创作者，而非品牌、公司或店铺官方账号。",
+            "evidenceIds": [
+              "b77104292024ca8d26bd8f12"
+            ],
+            "label": "个人创作者，而非品牌、公司或店铺官方账号"
+          }
+        ],
+        "annotations": [
+          {
+            "dimensionId": "content_direction",
+            "status": "supported",
+            "values": [
+              "科技数码"
+            ],
+            "reason": "已有本人主页简介明确将内容定位为 Tech videos；未提供具体视频资料，不进一步推断细分题材。",
+            "evidenceIds": [
+              "b77104292024ca8d26bd8f12"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "research-ac2e4eea4df073106f89558d|tiktok:realswish",
+        "platform": "tiktok",
+        "handle": "realswish",
+        "verdict": "match",
+        "tags": [
+          "游戏",
+          "科技"
+        ],
+        "judgments": [
+          {
+            "criterionId": "__platform",
+            "verdict": "match",
+            "reason": "创作者平台：tiktok",
+            "evidenceIds": [],
+            "label": "平台"
+          },
+          {
+            "criterionId": "__followers",
+            "verdict": "match",
+            "reason": "WaveSurge 粉丝数 6741，要求 0–9007199254740991",
+            "evidenceIds": [
+              "28aa0e7a2186c5dd3b75f1bb"
+            ],
+            "label": "粉丝范围"
+          },
+          {
+            "criterionId": "tech_content",
+            "verdict": "match",
+            "reason": "WaveSurge 已采集的本人主页简介明确写有“gaming & tech | content only”，支持账号分享游戏与科技内容；依据既有简介文字，未在本轮重新访问主页或核验具体帖子。",
+            "evidenceIds": [
+              "232916f66568d455c14fef7a"
+            ],
+            "label": "分享科技或数码内容"
+          },
+          {
+            "criterionId": "personal_creator",
+            "verdict": "match",
+            "reason": "已采集的本人简介以个人口吻写有“all love for my girlfriend”，并提供个人合作联系邮箱及自身内容方向，支持个人内容创作者身份，而非品牌、公司或店铺官方账号。该判断来自 WaveSurge 简介文字。",
+            "evidenceIds": [
+              "232916f66568d455c14fef7a"
+            ],
+            "label": "个人创作者，而非品牌、公司或店铺官方账号"
+          }
+        ],
+        "annotations": [
+          {
+            "dimensionId": "content_direction",
+            "status": "supported",
+            "values": [
+              "游戏",
+              "科技"
+            ],
+            "reason": "WaveSurge 采集的主页简介直接声明“gaming & tech | content only”；标签仅反映其自述方向，未进一步推断具体数码品类。",
+            "evidenceIds": [
+              "232916f66568d455c14fef7a"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "research-9466fb6b1bba777d135388d3|twitter:geekyranjit",
+        "platform": "twitter",
+        "handle": "geekyranjit",
+        "verdict": "match",
+        "tags": [
+          "科技"
+        ],
+        "judgments": [
+          {
+            "criterionId": "__platform",
+            "verdict": "match",
+            "reason": "创作者平台：twitter",
+            "evidenceIds": [],
+            "label": "平台"
+          },
+          {
+            "criterionId": "__followers",
+            "verdict": "match",
+            "reason": "WaveSurge 粉丝数 790900，要求 0–9007199254740991",
+            "evidenceIds": [
+              "2a0332ef6a142932f1f96415"
+            ],
+            "label": "粉丝范围"
+          },
+          {
+            "criterionId": "tech_content",
+            "verdict": "match",
+            "reason": "WaveSurge 已采集的本人简介明确写明自己是 YouTuber，并表达个人对 Technology 的观点，支持其分享科技内容；本次仅复用简介文字，未重新访问主页或核验具体帖子。",
+            "evidenceIds": [
+              "f8f701a81028e71a4fc33f26"
+            ],
+            "label": "分享科技或数码内容"
+          },
+          {
+            "criterionId": "personal_creator",
+            "verdict": "match",
+            "reason": "本人简介以第一人称自述为长期科技爱好者及 YouTuber，并强调“my own blunt point of view”，支持这是个人创作者账号，而非品牌、公司或店铺官方账号。来源为 WaveSurge 已采集的主页简介。",
+            "evidenceIds": [
+              "f8f701a81028e71a4fc33f26"
+            ],
+            "label": "个人创作者，而非品牌、公司或店铺官方账号"
+          }
+        ],
+        "annotations": [
+          {
+            "dimensionId": "content_direction",
+            "status": "supported",
+            "values": [
+              "科技"
+            ],
+            "reason": "已采集的本人简介明确提到 Technology，支持科技内容方向；现有文字不足以细分到具体数码品类。",
+            "evidenceIds": [
+              "f8f701a81028e71a4fc33f26"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "queryReply": "已查询最新已有结果，**没有启动新研究或补标**。五个组均已完成，配额缺额均为0。\n\n### 一、之前的三项独立研究\n\n| 研究分组 | 合格候选人数 | 实际入选 | 目标配额 | 还差 |\n|---|---:|---:|---:|---:|\n| 提交验收 实用数码 | 2人 | 1人 | 1人 | 0人 |\n| 提交验收 生活效率 | 2人 | 1人 | 1人 | 0人 |\n| 提交验收 内容教程 | 2人 | 1人 | 1人 | 0人 |\n\n每组都完整核验了两位候选：**2位合格，其中1位入选、1位为未入选的合格备选**。三项合计是 **6条合格记录、3条入选记录**，不代表6个或3个不同账号；这些记录对应同样的两个 Instagram 账号。\n\n### 二、智能生活设备认知 Campaign（版本2）\n\n| Campaign 分组 | 组内合格候选人数 | 最终实际入选 | 目标配额 | 还差 | 最终分配账号 |\n|---|---:|---:|---:|---:|---|\n| 实用数码体验组 | 2人 | 1人 | 1人 | 0人 | **@valstechtalkk** |\n| 生活效率工具组 | 2人 | 1人 | 1人 | 0人 | **@tylerlcrawford** |\n\nCampaign 总计：\n- **合格组内记录：4条**，对应**去重后2个合格账号**。\n- **最终入选：去重后2位／目标2位**，还差 **0位**。\n- 同一账号只占一个组配额：`valstechtalkk` 分给实用数码体验组，`tylerlcrawford` 分给生活效率工具组。\n- 两位都符合两个组的条件；未在另一组入选是跨组配额分配结果，**不是不合格**。\n\n[查看 Campaign 最终总报告](/api/campaigns/campaign-7235b855cebc66206807b08c/report)"
+}

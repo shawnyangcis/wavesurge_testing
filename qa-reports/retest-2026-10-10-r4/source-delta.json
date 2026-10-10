@@ -1,0 +1,26 @@
+{
+  "from": "R3",
+  "to": "R4",
+  "changed": [
+    "server/agent.ts",
+    "server/assessment.ts",
+    "server/bootstrap.ts",
+    "server/browser-verifier.ts",
+    "server/context.ts",
+    "server/discovery.ts",
+    "server/enrichment.ts",
+    "server/instagram.ts",
+    "server/repair.ts",
+    "server/reports.ts",
+    "server/research-tools.ts",
+    "server/research.ts",
+    "server/settings.ts",
+    "server/task-facts.ts",
+    "server/verdict.ts",
+    "server/work-delivery.ts",
+    "shared/prompts.ts",
+    "shared/research.ts"
+  ],
+  "added": [],
+  "removed": []
+}

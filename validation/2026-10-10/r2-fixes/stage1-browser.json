@@ -1,0 +1,888 @@
+{
+  "at": "2026-10-10T09:18:58.427Z",
+  "environment": "fresh Docker, real WaveSurge and configured model; only large waiting task is synthetic",
+  "connections": [
+    2545,
+    11,
+    3436
+  ],
+  "latencyMs": [
+    23.49320699999953,
+    11.990846000000602,
+    13.074885999998514,
+    15.22105499999816,
+    10.67764299999908,
+    9.811236000001372,
+    8.984104999999545,
+    6.347473000001628,
+    8.602740000002086,
+    6.516171999999642,
+    10.84291999999914,
+    6.681645000000572,
+    6.3146729999971285,
+    6.993453999999474,
+    5.628172000000632,
+    6.065239999999903,
+    8.943865000001097,
+    7.217122000001837,
+    6.282952999998088,
+    14.401678999998694
+  ],
+  "errors": [],
+  "newTaskId": "research-bfa933863c4b023c71b4b3f4",
+  "waveCalls": [
+    {
+      "method": "GET",
+      "path": "/discover/db?platform=youtube&limit=100&sort=followers_desc",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=tylerlcrawford",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/instagram/v1/fetch_user_posts?user_id=48426799147&count=12",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/instagram/v1/fetch_user_posts?user_id=48426799147&count=12&max_id=3997965466461395273_48426799147",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DcZxbpBAJDI",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DZoHkAvAbm5",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=valstechtalkk",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/instagram/v1/fetch_user_posts?user_id=10561673222&count=12",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/instagram/v1/fetch_user_posts?user_id=10561673222&count=12&max_id=3995072639892408967_10561673222",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DeQfBbyKmOR",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DeNSuNkqMjQ",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=tylerlcrawford",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/instagram/v1/fetch_user_posts?user_id=48426799147&count=12",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/instagram/v1/fetch_user_posts?user_id=48426799147&count=12&max_id=3997965466461395273_48426799147",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DcZxbpBAJDI",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DZoHkAvAbm5",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=valstechtalkk",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/instagram/v1/fetch_user_posts?user_id=10561673222&count=12",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/instagram/v1/fetch_user_posts?user_id=10561673222&count=12&max_id=3995072639892408967_10561673222",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DeQfBbyKmOR",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DeNSuNkqMjQ",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/discover/db?platform=tiktok&limit=500&sort=fit_desc",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=tylerlcrawford",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/instagram/v1/fetch_user_posts?user_id=48426799147&count=12",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/instagram/v1/fetch_user_posts?user_id=48426799147&count=12&max_id=3997965466461395273_48426799147",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DcZxbpBAJDI",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DZoHkAvAbm5",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=valstechtalkk",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/instagram/v1/fetch_user_posts?user_id=10561673222&count=12",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/instagram/v1/fetch_user_posts?user_id=10561673222&count=12&max_id=3995072639892408967_10561673222",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DeQfBbyKmOR",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DeNSuNkqMjQ",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/discover/db?platform=youtube&limit=500&sort=fit_desc",
+      "status": 200
+    }
+  ],
+  "modelKinds": [
+    "chat",
+    "chat",
+    "verification",
+    "chat",
+    "verification",
+    "chat",
+    "chat",
+    "chat",
+    "chat",
+    "chat",
+    "verification",
+    "verification",
+    "verification",
+    "verification",
+    "chat",
+    "chat",
+    "verification",
+    "verification",
+    "chat",
+    "chat",
+    "candidate-selection",
+    "chat",
+    "browser-verification",
+    "browser-verification",
+    "browser-verification",
+    "chat",
+    "chat",
+    "verification",
+    "chat",
+    "verification",
+    "verification",
+    "verification",
+    "verification",
+    "verification",
+    "chat",
+    "verification",
+    "chat",
+    "verification",
+    "verification",
+    "verification",
+    "verification",
+    "verification",
+    "chat",
+    "chat",
+    "chat",
+    "chat",
+    "chat",
+    "chat",
+    "verification",
+    "verification",
+    "chat",
+    "chat",
+    "candidate-selection",
+    "chat",
+    "verification",
+    "chat",
+    "chat"
+  ],
+  "finalTasks": [
+    {
+      "id": "r2-performance-wait",
+      "title": "R2性能等待（受控资料）",
+      "status": "needs_input",
+      "requested": 1,
+      "evaluated": 0,
+      "matched": 0,
+      "updatedAt": 1791623929242,
+      "detail": "受控大资料等待，不是真实创作者任务",
+      "remoteId": "controlled",
+      "remoteStatus": "done",
+      "nextPollAt": 0
+    },
+    {
+      "id": "research-cf29e9402c720fc05dedd7f5",
+      "title": "R2文字研究",
+      "status": "partial",
+      "requested": 1,
+      "evaluated": 2,
+      "matched": 0,
+      "qualifying": 0,
+      "updatedAt": 1791620763921,
+      "detail": "已选合格 0/1，已核验 2；证据不足者保持待核实。核验/来源错误 2 次，可对已有结果重新核验。",
+      "remoteStatus": "done",
+      "nextPollAt": 1791620746060
+    },
+    {
+      "id": "research-cff4281f99be7f0213ba4fde",
+      "title": "R2精确账号研究1791621591033",
+      "status": "partial",
+      "requested": 1,
+      "evaluated": 2,
+      "matched": 0,
+      "qualifying": 0,
+      "updatedAt": 1791621817114,
+      "detail": "已选合格 0/1，已核验 2；证据不足者保持待核实。核验/来源错误 4 次，可对已有结果重新核验。",
+      "remoteStatus": "done",
+      "nextPollAt": 1791621694546
+    },
+    {
+      "id": "research-abfa9122fe99b246ebde370c",
+      "title": "R2精确账号研究1791622300206",
+      "status": "completed",
+      "requested": 1,
+      "evaluated": 2,
+      "matched": 1,
+      "qualifying": 2,
+      "updatedAt": 1791623387484,
+      "detail": "已选合格 1/1，已核验 2；证据不足者保持待核实。",
+      "remoteStatus": "done",
+      "nextPollAt": 1791622386538
+    },
+    {
+      "id": "research-29fb9b5089f5eb0ea6425d11",
+      "title": "R2真实TikTok研究1791622414713",
+      "status": "partial",
+      "requested": 1,
+      "evaluated": 1,
+      "matched": 0,
+      "qualifying": 0,
+      "updatedAt": 1791622501166,
+      "detail": "已选合格 0/1，已核验 1；证据不足者保持待核实。tiktok：读取 500 条，基础条件排除 324 条；/discover/db?platform=tiktok&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。",
+      "remoteStatus": "done",
+      "nextPollAt": 0
+    },
+    {
+      "id": "research-fd88375f69e716ff5cbc9fef",
+      "title": "课堂笔记与考试复习方法创作者",
+      "status": "partial",
+      "requested": 1,
+      "evaluated": 2,
+      "matched": 0,
+      "qualifying": 0,
+      "updatedAt": 1791623465483,
+      "detail": "历史结果已按统一账号身份、国家名称和证据重算：已选合格 0/1，核验 2。未确认条件保持 unknown；原分析已保留审计版本。",
+      "remoteId": "7c1837b8-3ec0-4d06-9f4d-752eebc40f64",
+      "remoteStatus": "done",
+      "nextPollAt": 1791598003992
+    },
+    {
+      "id": "research-b30bacd90e74569b33e06bfc",
+      "title": "AI与数字学习工具教学创作者",
+      "status": "partial",
+      "requested": 1,
+      "evaluated": 2,
+      "matched": 0,
+      "qualifying": 0,
+      "updatedAt": 1791623494427,
+      "detail": "历史结果已按统一账号身份、国家名称和证据重算：已选合格 0/1，核验 2。未确认条件保持 unknown；原分析已保留审计版本。",
+      "remoteId": "ff3ac6fb-fa15-4b8d-b358-e7bf18e642de",
+      "remoteStatus": "done",
+      "nextPollAt": 1791597579739
+    },
+    {
+      "id": "enrich-5b9a3c25894d84e44f37e635",
+      "title": "补充画像：R2精确账号研究1791622300206",
+      "status": "completed",
+      "requested": 2,
+      "evaluated": 2,
+      "matched": 2,
+      "resultTaskId": "research-abfa9122fe99b246ebde370c",
+      "updatedAt": 1791623137694,
+      "detail": "已处理 2 个已有账号；失败 0。"
+    },
+    {
+      "id": "enrich-5dd80222d2b6440b1bc7e46d",
+      "title": "补充画像：课堂笔记与考试复习方法创作者",
+      "status": "completed",
+      "requested": 2,
+      "evaluated": 2,
+      "matched": 0,
+      "resultTaskId": "research-fd88375f69e716ff5cbc9fef",
+      "updatedAt": 1791623197700,
+      "detail": "已处理 2 个已有账号；失败 0。"
+    },
+    {
+      "id": "enrich-85fd20598f165525d8292f00",
+      "title": "补充画像：AI与数字学习工具教学创作者",
+      "status": "completed",
+      "requested": 2,
+      "evaluated": 2,
+      "matched": 0,
+      "resultTaskId": "research-b30bacd90e74569b33e06bfc",
+      "updatedAt": 1791623226461,
+      "detail": "已处理 2 个已有账号；失败 0。"
+    },
+    {
+      "id": "enrich-5b09da169d1485887aba4879",
+      "title": "补充画像：R2精确账号研究1791622300206",
+      "status": "completed",
+      "requested": 2,
+      "evaluated": 2,
+      "matched": 2,
+      "resultTaskId": "research-abfa9122fe99b246ebde370c",
+      "updatedAt": 1791623387532,
+      "detail": "已处理 2 个已有账号；失败 0。"
+    },
+    {
+      "id": "enrich-41f320823184b23c651de68c",
+      "title": "补充画像：课堂笔记与考试复习方法创作者",
+      "status": "completed",
+      "requested": 2,
+      "evaluated": 2,
+      "matched": 0,
+      "resultTaskId": "research-fd88375f69e716ff5cbc9fef",
+      "updatedAt": 1791623465486,
+      "detail": "已处理 2 个已有账号；失败 0。"
+    },
+    {
+      "id": "enrich-48467cd1f67153dbe0bead9e",
+      "title": "补充画像：AI与数字学习工具教学创作者",
+      "status": "completed",
+      "requested": 2,
+      "evaluated": 2,
+      "matched": 0,
+      "resultTaskId": "research-b30bacd90e74569b33e06bfc",
+      "updatedAt": 1791623494431,
+      "detail": "已处理 2 个已有账号；失败 0。"
+    },
+    {
+      "id": "research-971200c6caa15dabcedf24b5",
+      "title": "智能家居场景讲解",
+      "status": "completed",
+      "requested": 1,
+      "evaluated": 1,
+      "matched": 1,
+      "qualifying": 1,
+      "updatedAt": 1791623637021,
+      "detail": "已选合格 1/1，已核验 1；证据不足者保持待核实。",
+      "remoteStatus": "done",
+      "nextPollAt": 1791623605289
+    },
+    {
+      "id": "research-eb5730f351f8db0b540a219c",
+      "title": "iPhone数码技巧",
+      "status": "completed",
+      "requested": 1,
+      "evaluated": 1,
+      "matched": 1,
+      "qualifying": 1,
+      "updatedAt": 1791623703505,
+      "detail": "已选合格 1/1，已核验 1；证据不足者保持待核实。",
+      "remoteStatus": "done",
+      "nextPollAt": 1791623683117
+    },
+    {
+      "id": "research-bfa933863c4b023c71b4b3f4",
+      "title": "R2文字研究1791623945903",
+      "status": "completed",
+      "requested": 1,
+      "evaluated": 1,
+      "matched": 1,
+      "qualifying": 1,
+      "updatedAt": 1791623975707,
+      "detail": "已选合格 1/1，已核验 1；证据不足者保持待核实。youtube：读取 500 条，基础条件排除 0 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。",
+      "remoteStatus": "done",
+      "nextPollAt": 1791623959781
+    }
+  ],
+  "messages": [
+    {
+      "id": "a1f20eb5-73f3-47d9-9099-a2706362ae96",
+      "role": "user",
+      "text": "另开一个名为“R2文字研究”的任务：从WaveSurge已有YouTube名单选1人，候选最多2人，粉丝和地区不限，只根据已有简介给内容方向打标。不要打开浏览器，不用人工协助；没有文字证据的画像就标未知。请直接开始，保留原来的性能等待任务。",
+      "createdAt": 1791620731606,
+      "epoch": 0,
+      "state": "delivered",
+      "attachments": []
+    },
+    {
+      "id": "d0c4db44-a544-473e-a619-bf2360f5a6f9",
+      "role": "user",
+      "text": "刚才的新文字任务继续进行，不要重启或重复创建。请按实际状态告诉我进展，原来的人工等待任务也不要取消。",
+      "createdAt": 1791620744772,
+      "epoch": 0,
+      "state": "delivered",
+      "attachments": []
+    },
+    {
+      "id": "report-research-cf29e9402c720fc05dedd7f5-c4340a0084938f33",
+      "role": "assistant",
+      "text": "研究「R2文字研究」已结束，仍有缺额。已选合格 0/1 人，核验 2 人。\n\n已选合格 0/1，已核验 2；证据不足者保持待核实。核验/来源错误 2 次，可对已有结果重新核验。\n\n[查看完整报告](/api/reports/research-cf29e9402c720fc05dedd7f5) · [下载 CSV](/api/reports/research-cf29e9402c720fc05dedd7f5?format=csv)",
+      "createdAt": 1791620763921,
+      "epoch": 0,
+      "state": "delivered",
+      "attachments": []
+    },
+    {
+      "id": "e087dce1-b444-40c3-a7ac-b3d7168976b9",
+      "role": "assistant",
+      "text": "按最新状态：\n\n- **“R2文字研究”本轮已结束，但有缺额**：已核验 **2 人**，达到候选上限；已选 **0/1 人**。记录有 **2 次核验／来源错误**，证据不足的画像保持待核实，不作正向标签。任务没有重启，也没有重复创建。\n- **原来的“R2性能等待（受控资料）”仍保留**：状态为等待输入，未取消。系统注明它是受控资料等待，并非真实创作者研究任务。\n\n没有启动新的搜索、浏览器核验或人工协助。\n\n[查看文字研究报告](/api/reports/research-cf29e9402c720fc05dedd7f5) · [下载 CSV](/api/reports/research-cf29e9402c720fc05dedd7f5?format=csv)",
+      "epoch": 0,
+      "createdAt": 1791620779043,
+      "state": "delivered",
+      "attachments": []
+    },
+    {
+      "id": "f9138a3a-cb1f-416f-afd2-0dac68e27e90",
+      "role": "user",
+      "text": "开一个独立的R2精确账号研究1791621591033：只看Instagram的 tylerlcrawford 和 valstechtalkk，不扩大搜索，不要相似用户名。两个都必须分析并标注内容方向、呈现风格，从中只选1人，候选预算2人，无偏好，地区不限、粉丝不限。只用WaveSurge提供的简介和帖子文字，不打开浏览器；没有证据就未知。请直接开始。",
+      "createdAt": 1791621591140,
+      "epoch": 0,
+      "state": "delivered",
+      "attachments": []
+    },
+    {
+      "id": "d1743f94-c6e3-4545-980c-9b5edd4c6316",
+      "role": "assistant",
+      "text": "已启动独立任务 **“R2精确账号研究1791621591033”**，目前已排队等待读取资料。\n\n- **仅分析** Instagram 的 `tylerlcrawford`、`valstechtalkk`，不扩大搜索、不加入相似用户名。\n- 两个账号都会分析，分别标注**内容方向、呈现风格**；即使先选出 1 人，也会完成另一人的分析。\n- 入选目标 **1 人**，候选上限 **2 人**；地区、粉丝不限，无偏好。\n- 仅使用 WaveSurge 提供的简介和帖子文字，**不打开浏览器、不请求人工协助**；缺乏文字证据的标签标为未知。\n\n本次未操作其他任务。",
+      "epoch": 0,
+      "createdAt": 1791621616714,
+      "state": "delivered",
+      "attachments": []
+    },
+    {
+      "id": "report-research-cff4281f99be7f0213ba4fde-aee81c00ed7d2a03",
+      "role": "assistant",
+      "text": "研究「R2精确账号研究1791621591033」已结束，仍有缺额。已选合格 0/1 人，核验 2 人。\n\n已选合格 0/1，已核验 2；证据不足者保持待核实。核验/来源错误 4 次，可对已有结果重新核验。\n\n[查看完整报告](/api/reports/research-cff4281f99be7f0213ba4fde) · [下载 CSV](/api/reports/research-cff4281f99be7f0213ba4fde?format=csv)",
+      "createdAt": 1791621817256,
+      "epoch": 0,
+      "state": "delivered",
+      "attachments": []
+    },
+    {
+      "id": "cdf48ef8-58b9-44f4-b2ad-a3ecd9f47cfe",
+      "role": "user",
+      "text": "开一个独立的R2精确账号研究1791622300206：只看Instagram的 tylerlcrawford 和 valstechtalkk，不扩大搜索，不要相似用户名。两个都必须分析并标注内容方向、呈现风格，从中只选1人，候选预算2人，无偏好，地区不限、粉丝不限。只用WaveSurge提供的简介和帖子文字，不打开浏览器；没有证据就未知。请直接开始。",
+      "createdAt": 1791622300598,
+      "epoch": 0,
+      "state": "delivered",
+      "attachments": []
+    },
+    {
+      "id": "50aa5698-cb4b-4b56-affe-b594196631b3",
+      "role": "assistant",
+      "text": "已启动独立任务 **“R2精确账号研究1791622300206”**，正在读取 WaveSurge 原始资料，尚未完成分析。\n\n- 仅读取 `tylerlcrawford` 和 `valstechtalkk`，不扩大搜索、不加入相似用户名。\n- **两个账号都完整分析**，标注“内容方向”和“呈现风格”；入选目标为 **1 人**，候选预算 **2 人**。\n- 地区、粉丝不限，无偏好。\n- 仅依据简介和帖子文字，**不开浏览器、不请求人工协助**；没有文字证据的画像标为未知。\n\n本次未更改或取消其他任务，完成后会交付报告。",
+      "epoch": 0,
+      "createdAt": 1791622313256,
+      "state": "delivered",
+      "attachments": []
+    },
+    {
+      "id": "report-request-cdf48ef8-58b9-44f4-b2ad-a3ecd9f47cfe-05969a82328e623b",
+      "role": "assistant",
+      "text": "本次请求的 1 项工作已全部结束。\n\n- R2精确账号研究1791622300206：已完成；已选合格 1/1，已核验 2；证据不足者保持待核实。 [查看报告](/api/reports/research-abfa9122fe99b246ebde370c)\n\n[查看本次综合报告](/api/work-batches/cdf48ef8-58b9-44f4-b2ad-a3ecd9f47cfe/report) · [下载综合 CSV](/api/work-batches/cdf48ef8-58b9-44f4-b2ad-a3ecd9f47cfe/report?format=csv)",
+      "createdAt": 1791622412931,
+      "epoch": 0,
+      "state": "delivered",
+      "attachments": []
+    },
+    {
+      "id": "b34fde30-dec8-42f3-9488-190c9187d383",
+      "role": "user",
+      "text": "再开一个独立的R2真实TikTok研究1791622414713：找1位做科技内容的创作者，粉丝1万到10万，地区不限，最多分析1人。实际打开其公开主页检查内容和账号是否可访问，标注实际内容方向，不要拿空白页当证据。来源或页面不足就如实报告未知和缺额。请直接开始。",
+      "createdAt": 1791622415069,
+      "epoch": 0,
+      "state": "delivered",
+      "attachments": []
+    },
+    {
+      "id": "fff535e6-e89a-42c1-8f27-912b8a5cf395",
+      "role": "assistant",
+      "text": "已启动独立任务 **“R2真实TikTok研究1791622414713”**，正在读取已有候选资料。\n\n- 目标 **1 位科技创作者**，粉丝 **1万–10万**，地区不限，最多分析 **1 人**。\n- 从 WaveSurge 已有 TikTok 名单读取候选，不启动额外付费搜索。\n- 将实际打开公开主页，核验账号可访问性及科技内容，并标注实际内容方向；**空白页不作为证据**。\n- 来源或页面证据不足时，保持未知并如实报告缺额。\n\n目前尚未完成主页核验；其他任务未更改或取消。",
+      "epoch": 0,
+      "createdAt": 1791622451951,
+      "state": "delivered",
+      "attachments": []
+    },
+    {
+      "id": "report-request-b34fde30-dec8-42f3-9488-190c9187d383-667d90f6ac64fc19",
+      "role": "assistant",
+      "text": "本次请求的 1 项工作已全部结束。\n\n- R2真实TikTok研究1791622414713：已结束，仍有缺额或失败；已选合格 0/1，已核验 1；证据不足者保持待核实。tiktok：读取 500 条，基础条件排除 324 条；/discover/db?platform=tiktok&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。 [查看报告](/api/reports/research-29fb9b5089f5eb0ea6425d11)\n\n[查看本次综合报告](/api/work-batches/b34fde30-dec8-42f3-9488-190c9187d383/report) · [下载综合 CSV](/api/work-batches/b34fde30-dec8-42f3-9488-190c9187d383/report?format=csv)",
+      "createdAt": 1791622501172,
+      "epoch": 0,
+      "state": "delivered",
+      "attachments": []
+    },
+    {
+      "id": "e03ef009-2feb-4cef-99af-24a071f2c87a",
+      "role": "user",
+      "text": "R2整批补标1791623047966：请把这6人的已有结果补充内容方向、呈现风格、适合合作的内容形式（只说明已有形式，不代表合作意愿）。只处理这些范围：research-abfa9122fe99b246ebde370c 中的 valstechtalkk、tylerlcrawford；research-fd88375f69e716ff5cbc9fef 中的 schoolhabits、raytubelcsw；research-b30bacd90e74569b33e06bfc 中的 colelangs、wesleyanna。每个账号只处理指定这一份结果，不动旧的同名研究。只用已经保存的证据，不重新搜索、不打开浏览器、不改原事实、筛选判断和入选集合。全部处理结束后一次交付综合报告，包括失败和缺额。",
+      "createdAt": 1791623048031,
+      "epoch": 0,
+      "state": "delivered",
+      "attachments": []
+    },
+    {
+      "id": "c2b63135-81aa-4d32-9ff5-b59468dca32c",
+      "role": "assistant",
+      "text": "已登记 **“R2整批补标1791623047966”**，严格限定为你指定的三份研究中的 **6 条结果**，不触及旧的同名研究。\n\n补标维度为：\n- 内容方向\n- 呈现风格\n- 适合合作的内容形式——**仅描述已有内容形式，不代表合作意愿**\n\n仅使用已保存的证据，不重新搜索、不打开浏览器；证据不足的维度标为未知，保留原事实、筛选判断和入选集合。\n\n目前第一组正在处理，另外两组已排队。全部结束后将**一次交付综合报告**，汇总成功、失败及证据缺口。",
+      "epoch": 0,
+      "createdAt": 1791623100054,
+      "state": "delivered",
+      "attachments": []
+    },
+    {
+      "id": "report-request-e03ef009-2feb-4cef-99af-24a071f2c87a-f20f3aa1f1365c07",
+      "role": "assistant",
+      "text": "本次请求的 3 项工作已全部结束。\n\n- 补充画像：R2精确账号研究1791622300206：已完成；已处理 2 个已有账号；失败 0。 [查看报告](/api/reports/research-abfa9122fe99b246ebde370c)\n- 补充画像：课堂笔记与考试复习方法创作者：已完成；已处理 2 个已有账号；失败 0。 [查看报告](/api/reports/research-fd88375f69e716ff5cbc9fef)\n- 补充画像：AI与数字学习工具教学创作者：已完成；已处理 2 个已有账号；失败 0。 [查看报告](/api/reports/research-b30bacd90e74569b33e06bfc)\n\n[查看本次综合报告](/api/work-batches/e03ef009-2feb-4cef-99af-24a071f2c87a/report) · [下载综合 CSV](/api/work-batches/e03ef009-2feb-4cef-99af-24a071f2c87a/report?format=csv)",
+      "createdAt": 1791623226484,
+      "epoch": 0,
+      "state": "delivered",
+      "attachments": []
+    },
+    {
+      "id": "29733a70-1855-4967-a2d6-53fa5c2f648f",
+      "role": "user",
+      "text": "R2整批补标1791623304834：请把这6人的已有结果补充内容方向、呈现风格、适合合作的内容形式（只说明已有形式，不代表合作意愿）。只处理这些范围：research-abfa9122fe99b246ebde370c 中的 tylerlcrawford、valstechtalkk；research-fd88375f69e716ff5cbc9fef 中的 schoolhabits、raytubelcsw；research-b30bacd90e74569b33e06bfc 中的 colelangs、wesleyanna。每个账号只处理指定这一份结果，不动旧的同名研究。只用已经保存的证据，不重新搜索、不打开浏览器、不改原事实、筛选判断和入选集合。全部处理结束后一次交付综合报告，包括失败和缺额。",
+      "createdAt": 1791623304899,
+      "epoch": 0,
+      "state": "delivered",
+      "attachments": []
+    },
+    {
+      "id": "7b10045f-2946-4659-bde2-af275efd438d",
+      "role": "assistant",
+      "text": "已登记本次 **“R2整批补标1791623304834”**，仅处理指定三份研究中的这 **6 条结果**：\n\n- `research-abfa9122fe99b246ebde370c`：tylerlcrawford、valstechtalkk\n- `research-fd88375f69e716ff5cbc9fef`：schoolhabits、raytubelcsw\n- `research-b30bacd90e74569b33e06bfc`：colelangs、wesleyanna\n\n补充**内容方向、呈现风格、适合合作的内容形式**；最后一项仅描述已有形式，不推断合作意愿。仅使用已保存证据，证据不足标为未知；不重新搜索、不打开浏览器，不改原事实、筛选判断或入选集合，也不触及旧的同名研究。\n\n第一组正在处理，其余两组已排队。全部结束后将**一次交付综合报告**，包含失败及证据缺口。",
+      "epoch": 0,
+      "createdAt": 1791623336836,
+      "state": "delivered",
+      "attachments": []
+    },
+    {
+      "id": "report-request-29733a70-1855-4967-a2d6-53fa5c2f648f-8737d15afbb415d0",
+      "role": "assistant",
+      "text": "本次请求的 3 项工作已全部结束。\n\n- 补充画像：R2精确账号研究1791622300206：已完成；已处理 2 个已有账号；失败 0。 [查看报告](/api/reports/research-abfa9122fe99b246ebde370c)\n- 补充画像：课堂笔记与考试复习方法创作者：已完成；已处理 2 个已有账号；失败 0。 [查看报告](/api/reports/research-fd88375f69e716ff5cbc9fef)\n- 补充画像：AI与数字学习工具教学创作者：已完成；已处理 2 个已有账号；失败 0。 [查看报告](/api/reports/research-b30bacd90e74569b33e06bfc)\n\n[查看本次综合报告](/api/work-batches/29733a70-1855-4967-a2d6-53fa5c2f648f/report) · [下载综合 CSV](/api/work-batches/29733a70-1855-4967-a2d6-53fa5c2f648f/report?format=csv)",
+      "createdAt": 1791623494434,
+      "epoch": 0,
+      "state": "delivered",
+      "attachments": []
+    },
+    {
+      "id": "c45fe033-9092-44f6-9e29-d1c9198001e9",
+      "role": "user",
+      "text": "我们下个月在美国推广一款智能生活App，提供家居自动化教程和手机效率技巧，目标是让年轻租房用户注册试用。先跟我明确适合的创作者类型，不要开始搜索。",
+      "createdAt": 1791623498807,
+      "epoch": 0,
+      "state": "delivered",
+      "attachments": []
+    },
+    {
+      "id": "c04ebadb-dc93-4278-bd23-b2145e055a46",
+      "role": "assistant",
+      "text": "建议先按**“租房场景吸引兴趣 → 教程展示价值 → 引导注册试用”**来划分创作者类型，而不是只找泛科技博主。以下是初步建议，**尚未确认，也不会开始搜索**。\n\n| 建议类型 | 内容契合点 | 对注册试用的作用 |\n|---|---|---|\n| **租房／小空间智能家居创作者** | 租房可用的自动化、免打孔设备、低成本生活升级 | 用真实租房痛点吸引目标用户，展示 App 如何改善日常生活 |\n| **手机效率技巧创作者** | 手机快捷操作、自动化流程、日常效率技巧 | 以易上手的教程展示具体收益，自然引导观众注册并跟做 |\n| **年轻租房生活方式创作者** | 小公寓生活、搬家、居家日常与空间管理 | 将 App 融入起床、出门、回家等生活场景，触达不主动关注科技的潜在用户 |\n\n第三类建议要求有实际工具演示或教程内容，不能仅凭租房生活标签入选；第一类也要确认其方案适合租房，而非依赖装修或复杂硬件。\n\n为确定类型和后续配额，想集中确认四点：\n\n1. **产品能力**：支持 iOS、Android，还是两者？家居自动化教程是否需要用户已有智能设备？手机效率功能是 App 内直接提供，还是教程指导？\n2. **年轻租房用户**：你希望重点覆盖哪个年龄段？例如 18–24 岁学生／初入职场，还是 25–34 岁租房人群？\n3. **平台与地区口径**：希望在哪些平台推广？“美国”是要求创作者本人住在美国，还是主要受众在美国，或两者都要？\n4. **规模与边界**：计划最终选多少人，有没有粉丝范围和合作预算？如果还没确定，我可以先给建议配额和候选核验预算，供你确认。\n\n确认后，我会整理成带理由、人数和筛选条件的方案草案，**仍不启动搜索，待你同意具体版本后再执行**。",
+      "epoch": 0,
+      "createdAt": 1791623527357,
+      "state": "delivered",
+      "attachments": []
+    },
+    {
+      "id": "debfbef8-8e4e-483f-9fab-d464116f7e4e",
+      "role": "user",
+      "text": "请据此保存R2营销方案1791623527659：两类各1位，共2位，分别智能家居场景讲解、iPhone数码技巧。都选Instagram，第一类只核验tylerlcrawford，第二类只核验valstechtalkk，每类预算1个候选，都完整分析。粉丝及创作者所在地不限，美国仅指推广目标受众，不推断观众国家。用WaveSurge本人简介和帖子文字核验内容方向，先不打开浏览器。保存草案给我确认，不开始执行。",
+      "createdAt": 1791623527744,
+      "epoch": 0,
+      "state": "delivered",
+      "attachments": []
+    },
+    {
+      "id": "6ddaf752-0a5f-45b8-90c8-3b7976815544",
+      "role": "user",
+      "text": "确认Campaign campaign-7530c1506625e99c839317d6 的版本v1，直接开始按这两个类型执行。保留之前结果，不重复启动，整批结束后一次交付综合报告。",
+      "createdAt": 1791623544886,
+      "epoch": 0,
+      "state": "delivered",
+      "attachments": []
+    },
+    {
+      "id": "37c7b5ef-7726-457c-8aa4-6db7d4a0517e",
+      "role": "assistant",
+      "text": "已按你确认的 **Campaign `campaign-7530c1506625e99c839317d6` · v1** 启动执行，未重复启动。\n\n- **智能家居场景讲解**：仅分析 `tylerlcrawford`，目标 1 位，候选预算 1 人。\n- **iPhone数码技巧**：仅分析 `valstechtalkk`，目标 1 位，候选预算 1 人。\n\n两个账号均完整分析，仅用 WaveSurge 本人简介和帖子文字核验内容方向，不打开浏览器、不扩大搜索；证据不足保持未知。粉丝及创作者所在地不限，**美国仅为推广目标市场，不推断观众国家**。\n\n之前的结果保留不变。整批结束后将一次交付综合报告，包含实际入选结果、失败及缺额。",
+      "epoch": 0,
+      "createdAt": 1791623588204,
+      "state": "delivered",
+      "attachments": []
+    },
+    {
+      "id": "report-request-debfbef8-8e4e-483f-9fab-d464116f7e4e-ffadf9289403436d",
+      "role": "assistant",
+      "text": "本次请求的 1 项工作已全部结束。\n\n- R2营销方案1791623527659：已完成；去重入选 2/2；智能家居场景讲解 1/1；iPhone数码技巧 1/1 [查看报告](/api/campaigns/campaign-7530c1506625e99c839317d6/report)\n\n[查看本次综合报告](/api/work-batches/debfbef8-8e4e-483f-9fab-d464116f7e4e/report) · [下载综合 CSV](/api/work-batches/debfbef8-8e4e-483f-9fab-d464116f7e4e/report?format=csv)",
+      "createdAt": 1791623704345,
+      "epoch": 0,
+      "state": "delivered",
+      "attachments": []
+    },
+    {
+      "id": "da35638a-fdf7-476d-ba8e-b8de09a16d07",
+      "role": "user",
+      "text": "另开一个名为“R2文字研究1791623945903”的任务：从WaveSurge已有YouTube名单选1人，候选最多2人，粉丝和地区不限，只根据已有简介给内容方向打标。不要打开浏览器，不用人工协助；没有文字证据的画像就标未知。请直接开始，保留原来的性能等待任务。",
+      "createdAt": 1791623945968,
+      "epoch": 0,
+      "state": "delivered",
+      "attachments": []
+    },
+    {
+      "id": "bac44078-e1b0-44d4-adbf-b721dc09b108",
+      "role": "user",
+      "text": "刚才的新文字任务继续进行，不要重启或重复创建。请按实际状态告诉我进展，原来的人工等待任务也不要取消。",
+      "createdAt": 1791623958263,
+      "epoch": 0,
+      "state": "delivered",
+      "attachments": []
+    },
+    {
+      "id": "07133af1-7886-4042-864a-2008d6a4ccf2",
+      "role": "assistant",
+      "text": "按最新查询状态：\n\n- **“R2文字研究1791623945903”仍在执行**：已读取 **2 位候选**，达到本次候选上限；本地分析尚未完成，当前已核验 **0 人**、已入选 **0/1 人**。这不是最终缺额结论。任务仍按仅使用已有简介文字、不打开浏览器、不请求人工协助的设置继续。\n- **原来的“R2性能等待（受控资料）”仍保留**：状态为等待输入，未取消。系统注明它是受控资料等待，并非真实创作者研究任务。\n\n本次只查询了状态，**没有重启、重复创建或取消任何任务**。",
+      "epoch": 0,
+      "createdAt": 1791624001296,
+      "state": "delivered",
+      "attachments": []
+    },
+    {
+      "id": "report-request-da35638a-fdf7-476d-ba8e-b8de09a16d07-bdcdd2d6da5f8874",
+      "role": "assistant",
+      "text": "本次请求的 1 项工作已全部结束。\n\n- R2文字研究1791623945903：已完成；已选合格 1/1，已核验 1；证据不足者保持待核实。youtube：读取 500 条，基础条件排除 0 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。 [查看报告](/api/reports/research-bfa933863c4b023c71b4b3f4)\n\n[查看本次综合报告](/api/work-batches/da35638a-fdf7-476d-ba8e-b8de09a16d07/report) · [下载综合 CSV](/api/work-batches/da35638a-fdf7-476d-ba8e-b8de09a16d07/report?format=csv)",
+      "createdAt": 1791624001297,
+      "epoch": 0,
+      "state": "delivered",
+      "attachments": []
+    }
+  ],
+  "results": [
+    {
+      "id": "research-bfa933863c4b023c71b4b3f4|youtube:aliabdaal",
+      "taskId": "research-bfa933863c4b023c71b4b3f4",
+      "creator": {
+        "id": "youtube:aliabdaal",
+        "platform": "youtube",
+        "handle": "aliabdaal",
+        "profileUrl": "https://www.youtube.com/@aliabdaal",
+        "displayName": "Ali Abdaal",
+        "followers": 6650000,
+        "region": null,
+        "evidence": [
+          {
+            "id": "a4f9120706da7b68d04af167",
+            "url": "https://www.youtube.com/@aliabdaal",
+            "text": "I'm Ali - doctor turned entrepreneur, YouTuber, and author of the New York Times bestseller Feel-Good Productivity. \n\nOn this channel, we explore the skills that school didn't teach you - productivity, personal development, how to become financially free, how to build your own independent business. These are the skills I learned through trial-and-error while trying to build my own business alongside medical school at Cambridge University. After years of trying, learning and making mistakes, I ended up in a life I could never have imagined. On this YouTube channel, I try my best to share everything I've learned (and that I'm continuing to learn) along the way :) \n\nThe channel's been active since 2017, when I first started vlogging my life as a medical student and sharing study tips. Since then, I graduated, became a doctor, worked full-time in the UK's NHS (including during COVID), started a business, grew it to 7-figures, wrote a book, got married and had a baby girl :)",
+            "kind": "profile",
+            "provider": "wavesurge-pool",
+            "publishedAt": null,
+            "capturedAt": 1791623957338
+          }
+        ],
+        "raw": {
+          "id": "eb67c774-e8e5-4025-8f3f-17cca8367c3e",
+          "handle": "aliabdaal",
+          "displayName": "Ali Abdaal",
+          "bio": "I'm Ali - doctor turned entrepreneur, YouTuber, and author of the New York Times bestseller Feel-Good Productivity. \n\nOn this channel, we explore the skills that school didn't teach you - productivity, personal development, how to become financially free, how to build your own independent business. These are the skills I learned through trial-and-error while trying to build my own business alongside medical school at Cambridge University. After years of trying, learning and making mistakes, I ended up in a life I could never have imagined. On this YouTube channel, I try my best to share everything I've learned (and that I'm continuing to learn) along the way :) \n\nThe channel's been active since 2017, when I first started vlogging my life as a medical student and sharing study tips. Since then, I graduated, became a doctor, worked full-time in the UK's NHS (including during COVID), started a business, grew it to 7-figures, wrote a book, got married and had a baby girl :)",
+          "details": [],
+          "platform": "youtube",
+          "region": null,
+          "audience": null,
+          "followerCount": 6650000,
+          "engagementRate": null,
+          "engagementKnown": false,
+          "kolType": null,
+          "avatarUrl": null,
+          "publishedLink": null,
+          "tier": "macro",
+          "fit": 50,
+          "fromCompetitor": false,
+          "source": "runner:niche",
+          "sourceType": "runner",
+          "sourceSubType": "niche",
+          "origin": "system",
+          "foundAt": "2026-06-18T14:26:50.209Z",
+          "batchLabel": null,
+          "emailStatus": "finding_email",
+          "emailReadyAt": null,
+          "email": null,
+          "emailUsable": false,
+          "emailQualified": false,
+          "emailAutoSendable": false,
+          "emailConfidence": "low",
+          "emailOwnerType": "unknown",
+          "emailReasons": [
+            "missing_or_unusable_email"
+          ],
+          "contactChannels": [
+            {
+              "channel": "instagram",
+              "value": "aliabdaal",
+              "isPrimary": true
+            },
+            {
+              "channel": "website",
+              "value": "https://clickhubspot.com/tt6o",
+              "isPrimary": true
+            },
+            {
+              "channel": "linkedin",
+              "value": "ali-abdaal",
+              "isPrimary": true
+            },
+            {
+              "channel": "tiktok",
+              "value": "aliabdaal",
+              "isPrimary": true
+            },
+            {
+              "channel": "twitter",
+              "value": "aliabdaal",
+              "isPrimary": true
+            },
+            {
+              "channel": "youtube",
+              "value": "aliabdaal",
+              "isPrimary": true
+            },
+            {
+              "channel": "website",
+              "value": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/HubSpot_Logos/HubSpot-Inversed-Favicon.png",
+              "isPrimary": false
+            },
+            {
+              "channel": "website",
+              "value": "https://firebasestorage.googleapis.com/v0/b/techbible.appspot.com/o/profile-pictures/images%20(3).jpegghQrYiOBdNPCk3YGetL9Gg5TrNs1?alt=media&token=1d4050ce-f736-4827-b12f-2f5647a72c5f",
+              "isPrimary": false
+            },
+            {
+              "channel": "website",
+              "value": "https://firebasestorage.googleapis.com/v0/b/techbible.appspot.com/o/profile-pictures/images%20(3",
+              "isPrimary": false
+            }
+          ],
+          "contactChannelCount": 9,
+          "contactable": false,
+          "lastSeenAt": "2026-06-18T14:26:50.209Z",
+          "searchKind": "trial",
+          "accountIdentity": null,
+          "recommendationKind": null,
+          "audienceStatus": "unavailable",
+          "qualification": null,
+          "searchMatchTier": null
+        }
+      },
+      "judgments": [
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：youtube",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 6650000，要求 0–9007199254740991",
+          "evidenceIds": [
+            "a4f9120706da7b68d04af167"
+          ],
+          "label": "粉丝范围"
+        }
+      ],
+      "verdict": "match",
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "生产力与效率提升",
+            "个人成长",
+            "财务自由",
+            "独立创业与商业建设"
+          ],
+          "reason": "仅依据已有 YouTube 主页简介：明确表示频道探讨“productivity, personal development, how to become financially free, how to build your own independent business”。来源为 wavesurge-pool 提供的主页文字，本轮未重新打开页面；不据此推断近期帖子内容。",
+          "evidenceIds": [
+            "a4f9120706da7b68d04af167"
+          ]
+        }
+      ],
+      "tags": [
+        "生产力与效率提升",
+        "个人成长",
+        "财务自由",
+        "独立创业与商业建设"
+      ],
+      "revision": 1,
+      "updatedAt": 1791623975444,
+      "selected": true
+    }
+  ],
+  "reportBytes": 3368,
+  "csvBytes": 2418,
+  "p95StateMs": 15.22105499999816,
+  "passed": true
+}

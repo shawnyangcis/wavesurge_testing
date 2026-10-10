@@ -1,0 +1,70 @@
+{
+  "at": "2026-10-10T15:11:00.563827+00:00",
+  "proxy": {
+    "port": 8898,
+    "endpointRestored": true,
+    "restoredBaseUrl": "http://127.0.0.1:8317",
+    "verifiedOwnProcessIdsStopped": [
+      19602
+    ]
+  },
+  "controlled": {
+    "project": "creator-studio-retest-r4-edge",
+    "containersBefore": [
+      "creator-studio-retest-r4-edge-app-1",
+      "creator-studio-retest-r4-edge-desktop-1",
+      "creator-studio-retest-r4-edge-secret-init-1",
+      "creator-studio-retest-r4-edge-wave-fixture-1"
+    ],
+    "containersAfter": [],
+    "containersAndNetworkRemoved": true,
+    "volumesPreserved": [
+      "creator-studio-retest-r4-edge_desktop-secrets",
+      "creator-studio-retest-r4-edge_desktop-state",
+      "creator-studio-retest-r4-edge_studio-data"
+    ]
+  },
+  "real": {
+    "project": "creator-studio-retest-r4-live",
+    "url": "http://127.0.0.1:3592",
+    "keptForReview": true,
+    "health": {
+      "ok": true
+    }
+  },
+  "main": {
+    "url": "http://127.0.0.1:3000",
+    "notModifiedOrRestartedByThisCleanup": true,
+    "health": {
+      "ok": true
+    }
+  },
+  "otherOwnedAcceptanceVolumesRetained": {
+    "creator-studio-retest-r4-edge": [
+      "creator-studio-retest-r4-edge_desktop-secrets",
+      "creator-studio-retest-r4-edge_desktop-state",
+      "creator-studio-retest-r4-edge_studio-data"
+    ],
+    "creator-studio-retest-r4-live": [
+      "creator-studio-retest-r4-live_desktop-secrets",
+      "creator-studio-retest-r4-live_desktop-state",
+      "creator-studio-retest-r4-live_studio-data"
+    ],
+    "creator-studio-retest-r4-20261010": [
+      "creator-studio-retest-r4-20261010_desktop-secrets",
+      "creator-studio-retest-r4-20261010_desktop-state",
+      "creator-studio-retest-r4-20261010_studio-data"
+    ],
+    "creator-studio-retest-r4-20261010-second": [
+      "creator-studio-retest-r4-20261010-second_desktop-secrets",
+      "creator-studio-retest-r4-20261010-second_desktop-state",
+      "creator-studio-retest-r4-20261010-second_studio-data"
+    ],
+    "creator-studio-retest-r4-20261010-second-persistence": [
+      "creator-studio-retest-r4-20261010-second-persistence_desktop-secrets",
+      "creator-studio-retest-r4-20261010-second-persistence_desktop-state",
+      "creator-studio-retest-r4-20261010-second-persistence_studio-data"
+    ]
+  },
+  "otherSessionsUntouched": true
+}

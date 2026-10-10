@@ -1,0 +1,107 @@
+{
+  "date": "2026-10-10",
+  "round": "R3",
+  "status": "DONE_WITH_CONCERNS",
+  "acceptance": "not_accepted",
+  "businessCodeChanged": false,
+  "issues": [
+    {
+      "id": "F20",
+      "severity": "P1",
+      "title": "延后的工作未纳入整批交付屏障",
+      "regressionStatus": "partial",
+      "evidence": "/Users/shawn/coding/projects/wavesurge/wavesurge_testing/.gstack/qa-reports/retest-2026-10-10-r3/handoff-failure.json"
+    },
+    {
+      "id": "F02",
+      "severity": "P1",
+      "title": "人工接管期间 Agent 错误拒绝同时登记文字与网页工作",
+      "regressionStatus": "partial",
+      "evidence": "/Users/shawn/coding/projects/wavesurge/wavesurge_testing/.gstack/qa-reports/retest-2026-10-10-r3/handoff-queued-failure.json"
+    },
+    {
+      "id": "F23",
+      "severity": "P2",
+      "title": "任务登记期间切换上下文导致最终报告漏交付",
+      "regressionStatus": "new",
+      "evidence": "/Users/shawn/coding/projects/wavesurge/wavesurge_testing/.gstack/qa-reports/retest-2026-10-10-r3/extended-ui.json"
+    },
+    {
+      "id": "F24",
+      "severity": "P2",
+      "title": "粉丝缩写精度被误判为范围冲突",
+      "regressionStatus": "new",
+      "evidence": "/Users/shawn/coding/projects/wavesurge/wavesurge_testing/.gstack/qa-reports/retest-2026-10-10-r3/follower-replay.json"
+    },
+    {
+      "id": "F25",
+      "severity": "P2",
+      "title": "Instagram 已知超出基础范围的候选消耗定性分析预算",
+      "regressionStatus": "new",
+      "evidence": "/Users/shawn/coding/projects/wavesurge/wavesurge_testing/.gstack/qa-reports/retest-2026-10-10-r3/instagram-base-budget.json"
+    }
+  ],
+  "previous10Regression": {
+    "passed": [
+      "F16",
+      "F17",
+      "F18",
+      "F19",
+      "F03",
+      "F21",
+      "F14",
+      "F22"
+    ],
+    "partial": [
+      "F20",
+      "F02"
+    ],
+    "scopeNote": "通过指上一轮原缺陷在本轮证据范围内通过；F17原非Instagram分支已修，新Instagram预算问题另记F25；F13因新F24仅部分通过。"
+  },
+  "previous15Regression": {
+    "passed": [
+      "F01",
+      "F03",
+      "F04",
+      "F05",
+      "F06",
+      "F07",
+      "F08",
+      "F09",
+      "F10",
+      "F11",
+      "F12",
+      "F14",
+      "F15"
+    ],
+    "partial": [
+      "F02",
+      "F13"
+    ]
+  },
+  "checks": {
+    "sourceFiles": 57,
+    "unitTests": 181,
+    "unitFiles": 27,
+    "coverage": "100% statements/branches/functions/lines",
+    "typecheck": "pass",
+    "build": "pass",
+    "controlledActualBrowserE2E": 4,
+    "independentFoundationUiChecks": 16,
+    "freshRealResearchTasks": 7,
+    "freshRealResultRecords": 30,
+    "distinctRealPlatformIdentities": 26,
+    "historicalRealCreatorsRetagged": 6,
+    "realOriginal20Evaluated": 20,
+    "realOriginal20Qualified": 0,
+    "realCampaignSelectedUnique": 2,
+    "actualCancellation": "pass",
+    "actualPopulatedCompression": "pass",
+    "realSocialLoginAndCaptcha": "not_verified"
+  },
+  "healthScore": null,
+  "healthScoreReason": "按需求与实测缺陷验收，没有足以支持全应用完成百分比或分类准确率的基准。",
+  "report": "/Users/shawn/coding/projects/wavesurge/wavesurge_testing/.gstack/qa-reports/retest-2026-10-10-r3/report.md",
+  "manualRemaining": "/Users/shawn/coding/projects/wavesurge/wavesurge_testing/.gstack/qa-reports/retest-2026-10-10-r3/remaining-validation.md",
+  "finalStatus": "/Users/shawn/coding/projects/wavesurge/wavesurge_testing/.gstack/qa-reports/retest-2026-10-10-r3/final-status.json"
+}

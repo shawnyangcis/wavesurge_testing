@@ -1,0 +1,18 @@
+{
+  "name": "exact-layout",
+  "path": "/api/work-batches/60770594-be94-4f4a-a79d-0de38d3fd1b6/report",
+  "startedAt": "2026-10-10T13:46:54.641Z",
+  "source": "Actual browser opening current real results from chat report link",
+  "widths": [
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "articles": 2,
+      "tableCount": 2,
+      "judgmentCells": []
+    }
+  ],
+  "pageErrors": [],
+  "error": "Error: expect(received).toBeGreaterThan(expected)\n\nExpected: > 0\nReceived:   0"
+}

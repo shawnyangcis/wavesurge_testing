@@ -1,0 +1,53 @@
+{
+  "parsedWith": "Python csv DictReader, not line counts",
+  "rows": [
+    {
+      "handle": "tylerlcrawford",
+      "sameTags": true,
+      "sameVerdict": true,
+      "sameSelection": true,
+      "annotationFields": 3,
+      "evidenceFields": 4
+    },
+    {
+      "handle": "valstechtalkk",
+      "sameTags": true,
+      "sameVerdict": true,
+      "sameSelection": true,
+      "annotationFields": 3,
+      "evidenceFields": 5
+    },
+    {
+      "handle": "schoolhabits",
+      "sameTags": true,
+      "sameVerdict": true,
+      "sameSelection": true,
+      "annotationFields": 3,
+      "evidenceFields": 8
+    },
+    {
+      "handle": "raytubelcsw",
+      "sameTags": true,
+      "sameVerdict": true,
+      "sameSelection": true,
+      "annotationFields": 3,
+      "evidenceFields": 5
+    },
+    {
+      "handle": "colelangs",
+      "sameTags": true,
+      "sameVerdict": true,
+      "sameSelection": true,
+      "annotationFields": 3,
+      "evidenceFields": 9
+    },
+    {
+      "handle": "wesleyanna",
+      "sameTags": true,
+      "sameVerdict": true,
+      "sameSelection": true,
+      "annotationFields": 3,
+      "evidenceFields": 9
+    }
+  ]
+}

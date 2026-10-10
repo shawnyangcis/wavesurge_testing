@@ -1,0 +1,70 @@
+import { afterEach, expect, it, vi } from 'vitest';
+import { Store } from '../src/server/store.ts';
+import { SettingsManager } from '../src/server/settings.ts';
+import { browserVerifier, judgmentTool } from '../src/server/browser-verifier.ts';
+import { HumanRequired } from '../src/server/desktop.ts';
+import type { DesktopBroker, Assistance } from '../src/server/desktop.ts';
+import type { ChatMessage } from '../src/server/model.ts';
+import type { Creator, SearchSpec } from '../src/shared/research.ts';
+import { validatePairs } from '../src/server/context.ts';
+import { resolveJudgments } from '../src/server/verdict.ts';
+const stores: Store[] = []; afterEach(() => stores.splice(0).forEach(store => store.close()));
+const spec: SearchSpec = { title: '科技', personaText: '科技视频', count: 1, candidateBudget: 2, platforms: ['instagram'], regions: [], minFollowers: 0, maxFollowers: 100000, criteria: [{ id: 'technology', label: '科技视频', basis: 'visual', required: true }] };
+const creator: Creator = { id: 'instagram:person', handle: 'person', displayName: 'Person', platform: 'instagram', followers: 10000, region: null, profileUrl: 'https://social.test/person', raw: {}, evidence: [] };
+const judgments = [{ criterionId: 'technology', verdict: 'match', reason: '实际截图显示科技内容', evidenceIds: ['e'] }];
+function calls(items: [string, string][]): ChatMessage { return { role: 'assistant', content: null, tool_calls: items.map(([name, args], index) => ({ id: `${name}-${index}`, type: 'function', function: { name, arguments: args } })) }; }
+function fixture() {
+  const store = new Store(':memory:'); stores.push(store); const settings = new SettingsManager(store, {});
+  const desktop = { command: vi.fn(async (_command: unknown) => ({ observationId: 'obs', assetId: 'asset', url: 'https://social.test/person/post', text: 'Tech video', title: 'Post', links: [], scope: 'page-viewport', observedAt: 10 })), image: vi.fn(() => 'data:image/png;base64,AAAA'), assistance: vi.fn() };
+  const complete = vi.fn().mockResolvedValue(calls([['submit_judgments', JSON.stringify({ judgments })]])); const verify = browserVerifier({ complete }, settings, desktop as unknown as DesktopBroker, store); return { store, desktop, complete, verify, person: structuredClone(creator) };
+}
+it('真实观察截图进入模型，资产引用保存，配对工具消息和最终提交可恢复', async () => {
+  const f = fixture(); f.complete.mockResolvedValueOnce({ role: 'assistant', content: 'I will inspect.' }).mockResolvedValueOnce(calls([['browser', '{"action":"navigate","url":"https://social.test/person"}']]));
+  expect(await f.verify(spec, f.person, 't')).toEqual(judgments); expect(f.person.evidence[0].assetId).toBe('asset'); expect(f.complete.mock.calls[2][0].some((m: ChatMessage) => Array.isArray(m.content))).toBe(true); validatePairs(f.store.get<{ messages: ChatMessage[] }>('verification', 't|instagram:person')!.messages);
+  expect(await f.verify(spec, f.person, 't')).toEqual(judgments); const coldCreator = structuredClone(creator); expect(await f.verify(spec, coldCreator, 't')).toEqual(judgments); expect(coldCreator.evidence[0].assetId).toBe('asset'); expect(f.complete).toHaveBeenCalledTimes(3); expect(judgmentTool(spec).function.name).toBe('submit_judgments');
+});
+it('工具失败反馈模型，未知工具/非法 JSON/无判断数组/无协助原因均不产生伪造结果', async () => {
+  const f = fixture(); f.desktop.command.mockRejectedValueOnce(new Error('initial unavailable')).mockRejectedValueOnce(new Error('site unavailable'));
+  f.complete.mockResolvedValueOnce(calls([['browser', '{"action":"observe"}'], ['missing', '{}'], ['browser', 'bad-json'], ['submit_judgments', '{"judgments":null}'], ['request_human_assistance', '{}'], ['request_human_assistance', '{"reason":""}']]));
+  await f.verify(spec, f.person, 't'); const messages = f.store.get<{ messages: ChatMessage[] }>('verification', 't|instagram:person')!.messages; expect(messages.filter(m => m.role === 'tool').slice(0, 6).every(m => String(m.content).includes('error'))).toBe(true); expect(f.desktop.assistance).not.toHaveBeenCalled(); validatePairs(messages);
+});
+it('协助暂停精确原候选，后续旧动作未开始；交还和崩溃恢复都先重新观察', async () => {
+  const f = fixture(); const request: Assistance = { id: 'r', taskId: 't', creatorId: creator.id, reason: 'login', status: 'pending', createdAt: 1, leaseUntil: 0 }; f.desktop.assistance.mockRejectedValueOnce(new HumanRequired(request));
+  f.complete.mockResolvedValueOnce(calls([['request_human_assistance', '{"reason":"login"}'], ['browser', '{"action":"click","selector":"a","observationId":"old"}']]));
+  await expect(f.verify(spec, f.person, 't')).rejects.toBeInstanceOf(HumanRequired); expect(f.desktop.command).toHaveBeenCalledOnce(); expect(f.desktop.command).toHaveBeenCalledWith({ action: 'navigate', url: creator.profileUrl }); expect(f.store.get('verification', 't|instagram:person')).toHaveProperty('fresh', true);
+  f.store.set('assistance', 'done', { ...request, status: 'done', outcome: '无法验证，跳过候选' }); f.store.set('assistance', 'other', { ...request, taskId: 'other', status: 'done' }); f.store.set('assistance', 'other-person', { ...request, creatorId: 'other', status: 'done' }); f.store.set('assistance', 'pending', request);
+  await f.verify(spec, f.person, 't'); expect(JSON.stringify(f.complete.mock.calls.at(-1)![0])).toContain('无法验证，跳过候选'); expect(f.desktop.command).toHaveBeenCalledWith({ action: 'observe' }); validatePairs(f.store.get<{ messages: ChatMessage[] }>('verification', 't|instagram:person')!.messages);
+  const crash = fixture(); crash.store.set('verification', 't|instagram:person', { messages: [], fresh: false, pending: calls([['browser', '{"action":"click","selector":"a"}']]) }); await crash.verify(spec, crash.person, 't'); expect(crash.desktop.command).toHaveBeenCalledOnce(); expect(crash.desktop.command).toHaveBeenCalledWith({ action: 'observe' });
+  const repeated = fixture(); repeated.complete.mockResolvedValueOnce(calls([['browser', '{"action":"observe"}'], ['browser', '{"action":"observe"}']])); await repeated.verify(spec, repeated.person, 't'); expect(repeated.person.evidence).toHaveLength(1);
+});
+it('核验预算用尽返回真实失败，文字输出不能冒充逐条件结果', async () => {
+  const f = fixture(); f.complete.mockResolvedValue({ role: 'assistant', content: 'still thinking' }); await expect(f.verify(spec, f.person, 't')).rejects.toThrow('预算'); expect(f.complete).toHaveBeenCalledTimes(10);
+});
+
+it('首次核验锁定当前候选主页，缺失 URL 不读取上一个候选，晚到取消不执行动作', async () => {
+  const first = fixture(); first.store.set('task', 't', { status: 'running' }); await first.verify(spec, first.person, 't'); expect(first.desktop.command.mock.calls[0][0]).toEqual({ action: 'navigate', url: creator.profileUrl }); expect(JSON.stringify(first.complete.mock.calls[0][0])).toContain('browser_snapshot');
+  const missing = fixture(); missing.person.profileUrl = ''; await missing.verify(spec, missing.person, 't'); expect(missing.desktop.command).not.toHaveBeenCalled();
+  const cancelled = fixture(); cancelled.complete.mockImplementationOnce(async () => { cancelled.store.set('task', 't', { status: 'cancelled' }); return calls([['request_human_assistance', '{"reason":"login"}']]); }); await expect(cancelled.verify(spec, cancelled.person, 't')).rejects.toThrow('已取消'); expect(cancelled.desktop.assistance).not.toHaveBeenCalled(); expect(cancelled.desktop.command).toHaveBeenCalledOnce();
+});
+it('画像和基础事实提交能恢复；新协议在无布尔条件时仍有合法提交工具',async()=>{const f=fixture();const scope=vi.fn().mockResolvedValue({scoped:true});(f.desktop as any).scope=scope;const submission={judgments:[],annotations:[{dimensionId:'direction',status:'supported',values:['数码'],reason:'actual',evidenceIds:['e']}],facts:[{kind:'followers',rawValue:'20K followers',evidenceIds:['e']}]};f.complete.mockResolvedValueOnce(calls([['submit_judgments',JSON.stringify(submission)]]));const annotated={...spec,criteria:[],annotations:[{id:'direction',label:'方向'}]};expect(await f.verify(annotated,f.person,'t')).toEqual(submission);expect(scope).toHaveBeenCalledWith([f.person.profileUrl]);expect(await f.verify(annotated,f.person,'t')).toEqual(submission);expect(judgmentTool(annotated).function.parameters).toBeTruthy();});
+it('明确打开本人页的 browser 模式强制导航 Instagram 主页，恢复保留本轮证据起点',async()=>{
+ const f=fixture();const required={...spec,criteria:[],verificationMode:'browser' as const};f.person.profileUrl='https://www.instagram.com/person/';f.person.raw.instagram={};f.complete.mockResolvedValue(calls([['submit_judgments','{"judgments":[]}']]));f.desktop.command.mockImplementation(async()=>({observationId:'obs',assetId:'asset',url:f.person.profileUrl,text:'Public personal profile',title:'Profile',links:[],scope:'page-viewport',observedAt:Date.now()+1}));
+ await f.verify(required,f.person,'t');expect(f.desktop.command).toHaveBeenCalledWith({action:'navigate',url:f.person.profileUrl});expect(resolveJudgments(required,f.person,[]).judgments.find(j=>j.criterionId==='__profile_visit')?.verdict).toBe('match');const start=f.person.browserVerification!.startedAt;
+ const cold=structuredClone(creator);cold.profileUrl=f.person.profileUrl;cold.raw.instagram={};await f.verify(required,cold,'t');expect(cold.browserVerification!.startedAt).toBe(start);expect(resolveJudgments(required,cold,[]).verdict).toBe('match');expect(f.desktop.command).toHaveBeenCalledOnce();
+});
+it('明确网页访问失败或缺 URL 不以文字或旧观察冒充访问成功；auto 仍可只用文字',async()=>{
+ const required={...spec,criteria:[],verificationMode:'browser' as const};
+ for(const missing of [false,true]){const f=fixture();f.person.raw.instagram={};f.person.evidence=[{id:'old',kind:'browser_snapshot',provider:'headed-chromium',url:f.person.profileUrl,text:'Old profile',assetId:'old',capturedAt:1,publishedAt:null}];if(missing)f.person.profileUrl='';f.desktop.command.mockRejectedValue(new Error('access unavailable'));f.complete.mockResolvedValue(calls([['submit_judgments','{"judgments":[]}']]));await f.verify(required,f.person,'t');expect(resolveJudgments(required,f.person,[]).verdict).toBe('unknown');expect(f.person.browserVerification!.profileEvidenceIds).toEqual([]);if(missing)expect(f.desktop.command).not.toHaveBeenCalled();}
+ const auto=fixture();auto.person.raw.instagram={};auto.complete.mockResolvedValue(calls([['submit_judgments','{"judgments":[]}']]));await auto.verify({...required,verificationMode:'auto'},auto.person,'t');expect(auto.desktop.command).not.toHaveBeenCalled();expect(auto.person.browserVerification).toBeUndefined();
+});
+it('重新访问相同画面也保存新的观察时间，不借旧截图冒充新页面或错误降级',async()=>{
+ const f=fixture();const scope={...spec,criteria:[],verificationMode:'browser' as const};f.person.profileUrl='https://www.instagram.com/person/';f.person.raw.instagram={};let time=Date.now()+100;f.complete.mockResolvedValue(calls([['submit_judgments','{"judgments":[]}']]));f.desktop.command.mockImplementation(async()=>({observationId:'obs',assetId:'same-pixels',url:f.person.profileUrl,text:'Unchanged public profile',title:'Profile',links:[],scope:'page-viewport',observedAt:time++}));
+ await f.verify(scope,f.person,'original');const before=structuredClone(f.person.evidence);await f.verify(scope,f.person,'reverify');expect(f.person.evidence).toHaveLength(2);expect(f.person.evidence[0]).toEqual(before[0]);expect(f.person.evidence[1].assetId).toBe(before[0].assetId);expect(f.person.evidence[1].id).not.toBe(before[0].id);expect(f.person.evidence[1].capturedAt).toBeGreaterThan(before[0].capturedAt);expect(resolveJudgments(scope,f.person,[]).verdict).toBe('match');
+});
+it('登录重定向提供阻塞上下文以请求协助，跳过后仍未知且不把登录页保存为本人证据',async()=>{
+ const f=fixture(),required={...spec,criteria:[],verificationMode:'browser' as const};f.person.profileUrl='https://www.instagram.com/person/';f.person.raw.instagram={};const request:Assistance={id:'login',taskId:'t',creatorId:f.person.id,status:'pending',reason:'Need login',createdAt:1,leaseUntil:0};
+ f.desktop.command.mockResolvedValue({observationId:'login-obs',assetId:'login-asset',url:'https://www.instagram.com/accounts/login/',text:'Log in to continue, password and username',title:'Instagram Login',links:[],scope:'page-viewport',observedAt:Date.now()});f.desktop.assistance.mockRejectedValueOnce(new HumanRequired(request));f.complete.mockResolvedValueOnce(calls([['request_human_assistance','{"reason":"Instagram requires login"}']]));
+ await expect(f.verify(required,f.person,'t')).rejects.toBeInstanceOf(HumanRequired);expect(JSON.stringify(f.complete.mock.calls[0][0])).toContain('blockedObservation');expect(JSON.stringify(f.complete.mock.calls[0][0])).toContain('/accounts/login/');expect(f.person.evidence).toEqual([]);
+ f.store.set('assistance','done',{...request,status:'done',outcome:'没有凭据，未完成登录，明确跳过'});f.complete.mockResolvedValueOnce(calls([['browser','{"action":"navigate","url":"https://www.instagram.com/person/"}']]));f.complete.mockResolvedValueOnce(calls([['submit_judgments','{"judgments":[]}']]));await f.verify(required,f.person,'t');expect(f.person.evidence).toEqual([]);expect(resolveJudgments(required,f.person,[]).verdict).toBe('unknown');expect(f.desktop.assistance).toHaveBeenCalledOnce();expect(JSON.stringify(f.complete.mock.calls.at(-1)![0])).toContain('没有凭据');
+ const unavailable=fixture();unavailable.store.set('verification','t|instagram:person',{messages:[],pending:null,fresh:true});unavailable.desktop.command.mockRejectedValueOnce(new Error('desktop unavailable on release'));unavailable.complete.mockResolvedValueOnce(calls([['submit_judgments','{"judgments":[]}']]));await unavailable.verify(required,unavailable.person,'t');expect(JSON.stringify(unavailable.complete.mock.calls[0][0])).toContain('desktop unavailable on release');
+});

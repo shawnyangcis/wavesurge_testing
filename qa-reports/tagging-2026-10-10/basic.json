@@ -1,0 +1,172 @@
+{
+  "caseName": "basic",
+  "base": "http://127.0.0.1:3400",
+  "startedAt": "2026-10-10T02:37:39.142Z",
+  "source": "Actual application UI; configured real model and WaveSurge API; no seeded candidates or modified prompts",
+  "input": "帮我找2个美国的 TikTok 男创作者，戴眼镜，粉丝1万到10万，性别按账号自己说的来。找到以后，每个人都标一下内容方向和风格，比如数码、生活、geek风这种，再给一句依据。数量少也没事，看不清的写待确认，别凑数。",
+  "before": {
+    "tasks": [],
+    "results": []
+  },
+  "finishedAt": "2026-10-10T02:38:09.858Z",
+  "active": false,
+  "messages": [
+    {
+      "id": "d5111ebc-fe42-48d9-9ea4-602b8029d29a",
+      "role": "user",
+      "text": "帮我找2个美国的 TikTok 男创作者，戴眼镜，粉丝1万到10万，性别按账号自己说的来。找到以后，每个人都标一下内容方向和风格，比如数码、生活、geek风这种，再给一句依据。数量少也没事，看不清的写待确认，别凑数。",
+      "state": "delivered",
+      "createdAt": 1791599859618,
+      "attachmentCount": 0
+    },
+    {
+      "id": "43c93427-e3b4-4eda-98b5-835638e2ef4b",
+      "role": "assistant",
+      "text": "已提交搜索，目标是 **2 位美国 TikTok 创作者，粉丝 1万–10万**，并逐人核实：\n\n- **男性身份**：只采用账号本人明确自述，不凭外貌或姓名判断。\n- **戴眼镜**：检查内容画面，不仅看头像；看不清就标“待确认”。\n- **内容方向与风格**：分别标注，并附依据。\n\n只把必选条件全部核实通过的人列为合格；不足 2 位会说明缺口，不凑数。搜索免费，不会联系创作者。",
+      "state": "delivered",
+      "createdAt": 1791599888854,
+      "attachmentCount": 0
+    }
+  ],
+  "tasks": [
+    {
+      "id": "research-ea8649d3fc1258c3d1017445",
+      "title": "美国 TikTok 戴眼镜男性创作者筛选",
+      "status": "running",
+      "requested": 2,
+      "evaluated": 0,
+      "matched": 0,
+      "updatedAt": 1791599871526,
+      "detail": "搜索已提交，等待 WaveSurge 返回候选",
+      "remoteId": "bf3be041-bdd9-4319-9b07-1ed40b8d7d6e",
+      "nextPollAt": 1791599931526
+    }
+  ],
+  "results": [],
+  "modelCalls": [
+    {
+      "id": "4a79a06f-10c2-408f-bb75-27481d3e7d1b",
+      "kind": "chat",
+      "createdAt": 1791599859627,
+      "finishedAt": 1791599871276,
+      "model": "gpt-6.1-sol",
+      "toolNames": [
+        "get_tasks",
+        "search_history",
+        "start_research",
+        "cancel_research",
+        "get_results",
+        "save_campaign_plan",
+        "get_campaigns",
+        "start_campaign"
+      ],
+      "response": {
+        "role": "assistant",
+        "content": null,
+        "reasoning_content": null,
+        "tool_calls": [
+          {
+            "id": "call_9GtLXvJuvHbpUjSc5yia7Q7I",
+            "type": "function",
+            "function": {
+              "name": "start_research",
+              "arguments": "{\"title\":\"美国 TikTok 戴眼镜男性创作者筛选\",\"personaText\":\"United States-based TikTok creators who self-identify as male and wear eyeglasses, across technology, lifestyle, geek culture, and other content niches.\",\"count\":2,\"platforms\":[\"tiktok\"],\"regions\":[\"United States\"],\"minFollowers\":10000,\"maxFollowers\":100000,\"candidateBudget\":20,\"criteria\":[{\"id\":\"self_identified_male\",\"label\":\"账号本人明确自述为男性；不能依据外貌或姓名推断，未明确自述则待确认\",\"required\":true,\"basis\":\"text\"},{\"id\":\"wears_glasses\",\"label\":\"可见内容中创作者本人戴眼镜；画面不清或只有头像则待确认\",\"required\":true,\"basis\":\"visual\"},{\"id\":\"content_direction\",\"label\":\"根据可核实的内容标注内容方向，例如数码、生活或其他方向，并给出一句依据；证据不足则待确认\",\"required\":false,\"basis\":\"either\"},{\"id\":\"content_style\",\"label\":\"根据可核实的内容标注呈现风格，例如 geek 风或其他风格，并给出一句依据；看不清或证据不足则待确认\",\"required\":false,\"basis\":\"either\"}]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "7ea80602-0b3f-4c39-8a5e-6036f841b083",
+      "kind": "chat",
+      "createdAt": 1791599871309,
+      "finishedAt": 1791599882167,
+      "model": "gpt-6.1-sol",
+      "toolNames": [
+        "get_tasks",
+        "search_history",
+        "start_research",
+        "cancel_research",
+        "get_results",
+        "save_campaign_plan",
+        "get_campaigns",
+        "start_campaign"
+      ],
+      "response": {
+        "role": "assistant",
+        "content": "已提交搜索，目标是 **2 位美国 TikTok 创作者，粉丝 1万–10万**，并逐人核验：\n\n- **男性身份**：只接受账号本人明确自述，不从外貌或姓名推断。\n- **戴眼镜**：以内容中的清晰画面为依据，不能只看头像。\n- **内容方向与风格**：分别标注，并附一句可核实的依据。\n\n证据不足会标为“待确认”，不计入已确认合格人数；如果最终不足 2 位，会如实给出，不凑数。",
+        "reasoning_content": null,
+        "tool_calls": null
+      }
+    },
+    {
+      "id": "d8dc5148-f17f-4f1a-bca0-19bb01daa47c",
+      "kind": "chat",
+      "createdAt": 1791599882172,
+      "finishedAt": 1791599888851,
+      "model": "gpt-6.1-sol",
+      "toolNames": [
+        "get_tasks",
+        "search_history",
+        "start_research",
+        "cancel_research",
+        "get_results",
+        "save_campaign_plan",
+        "get_campaigns",
+        "start_campaign"
+      ],
+      "response": {
+        "role": "assistant",
+        "content": "已提交搜索，目标是 **2 位美国 TikTok 创作者，粉丝 1万–10万**，并逐人核实：\n\n- **男性身份**：只采用账号本人明确自述，不凭外貌或姓名判断。\n- **戴眼镜**：检查内容画面，不仅看头像；看不清就标“待确认”。\n- **内容方向与风格**：分别标注，并附依据。\n\n只把必选条件全部核实通过的人列为合格；不足 2 位会说明缺口，不凑数。搜索免费，不会联系创作者。",
+        "reasoning_content": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "toolReceipts": [
+    {
+      "call": {
+        "id": "call_9GtLXvJuvHbpUjSc5yia7Q7I",
+        "type": "function",
+        "function": {
+          "name": "start_research",
+          "arguments": "{\"title\":\"美国 TikTok 戴眼镜男性创作者筛选\",\"personaText\":\"United States-based TikTok creators who self-identify as male and wear eyeglasses, across technology, lifestyle, geek culture, and other content niches.\",\"count\":2,\"platforms\":[\"tiktok\"],\"regions\":[\"United States\"],\"minFollowers\":10000,\"maxFollowers\":100000,\"candidateBudget\":20,\"criteria\":[{\"id\":\"self_identified_male\",\"label\":\"账号本人明确自述为男性；不能依据外貌或姓名推断，未明确自述则待确认\",\"required\":true,\"basis\":\"text\"},{\"id\":\"wears_glasses\",\"label\":\"可见内容中创作者本人戴眼镜；画面不清或只有头像则待确认\",\"required\":true,\"basis\":\"visual\"},{\"id\":\"content_direction\",\"label\":\"根据可核实的内容标注内容方向，例如数码、生活或其他方向，并给出一句依据；证据不足则待确认\",\"required\":false,\"basis\":\"either\"},{\"id\":\"content_style\",\"label\":\"根据可核实的内容标注呈现风格，例如 geek 风或其他风格，并给出一句依据；看不清或证据不足则待确认\",\"required\":false,\"basis\":\"either\"}]}"
+        }
+      },
+      "message": {
+        "role": "tool",
+        "tool_call_id": "call_9GtLXvJuvHbpUjSc5yia7Q7I",
+        "content": "{\"id\":\"research-ea8649d3fc1258c3d1017445\",\"title\":\"美国 TikTok 戴眼镜男性创作者筛选\",\"spec\":{\"title\":\"美国 TikTok 戴眼镜男性创作者筛选\",\"personaText\":\"United States-based TikTok creators who self-identify as male and wear eyeglasses, across technology, lifestyle, geek culture, and other content niches.\",\"count\":2,\"platforms\":[\"tiktok\"],\"regions\":[\"United States\"],\"minFollowers\":10000,\"maxFollowers\":100000,\"candidateBudget\":20,\"criteria\":[{\"id\":\"self_identified_male\",\"label\":\"账号本人明确自述为男性；不能依据外貌或姓名推断，未明确自述则待确认\",\"required\":true,\"basis\":\"text\"},{\"id\":\"wears_glasses\",\"label\":\"可见内容中创作者本人戴眼镜；画面不清或只有头像则待确认\",\"required\":true,\"basis\":\"visual\"},{\"id\":\"content_direction\",\"label\":\"根据可核实的内容标注内容方向，例如数码、生活或其他方向，并给出一句依据；证据不足则待确认\",\"required\":false,\"basis\":\"either\"},{\"id\":\"content_style\",\"label\":\"根据可核实的内容标注呈现风格，例如 geek 风或其他风格，并给出一句依据；看不清或证据不足则待确认\",\"required\":false,\"basis\":\"either\"}]},\"body\":{\"requestId\":\"research-ea8649d3fc1258c3d1017445\",\"personaText\":\"United States-based TikTok creators who self-identify as male and wear eyeglasses, across technology, lifestyle, geek culture, and other content niches.\",\"count\":20,\"platforms\":[\"tiktok\"],\"regions\":[\"United States\"],\"minFollowers\":10000,\"maxFollowers\":100000,\"emailReadyRequired\":false},\"status\":\"queued\",\"requested\":2,\"evaluated\":0,\"matched\":0,\"updatedAt\":1791599871286,\"detail\":\"等待向 WaveSurge 提交免费搜索\",\"nextPollAt\":0,\"candidates\":[],\"failures\":[]}"
+      }
+    }
+  ],
+  "waveCalls": [
+    {
+      "id": "50ebd90c-b3ae-4be2-b421-3ae0fecbbee3",
+      "kind": "wavesurge",
+      "createdAt": 1791599871291,
+      "path": "/creator-search/requests",
+      "method": "POST",
+      "request": {
+        "requestId": "research-ea8649d3fc1258c3d1017445",
+        "personaText": "United States-based TikTok creators who self-identify as male and wear eyeglasses, across technology, lifestyle, geek culture, and other content niches.",
+        "count": 20,
+        "platforms": [
+          "tiktok"
+        ],
+        "regions": [
+          "United States"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "emailReadyRequired": false
+      },
+      "status": 201,
+      "response": {
+        "taskId": "bf3be041-bdd9-4319-9b07-1ed40b8d7d6e"
+      },
+      "finishedAt": 1791599871523
+    }
+  ],
+  "chatReportLinks": []
+}

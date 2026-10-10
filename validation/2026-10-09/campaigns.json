@@ -1,0 +1,18 @@
+{
+  "atUtc": "2026-10-09T14:17:58.078753+00:00",
+  "method": "GET",
+  "path": "/kol/campaigns?page=1&limit=2",
+  "status": 200,
+  "elapsedSeconds": 0.67,
+  "contentType": "application/json; charset=utf-8",
+  "responseSha256": "6cda06dfc5751b1f54a730eddcd7b5d4fcc0e01627b869281cd546fc623a1187",
+  "response": {
+    "campaigns": [],
+    "pagination": {
+      "page": 1,
+      "limit": 2,
+      "total": 0,
+      "pages": 0
+    }
+  }
+}

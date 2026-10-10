@@ -1,0 +1,13 @@
+{
+  "atUtc": "2026-10-09T14:22:27.004391+00:00",
+  "method": "GET",
+  "path": "/codex-chat/conversations",
+  "authMode": "bearer",
+  "status": 401,
+  "elapsedSeconds": 0.512,
+  "contentType": "application/json; charset=utf-8",
+  "responseSha256": "6b0d31ce5e5f858ed4a7cba4f8dc6a0ea66e9890464ec1673dff54d44bc6c908",
+  "response": {
+    "error": "A signed-in browser session is required."
+  }
+}

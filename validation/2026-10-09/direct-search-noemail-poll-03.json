@@ -1,0 +1,720 @@
+{
+  "atUtc": "2026-10-09T15:02:28.086163+00:00",
+  "method": "GET",
+  "path": "/creator-search/requests/184099be-3293-4547-a46e-83adae772fd1",
+  "authMode": "cookie",
+  "status": 200,
+  "elapsedSeconds": 0.568,
+  "contentType": "application/json; charset=utf-8",
+  "responseSha256": "58410d4dd0cef69d0b92786be9c54c4df3c8dd5acce8ddeaf6d789eb3734a219",
+  "response": {
+    "status": "done",
+    "strategyOperationId": null,
+    "creators": [
+      {
+        "handle": "mikebanh_",
+        "region": "Canada",
+        "contact": {
+          "email": "partnerships@mikebanhmedia.com",
+          "website": "http://linktr.ee/mikebanh.media",
+          "emailSurface": "profile_text",
+          "contactValues": [],
+          "deliverability": "unverified",
+          "emailOwnership": "representative",
+          "emailEvidenceUrl": "https://www.instagram.com/mikebanh_/"
+        },
+        "audience": {
+          "view": {
+            "age": {
+              "n": 24,
+              "moePct": 20,
+              "buckets": [
+                {
+                  "key": "<=18",
+                  "share": 0.0416259765625
+                },
+                {
+                  "key": "19-29",
+                  "share": 0.2083740234375
+                },
+                {
+                  "key": "30-39",
+                  "share": 0.0833740234375
+                },
+                {
+                  "key": ">=40",
+                  "share": 0.0416259765625
+                },
+                {
+                  "key": "unknown",
+                  "share": 0.625
+                }
+              ],
+              "confidence": "low"
+            },
+            "gender": {
+              "n": 24,
+              "moePct": 20,
+              "buckets": [
+                {
+                  "key": "female",
+                  "share": 0.083251953125
+                },
+                {
+                  "key": "male",
+                  "share": 0.7083740234375
+                },
+                {
+                  "key": "unknown",
+                  "share": 0.2083740234375
+                }
+              ],
+              "confidence": "low"
+            },
+            "handle": "mikebanh_",
+            "method": "follower_sample",
+            "location": {
+              "n": 25,
+              "moePct": 19.6,
+              "buckets": [
+                {
+                  "key": "US",
+                  "share": 0.199951171875
+                },
+                {
+                  "key": "AU",
+                  "share": 0.0799560546875
+                },
+                {
+                  "key": "GB",
+                  "share": 0.0799560546875
+                },
+                {
+                  "key": "DE",
+                  "share": 0.0400390625
+                },
+                {
+                  "key": "ET",
+                  "share": 0.0400390625
+                },
+                {
+                  "key": "HK",
+                  "share": 0.0400390625
+                },
+                {
+                  "key": "TW",
+                  "share": 0.0400390625
+                },
+                {
+                  "key": "unknown",
+                  "share": 0.47998046875
+                }
+              ],
+              "confidence": "low"
+            },
+            "platform": "instagram",
+            "capturedAt": "2026-10-09T14:58:00.229Z",
+            "kolCacheId": "",
+            "sampledCount": 25,
+            "followerCount": 36502,
+            "sampleRecency": "latest_followers",
+            "audienceSignals": {
+              "orgShare": 0.04,
+              "privateShare": 0.32,
+              "verifiedShare": 0,
+              "lowSignalShare": 0.12,
+              "influencerShare": null,
+              "capturedDimensions": [
+                "gender",
+                "age",
+                "location"
+              ],
+              "medianFollowerCount": null,
+              "countryEvidenceVersion": 1
+            }
+          },
+          "share": null,
+          "moePct": null,
+          "passes": null,
+          "record": {
+            "age": {
+              "n": 24,
+              "moePct": 20,
+              "buckets": [
+                {
+                  "key": "<=18",
+                  "share": 0.0416259765625
+                },
+                {
+                  "key": "19-29",
+                  "share": 0.2083740234375
+                },
+                {
+                  "key": "30-39",
+                  "share": 0.0833740234375
+                },
+                {
+                  "key": ">=40",
+                  "share": 0.0416259765625
+                },
+                {
+                  "key": "unknown",
+                  "share": 0.625
+                }
+              ],
+              "confidence": "low"
+            },
+            "gender": {
+              "n": 24,
+              "moePct": 20,
+              "buckets": [
+                {
+                  "key": "female",
+                  "share": 0.083251953125
+                },
+                {
+                  "key": "male",
+                  "share": 0.7083740234375
+                },
+                {
+                  "key": "unknown",
+                  "share": 0.2083740234375
+                }
+              ],
+              "confidence": "low"
+            },
+            "method": "follower_sample",
+            "source": "search_delivery",
+            "modelId": "google/gemini-3.7-flash",
+            "signals": {
+              "orgShare": 0.04,
+              "privateShare": 0.32,
+              "verifiedShare": 0,
+              "lowSignalShare": 0.12,
+              "influencerShare": null,
+              "capturedDimensions": [
+                "gender",
+                "age",
+                "location"
+              ],
+              "medianFollowerCount": null,
+              "countryEvidenceVersion": 1
+            },
+            "location": {
+              "n": 25,
+              "moePct": 19.6,
+              "buckets": [
+                {
+                  "key": "US",
+                  "share": 0.199951171875
+                },
+                {
+                  "key": "AU",
+                  "share": 0.0799560546875
+                },
+                {
+                  "key": "GB",
+                  "share": 0.0799560546875
+                },
+                {
+                  "key": "DE",
+                  "share": 0.0400390625
+                },
+                {
+                  "key": "ET",
+                  "share": 0.0400390625
+                },
+                {
+                  "key": "HK",
+                  "share": 0.0400390625
+                },
+                {
+                  "key": "TW",
+                  "share": 0.0400390625
+                },
+                {
+                  "key": "unknown",
+                  "share": 0.47998046875
+                }
+              ],
+              "confidence": "low"
+            },
+            "platform": "instagram",
+            "capturedAt": "2026-10-09T14:58:00.229Z",
+            "sampleSize": 25,
+            "modelCostUsd": 0.01254,
+            "promptVersion": "2026-09-01.v1",
+            "providerCalls": 27
+          },
+          "failure": null,
+          "sampled": 0,
+          "attempts": 1,
+          "countries": [],
+          "shareOfAll": null,
+          "minSharePct": 0,
+          "modelCostUsd": 0.01254,
+          "providerCalls": 27
+        },
+        "evidence": [
+          {
+            "url": "https://www.instagram.com/reel/DdoxusdytNc/",
+            "kind": "content",
+            "text": "“This gadget completely changed the way I read” with #tech and #techgadgets.",
+            "provider": "tikhub",
+            "publishedAt": "2026-09-23T16:49:50+00:00"
+          },
+          {
+            "url": "https://www.instagram.com/mikebanh_/",
+            "kind": "content",
+            "text": "Profile identifies “Tech + Lifestyle”; fresh Instagram profile read recorded 36,502 followers.",
+            "provider": "tikhub",
+            "publishedAt": null
+          },
+          {
+            "url": "https://www.instagram.com/mikebanh_/",
+            "kind": "content",
+            "text": "Instagram account About country: Canada.",
+            "provider": "tikhub",
+            "publishedAt": null
+          },
+          {
+            "url": "http://linktr.ee/mikebanh.media",
+            "kind": "content",
+            "text": "“Hi I'm Mike, Tech & Lifestyle Creator.” Business inquiries: [contact removed].",
+            "provider": "tikhub",
+            "publishedAt": null
+          }
+        ],
+        "platform": "instagram",
+        "avatarUrl": "https://pompe-ai-analysis-artifacts.sgp1.cdn.digitaloceanspaces.com/creator-avatars/instagram/3c46f72f0356d76905aef8ad644f924f.jpg",
+        "providers": [
+          "tikhub"
+        ],
+        "profileUrl": "https://www.instagram.com/mikebanh_/",
+        "displayName": "mike.banh",
+        "overallTier": "A",
+        "factorGrades": {
+          "role": "strong",
+          "activity": "recent",
+          "identity": "individual",
+          "location": "confirmed_country",
+          "followers": "in_range",
+          "relevance": "strong"
+        },
+        "followerCount": 36502,
+        "providerUserId": "62359153528",
+        "searchMatchTier": "precise",
+        "profileCompleteness": "full"
+      },
+      {
+        "handle": "securitywithsam",
+        "region": "United States",
+        "contact": {
+          "other": [
+            "website:https://beacons.ai/securitywithsam"
+          ],
+          "website": "https://beacons.ai/securitywithsam",
+          "contactValues": []
+        },
+        "audience": {
+          "view": {
+            "age": {
+              "n": 25,
+              "moePct": 19.6,
+              "buckets": [
+                {
+                  "key": "<=18",
+                  "share": 0.0400390625
+                },
+                {
+                  "key": "19-29",
+                  "share": 0.1600341796875
+                },
+                {
+                  "key": "30-39",
+                  "share": 0.0799560546875
+                },
+                {
+                  "key": ">=40",
+                  "share": 0.0400390625
+                },
+                {
+                  "key": "unknown",
+                  "share": 0.679931640625
+                }
+              ],
+              "confidence": "low"
+            },
+            "gender": {
+              "n": 25,
+              "moePct": 19.6,
+              "buckets": [
+                {
+                  "key": "female",
+                  "share": 0.0400390625
+                },
+                {
+                  "key": "male",
+                  "share": 0.719970703125
+                },
+                {
+                  "key": "unknown",
+                  "share": 0.239990234375
+                }
+              ],
+              "confidence": "low"
+            },
+            "handle": "securitywithsam",
+            "method": "follower_sample",
+            "location": {
+              "n": 25,
+              "moePct": 19.6,
+              "buckets": [
+                {
+                  "key": "US",
+                  "share": 0.280029296875
+                },
+                {
+                  "key": "KE",
+                  "share": 0.1199951171875
+                },
+                {
+                  "key": "BE",
+                  "share": 0.0799560546875
+                },
+                {
+                  "key": "DE",
+                  "share": 0.0799560546875
+                },
+                {
+                  "key": "IN",
+                  "share": 0.0799560546875
+                },
+                {
+                  "key": "GR",
+                  "share": 0.0400390625
+                },
+                {
+                  "key": "MY",
+                  "share": 0.0400390625
+                },
+                {
+                  "key": "NG",
+                  "share": 0.0400390625
+                },
+                {
+                  "key": "SA",
+                  "share": 0.0400390625
+                },
+                {
+                  "key": "UG",
+                  "share": 0.0400390625
+                },
+                {
+                  "key": "UZ",
+                  "share": 0.0400390625
+                },
+                {
+                  "key": "ZA",
+                  "share": 0.0399169921875
+                },
+                {
+                  "key": "unknown",
+                  "share": 0.0799560546875
+                }
+              ],
+              "confidence": "low"
+            },
+            "platform": "instagram",
+            "capturedAt": "2026-10-09T14:57:47.357Z",
+            "kolCacheId": "",
+            "sampledCount": 25,
+            "followerCount": 10250,
+            "sampleRecency": "latest_followers",
+            "audienceSignals": {
+              "orgShare": 0,
+              "privateShare": 0.08,
+              "verifiedShare": 0,
+              "lowSignalShare": 0.04,
+              "influencerShare": null,
+              "capturedDimensions": [
+                "gender",
+                "age",
+                "location"
+              ],
+              "medianFollowerCount": null,
+              "countryEvidenceVersion": 1
+            }
+          },
+          "share": null,
+          "moePct": null,
+          "passes": null,
+          "record": {
+            "age": {
+              "n": 25,
+              "moePct": 19.6,
+              "buckets": [
+                {
+                  "key": "<=18",
+                  "share": 0.0400390625
+                },
+                {
+                  "key": "19-29",
+                  "share": 0.1600341796875
+                },
+                {
+                  "key": "30-39",
+                  "share": 0.0799560546875
+                },
+                {
+                  "key": ">=40",
+                  "share": 0.0400390625
+                },
+                {
+                  "key": "unknown",
+                  "share": 0.679931640625
+                }
+              ],
+              "confidence": "low"
+            },
+            "gender": {
+              "n": 25,
+              "moePct": 19.6,
+              "buckets": [
+                {
+                  "key": "female",
+                  "share": 0.0400390625
+                },
+                {
+                  "key": "male",
+                  "share": 0.719970703125
+                },
+                {
+                  "key": "unknown",
+                  "share": 0.239990234375
+                }
+              ],
+              "confidence": "low"
+            },
+            "method": "follower_sample",
+            "source": "search_delivery",
+            "modelId": "google/gemini-3.7-flash",
+            "signals": {
+              "orgShare": 0,
+              "privateShare": 0.08,
+              "verifiedShare": 0,
+              "lowSignalShare": 0.04,
+              "influencerShare": null,
+              "capturedDimensions": [
+                "gender",
+                "age",
+                "location"
+              ],
+              "medianFollowerCount": null,
+              "countryEvidenceVersion": 1
+            },
+            "location": {
+              "n": 25,
+              "moePct": 19.6,
+              "buckets": [
+                {
+                  "key": "US",
+                  "share": 0.280029296875
+                },
+                {
+                  "key": "KE",
+                  "share": 0.1199951171875
+                },
+                {
+                  "key": "BE",
+                  "share": 0.0799560546875
+                },
+                {
+                  "key": "DE",
+                  "share": 0.0799560546875
+                },
+                {
+                  "key": "IN",
+                  "share": 0.0799560546875
+                },
+                {
+                  "key": "GR",
+                  "share": 0.0400390625
+                },
+                {
+                  "key": "MY",
+                  "share": 0.0400390625
+                },
+                {
+                  "key": "NG",
+                  "share": 0.0400390625
+                },
+                {
+                  "key": "SA",
+                  "share": 0.0400390625
+                },
+                {
+                  "key": "UG",
+                  "share": 0.0400390625
+                },
+                {
+                  "key": "UZ",
+                  "share": 0.0400390625
+                },
+                {
+                  "key": "ZA",
+                  "share": 0.0399169921875
+                },
+                {
+                  "key": "unknown",
+                  "share": 0.0799560546875
+                }
+              ],
+              "confidence": "low"
+            },
+            "platform": "instagram",
+            "capturedAt": "2026-10-09T14:57:47.357Z",
+            "sampleSize": 25,
+            "modelCostUsd": 0.017864,
+            "promptVersion": "2026-09-01.v1",
+            "providerCalls": 26
+          },
+          "failure": null,
+          "sampled": 0,
+          "attempts": 1,
+          "countries": [],
+          "shareOfAll": null,
+          "minSharePct": 0,
+          "modelCostUsd": 0.017864,
+          "providerCalls": 26
+        },
+        "evidence": [
+          {
+            "url": "https://www.instagram.com/reel/DbRBdQNMhfu/",
+            "kind": "content",
+            "text": "“Hiren’s BootCD PE is one of the most useful tools every IT professional should have” and explains file recovery, Windows repair, drive cloning, and troubleshooting.",
+            "provider": "tikhub",
+            "publishedAt": "2026-07-26T18:24:09+00:00"
+          },
+          {
+            "url": "https://www.instagram.com/securitywithsam/",
+            "kind": "content",
+            "text": "Profile says “Cybersecurity Made Simple” and “IT Tips • How-To’s • Homelabs”; fresh Instagram profile read recorded 10,250 followers.",
+            "provider": "tikhub",
+            "publishedAt": null
+          },
+          {
+            "url": "https://www.instagram.com/securitywithsam/",
+            "kind": "content",
+            "text": "Instagram account About country: United States.",
+            "provider": "tikhub",
+            "publishedAt": null
+          },
+          {
+            "url": "https://beacons.ai/securitywithsam",
+            "kind": "content",
+            "text": "Linked contact page offers “Brand Deal Inquiries! Work with me” at [contact removed] and links Instagram, YouTube, Facebook, and LinkedIn.",
+            "provider": "tikhub",
+            "publishedAt": null
+          }
+        ],
+        "platform": "instagram",
+        "avatarUrl": "https://pompe-ai-analysis-artifacts.sgp1.cdn.digitaloceanspaces.com/creator-avatars/instagram/be239af3ca594acd8236f1a5b7320a2d.jpg",
+        "providers": [
+          "tikhub"
+        ],
+        "profileUrl": "https://www.instagram.com/securitywithsam/",
+        "displayName": "Sam",
+        "overallTier": "A",
+        "factorGrades": {
+          "role": "strong",
+          "activity": "recent",
+          "identity": "individual",
+          "location": "confirmed_country",
+          "followers": "in_range",
+          "relevance": "strong"
+        },
+        "followerCount": 10250,
+        "providerUserId": "46143721780",
+        "searchMatchTier": "precise",
+        "profileCompleteness": "full"
+      }
+    ],
+    "alsoFound": [],
+    "summary": {
+      "lanes": [
+        {
+          "a": 2,
+          "b": 0,
+          "market": {
+            "unclear": 0,
+            "inMarket": 2,
+            "otherMarket": 0
+          },
+          "target": 2,
+          "location": {
+            "unverified": 0,
+            "confirmedCountry": 2,
+            "knownOtherCountry": 0
+          },
+          "platform": "instagram",
+          "rejected": {
+            "notNeeded": 0,
+            "notPerson": 0,
+            "offPersona": 0,
+            "notReviewed": 0,
+            "otherMarket": 0,
+            "locationUnknown": 0,
+            "noPublicContact": 0,
+            "audienceRegionBelow": 0,
+            "contactLookupFailed": 0,
+            "audienceRegionUnread": 0,
+            "outsideFollowerWindow": 0,
+            "contactBehindPlatformGate": 0
+          },
+          "delivered": 2,
+          "shortfallReason": null
+        }
+      ],
+      "delivered": 2,
+      "requested": 2
+    },
+    "usage": {
+      "byPath": {
+        "/api/v1/instagram/v1/fetch_search": 9,
+        "/api/v1/instagram/v2/search_reels": 6,
+        "/api/v1/instagram/v2/fetch_user_info": 55,
+        "/api/v1/instagram/v1/fetch_user_posts": 1,
+        "/api/v1/instagram/v2/fetch_user_posts": 2,
+        "/api/v1/instagram/v2/fetch_user_followers": 2,
+        "/api/v1/instagram/v1/fetch_user_info_by_username": 28,
+        "/api/v1/instagram/v1/fetch_user_info_by_username_v2": 1
+      },
+      "refusals": 1,
+      "modelCalls": 55,
+      "inputTokens": 4908571,
+      "msPacerWait": 30271,
+      "pageFetches": 3,
+      "totalTokens": 4959598,
+      "modelCostUsd": 0.038241536000000007,
+      "msInProvider": 654859,
+      "outputTokens": 51027,
+      "providerCalls": 104,
+      "providerCostUsd": 0.384,
+      "providerTimeouts": 0,
+      "agentModelCostUsd": 0.08447585500000002,
+      "cachedInputTokens": 4748678,
+      "msInProviderByPath": {
+        "/api/v1/instagram/v1/fetch_search": 74508,
+        "/api/v1/instagram/v2/search_reels": 48711,
+        "/api/v1/instagram/v2/fetch_user_info": 342657,
+        "/api/v1/instagram/v1/fetch_user_posts": 3853,
+        "/api/v1/instagram/v2/fetch_user_posts": 17333,
+        "/api/v1/instagram/v2/fetch_user_followers": 12290,
+        "/api/v1/instagram/v1/fetch_user_info_by_username": 152341,
+        "/api/v1/instagram/v1/fetch_user_info_by_username_v2": 3166
+      }
+    },
+    "expectedDurationHours": null
+  }
+}

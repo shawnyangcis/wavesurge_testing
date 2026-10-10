@@ -1,0 +1,28 @@
+{
+  "name": "main",
+  "pageErrors": [],
+  "startedAt": "2026-10-10T17:02:53.758Z",
+  "scenarios": [
+    {
+      "timeZone": "Asia/Shanghai",
+      "messages": 211,
+      "allRolesAndAutomaticReports": true,
+      "format": "YYYY-MM-DD HH:mm:ss",
+      "originalCreationTime": true
+    },
+    {
+      "settingsAuditSectionRemoved": true,
+      "noAuditRequest": true,
+      "allFourPromptsCurrent": true
+    },
+    {
+      "timeZone": "UTC",
+      "messages": 211,
+      "allRolesAndAutomaticReports": true,
+      "format": "YYYY-MM-DD HH:mm:ss",
+      "originalCreationTime": true
+    }
+  ],
+  "passed": true,
+  "finishedAt": "2026-10-10T17:02:56.344Z"
+}

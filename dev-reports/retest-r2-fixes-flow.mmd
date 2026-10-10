@@ -1,0 +1,41 @@
+flowchart TD
+ U[用户消息：持久化 pending] --> A[Agent loop：新消息、摘要、轻量任务事实、工具回执]
+ A --> P[LLM 理解目标与范围<br/>必要时澄清、修订 Campaign 草案、等待确认]
+ P --> B[幂等工具调用：登记输入与工作关联<br/>该轮登记结束后封口]
+ B --> D{工作类型}
+ D -->|新研究 / Campaign 子研究| S{候选来源}
+ S -->|指定 IG 身份| I[GET /instagram/v1/<br/>fetch_user_info_by_username_v2<br/>核对 username，取得简介、粉丝、身份]
+ S -->|泛 IG 关键词| Q[GET /instagram/v3/search_users<br/>也支持 v1/v2<br/>轮转关键词、去重、有界分页、保存 checkpoint]
+ Q --> I
+ I --> IP[GET /instagram/v1/fetch_user_posts<br/>最多两页<br/>取得文案、时间、互动计数和媒体]
+ IP --> ID[GET /instagram/v2/fetch_post_info<br/>补充最多两条单帖详情<br/>计算互动率与样本]
+ S -->|其他平台既有名单| L[GET /discover/db<br/>platform + limit 500 + sort fit_desc]
+ L --> LF[基础已知区间预筛<br/>LLM 从有界名单按目标相关性选待核验账号]
+ LF --> F[规范化账号与平台主页<br/>原始资料和来源边界持久化]
+ ID --> F
+ F --> V{verificationMode}
+ V -->|text| T[独立文字核验：LLM 判断与画像<br/>不占用正在人工操作的桌面]
+ V -->|auto| W[有头 Chromium：本人主页、原帖或媒体<br/>保存前检查页面属于当前候选]
+ W --> H{登录、验证码或访问挑战}
+ H -->|需要协助| N[持久化原候选会话，暂停桌面动作<br/>用户通过同一 noVNC 操作或明确跳过]
+ N --> R[交还桌面后重新观察<br/>不重放旧动作，受限资料保持 unknown]
+ R --> W
+ H -->|可以核验| J[LLM 提交条件三态、画像实际值、事实及 evidenceIds]
+ T --> J
+ J --> E[程序校验证据与数字/国家范围<br/>全部分析策略与入选配额独立执行]
+ E --> O[事务保存结果、版本历史与轻量任务状态<br/>截图单独保存；侧栏与结果增量更新]
+ O --> K{分析范围完成或来源已到边界}
+ K -->|仍有已存候选| F
+ K -->|继续发现候选| S
+ D -->|已有结果 annotate| AN[复用已存文字证据补充画像<br/>原事实、判断、入选集合保持]
+ D -->|已有结果 reverify| RV[保留已有身份与搜索<br/>重新核验并更新结论]
+ AN --> O
+ RV --> V
+ K -->|结束| C[Campaign 跨类型账号去重、配额分配<br/>缓存聚合真实状态]
+ C --> G{请求已封口且全部工作终态}
+ G -->|尚未| BG[后台调度从已存工作与 checkpoint 继续]
+ BG --> D
+ G -->|是| Z[原子保存单次交付回执与 chat 消息<br/>成功、失败、取消与缺额一起交付]
+ Z --> EX[综合 HTML / CSV、各工作报告、画像查询<br/>从相同持久化结果生成，含全条件与来源证据]
+ A -.后续用户消息：保留原任务、在工具边界注入.-> P
+ J -.可恢复模型失败：保留原候选与退避记录.-> V

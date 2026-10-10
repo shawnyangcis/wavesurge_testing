@@ -1,0 +1,90 @@
+{
+  "at": "2026-10-10T15:45:05.364889+08:00",
+  "source": "actual browser/API/database terminal snapshots",
+  "freshTasks": [
+    {
+      "id": "research-7e157f91534c9f8f156d257d",
+      "title": "美国 TikTok 数码男博主筛选",
+      "status": "partial",
+      "requested": 2,
+      "evaluated": 4,
+      "matched": 0
+    },
+    {
+      "id": "research-a8e3309218440957ace846fd",
+      "title": "YouTube 大学学习方法创作者",
+      "status": "partial",
+      "requested": 1,
+      "evaluated": 2,
+      "matched": 0
+    },
+    {
+      "id": "research-11deee85612adbbdea75b835",
+      "title": "YouTube 大学生 AI 与效率工具创作者",
+      "status": "partial",
+      "requested": 1,
+      "evaluated": 2,
+      "matched": 0
+    },
+    {
+      "id": "research-06587523c43581240c9622f3",
+      "title": "Instagram 指定两账号数码产品适配核验",
+      "status": "partial",
+      "requested": 2,
+      "evaluated": 2,
+      "matched": 1
+    },
+    {
+      "id": "research-90121727019a7e5d682f5a65",
+      "title": "Instagram 欧美个人 KOC 眼镜与 geek 风筛选",
+      "status": "partial",
+      "requested": 20,
+      "evaluated": 20,
+      "matched": 0
+    },
+    {
+      "id": "research-bab604288a59acc55f2788a1",
+      "title": "Instagram valstechtalkk 单账号纠正核验",
+      "status": "completed",
+      "requested": 1,
+      "evaluated": 1,
+      "matched": 1
+    }
+  ],
+  "freshResults": 31,
+  "freshCreatorIdentities": 29,
+  "original20": {
+    "processed": 20,
+    "matched": 0,
+    "verdicts": {
+      "no_match": 15,
+      "unknown": 5
+    },
+    "followersInRequestedRange": 4,
+    "reportNotifications": 1,
+    "finalReportAfterAllResultsSaved": true,
+    "operatorSkippedRestrictedCreators": [
+      "instagram:geekman545",
+      "instagram:geek",
+      "instagram:geekprincess7",
+      "instagram:geekderella",
+      "instagram:geek_in_miami",
+      "instagram:ily.g33kette"
+    ]
+  },
+  "activeAssistance": [],
+  "mainText": {
+    "id": "research-deadf97a7b6138ba6d316943",
+    "title": "tylerlcrawford 数码内容文字核验",
+    "status": "completed",
+    "requested": 1,
+    "evaluated": 1,
+    "matched": 1,
+    "qualifying": 1,
+    "updatedAt": 1791615518267,
+    "detail": "已选合格 1/1，已核验 1；证据不足者保持待核实。",
+    "remoteStatus": "done",
+    "nextPollAt": 1791614143370
+  },
+  "scope": "Processed includes unknown due evidence/access limits; does not imply full visual verification or successful shortlist"
+}

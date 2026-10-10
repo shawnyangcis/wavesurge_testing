@@ -1,0 +1,21 @@
+{
+  "at": "2026-10-10T15:03:48.739Z",
+  "artifactTextFilesChecked": 389,
+  "credentialExposures": [],
+  "businessSourceChangedDuringTest": [],
+  "compiledFrontend": [
+    {
+      "scope": "main",
+      "mismatch": []
+    },
+    {
+      "scope": "live",
+      "mismatch": []
+    },
+    {
+      "scope": "edge",
+      "mismatch": []
+    }
+  ],
+  "desktopEntrypointMatches": true
+}

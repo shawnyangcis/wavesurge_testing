@@ -1,0 +1,78 @@
+flowchart TD
+    U["用户登录并发送需求或 Campaign 目标"] --> INPUT["应用 API 鉴权、校验输入<br/>保存 conversations / events / 上传附件"]
+    INPUT --> CHAT["聊天 Agent：调用统一 ModelClient<br/>直接条件 → TaskSpec；Campaign 目标 → Brief / 多类型 Plan<br/>历史查询、关键追问和交互修改"]
+    CHAT --> CLEAR{"条件完整且当前范围已接受或授权？"}
+    CLEAR -->|否| ASK["保存追问与 needs_input<br/>SSE 展示问题；等待用户回答"]
+    ASK --> INPUT
+    CLEAR -->|是| TASK["代码校验条件、总数、类型/平台配额与共享预算<br/>直接 TaskSpec，或从固定 CampaignPlan 编译子任务<br/>事务保存 tasks：spec revision、父任务/类型绑定、queued<br/>保存任务事件后发布 SSE"]
+
+      TASK --> LEASE["后台执行器领取 lease<br/>状态 searching；检查取消、预算和期限"]
+      LEASE --> HEALTH["WaveSurgeClient：后端 Cookie 鉴权<br/>GET /auth/me：验证身份<br/>GET /pricing、/credits/balance、/credits/ledger：费用诊断"]
+      HEALTH --> AUTHOK{"身份验证通过？"}
+      AUTHOK -->|否| CREDS["保存 needs_input 与鉴权诊断<br/>更新后端凭据后恢复"]
+      CREDS --> HEALTH
+      AUTHOK -->|是| OP["先保存 search_operations<br/>稳定 requestId、请求 body、spec revision"]
+      OP --> POST["POST /creator-search/requests<br/>personaText、count、platforms、粉丝范围等<br/>不要求邮箱时显式 emailReadyRequired=false"]
+      POST --> ID["返回 taskId；立即落库<br/>POST 超时沿用同一 requestId 与相同 body"]
+      ID --> TIMER["持久化 nextPollAt<br/>每约 60 秒调度一次，不占用 Agent 调用"]
+      TIMER --> GET["GET /creator-search/requests/:taskId<br/>读取 status、creators、alsoFound、预计时间<br/>结束时读取 summary / usage / 缺口原因"]
+      GET --> REMOTE{"远端状态？"}
+      REMOTE -->|queued 或 running| TIMER
+      REMOTE -->|done，含交付 0 人| RAW["保存来源原始响应、散列和时间<br/>更新对应来源状态与诊断"]
+      REMOTE -->|failed| RAW
+      GET -->|HTTP 或网络异常| ERROR["状态码与可选 code/category 分流<br/>429 / 暂时错误有界退避<br/>401 / 403 / 参数错误停止并提示；保存原始诊断"]
+      POST -->|HTTP 或网络异常| ERROR
+      ERROR -->|允许重试：原 operation| KNOWN{"已保存远端 taskId？"}
+      KNOWN -->|是| TIMER
+      KNOWN -->|否| POST
+      ERROR -->|无法继续| GAP
+      LEASE -. 可选补充来源 .-> POOL["GET /discover/db?platform=...&limit=...&sort=...<br/>取得池内 creators、bio、粉丝数、audience 等<br/>有已知 Campaign 时才添加 campaignId"]
+      POOL --> RAW
+      RAW --> ADAPT["按 direct_search / discover_db 分别适配<br/>保存 creator_snapshots 与来源证据<br/>平台 + 规范化账号去重；代码执行数值硬过滤"]
+      ADAPT --> QUEUE["保存 task_creators：pending / rejected<br/>alsoFound 也只是候选；平台评分保留为来源判断"]
+
+      QUEUE --> NEXT{"还有可处理候选<br/>且本地预算允许？"}
+      NEXT -->|是| CLAIM["领取一个 Creator；状态 fetching<br/>每人独立上下文；模型分析可并发 3<br/>同一桌面动作串行、人工接管时暂停"]
+      CLAIM --> EVID["保存并分配 evidenceId<br/>直接搜索：evidence 的 URL / text / publishedAt<br/>头像：受限 HTTP 获取并保存文件<br/>有头浏览器补充公开帖子与截图"]
+      EVID --> HUMAN{"登录、验证或操作受阻<br/>需要人工协助？"}
+      HUMAN -->|是| HELP["LLM 调 computer_request_human_assistance<br/>保存原 conversation / task / Creator / 桌面代次<br/>冻结新桌面动作并等待在途动作排空"]
+      HELP --> VNC["用户鉴权认领协助请求<br/>独占 inputOwner=human；短期 noVNC 控制同一浏览器<br/>人工完成验证或登录；Agent 暂停桌面输入"]
+      VNC --> RESUME["完成、取消或到期：撤销 Viewer 与租约<br/>核验原工作仍有效；Agent 重新观察页面<br/>成功则继续，仍受阻则保持 needs_input / 部分交付"]
+      RESUME -->|可继续| EVID
+      RESUME -->|仍受阻| MANUAL
+      HUMAN -->|否| ENOUGH{"所需证据可获取？"}
+      ENOUGH -->|不足| MANUAL["保存证据缺口与获取失败<br/>提示用户上传、跳过或按现有证据判断<br/>非浏览器工作可继续；同桌面输入仍受接管 gate 限制"]
+      MANUAL -->|用户补充附件| EVID
+      MANUAL -->|按现有证据判断| PERSON
+      ENOUGH -->|是| PERSON["逐人 Agent 调用统一 ModelClient<br/>读取固定 TaskSpec、当前 Creator 与有限证据<br/>按条件判断；必要时调用受限证据工具"]
+      PERSON --> CHECK["代码校验 assessment<br/>条件完整、evidenceId 属于当前人、引用支持结论<br/>数值由代码决定；必选条件三态 AND 汇总"]
+      CHECK -->|格式或引用不合法，预算内| PERSON
+      CHECK -->|执行失败且可重试| CLAIM
+      CHECK -->|通过，或重试耗尽| SAVE["核对 lease、task revision 与取消状态<br/>事务保存 task_creators 的版本化判断和标签<br/>保存 llm_calls 关联、计数与 events 后发布 SSE"]
+      SAVE --> TARGET{"合格数达到目标？"}
+      TARGET -->|否| NEXT
+      TARGET -->|是| FINAL
+      NEXT -->|无候选或预算到限| GAP{"有缺口时如何继续？"}
+      GAP -->|已有远端搜索未结束| TIMER
+      GAP -->|预算内且召回不足，且无在途搜索| REPLENISH["生成新 search operation 与新 requestId<br/>保持已确认条件；不静默放宽标准"]
+      REPLENISH --> OP
+      GAP -->|需补充证据或改变条件| WAIT["保存 needs_input 与待办<br/>用户补充后恢复；改条件则新建 spec revision"]
+      WAIT -->|补充当前人| EVID
+      WAIT -->|修改条件| CHAT
+      GAP -->|无可用补充方案，或预算到限| FINAL["代码汇总 completed / partial / failed / cancelled<br/>分别统计 match / no_match / unknown / 执行错误<br/>保存停止原因、远端缺口与剩余待办"]
+
+    FINAL --> EXPORT["报告代码读取固定条件与采用的判断版本<br/>Campaign 模式跨组去重、配额分配并汇总各组缺口<br/>生成 HTML / CSV；保存 artifacts 和文件散列<br/>Chat 展示报告；鉴权下载与标签查询"]
+    SAVE -. 进度 .-> VIEW["任务卡和 Creator 卡通过 SSE 更新<br/>刷新先读数据库快照，再续订事件"]
+    EXPORT --> VIEW
+    TASK -. 用户操作 .-> CANCEL["用户取消"] -.-> STOP["写取消状态并 Abort 本地调用<br/>晚到结果校验后丢弃；保留已完成结果<br/>远端搜索可能继续运行"]
+    STOP --> FINAL
+    U -. 服务生命周期 .-> RESTART["服务启动或重启"] -.-> RECOVER["读取未完成任务、operation 与过期 lease<br/>有远端 taskId 则继续 GET；完成者复用<br/>只重新领取未完成的 Creator"]
+    RECOVER --> TIMER
+    RECOVER --> NEXT
+
+    classDef agent fill:#e8eefc,stroke:#4169a1,color:#14263d;
+    classDef api fill:#e9f5ef,stroke:#44876a,color:#173627;
+    classDef saved fill:#fff4df,stroke:#aa7d37,color:#493015;
+    class CHAT,PERSON agent;
+    class HEALTH,POST,GET,POOL api;
+    class INPUT,TASK,OP,ID,RAW,QUEUE,EVID,SAVE,FINAL,EXPORT saved;

@@ -1,0 +1,227 @@
+{
+  "seed": {
+    "id": "campaign-acda82c33ec1808745dd52ad",
+    "title": "受控Campaign刷新核验 1791598603104",
+    "source": "synthetic basic-condition candidates; production worker, no external calls, not semantic filtering or real discovery"
+  },
+  "before": {
+    "title": "受控Campaign刷新核验 1791598603104",
+    "goal": "Controlled fixture for checking asynchronous UI refresh, no actual creator filtering or search",
+    "audience": "UI test",
+    "groups": [
+      {
+        "id": "group1",
+        "rationale": "受控基础条件夹具，没有真实账号或定性核验",
+        "spec": {
+          "title": "受控刷新类型1 1791598603104",
+          "personaText": "Controlled UI refresh fixture, not a genuine creator or discovery",
+          "platforms": [
+            "instagram"
+          ],
+          "regions": [],
+          "minFollowers": 10000,
+          "maxFollowers": 100000,
+          "count": 1,
+          "candidateBudget": 1,
+          "criteria": []
+        },
+        "taskId": "research-673c07067acefb6129ee38f3",
+        "matched": 0,
+        "eligible": 0
+      },
+      {
+        "id": "group2",
+        "rationale": "受控基础条件夹具，没有真实账号或定性核验",
+        "spec": {
+          "title": "受控刷新类型2 1791598603104",
+          "personaText": "Controlled UI refresh fixture, not a genuine creator or discovery",
+          "platforms": [
+            "instagram"
+          ],
+          "regions": [],
+          "minFollowers": 10000,
+          "maxFollowers": 100000,
+          "count": 1,
+          "candidateBudget": 1,
+          "criteria": []
+        },
+        "taskId": "research-78637a229be395ac862a96d6",
+        "matched": 0,
+        "eligible": 0
+      }
+    ],
+    "id": "campaign-acda82c33ec1808745dd52ad",
+    "revision": 1,
+    "childTaskIds": [
+      "research-673c07067acefb6129ee38f3",
+      "research-78637a229be395ac862a96d6"
+    ],
+    "createdAt": 1791598603929,
+    "updatedAt": 1791598603929,
+    "status": "running",
+    "requested": 2,
+    "matched": 0,
+    "qualifyingUnique": 0,
+    "evaluated": 0,
+    "selections": [],
+    "reportUrl": "/api/campaigns/campaign-acda82c33ec1808745dd52ad/report",
+    "results": []
+  },
+  "after": {
+    "title": "受控Campaign刷新核验 1791598603104",
+    "goal": "Controlled fixture for checking asynchronous UI refresh, no actual creator filtering or search",
+    "audience": "UI test",
+    "groups": [
+      {
+        "id": "group1",
+        "rationale": "受控基础条件夹具，没有真实账号或定性核验",
+        "spec": {
+          "title": "受控刷新类型1 1791598603104",
+          "personaText": "Controlled UI refresh fixture, not a genuine creator or discovery",
+          "platforms": [
+            "instagram"
+          ],
+          "regions": [],
+          "minFollowers": 10000,
+          "maxFollowers": 100000,
+          "count": 1,
+          "candidateBudget": 1,
+          "criteria": []
+        },
+        "taskId": "research-673c07067acefb6129ee38f3",
+        "matched": 1,
+        "eligible": 1
+      },
+      {
+        "id": "group2",
+        "rationale": "受控基础条件夹具，没有真实账号或定性核验",
+        "spec": {
+          "title": "受控刷新类型2 1791598603104",
+          "personaText": "Controlled UI refresh fixture, not a genuine creator or discovery",
+          "platforms": [
+            "instagram"
+          ],
+          "regions": [],
+          "minFollowers": 10000,
+          "maxFollowers": 100000,
+          "count": 1,
+          "candidateBudget": 1,
+          "criteria": []
+        },
+        "taskId": "research-78637a229be395ac862a96d6",
+        "matched": 1,
+        "eligible": 1
+      }
+    ],
+    "id": "campaign-acda82c33ec1808745dd52ad",
+    "revision": 1,
+    "childTaskIds": [
+      "research-673c07067acefb6129ee38f3",
+      "research-78637a229be395ac862a96d6"
+    ],
+    "createdAt": 1791598603929,
+    "updatedAt": 1791598603929,
+    "status": "completed",
+    "requested": 2,
+    "matched": 2,
+    "qualifyingUnique": 2,
+    "evaluated": 2,
+    "selections": [
+      {
+        "creatorId": "instagram:controlled_ui_1791598603104_0",
+        "groupId": "group1",
+        "resultId": "research-673c07067acefb6129ee38f3|instagram:controlled_ui_1791598603104_0"
+      },
+      {
+        "creatorId": "instagram:controlled_ui_1791598603104_1",
+        "groupId": "group2",
+        "resultId": "research-78637a229be395ac862a96d6|instagram:controlled_ui_1791598603104_1"
+      }
+    ],
+    "reportUrl": "/api/campaigns/campaign-acda82c33ec1808745dd52ad/report",
+    "results": [
+      {
+        "id": "research-673c07067acefb6129ee38f3|instagram:controlled_ui_1791598603104_0",
+        "taskId": "research-673c07067acefb6129ee38f3",
+        "creator": {
+          "id": "instagram:controlled_ui_1791598603104_0",
+          "platform": "instagram",
+          "handle": "controlled_ui_1791598603104_0",
+          "profileUrl": "https://controlled.invalid/0",
+          "displayName": "controlled_ui_1791598603104_0",
+          "followers": 20000,
+          "region": null,
+          "evidence": [],
+          "raw": {
+            "platform": "instagram",
+            "handle": "controlled_ui_1791598603104_0",
+            "profileUrl": "https://controlled.invalid/0",
+            "followerCount": 20000
+          }
+        },
+        "judgments": [
+          {
+            "criterionId": "__platform",
+            "verdict": "match",
+            "reason": "创作者平台：instagram",
+            "evidenceIds": [],
+            "label": "平台"
+          },
+          {
+            "criterionId": "__followers",
+            "verdict": "match",
+            "reason": "WaveSurge 粉丝数 20000，要求 10000–100000",
+            "evidenceIds": [],
+            "label": "粉丝范围"
+          }
+        ],
+        "verdict": "match",
+        "tags": [],
+        "updatedAt": 1791598617485
+      },
+      {
+        "id": "research-78637a229be395ac862a96d6|instagram:controlled_ui_1791598603104_1",
+        "taskId": "research-78637a229be395ac862a96d6",
+        "creator": {
+          "id": "instagram:controlled_ui_1791598603104_1",
+          "platform": "instagram",
+          "handle": "controlled_ui_1791598603104_1",
+          "profileUrl": "https://controlled.invalid/1",
+          "displayName": "controlled_ui_1791598603104_1",
+          "followers": 20000,
+          "region": null,
+          "evidence": [],
+          "raw": {
+            "platform": "instagram",
+            "handle": "controlled_ui_1791598603104_1",
+            "profileUrl": "https://controlled.invalid/1",
+            "followerCount": 20000
+          }
+        },
+        "judgments": [
+          {
+            "criterionId": "__platform",
+            "verdict": "match",
+            "reason": "创作者平台：instagram",
+            "evidenceIds": [],
+            "label": "平台"
+          },
+          {
+            "criterionId": "__followers",
+            "verdict": "match",
+            "reason": "WaveSurge 粉丝数 20000，要求 10000–100000",
+            "evidenceIds": [],
+            "label": "粉丝范围"
+          }
+        ],
+        "verdict": "match",
+        "tags": [],
+        "updatedAt": 1791598617490
+      }
+    ]
+  },
+  "refreshedDetail": "受控Campaign刷新核验 1791598603104 · v1\n\n受众：UI test\n\n同一平台账号只占一个类型配额；没有可靠跨平台身份时不猜测合并。\n\n受控刷新类型1 1791598603104 · 1/1\n\n受控基础条件夹具，没有真实账号或定性核验\n\ninstagram · 地区不限 · 10000–100000 粉丝\n\n候选上限 1 · 合格账号池 1\n\n查看此类核验报告\n受控刷新类型2 1791598603104 · 1/1\n\n受控基础条件夹具，没有真实账号或定性核验\n\ninstagram · 地区不限 · 10000–100000 粉丝\n\n候选上限 1 · 合格账号池 1\n\n查看此类核验报告\n\n查看去重汇总报告",
+  "reopenedDetail": "受控Campaign刷新核验 1791598603104 · v1\n\n受众：UI test\n\n同一平台账号只占一个类型配额；没有可靠跨平台身份时不猜测合并。\n\n受控刷新类型1 1791598603104 · 1/1\n\n受控基础条件夹具，没有真实账号或定性核验\n\ninstagram · 地区不限 · 10000–100000 粉丝\n\n候选上限 1 · 合格账号池 1\n\n查看此类核验报告\n受控刷新类型2 1791598603104 · 1/1\n\n受控基础条件夹具，没有真实账号或定性核验\n\ninstagram · 地区不限 · 10000–100000 粉丝\n\n候选上限 1 · 合格账号池 1\n\n查看此类核验报告\n\n查看去重汇总报告",
+  "result": "automatic selected-detail and campaign-card refresh confirmed, completed 2/2",
+  "limitation": "controlled basic-condition candidates, not actual social profiles or LLM semantic filtering"
+}

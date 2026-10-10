@@ -1,0 +1,250 @@
+{
+  "at": "2026-10-10T10:47:01.695Z",
+  "previousPassedEvidence": ".gstack/qa-reports/retest-2026-10-10-r3/fault-ui-first-attempt.json",
+  "source": "actual application UI + configured real model through explicit isolated HTTP failure injection; controlled candidates",
+  "cases": [
+    {
+      "name": "verification-408",
+      "target": "verification",
+      "status": 408,
+      "input": "再做一项新的 YouTube 耳机博主研究，最后选1个，这次2个候选都看完。只用现有文字资料，不打开网页，粉丝和国家不限，每人标上内容方向。",
+      "calls": [
+        {
+          "at": "2026-10-10T10:47:02.646Z",
+          "kind": "chat",
+          "toolNames": [
+            "get_tasks",
+            "search_history",
+            "start_research",
+            "cancel_research",
+            "enrich_results",
+            "get_results",
+            "save_campaign_plan",
+            "get_campaigns",
+            "start_campaign"
+          ],
+          "messageCount": 16,
+          "imageCount": 0,
+          "payloadHash": "f33252f74a9ce4f25bcc8ac28e6dd3c10ac749a55382d187f264d343afa86dd9",
+          "injected": false,
+          "status": 200
+        },
+        {
+          "taskId": "research-de001242da5340ab6b397d3f",
+          "creatorId": "youtube:http://wave-fixture:8087/creator/alice",
+          "specHash": "a53f51a195aa1a22050c092a687189e136758a2ea4e004bb5d9ef6bd877beb1a",
+          "creatorHash": "8c9cb91daa6d2bea5e062932300d2f81425cd8d35c12871cdb39303f1a46f092",
+          "at": "2026-10-10T10:47:11.360Z",
+          "kind": "verification",
+          "toolNames": [
+            "submit_judgments"
+          ],
+          "messageCount": 3,
+          "imageCount": 0,
+          "payloadHash": "9ad16afd9cb6c96dd0c3a5f45ee4e4234f4ed6b2ed57d8f9a9f4038bab5a339e",
+          "injected": true,
+          "status": 408
+        },
+        {
+          "specHash": "a53f51a195aa1a22050c092a687189e136758a2ea4e004bb5d9ef6bd877beb1a",
+          "creatorHash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "at": "2026-10-10T10:47:11.362Z",
+          "kind": "chat",
+          "toolNames": [
+            "get_tasks",
+            "search_history",
+            "start_research",
+            "cancel_research",
+            "enrich_results",
+            "get_results",
+            "save_campaign_plan",
+            "get_campaigns",
+            "start_campaign"
+          ],
+          "messageCount": 18,
+          "imageCount": 0,
+          "payloadHash": "bb7ecd6cd18e95acb8c676b8758113a97ed7536b1bef3d8f645794fe4552d77c",
+          "injected": false,
+          "status": 200
+        },
+        {
+          "taskId": "research-de001242da5340ab6b397d3f",
+          "creatorId": "youtube:http://wave-fixture:8087/creator/alice",
+          "specHash": "a53f51a195aa1a22050c092a687189e136758a2ea4e004bb5d9ef6bd877beb1a",
+          "creatorHash": "8c9cb91daa6d2bea5e062932300d2f81425cd8d35c12871cdb39303f1a46f092",
+          "at": "2026-10-10T10:47:12.683Z",
+          "kind": "verification",
+          "toolNames": [
+            "submit_judgments"
+          ],
+          "messageCount": 3,
+          "imageCount": 0,
+          "payloadHash": "18baeb4a92e7493aeddb0bfaadd6d266c1170661e1a3226f260949783300d2c5",
+          "injected": false,
+          "status": 200
+        },
+        {
+          "specHash": "a53f51a195aa1a22050c092a687189e136758a2ea4e004bb5d9ef6bd877beb1a",
+          "creatorHash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "at": "2026-10-10T10:47:19.092Z",
+          "kind": "chat",
+          "toolNames": [
+            "get_tasks",
+            "search_history",
+            "start_research",
+            "cancel_research",
+            "enrich_results",
+            "get_results",
+            "save_campaign_plan",
+            "get_campaigns",
+            "start_campaign"
+          ],
+          "messageCount": 18,
+          "imageCount": 0,
+          "payloadHash": "eaacd7371587e47c5e526d091dfb3db5d0574de75bb22cff4c32e16f420de775",
+          "injected": false,
+          "status": 200
+        },
+        {
+          "taskId": "research-de001242da5340ab6b397d3f",
+          "creatorId": "youtube:http://wave-fixture:8087/creator/bob",
+          "specHash": "a53f51a195aa1a22050c092a687189e136758a2ea4e004bb5d9ef6bd877beb1a",
+          "creatorHash": "a680fbefd8fdb035df1ecb9b45548b2076c609659b48b03dca15ef67091e5197",
+          "at": "2026-10-10T10:47:21.416Z",
+          "kind": "verification",
+          "toolNames": [
+            "submit_judgments"
+          ],
+          "messageCount": 3,
+          "imageCount": 0,
+          "payloadHash": "ec5104f254115917323762a0797731f5dc78f1e29568d7136f452909579a2175",
+          "injected": false,
+          "status": 200
+        },
+        {
+          "specHash": "a53f51a195aa1a22050c092a687189e136758a2ea4e004bb5d9ef6bd877beb1a",
+          "creatorHash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "at": "2026-10-10T10:47:29.795Z",
+          "kind": "chat",
+          "toolNames": [
+            "get_tasks",
+            "search_history",
+            "start_research",
+            "cancel_research",
+            "enrich_results",
+            "get_results",
+            "save_campaign_plan",
+            "get_campaigns",
+            "start_campaign"
+          ],
+          "messageCount": 18,
+          "imageCount": 0,
+          "payloadHash": "bc2a115170bafe54aa497cff05dd46942f310668b4aacca6af843524f17e79ab",
+          "injected": false,
+          "status": 200
+        }
+      ],
+      "sameWorkAttempts": 2,
+      "observedAtMayAdvanceOnVerification": true,
+      "messages": [
+        {
+          "id": "f4d0277a-df0a-44f7-bbfd-11306597f789",
+          "role": "user",
+          "text": "再做一项新的 YouTube 耳机博主研究，最后选1个，这次2个候选都看完。只用现有文字资料，不打开网页，粉丝和国家不限，每人标上内容方向。",
+          "createdAt": 1791629222600,
+          "epoch": 4,
+          "state": "delivered",
+          "attachments": []
+        },
+        {
+          "id": "bfd5f88c-4849-4be6-95e5-39c79cb9528d",
+          "role": "assistant",
+          "text": "已登记一项新研究：**2 位 YouTube 耳机候选都会核验，目标选出 1 位**。\n\n仅用现有文字资料，不打开网页；粉丝数和国家不限。每人都会标注有证据支持的内容方向，资料不足则保留为待核实。结束后给你两人的结果和报告。本次请求的 1 项工作已全部结束。\n\n- 新的 YouTube 耳机博主研究：2位候选全量文字核验：已结束，仍有缺额或失败；已选合格 0/1，已核验 2；证据不足者保持待核实。youtube：读取 2 条，基础条件排除 0 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。核验/来源错误 1 次，可对已有结果重新核验。 [查看报告](/api/reports/research-de001242da5340ab6b397d3f)\n\n[查看本次综合报告](/api/work-batches/f4d0277a-df0a-44f7-bbfd-11306597f789/report) · [下载综合 CSV](/api/work-batches/f4d0277a-df0a-44f7-bbfd-11306597f789/report?format=csv)",
+          "epoch": 4,
+          "createdAt": 1791629261927,
+          "state": "delivered",
+          "attachments": []
+        },
+        {
+          "id": "report-request-f4d0277a-df0a-44f7-bbfd-11306597f789-46af83c4dacd33e5",
+          "role": "assistant",
+          "text": "本次请求的 1 项工作已全部结束。\n\n- 新的 YouTube 耳机博主研究：2位候选全量文字核验：已结束，仍有缺额或失败；已选合格 0/1，已核验 2；证据不足者保持待核实。youtube：读取 2 条，基础条件排除 0 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。核验/来源错误 1 次，可对已有结果重新核验。 [查看报告](/api/reports/research-de001242da5340ab6b397d3f)\n\n[查看本次综合报告](/api/work-batches/f4d0277a-df0a-44f7-bbfd-11306597f789/report) · [下载综合 CSV](/api/work-batches/f4d0277a-df0a-44f7-bbfd-11306597f789/report?format=csv)",
+          "createdAt": 1791629261928,
+          "epoch": 4,
+          "state": "delivered",
+          "attachments": []
+        }
+      ],
+      "newTasks": [
+        {
+          "id": "research-de001242da5340ab6b397d3f",
+          "title": "新的 YouTube 耳机博主研究：2位候选全量文字核验",
+          "status": "partial",
+          "requested": 1,
+          "evaluated": 2,
+          "matched": 0,
+          "qualifying": 0,
+          "updatedAt": 1791629249229,
+          "detail": "已选合格 0/1，已核验 2；证据不足者保持待核实。youtube：读取 2 条，基础条件排除 0 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。核验/来源错误 1 次，可对已有结果重新核验。",
+          "remoteStatus": "done",
+          "nextPollAt": 1791629232352
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "chat-400",
+      "target": "chat",
+      "status": 400,
+      "input": "先停一下新搜索，告诉我前面的任务还在不在。",
+      "calls": [
+        {
+          "at": "2026-10-10T10:47:42.249Z",
+          "kind": "chat",
+          "toolNames": [
+            "get_tasks",
+            "search_history",
+            "start_research",
+            "cancel_research",
+            "enrich_results",
+            "get_results",
+            "save_campaign_plan",
+            "get_campaigns",
+            "start_campaign"
+          ],
+          "messageCount": 21,
+          "imageCount": 0,
+          "payloadHash": "0702e6e4e947cab887cea924036ab8d34e11ed068a8f5e45158c5cd89b0df78a",
+          "injected": true,
+          "status": 400
+        }
+      ],
+      "sameWorkAttempts": 1,
+      "observedAtMayAdvanceOnVerification": true,
+      "messages": [
+        {
+          "id": "22a92fb0-6c4b-41c5-9739-2309f8d3be88",
+          "role": "user",
+          "text": "先停一下新搜索，告诉我前面的任务还在不在。",
+          "createdAt": 1791629262167,
+          "epoch": 4,
+          "state": "delivered",
+          "attachments": []
+        },
+        {
+          "id": "67bff0a7-0f86-4ab0-bbde-d58e4f3293ab",
+          "role": "assistant",
+          "text": "本轮处理未完成：模型请求失败（400）。已有任务和记录已保存。",
+          "epoch": 4,
+          "createdAt": 1791629262210,
+          "state": "delivered",
+          "attachments": []
+        }
+      ],
+      "newTasks": [],
+      "pass": true
+    }
+  ],
+  "finishedAt": "2026-10-10T10:47:43.361Z",
+  "originalEndpointRestored": true
+}

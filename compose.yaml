@@ -1,0 +1,47 @@
+services:
+  app:
+    image: creator-studio-app:local
+    build: .
+    depends_on:
+      desktop:
+        condition: service_healthy
+    ports: ["127.0.0.1:3000:3000"]
+    env_file: .env
+    environment:
+      IN_DOCKER: "1"
+      DESKTOP_URL: http://desktop:8810
+      DESKTOP_TOKEN_FILE: /run/studio-secrets/desktop-token
+    extra_hosts: ["host.docker.internal:host-gateway"]
+    volumes: ["studio-data:/app/data", "desktop-secrets:/run/studio-secrets:ro"]
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:3000/api/health').then(r=>{if(!r.ok)process.exit(1)})"]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+  secret-init:
+    image: creator-studio-app:local
+    user: root
+    command: ["node", "src/server/desktop-secret-main.ts"]
+    volumes: ["desktop-secrets:/run/studio-secrets"]
+  desktop:
+    image: creator-studio-desktop:local
+    build:
+      context: .
+      dockerfile: deploy/desktop.Dockerfile
+    depends_on:
+      secret-init:
+        condition: service_completed_successfully
+    volumes: ["desktop-state:/state", "desktop-secrets:/run/studio-secrets:ro"]
+    shm_size: 512m
+    stop_grace_period: 60s
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:8810/health').then(r=>{if(!r.ok)process.exit(1)})"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+volumes:
+  desktop-state:
+  desktop-secrets:
+  studio-data:

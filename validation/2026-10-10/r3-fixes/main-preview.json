@@ -1,0 +1,31 @@
+{
+  "at": "2026-10-10T12:13:33.748Z",
+  "passed": true,
+  "source": "Private online SQLite snapshot of main service; migration preview only; no API/model calls or report redelivery",
+  "backupPath": "/app/data/backups/r3-before-fixes-1791634409327.sqlite",
+  "backupMode": "0600",
+  "results": 20,
+  "tasks": 29,
+  "messagesBefore": 205,
+  "messagesAfter": 205,
+  "deliveriesBefore": 43,
+  "changed": [
+    {
+      "id": "research-a183b9437d676713c0f2812f|instagram:franhaddock_",
+      "handle": "franhaddock_",
+      "verdict": "unknown"
+    },
+    {
+      "id": "research-a183b9437d676713c0f2812f|instagram:kennedyslocum",
+      "handle": "kennedyslocum",
+      "verdict": "unknown"
+    },
+    {
+      "id": "research-a183b9437d676713c0f2812f|instagram:neighbourbecci",
+      "handle": "neighbourbecci",
+      "verdict": "unknown"
+    }
+  ],
+  "coreDigest": "cb7e48e3ff046c4d1fce20167c8e6bfc64f67ff53cdc74f968373e08ecaf02a1",
+  "idempotent": true
+}

@@ -1,0 +1,21 @@
+{
+  "at": "2026-10-10T15:00:33.878Z",
+  "consoleErrors": [
+    {
+      "text": "Failed to load resource: the server responded with a status of 401 (Unauthorized)",
+      "path": "/api/session"
+    },
+    {
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+      "path": "/favicon.ico"
+    }
+  ],
+  "networkErrors": [
+    {
+      "path": "/api/session",
+      "status": 401
+    }
+  ],
+  "pageErrors": [],
+  "finishedAt": "2026-10-10T15:00:39.356Z"
+}

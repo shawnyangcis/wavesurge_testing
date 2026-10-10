@@ -1,0 +1,249 @@
+{
+  "at": "2026-10-10T10:42:03.016Z",
+  "source": "actual application UI + configured real model through explicit isolated HTTP failure injection; controlled candidates",
+  "cases": [
+    {
+      "name": "chat-408",
+      "target": "chat",
+      "status": 408,
+      "input": "先别找博主，简短说一下你会怎么区分戴眼镜和没看清楚。",
+      "calls": [
+        {
+          "at": "2026-10-10T10:42:03.839Z",
+          "kind": "chat",
+          "toolNames": [
+            "get_tasks",
+            "search_history",
+            "start_research",
+            "cancel_research",
+            "enrich_results",
+            "get_results",
+            "save_campaign_plan",
+            "get_campaigns",
+            "start_campaign"
+          ],
+          "messageCount": 4,
+          "imageCount": 0,
+          "payloadHash": "762b3f4a3a4e644eceb09196586939a687a3e6228eae9bc72af8b5e6594a9e77",
+          "injected": true,
+          "status": 408
+        },
+        {
+          "at": "2026-10-10T10:42:04.858Z",
+          "kind": "chat",
+          "toolNames": [
+            "get_tasks",
+            "search_history",
+            "start_research",
+            "cancel_research",
+            "enrich_results",
+            "get_results",
+            "save_campaign_plan",
+            "get_campaigns",
+            "start_campaign"
+          ],
+          "messageCount": 4,
+          "imageCount": 0,
+          "payloadHash": "762b3f4a3a4e644eceb09196586939a687a3e6228eae9bc72af8b5e6594a9e77",
+          "injected": false,
+          "status": 200
+        }
+      ],
+      "identicalPayloadAttempts": 2,
+      "messages": [
+        {
+          "id": "a89f1078-106f-421d-a08b-42b36fb87d75",
+          "role": "user",
+          "text": "先别找博主，简短说一下你会怎么区分戴眼镜和没看清楚。",
+          "createdAt": 1791628923809,
+          "epoch": 4,
+          "state": "delivered",
+          "attachments": []
+        },
+        {
+          "id": "64987017-c91c-4cd8-bc73-cd8ec5b26c69",
+          "role": "assistant",
+          "text": "我会分成三种判断：\n\n- **确认戴眼镜**：画面清晰，能辨认出镜框、镜片或镜腿确实佩戴在脸上。\n- **确认未戴眼镜**：脸部和眼部清楚可见，能明确判断该画面中没有佩戴眼镜。\n- **没看清楚／待核实**：画面模糊、脸太小、遮挡或角度不够，或只有文字资料，不能据此判断。\n\n**“没看清楚”不等于“没戴眼镜”**；单张画面也不能证明平时是否经常戴眼镜。我不会启动新搜索。",
+          "epoch": 4,
+          "createdAt": 1791628940319,
+          "state": "delivered",
+          "attachments": []
+        }
+      ],
+      "newTasks": [],
+      "pass": true
+    },
+    {
+      "name": "shortlist-408",
+      "target": "candidate-selection",
+      "status": 408,
+      "input": "另外新找1个 YouTube 科技博主，这次先看1个人，只用现有文字资料，不打开网页。粉丝和国家不限，标一下内容方向，结束后给我报告。",
+      "calls": [
+        {
+          "at": "2026-10-10T10:42:21.165Z",
+          "kind": "chat",
+          "toolNames": [
+            "get_tasks",
+            "search_history",
+            "start_research",
+            "cancel_research",
+            "enrich_results",
+            "get_results",
+            "save_campaign_plan",
+            "get_campaigns",
+            "start_campaign"
+          ],
+          "messageCount": 6,
+          "imageCount": 0,
+          "payloadHash": "720de2099b39ec7f02652cbc5ff17e3dd279b72807285fd1ea4fd83a64262ffa",
+          "injected": false,
+          "status": 200
+        },
+        {
+          "at": "2026-10-10T10:42:32.724Z",
+          "kind": "candidate-selection",
+          "toolNames": [
+            "select_candidates"
+          ],
+          "messageCount": 3,
+          "imageCount": 0,
+          "payloadHash": "6eab3a825b9da2d31a4bca8bfa219b26a9f6e01738680a8bb53e67014ecaa33c",
+          "injected": true,
+          "status": 408
+        },
+        {
+          "at": "2026-10-10T10:42:32.726Z",
+          "kind": "chat",
+          "toolNames": [
+            "get_tasks",
+            "search_history",
+            "start_research",
+            "cancel_research",
+            "enrich_results",
+            "get_results",
+            "save_campaign_plan",
+            "get_campaigns",
+            "start_campaign"
+          ],
+          "messageCount": 8,
+          "imageCount": 0,
+          "payloadHash": "0bcc487fa3912b9127dccc538926ba357e25a99b5271913ae82f2cbfdcd9d940",
+          "injected": false,
+          "status": 200
+        },
+        {
+          "at": "2026-10-10T10:42:33.742Z",
+          "kind": "candidate-selection",
+          "toolNames": [
+            "select_candidates"
+          ],
+          "messageCount": 3,
+          "imageCount": 0,
+          "payloadHash": "6eab3a825b9da2d31a4bca8bfa219b26a9f6e01738680a8bb53e67014ecaa33c",
+          "injected": false,
+          "status": 200
+        },
+        {
+          "at": "2026-10-10T10:42:38.575Z",
+          "kind": "verification",
+          "toolNames": [
+            "submit_judgments"
+          ],
+          "messageCount": 3,
+          "imageCount": 0,
+          "payloadHash": "1d475d4754679fa6c956433b1f27bfb12982747035f11845f57b57f0836a3e0a",
+          "injected": false,
+          "status": 200
+        },
+        {
+          "at": "2026-10-10T10:42:40.673Z",
+          "kind": "chat",
+          "toolNames": [
+            "get_tasks",
+            "search_history",
+            "start_research",
+            "cancel_research",
+            "enrich_results",
+            "get_results",
+            "save_campaign_plan",
+            "get_campaigns",
+            "start_campaign"
+          ],
+          "messageCount": 8,
+          "imageCount": 0,
+          "payloadHash": "4e3df29d2b2bfd482208cc5ad203feaca113c51f867bc54295736a02d3f4d042",
+          "injected": false,
+          "status": 200
+        },
+        {
+          "at": "2026-10-10T10:42:52.650Z",
+          "kind": "chat",
+          "toolNames": [
+            "get_tasks",
+            "search_history",
+            "start_research",
+            "cancel_research",
+            "enrich_results",
+            "get_results",
+            "save_campaign_plan",
+            "get_campaigns",
+            "start_campaign"
+          ],
+          "messageCount": 8,
+          "imageCount": 0,
+          "payloadHash": "7d43a9e06e269cec60f6091638fc29be824e55152e6b362fae64400e0c3a8e57",
+          "injected": false,
+          "status": 200
+        }
+      ],
+      "identicalPayloadAttempts": 2,
+      "messages": [
+        {
+          "id": "c0008da1-fccb-48c9-9200-6d2cc08c66c9",
+          "role": "user",
+          "text": "另外新找1个 YouTube 科技博主，这次先看1个人，只用现有文字资料，不打开网页。粉丝和国家不限，标一下内容方向，结束后给我报告。",
+          "createdAt": 1791628941152,
+          "epoch": 4,
+          "state": "delivered",
+          "attachments": []
+        },
+        {
+          "id": "1140772d-65b2-43ca-811a-4451f94cac76",
+          "role": "assistant",
+          "text": "已登记这次研究：**只核验 1 位 YouTube 候选**，仅用现有文字资料，不打开网页，粉丝数和国家不限。\n\n我会核实其是否发布科技内容，并标注有证据支持的内容方向；资料不足则标为待核实，不算合格。结束后给你报告。",
+          "epoch": 4,
+          "createdAt": 1791628980517,
+          "state": "delivered",
+          "attachments": []
+        },
+        {
+          "id": "report-request-c0008da1-fccb-48c9-9200-6d2cc08c66c9-70cd337f6b8ea5e2",
+          "role": "assistant",
+          "text": "本次请求的 1 项工作已全部结束。\n\n- YouTube 科技博主：1位候选文字核验及内容方向标注：已结束，仍有缺额或失败；已选合格 0/1，已核验 1；证据不足者保持待核实。youtube：读取 2 条，基础条件排除 0 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。 [查看报告](/api/reports/research-a4ecc6314a39387e1e2834da)\n\n[查看本次综合报告](/api/work-batches/c0008da1-fccb-48c9-9200-6d2cc08c66c9/report) · [下载综合 CSV](/api/work-batches/c0008da1-fccb-48c9-9200-6d2cc08c66c9/report?format=csv)",
+          "createdAt": 1791628980518,
+          "epoch": 4,
+          "state": "delivered",
+          "attachments": []
+        }
+      ],
+      "newTasks": [
+        {
+          "id": "research-a4ecc6314a39387e1e2834da",
+          "title": "YouTube 科技博主：1位候选文字核验及内容方向标注",
+          "status": "partial",
+          "requested": 1,
+          "evaluated": 1,
+          "matched": 0,
+          "qualifying": 0,
+          "updatedAt": 1791628966208,
+          "detail": "已选合格 0/1，已核验 1；证据不足者保持待核实。youtube：读取 2 条，基础条件排除 0 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。",
+          "remoteStatus": "done",
+          "nextPollAt": 1791628953718
+        }
+      ],
+      "pass": true
+    }
+  ],
+  "error": "Error: expect(received).toHaveLength(expected)\n\nExpected length: 2\nReceived length: 1\nReceived array:  [{\"at\": \"2026-10-10T10:43:10.464Z\", \"imageCount\": 0, \"injected\": true, \"kind\": \"verification\", \"messageCount\": 3, \"payloadHash\": \"b6d8272b1074c3102a9df9f2095c2a108ad22582d25fc0f813e280a225658dd5\", \"status\": 408, \"toolNames\": [\"submit_judgments\"]}]",
+  "originalEndpointRestored": true
+}

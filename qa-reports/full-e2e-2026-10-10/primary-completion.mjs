@@ -1,0 +1,64 @@
+import { chromium } from 'playwright';
+import { execFileSync } from 'node:child_process';
+import { existsSync, readFileSync, writeFileSync } from 'node:fs';
+const root = '.gstack/qa-reports/full-e2e-2026-10-10';
+const base = 'http://127.0.0.1:3000';
+const taskId = 'research-d22f5bc3f9c80da1a4979ca5';
+const password = execFileSync('docker', ['compose', 'exec', '-T', 'app', 'cat', '/app/data/admin-bootstrap.txt'], { encoding: 'utf8' }).trim();
+const browser = await chromium.launch({ executablePath: '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome', headless: true });
+const output = { startedAt: new Date().toISOString(), source: 'new genuine WaveSurge search, actual primary UI, actual headed Instagram browser and model; no candidates injected', taskId };
+const save = () => writeFileSync(root + '/primary-completion.json', JSON.stringify(output, null, 2));
+const delay = ms => new Promise(r => setTimeout(r, ms));
+const wait = async (fn, timeout = 180000) => { const end = Date.now() + timeout; while (Date.now() < end) { const value = await fn(); if (value) return value; await delay(1000); } throw Error('wait timeout'); };
+try {
+  const page = await browser.newPage({ viewport: { width: 1440, height: 1000 } });
+  output.errors = []; page.on('pageerror', e => output.errors.push(e.message));
+  await page.goto(base); await page.getByLabel('管理员密码').fill(password); await page.getByRole('button', { name: /进入工作室/ }).click(); await page.getByLabel('研究对话').waitFor();
+  const get = async path => (await page.request.get(base + path)).json();
+  const state = async () => get('/api/state');
+  const task = async () => (await state()).tasks.find(t => t.id === taskId);
+  output.before = await task(); output.messageIdsBefore = (await state()).messages.map(m => m.id);
+  const debugBefore = await get('/api/debug');
+  output.searchRequest = debugBefore.waveCalls.find(c => c.method === 'POST' && c.request?.requestId === taskId)?.request;
+  output.resultsBefore = await get('/api/results?taskId=' + taskId); save();
+  const card = page.locator('aside article.task').filter({ has: page.getByRole('heading', { name: output.before.title, exact: true }) });
+  await card.getByRole('button', { name: '查看结果', exact: true }).click();
+  const resultDialog = page.getByRole('dialog', { name: '研究结果' }); await resultDialog.waitFor();
+  await resultDialog.getByText('逐条件判断与证据', { exact: true }).first().click();
+  await resultDialog.screenshot({ path: root + '/screenshots/region-alias-real-result.png' });
+  await resultDialog.getByRole('button', { name: '关闭', exact: true }).click();
+  if (output.before.status === 'needs_input') {
+    output.assistance = (await get('/api/desktop')).request;
+    await card.getByRole('button', { name: '打开桌面协助' }).click();
+    await page.getByRole('button', { name: '接管并协助' }).click();
+    const frame = page.frameLocator('iframe[title="持久浏览器桌面"]');
+    const canvas = frame.locator('#noVNC_container canvas');
+    await canvas.waitFor(); await frame.locator('#noVNC_status').filter({ hasText: /Connected|connected|已连接/ }).waitFor();
+    await delay(1500);
+    await page.screenshot({ path: root + '/screenshots/primary-instagram-before.png', fullPage: true });
+    output.phase = 'waiting_for_observed_ui_actions'; save(); console.log('Primary actual Instagram screenshot ready; waiting for local test operator actions.');
+    await wait(() => existsSync(root + '/primary-completion-action.json'), 180000);
+    const action = JSON.parse(readFileSync(root + '/primary-completion-action.json', 'utf8'));
+    const box = await canvas.boundingBox();
+    for (const p of action.clicks ?? []) { await canvas.click({ position: { x: box.width * p.x / 1440, y: box.height * p.y / 900 } }); await delay(900); }
+    await page.screenshot({ path: root + '/screenshots/primary-instagram-after.png', fullPage: true });
+    await page.getByLabel('协助结果').fill(action.outcome);
+    await page.getByRole('button', { name: '完成协助，交还 Agent' }).click();
+    output.phase = 'resumed'; save();
+    await wait(async () => ['completed', 'partial', 'failed'].includes((await task()).status), 180000);
+    await page.getByRole('dialog', { name: '浏览器桌面', exact: true }).getByRole('button', { name: '关闭', exact: true }).click();
+  }
+  output.task = await task(); output.results = await get('/api/results?taskId=' + taskId);
+  await delay(6000);
+  output.messageIdsAfter = (await state()).messages.map(m => m.id);
+  output.newChatMessages = (await state()).messages.filter(m => !output.messageIdsBefore.includes(m.id)).map(m => ({ id: m.id, role: m.role, text: m.text }));
+  output.chatReportLinks = await page.locator('.messages a').evaluateAll(links => links.filter(a => /\/api\/(reports|campaigns)/.test(a.getAttribute('href') ?? '')).map(a => ({ text: a.textContent, href: a.getAttribute('href') })));
+  await page.screenshot({ path: root + '/screenshots/primary-completion-chat.png', fullPage: true });
+  await card.getByRole('button', { name: '查看结果', exact: true }).click(); await resultDialog.waitFor();
+  const popupPromise = page.waitForEvent('popup'); await resultDialog.getByRole('link', { name: '查看报告', exact: true }).click();
+  const reportPage = await popupPromise; await reportPage.waitForLoadState('domcontentloaded');
+  output.reportText = await reportPage.locator('body').innerText();
+  await reportPage.screenshot({ path: root + '/screenshots/primary-completion-report.png', fullPage: true });
+  output.finishedAt = new Date().toISOString(); output.phase = 'finished'; save();
+  console.log(JSON.stringify({ task: output.task, searchRegions: output.searchRequest?.regions, results: output.results.map(r => ({ handle: r.creator.handle, region: r.creator.region, verdict: r.verdict, judgments: r.judgments })), newChatMessages: output.newChatMessages, chatReportLinks: output.chatReportLinks, errors: output.errors }, null, 2));
+} catch (error) { output.error = error.message; save(); throw error; } finally { await browser.close(); }

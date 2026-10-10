@@ -1,0 +1,361 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Code coverage report for server/repair.ts</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../prettify.css" />
+    <link rel="stylesheet" href="../base.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+    
+<body>
+<div class='wrapper'>
+    <div class='pad1'>
+        <h1><a href="../index.html">All files</a> / <a href="index.html">server</a> repair.ts</h1>
+        <div class='clearfix'>
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Statements</span>
+                <span class='fraction'>149/149</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Branches</span>
+                <span class='fraction'>104/104</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Functions</span>
+                <span class='fraction'>30/30</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Lines</span>
+                <span class='fraction'>67/67</span>
+            </div>
+        
+            
+        </div>
+        <p class="quiet">
+            Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
+        </p>
+        <template id="filterTemplate">
+            <div class="quiet">
+                Filter:
+                <input type="search" id="fileSearch">
+            </div>
+        </template>
+    </div>
+    <div class='status-line high'></div>
+    <pre><table class="coverage">
+<tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
+<a name='L2'></a><a href='#L2'>2</a>
+<a name='L3'></a><a href='#L3'>3</a>
+<a name='L4'></a><a href='#L4'>4</a>
+<a name='L5'></a><a href='#L5'>5</a>
+<a name='L6'></a><a href='#L6'>6</a>
+<a name='L7'></a><a href='#L7'>7</a>
+<a name='L8'></a><a href='#L8'>8</a>
+<a name='L9'></a><a href='#L9'>9</a>
+<a name='L10'></a><a href='#L10'>10</a>
+<a name='L11'></a><a href='#L11'>11</a>
+<a name='L12'></a><a href='#L12'>12</a>
+<a name='L13'></a><a href='#L13'>13</a>
+<a name='L14'></a><a href='#L14'>14</a>
+<a name='L15'></a><a href='#L15'>15</a>
+<a name='L16'></a><a href='#L16'>16</a>
+<a name='L17'></a><a href='#L17'>17</a>
+<a name='L18'></a><a href='#L18'>18</a>
+<a name='L19'></a><a href='#L19'>19</a>
+<a name='L20'></a><a href='#L20'>20</a>
+<a name='L21'></a><a href='#L21'>21</a>
+<a name='L22'></a><a href='#L22'>22</a>
+<a name='L23'></a><a href='#L23'>23</a>
+<a name='L24'></a><a href='#L24'>24</a>
+<a name='L25'></a><a href='#L25'>25</a>
+<a name='L26'></a><a href='#L26'>26</a>
+<a name='L27'></a><a href='#L27'>27</a>
+<a name='L28'></a><a href='#L28'>28</a>
+<a name='L29'></a><a href='#L29'>29</a>
+<a name='L30'></a><a href='#L30'>30</a>
+<a name='L31'></a><a href='#L31'>31</a>
+<a name='L32'></a><a href='#L32'>32</a>
+<a name='L33'></a><a href='#L33'>33</a>
+<a name='L34'></a><a href='#L34'>34</a>
+<a name='L35'></a><a href='#L35'>35</a>
+<a name='L36'></a><a href='#L36'>36</a>
+<a name='L37'></a><a href='#L37'>37</a>
+<a name='L38'></a><a href='#L38'>38</a>
+<a name='L39'></a><a href='#L39'>39</a>
+<a name='L40'></a><a href='#L40'>40</a>
+<a name='L41'></a><a href='#L41'>41</a>
+<a name='L42'></a><a href='#L42'>42</a>
+<a name='L43'></a><a href='#L43'>43</a>
+<a name='L44'></a><a href='#L44'>44</a>
+<a name='L45'></a><a href='#L45'>45</a>
+<a name='L46'></a><a href='#L46'>46</a>
+<a name='L47'></a><a href='#L47'>47</a>
+<a name='L48'></a><a href='#L48'>48</a>
+<a name='L49'></a><a href='#L49'>49</a>
+<a name='L50'></a><a href='#L50'>50</a>
+<a name='L51'></a><a href='#L51'>51</a>
+<a name='L52'></a><a href='#L52'>52</a>
+<a name='L53'></a><a href='#L53'>53</a>
+<a name='L54'></a><a href='#L54'>54</a>
+<a name='L55'></a><a href='#L55'>55</a>
+<a name='L56'></a><a href='#L56'>56</a>
+<a name='L57'></a><a href='#L57'>57</a>
+<a name='L58'></a><a href='#L58'>58</a>
+<a name='L59'></a><a href='#L59'>59</a>
+<a name='L60'></a><a href='#L60'>60</a>
+<a name='L61'></a><a href='#L61'>61</a>
+<a name='L62'></a><a href='#L62'>62</a>
+<a name='L63'></a><a href='#L63'>63</a>
+<a name='L64'></a><a href='#L64'>64</a>
+<a name='L65'></a><a href='#L65'>65</a>
+<a name='L66'></a><a href='#L66'>66</a>
+<a name='L67'></a><a href='#L67'>67</a>
+<a name='L68'></a><a href='#L68'>68</a>
+<a name='L69'></a><a href='#L69'>69</a>
+<a name='L70'></a><a href='#L70'>70</a>
+<a name='L71'></a><a href='#L71'>71</a>
+<a name='L72'></a><a href='#L72'>72</a>
+<a name='L73'></a><a href='#L73'>73</a>
+<a name='L74'></a><a href='#L74'>74</a>
+<a name='L75'></a><a href='#L75'>75</a>
+<a name='L76'></a><a href='#L76'>76</a>
+<a name='L77'></a><a href='#L77'>77</a>
+<a name='L78'></a><a href='#L78'>78</a>
+<a name='L79'></a><a href='#L79'>79</a>
+<a name='L80'></a><a href='#L80'>80</a>
+<a name='L81'></a><a href='#L81'>81</a>
+<a name='L82'></a><a href='#L82'>82</a>
+<a name='L83'></a><a href='#L83'>83</a>
+<a name='L84'></a><a href='#L84'>84</a>
+<a name='L85'></a><a href='#L85'>85</a>
+<a name='L86'></a><a href='#L86'>86</a>
+<a name='L87'></a><a href='#L87'>87</a>
+<a name='L88'></a><a href='#L88'>88</a>
+<a name='L89'></a><a href='#L89'>89</a>
+<a name='L90'></a><a href='#L90'>90</a>
+<a name='L91'></a><a href='#L91'>91</a>
+<a name='L92'></a><a href='#L92'>92</a>
+<a name='L93'></a><a href='#L93'>93</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">10x</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">10x</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">11x</span>
+<span class="cline-any cline-yes">38x</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-yes">63x</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">23x</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">17x</span>
+<span class="cline-any cline-yes">15x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">18x</span>
+<span class="cline-any cline-yes">15x</span>
+<span class="cline-any cline-yes">17x</span>
+<span class="cline-any cline-yes">17x</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">17x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import { creatorIdentity } from './canonical.ts';
+import { resolveJudgments } from './verdict.ts';
+import { resultTags, followerInterval, applyAssessment } from './assessment.ts';
+import type { Assessment, FactObservation } from '../shared/research.ts';
+import type { Result, Creator } from '../shared/research.ts';
+import type { ResearchEngine, ResearchTask } from './research.ts';
+import type { Enrichment } from './enrichment.ts';
+export function repairStoredResults(engine: ResearchEngine) {
+ const version='qa-20261010-v1';if(engine.store.get('data-migration',version))return;
+ engine.store.transaction(()=&gt;{
+  for(const task of engine.store.list&lt;ResearchTask&gt;('task')){
+   if(!task.spec)continue;
+   const instructions=task.spec.criteria.filter(item=&gt;!item.required&amp;&amp;/标注|标一下|打标/.test(item.label));
+   if(instructions.length){engine.store.set('task-history',`${task.id}|${version}`,task);task.spec.annotations=[...(task.spec.annotations??[]),...instructions.map(item=&gt;({id:item.id,label:item.label.includes('风格')?'呈现风格':'内容方向'}))];task.spec.criteria=task.spec.criteria.filter(item=&gt;!instructions.includes(item));}
+   const originals=engine.results(task.id);const unique=new Map&lt;string,Result&gt;();
+   for(const old of originals){
+    const creator={...old.creator,id:creatorIdentity(old.creator)};const id=`${task.id}|${creator.id}`;
+    const previous=unique.get(id);
+    let judgments=old.judgments.filter(item=&gt;!item.criterionId.startsWith('__')&amp;&amp;task.spec.criteria.some(criterion=&gt;criterion.id===item.criterionId));
+    if(previous)judgments=judgments.map(item=&gt;previous.judgments.some(other=&gt;other.criterionId===item.criterionId&amp;&amp;other.verdict!==item.verdict)?{...item,verdict:'unknown',reason:'同账号历史核验结论冲突，需重新核验'}:item);
+    const outcome=resolveJudgments(task.spec,creator,judgments);
+    const result:Result={...old,id,creator,...outcome,annotations: [...(old.annotations??[]),...instructions.map(item=&gt;({dimensionId:item.id,status:'unknown' as const,values:[],reason:'历史记录只有打标指令，没有结构化实际值，请补标后查询',evidenceIds:[]}))],tags:resultTags(task.spec,{judgments:outcome.judgments,annotations:old.annotations}),revision:(old.revision??1)+1,updatedAt:engine.now()};
+    if(previous)result.creator.evidence=[...new Map([...previous.creator.evidence,...creator.evidence].map(item=&gt;[item.id,item])).values()];
+    unique.set(id,result);engine.store.set('result-history',`${old.id}|migration-${version}`,old);engine.store.delete('result',old.id);
+   }
+   for(const result of unique.values())engine.store.set('result',result.id,result);
+   const candidates=new Map&lt;string,Creator&gt;();
+   for(const candidate of task.candidates){const id=creatorIdentity(candidate);if(!candidates.has(id))candidates.set(id,{...candidate,id});const session=engine.store.get('verification',`${task.id}|${candidate.id}`);if(session&amp;&amp;candidate.id!==id)engine.store.set('verification',`${task.id}|${id}`,session);}
+   task.candidates=[...candidates.values()];engine.recount(task);
+   if(['completed','partial'].includes(task.status))task.status=task.matched&gt;=task.requested?'completed':'partial';
+   if(originals.length){task.detail=`历史结果已按统一账号身份、国家名称和证据重算：已选合格 ${task.matched}/${task.requested}，核验 ${task.evaluated}。未确认条件保持 unknown；原分析已保留审计版本。`;engine.save(task);}
+   else engine.store.set('task',task.id,task);
+  }
+  engine.store.set('data-migration',version,{completedAt:engine.now()});
+ });
+}
+export function repairStoredTags(engine: ResearchEngine) {
+ const version = 'r2-actual-tags-20261010'; if (engine.store.get('data-migration', version)) return;
+ engine.store.transaction(() =&gt; {
+  for (const result of engine.store.list&lt;Result&gt;('result')) {
+   const tags = resultTags({} as ResearchTask['spec'], { judgments: result.judgments, annotations: result.annotations });
+   if (JSON.stringify(tags) === JSON.stringify(result.tags)) continue;
+   engine.store.set('result-history', `${result.id}|migration-${version}`, result);
+   engine.store.set('result', result.id, { ...result, tags, revision: (result.revision ?? 1) + 1, updatedAt: engine.now() });
+  }
+  engine.store.set('data-migration', version, { completedAt: engine.now(), scope: 'derived tags only; facts, judgments, selection unchanged' });
+ });
+}
+export function repairAnnotationDrift(engine: ResearchEngine) {
+ const version = 'r2-annotation-facts-20261010'; if (engine.store.get('data-migration', version)) return;
+ engine.store.transaction(() =&gt; {
+  const history = engine.store.list&lt;Result&gt;('result-history'); const jobs = engine.store.list&lt;Enrichment&gt;('enrichment'); const changed = new Set&lt;string&gt;();
+  const withoutFacts = (creator: Creator) =&gt; { const { facts: _facts, ...identity } = creator; return identity; };
+  const contentJudgments = (result: Result) =&gt; result.judgments.filter(item =&gt; !item.criterionId.startsWith('__'));
+  for (const current of engine.store.list&lt;Result&gt;('result')) {
+   if (!current.revision || current.revision &lt; 2) continue;
+   const before = history.find(old =&gt; old.id === current.id &amp;&amp; old.revision === current.revision! - 1);
+   if (!before || JSON.stringify(current.creator.facts) === JSON.stringify(before.creator.facts)) continue;
+   const owners = jobs.filter(job =&gt; job.resultIds.includes(current.id));
+   if (!owners.some(job =&gt; job.mode === 'annotate' &amp;&amp; job.completed.includes(current.id)) || owners.some(job =&gt; job.mode === 'reverify')) continue;
+   if (JSON.stringify(withoutFacts(current.creator)) !== JSON.stringify(withoutFacts(before.creator)) || JSON.stringify(contentJudgments(current)) !== JSON.stringify(contentJudgments(before))) continue;
+   engine.store.set('result-history', `${current.id}|migration-${version}`, current);
+   engine.store.set('result', current.id, { ...current, creator: before.creator, judgments: before.judgments, verdict: before.verdict, selected: before.selected, revision: current.revision + 1, updatedAt: engine.now() });
+   changed.add(current.taskId);
+  }
+  for (const id of changed) { const task = engine.store.get&lt;ResearchTask&gt;('task', id)!; engine.recount(task); if (['completed', 'partial'].includes(task.status)) task.status = task.matched &gt;= task.requested ? 'completed' : 'partial'; task.detail = `已依据补标前审计版本恢复原事实与筛选结论，保留新增画像：已选合格 ${task.matched}/${task.requested}，核验 ${task.evaluated}。`; engine.save(task, false); }
+  engine.store.set('data-migration', version, { completedAt: engine.now(), taskIds: [...changed], scope: 'completed annotate only; adjacent audit revision; unchanged identity/evidence/content judgments; any reverify excluded' });
+ });
+}
+export function repairFollowerPrecision(engine: ResearchEngine) {
+ const version = 'r3-follower-precision-20261010'; if (engine.store.get('data-migration', version)) return;
+ engine.store.transaction(() =&gt; {
+  const changed = new Set&lt;string&gt;(); const jobs = engine.store.list&lt;Enrichment&gt;('enrichment');
+  for (const result of engine.store.list&lt;Result&gt;('result')) {
+   if (!result.creator.facts?.conflicts.includes('followers: 来源数值冲突') || result.creator.followers === null) continue;
+   const sessions = [result.id, ...jobs.filter(job =&gt; job.mode === 'reverify' &amp;&amp; job.resultIds.includes(result.id)).map(job =&gt; `${job.id}|${result.creator.id}`)];
+   let fact: FactObservation | undefined;
+   for (const id of sessions) { const saved = engine.store.get&lt;{ assessment?: Assessment }&gt;('verification', id)?.assessment?.facts?.filter(item =&gt; item.kind === 'followers').at(-1); if (saved) fact = saved; }
+   fact ??= result.creator.facts.followers &amp;&amp; { kind: 'followers', rawValue: result.creator.facts.followers.rawValue, evidenceIds: result.creator.facts.followers.evidenceIds };
+   const interval = fact &amp;&amp; typeof fact.rawValue === 'string' &amp;&amp; followerInterval(fact.rawValue);
+   if (!fact || !interval || result.creator.followers &lt; interval.min || result.creator.followers &gt; interval.max || !Array.isArray(fact.evidenceIds) || !fact.evidenceIds.length || fact.evidenceIds.some(id =&gt; !result.creator.evidence.some(e =&gt; e.id === id))) continue;
+   const source = engine.store.get&lt;ResearchTask&gt;('task', result.taskId); if (!source?.spec) continue; const creator = structuredClone(result.creator);
+   applyAssessment(source.spec, creator, { judgments: [], facts: [fact] });
+   if (creator.facts?.conflicts.includes('followers: 来源数值冲突')) continue;
+   const outcome = resolveJudgments(source.spec, creator, result.judgments.filter(j =&gt; !j.criterionId.startsWith('__')));
+   engine.store.set('result-history', `${result.id}|migration-${version}`, result);
+   engine.store.set('result', result.id, { ...result, creator, ...outcome, revision: (result.revision ?? 1) + 1, updatedAt: engine.now() }); changed.add(result.taskId);
+  }
+  for (const id of changed) { const task = engine.store.get&lt;ResearchTask&gt;('task', id)!; engine.recount(task); if (['completed', 'partial'].includes(task.status)) task.status = task.matched &gt;= task.requested ? 'completed' : 'partial'; task.detail = `已依据保存的本人显示值修正粉丝缩写精度，不是新页面核验：已选合格 ${task.matched}/${task.requested}，核验 ${task.evaluated}；原版本保留审计。`; engine.save(task, false); }
+  engine.store.set('data-migration', version, { completedAt: engine.now(), taskIds: [...changed], scope: 'known followers precision conflict only; latest submitted owned evidence compatible with exact Wave count; no model, API, or redelivery' });
+ });
+}
+&nbsp;</pre></td></tr></table></pre>
+
+                <div class='push'></div><!-- for sticky footer -->
+            </div><!-- /wrapper -->
+            <div class='footer quiet pad2 space-top1 center small'>
+                Code coverage generated by
+                <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
+                at 2026-10-10T13:29:51.355Z
+            </div>
+        <script src="../prettify.js"></script>
+        <script>
+            window.onload = function () {
+                prettyPrint();
+            };
+        </script>
+        <script src="../sorter.js"></script>
+        <script src="../block-navigation.js"></script>
+    </body>
+</html>
+    

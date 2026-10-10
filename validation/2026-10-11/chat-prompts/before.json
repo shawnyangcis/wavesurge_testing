@@ -1,0 +1,222 @@
+[
+  {
+    "name": "main",
+    "epoch": 6,
+    "tasks": 29,
+    "messages": 211,
+    "counts": [
+      {
+        "kind": "asset",
+        "count": 41
+      },
+      {
+        "kind": "assistance",
+        "count": 10
+      },
+      {
+        "kind": "batch",
+        "count": 183
+      },
+      {
+        "kind": "call",
+        "count": 158
+      },
+      {
+        "kind": "campaign",
+        "count": 8
+      },
+      {
+        "kind": "campaign-final",
+        "count": 7
+      },
+      {
+        "kind": "campaign-state",
+        "count": 8
+      },
+      {
+        "kind": "checkpoint",
+        "count": 4
+      },
+      {
+        "kind": "data-migration",
+        "count": 5
+      },
+      {
+        "kind": "delivery",
+        "count": 43
+      },
+      {
+        "kind": "enrichment",
+        "count": 9
+      },
+      {
+        "kind": "message",
+        "count": 211
+      },
+      {
+        "kind": "result",
+        "count": 20
+      },
+      {
+        "kind": "result-history",
+        "count": 75
+      },
+      {
+        "kind": "session",
+        "count": 112
+      },
+      {
+        "kind": "settings",
+        "count": 3
+      },
+      {
+        "kind": "task",
+        "count": 29
+      },
+      {
+        "kind": "tool-owner",
+        "count": 8
+      },
+      {
+        "kind": "tool-receipt",
+        "count": 28
+      },
+      {
+        "kind": "verification",
+        "count": 20
+      },
+      {
+        "kind": "wave-call",
+        "count": 199
+      },
+      {
+        "kind": "work-batch",
+        "count": 1
+      }
+    ],
+    "settingsRevision": 16,
+    "defaultFields": [
+      {
+        "field": "systemPrompt",
+        "previousDefault": true,
+        "alreadyCurrent": false
+      },
+      {
+        "field": "workflowPrompt",
+        "previousDefault": true,
+        "alreadyCurrent": false
+      },
+      {
+        "field": "verificationPrompt",
+        "previousDefault": true,
+        "alreadyCurrent": false
+      },
+      {
+        "field": "compressionPrompt",
+        "previousDefault": true,
+        "alreadyCurrent": false
+      }
+    ],
+    "idle": true
+  },
+  {
+    "name": "real",
+    "epoch": 0,
+    "tasks": 8,
+    "messages": 17,
+    "counts": [
+      {
+        "kind": "batch",
+        "count": 23
+      },
+      {
+        "kind": "call",
+        "count": 29
+      },
+      {
+        "kind": "campaign",
+        "count": 1
+      },
+      {
+        "kind": "campaign-state",
+        "count": 1
+      },
+      {
+        "kind": "data-migration",
+        "count": 5
+      },
+      {
+        "kind": "delivery",
+        "count": 3
+      },
+      {
+        "kind": "enrichment",
+        "count": 3
+      },
+      {
+        "kind": "message",
+        "count": 17
+      },
+      {
+        "kind": "result",
+        "count": 10
+      },
+      {
+        "kind": "result-history",
+        "count": 6
+      },
+      {
+        "kind": "session",
+        "count": 7
+      },
+      {
+        "kind": "settings",
+        "count": 2
+      },
+      {
+        "kind": "task",
+        "count": 8
+      },
+      {
+        "kind": "tool-owner",
+        "count": 11
+      },
+      {
+        "kind": "tool-receipt",
+        "count": 11
+      },
+      {
+        "kind": "wave-call",
+        "count": 50
+      },
+      {
+        "kind": "work-batch",
+        "count": 3
+      }
+    ],
+    "settingsRevision": 2,
+    "defaultFields": [
+      {
+        "field": "systemPrompt",
+        "previousDefault": true,
+        "alreadyCurrent": false
+      },
+      {
+        "field": "workflowPrompt",
+        "previousDefault": true,
+        "alreadyCurrent": false
+      },
+      {
+        "field": "verificationPrompt",
+        "previousDefault": true,
+        "alreadyCurrent": false
+      },
+      {
+        "field": "compressionPrompt",
+        "previousDefault": true,
+        "alreadyCurrent": false
+      }
+    ],
+    "idle": true
+  }
+]

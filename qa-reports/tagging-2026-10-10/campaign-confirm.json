@@ -1,0 +1,254 @@
+{
+  "caseName": "campaign-confirm",
+  "base": "http://127.0.0.1:3400",
+  "startedAt": "2026-10-10T02:44:27.221Z",
+  "source": "Actual application UI; configured real model and WaveSurge API; no seeded candidates or modified prompts",
+  "input": "行，就按这版找吧，最多四个候选，先跑这一轮。出来以后把每个人的标签、依据和结果文档一起给我。",
+  "before": {
+    "tasks": [
+      {
+        "id": "research-ea8649d3fc1258c3d1017445",
+        "title": "美国 TikTok 戴眼镜男性创作者筛选",
+        "status": "running",
+        "requested": 2,
+        "evaluated": 0,
+        "matched": 0,
+        "updatedAt": 1791600188622,
+        "detail": "WaveSurge 搜索等待执行；本地已合格 0 人",
+        "remoteId": "bf3be041-bdd9-4319-9b07-1ed40b8d7d6e",
+        "remoteStatus": "queued",
+        "nextPollAt": 1791600248622
+      }
+    ],
+    "results": []
+  },
+  "finishedAt": "2026-10-10T02:44:53.994Z",
+  "active": false,
+  "messages": [
+    {
+      "id": "7dc68feb-b7ea-4eb6-997e-a480878e7af3",
+      "role": "user",
+      "text": "行，就按这版找吧，最多四个候选，先跑这一轮。出来以后把每个人的标签、依据和结果文档一起给我。",
+      "state": "delivered",
+      "createdAt": 1791600267759,
+      "attachmentCount": 0
+    },
+    {
+      "id": "bfd1d94e-34fd-4426-bacf-18fa23c673fa",
+      "role": "assistant",
+      "text": "已按 **v1 方案启动本轮搜索**：\n\n- **大学学习／校园生活类**：最多2个候选，目标1位合格。\n- **AI／效率工具实测类**：最多2个候选，目标1位合格。\n- 总候选上限 **4个**，同一账号不重复占名额；不足不凑数，也不自动扩搜。\n\n结果出来后，会一起提供**逐人标签、来源依据和结果文档**，包括未通过及待确认的候选。每个人会列出内容方向、表达风格、适合的合作类型，以及各项必选条件的核验结论。\n\n本轮搜索免费，不会联系创作者。",
+      "state": "delivered",
+      "createdAt": 1791600293724,
+      "attachmentCount": 0
+    }
+  ],
+  "tasks": [
+    {
+      "id": "research-ea8649d3fc1258c3d1017445",
+      "title": "美国 TikTok 戴眼镜男性创作者筛选",
+      "status": "running",
+      "requested": 2,
+      "evaluated": 0,
+      "matched": 0,
+      "updatedAt": 1791600274228,
+      "detail": "WaveSurge 搜索等待执行；本地已合格 0 人",
+      "remoteId": "bf3be041-bdd9-4319-9b07-1ed40b8d7d6e",
+      "remoteStatus": "queued",
+      "nextPollAt": 1791600334228
+    },
+    {
+      "id": "research-b936fbc06246aea943518299",
+      "title": "大学学习／校园生活类",
+      "status": "running",
+      "requested": 1,
+      "evaluated": 0,
+      "matched": 0,
+      "updatedAt": 1791600274369,
+      "detail": "搜索已提交，等待 WaveSurge 返回候选",
+      "remoteId": "a6df0b48-b6bd-4509-83e1-a137264b3ca6",
+      "nextPollAt": 1791600334369
+    },
+    {
+      "id": "research-e3aad23438e47a041a9d8b86",
+      "title": "AI／效率工具实测类",
+      "status": "running",
+      "requested": 1,
+      "evaluated": 0,
+      "matched": 0,
+      "updatedAt": 1791600274599,
+      "detail": "搜索已提交，等待 WaveSurge 返回候选",
+      "remoteId": "c95a9b44-17ba-4507-a684-565810537fca",
+      "nextPollAt": 1791600334599
+    }
+  ],
+  "results": [],
+  "modelCalls": [
+    {
+      "id": "dc3d6893-1545-4353-80cb-e1997da80e5b",
+      "kind": "chat",
+      "createdAt": 1791600267770,
+      "finishedAt": 1791600273969,
+      "model": "gpt-6.1-sol",
+      "toolNames": [
+        "get_tasks",
+        "search_history",
+        "start_research",
+        "cancel_research",
+        "get_results",
+        "save_campaign_plan",
+        "get_campaigns",
+        "start_campaign"
+      ],
+      "response": {
+        "role": "assistant",
+        "content": null,
+        "reasoning_content": null,
+        "tool_calls": [
+          {
+            "id": "call_FnETdbr6I2RMCZfhwLqQ8mH4",
+            "type": "function",
+            "function": {
+              "name": "start_campaign",
+              "arguments": "{\"id\":\"campaign-f391361d37047756cfe3cd4f\",\"revision\":1}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "6234c54c-481e-44b5-88ad-25927590307e",
+      "kind": "chat",
+      "createdAt": 1791600273995,
+      "finishedAt": 1791600282947,
+      "model": "gpt-6.1-sol",
+      "toolNames": [
+        "get_tasks",
+        "search_history",
+        "start_research",
+        "cancel_research",
+        "get_results",
+        "save_campaign_plan",
+        "get_campaigns",
+        "start_campaign"
+      ],
+      "response": {
+        "role": "assistant",
+        "content": "已按 **v1 方案启动本轮任务**：每类最多核验 **2 个候选，总计最多4个**，目标是每类找到1位合格创作者，同一账号不重复计数。不自动扩大范围，也不联系创作者。\n\n结果出来后，会一起给你：\n- 每个人的**内容方向、表达风格、适合的合作类型**及依据；\n- 各项必选条件的**符合／不符合／待确认**、来源与证据编号；\n- **完整结果文档**，包含未通过和待确认的候选，以及最终名额缺口。\n\n目前两个分组任务已创建，尚无核验结果。",
+        "reasoning_content": null,
+        "tool_calls": null
+      }
+    },
+    {
+      "id": "2a436324-0215-428d-912f-ce4a87670bf8",
+      "kind": "chat",
+      "createdAt": 1791600282953,
+      "finishedAt": 1791600293719,
+      "model": "gpt-6.1-sol",
+      "toolNames": [
+        "get_tasks",
+        "search_history",
+        "start_research",
+        "cancel_research",
+        "get_results",
+        "save_campaign_plan",
+        "get_campaigns",
+        "start_campaign"
+      ],
+      "response": {
+        "role": "assistant",
+        "content": "已按 **v1 方案启动本轮搜索**：\n\n- **大学学习／校园生活类**：最多2个候选，目标1位合格。\n- **AI／效率工具实测类**：最多2个候选，目标1位合格。\n- 总候选上限 **4个**，同一账号不重复占名额；不足不凑数，也不自动扩搜。\n\n结果出来后，会一起提供**逐人标签、来源依据和结果文档**，包括未通过及待确认的候选。每个人会列出内容方向、表达风格、适合的合作类型，以及各项必选条件的核验结论。\n\n本轮搜索免费，不会联系创作者。",
+        "reasoning_content": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "toolReceipts": [
+    {
+      "call": {
+        "id": "call_FnETdbr6I2RMCZfhwLqQ8mH4",
+        "type": "function",
+        "function": {
+          "name": "start_campaign",
+          "arguments": "{\"id\":\"campaign-f391361d37047756cfe3cd4f\",\"revision\":1}"
+        }
+      },
+      "message": {
+        "role": "tool",
+        "tool_call_id": "call_FnETdbr6I2RMCZfhwLqQ8mH4",
+        "content": "{\"title\":\"美国大学生 AI 笔记工具 TikTok 试点\",\"goal\":\"推广可免费试用的 AI 笔记工具：将课堂录音整理成笔记，并生成复习题；通过真实学习场景与操作演示促进学生试用。先提交方案供确认，不启动搜索或外联。\",\"audience\":\"美国大学生；建议以英语内容为主，作为偏好而非已确认硬性限制。\",\"groups\":[{\"id\":\"college_study\",\"rationale\":\"大学学习与校园生活创作者通过课堂笔记、备考等真实场景展示工具如何支持学习，建立同龄人的使用动机。\",\"spec\":{\"title\":\"大学学习／校园生活类\",\"personaText\":\"United States-based TikTok creators making college study, class note-taking, exam preparation, and campus-life content for university students.\",\"count\":1,\"platforms\":[\"tiktok\"],\"regions\":[\"United States\"],\"minFollowers\":10000,\"maxFollowers\":100000,\"candidateBudget\":2,\"criteria\":[{\"id\":\"college_learning_content\",\"label\":\"有可核实的、面向大学生的学习内容依据，如大学课程笔记、大学考试复习或大学学习方法；仅泛校园生活不足以满足。\",\"required\":true,\"basis\":\"either\"},{\"id\":\"study_campus_focus\",\"label\":\"有大学学习或校园生活相关内容方向的证据。\",\"required\":true,\"basis\":\"either\"},{\"id\":\"practical_demo\",\"label\":\"有实际操作演示或学习方法教程内容的证据，不仅口头罗列推荐。\",\"required\":true,\"basis\":\"either\"},{\"id\":\"english_content\",\"label\":\"主要以英语发布内容，优先考虑。\",\"required\":false,\"basis\":\"either\"},{\"id\":\"content_direction\",\"label\":\"标注内容方向并附来源依据；证据不足标待确认。\",\"required\":false,\"basis\":\"either\"},{\"id\":\"expression_style\",\"label\":\"根据可核实内容标注表达风格并附来源依据；证据不足标待确认。\",\"required\":false,\"basis\":\"either\"},{\"id\":\"collaboration_fit\",\"label\":\"根据内容证据建议适合的合作形式，如真实课堂录音到笔记及复习题的学习场景演示；不视为已确认合作意愿或产品能力实测。\",\"required\":false,\"basis\":\"either\"}]}},{\"id\":\"ai_productivity\",\"rationale\":\"AI／效率工具实测创作者用操作教程解释录音整理笔记、生成复习题的流程与价值，帮助大学生降低试用门槛；同时必须有面向大学生的学习内容证据。\",\"spec\":{\"title\":\"AI／效率工具实测类\",\"personaText\":\"United States-based TikTok creators reviewing and demonstrating AI and productivity tools for university students, with college learning, lecture note-taking, or exam preparation content.\",\"count\":1,\"platforms\":[\"tiktok\"],\"regions\":[\"United States\"],\"minFollowers\":10000,\"maxFollowers\":100000,\"candidateBudget\":2,\"criteria\":[{\"id\":\"college_learning_content\",\"label\":\"有可核实的、面向大学生的学习内容依据，如大学课程笔记、大学考试复习或大学学习方法；泛效率或通用 AI 推荐不足以满足。\",\"required\":true,\"basis\":\"either\"},{\"id\":\"ai_productivity_focus\",\"label\":\"有 AI 或效率工具评测、教程或实测相关内容方向的证据。\",\"required\":true,\"basis\":\"either\"},{\"id\":\"practical_demo\",\"label\":\"有实际工具操作演示或教程内容的证据，不仅口头罗列工具。\",\"required\":true,\"basis\":\"either\"},{\"id\":\"english_content\",\"label\":\"主要以英语发布内容，优先考虑。\",\"required\":false,\"basis\":\"either\"},{\"id\":\"content_direction\",\"label\":\"标注内容方向并附来源依据；证据不足标待确认。\",\"required\":false,\"basis\":\"either\"},{\"id\":\"expression_style\",\"label\":\"根据可核实内容标注表达风格并附来源依据；证据不足标待确认。\",\"required\":false,\"basis\":\"either\"},{\"id\":\"collaboration_fit\",\"label\":\"根据内容证据建议适合的合作形式，如面向大学生的工具实测、操作教程及免费试用引导；不视为已确认合作意愿或产品能力实测。\",\"required\":false,\"basis\":\"either\"}]}}],\"id\":\"campaign-f391361d37047756cfe3cd4f\",\"revision\":1,\"childTaskIds\":[\"research-b936fbc06246aea943518299\",\"research-e3aad23438e47a041a9d8b86\"],\"createdAt\":1791600082653,\"updatedAt\":1791600273976}"
+      }
+    }
+  ],
+  "waveCalls": [
+    {
+      "id": "be5c090b-a86c-42bb-ba8a-32a38dd5a8ee",
+      "kind": "wavesurge",
+      "createdAt": 1791600273978,
+      "path": "/creator-search/requests/bf3be041-bdd9-4319-9b07-1ed40b8d7d6e",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791600274224
+    },
+    {
+      "id": "d906d990-b0c8-42b2-bdbf-b7599afccffd",
+      "kind": "wavesurge",
+      "createdAt": 1791600274234,
+      "path": "/creator-search/requests",
+      "method": "POST",
+      "request": {
+        "requestId": "research-b936fbc06246aea943518299",
+        "personaText": "United States-based TikTok creators making college study, class note-taking, exam preparation, and campus-life content for university students.",
+        "count": 2,
+        "platforms": [
+          "tiktok"
+        ],
+        "regions": [
+          "United States"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "emailReadyRequired": false
+      },
+      "status": 201,
+      "response": {
+        "taskId": "a6df0b48-b6bd-4509-83e1-a137264b3ca6"
+      },
+      "finishedAt": 1791600274364
+    },
+    {
+      "id": "76e37242-97a3-402c-b912-c4a1e0122cad",
+      "kind": "wavesurge",
+      "createdAt": 1791600274375,
+      "path": "/creator-search/requests",
+      "method": "POST",
+      "request": {
+        "requestId": "research-e3aad23438e47a041a9d8b86",
+        "personaText": "United States-based TikTok creators reviewing and demonstrating AI and productivity tools for university students, with college learning, lecture note-taking, or exam preparation content.",
+        "count": 2,
+        "platforms": [
+          "tiktok"
+        ],
+        "regions": [
+          "United States"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "emailReadyRequired": false
+      },
+      "status": 201,
+      "response": {
+        "taskId": "c95a9b44-17ba-4507-a684-565810537fca"
+      },
+      "finishedAt": 1791600274595
+    }
+  ],
+  "chatReportLinks": []
+}

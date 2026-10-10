@@ -1,0 +1,1565 @@
+{
+  "generatedAtShanghai": "2026-10-09T23:14:28.764149+08:00",
+  "sourceConversationId": "6ac8ee76-259c-83ee-bb74-5f375ae9a3ae",
+  "directSearch": {
+    "requestId": "creator-filter-contract-20261009-instagram-01",
+    "taskId": "16a57ca6-521f-4843-8bb2-a3eccbd1a7ff",
+    "sameTaskOnIdenticalReplay": true,
+    "latestObservedAtUtc": "2026-10-09T14:49:47.736627+00:00",
+    "latestResponse": {
+      "status": "done",
+      "strategyOperationId": null,
+      "creators": [],
+      "alsoFound": [],
+      "summary": {
+        "lanes": [
+          {
+            "a": 0,
+            "b": 0,
+            "market": {
+              "unclear": 0,
+              "inMarket": 0,
+              "otherMarket": 0
+            },
+            "target": 2,
+            "location": {
+              "unverified": 0,
+              "confirmedCountry": 0,
+              "knownOtherCountry": 0
+            },
+            "platform": "instagram",
+            "rejected": {
+              "notNeeded": 0,
+              "notPerson": 0,
+              "offPersona": 0,
+              "notReviewed": 0,
+              "otherMarket": 0,
+              "locationUnknown": 0,
+              "noPublicContact": 0,
+              "audienceRegionBelow": 0,
+              "contactLookupFailed": 0,
+              "audienceRegionUnread": 0,
+              "outsideFollowerWindow": 0,
+              "contactBehindPlatformGate": 0
+            },
+            "delivered": 0,
+            "shortfallReason": "Public profile emails for @buscodes and @ferdie.dev were not recorded by creator_contacts, so they cannot be delivered under the contact-tool requirement. Paid contact lookup failed for both viable candidates with apify_http_403; no repeat lookup was made. No other candidate verified every hard condition, including a recorded public email and English-language content."
+          }
+        ],
+        "delivered": 0,
+        "requested": 2
+      },
+      "usage": {
+        "byPath": {
+          "/api/v1/instagram/v1/fetch_search": 7,
+          "/api/v1/instagram/v2/search_reels": 5,
+          "/api/v1/instagram/v2/search_users": 2,
+          "/api/v1/instagram/v2/general_search": 1,
+          "/api/v1/instagram/v2/fetch_user_info": 75,
+          "/api/v1/instagram/v1/fetch_user_reels": 1,
+          "/api/v1/instagram/v1/fetch_user_posts_v2": 3,
+          "/api/v1/instagram/v2/fetch_user_followers": 2,
+          "/api/v1/instagram/v1/fetch_user_info_by_username_v2": 3
+        },
+        "refusals": 1,
+        "modelCalls": 75,
+        "inputTokens": 6844959,
+        "msPacerWait": 27840,
+        "pageFetches": 2,
+        "totalTokens": 6884760,
+        "modelCostUsd": 0.028771804,
+        "msInProvider": 729540,
+        "outputTokens": 39801,
+        "providerCalls": 99,
+        "providerCostUsd": 0.223,
+        "providerTimeouts": 0,
+        "agentModelCostUsd": 0.106162335,
+        "cachedInputTokens": 6690021,
+        "msInProviderByPath": {
+          "/api/v1/instagram/v1/fetch_search": 81590,
+          "/api/v1/instagram/v2/search_reels": 44994,
+          "/api/v1/instagram/v2/search_users": 7002,
+          "/api/v1/instagram/v2/general_search": 7569,
+          "/api/v1/instagram/v2/fetch_user_info": 539599,
+          "/api/v1/instagram/v1/fetch_user_reels": 7427,
+          "/api/v1/instagram/v1/fetch_user_posts_v2": 18610,
+          "/api/v1/instagram/v2/fetch_user_followers": 9815,
+          "/api/v1/instagram/v1/fetch_user_info_by_username_v2": 12934
+        }
+      },
+      "expectedDurationHours": null
+    }
+  },
+  "credits": {
+    "observedBalanceDelta": 0,
+    "ledgerUnchanged": true,
+    "paidConfirmationCalled": false,
+    "chatTurnPosted": false,
+    "outreachCalled": false
+  },
+  "instagramPoolSample": {
+    "query": "/discover/db?platform=instagram&limit=500&sort=followers_asc",
+    "returned": 500,
+    "uniqueIds": 500,
+    "followersMin": 1010,
+    "followersMax": 5445,
+    "within10000To100000": 0,
+    "avatarNonNull": 277,
+    "audienceNonNull": 77,
+    "qualificationNonNull": 0,
+    "publishedLinkNonNull": 25,
+    "itemFields": [
+      "id",
+      "handle",
+      "displayName",
+      "bio",
+      "details",
+      "platform",
+      "region",
+      "audience",
+      "followerCount",
+      "engagementRate",
+      "engagementKnown",
+      "kolType",
+      "avatarUrl",
+      "publishedLink",
+      "tier",
+      "fit",
+      "fromCompetitor",
+      "source",
+      "sourceType",
+      "sourceSubType",
+      "origin",
+      "foundAt",
+      "batchLabel",
+      "emailStatus",
+      "emailReadyAt",
+      "email",
+      "emailUsable",
+      "emailQualified",
+      "emailAutoSendable",
+      "emailConfidence",
+      "emailOwnerType",
+      "emailReasons",
+      "contactChannels",
+      "contactChannelCount",
+      "contactable",
+      "lastSeenAt",
+      "searchKind",
+      "accountIdentity",
+      "recommendationKind",
+      "audienceStatus",
+      "qualification",
+      "searchMatchTier"
+    ]
+  },
+  "discoverRangeQuery": {
+    "returnedFollowerCounts": [
+      489740,
+      387441,
+      334901
+    ],
+    "rangeEnforced": false
+  },
+  "apiRecords": [
+    {
+      "atUtc": "2026-10-09T14:22:27.028467+00:00",
+      "method": "GET",
+      "path": "/auth/me",
+      "status": 200,
+      "elapsedSeconds": 0.248,
+      "file": "auth-bearer.json",
+      "responseKeys": [
+        "user"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:17:19.993965+00:00",
+      "method": "GET",
+      "path": "/auth/me",
+      "status": 200,
+      "elapsedSeconds": 0.435,
+      "file": "auth-me.json",
+      "responseKeys": [
+        "user"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:24:10.260372+00:00",
+      "method": "GET",
+      "path": "/credits/balance",
+      "status": 200,
+      "elapsedSeconds": 0.566,
+      "file": "balance-after.json",
+      "responseKeys": [
+        "balance"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:17:58.073631+00:00",
+      "method": "GET",
+      "path": "/credits/balance",
+      "status": 200,
+      "elapsedSeconds": 0.817,
+      "file": "balance-before.json",
+      "responseKeys": [
+        "balance"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:17:58.078753+00:00",
+      "method": "GET",
+      "path": "/kol/campaigns?page=1&limit=2",
+      "status": 200,
+      "elapsedSeconds": 0.67,
+      "file": "campaigns.json",
+      "responseKeys": [
+        "campaigns",
+        "pagination"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:22:27.004391+00:00",
+      "method": "GET",
+      "path": "/codex-chat/conversations",
+      "status": 401,
+      "elapsedSeconds": 0.512,
+      "file": "conversations-bearer.json",
+      "responseKeys": [
+        "error"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:17:57.989561+00:00",
+      "method": "GET",
+      "path": "/codex-chat/conversations",
+      "status": 200,
+      "elapsedSeconds": 0.631,
+      "file": "conversations.json",
+      "responseKeys": [
+        "conversations"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:17:59.019475+00:00",
+      "method": "POST",
+      "path": "/creator-search/requests",
+      "status": 201,
+      "elapsedSeconds": 0.273,
+      "file": "direct-search-create.json",
+      "responseKeys": [
+        "taskId"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:19:58.648932+00:00",
+      "method": "POST",
+      "path": "/creator-search/requests",
+      "status": 201,
+      "elapsedSeconds": 1.148,
+      "file": "direct-search-idempotency.json",
+      "responseKeys": [
+        "taskId"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:18:57.739081+00:00",
+      "method": "GET",
+      "path": "/creator-search/requests/16a57ca6-521f-4843-8bb2-a3eccbd1a7ff",
+      "status": 200,
+      "elapsedSeconds": 0.556,
+      "file": "direct-search-poll-01.json",
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:22:26.958528+00:00",
+      "method": "GET",
+      "path": "/creator-search/requests/16a57ca6-521f-4843-8bb2-a3eccbd1a7ff",
+      "status": 200,
+      "elapsedSeconds": 0.678,
+      "file": "direct-search-poll-02.json",
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:27:57.756589+00:00",
+      "method": "GET",
+      "path": "/creator-search/requests/16a57ca6-521f-4843-8bb2-a3eccbd1a7ff",
+      "status": 200,
+      "elapsedSeconds": 0.737,
+      "file": "direct-search-poll-03.json",
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:46:30.582701+00:00",
+      "method": "GET",
+      "path": "/creator-search/requests/16a57ca6-521f-4843-8bb2-a3eccbd1a7ff",
+      "status": 200,
+      "elapsedSeconds": 0.534,
+      "file": "direct-search-poll-04.json",
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "summary",
+        "usage",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:24:10.260362+00:00",
+      "method": "GET",
+      "path": "/discover/db?platform=instagram&limit=50&sort=fit_desc",
+      "status": 200,
+      "elapsedSeconds": 1.682,
+      "file": "discover-instagram-50.json",
+      "responseKeys": [
+        "summary",
+        "tiers",
+        "creators",
+        "strategy",
+        "screening",
+        "scraping",
+        "collecting",
+        "latestCreatorSearchTaskId",
+        "latestSearchFunnel",
+        "target",
+        "fulfilled",
+        "campaignState"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:27:56.626166+00:00",
+      "method": "GET",
+      "path": "/discover/db?platform=instagram&limit=500&sort=followers_asc",
+      "status": 200,
+      "elapsedSeconds": 2.379,
+      "file": "discover-instagram-500.json",
+      "responseKeys": [
+        "summary",
+        "tiers",
+        "creators",
+        "strategy",
+        "screening",
+        "scraping",
+        "collecting",
+        "latestCreatorSearchTaskId",
+        "latestSearchFunnel",
+        "target",
+        "fulfilled",
+        "campaignState"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:19:57.520301+00:00",
+      "method": "GET",
+      "path": "/discover/db?platform=instagram&limit=10&sort=followers_asc",
+      "status": 200,
+      "elapsedSeconds": 2.015,
+      "file": "discover-instagram-asc.json",
+      "responseKeys": [
+        "summary",
+        "tiers",
+        "creators",
+        "strategy",
+        "screening",
+        "scraping",
+        "collecting",
+        "latestCreatorSearchTaskId",
+        "latestSearchFunnel",
+        "target",
+        "fulfilled",
+        "campaignState"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:22:26.941242+00:00",
+      "method": "GET",
+      "path": "/discover/db?platform=instagram&limit=1",
+      "status": 401,
+      "elapsedSeconds": 0.54,
+      "file": "discover-no-auth.json",
+      "responseKeys": [
+        "error"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:19:57.519367+00:00",
+      "method": "GET",
+      "path": "/discover/db",
+      "status": 400,
+      "elapsedSeconds": 0.511,
+      "file": "discover-no-platform.json",
+      "responseKeys": [
+        "error"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:22:26.943153+00:00",
+      "method": "GET",
+      "path": "/discover/db?platform=instagram&limit=3&sort=followers_desc&minFollowers=10000&maxFollowers=100000",
+      "status": 200,
+      "elapsedSeconds": 2.09,
+      "file": "discover-range-query.json",
+      "responseKeys": [
+        "summary",
+        "tiers",
+        "creators",
+        "strategy",
+        "screening",
+        "scraping",
+        "collecting",
+        "latestCreatorSearchTaskId",
+        "latestSearchFunnel",
+        "target",
+        "fulfilled",
+        "campaignState"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:19:57.519451+00:00",
+      "method": "GET",
+      "path": "/discover/db?platform=tiktok&limit=2&sort=fit_desc",
+      "status": 200,
+      "elapsedSeconds": 2.275,
+      "file": "discover-tiktok.json",
+      "responseKeys": [
+        "summary",
+        "tiers",
+        "creators",
+        "strategy",
+        "screening",
+        "scraping",
+        "collecting",
+        "latestCreatorSearchTaskId",
+        "latestSearchFunnel",
+        "target",
+        "fulfilled",
+        "campaignState"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:19:57.534836+00:00",
+      "method": "GET",
+      "path": "/discover/db?platform=twitter&limit=2&sort=fit_desc",
+      "status": 200,
+      "elapsedSeconds": 2.784,
+      "file": "discover-twitter.json",
+      "responseKeys": [
+        "summary",
+        "tiers",
+        "creators",
+        "strategy",
+        "screening",
+        "scraping",
+        "collecting",
+        "latestCreatorSearchTaskId",
+        "latestSearchFunnel",
+        "target",
+        "fulfilled",
+        "campaignState"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:17:58.014548+00:00",
+      "method": "GET",
+      "path": "/discover/db?platform=instagram&limit=2&sort=followers_desc",
+      "status": 200,
+      "elapsedSeconds": 2.477,
+      "file": "discover-without-campaign.json",
+      "responseKeys": [
+        "summary",
+        "tiers",
+        "creators",
+        "strategy",
+        "screening",
+        "scraping",
+        "collecting",
+        "latestCreatorSearchTaskId",
+        "latestSearchFunnel",
+        "target",
+        "fulfilled",
+        "campaignState"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:19:57.519359+00:00",
+      "method": "GET",
+      "path": "/discover/db?platform=youtube&limit=2&sort=fit_desc",
+      "status": 200,
+      "elapsedSeconds": 2.285,
+      "file": "discover-youtube.json",
+      "responseKeys": [
+        "summary",
+        "tiers",
+        "creators",
+        "strategy",
+        "screening",
+        "scraping",
+        "collecting",
+        "latestCreatorSearchTaskId",
+        "latestSearchFunnel",
+        "target",
+        "fulfilled",
+        "campaignState"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:18:57.710713+00:00",
+      "method": "GET",
+      "path": "/codex-chat/conversations/3af8e0fc-d70b-4f2c-8447-eaa165d4bf61",
+      "status": 200,
+      "elapsedSeconds": 0.67,
+      "file": "existing-conversation-0.json",
+      "responseKeys": [
+        "id",
+        "title",
+        "campaignId",
+        "messages",
+        "permissions",
+        "briefRevision",
+        "brief",
+        "briefView",
+        "ruleView",
+        "actionReadiness",
+        "tasks",
+        "outputs",
+        "artifacts",
+        "confirmation",
+        "activeTurn",
+        "pendingUserInput"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:18:58.381941+00:00",
+      "method": "GET",
+      "path": "/codex-chat/conversations/2e61b1bb-62f5-47d2-9cc7-e4f327431aee",
+      "status": 200,
+      "elapsedSeconds": 0.364,
+      "file": "existing-conversation-1.json",
+      "responseKeys": [
+        "id",
+        "title",
+        "campaignId",
+        "messages",
+        "permissions",
+        "briefRevision",
+        "brief",
+        "briefView",
+        "ruleView",
+        "actionReadiness",
+        "tasks",
+        "outputs",
+        "artifacts",
+        "confirmation",
+        "activeTurn",
+        "pendingUserInput"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:18:58.747506+00:00",
+      "method": "GET",
+      "path": "/codex-chat/conversations/2ae8fc20-fec5-426d-8833-be447af7a463",
+      "status": 200,
+      "elapsedSeconds": 0.71,
+      "file": "existing-conversation-2.json",
+      "responseKeys": [
+        "id",
+        "title",
+        "campaignId",
+        "messages",
+        "permissions",
+        "briefRevision",
+        "brief",
+        "briefView",
+        "ruleView",
+        "actionReadiness",
+        "tasks",
+        "outputs",
+        "artifacts",
+        "confirmation",
+        "activeTurn",
+        "pendingUserInput"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:24:10.260373+00:00",
+      "method": "GET",
+      "path": "/credits/ledger?limit=5",
+      "status": 200,
+      "elapsedSeconds": 0.536,
+      "file": "ledger-after.json",
+      "responseKeys": [
+        "entries",
+        "nextCursor"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:17:58.098430+00:00",
+      "method": "GET",
+      "path": "/credits/ledger?limit=5",
+      "status": 200,
+      "elapsedSeconds": 0.661,
+      "file": "ledger-before.json",
+      "responseKeys": [
+        "entries",
+        "nextCursor"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:18:57.714520+00:00",
+      "method": "GET",
+      "path": "/public/docs/api.md",
+      "status": 200,
+      "elapsedSeconds": 0.653,
+      "file": "live-api-doc.json",
+      "responseKeys": [
+        "text"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:18:58.368021+00:00",
+      "method": "GET",
+      "path": "/public/docs/guide.md",
+      "status": 200,
+      "elapsedSeconds": 0.258,
+      "file": "live-guide-doc.json",
+      "responseKeys": [
+        "text"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:18:58.627172+00:00",
+      "method": "GET",
+      "path": "/public/docs/skill/SKILL.md",
+      "status": 200,
+      "elapsedSeconds": 0.262,
+      "file": "live-skill-doc.json",
+      "responseKeys": [
+        "text"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:22:26.952671+00:00",
+      "method": "GET",
+      "path": "/pricing",
+      "status": 200,
+      "elapsedSeconds": 0.572,
+      "file": "pricing-no-auth.json",
+      "responseKeys": [
+        "data",
+        "asOf",
+        "actor"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:17:58.106889+00:00",
+      "method": "GET",
+      "path": "/pricing",
+      "status": 200,
+      "elapsedSeconds": 0.585,
+      "file": "pricing.json",
+      "responseKeys": [
+        "data",
+        "asOf",
+        "actor"
+      ]
+    }
+  ],
+  "directSearchNoEmail": {
+    "requestId": "creator-filter-contract-20261009-instagram-noemail-02",
+    "taskId": "184099be-3293-4547-a46e-83adae772fd1",
+    "emailReadyRequired": false,
+    "latestObservedAtUtc": "2026-10-09T15:02:28.086163+00:00",
+    "latestStatus": "done",
+    "requested": 2,
+    "delivered": 2,
+    "creatorKeys": [
+      {
+        "platform": "instagram",
+        "handle": "mikebanh_",
+        "followerCount": 36502,
+        "fields": [
+          "handle",
+          "region",
+          "contact",
+          "audience",
+          "evidence",
+          "platform",
+          "avatarUrl",
+          "providers",
+          "profileUrl",
+          "displayName",
+          "overallTier",
+          "factorGrades",
+          "followerCount",
+          "providerUserId",
+          "searchMatchTier",
+          "profileCompleteness"
+        ],
+        "hasEmail": true,
+        "evidenceCount": 4
+      },
+      {
+        "platform": "instagram",
+        "handle": "securitywithsam",
+        "followerCount": 10250,
+        "fields": [
+          "handle",
+          "region",
+          "contact",
+          "audience",
+          "evidence",
+          "platform",
+          "avatarUrl",
+          "providers",
+          "profileUrl",
+          "displayName",
+          "overallTier",
+          "factorGrades",
+          "followerCount",
+          "providerUserId",
+          "searchMatchTier",
+          "profileCompleteness"
+        ],
+        "hasEmail": false,
+        "evidenceCount": 4
+      }
+    ],
+    "record": "direct-search-noemail-poll-03.json"
+  },
+  "creditsAfterBothCompleted": {
+    "balanceBefore": 2058,
+    "balanceAfter": 2058,
+    "observedBalanceDelta": 0,
+    "ledgerUnchanged": true,
+    "record": "ledger-after-noemail-done.json"
+  },
+  "documentation": {
+    "api.md": {
+      "localSha256": "35344777a146f0f57281ecb79ae46d8094b3784bc7a4958ade67c85418b03d82",
+      "record": "live-api-doc-updated.json",
+      "equalsAfterBoundaryWhitespaceAndLineEndingNormalization": true,
+      "comparisonNote": "Content matches after normalizing leading/trailing whitespace and CRLF; raw file SHA256 is retained.",
+      "exactTextMatch": false
+    },
+    "guide.md": {
+      "localSha256": "94d978889fac05d9297ec022e0bcfd311f4f7746875b007b0278882adab2b053",
+      "record": "live-guide-doc.json",
+      "equalsAfterBoundaryWhitespaceAndLineEndingNormalization": true,
+      "comparisonNote": "Content matches after normalizing leading/trailing whitespace and CRLF; raw file SHA256 is retained.",
+      "exactTextMatch": false
+    },
+    "SKILL.md": {
+      "localSha256": "229bceb7f30c01eebc73269586c84a1e060e853b2a9e7936fffbcd61f7c7e40e",
+      "record": "live-skill-doc.json",
+      "equalsAfterBoundaryWhitespaceAndLineEndingNormalization": true,
+      "comparisonNote": "Content matches after normalizing leading/trailing whitespace and CRLF; raw file SHA256 is retained.",
+      "exactTextMatch": true
+    }
+  },
+  "records": [
+    {
+      "atUtc": "2026-10-09T14:22:27.028467+00:00",
+      "method": "GET",
+      "path": "/auth/me",
+      "status": 200,
+      "authMode": "bearer",
+      "elapsedSeconds": 0.248,
+      "responseSha256": "24a9a2cc85955e60c8f7c091438734f739e1887eb1b73d072caf11209b5bf07e",
+      "file": "auth-bearer.json",
+      "responseKeys": [
+        "user"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:17:19.993965+00:00",
+      "method": "GET",
+      "path": "/auth/me",
+      "status": 200,
+      "authMode": null,
+      "elapsedSeconds": 0.435,
+      "responseSha256": "24a9a2cc85955e60c8f7c091438734f739e1887eb1b73d072caf11209b5bf07e",
+      "file": "auth-me.json",
+      "responseKeys": [
+        "user"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:49:47.734037+00:00",
+      "method": "GET",
+      "path": "/credits/balance",
+      "status": 200,
+      "authMode": "cookie",
+      "elapsedSeconds": 0.266,
+      "responseSha256": "2b0ccb87ce3c31ffcc3e85e6e1eddf6c0eec3c3192ce92639330f760bb6a1fbd",
+      "file": "balance-after-done.json",
+      "responseKeys": [
+        "balance"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T15:03:13.418138+00:00",
+      "method": "GET",
+      "path": "/credits/balance",
+      "status": 200,
+      "authMode": "cookie",
+      "elapsedSeconds": 0.593,
+      "responseSha256": "2b0ccb87ce3c31ffcc3e85e6e1eddf6c0eec3c3192ce92639330f760bb6a1fbd",
+      "file": "balance-after-noemail-done.json",
+      "responseKeys": [
+        "balance"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:24:10.260372+00:00",
+      "method": "GET",
+      "path": "/credits/balance",
+      "status": 200,
+      "authMode": "cookie",
+      "elapsedSeconds": 0.566,
+      "responseSha256": "2b0ccb87ce3c31ffcc3e85e6e1eddf6c0eec3c3192ce92639330f760bb6a1fbd",
+      "file": "balance-after.json",
+      "responseKeys": [
+        "balance"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:17:58.073631+00:00",
+      "method": "GET",
+      "path": "/credits/balance",
+      "status": 200,
+      "authMode": null,
+      "elapsedSeconds": 0.817,
+      "responseSha256": "2b0ccb87ce3c31ffcc3e85e6e1eddf6c0eec3c3192ce92639330f760bb6a1fbd",
+      "file": "balance-before.json",
+      "responseKeys": [
+        "balance"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:17:58.078753+00:00",
+      "method": "GET",
+      "path": "/kol/campaigns?page=1&limit=2",
+      "status": 200,
+      "authMode": null,
+      "elapsedSeconds": 0.67,
+      "responseSha256": "6cda06dfc5751b1f54a730eddcd7b5d4fcc0e01627b869281cd546fc623a1187",
+      "file": "campaigns.json",
+      "responseKeys": [
+        "campaigns",
+        "pagination"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:22:27.004391+00:00",
+      "method": "GET",
+      "path": "/codex-chat/conversations",
+      "status": 401,
+      "authMode": "bearer",
+      "elapsedSeconds": 0.512,
+      "responseSha256": "6b0d31ce5e5f858ed4a7cba4f8dc6a0ea66e9890464ec1673dff54d44bc6c908",
+      "file": "conversations-bearer.json",
+      "responseKeys": [
+        "error"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:17:57.989561+00:00",
+      "method": "GET",
+      "path": "/codex-chat/conversations",
+      "status": 200,
+      "authMode": null,
+      "elapsedSeconds": 0.631,
+      "responseSha256": "f05dae5b85d5dd7dbd7ff8aea6d4b7057affa02d403591281d9e1c3344bb8d16",
+      "file": "conversations.json",
+      "responseKeys": [
+        "conversations"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:17:59.019475+00:00",
+      "method": "POST",
+      "path": "/creator-search/requests",
+      "status": 201,
+      "authMode": null,
+      "elapsedSeconds": 0.273,
+      "responseSha256": "cd8a57efe38924d61bec6b9e42edfa9e687fe498fd9f0a3770206cabf49640b0",
+      "file": "direct-search-create.json",
+      "responseKeys": [
+        "taskId"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:49:47.736627+00:00",
+      "method": "GET",
+      "path": "/creator-search/requests/16a57ca6-521f-4843-8bb2-a3eccbd1a7ff",
+      "status": 200,
+      "authMode": "cookie",
+      "elapsedSeconds": 0.355,
+      "responseSha256": "f814d113e542e6bed7c465c9c859ad5ae8f175d7f943f06fadb54affc8e796a9",
+      "file": "direct-search-done-05.json",
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "summary",
+        "usage",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:19:58.648932+00:00",
+      "method": "POST",
+      "path": "/creator-search/requests",
+      "status": 201,
+      "authMode": null,
+      "elapsedSeconds": 1.148,
+      "responseSha256": "cd8a57efe38924d61bec6b9e42edfa9e687fe498fd9f0a3770206cabf49640b0",
+      "file": "direct-search-idempotency.json",
+      "responseKeys": [
+        "taskId"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:49:46.489073+00:00",
+      "method": "POST",
+      "path": "/creator-search/requests",
+      "status": 201,
+      "authMode": "cookie",
+      "elapsedSeconds": 0.299,
+      "responseSha256": "a107c454d3d3ff7a5f8b99caf9e04a400b40f2542de756dceebc93dfe8456693",
+      "file": "direct-search-noemail-create.json",
+      "responseKeys": [
+        "taskId"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:53:32.560180+00:00",
+      "method": "GET",
+      "path": "/creator-search/requests/184099be-3293-4547-a46e-83adae772fd1",
+      "status": 200,
+      "authMode": "cookie",
+      "elapsedSeconds": 0.531,
+      "responseSha256": "676908957475898df49e008e7a6f84498d478b66cdf60428d916fc0bb41785c3",
+      "file": "direct-search-noemail-poll-01.json",
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:56:01.321285+00:00",
+      "method": "GET",
+      "path": "/creator-search/requests/184099be-3293-4547-a46e-83adae772fd1",
+      "status": 200,
+      "authMode": "cookie",
+      "elapsedSeconds": 0.524,
+      "responseSha256": "676908957475898df49e008e7a6f84498d478b66cdf60428d916fc0bb41785c3",
+      "file": "direct-search-noemail-poll-02.json",
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T15:02:28.086163+00:00",
+      "method": "GET",
+      "path": "/creator-search/requests/184099be-3293-4547-a46e-83adae772fd1",
+      "status": 200,
+      "authMode": "cookie",
+      "elapsedSeconds": 0.568,
+      "responseSha256": "58410d4dd0cef69d0b92786be9c54c4df3c8dd5acce8ddeaf6d789eb3734a219",
+      "file": "direct-search-noemail-poll-03.json",
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "summary",
+        "usage",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:18:57.739081+00:00",
+      "method": "GET",
+      "path": "/creator-search/requests/16a57ca6-521f-4843-8bb2-a3eccbd1a7ff",
+      "status": 200,
+      "authMode": null,
+      "elapsedSeconds": 0.556,
+      "responseSha256": "676908957475898df49e008e7a6f84498d478b66cdf60428d916fc0bb41785c3",
+      "file": "direct-search-poll-01.json",
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:22:26.958528+00:00",
+      "method": "GET",
+      "path": "/creator-search/requests/16a57ca6-521f-4843-8bb2-a3eccbd1a7ff",
+      "status": 200,
+      "authMode": "cookie",
+      "elapsedSeconds": 0.678,
+      "responseSha256": "676908957475898df49e008e7a6f84498d478b66cdf60428d916fc0bb41785c3",
+      "file": "direct-search-poll-02.json",
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:27:57.756589+00:00",
+      "method": "GET",
+      "path": "/creator-search/requests/16a57ca6-521f-4843-8bb2-a3eccbd1a7ff",
+      "status": 200,
+      "authMode": "cookie",
+      "elapsedSeconds": 0.737,
+      "responseSha256": "676908957475898df49e008e7a6f84498d478b66cdf60428d916fc0bb41785c3",
+      "file": "direct-search-poll-03.json",
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:46:30.582701+00:00",
+      "method": "GET",
+      "path": "/creator-search/requests/16a57ca6-521f-4843-8bb2-a3eccbd1a7ff",
+      "status": 200,
+      "authMode": "cookie",
+      "elapsedSeconds": 0.534,
+      "responseSha256": "f814d113e542e6bed7c465c9c859ad5ae8f175d7f943f06fadb54affc8e796a9",
+      "file": "direct-search-poll-04.json",
+      "responseKeys": [
+        "status",
+        "strategyOperationId",
+        "creators",
+        "alsoFound",
+        "summary",
+        "usage",
+        "expectedDurationHours"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:24:10.260362+00:00",
+      "method": "GET",
+      "path": "/discover/db?platform=instagram&limit=50&sort=fit_desc",
+      "status": 200,
+      "authMode": "cookie",
+      "elapsedSeconds": 1.682,
+      "responseSha256": "60b2305f83f531f71f4772fd2329f225bf14fd4b97cbf24cfe77d920510acb88",
+      "file": "discover-instagram-50.json",
+      "responseKeys": [
+        "summary",
+        "tiers",
+        "creators",
+        "strategy",
+        "screening",
+        "scraping",
+        "collecting",
+        "latestCreatorSearchTaskId",
+        "latestSearchFunnel",
+        "target",
+        "fulfilled",
+        "campaignState"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:27:56.626166+00:00",
+      "method": "GET",
+      "path": "/discover/db?platform=instagram&limit=500&sort=followers_asc",
+      "status": 200,
+      "authMode": "cookie",
+      "elapsedSeconds": 2.379,
+      "responseSha256": "19ea0de415cc93138c16f220ae617bccfbc243c16b1aaa5e196cb894eee1f1f2",
+      "file": "discover-instagram-500.json",
+      "responseKeys": [
+        "summary",
+        "tiers",
+        "creators",
+        "strategy",
+        "screening",
+        "scraping",
+        "collecting",
+        "latestCreatorSearchTaskId",
+        "latestSearchFunnel",
+        "target",
+        "fulfilled",
+        "campaignState"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:19:57.520301+00:00",
+      "method": "GET",
+      "path": "/discover/db?platform=instagram&limit=10&sort=followers_asc",
+      "status": 200,
+      "authMode": null,
+      "elapsedSeconds": 2.015,
+      "responseSha256": "f8a0e730fc8648b146abac52e252c8f4bfb59286152a44c05c92b3fbc96e4274",
+      "file": "discover-instagram-asc.json",
+      "responseKeys": [
+        "summary",
+        "tiers",
+        "creators",
+        "strategy",
+        "screening",
+        "scraping",
+        "collecting",
+        "latestCreatorSearchTaskId",
+        "latestSearchFunnel",
+        "target",
+        "fulfilled",
+        "campaignState"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:22:26.941242+00:00",
+      "method": "GET",
+      "path": "/discover/db?platform=instagram&limit=1",
+      "status": 401,
+      "authMode": "none",
+      "elapsedSeconds": 0.54,
+      "responseSha256": "ca730ec7fc2b7edb7277e5b8e58d6a474971ca59dafb499141a4856c06132638",
+      "file": "discover-no-auth.json",
+      "responseKeys": [
+        "error"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:19:57.519367+00:00",
+      "method": "GET",
+      "path": "/discover/db",
+      "status": 400,
+      "authMode": null,
+      "elapsedSeconds": 0.511,
+      "responseSha256": "48d8002f769c1a80bd4d6b51e74efef81ed4d5d09b6bac94f50f28f837b6e5e4",
+      "file": "discover-no-platform.json",
+      "responseKeys": [
+        "error"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:22:26.943153+00:00",
+      "method": "GET",
+      "path": "/discover/db?platform=instagram&limit=3&sort=followers_desc&minFollowers=10000&maxFollowers=100000",
+      "status": 200,
+      "authMode": "cookie",
+      "elapsedSeconds": 2.09,
+      "responseSha256": "426636be9aa6a0a9be16d7d3f5f4a7728fe710edc50a4b2effcc50ca418d7497",
+      "file": "discover-range-query.json",
+      "responseKeys": [
+        "summary",
+        "tiers",
+        "creators",
+        "strategy",
+        "screening",
+        "scraping",
+        "collecting",
+        "latestCreatorSearchTaskId",
+        "latestSearchFunnel",
+        "target",
+        "fulfilled",
+        "campaignState"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:19:57.519451+00:00",
+      "method": "GET",
+      "path": "/discover/db?platform=tiktok&limit=2&sort=fit_desc",
+      "status": 200,
+      "authMode": null,
+      "elapsedSeconds": 2.275,
+      "responseSha256": "4b9598e023579f84e9f8eb85b7878e6a26ee5ffc77194066b5a4c5262a2be624",
+      "file": "discover-tiktok.json",
+      "responseKeys": [
+        "summary",
+        "tiers",
+        "creators",
+        "strategy",
+        "screening",
+        "scraping",
+        "collecting",
+        "latestCreatorSearchTaskId",
+        "latestSearchFunnel",
+        "target",
+        "fulfilled",
+        "campaignState"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:19:57.534836+00:00",
+      "method": "GET",
+      "path": "/discover/db?platform=twitter&limit=2&sort=fit_desc",
+      "status": 200,
+      "authMode": null,
+      "elapsedSeconds": 2.784,
+      "responseSha256": "92afebd7a900a2e35a897c944e83c9a80beae494005e550b8be44ea51e293aa8",
+      "file": "discover-twitter.json",
+      "responseKeys": [
+        "summary",
+        "tiers",
+        "creators",
+        "strategy",
+        "screening",
+        "scraping",
+        "collecting",
+        "latestCreatorSearchTaskId",
+        "latestSearchFunnel",
+        "target",
+        "fulfilled",
+        "campaignState"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:17:58.014548+00:00",
+      "method": "GET",
+      "path": "/discover/db?platform=instagram&limit=2&sort=followers_desc",
+      "status": 200,
+      "authMode": null,
+      "elapsedSeconds": 2.477,
+      "responseSha256": "c458d9207f1aa69355c1d2ae314e2edbeabcb164be3acc4be2aef41a9d6167a1",
+      "file": "discover-without-campaign.json",
+      "responseKeys": [
+        "summary",
+        "tiers",
+        "creators",
+        "strategy",
+        "screening",
+        "scraping",
+        "collecting",
+        "latestCreatorSearchTaskId",
+        "latestSearchFunnel",
+        "target",
+        "fulfilled",
+        "campaignState"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:19:57.519359+00:00",
+      "method": "GET",
+      "path": "/discover/db?platform=youtube&limit=2&sort=fit_desc",
+      "status": 200,
+      "authMode": null,
+      "elapsedSeconds": 2.285,
+      "responseSha256": "0166163be23c0e19c88d9dfb5de5fe66b1c877de291fcbbb06dd5b531d807a98",
+      "file": "discover-youtube.json",
+      "responseKeys": [
+        "summary",
+        "tiers",
+        "creators",
+        "strategy",
+        "screening",
+        "scraping",
+        "collecting",
+        "latestCreatorSearchTaskId",
+        "latestSearchFunnel",
+        "target",
+        "fulfilled",
+        "campaignState"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:18:57.710713+00:00",
+      "method": "GET",
+      "path": "/codex-chat/conversations/3af8e0fc-d70b-4f2c-8447-eaa165d4bf61",
+      "status": 200,
+      "authMode": null,
+      "elapsedSeconds": 0.67,
+      "responseSha256": "8309741c4a916cf8080c1a06408147ba9f26d018015b1850c315aa41532025a3",
+      "file": "existing-conversation-0.json",
+      "responseKeys": [
+        "id",
+        "title",
+        "campaignId",
+        "messages",
+        "permissions",
+        "briefRevision",
+        "brief",
+        "briefView",
+        "ruleView",
+        "actionReadiness",
+        "tasks",
+        "outputs",
+        "artifacts",
+        "confirmation",
+        "activeTurn",
+        "pendingUserInput"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:18:58.381941+00:00",
+      "method": "GET",
+      "path": "/codex-chat/conversations/2e61b1bb-62f5-47d2-9cc7-e4f327431aee",
+      "status": 200,
+      "authMode": null,
+      "elapsedSeconds": 0.364,
+      "responseSha256": "49c8144e62e52b6184cc9bb6bc88ada17c140d2dd82045ad35eb70401dedf6bc",
+      "file": "existing-conversation-1.json",
+      "responseKeys": [
+        "id",
+        "title",
+        "campaignId",
+        "messages",
+        "permissions",
+        "briefRevision",
+        "brief",
+        "briefView",
+        "ruleView",
+        "actionReadiness",
+        "tasks",
+        "outputs",
+        "artifacts",
+        "confirmation",
+        "activeTurn",
+        "pendingUserInput"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:18:58.747506+00:00",
+      "method": "GET",
+      "path": "/codex-chat/conversations/2ae8fc20-fec5-426d-8833-be447af7a463",
+      "status": 200,
+      "authMode": null,
+      "elapsedSeconds": 0.71,
+      "responseSha256": "8fff81dbff7e47dc9b2c633d04d5627d566d29f3fc933bde0de0d55033b97d08",
+      "file": "existing-conversation-2.json",
+      "responseKeys": [
+        "id",
+        "title",
+        "campaignId",
+        "messages",
+        "permissions",
+        "briefRevision",
+        "brief",
+        "briefView",
+        "ruleView",
+        "actionReadiness",
+        "tasks",
+        "outputs",
+        "artifacts",
+        "confirmation",
+        "activeTurn",
+        "pendingUserInput"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:49:47.757092+00:00",
+      "method": "GET",
+      "path": "/credits/ledger?limit=5",
+      "status": 200,
+      "authMode": "cookie",
+      "elapsedSeconds": 0.287,
+      "responseSha256": "4e075809ec3684025dd27d8bcec748f0cd6c463dc960721f54778c49299d36c2",
+      "file": "ledger-after-done.json",
+      "responseKeys": [
+        "entries",
+        "nextCursor"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T15:03:13.418138+00:00",
+      "method": "GET",
+      "path": "/credits/ledger?limit=5",
+      "status": 200,
+      "authMode": "cookie",
+      "elapsedSeconds": 0.569,
+      "responseSha256": "4e075809ec3684025dd27d8bcec748f0cd6c463dc960721f54778c49299d36c2",
+      "file": "ledger-after-noemail-done.json",
+      "responseKeys": [
+        "entries",
+        "nextCursor"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:24:10.260373+00:00",
+      "method": "GET",
+      "path": "/credits/ledger?limit=5",
+      "status": 200,
+      "authMode": "cookie",
+      "elapsedSeconds": 0.536,
+      "responseSha256": "4e075809ec3684025dd27d8bcec748f0cd6c463dc960721f54778c49299d36c2",
+      "file": "ledger-after.json",
+      "responseKeys": [
+        "entries",
+        "nextCursor"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:17:58.098430+00:00",
+      "method": "GET",
+      "path": "/credits/ledger?limit=5",
+      "status": 200,
+      "authMode": null,
+      "elapsedSeconds": 0.661,
+      "responseSha256": "4e075809ec3684025dd27d8bcec748f0cd6c463dc960721f54778c49299d36c2",
+      "file": "ledger-before.json",
+      "responseKeys": [
+        "entries",
+        "nextCursor"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:56:01.321273+00:00",
+      "method": "GET",
+      "path": "/public/docs/api.md",
+      "status": 200,
+      "authMode": "none",
+      "elapsedSeconds": 0.591,
+      "responseSha256": "43b4a1edbf59cc0377aff43c213dcee84494ff0c68ffb420d97c7e6f008c8aeb",
+      "file": "live-api-doc-updated.json",
+      "responseKeys": [
+        "text"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:18:57.714520+00:00",
+      "method": "GET",
+      "path": "/public/docs/api.md",
+      "status": 200,
+      "authMode": null,
+      "elapsedSeconds": 0.653,
+      "responseSha256": "3a194d17ef54925127367a03387231c3d4038fe598d7072027255b20b944287c",
+      "file": "live-api-doc.json",
+      "responseKeys": [
+        "text"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:18:58.368021+00:00",
+      "method": "GET",
+      "path": "/public/docs/guide.md",
+      "status": 200,
+      "authMode": null,
+      "elapsedSeconds": 0.258,
+      "responseSha256": "b77b3b750fa8f67f654f9367f6712c0f427dd3b34629142d34765dc45a27fe3f",
+      "file": "live-guide-doc.json",
+      "responseKeys": [
+        "text"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:18:58.627172+00:00",
+      "method": "GET",
+      "path": "/public/docs/skill/SKILL.md",
+      "status": 200,
+      "authMode": null,
+      "elapsedSeconds": 0.262,
+      "responseSha256": "229bceb7f30c01eebc73269586c84a1e060e853b2a9e7936fffbcd61f7c7e40e",
+      "file": "live-skill-doc.json",
+      "responseKeys": [
+        "text"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:22:26.952671+00:00",
+      "method": "GET",
+      "path": "/pricing",
+      "status": 200,
+      "authMode": "none",
+      "elapsedSeconds": 0.572,
+      "responseSha256": "5e35d71c05e84b086ad5034e87d95f6712f4cdf11e6dd3900a2191526815ecb0",
+      "file": "pricing-no-auth.json",
+      "responseKeys": [
+        "data",
+        "asOf",
+        "actor"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:17:58.106889+00:00",
+      "method": "GET",
+      "path": "/pricing",
+      "status": 200,
+      "authMode": null,
+      "elapsedSeconds": 0.585,
+      "responseSha256": "fd67a3af666e8010793a24ae0ece740fa57ccd890f48d710f75b0ed9f8dc8883",
+      "file": "pricing.json",
+      "responseKeys": [
+        "data",
+        "asOf",
+        "actor"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:56:01.321273+00:00",
+      "method": "GET",
+      "path": "/strategy-projects/3af8e0fc-d70b-4f2c-8447-eaa165d4bf61/brief",
+      "status": 200,
+      "authMode": "cookie",
+      "elapsedSeconds": 0.684,
+      "responseSha256": "91542feba52a893b48979dec3f8f6db2efc37fa48f3f25ae9d12f4f3173c4eab",
+      "file": "project-brief.json",
+      "responseKeys": [
+        "project",
+        "brief",
+        "briefFieldAudit",
+        "briefFieldStates",
+        "briefVersion",
+        "briefRevision",
+        "fieldCoverage",
+        "creatorSearch",
+        "allowedActions",
+        "taskBoard",
+        "asOf"
+      ]
+    },
+    {
+      "atUtc": "2026-10-09T14:56:01.321314+00:00",
+      "method": "GET",
+      "path": "/strategy-projects/3af8e0fc-d70b-4f2c-8447-eaa165d4bf61/creator-search/current",
+      "status": 200,
+      "authMode": "cookie",
+      "elapsedSeconds": 0.67,
+      "responseSha256": "797d990dc013caeb68f7844efb0eac578f5ebefd30369f92d7f4c4c565d6516f",
+      "file": "project-search-current.json",
+      "responseKeys": [
+        "state",
+        "asOf",
+        "briefVersion",
+        "briefRevision",
+        "criteria",
+        "missing",
+        "allowedActions",
+        "quote",
+        "latestTask",
+        "links"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+flowchart TD
+  U[用户消息 / 执行期间的新消息] --> UI[React Chat / 登录鉴权]
+  UI --> IN[消息先落 SQLite inbox]
+  IN --> CTX[读取 pending 输入 + 当前任务/结果事实\n系统、工作流提示词 + 完整工具批次\n历史摘要/压缩与媒体引用]
+  CTX --> LOOP[主 Agent LLM loop\n理解、澄清、规划、调用工具]
+  LOOP --> CLARIFY[缺关键范围：交互澄清]
+  CLARIFY --> U
+  LOOP --> PLAN[Campaign 草案\n类型、理由、条件、配额、版本]
+  PLAN --> CONFIRM[展示方案，用户确认当前版本]
+  CONFIRM --> JOB[保存研究任务与稳定 requestId]
+  LOOP -->|已明确直接研究| JOB
+  LOOP -->|查询进度/结果| DB[SQLite 持久事实]
+  DB --> LOOP
+  LOOP -->|已有候选补标/重核验| ENRICH[保存 enrichment job\n复用既有账号、证据和 remoteId]
+  JOB --> POST[WaveSurge POST /api/v1/creator-search/requests\npersonaText / count=候选预算 / platforms\nregions / minFollowers / maxFollowers\nemailReadyRequired=false / requestId]
+  POST --> REMOTE[保存远端 taskId]
+  REMOTE --> POLL[GET /api/v1/creator-search/requests/:taskId\n约 60 秒轮询；按错误退避]
+  POLL --> RAW[保存 queued/running/done/failed\ncreators + alsoFound + 远端字段/来源]
+  RAW --> MERGE[账号身份归一、合并去重\nrunning 候选立即进入核验\n同账号基础字段更新重算]
+  RAW -->|远端未结束且预算未耗尽| POLL
+  MERGE --> BROWSER[逐人持久 verification session\n候选来源 scope / 导航权限检查]
+  ENRICH -->|reverify| BROWSER
+  ENRICH -->|annotate，证据复用| JUDGE
+  BROWSER --> OBS[有头浏览器 observe\n主页/观察到的公开帖子链接\n原文、日期、截图、来源 ID]
+  OBS -->|登录/挑战/需要凭据| HUMAN[持久人工协助请求\n冻结并排空自动输入\n人类 noVNC 认领、操作、交还]
+  HUMAN -->|交还后新观察| OBS
+  OBS --> JUDGE[逐人 LLM 分析\n每条件 match/no_match/unknown\n画像维度实际值与证据\n本人主页粉丝/国家原文事实]
+  JUDGE --> CHECK[程序验证引用/来源归属\n粉丝精度区间与国家归一/冲突\n全部硬条件合取，未知不当通过]
+  JUDGE -->|临时模型故障| RETRY[持久次数/退避\n原候选最多三次尝试]
+  RETRY --> JUDGE
+  CHECK --> SAVE[事务保存 Result、revision、历史\nEvidence/截图资产、facts、annotations、tags\n核验人数、合格人数、selected]
+  SAVE --> SELECT[硬条件先通过，再偏好排序\nCampaign 唯一账号分组配额分配]
+  SELECT --> MORE{目标/预算/远端实际状态\n是否允许结束？}
+  MORE -->|继续| POLL
+  MORE -->|下一候选| BROWSER
+  MORE -->|完成/缺额/失败/取消| DELIVER[持久幂等交付回执\n聊天中的真实人数、缺额、报告链接\n不确认尚未处理的用户消息]
+  DELIVER --> REPORT[HTML 完整证据与内嵌截图\nCSV 使用当前已应用筛选\nResults UI 标签/平台/三态查询]
+  SAVE --> DB
+  DELIVER --> DB
+  HUMAN -.只占桌面，不阻断 API/聊天.-> POLL
+  IN -.新输入在 Agent 安全边界进入上下文.-> LOOP

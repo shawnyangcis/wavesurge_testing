@@ -1,0 +1,20 @@
+client/Results.tsx
+B 5 [21,0] line 11 col 1719 "reator.displayName}</h3>{result.selected === true && <p>已入选</p>}{result.selected === false && result.verdict === 'match' && <p>合格备选</p>}<p>{resul"
+B 6 [21,0,0] line 11 col 1759 " === true && <p>已入选</p>}{result.selected === false && result.verdict === 'match' && <p>合格备选</p>}<p>{result.creator.platform} · @{result.creator.h"
+desktop/policy.ts
+B 12 [7,0] line 23 col 2 "  if (!addresses.length || addresses.some(value => !publicAddress(value.address))) throw new Error('BROWSER_POLICY_PRIVATE"
+server/bootstrap.ts
+B 7 [0,3] line 44 col 32 "terResearch(app, engine, desktop ? id => desktop.image(id) : undefined);"
+B 8 [0,3] line 45 col 36 "ampaigns(app, campaigns, desktop ? id => desktop.image(id) : undefined);"
+S 23 44
+S 25 45
+F 4 44
+F 5 45
+server/repair.ts
+B 8 [1,0] line 18 col 46 "ents=judgments.map(item=>previous.judgments.some(other=>other.criterionId===item.criterionId&&other.verdict!==item.verdict)?{...item,verdict:'unk"
+server/reports.ts
+B 12 [0,4] line 18 col 924 "ed === true ? ' · 已入选' : result.selected === false && result.verdict === 'match' ? ' · 合格备选' : ''}</h2><p>${escapeHtml(result.creator.platform)} "
+B 13 [4,0] line 18 col 924 "ed === true ? ' · 已入选' : result.selected === false && result.verdict === 'match' ? ' · 合格备选' : ''}</h2><p>${escapeHtml(result.creator.platform)} "
+server/verdict.ts
+S 36 26
+F 9 26

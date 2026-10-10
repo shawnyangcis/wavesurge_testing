@@ -1,0 +1,11 @@
+
+Running 2 tests using 1 worker
+
+(node:47587) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/e2e/campaign-real-completion.spec.ts:4:1 › 修订画像真实完成：国家含城市不误判；有依据地 1/2，待核实不占配额 (2.4s)
+ Container wavesurge_testing-app-1 Restarting 
+ Container wavesurge_testing-app-1 Started 
+  ✓  2 tests/e2e/research-completion.spec.ts:5:1 › 真实结果：部分完成、逐条件证据、标签、报告与重启持久化 (7.7s)
+
+  2 passed (11.4s)

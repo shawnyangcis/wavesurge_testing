@@ -1,0 +1,13 @@
+{
+  "atUtc": "2026-10-09T15:03:13.418138+00:00",
+  "method": "GET",
+  "path": "/credits/balance",
+  "authMode": "cookie",
+  "status": 200,
+  "elapsedSeconds": 0.593,
+  "contentType": "application/json; charset=utf-8",
+  "responseSha256": "2b0ccb87ce3c31ffcc3e85e6e1eddf6c0eec3c3192ce92639330f760bb6a1fbd",
+  "response": {
+    "balance": 2058
+  }
+}

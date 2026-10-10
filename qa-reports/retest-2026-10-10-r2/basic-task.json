@@ -1,0 +1,192 @@
+{
+  "at": "2026-10-10T06:17:00.481Z",
+  "tasks": [
+    {
+      "id": "research-7e157f91534c9f8f156d257d",
+      "title": "美国 TikTok 数码男博主筛选",
+      "spec": {
+        "title": "美国 TikTok 数码男博主筛选",
+        "personaText": "US digital technology and consumer electronics content creators",
+        "count": 2,
+        "platforms": [
+          "tiktok"
+        ],
+        "regions": [
+          "United States"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "candidateBudget": 4,
+        "criteria": [
+          {
+            "id": "digital_content",
+            "label": "发布数码或消费电子相关内容",
+            "required": true,
+            "basis": "text"
+          },
+          {
+            "id": "male_self_description",
+            "label": "账号自身的公开介绍明确表明为男性；未明确说明则为待确认，不从外貌推断",
+            "required": true,
+            "basis": "text"
+          },
+          {
+            "id": "glasses_preference",
+            "label": "佩戴眼镜，优先但非硬性要求；需基于实际观察到的图像",
+            "required": false,
+            "basis": "visual"
+          }
+        ],
+        "annotations": [
+          {
+            "id": "content_direction",
+            "label": "内容方向"
+          },
+          {
+            "id": "style",
+            "label": "内容风格"
+          },
+          {
+            "id": "glasses",
+            "label": "是否戴眼镜",
+            "values": [
+              "戴眼镜",
+              "未戴眼镜"
+            ]
+          }
+        ]
+      },
+      "body": {
+        "requestId": "research-7e157f91534c9f8f156d257d",
+        "personaText": "US digital technology and consumer electronics content creators",
+        "count": 4,
+        "platforms": [
+          "tiktok"
+        ],
+        "regions": [
+          "United States"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "emailReadyRequired": false
+      },
+      "status": "partial",
+      "requested": 2,
+      "evaluated": 4,
+      "matched": 0,
+      "updatedAt": 1791612872357,
+      "detail": "已选合格 0/2，已核验 4；证据不足者保持待核实。",
+      "nextPollAt": 1791612813015,
+      "candidates": [
+        {
+          "id": "tiktok:ritualesmayte331",
+          "handle": "ritualesmayte331",
+          "profileUrl": "",
+          "followers": 331181300,
+          "region": null,
+          "evidenceCount": 1
+        },
+        {
+          "id": "tiktok:stephencurry30",
+          "handle": "stephencurry30",
+          "profileUrl": "",
+          "followers": 308900000,
+          "region": null,
+          "evidenceCount": 1
+        },
+        {
+          "id": "tiktok:seed02678",
+          "handle": "seed02678",
+          "profileUrl": "",
+          "followers": 267848000,
+          "region": null,
+          "evidenceCount": 1
+        },
+        {
+          "id": "tiktok:voodoo_248",
+          "handle": "voodoo_248",
+          "profileUrl": "",
+          "followers": 248207800,
+          "region": null,
+          "evidenceCount": 1
+        }
+      ],
+      "failures": [],
+      "discovery": {
+        "platform": 1,
+        "keyword": 0,
+        "page": 0,
+        "cursor": "",
+        "seenCursors": [],
+        "seenUsers": [],
+        "pending": [],
+        "delivered": 100,
+        "done": true
+      },
+      "discoveryAttempts": 0,
+      "remoteStatus": "done",
+      "qualifying": 0
+    }
+  ],
+  "assistance": [],
+  "waveCalls": [
+    {
+      "path": "/discover/db?platform=tiktok&limit=100&sort=followers_desc",
+      "status": 200,
+      "createdAt": 1791612810632,
+      "finishedAt": 1791612811999,
+      "responseKeys": [
+        "summary",
+        "tiers",
+        "creators",
+        "strategy",
+        "screening",
+        "scraping",
+        "collecting",
+        "latestCreatorSearchTaskId",
+        "latestSearchFunnel",
+        "target",
+        "fulfilled",
+        "campaignState"
+      ],
+      "pool": {
+        "count": 100,
+        "range": {
+          "min": 5000000,
+          "max": 331181300
+        },
+        "profiles": 0
+      }
+    }
+  ],
+  "deliveries": [
+    {
+      "id": "report-research-7e157f91534c9f8f156d257d-53dc75d0e2ad9884",
+      "subject": "research-7e157f91534c9f8f156d257d",
+      "revision": {
+        "status": "partial",
+        "matched": 0,
+        "evaluated": 4,
+        "results": [
+          [
+            "research-7e157f91534c9f8f156d257d|tiktok:ritualesmayte331",
+            1791612827781
+          ],
+          [
+            "research-7e157f91534c9f8f156d257d|tiktok:stephencurry30",
+            1791612843326
+          ],
+          [
+            "research-7e157f91534c9f8f156d257d|tiktok:seed02678",
+            1791612856785
+          ],
+          [
+            "research-7e157f91534c9f8f156d257d|tiktok:voodoo_248",
+            1791612872354
+          ]
+        ]
+      },
+      "createdAt": 1791612872357
+    }
+  ]
+}

@@ -1,0 +1,300 @@
+{
+  "source": "production conversation + real configured model + confirmed UI + live WaveSurge",
+  "id": "campaign-49090173cf0f56b698b97456",
+  "firstReply": "明白，**现在只明确范围、讨论创作者类型，不启动搜索**。已确认：产品是面向大学生的降噪耳机，目标是提高认知和购买意愿。\n\n先集中确认 3 点：\n1. **市场与平台**：面向哪个国家或地区的大学生？希望在哪些平台推广？创作者所在地是否也需限定？\n2. **产品与卖点**：品牌、售价大致是多少？除降噪外，有哪些值得突出且已确认的卖点，例如佩戴舒适、续航或性价比？\n3. **筛选规模**：希望总共筛选多少位创作者？有粉丝数区间要求吗？如果没有，我可以提出建议。\n\n初步考虑两类创作者，供你讨论，**尚未作为筛选条件确认**：\n- **校园学习／大学生活类**：通过图书馆学习、宿舍生活、通勤等场景，让学生理解产品用途，侧重提高认知与使用兴趣。\n- **科技数码／耳机评测类**：通过降噪体验、舒适度及同价位比较，帮助学生判断是否值得购买，侧重提高购买意愿。\n\n你补充上述范围后，我会给出两组的筛选条件与人数分配建议，等你明确同意后再启动。",
+  "draft": {
+    "title": "大学生降噪耳机推广 Campaign 草案 1791572085141",
+    "goal": "推广面向大学生的降噪耳机，提高产品认知和购买意愿。总计筛选2位不同Instagram账号，每组1位；每组候选上限2，总候选预算4。不要求邮箱，不做外联。仅保存草案，不启动搜索。",
+    "audience": "大学生；创作者所在地限定Canada或United States，不将创作者所在地等同于受众所在地。品牌、售价及其他产品卖点尚未提供，不额外添加筛选要求。",
+    "groups": [
+      {
+        "id": "tech_reviews",
+        "rationale": "科技/耳机评测创作者可通过产品体验、功能解释与对比帮助大学生了解降噪耳机并形成购买判断，支持认知提升与购买意愿；不要求候选已评测该品牌或具体产品。",
+        "spec": {
+          "title": "科技/耳机评测创作者 1791572085141",
+          "personaText": "筛选1位Instagram创作者，所在地Canada或United States，粉丝10,000至100,000，分享科技或耳机评测内容。所有条件均为必选文字条件，无视觉条件。不要求邮箱、不做外联。最多核验2个候选。与学习/校园生活组须为不同Instagram账号。",
+          "count": 1,
+          "platforms": [
+            "instagram"
+          ],
+          "regions": [
+            "Canada",
+            "United States"
+          ],
+          "minFollowers": 10000,
+          "maxFollowers": 100000,
+          "candidateBudget": 2,
+          "criteria": [
+            {
+              "id": "tech_review_content",
+              "label": "分享科技或耳机评测内容，须有内容文字证据支持。",
+              "required": true,
+              "basis": "text"
+            }
+          ]
+        },
+        "matched": 0,
+        "eligible": 0
+      },
+      {
+        "id": "study_campus",
+        "rationale": "学习/校园生活创作者可将降噪耳机与学习、校园日常等使用场景联系，提升大学生的产品认知、相关性感受和购买兴趣；不额外要求创作者本人在校或已有耳机推广内容。",
+        "spec": {
+          "title": "学习/校园生活创作者 1791572085141",
+          "personaText": "筛选1位Instagram创作者，所在地Canada或United States，粉丝10,000至100,000，分享学习或校园生活内容。所有条件均为必选文字条件，无视觉条件。不要求邮箱、不做外联。最多核验2个候选。与科技/耳机评测组须为不同Instagram账号。",
+          "count": 1,
+          "platforms": [
+            "instagram"
+          ],
+          "regions": [
+            "Canada",
+            "United States"
+          ],
+          "minFollowers": 10000,
+          "maxFollowers": 100000,
+          "candidateBudget": 2,
+          "criteria": [
+            {
+              "id": "study_campus_content",
+              "label": "分享学习或校园生活内容，须有内容文字证据支持。",
+              "required": true,
+              "basis": "text"
+            }
+          ]
+        },
+        "matched": 0,
+        "eligible": 0
+      }
+    ],
+    "id": "campaign-49090173cf0f56b698b97456",
+    "revision": 1,
+    "childTaskIds": [],
+    "createdAt": 1791572115348,
+    "updatedAt": 1791572115348,
+    "status": "draft",
+    "requested": 2,
+    "matched": 0,
+    "qualifyingUnique": 0,
+    "evaluated": 0,
+    "selections": [],
+    "reportUrl": "/api/campaigns/campaign-49090173cf0f56b698b97456/report",
+    "results": []
+  },
+  "revised": {
+    "title": "大学生降噪耳机推广 Campaign 草案 1791572085141",
+    "goal": "推广面向大学生的降噪耳机，提高产品认知和购买意愿。总计筛选2位不同Instagram账号，每组1位；每组候选上限2，总候选预算4。不要求邮箱，不做外联。仅保存草案，不启动搜索。",
+    "audience": "大学生；创作者所在地限定Canada或United States，不将创作者所在地等同于受众所在地。品牌、售价及其他产品卖点尚未提供，不额外添加筛选要求。",
+    "groups": [
+      {
+        "id": "tech_reviews",
+        "rationale": "科技/耳机评测创作者可通过产品体验、功能解释与对比帮助大学生了解降噪耳机并形成购买判断，支持认知提升与购买意愿；不要求候选已评测该品牌或具体产品。",
+        "spec": {
+          "title": "科技/耳机评测创作者 1791572085141",
+          "personaText": "筛选1位Instagram创作者，所在地Canada或United States，粉丝10,000至100,000，分享科技或耳机评测内容。所有条件均为必选文字条件，无视觉条件。不要求邮箱、不做外联。最多核验2个候选。与学习/效率生活组须为不同Instagram账号。",
+          "count": 1,
+          "platforms": [
+            "instagram"
+          ],
+          "regions": [
+            "Canada",
+            "United States"
+          ],
+          "minFollowers": 10000,
+          "maxFollowers": 100000,
+          "candidateBudget": 2,
+          "criteria": [
+            {
+              "id": "tech_review_content",
+              "label": "分享科技或耳机评测内容，须有内容文字证据支持。",
+              "required": true,
+              "basis": "text"
+            }
+          ]
+        },
+        "matched": 0,
+        "eligible": 0
+      },
+      {
+        "id": "study_campus",
+        "rationale": "学习/效率生活创作者可将降噪耳机与学习、专注和效率生活等使用场景联系，提升大学生的产品认知、相关性感受和购买兴趣；不额外要求创作者本人在校或已有耳机推广内容。",
+        "spec": {
+          "title": "学习/效率生活创作者 1791572085141",
+          "personaText": "筛选1位Instagram创作者，所在地Canada或United States，粉丝10,000至100,000，分享学习或效率生活内容。所有条件均为必选文字条件，无视觉条件。不要求邮箱、不做外联。最多核验2个候选。与科技/耳机评测组须为不同Instagram账号。",
+          "count": 1,
+          "platforms": [
+            "instagram"
+          ],
+          "regions": [
+            "Canada",
+            "United States"
+          ],
+          "minFollowers": 10000,
+          "maxFollowers": 100000,
+          "candidateBudget": 2,
+          "criteria": [
+            {
+              "id": "study_campus_content",
+              "label": "分享学习或效率生活内容，须有内容文字证据支持。",
+              "required": true,
+              "basis": "text"
+            }
+          ]
+        },
+        "matched": 0,
+        "eligible": 0
+      }
+    ],
+    "id": "campaign-49090173cf0f56b698b97456",
+    "revision": 2,
+    "childTaskIds": [],
+    "createdAt": 1791572115348,
+    "updatedAt": 1791572146442,
+    "status": "draft",
+    "requested": 2,
+    "matched": 0,
+    "qualifyingUnique": 0,
+    "evaluated": 0,
+    "selections": [],
+    "reportUrl": "/api/campaigns/campaign-49090173cf0f56b698b97456/report",
+    "results": []
+  },
+  "started": {
+    "title": "大学生降噪耳机推广 Campaign 草案 1791572085141",
+    "goal": "推广面向大学生的降噪耳机，提高产品认知和购买意愿。总计筛选2位不同Instagram账号，每组1位；每组候选上限2，总候选预算4。不要求邮箱，不做外联。仅保存草案，不启动搜索。",
+    "audience": "大学生；创作者所在地限定Canada或United States，不将创作者所在地等同于受众所在地。品牌、售价及其他产品卖点尚未提供，不额外添加筛选要求。",
+    "groups": [
+      {
+        "id": "tech_reviews",
+        "rationale": "科技/耳机评测创作者可通过产品体验、功能解释与对比帮助大学生了解降噪耳机并形成购买判断，支持认知提升与购买意愿；不要求候选已评测该品牌或具体产品。",
+        "spec": {
+          "title": "科技/耳机评测创作者 1791572085141",
+          "personaText": "筛选1位Instagram创作者，所在地Canada或United States，粉丝10,000至100,000，分享科技或耳机评测内容。所有条件均为必选文字条件，无视觉条件。不要求邮箱、不做外联。最多核验2个候选。与学习/效率生活组须为不同Instagram账号。",
+          "count": 1,
+          "platforms": [
+            "instagram"
+          ],
+          "regions": [
+            "Canada",
+            "United States"
+          ],
+          "minFollowers": 10000,
+          "maxFollowers": 100000,
+          "candidateBudget": 2,
+          "criteria": [
+            {
+              "id": "tech_review_content",
+              "label": "分享科技或耳机评测内容，须有内容文字证据支持。",
+              "required": true,
+              "basis": "text"
+            }
+          ]
+        },
+        "taskId": "research-98350042b636d08a5d424a6c",
+        "matched": 0,
+        "eligible": 0
+      },
+      {
+        "id": "study_campus",
+        "rationale": "学习/效率生活创作者可将降噪耳机与学习、专注和效率生活等使用场景联系，提升大学生的产品认知、相关性感受和购买兴趣；不额外要求创作者本人在校或已有耳机推广内容。",
+        "spec": {
+          "title": "学习/效率生活创作者 1791572085141",
+          "personaText": "筛选1位Instagram创作者，所在地Canada或United States，粉丝10,000至100,000，分享学习或效率生活内容。所有条件均为必选文字条件，无视觉条件。不要求邮箱、不做外联。最多核验2个候选。与科技/耳机评测组须为不同Instagram账号。",
+          "count": 1,
+          "platforms": [
+            "instagram"
+          ],
+          "regions": [
+            "Canada",
+            "United States"
+          ],
+          "minFollowers": 10000,
+          "maxFollowers": 100000,
+          "candidateBudget": 2,
+          "criteria": [
+            {
+              "id": "study_campus_content",
+              "label": "分享学习或效率生活内容，须有内容文字证据支持。",
+              "required": true,
+              "basis": "text"
+            }
+          ]
+        },
+        "taskId": "research-d7687a09b9a84db8c236a706",
+        "matched": 0,
+        "eligible": 0
+      }
+    ],
+    "id": "campaign-49090173cf0f56b698b97456",
+    "revision": 2,
+    "childTaskIds": [
+      "research-98350042b636d08a5d424a6c",
+      "research-d7687a09b9a84db8c236a706"
+    ],
+    "createdAt": 1791572115348,
+    "updatedAt": 1791572154943,
+    "status": "running",
+    "requested": 2,
+    "matched": 0,
+    "qualifyingUnique": 0,
+    "evaluated": 0,
+    "selections": [],
+    "reportUrl": "/api/campaigns/campaign-49090173cf0f56b698b97456/report",
+    "results": []
+  },
+  "calls": [
+    {
+      "id": "b1e3a86c-26db-4187-94e4-dd267b1da713",
+      "kind": "wavesurge",
+      "createdAt": 1791572154948,
+      "path": "/creator-search/requests",
+      "method": "POST",
+      "request": {
+        "requestId": "research-98350042b636d08a5d424a6c",
+        "personaText": "筛选1位Instagram创作者，所在地Canada或United States，粉丝10,000至100,000，分享科技或耳机评测内容。所有条件均为必选文字条件，无视觉条件。不要求邮箱、不做外联。最多核验2个候选。与学习/效率生活组须为不同Instagram账号。",
+        "count": 2,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [
+          "Canada",
+          "United States"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "emailReadyRequired": false
+      },
+      "status": 201,
+      "response": {
+        "taskId": "6f09acf3-e189-4e88-8dc9-b6f1403aa1d7"
+      },
+      "finishedAt": 1791572155194
+    },
+    {
+      "id": "c9a154b8-e1ba-42fb-83a6-defd2599b507",
+      "kind": "wavesurge",
+      "createdAt": 1791572155206,
+      "path": "/creator-search/requests",
+      "method": "POST",
+      "request": {
+        "requestId": "research-d7687a09b9a84db8c236a706",
+        "personaText": "筛选1位Instagram创作者，所在地Canada或United States，粉丝10,000至100,000，分享学习或效率生活内容。所有条件均为必选文字条件，无视觉条件。不要求邮箱、不做外联。最多核验2个候选。与科技/耳机评测组须为不同Instagram账号。",
+        "count": 2,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [
+          "Canada",
+          "United States"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "emailReadyRequired": false
+      },
+      "status": 201,
+      "response": {
+        "taskId": "7fde3d0c-efa7-49ca-9a84-d28e27f2d2e3"
+      },
+      "finishedAt": 1791572155433
+    }
+  ]
+}

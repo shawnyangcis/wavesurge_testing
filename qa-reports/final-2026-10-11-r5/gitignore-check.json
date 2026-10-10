@@ -1,0 +1,90 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "path": ".env",
+      "expectedIgnored": true,
+      "actualIgnored": true,
+      "passed": true
+    },
+    {
+      "path": "data/studio.sqlite",
+      "expectedIgnored": true,
+      "actualIgnored": true,
+      "passed": true
+    },
+    {
+      "path": "validation/x/private/admin-bootstrap.txt",
+      "expectedIgnored": true,
+      "actualIgnored": true,
+      "passed": true
+    },
+    {
+      "path": "output/submission/sample.zip",
+      "expectedIgnored": true,
+      "actualIgnored": true,
+      "passed": true
+    },
+    {
+      "path": "node_modules/sample.js",
+      "expectedIgnored": true,
+      "actualIgnored": true,
+      "passed": true
+    },
+    {
+      "path": "coverage/index.html",
+      "expectedIgnored": true,
+      "actualIgnored": true,
+      "passed": true
+    },
+    {
+      "path": "test-results/trace.zip",
+      "expectedIgnored": true,
+      "actualIgnored": true,
+      "passed": true
+    },
+    {
+      "path": ".gstack/qa-reports/private.json",
+      "expectedIgnored": true,
+      "actualIgnored": true,
+      "passed": true
+    },
+    {
+      "path": ".env.example",
+      "expectedIgnored": false,
+      "actualIgnored": false,
+      "passed": true
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "expectedIgnored": false,
+      "actualIgnored": false,
+      "passed": true
+    },
+    {
+      "path": "docs/testing/final-2026-10-11/report.md",
+      "expectedIgnored": false,
+      "actualIgnored": false,
+      "passed": true
+    },
+    {
+      "path": "docs/testing/final-2026-10-11/screenshots/sample.png",
+      "expectedIgnored": false,
+      "actualIgnored": false,
+      "passed": true
+    },
+    {
+      "path": "src/server/agent.ts",
+      "expectedIgnored": false,
+      "actualIgnored": false,
+      "passed": true
+    },
+    {
+      "path": "scripts/package-submission.py",
+      "expectedIgnored": false,
+      "actualIgnored": false,
+      "passed": true
+    }
+  ],
+  "repositoryCreated": "temporary only; project directory left unchanged"
+}

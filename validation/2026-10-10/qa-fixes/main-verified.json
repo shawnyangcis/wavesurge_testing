@@ -1,0 +1,708 @@
+{
+  "checkedAt": 1791608470600,
+  "source": "Original main Compose deployment upgraded in place, actual persisted WaveSurge results, real production UI and headed noVNC",
+  "tasks": [
+    {
+      "id": "research-a333d174361fcf1bed6c0698",
+      "title": "Instagram 科技创作者筛选（加拿大或美国）",
+      "status": "partial",
+      "requested": 2,
+      "evaluated": 1,
+      "matched": 1,
+      "qualifying": 1,
+      "updatedAt": 1791607303205,
+      "detail": "历史结果已按统一账号身份、国家名称和证据重算：已选合格 1/2，核验 1。未确认条件保持 unknown；原分析已保留审计版本。",
+      "remoteId": "24b86cb6-354f-45ac-b5a6-d98c90e8a541",
+      "remoteStatus": "done",
+      "nextPollAt": 1791569460099
+    },
+    {
+      "id": "research-010f8c5e484e38738b2b3640",
+      "title": "浏览器人工协助验收 browser-1791571235315",
+      "status": "completed",
+      "requested": 1,
+      "evaluated": 1,
+      "matched": 1,
+      "qualifying": 1,
+      "updatedAt": 1791607303229,
+      "detail": "历史结果已按统一账号身份、国家名称和证据重算：已选合格 1/1，核验 1。未确认条件保持 unknown；原分析已保留审计版本。",
+      "remoteId": "fixture-browser-1791571235315",
+      "remoteStatus": "done",
+      "nextPollAt": 0
+    },
+    {
+      "id": "research-98350042b636d08a5d424a6c",
+      "title": "科技/耳机评测创作者 1791572085141",
+      "status": "partial",
+      "requested": 1,
+      "evaluated": 0,
+      "matched": 0,
+      "qualifying": 0,
+      "updatedAt": 1791572491151,
+      "detail": "已合格 0/1，已核验 0；证据不足者保持待核实。",
+      "remoteId": "6f09acf3-e189-4e88-8dc9-b6f1403aa1d7",
+      "remoteStatus": "done",
+      "nextPollAt": 1791572431048
+    },
+    {
+      "id": "research-d7687a09b9a84db8c236a706",
+      "title": "学习/效率生活创作者 1791572085141",
+      "status": "partial",
+      "requested": 1,
+      "evaluated": 0,
+      "matched": 0,
+      "qualifying": 0,
+      "updatedAt": 1791572371165,
+      "detail": "已合格 0/1，已核验 0；证据不足者保持待核实。",
+      "remoteId": "7fde3d0c-efa7-49ca-9a84-d28e27f2d2e3",
+      "remoteStatus": "done",
+      "nextPollAt": 1791572311436
+    },
+    {
+      "id": "research-329ed36c04d98223b610f7c0",
+      "title": "科技/耳机评测",
+      "status": "partial",
+      "requested": 1,
+      "evaluated": 0,
+      "matched": 0,
+      "qualifying": 0,
+      "updatedAt": 1791574391734,
+      "detail": "已合格 0/1，已核验 0；证据不足者保持待核实。",
+      "remoteId": "f9690908-d01c-4c74-a839-c048379f984a",
+      "remoteStatus": "done",
+      "nextPollAt": 1791574126543
+    },
+    {
+      "id": "research-58949888b306ad726d60be23",
+      "title": "学习/效率生活",
+      "status": "completed",
+      "requested": 1,
+      "evaluated": 2,
+      "matched": 1,
+      "qualifying": 1,
+      "updatedAt": 1791607303284,
+      "detail": "历史结果已按统一账号身份、国家名称和证据重算：已选合格 1/1，核验 2。未确认条件保持 unknown；原分析已保留审计版本。",
+      "remoteId": "81a2c6c7-32b9-4db3-9c16-ebb7b7adf986",
+      "remoteStatus": "done",
+      "nextPollAt": 0
+    },
+    {
+      "id": "research-5e4db1193ded213e791cd417",
+      "title": "浏览器人工协助验收 skip-1791573434577",
+      "status": "partial",
+      "requested": 1,
+      "evaluated": 1,
+      "matched": 0,
+      "qualifying": 0,
+      "updatedAt": 1791607303299,
+      "detail": "历史结果已按统一账号身份、国家名称和证据重算：已选合格 0/1，核验 1。未确认条件保持 unknown；原分析已保留审计版本。",
+      "remoteId": "fixture-skip-1791573434577",
+      "remoteStatus": "done",
+      "nextPollAt": 0
+    },
+    {
+      "id": "research-5b048604116d7fcbdce4e705",
+      "title": "测试类型 A",
+      "status": "cancelled",
+      "requested": 1,
+      "evaluated": 0,
+      "matched": 0,
+      "qualifying": 0,
+      "updatedAt": 1791573633809,
+      "detail": "已停止本地核验；WaveSurge 没有已验证的远端取消接口，远端搜索可能继续",
+      "remoteId": "05b79b83-a3c7-4dd1-a90b-81a958601b15",
+      "remoteStatus": "running",
+      "nextPollAt": 1791573671384
+    },
+    {
+      "id": "research-9698a6d1fc749a4a3df6084e",
+      "title": "测试类型 B",
+      "status": "cancelled",
+      "requested": 1,
+      "evaluated": 0,
+      "matched": 0,
+      "qualifying": 0,
+      "updatedAt": 1791573633815,
+      "detail": "已停止本地核验；WaveSurge 没有已验证的远端取消接口，远端搜索可能继续",
+      "remoteId": "d4678638-98d2-4c18-9d2c-3d1c5adf6587",
+      "nextPollAt": 1791573611649
+    },
+    {
+      "id": "research-53d5f515c5959e5d00495f27",
+      "title": "测试类型 A",
+      "status": "cancelled",
+      "requested": 1,
+      "evaluated": 0,
+      "matched": 0,
+      "qualifying": 0,
+      "updatedAt": 1791573842258,
+      "detail": "已停止本地核验；WaveSurge 没有已验证的远端取消接口，远端搜索可能继续",
+      "remoteId": "fixture-research-53d5f515c5959e5d00495f27",
+      "remoteStatus": "done",
+      "nextPollAt": 0
+    },
+    {
+      "id": "research-b2efbf875587dbc4b18f0e68",
+      "title": "测试类型 B",
+      "status": "cancelled",
+      "requested": 1,
+      "evaluated": 0,
+      "matched": 0,
+      "qualifying": 0,
+      "updatedAt": 1791573842261,
+      "detail": "已停止本地核验；WaveSurge 没有已验证的远端取消接口，远端搜索可能继续",
+      "remoteId": "fixture-research-b2efbf875587dbc4b18f0e68",
+      "remoteStatus": "done",
+      "nextPollAt": 0
+    },
+    {
+      "id": "research-6b62fedb31c94ffb3dfd83b8",
+      "title": "测试类型 A",
+      "status": "completed",
+      "requested": 1,
+      "evaluated": 2,
+      "matched": 1,
+      "qualifying": 2,
+      "updatedAt": 1791607303338,
+      "detail": "历史结果已按统一账号身份、国家名称和证据重算：已选合格 1/1，核验 2。未确认条件保持 unknown；原分析已保留审计版本。",
+      "remoteId": "fixture-research-6b62fedb31c94ffb3dfd83b8",
+      "remoteStatus": "done",
+      "nextPollAt": 0
+    },
+    {
+      "id": "research-7df22029caef61df6134e885",
+      "title": "测试类型 B",
+      "status": "completed",
+      "requested": 1,
+      "evaluated": 1,
+      "matched": 1,
+      "qualifying": 1,
+      "updatedAt": 1791607303350,
+      "detail": "历史结果已按统一账号身份、国家名称和证据重算：已选合格 1/1，核验 1。未确认条件保持 unknown；原分析已保留审计版本。",
+      "remoteId": "fixture-research-7df22029caef61df6134e885",
+      "remoteStatus": "done",
+      "nextPollAt": 0
+    },
+    {
+      "id": "research-bcebf909d61af9519dc124f3",
+      "title": "浏览器人工协助验收 skip-1791574367119",
+      "status": "partial",
+      "requested": 1,
+      "evaluated": 1,
+      "matched": 0,
+      "qualifying": 0,
+      "updatedAt": 1791607303360,
+      "detail": "历史结果已按统一账号身份、国家名称和证据重算：已选合格 0/1，核验 1。未确认条件保持 unknown；原分析已保留审计版本。",
+      "remoteId": "fixture-skip-1791574367119",
+      "remoteStatus": "done",
+      "nextPollAt": 0
+    },
+    {
+      "id": "research-a5b580b3d9a62868bf773f08",
+      "title": "浏览器人工协助验收 browser-1791575005743",
+      "status": "completed",
+      "requested": 1,
+      "evaluated": 1,
+      "matched": 1,
+      "qualifying": 1,
+      "updatedAt": 1791607303371,
+      "detail": "历史结果已按统一账号身份、国家名称和证据重算：已选合格 1/1，核验 1。未确认条件保持 unknown；原分析已保留审计版本。",
+      "remoteId": "fixture-browser-1791575005743",
+      "remoteStatus": "done",
+      "nextPollAt": 0
+    },
+    {
+      "id": "research-d22f5bc3f9c80da1a4979ca5",
+      "title": "Review独立真实筛选",
+      "status": "completed",
+      "requested": 1,
+      "evaluated": 2,
+      "matched": 1,
+      "qualifying": 2,
+      "updatedAt": 1791607303406,
+      "detail": "历史结果已按统一账号身份、国家名称和证据重算：已选合格 1/1，核验 2。未确认条件保持 unknown；原分析已保留审计版本。",
+      "remoteId": "b5722567-4ae0-435a-b6e9-0c5873d6486e",
+      "remoteStatus": "done",
+      "nextPollAt": 0
+    },
+    {
+      "id": "research-a183b9437d676713c0f2812f",
+      "title": "Geek风戴眼镜的Instagram普通消费者创作者",
+      "status": "needs_input",
+      "requested": 20,
+      "evaluated": 0,
+      "matched": 0,
+      "qualifying": 0,
+      "updatedAt": 1791608421640,
+      "detail": "WaveSurge 搜索失败，保留已有候选继续本地核验；取得 3 位唯一候选，本地已合格 0 人；浏览器等待人工协助，请在桌面查看具体阻塞原因",
+      "remoteId": "bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "remoteStatus": "failed",
+      "nextPollAt": 1791608481639
+    },
+    {
+      "id": "research-fd88375f69e716ff5cbc9fef",
+      "title": "课堂笔记与考试复习方法创作者",
+      "status": "partial",
+      "requested": 1,
+      "evaluated": 2,
+      "matched": 0,
+      "qualifying": 0,
+      "updatedAt": 1791607303470,
+      "detail": "历史结果已按统一账号身份、国家名称和证据重算：已选合格 0/1，核验 2。未确认条件保持 unknown；原分析已保留审计版本。",
+      "remoteId": "7c1837b8-3ec0-4d06-9f4d-752eebc40f64",
+      "remoteStatus": "done",
+      "nextPollAt": 1791598003992
+    },
+    {
+      "id": "research-b30bacd90e74569b33e06bfc",
+      "title": "AI与数字学习工具教学创作者",
+      "status": "partial",
+      "requested": 1,
+      "evaluated": 2,
+      "matched": 0,
+      "qualifying": 0,
+      "updatedAt": 1791608204734,
+      "detail": "历史结果已按统一账号身份、国家名称和证据重算：已选合格 0/1，核验 2。未确认条件保持 unknown；原分析已保留审计版本。",
+      "remoteId": "ff3ac6fb-fa15-4b8d-b358-e7bf18e642de",
+      "remoteStatus": "done",
+      "nextPollAt": 1791597579739
+    },
+    {
+      "id": "enrich-8871961801ae75d3e4c07269",
+      "title": "补充画像：AI与数字学习工具教学创作者",
+      "status": "completed",
+      "requested": 2,
+      "evaluated": 2,
+      "matched": 0,
+      "resultTaskId": "research-b30bacd90e74569b33e06bfc",
+      "updatedAt": 1791607507825,
+      "detail": "已处理 2 个已有账号；失败 0。"
+    },
+    {
+      "id": "enrich-e6bac783cce66bf50203c22a",
+      "title": "补充画像：AI与数字学习工具教学创作者",
+      "status": "completed",
+      "requested": 2,
+      "evaluated": 2,
+      "matched": 0,
+      "resultTaskId": "research-b30bacd90e74569b33e06bfc",
+      "updatedAt": 1791608204740,
+      "detail": "已处理 2 个已有账号；失败 0。"
+    }
+  ],
+  "task": {
+    "id": "research-d22f5bc3f9c80da1a4979ca5",
+    "title": "Review独立真实筛选",
+    "status": "completed",
+    "requested": 1,
+    "evaluated": 2,
+    "matched": 1,
+    "qualifying": 2,
+    "updatedAt": 1791607303406,
+    "detail": "历史结果已按统一账号身份、国家名称和证据重算：已选合格 1/1，核验 2。未确认条件保持 unknown；原分析已保留审计版本。",
+    "remoteId": "b5722567-4ae0-435a-b6e9-0c5873d6486e",
+    "remoteStatus": "done",
+    "nextPollAt": 0
+  },
+  "results": [
+    {
+      "id": "research-d22f5bc3f9c80da1a4979ca5|instagram:tylerlcrawford",
+      "taskId": "research-d22f5bc3f9c80da1a4979ca5",
+      "creator": {
+        "id": "instagram:tylerlcrawford",
+        "platform": "instagram",
+        "handle": "tylerlcrawford",
+        "profileUrl": "https://www.instagram.com/tylerlcrawford/",
+        "displayName": "Tyler Crawford",
+        "followers": 31213,
+        "region": "US",
+        "evidence": [
+          {
+            "id": "3a348175a9b364f28ea1c614",
+            "url": "https://www.instagram.com/tylerlcrawford/",
+            "text": "Profile: My apartment runs itself. Hometel systems | tech + hotel reviews; austin, tx. Followers 31,213; business account false; professional account true.",
+            "kind": "content",
+            "provider": "tikhub",
+            "publishedAt": "2026-10-09T18:58:31Z",
+            "capturedAt": 1791597639578
+          },
+          {
+            "id": "db866e8ccd0ffbaeae9d0f97",
+            "url": "https://www.instagram.com/p/DcZxbpBAJDI/",
+            "text": "My apartment runs itself... Shades close at 9:22... #smarthome #homeautomation #hometel. This smart-home reel had 1,000,430 views.",
+            "kind": "content",
+            "provider": "tikhub",
+            "publishedAt": "2026-08-24T00:27:53Z",
+            "capturedAt": 1791597639578
+          },
+          {
+            "id": "8fb5a563fbba73da3c7efbcb",
+            "url": "https://www.instagram.com/tylerlcrawford/",
+            "kind": "browser_snapshot",
+            "text": "Log In\nSign Up\ntylerlcrawford\n31.2K followers\n345 following\nTyler Crawford\nhe/him\nMy apartment runs itself.\nHometel systems | tech + hotel reviews\naustin, tx | hello@tylerLcrawford.com\nall my links &... \nmore\ntylerlcrawford.com/links and 1 more\nShow more posts from tylerlcrawford\nMeta\nAbout\nBlog\nJobs\nHelp\nAPI\nPrivacy\nTerms\nLocations\nPopular\nInstagram Lite\nMeta AI\nMuse\nThreads\nContact Uploading & Non-Users\nMeta Verified\nEnglish\nAfrikaans\nالعربية\nČeština\nDansk\nDeutsch\nΕλληνικά\nEnglish\nEnglish (UK)\nEspañol (España)\nEspañol\nفارسی\nSuomi\nFrançais\nעברית\nBahasa Indonesia\nItaliano\n日本語\n한국어\nBahasa Melayu\nNorsk\nNederlands\nPolski\nPortuguês (Brasil)\nPortuguês (Portugal)\nРусский\nSvenska\nภาษาไทย\nFilipino\nTürkçe\n中文(简体)\n中文(台灣)\nবাংলা\nગુજરાતી\nहिन्दी\nHrvatski\nMagyar\nಕನ್ನಡ\nമലയാളം\nमराठी\nनेपाली\nਪੰਜਾਬੀ\nසිංහල\nSlovenčina\nதமிழ்\nతెలుగు\nاردو\nTiếng Việt\n中文(香港)\nБългарски\nFrançais (Canada)\nRomână\nСрпски\nУкраїнська\n© 2026 Instagram from Meta",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791597641309,
+            "assetId": "0be069cecedd52d652e657e4f881b8c05631b726639b5af787212ca0132f8e6a"
+          },
+          {
+            "id": "f0f2f7c7183c1e55a5ae1880",
+            "url": "https://www.instagram.com/tylerlcrawford/reel/DcZxbpBAJDI/",
+            "kind": "browser_snapshot",
+            "text": "Log In\nSign Up\nNever miss a post from tylerlcrawford\nSign up for Instagram to stay in the loop.\nBy continuing, you agree to Instagram's Terms of Use and Privacy Policy.\nSign up\nLog in\ntylerlcrawford\n•\nFollow\ntylerlcrawford\n \n6w\nMy apartment runs itself, and this one is everything that happens while I am asleep.\n\nShades close at 9:22. Kitchen shelf lights shut off at 9:50, which is my signal that the day is over. The Pura kicks on lavender. My Eight Sleep adjusts the bed temperature all night based on my body. The humidifier holds the room at 60%. And 45 minutes after sunrise the blackout layer opens first, then the solar shades, so I wake up to the skyline instead of an alarm.\n\nI set all of it up once and it has run every night since. That is the whole point of the hometel.\n\nSave this for when you are ready to automate your own space and send it to whoever you share a bed with.\n\n#smarthome #homeautomation #hometel #eightsleep #sleeproutine\ntobeblessed3\n \n2d\nOkaaaaay I’m impressed\nLike\nReply\niamnickvisser\n \n2d\nMy Alexa said this is AI (I have an echo dot and 4 smart bulbs)\nLike\nReply\n_ashessss\n \n3d\nThis is what I think when I hear smart house\n7 likes\nReply\nimaaduuddin\n \n4d\n👌🏽\n1 like\nReply\noddsandjens\n \n4d\nEven got ChatGPT to automate your script\nLike\nReply\nisabelborjas\n \n4d\nLove it 👏🏼👏🏼\nLike\nReply\npamnabelll\n \n5d\nWhat do you use for automate blinds?\nLike\nReply\nwhitneyxbianca\n \n6d\n🔥\nLike\nReply\nslatkobatko\n \n6d\nMore electricity more consumption!!!\nLike\nReply\nsincerely._.nailah\n \n1w\nSeeing the indeed building everyday would do heinous numbers on my mental health\nLike\nReply\nnoah_castelo\n \n1w\nwhat kitchen of kitchen shelf lights do you have\nLike\nReply\ndgp.girl\n \n1w\nLove this!\n1 like\nReply\nthemainingredientt\n \n1w\nLinks?\nLike\nReply\n_ms.mick_\n \n1w\nDoes everything stop working if wifi is down? Thats my whole pickle- wanted to do this with my place years ago but then they started making everything to rely on a signal or have to be charged.\n7 likes\nReply\nk.e.l.l.sss\n \n1w\nCause wait whaaa I’m not living right!!!\nLike\nReply\n76.3K\n366\nAugust 23\nLog in to like or comment.\nMore posts from tylerlcrawford\nSee more posts\nMeta\nAbout\nBlog\nJobs\nHelp\nAPI\nPrivacy\nTerms\nLocations\nPopular\nInstagram Lite\nMeta AI\nMuse\nThreads\nContact Uploading & Non-Users\nMeta Verified\nEnglish\nAfrikaans\nالعربية\nČeština\nDansk\nDeutsch\nΕλληνικά\nEnglish\nEnglish (UK)\nEspañol (España)\nEspañol\nفارسی\nSuomi\nFrançais\nעברית\nBahasa Indonesia\nItaliano\n日本語\n한국어\nBahasa Melayu\nNorsk\nNederlands\nPolski\nPortuguês (Brasil)\nPortuguês (Portugal)\nРусский\nSvenska\nภาษาไทย\nFilipino\nTürkçe\n中文(简体)\n中文(台灣)\nবাংলা\nગુજરાતી\nहिन्दी\nHrvatski\nMagyar\nಕನ್ನಡ\nമലയാളം\nमराठी\nनेपाली\nਪੰਜਾਬੀ\nසිංහල\nSlovenčina\nதமிழ்\nతెలుగు\nاردو\nTiếng Việt\n中文(香港)\nБългарски\nFrançais (Canada)\nRomână\nСрпски\nУкраїнська\n© 2026 Instagram from Meta",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791597650401,
+            "assetId": "0c4e6b1712a57a8953c80894ab4e42ec80d3a98fcb24093cd3ab8637bc14715e"
+          }
+        ],
+        "raw": {
+          "handle": "tylerlcrawford",
+          "region": "US",
+          "missing": [
+            "Cooperation and commercial consent remain deferred and are not asserted.",
+            "audience_profile_not_measured",
+            "contacts_not_collected"
+          ],
+          "evidence": [
+            {
+              "url": "https://www.instagram.com/tylerlcrawford/",
+              "kind": "content",
+              "text": "Profile: My apartment runs itself. Hometel systems | tech + hotel reviews; austin, tx. Followers 31,213; business account false; professional account true.",
+              "check": "profile_and_creator_in_payload",
+              "provider": "tikhub",
+              "verified": true,
+              "evidenceId": "ev_a23676ba",
+              "publishedAt": "2026-10-09T18:58:31Z"
+            },
+            {
+              "url": "https://www.instagram.com/p/DcZxbpBAJDI/",
+              "kind": "content",
+              "text": "My apartment runs itself... Shades close at 9:22... #smarthome #homeautomation #hometel. This smart-home reel had 1,000,430 views.",
+              "check": "post_and_creator_in_payload",
+              "provider": "tikhub",
+              "verified": true,
+              "evidenceId": "ev_a23676ba",
+              "publishedAt": "2026-08-24T00:27:53Z"
+            }
+          ],
+          "platform": "instagram",
+          "avatarUrl": "https://pompe-ai-analysis-artifacts.sgp1.cdn.digitaloceanspaces.com/creator-avatars/instagram/fff8c3a1791f0692864c68b9ac647d3c.jpg",
+          "fitReason": "Individual technology creator focused on smart-home automation, home-tech systems and technology reviews; located in Austin, Texas, with 31,213 Instagram followers.",
+          "providers": [
+            "tikhub"
+          ],
+          "profileUrl": "https://www.instagram.com/tylerlcrawford/",
+          "displayName": "Tyler Crawford",
+          "overallTier": "A",
+          "factorGrades": {
+            "role": "strong",
+            "activity": "observed",
+            "identity": "individual",
+            "location": "confirmed_country",
+            "followers": "in_range",
+            "relevance": "strong"
+          },
+          "regionSource": "codex",
+          "followerCount": 31213,
+          "hardConditions": [
+            {
+              "basis": "Retained Instagram profile and reels identify this Instagram account.",
+              "status": "met",
+              "condition": "Instagram platform"
+            },
+            {
+              "basis": "Profile edge_followed_by/count equals 31,213 in evidence ev_a23676ba.",
+              "status": "met",
+              "condition": "Followers at least 10,000 and at most 100,000"
+            },
+            {
+              "basis": "Self-location in profile text: 'austin, tx', attributable in evidence ev_a23676ba.",
+              "status": "met",
+              "condition": "Creator based in United States or Canada"
+            },
+            {
+              "basis": "Profile has full name Tyler Crawford and is_business_account=false; content is personal creator work.",
+              "status": "met",
+              "condition": "Individual creators only"
+            },
+            {
+              "basis": "Profile describes 'tech + hotel reviews'; retained smart-home/homeautomation reels are attributable to the same account.",
+              "status": "met",
+              "condition": "Technology content creator"
+            },
+            {
+              "basis": "Only this distinct Instagram person is selected; no duplicate person appears elsewhere in the selected set.",
+              "status": "met",
+              "condition": "No person on two platforms"
+            }
+          ],
+          "providerUserId": "48426799147",
+          "searchMatchTier": "precise",
+          "profileCompleteness": "full"
+        }
+      },
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "match",
+          "reason": "WaveSurge 地区：US；服务标记国家已确认",
+          "evidenceIds": [
+            "3a348175a9b364f28ea1c614",
+            "db866e8ccd0ffbaeae9d0f97"
+          ],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 31213，要求 10000–100000",
+          "evidenceIds": [
+            "3a348175a9b364f28ea1c614",
+            "db866e8ccd0ffbaeae9d0f97"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "technology_content",
+          "verdict": "match",
+          "reason": "公开主页文字明确写有“Hometel systems | tech + hotel reviews”。同账号帖子正文分享智能家居自动化：定时关闭窗帘和灯光、Eight Sleep 根据身体调整床温、加湿器维持湿度，以及日出后自动打开遮光层，并使用 #smarthome、#homeautomation 标签，足以确认明确分享科技内容。本判断依据实际读取的公开文字，不依赖头像或被注册提示遮挡的视频画面。帖子页面日期显示“August 23”，未显示年份，不推断完整发布日期。",
+          "evidenceIds": [
+            "8fb5a563fbba73da3c7efbcb",
+            "f0f2f7c7183c1e55a5ae1880"
+          ],
+          "label": "公开文字内容明确分享科技内容"
+        }
+      ],
+      "verdict": "match",
+      "tags": [
+        "公开文字内容明确分享科技内容"
+      ],
+      "updatedAt": 1791607303379,
+      "annotations": [],
+      "revision": 2,
+      "selected": true
+    },
+    {
+      "id": "research-d22f5bc3f9c80da1a4979ca5|instagram:valstechtalkk",
+      "taskId": "research-d22f5bc3f9c80da1a4979ca5",
+      "creator": {
+        "id": "instagram:valstechtalkk",
+        "platform": "instagram",
+        "handle": "valstechtalkk",
+        "profileUrl": "https://www.instagram.com/valstechtalkk/",
+        "displayName": "V",
+        "followers": 39639,
+        "region": "US",
+        "evidence": [
+          {
+            "id": "37e38a48f5a4b516db6c6271",
+            "url": "https://www.instagram.com/valstechtalkk/",
+            "text": "Profile: 'tech but make it cute 📱 | HTX; Reviews + a little glam... 400k+ tech besties on tiktok.' Followers 39,639; category_name Tech; is_business_account false; is_verified true.",
+            "kind": "content",
+            "provider": "tikhub",
+            "publishedAt": "2026-10-09T18:59:36Z",
+            "capturedAt": 1791597639579
+          },
+          {
+            "id": "385029a29d98998b76c8b4dc",
+            "url": "https://www.instagram.com/p/Ddk7C9lKgE4/",
+            "text": "Day 1 of iPhone features you may not know. Welcome to all of the tips and tricks! #iphone18 #iphonetips #iphonetipsandtricks. Reel had 389,651 views.",
+            "kind": "content",
+            "provider": "tikhub",
+            "publishedAt": "2026-09-22T04:54:35Z",
+            "capturedAt": 1791597639579
+          },
+          {
+            "id": "834e31e4ad5d6471a34c29b6",
+            "url": "https://www.instagram.com/valstechtalkk/",
+            "kind": "browser_snapshot",
+            "text": "Log In\nSign Up\nvalstechtalkk\n39.6K followers\n523 following\nV\ntech but make it cute 📱 | HTX\nReviews + a little glam 💒💄\n400k+ tech besties on tiktok 👩🏻‍💻\n📧 : Valstech@swipemgmt.com\nlinktr.ee/Valstechtalk\nShow more posts from valstechtalkk\nMeta\nAbout\nBlog\nJobs\nHelp\nAPI\nPrivacy\nTerms\nLocations\nPopular\nInstagram Lite\nMeta AI\nMuse\nThreads\nContact Uploading & Non-Users\nMeta Verified\nEnglish\nAfrikaans\nالعربية\nČeština\nDansk\nDeutsch\nΕλληνικά\nEnglish\nEnglish (UK)\nEspañol (España)\nEspañol\nفارسی\nSuomi\nFrançais\nעברית\nBahasa Indonesia\nItaliano\n日本語\n한국어\nBahasa Melayu\nNorsk\nNederlands\nPolski\nPortuguês (Brasil)\nPortuguês (Portugal)\nРусский\nSvenska\nภาษาไทย\nFilipino\nTürkçe\n中文(简体)\n中文(台灣)\nবাংলা\nગુજરાતી\nहिन्दी\nHrvatski\nMagyar\nಕನ್ನಡ\nമലയാളം\nमराठी\nनेपाली\nਪੰਜਾਬੀ\nසිංහල\nSlovenčina\nதமிழ்\nతెలుగు\nاردو\nTiếng Việt\n中文(香港)\nБългарски\nFrançais (Canada)\nRomână\nСрпски\nУкраїнська\n© 2026 Instagram from Meta",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791597659527,
+            "assetId": "ca68eec12d3e2421614e3bbab49aaff4cb59898e749ce2fc4aa79a67fb439090"
+          },
+          {
+            "id": "7ffef03d5a204875781af192",
+            "url": "https://www.instagram.com/valstechtalkk/reel/DeQfBbyKmOR/",
+            "kind": "browser_snapshot",
+            "text": "Log In\nSign Up\nNever miss a post from valstechtalkk\nSign up for Instagram to stay in the loop.\nBy continuing, you agree to Instagram's Terms of Use and Privacy Policy.\nSign up\nLog in\nvalstechtalkk\n•\nFollow\nOriginal audio\nvalstechtalkk\n \n23h\ncamera settings i turn on for the CRISP quality 🤩 #iphone #iphonetips #iphone18promax #iphonecamera\nyounesyouceffateh\n \n4h\n❤️❤️\nLike\nReply\nalvillit\n \n9h\n@d.i.a.n.a.d.e.e\nLike\nReply\nim_obaaa\n \n10h\nI get the crisp video and pictures alright. But once I upload it on WhatsApp status,it becomes blur and has a poor quality. I don’t know how to correct it @valstechtalkk\nLike\nReply\nthejamiero_\n \n13h\nThe “photographic style”, do you have a video on how to set it to “+glow” I know how to set it to Amber. But I’m curious about the “+glow” part.\nLike\nReply\nvvendyfranco\n \n22h\nI love the case!!!!!\n1 like\nReply\nsaraa_aaraas\n \n22h\n😍😍😍\nLike\nReply\ntialicha_77\n \n22h\nThank you and gurlll where did you get that case at 😍\nLike\nReply\nlachiqui10\n \n22h\nIn love with your case. Pls send me the link 🫶🏻\n1 like\nReply\nzeaugen_\n \n22h\nMy dear , one day i learnt how to make my phone talk when i plug charge then all over suddenly it stopped talking after some months am still looking for your video which you teach how to make a phone talk plsss show meee\nLike\nReply\n_castillopeyton\n \n22h\n😍😍🔥\nLike\nReply\n_castillopeyton\n \n22h\nNEEDED THIS🙌🏽\nLike\nReply\n13\n23 hours ago\nLog in to like or comment.\nMore posts from valstechtalkk\nSee more posts\nMeta\nAbout\nBlog\nJobs\nHelp\nAPI\nPrivacy\nTerms\nLocations\nPopular\nInstagram Lite\nMeta AI\nMuse\nThreads\nContact Uploading & Non-Users\nMeta Verified\nEnglish\nAfrikaans\nالعربية\nČeština\nDansk\nDeutsch\nΕλληνικά\nEnglish\nEnglish (UK)\nEspañol (España)\nEspañol\nفارسی\nSuomi\nFrançais\nעברית\nBahasa Indonesia\nItaliano\n日本語\n한국어\nBahasa Melayu\nNorsk\nNederlands\nPolski\nPortuguês (Brasil)\nPortuguês (Portugal)\nРусский\nSvenska\nภาษาไทย\nFilipino\nTürkçe\n中文(简体)\n中文(台灣)\nবাংলা\nગુજરાતી\nहिन्दी\nHrvatski\nMagyar\nಕನ್ನಡ\nമലയാളം\nमराठी\nनेपाली\nਪੰਜਾਬੀ\nසිංහල\nSlovenčina\nதமிழ்\nతెలుగు\nاردو\nTiếng Việt\n中文(香港)\nБългарски\nFrançais (Canada)\nRomână\nСрпски\nУкраїнська\n© 2026 Instagram from Meta",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791597664123,
+            "assetId": "5f44f6edda5a55332fdfc3b69e8ea7766d02a143fc4c9c727df5c078957feb20"
+          },
+          {
+            "id": "3170fea138470cda124e98fb",
+            "url": "https://www.instagram.com/valstechtalkk/reel/DeQfBbyKmOR/",
+            "kind": "browser_snapshot",
+            "text": "Log In\nSign Up\nvalstechtalkk\n•\nFollow\nOriginal audio\nvalstechtalkk\n \n23h\ncamera settings i turn on for the CRISP quality 🤩 #iphone #iphonetips #iphone18promax #iphonecamera\nyounesyouceffateh\n \n4h\n❤️❤️\nLike\nReply\nalvillit\n \n9h\n@d.i.a.n.a.d.e.e\nLike\nReply\nim_obaaa\n \n10h\nI get the crisp video and pictures alright. But once I upload it on WhatsApp status,it becomes blur and has a poor quality. I don’t know how to correct it @valstechtalkk\nLike\nReply\nthejamiero_\n \n13h\nThe “photographic style”, do you have a video on how to set it to “+glow” I know how to set it to Amber. But I’m curious about the “+glow” part.\nLike\nReply\nvvendyfranco\n \n22h\nI love the case!!!!!\n1 like\nReply\nsaraa_aaraas\n \n22h\n😍😍😍\nLike\nReply\ntialicha_77\n \n22h\nThank you and gurlll where did you get that case at 😍\nLike\nReply\nlachiqui10\n \n22h\nIn love with your case. Pls send me the link 🫶🏻\n1 like\nReply\nzeaugen_\n \n22h\nMy dear , one day i learnt how to make my phone talk when i plug charge then all over suddenly it stopped talking after some months am still looking for your video which you teach how to make a phone talk plsss show meee\nLike\nReply\n_castillopeyton\n \n22h\n😍😍🔥\nLike\nReply\n_castillopeyton\n \n22h\nNEEDED THIS🙌🏽\nLike\nReply\n13\n23 hours ago\nLog in to like or comment.\nMore posts from valstechtalkk\nSee more posts\nMeta\nAbout\nBlog\nJobs\nHelp\nAPI\nPrivacy\nTerms\nLocations\nPopular\nInstagram Lite\nMeta AI\nMuse\nThreads\nContact Uploading & Non-Users\nMeta Verified\nEnglish\nAfrikaans\nالعربية\nČeština\nDansk\nDeutsch\nΕλληνικά\nEnglish\nEnglish (UK)\nEspañol (España)\nEspañol\nفارسی\nSuomi\nFrançais\nעברית\nBahasa Indonesia\nItaliano\n日本語\n한국어\nBahasa Melayu\nNorsk\nNederlands\nPolski\nPortuguês (Brasil)\nPortuguês (Portugal)\nРусский\nSvenska\nภาษาไทย\nFilipino\nTürkçe\n中文(简体)\n中文(台灣)\nবাংলা\nગુજરાતી\nहिन्दी\nHrvatski\nMagyar\nಕನ್ನಡ\nമലയാളം\nमराठी\nनेपाली\nਪੰਜਾਬੀ\nසිංහල\nSlovenčina\nதமிழ்\nతెలుగు\nاردو\nTiếng Việt\n中文(香港)\nБългарски\nFrançais (Canada)\nRomână\nСрпски\nУкраїнська\n© 2026 Instagram from Meta",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791597924713,
+            "assetId": "8541d87f8b8e93c1e8da5427f7dfa5c1969471e9f1fb3a6780bdefd2fc34ea47"
+          }
+        ],
+        "raw": {
+          "handle": "valstechtalkk",
+          "region": "US",
+          "missing": [
+            "Cooperation and commercial consent remain deferred and are not asserted.",
+            "The profile references an off-Instagram TikTok audience, but only the Instagram person/account is selected.",
+            "audience_profile_not_measured",
+            "contacts_not_collected"
+          ],
+          "evidence": [
+            {
+              "url": "https://www.instagram.com/valstechtalkk/",
+              "kind": "content",
+              "text": "Profile: 'tech but make it cute 📱 | HTX; Reviews + a little glam... 400k+ tech besties on tiktok.' Followers 39,639; category_name Tech; is_business_account false; is_verified true.",
+              "check": "profile_and_creator_in_payload",
+              "provider": "tikhub",
+              "verified": true,
+              "evidenceId": "ev_8efe50f9",
+              "publishedAt": "2026-10-09T18:59:36Z"
+            },
+            {
+              "url": "https://www.instagram.com/p/Ddk7C9lKgE4/",
+              "kind": "content",
+              "text": "Day 1 of iPhone features you may not know. Welcome to all of the tips and tricks! #iphone18 #iphonetips #iphonetipsandtricks. Reel had 389,651 views.",
+              "check": "post_and_creator_in_payload",
+              "provider": "tikhub",
+              "verified": true,
+              "evidenceId": "ev_239397ac",
+              "publishedAt": "2026-09-22T04:54:35Z"
+            }
+          ],
+          "platform": "instagram",
+          "avatarUrl": "https://pompe-ai-analysis-artifacts.sgp1.cdn.digitaloceanspaces.com/creator-avatars/instagram/cc7af1eb461186ce8fa2a5e4e2481ae6.jpg",
+          "fitReason": "Individual technology creator and Instagram category 'Tech'; creates iPhone feature/review content, is located in Houston, Texas, and has 39,639 Instagram followers.",
+          "providers": [
+            "tikhub"
+          ],
+          "profileUrl": "https://www.instagram.com/valstechtalkk/",
+          "displayName": "V",
+          "overallTier": "A",
+          "factorGrades": {
+            "role": "strong",
+            "activity": "observed",
+            "identity": "individual",
+            "location": "confirmed_country",
+            "followers": "in_range",
+            "relevance": "strong"
+          },
+          "regionSource": "codex",
+          "followerCount": 39639,
+          "hardConditions": [
+            {
+              "basis": "Retained Instagram profile and reel identify this Instagram account.",
+              "status": "met",
+              "condition": "Instagram platform"
+            },
+            {
+              "basis": "Profile edge_followed_by/count equals 39,639 in evidence ev_8efe50f9.",
+              "status": "met",
+              "condition": "Followers at least 10,000 and at most 100,000"
+            },
+            {
+              "basis": "Profile self-location 'HTX' (Houston, Texas) is attributable in evidence ev_8efe50f9.",
+              "status": "met",
+              "condition": "Creator based in United States or Canada"
+            },
+            {
+              "basis": "Profile is_business_account=false; personal technology creator brand with management email.",
+              "status": "met",
+              "condition": "Individual creators only"
+            },
+            {
+              "basis": "Profile says 'tech' and 'Reviews'; retained reel is an iPhone feature/tips review attributable to this account.",
+              "status": "met",
+              "condition": "Technology content creator"
+            },
+            {
+              "basis": "Only this distinct Instagram person is selected; no duplicate person appears elsewhere in the selected set.",
+              "status": "met",
+              "condition": "No person on two platforms"
+            }
+          ],
+          "providerUserId": "10561673222",
+          "searchMatchTier": "precise",
+          "profileCompleteness": "full"
+        }
+      },
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "match",
+          "reason": "WaveSurge 地区：US；服务标记国家已确认",
+          "evidenceIds": [
+            "37e38a48f5a4b516db6c6271",
+            "385029a29d98998b76c8b4dc"
+          ],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 39639，要求 10000–100000",
+          "evidenceIds": [
+            "37e38a48f5a4b516db6c6271",
+            "385029a29d98998b76c8b4dc"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "technology_content",
+          "verdict": "match",
+          "reason": "人工协助后取得的公开帖子文字与截图可见，作者为 valstechtalkk，文案为“camera settings i turn on for the CRISP quality”，并含 #iphone、#iphonetips、#iphonecamera；画面文字为“DAY NINE : IPHONE CAMERA TIPS”。明确分享 iPhone 相机设置与使用技巧，符合科技内容条件。页面仅显示相对时间“23 hours ago”，不推断精确发布日期；本条件未要求时间范围。主页公开简介“tech but make it cute”“Reviews”提供补充佐证。",
+          "evidenceIds": [
+            "3170fea138470cda124e98fb",
+            "834e31e4ad5d6471a34c29b6"
+          ],
+          "label": "公开文字内容明确分享科技内容"
+        }
+      ],
+      "verdict": "match",
+      "tags": [
+        "公开文字内容明确分享科技内容"
+      ],
+      "updatedAt": 1791607303379,
+      "annotations": [],
+      "revision": 2,
+      "selected": false
+    }
+  ],
+  "reportReceipts": [
+    {
+      "id": "report-research-d22f5bc3f9c80da1a4979ca5-fac108215033a02d",
+      "role": "assistant",
+      "text": "研究「Review独立真实筛选」已完成。已选合格 1/1 人，核验 2 人。\n\n历史结果已按统一账号身份、国家名称和证据重算：已选合格 1/1，核验 2。未确认条件保持 unknown；原分析已保留审计版本。\n\n[查看完整报告](/api/reports/research-d22f5bc3f9c80da1a4979ca5) · [下载 CSV](/api/reports/research-d22f5bc3f9c80da1a4979ca5?format=csv)",
+      "createdAt": 1791607303409,
+      "epoch": 6,
+      "state": "delivered",
+      "attachments": []
+    }
+  ],
+  "htmlEmbeddedPngs": 5,
+  "csvLength": 15084,
+  "markdownTables": 11,
+  "migration": {
+    "data-migration": 1,
+    "result-history": 20
+  }
+}

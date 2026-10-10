@@ -1,0 +1,61 @@
+{
+  "startedAt": "2026-10-10T15:33:29.573Z",
+  "source": "Production report HTTP routes and actual read-only R4 snapshot. Browser renders/downloads existing real results; no claim of new research or social page access.",
+  "pageErrors": [],
+  "variants": [
+    {
+      "name": "positive",
+      "path": "/api/reports/research-294320f8d1c060255d3310e8",
+      "records": 2,
+      "unique": 2,
+      "qualifying": 2,
+      "selected": 1,
+      "summary": "目标 1 人；合格候选 2 人；最终入选 1 人；缺额 0 人；已核验 2 人（2 条记录）。",
+      "sourceTasks": [
+        "research-294320f8d1c060255d3310e8"
+      ],
+      "csvColumns": 25,
+      "htmlCsvEveryRowMatched": true,
+      "widths": [
+        {
+          "width": 768,
+          "noHorizontalOverflow": true
+        },
+        {
+          "width": 375,
+          "noHorizontalOverflow": true
+        }
+      ]
+    },
+    {
+      "name": "six-groups",
+      "path": "/api/work-batches/ec514915-f6b2-4081-9fe9-43525119d6a4/report",
+      "records": 6,
+      "unique": 2,
+      "qualifying": 5,
+      "selected": 3,
+      "summary": "已核验 6 条记录；去重创作者 2 人；合格记录 5 条（去重 2 人）；入选记录 3 条（去重 1 人）；待核实记录 1 条；不符合记录 0 条。各组适用条件和配额分别计算，同一账号在不同组的判断不能合并成一个结论。",
+      "sourceTasks": [
+        "research-294320f8d1c060255d3310e8",
+        "research-7f22924e895fdf79bc9bfb73",
+        "research-1c0a7ca9deb257bd0144ee1f"
+      ],
+      "csvColumns": 25,
+      "htmlCsvEveryRowMatched": true,
+      "widths": [
+        {
+          "width": 768,
+          "noHorizontalOverflow": true
+        },
+        {
+          "width": 375,
+          "noHorizontalOverflow": true
+        }
+      ]
+    }
+  ],
+  "passed": true,
+  "newWaveCalls": 0,
+  "resultsUnchanged": true,
+  "finishedAt": "2026-10-10T15:33:42.147Z"
+}

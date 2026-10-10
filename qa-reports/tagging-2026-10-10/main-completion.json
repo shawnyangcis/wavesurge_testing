@@ -1,0 +1,3549 @@
+{
+  "source": "Actual new WaveSurge search and application UI",
+  "scope": "main",
+  "base": "http://127.0.0.1:3000",
+  "startedAt": "2026-10-10T03:13:57.774Z",
+  "ids": [
+    "research-a183b9437d676713c0f2812f"
+  ],
+  "timeline": [
+    {
+      "at": "2026-10-10T03:13:58.281Z",
+      "tasks": [
+        {
+          "id": "research-a183b9437d676713c0f2812f",
+          "title": "Geek风戴眼镜的Instagram普通消费者创作者",
+          "status": "running",
+          "requested": 20,
+          "evaluated": 0,
+          "matched": 0,
+          "updatedAt": 1791601959558,
+          "detail": "WaveSurge 搜索执行中；本地已合格 0 人",
+          "remoteId": "bd260f50-b76f-440c-9e47-a022a6697ac6",
+          "remoteStatus": "running",
+          "nextPollAt": 1791602019558
+        }
+      ]
+    }
+  ],
+  "observedAt": "2026-10-10T03:13:58.466Z",
+  "tasks": [
+    {
+      "id": "research-a183b9437d676713c0f2812f",
+      "title": "Geek风戴眼镜的Instagram普通消费者创作者",
+      "status": "running",
+      "requested": 20,
+      "evaluated": 0,
+      "matched": 0,
+      "updatedAt": 1791601959558,
+      "detail": "WaveSurge 搜索执行中；本地已合格 0 人",
+      "remoteId": "bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "remoteStatus": "running",
+      "nextPollAt": 1791602019558
+    }
+  ],
+  "results": [],
+  "finalChat": [
+    {
+      "role": "user",
+      "text": "刚才那几个人，先别重新找。把 tylerlcrawford、valstechtalkk、SchoolHabits、raytubelcsw、colelangs 和 wesleyanna 都整理一下，不合格的也放进去。每个人加上内容方向、风格、戴不戴眼镜这几列，用短标签写，再附上看到的依据。看不出来就写待确认，整理好给我一份文档。",
+      "state": "delivered"
+    },
+    {
+      "role": "assistant",
+      "text": "# 六位创作者整理文档\n\n仅整理已有核验记录，**未重新搜索**；不合格和待确认者均保留。下面的“风格”是**内容表达风格**，不是外貌或穿搭判断。已有记录不足以确认眼镜情况，因此不写成“戴”或“不戴”。\n\n## 一、短标签总览\n\n| 创作者 | 平台 | 内容方向 | 内容风格 | 戴不戴眼镜 | 原筛选结论 | 依据 |\n|---|---|---|---|---|---|---|\n| **tylerlcrawford** | Instagram | 智能家居／科技／酒店评测 | 自动化场景分享 | 待确认 | 已存不合格＊ | [1] |\n| **valstechtalkk** | Instagram | iPhone技巧／科技评测 | 可爱科技／技巧分享 | 待确认 | 已存不合格＊ | [2] |\n| **SchoolHabits** | YouTube | 学习方法／考试复习 | 方法教学／指南型 | 待确认 | 待确认 | [3] |\n| **raytubelcsw** | YouTube | 社工执照考试／练习题 | 刷题备考／建议型 | 待确认 | 待确认 | [4] |\n| **colelangs** | YouTube | 语言学习／Anki闪卡 | 教程定位／章节型 | 待确认 | 待确认 | [5] |\n| **wesleyanna** | YouTube | Notion／数字效率 | 入门教程／布局搭建 | 待确认 | 待确认 | [6] |\n\n**＊地区记录存在疑点：**tylerlcrawford 和 valstechtalkk 的已存地区字段为 `US`，但原筛选要求为 `United States` 或 `Canada`，已存地区判断为 `no_match`。这里保留原结论，不将其改判为合格；这也不表示已有证据证明二人位于美国以外。\n\n## 二、看到的依据与缺口\n\n### [1] tylerlcrawford\n主页：[Instagram](https://www.instagram.com/tylerlcrawford/)\n\n- **内容方向依据**：主页文字为 **“Hometel systems | tech + hotel reviews”**。已读取帖子正文介绍自动关闭窗帘和灯光、Eight Sleep 调节床温、加湿器维持湿度及日出后打开遮光层，并带有 `#smarthome`、`#homeautomation`。\n- **风格依据**：该帖围绕家庭生活中的自动化使用场景展开，因此标为“自动化场景分享”，不据此概括全部内容。\n- **眼镜情况**：已有记录未明确描述可用于判断眼镜的画面；视频还受到注册提示遮挡，故为**待确认**。\n- **原结论**：科技内容 `match`；平台和粉丝范围 `match`；地区已存 `no_match`，存在上述字段疑点。\n- **证据 ID**：`8fb5a563fbba73da3c7efbcb`、`f0f2f7c7183c1e55a5ae1880`。\n\n### [2] valstechtalkk\n主页：[Instagram](https://www.instagram.com/valstechtalkk/)\n\n- **内容方向依据**：帖子文案为 **“camera settings i turn on for the CRISP quality”**，标签包括 `#iphone`、`#iphonetips`、`#iphonecamera`；截图记录中的文字为 **“DAY NINE : IPHONE CAMERA TIPS”**。\n- **风格依据**：主页简介写有 **“tech but make it cute”**、**“Reviews”**，结合相机设置技巧帖子，标为“可爱科技／技巧分享”。“可爱科技”来自本人内容定位，不是外貌判断。\n- **眼镜情况**：已有截图核验记录未明确说明是否佩戴眼镜，故为**待确认**。\n- **原结论**：科技内容 `match`；平台和粉丝范围 `match`；地区已存 `no_match`，存在上述字段疑点。\n- **证据 ID**：`3170fea138470cda124e98fb`、`834e31e4ad5d6471a34c29b6`。\n\n### [3] SchoolHabits\n主页：[YouTube](https://www.youtube.com/@schoolhabits)\n\n- **内容方向依据**：视频 **“How to Study from a Study Guide You Got from Your Teacher”** 的说明和章节涉及如何利用老师给的复习指南记忆信息、应对考试。\n- **风格依据**：视频说明写有 **“In this video, I show you exactly how to do that.”**，章节包括 **“What to actually do with a study guide”**，支持“方法教学／指南型”标签。\n- **大学受众依据**：频道欢迎视频说明明确写有 **“My online study skills course for high school and college students”**。\n- **眼镜情况**：没有明确的眼镜视觉核验记录，**待确认**。\n- **原结论**：英语、复习方法、大学受众相关性均为 `match`；本人所在地、粉丝数为 `unknown`，因此整体待确认。\n- **证据 ID**：`28fa021bbdbca5feb8039546`、`1a70681ec7a4c14c043ba6bd`。\n\n### [4] raytubelcsw\n主页：[YouTube](https://www.youtube.com/@raytubelcsw)\n\n- **内容方向依据**：公开视频包括 **“ASWB Practice Questions for ALL ASWB Exam Types! RayTube #52”**；频道说明提供 ASWB 备考课程、练习题与学习提纲。\n- **风格依据**：公开建议 **“doing AT LEAST 2 practice questions a day”**，支持“刷题备考／建议型”标签。\n- **眼镜情况**：没有明确的眼镜视觉核验记录，**待确认**。\n- **原结论**：英语、考试复习内容为 `match`；大学生受众相关性、本人所在地及粉丝数为 `unknown`。执照考试内容不能直接证明面向大学生。\n- **证据 ID**：`82f948b56674feb4a64e9eae`、`875b0be160346ad60789d6f0`。\n\n### [5] colelangs\n主页：[YouTube](https://www.youtube.com/@colelangs)\n\n- **内容方向依据**：频道简介涉及 **“people, places, ideas, and languages”**；Anki 视频简介写有 **“I'll teach you everything about Anki”**。\n- **风格依据**：教程章节包括 **“Installing Anki”**、**“Making and Styling Cards”**，以及填空卡、图片遮挡等主题，支持“教程定位／章节型”标签。\n- **重要限制**：取得的是简介及章节目录，文字稿未成功加载，**不能据此确认具体操作步骤已经满足严格教程条件**。\n- **眼镜情况**：没有明确的眼镜视觉核验记录，**待确认**。\n- **原结论**：英语为 `match`；实际步骤、课堂笔记／考试复习用途、大学受众相关性、所在地和粉丝数均为 `unknown`。\n- **证据 ID**：`a1633b15d73114cd7c99a411`、`d9a4084b32b828c0b927be07`、`2f091009f3652e5316931e00`。\n\n### [6] wesleyanna\n主页：[YouTube](https://www.youtube.com/@wesleyanna)\n\n- **内容方向依据**：公开帖子提到 **“another video from my Notion series”**；已核验的 Notion 入门视频简介涉及搭建布局。\n- **风格依据**：章节包括 **“3...2...1...build!”** 和技巧部分，支持“入门教程／布局搭建”标签。\n- **重要限制**：简介及章节没有呈现具体操作步骤，文字稿未成功加载。简介中的 **“Notion University”** 是 Notion 工作区课程名称，不能用来证明大学生受众。\n- **眼镜情况**：没有明确的眼镜视觉核验记录，**待确认**。\n- **原结论**：英语为 `match`；实际步骤、课堂笔记／考试复习用途、大学受众相关性、所在地和粉丝数均为 `unknown`。\n- **证据 ID**：`dcf1c2d538669e7ff3546fda`、`5ad842b87badb2b84de81aae`、`27a4382abe9c3f1705232047`。\n\n## 三、原核验报告\n\n- [tylerlcrawford、valstechtalkk 原报告](/api/reports/research-d22f5bc3f9c80da1a4979ca5)\n- [SchoolHabits、raytubelcsw 原报告](/api/reports/research-fd88375f69e716ff5cbc9fef)\n- [colelangs、wesleyanna 原报告](/api/reports/research-b30bacd90e74569b33e06bfc)\n\n**说明：**“待确认”表示现有证据不足，不等于不符合；这些补充标签也不改变原任务的筛选条件或已存结论。",
+      "state": "delivered"
+    },
+    {
+      "role": "user",
+      "text": "聊天里这几列我看到了，但点开原报告还是老的。把这些标签也存进结果里吧，我要在结果页按“Notion”或者“智能家居”筛选，刷新后还能看到，导出的文件也带上。眼镜这列再看下他们的公开视频，别只用上次那段文字。",
+      "state": "delivered"
+    },
+    {
+      "role": "assistant",
+      "text": "你说得对：上次那份整理只在聊天里，**没有写回结果记录**，所以原报告没有变化。我应当明确说明这一点。\n\n目前我能读取已保存的结果，但**没有修改结果标签、更新导出字段或打开公开视频重新核验的工具**。因此，本轮不能把这些内容真正持久化，也不能声称已重新看过视频。\n\n需要写入的内容已明确如下：\n\n| 创作者 | 内容方向标签 | 内容风格标签 |\n|---|---|---|\n| tylerlcrawford | 智能家居、科技、酒店评测 | 自动化场景分享 |\n| valstechtalkk | iPhone技巧、科技评测 | 可爱科技、技巧分享 |\n| SchoolHabits | 学习方法、考试复习 | 方法教学、指南型 |\n| raytubelcsw | 社工执照考试、练习题 | 刷题备考、建议型 |\n| colelangs | 语言学习、Anki | 教程定位、章节型 |\n| wesleyanna | Notion、数字效率 | 入门教程、布局搭建 |\n\n这些标签需写入结果页使用的筛选字段，并同步到报告和导出文件，而不是仅追加在聊天中；不合格及待确认记录也应保留。\n\n**眼镜一列仍全部为“待确认”**。重新核验应依据本人公开视频中的实际画面，记录视频链接、时间点和对应截图；只能描述“该画面佩戴／未佩戴眼镜”，不能凭某个未戴眼镜的片段断言此人从不戴眼镜。若你提供公开视频片段或截图，我可以据实际画面补充判断，但仍无法直接写回结果页。",
+      "state": "delivered"
+    }
+  ],
+  "waveCalls": [
+    {
+      "id": "c05b9a7f-3f0a-4cab-8976-36b94438e0d7",
+      "kind": "wavesurge",
+      "createdAt": 1791595746445,
+      "path": "/creator-search/requests",
+      "method": "POST",
+      "request": {
+        "requestId": "research-a183b9437d676713c0f2812f",
+        "personaText": "ordinary consumer creators with a geek aesthetic and glasses who publicly self-identify as white",
+        "count": 40,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [
+          "United States",
+          "Canada",
+          "United Kingdom",
+          "Germany",
+          "France"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "emailReadyRequired": false
+      },
+      "status": 201,
+      "response": {
+        "taskId": "bd260f50-b76f-440c-9e47-a022a6697ac6"
+      },
+      "finishedAt": 1791595746670
+    },
+    {
+      "id": "e18c2d20-044c-4b5e-b8b9-46fbbf082280",
+      "kind": "wavesurge",
+      "createdAt": 1791595858036,
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791595858146
+    },
+    {
+      "id": "af3bc478-d4b6-4b7f-a27d-9d2e019a7083",
+      "kind": "wavesurge",
+      "createdAt": 1791595977955,
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791595978053
+    },
+    {
+      "id": "225ca427-44ca-4bed-9bf3-51fe735b5bdb",
+      "kind": "wavesurge",
+      "createdAt": 1791596097786,
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791596097902
+    },
+    {
+      "id": "56f57303-0cb9-4717-af55-06e7632d57b8",
+      "kind": "wavesurge",
+      "createdAt": 1791596218039,
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791596218147
+    },
+    {
+      "id": "4635e65c-f496-4a24-b035-27de6efe618a",
+      "kind": "wavesurge",
+      "createdAt": 1791596338072,
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791596338188
+    },
+    {
+      "id": "00ce4069-fe23-4ed8-9de4-3509c2fb6ffb",
+      "kind": "wavesurge",
+      "createdAt": 1791596458009,
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791596458108
+    },
+    {
+      "id": "0111a303-9374-4228-90ee-1acc8756e790",
+      "kind": "wavesurge",
+      "createdAt": 1791596578042,
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791596578141
+    },
+    {
+      "id": "818b7b7f-3d5f-45cd-9333-586fefbef2c1",
+      "kind": "wavesurge",
+      "createdAt": 1791596698141,
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791596698262
+    },
+    {
+      "id": "36911b68-698f-4195-a027-3f8442ef799a",
+      "kind": "wavesurge",
+      "createdAt": 1791596818078,
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791596818170
+    },
+    {
+      "id": "0de3ec5c-5e32-4cbe-a0dc-7cb953921d8c",
+      "kind": "wavesurge",
+      "createdAt": 1791596919612,
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791596919740
+    },
+    {
+      "id": "8c50085a-6288-4bd9-bd0f-8f4e9c7aeb67",
+      "kind": "wavesurge",
+      "createdAt": 1791597039233,
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791597039338
+    },
+    {
+      "id": "f54ff4a2-7711-40ac-a341-57cef4bfef60",
+      "kind": "wavesurge",
+      "createdAt": 1791597159297,
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791597159419
+    },
+    {
+      "id": "923f9ff7-aaf4-40a2-b9c4-be477cd75017",
+      "kind": "wavesurge",
+      "createdAt": 1791597279264,
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791597279371
+    },
+    {
+      "id": "9c866911-b53f-460a-a1a6-643314e99fe2",
+      "kind": "wavesurge",
+      "createdAt": 1791597399493,
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791597399597
+    },
+    {
+      "id": "2de4aae4-4b68-47a0-beff-9f83a86fc537",
+      "kind": "wavesurge",
+      "createdAt": 1791597519296,
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791597519455
+    },
+    {
+      "id": "53480000-ec3b-4763-95fc-e0d0284472b0",
+      "kind": "wavesurge",
+      "createdAt": 1791597943629,
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "running",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "qualificationProgress": {
+          "passed": 0,
+          "pending": 0,
+          "excluded": 5,
+          "gaps": {},
+          "asOf": "2026-10-10T02:05:24.671Z"
+        },
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791597943855
+    },
+    {
+      "id": "ccc4dca0-9ab4-4cdf-8941-f307e335ce96",
+      "kind": "wavesurge",
+      "createdAt": 1791598238992,
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "running",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "qualificationProgress": {
+          "passed": 0,
+          "pending": 0,
+          "excluded": 21,
+          "gaps": {},
+          "asOf": "2026-10-10T02:10:17.880Z"
+        },
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791598239215
+    },
+    {
+      "id": "3d077c57-3677-491b-98b7-fe727d5e99c6",
+      "kind": "wavesurge",
+      "createdAt": 1791598359004,
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "running",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "qualificationProgress": {
+          "passed": 0,
+          "pending": 0,
+          "excluded": 21,
+          "gaps": {},
+          "asOf": "2026-10-10T02:12:17.883Z"
+        },
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791598359450
+    },
+    {
+      "id": "db3ba6db-efcc-455a-9bd3-6452b8f843b2",
+      "kind": "wavesurge",
+      "createdAt": 1791598479017,
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "running",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "qualificationProgress": {
+          "passed": 0,
+          "pending": 0,
+          "excluded": 21,
+          "gaps": {},
+          "asOf": "2026-10-10T02:14:17.885Z"
+        },
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791598479502
+    },
+    {
+      "id": "e5a2f48c-a02f-4a09-a062-dce9b07963ce",
+      "kind": "wavesurge",
+      "createdAt": 1791598599034,
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "running",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "qualificationProgress": {
+          "passed": 0,
+          "pending": 0,
+          "excluded": 21,
+          "gaps": {},
+          "asOf": "2026-10-10T02:16:17.884Z"
+        },
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791598599493
+    },
+    {
+      "id": "9fc71dd7-8eb0-4436-827f-b7b9a13070c6",
+      "kind": "wavesurge",
+      "createdAt": 1791598719042,
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "running",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "qualificationProgress": {
+          "passed": 0,
+          "pending": 0,
+          "excluded": 0,
+          "gaps": {},
+          "asOf": "2026-10-10T02:18:17.887Z"
+        },
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791598719560
+    },
+    {
+      "id": "657eacd7-9404-4425-952e-adc39fb27c25",
+      "kind": "wavesurge",
+      "createdAt": 1791598839080,
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "running",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "qualificationProgress": {
+          "passed": 0,
+          "pending": 0,
+          "excluded": 0,
+          "gaps": {},
+          "asOf": "2026-10-10T02:20:17.888Z"
+        },
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791598839572
+    },
+    {
+      "id": "8e4ae60c-ddc4-4f75-a00e-e359c7c3a5da",
+      "kind": "wavesurge",
+      "createdAt": 1791598959089,
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "running",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "qualificationProgress": {
+          "passed": 0,
+          "pending": 0,
+          "excluded": 0,
+          "gaps": {},
+          "asOf": "2026-10-10T02:22:17.888Z"
+        },
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791598959363
+    },
+    {
+      "id": "cdc641a7-7bea-44ee-ab20-a6bf1ee14f3f",
+      "kind": "wavesurge",
+      "createdAt": 1791599079104,
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "running",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "qualificationProgress": {
+          "passed": 0,
+          "pending": 0,
+          "excluded": 0,
+          "gaps": {},
+          "asOf": "2026-10-10T02:24:20.110Z"
+        },
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791599079601
+    },
+    {
+      "id": "95cd428e-edc9-45c4-87e1-e95d75f342d1",
+      "kind": "wavesurge",
+      "createdAt": 1791599199113,
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "running",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "qualificationProgress": {
+          "passed": 0,
+          "pending": 0,
+          "excluded": 1,
+          "gaps": {},
+          "asOf": "2026-10-10T02:26:28.295Z"
+        },
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791599199320
+    },
+    {
+      "id": "1aacb7cf-449e-41be-b844-7edfae1b9389",
+      "kind": "wavesurge",
+      "createdAt": 1791599319120,
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "running",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "qualificationProgress": {
+          "passed": 0,
+          "pending": 0,
+          "excluded": 1,
+          "gaps": {},
+          "asOf": "2026-10-10T02:28:20.111Z"
+        },
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791599319319
+    },
+    {
+      "id": "46dafee8-2f25-47e4-b1b8-819a0df28965",
+      "kind": "wavesurge",
+      "createdAt": 1791599439130,
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "running",
+        "strategyOperationId": null,
+        "creators": [
+          {
+            "handle": "franhaddock_",
+            "region": "GB",
+            "missing": [
+              "audience_profile_not_measured",
+              "contacts_not_collected"
+            ],
+            "evidence": [
+              {
+                "url": "https://www.instagram.com/p/Dd6iln9NJ9f/",
+                "kind": "content",
+                "text": "Video description: a white woman with glasses and her hair in 2 plaits talks to the screen from her bed.",
+                "check": "post_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_4fd1b2b8",
+                "publishedAt": "2026-09-30T14:24:37Z"
+              },
+              {
+                "url": "https://www.instagram.com/franhaddock_/",
+                "kind": "content",
+                "text": "Fran Haddock 🌳 she/her; 14,872 followers; is_business false; biography includes Sheffield, current reading, advocacy from bed, and category Blogger.",
+                "check": "profile_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_4308c807",
+                "publishedAt": null
+              },
+              {
+                "url": "https://www.instagram.com/franhaddock_/",
+                "kind": "content",
+                "text": "Instagram About This Account reports Account based in United Kingdom.",
+                "check": "creator_not_in_payload",
+                "provider": "tikhub",
+                "verified": false,
+                "evidenceId": "ev_76d3ca98",
+                "publishedAt": null
+              },
+              {
+                "url": "https://www.instagram.com/p/Ddo72ZptXRA/",
+                "kind": "content",
+                "text": "Halloween raffle: Dr Bradbury’s Compendium of Curiosities Halloween calendar, crochet pumpkin wreath, S’mores Jellycat, stickers, cards, meds diary, spoonie hat, prints and coloring pages.",
+                "check": "post_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_fea290f9",
+                "publishedAt": null
+              },
+              {
+                "url": "https://linktr.ee/franhaddock_",
+                "kind": "content",
+                "text": "Linktree contains fundraisers, articles, products and BBC link; no TikTok, YouTube or other social-platform account link.",
+                "check": "no_evidence_id",
+                "provider": "tikhub",
+                "verified": false,
+                "evidenceId": null,
+                "publishedAt": null
+              }
+            ],
+            "platform": "instagram",
+            "avatarUrl": null,
+            "fitReason": "Individual UK blogger advocating from bed with severe M.E. and Long Covid. Her own caption identifies a white woman with glasses in the relevant video, and her account has a whimsical, bookish/geeky creator aesthetic (Halloween prize draw, coloring pages, stickers, reading-related bio and Jellycat/compendium prizes) consistent with an ordinary consumer creator rather than a business.",
+            "providers": [
+              "tikhub"
+            ],
+            "profileUrl": "https://www.instagram.com/franhaddock_/",
+            "displayName": "Fran Haddock 🌳 she/her",
+            "overallTier": "A",
+            "factorGrades": {
+              "role": "strong",
+              "activity": "observed",
+              "identity": "individual",
+              "location": "confirmed_country",
+              "followers": "in_range",
+              "relevance": "strong"
+            },
+            "regionSource": "codex",
+            "followerCount": 14872,
+            "hardConditions": [
+              {
+                "basis": "Profile follower_count is exactly 14,872 in ev_4308c807.",
+                "status": "met",
+                "condition": "Instagram followers between 10,000 and 100,000"
+              },
+              {
+                "basis": "Instagram About This Account reports United Kingdom in ev_76d3ca98; biography explicitly lists Sheffield.",
+                "status": "met",
+                "condition": "Creator based in United States, Canada, United Kingdom, Germany, or France"
+              },
+              {
+                "basis": "Profile reports is_business false and represents one named individual, Fran Haddock.",
+                "status": "met",
+                "condition": "Individual creators only"
+              },
+              {
+                "basis": "Profile has only a Linktree and direct Linktree inspection found no TikTok, YouTube or other social-platform account link.",
+                "status": "met",
+                "condition": "No person on two platforms"
+              },
+              {
+                "basis": "The creator’s own video description says 'a white woman with glasses'; posts show fandom-adjacent Halloween prizes including a compendium of curiosities, stickers, coloring pages and a Jellycat prize; bio includes current reading and whimsical interests.",
+                "status": "met",
+                "condition": "Geek aesthetic and glasses"
+              },
+              {
+                "basis": "The creator-owned accessibility description for the cited reel identifies the speaker as 'a white woman with glasses'.",
+                "status": "met",
+                "condition": "Publicly self-identify as white"
+              }
+            ],
+            "providerUserId": "5824909564",
+            "searchMatchTier": "precise",
+            "profileCompleteness": "full"
+          }
+        ],
+        "alsoFound": [],
+        "qualificationProgress": {
+          "passed": 1,
+          "pending": 0,
+          "excluded": 3,
+          "gaps": {},
+          "asOf": "2026-10-10T02:30:27.107Z"
+        },
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791599439589
+    },
+    {
+      "id": "e7ecfb7c-9a1f-4a1a-9c68-12a869e8b58d",
+      "kind": "wavesurge",
+      "createdAt": 1791599559142,
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "running",
+        "strategyOperationId": null,
+        "creators": [
+          {
+            "handle": "franhaddock_",
+            "region": "GB",
+            "missing": [
+              "audience_profile_not_measured",
+              "contacts_not_collected"
+            ],
+            "evidence": [
+              {
+                "url": "https://www.instagram.com/p/Dd6iln9NJ9f/",
+                "kind": "content",
+                "text": "Video description: a white woman with glasses and her hair in 2 plaits talks to the screen from her bed.",
+                "check": "post_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_4fd1b2b8",
+                "publishedAt": "2026-09-30T14:24:37Z"
+              },
+              {
+                "url": "https://www.instagram.com/franhaddock_/",
+                "kind": "content",
+                "text": "Fran Haddock 🌳 she/her; 14,872 followers; is_business false; biography includes Sheffield, current reading, advocacy from bed, and category Blogger.",
+                "check": "profile_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_4308c807",
+                "publishedAt": null
+              },
+              {
+                "url": "https://www.instagram.com/franhaddock_/",
+                "kind": "content",
+                "text": "Instagram About This Account reports Account based in United Kingdom.",
+                "check": "creator_not_in_payload",
+                "provider": "tikhub",
+                "verified": false,
+                "evidenceId": "ev_76d3ca98",
+                "publishedAt": null
+              },
+              {
+                "url": "https://www.instagram.com/p/Ddo72ZptXRA/",
+                "kind": "content",
+                "text": "Halloween raffle: Dr Bradbury’s Compendium of Curiosities Halloween calendar, crochet pumpkin wreath, S’mores Jellycat, stickers, cards, meds diary, spoonie hat, prints and coloring pages.",
+                "check": "post_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_fea290f9",
+                "publishedAt": null
+              },
+              {
+                "url": "https://linktr.ee/franhaddock_",
+                "kind": "content",
+                "text": "Linktree contains fundraisers, articles, products and BBC link; no TikTok, YouTube or other social-platform account link.",
+                "check": "no_evidence_id",
+                "provider": "tikhub",
+                "verified": false,
+                "evidenceId": null,
+                "publishedAt": null
+              }
+            ],
+            "platform": "instagram",
+            "avatarUrl": null,
+            "fitReason": "Individual UK blogger advocating from bed with severe M.E. and Long Covid. Her own caption identifies a white woman with glasses in the relevant video, and her account has a whimsical, bookish/geeky creator aesthetic (Halloween prize draw, coloring pages, stickers, reading-related bio and Jellycat/compendium prizes) consistent with an ordinary consumer creator rather than a business.",
+            "providers": [
+              "tikhub"
+            ],
+            "profileUrl": "https://www.instagram.com/franhaddock_/",
+            "displayName": "Fran Haddock 🌳 she/her",
+            "overallTier": "A",
+            "factorGrades": {
+              "role": "strong",
+              "activity": "observed",
+              "identity": "individual",
+              "location": "confirmed_country",
+              "followers": "in_range",
+              "relevance": "strong"
+            },
+            "regionSource": "codex",
+            "followerCount": 14872,
+            "hardConditions": [
+              {
+                "basis": "Profile follower_count is exactly 14,872 in ev_4308c807.",
+                "status": "met",
+                "condition": "Instagram followers between 10,000 and 100,000"
+              },
+              {
+                "basis": "Instagram About This Account reports United Kingdom in ev_76d3ca98; biography explicitly lists Sheffield.",
+                "status": "met",
+                "condition": "Creator based in United States, Canada, United Kingdom, Germany, or France"
+              },
+              {
+                "basis": "Profile reports is_business false and represents one named individual, Fran Haddock.",
+                "status": "met",
+                "condition": "Individual creators only"
+              },
+              {
+                "basis": "Profile has only a Linktree and direct Linktree inspection found no TikTok, YouTube or other social-platform account link.",
+                "status": "met",
+                "condition": "No person on two platforms"
+              },
+              {
+                "basis": "The creator’s own video description says 'a white woman with glasses'; posts show fandom-adjacent Halloween prizes including a compendium of curiosities, stickers, coloring pages and a Jellycat prize; bio includes current reading and whimsical interests.",
+                "status": "met",
+                "condition": "Geek aesthetic and glasses"
+              },
+              {
+                "basis": "The creator-owned accessibility description for the cited reel identifies the speaker as 'a white woman with glasses'.",
+                "status": "met",
+                "condition": "Publicly self-identify as white"
+              }
+            ],
+            "providerUserId": "5824909564",
+            "searchMatchTier": "precise",
+            "profileCompleteness": "full"
+          }
+        ],
+        "alsoFound": [],
+        "qualificationProgress": {
+          "passed": 1,
+          "pending": 0,
+          "excluded": 3,
+          "gaps": {},
+          "asOf": "2026-10-10T02:32:32.348Z"
+        },
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791599559625
+    },
+    {
+      "id": "de07f394-addb-4984-8bd2-4930b0211771",
+      "kind": "wavesurge",
+      "createdAt": 1791599679139,
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "running",
+        "strategyOperationId": null,
+        "creators": [
+          {
+            "handle": "franhaddock_",
+            "region": "GB",
+            "missing": [
+              "audience_profile_not_measured",
+              "contacts_not_collected"
+            ],
+            "evidence": [
+              {
+                "url": "https://www.instagram.com/p/Dd6iln9NJ9f/",
+                "kind": "content",
+                "text": "Video description: a white woman with glasses and her hair in 2 plaits talks to the screen from her bed.",
+                "check": "post_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_4fd1b2b8",
+                "publishedAt": "2026-09-30T14:24:37Z"
+              },
+              {
+                "url": "https://www.instagram.com/franhaddock_/",
+                "kind": "content",
+                "text": "Fran Haddock 🌳 she/her; 14,872 followers; is_business false; biography includes Sheffield, current reading, advocacy from bed, and category Blogger.",
+                "check": "profile_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_4308c807",
+                "publishedAt": null
+              },
+              {
+                "url": "https://www.instagram.com/franhaddock_/",
+                "kind": "content",
+                "text": "Instagram About This Account reports Account based in United Kingdom.",
+                "check": "creator_not_in_payload",
+                "provider": "tikhub",
+                "verified": false,
+                "evidenceId": "ev_76d3ca98",
+                "publishedAt": null
+              },
+              {
+                "url": "https://www.instagram.com/p/Ddo72ZptXRA/",
+                "kind": "content",
+                "text": "Halloween raffle: Dr Bradbury’s Compendium of Curiosities Halloween calendar, crochet pumpkin wreath, S’mores Jellycat, stickers, cards, meds diary, spoonie hat, prints and coloring pages.",
+                "check": "post_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_fea290f9",
+                "publishedAt": null
+              },
+              {
+                "url": "https://linktr.ee/franhaddock_",
+                "kind": "content",
+                "text": "Linktree contains fundraisers, articles, products and BBC link; no TikTok, YouTube or other social-platform account link.",
+                "check": "no_evidence_id",
+                "provider": "tikhub",
+                "verified": false,
+                "evidenceId": null,
+                "publishedAt": null
+              }
+            ],
+            "platform": "instagram",
+            "avatarUrl": null,
+            "fitReason": "Individual UK blogger advocating from bed with severe M.E. and Long Covid. Her own caption identifies a white woman with glasses in the relevant video, and her account has a whimsical, bookish/geeky creator aesthetic (Halloween prize draw, coloring pages, stickers, reading-related bio and Jellycat/compendium prizes) consistent with an ordinary consumer creator rather than a business.",
+            "providers": [
+              "tikhub"
+            ],
+            "profileUrl": "https://www.instagram.com/franhaddock_/",
+            "displayName": "Fran Haddock 🌳 she/her",
+            "overallTier": "A",
+            "factorGrades": {
+              "role": "strong",
+              "activity": "observed",
+              "identity": "individual",
+              "location": "confirmed_country",
+              "followers": "in_range",
+              "relevance": "strong"
+            },
+            "regionSource": "codex",
+            "followerCount": 14872,
+            "hardConditions": [
+              {
+                "basis": "Profile follower_count is exactly 14,872 in ev_4308c807.",
+                "status": "met",
+                "condition": "Instagram followers between 10,000 and 100,000"
+              },
+              {
+                "basis": "Instagram About This Account reports United Kingdom in ev_76d3ca98; biography explicitly lists Sheffield.",
+                "status": "met",
+                "condition": "Creator based in United States, Canada, United Kingdom, Germany, or France"
+              },
+              {
+                "basis": "Profile reports is_business false and represents one named individual, Fran Haddock.",
+                "status": "met",
+                "condition": "Individual creators only"
+              },
+              {
+                "basis": "Profile has only a Linktree and direct Linktree inspection found no TikTok, YouTube or other social-platform account link.",
+                "status": "met",
+                "condition": "No person on two platforms"
+              },
+              {
+                "basis": "The creator’s own video description says 'a white woman with glasses'; posts show fandom-adjacent Halloween prizes including a compendium of curiosities, stickers, coloring pages and a Jellycat prize; bio includes current reading and whimsical interests.",
+                "status": "met",
+                "condition": "Geek aesthetic and glasses"
+              },
+              {
+                "basis": "The creator-owned accessibility description for the cited reel identifies the speaker as 'a white woman with glasses'.",
+                "status": "met",
+                "condition": "Publicly self-identify as white"
+              }
+            ],
+            "providerUserId": "5824909564",
+            "searchMatchTier": "precise",
+            "profileCompleteness": "full"
+          }
+        ],
+        "alsoFound": [],
+        "qualificationProgress": {
+          "passed": 1,
+          "pending": 0,
+          "excluded": 7,
+          "gaps": {},
+          "asOf": "2026-10-10T02:34:35.010Z"
+        },
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791599679618
+    },
+    {
+      "id": "430debcb-19ea-4f09-89c8-326f25e11f62",
+      "kind": "wavesurge",
+      "createdAt": 1791599799148,
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "running",
+        "strategyOperationId": null,
+        "creators": [
+          {
+            "handle": "franhaddock_",
+            "region": "GB",
+            "missing": [
+              "audience_profile_not_measured",
+              "contacts_not_collected"
+            ],
+            "evidence": [
+              {
+                "url": "https://www.instagram.com/p/Dd6iln9NJ9f/",
+                "kind": "content",
+                "text": "Video description: a white woman with glasses and her hair in 2 plaits talks to the screen from her bed.",
+                "check": "post_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_4fd1b2b8",
+                "publishedAt": "2026-09-30T14:24:37Z"
+              },
+              {
+                "url": "https://www.instagram.com/franhaddock_/",
+                "kind": "content",
+                "text": "Fran Haddock 🌳 she/her; 14,872 followers; is_business false; biography includes Sheffield, current reading, advocacy from bed, and category Blogger.",
+                "check": "profile_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_4308c807",
+                "publishedAt": null
+              },
+              {
+                "url": "https://www.instagram.com/franhaddock_/",
+                "kind": "content",
+                "text": "Instagram About This Account reports Account based in United Kingdom.",
+                "check": "creator_not_in_payload",
+                "provider": "tikhub",
+                "verified": false,
+                "evidenceId": "ev_76d3ca98",
+                "publishedAt": null
+              },
+              {
+                "url": "https://www.instagram.com/p/Ddo72ZptXRA/",
+                "kind": "content",
+                "text": "Halloween raffle: Dr Bradbury’s Compendium of Curiosities Halloween calendar, crochet pumpkin wreath, S’mores Jellycat, stickers, cards, meds diary, spoonie hat, prints and coloring pages.",
+                "check": "post_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_fea290f9",
+                "publishedAt": null
+              },
+              {
+                "url": "https://linktr.ee/franhaddock_",
+                "kind": "content",
+                "text": "Linktree contains fundraisers, articles, products and BBC link; no TikTok, YouTube or other social-platform account link.",
+                "check": "no_evidence_id",
+                "provider": "tikhub",
+                "verified": false,
+                "evidenceId": null,
+                "publishedAt": null
+              }
+            ],
+            "platform": "instagram",
+            "avatarUrl": null,
+            "fitReason": "Individual UK blogger advocating from bed with severe M.E. and Long Covid. Her own caption identifies a white woman with glasses in the relevant video, and her account has a whimsical, bookish/geeky creator aesthetic (Halloween prize draw, coloring pages, stickers, reading-related bio and Jellycat/compendium prizes) consistent with an ordinary consumer creator rather than a business.",
+            "providers": [
+              "tikhub"
+            ],
+            "profileUrl": "https://www.instagram.com/franhaddock_/",
+            "displayName": "Fran Haddock 🌳 she/her",
+            "overallTier": "A",
+            "factorGrades": {
+              "role": "strong",
+              "activity": "observed",
+              "identity": "individual",
+              "location": "confirmed_country",
+              "followers": "in_range",
+              "relevance": "strong"
+            },
+            "regionSource": "codex",
+            "followerCount": 14872,
+            "hardConditions": [
+              {
+                "basis": "Profile follower_count is exactly 14,872 in ev_4308c807.",
+                "status": "met",
+                "condition": "Instagram followers between 10,000 and 100,000"
+              },
+              {
+                "basis": "Instagram About This Account reports United Kingdom in ev_76d3ca98; biography explicitly lists Sheffield.",
+                "status": "met",
+                "condition": "Creator based in United States, Canada, United Kingdom, Germany, or France"
+              },
+              {
+                "basis": "Profile reports is_business false and represents one named individual, Fran Haddock.",
+                "status": "met",
+                "condition": "Individual creators only"
+              },
+              {
+                "basis": "Profile has only a Linktree and direct Linktree inspection found no TikTok, YouTube or other social-platform account link.",
+                "status": "met",
+                "condition": "No person on two platforms"
+              },
+              {
+                "basis": "The creator’s own video description says 'a white woman with glasses'; posts show fandom-adjacent Halloween prizes including a compendium of curiosities, stickers, coloring pages and a Jellycat prize; bio includes current reading and whimsical interests.",
+                "status": "met",
+                "condition": "Geek aesthetic and glasses"
+              },
+              {
+                "basis": "The creator-owned accessibility description for the cited reel identifies the speaker as 'a white woman with glasses'.",
+                "status": "met",
+                "condition": "Publicly self-identify as white"
+              }
+            ],
+            "providerUserId": "5824909564",
+            "searchMatchTier": "precise",
+            "profileCompleteness": "full"
+          }
+        ],
+        "alsoFound": [],
+        "qualificationProgress": {
+          "passed": 1,
+          "pending": 0,
+          "excluded": 7,
+          "gaps": {},
+          "asOf": "2026-10-10T02:36:25.459Z"
+        },
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791599799653
+    },
+    {
+      "id": "d6c4c1d2-7b84-4ecb-9a85-bccfdd02f872",
+      "kind": "wavesurge",
+      "createdAt": 1791599919156,
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "running",
+        "strategyOperationId": null,
+        "creators": [
+          {
+            "handle": "franhaddock_",
+            "region": "GB",
+            "missing": [
+              "audience_profile_not_measured",
+              "contacts_not_collected"
+            ],
+            "evidence": [
+              {
+                "url": "https://www.instagram.com/p/Dd6iln9NJ9f/",
+                "kind": "content",
+                "text": "Video description: a white woman with glasses and her hair in 2 plaits talks to the screen from her bed.",
+                "check": "post_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_4fd1b2b8",
+                "publishedAt": "2026-09-30T14:24:37Z"
+              },
+              {
+                "url": "https://www.instagram.com/franhaddock_/",
+                "kind": "content",
+                "text": "Fran Haddock 🌳 she/her; 14,872 followers; is_business false; biography includes Sheffield, current reading, advocacy from bed, and category Blogger.",
+                "check": "profile_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_4308c807",
+                "publishedAt": null
+              },
+              {
+                "url": "https://www.instagram.com/franhaddock_/",
+                "kind": "content",
+                "text": "Instagram About This Account reports Account based in United Kingdom.",
+                "check": "creator_not_in_payload",
+                "provider": "tikhub",
+                "verified": false,
+                "evidenceId": "ev_76d3ca98",
+                "publishedAt": null
+              },
+              {
+                "url": "https://www.instagram.com/p/Ddo72ZptXRA/",
+                "kind": "content",
+                "text": "Halloween raffle: Dr Bradbury’s Compendium of Curiosities Halloween calendar, crochet pumpkin wreath, S’mores Jellycat, stickers, cards, meds diary, spoonie hat, prints and coloring pages.",
+                "check": "post_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_fea290f9",
+                "publishedAt": null
+              },
+              {
+                "url": "https://linktr.ee/franhaddock_",
+                "kind": "content",
+                "text": "Linktree contains fundraisers, articles, products and BBC link; no TikTok, YouTube or other social-platform account link.",
+                "check": "no_evidence_id",
+                "provider": "tikhub",
+                "verified": false,
+                "evidenceId": null,
+                "publishedAt": null
+              }
+            ],
+            "platform": "instagram",
+            "avatarUrl": null,
+            "fitReason": "Individual UK blogger advocating from bed with severe M.E. and Long Covid. Her own caption identifies a white woman with glasses in the relevant video, and her account has a whimsical, bookish/geeky creator aesthetic (Halloween prize draw, coloring pages, stickers, reading-related bio and Jellycat/compendium prizes) consistent with an ordinary consumer creator rather than a business.",
+            "providers": [
+              "tikhub"
+            ],
+            "profileUrl": "https://www.instagram.com/franhaddock_/",
+            "displayName": "Fran Haddock 🌳 she/her",
+            "overallTier": "A",
+            "factorGrades": {
+              "role": "strong",
+              "activity": "observed",
+              "identity": "individual",
+              "location": "confirmed_country",
+              "followers": "in_range",
+              "relevance": "strong"
+            },
+            "regionSource": "codex",
+            "followerCount": 14872,
+            "hardConditions": [
+              {
+                "basis": "Profile follower_count is exactly 14,872 in ev_4308c807.",
+                "status": "met",
+                "condition": "Instagram followers between 10,000 and 100,000"
+              },
+              {
+                "basis": "Instagram About This Account reports United Kingdom in ev_76d3ca98; biography explicitly lists Sheffield.",
+                "status": "met",
+                "condition": "Creator based in United States, Canada, United Kingdom, Germany, or France"
+              },
+              {
+                "basis": "Profile reports is_business false and represents one named individual, Fran Haddock.",
+                "status": "met",
+                "condition": "Individual creators only"
+              },
+              {
+                "basis": "Profile has only a Linktree and direct Linktree inspection found no TikTok, YouTube or other social-platform account link.",
+                "status": "met",
+                "condition": "No person on two platforms"
+              },
+              {
+                "basis": "The creator’s own video description says 'a white woman with glasses'; posts show fandom-adjacent Halloween prizes including a compendium of curiosities, stickers, coloring pages and a Jellycat prize; bio includes current reading and whimsical interests.",
+                "status": "met",
+                "condition": "Geek aesthetic and glasses"
+              },
+              {
+                "basis": "The creator-owned accessibility description for the cited reel identifies the speaker as 'a white woman with glasses'.",
+                "status": "met",
+                "condition": "Publicly self-identify as white"
+              }
+            ],
+            "providerUserId": "5824909564",
+            "searchMatchTier": "precise",
+            "profileCompleteness": "full"
+          }
+        ],
+        "alsoFound": [],
+        "qualificationProgress": {
+          "passed": 1,
+          "pending": 0,
+          "excluded": 7,
+          "gaps": {},
+          "asOf": "2026-10-10T02:38:27.469Z"
+        },
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791599919649
+    },
+    {
+      "id": "8cb8ed44-d570-441a-b7e7-1cac21ebe089",
+      "kind": "wavesurge",
+      "createdAt": 1791600039166,
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "running",
+        "strategyOperationId": null,
+        "creators": [
+          {
+            "handle": "franhaddock_",
+            "region": "GB",
+            "missing": [
+              "audience_profile_not_measured",
+              "contacts_not_collected"
+            ],
+            "evidence": [
+              {
+                "url": "https://www.instagram.com/p/Dd6iln9NJ9f/",
+                "kind": "content",
+                "text": "Video description: a white woman with glasses and her hair in 2 plaits talks to the screen from her bed.",
+                "check": "post_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_4fd1b2b8",
+                "publishedAt": "2026-09-30T14:24:37Z"
+              },
+              {
+                "url": "https://www.instagram.com/franhaddock_/",
+                "kind": "content",
+                "text": "Fran Haddock 🌳 she/her; 14,872 followers; is_business false; biography includes Sheffield, current reading, advocacy from bed, and category Blogger.",
+                "check": "profile_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_4308c807",
+                "publishedAt": null
+              },
+              {
+                "url": "https://www.instagram.com/franhaddock_/",
+                "kind": "content",
+                "text": "Instagram About This Account reports Account based in United Kingdom.",
+                "check": "creator_not_in_payload",
+                "provider": "tikhub",
+                "verified": false,
+                "evidenceId": "ev_76d3ca98",
+                "publishedAt": null
+              },
+              {
+                "url": "https://www.instagram.com/p/Ddo72ZptXRA/",
+                "kind": "content",
+                "text": "Halloween raffle: Dr Bradbury’s Compendium of Curiosities Halloween calendar, crochet pumpkin wreath, S’mores Jellycat, stickers, cards, meds diary, spoonie hat, prints and coloring pages.",
+                "check": "post_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_fea290f9",
+                "publishedAt": null
+              },
+              {
+                "url": "https://linktr.ee/franhaddock_",
+                "kind": "content",
+                "text": "Linktree contains fundraisers, articles, products and BBC link; no TikTok, YouTube or other social-platform account link.",
+                "check": "no_evidence_id",
+                "provider": "tikhub",
+                "verified": false,
+                "evidenceId": null,
+                "publishedAt": null
+              }
+            ],
+            "platform": "instagram",
+            "avatarUrl": null,
+            "fitReason": "Individual UK blogger advocating from bed with severe M.E. and Long Covid. Her own caption identifies a white woman with glasses in the relevant video, and her account has a whimsical, bookish/geeky creator aesthetic (Halloween prize draw, coloring pages, stickers, reading-related bio and Jellycat/compendium prizes) consistent with an ordinary consumer creator rather than a business.",
+            "providers": [
+              "tikhub"
+            ],
+            "profileUrl": "https://www.instagram.com/franhaddock_/",
+            "displayName": "Fran Haddock 🌳 she/her",
+            "overallTier": "A",
+            "factorGrades": {
+              "role": "strong",
+              "activity": "observed",
+              "identity": "individual",
+              "location": "confirmed_country",
+              "followers": "in_range",
+              "relevance": "strong"
+            },
+            "regionSource": "codex",
+            "followerCount": 14872,
+            "hardConditions": [
+              {
+                "basis": "Profile follower_count is exactly 14,872 in ev_4308c807.",
+                "status": "met",
+                "condition": "Instagram followers between 10,000 and 100,000"
+              },
+              {
+                "basis": "Instagram About This Account reports United Kingdom in ev_76d3ca98; biography explicitly lists Sheffield.",
+                "status": "met",
+                "condition": "Creator based in United States, Canada, United Kingdom, Germany, or France"
+              },
+              {
+                "basis": "Profile reports is_business false and represents one named individual, Fran Haddock.",
+                "status": "met",
+                "condition": "Individual creators only"
+              },
+              {
+                "basis": "Profile has only a Linktree and direct Linktree inspection found no TikTok, YouTube or other social-platform account link.",
+                "status": "met",
+                "condition": "No person on two platforms"
+              },
+              {
+                "basis": "The creator’s own video description says 'a white woman with glasses'; posts show fandom-adjacent Halloween prizes including a compendium of curiosities, stickers, coloring pages and a Jellycat prize; bio includes current reading and whimsical interests.",
+                "status": "met",
+                "condition": "Geek aesthetic and glasses"
+              },
+              {
+                "basis": "The creator-owned accessibility description for the cited reel identifies the speaker as 'a white woman with glasses'.",
+                "status": "met",
+                "condition": "Publicly self-identify as white"
+              }
+            ],
+            "providerUserId": "5824909564",
+            "searchMatchTier": "precise",
+            "profileCompleteness": "full"
+          }
+        ],
+        "alsoFound": [],
+        "qualificationProgress": {
+          "passed": 1,
+          "pending": 0,
+          "excluded": 7,
+          "gaps": {},
+          "asOf": "2026-10-10T02:40:24.668Z"
+        },
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791600039606
+    },
+    {
+      "id": "8d648a9a-e864-4914-b14a-5389f8dd76e7",
+      "kind": "wavesurge",
+      "createdAt": 1791600159173,
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "running",
+        "strategyOperationId": null,
+        "creators": [
+          {
+            "handle": "franhaddock_",
+            "region": "GB",
+            "missing": [
+              "audience_profile_not_measured",
+              "contacts_not_collected"
+            ],
+            "evidence": [
+              {
+                "url": "https://www.instagram.com/p/Dd6iln9NJ9f/",
+                "kind": "content",
+                "text": "Video description: a white woman with glasses and her hair in 2 plaits talks to the screen from her bed.",
+                "check": "post_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_4fd1b2b8",
+                "publishedAt": "2026-09-30T14:24:37Z"
+              },
+              {
+                "url": "https://www.instagram.com/franhaddock_/",
+                "kind": "content",
+                "text": "Fran Haddock 🌳 she/her; 14,872 followers; is_business false; biography includes Sheffield, current reading, advocacy from bed, and category Blogger.",
+                "check": "profile_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_4308c807",
+                "publishedAt": null
+              },
+              {
+                "url": "https://www.instagram.com/franhaddock_/",
+                "kind": "content",
+                "text": "Instagram About This Account reports Account based in United Kingdom.",
+                "check": "creator_not_in_payload",
+                "provider": "tikhub",
+                "verified": false,
+                "evidenceId": "ev_76d3ca98",
+                "publishedAt": null
+              },
+              {
+                "url": "https://www.instagram.com/p/Ddo72ZptXRA/",
+                "kind": "content",
+                "text": "Halloween raffle: Dr Bradbury’s Compendium of Curiosities Halloween calendar, crochet pumpkin wreath, S’mores Jellycat, stickers, cards, meds diary, spoonie hat, prints and coloring pages.",
+                "check": "post_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_fea290f9",
+                "publishedAt": null
+              },
+              {
+                "url": "https://linktr.ee/franhaddock_",
+                "kind": "content",
+                "text": "Linktree contains fundraisers, articles, products and BBC link; no TikTok, YouTube or other social-platform account link.",
+                "check": "no_evidence_id",
+                "provider": "tikhub",
+                "verified": false,
+                "evidenceId": null,
+                "publishedAt": null
+              }
+            ],
+            "platform": "instagram",
+            "avatarUrl": null,
+            "fitReason": "Individual UK blogger advocating from bed with severe M.E. and Long Covid. Her own caption identifies a white woman with glasses in the relevant video, and her account has a whimsical, bookish/geeky creator aesthetic (Halloween prize draw, coloring pages, stickers, reading-related bio and Jellycat/compendium prizes) consistent with an ordinary consumer creator rather than a business.",
+            "providers": [
+              "tikhub"
+            ],
+            "profileUrl": "https://www.instagram.com/franhaddock_/",
+            "displayName": "Fran Haddock 🌳 she/her",
+            "overallTier": "A",
+            "factorGrades": {
+              "role": "strong",
+              "activity": "observed",
+              "identity": "individual",
+              "location": "confirmed_country",
+              "followers": "in_range",
+              "relevance": "strong"
+            },
+            "regionSource": "codex",
+            "followerCount": 14872,
+            "hardConditions": [
+              {
+                "basis": "Profile follower_count is exactly 14,872 in ev_4308c807.",
+                "status": "met",
+                "condition": "Instagram followers between 10,000 and 100,000"
+              },
+              {
+                "basis": "Instagram About This Account reports United Kingdom in ev_76d3ca98; biography explicitly lists Sheffield.",
+                "status": "met",
+                "condition": "Creator based in United States, Canada, United Kingdom, Germany, or France"
+              },
+              {
+                "basis": "Profile reports is_business false and represents one named individual, Fran Haddock.",
+                "status": "met",
+                "condition": "Individual creators only"
+              },
+              {
+                "basis": "Profile has only a Linktree and direct Linktree inspection found no TikTok, YouTube or other social-platform account link.",
+                "status": "met",
+                "condition": "No person on two platforms"
+              },
+              {
+                "basis": "The creator’s own video description says 'a white woman with glasses'; posts show fandom-adjacent Halloween prizes including a compendium of curiosities, stickers, coloring pages and a Jellycat prize; bio includes current reading and whimsical interests.",
+                "status": "met",
+                "condition": "Geek aesthetic and glasses"
+              },
+              {
+                "basis": "The creator-owned accessibility description for the cited reel identifies the speaker as 'a white woman with glasses'.",
+                "status": "met",
+                "condition": "Publicly self-identify as white"
+              }
+            ],
+            "providerUserId": "5824909564",
+            "searchMatchTier": "precise",
+            "profileCompleteness": "full"
+          }
+        ],
+        "alsoFound": [],
+        "qualificationProgress": {
+          "passed": 1,
+          "pending": 0,
+          "excluded": 7,
+          "gaps": {},
+          "asOf": "2026-10-10T02:42:26.696Z"
+        },
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791600159383
+    },
+    {
+      "id": "9ec40e7d-ad4c-4112-9fd3-6d635beaeeb7",
+      "kind": "wavesurge",
+      "createdAt": 1791600279182,
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "running",
+        "strategyOperationId": null,
+        "creators": [
+          {
+            "handle": "franhaddock_",
+            "region": "GB",
+            "missing": [
+              "audience_profile_not_measured",
+              "contacts_not_collected"
+            ],
+            "evidence": [
+              {
+                "url": "https://www.instagram.com/p/Dd6iln9NJ9f/",
+                "kind": "content",
+                "text": "Video description: a white woman with glasses and her hair in 2 plaits talks to the screen from her bed.",
+                "check": "post_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_4fd1b2b8",
+                "publishedAt": "2026-09-30T14:24:37Z"
+              },
+              {
+                "url": "https://www.instagram.com/franhaddock_/",
+                "kind": "content",
+                "text": "Fran Haddock 🌳 she/her; 14,872 followers; is_business false; biography includes Sheffield, current reading, advocacy from bed, and category Blogger.",
+                "check": "profile_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_4308c807",
+                "publishedAt": null
+              },
+              {
+                "url": "https://www.instagram.com/franhaddock_/",
+                "kind": "content",
+                "text": "Instagram About This Account reports Account based in United Kingdom.",
+                "check": "creator_not_in_payload",
+                "provider": "tikhub",
+                "verified": false,
+                "evidenceId": "ev_76d3ca98",
+                "publishedAt": null
+              },
+              {
+                "url": "https://www.instagram.com/p/Ddo72ZptXRA/",
+                "kind": "content",
+                "text": "Halloween raffle: Dr Bradbury’s Compendium of Curiosities Halloween calendar, crochet pumpkin wreath, S’mores Jellycat, stickers, cards, meds diary, spoonie hat, prints and coloring pages.",
+                "check": "post_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_fea290f9",
+                "publishedAt": null
+              },
+              {
+                "url": "https://linktr.ee/franhaddock_",
+                "kind": "content",
+                "text": "Linktree contains fundraisers, articles, products and BBC link; no TikTok, YouTube or other social-platform account link.",
+                "check": "no_evidence_id",
+                "provider": "tikhub",
+                "verified": false,
+                "evidenceId": null,
+                "publishedAt": null
+              }
+            ],
+            "platform": "instagram",
+            "avatarUrl": null,
+            "fitReason": "Individual UK blogger advocating from bed with severe M.E. and Long Covid. Her own caption identifies a white woman with glasses in the relevant video, and her account has a whimsical, bookish/geeky creator aesthetic (Halloween prize draw, coloring pages, stickers, reading-related bio and Jellycat/compendium prizes) consistent with an ordinary consumer creator rather than a business.",
+            "providers": [
+              "tikhub"
+            ],
+            "profileUrl": "https://www.instagram.com/franhaddock_/",
+            "displayName": "Fran Haddock 🌳 she/her",
+            "overallTier": "A",
+            "factorGrades": {
+              "role": "strong",
+              "activity": "observed",
+              "identity": "individual",
+              "location": "confirmed_country",
+              "followers": "in_range",
+              "relevance": "strong"
+            },
+            "regionSource": "codex",
+            "followerCount": 14872,
+            "hardConditions": [
+              {
+                "basis": "Profile follower_count is exactly 14,872 in ev_4308c807.",
+                "status": "met",
+                "condition": "Instagram followers between 10,000 and 100,000"
+              },
+              {
+                "basis": "Instagram About This Account reports United Kingdom in ev_76d3ca98; biography explicitly lists Sheffield.",
+                "status": "met",
+                "condition": "Creator based in United States, Canada, United Kingdom, Germany, or France"
+              },
+              {
+                "basis": "Profile reports is_business false and represents one named individual, Fran Haddock.",
+                "status": "met",
+                "condition": "Individual creators only"
+              },
+              {
+                "basis": "Profile has only a Linktree and direct Linktree inspection found no TikTok, YouTube or other social-platform account link.",
+                "status": "met",
+                "condition": "No person on two platforms"
+              },
+              {
+                "basis": "The creator’s own video description says 'a white woman with glasses'; posts show fandom-adjacent Halloween prizes including a compendium of curiosities, stickers, coloring pages and a Jellycat prize; bio includes current reading and whimsical interests.",
+                "status": "met",
+                "condition": "Geek aesthetic and glasses"
+              },
+              {
+                "basis": "The creator-owned accessibility description for the cited reel identifies the speaker as 'a white woman with glasses'.",
+                "status": "met",
+                "condition": "Publicly self-identify as white"
+              }
+            ],
+            "providerUserId": "5824909564",
+            "searchMatchTier": "precise",
+            "profileCompleteness": "full"
+          }
+        ],
+        "alsoFound": [],
+        "qualificationProgress": {
+          "passed": 1,
+          "pending": 0,
+          "excluded": 7,
+          "gaps": {},
+          "asOf": "2026-10-10T02:44:31.022Z"
+        },
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791600279425
+    },
+    {
+      "id": "b8703fc3-2c5e-4802-bee1-709b60b3b4f7",
+      "kind": "wavesurge",
+      "createdAt": 1791600399190,
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "running",
+        "strategyOperationId": null,
+        "creators": [
+          {
+            "handle": "franhaddock_",
+            "region": "GB",
+            "missing": [
+              "audience_profile_not_measured",
+              "contacts_not_collected"
+            ],
+            "evidence": [
+              {
+                "url": "https://www.instagram.com/p/Dd6iln9NJ9f/",
+                "kind": "content",
+                "text": "Video description: a white woman with glasses and her hair in 2 plaits talks to the screen from her bed.",
+                "check": "post_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_4fd1b2b8",
+                "publishedAt": "2026-09-30T14:24:37Z"
+              },
+              {
+                "url": "https://www.instagram.com/franhaddock_/",
+                "kind": "content",
+                "text": "Fran Haddock 🌳 she/her; 14,872 followers; is_business false; biography includes Sheffield, current reading, advocacy from bed, and category Blogger.",
+                "check": "profile_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_4308c807",
+                "publishedAt": null
+              },
+              {
+                "url": "https://www.instagram.com/franhaddock_/",
+                "kind": "content",
+                "text": "Instagram About This Account reports Account based in United Kingdom.",
+                "check": "creator_not_in_payload",
+                "provider": "tikhub",
+                "verified": false,
+                "evidenceId": "ev_76d3ca98",
+                "publishedAt": null
+              },
+              {
+                "url": "https://www.instagram.com/p/Ddo72ZptXRA/",
+                "kind": "content",
+                "text": "Halloween raffle: Dr Bradbury’s Compendium of Curiosities Halloween calendar, crochet pumpkin wreath, S’mores Jellycat, stickers, cards, meds diary, spoonie hat, prints and coloring pages.",
+                "check": "post_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_fea290f9",
+                "publishedAt": null
+              },
+              {
+                "url": "https://linktr.ee/franhaddock_",
+                "kind": "content",
+                "text": "Linktree contains fundraisers, articles, products and BBC link; no TikTok, YouTube or other social-platform account link.",
+                "check": "no_evidence_id",
+                "provider": "tikhub",
+                "verified": false,
+                "evidenceId": null,
+                "publishedAt": null
+              }
+            ],
+            "platform": "instagram",
+            "avatarUrl": null,
+            "fitReason": "Individual UK blogger advocating from bed with severe M.E. and Long Covid. Her own caption identifies a white woman with glasses in the relevant video, and her account has a whimsical, bookish/geeky creator aesthetic (Halloween prize draw, coloring pages, stickers, reading-related bio and Jellycat/compendium prizes) consistent with an ordinary consumer creator rather than a business.",
+            "providers": [
+              "tikhub"
+            ],
+            "profileUrl": "https://www.instagram.com/franhaddock_/",
+            "displayName": "Fran Haddock 🌳 she/her",
+            "overallTier": "A",
+            "factorGrades": {
+              "role": "strong",
+              "activity": "observed",
+              "identity": "individual",
+              "location": "confirmed_country",
+              "followers": "in_range",
+              "relevance": "strong"
+            },
+            "regionSource": "codex",
+            "followerCount": 14872,
+            "hardConditions": [
+              {
+                "basis": "Profile follower_count is exactly 14,872 in ev_4308c807.",
+                "status": "met",
+                "condition": "Instagram followers between 10,000 and 100,000"
+              },
+              {
+                "basis": "Instagram About This Account reports United Kingdom in ev_76d3ca98; biography explicitly lists Sheffield.",
+                "status": "met",
+                "condition": "Creator based in United States, Canada, United Kingdom, Germany, or France"
+              },
+              {
+                "basis": "Profile reports is_business false and represents one named individual, Fran Haddock.",
+                "status": "met",
+                "condition": "Individual creators only"
+              },
+              {
+                "basis": "Profile has only a Linktree and direct Linktree inspection found no TikTok, YouTube or other social-platform account link.",
+                "status": "met",
+                "condition": "No person on two platforms"
+              },
+              {
+                "basis": "The creator’s own video description says 'a white woman with glasses'; posts show fandom-adjacent Halloween prizes including a compendium of curiosities, stickers, coloring pages and a Jellycat prize; bio includes current reading and whimsical interests.",
+                "status": "met",
+                "condition": "Geek aesthetic and glasses"
+              },
+              {
+                "basis": "The creator-owned accessibility description for the cited reel identifies the speaker as 'a white woman with glasses'.",
+                "status": "met",
+                "condition": "Publicly self-identify as white"
+              }
+            ],
+            "providerUserId": "5824909564",
+            "searchMatchTier": "precise",
+            "profileCompleteness": "full"
+          }
+        ],
+        "alsoFound": [],
+        "qualificationProgress": {
+          "passed": 1,
+          "pending": 0,
+          "excluded": 7,
+          "gaps": {},
+          "asOf": "2026-10-10T02:46:25.628Z"
+        },
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791600399674
+    },
+    {
+      "id": "3d6c1064-556c-4eb6-b835-f51a6c88f913",
+      "kind": "wavesurge",
+      "createdAt": 1791600519201,
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "running",
+        "strategyOperationId": null,
+        "creators": [
+          {
+            "handle": "franhaddock_",
+            "region": "GB",
+            "missing": [
+              "audience_profile_not_measured",
+              "contacts_not_collected"
+            ],
+            "evidence": [
+              {
+                "url": "https://www.instagram.com/p/Dd6iln9NJ9f/",
+                "kind": "content",
+                "text": "Video description: a white woman with glasses and her hair in 2 plaits talks to the screen from her bed.",
+                "check": "post_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_4fd1b2b8",
+                "publishedAt": "2026-09-30T14:24:37Z"
+              },
+              {
+                "url": "https://www.instagram.com/franhaddock_/",
+                "kind": "content",
+                "text": "Fran Haddock 🌳 she/her; 14,872 followers; is_business false; biography includes Sheffield, current reading, advocacy from bed, and category Blogger.",
+                "check": "profile_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_4308c807",
+                "publishedAt": null
+              },
+              {
+                "url": "https://www.instagram.com/franhaddock_/",
+                "kind": "content",
+                "text": "Instagram About This Account reports Account based in United Kingdom.",
+                "check": "creator_not_in_payload",
+                "provider": "tikhub",
+                "verified": false,
+                "evidenceId": "ev_76d3ca98",
+                "publishedAt": null
+              },
+              {
+                "url": "https://www.instagram.com/p/Ddo72ZptXRA/",
+                "kind": "content",
+                "text": "Halloween raffle: Dr Bradbury’s Compendium of Curiosities Halloween calendar, crochet pumpkin wreath, S’mores Jellycat, stickers, cards, meds diary, spoonie hat, prints and coloring pages.",
+                "check": "post_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_fea290f9",
+                "publishedAt": null
+              },
+              {
+                "url": "https://linktr.ee/franhaddock_",
+                "kind": "content",
+                "text": "Linktree contains fundraisers, articles, products and BBC link; no TikTok, YouTube or other social-platform account link.",
+                "check": "no_evidence_id",
+                "provider": "tikhub",
+                "verified": false,
+                "evidenceId": null,
+                "publishedAt": null
+              }
+            ],
+            "platform": "instagram",
+            "avatarUrl": null,
+            "fitReason": "Individual UK blogger advocating from bed with severe M.E. and Long Covid. Her own caption identifies a white woman with glasses in the relevant video, and her account has a whimsical, bookish/geeky creator aesthetic (Halloween prize draw, coloring pages, stickers, reading-related bio and Jellycat/compendium prizes) consistent with an ordinary consumer creator rather than a business.",
+            "providers": [
+              "tikhub"
+            ],
+            "profileUrl": "https://www.instagram.com/franhaddock_/",
+            "displayName": "Fran Haddock 🌳 she/her",
+            "overallTier": "A",
+            "factorGrades": {
+              "role": "strong",
+              "activity": "observed",
+              "identity": "individual",
+              "location": "confirmed_country",
+              "followers": "in_range",
+              "relevance": "strong"
+            },
+            "regionSource": "codex",
+            "followerCount": 14872,
+            "hardConditions": [
+              {
+                "basis": "Profile follower_count is exactly 14,872 in ev_4308c807.",
+                "status": "met",
+                "condition": "Instagram followers between 10,000 and 100,000"
+              },
+              {
+                "basis": "Instagram About This Account reports United Kingdom in ev_76d3ca98; biography explicitly lists Sheffield.",
+                "status": "met",
+                "condition": "Creator based in United States, Canada, United Kingdom, Germany, or France"
+              },
+              {
+                "basis": "Profile reports is_business false and represents one named individual, Fran Haddock.",
+                "status": "met",
+                "condition": "Individual creators only"
+              },
+              {
+                "basis": "Profile has only a Linktree and direct Linktree inspection found no TikTok, YouTube or other social-platform account link.",
+                "status": "met",
+                "condition": "No person on two platforms"
+              },
+              {
+                "basis": "The creator’s own video description says 'a white woman with glasses'; posts show fandom-adjacent Halloween prizes including a compendium of curiosities, stickers, coloring pages and a Jellycat prize; bio includes current reading and whimsical interests.",
+                "status": "met",
+                "condition": "Geek aesthetic and glasses"
+              },
+              {
+                "basis": "The creator-owned accessibility description for the cited reel identifies the speaker as 'a white woman with glasses'.",
+                "status": "met",
+                "condition": "Publicly self-identify as white"
+              }
+            ],
+            "providerUserId": "5824909564",
+            "searchMatchTier": "precise",
+            "profileCompleteness": "full"
+          }
+        ],
+        "alsoFound": [],
+        "qualificationProgress": {
+          "passed": 1,
+          "pending": 0,
+          "excluded": 7,
+          "gaps": {},
+          "asOf": "2026-10-10T02:48:23.701Z"
+        },
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791600519689
+    },
+    {
+      "id": "5337879c-77b7-47c3-b93d-332b5edc4a63",
+      "kind": "wavesurge",
+      "createdAt": 1791600639170,
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "running",
+        "strategyOperationId": null,
+        "creators": [
+          {
+            "handle": "franhaddock_",
+            "region": "GB",
+            "missing": [
+              "audience_profile_not_measured",
+              "contacts_not_collected"
+            ],
+            "evidence": [
+              {
+                "url": "https://www.instagram.com/p/Dd6iln9NJ9f/",
+                "kind": "content",
+                "text": "Video description: a white woman with glasses and her hair in 2 plaits talks to the screen from her bed.",
+                "check": "post_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_4fd1b2b8",
+                "publishedAt": "2026-09-30T14:24:37Z"
+              },
+              {
+                "url": "https://www.instagram.com/franhaddock_/",
+                "kind": "content",
+                "text": "Fran Haddock 🌳 she/her; 14,872 followers; is_business false; biography includes Sheffield, current reading, advocacy from bed, and category Blogger.",
+                "check": "profile_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_4308c807",
+                "publishedAt": null
+              },
+              {
+                "url": "https://www.instagram.com/franhaddock_/",
+                "kind": "content",
+                "text": "Instagram About This Account reports Account based in United Kingdom.",
+                "check": "creator_not_in_payload",
+                "provider": "tikhub",
+                "verified": false,
+                "evidenceId": "ev_76d3ca98",
+                "publishedAt": null
+              },
+              {
+                "url": "https://www.instagram.com/p/Ddo72ZptXRA/",
+                "kind": "content",
+                "text": "Halloween raffle: Dr Bradbury’s Compendium of Curiosities Halloween calendar, crochet pumpkin wreath, S’mores Jellycat, stickers, cards, meds diary, spoonie hat, prints and coloring pages.",
+                "check": "post_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_fea290f9",
+                "publishedAt": null
+              },
+              {
+                "url": "https://linktr.ee/franhaddock_",
+                "kind": "content",
+                "text": "Linktree contains fundraisers, articles, products and BBC link; no TikTok, YouTube or other social-platform account link.",
+                "check": "no_evidence_id",
+                "provider": "tikhub",
+                "verified": false,
+                "evidenceId": null,
+                "publishedAt": null
+              }
+            ],
+            "platform": "instagram",
+            "avatarUrl": null,
+            "fitReason": "Individual UK blogger advocating from bed with severe M.E. and Long Covid. Her own caption identifies a white woman with glasses in the relevant video, and her account has a whimsical, bookish/geeky creator aesthetic (Halloween prize draw, coloring pages, stickers, reading-related bio and Jellycat/compendium prizes) consistent with an ordinary consumer creator rather than a business.",
+            "providers": [
+              "tikhub"
+            ],
+            "profileUrl": "https://www.instagram.com/franhaddock_/",
+            "displayName": "Fran Haddock 🌳 she/her",
+            "overallTier": "A",
+            "factorGrades": {
+              "role": "strong",
+              "activity": "observed",
+              "identity": "individual",
+              "location": "confirmed_country",
+              "followers": "in_range",
+              "relevance": "strong"
+            },
+            "regionSource": "codex",
+            "followerCount": 14872,
+            "hardConditions": [
+              {
+                "basis": "Profile follower_count is exactly 14,872 in ev_4308c807.",
+                "status": "met",
+                "condition": "Instagram followers between 10,000 and 100,000"
+              },
+              {
+                "basis": "Instagram About This Account reports United Kingdom in ev_76d3ca98; biography explicitly lists Sheffield.",
+                "status": "met",
+                "condition": "Creator based in United States, Canada, United Kingdom, Germany, or France"
+              },
+              {
+                "basis": "Profile reports is_business false and represents one named individual, Fran Haddock.",
+                "status": "met",
+                "condition": "Individual creators only"
+              },
+              {
+                "basis": "Profile has only a Linktree and direct Linktree inspection found no TikTok, YouTube or other social-platform account link.",
+                "status": "met",
+                "condition": "No person on two platforms"
+              },
+              {
+                "basis": "The creator’s own video description says 'a white woman with glasses'; posts show fandom-adjacent Halloween prizes including a compendium of curiosities, stickers, coloring pages and a Jellycat prize; bio includes current reading and whimsical interests.",
+                "status": "met",
+                "condition": "Geek aesthetic and glasses"
+              },
+              {
+                "basis": "The creator-owned accessibility description for the cited reel identifies the speaker as 'a white woman with glasses'.",
+                "status": "met",
+                "condition": "Publicly self-identify as white"
+              }
+            ],
+            "providerUserId": "5824909564",
+            "searchMatchTier": "precise",
+            "profileCompleteness": "full"
+          }
+        ],
+        "alsoFound": [],
+        "qualificationProgress": {
+          "passed": 1,
+          "pending": 0,
+          "excluded": 36,
+          "gaps": {},
+          "asOf": "2026-10-10T02:50:22.767Z"
+        },
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791600639610
+    },
+    {
+      "id": "d5edc237-c589-4e29-94d5-b0f5767d3f05",
+      "kind": "wavesurge",
+      "createdAt": 1791600759181,
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "running",
+        "strategyOperationId": null,
+        "creators": [
+          {
+            "handle": "franhaddock_",
+            "region": "GB",
+            "missing": [
+              "audience_profile_not_measured",
+              "contacts_not_collected"
+            ],
+            "evidence": [
+              {
+                "url": "https://www.instagram.com/p/Dd6iln9NJ9f/",
+                "kind": "content",
+                "text": "Video description: a white woman with glasses and her hair in 2 plaits talks to the screen from her bed.",
+                "check": "post_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_4fd1b2b8",
+                "publishedAt": "2026-09-30T14:24:37Z"
+              },
+              {
+                "url": "https://www.instagram.com/franhaddock_/",
+                "kind": "content",
+                "text": "Fran Haddock 🌳 she/her; 14,872 followers; is_business false; biography includes Sheffield, current reading, advocacy from bed, and category Blogger.",
+                "check": "profile_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_4308c807",
+                "publishedAt": null
+              },
+              {
+                "url": "https://www.instagram.com/franhaddock_/",
+                "kind": "content",
+                "text": "Instagram About This Account reports Account based in United Kingdom.",
+                "check": "creator_not_in_payload",
+                "provider": "tikhub",
+                "verified": false,
+                "evidenceId": "ev_76d3ca98",
+                "publishedAt": null
+              },
+              {
+                "url": "https://www.instagram.com/p/Ddo72ZptXRA/",
+                "kind": "content",
+                "text": "Halloween raffle: Dr Bradbury’s Compendium of Curiosities Halloween calendar, crochet pumpkin wreath, S’mores Jellycat, stickers, cards, meds diary, spoonie hat, prints and coloring pages.",
+                "check": "post_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_fea290f9",
+                "publishedAt": null
+              },
+              {
+                "url": "https://linktr.ee/franhaddock_",
+                "kind": "content",
+                "text": "Linktree contains fundraisers, articles, products and BBC link; no TikTok, YouTube or other social-platform account link.",
+                "check": "no_evidence_id",
+                "provider": "tikhub",
+                "verified": false,
+                "evidenceId": null,
+                "publishedAt": null
+              }
+            ],
+            "platform": "instagram",
+            "avatarUrl": null,
+            "fitReason": "Individual UK blogger advocating from bed with severe M.E. and Long Covid. Her own caption identifies a white woman with glasses in the relevant video, and her account has a whimsical, bookish/geeky creator aesthetic (Halloween prize draw, coloring pages, stickers, reading-related bio and Jellycat/compendium prizes) consistent with an ordinary consumer creator rather than a business.",
+            "providers": [
+              "tikhub"
+            ],
+            "profileUrl": "https://www.instagram.com/franhaddock_/",
+            "displayName": "Fran Haddock 🌳 she/her",
+            "overallTier": "A",
+            "factorGrades": {
+              "role": "strong",
+              "activity": "observed",
+              "identity": "individual",
+              "location": "confirmed_country",
+              "followers": "in_range",
+              "relevance": "strong"
+            },
+            "regionSource": "codex",
+            "followerCount": 14872,
+            "hardConditions": [
+              {
+                "basis": "Profile follower_count is exactly 14,872 in ev_4308c807.",
+                "status": "met",
+                "condition": "Instagram followers between 10,000 and 100,000"
+              },
+              {
+                "basis": "Instagram About This Account reports United Kingdom in ev_76d3ca98; biography explicitly lists Sheffield.",
+                "status": "met",
+                "condition": "Creator based in United States, Canada, United Kingdom, Germany, or France"
+              },
+              {
+                "basis": "Profile reports is_business false and represents one named individual, Fran Haddock.",
+                "status": "met",
+                "condition": "Individual creators only"
+              },
+              {
+                "basis": "Profile has only a Linktree and direct Linktree inspection found no TikTok, YouTube or other social-platform account link.",
+                "status": "met",
+                "condition": "No person on two platforms"
+              },
+              {
+                "basis": "The creator’s own video description says 'a white woman with glasses'; posts show fandom-adjacent Halloween prizes including a compendium of curiosities, stickers, coloring pages and a Jellycat prize; bio includes current reading and whimsical interests.",
+                "status": "met",
+                "condition": "Geek aesthetic and glasses"
+              },
+              {
+                "basis": "The creator-owned accessibility description for the cited reel identifies the speaker as 'a white woman with glasses'.",
+                "status": "met",
+                "condition": "Publicly self-identify as white"
+              }
+            ],
+            "providerUserId": "5824909564",
+            "searchMatchTier": "precise",
+            "profileCompleteness": "full"
+          }
+        ],
+        "alsoFound": [],
+        "qualificationProgress": {
+          "passed": 1,
+          "pending": 0,
+          "excluded": 36,
+          "gaps": {},
+          "asOf": "2026-10-10T02:52:25.924Z"
+        },
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791600759615
+    },
+    {
+      "id": "2f7b5300-7b79-44c6-852c-9f0efd4ff5aa",
+      "kind": "wavesurge",
+      "createdAt": 1791600879187,
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "running",
+        "strategyOperationId": null,
+        "creators": [
+          {
+            "handle": "franhaddock_",
+            "region": "GB",
+            "missing": [
+              "audience_profile_not_measured",
+              "contacts_not_collected"
+            ],
+            "evidence": [
+              {
+                "url": "https://www.instagram.com/p/Dd6iln9NJ9f/",
+                "kind": "content",
+                "text": "Video description: a white woman with glasses and her hair in 2 plaits talks to the screen from her bed.",
+                "check": "post_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_4fd1b2b8",
+                "publishedAt": "2026-09-30T14:24:37Z"
+              },
+              {
+                "url": "https://www.instagram.com/franhaddock_/",
+                "kind": "content",
+                "text": "Fran Haddock 🌳 she/her; 14,872 followers; is_business false; biography includes Sheffield, current reading, advocacy from bed, and category Blogger.",
+                "check": "profile_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_4308c807",
+                "publishedAt": null
+              },
+              {
+                "url": "https://www.instagram.com/franhaddock_/",
+                "kind": "content",
+                "text": "Instagram About This Account reports Account based in United Kingdom.",
+                "check": "creator_not_in_payload",
+                "provider": "tikhub",
+                "verified": false,
+                "evidenceId": "ev_76d3ca98",
+                "publishedAt": null
+              },
+              {
+                "url": "https://www.instagram.com/p/Ddo72ZptXRA/",
+                "kind": "content",
+                "text": "Halloween raffle: Dr Bradbury’s Compendium of Curiosities Halloween calendar, crochet pumpkin wreath, S’mores Jellycat, stickers, cards, meds diary, spoonie hat, prints and coloring pages.",
+                "check": "post_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_fea290f9",
+                "publishedAt": null
+              },
+              {
+                "url": "https://linktr.ee/franhaddock_",
+                "kind": "content",
+                "text": "Linktree contains fundraisers, articles, products and BBC link; no TikTok, YouTube or other social-platform account link.",
+                "check": "no_evidence_id",
+                "provider": "tikhub",
+                "verified": false,
+                "evidenceId": null,
+                "publishedAt": null
+              }
+            ],
+            "platform": "instagram",
+            "avatarUrl": null,
+            "fitReason": "Individual UK blogger advocating from bed with severe M.E. and Long Covid. Her own caption identifies a white woman with glasses in the relevant video, and her account has a whimsical, bookish/geeky creator aesthetic (Halloween prize draw, coloring pages, stickers, reading-related bio and Jellycat/compendium prizes) consistent with an ordinary consumer creator rather than a business.",
+            "providers": [
+              "tikhub"
+            ],
+            "profileUrl": "https://www.instagram.com/franhaddock_/",
+            "displayName": "Fran Haddock 🌳 she/her",
+            "overallTier": "A",
+            "factorGrades": {
+              "role": "strong",
+              "activity": "observed",
+              "identity": "individual",
+              "location": "confirmed_country",
+              "followers": "in_range",
+              "relevance": "strong"
+            },
+            "regionSource": "codex",
+            "followerCount": 14872,
+            "hardConditions": [
+              {
+                "basis": "Profile follower_count is exactly 14,872 in ev_4308c807.",
+                "status": "met",
+                "condition": "Instagram followers between 10,000 and 100,000"
+              },
+              {
+                "basis": "Instagram About This Account reports United Kingdom in ev_76d3ca98; biography explicitly lists Sheffield.",
+                "status": "met",
+                "condition": "Creator based in United States, Canada, United Kingdom, Germany, or France"
+              },
+              {
+                "basis": "Profile reports is_business false and represents one named individual, Fran Haddock.",
+                "status": "met",
+                "condition": "Individual creators only"
+              },
+              {
+                "basis": "Profile has only a Linktree and direct Linktree inspection found no TikTok, YouTube or other social-platform account link.",
+                "status": "met",
+                "condition": "No person on two platforms"
+              },
+              {
+                "basis": "The creator’s own video description says 'a white woman with glasses'; posts show fandom-adjacent Halloween prizes including a compendium of curiosities, stickers, coloring pages and a Jellycat prize; bio includes current reading and whimsical interests.",
+                "status": "met",
+                "condition": "Geek aesthetic and glasses"
+              },
+              {
+                "basis": "The creator-owned accessibility description for the cited reel identifies the speaker as 'a white woman with glasses'.",
+                "status": "met",
+                "condition": "Publicly self-identify as white"
+              }
+            ],
+            "providerUserId": "5824909564",
+            "searchMatchTier": "precise",
+            "profileCompleteness": "full"
+          }
+        ],
+        "alsoFound": [],
+        "qualificationProgress": {
+          "passed": 1,
+          "pending": 0,
+          "excluded": 36,
+          "gaps": {},
+          "asOf": "2026-10-10T02:54:22.779Z"
+        },
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791600879406
+    },
+    {
+      "id": "5eb9c3d0-e157-456b-8225-dfeca125f8ab",
+      "kind": "wavesurge",
+      "createdAt": 1791600999197,
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "running",
+        "strategyOperationId": null,
+        "creators": [
+          {
+            "handle": "franhaddock_",
+            "region": "GB",
+            "missing": [
+              "audience_profile_not_measured",
+              "contacts_not_collected"
+            ],
+            "evidence": [
+              {
+                "url": "https://www.instagram.com/p/Dd6iln9NJ9f/",
+                "kind": "content",
+                "text": "Video description: a white woman with glasses and her hair in 2 plaits talks to the screen from her bed.",
+                "check": "post_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_4fd1b2b8",
+                "publishedAt": "2026-09-30T14:24:37Z"
+              },
+              {
+                "url": "https://www.instagram.com/franhaddock_/",
+                "kind": "content",
+                "text": "Fran Haddock 🌳 she/her; 14,872 followers; is_business false; biography includes Sheffield, current reading, advocacy from bed, and category Blogger.",
+                "check": "profile_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_4308c807",
+                "publishedAt": null
+              },
+              {
+                "url": "https://www.instagram.com/franhaddock_/",
+                "kind": "content",
+                "text": "Instagram About This Account reports Account based in United Kingdom.",
+                "check": "creator_not_in_payload",
+                "provider": "tikhub",
+                "verified": false,
+                "evidenceId": "ev_76d3ca98",
+                "publishedAt": null
+              },
+              {
+                "url": "https://www.instagram.com/p/Ddo72ZptXRA/",
+                "kind": "content",
+                "text": "Halloween raffle: Dr Bradbury’s Compendium of Curiosities Halloween calendar, crochet pumpkin wreath, S’mores Jellycat, stickers, cards, meds diary, spoonie hat, prints and coloring pages.",
+                "check": "post_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_fea290f9",
+                "publishedAt": null
+              },
+              {
+                "url": "https://linktr.ee/franhaddock_",
+                "kind": "content",
+                "text": "Linktree contains fundraisers, articles, products and BBC link; no TikTok, YouTube or other social-platform account link.",
+                "check": "no_evidence_id",
+                "provider": "tikhub",
+                "verified": false,
+                "evidenceId": null,
+                "publishedAt": null
+              }
+            ],
+            "platform": "instagram",
+            "avatarUrl": null,
+            "fitReason": "Individual UK blogger advocating from bed with severe M.E. and Long Covid. Her own caption identifies a white woman with glasses in the relevant video, and her account has a whimsical, bookish/geeky creator aesthetic (Halloween prize draw, coloring pages, stickers, reading-related bio and Jellycat/compendium prizes) consistent with an ordinary consumer creator rather than a business.",
+            "providers": [
+              "tikhub"
+            ],
+            "profileUrl": "https://www.instagram.com/franhaddock_/",
+            "displayName": "Fran Haddock 🌳 she/her",
+            "overallTier": "A",
+            "factorGrades": {
+              "role": "strong",
+              "activity": "observed",
+              "identity": "individual",
+              "location": "confirmed_country",
+              "followers": "in_range",
+              "relevance": "strong"
+            },
+            "regionSource": "codex",
+            "followerCount": 14872,
+            "hardConditions": [
+              {
+                "basis": "Profile follower_count is exactly 14,872 in ev_4308c807.",
+                "status": "met",
+                "condition": "Instagram followers between 10,000 and 100,000"
+              },
+              {
+                "basis": "Instagram About This Account reports United Kingdom in ev_76d3ca98; biography explicitly lists Sheffield.",
+                "status": "met",
+                "condition": "Creator based in United States, Canada, United Kingdom, Germany, or France"
+              },
+              {
+                "basis": "Profile reports is_business false and represents one named individual, Fran Haddock.",
+                "status": "met",
+                "condition": "Individual creators only"
+              },
+              {
+                "basis": "Profile has only a Linktree and direct Linktree inspection found no TikTok, YouTube or other social-platform account link.",
+                "status": "met",
+                "condition": "No person on two platforms"
+              },
+              {
+                "basis": "The creator’s own video description says 'a white woman with glasses'; posts show fandom-adjacent Halloween prizes including a compendium of curiosities, stickers, coloring pages and a Jellycat prize; bio includes current reading and whimsical interests.",
+                "status": "met",
+                "condition": "Geek aesthetic and glasses"
+              },
+              {
+                "basis": "The creator-owned accessibility description for the cited reel identifies the speaker as 'a white woman with glasses'.",
+                "status": "met",
+                "condition": "Publicly self-identify as white"
+              }
+            ],
+            "providerUserId": "5824909564",
+            "searchMatchTier": "precise",
+            "profileCompleteness": "full"
+          }
+        ],
+        "alsoFound": [],
+        "qualificationProgress": {
+          "passed": 1,
+          "pending": 0,
+          "excluded": 1,
+          "gaps": {},
+          "asOf": "2026-10-10T02:56:27.104Z"
+        },
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791600999685
+    },
+    {
+      "id": "31a0cc2b-ddb2-4424-ba12-448af627525b",
+      "kind": "wavesurge",
+      "createdAt": 1791601119209,
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "running",
+        "strategyOperationId": null,
+        "creators": [
+          {
+            "handle": "franhaddock_",
+            "region": "GB",
+            "missing": [
+              "audience_profile_not_measured",
+              "contacts_not_collected"
+            ],
+            "evidence": [
+              {
+                "url": "https://www.instagram.com/p/Dd6iln9NJ9f/",
+                "kind": "content",
+                "text": "Video description: a white woman with glasses and her hair in 2 plaits talks to the screen from her bed.",
+                "check": "post_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_4fd1b2b8",
+                "publishedAt": "2026-09-30T14:24:37Z"
+              },
+              {
+                "url": "https://www.instagram.com/franhaddock_/",
+                "kind": "content",
+                "text": "Fran Haddock 🌳 she/her; 14,872 followers; is_business false; biography includes Sheffield, current reading, advocacy from bed, and category Blogger.",
+                "check": "profile_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_4308c807",
+                "publishedAt": null
+              },
+              {
+                "url": "https://www.instagram.com/franhaddock_/",
+                "kind": "content",
+                "text": "Instagram About This Account reports Account based in United Kingdom.",
+                "check": "creator_not_in_payload",
+                "provider": "tikhub",
+                "verified": false,
+                "evidenceId": "ev_76d3ca98",
+                "publishedAt": null
+              },
+              {
+                "url": "https://www.instagram.com/p/Ddo72ZptXRA/",
+                "kind": "content",
+                "text": "Halloween raffle: Dr Bradbury’s Compendium of Curiosities Halloween calendar, crochet pumpkin wreath, S’mores Jellycat, stickers, cards, meds diary, spoonie hat, prints and coloring pages.",
+                "check": "post_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_fea290f9",
+                "publishedAt": null
+              },
+              {
+                "url": "https://linktr.ee/franhaddock_",
+                "kind": "content",
+                "text": "Linktree contains fundraisers, articles, products and BBC link; no TikTok, YouTube or other social-platform account link.",
+                "check": "no_evidence_id",
+                "provider": "tikhub",
+                "verified": false,
+                "evidenceId": null,
+                "publishedAt": null
+              }
+            ],
+            "platform": "instagram",
+            "avatarUrl": null,
+            "fitReason": "Individual UK blogger advocating from bed with severe M.E. and Long Covid. Her own caption identifies a white woman with glasses in the relevant video, and her account has a whimsical, bookish/geeky creator aesthetic (Halloween prize draw, coloring pages, stickers, reading-related bio and Jellycat/compendium prizes) consistent with an ordinary consumer creator rather than a business.",
+            "providers": [
+              "tikhub"
+            ],
+            "profileUrl": "https://www.instagram.com/franhaddock_/",
+            "displayName": "Fran Haddock 🌳 she/her",
+            "overallTier": "A",
+            "factorGrades": {
+              "role": "strong",
+              "activity": "observed",
+              "identity": "individual",
+              "location": "confirmed_country",
+              "followers": "in_range",
+              "relevance": "strong"
+            },
+            "regionSource": "codex",
+            "followerCount": 14872,
+            "hardConditions": [
+              {
+                "basis": "Profile follower_count is exactly 14,872 in ev_4308c807.",
+                "status": "met",
+                "condition": "Instagram followers between 10,000 and 100,000"
+              },
+              {
+                "basis": "Instagram About This Account reports United Kingdom in ev_76d3ca98; biography explicitly lists Sheffield.",
+                "status": "met",
+                "condition": "Creator based in United States, Canada, United Kingdom, Germany, or France"
+              },
+              {
+                "basis": "Profile reports is_business false and represents one named individual, Fran Haddock.",
+                "status": "met",
+                "condition": "Individual creators only"
+              },
+              {
+                "basis": "Profile has only a Linktree and direct Linktree inspection found no TikTok, YouTube or other social-platform account link.",
+                "status": "met",
+                "condition": "No person on two platforms"
+              },
+              {
+                "basis": "The creator’s own video description says 'a white woman with glasses'; posts show fandom-adjacent Halloween prizes including a compendium of curiosities, stickers, coloring pages and a Jellycat prize; bio includes current reading and whimsical interests.",
+                "status": "met",
+                "condition": "Geek aesthetic and glasses"
+              },
+              {
+                "basis": "The creator-owned accessibility description for the cited reel identifies the speaker as 'a white woman with glasses'.",
+                "status": "met",
+                "condition": "Publicly self-identify as white"
+              }
+            ],
+            "providerUserId": "5824909564",
+            "searchMatchTier": "precise",
+            "profileCompleteness": "full"
+          }
+        ],
+        "alsoFound": [],
+        "qualificationProgress": {
+          "passed": 1,
+          "pending": 0,
+          "excluded": 1,
+          "gaps": {},
+          "asOf": "2026-10-10T02:58:23.927Z"
+        },
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791601119726
+    },
+    {
+      "id": "1194c428-90a2-453b-b598-2e82c69ba53b",
+      "kind": "wavesurge",
+      "createdAt": 1791601239217,
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "method": "GET",
+      "request": null,
+      "error": "fetch failed",
+      "finishedAt": 1791601245568
+    },
+    {
+      "id": "f92906ce-5f3e-455e-b38e-274245e26581",
+      "kind": "wavesurge",
+      "createdAt": 1791601359225,
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "running",
+        "strategyOperationId": null,
+        "creators": [
+          {
+            "handle": "franhaddock_",
+            "region": "GB",
+            "missing": [
+              "audience_profile_not_measured",
+              "contacts_not_collected"
+            ],
+            "evidence": [
+              {
+                "url": "https://www.instagram.com/p/Dd6iln9NJ9f/",
+                "kind": "content",
+                "text": "Video description: a white woman with glasses and her hair in 2 plaits talks to the screen from her bed.",
+                "check": "post_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_4fd1b2b8",
+                "publishedAt": "2026-09-30T14:24:37Z"
+              },
+              {
+                "url": "https://www.instagram.com/franhaddock_/",
+                "kind": "content",
+                "text": "Fran Haddock 🌳 she/her; 14,872 followers; is_business false; biography includes Sheffield, current reading, advocacy from bed, and category Blogger.",
+                "check": "profile_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_4308c807",
+                "publishedAt": null
+              },
+              {
+                "url": "https://www.instagram.com/franhaddock_/",
+                "kind": "content",
+                "text": "Instagram About This Account reports Account based in United Kingdom.",
+                "check": "creator_not_in_payload",
+                "provider": "tikhub",
+                "verified": false,
+                "evidenceId": "ev_76d3ca98",
+                "publishedAt": null
+              },
+              {
+                "url": "https://www.instagram.com/p/Ddo72ZptXRA/",
+                "kind": "content",
+                "text": "Halloween raffle: Dr Bradbury’s Compendium of Curiosities Halloween calendar, crochet pumpkin wreath, S’mores Jellycat, stickers, cards, meds diary, spoonie hat, prints and coloring pages.",
+                "check": "post_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_fea290f9",
+                "publishedAt": null
+              },
+              {
+                "url": "https://linktr.ee/franhaddock_",
+                "kind": "content",
+                "text": "Linktree contains fundraisers, articles, products and BBC link; no TikTok, YouTube or other social-platform account link.",
+                "check": "no_evidence_id",
+                "provider": "tikhub",
+                "verified": false,
+                "evidenceId": null,
+                "publishedAt": null
+              }
+            ],
+            "platform": "instagram",
+            "avatarUrl": null,
+            "fitReason": "Individual UK blogger advocating from bed with severe M.E. and Long Covid. Her own caption identifies a white woman with glasses in the relevant video, and her account has a whimsical, bookish/geeky creator aesthetic (Halloween prize draw, coloring pages, stickers, reading-related bio and Jellycat/compendium prizes) consistent with an ordinary consumer creator rather than a business.",
+            "providers": [
+              "tikhub"
+            ],
+            "profileUrl": "https://www.instagram.com/franhaddock_/",
+            "displayName": "Fran Haddock 🌳 she/her",
+            "overallTier": "A",
+            "factorGrades": {
+              "role": "strong",
+              "activity": "observed",
+              "identity": "individual",
+              "location": "confirmed_country",
+              "followers": "in_range",
+              "relevance": "strong"
+            },
+            "regionSource": "codex",
+            "followerCount": 14872,
+            "hardConditions": [
+              {
+                "basis": "Profile follower_count is exactly 14,872 in ev_4308c807.",
+                "status": "met",
+                "condition": "Instagram followers between 10,000 and 100,000"
+              },
+              {
+                "basis": "Instagram About This Account reports United Kingdom in ev_76d3ca98; biography explicitly lists Sheffield.",
+                "status": "met",
+                "condition": "Creator based in United States, Canada, United Kingdom, Germany, or France"
+              },
+              {
+                "basis": "Profile reports is_business false and represents one named individual, Fran Haddock.",
+                "status": "met",
+                "condition": "Individual creators only"
+              },
+              {
+                "basis": "Profile has only a Linktree and direct Linktree inspection found no TikTok, YouTube or other social-platform account link.",
+                "status": "met",
+                "condition": "No person on two platforms"
+              },
+              {
+                "basis": "The creator’s own video description says 'a white woman with glasses'; posts show fandom-adjacent Halloween prizes including a compendium of curiosities, stickers, coloring pages and a Jellycat prize; bio includes current reading and whimsical interests.",
+                "status": "met",
+                "condition": "Geek aesthetic and glasses"
+              },
+              {
+                "basis": "The creator-owned accessibility description for the cited reel identifies the speaker as 'a white woman with glasses'.",
+                "status": "met",
+                "condition": "Publicly self-identify as white"
+              }
+            ],
+            "providerUserId": "5824909564",
+            "searchMatchTier": "precise",
+            "profileCompleteness": "full"
+          }
+        ],
+        "alsoFound": [],
+        "qualificationProgress": {
+          "passed": 1,
+          "pending": 0,
+          "excluded": 1,
+          "gaps": {},
+          "asOf": "2026-10-10T03:02:16.569Z"
+        },
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791601359458
+    },
+    {
+      "id": "b219a221-24f5-42eb-b277-67a56ad7dcb0",
+      "kind": "wavesurge",
+      "createdAt": 1791601479296,
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "running",
+        "strategyOperationId": null,
+        "creators": [
+          {
+            "handle": "franhaddock_",
+            "region": "GB",
+            "missing": [
+              "audience_profile_not_measured",
+              "contacts_not_collected"
+            ],
+            "evidence": [
+              {
+                "url": "https://www.instagram.com/p/Dd6iln9NJ9f/",
+                "kind": "content",
+                "text": "Video description: a white woman with glasses and her hair in 2 plaits talks to the screen from her bed.",
+                "check": "post_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_4fd1b2b8",
+                "publishedAt": "2026-09-30T14:24:37Z"
+              },
+              {
+                "url": "https://www.instagram.com/franhaddock_/",
+                "kind": "content",
+                "text": "Fran Haddock 🌳 she/her; 14,872 followers; is_business false; biography includes Sheffield, current reading, advocacy from bed, and category Blogger.",
+                "check": "profile_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_4308c807",
+                "publishedAt": null
+              },
+              {
+                "url": "https://www.instagram.com/franhaddock_/",
+                "kind": "content",
+                "text": "Instagram About This Account reports Account based in United Kingdom.",
+                "check": "creator_not_in_payload",
+                "provider": "tikhub",
+                "verified": false,
+                "evidenceId": "ev_76d3ca98",
+                "publishedAt": null
+              },
+              {
+                "url": "https://www.instagram.com/p/Ddo72ZptXRA/",
+                "kind": "content",
+                "text": "Halloween raffle: Dr Bradbury’s Compendium of Curiosities Halloween calendar, crochet pumpkin wreath, S’mores Jellycat, stickers, cards, meds diary, spoonie hat, prints and coloring pages.",
+                "check": "post_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_fea290f9",
+                "publishedAt": null
+              },
+              {
+                "url": "https://linktr.ee/franhaddock_",
+                "kind": "content",
+                "text": "Linktree contains fundraisers, articles, products and BBC link; no TikTok, YouTube or other social-platform account link.",
+                "check": "no_evidence_id",
+                "provider": "tikhub",
+                "verified": false,
+                "evidenceId": null,
+                "publishedAt": null
+              }
+            ],
+            "platform": "instagram",
+            "avatarUrl": null,
+            "fitReason": "Individual UK blogger advocating from bed with severe M.E. and Long Covid. Her own caption identifies a white woman with glasses in the relevant video, and her account has a whimsical, bookish/geeky creator aesthetic (Halloween prize draw, coloring pages, stickers, reading-related bio and Jellycat/compendium prizes) consistent with an ordinary consumer creator rather than a business.",
+            "providers": [
+              "tikhub"
+            ],
+            "profileUrl": "https://www.instagram.com/franhaddock_/",
+            "displayName": "Fran Haddock 🌳 she/her",
+            "overallTier": "A",
+            "factorGrades": {
+              "role": "strong",
+              "activity": "observed",
+              "identity": "individual",
+              "location": "confirmed_country",
+              "followers": "in_range",
+              "relevance": "strong"
+            },
+            "regionSource": "codex",
+            "followerCount": 14872,
+            "hardConditions": [
+              {
+                "basis": "Profile follower_count is exactly 14,872 in ev_4308c807.",
+                "status": "met",
+                "condition": "Instagram followers between 10,000 and 100,000"
+              },
+              {
+                "basis": "Instagram About This Account reports United Kingdom in ev_76d3ca98; biography explicitly lists Sheffield.",
+                "status": "met",
+                "condition": "Creator based in United States, Canada, United Kingdom, Germany, or France"
+              },
+              {
+                "basis": "Profile reports is_business false and represents one named individual, Fran Haddock.",
+                "status": "met",
+                "condition": "Individual creators only"
+              },
+              {
+                "basis": "Profile has only a Linktree and direct Linktree inspection found no TikTok, YouTube or other social-platform account link.",
+                "status": "met",
+                "condition": "No person on two platforms"
+              },
+              {
+                "basis": "The creator’s own video description says 'a white woman with glasses'; posts show fandom-adjacent Halloween prizes including a compendium of curiosities, stickers, coloring pages and a Jellycat prize; bio includes current reading and whimsical interests.",
+                "status": "met",
+                "condition": "Geek aesthetic and glasses"
+              },
+              {
+                "basis": "The creator-owned accessibility description for the cited reel identifies the speaker as 'a white woman with glasses'.",
+                "status": "met",
+                "condition": "Publicly self-identify as white"
+              }
+            ],
+            "providerUserId": "5824909564",
+            "searchMatchTier": "precise",
+            "profileCompleteness": "full"
+          }
+        ],
+        "alsoFound": [],
+        "qualificationProgress": {
+          "passed": 1,
+          "pending": 0,
+          "excluded": 1,
+          "gaps": {},
+          "asOf": "2026-10-10T03:04:16.330Z"
+        },
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791601479545
+    },
+    {
+      "id": "9beefdfb-f610-416c-815a-e655ca793336",
+      "kind": "wavesurge",
+      "createdAt": 1791601599307,
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "running",
+        "strategyOperationId": null,
+        "creators": [
+          {
+            "handle": "franhaddock_",
+            "region": "GB",
+            "missing": [
+              "audience_profile_not_measured",
+              "contacts_not_collected"
+            ],
+            "evidence": [
+              {
+                "url": "https://www.instagram.com/p/Dd6iln9NJ9f/",
+                "kind": "content",
+                "text": "Video description: a white woman with glasses and her hair in 2 plaits talks to the screen from her bed.",
+                "check": "post_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_4fd1b2b8",
+                "publishedAt": "2026-09-30T14:24:37Z"
+              },
+              {
+                "url": "https://www.instagram.com/franhaddock_/",
+                "kind": "content",
+                "text": "Fran Haddock 🌳 she/her; 14,872 followers; is_business false; biography includes Sheffield, current reading, advocacy from bed, and category Blogger.",
+                "check": "profile_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_4308c807",
+                "publishedAt": null
+              },
+              {
+                "url": "https://www.instagram.com/franhaddock_/",
+                "kind": "content",
+                "text": "Instagram About This Account reports Account based in United Kingdom.",
+                "check": "creator_not_in_payload",
+                "provider": "tikhub",
+                "verified": false,
+                "evidenceId": "ev_76d3ca98",
+                "publishedAt": null
+              },
+              {
+                "url": "https://www.instagram.com/p/Ddo72ZptXRA/",
+                "kind": "content",
+                "text": "Halloween raffle: Dr Bradbury’s Compendium of Curiosities Halloween calendar, crochet pumpkin wreath, S’mores Jellycat, stickers, cards, meds diary, spoonie hat, prints and coloring pages.",
+                "check": "post_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_fea290f9",
+                "publishedAt": null
+              },
+              {
+                "url": "https://linktr.ee/franhaddock_",
+                "kind": "content",
+                "text": "Linktree contains fundraisers, articles, products and BBC link; no TikTok, YouTube or other social-platform account link.",
+                "check": "no_evidence_id",
+                "provider": "tikhub",
+                "verified": false,
+                "evidenceId": null,
+                "publishedAt": null
+              }
+            ],
+            "platform": "instagram",
+            "avatarUrl": null,
+            "fitReason": "Individual UK blogger advocating from bed with severe M.E. and Long Covid. Her own caption identifies a white woman with glasses in the relevant video, and her account has a whimsical, bookish/geeky creator aesthetic (Halloween prize draw, coloring pages, stickers, reading-related bio and Jellycat/compendium prizes) consistent with an ordinary consumer creator rather than a business.",
+            "providers": [
+              "tikhub"
+            ],
+            "profileUrl": "https://www.instagram.com/franhaddock_/",
+            "displayName": "Fran Haddock 🌳 she/her",
+            "overallTier": "A",
+            "factorGrades": {
+              "role": "strong",
+              "activity": "observed",
+              "identity": "individual",
+              "location": "confirmed_country",
+              "followers": "in_range",
+              "relevance": "strong"
+            },
+            "regionSource": "codex",
+            "followerCount": 14872,
+            "hardConditions": [
+              {
+                "basis": "Profile follower_count is exactly 14,872 in ev_4308c807.",
+                "status": "met",
+                "condition": "Instagram followers between 10,000 and 100,000"
+              },
+              {
+                "basis": "Instagram About This Account reports United Kingdom in ev_76d3ca98; biography explicitly lists Sheffield.",
+                "status": "met",
+                "condition": "Creator based in United States, Canada, United Kingdom, Germany, or France"
+              },
+              {
+                "basis": "Profile reports is_business false and represents one named individual, Fran Haddock.",
+                "status": "met",
+                "condition": "Individual creators only"
+              },
+              {
+                "basis": "Profile has only a Linktree and direct Linktree inspection found no TikTok, YouTube or other social-platform account link.",
+                "status": "met",
+                "condition": "No person on two platforms"
+              },
+              {
+                "basis": "The creator’s own video description says 'a white woman with glasses'; posts show fandom-adjacent Halloween prizes including a compendium of curiosities, stickers, coloring pages and a Jellycat prize; bio includes current reading and whimsical interests.",
+                "status": "met",
+                "condition": "Geek aesthetic and glasses"
+              },
+              {
+                "basis": "The creator-owned accessibility description for the cited reel identifies the speaker as 'a white woman with glasses'.",
+                "status": "met",
+                "condition": "Publicly self-identify as white"
+              }
+            ],
+            "providerUserId": "5824909564",
+            "searchMatchTier": "precise",
+            "profileCompleteness": "full"
+          }
+        ],
+        "alsoFound": [],
+        "qualificationProgress": {
+          "passed": 1,
+          "pending": 0,
+          "excluded": 1,
+          "gaps": {},
+          "asOf": "2026-10-10T03:06:26.654Z"
+        },
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791601599747
+    },
+    {
+      "id": "0f154fed-595a-4357-91b4-b0eaf44c77bd",
+      "kind": "wavesurge",
+      "createdAt": 1791601719320,
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "running",
+        "strategyOperationId": null,
+        "creators": [
+          {
+            "handle": "franhaddock_",
+            "region": "GB",
+            "missing": [
+              "audience_profile_not_measured",
+              "contacts_not_collected"
+            ],
+            "evidence": [
+              {
+                "url": "https://www.instagram.com/p/Dd6iln9NJ9f/",
+                "kind": "content",
+                "text": "Video description: a white woman with glasses and her hair in 2 plaits talks to the screen from her bed.",
+                "check": "post_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_4fd1b2b8",
+                "publishedAt": "2026-09-30T14:24:37Z"
+              },
+              {
+                "url": "https://www.instagram.com/franhaddock_/",
+                "kind": "content",
+                "text": "Fran Haddock 🌳 she/her; 14,872 followers; is_business false; biography includes Sheffield, current reading, advocacy from bed, and category Blogger.",
+                "check": "profile_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_4308c807",
+                "publishedAt": null
+              },
+              {
+                "url": "https://www.instagram.com/franhaddock_/",
+                "kind": "content",
+                "text": "Instagram About This Account reports Account based in United Kingdom.",
+                "check": "creator_not_in_payload",
+                "provider": "tikhub",
+                "verified": false,
+                "evidenceId": "ev_76d3ca98",
+                "publishedAt": null
+              },
+              {
+                "url": "https://www.instagram.com/p/Ddo72ZptXRA/",
+                "kind": "content",
+                "text": "Halloween raffle: Dr Bradbury’s Compendium of Curiosities Halloween calendar, crochet pumpkin wreath, S’mores Jellycat, stickers, cards, meds diary, spoonie hat, prints and coloring pages.",
+                "check": "post_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_fea290f9",
+                "publishedAt": null
+              },
+              {
+                "url": "https://linktr.ee/franhaddock_",
+                "kind": "content",
+                "text": "Linktree contains fundraisers, articles, products and BBC link; no TikTok, YouTube or other social-platform account link.",
+                "check": "no_evidence_id",
+                "provider": "tikhub",
+                "verified": false,
+                "evidenceId": null,
+                "publishedAt": null
+              }
+            ],
+            "platform": "instagram",
+            "avatarUrl": null,
+            "fitReason": "Individual UK blogger advocating from bed with severe M.E. and Long Covid. Her own caption identifies a white woman with glasses in the relevant video, and her account has a whimsical, bookish/geeky creator aesthetic (Halloween prize draw, coloring pages, stickers, reading-related bio and Jellycat/compendium prizes) consistent with an ordinary consumer creator rather than a business.",
+            "providers": [
+              "tikhub"
+            ],
+            "profileUrl": "https://www.instagram.com/franhaddock_/",
+            "displayName": "Fran Haddock 🌳 she/her",
+            "overallTier": "A",
+            "factorGrades": {
+              "role": "strong",
+              "activity": "observed",
+              "identity": "individual",
+              "location": "confirmed_country",
+              "followers": "in_range",
+              "relevance": "strong"
+            },
+            "regionSource": "codex",
+            "followerCount": 14872,
+            "hardConditions": [
+              {
+                "basis": "Profile follower_count is exactly 14,872 in ev_4308c807.",
+                "status": "met",
+                "condition": "Instagram followers between 10,000 and 100,000"
+              },
+              {
+                "basis": "Instagram About This Account reports United Kingdom in ev_76d3ca98; biography explicitly lists Sheffield.",
+                "status": "met",
+                "condition": "Creator based in United States, Canada, United Kingdom, Germany, or France"
+              },
+              {
+                "basis": "Profile reports is_business false and represents one named individual, Fran Haddock.",
+                "status": "met",
+                "condition": "Individual creators only"
+              },
+              {
+                "basis": "Profile has only a Linktree and direct Linktree inspection found no TikTok, YouTube or other social-platform account link.",
+                "status": "met",
+                "condition": "No person on two platforms"
+              },
+              {
+                "basis": "The creator’s own video description says 'a white woman with glasses'; posts show fandom-adjacent Halloween prizes including a compendium of curiosities, stickers, coloring pages and a Jellycat prize; bio includes current reading and whimsical interests.",
+                "status": "met",
+                "condition": "Geek aesthetic and glasses"
+              },
+              {
+                "basis": "The creator-owned accessibility description for the cited reel identifies the speaker as 'a white woman with glasses'.",
+                "status": "met",
+                "condition": "Publicly self-identify as white"
+              }
+            ],
+            "providerUserId": "5824909564",
+            "searchMatchTier": "precise",
+            "profileCompleteness": "full"
+          }
+        ],
+        "alsoFound": [],
+        "qualificationProgress": {
+          "passed": 1,
+          "pending": 0,
+          "excluded": 1,
+          "gaps": {},
+          "asOf": "2026-10-10T03:08:32.160Z"
+        },
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791601719829
+    },
+    {
+      "id": "089d543d-bfc1-4828-bc0e-654130da3e63",
+      "kind": "wavesurge",
+      "createdAt": 1791601839331,
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "running",
+        "strategyOperationId": null,
+        "creators": [
+          {
+            "handle": "franhaddock_",
+            "region": "GB",
+            "missing": [
+              "audience_profile_not_measured",
+              "contacts_not_collected"
+            ],
+            "evidence": [
+              {
+                "url": "https://www.instagram.com/p/Dd6iln9NJ9f/",
+                "kind": "content",
+                "text": "Video description: a white woman with glasses and her hair in 2 plaits talks to the screen from her bed.",
+                "check": "post_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_4fd1b2b8",
+                "publishedAt": "2026-09-30T14:24:37Z"
+              },
+              {
+                "url": "https://www.instagram.com/franhaddock_/",
+                "kind": "content",
+                "text": "Fran Haddock 🌳 she/her; 14,872 followers; is_business false; biography includes Sheffield, current reading, advocacy from bed, and category Blogger.",
+                "check": "profile_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_4308c807",
+                "publishedAt": null
+              },
+              {
+                "url": "https://www.instagram.com/franhaddock_/",
+                "kind": "content",
+                "text": "Instagram About This Account reports Account based in United Kingdom.",
+                "check": "creator_not_in_payload",
+                "provider": "tikhub",
+                "verified": false,
+                "evidenceId": "ev_76d3ca98",
+                "publishedAt": null
+              },
+              {
+                "url": "https://www.instagram.com/p/Ddo72ZptXRA/",
+                "kind": "content",
+                "text": "Halloween raffle: Dr Bradbury’s Compendium of Curiosities Halloween calendar, crochet pumpkin wreath, S’mores Jellycat, stickers, cards, meds diary, spoonie hat, prints and coloring pages.",
+                "check": "post_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_fea290f9",
+                "publishedAt": null
+              },
+              {
+                "url": "https://linktr.ee/franhaddock_",
+                "kind": "content",
+                "text": "Linktree contains fundraisers, articles, products and BBC link; no TikTok, YouTube or other social-platform account link.",
+                "check": "no_evidence_id",
+                "provider": "tikhub",
+                "verified": false,
+                "evidenceId": null,
+                "publishedAt": null
+              }
+            ],
+            "platform": "instagram",
+            "avatarUrl": null,
+            "fitReason": "Individual UK blogger advocating from bed with severe M.E. and Long Covid. Her own caption identifies a white woman with glasses in the relevant video, and her account has a whimsical, bookish/geeky creator aesthetic (Halloween prize draw, coloring pages, stickers, reading-related bio and Jellycat/compendium prizes) consistent with an ordinary consumer creator rather than a business.",
+            "providers": [
+              "tikhub"
+            ],
+            "profileUrl": "https://www.instagram.com/franhaddock_/",
+            "displayName": "Fran Haddock 🌳 she/her",
+            "overallTier": "A",
+            "factorGrades": {
+              "role": "strong",
+              "activity": "observed",
+              "identity": "individual",
+              "location": "confirmed_country",
+              "followers": "in_range",
+              "relevance": "strong"
+            },
+            "regionSource": "codex",
+            "followerCount": 14872,
+            "hardConditions": [
+              {
+                "basis": "Profile follower_count is exactly 14,872 in ev_4308c807.",
+                "status": "met",
+                "condition": "Instagram followers between 10,000 and 100,000"
+              },
+              {
+                "basis": "Instagram About This Account reports United Kingdom in ev_76d3ca98; biography explicitly lists Sheffield.",
+                "status": "met",
+                "condition": "Creator based in United States, Canada, United Kingdom, Germany, or France"
+              },
+              {
+                "basis": "Profile reports is_business false and represents one named individual, Fran Haddock.",
+                "status": "met",
+                "condition": "Individual creators only"
+              },
+              {
+                "basis": "Profile has only a Linktree and direct Linktree inspection found no TikTok, YouTube or other social-platform account link.",
+                "status": "met",
+                "condition": "No person on two platforms"
+              },
+              {
+                "basis": "The creator’s own video description says 'a white woman with glasses'; posts show fandom-adjacent Halloween prizes including a compendium of curiosities, stickers, coloring pages and a Jellycat prize; bio includes current reading and whimsical interests.",
+                "status": "met",
+                "condition": "Geek aesthetic and glasses"
+              },
+              {
+                "basis": "The creator-owned accessibility description for the cited reel identifies the speaker as 'a white woman with glasses'.",
+                "status": "met",
+                "condition": "Publicly self-identify as white"
+              }
+            ],
+            "providerUserId": "5824909564",
+            "searchMatchTier": "precise",
+            "profileCompleteness": "full"
+          }
+        ],
+        "alsoFound": [],
+        "qualificationProgress": {
+          "passed": 1,
+          "pending": 0,
+          "excluded": 1,
+          "gaps": {},
+          "asOf": "2026-10-10T03:10:13.788Z"
+        },
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791601839809
+    },
+    {
+      "id": "563bc846-a16b-4f86-8ed6-08bee8dce707",
+      "kind": "wavesurge",
+      "createdAt": 1791601959343,
+      "path": "/creator-search/requests/bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "running",
+        "strategyOperationId": null,
+        "creators": [
+          {
+            "handle": "franhaddock_",
+            "region": "GB",
+            "missing": [
+              "audience_profile_not_measured",
+              "contacts_not_collected"
+            ],
+            "evidence": [
+              {
+                "url": "https://www.instagram.com/p/Dd6iln9NJ9f/",
+                "kind": "content",
+                "text": "Video description: a white woman with glasses and her hair in 2 plaits talks to the screen from her bed.",
+                "check": "post_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_4fd1b2b8",
+                "publishedAt": "2026-09-30T14:24:37Z"
+              },
+              {
+                "url": "https://www.instagram.com/franhaddock_/",
+                "kind": "content",
+                "text": "Fran Haddock 🌳 she/her; 14,872 followers; is_business false; biography includes Sheffield, current reading, advocacy from bed, and category Blogger.",
+                "check": "profile_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_4308c807",
+                "publishedAt": null
+              },
+              {
+                "url": "https://www.instagram.com/franhaddock_/",
+                "kind": "content",
+                "text": "Instagram About This Account reports Account based in United Kingdom.",
+                "check": "creator_not_in_payload",
+                "provider": "tikhub",
+                "verified": false,
+                "evidenceId": "ev_76d3ca98",
+                "publishedAt": null
+              },
+              {
+                "url": "https://www.instagram.com/p/Ddo72ZptXRA/",
+                "kind": "content",
+                "text": "Halloween raffle: Dr Bradbury’s Compendium of Curiosities Halloween calendar, crochet pumpkin wreath, S’mores Jellycat, stickers, cards, meds diary, spoonie hat, prints and coloring pages.",
+                "check": "post_and_creator_in_payload",
+                "provider": "tikhub",
+                "verified": true,
+                "evidenceId": "ev_fea290f9",
+                "publishedAt": null
+              },
+              {
+                "url": "https://linktr.ee/franhaddock_",
+                "kind": "content",
+                "text": "Linktree contains fundraisers, articles, products and BBC link; no TikTok, YouTube or other social-platform account link.",
+                "check": "no_evidence_id",
+                "provider": "tikhub",
+                "verified": false,
+                "evidenceId": null,
+                "publishedAt": null
+              }
+            ],
+            "platform": "instagram",
+            "avatarUrl": null,
+            "fitReason": "Individual UK blogger advocating from bed with severe M.E. and Long Covid. Her own caption identifies a white woman with glasses in the relevant video, and her account has a whimsical, bookish/geeky creator aesthetic (Halloween prize draw, coloring pages, stickers, reading-related bio and Jellycat/compendium prizes) consistent with an ordinary consumer creator rather than a business.",
+            "providers": [
+              "tikhub"
+            ],
+            "profileUrl": "https://www.instagram.com/franhaddock_/",
+            "displayName": "Fran Haddock 🌳 she/her",
+            "overallTier": "A",
+            "factorGrades": {
+              "role": "strong",
+              "activity": "observed",
+              "identity": "individual",
+              "location": "confirmed_country",
+              "followers": "in_range",
+              "relevance": "strong"
+            },
+            "regionSource": "codex",
+            "followerCount": 14872,
+            "hardConditions": [
+              {
+                "basis": "Profile follower_count is exactly 14,872 in ev_4308c807.",
+                "status": "met",
+                "condition": "Instagram followers between 10,000 and 100,000"
+              },
+              {
+                "basis": "Instagram About This Account reports United Kingdom in ev_76d3ca98; biography explicitly lists Sheffield.",
+                "status": "met",
+                "condition": "Creator based in United States, Canada, United Kingdom, Germany, or France"
+              },
+              {
+                "basis": "Profile reports is_business false and represents one named individual, Fran Haddock.",
+                "status": "met",
+                "condition": "Individual creators only"
+              },
+              {
+                "basis": "Profile has only a Linktree and direct Linktree inspection found no TikTok, YouTube or other social-platform account link.",
+                "status": "met",
+                "condition": "No person on two platforms"
+              },
+              {
+                "basis": "The creator’s own video description says 'a white woman with glasses'; posts show fandom-adjacent Halloween prizes including a compendium of curiosities, stickers, coloring pages and a Jellycat prize; bio includes current reading and whimsical interests.",
+                "status": "met",
+                "condition": "Geek aesthetic and glasses"
+              },
+              {
+                "basis": "The creator-owned accessibility description for the cited reel identifies the speaker as 'a white woman with glasses'.",
+                "status": "met",
+                "condition": "Publicly self-identify as white"
+              }
+            ],
+            "providerUserId": "5824909564",
+            "searchMatchTier": "precise",
+            "profileCompleteness": "full"
+          }
+        ],
+        "alsoFound": [],
+        "qualificationProgress": {
+          "passed": 1,
+          "pending": 0,
+          "excluded": 1,
+          "gaps": {},
+          "asOf": "2026-10-10T03:12:25.826Z"
+        },
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791601959555
+    }
+  ],
+  "modelCalls": []
+}

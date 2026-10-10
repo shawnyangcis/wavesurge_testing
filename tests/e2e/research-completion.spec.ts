@@ -1,0 +1,25 @@
+test.skip(!process.env.RESEARCH_TASK_ID, '历史数据回归需要显式提供 RESEARCH_TASK_ID；全新部署请运行 pnpm e2e');
+import { expect, test } from '@playwright/test';
+import { execFileSync } from 'node:child_process';
+import { writeFileSync } from 'node:fs';
+const taskId = (process.env.RESEARCH_TASK_ID ?? '');
+test('真实结果：部分完成、逐条件证据、标签、报告与重启持久化', async ({ page }) => {
+  test.setTimeout(90000);
+  const password = execFileSync('docker', ['compose', 'exec', '-T', 'app', 'node', '-e', "process.stdout.write(require('fs').readFileSync('/app/data/admin-bootstrap.txt','utf8'))"], { encoding: 'utf8' });
+  await page.goto('/'); await page.getByLabel('管理员密码').fill(password); await page.getByRole('button', { name: /进入工作室/ }).click(); await expect(page.getByLabel('研究对话')).toBeVisible();
+  const tasks = async () => (await (await page.request.get('/api/state')).json()).tasks;
+  const task = (await tasks()).find((t: any) => t.id === taskId); expect(task.status).toBe('partial'); expect(task.matched).toBe(1); expect(task.requested).toBe(2);
+  const card = page.locator('.task').filter({ hasText: task.title }); await expect(card).toContainText('部分完成'); await expect(card).toContainText('已入选 1 / 2'); await card.getByRole('button', { name: '查看结果' }).click();
+  await expect(page.locator('.finding')).toHaveCount(1); await expect(page.locator('.finding')).toContainText('imthegeekjr'); await page.getByText('逐条件判断与证据').click(); await expect(page.locator('.judgment')).toHaveCount(4); await expect(page.locator('.judgment a')).toHaveAttribute('href', 'https://www.instagram.com/imthegeekjr/');
+  await page.getByLabel('按标签查找').fill('分享科技内容'); await page.getByRole('button', { name: '查询 / 刷新' }).click(); await expect(page.locator('.finding')).toHaveCount(1);
+  await page.getByRole('combobox', { name: '平台', exact: true }).selectOption('twitter'); await page.getByRole('button', { name: '查询 / 刷新' }).click(); await expect(page.locator('.finding')).toHaveCount(0); await page.getByRole('combobox', { name: '平台', exact: true }).selectOption('instagram'); await page.getByRole('combobox', { name: '判断', exact: true }).selectOption('match'); await page.getByRole('button', { name: '查询 / 刷新' }).click(); await expect(page.locator('.finding')).toHaveCount(1);
+  const downloadPromise = page.waitForEvent('download'); await page.getByRole('link', { name: '下载 CSV' }).click(); const download = await downloadPromise; await download.saveAs('validation/2026-10-10/stage-3-real-results.csv');
+  const popupPromise = page.waitForEvent('popup'); await page.getByRole('link', { name: '查看报告' }).click(); const popup = await popupPromise; await expect(popup.getByText('合格候选 1 人', { exact: false })).toBeVisible(); await popup.screenshot({ path: 'validation/2026-10-10/stage-3-real-report.png', fullPage: true }); await popup.close();
+  await page.screenshot({ path: 'validation/2026-10-10/stage-3-real-results.png', fullPage: true });
+  const before = (await (await page.request.get('/api/debug')).json()).waveCalls.filter((c: any) => c.method === 'POST' && c.request?.requestId === taskId).length;
+  execFileSync('docker', ['compose', 'restart', 'app']); await expect.poll(async () => { try { return (await page.request.get('/api/health')).status(); } catch { return 0; } }, { timeout: 45000 }).toBe(200);
+  await page.reload(); await expect(page.locator('.task').filter({ hasText: task.title })).toContainText('部分完成');
+  const results = await (await page.request.get(`/api/results?taskId=${taskId}`)).json(); expect(results).toHaveLength(1);
+  const debug = await (await page.request.get('/api/debug')).json(); expect(debug.waveCalls.filter((c: any) => c.method === 'POST' && c.request?.requestId === taskId)).toHaveLength(before); expect((await tasks()).find((t: any) => t.id === taskId).remoteId).toBe(task.remoteId);
+  writeFileSync('validation/2026-10-10/stage-3-result-e2e.json', JSON.stringify({ source: 'actual WaveSurge / configured model / production browser / restart', task, results, submissionCount: before }, null, 2));
+});

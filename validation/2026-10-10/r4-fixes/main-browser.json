@@ -1,0 +1,20 @@
+{
+  "startedAt": "2026-10-10T16:19:50.965Z",
+  "source": "Updated main deployment, actual saved rows and configured model, read-only natural query and rendered report/result/CSV UI",
+  "pageErrors": [],
+  "taskId": "research-6b62fedb31c94ffb3dfd83b8",
+  "counts": {
+    "records": 2,
+    "qualified": 2,
+    "selected": 1
+  },
+  "query": "只查询已有研究 research-6b62fedb31c94ffb3dfd83b8 的全部结果，明确区分合格候选与实际入选，说明每位账号的核验结论和入选状态。若属于 Campaign，以当前最终分配为准。不新增研究、不补标、不重搜、不重新核验，不打开网页。",
+  "response": "已查询该研究的**全部2条结果（第4版）**，并核对所属 Campaign 的当前最终分配。\n\n**本研究“测试类型 A”：合格候选2位，实际入选1位。**\n\n| 账号 | 本研究核验结论 | 本研究实际入选 | Campaign 最终分配 |\n|---|---|---|---|\n| **fixture-campaign-shared** | **合格（`match`）**：平台、粉丝范围及截图文字条件均通过 | **未入选类型 A**（`selected=false`） | **已入选类型 B**，不重复占用类型 A 配额 |\n| **fixture-campaign-only-a** | **合格（`match`）**：平台、粉丝范围及截图文字条件均通过 | **已入选类型 A**（`selected=true`） | **分配至类型 A** |\n\n### 已存核验依据\n两条记录的粉丝数均为 **20,000**，满足该研究的 **0–100,000** 范围。已保存截图核验均确认公开帖子区域可见 **“CHIP / CIRCUIT BOARD · 芯片与电路板”** 字样，证据 ID 为 `fa6e8cf6b2a622ec4c36f1aa`。\n\n**注意：这两个账号均为控制性测试夹具，不是真实社交账号。**上述结论仅适用于该测试条件。\n\n所属 Campaign 当前最终结果为：**去重合格账号2位，实际入选2位**，类型 A、类型 B 各1位。同一账号仅占一个类型配额。\n\n本轮仅查询结果和最终分配，未新增研究、补标、重搜、重新核验或打开网页。\n\n[研究报告](/api/reports/research-6b62fedb31c94ffb3dfd83b8) · [Campaign 总报告](/api/campaigns/campaign-cfcdf187e2cbb5eb48935b7b/report)",
+  "reportSummary": "目标 1 人；合格候选 2 人；最终入选 1 人；缺额 0 人；已核验 2 人（2 条记录）。",
+  "newTasks": 0,
+  "newWaveCalls": 0,
+  "noHistoricalRedelivery": true,
+  "resultsUnchanged": true,
+  "passed": true,
+  "finishedAt": "2026-10-10T16:20:47.252Z"
+}

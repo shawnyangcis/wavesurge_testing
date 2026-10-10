@@ -1,0 +1,262 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Code coverage report for server/campaign.ts</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../prettify.css" />
+    <link rel="stylesheet" href="../base.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+    
+<body>
+<div class='wrapper'>
+    <div class='pad1'>
+        <h1><a href="../index.html">All files</a> / <a href="index.html">server</a> campaign.ts</h1>
+        <div class='clearfix'>
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Statements</span>
+                <span class='fraction'>113/113</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Branches</span>
+                <span class='fraction'>74/74</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Functions</span>
+                <span class='fraction'>35/35</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Lines</span>
+                <span class='fraction'>37/37</span>
+            </div>
+        
+            
+        </div>
+        <p class="quiet">
+            Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
+        </p>
+        <template id="filterTemplate">
+            <div class="quiet">
+                Filter:
+                <input type="search" id="fileSearch">
+            </div>
+        </template>
+    </div>
+    <div class='status-line high'></div>
+    <pre><table class="coverage">
+<tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
+<a name='L2'></a><a href='#L2'>2</a>
+<a name='L3'></a><a href='#L3'>3</a>
+<a name='L4'></a><a href='#L4'>4</a>
+<a name='L5'></a><a href='#L5'>5</a>
+<a name='L6'></a><a href='#L6'>6</a>
+<a name='L7'></a><a href='#L7'>7</a>
+<a name='L8'></a><a href='#L8'>8</a>
+<a name='L9'></a><a href='#L9'>9</a>
+<a name='L10'></a><a href='#L10'>10</a>
+<a name='L11'></a><a href='#L11'>11</a>
+<a name='L12'></a><a href='#L12'>12</a>
+<a name='L13'></a><a href='#L13'>13</a>
+<a name='L14'></a><a href='#L14'>14</a>
+<a name='L15'></a><a href='#L15'>15</a>
+<a name='L16'></a><a href='#L16'>16</a>
+<a name='L17'></a><a href='#L17'>17</a>
+<a name='L18'></a><a href='#L18'>18</a>
+<a name='L19'></a><a href='#L19'>19</a>
+<a name='L20'></a><a href='#L20'>20</a>
+<a name='L21'></a><a href='#L21'>21</a>
+<a name='L22'></a><a href='#L22'>22</a>
+<a name='L23'></a><a href='#L23'>23</a>
+<a name='L24'></a><a href='#L24'>24</a>
+<a name='L25'></a><a href='#L25'>25</a>
+<a name='L26'></a><a href='#L26'>26</a>
+<a name='L27'></a><a href='#L27'>27</a>
+<a name='L28'></a><a href='#L28'>28</a>
+<a name='L29'></a><a href='#L29'>29</a>
+<a name='L30'></a><a href='#L30'>30</a>
+<a name='L31'></a><a href='#L31'>31</a>
+<a name='L32'></a><a href='#L32'>32</a>
+<a name='L33'></a><a href='#L33'>33</a>
+<a name='L34'></a><a href='#L34'>34</a>
+<a name='L35'></a><a href='#L35'>35</a>
+<a name='L36'></a><a href='#L36'>36</a>
+<a name='L37'></a><a href='#L37'>37</a>
+<a name='L38'></a><a href='#L38'>38</a>
+<a name='L39'></a><a href='#L39'>39</a>
+<a name='L40'></a><a href='#L40'>40</a>
+<a name='L41'></a><a href='#L41'>41</a>
+<a name='L42'></a><a href='#L42'>42</a>
+<a name='L43'></a><a href='#L43'>43</a>
+<a name='L44'></a><a href='#L44'>44</a>
+<a name='L45'></a><a href='#L45'>45</a>
+<a name='L46'></a><a href='#L46'>46</a>
+<a name='L47'></a><a href='#L47'>47</a>
+<a name='L48'></a><a href='#L48'>48</a>
+<a name='L49'></a><a href='#L49'>49</a>
+<a name='L50'></a><a href='#L50'>50</a>
+<a name='L51'></a><a href='#L51'>51</a>
+<a name='L52'></a><a href='#L52'>52</a>
+<a name='L53'></a><a href='#L53'>53</a>
+<a name='L54'></a><a href='#L54'>54</a>
+<a name='L55'></a><a href='#L55'>55</a>
+<a name='L56'></a><a href='#L56'>56</a>
+<a name='L57'></a><a href='#L57'>57</a>
+<a name='L58'></a><a href='#L58'>58</a>
+<a name='L59'></a><a href='#L59'>59</a>
+<a name='L60'></a><a href='#L60'>60</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">32x</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">13x</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-yes">11x</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">14x</span>
+<span class="cline-any cline-yes">13x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">29x</span>
+<span class="cline-any cline-yes">44x</span>
+<span class="cline-any cline-yes">26x</span>
+<span class="cline-any cline-yes">33x</span>
+<span class="cline-any cline-yes">45x</span>
+<span class="cline-any cline-yes">26x</span>
+<span class="cline-any cline-yes">98x</span>
+<span class="cline-any cline-yes">40x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">45x</span>
+<span class="cline-any cline-yes">26x</span>
+<span class="cline-any cline-yes">42x</span>
+<span class="cline-any cline-yes">27x</span>
+<span class="cline-any cline-yes">26x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">48x</span>
+<span class="cline-any cline-yes">16x</span>
+<span class="cline-any cline-yes">11x</span>
+<span class="cline-any cline-yes">11x</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import Ajv from 'ajv';
+import { createHash } from 'node:crypto';
+import type { Store } from './store.ts';
+import type { ResearchEngine, ResearchTask } from './research.ts';
+import type { Campaign } from '../shared/campaign.ts';
+import type { Result } from '../shared/research.ts';
+import { campaignSchema } from '../shared/campaign.ts';
+import { creatorIdentity } from './canonical.ts';
+import { rankResults } from './selection.ts';
+import { deliverReport } from './delivery.ts';
+const validate = new Ajv().compile&lt;Omit&lt;Campaign, 'id' | 'revision' | 'childTaskIds' | 'createdAt' | 'updatedAt'&gt;&gt;(campaignSchema);
+export class CampaignService {
+  store: Store; engine: ResearchEngine; now: () =&gt; number; lastGeneration = '';
+  constructor(store: Store, engine: ResearchEngine, now: () =&gt; number) { this.store = store; this.engine = engine; this.now = now; }
+  save(input: unknown, callId: string, existingId?: string, revision?: number) {
+    if (!validate(input)) throw new Error('请明确 Campaign 目标、受众、各类型理由、范围与配额');
+    if (new Set(input.groups.map(group =&gt; group.id)).size !== input.groups.length || input.groups.reduce((sum, group) =&gt; sum + group.spec.candidateBudget, 0) &gt; 1000) throw new Error('分组编号重复或总候选预算超出 1000');
+    for (const { spec } of input.groups) if (spec.minFollowers &gt; spec.maxFollowers || spec.candidateBudget &lt; spec.count || new Set(spec.criteria.map(item =&gt; item.id)).size !== spec.criteria.length) throw new Error('分组条件或配额存在冲突');
+    const id = existingId ?? `campaign-${createHash('sha256').update(callId).digest('hex').slice(0, 24)}`; const existing = this.store.get&lt;Campaign&gt;('campaign', id);
+    if (existingId &amp;&amp; !existing) throw new Error('Campaign 不存在');
+    if (existing?.childTaskIds.length) throw new Error('已启动方案保留原版本；如需新范围，请创建新草案，原任务仅在用户要求时取消');
+    if (existingId &amp;&amp; existing!.revision !== revision) throw new Error('方案版本已变化，请读取最新版本');
+    if (!existingId &amp;&amp; existing) return existing;
+    const campaign: Campaign = { ...input, id, revision: (existing?.revision ?? 0) + 1, childTaskIds: [], createdAt: existing?.createdAt ?? this.now(), updatedAt: this.now() }; this.store.set('campaign', id, campaign); return campaign;
+  }
+  start(id: string, revision: number) {
+    const campaign = this.store.get&lt;Campaign&gt;('campaign', id); if (!campaign) throw new Error('Campaign 不存在'); if (campaign.revision !== revision) throw new Error('方案版本已变化，请读取最新版本'); if (campaign.childTaskIds.length) return campaign;
+    this.store.transaction(() =&gt; { campaign.childTaskIds = campaign.groups.map(group =&gt; (() =&gt; { const task = this.engine.start(group.spec, `${id}:${revision}:${group.id}`); task.exhaustive = true; task.parentCampaignId = id; this.engine.save(task); return task.id; })()); campaign.updatedAt = this.now(); this.store.set('campaign', id, campaign); }); void this.engine.wake(); return campaign;
+  }
+  summary(campaign: Campaign) {
+    const tasks = campaign.childTaskIds.map(id =&gt; this.store.get&lt;ResearchTask&gt;('task', id)!);
+    const results = this.store.list&lt;Result&gt;('result').filter(result =&gt; campaign.childTaskIds.includes(result.taskId));
+    const eligible = new Map&lt;string, { result: Result; groups: number[] }&gt;();
+    for (const result of results.filter(item =&gt; item.verdict === 'match')) { const index = campaign.childTaskIds.indexOf(result.taskId); const person = eligible.get(creatorIdentity(result.creator)) ?? { result, groups: [] }; if (!person.groups.includes(index)) person.groups.push(index); eligible.set(creatorIdentity(result.creator), person); }
+    const slots = campaign.groups.flatMap((group, index) =&gt; Array.from({ length: group.spec.count }, () =&gt; index)); const assigned = new Map&lt;string, number&gt;();
+    const fill = (slot: number, seen: Set&lt;string&gt;): boolean =&gt; {
+      for (const result of rankResults(campaign.groups[slots[slot]].spec, results.filter(item =&gt; item.verdict === 'match' &amp;&amp; item.taskId === campaign.childTaskIds[slots[slot]]))) { const id = creatorIdentity(result.creator); const person = eligible.get(id)!; if (!person.groups.includes(slots[slot]) || seen.has(id)) continue; seen.add(id); const previous = assigned.get(id); if (previous === undefined || fill(previous, seen)) { assigned.set(id, slot); return true; } }
+      return false;
+    };
+    slots.forEach((_, slot) =&gt; fill(slot, new Set()));
+    const selections = [...assigned].map(([creatorId, slot]) =&gt; ({ creatorId, groupId: campaign.groups[slots[slot]].id, resultId: results.find(result =&gt; result.verdict === 'match' &amp;&amp; creatorIdentity(result.creator) === creatorId &amp;&amp; result.taskId === campaign.childTaskIds[slots[slot]])!.id }));
+    const groups = campaign.groups.map((group, index) =&gt; ({ ...group, taskId: campaign.childTaskIds[index], matched: selections.filter(item =&gt; item.groupId === group.id).length, eligible: [...eligible.values()].filter(item =&gt; item.groups.includes(index)).length }));
+    const status = !tasks.length ? 'draft' : tasks.some(task =&gt; task.status === 'needs_input') ? 'needs_input' : tasks.some(task =&gt; ['queued', 'running'].includes(task.status)) ? 'running' : selections.length === slots.length ? 'completed' : 'partial';
+    return { ...campaign, status, requested: slots.length, matched: selections.length, qualifyingUnique: eligible.size, evaluated: results.length, groups, selections, reportUrl: `/api/campaigns/${campaign.id}/report`, results };
+  }
+  deliver() {
+    const generation = ['task', 'result', 'campaign'].map(kind =&gt; this.store.version(kind)).join(':');
+    if (generation === this.lastGeneration) return;
+    this.lastGeneration = generation;
+    for (const campaign of this.store.list&lt;Campaign&gt;('campaign')) {
+      const summary = this.summary(campaign);
+      this.store.set('campaign-state', campaign.id, { id: campaign.id, title: campaign.title, status: summary.status, requested: summary.requested, matched: summary.matched, evaluated: summary.evaluated, selections: summary.selections, updatedAt: Math.max(campaign.updatedAt, ...summary.results.map(r =&gt; r.updatedAt)), detail: `去重入选 ${summary.matched}/${summary.requested}；${summary.groups.map(group =&gt; `${group.spec.title} ${group.matched}/${group.spec.count}`).join('；')}` });
+      if (!['completed', 'partial'].includes(summary.status)) continue;
+      if (campaign.deliveryBatchId || this.store.get('campaign-final', campaign.id)) continue;
+      this.store.transaction(() =&gt; { if (!this.store.list&lt;{ subject: string }&gt;('delivery').some(delivery =&gt; delivery.subject === campaign.id)) deliverReport(this.store, campaign.id, { revision: campaign.revision, tasks: campaign.childTaskIds }, `Campaign「${campaign.title}」${summary.status === 'completed' ? '已完成' : '已结束，仍有缺额'}。去重入选 ${summary.matched}/${summary.requested} 人。\n\n${summary.groups.map(group =&gt; `- ${group.spec.title}：${group.matched}/${group.spec.count}`).join('\n')}\n\n[查看 Campaign 总报告](${summary.reportUrl})`, this.now()); this.store.set('campaign-final', campaign.id, { delivered: true }); });
+    }
+  }
+  facts() { return this.store.list&lt;Campaign&gt;('campaign').map(campaign =&gt; { const { results: _results, ...summary } = this.summary(campaign); return { id: summary.id, title: summary.title, goal: summary.goal.slice(0, 500), revision: summary.revision, status: summary.status, requested: summary.requested, matched: summary.matched, childTaskIds: summary.childTaskIds, groups: summary.groups.map(group =&gt; ({ id: group.id, title: group.spec.title, requested: group.spec.count, matched: group.matched })), reportUrl: summary.reportUrl }; }); }
+}
+&nbsp;</pre></td></tr></table></pre>
+
+                <div class='push'></div><!-- for sticky footer -->
+            </div><!-- /wrapper -->
+            <div class='footer quiet pad2 space-top1 center small'>
+                Code coverage generated by
+                <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
+                at 2026-10-10T13:29:51.355Z
+            </div>
+        <script src="../prettify.js"></script>
+        <script>
+            window.onload = function () {
+                prettyPrint();
+            };
+        </script>
+        <script src="../sorter.js"></script>
+        <script src="../block-navigation.js"></script>
+    </body>
+</html>
+    

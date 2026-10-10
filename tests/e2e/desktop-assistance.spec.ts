@@ -1,0 +1,30 @@
+import { expect, test } from '@playwright/test';
+import { execFileSync } from 'node:child_process';
+import { writeFileSync } from 'node:fs';
+test('真实模型与 VNC：验证挑战→人工接管→原候选续接→截图证据', async ({ page }) => {
+  test.setTimeout(300000); const nonce = `browser-${Date.now()}`;
+  const docker = (...args: string[]) => execFileSync('docker', ['compose', ...args], { encoding: 'utf8' });
+  const password = docker('exec', '-T', 'app', 'node', '-e', "process.stdout.write(require('fs').readFileSync('/app/data/admin-bootstrap.txt','utf8'))");
+  await page.goto('/'); await page.getByLabel('管理员密码').fill(password); await page.getByRole('button', { name: /进入工作室/ }).click(); await expect(page.getByLabel('研究对话')).toBeVisible();
+  docker('exec', '-T', 'app', 'mkdir', '-p', '/app/data/fixtures'); docker('cp', 'tests/fixtures/seed-browser-task.ts', 'app:/app/data/fixtures/seed-browser-task.ts');
+  const taskId = process.env.BROWSER_TASK_ID ?? docker('exec', '-T', 'app', 'node', 'data/fixtures/seed-browser-task.ts', nonce, process.env.BROWSER_PROFILE_URL ?? `http://127.0.0.1:8085/?case=${nonce}`);
+  const state = async () => (await (await page.request.get('/api/state')).json()).tasks.find((t: any) => t.id === taskId);
+  await expect.poll(async () => (await state())?.status, { timeout: 180000, intervals: [2000] }).toBe('needs_input');
+  const card = page.locator('.task').filter({ hasText: (await state()).title }); await card.getByRole('button', { name: '打开桌面协助' }).click(); await expect(page.getByText(/^原候选：/)).toBeVisible(); if (await page.getByRole('button', { name: '接管并协助' }).isVisible()) await page.getByRole('button', { name: '接管并协助' }).click(); else await page.getByRole('button', { name: '重新连接桌面' }).click();
+  await expect(page.getByText('你已认领协助。Agent 已暂停桌面输入，连接成功后可操作浏览器。')).toBeVisible(); await expect(page.locator('iframe[title="持久浏览器桌面"]')).toHaveAttribute('src', /\/control\//);
+  const frame = page.frameLocator('iframe[title="持久浏览器桌面"]'); const canvas = frame.locator('#noVNC_container canvas'); await expect(canvas).toBeVisible({ timeout: 30000 });
+  await expect(frame.locator('#noVNC_status')).toContainText(/Connected|connected|已连接/, { timeout: 30000 });
+  await expect.poll(() => canvas.evaluate(c => (c as HTMLCanvasElement).width), { timeout: 10000 }).toBe(1440);
+  await expect.poll(() => canvas.evaluate(c => { const pixels = (c as HTMLCanvasElement).getContext('2d')!.getImageData(0, 0, 1440, 900).data; let white = 0; for (let i = 0; i < pixels.length; i += 4) if (pixels[i] > 240 && pixels[i + 1] > 240 && pixels[i + 2] > 240) white++; return white; }), { timeout: 10000 }).toBeGreaterThan(100000);
+  await page.screenshot({ path: 'validation/2026-10-10/stage-4-human-before.png', fullPage: true });
+  const rect = await canvas.boundingBox(); expect(rect).toBeTruthy();
+  // The challenge button is visible in the controlled fixture at desktop coordinates (280, 395).
+  await canvas.click({ position: { x: rect!.width * 280 / 1440, y: rect!.height * 395 / 900 } });
+  await expect.poll(() => docker('exec', '-T', 'desktop', 'xdotool', 'getactivewindow', 'getwindowname'), { timeout: 10000 }).toContain('Test Creator');
+  await page.screenshot({ path: 'validation/2026-10-10/stage-4-human-after.png', fullPage: true });
+  await page.getByLabel('协助结果').fill('已点击人工验证，并停留在公开科技帖子页面。'); await page.getByRole('button', { name: '完成协助，交还 Agent' }).click();
+  await expect.poll(async () => (await state()).status, { timeout: 120000, intervals: [2000] }).toBe('completed');
+  const results = await (await page.request.get(`/api/results?taskId=${taskId}`)).json(); expect(results).toHaveLength(1); expect(results[0].verdict).toBe('match'); expect(results[0].judgments.find((j: any) => j.criterionId === 'technology').evidenceIds).not.toHaveLength(0);
+  const evidence = results[0].creator.evidence.filter((e: any) => e.assetId); expect(evidence.length).toBeGreaterThan(0); const screenshot = await page.request.get(`/api/assets/${evidence.at(-1).assetId}`); expect(screenshot.status()).toBe(200); writeFileSync('validation/2026-10-10/stage-4-verified-post.png', await screenshot.body());
+  const debug = await (await page.request.get('/api/debug')).json(); writeFileSync('validation/2026-10-10/stage-4-assistance-e2e.json', JSON.stringify({ source: 'controlled candidate fixture + real configured LLM + headed Chromium + actual noVNC input + persistent worker', task: await state(), results, calls: debug.calls.filter((c: any) => c.kind === 'browser-verification') }, null, 2));
+});

@@ -1,0 +1,17 @@
+{
+  "phase": "20-candidate terminal; only one-candidate Val task waiting",
+  "samples": [
+    {
+      "http": 200,
+      "seconds": 0.537
+    },
+    {
+      "http": 200,
+      "seconds": 0.004
+    },
+    {
+      "http": 200,
+      "seconds": 0.004
+    }
+  ]
+}

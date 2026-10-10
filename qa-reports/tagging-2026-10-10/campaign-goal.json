@@ -1,0 +1,177 @@
+{
+  "caseName": "campaign-goal",
+  "base": "http://127.0.0.1:3400",
+  "startedAt": "2026-10-10T02:38:37.188Z",
+  "source": "Actual application UI; configured real model and WaveSurge API; no seeded candidates or modified prompts",
+  "input": "我们要在美国推一款 AI 笔记工具，主要给大学生用，希望有人看完就愿意试。预算不大，先找几个人试试。你觉得该找哪两类博主？帮我把范围定下来。",
+  "before": {
+    "tasks": [
+      {
+        "id": "research-ea8649d3fc1258c3d1017445",
+        "title": "美国 TikTok 戴眼镜男性创作者筛选",
+        "status": "running",
+        "requested": 2,
+        "evaluated": 0,
+        "matched": 0,
+        "updatedAt": 1791599871526,
+        "detail": "搜索已提交，等待 WaveSurge 返回候选",
+        "remoteId": "bf3be041-bdd9-4319-9b07-1ed40b8d7d6e",
+        "nextPollAt": 1791599931526
+      }
+    ],
+    "results": []
+  },
+  "finishedAt": "2026-10-10T02:39:46.114Z",
+  "active": false,
+  "messages": [
+    {
+      "id": "250446c7-3255-42ee-8dc6-3b945f641ebe",
+      "role": "user",
+      "text": "我们要在美国推一款 AI 笔记工具，主要给大学生用，希望有人看完就愿意试。预算不大，先找几个人试试。你觉得该找哪两类博主？帮我把范围定下来。",
+      "state": "delivered",
+      "createdAt": 1791599917683,
+      "attachmentCount": 0
+    },
+    {
+      "id": "ee6852c1-6b85-4521-8a46-54951a251aad",
+      "role": "assistant",
+      "text": "建议先找这两类，重点是让美国大学生看到**真实使用场景后愿意试用**，而不是只做产品曝光。\n\n| 类型 | 为什么适合 | 优先找的内容 |\n|---|---|---|\n| **大学学习／校园生活类** | 受众更贴近大学生，能把工具放进课堂、复习等具体场景里 | 学习方法、备考、课堂笔记、大学日常；能演示“原来怎么做，用工具后怎么做” |\n| **AI 工具／效率工具实测类** | 观众本身愿意尝试新工具，适合讲清价值、使用步骤和局限 | AI 应用、学习效率、软件教程；有实际操作，不只是罗列工具 |\n\n### 建议的试点范围——待你确认\n- **地区与语言**：创作者在美国，主要用英语发布内容。\n- **平台**：先做 **TikTok**，便于用短演示测试试用意愿。\n- **粉丝**：**1万–10万**。适合小规模测试，但粉丝少不代表报价一定低。\n- **人数**：每类 **2 人，共 4 个不重复账号**。\n- **候选核验上限**：每类 20 人，共 40 人；不合格不凑数。\n- **必选条件**：内容确实覆盖大学学习或 AI／效率工具；有面向大学生的内容证据；有实际演示或教程内容。\n- **优先项**：评论里有人询问使用方法、讨论学习需求；能清楚说明体验，而非夸大效果。无法核实的标“待确认”。\n- **不沿用上一轮的男性、戴眼镜限制**：这些与本次试用目标没有直接关系，建议不限性别和外观。\n\n先补充两点就能把方案定实：\n1. **工具最核心的功能是什么？** 例如课堂录音转笔记、资料总结、自动生成复习题；学生能否免费试用？\n2. **上面的 TikTok、1万–10万粉丝、每类2人的范围是否同意？** 若已有合作预算上限，也可以一起告诉我。\n\n之前找“戴眼镜男性创作者”的任务仍在运行，不会因这次讨论自动取消。本次先定方案，尚不启动新搜索或联系博主。",
+      "state": "delivered",
+      "createdAt": 1791599985928,
+      "attachmentCount": 0
+    }
+  ],
+  "tasks": [
+    {
+      "id": "research-ea8649d3fc1258c3d1017445",
+      "title": "美国 TikTok 戴眼镜男性创作者筛选",
+      "status": "running",
+      "requested": 2,
+      "evaluated": 0,
+      "matched": 0,
+      "updatedAt": 1791599948343,
+      "detail": "WaveSurge 搜索等待执行；本地已合格 0 人",
+      "remoteId": "bf3be041-bdd9-4319-9b07-1ed40b8d7d6e",
+      "remoteStatus": "queued",
+      "nextPollAt": 1791600008343
+    }
+  ],
+  "results": [],
+  "modelCalls": [
+    {
+      "id": "aa0674ed-825d-4ef1-b60e-24138fa313da",
+      "kind": "chat",
+      "createdAt": 1791599917691,
+      "finishedAt": 1791599938335,
+      "model": "gpt-6.1-sol",
+      "toolNames": [
+        "get_tasks",
+        "search_history",
+        "start_research",
+        "cancel_research",
+        "get_results",
+        "save_campaign_plan",
+        "get_campaigns",
+        "start_campaign"
+      ],
+      "response": {
+        "role": "assistant",
+        "content": null,
+        "reasoning_content": null,
+        "tool_calls": [
+          {
+            "id": "call_iydGMj6Dyhfqz0XXBF6WODQE",
+            "type": "function",
+            "function": {
+              "name": "get_tasks",
+              "arguments": "{}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "98b54178-2d43-47af-87be-1f63520310d3",
+      "kind": "chat",
+      "createdAt": 1791599938346,
+      "finishedAt": 1791599958629,
+      "model": "gpt-6.1-sol",
+      "toolNames": [
+        "get_tasks",
+        "search_history",
+        "start_research",
+        "cancel_research",
+        "get_results",
+        "save_campaign_plan",
+        "get_campaigns",
+        "start_campaign"
+      ],
+      "response": {
+        "role": "assistant",
+        "content": "建议先找 **两类能把工具放进真实学习场景的博主**，比泛科技号更贴近“看完愿意试”的目标。\n\n### 建议的两类与初步范围\n以下是建议，尚未确认或启动搜索。\n\n| 类型 | 为什么适合 | 建议筛选重点 | 试点人数 / 候选上限 |\n|---|---|---|---|\n| **大学学习方法／学习效率型** | 用课堂笔记、复习整理等具体问题展示工具，让观众明确“我可以怎么用” | 经常分享大学学习方法、笔记流程或考试复习；偏好实际操作演示，而非纯励志内容 | 2 人 / 20 人 |\n| **大学校园生活／学生日常型** | 把产品融入上课、自习、小组作业等日常场景，降低尝试门槛 | 明确分享美国大学生活；偏好有讲解的日常内容，而非只有画面剪辑 | 2 人 / 20 人 |\n\n**共同范围建议：**\n- **平台：**先只做 TikTok，集中测试。\n- **所在地：**创作者在美国；内容明确面向大学生，不能仅凭所在地推断受众。\n- **粉丝：**1万–10万，作为小规模试点的起点；粉丝少不代表报价一定低。\n- **配额：**总计 4 位，不重复计数；最多筛查 40 个候选，不足不凑数。\n- **偏好：**能清楚演示工具、表达自然；有明确产品尝试引导的内容经验更好。\n- **性别、眼镜：**这个项目建议不限，不自动沿用上一项筛选条件。\n\n定稿前只需要你确认两点：\n1. **工具最核心的功能是什么？**例如课堂录音转笔记、总结课件、整理复习资料；用户能否免费试用？\n2. **上面“TikTok、美国、1万–10万粉、每类2人”的范围可以吗？**如果已有付费合作预算上限，也请一起告诉我，后续不能仅凭粉丝量判断是否付得起。\n\n你确认后，我会保存正式分组草案供你审批，再启动搜索。此前的“戴眼镜男性创作者”任务仍在运行，不会被这个新项目替换。",
+        "reasoning_content": null,
+        "tool_calls": null
+      }
+    },
+    {
+      "id": "91264ac6-beaf-4679-adc9-bb9481331412",
+      "kind": "chat",
+      "createdAt": 1791599958635,
+      "finishedAt": 1791599985922,
+      "model": "gpt-6.1-sol",
+      "toolNames": [
+        "get_tasks",
+        "search_history",
+        "start_research",
+        "cancel_research",
+        "get_results",
+        "save_campaign_plan",
+        "get_campaigns",
+        "start_campaign"
+      ],
+      "response": {
+        "role": "assistant",
+        "content": "建议先找这两类，重点是让美国大学生看到**真实使用场景后愿意试用**，而不是只做产品曝光。\n\n| 类型 | 为什么适合 | 优先找的内容 |\n|---|---|---|\n| **大学学习／校园生活类** | 受众更贴近大学生，能把工具放进课堂、复习等具体场景里 | 学习方法、备考、课堂笔记、大学日常；能演示“原来怎么做，用工具后怎么做” |\n| **AI 工具／效率工具实测类** | 观众本身愿意尝试新工具，适合讲清价值、使用步骤和局限 | AI 应用、学习效率、软件教程；有实际操作，不只是罗列工具 |\n\n### 建议的试点范围——待你确认\n- **地区与语言**：创作者在美国，主要用英语发布内容。\n- **平台**：先做 **TikTok**，便于用短演示测试试用意愿。\n- **粉丝**：**1万–10万**。适合小规模测试，但粉丝少不代表报价一定低。\n- **人数**：每类 **2 人，共 4 个不重复账号**。\n- **候选核验上限**：每类 20 人，共 40 人；不合格不凑数。\n- **必选条件**：内容确实覆盖大学学习或 AI／效率工具；有面向大学生的内容证据；有实际演示或教程内容。\n- **优先项**：评论里有人询问使用方法、讨论学习需求；能清楚说明体验，而非夸大效果。无法核实的标“待确认”。\n- **不沿用上一轮的男性、戴眼镜限制**：这些与本次试用目标没有直接关系，建议不限性别和外观。\n\n先补充两点就能把方案定实：\n1. **工具最核心的功能是什么？** 例如课堂录音转笔记、资料总结、自动生成复习题；学生能否免费试用？\n2. **上面的 TikTok、1万–10万粉丝、每类2人的范围是否同意？** 若已有合作预算上限，也可以一起告诉我。\n\n之前找“戴眼镜男性创作者”的任务仍在运行，不会因这次讨论自动取消。本次先定方案，尚不启动新搜索或联系博主。",
+        "reasoning_content": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "toolReceipts": [
+    {
+      "call": {
+        "id": "call_iydGMj6Dyhfqz0XXBF6WODQE",
+        "type": "function",
+        "function": {
+          "name": "get_tasks",
+          "arguments": "{}"
+        }
+      },
+      "message": {
+        "role": "tool",
+        "tool_call_id": "call_iydGMj6Dyhfqz0XXBF6WODQE",
+        "content": "[{\"id\":\"research-ea8649d3fc1258c3d1017445\",\"title\":\"美国 TikTok 戴眼镜男性创作者筛选\",\"status\":\"running\",\"requested\":2,\"evaluated\":0,\"matched\":0,\"updatedAt\":1791599871526,\"detail\":\"搜索已提交，等待 WaveSurge 返回候选\",\"remoteId\":\"bf3be041-bdd9-4319-9b07-1ed40b8d7d6e\",\"nextPollAt\":1791599931526}]"
+      }
+    }
+  ],
+  "waveCalls": [
+    {
+      "id": "d9cec203-7708-4926-8302-e1f607dbf5ae",
+      "kind": "wavesurge",
+      "createdAt": 1791599948107,
+      "path": "/creator-search/requests/bf3be041-bdd9-4319-9b07-1ed40b8d7d6e",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "queued",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791599948339
+    }
+  ],
+  "chatReportLinks": []
+}

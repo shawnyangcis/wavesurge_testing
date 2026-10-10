@@ -1,0 +1,175 @@
+{
+  "source": "Genuine partial creators from original live 20-person WaveSurge request; original task NOT complete",
+  "observedAt": 1791601119209,
+  "originalTaskId": "research-a183b9437d676713c0f2812f",
+  "remoteId": "bd260f50-b76f-440c-9e47-a022a6697ac6",
+  "remoteStatus": "running",
+  "qualificationProgress": {
+    "passed": 1,
+    "pending": 0,
+    "excluded": 1,
+    "gaps": {},
+    "asOf": "2026-10-10T02:58:23.927Z"
+  },
+  "expectedDurationHours": 5,
+  "originalSpec": {
+    "title": "Geek风戴眼镜的Instagram普通消费者创作者",
+    "personaText": "ordinary consumer creators with a geek aesthetic and glasses who publicly self-identify as white",
+    "count": 20,
+    "platforms": [
+      "instagram"
+    ],
+    "regions": [
+      "United States",
+      "Canada",
+      "United Kingdom",
+      "Germany",
+      "France"
+    ],
+    "minFollowers": 10000,
+    "maxFollowers": 100000,
+    "candidateBudget": 40,
+    "criteria": [
+      {
+        "id": "geek_visual",
+        "label": "近期公开内容呈现科技宅、书卷或极客穿搭风格；依据内容视觉证据，不仅依据头像",
+        "required": true,
+        "basis": "visual"
+      },
+      {
+        "id": "glasses_visual",
+        "label": "公开内容中佩戴眼镜，以内容视觉证据核验，不仅依据头像",
+        "required": true,
+        "basis": "visual"
+      },
+      {
+        "id": "white_self_identification",
+        "label": "创作者本人明确公开自述为白人；不得根据外貌、姓名或所在地推断；没有明确自述证据则为unknown，不计为合格",
+        "required": true,
+        "basis": "text"
+      },
+      {
+        "id": "ordinary_consumer_koc",
+        "label": "KOC为普通消费者创作者，排除机构账号和明星；须以公开资料核验，不能仅凭粉丝数量认定KOC身份",
+        "required": true,
+        "basis": "text"
+      }
+    ]
+  },
+  "rawCreators": [
+    {
+      "handle": "franhaddock_",
+      "region": "GB",
+      "missing": [
+        "audience_profile_not_measured",
+        "contacts_not_collected"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.instagram.com/p/Dd6iln9NJ9f/",
+          "kind": "content",
+          "text": "Video description: a white woman with glasses and her hair in 2 plaits talks to the screen from her bed.",
+          "check": "post_and_creator_in_payload",
+          "provider": "tikhub",
+          "verified": true,
+          "evidenceId": "ev_4fd1b2b8",
+          "publishedAt": "2026-09-30T14:24:37Z"
+        },
+        {
+          "url": "https://www.instagram.com/franhaddock_/",
+          "kind": "content",
+          "text": "Fran Haddock 🌳 she/her; 14,872 followers; is_business false; biography includes Sheffield, current reading, advocacy from bed, and category Blogger.",
+          "check": "profile_and_creator_in_payload",
+          "provider": "tikhub",
+          "verified": true,
+          "evidenceId": "ev_4308c807",
+          "publishedAt": null
+        },
+        {
+          "url": "https://www.instagram.com/franhaddock_/",
+          "kind": "content",
+          "text": "Instagram About This Account reports Account based in United Kingdom.",
+          "check": "creator_not_in_payload",
+          "provider": "tikhub",
+          "verified": false,
+          "evidenceId": "ev_76d3ca98",
+          "publishedAt": null
+        },
+        {
+          "url": "https://www.instagram.com/p/Ddo72ZptXRA/",
+          "kind": "content",
+          "text": "Halloween raffle: Dr Bradbury’s Compendium of Curiosities Halloween calendar, crochet pumpkin wreath, S’mores Jellycat, stickers, cards, meds diary, spoonie hat, prints and coloring pages.",
+          "check": "post_and_creator_in_payload",
+          "provider": "tikhub",
+          "verified": true,
+          "evidenceId": "ev_fea290f9",
+          "publishedAt": null
+        },
+        {
+          "url": "https://linktr.ee/franhaddock_",
+          "kind": "content",
+          "text": "Linktree contains fundraisers, articles, products and BBC link; no TikTok, YouTube or other social-platform account link.",
+          "check": "no_evidence_id",
+          "provider": "tikhub",
+          "verified": false,
+          "evidenceId": null,
+          "publishedAt": null
+        }
+      ],
+      "platform": "instagram",
+      "avatarUrl": null,
+      "fitReason": "Individual UK blogger advocating from bed with severe M.E. and Long Covid. Her own caption identifies a white woman with glasses in the relevant video, and her account has a whimsical, bookish/geeky creator aesthetic (Halloween prize draw, coloring pages, stickers, reading-related bio and Jellycat/compendium prizes) consistent with an ordinary consumer creator rather than a business.",
+      "providers": [
+        "tikhub"
+      ],
+      "profileUrl": "https://www.instagram.com/franhaddock_/",
+      "displayName": "Fran Haddock 🌳 she/her",
+      "overallTier": "A",
+      "factorGrades": {
+        "role": "strong",
+        "activity": "observed",
+        "identity": "individual",
+        "location": "confirmed_country",
+        "followers": "in_range",
+        "relevance": "strong"
+      },
+      "regionSource": "codex",
+      "followerCount": 14872,
+      "hardConditions": [
+        {
+          "basis": "Profile follower_count is exactly 14,872 in ev_4308c807.",
+          "status": "met",
+          "condition": "Instagram followers between 10,000 and 100,000"
+        },
+        {
+          "basis": "Instagram About This Account reports United Kingdom in ev_76d3ca98; biography explicitly lists Sheffield.",
+          "status": "met",
+          "condition": "Creator based in United States, Canada, United Kingdom, Germany, or France"
+        },
+        {
+          "basis": "Profile reports is_business false and represents one named individual, Fran Haddock.",
+          "status": "met",
+          "condition": "Individual creators only"
+        },
+        {
+          "basis": "Profile has only a Linktree and direct Linktree inspection found no TikTok, YouTube or other social-platform account link.",
+          "status": "met",
+          "condition": "No person on two platforms"
+        },
+        {
+          "basis": "The creator’s own video description says 'a white woman with glasses'; posts show fandom-adjacent Halloween prizes including a compendium of curiosities, stickers, coloring pages and a Jellycat prize; bio includes current reading and whimsical interests.",
+          "status": "met",
+          "condition": "Geek aesthetic and glasses"
+        },
+        {
+          "basis": "The creator-owned accessibility description for the cited reel identifies the speaker as 'a white woman with glasses'.",
+          "status": "met",
+          "condition": "Publicly self-identify as white"
+        }
+      ],
+      "providerUserId": "5824909564",
+      "searchMatchTier": "precise",
+      "profileCompleteness": "full"
+    }
+  ]
+}

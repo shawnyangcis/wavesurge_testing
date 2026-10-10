@@ -1,0 +1,7 @@
+{
+  "at": "2026-10-10T17:38:49.692Z",
+  "source": "actual application UI + configured real model through explicit isolated HTTP failure injection; controlled candidates",
+  "cases": [],
+  "error": "Error: expect(received).toHaveLength(expected)\n\nExpected length: 2\nReceived length: 1\nReceived array:  [{\"at\": \"2026-10-10T17:38:51.295Z\", \"imageCount\": 0, \"injected\": true, \"kind\": \"chat\", \"messageCount\": 33, \"payloadHash\": \"c6c39e194232d2dda043aae4f24883dc66ff4c5cb8a83ebd442648da3c000bea\", \"status\": 408, \"toolNames\": [\"get_tasks\", \"search_history\", \"start_research\", \"start_research_batch\", \"cancel_research\", \"enrich_results\", \"get_results\", \"save_campaign_plan\", \"get_campaigns\", \"start_campaign\"]}]",
+  "originalEndpointRestored": true
+}

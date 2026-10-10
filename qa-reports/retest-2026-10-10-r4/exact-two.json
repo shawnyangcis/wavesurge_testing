@@ -1,0 +1,132 @@
+{
+  "caseName": "exact-two",
+  "base": "http://127.0.0.1:3592",
+  "startedAt": "2026-10-10T13:31:55.052Z",
+  "source": "Actual application UI; configured real model and WaveSurge API; no seeded candidates or modified prompts",
+  "input": "帮我看看 ins 上的 tylerlcrawford 和 valstechtalkk，两个都看完，最后选1个个人数码博主就行。粉丝要1万到10万，国家先不限。每个人的内容方向、呈现风格、戴不戴眼镜和 geek 风格都标清楚，看不准就留待核实。别换成相似账号，等都处理完再给我结果文档。",
+  "before": {
+    "tasks": [],
+    "results": []
+  },
+  "finishedAt": "2026-10-10T13:32:16.222Z",
+  "active": false,
+  "messages": [
+    {
+      "id": "60770594-be94-4f4a-a79d-0de38d3fd1b6",
+      "role": "user",
+      "text": "帮我看看 ins 上的 tylerlcrawford 和 valstechtalkk，两个都看完，最后选1个个人数码博主就行。粉丝要1万到10万，国家先不限。每个人的内容方向、呈现风格、戴不戴眼镜和 geek 风格都标清楚，看不准就留待核实。别换成相似账号，等都处理完再给我结果文档。",
+      "state": "delivered",
+      "createdAt": 1791639115967,
+      "attachmentCount": 0
+    },
+    {
+      "id": "c0921e61-dde4-4961-8034-57c1f06b6983",
+      "role": "assistant",
+      "text": "已登记，只核查 **@tylerlcrawford** 和 **@valstechtalkk**，不会替换为相似账号。\n\n- **两人都分析完**，再从符合条件者中选 1 位。\n- 必选条件：个人数码博主、粉丝 **1万–10万**；国家不限。\n- 逐人标注：内容方向、呈现风格、戴不戴眼镜、geek 风格。证据不足或看不准的标为**待核实**，不会把科技内容直接当作 geek 风格。\n\n等两人全部处理完后，再统一给你结果文档；若没有合格者，也会如实说明。",
+      "state": "delivered",
+      "createdAt": 1791639136214,
+      "attachmentCount": 0
+    }
+  ],
+  "tasks": [
+    {
+      "id": "research-294320f8d1c060255d3310e8",
+      "title": "Instagram 指定两账号个人数码博主筛选",
+      "status": "running",
+      "requested": 1,
+      "evaluated": 0,
+      "matched": 0,
+      "updatedAt": 1791639128791,
+      "detail": "正在读取 WaveSurge 原始资料；本地筛选尚未完成",
+      "nextPollAt": 0
+    }
+  ],
+  "results": [],
+  "modelCalls": [
+    {
+      "id": "bbdb9bd2-3268-4ae8-85f4-dbfba5dd402e",
+      "kind": "chat",
+      "createdAt": 1791639115985,
+      "finishedAt": 1791639128736,
+      "model": "gpt-6.1-sol",
+      "toolNames": [
+        "get_tasks",
+        "search_history",
+        "start_research",
+        "start_research_batch",
+        "cancel_research",
+        "enrich_results",
+        "get_results",
+        "save_campaign_plan",
+        "get_campaigns",
+        "start_campaign"
+      ],
+      "response": {
+        "role": "assistant",
+        "content": null,
+        "reasoning_content": null,
+        "tool_calls": [
+          {
+            "id": "call_ouPgzMkPegpcaVn25U6WQuvg",
+            "type": "function",
+            "function": {
+              "name": "start_research",
+              "arguments": "{\"title\":\"Instagram 指定两账号个人数码博主筛选\",\"personaText\":\"个人数码博主，分享数码产品及使用体验\",\"count\":1,\"platforms\":[\"instagram\"],\"regions\":[],\"minFollowers\":10000,\"maxFollowers\":100000,\"candidateBudget\":2,\"analyzeAll\":true,\"verificationMode\":\"auto\",\"instagram\":{\"handles\":[\"tylerlcrawford\",\"valstechtalkk\"],\"version\":\"v3\"},\"criteria\":[{\"id\":\"personal_creator\",\"label\":\"个人创作者，非品牌、公司或店铺官方账号\",\"required\":true,\"basis\":\"text\"},{\"id\":\"digital_content\",\"label\":\"数码博主，实际内容以数码产品或数码使用体验分享为方向\",\"required\":true,\"basis\":\"either\"}],\"annotations\":[{\"id\":\"content_direction\",\"label\":\"内容方向\"},{\"id\":\"presentation_style\",\"label\":\"呈现风格\"},{\"id\":\"glasses\",\"label\":\"戴不戴眼镜\",\"values\":[\"戴眼镜\",\"不戴眼镜\",\"有时戴眼镜\"]},{\"id\":\"geek_style\",\"label\":\"geek 风格\"}]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "fc3dbf76-78ff-4357-8208-00268213487a",
+      "kind": "chat",
+      "createdAt": 1791639128844,
+      "finishedAt": 1791639136196,
+      "model": "gpt-6.1-sol",
+      "toolNames": [
+        "get_tasks",
+        "search_history",
+        "start_research",
+        "start_research_batch",
+        "cancel_research",
+        "enrich_results",
+        "get_results",
+        "save_campaign_plan",
+        "get_campaigns",
+        "start_campaign"
+      ],
+      "response": {
+        "role": "assistant",
+        "content": "已登记，只核查 **@tylerlcrawford** 和 **@valstechtalkk**，不会替换为相似账号。\n\n- **两人都分析完**，再从符合条件者中选 1 位。\n- 必选条件：个人数码博主、粉丝 **1万–10万**；国家不限。\n- 逐人标注：内容方向、呈现风格、戴不戴眼镜、geek 风格。证据不足或看不准的标为**待核实**，不会把科技内容直接当作 geek 风格。\n\n等两人全部处理完后，再统一给你结果文档；若没有合格者，也会如实说明。",
+        "reasoning_content": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "toolReceipts": [
+    {
+      "call": {
+        "id": "call_ouPgzMkPegpcaVn25U6WQuvg",
+        "type": "function",
+        "function": {
+          "name": "start_research",
+          "arguments": "{\"title\":\"Instagram 指定两账号个人数码博主筛选\",\"personaText\":\"个人数码博主，分享数码产品及使用体验\",\"count\":1,\"platforms\":[\"instagram\"],\"regions\":[],\"minFollowers\":10000,\"maxFollowers\":100000,\"candidateBudget\":2,\"analyzeAll\":true,\"verificationMode\":\"auto\",\"instagram\":{\"handles\":[\"tylerlcrawford\",\"valstechtalkk\"],\"version\":\"v3\"},\"criteria\":[{\"id\":\"personal_creator\",\"label\":\"个人创作者，非品牌、公司或店铺官方账号\",\"required\":true,\"basis\":\"text\"},{\"id\":\"digital_content\",\"label\":\"数码博主，实际内容以数码产品或数码使用体验分享为方向\",\"required\":true,\"basis\":\"either\"}],\"annotations\":[{\"id\":\"content_direction\",\"label\":\"内容方向\"},{\"id\":\"presentation_style\",\"label\":\"呈现风格\"},{\"id\":\"glasses\",\"label\":\"戴不戴眼镜\",\"values\":[\"戴眼镜\",\"不戴眼镜\",\"有时戴眼镜\"]},{\"id\":\"geek_style\",\"label\":\"geek 风格\"}]}"
+        }
+      },
+      "message": {
+        "role": "tool",
+        "tool_call_id": "call_ouPgzMkPegpcaVn25U6WQuvg",
+        "content": "{\"id\":\"research-294320f8d1c060255d3310e8\",\"title\":\"Instagram 指定两账号个人数码博主筛选\",\"spec\":{\"title\":\"Instagram 指定两账号个人数码博主筛选\",\"personaText\":\"个人数码博主，分享数码产品及使用体验\",\"count\":1,\"platforms\":[\"instagram\"],\"regions\":[],\"minFollowers\":10000,\"maxFollowers\":100000,\"candidateBudget\":2,\"analyzeAll\":true,\"verificationMode\":\"auto\",\"instagram\":{\"handles\":[\"tylerlcrawford\",\"valstechtalkk\"],\"version\":\"v3\"},\"criteria\":[{\"id\":\"personal_creator\",\"label\":\"个人创作者，非品牌、公司或店铺官方账号\",\"required\":true,\"basis\":\"text\"},{\"id\":\"digital_content\",\"label\":\"数码博主，实际内容以数码产品或数码使用体验分享为方向\",\"required\":true,\"basis\":\"either\"}],\"annotations\":[{\"id\":\"content_direction\",\"label\":\"内容方向\"},{\"id\":\"presentation_style\",\"label\":\"呈现风格\"},{\"id\":\"glasses\",\"label\":\"戴不戴眼镜\",\"values\":[\"戴眼镜\",\"不戴眼镜\",\"有时戴眼镜\"]},{\"id\":\"geek_style\",\"label\":\"geek 风格\"}]},\"status\":\"running\",\"requested\":1,\"evaluated\":0,\"matched\":0,\"updatedAt\":1791639128791,\"detail\":\"正在读取 WaveSurge 原始资料；本地筛选尚未完成\",\"nextPollAt\":0,\"failures\":[],\"deliveryBatchId\":\"60770594-be94-4f4a-a79d-0de38d3fd1b6\"}"
+      }
+    }
+  ],
+  "waveCalls": [
+    {
+      "id": "3c657d22-b85b-4aa3-ba76-9080a19675d1",
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=tylerlcrawford",
+      "method": "GET",
+      "createdAt": 1791639128801
+    }
+  ],
+  "chatReportLinks": []
+}

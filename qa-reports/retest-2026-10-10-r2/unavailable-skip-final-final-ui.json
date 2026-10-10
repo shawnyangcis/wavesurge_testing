@@ -1,0 +1,69 @@
+{
+  "at": "2026-10-10T07:27:43.306Z",
+  "assists": [
+    {
+      "id": "2912333b-58c1-4093-9542-b8ab828b5966",
+      "creatorId": "instagram:ily.g33kette",
+      "reason": "访问候选 @ily.g33kette 的本人主页被重定向至 Instagram 登录页，无法查看本人帖子或视觉内容。请通过同一 noVNC 桌面协助登录；现有资料还标记该账号为私密账号，登录后也可能无法访问帖子。暂停浏览核验，不会自动输入凭据或申请关注。",
+      "before": "BROWSER / ASSISTANCE\n浏览器桌面\n关闭\n\n默认只读。需要协助时，可在同一个浏览器完成登录或验证；不要将密码发到对话中。交还前请打开可核验的公开页面。\n\n原候选：instagram:ily.g33kette\n\n访问候选 @ily.g33kette 的本人主页被重定向至 Instagram 登录页，无法查看本人帖子或视觉内容。请通过同一 noVNC 桌面协助登录；现有资料还标记该账号为私密账号，登录后也可能无法访问帖子。暂停浏览核验，不会自动输入凭据或申请关注。\n\n工作编号：research-90121727019a7e5d682f5a65接管并协助\n重新连接桌面",
+      "outcome": "Skipped unavailable restricted content through UI without desktop interaction",
+      "finishedAt": "2026-10-10T07:28:54.419Z"
+    }
+  ],
+  "source": "Actual application UI. Operator outcomes only skip inaccessible restricted profiles; no login, follows or desktop input.",
+  "latestTask": {
+    "id": "research-90121727019a7e5d682f5a65",
+    "title": "Instagram 欧美个人 KOC 眼镜与 geek 风筛选",
+    "status": "partial",
+    "requested": 20,
+    "evaluated": 20,
+    "matched": 0,
+    "qualifying": 0,
+    "updatedAt": 1791617358093,
+    "detail": "已选合格 0/20，已核验 20；证据不足者保持待核实。",
+    "remoteStatus": "done",
+    "nextPollAt": 0
+  },
+  "latestTasks": [
+    {
+      "id": "research-90121727019a7e5d682f5a65",
+      "title": "Instagram 欧美个人 KOC 眼镜与 geek 风筛选",
+      "status": "partial",
+      "requested": 20,
+      "evaluated": 20,
+      "matched": 0,
+      "qualifying": 0,
+      "updatedAt": 1791617358093,
+      "detail": "已选合格 0/20，已核验 20；证据不足者保持待核实。",
+      "remoteStatus": "done",
+      "nextPollAt": 0
+    },
+    {
+      "id": "research-bab604288a59acc55f2788a1",
+      "title": "Instagram valstechtalkk 单账号纠正核验",
+      "status": "needs_input",
+      "requested": 1,
+      "evaluated": 0,
+      "matched": 0,
+      "updatedAt": 1791617391144,
+      "detail": "需要人工协助：valstechtalkk 原帖出现 Instagram 注册/登录弹窗，遮挡视频人物与穿搭，无法可靠核验戴眼镜及 geek 气质。请通过同一桌面协助解除遮挡或访问限制；我不会输入登录凭据。已有用户名、简介和数码帖子文字证据可保留。；请打开桌面协助，完成后继续原候选",
+      "remoteStatus": "done",
+      "nextPollAt": 1791614317898
+    }
+  ],
+  "requiresObservedPublicInteraction": {
+    "creatorId": "instagram:valstechtalkk",
+    "reason": "valstechtalkk 原帖出现 Instagram 注册/登录弹窗，遮挡视频人物与穿搭，无法可靠核验戴眼镜及 geek 气质。请通过同一桌面协助解除遮挡或访问限制；我不会输入登录凭据。已有用户名、简介和数码帖子文字证据可保留。"
+  },
+  "finishedAt": "2026-10-10T07:29:52.999Z",
+  "reportLinks": [
+    {
+      "label": "查看完整报告",
+      "href": "/api/reports/research-90121727019a7e5d682f5a65"
+    },
+    {
+      "label": "下载 CSV",
+      "href": "/api/reports/research-90121727019a7e5d682f5a65?format=csv"
+    }
+  ]
+}

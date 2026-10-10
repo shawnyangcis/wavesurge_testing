@@ -1,0 +1,82 @@
+{
+  "scope": "main",
+  "at": "2026-10-10T06:39:47.162Z",
+  "reportNotificationCount": 10,
+  "checks": [
+    {
+      "id": "report-research-d22f5bc3f9c80da1a4979ca5-8234440f5cb11b17",
+      "text": "研究助手\n\n研究「Review独立真实筛选」已完成。已选合格 1/1 人，核验 2 人。\n\n历史结果已按统一账号身份、国家名称和证据重算：已选合格 1/1，核验 2。未确认条件保持 unknown；原分析已保留审计版本。\n\n查看完整报告 · 下载 CSV",
+      "links": [
+        "/api/reports/research-d22f5bc3f9c80da1a4979ca5",
+        "/api/reports/research-d22f5bc3f9c80da1a4979ca5?format=csv"
+      ]
+    },
+    {
+      "id": "report-enrich-19b749da2108bcce416e3a31-a34a0097333d36a1",
+      "text": "研究助手\n\n补充画像：Review独立真实筛选已结束。已处理 2 个已有账号；失败 1。research-d22f5bc3f9c80da1a4979ca5|instagram:tylerlcrawford: 模型请求失败（408）\n\n查看更新后的报告",
+      "links": [
+        "/api/reports/research-d22f5bc3f9c80da1a4979ca5"
+      ]
+    },
+    {
+      "id": "report-research-fd88375f69e716ff5cbc9fef-873a60edea62b457",
+      "text": "研究助手\n\n研究「课堂笔记与考试复习方法创作者」已结束，仍有缺额。已选合格 0/1 人，核验 2 人。\n\n历史结果已按统一账号身份、国家名称和证据重算：已选合格 0/1，核验 2。未确认条件保持 unknown；原分析已保留审计版本。\n\n查看完整报告 · 下载 CSV",
+      "links": [
+        "/api/reports/research-fd88375f69e716ff5cbc9fef",
+        "/api/reports/research-fd88375f69e716ff5cbc9fef?format=csv"
+      ]
+    },
+    {
+      "id": "report-research-b30bacd90e74569b33e06bfc-9497f37137fc690d",
+      "text": "研究助手\n\n研究「AI与数字学习工具教学创作者」已结束，仍有缺额。已选合格 0/1 人，核验 2 人。\n\n历史结果已按统一账号身份、国家名称和证据重算：已选合格 0/1，核验 2。未确认条件保持 unknown；原分析已保留审计版本。\n\n查看完整报告 · 下载 CSV",
+      "links": [
+        "/api/reports/research-b30bacd90e74569b33e06bfc",
+        "/api/reports/research-b30bacd90e74569b33e06bfc?format=csv"
+      ]
+    },
+    {
+      "id": "report-campaign-bb62e1767e97593d5e070a7d-628be32c04aba29c",
+      "text": "研究助手\n\nCampaign「Review自然目标规划」已结束，仍有缺额。去重入选 0/2 人。\n\n课堂笔记与考试复习方法创作者：0/1\nAI与数字学习工具教学创作者：0/1\n\n查看 Campaign 总报告",
+      "links": [
+        "/api/campaigns/campaign-bb62e1767e97593d5e070a7d/report"
+      ]
+    },
+    {
+      "id": "report-research-fd88375f69e716ff5cbc9fef-ea657bfa7ec15036",
+      "text": "研究助手\n\n研究「课堂笔记与考试复习方法创作者」已结束，仍有缺额。已选合格 0/1 人，核验 2 人。\n\n历史结果已按统一账号身份、国家名称和证据重算：已选合格 0/1，核验 2。未确认条件保持 unknown；原分析已保留审计版本。\n\n查看完整报告 · 下载 CSV",
+      "links": [
+        "/api/reports/research-fd88375f69e716ff5cbc9fef",
+        "/api/reports/research-fd88375f69e716ff5cbc9fef?format=csv"
+      ]
+    },
+    {
+      "id": "report-enrich-32f9c222ba018ba1748b584e-def7b09d79ee7d0d",
+      "text": "研究助手\n\n补充画像：课堂笔记与考试复习方法创作者已结束。已处理 2 个已有账号；失败 0。\n\n查看更新后的报告",
+      "links": [
+        "/api/reports/research-fd88375f69e716ff5cbc9fef"
+      ]
+    },
+    {
+      "id": "report-research-b30bacd90e74569b33e06bfc-d413aab075233e9e",
+      "text": "研究助手\n\n研究「AI与数字学习工具教学创作者」已结束，仍有缺额。已选合格 0/1 人，核验 2 人。\n\n历史结果已按统一账号身份、国家名称和证据重算：已选合格 0/1，核验 2。未确认条件保持 unknown；原分析已保留审计版本。\n\n查看完整报告 · 下载 CSV",
+      "links": [
+        "/api/reports/research-b30bacd90e74569b33e06bfc",
+        "/api/reports/research-b30bacd90e74569b33e06bfc?format=csv"
+      ]
+    },
+    {
+      "id": "report-enrich-150446afeae8ce042413a76e-39b82b31d14a7ace",
+      "text": "研究助手\n\n补充画像：AI与数字学习工具教学创作者已结束。已处理 2 个已有账号；失败 0。\n\n查看更新后的报告",
+      "links": [
+        "/api/reports/research-b30bacd90e74569b33e06bfc"
+      ]
+    },
+    {
+      "id": "report-campaign-bb62e1767e97593d5e070a7d-ae696659981a0490",
+      "text": "研究助手\n\nCampaign「Review自然目标规划」已结束，仍有缺额。去重入选 0/2 人。\n\n课堂笔记与考试复习方法创作者：0/1\nAI与数字学习工具教学创作者：0/1\n\n查看 Campaign 总报告",
+      "links": [
+        "/api/campaigns/campaign-bb62e1767e97593d5e070a7d/report"
+      ]
+    }
+  ]
+}

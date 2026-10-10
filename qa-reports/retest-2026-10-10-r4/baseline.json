@@ -1,0 +1,14 @@
+{
+  "round": "R4",
+  "at": "2026-10-10T14:59:21.562846+00:00",
+  "healthScore": null,
+  "healthScoreReason": "没有全平台人工语义准确率和全量性能基准，不用代码覆盖率或有限用例数伪造总体分数",
+  "caseCounts": {
+    "failed": 2,
+    "partial": 3,
+    "passed": 31
+  },
+  "productionSourceHashManifest": "source-check-final.json",
+  "performanceEvidence": "performance-ui.json",
+  "realAndControlledSeparated": true
+}

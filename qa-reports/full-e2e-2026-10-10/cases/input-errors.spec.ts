@@ -1,0 +1,23 @@
+import { expect,test } from '@playwright/test';
+import { execFileSync } from 'node:child_process';
+import { readFileSync,writeFileSync } from 'node:fs';
+test('浏览器验证错误输入：模型地址、备份、图片数量与移除',async({page})=>{
+  const root='.gstack/qa-reports/full-e2e-2026-10-10';
+  const password=execFileSync('docker',['compose','exec','-T','app','cat','/app/data/admin-bootstrap.txt'],{encoding:'utf8'}).trim();
+  const pageErrors:string[]=[];page.on('pageerror',e=>pageErrors.push(e.message));
+  await page.goto('/');await page.getByLabel('管理员密码').fill(password);await page.getByRole('button',{name:/进入工作室/}).click();await expect(page.getByLabel('研究对话')).toBeVisible();
+  const before=await(await page.request.get('/api/settings')).json();
+  await page.getByRole('button',{name:'设置与记录'}).click();
+  await page.getByLabel('模型地址').fill('https://model.invalid/?credential=dummy');await page.getByRole('button',{name:'保存设置'}).click();await expect(page.getByRole('alert')).toContainText('无凭据');
+  expect((await(await page.request.get('/api/settings')).json()).revision).toBe(before.revision);
+  await page.getByLabel('模型地址').fill(before.baseUrl);
+  await page.getByLabel('载入备份').fill('{');await page.getByRole('button',{name:'载入调试上下文'}).click();await expect(page.getByRole('alert')).toBeVisible();
+  await page.getByLabel('载入备份').fill('{"format":"bad","messages":[],"batches":[]}');await page.getByRole('button',{name:'载入调试上下文'}).click();await expect(page.getByRole('alert')).toContainText('备份格式');
+  await page.getByRole('button',{name:'关闭',exact:true}).click();
+  const png=readFileSync('tests/fixtures/two-colors.png');const file=(i:number)=>({name:`input-${i}.png`,mimeType:'image/png',buffer:png});
+  await page.getByLabel('添加图片').setInputFiles([1,2,3,4,5].map(file));await expect(page.getByRole('alert')).toContainText('最多添加 4 张图片');await expect(page.getByAltText(/待发送图片/)).toHaveCount(0);
+  await page.getByLabel('添加图片').setInputFiles([file(1),file(2)]);await expect(page.getByAltText(/待发送图片/)).toHaveCount(2);await page.getByRole('button',{name:'移除图片 2'}).click();await expect(page.getByAltText(/待发送图片/)).toHaveCount(1);await page.getByRole('button',{name:'移除图片 1'}).click();await expect(page.getByAltText(/待发送图片/)).toHaveCount(0);
+  await page.getByLabel('添加图片').setInputFiles({name:'invalid.txt',mimeType:'text/plain',buffer:Buffer.from('invalid image')});await expect(page.getByRole('alert')).toBeVisible();
+  await page.screenshot({path:root+'/screenshots/input-errors.png',fullPage:true});
+  expect(pageErrors).toHaveLength(0);writeFileSync(root+'/input-errors.json',JSON.stringify({source:'actual production UI on isolated deployment; all invalid operations rejected without changing model settings',checks:['credential/query-bearing model URL rejected','malformed JSON backup rejected','invalid backup format rejected','5 attachments rejected atomically','add/remove attachment previews','non-image rejected'],pageErrors},null,2));
+});

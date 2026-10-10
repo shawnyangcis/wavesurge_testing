@@ -1,0 +1,35 @@
+{
+  "at": "2026-10-10T10:49:52.494Z",
+  "source": "Actual production desktop RPC, controlled isolated browser. No real credential access and no outbound unsafe navigation succeeded.",
+  "before": {
+    "url": "about:blank",
+    "observationId": "31de9aa9-be18-49bd-a9f8-75c2014d3dbd"
+  },
+  "tests": [
+    {
+      "url": "file:///etc/passwd",
+      "status": 409,
+      "error": "只接受无凭据的 HTTP 页面"
+    },
+    {
+      "url": "http://169.254.169.254/latest/meta-data/",
+      "status": 409,
+      "error": "BROWSER_POLICY_PRIVATE_NETWORK"
+    },
+    {
+      "url": "http://127.0.0.1:9999/",
+      "status": 409,
+      "error": "BROWSER_POLICY_PRIVATE_NETWORK"
+    },
+    {
+      "url": "https://qa-user:qa-probe@example.com/",
+      "status": 409,
+      "error": "只接受无凭据的 HTTP 页面"
+    }
+  ],
+  "after": {
+    "url": "about:blank",
+    "observationId": "25c74b4f-cbaa-4028-af13-8f0d7154d3c9"
+  },
+  "browserUrlUnchanged": true
+}

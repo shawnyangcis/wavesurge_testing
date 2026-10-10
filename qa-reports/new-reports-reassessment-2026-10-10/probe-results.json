@@ -1,0 +1,92 @@
+{
+  "source": "Current production functions; isolated in-memory Store and existing review snapshots only. No new WaveSurge or LLM calls.",
+  "F10": {
+    "terminalStatus": "completed",
+    "chatMessages": 0
+  },
+  "F11": [
+    {
+      "handle": "tylerlcrawford",
+      "rawCountry": "US",
+      "requestedCountries": [
+        "United States",
+        "Canada"
+      ],
+      "regionVerdict": "no_match",
+      "qualitativeVerdict": "match",
+      "totalVerdict": "no_match"
+    },
+    {
+      "handle": "valstechtalkk",
+      "rawCountry": "US",
+      "requestedCountries": [
+        "United States",
+        "Canada"
+      ],
+      "regionVerdict": "no_match",
+      "qualitativeVerdict": "match",
+      "totalVerdict": "no_match"
+    }
+  ],
+  "F13": [
+    {
+      "handle": "schoolhabits",
+      "savedFollowers": null,
+      "browserContainsSubscriberDisplay": true,
+      "followersVerdict": "unknown"
+    },
+    {
+      "handle": "raytubelcsw",
+      "savedFollowers": null,
+      "browserContainsSubscriberDisplay": true,
+      "followersVerdict": "unknown"
+    },
+    {
+      "handle": "colelangs",
+      "savedFollowers": null,
+      "browserContainsSubscriberDisplay": true,
+      "followersVerdict": "unknown"
+    },
+    {
+      "handle": "wesleyanna",
+      "savedFollowers": null,
+      "browserContainsSubscriberDisplay": true,
+      "followersVerdict": "unknown"
+    }
+  ],
+  "F14": {
+    "existingRealReplayResults": [
+      {
+        "handle": "wesleyanna",
+        "tags": [
+          "根据可核实的内容标注内容方向，例如数码、生活或其他方向，并给出一句依据；证据不足则待确认",
+          "根据可核实的内容标注呈现风格，例如 geek 风或其他风格，并给出一句依据；看不清或证据不足则待确认"
+        ],
+        "reasonSaysGeekUnsupported": true
+      },
+      {
+        "handle": "schoolhabits",
+        "tags": [
+          "根据可核实的内容标注内容方向，例如数码、生活或其他方向，并给出一句依据；证据不足则待确认",
+          "根据可核实的内容标注呈现风格，例如 geek 风或其他风格，并给出一句依据；看不清或证据不足则待确认"
+        ],
+        "reasonSaysGeekUnsupported": true
+      }
+    ],
+    "geekFilterCount": 2,
+    "researchToolNames": [
+      "start_research",
+      "cancel_research",
+      "get_results"
+    ]
+  },
+  "F15": {
+    "remoteReturnedCreators": 1,
+    "remoteStatus": "running",
+    "localStatus": "running",
+    "savedCandidates": 0,
+    "evaluated": 0,
+    "savedResults": 0,
+    "verifierCalls": 0
+  }
+}

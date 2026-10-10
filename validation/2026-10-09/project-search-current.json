@@ -1,0 +1,55 @@
+{
+  "atUtc": "2026-10-09T14:56:01.321314+00:00",
+  "method": "GET",
+  "path": "/strategy-projects/3af8e0fc-d70b-4f2c-8447-eaa165d4bf61/creator-search/current",
+  "authMode": "cookie",
+  "status": 200,
+  "elapsedSeconds": 0.67,
+  "contentType": "application/json; charset=utf-8",
+  "responseSha256": "797d990dc013caeb68f7844efb0eac578f5ebefd30369f92d7f4c4c565d6516f",
+  "response": {
+    "state": "needs_requirements",
+    "asOf": "2026-10-09T14:56:02.325Z",
+    "briefVersion": 0,
+    "briefRevision": 0,
+    "criteria": {
+      "creatorLocations": [],
+      "platforms": []
+    },
+    "missing": [
+      "creatorSearch.persona",
+      "creatorSearch.count",
+      "platforms"
+    ],
+    "allowedActions": [
+      "get_current_project_state",
+      "read_current_task_board",
+      "read_web_research",
+      "lookup_playbook",
+      "read_campaign_rules",
+      "edit_brief",
+      "set_project_title",
+      "update_brief_from_message",
+      "set_report_language",
+      "set_standard",
+      "suggest_competitors",
+      "search_web_evidence",
+      "deep_web_research",
+      "keep_current_report",
+      "record_project_note",
+      "skip_competitor_report"
+    ],
+    "quote": {
+      "ready": false,
+      "quoteAvailable": false,
+      "payerDisplayName": "Shawn Yang",
+      "quotes": []
+    },
+    "latestTask": null,
+    "links": {
+      "campaignUrl": null,
+      "galleryUrl": null,
+      "larkDocumentUrl": null
+    }
+  }
+}

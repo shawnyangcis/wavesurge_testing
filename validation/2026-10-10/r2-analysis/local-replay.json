@@ -1,0 +1,80 @@
+{
+  "at": "2026-10-10T08:09:08.687Z",
+  "productionWrites": false,
+  "replayData": "synthetic in-memory SQLite; actual production functions",
+  "exactAccounts": {
+    "paths": [
+      "/instagram/v3/search_users?query=targetone",
+      "/instagram/v1/fetch_user_info_by_username_v2?username=targetone",
+      "/instagram/v1/fetch_user_info_by_username_v2?username=targetone_similar"
+    ],
+    "emitted": [
+      "targetone",
+      "targetone_similar"
+    ],
+    "delivered": 2,
+    "done": true,
+    "secondTargetQueried": false
+  },
+  "earlyStop": {
+    "blocked": false,
+    "calls": 1,
+    "status": "completed",
+    "readCandidates": 2,
+    "evaluated": 1,
+    "matched": 1,
+    "resultCount": 1
+  },
+  "textBlocked": {
+    "blocked": true,
+    "calls": 0,
+    "status": "running",
+    "readCandidates": 2,
+    "evaluated": 0,
+    "matched": 0,
+    "resultCount": 0
+  },
+  "model408Retryable": false,
+  "missingUrl": "",
+  "negativeTags": {
+    "tags": [
+      "个人创作者账号，不是品牌、商店或机构账号",
+      "若未找到则报告来源缺额",
+      "iPhone技巧"
+    ],
+    "brandFalseHit": true,
+    "shortageFalseHit": true
+  },
+  "performance": [
+    {
+      "label": "large-waiting",
+      "taskBytes": 17340046,
+      "taskReadsPerTick": 126,
+      "tickMs": [
+        1911.901828,
+        3658.9097800000004,
+        2383.963882
+      ]
+    },
+    {
+      "label": "small-waiting",
+      "taskBytes": 50166,
+      "taskReadsPerTick": 126,
+      "tickMs": [
+        12.111390000000029,
+        11.79297299999962,
+        12.107192999999825
+      ]
+    },
+    {
+      "label": "large-terminal",
+      "taskBytes": 17340022,
+      "taskReadsPerTick": 0,
+      "tickMs": [
+        198.91947099999925,
+        214.01124700000037,
+        180.88777400000072
+      ]
+    }
+  ]
+}

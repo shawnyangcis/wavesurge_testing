@@ -1,0 +1,136 @@
+{
+  "at": "2026-10-10T11:13:29.508Z",
+  "source": "Actual UI, configured real model, controlled Wave/pages; duplicate submission uses authenticated public HTTP API",
+  "checks": [],
+  "pageErrors": [],
+  "before": {
+    "taskIds": [
+      "research-4765630b7155c8ccb8f4035e",
+      "research-80d527960d27da90bac004b2",
+      "research-a4ecc6314a39387e1e2834da",
+      "research-1b67ced35e3c73543985f64c",
+      "research-de001242da5340ab6b397d3f",
+      "research-e8e0d945f91b47f7803a1e87",
+      "research-28928cc20e345e8400535f0e",
+      "research-bd46fb877c93ea1af8b6bc35",
+      "enrich-0180bb0646b8e6d667cb2296"
+    ],
+    "waveCalls": 8
+  },
+  "reverify": {
+    "source": {
+      "id": "research-bd46fb877c93ea1af8b6bc35",
+      "title": "新批次（二）：YouTube 科技博主公开网页核验",
+      "spec": {
+        "title": "新批次（二）：YouTube 科技博主公开网页核验",
+        "personaText": "Technology content creators and technology reviewers",
+        "count": 1,
+        "candidateBudget": 2,
+        "platforms": [
+          "youtube"
+        ],
+        "regions": [],
+        "minFollowers": 0,
+        "maxFollowers": 9007199254740991,
+        "verificationMode": "auto",
+        "analyzeAll": true,
+        "criteria": [
+          {
+            "id": "technology_content",
+            "label": "公开主页及公开内容证实创作者发布科技内容",
+            "required": true,
+            "basis": "text"
+          }
+        ],
+        "annotations": [
+          {
+            "id": "content_direction",
+            "label": "内容方向"
+          }
+        ]
+      },
+      "status": "completed",
+      "requested": 1,
+      "evaluated": 2,
+      "matched": 1,
+      "updatedAt": 1791630645556,
+      "detail": "已选合格 1/1，已核验 2；证据不足者保持待核实。youtube：读取 2 条，基础条件排除 0 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。",
+      "nextPollAt": 1791630180123,
+      "failures": [],
+      "exhaustive": true,
+      "parentCampaignId": "campaign-cfcb0a8dcaeaa3e02581eb0a",
+      "discoveryAttempts": 0,
+      "remoteStatus": "done",
+      "qualifying": 2
+    },
+    "jobs": [
+      {
+        "id": "enrich-0180bb0646b8e6d667cb2296",
+        "taskId": "research-bd46fb877c93ea1af8b6bc35",
+        "mode": "reverify",
+        "resultIds": [
+          "research-bd46fb877c93ea1af8b6bc35|youtube:http://wave-fixture:8087/creator/alice",
+          "research-bd46fb877c93ea1af8b6bc35|youtube:http://wave-fixture:8087/creator/bob"
+        ],
+        "annotations": [
+          {
+            "id": "content_direction",
+            "label": "内容方向"
+          }
+        ],
+        "completed": [
+          "research-bd46fb877c93ea1af8b6bc35|youtube:http://wave-fixture:8087/creator/alice",
+          "research-bd46fb877c93ea1af8b6bc35|youtube:http://wave-fixture:8087/creator/bob"
+        ],
+        "attempts": {},
+        "nextAt": 0,
+        "failures": []
+      }
+    ],
+    "results": [
+      {
+        "id": "research-bd46fb877c93ea1af8b6bc35|youtube:http://wave-fixture:8087/creator/alice",
+        "revision": 2,
+        "verdict": "match",
+        "selected": true,
+        "evidence": [
+          {
+            "id": "c9d0740ba34a45f99db427fc",
+            "url": "http://wave-fixture:8087/creator/alice",
+            "assetId": "d02348d0feab0652ea9e9e80942e6458e9a7a0dd928403052ec77013bed99a12",
+            "capturedAt": 1791630180152
+          }
+        ]
+      },
+      {
+        "id": "research-bd46fb877c93ea1af8b6bc35|youtube:http://wave-fixture:8087/creator/bob",
+        "revision": 2,
+        "verdict": "match",
+        "selected": false,
+        "evidence": [
+          {
+            "id": "61ee46c49d24777f438b495a",
+            "url": "http://wave-fixture:8087/creator/bob",
+            "assetId": "d3dfe79cb4c5b36d6299632981ca7a9cf8acd03a8fa79e79c57cb306b11f666c",
+            "capturedAt": 1791630191604
+          }
+        ]
+      }
+    ],
+    "history": [
+      {
+        "id": "research-bd46fb877c93ea1af8b6bc35|youtube:http://wave-fixture:8087/creator/alice",
+        "revision": 1,
+        "verdict": "match",
+        "selected": true
+      },
+      {
+        "id": "research-bd46fb877c93ea1af8b6bc35|youtube:http://wave-fixture:8087/creator/bob",
+        "revision": 1,
+        "verdict": "match",
+        "selected": false
+      }
+    ]
+  },
+  "error": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: true\nReceived: false"
+}

@@ -1,0 +1,142 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Code coverage report for server/reports.ts</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../prettify.css" />
+    <link rel="stylesheet" href="../base.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+    
+<body>
+<div class='wrapper'>
+    <div class='pad1'>
+        <h1><a href="../index.html">All files</a> / <a href="index.html">server</a> reports.ts</h1>
+        <div class='clearfix'>
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Statements</span>
+                <span class='fraction'>24/24</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Branches</span>
+                <span class='fraction'>49/49</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Functions</span>
+                <span class='fraction'>14/14</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Lines</span>
+                <span class='fraction'>10/10</span>
+            </div>
+        
+            
+        </div>
+        <p class="quiet">
+            Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
+        </p>
+        <template id="filterTemplate">
+            <div class="quiet">
+                Filter:
+                <input type="search" id="fileSearch">
+            </div>
+        </template>
+    </div>
+    <div class='status-line high'></div>
+    <pre><table class="coverage">
+<tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
+<a name='L2'></a><a href='#L2'>2</a>
+<a name='L3'></a><a href='#L3'>3</a>
+<a name='L4'></a><a href='#L4'>4</a>
+<a name='L5'></a><a href='#L5'>5</a>
+<a name='L6'></a><a href='#L6'>6</a>
+<a name='L7'></a><a href='#L7'>7</a>
+<a name='L8'></a><a href='#L8'>8</a>
+<a name='L9'></a><a href='#L9'>9</a>
+<a name='L10'></a><a href='#L10'>10</a>
+<a name='L11'></a><a href='#L11'>11</a>
+<a name='L12'></a><a href='#L12'>12</a>
+<a name='L13'></a><a href='#L13'>13</a>
+<a name='L14'></a><a href='#L14'>14</a>
+<a name='L15'></a><a href='#L15'>15</a>
+<a name='L16'></a><a href='#L16'>16</a>
+<a name='L17'></a><a href='#L17'>17</a>
+<a name='L18'></a><a href='#L18'>18</a>
+<a name='L19'></a><a href='#L19'>19</a>
+<a name='L20'></a><a href='#L20'>20</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">432x</span>
+<span class="cline-any cline-yes">57x</span>
+<span class="cline-any cline-yes">126x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">19x</span>
+<span class="cline-any cline-yes">19x</span>
+<span class="cline-any cline-yes">19x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">15x</span>
+<span class="cline-any cline-yes">18x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import type { Result } from '../shared/research.ts';
+import type { ResearchTask } from './research.ts';
+export function escapeHtml(text: string) { return text.replaceAll('&amp;', '&amp;amp;').replaceAll('&lt;', '&amp;lt;').replaceAll('&gt;', '&amp;gt;').replaceAll('"', '&amp;quot;').replaceAll("'", '&amp;#39;'); }
+export function safeLink(value: string) { return /^https?:\/\//i.test(value) ? escapeHtml(value) : '#'; }
+function cell(value: string) { const safe = /^[=+@-]/.test(value) ? `'${value}` : value; return `"${safe.replaceAll('"', '""')}"`; }
+export function csvReport(task: ResearchTask, results: Result[]) {
+  return '\uFEFF' + ['账号,平台,粉丝数,地区,本地判断,标签,链接,逐条件核验,证据映射,入选,画像标注,基础事实,互动率及样本,照片资源', ...results.map(result =&gt; [result.creator.handle, result.creator.platform, String(result.creator.followers), result.creator.region ?? '', result.verdict, result.tags.join(' / '), result.creator.profileUrl, JSON.stringify(result.judgments), JSON.stringify(result.creator.evidence.map(evidence =&gt; ({ ...evidence, ...(evidence.assetId ? { screenshotUrl: `/api/assets/${evidence.assetId}` } : {}) }))), String(result.selected ?? false), JSON.stringify(result.annotations ?? []), JSON.stringify(result.creator.facts ?? {}), JSON.stringify(result.creator.engagement ?? {}), JSON.stringify(result.creator.photoUrls ?? [])].map(cell).join(','))].join('\r\n');
+}
+export function evidenceReport(result: Result, image?: (id: string) =&gt; string) {
+  return `&lt;details open&gt;&lt;summary&gt;完整证据映射与截图&lt;/summary&gt;${result.creator.evidence.map(evidence =&gt; {
+    let screenshot = '';
+    if (evidence.assetId) { try { const data = image?.(evidence.assetId); if (data?.startsWith('data:image/png;base64,')) screenshot = `&lt;img style="max-width:100%" alt="截图证据 ${escapeHtml(evidence.id)}" src="${data}"&gt;`; } catch { screenshot = '&lt;p&gt;截图暂不可读取，请在工作室核对该证据编号。&lt;/p&gt;'; } }
+    return `&lt;section&gt;&lt;h4&gt;${escapeHtml(evidence.id)} · ${escapeHtml(evidence.kind)}&lt;/h4&gt;&lt;a href="${safeLink(evidence.url)}"&gt;原始来源&lt;/a&gt;&lt;p&gt;提供方：${escapeHtml(evidence.provider)} · 捕获：${new Date(evidence.capturedAt).toISOString()} · 发布时间：${escapeHtml(evidence.publishedAt ?? '日期未知')}${evidence.assetId ? ` · 截图编号：${escapeHtml(evidence.assetId)}` : ''}&lt;/p&gt;&lt;pre style="white-space:pre-wrap"&gt;${escapeHtml(evidence.text)}&lt;/pre&gt;${screenshot}&lt;/section&gt;`;
+  }).join('')}&lt;/details&gt;`;
+}
+export function htmlReport(task: ResearchTask, results: Result[], image?: (id: string) =&gt; string) {
+  const verdict = { match: '符合要求', no_match: '不符合', unknown: '待核实' };
+  return `&lt;!doctype html&gt;&lt;html lang="zh-CN"&gt;&lt;meta charset="utf-8"&gt;&lt;title&gt;${escapeHtml(task.title)}&lt;/title&gt;&lt;style&gt;body{font:15px/1.9 sans-serif;max-width:960px;margin:48px auto;padding:0 24px;color:#233c37;background:#f5f3ed}article{border-top:1px solid #bfcabb;padding:24px 0}a{color:#285d48}small{color:#69786b}table{border-collapse:collapse;width:100%;table-layout:fixed}td,th{text-align:left;border-bottom:1px solid #dedfd6;padding:10px;vertical-align:top;overflow-wrap:anywhere}td:first-child,th:first-child{width:24%}td:nth-child(2),th:nth-child(2){width:6.5em;white-space:nowrap}p,h2,pre{overflow-wrap:anywhere}&lt;/style&gt;&lt;h1&gt;${escapeHtml(task.title)}&lt;/h1&gt;&lt;p&gt;目标 ${task.requested} 人；本地已合格 ${task.matched} 人；已核验 ${task.evaluated} 人。&lt;/p&gt;&lt;p&gt;${escapeHtml(task.detail)}&lt;/p&gt;&lt;small&gt;来源：WaveSurge + 本地核验。远端搜索完成不代表本地条件通过。本次报告包含 ${results.length} 条筛选记录。报告更新时间：${new Date(task.updatedAt).toISOString()}&lt;/small&gt;${results.map(result =&gt; `&lt;article&gt;&lt;h2&gt;&lt;a href="${safeLink(result.creator.profileUrl)}"&gt;${escapeHtml(result.creator.displayName)}&lt;/a&gt; · ${verdict[result.verdict]}${result.selected === true ? ' · 已入选' : result.selected === false &amp;&amp; result.verdict === 'match' ? ' · 合格备选' : ''}&lt;/h2&gt;&lt;p&gt;${escapeHtml(result.creator.platform)} / ${escapeHtml(result.creator.handle)} / 粉丝 ${escapeHtml(String(result.creator.followers ?? result.creator.facts?.followers?.rawValue ?? '未知'))} / ${escapeHtml(result.creator.region ?? '未知')}&lt;/p&gt;${result.creator.engagement ? `&lt;p&gt;近期互动率：${result.creator.engagement.rate === null ? '未知' : `${(result.creator.engagement.rate * 100).toFixed(2)}%`}；样本 ${result.creator.engagement.sampleSize} 条；算法 ${escapeHtml(result.creator.engagement.formula)}&lt;/p&gt;` : ''}&lt;p&gt;标签：${result.tags.map(escapeHtml).join('、')}&lt;/p&gt;${(result.annotations ?? []).map(item =&gt; `&lt;p&gt;画像 ${escapeHtml(item.dimensionId)}：${item.status === 'supported' ? item.values.map(escapeHtml).join('、') : '待核实'}；${escapeHtml(item.reason)}；证据 ${item.evidenceIds.map(escapeHtml).join('、')}&lt;/p&gt;`).join('')}&lt;table&gt;&lt;tr&gt;&lt;th&gt;条件&lt;/th&gt;&lt;th&gt;判断&lt;/th&gt;&lt;th&gt;依据&lt;/th&gt;&lt;/tr&gt;${result.judgments.map(item =&gt; `&lt;tr&gt;&lt;td&gt;${escapeHtml(item.label ?? item.criterionId)}&lt;/td&gt;&lt;td&gt;${verdict[item.verdict]}&lt;/td&gt;&lt;td&gt;${escapeHtml(item.reason)}&lt;br&gt;${item.evidenceIds.map(id =&gt; { const evidence = result.creator.evidence.find(source =&gt; source.id === id)!; return `&lt;a href="${safeLink(evidence.url)}"&gt;${escapeHtml(evidence.kind)} ${escapeHtml(evidence.publishedAt ?? '日期未知')}&lt;/a&gt;`; }).join('&lt;br&gt;')}&lt;/td&gt;&lt;/tr&gt;`).join('')}&lt;/table&gt;${evidenceReport(result, image)}&lt;/article&gt;`).join('')}&lt;/html&gt;`;
+}
+&nbsp;</pre></td></tr></table></pre>
+
+                <div class='push'></div><!-- for sticky footer -->
+            </div><!-- /wrapper -->
+            <div class='footer quiet pad2 space-top1 center small'>
+                Code coverage generated by
+                <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
+                at 2026-10-10T13:29:51.355Z
+            </div>
+        <script src="../prettify.js"></script>
+        <script>
+            window.onload = function () {
+                prettyPrint();
+            };
+        </script>
+        <script src="../sorter.js"></script>
+        <script src="../block-navigation.js"></script>
+    </body>
+</html>
+    

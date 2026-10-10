@@ -1,0 +1,2157 @@
+{
+  "source": "actual WaveSurge zero candidate completion + production UI + Docker restart",
+  "campaign": {
+    "title": "大学生降噪耳机推广 Campaign 草案 1791572085141",
+    "goal": "推广面向大学生的降噪耳机，提高产品认知和购买意愿。总计筛选2位不同Instagram账号，每组1位；每组候选上限2，总候选预算4。不要求邮箱，不做外联。仅保存草案，不启动搜索。",
+    "audience": "大学生；创作者所在地限定Canada或United States，不将创作者所在地等同于受众所在地。品牌、售价及其他产品卖点尚未提供，不额外添加筛选要求。",
+    "groups": [
+      {
+        "id": "tech_reviews",
+        "rationale": "科技/耳机评测创作者可通过产品体验、功能解释与对比帮助大学生了解降噪耳机并形成购买判断，支持认知提升与购买意愿；不要求候选已评测该品牌或具体产品。",
+        "spec": {
+          "title": "科技/耳机评测创作者 1791572085141",
+          "personaText": "筛选1位Instagram创作者，所在地Canada或United States，粉丝10,000至100,000，分享科技或耳机评测内容。所有条件均为必选文字条件，无视觉条件。不要求邮箱、不做外联。最多核验2个候选。与学习/效率生活组须为不同Instagram账号。",
+          "count": 1,
+          "platforms": [
+            "instagram"
+          ],
+          "regions": [
+            "Canada",
+            "United States"
+          ],
+          "minFollowers": 10000,
+          "maxFollowers": 100000,
+          "candidateBudget": 2,
+          "criteria": [
+            {
+              "id": "tech_review_content",
+              "label": "分享科技或耳机评测内容，须有内容文字证据支持。",
+              "required": true,
+              "basis": "text"
+            }
+          ]
+        },
+        "taskId": "research-98350042b636d08a5d424a6c",
+        "matched": 0,
+        "eligible": 0
+      },
+      {
+        "id": "study_campus",
+        "rationale": "学习/效率生活创作者可将降噪耳机与学习、专注和效率生活等使用场景联系，提升大学生的产品认知、相关性感受和购买兴趣；不额外要求创作者本人在校或已有耳机推广内容。",
+        "spec": {
+          "title": "学习/效率生活创作者 1791572085141",
+          "personaText": "筛选1位Instagram创作者，所在地Canada或United States，粉丝10,000至100,000，分享学习或效率生活内容。所有条件均为必选文字条件，无视觉条件。不要求邮箱、不做外联。最多核验2个候选。与科技/耳机评测组须为不同Instagram账号。",
+          "count": 1,
+          "platforms": [
+            "instagram"
+          ],
+          "regions": [
+            "Canada",
+            "United States"
+          ],
+          "minFollowers": 10000,
+          "maxFollowers": 100000,
+          "candidateBudget": 2,
+          "criteria": [
+            {
+              "id": "study_campus_content",
+              "label": "分享学习或效率生活内容，须有内容文字证据支持。",
+              "required": true,
+              "basis": "text"
+            }
+          ]
+        },
+        "taskId": "research-d7687a09b9a84db8c236a706",
+        "matched": 0,
+        "eligible": 0
+      }
+    ],
+    "id": "campaign-49090173cf0f56b698b97456",
+    "revision": 2,
+    "childTaskIds": [
+      "research-98350042b636d08a5d424a6c",
+      "research-d7687a09b9a84db8c236a706"
+    ],
+    "createdAt": 1791572115348,
+    "updatedAt": 1791572154943,
+    "status": "partial",
+    "requested": 2,
+    "matched": 0,
+    "qualifyingUnique": 0,
+    "evaluated": 0,
+    "selections": [],
+    "reportUrl": "/api/campaigns/campaign-49090173cf0f56b698b97456/report",
+    "results": []
+  },
+  "calls": [
+    {
+      "id": "c9ccd386-cef6-4cbc-b9ba-45f11f998651",
+      "kind": "wavesurge",
+      "createdAt": 1791568955898,
+      "path": "/creator-search/requests",
+      "method": "POST",
+      "request": {
+        "requestId": "research-a333d174361fcf1bed6c0698",
+        "personaText": "寻找 2 位 Instagram 科技内容创作者，创作者所在地为 Canada 或 United States，粉丝数 10,000 至 100,000（含边界）。分享科技内容为必选文字条件；没有视觉条件，无邮箱要求。最多搜索并核验 4 位候选。仅检索与核验，不进行任何外联。",
+        "count": 4,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [
+          "Canada",
+          "United States"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "emailReadyRequired": false
+      },
+      "status": 201,
+      "response": {
+        "taskId": "24b86cb6-354f-45ac-b5a6-d98c90e8a541"
+      },
+      "finishedAt": 1791568956259
+    },
+    {
+      "id": "65b27f64-fea7-42e2-8e64-3aaba9a2a67b",
+      "kind": "wavesurge",
+      "createdAt": 1791569039519,
+      "path": "/creator-search/requests/24b86cb6-354f-45ac-b5a6-d98c90e8a541",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "running",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791569040029
+    },
+    {
+      "id": "451351af-7e0a-4ff1-9ca3-ac29cfdc8039",
+      "kind": "wavesurge",
+      "createdAt": 1791569159533,
+      "path": "/creator-search/requests/24b86cb6-354f-45ac-b5a6-d98c90e8a541",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "running",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791569160017
+    },
+    {
+      "id": "de8c9235-4b30-4eb2-a1ef-dc0db1aa8558",
+      "kind": "wavesurge",
+      "createdAt": 1791569279568,
+      "path": "/creator-search/requests/24b86cb6-354f-45ac-b5a6-d98c90e8a541",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "running",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791569280079
+    },
+    {
+      "id": "460e2230-e3f3-479b-a57f-e325026ab8f4",
+      "kind": "wavesurge",
+      "createdAt": 1791569399601,
+      "path": "/creator-search/requests/24b86cb6-354f-45ac-b5a6-d98c90e8a541",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "running",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791569400097
+    },
+    {
+      "id": "e8ed909b-6b5e-4226-86c2-cd22b85678ff",
+      "kind": "wavesurge",
+      "createdAt": 1791569519631,
+      "path": "/creator-search/requests/24b86cb6-354f-45ac-b5a6-d98c90e8a541",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "done",
+        "strategyOperationId": null,
+        "creators": [
+          {
+            "handle": "imthegeekjr",
+            "region": "United States",
+            "contact": {
+              "other": [
+                "website:https://www.gohighlevel.com/holiday-promotion-2025?fp_ref=agenor94",
+                "website:https://bitsnbots.shop/special-offer",
+                "website:https://imthegeek.com/",
+                "phone:18887324197",
+                "facebook:highlevelreviews",
+                "instagram:gohighlevel",
+                "twitter:gohighlevel",
+                "youtube:channel/UCXFiV4qDX5ipE-DQcsm1j4g",
+                "website:https://www.gohighlevel.com/about-us",
+                "website:https://fonts.gstatic.com/",
+                "website:https://backend.leadconnectorhq.com/",
+                "website:https://images.leadconnectorhq.com/",
+                "website:https://cdn.filesafe.space/",
+                "website:https://fonts.bunny.net/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap",
+                "website:https://stcdn.leadconnectorhq.com/_preview/DYpTpgq3.js",
+                "website:https://stcdn.leadconnectorhq.com/_preview/CCVvgE-L.js",
+                "website:https://stcdn.leadconnectorhq.com/_preview/Cb1H6hkC.js",
+                "website:https://stcdn.leadconnectorhq.com/_preview/DvrvT2_C.js",
+                "website:https://stcdn.leadconnectorhq.com/_preview/CiQ1qjBS.js",
+                "website:https://stcdn.leadconnectorhq.com/_preview/uCRaYS7N.js",
+                "website:https://stcdn.leadconnectorhq.com/_preview/GuBsVRZZ.js",
+                "website:https://stcdn.leadconnectorhq.com/_preview/-JvreTmY.js",
+                "website:https://stcdn.leadconnectorhq.com/_preview/PwpMTu2j.js",
+                "website:https://stcdn.leadconnectorhq.com/_preview/DpkoWOv-.js",
+                "website:https://stcdn.leadconnectorhq.com/_preview/Bg2RX3J8.js",
+                "website:https://stcdn.leadconnectorhq.com/_preview/BhuMh7eJ.js",
+                "website:https://stcdn.leadconnectorhq.com/_preview/DoeYiMRe.js",
+                "website:https://stcdn.leadconnectorhq.com/_preview/CCoAdCni.js",
+                "website:https://stcdn.leadconnectorhq.com/_preview/B_pNFjDI.js",
+                "website:https://stcdn.leadconnectorhq.com/_preview/ChXBHSJ3.js",
+                "website:https://stcdn.leadconnectorhq.com/_preview/C0VWjGJE.js",
+                "website:https://stcdn.leadconnectorhq.com/_preview/Bdj-kh5p.js",
+                "website:https://stcdn.leadconnectorhq.com/_preview/DRNKrJGC.js",
+                "website:https://stcdn.leadconnectorhq.com/_preview/DKe4yHRV.js",
+                "website:https://stcdn.leadconnectorhq.com/_preview/D1OHNg6k.js",
+                "website:https://stcdn.leadconnectorhq.com/_preview/D_PtwKJ8.js",
+                "website:https://stcdn.leadconnectorhq.com/_preview/DyorGG1B.js",
+                "website:https://stcdn.leadconnectorhq.com/_preview/C3e4t58V.js",
+                "website:https://stcdn.leadconnectorhq.com/_preview/D5NlO5be.js",
+                "website:https://stcdn.leadconnectorhq.com/_preview/D668xA2k.js",
+                "website:https://stcdn.leadconnectorhq.com/_preview/Bb-1NEbF.js",
+                "website:https://stcdn.leadconnectorhq.com/_preview/K9MZsDJh.js",
+                "website:https://stcdn.leadconnectorhq.com/_preview/DYa7OZHt.js",
+                "website:https://stcdn.leadconnectorhq.com/_preview/DylRJ2We.js",
+                "website:https://stcdn.leadconnectorhq.com/_preview/DijNsTpo.js",
+                "website:https://stcdn.leadconnectorhq.com/_preview/DUjghn-k.js",
+                "website:https://stcdn.leadconnectorhq.com/_preview/dAUJ3buz.js",
+                "website:https://stcdn.leadconnectorhq.com/_preview/D1lI67ss.js",
+                "website:https://stcdn.leadconnectorhq.com/_preview/B-UxyGM2.js",
+                "website:https://stcdn.leadconnectorhq.com/_preview/BLBA7xIM.js",
+                "website:https://stcdn.leadconnectorhq.com/_preview/CenvAvwo.js",
+                "website:https://stcdn.leadconnectorhq.com/_preview/DWQaRT7F.js",
+                "website:https://stcdn.leadconnectorhq.com/_preview/C34y26rQ.js",
+                "website:https://stcdn.leadconnectorhq.com/_preview/DTMCFsAI.js",
+                "website:https://stcdn.leadconnectorhq.com/_preview/DdhyAKJS.js",
+                "website:https://stcdn.leadconnectorhq.com/_preview/CHzpsrUF.js",
+                "website:https://stcdn.leadconnectorhq.com/_preview/DpGxo2Of.js",
+                "website:https://stcdn.leadconnectorhq.com/_preview/BP9uIcax.js",
+                "website:https://stcdn.leadconnectorhq.com/_preview/Bpizbkdm.js",
+                "website:https://stcdn.leadconnectorhq.com/_preview/DKeuBCMA.js",
+                "website:https://stcdn.leadconnectorhq.com/_preview/A9DdJoA1.js",
+                "website:https://stcdn.leadconnectorhq.com/_preview/BSeFO5wV.js",
+                "website:https://stcdn.leadconnectorhq.com/_preview/BE0CYd-y.js",
+                "website:https://stcdn.leadconnectorhq.com/_preview/D_h_pM3_.js",
+                "website:https://stcdn.leadconnectorhq.com/_preview/3WU8QyBO.js",
+                "website:https://stcdn.leadconnectorhq.com/_preview/Oa7GxCC4.js",
+                "website:https://stcdn.leadconnectorhq.com/_preview/BqYBjpSL.js",
+                "website:https://stcdn.leadconnectorhq.com/_preview/DJ5jtSu4.js",
+                "website:https://stcdn.leadconnectorhq.com/_preview/p9aP01xu.js",
+                "website:https://stcdn.leadconnectorhq.com/_preview/BNK1km1z.js",
+                "website:https://stcdn.leadconnectorhq.com/_preview/CwmTLX6D.js",
+                "website:https://services.leadconnectorhq.com/",
+                "website:https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/62b48689c85eccb36ca941fc.png",
+                "website:https://www.gohighlevel.com/terms-of-service",
+                "website:https://www.gohighlevel.com/privacy-policy",
+                "website:https://www.gohighlevel.com/",
+                "website:https://app.gohighlevel.com/",
+                "website:https://www.gohighlevel.com/highlevel-vs-activecampaign",
+                "website:https://www.gohighlevel.com/highlevel-vs-hubspot",
+                "website:https://www.gohighlevel.com/highlevel-vs-clickfunnels",
+                "website:https://www.gohighlevel.com/highlevel-vs-keap",
+                "website:https://www.gohighlevel.com/highlevel-vs-linktree",
+                "website:https://www.gohighlevel.com/highlevel-vs-kartra",
+                "website:https://www.gohighlevel.com/highlevel-vs-vendasta",
+                "website:https://www.gohighlevel.com/highlevel-vs-sharpspring",
+                "website:https://www.gohighlevel.com/highlevel-vs-klaviyo",
+                "website:https://www.gohighlevel.com/highlevel-vs-zoho",
+                "website:https://www.gohighlevel.com/highlevel-vs-salesforce",
+                "website:https://www.gohighlevel.com/careers",
+                "website:https://www.gohighlevel.com/blog",
+                "website:https://www.gohighlevel.com/events",
+                "website:https://www.gohighlevel.com/joinaffiliate",
+                "website:https://gohighlevel.firstpromoter.com/",
+                "website:https://www.gohighlevel.com/affiliate-policy",
+                "website:https://www.gohighlevel.com/privacy-and-security",
+                "website:https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69934cb2a9efdefa24ac4918.png",
+                "website:https://fonts.bunny.net/poppins/files/poppins-latin-400-normal.woff2",
+                "website:https://fonts.bunny.net/poppins/files/poppins-latin-500-normal.woff2",
+                "website:https://fonts.bunny.net/poppins/files/poppins-latin-600-normal.woff2",
+                "website:https://fonts.bunny.net/poppins/files/poppins-latin-700-normal.woff2",
+                "website:https://fonts.bunny.net/poppins/files/poppins-latin-800-normal.woff2",
+                "website:https://fonts.bunny.net/poppins/files/poppins-latin-900-normal.woff2",
+                "website:https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a4d1d229093e0282180b895.woff2",
+                "website:https://fonts.bunny.net/roboto/files/roboto-latin-400-normal.woff2",
+                "website:https://fonts.bunny.net/roboto/files/roboto-latin-700-normal.woff2",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_60/r_1200/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698b2afd1fe166844e494ef6.svg",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_60/r_1200/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698e2b6900849807ad950811.svg",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698c932bcc53177d7d487091.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698c932bcc53177d7d487091.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698c932bcc53177d7d487091.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698e26703f860b59c3960392.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698e26703f860b59c3960392.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698e26703f860b59c3960392.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698e1ad018c51761cdb93d4c.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698e1ad018c51761cdb93d4c.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698e1ad018c51761cdb93d4c.png",
+                "website:https://stcdn.leadconnectorhq.com/intl-tel-input/17.0.12/img/flags.png",
+                "website:https://stcdn.leadconnectorhq.com/intl-tel-input/17.0.12/img/flags@2x.png",
+                "website:https://stcdn.leadconnectorhq.com/funnel/fontawesome/webfonts/fa-regular-400.eot",
+                "website:https://stcdn.leadconnectorhq.com/funnel/fontawesome/webfonts/fa-regular-400.eot?#iefix",
+                "website:https://stcdn.leadconnectorhq.com/funnel/fontawesome/webfonts/fa-regular-400.woff2",
+                "website:https://stcdn.leadconnectorhq.com/funnel/fontawesome/webfonts/fa-regular-400.woff",
+                "website:https://stcdn.leadconnectorhq.com/funnel/fontawesome/webfonts/fa-regular-400.ttf",
+                "website:https://stcdn.leadconnectorhq.com/funnel/fontawesome/webfonts/fa-regular-400.svg#fontawesome",
+                "website:https://stcdn.leadconnectorhq.com/funnel/fontawesome/webfonts/fa-solid-900.eot",
+                "website:https://stcdn.leadconnectorhq.com/funnel/fontawesome/webfonts/fa-solid-900.eot?#iefix",
+                "website:https://stcdn.leadconnectorhq.com/funnel/fontawesome/webfonts/fa-solid-900.woff2",
+                "website:https://stcdn.leadconnectorhq.com/funnel/fontawesome/webfonts/fa-solid-900.woff",
+                "website:https://stcdn.leadconnectorhq.com/funnel/fontawesome/webfonts/fa-solid-900.ttf",
+                "website:https://stcdn.leadconnectorhq.com/funnel/fontawesome/webfonts/fa-solid-900.svg#fontawesome",
+                "website:https://stcdn.leadconnectorhq.com/funnel/fontawesome/webfonts/fa-brands-400.eot",
+                "website:https://stcdn.leadconnectorhq.com/funnel/fontawesome/webfonts/fa-brands-400.eot?#iefix",
+                "website:https://stcdn.leadconnectorhq.com/funnel/fontawesome/webfonts/fa-brands-400.woff2",
+                "website:https://stcdn.leadconnectorhq.com/funnel/fontawesome/webfonts/fa-brands-400.woff",
+                "website:https://stcdn.leadconnectorhq.com/funnel/fontawesome/webfonts/fa-brands-400.ttf",
+                "website:https://stcdn.leadconnectorhq.com/funnel/fontawesome/webfonts/fa-brands-400.svg#fontawesome",
+                "website:https://services.leadconnectorhq.com/funnels/funnel/user/exists/",
+                "website:https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js",
+                "website:https://api.gohighlevel.com/brand/affiliate?query=",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3d48e8e4daecfbb47f2a0b.svg",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3d48e8e4daecfbb47f2a0b.svg",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3d48e8e4daecfbb47f2a0b.svg",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3d48e8e4daecfbb47f2a0b.svg",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3d48e8e4daecfbb47f2a0b.svg",
+                "website:http://www.w3.org/2000/svg",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_75/r_660/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c0aa1817563b473d5054a.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_75/r_990/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c0aa1817563b473d5054a.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c4128ae7d4768394eaaf7.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c4128ae7d4768394eaaf7.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c4128ae7d4768394eaaf7.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c4128ae7d4768394eaaf7.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c4128ae7d4768394eaaf7.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c400eae7d4768394e8941.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c400eae7d4768394e8941.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c400eae7d4768394e8941.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c400eae7d4768394e8941.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c400eae7d4768394e8941.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c40330cd3954cb21f548a.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c40330cd3954cb21f548a.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c40330cd3954cb21f548a.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c40330cd3954cb21f548a.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c40330cd3954cb21f548a.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c40466a41444190758fe7.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c40466a41444190758fe7.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c40466a41444190758fe7.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c40466a41444190758fe7.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c40466a41444190758fe7.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c405bb3c8655da2aade77.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c405bb3c8655da2aade77.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c405bb3c8655da2aade77.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c405bb3c8655da2aade77.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c405bb3c8655da2aade77.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c4074afaedd1c8968da89.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c4074afaedd1c8968da89.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c4074afaedd1c8968da89.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c4074afaedd1c8968da89.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c4074afaedd1c8968da89.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c40860cd3954cb21f5d70.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c40860cd3954cb21f5d70.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c40860cd3954cb21f5d70.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c40860cd3954cb21f5d70.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c40860cd3954cb21f5d70.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c409807cf451b94acbfa3.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c409807cf451b94acbfa3.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c409807cf451b94acbfa3.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c409807cf451b94acbfa3.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c409807cf451b94acbfa3.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c40a5817563b473ded5f3.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c40a5817563b473ded5f3.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c40a5817563b473ded5f3.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c40a5817563b473ded5f3.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c40a5817563b473ded5f3.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698b87481fe16693aa64d616.svg",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698b87481fe16693aa64d616.svg",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698b87481fe16693aa64d616.svg",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698b87481fe16693aa64d616.svg",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698b87481fe16693aa64d616.svg",
+                "website:https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c03b7659bec99fcde6ad5.mp4",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698e48a83f860bd7cfae5ee6.svg",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698e48a83f860bd7cfae5ee6.svg",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698e48a83f860bd7cfae5ee6.svg",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698e48a83f860bd7cfae5ee6.svg",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698e48a83f860bd7cfae5ee6.svg",
+                "website:https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c03b7c2035a603802ff79.mp4",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698e48fa00076175e9eaa151.svg",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698e48fa00076175e9eaa151.svg",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698e48fa00076175e9eaa151.svg",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698e48fa00076175e9eaa151.svg",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698e48fa00076175e9eaa151.svg",
+                "website:https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c03b7b3c8655da2a02d4e.mp4",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698e49ab008498ae0ea9ba20.svg",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698e49ab008498ae0ea9ba20.svg",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698e49ab008498ae0ea9ba20.svg",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698e49ab008498ae0ea9ba20.svg",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698e49ab008498ae0ea9ba20.svg",
+                "website:https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c03b7659bec99fcde6ada.mp4",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698e4a0724813c5074ae5f66.svg",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698e4a0724813c5074ae5f66.svg",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698e4a0724813c5074ae5f66.svg",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698e4a0724813c5074ae5f66.svg",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698e4a0724813c5074ae5f66.svg",
+                "website:https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c03b6ae7d4768394396d7.mp4",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698c9af72b3ea69a38cfc56e.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698c9af72b3ea69a38cfc56e.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698c9af72b3ea69a38cfc56e.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698c9af72b3ea69a38cfc56e.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698c9af72b3ea69a38cfc56e.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698c9c4c2b3ea6f583d00189.svg",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698c9c4c2b3ea6f583d00189.svg",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698c9c4c2b3ea6f583d00189.svg",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698c9c4c2b3ea6f583d00189.svg",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698c9c4c2b3ea6f583d00189.svg",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c1d846a41444190701e31.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c1d846a41444190701e31.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c1d846a41444190701e31.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c1d846a41444190701e31.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c1d846a41444190701e31.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698cb6b29c48d3017e6179d7.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698cb6b29c48d3017e6179d7.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698cb6b29c48d3017e6179d7.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698cb6b29c48d3017e6179d7.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698cb6b29c48d3017e6179d7.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698cbcdc3fdd0ee243b6ce2e.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698cbcdc3fdd0ee243b6ce2e.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698cbcdc3fdd0ee243b6ce2e.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698cbcdc3fdd0ee243b6ce2e.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698cbcdc3fdd0ee243b6ce2e.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c0b5cae7d47683944d909.webp",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c0b5cae7d47683944d909.webp",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c0b5cae7d47683944d909.webp",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c0b5cae7d47683944d909.webp",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c0b5cae7d47683944d909.webp",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c0bb3ed0b3a2621180dc0.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c0bb3ed0b3a2621180dc0.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c0bb3ed0b3a2621180dc0.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c0bb3ed0b3a2621180dc0.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a3c0bb3ed0b3a2621180dc0.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_70/r_800/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a4be612f0cead6a3c922344.webp",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698cf351721397861d9cefaf.svg",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698cf351721397861d9cefaf.svg",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698cf351721397861d9cefaf.svg",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698cf351721397861d9cefaf.svg",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698cf351721397861d9cefaf.svg",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698dfd8624813cc47286314b.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698dfd8624813cc47286314b.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698dfd8624813cc47286314b.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698dfd8624813cc47286314b.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698dfd8624813cc47286314b.png",
+                "website:https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/698e232d24813c4d919378bd.png",
+                "website:https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/698e27ef899b88e987ad2c59.png",
+                "website:https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/698e2822211b653a6d8473d3.png",
+                "website:https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/698e28423f860b485e96f5d7.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698e1db8a449645f2c9e4b69.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698e1db8a449645f2c9e4b69.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698e1db8a449645f2c9e4b69.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698e1db8a449645f2c9e4b69.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/698e1db8a449645f2c9e4b69.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a506eacd2a0b72e015.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a506eacd2a0b72e015.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a506eacd2a0b72e015.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a506eacd2a0b72e015.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a506eacd2a0b72e015.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6708273f16989c97e93c88f4.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6708273f16989c97e93c88f4.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6708273f16989c97e93c88f4.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6708273f16989c97e93c88f4.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6708273f16989c97e93c88f4.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a5eeb737f0f46d445b.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a5eeb737f0f46d445b.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a5eeb737f0f46d445b.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a5eeb737f0f46d445b.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a5eeb737f0f46d445b.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67abd58650fb000ed8851f30.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67abd58650fb000ed8851f30.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67abd58650fb000ed8851f30.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67abd58650fb000ed8851f30.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67abd58650fb000ed8851f30.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67af641f237ce2563df82508.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67af641f237ce2563df82508.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67af641f237ce2563df82508.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67af641f237ce2563df82508.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67af641f237ce2563df82508.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a572d42b2bbdab113b.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a572d42b2bbdab113b.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a572d42b2bbdab113b.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a572d42b2bbdab113b.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a572d42b2bbdab113b.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a579284bbe3b6a77ac.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a579284bbe3b6a77ac.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a579284bbe3b6a77ac.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a579284bbe3b6a77ac.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a579284bbe3b6a77ac.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a579284bdb1a6a77ab.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a579284bdb1a6a77ab.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a579284bdb1a6a77ab.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a579284bdb1a6a77ab.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a579284bdb1a6a77ab.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a5ee6da9493235043e.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a5ee6da9493235043e.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a5ee6da9493235043e.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a5ee6da9493235043e.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a5ee6da9493235043e.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a5ee6da9500a35043d.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a5ee6da9500a35043d.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a5ee6da9500a35043d.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a5ee6da9500a35043d.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a5ee6da9500a35043d.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a506eacd595072e016.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a506eacd595072e016.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a506eacd595072e016.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a506eacd595072e016.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a506eacd595072e016.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a534b29afa9dca6433.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a534b29afa9dca6433.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a534b29afa9dca6433.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a534b29afa9dca6433.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a534b29afa9dca6433.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a537d82f92fceb7e3d.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a537d82f92fceb7e3d.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a537d82f92fceb7e3d.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a537d82f92fceb7e3d.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a537d82f92fceb7e3d.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a54325e150f16636dc.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a54325e150f16636dc.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a54325e150f16636dc.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a54325e150f16636dc.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a54325e150f16636dc.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a534b29a2b24ca6434.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a534b29a2b24ca6434.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a534b29a2b24ca6434.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a534b29a2b24ca6434.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a534b29a2b24ca6434.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a579284b08c36a77ad.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a579284b08c36a77ad.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a579284b08c36a77ad.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a579284b08c36a77ad.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a579284b08c36a77ad.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a5ee6da9160435043f.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a5ee6da9160435043f.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a5ee6da9160435043f.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a5ee6da9160435043f.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a5ee6da9160435043f.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a534b29a1b3eca6435.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a534b29a1b3eca6435.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a534b29a1b3eca6435.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a534b29a1b3eca6435.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a534b29a1b3eca6435.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a5f3bda8b1b50e5c3e.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a5f3bda8b1b50e5c3e.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a5f3bda8b1b50e5c3e.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a5f3bda8b1b50e5c3e.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a5f3bda8b1b50e5c3e.png",
+                "website:https://backend.leadconnectorhq.com/funnels/funnel/geo-location/",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/c38d8c10-d677-499c-bd6a-04a9eed3b792.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/c38d8c10-d677-499c-bd6a-04a9eed3b792.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/c38d8c10-d677-499c-bd6a-04a9eed3b792.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/c38d8c10-d677-499c-bd6a-04a9eed3b792.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/c38d8c10-d677-499c-bd6a-04a9eed3b792.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/e9a5e1bf-d92d-4835-b7dc-49bd2e3829db.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/e9a5e1bf-d92d-4835-b7dc-49bd2e3829db.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/e9a5e1bf-d92d-4835-b7dc-49bd2e3829db.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/e9a5e1bf-d92d-4835-b7dc-49bd2e3829db.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/e9a5e1bf-d92d-4835-b7dc-49bd2e3829db.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/31bd3bea-3540-4189-8ebf-77893e21b576.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/31bd3bea-3540-4189-8ebf-77893e21b576.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/31bd3bea-3540-4189-8ebf-77893e21b576.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/31bd3bea-3540-4189-8ebf-77893e21b576.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/31bd3bea-3540-4189-8ebf-77893e21b576.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/ae6ae721-21e1-4400-bad3-86306eedfa13.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/ae6ae721-21e1-4400-bad3-86306eedfa13.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/ae6ae721-21e1-4400-bad3-86306eedfa13.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/ae6ae721-21e1-4400-bad3-86306eedfa13.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/ae6ae721-21e1-4400-bad3-86306eedfa13.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/45283a23-fcd6-4074-9dc5-7d0466270487.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/45283a23-fcd6-4074-9dc5-7d0466270487.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/45283a23-fcd6-4074-9dc5-7d0466270487.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/45283a23-fcd6-4074-9dc5-7d0466270487.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/45283a23-fcd6-4074-9dc5-7d0466270487.png",
+                "website:https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/6967c77041dad1ae7d9c7f2c.svg",
+                "website:https://www.googletagmanager.com/ns.html?id=GTM-WW8CJ4V",
+                "website:https://apisystem.tech/",
+                "website:https://backend.leadconnectorhq.com/appengine",
+                "website:https://cdn.msgsndr.com/",
+                "website:https://assets.cdn.msgsndr.com/",
+                "website:https://assets.cdn.filesafe.space/",
+                "website:https://backend.leadconnectorhq.com/appengine/reviews/get_widget/",
+                "website:https://payment-embed.leadconnectorhq.com/",
+                "website:https://content.apisystem.tech/",
+                "website:https://jstest.authorize.net/v1/Accept.js",
+                "website:https://js.authorize.net/v1/Accept.js",
+                "website:https://secure.safewebservices.com/token/Collect.js",
+                "website:https://services.leadconnectorhq.com/common-google",
+                "website:https://backend.leadconnectorhq.com/ecommerce",
+                "website:https://stcdn.leadconnectorhq.com/",
+                "website:https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap",
+                "website:https://marketing.gohighlevel.com/brandkit",
+                "website:https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d7edba9c84d38e9e7f9dc3.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d67ae3a64a04ba15e6b867.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d67ae3a64a04ba15e6b867.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d67ae3a64a04ba15e6b867.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d6a0b2eab85b1f9d685993.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d6a0b2eab85b1f9d685993.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d6a0b2eab85b1f9d685993.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/68dc14d7a969ba71daf21593.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/68dc14d7a969ba71daf21593.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/68dc14d7a969ba71daf21593.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/68dc14d7a969ba71daf21593.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/68dc14d7a969ba71daf21593.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d69c5cf5ebf27de35283b5.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d69c5cf5ebf27de35283b5.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d69c5cf5ebf27de35283b5.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d69c5cf5ebf27de35283b5.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d69c5cf5ebf27de35283b5.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d69c5c9ec744e908e3713a.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d69c5c9ec744e908e3713a.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d69c5c9ec744e908e3713a.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d69c5c9ec744e908e3713a.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d69c5c9ec744e908e3713a.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a2307e85f72b50cf84ad2fa.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a2307e85f72b50cf84ad2fa.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a2307e85f72b50cf84ad2fa.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a2307e85f72b50cf84ad2fa.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6a2307e85f72b50cf84ad2fa.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d69c5c90a73dfcd3ca2d21.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d69c5c90a73dfcd3ca2d21.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d69c5c90a73dfcd3ca2d21.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d69c5c90a73dfcd3ca2d21.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d69c5c90a73dfcd3ca2d21.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d69c5c8d2a8a865ae6fa23.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d69c5c8d2a8a865ae6fa23.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d69c5c8d2a8a865ae6fa23.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d69c5c8d2a8a865ae6fa23.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d69c5c8d2a8a865ae6fa23.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d697e4f7bfdb83df372871.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d697e4f7bfdb83df372871.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d697e4f7bfdb83df372871.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d697e4f7bfdb83df372871.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d697e4f7bfdb83df372871.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d69ead0603b8f8f948d542.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d69ead0603b8f8f948d542.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d69ead0603b8f8f948d542.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d69ead0603b8f8f948d542.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d69ead0603b8f8f948d542.png",
+                "website:https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d6a6bd3dd00cb232a8a07e.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d6a6bd3dd00cb232a8a07e.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d6a6bd3dd00cb232a8a07e.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d6a6bd3dd00cb232a8a07e.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d6a6bd3dd00cb232a8a07e.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d6a91df5ebf27de35485d4.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d6a91df5ebf27de35485d4.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d6a91df5ebf27de35485d4.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d6a91df5ebf27de35485d4.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d6a91df5ebf27de35485d4.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d6a91da7dcb4cff054402e.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d6a91da7dcb4cff054402e.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d6a91da7dcb4cff054402e.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d6a91da7dcb4cff054402e.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d6a91da7dcb4cff054402e.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d6b4b2f7bfdb83df3c0f8a.jpg",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d6b4b2f7bfdb83df3c0f8a.jpg",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d6b4b2f7bfdb83df3c0f8a.jpg",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d6b4b2f7bfdb83df3c0f8a.jpg",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d6b4b2f7bfdb83df3c0f8a.jpg",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d6b4b2f5ebf27de356d8a6.jpg",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d6b4b2f5ebf27de356d8a6.jpg",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d6b4b2f5ebf27de356d8a6.jpg",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d6b4b2f5ebf27de356d8a6.jpg",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d6b4b2f5ebf27de356d8a6.jpg",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d6b4b2a7dcb4cff0569972.jpg",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d6b4b2a7dcb4cff0569972.jpg",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d6b4b2a7dcb4cff0569972.jpg",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d6b4b2a7dcb4cff0569972.jpg",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d6b4b2a7dcb4cff0569972.jpg",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d7ad6bd7871cddf7c8e83a.svg",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d7ad6bd7871cddf7c8e83a.svg",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d7ad6bd7871cddf7c8e83a.svg",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d7ad6bd7871cddf7c8e83a.svg",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69d7ad6bd7871cddf7c8e83a.svg",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/699884375ba498293a0004e7.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/699884375ba498293a0004e7.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/699884375ba498293a0004e7.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/699884375ba498293a0004e7.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/699884375ba498293a0004e7.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/682234d171003715a6a7b6ac.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/682234d171003715a6a7b6ac.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/682234d171003715a6a7b6ac.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/682234d171003715a6a7b6ac.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/682234d171003715a6a7b6ac.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6998845ed83aec8e776cc0e6.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6998845ed83aec8e776cc0e6.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6998845ed83aec8e776cc0e6.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6998845ed83aec8e776cc0e6.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6998845ed83aec8e776cc0e6.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6998845edf9bdf7d065e7446.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6998845edf9bdf7d065e7446.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6998845edf9bdf7d065e7446.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6998845edf9bdf7d065e7446.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6998845edf9bdf7d065e7446.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6998845edf9bdff3565e7445.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6998845edf9bdff3565e7445.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6998845edf9bdff3565e7445.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6998845edf9bdff3565e7445.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6998845edf9bdff3565e7445.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6998845e3a2afd603d599e77.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6998845e3a2afd603d599e77.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6998845e3a2afd603d599e77.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6998845e3a2afd603d599e77.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6998845e3a2afd603d599e77.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6998845e63ae754d8c28a846.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6998845e63ae754d8c28a846.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6998845e63ae754d8c28a846.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6998845e63ae754d8c28a846.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6998845e63ae754d8c28a846.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6998845e511a287f0f4965d8.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6998845e511a287f0f4965d8.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6998845e511a287f0f4965d8.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6998845e511a287f0f4965d8.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6998845e511a287f0f4965d8.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6998845edf9bdfa78f5e7444.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6998845edf9bdfa78f5e7444.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_640/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6998845edf9bdfa78f5e7444.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6998845edf9bdfa78f5e7444.png",
+                "website:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6998845edf9bdfa78f5e7444.png"
+              ],
+              "website": "https://www.gohighlevel.com/holiday-promotion-2025?fp_ref=agenor94",
+              "contactValues": [
+                {
+                  "value": "https://imthegeek.com/",
+                  "channel": "website",
+                  "surface": "profile_text",
+                  "evidenceUrl": "https://www.instagram.com/p/DHSQfoYx992/"
+                },
+                {
+                  "value": "18887324197",
+                  "channel": "phone",
+                  "surface": "owned_website",
+                  "evidenceUrl": "https://www.gohighlevel.com/holiday-promotion-2025?fp_ref=agenor94"
+                },
+                {
+                  "value": "highlevelreviews",
+                  "channel": "facebook",
+                  "surface": "owned_website",
+                  "evidenceUrl": "https://www.gohighlevel.com/holiday-promotion-2025?fp_ref=agenor94"
+                },
+                {
+                  "value": "gohighlevel",
+                  "channel": "instagram",
+                  "surface": "owned_website",
+                  "evidenceUrl": "https://www.gohighlevel.com/holiday-promotion-2025?fp_ref=agenor94"
+                },
+                {
+                  "value": "gohighlevel",
+                  "channel": "twitter",
+                  "surface": "owned_website",
+                  "evidenceUrl": "https://www.gohighlevel.com/holiday-promotion-2025?fp_ref=agenor94"
+                },
+                {
+                  "value": "channel/UCXFiV4qDX5ipE-DQcsm1j4g",
+                  "channel": "youtube",
+                  "surface": "owned_website",
+                  "evidenceUrl": "https://www.gohighlevel.com/holiday-promotion-2025?fp_ref=agenor94"
+                },
+                {
+                  "value": "https://www.gohighlevel.com/about-us",
+                  "channel": "website",
+                  "surface": "owned_website",
+                  "evidenceUrl": "https://www.gohighlevel.com/holiday-promotion-2025?fp_ref=agenor94"
+                },
+                {
+                  "value": "https://fonts.gstatic.com/",
+                  "channel": "website",
+                  "surface": "owned_website",
+                  "evidenceUrl": "https://www.gohighlevel.com/holiday-promotion-2025?fp_ref=agenor94"
+                },
+                {
+                  "value": "https://backend.leadconnectorhq.com/",
+                  "channel": "website",
+                  "surface": "owned_website",
+                  "evidenceUrl": "https://www.gohighlevel.com/holiday-promotion-2025?fp_ref=agenor94"
+                },
+                {
+                  "value": "https://images.leadconnectorhq.com/",
+                  "channel": "website",
+                  "surface": "owned_website",
+                  "evidenceUrl": "https://www.gohighlevel.com/holiday-promotion-2025?fp_ref=agenor94"
+                },
+                {
+                  "value": "https://cdn.filesafe.space/",
+                  "channel": "website",
+                  "surface": "owned_website",
+                  "evidenceUrl": "https://www.gohighlevel.com/holiday-promotion-2025?fp_ref=agenor94"
+                },
+                {
+                  "value": "https://fonts.bunny.net/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap",
+                  "channel": "website",
+                  "surface": "owned_website",
+                  "evidenceUrl": "https://www.gohighlevel.com/holiday-promotion-2025?fp_ref=agenor94"
+                },
+                {
+                  "value": "https://stcdn.leadconnectorhq.com/_preview/DYpTpgq3.js",
+                  "channel": "website",
+                  "surface": "owned_website",
+                  "evidenceUrl": "https://www.gohighlevel.com/holiday-promotion-2025?fp_ref=agenor94"
+                },
+                {
+                  "value": "https://stcdn.leadconnectorhq.com/_preview/CCVvgE-L.js",
+                  "channel": "website",
+                  "surface": "owned_website",
+                  "evidenceUrl": "https://www.gohighlevel.com/holiday-promotion-2025?fp_ref=agenor94"
+                },
+                {
+                  "value": "https://stcdn.leadconnectorhq.com/_preview/Cb1H6hkC.js",
+                  "channel": "website",
+                  "surface": "owned_website",
+                  "evidenceUrl": "https://www.gohighlevel.com/holiday-promotion-2025?fp_ref=agenor94"
+                }
+              ]
+            },
+            "audience": {
+              "view": {
+                "age": {
+                  "n": 24,
+                  "moePct": 20,
+                  "buckets": [
+                    {
+                      "key": "<=18",
+                      "share": 0
+                    },
+                    {
+                      "key": "19-29",
+                      "share": 0
+                    },
+                    {
+                      "key": "30-39",
+                      "share": 0.0833740234375
+                    },
+                    {
+                      "key": ">=40",
+                      "share": 0.625
+                    },
+                    {
+                      "key": "unknown",
+                      "share": 0.2916259765625
+                    }
+                  ],
+                  "confidence": "low"
+                },
+                "gender": {
+                  "n": 24,
+                  "moePct": 20,
+                  "buckets": [
+                    {
+                      "key": "female",
+                      "share": 0.375
+                    },
+                    {
+                      "key": "male",
+                      "share": 0.625
+                    },
+                    {
+                      "key": "unknown",
+                      "share": 0
+                    }
+                  ],
+                  "confidence": "low"
+                },
+                "handle": "imthegeekjr",
+                "method": "follower_sample",
+                "location": {
+                  "n": 25,
+                  "moePct": 19.6,
+                  "buckets": [
+                    {
+                      "key": "BR",
+                      "share": 0.7999267578125
+                    },
+                    {
+                      "key": "CA",
+                      "share": 0.0400390625
+                    },
+                    {
+                      "key": "JP",
+                      "share": 0.0400390625
+                    },
+                    {
+                      "key": "unknown",
+                      "share": 0.1199951171875
+                    }
+                  ],
+                  "confidence": "low"
+                },
+                "platform": "instagram",
+                "capturedAt": "2026-10-09T18:08:59.526Z",
+                "kolCacheId": "",
+                "sampledCount": 25,
+                "followerCount": 79634,
+                "sampleRecency": "latest_followers",
+                "audienceSignals": {
+                  "orgShare": 0.04,
+                  "privateShare": 0.12,
+                  "verifiedShare": 0,
+                  "lowSignalShare": 0,
+                  "influencerShare": null,
+                  "capturedDimensions": [
+                    "gender",
+                    "age",
+                    "location"
+                  ],
+                  "medianFollowerCount": null,
+                  "countryEvidenceVersion": 1
+                }
+              },
+              "share": null,
+              "moePct": null,
+              "passes": null,
+              "record": {
+                "age": {
+                  "n": 24,
+                  "moePct": 20,
+                  "buckets": [
+                    {
+                      "key": "<=18",
+                      "share": 0
+                    },
+                    {
+                      "key": "19-29",
+                      "share": 0
+                    },
+                    {
+                      "key": "30-39",
+                      "share": 0.0833740234375
+                    },
+                    {
+                      "key": ">=40",
+                      "share": 0.625
+                    },
+                    {
+                      "key": "unknown",
+                      "share": 0.2916259765625
+                    }
+                  ],
+                  "confidence": "low"
+                },
+                "gender": {
+                  "n": 24,
+                  "moePct": 20,
+                  "buckets": [
+                    {
+                      "key": "female",
+                      "share": 0.375
+                    },
+                    {
+                      "key": "male",
+                      "share": 0.625
+                    },
+                    {
+                      "key": "unknown",
+                      "share": 0
+                    }
+                  ],
+                  "confidence": "low"
+                },
+                "method": "follower_sample",
+                "source": "search_delivery",
+                "modelId": "google/gemini-3.7-flash",
+                "signals": {
+                  "orgShare": 0.04,
+                  "privateShare": 0.12,
+                  "verifiedShare": 0,
+                  "lowSignalShare": 0,
+                  "influencerShare": null,
+                  "capturedDimensions": [
+                    "gender",
+                    "age",
+                    "location"
+                  ],
+                  "medianFollowerCount": null,
+                  "countryEvidenceVersion": 1
+                },
+                "location": {
+                  "n": 25,
+                  "moePct": 19.6,
+                  "buckets": [
+                    {
+                      "key": "BR",
+                      "share": 0.7999267578125
+                    },
+                    {
+                      "key": "CA",
+                      "share": 0.0400390625
+                    },
+                    {
+                      "key": "JP",
+                      "share": 0.0400390625
+                    },
+                    {
+                      "key": "unknown",
+                      "share": 0.1199951171875
+                    }
+                  ],
+                  "confidence": "low"
+                },
+                "platform": "instagram",
+                "capturedAt": "2026-10-09T18:08:59.526Z",
+                "sampleSize": 25,
+                "modelCostUsd": 0.012715,
+                "promptVersion": "2026-09-01.v1",
+                "providerCalls": 28
+              },
+              "failure": null,
+              "sampled": 0,
+              "attempts": 1,
+              "countries": [],
+              "shareOfAll": null,
+              "minSharePct": 0,
+              "modelCostUsd": 0.012715,
+              "providerCalls": 28
+            },
+            "evidence": [
+              {
+                "url": "https://www.instagram.com/imthegeekjr/",
+                "kind": "content",
+                "text": "Fresh profile: About.country is United States; follower_count is 79,634; bio says “I’m The Geek” and “Daily #tech and #pc tips.”",
+                "provider": "tikhub",
+                "publishedAt": null
+              },
+              {
+                "url": "https://www.instagram.com/p/DHSQfoYx992/",
+                "kind": "content",
+                "text": "The contact tool reported the public website https://imthegeek.com/ from profile text.",
+                "provider": "tikhub",
+                "publishedAt": null
+              }
+            ],
+            "platform": "instagram",
+            "avatarUrl": "https://pompe-ai-analysis-artifacts.sgp1.cdn.digitaloceanspaces.com/creator-avatars/instagram/4708f7f7ac3b9f57899c7cb295951606.jpg",
+            "providers": [
+              "tikhub"
+            ],
+            "profileUrl": "https://www.instagram.com/imthegeekjr/",
+            "displayName": "Tech tips | Tech support | IT Consultant",
+            "overallTier": "A",
+            "factorGrades": {
+              "role": "strong",
+              "activity": "recent",
+              "identity": "individual",
+              "location": "confirmed_country",
+              "followers": "in_range",
+              "relevance": "strong"
+            },
+            "followerCount": 79634,
+            "providerUserId": "65840431012",
+            "searchMatchTier": "precise",
+            "profileCompleteness": "full"
+          }
+        ],
+        "alsoFound": [],
+        "summary": {
+          "lanes": [
+            {
+              "a": 1,
+              "b": 0,
+              "market": {
+                "unclear": 0,
+                "inMarket": 1,
+                "otherMarket": 0
+              },
+              "target": 4,
+              "location": {
+                "unverified": 0,
+                "confirmedCountry": 1,
+                "knownOtherCountry": 0
+              },
+              "platform": "instagram",
+              "rejected": {
+                "notNeeded": 0,
+                "notPerson": 0,
+                "offPersona": 0,
+                "notReviewed": 0,
+                "otherMarket": 0,
+                "locationUnknown": 0,
+                "noPublicContact": 0,
+                "audienceRegionBelow": 0,
+                "contactLookupFailed": 0,
+                "audienceRegionUnread": 0,
+                "outsideFollowerWindow": 0,
+                "contactBehindPlatformGate": 0
+              },
+              "delivered": 1,
+              "shortfallReason": "Only one candidate passed all account-level hard conditions among the four candidates searched and verified; the requested total of four was not met, and the candidate cap was exhausted. The qualification tool reported that this legacy run has no structured qualification bundle, so hard conditions were assessed manually from the retained profile evidence. The contact lookup returned unrelated third-party marketing-site results; these were omitted as non-attributable. The only creator-attributabl"
+            }
+          ],
+          "delivered": 1,
+          "requested": 4
+        },
+        "usage": {
+          "byPath": {
+            "/api/v1/instagram/v1/fetch_search": 15,
+            "/api/v1/instagram/v2/fetch_user_info": 37,
+            "/api/v1/instagram/v1/fetch_user_posts": 1,
+            "/api/v1/instagram/v1/fetch_hashtag_posts": 4,
+            "/api/v1/instagram/v2/fetch_user_followers": 1,
+            "/api/v1/instagram/v1/fetch_user_info_by_username_v2": 1
+          },
+          "refusals": 2,
+          "modelCalls": 29,
+          "inputTokens": 1685672,
+          "msPacerWait": 729,
+          "pageFetches": 0,
+          "totalTokens": 1706600,
+          "modelCostUsd": 0.012894088000000001,
+          "msInProvider": 381143,
+          "outputTokens": 20928,
+          "providerCalls": 59,
+          "providerCostUsd": 0.132,
+          "providerTimeouts": 0,
+          "agentModelCostUsd": 0.032905014999999996,
+          "cachedInputTokens": 1588348,
+          "msInProviderByPath": {
+            "/api/v1/instagram/v1/fetch_search": 126072,
+            "/api/v1/instagram/v2/fetch_user_info": 217571,
+            "/api/v1/instagram/v1/fetch_user_posts": 3863,
+            "/api/v1/instagram/v1/fetch_hashtag_posts": 17642,
+            "/api/v1/instagram/v2/fetch_user_followers": 8988,
+            "/api/v1/instagram/v1/fetch_user_info_by_username_v2": 7007
+          }
+        },
+        "expectedDurationHours": null
+      },
+      "finishedAt": 1791569520326
+    },
+    {
+      "id": "b1e3a86c-26db-4187-94e4-dd267b1da713",
+      "kind": "wavesurge",
+      "createdAt": 1791572154948,
+      "path": "/creator-search/requests",
+      "method": "POST",
+      "request": {
+        "requestId": "research-98350042b636d08a5d424a6c",
+        "personaText": "筛选1位Instagram创作者，所在地Canada或United States，粉丝10,000至100,000，分享科技或耳机评测内容。所有条件均为必选文字条件，无视觉条件。不要求邮箱、不做外联。最多核验2个候选。与学习/效率生活组须为不同Instagram账号。",
+        "count": 2,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [
+          "Canada",
+          "United States"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "emailReadyRequired": false
+      },
+      "status": 201,
+      "response": {
+        "taskId": "6f09acf3-e189-4e88-8dc9-b6f1403aa1d7"
+      },
+      "finishedAt": 1791572155194
+    },
+    {
+      "id": "c9a154b8-e1ba-42fb-83a6-defd2599b507",
+      "kind": "wavesurge",
+      "createdAt": 1791572155206,
+      "path": "/creator-search/requests",
+      "method": "POST",
+      "request": {
+        "requestId": "research-d7687a09b9a84db8c236a706",
+        "personaText": "筛选1位Instagram创作者，所在地Canada或United States，粉丝10,000至100,000，分享学习或效率生活内容。所有条件均为必选文字条件，无视觉条件。不要求邮箱、不做外联。最多核验2个候选。与科技/耳机评测组须为不同Instagram账号。",
+        "count": 2,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [
+          "Canada",
+          "United States"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "emailReadyRequired": false
+      },
+      "status": 201,
+      "response": {
+        "taskId": "7fde3d0c-efa7-49ca-9a84-d28e27f2d2e3"
+      },
+      "finishedAt": 1791572155433
+    },
+    {
+      "id": "e2945c3e-7150-400f-ba08-efb653341027",
+      "kind": "wavesurge",
+      "createdAt": 1791572250811,
+      "path": "/creator-search/requests/6f09acf3-e189-4e88-8dc9-b6f1403aa1d7",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "running",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791572251314
+    },
+    {
+      "id": "a2ecba0a-0da5-4aff-8b66-7fff68bb8b8f",
+      "kind": "wavesurge",
+      "createdAt": 1791572251318,
+      "path": "/creator-search/requests/7fde3d0c-efa7-49ca-9a84-d28e27f2d2e3",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "running",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791572251434
+    },
+    {
+      "id": "71f0f863-f32c-43c7-9a66-c765d573faed",
+      "kind": "wavesurge",
+      "createdAt": 1791572370827,
+      "path": "/creator-search/requests/6f09acf3-e189-4e88-8dc9-b6f1403aa1d7",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "running",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791572371045
+    },
+    {
+      "id": "0ab9e0d0-b456-49e3-a767-cb9beadce7cf",
+      "kind": "wavesurge",
+      "createdAt": 1791572371049,
+      "path": "/creator-search/requests/7fde3d0c-efa7-49ca-9a84-d28e27f2d2e3",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "done",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "summary": {
+          "lanes": [
+            {
+              "a": 0,
+              "b": 0,
+              "market": {
+                "unclear": 0,
+                "inMarket": 0,
+                "otherMarket": 0
+              },
+              "target": 2,
+              "location": {
+                "unverified": 0,
+                "confirmedCountry": 0,
+                "knownOtherCountry": 0
+              },
+              "platform": "instagram",
+              "rejected": {
+                "notNeeded": 0,
+                "notPerson": 0,
+                "offPersona": 0,
+                "notReviewed": 0,
+                "otherMarket": 0,
+                "locationUnknown": 0,
+                "noPublicContact": 0,
+                "audienceRegionBelow": 0,
+                "contactLookupFailed": 0,
+                "audienceRegionUnread": 0,
+                "outsideFollowerWindow": 0,
+                "contactBehindPlatformGate": 0
+              },
+              "delivered": 0,
+              "shortfallReason": "The two-candidate verification cap was reached; no further candidates were checked. No audience or contact enrichment was done because neither candidate passed the hard eligibility conditions."
+            }
+          ],
+          "delivered": 0,
+          "requested": 2
+        },
+        "usage": {
+          "byPath": {
+            "/api/v1/instagram/v1/fetch_search": 4,
+            "/api/v1/instagram/v2/fetch_user_info": 2,
+            "/api/v1/instagram/v1/fetch_user_info_by_username": 2
+          },
+          "refusals": 1,
+          "modelCalls": 14,
+          "inputTokens": 714356,
+          "msPacerWait": 17,
+          "pageFetches": 0,
+          "totalTokens": 721307,
+          "modelCostUsd": 0.000354942,
+          "msInProvider": 68559,
+          "outputTokens": 6951,
+          "providerCalls": 8,
+          "providerCostUsd": 0.024,
+          "providerTimeouts": 0,
+          "agentModelCostUsd": 0.019932205,
+          "cachedInputTokens": 633363,
+          "msInProviderByPath": {
+            "/api/v1/instagram/v1/fetch_search": 45524,
+            "/api/v1/instagram/v2/fetch_user_info": 14048,
+            "/api/v1/instagram/v1/fetch_user_info_by_username": 8987
+          }
+        },
+        "expectedDurationHours": null
+      },
+      "finishedAt": 1791572371161
+    },
+    {
+      "id": "13581218-e00d-4248-b332-d4f889f4ad06",
+      "kind": "wavesurge",
+      "createdAt": 1791572490910,
+      "path": "/creator-search/requests/6f09acf3-e189-4e88-8dc9-b6f1403aa1d7",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "done",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "summary": {
+          "lanes": [
+            {
+              "a": 0,
+              "b": 0,
+              "market": {
+                "unclear": 0,
+                "inMarket": 0,
+                "otherMarket": 0
+              },
+              "target": 2,
+              "location": {
+                "unverified": 0,
+                "confirmedCountry": 0,
+                "knownOtherCountry": 0
+              },
+              "platform": "instagram",
+              "rejected": {
+                "notNeeded": 0,
+                "notPerson": 0,
+                "offPersona": 0,
+                "notReviewed": 0,
+                "otherMarket": 0,
+                "locationUnknown": 0,
+                "noPublicContact": 0,
+                "audienceRegionBelow": 0,
+                "contactLookupFailed": 0,
+                "audienceRegionUnread": 0,
+                "outsideFollowerWindow": 0,
+                "contactBehindPlatformGate": 0
+              },
+              "delivered": 0,
+              "shortfallReason": "The frozen requirement specifies two total Instagram creators, while its persona text says to screen one. No learning/productivity-group account roster was available to verify cross-group uniqueness. Qualification returned that this legacy run had no structured qualification bundle, leaving candidates pending. The two-candidate verification cap was exceeded during parallel review: three profiles were checked. No further candidates were researched. Audience and contact enrichment were not perform"
+            }
+          ],
+          "delivered": 0,
+          "requested": 2
+        },
+        "usage": {
+          "byPath": {
+            "/api/v1/instagram/v1/fetch_search": 3,
+            "/api/v1/instagram/v2/search_reels": 1,
+            "/api/v1/instagram/v2/fetch_user_info": 2,
+            "/api/v1/instagram/v1/fetch_user_posts": 1,
+            "/api/v1/instagram/v1/fetch_user_about_info": 1,
+            "/api/v1/instagram/v1/fetch_user_info_by_username": 2
+          },
+          "refusals": 1,
+          "modelCalls": 53,
+          "inputTokens": 1185128,
+          "msPacerWait": 19,
+          "pageFetches": 0,
+          "totalTokens": 1197099,
+          "modelCostUsd": 0.000534996,
+          "msInProvider": 73942,
+          "outputTokens": 11971,
+          "providerCalls": 10,
+          "providerCostUsd": 0.041,
+          "providerTimeouts": 0,
+          "agentModelCostUsd": 0.07212388500000001,
+          "cachedInputTokens": 1091409,
+          "msInProviderByPath": {
+            "/api/v1/instagram/v1/fetch_search": 25593,
+            "/api/v1/instagram/v2/search_reels": 8723,
+            "/api/v1/instagram/v2/fetch_user_info": 8053,
+            "/api/v1/instagram/v1/fetch_user_posts": 19848,
+            "/api/v1/instagram/v1/fetch_user_about_info": 987,
+            "/api/v1/instagram/v1/fetch_user_info_by_username": 10738
+          }
+        },
+        "expectedDurationHours": null
+      },
+      "finishedAt": 1791572491146
+    },
+    {
+      "id": "4cbb3695-f7b6-4436-b39d-0af62457154f",
+      "kind": "wavesurge",
+      "createdAt": 1791573263663,
+      "path": "/creator-search/requests",
+      "method": "POST",
+      "request": {
+        "requestId": "research-329ed36c04d98223b610f7c0",
+        "personaText": "technology and headphone reviewers",
+        "count": 2,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [
+          "Canada",
+          "United States"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "emailReadyRequired": false
+      },
+      "status": 201,
+      "response": {
+        "taskId": "f9690908-d01c-4c74-a839-c048379f984a"
+      },
+      "finishedAt": 1791573264180
+    },
+    {
+      "id": "5f9967d9-ccfc-4aa1-a8fe-e43624e4d6d7",
+      "kind": "wavesurge",
+      "createdAt": 1791573264186,
+      "path": "/creator-search/requests",
+      "method": "POST",
+      "request": {
+        "requestId": "research-58949888b306ad726d60be23",
+        "personaText": "study and productivity creators",
+        "count": 2,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [
+          "Canada",
+          "United States"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "emailReadyRequired": false
+      },
+      "status": 201,
+      "response": {
+        "taskId": "81a2c6c7-32b9-4db3-9c16-ebb7b7adf986"
+      },
+      "finishedAt": 1791573264641
+    },
+    {
+      "id": "413c21e0-1ee8-42a4-bd5b-77342e6e54ba",
+      "kind": "wavesurge",
+      "createdAt": 1791573370882,
+      "path": "/creator-search/requests/f9690908-d01c-4c74-a839-c048379f984a",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "running",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791573371106
+    },
+    {
+      "id": "8f57c85a-0116-4ebc-b9e9-5bde9e9d8046",
+      "kind": "wavesurge",
+      "createdAt": 1791573371110,
+      "path": "/creator-search/requests/81a2c6c7-32b9-4db3-9c16-ebb7b7adf986",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "running",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791573371224
+    },
+    {
+      "id": "376fd42e-3d37-4da2-9b53-f4364b78f03c",
+      "kind": "wavesurge",
+      "createdAt": 1791573490912,
+      "path": "/creator-search/requests/f9690908-d01c-4c74-a839-c048379f984a",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "running",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791573491133
+    },
+    {
+      "id": "5ce1bd4e-4316-43c8-89cc-a3cd6f4c6b40",
+      "kind": "wavesurge",
+      "createdAt": 1791573491138,
+      "path": "/creator-search/requests/81a2c6c7-32b9-4db3-9c16-ebb7b7adf986",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "running",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791573491250
+    },
+    {
+      "id": "22373b03-0105-46e3-9b64-b9443cc8e8e7",
+      "kind": "wavesurge",
+      "createdAt": 1791573550921,
+      "path": "/creator-search/requests",
+      "method": "POST",
+      "request": {
+        "requestId": "research-5b048604116d7fcbdce4e705",
+        "personaText": "controlled technology creator fixture",
+        "count": 2,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [],
+        "minFollowers": 0,
+        "maxFollowers": 100000,
+        "emailReadyRequired": false
+      },
+      "status": 201,
+      "response": {
+        "taskId": "05b79b83-a3c7-4dd1-a90b-81a958601b15"
+      },
+      "finishedAt": 1791573551164
+    },
+    {
+      "id": "8f75ba78-737b-43e7-aadb-1e0f760da6d6",
+      "kind": "wavesurge",
+      "createdAt": 1791573551169,
+      "path": "/creator-search/requests",
+      "method": "POST",
+      "request": {
+        "requestId": "research-9698a6d1fc749a4a3df6084e",
+        "personaText": "controlled technology creator fixture",
+        "count": 2,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [],
+        "minFollowers": 0,
+        "maxFollowers": 100000,
+        "emailReadyRequired": false
+      },
+      "status": 201,
+      "response": {
+        "taskId": "d4678638-98d2-4c18-9d2c-3d1c5adf6587"
+      },
+      "finishedAt": 1791573551643
+    },
+    {
+      "id": "4be016dd-2759-40a5-b930-a27e69242d00",
+      "kind": "wavesurge",
+      "createdAt": 1791573610927,
+      "path": "/creator-search/requests/f9690908-d01c-4c74-a839-c048379f984a",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "running",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791573611154
+    },
+    {
+      "id": "e868d547-1a2e-4167-9262-3007737dfefe",
+      "kind": "wavesurge",
+      "createdAt": 1791573611158,
+      "path": "/creator-search/requests/81a2c6c7-32b9-4db3-9c16-ebb7b7adf986",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "running",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791573611269
+    },
+    {
+      "id": "9e64e364-8c98-4631-a6ee-1e67fded0baf",
+      "kind": "wavesurge",
+      "createdAt": 1791573611273,
+      "path": "/creator-search/requests/05b79b83-a3c7-4dd1-a90b-81a958601b15",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "running",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791573611381
+    },
+    {
+      "id": "7864581e-05f6-48af-84d3-392762b264c0",
+      "kind": "wavesurge",
+      "createdAt": 1791573728921,
+      "path": "/creator-search/requests/f9690908-d01c-4c74-a839-c048379f984a",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "running",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791573729147
+    },
+    {
+      "id": "94c8d2f9-c8a3-43de-938e-6524e6242828",
+      "kind": "wavesurge",
+      "createdAt": 1791573729151,
+      "path": "/creator-search/requests/81a2c6c7-32b9-4db3-9c16-ebb7b7adf986",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "running",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791573729257
+    },
+    {
+      "id": "93b8c38a-9e30-4e40-b762-06e9036b26b3",
+      "kind": "wavesurge",
+      "createdAt": 1791573842357,
+      "path": "/creator-search/requests/f9690908-d01c-4c74-a839-c048379f984a",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "running",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791573842861
+    },
+    {
+      "id": "c59d9491-d1d6-4c98-94fa-b4f91769790b",
+      "kind": "wavesurge",
+      "createdAt": 1791573842866,
+      "path": "/creator-search/requests/81a2c6c7-32b9-4db3-9c16-ebb7b7adf986",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "running",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791573842983
+    },
+    {
+      "id": "fa69f332-189f-4a80-9e70-c507afb87f66",
+      "kind": "wavesurge",
+      "createdAt": 1791573958203,
+      "path": "/creator-search/requests/f9690908-d01c-4c74-a839-c048379f984a",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "running",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791573958736
+    },
+    {
+      "id": "aa66b4fe-6eae-4e2f-aece-46583d18fd44",
+      "kind": "wavesurge",
+      "createdAt": 1791573958744,
+      "path": "/creator-search/requests/81a2c6c7-32b9-4db3-9c16-ebb7b7adf986",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "running",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791573958859
+    },
+    {
+      "id": "c76698b2-26c0-4222-9de0-3150bb3aea01",
+      "kind": "wavesurge",
+      "createdAt": 1791574066039,
+      "path": "/creator-search/requests/f9690908-d01c-4c74-a839-c048379f984a",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "running",
+        "strategyOperationId": null,
+        "creators": [],
+        "alsoFound": [],
+        "expectedDurationHours": 5
+      },
+      "finishedAt": 1791574066536
+    },
+    {
+      "id": "84fb501f-c1c4-4fa0-ae5a-874be3498206",
+      "kind": "wavesurge",
+      "createdAt": 1791574066546,
+      "path": "/creator-search/requests/81a2c6c7-32b9-4db3-9c16-ebb7b7adf986",
+      "method": "GET",
+      "request": null,
+      "status": 200,
+      "response": {
+        "status": "done",
+        "strategyOperationId": null,
+        "creators": [
+          {
+            "handle": "scorpiorisingmedia",
+            "region": "Philadelphia (Philly), United States",
+            "contact": {
+              "email": "lindsay@scorpiorisingmedia.com",
+              "website": "https://linktr.ee/scorpiorisingmedia",
+              "emailSurface": "profile_text",
+              "contactValues": [],
+              "deliverability": "unverified",
+              "emailOwnership": "representative",
+              "emailEvidenceUrl": "https://www.instagram.com/scorpiorisingmedia/"
+            },
+            "evidence": [
+              {
+                "url": "https://www.instagram.com/scorpiorisingmedia/",
+                "kind": "content",
+                "text": "Profile name: “Lindsay │ cozy desk + productivity.” Bio describes a “creative founder at her cozy desk,” lists “routines, planning, productivity,” says “Philly-based brand production studio,” and publishes [contact removed].",
+                "provider": "tikhub",
+                "publishedAt": null
+              },
+              {
+                "url": "https://www.instagram.com/scorpiorisingmedia/",
+                "kind": "content",
+                "text": "“Thought it was time for a little re-introduction ✨ I’m so happy you’re here!” followed by #aestheticdesk #cozydesksetup #comfortcreator #cozycore #wfhlife.",
+                "provider": "tikhub",
+                "publishedAt": "2026-08-24T13:16:53Z"
+              },
+              {
+                "url": "https://www.instagram.com/scorpiorisingmedia/",
+                "kind": "content",
+                "text": "Instagram About this account reports the account is based in the United States.",
+                "provider": "tikhub",
+                "publishedAt": null
+              }
+            ],
+            "platform": "instagram",
+            "avatarUrl": null,
+            "providers": [
+              "tikhub"
+            ],
+            "profileUrl": "https://www.instagram.com/scorpiorisingmedia/",
+            "displayName": "Lindsay │ cozy desk + productivity",
+            "overallTier": "A",
+            "factorGrades": {
+              "role": "strong",
+              "activity": "recent",
+              "identity": "individual",
+              "location": "confirmed_country",
+              "followers": "in_range",
+              "relevance": "strong"
+            },
+            "followerCount": 51901,
+            "providerUserId": "44770285214",
+            "searchMatchTier": "precise",
+            "profileCompleteness": "full"
+          },
+          {
+            "handle": "khushleenvirk",
+            "region": "Canada",
+            "contact": {
+              "other": [
+                "website:https://www.eventbrite.com/e/2002350485203?aff=oddtdtcreator",
+                "website:https://forms.gle/PnLxNRwk6MDUXQ5W9",
+                "website:https://www.eventbrite.ca/l/eventbrite-for-business/",
+                "website:https://www.eventbrite.ca/l/contact-eventbrite-sales/",
+                "website:https://www.eventbrite.ca/help/en-ca/articles/647151/how-to-contact-the-event-organizer/",
+                "website:https://www.eventbrite.ca/l/event-management-software/",
+                "website:https://www.eventbrite.ca/l/eventbrite-sales-contact/",
+                "website:https://synctranscend.eventbrite.com/consent-manager/f2747157-cf59-4ef1-8703-018defe51764",
+                "website:https://cdn.evbstatic.com/",
+                "website:https://img.evbuc.com/",
+                "website:https://cdn.evbstatic.com/s3-build/perm_001/8e1e99/django/images/favicons/favicon-32x32.png",
+                "website:https://cdn.evbstatic.com/s3-build/perm_001/317aa1/django/images/favicons/favicon-194x194.png",
+                "website:https://cdn.evbstatic.com/s3-build/perm_001/4f7930/django/images/favicons/favicon-96x96.png",
+                "website:https://cdn.evbstatic.com/s3-build/perm_001/8730ae/django/images/favicons/android-chrome-192x192.png",
+                "website:https://cdn.evbstatic.com/s3-build/perm_001/765d40/django/images/favicons/favicon-16x16.png",
+                "website:https://cdn.evbstatic.com/s3-build/perm_001/b61505/django/images/favicons/favicon.ico",
+                "website:https://cdn.evbstatic.com/s3-build/perm_001/8730ae/django/images/touch_icons/apple-touch-icon-180x180.png",
+                "website:https://cdn.evbstatic.com/s3-build/perm_001/befbf7/django/images/favicons/manifest.webmanifest",
+                "website:https://www.eventbrite.ca/e/break-free-from-within-tickets-2002350485203",
+                "website:https://www.googletagmanager.com/",
+                "website:https://cdntranscend.eventbrite.com/",
+                "website:https://synctranscend.eventbrite.com/",
+                "website:https://cdn.evbstatic.com/e/_next/static/chunks/2y6vlmmydw2_-.css",
+                "website:https://cdn.evbstatic.com/e/_next/static/chunks/0dchno78-u8xz.css",
+                "website:https://cdn.evbstatic.com/e/_next/static/chunks/44i6v8uuhd3vb.css",
+                "website:https://cdn.evbstatic.com/e/_next/static/chunks/3nbvoqp24dcv6.css",
+                "website:https://cdn.evbstatic.com/e/_next/static/chunks/3x-pjvgz9slzg.css",
+                "website:https://cdn.evbstatic.com/e/_next/static/chunks/13-ctfj-9c26d.css",
+                "website:https://cdn.evbstatic.com/e/_next/static/chunks/2yojnwwngeit1.css",
+                "website:https://cdn.evbstatic.com/e/_next/static/chunks/1yvdisf7vs58z.css",
+                "website:https://cdn.evbstatic.com/e/_next/static/chunks/1hsewpvp_ds90.css",
+                "website:https://cdn.evbstatic.com/e/_next/static/chunks/0i6jylhceykyp.css",
+                "website:https://cdn.evbstatic.com/e/_next/static/chunks/1m2mrmudyttx8.css",
+                "website:https://cdn.evbstatic.com/e/_next/static/chunks/3yjjzqoat4owo.css",
+                "website:https://cdn.evbstatic.com/e/_next/static/chunks/15ybcrpzxa9cy.css",
+                "website:https://www.eventbrite.ca/",
+                "website:https://www.eventbrite.ca/d/local/events/",
+                "website:https://www.eventbrite.ca/l/sell-tickets-online/",
+                "website:https://www.eventbrite.ca/l/event-marketing-platform/",
+                "website:https://www.eventbrite.ca/l/eventbrite-ads/",
+                "website:https://www.eventbrite.ca/l/event-payment/",
+                "website:https://www.eventbrite.ca/l/music/",
+                "website:https://www.eventbrite.ca/l/food-drink-event-ticketing/",
+                "website:https://www.eventbrite.ca/l/performing-arts/",
+                "website:https://www.eventbrite.ca/l/npo/",
+                "website:https://www.eventbrite.ca/l/host-retail-events/",
+                "website:https://www.eventbrite.ca/l/music-venues/",
+                "website:https://www.eventbrite.ca/l/create-a-workshop/",
+                "website:https://www.eventbrite.ca/l/festival-solutions/",
+                "website:https://www.eventbrite.ca/l/conferences/",
+                "website:https://www.eventbrite.ca/l/virtual-events-platform/",
+                "website:https://www.eventbrite.ca/blog/category/tips-and-guides/",
+                "website:https://www.eventbrite.ca/blog/category/news-and-trends/",
+                "website:https://www.eventbrite.ca/blog/category/community/",
+                "website:https://www.eventbrite.ca/blog/category/tools-and-features/",
+                "website:https://www.eventbrite.ca/organizer/overview/",
+                "website:https://www.eventbrite.ca/signin/signup/?referrer=/manage/events/create/",
+                "website:https://www.eventbrite.ca/help/en-ca/",
+                "website:https://www.eventbrite.ca/help/en-ca/articles/319355/where-are-my-tickets/",
+                "website:https://www.eventbrite.ca/product-updates",
+                "website:https://maps.google.com/?saddr=Current+Location&daddr=49.1421114,-122.8656746&mode=driving",
+                "website:https://maps.google.com/?saddr=Current+Location&daddr=49.1421114,-122.8656746&mode=transit&dirflg=r",
+                "website:https://maps.google.com/?saddr=Current+Location&daddr=49.1421114,-122.8656746&mode=bicycling&dirflg=b",
+                "website:https://maps.google.com/?saddr=Current+Location&daddr=49.1421114,-122.8656746&mode=walking&dirflg=w",
+                "website:https://www.eventbrite.ca/o/121787569881",
+                "website:https://www.eventbrite.ca/organizer/pricing/",
+                "website:https://www.eventbrite.ca/blog/",
+                "website:https://www.eventbrite.ca/l/host-yoga-event/",
+                "website:https://www.eventbrite.ca/l/sell-tickets/",
+                "website:https://www.eventbrite.ca/l/registration-online/",
+                "website:https://www.eventbrite.ca/l/online-rsvp/",
+                "website:https://www.eventbrite.ca/l/onsite/",
+                "website:https://www.eventbrite.ca/d/online/events/",
+                "website:https://www.eventbrite.ca/l/eventbrite-app/",
+                "website:https://www.eventbrite.ca/help/en-us/",
+                "website:https://www.eventbrite.ca/help/en-us/articles/251210/eventbrite-terms-of-service/",
+                "website:https://www.eventbrite.ca/help/en-us/articles/460838/eventbrite-privacy-policy/",
+                "website:https://www.eventbrite.ca/help/en-us/articles/212596/supplemental-privacy-notice-for-california-residents/",
+                "website:https://www.eventbrite.ca/l/accessibility/",
+                "website:https://www.eventbrite.ca/l/community-guidelines/",
+                "website:https://www.eventbrite.ca/r/ereg",
+                "website:https://cdn.evbstatic.com/s3-build/perm_001/8ad267/django/images/favicons/mstile-144x144.png",
+                "website:https://www.eventbrite.ca/e/_next/image?url=https://img.evbuc.com/https://cdn.evbuc.com/images/1194431405/3015367117918/1/original.20260926-195653?crop=focalpoint&fit=crop&w=940&auto=format,compress&q=75&sharp=10&fp-x=0.471&fp-y=0.265&s=f677339ecd4dc9d506415bf8dfd4061a&w=940&q=75",
+                "website:https://schema.org/",
+                "website:https://img.evbuc.com/https://cdn.evbuc.com/images/1194431405/3015367117918/1/original.20260926-195653?crop=focalpoint&fit=crop&w=940&auto=format,compress&q=75&sharp=10&fp-x=0.471&fp-y=0.265&s=f677339ecd4dc9d506415bf8dfd4061a",
+                "website:https://schema.org/EventScheduled",
+                "website:https://www.eventbrite.ca/o/khushleenvirk-121787569881",
+                "website:https://schema.org/OfflineEventAttendanceMode",
+                "website:https://cdntranscend.eventbrite.com/cm/f2747157-cf59-4ef1-8703-018defe51764/airgap.js",
+                "website:https://cdn.evbstatic.com/e/_next/static/chunks/0df5nusjd-l61.js",
+                "website:https://cdn.evbstatic.com/e/_next/static/chunks/1lfj5stm016p-.js",
+                "website:https://cdn.evbstatic.com/e/_next/static/chunks/1wqkyqdvlzlk6.js",
+                "website:https://cdn.evbstatic.com/e/_next/static/chunks/3xx4hrp50clyj.js",
+                "website:https://cdn.evbstatic.com/e/_next/static/chunks/turbopack-27xataa7-q4v7.js",
+                "website:https://cdn.evbstatic.com/e/_next/static/chunks/3f1a5z6gf5vj4.js",
+                "website:https://cdn.evbstatic.com/e/_next/static/chunks/0kcge6vaws38o.js",
+                "website:https://cdn.evbstatic.com/e/_next/static/chunks/1gm_6hrz9n_q-.js",
+                "website:https://cdn.evbstatic.com/e/_next/static/chunks/163gf7xsharmy.js",
+                "website:https://cdn.evbstatic.com/e/_next/static/chunks/turbopack-22k2qdtm-8deq.js",
+                "website:https://cdn.evbstatic.com/e/_next/static/e572a9ae5c50a1a37031a3f66f9723403c9b827f-prod/_buildManifest.js",
+                "website:https://cdn.evbstatic.com/e/_next/static/e572a9ae5c50a1a37031a3f66f9723403c9b827f-prod/_ssgManifest.js",
+                "website:https://cdn.evbstatic.com/e/_next/static/e572a9ae5c50a1a37031a3f66f9723403c9b827f-prod/_clientMiddlewareManifest.js",
+                "website:http://www.w3.org/2000/svg",
+                "website:https://img.evbuc.com/https://cdn.evbuc.com/images/1194329219/3015367117918/1/original.20260925-002505?w=512\\u0026auto=format,compress\\u0026q=75\\u0026sharp=10\\u0026rect=0,8,1122,1122\\u0026s=d84fbc2c28c0113491a53f5cd7f7e53c",
+                "website:https://img.evbuc.com/https://cdn.evbuc.com/images/1194431405/3015367117918/1/original.20260926-195653?crop=focalpoint\\u0026fit=crop\\u0026h=460\\u0026w=736\\u0026auto=format,compress\\u0026q=75\\u0026sharp=10\\u0026fp-x=0.471\\u0026fp-y=0.265\\u0026s=417b33ef743641140b5cf6866f80780e",
+                "website:https://img.evbuc.com/https://cdn.evbuc.com/images/1194431405/3015367117918/1/original.20260926-195653?crop=focalpoint\\u0026fit=crop\\u0026w=480\\u0026auto=format,compress\\u0026q=75\\u0026sharp=10\\u0026fp-x=0.471\\u0026fp-y=0.265\\u0026s=d72ff701313cfb515bf3d82171decc8a",
+                "website:https://img.evbuc.com/https://cdn.evbuc.com/images/1194431405/3015367117918/1/original.20260926-195653?crop=focalpoint\\u0026fit=crop\\u0026w=600\\u0026auto=format,compress\\u0026q=75\\u0026sharp=10\\u0026fp-x=0.471\\u0026fp-y=0.265\\u0026s=6a49a4318e8ba5b46d64940ba8cd63b7",
+                "website:https://img.evbuc.com/https://cdn.evbuc.com/images/1194431405/3015367117918/1/original.20260926-195653?crop=focalpoint\\u0026fit=crop\\u0026w=940\\u0026auto=format,compress\\u0026q=75\\u0026sharp=10\\u0026fp-x=0.471\\u0026fp-y=0.265\\u0026s=f677339ecd4dc9d506415bf8dfd4061a",
+                "website:https://img.evbuc.com/https://cdn.evbuc.com/images/1194431405/3015367117918/1/original.20260926-195653?crop=focalpoint\\u0026fit=crop\\u0026w=1880\\u0026auto=format,compress\\u0026q=75\\u0026sharp=10\\u0026fp-x=0.471\\u0026fp-y=0.265\\u0026s=231035819e1dfc34ea7320eb1f2c5535",
+                "website:https://www.eventbrite.ca/logout/",
+                "website:https://www.eventbrite.ca/support/articleredirect?anum=10983",
+                "website:https://www.eventbrite.ca/support",
+                "website:https://www.eventbrite.ca/support/articleredirect?anum=3776",
+                "website:https://www.eventbrite.ca/support/articleredirect?anum=3275",
+                "website:https://cdn.evbstatic.com/e",
+                "website:https://img.evbuc.com/https://cdn.evbuc.com/images/1194431405/3015367117918/1/original.20260926-195653?crop=focalpoint&fit=crop&h=460&w=736&auto=format,compress&q=75&sharp=10&fp-x=0.471&fp-y=0.265&s=417b33ef743641140b5cf6866f80780e",
+                "website:https://img.evbuc.com/https://cdn.evbuc.com/images/1194431405/3015367117918/1/original.20260926-195653?crop=focalpoint&fit=crop&w=1880&auto=format,compress&q=75&sharp=10&fp-x=0.471&fp-y=0.265&s=231035819e1dfc34ea7320eb1f2c5535",
+                "website:https://cdn.evbstatic.com/e/_next/static/media/map.2hve6ktt4gqsr.png"
+              ],
+              "website": "https://www.eventbrite.com/e/2002350485203?aff=oddtdtcreator",
+              "contactValues": [
+                {
+                  "value": "https://www.eventbrite.ca/l/eventbrite-for-business/",
+                  "channel": "website",
+                  "surface": "owned_website",
+                  "evidenceUrl": "https://www.eventbrite.com/e/2002350485203?aff=oddtdtcreator"
+                },
+                {
+                  "value": "https://www.eventbrite.ca/l/contact-eventbrite-sales/",
+                  "channel": "website",
+                  "surface": "owned_website",
+                  "evidenceUrl": "https://www.eventbrite.com/e/2002350485203?aff=oddtdtcreator"
+                },
+                {
+                  "value": "https://www.eventbrite.ca/help/en-ca/articles/647151/how-to-contact-the-event-organizer/",
+                  "channel": "website",
+                  "surface": "owned_website",
+                  "evidenceUrl": "https://www.eventbrite.com/e/2002350485203?aff=oddtdtcreator"
+                },
+                {
+                  "value": "https://www.eventbrite.ca/l/event-management-software/",
+                  "channel": "website",
+                  "surface": "owned_website",
+                  "evidenceUrl": "https://www.eventbrite.com/e/2002350485203?aff=oddtdtcreator"
+                },
+                {
+                  "value": "https://www.eventbrite.ca/l/eventbrite-sales-contact/",
+                  "channel": "website",
+                  "surface": "owned_website",
+                  "evidenceUrl": "https://www.eventbrite.com/e/2002350485203?aff=oddtdtcreator"
+                },
+                {
+                  "value": "https://synctranscend.eventbrite.com/consent-manager/f2747157-cf59-4ef1-8703-018defe51764",
+                  "channel": "website",
+                  "surface": "owned_website",
+                  "evidenceUrl": "https://www.eventbrite.com/e/2002350485203?aff=oddtdtcreator"
+                },
+                {
+                  "value": "https://cdn.evbstatic.com/",
+                  "channel": "website",
+                  "surface": "owned_website",
+                  "evidenceUrl": "https://www.eventbrite.com/e/2002350485203?aff=oddtdtcreator"
+                },
+                {
+                  "value": "https://img.evbuc.com/",
+                  "channel": "website",
+                  "surface": "owned_website",
+                  "evidenceUrl": "https://www.eventbrite.com/e/2002350485203?aff=oddtdtcreator"
+                },
+                {
+                  "value": "https://cdn.evbstatic.com/s3-build/perm_001/8e1e99/django/images/favicons/favicon-32x32.png",
+                  "channel": "website",
+                  "surface": "owned_website",
+                  "evidenceUrl": "https://www.eventbrite.com/e/2002350485203?aff=oddtdtcreator"
+                },
+                {
+                  "value": "https://cdn.evbstatic.com/s3-build/perm_001/317aa1/django/images/favicons/favicon-194x194.png",
+                  "channel": "website",
+                  "surface": "owned_website",
+                  "evidenceUrl": "https://www.eventbrite.com/e/2002350485203?aff=oddtdtcreator"
+                }
+              ]
+            },
+            "evidence": [
+              {
+                "url": "https://www.instagram.com/khushleenvirk/",
+                "kind": "content",
+                "text": "Profile identifies “Khushleen Virk | Identity Transformation & Productivity Coach,” reports 52,727 followers, and bio advertises a Surrey in-person workshop.",
+                "provider": "tikhub",
+                "publishedAt": null
+              },
+              {
+                "url": "https://www.instagram.com/khushleenvirk/",
+                "kind": "content",
+                "text": "“You don’t need another realization / You need to actually act on the ones you’ve already had. / That’s the gap this workshop closes.” The post describes guided work on limiting beliefs affecting decisions.",
+                "provider": "tikhub",
+                "publishedAt": "2026-10-04T22:54:00Z"
+              },
+              {
+                "url": "https://www.instagram.com/khushleenvirk/",
+                "kind": "content",
+                "text": "Instagram About this account reports the account is based in Canada.",
+                "provider": "tikhub",
+                "publishedAt": null
+              }
+            ],
+            "platform": "instagram",
+            "avatarUrl": null,
+            "providers": [
+              "tikhub"
+            ],
+            "profileUrl": "https://www.instagram.com/khushleenvirk/",
+            "displayName": "Khushleen Virk | Identity Transformation & Productivity Coach",
+            "overallTier": "A",
+            "factorGrades": {
+              "role": "strong",
+              "activity": "recent",
+              "identity": "individual",
+              "location": "confirmed_country",
+              "followers": "in_range",
+              "relevance": "strong"
+            },
+            "followerCount": 52727,
+            "providerUserId": "7582108918",
+            "searchMatchTier": "precise",
+            "profileCompleteness": "full"
+          }
+        ],
+        "alsoFound": [],
+        "summary": {
+          "lanes": [
+            {
+              "a": 2,
+              "b": 0,
+              "market": {
+                "unclear": 0,
+                "inMarket": 2,
+                "otherMarket": 0
+              },
+              "target": 2,
+              "location": {
+                "unverified": 0,
+                "confirmedCountry": 2,
+                "knownOtherCountry": 0
+              },
+              "platform": "instagram",
+              "rejected": {
+                "notNeeded": 0,
+                "notPerson": 0,
+                "offPersona": 0,
+                "notReviewed": 0,
+                "otherMarket": 0,
+                "locationUnknown": 0,
+                "noPublicContact": 0,
+                "audienceRegionBelow": 0,
+                "contactLookupFailed": 0,
+                "audienceRegionUnread": 0,
+                "outsideFollowerWindow": 0,
+                "contactBehindPlatformGate": 0
+              },
+              "delivered": 2,
+              "shortfallReason": null
+            }
+          ],
+          "delivered": 2,
+          "requested": 2
+        },
+        "usage": {
+          "byPath": {
+            "/api/v1/instagram/v1/fetch_search": 39,
+            "/api/v1/instagram/v2/search_reels": 7,
+            "/api/v1/instagram/v2/search_users": 2,
+            "/api/v1/instagram/v3/search_users": 2,
+            "/api/v1/instagram/v2/general_search": 3,
+            "/api/v1/instagram/v3/get_user_about": 15,
+            "/api/v1/instagram/v2/fetch_user_info": 15,
+            "/api/v1/instagram/v2/search_hashtags": 2,
+            "/api/v1/instagram/v1/fetch_user_posts": 3,
+            "/api/v1/instagram/v1/fetch_hashtag_posts": 4,
+            "/api/v1/instagram/v2/fetch_hashtag_posts": 1,
+            "/api/v1/instagram/v2/fetch_user_followers": 12,
+            "/api/v1/instagram/v1/fetch_user_info_by_username": 27,
+            "/api/v1/instagram/v1/fetch_user_info_by_username_v2": 67
+          },
+          "refusals": 42,
+          "modelCalls": 158,
+          "inputTokens": 8241438,
+          "msPacerWait": 440,
+          "pageFetches": 0,
+          "totalTokens": 8278247,
+          "modelCostUsd": 0.012687234000000002,
+          "msInProvider": 917999,
+          "outputTokens": 36809,
+          "providerCalls": 199,
+          "providerCostUsd": 0.6460000000000001,
+          "providerTimeouts": 0,
+          "agentModelCostUsd": 0.27988353000000005,
+          "cachedInputTokens": 8052121,
+          "msInProviderByPath": {
+            "/api/v1/instagram/v1/fetch_search": 349579,
+            "/api/v1/instagram/v2/search_reels": 2237,
+            "/api/v1/instagram/v2/search_users": 668,
+            "/api/v1/instagram/v3/search_users": 7462,
+            "/api/v1/instagram/v2/general_search": 912,
+            "/api/v1/instagram/v3/get_user_about": 29981,
+            "/api/v1/instagram/v2/fetch_user_info": 6644,
+            "/api/v1/instagram/v2/search_hashtags": 720,
+            "/api/v1/instagram/v1/fetch_user_posts": 21229,
+            "/api/v1/instagram/v1/fetch_hashtag_posts": 17183,
+            "/api/v1/instagram/v2/fetch_hashtag_posts": 289,
+            "/api/v1/instagram/v2/fetch_user_followers": 3546,
+            "/api/v1/instagram/v1/fetch_user_info_by_username": 130681,
+            "/api/v1/instagram/v1/fetch_user_info_by_username_v2": 346868
+          }
+        },
+        "expectedDurationHours": null
+      },
+      "finishedAt": 1791574066667
+    }
+  ]
+}

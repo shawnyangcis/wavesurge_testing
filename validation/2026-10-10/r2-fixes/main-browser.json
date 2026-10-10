@@ -1,0 +1,45 @@
+{
+  "at": "2026-10-10T09:36:43.946Z",
+  "source": "upgraded main deployment, actual stored results and configured model; read-only natural query",
+  "errors": [],
+  "passed": true,
+  "query": "只查询现有研究 research-d22f5bc3f9c80da1a4979ca5：tylerlcrawford 和 valstechtalkk 现在的合格及入选状态分别是什么？按已存结果说明，不重新搜索、不补标、不重新核验，不创建任何新任务，不打开浏览器。",
+  "response": "按该研究最新已保存结果（两位均为**第5版**）：\n\n| 创作者 | 合格状态 | 入选状态 |\n|---|---|---|\n| **tylerlcrawford** | **合格**（`match`）：地区、平台、粉丝范围及科技内容条件均通过 | **已入选**（`selected=true`） |\n| **valstechtalkk** | **合格**（`match`）：地区、平台、粉丝范围及科技内容条件均通过 | **未入选**（`selected=false`） |\n\n**合格不等于入选**：valstechtalkk 并非不合格，只是当前保存的入选标记为否；结果记录没有说明具体未入选原因。\n\n本轮仅查询已存结果，未搜索、补标、重新核验、创建任务或打开浏览器。\n\n[查看原报告](/api/reports/research-d22f5bc3f9c80da1a4979ca5)",
+  "results": [
+    {
+      "handle": "tylerlcrawford",
+      "verdict": "match",
+      "selected": true,
+      "revision": 5,
+      "tags": [
+        "智能家居",
+        "家庭自动化",
+        "家居科技",
+        "科技与酒店评测（主页自述）",
+        "第一人称使用体验",
+        "生活场景化说明",
+        "按时间顺序讲解自动化流程",
+        "智能家居场景体验型 Reel",
+        "多设备自动化流程介绍",
+        "家居科技产品使用体验"
+      ]
+    },
+    {
+      "handle": "valstechtalkk",
+      "verdict": "match",
+      "selected": false,
+      "revision": 5,
+      "tags": [
+        "iPhone 功能与使用技巧",
+        "手机相机设置",
+        "技巧分享型",
+        "可爱与美妆元素融合的自述定位",
+        "iPhone 功能技巧短视频",
+        "手机相机设置教程短视频"
+      ]
+    }
+  ],
+  "newWaveCalls": 0,
+  "newTasks": 0,
+  "refreshPassed": true
+}

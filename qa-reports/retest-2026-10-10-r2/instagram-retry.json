@@ -1,0 +1,2077 @@
+{
+  "caseName": "instagram-retry",
+  "base": "http://127.0.0.1:3552",
+  "startedAt": "2026-10-10T06:27:00.350Z",
+  "source": "Actual application UI; configured real model and WaveSurge API; no seeded candidates or modified prompts",
+  "input": "刚才那条超时了，再试一下吧。范围和 geek风的口径都按我刚才说的，先只看 tylerlcrawford 和 valstechtalkk，不要增加别人。",
+  "before": {
+    "tasks": [
+      {
+        "id": "research-7e157f91534c9f8f156d257d",
+        "title": "美国 TikTok 数码男博主筛选",
+        "status": "partial",
+        "requested": 2,
+        "evaluated": 4,
+        "matched": 0,
+        "qualifying": 0,
+        "updatedAt": 1791612872357,
+        "detail": "已选合格 0/2，已核验 4；证据不足者保持待核实。",
+        "remoteStatus": "done",
+        "nextPollAt": 1791612813015
+      },
+      {
+        "id": "research-a8e3309218440957ace846fd",
+        "title": "YouTube 大学学习方法创作者",
+        "status": "partial",
+        "requested": 1,
+        "evaluated": 2,
+        "matched": 0,
+        "qualifying": 0,
+        "updatedAt": 1791613297872,
+        "detail": "已选合格 0/1，已核验 2；证据不足者保持待核实。",
+        "remoteStatus": "done",
+        "nextPollAt": 1791613195766
+      },
+      {
+        "id": "research-11deee85612adbbdea75b835",
+        "title": "YouTube 大学生 AI 与效率工具创作者",
+        "status": "partial",
+        "requested": 1,
+        "evaluated": 2,
+        "matched": 0,
+        "qualifying": 0,
+        "updatedAt": 1791613335684,
+        "detail": "已选合格 0/1，已核验 2；证据不足者保持待核实。",
+        "remoteStatus": "done",
+        "nextPollAt": 1791613301194
+      }
+    ],
+    "results": [
+      {
+        "id": "research-7e157f91534c9f8f156d257d|tiktok:ritualesmayte331",
+        "taskId": "research-7e157f91534c9f8f156d257d",
+        "handle": "ritualesmayte331",
+        "displayName": "Rituales Mayte 🐍🍀✨",
+        "platform": "tiktok",
+        "tags": [],
+        "verdict": "no_match",
+        "selected": false,
+        "revision": 1,
+        "annotations": [
+          {
+            "dimensionId": "content_direction",
+            "status": "unknown",
+            "values": [],
+            "reason": "没有可观察的简介或帖子内容。",
+            "evidenceIds": [
+              "a13f3f3f6fdb1fc89e0ab5b6"
+            ]
+          },
+          {
+            "dimensionId": "style",
+            "status": "unknown",
+            "values": [],
+            "reason": "空白页面不提供内容风格依据。",
+            "evidenceIds": [
+              "a13f3f3f6fdb1fc89e0ab5b6"
+            ]
+          },
+          {
+            "dimensionId": "glasses",
+            "status": "unknown",
+            "values": [],
+            "reason": "没有实际创作者图像可核验。",
+            "evidenceIds": [
+              "a13f3f3f6fdb1fc89e0ab5b6"
+            ]
+          }
+        ],
+        "followers": 331181300,
+        "region": null,
+        "judgments": [
+          {
+            "criterionId": "__region",
+            "verdict": "unknown",
+            "reason": "未取得创作者地区",
+            "evidenceIds": [],
+            "label": "所在地区"
+          },
+          {
+            "criterionId": "__platform",
+            "verdict": "match",
+            "reason": "创作者平台：tiktok",
+            "evidenceIds": [],
+            "label": "平台"
+          },
+          {
+            "criterionId": "__followers",
+            "verdict": "no_match",
+            "reason": "WaveSurge 粉丝数 331181300，要求 10000–100000",
+            "evidenceIds": [],
+            "label": "粉丝范围"
+          },
+          {
+            "criterionId": "digital_content",
+            "verdict": "unknown",
+            "reason": "唯一来源为 about:blank 空白页，没有简介或帖子文字，无法确认发布数码或消费电子内容；未提供可访问的主页或帖子链接。",
+            "evidenceIds": [
+              "a13f3f3f6fdb1fc89e0ab5b6"
+            ],
+            "label": "发布数码或消费电子相关内容"
+          },
+          {
+            "criterionId": "male_self_description",
+            "verdict": "unknown",
+            "reason": "空白页没有账号自身的公开介绍，无法核实明确男性自述；不从名称或外貌推断。",
+            "evidenceIds": [
+              "a13f3f3f6fdb1fc89e0ab5b6"
+            ],
+            "label": "账号自身的公开介绍明确表明为男性；未明确说明则为待确认，不从外貌推断"
+          },
+          {
+            "criterionId": "glasses_preference",
+            "verdict": "unknown",
+            "reason": "实际截图为空白，没有可用于判断佩戴眼镜的创作者图像。",
+            "evidenceIds": [
+              "a13f3f3f6fdb1fc89e0ab5b6"
+            ],
+            "label": "佩戴眼镜，优先但非硬性要求；需基于实际观察到的图像"
+          }
+        ],
+        "evidence": [
+          {
+            "id": "a13f3f3f6fdb1fc89e0ab5b6",
+            "url": "about:blank",
+            "kind": "browser_snapshot",
+            "text": "",
+            "assetId": "31534d0ff8b0900213a111990b158c5b950eb67812e29c91cece6292ddac76c1"
+          }
+        ]
+      },
+      {
+        "id": "research-7e157f91534c9f8f156d257d|tiktok:stephencurry30",
+        "taskId": "research-7e157f91534c9f8f156d257d",
+        "handle": "stephencurry30",
+        "displayName": "Stephen Curry",
+        "platform": "tiktok",
+        "tags": [],
+        "verdict": "no_match",
+        "selected": false,
+        "revision": 1,
+        "annotations": [
+          {
+            "dimensionId": "content_direction",
+            "status": "unknown",
+            "values": [],
+            "reason": "未取得实际简介或帖子内容。",
+            "evidenceIds": [
+              "a13f3f3f6fdb1fc89e0ab5b6"
+            ]
+          },
+          {
+            "dimensionId": "style",
+            "status": "unknown",
+            "values": [],
+            "reason": "空白页没有内容风格的文字或视觉依据。",
+            "evidenceIds": [
+              "a13f3f3f6fdb1fc89e0ab5b6"
+            ]
+          },
+          {
+            "dimensionId": "glasses",
+            "status": "unknown",
+            "values": [],
+            "reason": "截图未显示人物，无法进行眼镜视觉核验。",
+            "evidenceIds": [
+              "a13f3f3f6fdb1fc89e0ab5b6"
+            ]
+          }
+        ],
+        "followers": 308900000,
+        "region": null,
+        "judgments": [
+          {
+            "criterionId": "__region",
+            "verdict": "unknown",
+            "reason": "未取得创作者地区",
+            "evidenceIds": [],
+            "label": "所在地区"
+          },
+          {
+            "criterionId": "__platform",
+            "verdict": "match",
+            "reason": "创作者平台：tiktok",
+            "evidenceIds": [],
+            "label": "平台"
+          },
+          {
+            "criterionId": "__followers",
+            "verdict": "no_match",
+            "reason": "WaveSurge 粉丝数 308900000，要求 10000–100000",
+            "evidenceIds": [],
+            "label": "粉丝范围"
+          },
+          {
+            "criterionId": "digital_content",
+            "verdict": "unknown",
+            "reason": "已有来源及本次观察均为 about:blank 空白页，没有简介、帖子文字或日期；未提供可访问的真实主页或帖子链接，无法判断是否发布数码或消费电子内容。",
+            "evidenceIds": [
+              "a13f3f3f6fdb1fc89e0ab5b6"
+            ],
+            "label": "发布数码或消费电子相关内容"
+          },
+          {
+            "criterionId": "male_self_description",
+            "verdict": "unknown",
+            "reason": "空白页未显示账号自身公开介绍，没有明确男性自述；不能从姓名或外部印象推断。",
+            "evidenceIds": [
+              "a13f3f3f6fdb1fc89e0ab5b6"
+            ],
+            "label": "账号自身的公开介绍明确表明为男性；未明确说明则为待确认，不从外貌推断"
+          },
+          {
+            "criterionId": "glasses_preference",
+            "verdict": "unknown",
+            "reason": "实际截图为空白，无创作者可观察图像，无法确认是否佩戴眼镜。",
+            "evidenceIds": [
+              "a13f3f3f6fdb1fc89e0ab5b6"
+            ],
+            "label": "佩戴眼镜，优先但非硬性要求；需基于实际观察到的图像"
+          }
+        ],
+        "evidence": [
+          {
+            "id": "a13f3f3f6fdb1fc89e0ab5b6",
+            "url": "about:blank",
+            "kind": "browser_snapshot",
+            "text": "",
+            "assetId": "31534d0ff8b0900213a111990b158c5b950eb67812e29c91cece6292ddac76c1"
+          }
+        ]
+      },
+      {
+        "id": "research-7e157f91534c9f8f156d257d|tiktok:seed02678",
+        "taskId": "research-7e157f91534c9f8f156d257d",
+        "handle": "seed02678",
+        "displayName": "seed02678",
+        "platform": "tiktok",
+        "tags": [],
+        "verdict": "no_match",
+        "selected": false,
+        "revision": 1,
+        "annotations": [
+          {
+            "dimensionId": "content_direction",
+            "status": "unknown",
+            "values": [],
+            "reason": "无可核验的简介或帖子内容。",
+            "evidenceIds": [
+              "a13f3f3f6fdb1fc89e0ab5b6"
+            ]
+          },
+          {
+            "dimensionId": "style",
+            "status": "unknown",
+            "values": [],
+            "reason": "无可观察的创作者内容，无法判断内容风格。",
+            "evidenceIds": [
+              "a13f3f3f6fdb1fc89e0ab5b6"
+            ]
+          },
+          {
+            "dimensionId": "glasses",
+            "status": "unknown",
+            "values": [],
+            "reason": "截图为空白，无法判断是否戴眼镜。",
+            "evidenceIds": [
+              "a13f3f3f6fdb1fc89e0ab5b6"
+            ]
+          }
+        ],
+        "followers": 267848000,
+        "region": null,
+        "judgments": [
+          {
+            "criterionId": "__region",
+            "verdict": "unknown",
+            "reason": "未取得创作者地区",
+            "evidenceIds": [],
+            "label": "所在地区"
+          },
+          {
+            "criterionId": "__platform",
+            "verdict": "match",
+            "reason": "创作者平台：tiktok",
+            "evidenceIds": [],
+            "label": "平台"
+          },
+          {
+            "criterionId": "__followers",
+            "verdict": "no_match",
+            "reason": "WaveSurge 粉丝数 267848000，要求 10000–100000",
+            "evidenceIds": [],
+            "label": "粉丝范围"
+          },
+          {
+            "criterionId": "digital_content",
+            "verdict": "unknown",
+            "reason": "现有来源仅为 about:blank 空白页；未提供有效主页链接或帖子文字，无法核实是否发布数码或消费电子内容。",
+            "evidenceIds": [
+              "a13f3f3f6fdb1fc89e0ab5b6"
+            ],
+            "label": "发布数码或消费电子相关内容"
+          },
+          {
+            "criterionId": "male_self_description",
+            "verdict": "unknown",
+            "reason": "空白页无账号公开介绍，现有资料也无男性自述，无法确认。",
+            "evidenceIds": [
+              "a13f3f3f6fdb1fc89e0ab5b6"
+            ],
+            "label": "账号自身的公开介绍明确表明为男性；未明确说明则为待确认，不从外貌推断"
+          },
+          {
+            "criterionId": "glasses_preference",
+            "verdict": "unknown",
+            "reason": "实际观察到的截图为空白，没有可用于核验佩戴眼镜的创作者图像。",
+            "evidenceIds": [
+              "a13f3f3f6fdb1fc89e0ab5b6"
+            ],
+            "label": "佩戴眼镜，优先但非硬性要求；需基于实际观察到的图像"
+          }
+        ],
+        "evidence": [
+          {
+            "id": "a13f3f3f6fdb1fc89e0ab5b6",
+            "url": "about:blank",
+            "kind": "browser_snapshot",
+            "text": "",
+            "assetId": "31534d0ff8b0900213a111990b158c5b950eb67812e29c91cece6292ddac76c1"
+          }
+        ]
+      },
+      {
+        "id": "research-7e157f91534c9f8f156d257d|tiktok:voodoo_248",
+        "taskId": "research-7e157f91534c9f8f156d257d",
+        "handle": "voodoo_248",
+        "displayName": "voodoo248",
+        "platform": "tiktok",
+        "tags": [],
+        "verdict": "no_match",
+        "selected": false,
+        "revision": 1,
+        "annotations": [
+          {
+            "dimensionId": "content_direction",
+            "status": "unknown",
+            "values": [],
+            "reason": "没有可核验的简介或帖子内容。",
+            "evidenceIds": [
+              "a13f3f3f6fdb1fc89e0ab5b6"
+            ]
+          },
+          {
+            "dimensionId": "style",
+            "status": "unknown",
+            "values": [],
+            "reason": "空白页面不提供内容风格依据。",
+            "evidenceIds": [
+              "a13f3f3f6fdb1fc89e0ab5b6"
+            ]
+          },
+          {
+            "dimensionId": "glasses",
+            "status": "unknown",
+            "values": [],
+            "reason": "截图无人物，无法提供眼镜画像值。",
+            "evidenceIds": [
+              "a13f3f3f6fdb1fc89e0ab5b6"
+            ]
+          }
+        ],
+        "followers": 248207800,
+        "region": null,
+        "judgments": [
+          {
+            "criterionId": "__region",
+            "verdict": "unknown",
+            "reason": "未取得创作者地区",
+            "evidenceIds": [],
+            "label": "所在地区"
+          },
+          {
+            "criterionId": "__platform",
+            "verdict": "match",
+            "reason": "创作者平台：tiktok",
+            "evidenceIds": [],
+            "label": "平台"
+          },
+          {
+            "criterionId": "__followers",
+            "verdict": "no_match",
+            "reason": "WaveSurge 粉丝数 248207800，要求 10000–100000",
+            "evidenceIds": [],
+            "label": "粉丝范围"
+          },
+          {
+            "criterionId": "digital_content",
+            "verdict": "unknown",
+            "reason": "已有来源及当前观察均为 about:blank 空白页，无简介或帖子文字；未提供可访问的主页或帖子 HTTP 链接，无法核验数码或消费电子内容。",
+            "evidenceIds": [
+              "a13f3f3f6fdb1fc89e0ab5b6"
+            ],
+            "label": "发布数码或消费电子相关内容"
+          },
+          {
+            "criterionId": "male_self_description",
+            "verdict": "unknown",
+            "reason": "当前来源为空白页，无账号自身公开介绍或明确男性自述，不能推断性别。",
+            "evidenceIds": [
+              "a13f3f3f6fdb1fc89e0ab5b6"
+            ],
+            "label": "账号自身的公开介绍明确表明为男性；未明确说明则为待确认，不从外貌推断"
+          },
+          {
+            "criterionId": "glasses_preference",
+            "verdict": "unknown",
+            "reason": "实际截图为空白页，没有创作者图像，无法判断是否佩戴眼镜。",
+            "evidenceIds": [
+              "a13f3f3f6fdb1fc89e0ab5b6"
+            ],
+            "label": "佩戴眼镜，优先但非硬性要求；需基于实际观察到的图像"
+          }
+        ],
+        "evidence": [
+          {
+            "id": "a13f3f3f6fdb1fc89e0ab5b6",
+            "url": "about:blank",
+            "kind": "browser_snapshot",
+            "text": "",
+            "assetId": "31534d0ff8b0900213a111990b158c5b950eb67812e29c91cece6292ddac76c1"
+          }
+        ]
+      },
+      {
+        "id": "research-a8e3309218440957ace846fd|youtube:5minutecraftsyoutube",
+        "taskId": "research-a8e3309218440957ace846fd",
+        "handle": "5minutecraftsyoutube",
+        "displayName": "5-Minute Crafts",
+        "platform": "youtube",
+        "tags": [
+          "DIY",
+          "生活技巧",
+          "手工制作",
+          "品牌合作与广告合作",
+          "内容授权与OTT合作"
+        ],
+        "verdict": "no_match",
+        "selected": false,
+        "revision": 1,
+        "annotations": [
+          {
+            "dimensionId": "content_direction",
+            "status": "supported",
+            "values": [
+              "DIY",
+              "生活技巧",
+              "手工制作"
+            ],
+            "reason": "简介明确自述“We make DIY, lifehacks, and crafts”。",
+            "evidenceIds": [
+              "9137c60645ee63c48c0afede"
+            ]
+          },
+          {
+            "dimensionId": "expression_style",
+            "status": "unknown",
+            "values": [],
+            "reason": "没有实际帖子文字或视频可核验，简介的宣传描述不足以确认实际内容表达风格。",
+            "evidenceIds": [
+              "9137c60645ee63c48c0afede"
+            ]
+          },
+          {
+            "dimensionId": "collaboration_fit",
+            "status": "supported",
+            "values": [
+              "品牌合作与广告合作",
+              "内容授权与OTT合作"
+            ],
+            "reason": "简介明确列出“Brand partnerships & advertiser collaborations”和“Content licensing & OTT partnerships”；不代表已确认适合大学学习主题推广。",
+            "evidenceIds": [
+              "9137c60645ee63c48c0afede"
+            ]
+          }
+        ],
+        "followers": 80600000,
+        "region": null,
+        "judgments": [
+          {
+            "criterionId": "__region",
+            "verdict": "unknown",
+            "reason": "未取得创作者地区",
+            "evidenceIds": [
+              "9137c60645ee63c48c0afede"
+            ],
+            "label": "所在地区"
+          },
+          {
+            "criterionId": "__platform",
+            "verdict": "match",
+            "reason": "创作者平台：youtube",
+            "evidenceIds": [],
+            "label": "平台"
+          },
+          {
+            "criterionId": "__followers",
+            "verdict": "no_match",
+            "reason": "WaveSurge 粉丝数 80600000，要求 10000–100000",
+            "evidenceIds": [
+              "9137c60645ee63c48c0afede"
+            ],
+            "label": "粉丝范围"
+          },
+          {
+            "criterionId": "study_content",
+            "verdict": "unknown",
+            "reason": "已有简介仅明确 DIY、生活技巧和手工内容，没有学习方法、课堂笔记整理或备考复习的具体帖子依据。未提供可访问的创作者主页或帖子链接，当前浏览器为空白页，不能据此判定不存在相关内容。",
+            "evidenceIds": [
+              "9137c60645ee63c48c0afede",
+              "a13f3f3f6fdb1fc89e0ab5b6"
+            ],
+            "label": "有学习方法、课堂笔记整理或备考复习相关内容依据"
+          },
+          {
+            "criterionId": "college_audience",
+            "verdict": "unknown",
+            "reason": "简介没有明确面向大学生的表述，也没有可核验的大学生主题帖子文字；当前空白页不能提供受众证据。",
+            "evidenceIds": [
+              "9137c60645ee63c48c0afede",
+              "a13f3f3f6fdb1fc89e0ab5b6"
+            ],
+            "label": "有明确面向大学生的内容依据，不要求创作者本人是在校生"
+          }
+        ],
+        "evidence": [
+          {
+            "id": "9137c60645ee63c48c0afede",
+            "url": "",
+            "kind": "profile",
+            "text": "⏱️ Got 5 minutes? Let’s make something awesome!\nWe make DIY, lifehacks, and crafts quick, easy, and totally game-changing.\n👉 Hit SUBSCRIBE to start creating with us!\n\n• Brand partnerships & advertiser collaborations – https://thesoul.group/for-brands\n• Content licensing & OTT partnerships – https://thesoul.group/for-publishers\n• Contact: https://thesoul.group/contacts"
+          },
+          {
+            "id": "a13f3f3f6fdb1fc89e0ab5b6",
+            "url": "about:blank",
+            "kind": "browser_snapshot",
+            "text": "",
+            "assetId": "31534d0ff8b0900213a111990b158c5b950eb67812e29c91cece6292ddac76c1"
+          }
+        ]
+      },
+      {
+        "id": "research-a8e3309218440957ace846fd|youtube:beatboxjcop",
+        "taskId": "research-a8e3309218440957ace846fd",
+        "handle": "beatboxjcop",
+        "displayName": "BeatboxJCOP",
+        "platform": "youtube",
+        "tags": [
+          "Beatbox口技表演"
+        ],
+        "verdict": "no_match",
+        "selected": false,
+        "revision": 1,
+        "annotations": [
+          {
+            "dimensionId": "content_direction",
+            "status": "supported",
+            "values": [
+              "Beatbox口技表演"
+            ],
+            "reason": "简介明确称频道提供 JCOP 的 BEATBOXING videos。此为简介所述方向，不代表已核验近期帖子。",
+            "evidenceIds": [
+              "04ab2f993713137d00b45459"
+            ]
+          },
+          {
+            "dimensionId": "expression_style",
+            "status": "unknown",
+            "values": [],
+            "reason": "未取得实际帖子文字或有效视频页面，无法核验表达风格。",
+            "evidenceIds": [
+              "04ab2f993713137d00b45459",
+              "a13f3f3f6fdb1fc89e0ab5b6"
+            ]
+          },
+          {
+            "dimensionId": "collaboration_fit",
+            "status": "unknown",
+            "values": [],
+            "reason": "没有大学学习内容或合作案例证据，无法确认适合本次营销目标的合作方式。",
+            "evidenceIds": [
+              "04ab2f993713137d00b45459"
+            ]
+          }
+        ],
+        "followers": 51000000,
+        "region": null,
+        "judgments": [
+          {
+            "criterionId": "__region",
+            "verdict": "unknown",
+            "reason": "未取得创作者地区",
+            "evidenceIds": [
+              "04ab2f993713137d00b45459"
+            ],
+            "label": "所在地区"
+          },
+          {
+            "criterionId": "__platform",
+            "verdict": "match",
+            "reason": "创作者平台：youtube",
+            "evidenceIds": [],
+            "label": "平台"
+          },
+          {
+            "criterionId": "__followers",
+            "verdict": "no_match",
+            "reason": "WaveSurge 粉丝数 51000000，要求 10000–100000",
+            "evidenceIds": [
+              "04ab2f993713137d00b45459"
+            ],
+            "label": "粉丝范围"
+          },
+          {
+            "criterionId": "study_content",
+            "verdict": "unknown",
+            "reason": "已有简介仅明确介绍 BEATBOXING videos，未提供学习方法、课堂笔记整理或备考复习的帖子文字。候选未提供有效 YouTube 主页或帖子链接，当前浏览器为空白页，不能据此断言相关内容不存在。",
+            "evidenceIds": [
+              "04ab2f993713137d00b45459",
+              "a13f3f3f6fdb1fc89e0ab5b6"
+            ],
+            "label": "有学习方法、课堂笔记整理或备考复习相关内容依据"
+          },
+          {
+            "criterionId": "college_audience",
+            "verdict": "unknown",
+            "reason": "已有简介未明确面向大学生，也没有可核验的大学生相关帖子文字；空白页面不能证明受众定位。",
+            "evidenceIds": [
+              "04ab2f993713137d00b45459",
+              "a13f3f3f6fdb1fc89e0ab5b6"
+            ],
+            "label": "有明确面向大学生的内容依据，不要求创作者本人是在校生"
+          }
+        ],
+        "evidence": [
+          {
+            "id": "04ab2f993713137d00b45459",
+            "url": "",
+            "kind": "profile",
+            "text": "This is the official YouTube channel of  Beatbox Star from KOREA - JCOP ! \n\nNo matter how incredible and unbelievable it may sound but all the voices are actually 100% REAL. So lets dive into the world of JCOP'S amazing and jaw dropping  BEATBOXING videos!\n\nJCOP can also be found on : \nTiktok : https://www.tiktok.com/@beatboxjcop\nInstagram : http://www.instagram.com/beatbox_jcop\nFacebook : https://www.facebook.com/beatboxJCOP"
+          },
+          {
+            "id": "a13f3f3f6fdb1fc89e0ab5b6",
+            "url": "about:blank",
+            "kind": "browser_snapshot",
+            "text": "",
+            "assetId": "31534d0ff8b0900213a111990b158c5b950eb67812e29c91cece6292ddac76c1"
+          }
+        ]
+      },
+      {
+        "id": "research-11deee85612adbbdea75b835|youtube:5minutecraftsyoutube",
+        "taskId": "research-11deee85612adbbdea75b835",
+        "handle": "5minutecraftsyoutube",
+        "displayName": "5-Minute Crafts",
+        "platform": "youtube",
+        "tags": [
+          "DIY",
+          "生活小技巧",
+          "手工制作",
+          "品牌合作与广告合作",
+          "内容授权"
+        ],
+        "verdict": "no_match",
+        "selected": false,
+        "revision": 1,
+        "annotations": [
+          {
+            "dimensionId": "content_direction",
+            "status": "supported",
+            "values": [
+              "DIY",
+              "生活小技巧",
+              "手工制作"
+            ],
+            "reason": "简介明确自述“We make DIY, lifehacks, and crafts”。",
+            "evidenceIds": [
+              "9137c60645ee63c48c0afede"
+            ]
+          },
+          {
+            "dimensionId": "expression_style",
+            "status": "unknown",
+            "values": [],
+            "reason": "只有简介与空白页面，没有实际帖子可判断表达风格。",
+            "evidenceIds": [
+              "9137c60645ee63c48c0afede",
+              "a13f3f3f6fdb1fc89e0ab5b6"
+            ]
+          },
+          {
+            "dimensionId": "collaboration_fit",
+            "status": "supported",
+            "values": [
+              "品牌合作与广告合作",
+              "内容授权"
+            ],
+            "reason": "简介明确列出品牌与广告合作及内容授权合作渠道；不据此推断适合 AI 工具推广。",
+            "evidenceIds": [
+              "9137c60645ee63c48c0afede"
+            ]
+          }
+        ],
+        "followers": 80600000,
+        "region": null,
+        "judgments": [
+          {
+            "criterionId": "__region",
+            "verdict": "unknown",
+            "reason": "未取得创作者地区",
+            "evidenceIds": [
+              "9137c60645ee63c48c0afede"
+            ],
+            "label": "所在地区"
+          },
+          {
+            "criterionId": "__platform",
+            "verdict": "match",
+            "reason": "创作者平台：youtube",
+            "evidenceIds": [],
+            "label": "平台"
+          },
+          {
+            "criterionId": "__followers",
+            "verdict": "no_match",
+            "reason": "WaveSurge 粉丝数 80600000，要求 10000–100000",
+            "evidenceIds": [
+              "9137c60645ee63c48c0afede"
+            ],
+            "label": "粉丝范围"
+          },
+          {
+            "criterionId": "ai_productivity_content",
+            "verdict": "unknown",
+            "reason": "已有简介仅明确 DIY、生活小技巧和手工内容，不能据此认定发布过 AI 或效率软件教程、实测或评测。未提供可访问的创作者主页或帖子链接，当前浏览器为空白页，缺少内容证据。",
+            "evidenceIds": [
+              "9137c60645ee63c48c0afede",
+              "a13f3f3f6fdb1fc89e0ab5b6"
+            ],
+            "label": "有 AI 或效率工具教程、实测或评测相关内容依据"
+          },
+          {
+            "criterionId": "college_audience",
+            "verdict": "unknown",
+            "reason": "简介没有明确面向大学生的表述，亦无帖子文字可核验；不能从泛生活技巧内容推断大学生受众。",
+            "evidenceIds": [
+              "9137c60645ee63c48c0afede"
+            ],
+            "label": "有明确面向大学生的内容依据，不要求创作者本人是在校生"
+          },
+          {
+            "criterionId": "notion_ai_notes_preference",
+            "verdict": "unknown",
+            "reason": "现有简介未提及 Notion 或 AI 笔记工具，没有具体讲解、演示或评测帖子证据；缺少提及不等于确认从未发布。",
+            "evidenceIds": [
+              "9137c60645ee63c48c0afede"
+            ],
+            "label": "实际发布过讲解、演示、实测或评测 Notion 或 AI 笔记工具的内容；仅为优先项，缺少该内容不影响必选条件合格判定"
+          }
+        ],
+        "evidence": [
+          {
+            "id": "9137c60645ee63c48c0afede",
+            "url": "",
+            "kind": "profile",
+            "text": "⏱️ Got 5 minutes? Let’s make something awesome!\nWe make DIY, lifehacks, and crafts quick, easy, and totally game-changing.\n👉 Hit SUBSCRIBE to start creating with us!\n\n• Brand partnerships & advertiser collaborations – https://thesoul.group/for-brands\n• Content licensing & OTT partnerships – https://thesoul.group/for-publishers\n• Contact: https://thesoul.group/contacts"
+          },
+          {
+            "id": "a13f3f3f6fdb1fc89e0ab5b6",
+            "url": "about:blank",
+            "kind": "browser_snapshot",
+            "text": "",
+            "assetId": "31534d0ff8b0900213a111990b158c5b950eb67812e29c91cece6292ddac76c1"
+          }
+        ]
+      },
+      {
+        "id": "research-11deee85612adbbdea75b835|youtube:beatboxjcop",
+        "taskId": "research-11deee85612adbbdea75b835",
+        "handle": "beatboxjcop",
+        "displayName": "BeatboxJCOP",
+        "platform": "youtube",
+        "tags": [
+          "Beatbox / 人声节奏表演"
+        ],
+        "verdict": "no_match",
+        "selected": false,
+        "revision": 1,
+        "annotations": [
+          {
+            "dimensionId": "content_direction",
+            "status": "supported",
+            "values": [
+              "Beatbox / 人声节奏表演"
+            ],
+            "reason": "频道简介自称 Beatbox Star，并明确介绍其 BEATBOXING videos；仅支持频道自述方向，不证明近期视频内容。",
+            "evidenceIds": [
+              "04ab2f993713137d00b45459"
+            ]
+          },
+          {
+            "dimensionId": "expression_style",
+            "status": "unknown",
+            "values": [],
+            "reason": "缺少实际视频、帖子文字或有效内容截图，不能确认内容表达风格。",
+            "evidenceIds": [
+              "a13f3f3f6fdb1fc89e0ab5b6"
+            ]
+          },
+          {
+            "dimensionId": "collaboration_fit",
+            "status": "unknown",
+            "values": [],
+            "reason": "现有简介不足以支持 AI、效率工具或大学生营销场景的具体合作方式。",
+            "evidenceIds": [
+              "04ab2f993713137d00b45459"
+            ]
+          }
+        ],
+        "followers": 51000000,
+        "region": null,
+        "judgments": [
+          {
+            "criterionId": "__region",
+            "verdict": "unknown",
+            "reason": "未取得创作者地区",
+            "evidenceIds": [
+              "04ab2f993713137d00b45459"
+            ],
+            "label": "所在地区"
+          },
+          {
+            "criterionId": "__platform",
+            "verdict": "match",
+            "reason": "创作者平台：youtube",
+            "evidenceIds": [],
+            "label": "平台"
+          },
+          {
+            "criterionId": "__followers",
+            "verdict": "no_match",
+            "reason": "WaveSurge 粉丝数 51000000，要求 10000–100000",
+            "evidenceIds": [
+              "04ab2f993713137d00b45459"
+            ],
+            "label": "粉丝范围"
+          },
+          {
+            "criterionId": "ai_productivity_content",
+            "verdict": "unknown",
+            "reason": "已有频道简介仅介绍 Beatboxing 视频，未提供 AI 或效率工具教程、实测或评测的帖子文字。YouTube 主页链接缺失，当前页面为空白，无法核验发布内容；不能将未找到证据视为确定未发布。",
+            "evidenceIds": [
+              "04ab2f993713137d00b45459",
+              "a13f3f3f6fdb1fc89e0ab5b6"
+            ],
+            "label": "有 AI 或效率工具教程、实测或评测相关内容依据"
+          },
+          {
+            "criterionId": "college_audience",
+            "verdict": "unknown",
+            "reason": "频道简介没有明确面向大学生的内容描述，且无可核验的视频文字或日期，无法确认目标受众。",
+            "evidenceIds": [
+              "04ab2f993713137d00b45459"
+            ],
+            "label": "有明确面向大学生的内容依据，不要求创作者本人是在校生"
+          },
+          {
+            "criterionId": "notion_ai_notes_preference",
+            "verdict": "unknown",
+            "reason": "现有资料未展示讲解、演示、实测或评测 Notion 或 AI 笔记工具的发布内容；此项为优先项，不单独影响必选条件判定。",
+            "evidenceIds": [
+              "04ab2f993713137d00b45459"
+            ],
+            "label": "实际发布过讲解、演示、实测或评测 Notion 或 AI 笔记工具的内容；仅为优先项，缺少该内容不影响必选条件合格判定"
+          }
+        ],
+        "evidence": [
+          {
+            "id": "04ab2f993713137d00b45459",
+            "url": "",
+            "kind": "profile",
+            "text": "This is the official YouTube channel of  Beatbox Star from KOREA - JCOP ! \n\nNo matter how incredible and unbelievable it may sound but all the voices are actually 100% REAL. So lets dive into the world of JCOP'S amazing and jaw dropping  BEATBOXING videos!\n\nJCOP can also be found on : \nTiktok : https://www.tiktok.com/@beatboxjcop\nInstagram : http://www.instagram.com/beatbox_jcop\nFacebook : https://www.facebook.com/beatboxJCOP"
+          },
+          {
+            "id": "a13f3f3f6fdb1fc89e0ab5b6",
+            "url": "about:blank",
+            "kind": "browser_snapshot",
+            "text": "",
+            "assetId": "31534d0ff8b0900213a111990b158c5b950eb67812e29c91cece6292ddac76c1"
+          }
+        ]
+      }
+    ]
+  },
+  "finishedAt": "2026-10-10T06:27:51.520Z",
+  "active": false,
+  "messages": [
+    {
+      "id": "bae9ed8c-afb5-4be7-8e99-188a852c7191",
+      "role": "user",
+      "text": "刚才那条超时了，再试一下吧。范围和 geek风的口径都按我刚才说的，先只看 tylerlcrawford 和 valstechtalkk，不要增加别人。",
+      "state": "delivered",
+      "createdAt": 1791613621023,
+      "attachmentCount": 0
+    },
+    {
+      "id": "3788ef92-0741-45b4-9e19-fa094e87167b",
+      "role": "assistant",
+      "text": "已重新提交核验，**仅看 Instagram 的 @tylerlcrawford 和 @valstechtalkk，不增加其他人**。目前任务已排队，尚未得出核验结论。\n\n按你确认的口径执行：\n- **硬条件**：个人账号、粉丝 1万–10万、有实际数码内容；地区不限。\n- **优先项**：戴眼镜，以及从实际穿搭、表达和折腾设备体现出的理工宅气质。**光讲数码不算 geek 风**；看不出来就写“待确认”，不影响硬条件判定。\n- **报告**：两人无论是否合适都会保留，逐人列出内容方向、风格、眼镜标签、简短依据和数码产品推广适配理由，并提供可下载文档。",
+      "state": "delivered",
+      "createdAt": 1791613671511,
+      "attachmentCount": 0
+    }
+  ],
+  "tasks": [
+    {
+      "id": "research-7e157f91534c9f8f156d257d",
+      "title": "美国 TikTok 数码男博主筛选",
+      "status": "partial",
+      "requested": 2,
+      "evaluated": 4,
+      "matched": 0,
+      "qualifying": 0,
+      "updatedAt": 1791612872357,
+      "detail": "已选合格 0/2，已核验 4；证据不足者保持待核实。",
+      "remoteStatus": "done",
+      "nextPollAt": 1791612813015
+    },
+    {
+      "id": "research-a8e3309218440957ace846fd",
+      "title": "YouTube 大学学习方法创作者",
+      "status": "partial",
+      "requested": 1,
+      "evaluated": 2,
+      "matched": 0,
+      "qualifying": 0,
+      "updatedAt": 1791613297872,
+      "detail": "已选合格 0/1，已核验 2；证据不足者保持待核实。",
+      "remoteStatus": "done",
+      "nextPollAt": 1791613195766
+    },
+    {
+      "id": "research-11deee85612adbbdea75b835",
+      "title": "YouTube 大学生 AI 与效率工具创作者",
+      "status": "partial",
+      "requested": 1,
+      "evaluated": 2,
+      "matched": 0,
+      "qualifying": 0,
+      "updatedAt": 1791613335684,
+      "detail": "已选合格 0/1，已核验 2；证据不足者保持待核实。",
+      "remoteStatus": "done",
+      "nextPollAt": 1791613301194
+    },
+    {
+      "id": "research-06587523c43581240c9622f3",
+      "title": "Instagram 指定两账号数码产品适配核验",
+      "status": "running",
+      "requested": 2,
+      "evaluated": 0,
+      "matched": 0,
+      "updatedAt": 1791613654018,
+      "detail": "正在读取 WaveSurge 原始资料；本地筛选尚未完成",
+      "remoteStatus": "running",
+      "nextPollAt": 1791613653234
+    }
+  ],
+  "results": [
+    {
+      "id": "research-7e157f91534c9f8f156d257d|tiktok:ritualesmayte331",
+      "taskId": "research-7e157f91534c9f8f156d257d",
+      "handle": "ritualesmayte331",
+      "displayName": "Rituales Mayte 🐍🍀✨",
+      "platform": "tiktok",
+      "tags": [],
+      "verdict": "no_match",
+      "selected": false,
+      "revision": 1,
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "unknown",
+          "values": [],
+          "reason": "没有可观察的简介或帖子内容。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ]
+        },
+        {
+          "dimensionId": "style",
+          "status": "unknown",
+          "values": [],
+          "reason": "空白页面不提供内容风格依据。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ]
+        },
+        {
+          "dimensionId": "glasses",
+          "status": "unknown",
+          "values": [],
+          "reason": "没有实际创作者图像可核验。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ]
+        }
+      ],
+      "followers": 331181300,
+      "region": null,
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "unknown",
+          "reason": "未取得创作者地区",
+          "evidenceIds": [],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：tiktok",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "no_match",
+          "reason": "WaveSurge 粉丝数 331181300，要求 10000–100000",
+          "evidenceIds": [],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "digital_content",
+          "verdict": "unknown",
+          "reason": "唯一来源为 about:blank 空白页，没有简介或帖子文字，无法确认发布数码或消费电子内容；未提供可访问的主页或帖子链接。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ],
+          "label": "发布数码或消费电子相关内容"
+        },
+        {
+          "criterionId": "male_self_description",
+          "verdict": "unknown",
+          "reason": "空白页没有账号自身的公开介绍，无法核实明确男性自述；不从名称或外貌推断。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ],
+          "label": "账号自身的公开介绍明确表明为男性；未明确说明则为待确认，不从外貌推断"
+        },
+        {
+          "criterionId": "glasses_preference",
+          "verdict": "unknown",
+          "reason": "实际截图为空白，没有可用于判断佩戴眼镜的创作者图像。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ],
+          "label": "佩戴眼镜，优先但非硬性要求；需基于实际观察到的图像"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "a13f3f3f6fdb1fc89e0ab5b6",
+          "url": "about:blank",
+          "kind": "browser_snapshot",
+          "text": "",
+          "assetId": "31534d0ff8b0900213a111990b158c5b950eb67812e29c91cece6292ddac76c1"
+        }
+      ]
+    },
+    {
+      "id": "research-7e157f91534c9f8f156d257d|tiktok:stephencurry30",
+      "taskId": "research-7e157f91534c9f8f156d257d",
+      "handle": "stephencurry30",
+      "displayName": "Stephen Curry",
+      "platform": "tiktok",
+      "tags": [],
+      "verdict": "no_match",
+      "selected": false,
+      "revision": 1,
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "unknown",
+          "values": [],
+          "reason": "未取得实际简介或帖子内容。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ]
+        },
+        {
+          "dimensionId": "style",
+          "status": "unknown",
+          "values": [],
+          "reason": "空白页没有内容风格的文字或视觉依据。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ]
+        },
+        {
+          "dimensionId": "glasses",
+          "status": "unknown",
+          "values": [],
+          "reason": "截图未显示人物，无法进行眼镜视觉核验。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ]
+        }
+      ],
+      "followers": 308900000,
+      "region": null,
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "unknown",
+          "reason": "未取得创作者地区",
+          "evidenceIds": [],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：tiktok",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "no_match",
+          "reason": "WaveSurge 粉丝数 308900000，要求 10000–100000",
+          "evidenceIds": [],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "digital_content",
+          "verdict": "unknown",
+          "reason": "已有来源及本次观察均为 about:blank 空白页，没有简介、帖子文字或日期；未提供可访问的真实主页或帖子链接，无法判断是否发布数码或消费电子内容。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ],
+          "label": "发布数码或消费电子相关内容"
+        },
+        {
+          "criterionId": "male_self_description",
+          "verdict": "unknown",
+          "reason": "空白页未显示账号自身公开介绍，没有明确男性自述；不能从姓名或外部印象推断。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ],
+          "label": "账号自身的公开介绍明确表明为男性；未明确说明则为待确认，不从外貌推断"
+        },
+        {
+          "criterionId": "glasses_preference",
+          "verdict": "unknown",
+          "reason": "实际截图为空白，无创作者可观察图像，无法确认是否佩戴眼镜。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ],
+          "label": "佩戴眼镜，优先但非硬性要求；需基于实际观察到的图像"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "a13f3f3f6fdb1fc89e0ab5b6",
+          "url": "about:blank",
+          "kind": "browser_snapshot",
+          "text": "",
+          "assetId": "31534d0ff8b0900213a111990b158c5b950eb67812e29c91cece6292ddac76c1"
+        }
+      ]
+    },
+    {
+      "id": "research-7e157f91534c9f8f156d257d|tiktok:seed02678",
+      "taskId": "research-7e157f91534c9f8f156d257d",
+      "handle": "seed02678",
+      "displayName": "seed02678",
+      "platform": "tiktok",
+      "tags": [],
+      "verdict": "no_match",
+      "selected": false,
+      "revision": 1,
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "unknown",
+          "values": [],
+          "reason": "无可核验的简介或帖子内容。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ]
+        },
+        {
+          "dimensionId": "style",
+          "status": "unknown",
+          "values": [],
+          "reason": "无可观察的创作者内容，无法判断内容风格。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ]
+        },
+        {
+          "dimensionId": "glasses",
+          "status": "unknown",
+          "values": [],
+          "reason": "截图为空白，无法判断是否戴眼镜。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ]
+        }
+      ],
+      "followers": 267848000,
+      "region": null,
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "unknown",
+          "reason": "未取得创作者地区",
+          "evidenceIds": [],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：tiktok",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "no_match",
+          "reason": "WaveSurge 粉丝数 267848000，要求 10000–100000",
+          "evidenceIds": [],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "digital_content",
+          "verdict": "unknown",
+          "reason": "现有来源仅为 about:blank 空白页；未提供有效主页链接或帖子文字，无法核实是否发布数码或消费电子内容。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ],
+          "label": "发布数码或消费电子相关内容"
+        },
+        {
+          "criterionId": "male_self_description",
+          "verdict": "unknown",
+          "reason": "空白页无账号公开介绍，现有资料也无男性自述，无法确认。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ],
+          "label": "账号自身的公开介绍明确表明为男性；未明确说明则为待确认，不从外貌推断"
+        },
+        {
+          "criterionId": "glasses_preference",
+          "verdict": "unknown",
+          "reason": "实际观察到的截图为空白，没有可用于核验佩戴眼镜的创作者图像。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ],
+          "label": "佩戴眼镜，优先但非硬性要求；需基于实际观察到的图像"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "a13f3f3f6fdb1fc89e0ab5b6",
+          "url": "about:blank",
+          "kind": "browser_snapshot",
+          "text": "",
+          "assetId": "31534d0ff8b0900213a111990b158c5b950eb67812e29c91cece6292ddac76c1"
+        }
+      ]
+    },
+    {
+      "id": "research-7e157f91534c9f8f156d257d|tiktok:voodoo_248",
+      "taskId": "research-7e157f91534c9f8f156d257d",
+      "handle": "voodoo_248",
+      "displayName": "voodoo248",
+      "platform": "tiktok",
+      "tags": [],
+      "verdict": "no_match",
+      "selected": false,
+      "revision": 1,
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "unknown",
+          "values": [],
+          "reason": "没有可核验的简介或帖子内容。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ]
+        },
+        {
+          "dimensionId": "style",
+          "status": "unknown",
+          "values": [],
+          "reason": "空白页面不提供内容风格依据。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ]
+        },
+        {
+          "dimensionId": "glasses",
+          "status": "unknown",
+          "values": [],
+          "reason": "截图无人物，无法提供眼镜画像值。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ]
+        }
+      ],
+      "followers": 248207800,
+      "region": null,
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "unknown",
+          "reason": "未取得创作者地区",
+          "evidenceIds": [],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：tiktok",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "no_match",
+          "reason": "WaveSurge 粉丝数 248207800，要求 10000–100000",
+          "evidenceIds": [],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "digital_content",
+          "verdict": "unknown",
+          "reason": "已有来源及当前观察均为 about:blank 空白页，无简介或帖子文字；未提供可访问的主页或帖子 HTTP 链接，无法核验数码或消费电子内容。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ],
+          "label": "发布数码或消费电子相关内容"
+        },
+        {
+          "criterionId": "male_self_description",
+          "verdict": "unknown",
+          "reason": "当前来源为空白页，无账号自身公开介绍或明确男性自述，不能推断性别。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ],
+          "label": "账号自身的公开介绍明确表明为男性；未明确说明则为待确认，不从外貌推断"
+        },
+        {
+          "criterionId": "glasses_preference",
+          "verdict": "unknown",
+          "reason": "实际截图为空白页，没有创作者图像，无法判断是否佩戴眼镜。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ],
+          "label": "佩戴眼镜，优先但非硬性要求；需基于实际观察到的图像"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "a13f3f3f6fdb1fc89e0ab5b6",
+          "url": "about:blank",
+          "kind": "browser_snapshot",
+          "text": "",
+          "assetId": "31534d0ff8b0900213a111990b158c5b950eb67812e29c91cece6292ddac76c1"
+        }
+      ]
+    },
+    {
+      "id": "research-a8e3309218440957ace846fd|youtube:5minutecraftsyoutube",
+      "taskId": "research-a8e3309218440957ace846fd",
+      "handle": "5minutecraftsyoutube",
+      "displayName": "5-Minute Crafts",
+      "platform": "youtube",
+      "tags": [
+        "DIY",
+        "生活技巧",
+        "手工制作",
+        "品牌合作与广告合作",
+        "内容授权与OTT合作"
+      ],
+      "verdict": "no_match",
+      "selected": false,
+      "revision": 1,
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "DIY",
+            "生活技巧",
+            "手工制作"
+          ],
+          "reason": "简介明确自述“We make DIY, lifehacks, and crafts”。",
+          "evidenceIds": [
+            "9137c60645ee63c48c0afede"
+          ]
+        },
+        {
+          "dimensionId": "expression_style",
+          "status": "unknown",
+          "values": [],
+          "reason": "没有实际帖子文字或视频可核验，简介的宣传描述不足以确认实际内容表达风格。",
+          "evidenceIds": [
+            "9137c60645ee63c48c0afede"
+          ]
+        },
+        {
+          "dimensionId": "collaboration_fit",
+          "status": "supported",
+          "values": [
+            "品牌合作与广告合作",
+            "内容授权与OTT合作"
+          ],
+          "reason": "简介明确列出“Brand partnerships & advertiser collaborations”和“Content licensing & OTT partnerships”；不代表已确认适合大学学习主题推广。",
+          "evidenceIds": [
+            "9137c60645ee63c48c0afede"
+          ]
+        }
+      ],
+      "followers": 80600000,
+      "region": null,
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "unknown",
+          "reason": "未取得创作者地区",
+          "evidenceIds": [
+            "9137c60645ee63c48c0afede"
+          ],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：youtube",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "no_match",
+          "reason": "WaveSurge 粉丝数 80600000，要求 10000–100000",
+          "evidenceIds": [
+            "9137c60645ee63c48c0afede"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "study_content",
+          "verdict": "unknown",
+          "reason": "已有简介仅明确 DIY、生活技巧和手工内容，没有学习方法、课堂笔记整理或备考复习的具体帖子依据。未提供可访问的创作者主页或帖子链接，当前浏览器为空白页，不能据此判定不存在相关内容。",
+          "evidenceIds": [
+            "9137c60645ee63c48c0afede",
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ],
+          "label": "有学习方法、课堂笔记整理或备考复习相关内容依据"
+        },
+        {
+          "criterionId": "college_audience",
+          "verdict": "unknown",
+          "reason": "简介没有明确面向大学生的表述，也没有可核验的大学生主题帖子文字；当前空白页不能提供受众证据。",
+          "evidenceIds": [
+            "9137c60645ee63c48c0afede",
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ],
+          "label": "有明确面向大学生的内容依据，不要求创作者本人是在校生"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "9137c60645ee63c48c0afede",
+          "url": "",
+          "kind": "profile",
+          "text": "⏱️ Got 5 minutes? Let’s make something awesome!\nWe make DIY, lifehacks, and crafts quick, easy, and totally game-changing.\n👉 Hit SUBSCRIBE to start creating with us!\n\n• Brand partnerships & advertiser collaborations – https://thesoul.group/for-brands\n• Content licensing & OTT partnerships – https://thesoul.group/for-publishers\n• Contact: https://thesoul.group/contacts"
+        },
+        {
+          "id": "a13f3f3f6fdb1fc89e0ab5b6",
+          "url": "about:blank",
+          "kind": "browser_snapshot",
+          "text": "",
+          "assetId": "31534d0ff8b0900213a111990b158c5b950eb67812e29c91cece6292ddac76c1"
+        }
+      ]
+    },
+    {
+      "id": "research-a8e3309218440957ace846fd|youtube:beatboxjcop",
+      "taskId": "research-a8e3309218440957ace846fd",
+      "handle": "beatboxjcop",
+      "displayName": "BeatboxJCOP",
+      "platform": "youtube",
+      "tags": [
+        "Beatbox口技表演"
+      ],
+      "verdict": "no_match",
+      "selected": false,
+      "revision": 1,
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "Beatbox口技表演"
+          ],
+          "reason": "简介明确称频道提供 JCOP 的 BEATBOXING videos。此为简介所述方向，不代表已核验近期帖子。",
+          "evidenceIds": [
+            "04ab2f993713137d00b45459"
+          ]
+        },
+        {
+          "dimensionId": "expression_style",
+          "status": "unknown",
+          "values": [],
+          "reason": "未取得实际帖子文字或有效视频页面，无法核验表达风格。",
+          "evidenceIds": [
+            "04ab2f993713137d00b45459",
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ]
+        },
+        {
+          "dimensionId": "collaboration_fit",
+          "status": "unknown",
+          "values": [],
+          "reason": "没有大学学习内容或合作案例证据，无法确认适合本次营销目标的合作方式。",
+          "evidenceIds": [
+            "04ab2f993713137d00b45459"
+          ]
+        }
+      ],
+      "followers": 51000000,
+      "region": null,
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "unknown",
+          "reason": "未取得创作者地区",
+          "evidenceIds": [
+            "04ab2f993713137d00b45459"
+          ],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：youtube",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "no_match",
+          "reason": "WaveSurge 粉丝数 51000000，要求 10000–100000",
+          "evidenceIds": [
+            "04ab2f993713137d00b45459"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "study_content",
+          "verdict": "unknown",
+          "reason": "已有简介仅明确介绍 BEATBOXING videos，未提供学习方法、课堂笔记整理或备考复习的帖子文字。候选未提供有效 YouTube 主页或帖子链接，当前浏览器为空白页，不能据此断言相关内容不存在。",
+          "evidenceIds": [
+            "04ab2f993713137d00b45459",
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ],
+          "label": "有学习方法、课堂笔记整理或备考复习相关内容依据"
+        },
+        {
+          "criterionId": "college_audience",
+          "verdict": "unknown",
+          "reason": "已有简介未明确面向大学生，也没有可核验的大学生相关帖子文字；空白页面不能证明受众定位。",
+          "evidenceIds": [
+            "04ab2f993713137d00b45459",
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ],
+          "label": "有明确面向大学生的内容依据，不要求创作者本人是在校生"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "04ab2f993713137d00b45459",
+          "url": "",
+          "kind": "profile",
+          "text": "This is the official YouTube channel of  Beatbox Star from KOREA - JCOP ! \n\nNo matter how incredible and unbelievable it may sound but all the voices are actually 100% REAL. So lets dive into the world of JCOP'S amazing and jaw dropping  BEATBOXING videos!\n\nJCOP can also be found on : \nTiktok : https://www.tiktok.com/@beatboxjcop\nInstagram : http://www.instagram.com/beatbox_jcop\nFacebook : https://www.facebook.com/beatboxJCOP"
+        },
+        {
+          "id": "a13f3f3f6fdb1fc89e0ab5b6",
+          "url": "about:blank",
+          "kind": "browser_snapshot",
+          "text": "",
+          "assetId": "31534d0ff8b0900213a111990b158c5b950eb67812e29c91cece6292ddac76c1"
+        }
+      ]
+    },
+    {
+      "id": "research-11deee85612adbbdea75b835|youtube:5minutecraftsyoutube",
+      "taskId": "research-11deee85612adbbdea75b835",
+      "handle": "5minutecraftsyoutube",
+      "displayName": "5-Minute Crafts",
+      "platform": "youtube",
+      "tags": [
+        "DIY",
+        "生活小技巧",
+        "手工制作",
+        "品牌合作与广告合作",
+        "内容授权"
+      ],
+      "verdict": "no_match",
+      "selected": false,
+      "revision": 1,
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "DIY",
+            "生活小技巧",
+            "手工制作"
+          ],
+          "reason": "简介明确自述“We make DIY, lifehacks, and crafts”。",
+          "evidenceIds": [
+            "9137c60645ee63c48c0afede"
+          ]
+        },
+        {
+          "dimensionId": "expression_style",
+          "status": "unknown",
+          "values": [],
+          "reason": "只有简介与空白页面，没有实际帖子可判断表达风格。",
+          "evidenceIds": [
+            "9137c60645ee63c48c0afede",
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ]
+        },
+        {
+          "dimensionId": "collaboration_fit",
+          "status": "supported",
+          "values": [
+            "品牌合作与广告合作",
+            "内容授权"
+          ],
+          "reason": "简介明确列出品牌与广告合作及内容授权合作渠道；不据此推断适合 AI 工具推广。",
+          "evidenceIds": [
+            "9137c60645ee63c48c0afede"
+          ]
+        }
+      ],
+      "followers": 80600000,
+      "region": null,
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "unknown",
+          "reason": "未取得创作者地区",
+          "evidenceIds": [
+            "9137c60645ee63c48c0afede"
+          ],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：youtube",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "no_match",
+          "reason": "WaveSurge 粉丝数 80600000，要求 10000–100000",
+          "evidenceIds": [
+            "9137c60645ee63c48c0afede"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "ai_productivity_content",
+          "verdict": "unknown",
+          "reason": "已有简介仅明确 DIY、生活小技巧和手工内容，不能据此认定发布过 AI 或效率软件教程、实测或评测。未提供可访问的创作者主页或帖子链接，当前浏览器为空白页，缺少内容证据。",
+          "evidenceIds": [
+            "9137c60645ee63c48c0afede",
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ],
+          "label": "有 AI 或效率工具教程、实测或评测相关内容依据"
+        },
+        {
+          "criterionId": "college_audience",
+          "verdict": "unknown",
+          "reason": "简介没有明确面向大学生的表述，亦无帖子文字可核验；不能从泛生活技巧内容推断大学生受众。",
+          "evidenceIds": [
+            "9137c60645ee63c48c0afede"
+          ],
+          "label": "有明确面向大学生的内容依据，不要求创作者本人是在校生"
+        },
+        {
+          "criterionId": "notion_ai_notes_preference",
+          "verdict": "unknown",
+          "reason": "现有简介未提及 Notion 或 AI 笔记工具，没有具体讲解、演示或评测帖子证据；缺少提及不等于确认从未发布。",
+          "evidenceIds": [
+            "9137c60645ee63c48c0afede"
+          ],
+          "label": "实际发布过讲解、演示、实测或评测 Notion 或 AI 笔记工具的内容；仅为优先项，缺少该内容不影响必选条件合格判定"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "9137c60645ee63c48c0afede",
+          "url": "",
+          "kind": "profile",
+          "text": "⏱️ Got 5 minutes? Let’s make something awesome!\nWe make DIY, lifehacks, and crafts quick, easy, and totally game-changing.\n👉 Hit SUBSCRIBE to start creating with us!\n\n• Brand partnerships & advertiser collaborations – https://thesoul.group/for-brands\n• Content licensing & OTT partnerships – https://thesoul.group/for-publishers\n• Contact: https://thesoul.group/contacts"
+        },
+        {
+          "id": "a13f3f3f6fdb1fc89e0ab5b6",
+          "url": "about:blank",
+          "kind": "browser_snapshot",
+          "text": "",
+          "assetId": "31534d0ff8b0900213a111990b158c5b950eb67812e29c91cece6292ddac76c1"
+        }
+      ]
+    },
+    {
+      "id": "research-11deee85612adbbdea75b835|youtube:beatboxjcop",
+      "taskId": "research-11deee85612adbbdea75b835",
+      "handle": "beatboxjcop",
+      "displayName": "BeatboxJCOP",
+      "platform": "youtube",
+      "tags": [
+        "Beatbox / 人声节奏表演"
+      ],
+      "verdict": "no_match",
+      "selected": false,
+      "revision": 1,
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "Beatbox / 人声节奏表演"
+          ],
+          "reason": "频道简介自称 Beatbox Star，并明确介绍其 BEATBOXING videos；仅支持频道自述方向，不证明近期视频内容。",
+          "evidenceIds": [
+            "04ab2f993713137d00b45459"
+          ]
+        },
+        {
+          "dimensionId": "expression_style",
+          "status": "unknown",
+          "values": [],
+          "reason": "缺少实际视频、帖子文字或有效内容截图，不能确认内容表达风格。",
+          "evidenceIds": [
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ]
+        },
+        {
+          "dimensionId": "collaboration_fit",
+          "status": "unknown",
+          "values": [],
+          "reason": "现有简介不足以支持 AI、效率工具或大学生营销场景的具体合作方式。",
+          "evidenceIds": [
+            "04ab2f993713137d00b45459"
+          ]
+        }
+      ],
+      "followers": 51000000,
+      "region": null,
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "unknown",
+          "reason": "未取得创作者地区",
+          "evidenceIds": [
+            "04ab2f993713137d00b45459"
+          ],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：youtube",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "no_match",
+          "reason": "WaveSurge 粉丝数 51000000，要求 10000–100000",
+          "evidenceIds": [
+            "04ab2f993713137d00b45459"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "ai_productivity_content",
+          "verdict": "unknown",
+          "reason": "已有频道简介仅介绍 Beatboxing 视频，未提供 AI 或效率工具教程、实测或评测的帖子文字。YouTube 主页链接缺失，当前页面为空白，无法核验发布内容；不能将未找到证据视为确定未发布。",
+          "evidenceIds": [
+            "04ab2f993713137d00b45459",
+            "a13f3f3f6fdb1fc89e0ab5b6"
+          ],
+          "label": "有 AI 或效率工具教程、实测或评测相关内容依据"
+        },
+        {
+          "criterionId": "college_audience",
+          "verdict": "unknown",
+          "reason": "频道简介没有明确面向大学生的内容描述，且无可核验的视频文字或日期，无法确认目标受众。",
+          "evidenceIds": [
+            "04ab2f993713137d00b45459"
+          ],
+          "label": "有明确面向大学生的内容依据，不要求创作者本人是在校生"
+        },
+        {
+          "criterionId": "notion_ai_notes_preference",
+          "verdict": "unknown",
+          "reason": "现有资料未展示讲解、演示、实测或评测 Notion 或 AI 笔记工具的发布内容；此项为优先项，不单独影响必选条件判定。",
+          "evidenceIds": [
+            "04ab2f993713137d00b45459"
+          ],
+          "label": "实际发布过讲解、演示、实测或评测 Notion 或 AI 笔记工具的内容；仅为优先项，缺少该内容不影响必选条件合格判定"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "04ab2f993713137d00b45459",
+          "url": "",
+          "kind": "profile",
+          "text": "This is the official YouTube channel of  Beatbox Star from KOREA - JCOP ! \n\nNo matter how incredible and unbelievable it may sound but all the voices are actually 100% REAL. So lets dive into the world of JCOP'S amazing and jaw dropping  BEATBOXING videos!\n\nJCOP can also be found on : \nTiktok : https://www.tiktok.com/@beatboxjcop\nInstagram : http://www.instagram.com/beatbox_jcop\nFacebook : https://www.facebook.com/beatboxJCOP"
+        },
+        {
+          "id": "a13f3f3f6fdb1fc89e0ab5b6",
+          "url": "about:blank",
+          "kind": "browser_snapshot",
+          "text": "",
+          "assetId": "31534d0ff8b0900213a111990b158c5b950eb67812e29c91cece6292ddac76c1"
+        }
+      ]
+    }
+  ],
+  "modelCalls": [
+    {
+      "id": "2535f215-f3c5-42d8-9215-3e2098e101c2",
+      "kind": "chat",
+      "createdAt": 1791613621131,
+      "finishedAt": 1791613630980,
+      "model": "gpt-6.1-sol",
+      "toolNames": [
+        "get_tasks",
+        "search_history",
+        "start_research",
+        "cancel_research",
+        "enrich_results",
+        "get_results",
+        "save_campaign_plan",
+        "get_campaigns",
+        "start_campaign"
+      ],
+      "response": {
+        "role": "assistant",
+        "content": null,
+        "reasoning_content": null,
+        "tool_calls": [
+          {
+            "id": "call_K61GXoWsmfFRFQ7lFv8GV8WR",
+            "type": "function",
+            "function": {
+              "name": "get_tasks",
+              "arguments": "{}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "17b692fb-64e6-4ffe-8439-24653256153f",
+      "kind": "chat",
+      "createdAt": 1791613630998,
+      "finishedAt": 1791613649208,
+      "model": "gpt-6.1-sol",
+      "toolNames": [
+        "get_tasks",
+        "search_history",
+        "start_research",
+        "cancel_research",
+        "enrich_results",
+        "get_results",
+        "save_campaign_plan",
+        "get_campaigns",
+        "start_campaign"
+      ],
+      "response": {
+        "role": "assistant",
+        "content": null,
+        "reasoning_content": null,
+        "tool_calls": [
+          {
+            "id": "call_nzcI6UsDflYVtToHCVpwftAd",
+            "type": "function",
+            "function": {
+              "name": "start_research",
+              "arguments": "{\"title\":\"Instagram 指定两账号数码产品适配核验\",\"personaText\":\"Instagram accounts tylerlcrawford and valstechtalkk\",\"instagram\":{\"queries\":[\"tylerlcrawford\",\"valstechtalkk\"],\"version\":\"v3\"},\"count\":2,\"platforms\":[\"instagram\"],\"regions\":[],\"minFollowers\":10000,\"maxFollowers\":100000,\"candidateBudget\":2,\"criteria\":[{\"id\":\"specified_accounts\",\"label\":\"仅限 Instagram 用户名 tylerlcrawford 或 valstechtalkk，其他账号不纳入核验\",\"required\":true,\"basis\":\"text\"},{\"id\":\"personal_account\",\"label\":\"个人创作者账号，而非品牌、商店或机构账号\",\"required\":true,\"basis\":\"either\"},{\"id\":\"digital_content\",\"label\":\"实际发布数码产品或消费电子相关内容，需有帖子内容依据\",\"required\":true,\"basis\":\"either\"},{\"id\":\"glasses\",\"label\":\"实际照片或视频中佩戴眼镜；仅为优先项，未观察到可靠视觉证据则待确认\",\"required\":false,\"basis\":\"visual\"},{\"id\":\"geek_style\",\"label\":\"实际穿搭、表达和折腾设备呈现理工宅气质；光讲数码不算，看不出来则待确认，仅为优先项\",\"required\":false,\"basis\":\"either\"}],\"annotations\":[{\"id\":\"content_direction\",\"label\":\"内容方向\"},{\"id\":\"style\",\"label\":\"穿搭与表达风格\"},{\"id\":\"glasses_status\",\"label\":\"是否戴眼镜\",\"values\":[\"戴眼镜\",\"未戴眼镜\"]}] }"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "b72e763b-5300-435d-b25c-67c02d396552",
+      "kind": "chat",
+      "createdAt": 1791613649235,
+      "finishedAt": 1791613662968,
+      "model": "gpt-6.1-sol",
+      "toolNames": [
+        "get_tasks",
+        "search_history",
+        "start_research",
+        "cancel_research",
+        "enrich_results",
+        "get_results",
+        "save_campaign_plan",
+        "get_campaigns",
+        "start_campaign"
+      ],
+      "response": {
+        "role": "assistant",
+        "content": "已重新提交核验，任务已进入队列，**只看 @tylerlcrawford 和 @valstechtalkk，不增加其他人**。\n\n- **硬条件**：个人账号、粉丝 1万–10万、确实发布数码内容；地区不限。\n- **优先项**：戴眼镜，以及你定义的 geek 风——理工宅感的穿搭、表达和折腾设备气质。不会因讲数码就默认符合；看不出来写“待确认”，不影响硬条件判定。\n- **报告**：两人无论合不合适都保留，分别写内容方向、风格、是否戴眼镜的短标签与依据，并说明数码产品推广适配情况，最后提供可下载文档。\n\n目前只是已提交，尚未得到核验结论。",
+        "reasoning_content": null,
+        "tool_calls": null
+      }
+    },
+    {
+      "id": "d2bbdab3-07d6-4cb2-9508-d6554f361363",
+      "kind": "chat",
+      "createdAt": 1791613662981,
+      "finishedAt": 1791613671502,
+      "model": "gpt-6.1-sol",
+      "toolNames": [
+        "get_tasks",
+        "search_history",
+        "start_research",
+        "cancel_research",
+        "enrich_results",
+        "get_results",
+        "save_campaign_plan",
+        "get_campaigns",
+        "start_campaign"
+      ],
+      "response": {
+        "role": "assistant",
+        "content": "已重新提交核验，**仅看 Instagram 的 @tylerlcrawford 和 @valstechtalkk，不增加其他人**。目前任务已排队，尚未得出核验结论。\n\n按你确认的口径执行：\n- **硬条件**：个人账号、粉丝 1万–10万、有实际数码内容；地区不限。\n- **优先项**：戴眼镜，以及从实际穿搭、表达和折腾设备体现出的理工宅气质。**光讲数码不算 geek 风**；看不出来就写“待确认”，不影响硬条件判定。\n- **报告**：两人无论是否合适都会保留，逐人列出内容方向、风格、眼镜标签、简短依据和数码产品推广适配理由，并提供可下载文档。",
+        "reasoning_content": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "toolReceipts": [
+    {
+      "call": {
+        "id": "call_K61GXoWsmfFRFQ7lFv8GV8WR",
+        "type": "function",
+        "function": {
+          "name": "get_tasks",
+          "arguments": "{}"
+        }
+      },
+      "message": {
+        "role": "tool",
+        "tool_call_id": "call_K61GXoWsmfFRFQ7lFv8GV8WR",
+        "content": "[{\"id\":\"research-7e157f91534c9f8f156d257d\",\"title\":\"美国 TikTok 数码男博主筛选\",\"status\":\"partial\",\"requested\":2,\"evaluated\":4,\"matched\":0,\"qualifying\":0,\"updatedAt\":1791612872357,\"detail\":\"已选合格 0/2，已核验 4；证据不足者保持待核实。\",\"remoteStatus\":\"done\",\"nextPollAt\":1791612813015},{\"id\":\"research-a8e3309218440957ace846fd\",\"title\":\"YouTube 大学学习方法创作者\",\"status\":\"partial\",\"requested\":1,\"evaluated\":2,\"matched\":0,\"qualifying\":0,\"updatedAt\":1791613297872,\"detail\":\"已选合格 0/1，已核验 2；证据不足者保持待核实。\",\"remoteStatus\":\"done\",\"nextPollAt\":1791613195766},{\"id\":\"research-11deee85612adbbdea75b835\",\"title\":\"YouTube 大学生 AI 与效率工具创作者\",\"status\":\"partial\",\"requested\":1,\"evaluated\":2,\"matched\":0,\"qualifying\":0,\"updatedAt\":1791613335684,\"detail\":\"已选合格 0/1，已核验 2；证据不足者保持待核实。\",\"remoteStatus\":\"done\",\"nextPollAt\":1791613301194}]"
+      }
+    },
+    {
+      "call": {
+        "id": "call_nzcI6UsDflYVtToHCVpwftAd",
+        "type": "function",
+        "function": {
+          "name": "start_research",
+          "arguments": "{\"title\":\"Instagram 指定两账号数码产品适配核验\",\"personaText\":\"Instagram accounts tylerlcrawford and valstechtalkk\",\"instagram\":{\"queries\":[\"tylerlcrawford\",\"valstechtalkk\"],\"version\":\"v3\"},\"count\":2,\"platforms\":[\"instagram\"],\"regions\":[],\"minFollowers\":10000,\"maxFollowers\":100000,\"candidateBudget\":2,\"criteria\":[{\"id\":\"specified_accounts\",\"label\":\"仅限 Instagram 用户名 tylerlcrawford 或 valstechtalkk，其他账号不纳入核验\",\"required\":true,\"basis\":\"text\"},{\"id\":\"personal_account\",\"label\":\"个人创作者账号，而非品牌、商店或机构账号\",\"required\":true,\"basis\":\"either\"},{\"id\":\"digital_content\",\"label\":\"实际发布数码产品或消费电子相关内容，需有帖子内容依据\",\"required\":true,\"basis\":\"either\"},{\"id\":\"glasses\",\"label\":\"实际照片或视频中佩戴眼镜；仅为优先项，未观察到可靠视觉证据则待确认\",\"required\":false,\"basis\":\"visual\"},{\"id\":\"geek_style\",\"label\":\"实际穿搭、表达和折腾设备呈现理工宅气质；光讲数码不算，看不出来则待确认，仅为优先项\",\"required\":false,\"basis\":\"either\"}],\"annotations\":[{\"id\":\"content_direction\",\"label\":\"内容方向\"},{\"id\":\"style\",\"label\":\"穿搭与表达风格\"},{\"id\":\"glasses_status\",\"label\":\"是否戴眼镜\",\"values\":[\"戴眼镜\",\"未戴眼镜\"]}] }"
+        }
+      },
+      "message": {
+        "role": "tool",
+        "tool_call_id": "call_nzcI6UsDflYVtToHCVpwftAd",
+        "content": "{\"id\":\"research-06587523c43581240c9622f3\",\"title\":\"Instagram 指定两账号数码产品适配核验\",\"spec\":{\"title\":\"Instagram 指定两账号数码产品适配核验\",\"personaText\":\"Instagram accounts tylerlcrawford and valstechtalkk\",\"instagram\":{\"queries\":[\"tylerlcrawford\",\"valstechtalkk\"],\"version\":\"v3\"},\"count\":2,\"platforms\":[\"instagram\"],\"regions\":[],\"minFollowers\":10000,\"maxFollowers\":100000,\"candidateBudget\":2,\"criteria\":[{\"id\":\"specified_accounts\",\"label\":\"仅限 Instagram 用户名 tylerlcrawford 或 valstechtalkk，其他账号不纳入核验\",\"required\":true,\"basis\":\"text\"},{\"id\":\"personal_account\",\"label\":\"个人创作者账号，而非品牌、商店或机构账号\",\"required\":true,\"basis\":\"either\"},{\"id\":\"digital_content\",\"label\":\"实际发布数码产品或消费电子相关内容，需有帖子内容依据\",\"required\":true,\"basis\":\"either\"},{\"id\":\"glasses\",\"label\":\"实际照片或视频中佩戴眼镜；仅为优先项，未观察到可靠视觉证据则待确认\",\"required\":false,\"basis\":\"visual\"},{\"id\":\"geek_style\",\"label\":\"实际穿搭、表达和折腾设备呈现理工宅气质；光讲数码不算，看不出来则待确认，仅为优先项\",\"required\":false,\"basis\":\"either\"}],\"annotations\":[{\"id\":\"content_direction\",\"label\":\"内容方向\"},{\"id\":\"style\",\"label\":\"穿搭与表达风格\"},{\"id\":\"glasses_status\",\"label\":\"是否戴眼镜\",\"values\":[\"戴眼镜\",\"未戴眼镜\"]}]},\"body\":{\"requestId\":\"research-06587523c43581240c9622f3\",\"personaText\":\"Instagram accounts tylerlcrawford and valstechtalkk\",\"count\":2,\"platforms\":[\"instagram\"],\"regions\":[],\"minFollowers\":10000,\"maxFollowers\":100000,\"emailReadyRequired\":false},\"status\":\"queued\",\"requested\":2,\"evaluated\":0,\"matched\":0,\"updatedAt\":1791613649212,\"detail\":\"等待读取 WaveSurge 候选与原始资料\",\"nextPollAt\":0,\"candidates\":[],\"failures\":[]}"
+      }
+    }
+  ],
+  "waveCalls": [
+    {
+      "id": "031d3e25-c0b6-4c87-a600-8196ef2205ac",
+      "path": "/instagram/v3/search_users?query=tylerlcrawford",
+      "method": "GET",
+      "status": 200,
+      "createdAt": 1791613649216,
+      "finishedAt": 1791613652230
+    },
+    {
+      "id": "be92bc04-2bb3-4a1c-b0e3-8d58d01ae413",
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=tylerlcrawford",
+      "method": "GET",
+      "status": 200,
+      "createdAt": 1791613654023,
+      "finishedAt": 1791613659891
+    },
+    {
+      "id": "c8999860-af37-4208-ac6e-1fdeacdd77ff",
+      "path": "/instagram/v1/fetch_user_posts?user_id=48426799147&count=12",
+      "method": "GET",
+      "status": 200,
+      "createdAt": 1791613659897,
+      "finishedAt": 1791613668796
+    },
+    {
+      "id": "693f997e-9653-4915-8309-c9cf3d98ccdc",
+      "path": "/instagram/v1/fetch_user_posts?user_id=48426799147&count=12&max_id=3997965466461395273_48426799147",
+      "method": "GET",
+      "createdAt": 1791613668808
+    }
+  ],
+  "chatReportLinks": [
+    {
+      "text": "查看完整报告",
+      "href": "/api/reports/research-7e157f91534c9f8f156d257d"
+    },
+    {
+      "text": "下载 CSV",
+      "href": "/api/reports/research-7e157f91534c9f8f156d257d?format=csv"
+    },
+    {
+      "text": "查看完整报告",
+      "href": "/api/reports/research-a8e3309218440957ace846fd"
+    },
+    {
+      "text": "下载 CSV",
+      "href": "/api/reports/research-a8e3309218440957ace846fd?format=csv"
+    },
+    {
+      "text": "查看完整报告",
+      "href": "/api/reports/research-11deee85612adbbdea75b835"
+    },
+    {
+      "text": "下载 CSV",
+      "href": "/api/reports/research-11deee85612adbbdea75b835?format=csv"
+    }
+  ]
+}

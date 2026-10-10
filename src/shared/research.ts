@@ -1,0 +1,27 @@
+export type Platform = 'instagram' | 'tiktok' | 'youtube' | 'twitter';
+export type Criterion = { id: string; label: string; required: boolean; basis: 'text' | 'visual' | 'either' };
+export type AnnotationDimension = { id: string; label: string; values?: string[] };
+export type Annotation = { dimensionId: string; status: 'supported' | 'unknown'; values: string[]; reason: string; evidenceIds: string[] };
+export type FactObservation = { kind: 'followers' | 'country'; rawValue: string; evidenceIds: string[] };
+export type Assessment = { judgments: Judgment[]; annotations?: Annotation[]; facts?: FactObservation[] };
+export type SearchSpec = { title: string; personaText: string; count: number; platforms: Platform[]; regions: string[]; minFollowers: number; maxFollowers: number; criteria: Criterion[]; candidateBudget: number; analyzeAll?: boolean; verificationMode?: 'auto' | 'text' | 'browser'; annotations?: AnnotationDimension[]; instagram?: { queries?: string[]; handles?: string[]; profileBudget?: number; version?: 'v1' | 'v2' | 'v3' } };
+export type Evidence = { id: string; url: string; kind: string; text: string; provider: string; publishedAt: string | null; capturedAt: number; assetId?: string };
+export type Creator = { id: string; platform: Platform; handle: string; displayName: string; profileUrl: string; followers: number | null; region: string | null; evidence: Evidence[]; raw: Record<string, unknown>; browserVerification?: { startedAt: number; profileEvidenceIds: string[] }; engagement?: { rate: number | null; sampleSize: number; formula: string; unit: 'ratio' }; photoUrls?: string[]; facts?: { followers?: { rawValue: string; min: number; max: number; evidenceIds: string[] }; country?: { code: string; rawValue: string; evidenceIds: string[] }; conflicts: string[]; rejected?: string[] } };
+export type Verdict = 'match' | 'no_match' | 'unknown';
+export type Judgment = { criterionId: string; verdict: Verdict; reason: string; evidenceIds: string[]; label?: string };
+export type ReportContext = { sourceTaskTitle: string; groupId: string; groupTitle: string; selectionScope: 'research' | 'campaign'; campaignId?: string; campaignTitle?: string; researchSelected?: boolean; allocatedGroupId?: string; allocatedGroupTitle?: string };
+export type Result = { id: string; taskId: string; creator: Creator; verdict: Verdict; judgments: Judgment[]; tags: string[]; updatedAt: number; selected?: boolean; annotations?: Annotation[]; revision?: number; reportContext?: ReportContext };
+export const platforms: Platform[] = ['instagram', 'tiktok', 'youtube', 'twitter'];
+export const searchSchema = {
+  type: 'object', additionalProperties: false, required: ['title', 'personaText', 'count', 'platforms', 'regions', 'minFollowers', 'maxFollowers', 'criteria', 'candidateBudget'],
+  properties: {
+    analyzeAll: { type: 'boolean', description: '用户要求所有候选逐人分析/打标时必须为 true，即使已达到 count 入选人数仍继续分析本次有界候选。' },
+    verificationMode: { enum: ['auto', 'text', 'browser'], description: '用户明确只分析已有文字、不打开网页时选 text；默认 auto 按证据需要决定浏览器动作。用户明确需要打开本人主页、取得本轮网页观察或重新查看页面时必须选 browser：实际访问本人主页，无法取得本轮本人页面证据则该项 unknown，旧截图或文字不能冒充新访问。browser 与 auto 都等待人工桌面租约。' },
+    instagram: { type: 'object', additionalProperties: false, description: '明确指定账号使用 handles 精确列表，直接获取本人资料，不搜索相似账号。泛搜索使用简短 queries，先排除已知粉丝不符者再取帖子，不占定性分析预算。profileBudget 是泛搜索的基础账号详情读取上限，默认 min(500,max(20,candidateBudget*5))，与逐人分析预算独立；达到任一来源边界就报告。固定一个版本，不自动切换。默认 v3。', properties: { profileBudget: { type: 'integer', minimum: 1, maximum: 1000 }, handles: { type: 'array', minItems: 1, maxItems: 1000, uniqueItems: true, items: { type: 'string', pattern: '^[A-Za-z0-9_.]{1,30}$' } }, queries: { type: 'array', minItems: 1, maxItems: 5, uniqueItems: true, items: { type: 'string', minLength: 1, maxLength: 100 } }, version: { enum: ['v1', 'v2', 'v3'] } } },
+    annotations: { type: 'array', maxItems: 10, description: '画像标注维度，与筛选条件分开。label 是内容方向/风格等维度名，values 可限定可选标签；不得将整段指令、举例或否定结论存成标签。', items: { type: 'object', required: ['id', 'label'], additionalProperties: false, properties: { id: { type: 'string', pattern: '^[a-zA-Z0-9][a-zA-Z0-9_-]*$', maxLength: 100 }, label: { type: 'string', minLength: 1, maxLength: 100 }, values: { type: 'array', maxItems: 30, uniqueItems: true, items: { type: 'string', minLength: 1, maxLength: 100 } } } } },
+    title: { type: 'string', minLength: 1, maxLength: 200 }, personaText: { type: 'string', description: '仅描述候选的简短内容主题或创作者画像，例如 technology and headphone reviewers。不要在此字段写人数、候选上限、执行步骤、核验预算、跨类型去重、其它组名册或外联要求；这些由结构字段及本地系统处理。', minLength: 1, maxLength: 4000 }, count: { type: 'integer', minimum: 1, maximum: 1000 },
+    platforms: { type: 'array', minItems: 1, maxItems: 4, uniqueItems: true, items: { type: 'string', enum: platforms } }, regions: { type: 'array', maxItems: 100, items: { type: 'string', minLength: 1, maxLength: 100 } },
+    minFollowers: { type: 'integer', minimum: 0, description: '粉丝下限，不限填0。' }, maxFollowers: { type: 'integer', minimum: 0, maximum: 9007199254740991, description: '粉丝上限，不限必须填9007199254740991；0表示最多0位粉丝，绝不能用于表示不限。' }, candidateBudget: { type: 'integer', minimum: 1, maximum: 1000 },
+    criteria: { type: 'array', maxItems: 20, items: { type: 'object', required: ['id', 'label', 'required', 'basis'], additionalProperties: false, properties: { id: { type: 'string', minLength: 1, maxLength: 100, pattern: '^[a-zA-Z0-9][a-zA-Z0-9_-]*$' }, label: { type: 'string', minLength: 1, maxLength: 1000 }, required: { type: 'boolean' }, basis: { type: 'string', enum: ['text', 'visual', 'either'] } } } }
+  }
+};

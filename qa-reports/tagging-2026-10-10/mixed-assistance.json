@@ -1,0 +1,31 @@
+{
+  "startedAt": "2026-10-10T03:03:01.495Z",
+  "source": "Actual app assistance UI and noVNC; public Instagram popup handling only",
+  "request": {
+    "id": "4e8f3ba9-4143-4d6e-a993-517f311efe00",
+    "taskId": "research-d88d897d041645bd6758ac19",
+    "creatorId": "instagram:franhaddock_",
+    "reason": "Instagram 帖子出现登录/注册弹窗，遮挡视频人物，无法核验眼镜与极客穿搭视觉条件。请通过同一桌面协助恢复可查看的帖子页面；无需发送消息、关注或点赞。已保留帖子文字和来源，协助结束后我会重新观察。",
+    "status": "pending",
+    "createdAt": 1791601190212,
+    "leaseUntil": 0
+  },
+  "canvas": {
+    "x": 203.8125,
+    "y": 368.796875,
+    "width": 1089.59375,
+    "height": 681
+  },
+  "phase": "released",
+  "action": {
+    "observedScreenshot": "screenshots/mixed-instagram-before.png",
+    "clicks": [
+      {
+        "xFraction": 0.666055,
+        "yFraction": 0.365638
+      }
+    ],
+    "outcome": "已点击注册提示的关闭按钮，没有登录或输入凭据。请重新观察公开帖子，依据实际能看到的内容核验；如果仍有遮挡或看不清，保持待核实。"
+  },
+  "finishedAt": "2026-10-10T03:04:48.896Z"
+}

@@ -1,0 +1,154 @@
+{
+  "at": "2026-10-10T14:57:03.531Z",
+  "taskId": "research-290c9d1e55ab57958eebf69f",
+  "checks": [
+    {
+      "filter": {
+        "platform": "instagram",
+        "verdict": "",
+        "tag": ""
+      },
+      "rows": 20,
+      "handles": [
+        "lanetechhs",
+        "ruparutgers",
+        "lytegamingpcs",
+        "texastechtf",
+        "tycsportse",
+        "asupab",
+        "hokiessoftball",
+        "iginvictusgaming",
+        "ladyraiderwbb",
+        "kriger_boxprogramming",
+        "ig_gaming446",
+        "velora._.artistry",
+        "miguel_layun_gaming",
+        "corruptx7",
+        "metagaming_py",
+        "teamlgdgaming",
+        "maverickgaming",
+        "hokiesmbb",
+        "guildesports",
+        "kreamtech"
+      ],
+      "csv": ".gstack/qa-reports/retest-2026-10-10-r4/select-filter-0.csv",
+      "passed": true
+    },
+    {
+      "filter": {
+        "platform": "twitter",
+        "verdict": "",
+        "tag": ""
+      },
+      "rows": 0,
+      "handles": [],
+      "csv": ".gstack/qa-reports/retest-2026-10-10-r4/select-filter-1.csv",
+      "passed": true
+    },
+    {
+      "filter": {
+        "platform": "",
+        "verdict": "unknown",
+        "tag": ""
+      },
+      "rows": 3,
+      "handles": [
+        "ig_gaming446",
+        "miguel_layun_gaming",
+        "corruptx7"
+      ],
+      "csv": ".gstack/qa-reports/retest-2026-10-10-r4/select-filter-2.csv",
+      "passed": true
+    },
+    {
+      "filter": {
+        "platform": "",
+        "verdict": "no_match",
+        "tag": ""
+      },
+      "rows": 17,
+      "handles": [
+        "lanetechhs",
+        "ruparutgers",
+        "lytegamingpcs",
+        "texastechtf",
+        "tycsportse",
+        "asupab",
+        "hokiessoftball",
+        "iginvictusgaming",
+        "ladyraiderwbb",
+        "kriger_boxprogramming",
+        "velora._.artistry",
+        "metagaming_py",
+        "teamlgdgaming",
+        "maverickgaming",
+        "hokiesmbb",
+        "guildesports",
+        "kreamtech"
+      ],
+      "csv": ".gstack/qa-reports/retest-2026-10-10-r4/select-filter-3.csv",
+      "passed": true
+    },
+    {
+      "filter": {
+        "platform": "",
+        "verdict": "match",
+        "tag": ""
+      },
+      "rows": 0,
+      "handles": [],
+      "csv": ".gstack/qa-reports/retest-2026-10-10-r4/select-filter-4.csv",
+      "passed": true
+    },
+    {
+      "filter": {
+        "platform": "instagram",
+        "verdict": "unknown",
+        "tag": "游戏"
+      },
+      "rows": 3,
+      "handles": [
+        "ig_gaming446",
+        "miguel_layun_gaming",
+        "corruptx7"
+      ],
+      "csv": ".gstack/qa-reports/retest-2026-10-10-r4/select-filter-5.csv",
+      "passed": true
+    },
+    {
+      "filter": {
+        "platform": "",
+        "verdict": "",
+        "tag": ""
+      },
+      "rows": 20,
+      "handles": [
+        "lanetechhs",
+        "ruparutgers",
+        "lytegamingpcs",
+        "texastechtf",
+        "tycsportse",
+        "asupab",
+        "hokiessoftball",
+        "iginvictusgaming",
+        "ladyraiderwbb",
+        "kriger_boxprogramming",
+        "ig_gaming446",
+        "velora._.artistry",
+        "miguel_layun_gaming",
+        "corruptx7",
+        "metagaming_py",
+        "teamlgdgaming",
+        "maverickgaming",
+        "hokiesmbb",
+        "guildesports",
+        "kreamtech"
+      ],
+      "csv": ".gstack/qa-reports/retest-2026-10-10-r4/select-filter-6.csv",
+      "passed": true
+    }
+  ],
+  "pageErrors": [],
+  "finishedAt": "2026-10-10T14:57:34.105Z",
+  "passed": true
+}

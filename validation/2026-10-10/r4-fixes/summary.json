@@ -1,0 +1,164 @@
+{
+  "completedAt": "2026-10-10T16:25:01.661Z",
+  "passed": true,
+  "fixedFindings": [
+    "F26",
+    "F27",
+    "F28",
+    "F29",
+    "F30",
+    "F31",
+    "F32"
+  ],
+  "tests": 240,
+  "completeBrowserScenarios": 4,
+  "realWaveOrigin": "https://wavesurge.ai/api/v1",
+  "realWaveCalls": 50,
+  "realModelCalls": 29,
+  "sourceFiles": 58,
+  "modifiedSource": [
+    {
+      "path": "src/client/App.tsx",
+      "new": false,
+      "sha256": "a073229db7a77f6f28ce4f3f6c9f41454ed42b8bbaac44f761d5ef8381b813cc"
+    },
+    {
+      "path": "src/client/Results.tsx",
+      "new": false,
+      "sha256": "9737cbbac90138c4a0b9e46e4a2f12ef1c24a9b639fb97d8902f2d237e503c55"
+    },
+    {
+      "path": "src/server/bootstrap.ts",
+      "new": false,
+      "sha256": "30918132396292e219368b45134c3ed4ea9d6cdb38e78162aededf9993f6ad53"
+    },
+    {
+      "path": "src/server/campaign-api.ts",
+      "new": false,
+      "sha256": "a86b80dd66a099d4d093f941b46a6542b41fa2ccbffa3d2d5a82beee55d2bed0"
+    },
+    {
+      "path": "src/server/campaign.ts",
+      "new": false,
+      "sha256": "6a9f7d0500c9174930b528c4252186de49844c4344b6bd0ac24c7c35878c0280"
+    },
+    {
+      "path": "src/server/repair.ts",
+      "new": false,
+      "sha256": "317ed593004da40312a867d497bb49017250c925235ce2e5530538b89704b526"
+    },
+    {
+      "path": "src/server/report-scope.ts",
+      "new": true,
+      "sha256": "e8d8ad37f56e08fa5c1692e978f298d5d9e205647a7667918254f52bc5d26b9f"
+    },
+    {
+      "path": "src/server/reports.ts",
+      "new": false,
+      "sha256": "3cf76ec9f9e1ac378695cf05408aed40058adb2d593a9298e64a880f82ef51de"
+    },
+    {
+      "path": "src/server/research-api.ts",
+      "new": false,
+      "sha256": "d5c578a7b6971198db3ee1dfe8ed6b341573b952f44d3af975823ba218d1ec4f"
+    },
+    {
+      "path": "src/server/research-tools.ts",
+      "new": false,
+      "sha256": "d514312f41b9151e413d590c0d8891ad5dc26dca0cce1f45b30b933197d63137"
+    },
+    {
+      "path": "src/server/research.ts",
+      "new": false,
+      "sha256": "9d1f0e6112aeca33926c6fe1d412f17a102d5a926fd0b22a1e252ac44a80c7a4"
+    },
+    {
+      "path": "src/server/result-filter.ts",
+      "new": false,
+      "sha256": "67d1cc32f0ee0ca4b6838c05e221f80b09fb1f5f0eb18b159040779622871e84"
+    },
+    {
+      "path": "src/server/settings.ts",
+      "new": false,
+      "sha256": "b6afccf64539159e6a59e697c75e1d3f116f18a90c57bee1a068ba2d0179941c"
+    },
+    {
+      "path": "src/server/task-facts.ts",
+      "new": false,
+      "sha256": "0b5a0ef47271f4ccbfe6ff1615ca39e8687bf1077516bb68a295795d1ea483ec"
+    },
+    {
+      "path": "src/server/verdict.ts",
+      "new": false,
+      "sha256": "620eea900ca0aa43520194390b62db5802f34728b8f24accfc7f834b6aa4145e"
+    },
+    {
+      "path": "src/server/wave.ts",
+      "new": false,
+      "sha256": "963b66cafafee100d21cb57ac14d72f3911979a18f0aa5d09733afa1df92c929"
+    },
+    {
+      "path": "src/server/work-delivery.ts",
+      "new": false,
+      "sha256": "cf0586462a8d0dc26686dff6d00945a151f5aa8f7e319f2d8478960b4934e036"
+    },
+    {
+      "path": "src/shared/prompts.ts",
+      "new": false,
+      "sha256": "e1e0ad1f5d21b0cf0d33f847d4866c062593291a91ece7e363a19031baf24bf1"
+    },
+    {
+      "path": "src/shared/research.ts",
+      "new": false,
+      "sha256": "f893d0fda55e99607ea6577d535f01e52456709b7efe35f385be9eff4dfae938"
+    }
+  ],
+  "realTaskCounts": {
+    "task": 8,
+    "result": 10,
+    "result-history": 6,
+    "work-batch": 3,
+    "message": 17,
+    "assistance": 0,
+    "wave-call": 50,
+    "delivery": 3,
+    "data-migration": 5
+  },
+  "reportsCompared": 12,
+  "mainUrl": "http://localhost:3000",
+  "realValidationUrl": "http://localhost:3600",
+  "originalReviewer": "3592 preserved",
+  "phaseArtifacts": [
+    "phase-a-browser",
+    "phase-b-browser",
+    "phase-c-browser",
+    "real-workflows",
+    "main-preview",
+    "main-browser",
+    "final-restart",
+    "report-validation",
+    "source-check"
+  ],
+  "limits": "Original 20 fully qualified creators and real social-platform login not established by this small sample or controlled browser fixtures.",
+  "report": "reports/retest-r4-fixes-2026-10-10.html",
+  "reportFlow": "reports/retest-r4-fixes-flow.svg",
+  "realOriginVerified": true,
+  "semanticReview": {
+    "source": "Codex inspected the actual final model reply against saved API/HTML/CSV counts and allocation",
+    "passed": true,
+    "independentGroupQualified": [
+      2,
+      2,
+      2
+    ],
+    "independentGroupSelected": [
+      1,
+      1,
+      1
+    ],
+    "independentRecords": 6,
+    "campaignRecords": 4,
+    "campaignQualifiedUnique": 2,
+    "campaignSelectedUnique": 2
+  }
+}

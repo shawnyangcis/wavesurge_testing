@@ -1,0 +1,24 @@
+import { expect, test } from '@playwright/test';
+import { execFileSync } from 'node:child_process';
+import { writeFileSync } from 'node:fs';
+test('真实原始数据研究：界面启动、持续消息与 GET 读取检查点', async ({ page }) => {
+  test.skip(process.env.LIVE_WAVESURGE !== '1', '真实服务新建研究需显式 LIVE_WAVESURGE=1；默认验收使用独立受控部署');
+  test.setTimeout(240000);
+  const password = execFileSync('docker', ['compose', 'exec', '-T', 'app', 'node', '-e', "process.stdout.write(require('fs').readFileSync('/app/data/admin-bootstrap.txt','utf8'))"], { encoding: 'utf8' });
+  await page.goto('/'); await page.getByLabel('管理员密码').fill(password); await page.getByRole('button', { name: /进入工作室/ }).click(); await expect(page.getByLabel('研究对话')).toBeVisible();
+  await expect.poll(async () => (await (await page.request.get('/api/state')).json()).active, { timeout: 120000 }).toBe(false);
+  await page.request.post('/api/context/reset', { data: {} }); const before = (await (await page.request.get('/api/state')).json()).tasks.map((task: { id: string }) => task.id);
+  const nonce = Date.now(); await page.getByRole('textbox', { name: '发送消息' }).fill(`真实原始 API 验收 ${nonce}：帮我找 2 位 Instagram 科技内容创作者，所在地 Canada 或 United States，粉丝 1 万至 10 万，无邮箱要求。最多搜索 4 位候选。分享科技内容是必选文字条件，没有视觉条件。请现在调用 start_research 开始，只检索核验，不做外联。`); await page.getByRole('button', { name: '发送消息' }).click();
+  const tasks = async () => (await (await page.request.get('/api/state')).json()).tasks;
+  await expect.poll(async () => (await tasks()).filter((task: { id: string }) => !before.includes(task.id)).length, { timeout: 120000 }).toBe(1);
+  let task = (await tasks()).find((task: { id: string }) => !before.includes(task.id));
+  await expect.poll(async () => (await tasks()).find((t: { id: string }) => t.id === task.id).discovery, { timeout: 90000 }).toBeTruthy();
+  await page.getByRole('textbox', { name: '发送消息' }).fill(`查询 ${nonce}：这个任务目前的真实进度是什么？请调用 get_tasks，不要重新提交。`); await page.getByRole('button', { name: '发送消息' }).click();
+  await expect.poll(async () => (await (await page.request.get('/api/state')).json()).active, { timeout: 120000 }).toBe(false);
+  expect((await tasks()).filter((t: { id: string }) => !before.includes(t.id))).toHaveLength(1);
+  await page.reload(); await expect(page.getByText(task.title, { exact: true })).toBeVisible(); await page.getByRole('button', { name: '查看结果' }).last().click(); await expect(page.getByRole('dialog', { name: '研究结果' })).toBeVisible();
+  const report = await page.request.get(`/api/reports/${task.id}`); expect(report.status()).toBe(200); expect(await report.text()).toContain('合格候选');
+  await page.getByRole('button', { name: '关闭' }).click(); task = (await tasks()).find((t: { id: string }) => t.id === task.id);
+  const debug = await (await page.request.get('/api/debug')).json(); const calls = debug.waveCalls.filter((call: any) => call.createdAt >= nonce); expect(calls.some((call:any)=>call.path.startsWith('/instagram/'))).toBe(true); expect(calls.every((call:any)=>call.method==='GET')).toBe(true);expect(task.remoteId).toBeUndefined();
+  writeFileSync('validation/2026-10-10/stage-3-live-search-start.json', JSON.stringify({ source: 'real production UI + configured LLM + live WaveSurge GET raw API', task, calls: debug.waveCalls, startedAt: nonce }, null, 2)); await page.screenshot({ path: 'validation/2026-10-10/stage-3-search-running.png', fullPage: true });
+});

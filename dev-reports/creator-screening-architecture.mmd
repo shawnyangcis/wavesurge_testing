@@ -1,0 +1,19 @@
+flowchart TD
+    U[用户 Web Chat] --> A[应用 API 与鉴权]
+    A --> C[聊天 Agent 与条件澄清]
+    C -->|直接给出筛选条件| T[筛选任务与固定条件版本]
+    C --> CP[CampaignPlanner 与交互方案]
+    CP -->|类型与平台编译为子任务| T
+    T --> W[后台执行器]
+    W --> S[WaveSurge 适配器]
+    W --> E[证据 Worker 与 Desktop Broker]
+    E --> B[Linux VM 内有头 Chromium 桌面]
+    U -->|鉴权 noVNC 人工接管| B
+    W --> M[逐人 ModelClient]
+    W --> D[(SQLite)]
+    C --> D
+    A --> D
+    D --> R[查询与报告导出]
+    W --> P[持久化任务事件]
+    P --> A
+    A -->|SSE| U

@@ -1,0 +1,300 @@
+{
+  "at": "2026-10-10T10:48:16.253Z",
+  "id": "campaign-400c66f262a9672f04ebd06e",
+  "checks": [
+    "Stale v1 start rejected without running or discovery",
+    "Actual UI confirms v2 and starts exactly two child research tasks",
+    "Repeated start retains same tasks and does not register another batch"
+  ],
+  "before": {
+    "title": "美国年轻人智能生活App小预算Instagram推广方案",
+    "goal": "下个月推广管理智能家居和手机小工具的App，支持iOS与Android、有免费版；推动下载后试用一个功能。预算暂按2000美元规划，不代表付费或外联授权。",
+    "audience": "美国18–30岁的大学生及初入职场年轻人。美国仅为目标受众，创作者所在地不限；创作者的美国受众分布尚未证实，不预先认定。",
+    "groups": [
+      {
+        "id": "smart_home",
+        "rationale": "通过真实智能家居或家庭自动化体验展示App如何简化日常操作；英语内容优先，但不据此推定美国受众分布。",
+        "spec": {
+          "title": "智能家居／家庭自动化个人体验博主",
+          "personaText": "Personal creators sharing hands-on smart home and home automation experiences",
+          "count": 1,
+          "platforms": [
+            "instagram"
+          ],
+          "regions": [],
+          "minFollowers": 10000,
+          "maxFollowers": 100000,
+          "candidateBudget": 2,
+          "analyzeAll": true,
+          "instagram": {
+            "handles": [
+              "tylerlcrawford",
+              "valstechtalkk"
+            ],
+            "version": "v3"
+          },
+          "criteria": [
+            {
+              "id": "personal_creator",
+              "label": "个人博主，非品牌、公司或店铺官方账号",
+              "required": true,
+              "basis": "text"
+            },
+            {
+              "id": "smart_home_experience",
+              "label": "实际分享智能家居或家庭自动化的个人使用体验",
+              "required": true,
+              "basis": "text"
+            },
+            {
+              "id": "english_content",
+              "label": "英语内容优先",
+              "required": false,
+              "basis": "text"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "content_direction",
+              "label": "内容方向"
+            },
+            {
+              "id": "presentation_style",
+              "label": "呈现风格"
+            },
+            {
+              "id": "content_formats",
+              "label": "适合合作的内容形式"
+            }
+          ]
+        },
+        "matched": 0,
+        "eligible": 0
+      },
+      {
+        "id": "mobile_tools",
+        "rationale": "通过手机技巧或实用数码工具内容演示免费功能和操作步骤，降低下载试用门槛；英语内容优先，但不据此推定美国受众分布。",
+        "spec": {
+          "title": "手机技巧／实用数码工具个人博主",
+          "personaText": "Personal creators sharing smartphone tips and practical digital tools",
+          "count": 1,
+          "platforms": [
+            "instagram"
+          ],
+          "regions": [],
+          "minFollowers": 10000,
+          "maxFollowers": 100000,
+          "candidateBudget": 2,
+          "analyzeAll": true,
+          "instagram": {
+            "handles": [
+              "tylerlcrawford",
+              "valstechtalkk"
+            ],
+            "version": "v3"
+          },
+          "criteria": [
+            {
+              "id": "personal_creator",
+              "label": "个人博主，非品牌、公司或店铺官方账号",
+              "required": true,
+              "basis": "text"
+            },
+            {
+              "id": "mobile_tools_content",
+              "label": "实际分享手机技巧或实用数码工具相关内容",
+              "required": true,
+              "basis": "text"
+            },
+            {
+              "id": "english_content",
+              "label": "英语内容优先",
+              "required": false,
+              "basis": "text"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "content_direction",
+              "label": "内容方向"
+            },
+            {
+              "id": "presentation_style",
+              "label": "呈现风格"
+            },
+            {
+              "id": "content_formats",
+              "label": "适合合作的内容形式"
+            }
+          ]
+        },
+        "matched": 0,
+        "eligible": 0
+      }
+    ],
+    "id": "campaign-400c66f262a9672f04ebd06e",
+    "revision": 2,
+    "childTaskIds": [],
+    "createdAt": 1791628761373,
+    "updatedAt": 1791629045670,
+    "status": "draft",
+    "requested": 2,
+    "matched": 0,
+    "qualifyingUnique": 0,
+    "evaluated": 0,
+    "selections": [],
+    "reportUrl": "/api/campaigns/campaign-400c66f262a9672f04ebd06e/report",
+    "results": []
+  },
+  "after": {
+    "title": "美国年轻人智能生活App小预算Instagram推广方案",
+    "goal": "下个月推广管理智能家居和手机小工具的App，支持iOS与Android、有免费版；推动下载后试用一个功能。预算暂按2000美元规划，不代表付费或外联授权。",
+    "audience": "美国18–30岁的大学生及初入职场年轻人。美国仅为目标受众，创作者所在地不限；创作者的美国受众分布尚未证实，不预先认定。",
+    "groups": [
+      {
+        "id": "smart_home",
+        "rationale": "通过真实智能家居或家庭自动化体验展示App如何简化日常操作；英语内容优先，但不据此推定美国受众分布。",
+        "spec": {
+          "title": "智能家居／家庭自动化个人体验博主",
+          "personaText": "Personal creators sharing hands-on smart home and home automation experiences",
+          "count": 1,
+          "platforms": [
+            "instagram"
+          ],
+          "regions": [],
+          "minFollowers": 10000,
+          "maxFollowers": 100000,
+          "candidateBudget": 2,
+          "analyzeAll": true,
+          "instagram": {
+            "handles": [
+              "tylerlcrawford",
+              "valstechtalkk"
+            ],
+            "version": "v3"
+          },
+          "criteria": [
+            {
+              "id": "personal_creator",
+              "label": "个人博主，非品牌、公司或店铺官方账号",
+              "required": true,
+              "basis": "text"
+            },
+            {
+              "id": "smart_home_experience",
+              "label": "实际分享智能家居或家庭自动化的个人使用体验",
+              "required": true,
+              "basis": "text"
+            },
+            {
+              "id": "english_content",
+              "label": "英语内容优先",
+              "required": false,
+              "basis": "text"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "content_direction",
+              "label": "内容方向"
+            },
+            {
+              "id": "presentation_style",
+              "label": "呈现风格"
+            },
+            {
+              "id": "content_formats",
+              "label": "适合合作的内容形式"
+            }
+          ]
+        },
+        "taskId": "research-c36566806dda80292637ea63",
+        "matched": 0,
+        "eligible": 0
+      },
+      {
+        "id": "mobile_tools",
+        "rationale": "通过手机技巧或实用数码工具内容演示免费功能和操作步骤，降低下载试用门槛；英语内容优先，但不据此推定美国受众分布。",
+        "spec": {
+          "title": "手机技巧／实用数码工具个人博主",
+          "personaText": "Personal creators sharing smartphone tips and practical digital tools",
+          "count": 1,
+          "platforms": [
+            "instagram"
+          ],
+          "regions": [],
+          "minFollowers": 10000,
+          "maxFollowers": 100000,
+          "candidateBudget": 2,
+          "analyzeAll": true,
+          "instagram": {
+            "handles": [
+              "tylerlcrawford",
+              "valstechtalkk"
+            ],
+            "version": "v3"
+          },
+          "criteria": [
+            {
+              "id": "personal_creator",
+              "label": "个人博主，非品牌、公司或店铺官方账号",
+              "required": true,
+              "basis": "text"
+            },
+            {
+              "id": "mobile_tools_content",
+              "label": "实际分享手机技巧或实用数码工具相关内容",
+              "required": true,
+              "basis": "text"
+            },
+            {
+              "id": "english_content",
+              "label": "英语内容优先",
+              "required": false,
+              "basis": "text"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "content_direction",
+              "label": "内容方向"
+            },
+            {
+              "id": "presentation_style",
+              "label": "呈现风格"
+            },
+            {
+              "id": "content_formats",
+              "label": "适合合作的内容形式"
+            }
+          ]
+        },
+        "taskId": "research-20ffdb8a68e722d07e967be2",
+        "matched": 0,
+        "eligible": 0
+      }
+    ],
+    "id": "campaign-400c66f262a9672f04ebd06e",
+    "revision": 2,
+    "childTaskIds": [
+      "research-c36566806dda80292637ea63",
+      "research-20ffdb8a68e722d07e967be2"
+    ],
+    "createdAt": 1791628761373,
+    "updatedAt": 1791629300876,
+    "status": "running",
+    "requested": 2,
+    "matched": 0,
+    "qualifyingUnique": 0,
+    "evaluated": 0,
+    "selections": [],
+    "reportUrl": "/api/campaigns/campaign-400c66f262a9672f04ebd06e/report",
+    "results": []
+  },
+  "newTaskIds": [
+    "research-c36566806dda80292637ea63",
+    "research-20ffdb8a68e722d07e967be2"
+  ],
+  "waveCallsBefore": 85,
+  "finishedAt": "2026-10-10T10:48:21.989Z"
+}

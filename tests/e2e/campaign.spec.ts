@@ -1,0 +1,22 @@
+import { expect, test } from '@playwright/test';
+import { execFileSync } from 'node:child_process';
+import { writeFileSync } from 'node:fs';
+test('真实模型：Campaign 目标交互→两类型草案→范围修订→确认启动 GET 原始研究', async ({ page }) => {
+  test.skip(process.env.LIVE_WAVESURGE !== '1', '真实服务新建研究需显式 LIVE_WAVESURGE=1；默认验收使用独立受控部署');
+  test.setTimeout(360000); const nonce = Date.now(); const password = execFileSync('docker', ['compose', 'exec', '-T', 'app', 'node', '-e', "process.stdout.write(require('fs').readFileSync('/app/data/admin-bootstrap.txt','utf8'))"], { encoding: 'utf8' });
+  await page.goto('/'); await page.getByLabel('管理员密码').fill(password); await page.getByRole('button', { name: /进入工作室/ }).click(); await expect(page.getByLabel('研究对话')).toBeVisible();
+  const state = async () => (await (await page.request.get('/api/state')).json()); await expect.poll(async () => (await state()).active, { timeout: 120000 }).toBe(false); await page.request.post('/api/context/reset', { data: {} });
+  const before = await (await page.request.get('/api/campaigns')).json(); const ids = before.map((c: any) => c.id);
+  const send = async (text: string) => { await page.getByRole('textbox', { name: '发送消息' }).fill(text); await page.getByRole('button', { name: '发送消息' }).click(); await expect.poll(async () => (await state()).active, { timeout: 120000 }).toBe(false); };
+  await send(`Campaign 进阶验收 ${nonce}：推广面向大学生的降噪耳机，希望提高认知和购买意愿。我只说目标，你先交互询问必要的筛选范围，并思考两类不同创作者；现在不要启动搜索。`);
+  const first = (await state()).messages.filter((m: any) => m.role === 'assistant').at(-1); expect(first.text).toMatch(/平台|地区|粉丝|人数|数量|配额/);
+  await send(`补充 ${nonce}：平台 Instagram，创作者所在地 Canada 或 United States，粉丝 1万至10万。总共需要2位不同账号：1位分享科技/耳机评测内容，1位分享学习/校园生活内容。每类最多2个候选、总预算4。都是必选文字条件，没有视觉条件，不要求邮箱，不做外联。请用 save_campaign_plan 保存这两类的草案，解释类型与目标的关系，标题包含 ${nonce}；先不要搜索。`);
+  const getNew = async () => (await (await page.request.get('/api/campaigns')).json()).filter((c: any) => !ids.includes(c.id)); await expect.poll(async () => (await getNew()).length).toBe(1); const id = (await getNew())[0].id;
+  const plan = async () => (await (await page.request.get(`/api/campaigns/${id}`)).json()); const draft = await plan(); expect(draft.groups).toHaveLength(2); expect(draft.childTaskIds).toHaveLength(0); expect(draft.requested).toBe(2);
+  await send(`修订 ${nonce}：把现有 ${id} 草案的第二类改为“分享学习/效率生活内容”；其它平台、地区、粉丝、人数、候选预算不变。请保存下一版本，保持同一 Campaign，不另建草案，不启动搜索。`);
+  await expect.poll(async () => (await plan()).revision).toBe(draft.revision + 1); const revised = await plan(); expect(revised.childTaskIds).toHaveLength(0); expect((await getNew()).length).toBe(1);
+  await page.getByRole('button', { name: 'Campaign 方案', exact: true }).click(); const card = page.getByRole('dialog', { name: 'Campaign 方案' }).locator('.task').filter({ hasText: revised.title }); await card.getByRole('button', { name: '查看方案与配额' }).click(); await expect(page.getByText('同一平台账号只占一个类型配额；没有可靠跨平台身份时不猜测合并。')).toBeVisible(); await page.getByRole('button', { name: '确认此方案并开始研究' }).click();
+  await expect.poll(async () => (await plan()).childTaskIds.length).toBe(2); const started = await plan(); await expect.poll(async () => (await state()).tasks.filter((t: any) => started.childTaskIds.includes(t.id) && t.discovery).length, { timeout: 180000 }).toBe(2);
+  expect((await page.request.post(`/api/campaigns/${id}/start`, { data: { revision: revised.revision } })).status()).toBe(200); const debug = await (await page.request.get('/api/debug')).json(); expect(debug.waveCalls.filter((c:any)=>c.createdAt>=nonce).every((c:any)=>c.method==='GET')).toBe(true);
+  writeFileSync('validation/2026-10-10/stage-5-live-campaign-start.json', JSON.stringify({ source: 'production conversation + real configured model + confirmed UI + live WaveSurge', id, firstReply: first.text, draft, revised, started: await plan(), calls: debug.waveCalls.filter((c: any) => c.createdAt>=nonce) }, null, 2)); await page.screenshot({ path: 'validation/2026-10-10/stage-5-campaign-start.png', fullPage: true });
+});

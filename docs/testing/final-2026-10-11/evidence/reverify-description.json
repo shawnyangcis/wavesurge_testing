@@ -1,0 +1,40 @@
+{
+  "at": "2026-10-10T18:03:20.634Z",
+  "source": "Actual production UI and saved current reverify results; controlled public pages with real model",
+  "finding": "F33",
+  "taskId": "research-ca30a88339a2c54dc79941d1",
+  "task": {
+    "id": "research-ca30a88339a2c54dc79941d1",
+    "title": "YouTube 科技博主文字研究（两名候选全量分析）",
+    "status": "completed",
+    "requested": 1,
+    "evaluated": 2,
+    "matched": 1,
+    "qualifying": 2,
+    "matchedMeaning": "研究组入选的合格账号数；合格候选总数见qualifying",
+    "updatedAt": 1791653816446,
+    "detail": "已选合格 0/1，已核验 2；证据不足者保持待核实。youtube：读取 2 条，基础条件排除 0 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。",
+    "remoteStatus": "done",
+    "nextPollAt": 1791653415073
+  },
+  "results": [
+    {
+      "id": "research-ca30a88339a2c54dc79941d1|youtube:http://wave-fixture:8087/creator/alice",
+      "verdict": "match",
+      "selected": true,
+      "revision": 2
+    },
+    {
+      "id": "research-ca30a88339a2c54dc79941d1|youtube:http://wave-fixture:8087/creator/bob",
+      "verdict": "match",
+      "selected": false,
+      "revision": 2
+    }
+  ],
+  "card": "已完成\nYouTube 科技博主文字研究（两名候选全量分析）\n\n已核验 2 · 已入选 1 / 1\n\n已选合格 0/1，已核验 2；证据不足者保持待核实。youtube：读取 2 条，基础条件排除 0 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。\n查看结果",
+  "header": "目标 1 人；合格候选 2 人；最终入选 1 人；缺额 0 人；已核验 2 人（2 条记录）。",
+  "body": "YouTube 科技博主文字研究（两名候选全量分析）\n\n目标 1 人；合格候选 2 人；最终入选 1 人；缺额 0 人；已核验 2 人（2 条记录）。\n\n已选合格 0/1，已核验 2；证据不足者保持待核实。youtube：读取 2 条，基础条件排除 0 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。\n\n来源：WaveSurge + 本地核验。远端搜索完成不代表本地条件通过。本次报告包含 2 条筛选记录。报告更新时间：2026-10-10T17:36:56.446Z\nYouTube 科技博主文字研究（两名候选全量分析）\n\n来源任务 research-ca30a88339a2c54dc79941d1；目标 1 个组内名额；合格 2 人；研究组入选 1 人；缺额 0 个组内名额。已核验 2 条记录。\n\n受控夹具 alice · 符合要求 · 已入选\n\n来源任务：YouTube 科技博主文字研究（两名候选全量分析）（research-ca30a88339a2c54dc79941d1）；分组：YouTube 科技博主文字研究（两名候选全量分析）；入选口径：研究组入选。\n\nyoutube / @ / 粉丝 20.4K subscribers / 未知\n\n标签：科技知识与教程、生产力工具、学生学习效率与工作流\n\n画像 content_direction：科技知识与教程、生产力工具、学生学习效率与工作流；本轮主页观察文字列出 technology tutorials、productivity tools 和 student study workflows，并具体说明处理器、降噪以及 Notion、番茄钟与闪卡学习流程；标签依据页面文字，不推断视觉风格或真实身份。；证据 75020ba51c2f962669bcb825\n\n条件\t判断\t依据\n本轮本人主页访问\t符合要求\t本轮已取得本人主页实际页面观察与截图；网页上的其他条件仍按各自证据判断\nbrowser_snapshot 日期未知\n平台\t符合要求\t创作者平台：youtube\n\n粉丝范围\t符合要求\t主页显示 20.4K subscribers；保守区间 20350–20499，要求 0–9007199254740991\nbrowser_snapshot 日期未知\n公开内容包含科技内容，依据已有文字资料核验。\t符合要求\t本轮已提供的 headed-chromium 本人主页实际观察文字明确列出科技教程，且公开内容说明涉及处理器与降噪原理，支持公开内容包含科技内容。该主页明确为受控测试夹具，不是真实社交账号；判断仅针对所提供的夹具内容。\nbrowser_snapshot 日期未知\n完整证据映射与截图\n41a22cd5e0b68893a736f301 · profile\n原始来源\n\n提供方：qa-controlled-fixture · 捕获：2026-10-10T17:30:14.013Z · 发布时间：日期未知\n\n这是受控验收账号，公开主页供真实浏览器核验。不是 WaveSurge 实际发现的社交账号。\n75020ba51c2f962669bcb825 · browser_snapshot\n原始来源\n\n提供方：headed-chromium · 捕获：2026-10-10T17:36:38.498Z · 发布时间：日期未知 · 截图编号：d02348d0feab0652ea9e9e80942e6458e9a7a0dd928403052ec77013bed99a12\n\nAlice — controlled test creator, NOT a real social account\n\n20.4K subscribers\n\nLocation: United States\n\nTechnology tutorials, productivity tools and student study workflows.\n\nCHIP / CIRCUIT BOARD / HEADPHONES\n\nOriginal public technology tutorial, published October 9, 2026. Explains processors and noise cancellation.\n\nPresentation style: clear step-by-step teacher explanation, everyday casual clothing. There is no evidence of geek fashion.\n\nSTUDY WORKFLOW / NOTION / POMODORO\n\nOriginal public study efficiency tutorial, published October 8, 2026. For university students: organize lecture notes and assignment deadlines in Notion, use a 25-minute Pomodoro focus block, then test recall with flashcards to reduce distracted study time. Demonstrates the complete study planning workflow step by step.\n\nPresentation style: practical teacher explanation and on-screen productivity walkthrough.\n受控夹具 bob · 符合要求 · 合格备选\n\n来源任务：YouTube 科技博主文字研究（两名候选全量分析）（research-ca30a88339a2c54dc79941d1）；分组：YouTube 科技博主文字研究（两名候选全量分析）；入选口径：研究组入选。\n\nyoutube / @ / 粉丝 67.6K subscribers / 未知\n\n标签：科技科普、耳机评测、处理器与降噪技术教程、数码设备演示\n\n画像 content_direction：科技科普、耳机评测、处理器与降噪技术教程、数码设备演示；本轮主页文字明确描述科技教育、耳机评测、处理器及降噪讲解和设备演示；这些是受控夹具展示的内容方向。；证据 e3859d70bcd8ba64a2071a7f\n\n条件\t判断\t依据\n本轮本人主页访问\t符合要求\t本轮已取得本人主页实际页面观察与截图；网页上的其他条件仍按各自证据判断\nbrowser_snapshot 日期未知\n平台\t符合要求\t创作者平台：youtube\n\n粉丝范围\t符合要求\t主页显示 67.6K subscribers；保守区间 67550–67699，要求 0–9007199254740991\nbrowser_snapshot 日期未知\n公开内容包含科技内容，依据已有文字资料核验。\t符合要求\t本轮 headed-chromium 主页观察文字明确写有“Technology education and headphone reviews”，并介绍讲解处理器与降噪的公开科技教程，支持公开内容包含科技内容。该页面明确为受控测试夹具，并非真实社交账号；判断仅针对所提供页面文字。\nbrowser_snapshot 日期未知\n完整证据映射与截图\nb1a3964a29cd07793976f609 · profile\n原始来源\n\n提供方：qa-controlled-fixture · 捕获：2026-10-10T17:30:14.013Z · 发布时间：日期未知\n\n这是受控验收账号，公开主页供真实浏览器核验。不是 WaveSurge 实际发现的社交账号。\ne3859d70bcd8ba64a2071a7f · browser_snapshot\n原始来源\n\n提供方：headed-chromium · 捕获：2026-10-10T17:36:47.936Z · 发布时间：日期未知 · 截图编号：d3dfe79cb4c5b36d6299632981ca7a9cf8acd03a8fa79e79c57cb306b11f666c\n\nBob — controlled test creator, NOT a real social account\n\n67.6K subscribers\n\nLocation: United States\n\nTechnology education and headphone reviews.\n\nCHIP / CIRCUIT BOARD / HEADPHONES\n\nOriginal public technology tutorial, published October 9, 2026. Explains processors and noise cancellation.\n\nPresentation style: detailed geek technology enthusiast tutorials and gadget demonstrations.",
+  "csvSelected": 1,
+  "confirmed": true,
+  "productPass": false
+}

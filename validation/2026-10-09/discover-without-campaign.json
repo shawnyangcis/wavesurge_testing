@@ -1,0 +1,1094 @@
+{
+  "atUtc": "2026-10-09T14:17:58.014548+00:00",
+  "method": "GET",
+  "path": "/discover/db?platform=instagram&limit=2&sort=followers_desc",
+  "status": 200,
+  "elapsedSeconds": 2.477,
+  "contentType": "application/json; charset=utf-8",
+  "responseSha256": "c458d9207f1aa69355c1d2ae314e2edbeabcb164be3acc4be2aef41a9d6167a1",
+  "response": {
+    "summary": {
+      "total": 2,
+      "byPlatform": {
+        "instagram": 500
+      },
+      "fromCompetitors": 0,
+      "lookalikes": 2,
+      "avgFit": 94,
+      "sourceTypes": {
+        "exa": 0,
+        "runner": 2,
+        "manual": 0,
+        "import": 0,
+        "cache": 0,
+        "unknown": 0
+      },
+      "emailUsable": 2,
+      "emailQualified": 2,
+      "emailAutoSendable": 2,
+      "contactable": 2,
+      "nonEmailContactable": 2
+    },
+    "tiers": {
+      "all": 2,
+      "koc": 0,
+      "micro": 0,
+      "mid": 2,
+      "macro": 0
+    },
+    "creators": [
+      {
+        "id": "025a03ff-732e-446b-9760-aacf5ce0896c",
+        "handle": "kayvon.ai",
+        "displayName": "Kayvon Jafarzadeh",
+        "bio": "📍 | New York\n🛠️ | Building @thetechplate | @cornelluniversity\n📩 | Collab: k***@thetechplate.com\n👇 | Join The Tech Plate Community",
+        "details": [
+          {
+            "group": "identity",
+            "key": "region",
+            "label": "Market",
+            "value": "United States",
+            "hint": "The region recorded for this creator. This field alone does not verify where they live or where their audience is. Check qualification evidence for any location requirement."
+          },
+          {
+            "group": "identity",
+            "key": "source",
+            "label": "Found via",
+            "value": "This campaign search",
+            "hint": "How this creator reached your list."
+          },
+          {
+            "group": "identity",
+            "key": "foundAt",
+            "label": "Added",
+            "value": "2026-10-09",
+            "hint": "When this creator entered our database."
+          },
+          {
+            "group": "content",
+            "key": "medianViews",
+            "label": "Median reel views",
+            "value": "32,606 (14 posts)",
+            "hint": "The middle value of their recent REELS. Instagram photo posts have no view count, so this describes their video reach only. Posts we could not read a count for are left out rather than counted as zero."
+          }
+        ],
+        "platform": "instagram",
+        "region": "United States",
+        "audience": {
+          "availability": "available",
+          "basis": "Sampled 36 of their most recent followers.",
+          "capturedAt": "2026-09-17T17:35:31.991Z",
+          "rows": [
+            {
+              "key": "gender",
+              "label": "Gender",
+              "value": "Male 55% · Female 12% · Unknown 33%",
+              "hint": "Estimated from 33 accounts.",
+              "primarySegment": {
+                "key": "male",
+                "label": "Male 55%",
+                "pct": 55
+              },
+              "distribution": [
+                {
+                  "key": "male",
+                  "label": "Male",
+                  "pct": 54.541015625
+                },
+                {
+                  "key": "female",
+                  "label": "Female",
+                  "pct": 12.12158203125
+                },
+                {
+                  "key": "unknown",
+                  "label": "Unknown",
+                  "pct": 33.33740234375
+                }
+              ],
+              "segments": [
+                {
+                  "key": "male",
+                  "label": "Male 55%",
+                  "pct": 55,
+                  "tone": "categorical-2"
+                },
+                {
+                  "key": "female",
+                  "label": "Female 12%",
+                  "pct": 12,
+                  "tone": "categorical-1"
+                },
+                {
+                  "key": "unknown",
+                  "label": "Unknown 33%",
+                  "pct": 33,
+                  "tone": "unknown"
+                }
+              ]
+            },
+            {
+              "key": "age",
+              "label": "Age",
+              "value": "19-29 21% · <=18 9% · 30-39 3% · +1 more · Unknown 64%",
+              "hint": "Estimated from 33 accounts.",
+              "primarySegment": {
+                "key": "19-29",
+                "label": "19-29 21%",
+                "pct": 21
+              },
+              "distribution": [
+                {
+                  "key": "19-29",
+                  "label": "19-29",
+                  "pct": 21.2158203125
+                },
+                {
+                  "key": "<=18",
+                  "label": "<=18",
+                  "pct": 9.09423828125
+                },
+                {
+                  "key": "30-39",
+                  "label": "30-39",
+                  "pct": 3.02734375
+                },
+                {
+                  "key": ">=40",
+                  "label": ">=40",
+                  "pct": 3.02734375
+                },
+                {
+                  "key": "unknown",
+                  "label": "Unknown",
+                  "pct": 63.63525390625
+                }
+              ],
+              "segments": [
+                {
+                  "key": "19-29",
+                  "label": "19-29 21%",
+                  "pct": 21,
+                  "tone": "ordinal-2"
+                },
+                {
+                  "key": "<=18",
+                  "label": "<=18 9%",
+                  "pct": 9,
+                  "tone": "ordinal-1"
+                },
+                {
+                  "key": "30-39",
+                  "label": "30-39 3%",
+                  "pct": 3,
+                  "tone": "ordinal-3"
+                },
+                {
+                  "key": "tail",
+                  "label": "Other 3%",
+                  "pct": 3,
+                  "tone": "tail"
+                },
+                {
+                  "key": "unknown",
+                  "label": "Unknown 64%",
+                  "pct": 64,
+                  "tone": "unknown"
+                }
+              ]
+            },
+            {
+              "key": "location",
+              "label": "Country",
+              "value": "India 8% · United States 8% · United Arab Emirates 3% · +2 more · Unknown 75%",
+              "hint": "Estimated from 36 accounts.",
+              "primarySegment": {
+                "key": "IN",
+                "label": "India 8%",
+                "pct": 8
+              },
+              "distribution": [
+                {
+                  "key": "IN",
+                  "label": "India",
+                  "pct": 8.33740234375
+                },
+                {
+                  "key": "US",
+                  "label": "United States",
+                  "pct": 8.33740234375
+                },
+                {
+                  "key": "AE",
+                  "label": "United Arab Emirates",
+                  "pct": 2.783203125
+                },
+                {
+                  "key": "CA",
+                  "label": "Canada",
+                  "pct": 2.77099609375
+                },
+                {
+                  "key": "GH",
+                  "label": "Ghana",
+                  "pct": 2.77099609375
+                },
+                {
+                  "key": "unknown",
+                  "label": "Unknown",
+                  "pct": 75
+                }
+              ],
+              "segments": null
+            }
+          ]
+        },
+        "followerCount": 489740,
+        "engagementRate": null,
+        "engagementKnown": false,
+        "kolType": "ai_tools",
+        "avatarUrl": "https://pompe-ai-analysis-artifacts.sgp1.cdn.digitaloceanspaces.com/creator-avatars/instagram/701f9c39d73698a16f6accc48282f5b5.jpg",
+        "publishedLink": null,
+        "tier": "mid",
+        "fit": 94,
+        "fromCompetitor": false,
+        "source": "creator_search_agent",
+        "sourceType": "runner",
+        "sourceSubType": "unknown",
+        "origin": "system",
+        "foundAt": "2026-09-13T17:11:54.561Z",
+        "batchLabel": null,
+        "emailStatus": "email_ready",
+        "emailReadyAt": "2026-09-13T17:11:54.822Z",
+        "email": null,
+        "emailUsable": true,
+        "emailQualified": true,
+        "emailAutoSendable": true,
+        "emailConfidence": "high",
+        "emailOwnerType": "creator",
+        "emailReasons": [
+          "profile_harvested_contact",
+          "creator_published_business_email",
+          "email_matches_creator_handle_or_name"
+        ],
+        "contactChannels": [
+          {
+            "channel": "discord",
+            "value": "Fun84GSN4X",
+            "isPrimary": false
+          }
+        ],
+        "contactChannelCount": 1,
+        "contactable": true,
+        "lastSeenAt": "2026-09-13T17:11:54.561Z",
+        "searchKind": "trial",
+        "accountIdentity": null,
+        "recommendationKind": null,
+        "audienceStatus": "profiled",
+        "qualification": null,
+        "searchMatchTier": null
+      },
+      {
+        "id": "bf1976aa-f709-467b-8e2c-a2957e269b87",
+        "handle": "freedom_with_ai",
+        "displayName": "Freedom With AI",
+        "bio": "💯 Learn AI Skills, Hacks & Tools \n🚀 2x Your Income with AI \n🧑‍💻 Become Certified Prompt Engineer \nSign up FREE to learn more👇\nHIGGS-VZCYG",
+        "details": [
+          {
+            "group": "identity",
+            "key": "source",
+            "label": "Found via",
+            "value": "This campaign search",
+            "hint": "How this creator reached your list."
+          },
+          {
+            "group": "identity",
+            "key": "foundAt",
+            "label": "Added",
+            "value": "2026-10-09",
+            "hint": "When this creator entered our database."
+          },
+          {
+            "group": "content",
+            "key": "medianViews",
+            "label": "Median reel views",
+            "value": "11,276,704 (2 posts)",
+            "hint": "The middle value of their recent REELS. Instagram photo posts have no view count, so this describes their video reach only. Posts we could not read a count for are left out rather than counted as zero."
+          }
+        ],
+        "platform": "instagram",
+        "region": null,
+        "audience": null,
+        "followerCount": 334901,
+        "engagementRate": null,
+        "engagementKnown": false,
+        "kolType": "ai_tools",
+        "avatarUrl": "https://pompe-ai-analysis-artifacts.sgp1.cdn.digitaloceanspaces.com/creator-avatars/instagram/d9db587036acb1b68c292625cc42320f.jpg",
+        "publishedLink": null,
+        "tier": "mid",
+        "fit": 94,
+        "fromCompetitor": false,
+        "source": "creator_search_agent",
+        "sourceType": "runner",
+        "sourceSubType": "unknown",
+        "origin": "system",
+        "foundAt": "2026-08-28T07:09:03.107Z",
+        "batchLabel": null,
+        "emailStatus": "email_ready",
+        "emailReadyAt": "2026-10-08T09:56:49.091Z",
+        "email": null,
+        "emailUsable": true,
+        "emailQualified": true,
+        "emailAutoSendable": true,
+        "emailConfidence": "high",
+        "emailOwnerType": "creator",
+        "emailReasons": [
+          "profile_harvested_contact",
+          "email_domain_matches_profile_link",
+          "email_domain_brand_matches_creator",
+          "email_matches_creator_handle_or_name"
+        ],
+        "contactChannels": [
+          {
+            "channel": "instagram",
+            "value": "freedom_with_ai",
+            "isPrimary": true
+          },
+          {
+            "channel": "linkedin",
+            "value": "avinash-mada",
+            "isPrimary": true
+          },
+          {
+            "channel": "phone",
+            "value": "917003706710",
+            "isPrimary": true
+          },
+          {
+            "channel": "website",
+            "value": "https://freedomwithai.com/contact-us",
+            "isPrimary": true
+          },
+          {
+            "channel": "website",
+            "value": "https://freedomwithai.com/?el=igfbiof&htrafficsource=igf",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://freedomwithai.com/terms-of-service",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://freedomwithai.com/membership",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://freedomwithai.com/careers",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://assets.cdn.filesafe.space/TOke3l5JIz3qqeafaEbt/media/6448f3dbb4a4086add79d6c6.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://assets.cdn.filesafe.space/TOke3l5JIz3qqeafaEbt/media/6533a44fa81295f15986562f.webp",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/intl-tel-input/17.0.12/img/flags.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://backend.leadconnectorhq.com/ecommerce",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://services.leadconnectorhq.com/common-google",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://secure.safewebservices.com/token/Collect.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://js.authorize.net/v1/Accept.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://jstest.authorize.net/v1/Accept.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://payment-embed.leadconnectorhq.com/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://backend.leadconnectorhq.com/appengine/reviews/get_widget/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://assets.cdn.filesafe.space/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://assets.cdn.msgsndr.com/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://cdn.msgsndr.com/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://backend.leadconnectorhq.com/appengine",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://apisystem.tech/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://assets.cdn.filesafe.space/TOke3l5JIz3qqeafaEbt/media/6448aed5b4a4082da579ae97.webp",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://assets.cdn.filesafe.space/TOke3l5JIz3qqeafaEbt/media/6448aece3b5f5ecfc14c99c8.webp",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://assets.cdn.filesafe.space/TOke3l5JIz3qqeafaEbt/media/6448f2b82191d0f35a3b4c9c.webp",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://assets.cdn.filesafe.space/TOke3l5JIz3qqeafaEbt/media/65446d2e92b8577f938a475c.webp",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://assets.cdn.filesafe.space/TOke3l5JIz3qqeafaEbt/media/648d855e76964126c980af10.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://assets.cdn.filesafe.space/TOke3l5JIz3qqeafaEbt/media/648d8974a1f73342fb51c140.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://assets.cdn.filesafe.space/TOke3l5JIz3qqeafaEbt/media/66a3f1d33c9fe0f6bf4086da.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://assets.cdn.filesafe.space/TOke3l5JIz3qqeafaEbt/media/648aff54a1f7337a724a8b94.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://assets.cdn.filesafe.space/TOke3l5JIz3qqeafaEbt/media/6533a805dd624de73a7c69d4.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://assets.cdn.filesafe.space/TOke3l5JIz3qqeafaEbt/media/6533a805dd624dad327c69d6.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://assets.cdn.filesafe.space/TOke3l5JIz3qqeafaEbt/media/6533a8053eaf0d1da36af1bf.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://assets.cdn.filesafe.space/TOke3l5JIz3qqeafaEbt/media/648afee06a5346d401e6375f.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://assets.cdn.filesafe.space/TOke3l5JIz3qqeafaEbt/media/6533a805dd624d100f7c69d3.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://assets.cdn.filesafe.space/TOke3l5JIz3qqeafaEbt/media/6533a8053eaf0d65c06af1bd.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://assets.cdn.filesafe.space/TOke3l5JIz3qqeafaEbt/media/6533a805a812956df486595f.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://assets.cdn.filesafe.space/TOke3l5JIz3qqeafaEbt/media/6533a8053eaf0df5ce6af1bc.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://assets.cdn.filesafe.space/TOke3l5JIz3qqeafaEbt/media/6533a805a812954db1865961.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://assets.cdn.filesafe.space/TOke3l5JIz3qqeafaEbt/media/67b80c7bfbaeab630e95c53d.webp",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://assets.cdn.filesafe.space/TOke3l5JIz3qqeafaEbt/media/648afd3ba1f73358094a8abb.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://assets.cdn.filesafe.space/TOke3l5JIz3qqeafaEbt/media/68665fdf006fa73f15324544.webp",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://assets.cdn.filesafe.space/TOke3l5JIz3qqeafaEbt/media/66a4a4ef161e9283c5539651.webp",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://assets.cdn.filesafe.space/TOke3l5JIz3qqeafaEbt/media/648afbb06a534672dce632e5.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://assets.cdn.filesafe.space/TOke3l5JIz3qqeafaEbt/media/648d7972a1f733854d51bb0a.webp",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://assets.cdn.filesafe.space/TOke3l5JIz3qqeafaEbt/media/648d7972dbd89a214448ebe0.webp",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://assets.cdn.filesafe.space/TOke3l5JIz3qqeafaEbt/media/648d79727696411ccd80ab20.webp",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://assets.cdn.filesafe.space/TOke3l5JIz3qqeafaEbt/media/648d797276964164bb80ab21.webp",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://assets.cdn.filesafe.space/TOke3l5JIz3qqeafaEbt/media/648d7972dbd89a650b48ebe2.webp",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://storage.googleapis.com/msgsndr/TOke3l5JIz3qqeafaEbt/media/62efdc90c5f7485f8f67977b.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://storage.googleapis.com/msgsndr/TOke3l5JIz3qqeafaEbt/media/62efdc90c5f748238667977a.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://storage.googleapis.com/msgsndr/TOke3l5JIz3qqeafaEbt/media/62efdc900e9e9d72498b2552.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://storage.googleapis.com/msgsndr/TOke3l5JIz3qqeafaEbt/media/62efdc90c5f748250d67977f.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://storage.googleapis.com/msgsndr/TOke3l5JIz3qqeafaEbt/media/62efdc900e9e9d2e268b2550.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://storage.googleapis.com/msgsndr/TOke3l5JIz3qqeafaEbt/media/6358361efc061b0896ede635.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://storage.googleapis.com/msgsndr/TOke3l5JIz3qqeafaEbt/media/62efdc90c5f7482bf067977d.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://storage.googleapis.com/msgsndr/TOke3l5JIz3qqeafaEbt/media/62ec02dc8ebfc5b41e46706a.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://assets.cdn.filesafe.space/TOke3l5JIz3qqeafaEbt/media/648d7972a1f733711951bb09.webp",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://assets.cdn.filesafe.space/TOke3l5JIz3qqeafaEbt/media/6533a00cdd624df5f87c65fa.webp",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://assets.cdn.filesafe.space/TOke3l5JIz3qqeafaEbt/media/6533a805dd624d1a3f7c69da.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://assets.cdn.filesafe.space/TOke3l5JIz3qqeafaEbt/media/6533a8053eaf0d92dc6af1c1.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://assets.cdn.filesafe.space/TOke3l5JIz3qqeafaEbt/media/6538a089c59fe1c0604ed4b8.webp",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://assets.cdn.filesafe.space/TOke3l5JIz3qqeafaEbt/media/6533a8053eaf0d5a896af1be.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://assets.cdn.filesafe.space/TOke3l5JIz3qqeafaEbt/media/648af7497900456f4e7261ac.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://storage.googleapis.com/msgsndr/TOke3l5JIz3qqeafaEbt/media/66163e7b937a16169dcb01ae.webp",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://storage.googleapis.com/msgsndr/TOke3l5JIz3qqeafaEbt/media/66163e7b9b2588afc4eee123.webp",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://storage.googleapis.com/msgsndr/TOke3l5JIz3qqeafaEbt/media/66163e7b93661b472d793be2.webp",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://storage.googleapis.com/msgsndr/TOke3l5JIz3qqeafaEbt/media/66163e7b041ea74d4b547013.webp",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://content.apisystem.tech/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://storage.googleapis.com/msgsndr/TOke3l5JIz3qqeafaEbt/media/66163e7b93661bd0a2793be3.webp",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://assets.cdn.filesafe.space/TOke3l5JIz3qqeafaEbt/media/6ab0b73ebdaa5e26a9637079.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://storage.googleapis.com/msgsndr/TOke3l5JIz3qqeafaEbt/media/62f3c1186ef0efe97b24875e.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://storage.googleapis.com/msgsndr/TOke3l5JIz3qqeafaEbt/media/62f3bf6d634ec615a2977375.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://player.vimeo.com/video/892177673?byline=0&fun=0&portrait=0&title=0",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://assets.cdn.filesafe.space/TOke3l5JIz3qqeafaEbt/media/6447fbb03b5f5e2ca64c0047.webp",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://assets.cdn.filesafe.space/TOke3l5JIz3qqeafaEbt/media/6448af7d2191d0f2033b2242.webp",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://www.googletagmanager.com/ns.html?id=GTM-WBL59SZ",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/funnel/fontawesome/webfonts/fa-brands-400.svg#fontawesome",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/funnel/fontawesome/webfonts/fa-brands-400.ttf",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/funnel/fontawesome/webfonts/fa-brands-400.woff",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/funnel/fontawesome/webfonts/fa-brands-400.woff2",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/funnel/fontawesome/webfonts/fa-brands-400.eot?#iefix",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/funnel/fontawesome/webfonts/fa-brands-400.eot",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/funnel/fontawesome/webfonts/fa-solid-900.svg#fontawesome",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/funnel/fontawesome/webfonts/fa-solid-900.ttf",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/funnel/fontawesome/webfonts/fa-solid-900.woff",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/funnel/fontawesome/webfonts/fa-solid-900.woff2",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/funnel/fontawesome/webfonts/fa-solid-900.eot?#iefix",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/funnel/fontawesome/webfonts/fa-solid-900.eot",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/funnel/fontawesome/webfonts/fa-regular-400.svg#fontawesome",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/funnel/fontawesome/webfonts/fa-regular-400.ttf",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/funnel/fontawesome/webfonts/fa-regular-400.woff",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/funnel/fontawesome/webfonts/fa-regular-400.woff2",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/funnel/fontawesome/webfonts/fa-regular-400.eot?#iefix",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/funnel/fontawesome/webfonts/fa-regular-400.eot",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/intl-tel-input/17.0.12/img/flags@2x.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://embed.tube/embed-code-generator/vimeo/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://freedomwithai.com/masterclass-registration",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://igaccelerators.com/calendar",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://fonts.googleapis.com/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&display=swap",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://freedomwithai.com/privacy-policy",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://freedomwithai.com/support",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://freedomwithai.com/cancellation--refund-policy",
+            "isPrimary": false
+          },
+          {
+            "channel": "instagram",
+            "value": "meetavinash",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://freedomwithai.com/about-us",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://fonts.gstatic.com/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://backend.leadconnectorhq.com/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://images.leadconnectorhq.com/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://cdn.filesafe.space/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://fonts.googleapis.com/css?family=Space%20Grotesk:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/_preview/BKfHsyG4.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/_preview/DjCYBNT_.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/_preview/CIOZR1fB.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/_preview/CFoHbs_k.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/_preview/DYa7OZHt.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/_preview/BZJNjryr.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/_preview/Cvsc60bO.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/_preview/DoZqW_dz.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/_preview/DW0fDwGI.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/_preview/DutJCaVq.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/_preview/DRNKrJGC.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/_preview/DT2LKEAd.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/_preview/CgmQ5asb.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/_preview/CvyIMUr-.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/_preview/BpAu9H6V.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/_preview/DhN8i8hy.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/_preview/Cwj9V3Mu.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/_preview/BaOLVlBb.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/_preview/ssc0Tq7P.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/_preview/xAbr6UFO.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/_preview/COUwX6Ln.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/_preview/5kOm7jMs.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/_preview/CenvAvwo.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/_preview/thqq4YE9.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/_preview/ClXgQ8Rh.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/_preview/B3-bqbqv.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/_preview/YWilg6f2.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/_preview/Cck68OdM.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stcdn.leadconnectorhq.com/_preview/5kJqbEXF.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://services.leadconnectorhq.com/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://storage.googleapis.com/msgsndr/TOke3l5JIz3qqeafaEbt/media/6448f3dbb4a4086add79d6c6.png",
+            "isPrimary": false
+          }
+        ],
+        "contactChannelCount": 144,
+        "contactable": true,
+        "lastSeenAt": "2026-08-28T07:09:03.107Z",
+        "searchKind": "trial",
+        "accountIdentity": null,
+        "recommendationKind": null,
+        "audienceStatus": "unavailable",
+        "qualification": null,
+        "searchMatchTier": null
+      }
+    ],
+    "strategy": null,
+    "screening": null,
+    "scraping": null,
+    "collecting": false,
+    "latestCreatorSearchTaskId": null,
+    "latestSearchFunnel": null,
+    "target": null,
+    "fulfilled": null,
+    "campaignState": null
+  }
+}

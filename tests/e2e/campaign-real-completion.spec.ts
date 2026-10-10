@@ -1,0 +1,15 @@
+test.skip(!process.env.REAL_CAMPAIGN_ID, '历史数据回归需要显式提供 REAL_CAMPAIGN_ID；全新部署请运行 pnpm e2e');
+import { expect, test } from '@playwright/test';
+import { execFileSync } from 'node:child_process';
+import { writeFileSync } from 'node:fs';
+test('修订画像真实完成：国家含城市不误判；有依据地 1/2，待核实不占配额', async ({ page }) => {
+  test.setTimeout(90000);
+  const docker = (...args: string[]) => execFileSync('docker', ['compose', ...args], { encoding: 'utf8' }); const password = docker('exec', '-T', 'app', 'node', '-e', "process.stdout.write(require('fs').readFileSync('/app/data/admin-bootstrap.txt','utf8'))");
+  await page.goto('/'); await page.getByLabel('管理员密码').fill(password); await page.getByRole('button', { name: /进入工作室/ }).click(); await expect(page.getByLabel('研究对话')).toBeVisible();
+  const id = (process.env.REAL_CAMPAIGN_ID ?? ''); const summary = await (await page.request.get(`/api/campaigns/${id}`)).json(); expect(summary.status).toBe('partial'); expect(summary.matched).toBe(1); expect(summary.requested).toBe(2); expect(summary.groups.map((g: any) => g.matched)).toEqual([0, 1]);
+  const good = summary.results.find((r: any) => r.creator.handle === 'scorpiorisingmedia'); expect(good.verdict).toBe('match'); expect(good.judgments.find((j: any) => j.criterionId === '__region').verdict).toBe('match'); expect(good.creator.region).toBe('Philadelphia (Philly), United States'); expect(good.creator.evidence.some((e: any) => e.assetId)).toBe(true); expect(summary.results.find((r: any) => r.creator.handle === 'khushleenvirk').verdict).toBe('unknown');
+  await page.getByRole('button', { name: 'Campaign 方案', exact: true }).click(); const card = page.getByRole('dialog', { name: 'Campaign 方案' }).locator('.task').filter({ hasText: summary.title }); await expect(card).toContainText('去重入选 1/2'); await card.getByRole('button', { name: '查看方案与配额' }).click(); const popupPromise = page.waitForEvent('popup'); await page.getByRole('link', { name: '查看去重汇总报告' }).click(); const popup = await popupPromise; await expect(popup.getByText(/去重入选 1\/2/)).toBeVisible(); await expect(popup.getByRole('link', { name: /scorpiorisingmedia/ })).toBeVisible(); await popup.screenshot({ path: 'validation/2026-10-10/stage-5-real-campaign-report.png', fullPage: true }); await popup.close();
+  const debug = await (await page.request.get('/api/debug')).json(); const remote = ['f9690908-d01c-4c74-a839-c048379f984a', '81a2c6c7-32b9-4db3-9c16-ebb7b7adf986']; const calls = debug.waveCalls.filter((c: any) => summary.childTaskIds.includes(c.request?.requestId) || remote.some(id => c.path.includes(id)));
+  for (const taskId of summary.childTaskIds) expect(calls.filter((c: any) => c.method === 'POST' && c.request?.requestId === taskId)).toHaveLength(1);
+  writeFileSync('validation/2026-10-10/stage-5-live-campaign-completion.json', JSON.stringify({ source: 'actual corrected persona WaveSurge searches + actual headed browser/LLM evidence + country comparison correction + production UI', summary, waveCalls: calls }, null, 2));
+});

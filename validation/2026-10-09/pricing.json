@@ -1,0 +1,397 @@
+{
+  "atUtc": "2026-10-09T14:17:58.106889+00:00",
+  "method": "GET",
+  "path": "/pricing",
+  "status": 200,
+  "elapsedSeconds": 0.585,
+  "contentType": "application/json; charset=utf-8",
+  "responseSha256": "fd67a3af666e8010793a24ae0ece740fa57ccd890f48d710f75b0ed9f8dc8883",
+  "response": {
+    "data": {
+      "priceListVersion": "12fd84a9abf12bc5",
+      "actions": [
+        {
+          "key": "agent_turn",
+          "label": "Strategy chat turn",
+          "unit": "turn",
+          "unitCredits": 6,
+          "unitDisplay": "6 credits per chat turn",
+          "variableCharge": null,
+          "explain": "Charged once per turn you send in the strategy chat, before the assistant works on it.",
+          "included": null
+        },
+        {
+          "key": "strategy_report",
+          "label": "Strategy report",
+          "unit": "run",
+          "unitCredits": 40,
+          "unitDisplay": "40 credits per report",
+          "variableCharge": null,
+          "explain": "Charged once when a strategy report starts building. Returned in full if the build fails.",
+          "included": null
+        },
+        {
+          "key": "competitor_scan",
+          "label": "Competitor scan",
+          "unit": "scan",
+          "unitCredits": 100,
+          "unitDisplay": "100 credits per scan",
+          "variableCharge": null,
+          "explain": "One flat price for the whole scan, however many competitors it covers. Returned in full if it fails.",
+          "included": null
+        },
+        {
+          "key": "report_revise",
+          "label": "Report revision",
+          "unit": "revision",
+          "unitCredits": 16,
+          "unitDisplay": "16 credits per revision",
+          "variableCharge": null,
+          "explain": "Charged once per revision you ask for on an existing report. Returned in full if the revision fails.",
+          "included": null
+        },
+        {
+          "key": "creator_search",
+          "label": "Creator search",
+          "unit": "creator",
+          "unitCredits": 10,
+          "unitDisplay": "10 credits per creator plus actual model and third-party API cost",
+          "variableCharge": "plus actual model and third-party API cost",
+          "explain": "Charged 10 credits per creator actually delivered, plus the model and third-party API cost incurred by the search. A search that finds fewer costs less.",
+          "included": null
+        },
+        {
+          "key": "outreach_first_touch",
+          "label": "First outreach message to a creator",
+          "unit": "creator",
+          "unitCredits": 6,
+          "unitDisplay": "6 credits per creator",
+          "variableCharge": null,
+          "explain": "Charged once per creator who actually receives a first message. Creators we cannot route are never charged.",
+          "included": null
+        },
+        {
+          "key": "outreach_followup",
+          "label": "Follow-up message",
+          "unit": "message",
+          "unitCredits": 1,
+          "unitDisplay": "1 credit per message",
+          "variableCharge": null,
+          "explain": "Charged per follow-up message before it is sent. Returned if the send fails.",
+          "included": null
+        },
+        {
+          "key": "negotiation_round",
+          "label": "AI negotiation round",
+          "unit": "message",
+          "unitCredits": 1,
+          "unitDisplay": "1 credit per message",
+          "variableCharge": null,
+          "explain": "Charged per AI-drafted reply in a deal thread, whether you approve it yourself or the agent sends it.",
+          "included": null
+        },
+        {
+          "key": "content_prereview",
+          "label": "AI pre-review of a creator draft",
+          "unit": "deliverable",
+          "unitCredits": 4,
+          "unitDisplay": "4 credits per creator draft",
+          "variableCharge": null,
+          "explain": "Charged once per draft a creator submits for review, before the review runs.",
+          "included": null
+        },
+        {
+          "key": "sales_company_search",
+          "label": "Company search",
+          "unit": "search",
+          "unitCredits": 1,
+          "unitDisplay": "1 credit per search",
+          "variableCharge": null,
+          "explain": "The first 12 distinct segment searches in an ICP conversation are free; after that, one per search.",
+          "included": {
+            "count": 12,
+            "scope": "icp_conversation",
+            "display": "First 12 searches per ICP conversation are free."
+          }
+        },
+        {
+          "key": "sales_company_pull",
+          "label": "Company list pull",
+          "unit": "page_500",
+          "unitCredits": 1,
+          "unitDisplay": "1 credit per page of 500 companies",
+          "variableCharge": null,
+          "explain": "Charged per page of 500 companies as each page is pulled. A page you did not pull is not charged.",
+          "included": null
+        },
+        {
+          "key": "sales_email_send",
+          "label": "Sales email send",
+          "unit": "message",
+          "unitCredits": 1,
+          "unitDisplay": "1 credit per message",
+          "variableCharge": null,
+          "explain": "Charged per sales email before it is sent. Looking a contact up is free, and a failed send is returned.",
+          "included": null
+        }
+      ],
+      "packs": [
+        {
+          "packId": "starter",
+          "priceCents": 2000,
+          "priceDisplay": "$20.00",
+          "credits": 400,
+          "creditsDisplay": "400 credits",
+          "examples": [
+            {
+              "key": "agent_turn",
+              "count": 66,
+              "display": "≈ 66 chat turns"
+            },
+            {
+              "key": "strategy_report",
+              "count": 10,
+              "display": "≈ 10 reports"
+            },
+            {
+              "key": "competitor_scan",
+              "count": 4,
+              "display": "≈ 4 scans"
+            },
+            {
+              "key": "report_revise",
+              "count": 25,
+              "display": "≈ 25 revisions"
+            },
+            {
+              "key": "outreach_first_touch",
+              "count": 66,
+              "display": "≈ 66 creators"
+            },
+            {
+              "key": "outreach_followup",
+              "count": 400,
+              "display": "≈ 400 messages"
+            },
+            {
+              "key": "negotiation_round",
+              "count": 400,
+              "display": "≈ 400 messages"
+            },
+            {
+              "key": "content_prereview",
+              "count": 100,
+              "display": "≈ 100 creator drafts"
+            },
+            {
+              "key": "sales_company_search",
+              "count": 400,
+              "display": "≈ 400 searches"
+            },
+            {
+              "key": "sales_company_pull",
+              "count": 400,
+              "display": "≈ 400 pages of 500 companies"
+            },
+            {
+              "key": "sales_email_send",
+              "count": 400,
+              "display": "≈ 400 messages"
+            }
+          ]
+        },
+        {
+          "packId": "growth",
+          "priceCents": 5000,
+          "priceDisplay": "$50.00",
+          "credits": 1100,
+          "creditsDisplay": "1,100 credits",
+          "examples": [
+            {
+              "key": "agent_turn",
+              "count": 183,
+              "display": "≈ 183 chat turns"
+            },
+            {
+              "key": "strategy_report",
+              "count": 27,
+              "display": "≈ 27 reports"
+            },
+            {
+              "key": "competitor_scan",
+              "count": 11,
+              "display": "≈ 11 scans"
+            },
+            {
+              "key": "report_revise",
+              "count": 68,
+              "display": "≈ 68 revisions"
+            },
+            {
+              "key": "outreach_first_touch",
+              "count": 183,
+              "display": "≈ 183 creators"
+            },
+            {
+              "key": "outreach_followup",
+              "count": 1100,
+              "display": "≈ 1,100 messages"
+            },
+            {
+              "key": "negotiation_round",
+              "count": 1100,
+              "display": "≈ 1,100 messages"
+            },
+            {
+              "key": "content_prereview",
+              "count": 275,
+              "display": "≈ 275 creator drafts"
+            },
+            {
+              "key": "sales_company_search",
+              "count": 1100,
+              "display": "≈ 1,100 searches"
+            },
+            {
+              "key": "sales_company_pull",
+              "count": 1100,
+              "display": "≈ 1,100 pages of 500 companies"
+            },
+            {
+              "key": "sales_email_send",
+              "count": 1100,
+              "display": "≈ 1,100 messages"
+            }
+          ]
+        },
+        {
+          "packId": "scale",
+          "priceCents": 10000,
+          "priceDisplay": "$100.00",
+          "credits": 2400,
+          "creditsDisplay": "2,400 credits",
+          "examples": [
+            {
+              "key": "agent_turn",
+              "count": 400,
+              "display": "≈ 400 chat turns"
+            },
+            {
+              "key": "strategy_report",
+              "count": 60,
+              "display": "≈ 60 reports"
+            },
+            {
+              "key": "competitor_scan",
+              "count": 24,
+              "display": "≈ 24 scans"
+            },
+            {
+              "key": "report_revise",
+              "count": 150,
+              "display": "≈ 150 revisions"
+            },
+            {
+              "key": "outreach_first_touch",
+              "count": 400,
+              "display": "≈ 400 creators"
+            },
+            {
+              "key": "outreach_followup",
+              "count": 2400,
+              "display": "≈ 2,400 messages"
+            },
+            {
+              "key": "negotiation_round",
+              "count": 2400,
+              "display": "≈ 2,400 messages"
+            },
+            {
+              "key": "content_prereview",
+              "count": 600,
+              "display": "≈ 600 creator drafts"
+            },
+            {
+              "key": "sales_company_search",
+              "count": 2400,
+              "display": "≈ 2,400 searches"
+            },
+            {
+              "key": "sales_company_pull",
+              "count": 2400,
+              "display": "≈ 2,400 pages of 500 companies"
+            },
+            {
+              "key": "sales_email_send",
+              "count": 2400,
+              "display": "≈ 2,400 messages"
+            }
+          ]
+        }
+      ],
+      "signupGrant": {
+        "credits": 58,
+        "creditsDisplay": "58 credits",
+        "examples": [
+          {
+            "key": "agent_turn",
+            "count": 9,
+            "display": "≈ 9 chat turns"
+          },
+          {
+            "key": "strategy_report",
+            "count": 1,
+            "display": "≈ 1 report"
+          },
+          {
+            "key": "competitor_scan",
+            "count": 0,
+            "display": "≈ 0 scans"
+          },
+          {
+            "key": "report_revise",
+            "count": 3,
+            "display": "≈ 3 revisions"
+          },
+          {
+            "key": "outreach_first_touch",
+            "count": 9,
+            "display": "≈ 9 creators"
+          },
+          {
+            "key": "outreach_followup",
+            "count": 58,
+            "display": "≈ 58 messages"
+          },
+          {
+            "key": "negotiation_round",
+            "count": 58,
+            "display": "≈ 58 messages"
+          },
+          {
+            "key": "content_prereview",
+            "count": 14,
+            "display": "≈ 14 creator drafts"
+          },
+          {
+            "key": "sales_company_search",
+            "count": 58,
+            "display": "≈ 58 searches"
+          },
+          {
+            "key": "sales_company_pull",
+            "count": 58,
+            "display": "≈ 58 pages of 500 companies"
+          },
+          {
+            "key": "sales_email_send",
+            "count": 58,
+            "display": "≈ 58 messages"
+          }
+        ]
+      }
+    },
+    "asOf": "2026-10-09T14:17:58.994Z",
+    "actor": null
+  }
+}

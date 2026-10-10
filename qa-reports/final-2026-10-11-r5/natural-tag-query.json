@@ -1,0 +1,199 @@
+{
+  "source": "Actual model tool choice from natural read-only tag queries; existing real results",
+  "cases": [
+    {
+      "mode": "exact",
+      "input": "我只想看标签正好是“科技”的那几位，“科技数码”这种先别算。帮我查一下之前保存的结果就行，不重新搜索，也不用补标。",
+      "args": {
+        "tag": "科技",
+        "tagMode": "exact",
+        "offset": 0,
+        "limit": 20
+      },
+      "returned": [
+        {
+          "id": "research-ac2e4eea4df073106f89558d|tiktok:realswish",
+          "handle": "realswish",
+          "tags": [
+            "游戏",
+            "科技"
+          ]
+        },
+        {
+          "id": "research-9466fb6b1bba777d135388d3|twitter:geekyranjit",
+          "handle": "geekyranjit",
+          "tags": [
+            "科技"
+          ]
+        }
+      ],
+      "reply": [
+        "已按完整标签值 **“科技”精确查询**已有结果，未重新搜索或补标。**不计入“科技数码”等不同标签值**。\n\n共找到 **2条记录，对应2位创作者**；两条均合格且已入选原研究。\n\n| 平台 | 创作者 | 已保存的内容方向标签 | 粉丝数 | 来源研究 |\n|---|---|---|---:|---|\n| TikTok | [@realswish](https://www.tiktok.com/@realswish)（swish） | 游戏、**科技** | 6,741 | TikTok 科技数码个人创作者 |\n| X | [@geekyranjit](https://x.com/geekyranjit)（Ranjit） | **科技** | 790,900 | X 科技数码个人创作者 |\n\n**标签依据**\n- **realswish**：已保存的本人简介写有“gaming & tech | content only”，因此标注为“游戏”和“科技”。\n- **geekyranjit**：已保存的本人简介明确提及 Technology，并以个人观点介绍内容方向，因此标注为“科技”。\n\n这里的精确匹配指账号拥有一个完整值为“科技”的标签，**可以同时拥有其他标签**，所以 realswish 的“游戏”标签不影响本次纳入。以上依据均为已保存文字，并非本轮网页核验。"
+      ],
+      "passed": true
+    },
+    {
+      "mode": "contains",
+      "input": "再按文字包含“科技”查一下，标签里有这两个字就算，这次我接受更宽的文字匹配。仍然只查已有结果。",
+      "args": {
+        "tag": "科技",
+        "tagMode": "contains",
+        "offset": 0,
+        "limit": 20
+      },
+      "returned": [
+        {
+          "id": "research-0f58c6d952a48f2141973492|instagram:tylerlcrawford",
+          "handle": "tylerlcrawford",
+          "tags": [
+            "智能家居与公寓自动化",
+            "科技设备使用评测",
+            "酒店体验与旅行住宿推荐",
+            "第一人称体验叙述",
+            "清单式实用说明",
+            "具体参数与价格对比",
+            "收藏分享引导",
+            "商业合作与链接导购",
+            "智能家居与家务自动化",
+            "睡眠环境与作息自动化",
+            "桌面办公设备",
+            "旅行住宿选择"
+          ]
+        },
+        {
+          "id": "research-ec6b59bc5af4b3eb822cee2f|instagram:tylerlcrawford",
+          "handle": "tylerlcrawford",
+          "tags": [
+            "智能家居与公寓自动化",
+            "科技产品功能介绍",
+            "酒店评测与旅行住宿推荐",
+            "小空间家居布局",
+            "第一人称体验分享",
+            "具体参数与价格说明",
+            "实用步骤和选购建议",
+            "收藏与转发行动引导",
+            "商业合作与链接推广",
+            "智能家居自动化与租房改造教程",
+            "科技产品功能介绍与使用评测",
+            "旅行酒店选择与入住攻略"
+          ]
+        },
+        {
+          "id": "research-0f58c6d952a48f2141973492|instagram:valstechtalkk",
+          "handle": "valstechtalkk",
+          "tags": [
+            "iPhone 使用技巧与设置",
+            "手机功能与界面个性化",
+            "科技设备开箱与配件分享",
+            "英语口语化短文案",
+            "表情符号与话题标签密集",
+            "第一人称体验分享",
+            "提问式互动",
+            "手机摄影与相机设置",
+            "手机日常设置与操作技巧",
+            "手机界面与消息个性化",
+            "手机配件选择"
+          ]
+        },
+        {
+          "id": "research-ec6b59bc5af4b3eb822cee2f|instagram:valstechtalkk",
+          "handle": "valstechtalkk",
+          "tags": [
+            "iPhone功能与设置教程",
+            "iOS更新与Siri功能介绍",
+            "手机及配件开箱与推荐",
+            "英语口语化短文案",
+            "表情符号与话题标签丰富",
+            "提问互动",
+            "教程提示与个人体验结合",
+            "手机功能与设置教程",
+            "手机界面个性化",
+            "科技产品开箱",
+            "手机配件推广"
+          ]
+        },
+        {
+          "id": "research-91eb9f0400c59d0b5d1aedf2|instagram:tylerlcrawford",
+          "handle": "tylerlcrawford",
+          "tags": [
+            "智能家居与公寓自动化",
+            "科技产品使用评测",
+            "酒店体验与旅行推荐",
+            "创作者成长与品牌合作",
+            "第一人称体验叙述",
+            "实用步骤与具体参数说明",
+            "价格对比与选择建议",
+            "收藏分享行动引导"
+          ]
+        },
+        {
+          "id": "research-91eb9f0400c59d0b5d1aedf2|instagram:valstechtalkk",
+          "handle": "valstechtalkk",
+          "tags": [
+            "iPhone 使用技巧与设置教程",
+            "iOS 新功能介绍",
+            "科技产品开箱",
+            "手机配件与外观搭配",
+            "英语口语化短文案",
+            "第一人称体验分享",
+            "频繁使用表情符号与话题标签",
+            "提问式互动",
+            "兴奋热情的表达"
+          ]
+        },
+        {
+          "id": "research-c88806574dd68d9fc2c4257a|instagram:tylerlcrawford",
+          "handle": "tylerlcrawford",
+          "tags": [
+            "智能家居与公寓自动化",
+            "科技产品测评",
+            "酒店住宿与旅行体验",
+            "男装消费测评",
+            "自述曾任软件工程师",
+            "自述全职内容创作者",
+            "个人消费者型KOC",
+            "有品牌合作的个人创作者"
+          ]
+        },
+        {
+          "id": "research-c88806574dd68d9fc2c4257a|instagram:valstechtalkk",
+          "handle": "valstechtalkk",
+          "tags": [
+            "消费科技体验与测评",
+            "iPhone与iOS使用技巧",
+            "手机配件分享",
+            "个人消费者型KOC"
+          ]
+        },
+        {
+          "id": "research-f709082840c02b38d49c3fee|youtube:mrwhosetheboss",
+          "handle": "mrwhosetheboss",
+          "tags": [
+            "科技数码"
+          ]
+        },
+        {
+          "id": "research-ac2e4eea4df073106f89558d|tiktok:realswish",
+          "handle": "realswish",
+          "tags": [
+            "游戏",
+            "科技"
+          ]
+        },
+        {
+          "id": "research-9466fb6b1bba777d135388d3|twitter:geekyranjit",
+          "handle": "geekyranjit",
+          "tags": [
+            "科技"
+          ]
+        }
+      ],
+      "reply": [
+        "已按**标签文字包含“科技”**查询已有结果，没有重新搜索、补标或打开网页。\n\n本次命中 **11 条记录，对应 5 个去重平台账号**：\n- 原研究条件下合格：**9 条记录**\n- 待核实：**2 条记录**\n- 当前入选：**6 条记录**（不是 6 位不同创作者）\n\n| 平台 | 账号 | 命中的标签完整值 | 命中记录数 |\n|---|---|---|---:|\n| Instagram | @tylerlcrawford | 科技设备使用评测；科技产品功能介绍；科技产品功能介绍与使用评测；科技产品使用评测；科技产品测评 | 4 |\n| Instagram | @valstechtalkk | 科技设备开箱与配件分享；科技产品开箱；消费科技体验与测评 | 4 |\n| YouTube | @mrwhosetheboss | 科技数码 | 1 |\n| TikTok | @realswish | 科技 | 1 |\n| X | @geekyranjit | 科技 | 1 |\n\n**口径说明：**\n- 同一账号在不同研究组中保存的结果分别计为记录，表中标签按账号合并展示。\n- 两条待核实记录来自原 **geek 穿搭个人 KOC** 研究，各对应一个 Instagram 账号；命中科技相关标签，**不代表通过穿搭、本人眼镜、所在地或公开身份等原必选条件**。\n- 文字包含查询也可能命中“非科技”等否定标签；**本次返回的命中标签中没有这类否定值**。"
+      ],
+      "passed": true
+    }
+  ],
+  "newWaveCalls": 0,
+  "passed": true
+}

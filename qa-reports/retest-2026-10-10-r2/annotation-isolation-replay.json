@@ -1,0 +1,102 @@
+{
+  "at": "2026-10-10T07:00:20.514Z",
+  "mode": "annotate",
+  "previous": {
+    "verdict": "match",
+    "selected": true,
+    "region": "US",
+    "factorGrades": {
+      "role": "strong",
+      "activity": "observed",
+      "identity": "individual",
+      "location": "confirmed_country",
+      "followers": "in_range",
+      "relevance": "strong"
+    }
+  },
+  "actualSubmittedFacts": [
+    {
+      "kind": "followers",
+      "rawValue": "31.2K followers",
+      "evidenceIds": [
+        "8fb5a563fbba73da3c7efbcb"
+      ]
+    },
+    {
+      "kind": "country",
+      "rawValue": "austin, tx",
+      "evidenceIds": [
+        "8fb5a563fbba73da3c7efbcb"
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "name": "actual annotation response",
+      "verdict": "unknown",
+      "region": {
+        "criterionId": "__region",
+        "verdict": "unknown",
+        "reason": "WaveSurge 地区：US；服务标记国家已确认",
+        "evidenceIds": [
+          "3a348175a9b364f28ea1c614",
+          "db866e8ccd0ffbaeae9d0f97"
+        ],
+        "label": "所在地区"
+      },
+      "facts": {
+        "conflicts": [
+          "country: 缺少本人所在地声明或来源冲突"
+        ],
+        "followers": {
+          "min": 31150,
+          "max": 31249,
+          "rawValue": "31.2K followers",
+          "evidenceIds": [
+            "8fb5a563fbba73da3c7efbcb"
+          ]
+        }
+      }
+    },
+    {
+      "name": "same response without unsolicited facts",
+      "verdict": "match",
+      "region": {
+        "criterionId": "__region",
+        "verdict": "match",
+        "reason": "WaveSurge 地区：US；服务标记国家已确认",
+        "evidenceIds": [
+          "3a348175a9b364f28ea1c614",
+          "db866e8ccd0ffbaeae9d0f97"
+        ],
+        "label": "所在地区"
+      }
+    },
+    {
+      "name": "same response with valid follower fact only",
+      "verdict": "match",
+      "region": {
+        "criterionId": "__region",
+        "verdict": "match",
+        "reason": "WaveSurge 地区：US；服务标记国家已确认",
+        "evidenceIds": [
+          "3a348175a9b364f28ea1c614",
+          "db866e8ccd0ffbaeae9d0f97"
+        ],
+        "label": "所在地区"
+      },
+      "facts": {
+        "conflicts": [],
+        "followers": {
+          "min": 31150,
+          "max": 31249,
+          "rawValue": "31.2K followers",
+          "evidenceIds": [
+            "8fb5a563fbba73da3c7efbcb"
+          ]
+        }
+      }
+    }
+  ],
+  "persistentWrites": false
+}

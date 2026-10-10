@@ -1,0 +1,504 @@
+{
+  "at": "2026-10-10T06:34:01.716Z",
+  "messages": [
+    {
+      "id": "3023bf5c-ec2c-4cab-9010-c44d5996936d",
+      "role": "user",
+      "text": "把之前找到的 tylerlcrawford、valstechtalkk、SchoolHabits、raytubelcsw、colelangs 和 wesleyanna 这6个人再整理一下，先不重新找人，也不用重开网页。用已有证据给每个人补上内容方向、风格和适合怎么合作的短标签，缺证据的写待确认，不合格的也保留。这次把标签真的存进结果里，刷新后能查到，原报告和导出文件也跟着更新，别只写在聊天里。",
+      "createdAt": 1791613128350
+    },
+    {
+      "id": "e67f4436-0ada-4ec5-8ae9-f768250aca97",
+      "role": "assistant",
+      "text": "本轮处理未完成：模型请求失败（408）。已有任务和记录已保存。",
+      "createdAt": 1791613155997
+    },
+    {
+      "id": "report-research-d22f5bc3f9c80da1a4979ca5-8234440f5cb11b17",
+      "role": "assistant",
+      "text": "研究「Review独立真实筛选」已完成。已选合格 1/1 人，核验 2 人。\n\n历史结果已按统一账号身份、国家名称和证据重算：已选合格 1/1，核验 2。未确认条件保持 unknown；原分析已保留审计版本。\n\n[查看完整报告](/api/reports/research-d22f5bc3f9c80da1a4979ca5) · [下载 CSV](/api/reports/research-d22f5bc3f9c80da1a4979ca5?format=csv)",
+      "createdAt": 1791613177052
+    },
+    {
+      "id": "report-enrich-19b749da2108bcce416e3a31-a34a0097333d36a1",
+      "role": "assistant",
+      "text": "补充画像：Review独立真实筛选已结束。已处理 2 个已有账号；失败 1。research-d22f5bc3f9c80da1a4979ca5|instagram:tylerlcrawford: 模型请求失败（408）\n\n[查看更新后的报告](/api/reports/research-d22f5bc3f9c80da1a4979ca5)",
+      "createdAt": 1791613177057
+    },
+    {
+      "id": "report-research-fd88375f69e716ff5cbc9fef-873a60edea62b457",
+      "role": "assistant",
+      "text": "研究「课堂笔记与考试复习方法创作者」已结束，仍有缺额。已选合格 0/1 人，核验 2 人。\n\n历史结果已按统一账号身份、国家名称和证据重算：已选合格 0/1，核验 2。未确认条件保持 unknown；原分析已保留审计版本。\n\n[查看完整报告](/api/reports/research-fd88375f69e716ff5cbc9fef) · [下载 CSV](/api/reports/research-fd88375f69e716ff5cbc9fef?format=csv)",
+      "createdAt": 1791613201380
+    },
+    {
+      "id": "report-research-b30bacd90e74569b33e06bfc-9497f37137fc690d",
+      "role": "assistant",
+      "text": "研究「AI与数字学习工具教学创作者」已结束，仍有缺额。已选合格 0/1 人，核验 2 人。\n\n历史结果已按统一账号身份、国家名称和证据重算：已选合格 0/1，核验 2。未确认条件保持 unknown；原分析已保留审计版本。\n\n[查看完整报告](/api/reports/research-b30bacd90e74569b33e06bfc) · [下载 CSV](/api/reports/research-b30bacd90e74569b33e06bfc?format=csv)",
+      "createdAt": 1791613229725
+    },
+    {
+      "id": "report-campaign-bb62e1767e97593d5e070a7d-628be32c04aba29c",
+      "role": "assistant",
+      "text": "Campaign「Review自然目标规划」已结束，仍有缺额。去重入选 0/2 人。\n\n- 课堂笔记与考试复习方法创作者：0/1\n- AI与数字学习工具教学创作者：0/1\n\n[查看 Campaign 总报告](/api/campaigns/campaign-bb62e1767e97593d5e070a7d/report)",
+      "createdAt": 1791613229762
+    },
+    {
+      "id": "report-research-fd88375f69e716ff5cbc9fef-ea657bfa7ec15036",
+      "role": "assistant",
+      "text": "研究「课堂笔记与考试复习方法创作者」已结束，仍有缺额。已选合格 0/1 人，核验 2 人。\n\n历史结果已按统一账号身份、国家名称和证据重算：已选合格 0/1，核验 2。未确认条件保持 unknown；原分析已保留审计版本。\n\n[查看完整报告](/api/reports/research-fd88375f69e716ff5cbc9fef) · [下载 CSV](/api/reports/research-fd88375f69e716ff5cbc9fef?format=csv)",
+      "createdAt": 1791613295021
+    },
+    {
+      "id": "report-enrich-32f9c222ba018ba1748b584e-def7b09d79ee7d0d",
+      "role": "assistant",
+      "text": "补充画像：课堂笔记与考试复习方法创作者已结束。已处理 2 个已有账号；失败 0。\n\n[查看更新后的报告](/api/reports/research-fd88375f69e716ff5cbc9fef)",
+      "createdAt": 1791613295025
+    },
+    {
+      "id": "report-research-b30bacd90e74569b33e06bfc-d413aab075233e9e",
+      "role": "assistant",
+      "text": "研究「AI与数字学习工具教学创作者」已结束，仍有缺额。已选合格 0/1 人，核验 2 人。\n\n历史结果已按统一账号身份、国家名称和证据重算：已选合格 0/1，核验 2。未确认条件保持 unknown；原分析已保留审计版本。\n\n[查看完整报告](/api/reports/research-b30bacd90e74569b33e06bfc) · [下载 CSV](/api/reports/research-b30bacd90e74569b33e06bfc?format=csv)",
+      "createdAt": 1791613319925
+    },
+    {
+      "id": "report-enrich-150446afeae8ce042413a76e-39b82b31d14a7ace",
+      "role": "assistant",
+      "text": "补充画像：AI与数字学习工具教学创作者已结束。已处理 2 个已有账号；失败 0。\n\n[查看更新后的报告](/api/reports/research-b30bacd90e74569b33e06bfc)",
+      "createdAt": 1791613319931
+    },
+    {
+      "id": "report-campaign-bb62e1767e97593d5e070a7d-ae696659981a0490",
+      "role": "assistant",
+      "text": "Campaign「Review自然目标规划」已结束，仍有缺额。去重入选 0/2 人。\n\n- 课堂笔记与考试复习方法创作者：0/1\n- AI与数字学习工具教学创作者：0/1\n\n[查看 Campaign 总报告](/api/campaigns/campaign-bb62e1767e97593d5e070a7d/report)",
+      "createdAt": 1791613319958
+    },
+    {
+      "id": "05a50e1a-9e22-4599-b04c-baffa1a99ee2",
+      "role": "user",
+      "text": "刚才 tylerlcrawford 那个补标超时了，帮我只重试他，其他已经补好的别重复跑。还是用已有证据补内容方向、风格、适合怎么合作这三项，保存到原结果和报告里，不用新搜索。",
+      "createdAt": 1791613495522
+    },
+    {
+      "id": "40646621-52ca-4742-b582-eba693215fed",
+      "role": "assistant",
+      "text": "已提交**仅 tylerlcrawford** 的补标重试，其他5位不会重复处理。\n\n本次只用已有证据补充：\n- 内容方向\n- 呈现风格\n- 适合合作的内容形式（不代表本人合作意愿）\n\n不重新搜索、不重开网页、不改变原筛选条件。证据不足的项目保持待确认；完成后将保存到**原结果和报告**中。\n\n目前重试已排队，尚未完成：[原报告](/api/reports/research-d22f5bc3f9c80da1a4979ca5) · [CSV 导出](/api/reports/research-d22f5bc3f9c80da1a4979ca5?format=csv)",
+      "createdAt": 1791613518302
+    },
+    {
+      "id": "report-research-d22f5bc3f9c80da1a4979ca5-31ee6acba8265e02",
+      "role": "assistant",
+      "text": "研究「Review独立真实筛选」已完成。已选合格 1/1 人，核验 2 人。\n\n历史结果已按统一账号身份、国家名称和证据重算：已选合格 1/1，核验 2。未确认条件保持 unknown；原分析已保留审计版本。\n\n[查看完整报告](/api/reports/research-d22f5bc3f9c80da1a4979ca5) · [下载 CSV](/api/reports/research-d22f5bc3f9c80da1a4979ca5?format=csv)",
+      "createdAt": 1791613527414
+    },
+    {
+      "id": "report-enrich-6fcbc9e0deacef35d5bcc9df-4ed424a1ec3a88e1",
+      "role": "assistant",
+      "text": "补充画像：Review独立真实筛选已结束。已处理 1 个已有账号；失败 0。\n\n[查看更新后的报告](/api/reports/research-d22f5bc3f9c80da1a4979ca5)",
+      "createdAt": 1791613527419
+    }
+  ],
+  "deliveries": [
+    {
+      "id": "report-research-d22f5bc3f9c80da1a4979ca5-8234440f5cb11b17",
+      "subject": "research-d22f5bc3f9c80da1a4979ca5",
+      "revision": {
+        "status": "completed",
+        "matched": 1,
+        "evaluated": 2,
+        "results": [
+          [
+            "research-d22f5bc3f9c80da1a4979ca5|instagram:tylerlcrawford",
+            1791607303379
+          ],
+          [
+            "research-d22f5bc3f9c80da1a4979ca5|instagram:valstechtalkk",
+            1791613177046
+          ]
+        ]
+      },
+      "createdAt": 1791613177052
+    },
+    {
+      "id": "report-enrich-19b749da2108bcce416e3a31-a34a0097333d36a1",
+      "subject": "enrich-19b749da2108bcce416e3a31",
+      "revision": {
+        "status": "partial",
+        "completed": [
+          "research-d22f5bc3f9c80da1a4979ca5|instagram:tylerlcrawford",
+          "research-d22f5bc3f9c80da1a4979ca5|instagram:valstechtalkk"
+        ],
+        "failures": [
+          "research-d22f5bc3f9c80da1a4979ca5|instagram:tylerlcrawford: 模型请求失败（408）"
+        ]
+      },
+      "createdAt": 1791613177057
+    },
+    {
+      "id": "report-research-fd88375f69e716ff5cbc9fef-873a60edea62b457",
+      "subject": "research-fd88375f69e716ff5cbc9fef",
+      "revision": {
+        "status": "partial",
+        "matched": 0,
+        "evaluated": 2,
+        "results": [
+          [
+            "research-fd88375f69e716ff5cbc9fef|youtube:schoolhabits",
+            1791613201373
+          ],
+          [
+            "research-fd88375f69e716ff5cbc9fef|youtube:raytubelcsw",
+            1791607303425
+          ]
+        ]
+      },
+      "createdAt": 1791613201380
+    },
+    {
+      "id": "report-research-b30bacd90e74569b33e06bfc-9497f37137fc690d",
+      "subject": "research-b30bacd90e74569b33e06bfc",
+      "revision": {
+        "status": "partial",
+        "matched": 0,
+        "evaluated": 2,
+        "results": [
+          [
+            "research-b30bacd90e74569b33e06bfc|youtube:colelangs",
+            1791613229715
+          ],
+          [
+            "research-b30bacd90e74569b33e06bfc|youtube:wesleyanna",
+            1791608204731
+          ]
+        ]
+      },
+      "createdAt": 1791613229725
+    },
+    {
+      "id": "report-campaign-bb62e1767e97593d5e070a7d-628be32c04aba29c",
+      "subject": "campaign-bb62e1767e97593d5e070a7d",
+      "revision": {
+        "status": "partial",
+        "selections": [],
+        "results": [
+          [
+            "research-fd88375f69e716ff5cbc9fef|youtube:schoolhabits",
+            1791613201373
+          ],
+          [
+            "research-fd88375f69e716ff5cbc9fef|youtube:raytubelcsw",
+            1791607303425
+          ],
+          [
+            "research-b30bacd90e74569b33e06bfc|youtube:colelangs",
+            1791613229715
+          ],
+          [
+            "research-b30bacd90e74569b33e06bfc|youtube:wesleyanna",
+            1791608204731
+          ]
+        ]
+      },
+      "createdAt": 1791613229762
+    },
+    {
+      "id": "report-research-fd88375f69e716ff5cbc9fef-ea657bfa7ec15036",
+      "subject": "research-fd88375f69e716ff5cbc9fef",
+      "revision": {
+        "status": "partial",
+        "matched": 0,
+        "evaluated": 2,
+        "results": [
+          [
+            "research-fd88375f69e716ff5cbc9fef|youtube:schoolhabits",
+            1791613201373
+          ],
+          [
+            "research-fd88375f69e716ff5cbc9fef|youtube:raytubelcsw",
+            1791613295013
+          ]
+        ]
+      },
+      "createdAt": 1791613295021
+    },
+    {
+      "id": "report-enrich-32f9c222ba018ba1748b584e-def7b09d79ee7d0d",
+      "subject": "enrich-32f9c222ba018ba1748b584e",
+      "revision": {
+        "status": "completed",
+        "completed": [
+          "research-fd88375f69e716ff5cbc9fef|youtube:schoolhabits",
+          "research-fd88375f69e716ff5cbc9fef|youtube:raytubelcsw"
+        ],
+        "failures": []
+      },
+      "createdAt": 1791613295025
+    },
+    {
+      "id": "report-research-b30bacd90e74569b33e06bfc-d413aab075233e9e",
+      "subject": "research-b30bacd90e74569b33e06bfc",
+      "revision": {
+        "status": "partial",
+        "matched": 0,
+        "evaluated": 2,
+        "results": [
+          [
+            "research-b30bacd90e74569b33e06bfc|youtube:colelangs",
+            1791613229715
+          ],
+          [
+            "research-b30bacd90e74569b33e06bfc|youtube:wesleyanna",
+            1791613319918
+          ]
+        ]
+      },
+      "createdAt": 1791613319925
+    },
+    {
+      "id": "report-enrich-150446afeae8ce042413a76e-39b82b31d14a7ace",
+      "subject": "enrich-150446afeae8ce042413a76e",
+      "revision": {
+        "status": "completed",
+        "completed": [
+          "research-b30bacd90e74569b33e06bfc|youtube:colelangs",
+          "research-b30bacd90e74569b33e06bfc|youtube:wesleyanna"
+        ],
+        "failures": []
+      },
+      "createdAt": 1791613319931
+    },
+    {
+      "id": "report-campaign-bb62e1767e97593d5e070a7d-ae696659981a0490",
+      "subject": "campaign-bb62e1767e97593d5e070a7d",
+      "revision": {
+        "status": "partial",
+        "selections": [],
+        "results": [
+          [
+            "research-fd88375f69e716ff5cbc9fef|youtube:schoolhabits",
+            1791613201373
+          ],
+          [
+            "research-fd88375f69e716ff5cbc9fef|youtube:raytubelcsw",
+            1791613295013
+          ],
+          [
+            "research-b30bacd90e74569b33e06bfc|youtube:colelangs",
+            1791613229715
+          ],
+          [
+            "research-b30bacd90e74569b33e06bfc|youtube:wesleyanna",
+            1791613319918
+          ]
+        ]
+      },
+      "createdAt": 1791613319958
+    },
+    {
+      "id": "report-research-d22f5bc3f9c80da1a4979ca5-31ee6acba8265e02",
+      "subject": "research-d22f5bc3f9c80da1a4979ca5",
+      "revision": {
+        "status": "completed",
+        "matched": 1,
+        "evaluated": 2,
+        "results": [
+          [
+            "research-d22f5bc3f9c80da1a4979ca5|instagram:tylerlcrawford",
+            1791613527408
+          ],
+          [
+            "research-d22f5bc3f9c80da1a4979ca5|instagram:valstechtalkk",
+            1791613177046
+          ]
+        ]
+      },
+      "createdAt": 1791613527414
+    },
+    {
+      "id": "report-enrich-6fcbc9e0deacef35d5bcc9df-4ed424a1ec3a88e1",
+      "subject": "enrich-6fcbc9e0deacef35d5bcc9df",
+      "revision": {
+        "status": "completed",
+        "completed": [
+          "research-d22f5bc3f9c80da1a4979ca5|instagram:tylerlcrawford"
+        ],
+        "failures": []
+      },
+      "createdAt": 1791613527419
+    }
+  ],
+  "jobs": [
+    {
+      "id": "enrich-8871961801ae75d3e4c07269",
+      "taskId": "research-b30bacd90e74569b33e06bfc",
+      "mode": "annotate",
+      "resultIds": [
+        "research-b30bacd90e74569b33e06bfc|youtube:colelangs",
+        "research-b30bacd90e74569b33e06bfc|youtube:wesleyanna"
+      ],
+      "annotations": [
+        {
+          "id": "content_direction",
+          "label": "内容方向"
+        },
+        {
+          "id": "presentation_style",
+          "label": "呈现风格"
+        }
+      ],
+      "completed": [
+        "research-b30bacd90e74569b33e06bfc|youtube:colelangs",
+        "research-b30bacd90e74569b33e06bfc|youtube:wesleyanna"
+      ],
+      "attempts": {},
+      "nextAt": 0,
+      "failures": []
+    },
+    {
+      "id": "enrich-e6bac783cce66bf50203c22a",
+      "taskId": "research-b30bacd90e74569b33e06bfc",
+      "mode": "annotate",
+      "resultIds": [
+        "research-b30bacd90e74569b33e06bfc|youtube:colelangs",
+        "research-b30bacd90e74569b33e06bfc|youtube:wesleyanna"
+      ],
+      "annotations": [
+        {
+          "id": "content_direction",
+          "label": "内容方向"
+        },
+        {
+          "id": "presentation_style",
+          "label": "呈现风格"
+        }
+      ],
+      "completed": [
+        "research-b30bacd90e74569b33e06bfc|youtube:colelangs",
+        "research-b30bacd90e74569b33e06bfc|youtube:wesleyanna"
+      ],
+      "attempts": {},
+      "nextAt": 0,
+      "failures": []
+    },
+    {
+      "id": "enrich-19b749da2108bcce416e3a31",
+      "taskId": "research-d22f5bc3f9c80da1a4979ca5",
+      "mode": "annotate",
+      "resultIds": [
+        "research-d22f5bc3f9c80da1a4979ca5|instagram:tylerlcrawford",
+        "research-d22f5bc3f9c80da1a4979ca5|instagram:valstechtalkk"
+      ],
+      "annotations": [
+        {
+          "id": "content_direction",
+          "label": "内容方向"
+        },
+        {
+          "id": "presentation_style",
+          "label": "呈现风格"
+        },
+        {
+          "id": "collaboration_format",
+          "label": "适合合作的内容形式（仅依据已有内容证据，不代表合作意愿）"
+        }
+      ],
+      "completed": [
+        "research-d22f5bc3f9c80da1a4979ca5|instagram:tylerlcrawford",
+        "research-d22f5bc3f9c80da1a4979ca5|instagram:valstechtalkk"
+      ],
+      "attempts": {},
+      "nextAt": 0,
+      "failures": [
+        "research-d22f5bc3f9c80da1a4979ca5|instagram:tylerlcrawford: 模型请求失败（408）"
+      ]
+    },
+    {
+      "id": "enrich-32f9c222ba018ba1748b584e",
+      "taskId": "research-fd88375f69e716ff5cbc9fef",
+      "mode": "annotate",
+      "resultIds": [
+        "research-fd88375f69e716ff5cbc9fef|youtube:schoolhabits",
+        "research-fd88375f69e716ff5cbc9fef|youtube:raytubelcsw"
+      ],
+      "annotations": [
+        {
+          "id": "content_direction",
+          "label": "内容方向"
+        },
+        {
+          "id": "presentation_style",
+          "label": "呈现风格"
+        },
+        {
+          "id": "collaboration_format",
+          "label": "适合合作的内容形式（仅依据已有内容证据，不代表合作意愿）"
+        }
+      ],
+      "completed": [
+        "research-fd88375f69e716ff5cbc9fef|youtube:schoolhabits",
+        "research-fd88375f69e716ff5cbc9fef|youtube:raytubelcsw"
+      ],
+      "attempts": {},
+      "nextAt": 0,
+      "failures": []
+    },
+    {
+      "id": "enrich-150446afeae8ce042413a76e",
+      "taskId": "research-b30bacd90e74569b33e06bfc",
+      "mode": "annotate",
+      "resultIds": [
+        "research-b30bacd90e74569b33e06bfc|youtube:colelangs",
+        "research-b30bacd90e74569b33e06bfc|youtube:wesleyanna"
+      ],
+      "annotations": [
+        {
+          "id": "content_direction",
+          "label": "内容方向"
+        },
+        {
+          "id": "presentation_style",
+          "label": "呈现风格"
+        },
+        {
+          "id": "collaboration_format",
+          "label": "适合合作的内容形式（仅依据已有内容证据，不代表合作意愿）"
+        }
+      ],
+      "completed": [
+        "research-b30bacd90e74569b33e06bfc|youtube:colelangs",
+        "research-b30bacd90e74569b33e06bfc|youtube:wesleyanna"
+      ],
+      "attempts": {},
+      "nextAt": 0,
+      "failures": []
+    },
+    {
+      "id": "enrich-6fcbc9e0deacef35d5bcc9df",
+      "taskId": "research-d22f5bc3f9c80da1a4979ca5",
+      "mode": "annotate",
+      "resultIds": [
+        "research-d22f5bc3f9c80da1a4979ca5|instagram:tylerlcrawford"
+      ],
+      "annotations": [
+        {
+          "id": "content_direction",
+          "label": "内容方向"
+        },
+        {
+          "id": "presentation_style",
+          "label": "呈现风格"
+        },
+        {
+          "id": "collaboration_format",
+          "label": "适合合作的内容形式（仅依据已有内容证据，不代表合作意愿）"
+        }
+      ],
+      "completed": [
+        "research-d22f5bc3f9c80da1a4979ca5|instagram:tylerlcrawford"
+      ],
+      "attempts": {},
+      "nextAt": 0,
+      "failures": []
+    }
+  ]
+}

@@ -1,0 +1,352 @@
+{
+  "at": "2026-10-10T07:22:51.963Z",
+  "console": [
+    "Failed to load resource: the server responded with a status of 401 (Unauthorized)",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)"
+  ],
+  "responses": [
+    {
+      "path": "/api/desktop/viewer",
+      "status": 200,
+      "type": "application/json; charset=utf-8"
+    },
+    {
+      "path": "/api/desktop/view/vnc.html",
+      "status": 200,
+      "type": "text/html"
+    },
+    {
+      "path": "/api/desktop/view/app/images/info.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "path": "/api/desktop/view/app/styles/base.css",
+      "status": 200,
+      "type": "text/css"
+    },
+    {
+      "path": "/api/desktop/view/app/images/drag.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "path": "/api/desktop/view/app/error-handler.js",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/api/desktop/view/app/ui.js",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/api/desktop/view/app/images/keyboard.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "path": "/api/desktop/view/app/images/toggleextrakeys.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "path": "/api/desktop/view/app/images/ctrl.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "path": "/api/desktop/view/app/styles/Orbitron700.woff",
+      "status": 200,
+      "type": "font/woff"
+    },
+    {
+      "path": "/api/desktop/view/app/images/settings.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "path": "/api/desktop/view/app/images/tab.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "path": "/api/desktop/view/app/images/clipboard.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "path": "/api/desktop/view/app/images/windows.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "path": "/api/desktop/view/app/images/connect.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "path": "/api/desktop/view/app/images/ctrlaltdel.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "path": "/api/desktop/view/app/images/expander.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "path": "/api/desktop/view/app/images/esc.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "path": "/api/desktop/view/app/images/power.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "path": "/api/desktop/view/core/util/logging.js",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/api/desktop/view/app/localization.js",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/api/desktop/view/core/util/events.js",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/api/desktop/view/core/util/browser.js",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/api/desktop/view/core/input/keysym.js",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/api/desktop/view/core/input/keysymdef.js",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/api/desktop/view/core/input/keyboard.js",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/api/desktop/view/app/images/alt.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "path": "/api/desktop/view/app/webutil.js",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/api/desktop/view/core/rfb.js",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/api/desktop/view/app/images/error.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "path": "/api/desktop/view/core/input/util.js",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/api/desktop/view/app/images/warning.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "path": "/api/desktop/view/app/images/fullscreen.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "path": "/api/desktop/view/core/util/int.js",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/api/desktop/view/core/util/eventtarget.js",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/api/desktop/view/core/inflator.js",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/api/desktop/view/core/display.js",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/api/desktop/view/core/util/strings.js",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/api/desktop/view/core/util/element.js",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/api/desktop/view/core/deflator.js",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/api/desktop/view/core/input/gesturehandler.js",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/api/desktop/view/core/util/cursor.js",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/api/desktop/view/core/websock.js",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/api/desktop/view/core/encodings.js",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/api/desktop/view/core/des.js",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/api/desktop/view/core/input/xtscancodes.js",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/api/desktop/view/core/decoders/rre.js",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/api/desktop/view/core/decoders/copyrect.js",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/api/desktop/view/core/decoders/raw.js",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/api/desktop/view/core/decoders/hextile.js",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/api/desktop/view/core/decoders/tight.js",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/api/desktop/view/core/decoders/tightpng.js",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/api/desktop/view/core/input/vkeys.js",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/api/desktop/view/core/input/domkeytable.js",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/api/desktop/view/vendor/pako/lib/zlib/zstream.js",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/api/desktop/view/core/base64.js",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/api/desktop/view/vendor/pako/lib/zlib/inflate.js",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/api/desktop/view/core/input/fixedkeys.js",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/api/desktop/view/vendor/pako/lib/zlib/deflate.js",
+      "status": 200,
+      "type": "text/javascript"
+    }
+  ],
+  "failed": [
+    {
+      "path": "/api/desktop/view/vendor/pako/lib/zlib/crc32.js",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "path": "/api/desktop/view/vendor/pako/lib/zlib/adler32.js",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "path": "/api/desktop/view/vendor/pako/lib/zlib/messages.js",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "path": "/api/desktop/view/vendor/pako/lib/utils/common.js",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "path": "/api/desktop/view/vendor/pako/lib/zlib/inftrees.js",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "path": "/api/desktop/view/app/sounds/bell.oga",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "path": "/api/desktop/view/vendor/pako/lib/zlib/trees.js",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "path": "/api/desktop/view/vendor/pako/lib/zlib/inffast.js",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "path": "/api/desktop/view/app/images/disconnect.svg",
+      "error": "net::ERR_ABORTED"
+    }
+  ],
+  "htmlClass": "noVNC_loading",
+  "status": "",
+  "body": "no\nVNC",
+  "connected": false,
+  "finishedAt": "2026-10-10T07:24:39.593Z"
+}

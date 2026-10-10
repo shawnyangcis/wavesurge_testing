@@ -1,0 +1,17 @@
+import { execFileSync } from 'node:child_process';
+import { chmodSync, mkdirSync, writeFileSync } from 'node:fs';
+import assert from 'node:assert/strict';
+import { Store } from '../../../src/server/store.ts';
+import { ResearchEngine } from '../../../src/server/research.ts';
+import { repairFollowerPrecision } from '../../../src/server/repair.ts';
+const root='validation/2026-10-10/r3-fixes';mkdirSync(`${root}/private`,{recursive:true,mode:0o700});
+const comp=['compose','-p','creator-studio-retest-r3-live','-f','compose.yaml','-f','.gstack/qa-reports/retest-2026-10-10-r3/live-compose.yaml'];
+execFileSync('docker',[...comp,'exec','-T','app','node','--input-type=module','-e',"import{DatabaseSync,backup}from'node:sqlite';import{chmodSync}from'node:fs';const s=new DatabaseSync('/app/data/studio.sqlite',{readOnly:true});await backup(s,'/tmp/r3-readonly-rehearsal.sqlite');s.close();chmodSync('/tmp/r3-readonly-rehearsal.sqlite',0o600);"],{stdio:'pipe'});
+const path=`${root}/private/reviewer-readonly-copy.sqlite`;execFileSync('docker',[...comp,'cp','app:/tmp/r3-readonly-rehearsal.sqlite',path],{stdio:'pipe'});chmodSync(path,0o600);
+const store=new Store(path);let remoteCalls=0;const forbidden=async()=>{remoteCalls++;throw Error('Migration must never call a remote service');};const engine=new ResearchEngine(store,{submit:forbidden,poll:forbidden},forbidden,Date.now);
+const before={results:store.list('result'),tasks:store.list('task'),notices:store.list('delivery').length,messages:store.list('message').length};
+repairFollowerPrecision(engine);const first=store.list('result');repairFollowerPrecision(engine);assert.deepEqual(store.list('result'),first);assert.equal(remoteCalls,0);assert.equal(store.list('delivery').length,before.notices);assert.equal(store.list('message').length,before.messages);assert.equal(first.length,before.results.length);assert.equal(store.list('task').length,before.tasks.length);
+const changed=first.filter(r=>JSON.stringify(r)!==JSON.stringify(before.results.find(b=>b.id===r.id))).map(r=>{const old=before.results.find(b=>b.id===r.id);assert.deepEqual(r.tags,old.tags);assert.deepEqual(r.annotations,old.annotations);assert.equal(r.revision,(old.revision??1)+1);return{id:r.id,handle:r.creator.handle,apiFollowers:r.creator.followers,oldVerdict:old.verdict,verdict:r.verdict,oldRevision:old.revision,revision:r.revision,followersFact:r.creator.facts?.followers,conflicts:r.creator.facts?.conflicts,tagsPreserved:true,annotationsPreserved:true};});
+assert(changed.some(r=>r.handle==='valstechtalkk'&&r.verdict==='match'));
+const output={at:new Date().toISOString(),passed:true,source:'SQLite online read-only snapshot of reviewer R3 evidence; repair executed only on private local copy. No fresh page visit, model/API call or historical report redelivery.',migration:store.get('data-migration','r3-follower-precision-20261010'),changed,resultsPreserved:first.length,tasksPreserved:store.list('task').length,modelOrApiCalls:remoteCalls,newNotices:store.list('delivery').length-before.notices,newMessages:store.list('message').length-before.messages,idempotent:true};
+store.close();writeFileSync(`${root}/migration-rehearsal.json`,JSON.stringify(output,null,2));console.log(JSON.stringify({passed:true,changed:changed.map(c=>({handle:c.handle,from:c.oldVerdict,to:c.verdict})),results:output.resultsPreserved,tasks:output.tasksPreserved,remoteCalls,newNotices:output.newNotices}));

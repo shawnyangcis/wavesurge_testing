@@ -1,0 +1,268 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Code coverage report for server/enrichment.ts</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../prettify.css" />
+    <link rel="stylesheet" href="../base.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+    
+<body>
+<div class='wrapper'>
+    <div class='pad1'>
+        <h1><a href="../index.html">All files</a> / <a href="index.html">server</a> enrichment.ts</h1>
+        <div class='clearfix'>
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Statements</span>
+                <span class='fraction'>92/92</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Branches</span>
+                <span class='fraction'>100/100</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Functions</span>
+                <span class='fraction'>17/17</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Lines</span>
+                <span class='fraction'>38/38</span>
+            </div>
+        
+            
+        </div>
+        <p class="quiet">
+            Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
+        </p>
+        <template id="filterTemplate">
+            <div class="quiet">
+                Filter:
+                <input type="search" id="fileSearch">
+            </div>
+        </template>
+    </div>
+    <div class='status-line high'></div>
+    <pre><table class="coverage">
+<tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
+<a name='L2'></a><a href='#L2'>2</a>
+<a name='L3'></a><a href='#L3'>3</a>
+<a name='L4'></a><a href='#L4'>4</a>
+<a name='L5'></a><a href='#L5'>5</a>
+<a name='L6'></a><a href='#L6'>6</a>
+<a name='L7'></a><a href='#L7'>7</a>
+<a name='L8'></a><a href='#L8'>8</a>
+<a name='L9'></a><a href='#L9'>9</a>
+<a name='L10'></a><a href='#L10'>10</a>
+<a name='L11'></a><a href='#L11'>11</a>
+<a name='L12'></a><a href='#L12'>12</a>
+<a name='L13'></a><a href='#L13'>13</a>
+<a name='L14'></a><a href='#L14'>14</a>
+<a name='L15'></a><a href='#L15'>15</a>
+<a name='L16'></a><a href='#L16'>16</a>
+<a name='L17'></a><a href='#L17'>17</a>
+<a name='L18'></a><a href='#L18'>18</a>
+<a name='L19'></a><a href='#L19'>19</a>
+<a name='L20'></a><a href='#L20'>20</a>
+<a name='L21'></a><a href='#L21'>21</a>
+<a name='L22'></a><a href='#L22'>22</a>
+<a name='L23'></a><a href='#L23'>23</a>
+<a name='L24'></a><a href='#L24'>24</a>
+<a name='L25'></a><a href='#L25'>25</a>
+<a name='L26'></a><a href='#L26'>26</a>
+<a name='L27'></a><a href='#L27'>27</a>
+<a name='L28'></a><a href='#L28'>28</a>
+<a name='L29'></a><a href='#L29'>29</a>
+<a name='L30'></a><a href='#L30'>30</a>
+<a name='L31'></a><a href='#L31'>31</a>
+<a name='L32'></a><a href='#L32'>32</a>
+<a name='L33'></a><a href='#L33'>33</a>
+<a name='L34'></a><a href='#L34'>34</a>
+<a name='L35'></a><a href='#L35'>35</a>
+<a name='L36'></a><a href='#L36'>36</a>
+<a name='L37'></a><a href='#L37'>37</a>
+<a name='L38'></a><a href='#L38'>38</a>
+<a name='L39'></a><a href='#L39'>39</a>
+<a name='L40'></a><a href='#L40'>40</a>
+<a name='L41'></a><a href='#L41'>41</a>
+<a name='L42'></a><a href='#L42'>42</a>
+<a name='L43'></a><a href='#L43'>43</a>
+<a name='L44'></a><a href='#L44'>44</a>
+<a name='L45'></a><a href='#L45'>45</a>
+<a name='L46'></a><a href='#L46'>46</a>
+<a name='L47'></a><a href='#L47'>47</a>
+<a name='L48'></a><a href='#L48'>48</a>
+<a name='L49'></a><a href='#L49'>49</a>
+<a name='L50'></a><a href='#L50'>50</a>
+<a name='L51'></a><a href='#L51'>51</a>
+<a name='L52'></a><a href='#L52'>52</a>
+<a name='L53'></a><a href='#L53'>53</a>
+<a name='L54'></a><a href='#L54'>54</a>
+<a name='L55'></a><a href='#L55'>55</a>
+<a name='L56'></a><a href='#L56'>56</a>
+<a name='L57'></a><a href='#L57'>57</a>
+<a name='L58'></a><a href='#L58'>58</a>
+<a name='L59'></a><a href='#L59'>59</a>
+<a name='L60'></a><a href='#L60'>60</a>
+<a name='L61'></a><a href='#L61'>61</a>
+<a name='L62'></a><a href='#L62'>62</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">102x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">25x</span>
+<span class="cline-any cline-yes">25x</span>
+<span class="cline-any cline-yes">19x</span>
+<span class="cline-any cline-yes">18x</span>
+<span class="cline-any cline-yes">25x</span>
+<span class="cline-any cline-yes">15x</span>
+<span class="cline-any cline-yes">15x</span>
+<span class="cline-any cline-yes">14x</span>
+<span class="cline-any cline-yes">25x</span>
+<span class="cline-any cline-yes">25x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">127x</span>
+<span class="cline-any cline-yes">27x</span>
+<span class="cline-any cline-yes">27x</span>
+<span class="cline-any cline-yes">16x</span>
+<span class="cline-any cline-yes">16x</span>
+<span class="cline-any cline-yes">27x</span>
+<span class="cline-any cline-yes">27x</span>
+<span class="cline-any cline-yes">16x</span>
+<span class="cline-any cline-yes">16x</span>
+<span class="cline-any cline-yes">16x</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-yes">10x</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-yes">16x</span>
+<span class="cline-any cline-yes">16x</span>
+<span class="cline-any cline-yes">16x</span>
+<span class="cline-any cline-yes">16x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">13x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">16x</span>
+<span class="cline-any cline-yes">15x</span>
+<span class="cline-any cline-yes">14x</span>
+<span class="cline-any cline-yes">14x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import { createHash } from 'node:crypto';
+import Ajv from 'ajv';
+import type { AnnotationDimension, Assessment, Result, SearchSpec } from '../shared/research.ts';
+import { searchSchema } from '../shared/research.ts';
+import type { ResearchEngine, ResearchTask, Verifier } from './research.ts';
+import type { Task } from '../shared/contracts.ts';
+import { HumanRequired } from './desktop.ts';
+import { ModelError } from './model.ts';
+import { applyAssessment, resultTags } from './assessment.ts';
+import { resolveJudgments } from './verdict.ts';
+import { deliverReport } from './delivery.ts';
+export type Enrichment = { id: string; taskId: string; mode: 'annotate' | 'reverify'; resultIds: string[]; annotations: AnnotationDimension[]; completed: string[]; attempts: Record&lt;string, number&gt;; nextAt: number; failures: string[] };
+const validate = new Ajv().compile&lt;AnnotationDimension[]&gt;(searchSchema.properties.annotations);
+export class EnrichmentService {
+ engine: ResearchEngine; annotate: Verifier;
+ constructor(engine: ResearchEngine) { this.engine = engine; this.annotate = engine.verify; }
+ start(input: unknown, callId: string) {
+  const args = input as { taskId: string; mode: Enrichment['mode']; resultIds?: string[]; annotations?: AnnotationDimension[] };
+  if (!args || typeof args.taskId !== 'string' || !['annotate', 'reverify'].includes(args.mode) || !validate(args.annotations ?? []) || args.resultIds !== undefined &amp;&amp; (!Array.isArray(args.resultIds) || args.resultIds.some(id =&gt; typeof id !== 'string'))) throw new Error('补标/重新核验参数不正确');
+  const source = this.engine.store.get&lt;ResearchTask&gt;('task', args.taskId); if (!source?.spec) throw new Error('原研究任务不存在');
+  const available = this.engine.results(source.id); const resultIds = args.resultIds ?? available.map(result =&gt; result.id);
+  if (!resultIds.length || resultIds.some(id =&gt; !available.some(result =&gt; result.id === id)) || new Set(resultIds).size !== resultIds.length) throw new Error('请选择原任务已有的唯一结果');
+  const id = `enrich-${createHash('sha256').update(callId).digest('hex').slice(0, 24)}`;
+  const existing = this.engine.store.get&lt;Enrichment&gt;('enrichment', id); if (existing) return this.engine.store.get&lt;Task&gt;('task', id)!;
+  const job: Enrichment = { id, taskId: source.id, mode: args.mode, resultIds, annotations: args.annotations ?? source.spec.annotations ?? [], completed: [], attempts: {}, nextAt: 0, failures: [] };
+  const task: Task = { id, resultTaskId: source.id, title: `${args.mode === 'annotate' ? '补充画像' : '重新核验'}：${source.title}`, status: 'queued', requested: resultIds.length, evaluated: 0, matched: 0, detail: '复用已有账号与搜索，不创建新的 WaveSurge 请求', updatedAt: this.engine.now() };
+  this.engine.store.transaction(() =&gt; { this.engine.store.set('enrichment', id, job); this.engine.store.set('task', id, task); }); return task;
+ }
+ async tick(browserBlocked: boolean) {
+  for (const job of this.engine.store.list&lt;Enrichment&gt;('enrichment')) {
+   const task = this.engine.store.get&lt;Task&gt;('task', job.id)!;
+   if (this.engine.stopped || !['queued', 'running'].includes(task.status) || job.nextAt &gt; this.engine.now() || job.mode === 'reverify' &amp;&amp; browserBlocked) continue;
+   const source = this.engine.store.get&lt;ResearchTask&gt;('task', job.taskId)!;
+   const spec: SearchSpec = { ...source.spec, ...(job.mode === 'reverify' ? { verificationMode: 'browser' as const } : {}), annotations: job.mode === 'annotate' ? job.annotations : [...new Map([...(source.spec.annotations ?? []), ...job.annotations].map(item =&gt; [item.id, item])).values()] };
+   task.status = 'running'; task.detail = '正在分析已有候选与证据'; this.engine.store.set('task', task.id, task);
+   for (const id of job.resultIds.filter(value =&gt; !job.completed.includes(value))) {
+    const previous = this.engine.store.get&lt;Result&gt;('result', id)!; const creator = structuredClone(previous.creator);
+    try {
+     const output = await (job.mode === 'annotate' ? this.annotate : this.engine.verify)(spec, creator, job.id);
+     if (this.engine.stopped || this.engine.store.get&lt;Task&gt;('task', job.id)!.status === 'cancelled') break;
+     if (this.engine.store.get&lt;Result&gt;('result', id)!.updatedAt !== previous.updatedAt || this.engine.store.get&lt;Result&gt;('result', id)!.revision !== previous.revision) throw new Error('结果版本已变化，本次分析未覆盖新版本，请重试');
+     const assessment = applyAssessment(spec, creator, job.mode === 'annotate' &amp;&amp; !Array.isArray(output) ? { ...output, facts: [] } : output);
+     const outcome = job.mode === 'annotate' ? { verdict: previous.verdict, judgments: previous.judgments } : resolveJudgments(spec, creator, assessment.judgments);
+     const annotations = [...(previous.annotations ?? []).filter(item =&gt; !spec.annotations!.some(dimension =&gt; dimension.id === item.dimensionId)), ...assessment.annotations!];
+     const result: Result = { ...previous, creator, ...outcome, annotations, tags: resultTags(spec, { ...assessment, annotations, judgments: outcome.judgments }), revision: (previous.revision ?? 1) + 1, updatedAt: this.engine.now() };
+     this.engine.store.transaction(() =&gt; { this.engine.store.set('result-history', `${id}|${previous.revision ?? 1}`, previous); this.engine.store.set('result', id, result); job.completed.push(id); task.evaluated = job.completed.length; task.matched = job.completed.filter(value =&gt; this.engine.store.get&lt;Result&gt;('result', value)!.verdict === 'match').length; if (job.mode === 'reverify') { this.engine.recount(source); if (['completed', 'partial'].includes(source.status)) source.status = source.matched &gt;= source.requested ? 'completed' : 'partial'; } this.engine.save(source, false); });
+    } catch (error) {
+     if (this.engine.store.get&lt;Task&gt;('task', job.id)!.status === 'cancelled') break;
+     if (error instanceof HumanRequired) { task.status = 'needs_input'; task.detail = error.message; browserBlocked = true; }
+     else if (error instanceof ModelError &amp;&amp; error.retryable() &amp;&amp; (job.attempts[id] ?? 0) &lt; 2) { job.attempts[id] = (job.attempts[id] ?? 0) + 1; job.nextAt = this.engine.now() + Math.max(error.retryAfterMs, 1000 * 2 ** job.attempts[id]); task.detail = '模型暂不可用，等待重试原分析'; }
+     else { job.completed.push(id); job.failures.push(`${id}: ${(error as Error).message}`); }
+    }
+    break; // One candidate per tick; other research and chat retain their own execution lanes.
+   }
+   if (this.engine.store.get&lt;Task&gt;('task', job.id)!.status === 'cancelled') continue;
+   if (job.completed.length === job.resultIds.length) { const visited = job.mode === 'reverify' ? job.completed.filter(id =&gt; this.engine.store.get&lt;Result&gt;('result', id)!.judgments.some(j =&gt; j.criterionId === '__profile_visit' &amp;&amp; j.verdict === 'match')).length : 0; task.status = job.failures.length || job.mode === 'reverify' &amp;&amp; visited &lt; job.resultIds.length ? 'partial' : 'completed'; task.detail = `已处理 ${job.completed.length} 个已有账号；失败 ${job.failures.length}。${job.failures.join('；')}${job.mode === 'reverify' ? ` 本轮本人主页已观察 ${visited}/${job.resultIds.length}；未取得本轮页面证据者不能宣称网页核验成功。` : ''}`; }
+   task.updatedAt = this.engine.now();
+   this.engine.store.transaction(() =&gt; { this.engine.store.set('enrichment', job.id, job); this.engine.store.set('task', task.id, task); if (!task.deliveryBatchId &amp;&amp; ['completed', 'partial'].includes(task.status)) deliverReport(this.engine.store, job.id, { status: task.status, completed: job.completed, failures: job.failures }, `${task.title}已结束。${task.detail}\n\n[查看更新后的报告](/api/reports/${job.taskId})`, this.engine.now()); });
+  }
+ }
+}
+&nbsp;</pre></td></tr></table></pre>
+
+                <div class='push'></div><!-- for sticky footer -->
+            </div><!-- /wrapper -->
+            <div class='footer quiet pad2 space-top1 center small'>
+                Code coverage generated by
+                <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
+                at 2026-10-10T13:29:51.355Z
+            </div>
+        <script src="../prettify.js"></script>
+        <script>
+            window.onload = function () {
+                prettyPrint();
+            };
+        </script>
+        <script src="../sorter.js"></script>
+        <script src="../block-navigation.js"></script>
+    </body>
+</html>
+    

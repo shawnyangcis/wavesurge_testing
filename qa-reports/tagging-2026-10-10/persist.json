@@ -1,0 +1,3048 @@
+{
+  "caseName": "persist",
+  "base": "http://127.0.0.1:3000",
+  "startedAt": "2026-10-10T02:43:47.388Z",
+  "source": "Actual application UI; configured real model and WaveSurge API; no seeded candidates or modified prompts",
+  "input": "聊天里这几列我看到了，但点开原报告还是老的。把这些标签也存进结果里吧，我要在结果页按“Notion”或者“智能家居”筛选，刷新后还能看到，导出的文件也带上。眼镜这列再看下他们的公开视频，别只用上次那段文字。",
+  "before": {
+    "tasks": [
+      {
+        "id": "research-a333d174361fcf1bed6c0698",
+        "title": "Instagram 科技创作者筛选（加拿大或美国）",
+        "status": "partial",
+        "requested": 2,
+        "evaluated": 1,
+        "matched": 1,
+        "updatedAt": 1791569527000,
+        "detail": "已合格 1/2，已核验 1；证据不足者保持待核实。",
+        "remoteId": "24b86cb6-354f-45ac-b5a6-d98c90e8a541",
+        "remoteStatus": "done",
+        "nextPollAt": 1791569460099
+      },
+      {
+        "id": "research-010f8c5e484e38738b2b3640",
+        "title": "浏览器人工协助验收 browser-1791571235315",
+        "status": "completed",
+        "requested": 1,
+        "evaluated": 1,
+        "matched": 1,
+        "updatedAt": 1791571505793,
+        "detail": "已合格 1/1，已核验 1；证据不足者保持待核实。",
+        "remoteId": "fixture-browser-1791571235315",
+        "remoteStatus": "done",
+        "nextPollAt": 0
+      },
+      {
+        "id": "research-98350042b636d08a5d424a6c",
+        "title": "科技/耳机评测创作者 1791572085141",
+        "status": "partial",
+        "requested": 1,
+        "evaluated": 0,
+        "matched": 0,
+        "updatedAt": 1791572491151,
+        "detail": "已合格 0/1，已核验 0；证据不足者保持待核实。",
+        "remoteId": "6f09acf3-e189-4e88-8dc9-b6f1403aa1d7",
+        "remoteStatus": "done",
+        "nextPollAt": 1791572431048
+      },
+      {
+        "id": "research-d7687a09b9a84db8c236a706",
+        "title": "学习/效率生活创作者 1791572085141",
+        "status": "partial",
+        "requested": 1,
+        "evaluated": 0,
+        "matched": 0,
+        "updatedAt": 1791572371165,
+        "detail": "已合格 0/1，已核验 0；证据不足者保持待核实。",
+        "remoteId": "7fde3d0c-efa7-49ca-9a84-d28e27f2d2e3",
+        "remoteStatus": "done",
+        "nextPollAt": 1791572311436
+      },
+      {
+        "id": "research-329ed36c04d98223b610f7c0",
+        "title": "科技/耳机评测",
+        "status": "partial",
+        "requested": 1,
+        "evaluated": 0,
+        "matched": 0,
+        "updatedAt": 1791574391734,
+        "detail": "已合格 0/1，已核验 0；证据不足者保持待核实。",
+        "remoteId": "f9690908-d01c-4c74-a839-c048379f984a",
+        "remoteStatus": "done",
+        "nextPollAt": 1791574126543
+      },
+      {
+        "id": "research-58949888b306ad726d60be23",
+        "title": "学习/效率生活",
+        "status": "completed",
+        "requested": 1,
+        "evaluated": 2,
+        "matched": 1,
+        "updatedAt": 1791574741518,
+        "detail": "已合格 1/1，已核验 2；程序已按明确国家字段重新校验，保留原始模型与来源。",
+        "remoteId": "81a2c6c7-32b9-4db3-9c16-ebb7b7adf986",
+        "remoteStatus": "done",
+        "nextPollAt": 0
+      },
+      {
+        "id": "research-5e4db1193ded213e791cd417",
+        "title": "浏览器人工协助验收 skip-1791573434577",
+        "status": "partial",
+        "requested": 1,
+        "evaluated": 1,
+        "matched": 0,
+        "updatedAt": 1791573507957,
+        "detail": "已合格 0/1，已核验 1；证据不足者保持待核实。",
+        "remoteId": "fixture-skip-1791573434577",
+        "remoteStatus": "done",
+        "nextPollAt": 0
+      },
+      {
+        "id": "research-5b048604116d7fcbdce4e705",
+        "title": "测试类型 A",
+        "status": "cancelled",
+        "requested": 1,
+        "evaluated": 0,
+        "matched": 0,
+        "updatedAt": 1791573633809,
+        "detail": "已停止本地核验；WaveSurge 没有已验证的远端取消接口，远端搜索可能继续",
+        "remoteId": "05b79b83-a3c7-4dd1-a90b-81a958601b15",
+        "remoteStatus": "running",
+        "nextPollAt": 1791573671384
+      },
+      {
+        "id": "research-9698a6d1fc749a4a3df6084e",
+        "title": "测试类型 B",
+        "status": "cancelled",
+        "requested": 1,
+        "evaluated": 0,
+        "matched": 0,
+        "updatedAt": 1791573633815,
+        "detail": "已停止本地核验；WaveSurge 没有已验证的远端取消接口，远端搜索可能继续",
+        "remoteId": "d4678638-98d2-4c18-9d2c-3d1c5adf6587",
+        "nextPollAt": 1791573611649
+      },
+      {
+        "id": "research-53d5f515c5959e5d00495f27",
+        "title": "测试类型 A",
+        "status": "cancelled",
+        "requested": 1,
+        "evaluated": 0,
+        "matched": 0,
+        "updatedAt": 1791573842258,
+        "detail": "已停止本地核验；WaveSurge 没有已验证的远端取消接口，远端搜索可能继续",
+        "remoteId": "fixture-research-53d5f515c5959e5d00495f27",
+        "remoteStatus": "done",
+        "nextPollAt": 0
+      },
+      {
+        "id": "research-b2efbf875587dbc4b18f0e68",
+        "title": "测试类型 B",
+        "status": "cancelled",
+        "requested": 1,
+        "evaluated": 0,
+        "matched": 0,
+        "updatedAt": 1791573842261,
+        "detail": "已停止本地核验；WaveSurge 没有已验证的远端取消接口，远端搜索可能继续",
+        "remoteId": "fixture-research-b2efbf875587dbc4b18f0e68",
+        "remoteStatus": "done",
+        "nextPollAt": 0
+      },
+      {
+        "id": "research-6b62fedb31c94ffb3dfd83b8",
+        "title": "测试类型 A",
+        "status": "completed",
+        "requested": 1,
+        "evaluated": 2,
+        "matched": 2,
+        "updatedAt": 1791574417752,
+        "detail": "已合格 2/1，已核验 2；证据不足者保持待核实。",
+        "remoteId": "fixture-research-6b62fedb31c94ffb3dfd83b8",
+        "remoteStatus": "done",
+        "nextPollAt": 0
+      },
+      {
+        "id": "research-7df22029caef61df6134e885",
+        "title": "测试类型 B",
+        "status": "completed",
+        "requested": 1,
+        "evaluated": 1,
+        "matched": 1,
+        "updatedAt": 1791574423837,
+        "detail": "已合格 1/1，已核验 1；证据不足者保持待核实。",
+        "remoteId": "fixture-research-7df22029caef61df6134e885",
+        "remoteStatus": "done",
+        "nextPollAt": 0
+      },
+      {
+        "id": "research-bcebf909d61af9519dc124f3",
+        "title": "浏览器人工协助验收 skip-1791574367119",
+        "status": "partial",
+        "requested": 1,
+        "evaluated": 1,
+        "matched": 0,
+        "updatedAt": 1791574438375,
+        "detail": "已合格 0/1，已核验 1；证据不足者保持待核实。",
+        "remoteId": "fixture-skip-1791574367119",
+        "remoteStatus": "done",
+        "nextPollAt": 0
+      },
+      {
+        "id": "research-a5b580b3d9a62868bf773f08",
+        "title": "浏览器人工协助验收 browser-1791575005743",
+        "status": "completed",
+        "requested": 1,
+        "evaluated": 1,
+        "matched": 1,
+        "updatedAt": 1791575057963,
+        "detail": "已合格 1/1，已核验 1；证据不足者保持待核实。",
+        "remoteId": "fixture-browser-1791575005743",
+        "remoteStatus": "done",
+        "nextPollAt": 0
+      },
+      {
+        "id": "research-d22f5bc3f9c80da1a4979ca5",
+        "title": "Review独立真实筛选",
+        "status": "partial",
+        "requested": 1,
+        "evaluated": 2,
+        "matched": 0,
+        "updatedAt": 1791597943628,
+        "detail": "已合格 0/1，已核验 2；证据不足者保持待核实。",
+        "remoteId": "b5722567-4ae0-435a-b6e9-0c5873d6486e",
+        "remoteStatus": "done",
+        "nextPollAt": 0
+      },
+      {
+        "id": "research-a183b9437d676713c0f2812f",
+        "title": "Geek风戴眼镜的Instagram普通消费者创作者",
+        "status": "running",
+        "requested": 20,
+        "evaluated": 0,
+        "matched": 0,
+        "updatedAt": 1791600159386,
+        "detail": "WaveSurge 搜索执行中；本地已合格 0 人",
+        "remoteId": "bd260f50-b76f-440c-9e47-a022a6697ac6",
+        "remoteStatus": "running",
+        "nextPollAt": 1791600219386
+      },
+      {
+        "id": "research-fd88375f69e716ff5cbc9fef",
+        "title": "课堂笔记与考试复习方法创作者",
+        "status": "partial",
+        "requested": 1,
+        "evaluated": 2,
+        "matched": 0,
+        "updatedAt": 1791598314025,
+        "detail": "已合格 0/1，已核验 2；证据不足者保持待核实。",
+        "remoteId": "7c1837b8-3ec0-4d06-9f4d-752eebc40f64",
+        "remoteStatus": "done",
+        "nextPollAt": 1791598003992
+      },
+      {
+        "id": "research-b30bacd90e74569b33e06bfc",
+        "title": "AI与数字学习工具教学创作者",
+        "status": "partial",
+        "requested": 1,
+        "evaluated": 2,
+        "matched": 0,
+        "updatedAt": 1791598214595,
+        "detail": "已合格 0/1，已核验 2；证据不足者保持待核实。",
+        "remoteId": "ff3ac6fb-fa15-4b8d-b358-e7bf18e642de",
+        "remoteStatus": "done",
+        "nextPollAt": 1791597579739
+      }
+    ],
+    "results": [
+      {
+        "id": "research-a333d174361fcf1bed6c0698|instagram:imthegeekjr",
+        "taskId": "research-a333d174361fcf1bed6c0698",
+        "handle": "imthegeekjr",
+        "displayName": "Tech tips | Tech support | IT Consultant",
+        "platform": "instagram",
+        "tags": [
+          "分享科技内容，依据本人简介或内容文字核验"
+        ],
+        "verdict": "match",
+        "judgments": [
+          {
+            "criterionId": "__region",
+            "verdict": "match",
+            "reason": "WaveSurge 地区：United States；服务标记国家已确认",
+            "evidenceIds": [],
+            "label": "所在地区"
+          },
+          {
+            "criterionId": "__platform",
+            "verdict": "match",
+            "reason": "创作者平台：instagram",
+            "evidenceIds": [],
+            "label": "平台"
+          },
+          {
+            "criterionId": "__followers",
+            "verdict": "match",
+            "reason": "WaveSurge 粉丝数 79634，要求 10000–100000",
+            "evidenceIds": [],
+            "label": "粉丝范围"
+          },
+          {
+            "criterionId": "technology_content",
+            "verdict": "match",
+            "reason": "所提供的 Instagram 本人简介文字明确写有“Daily #tech and #pc tips.”（每日科技与电脑技巧），足以符合“分享科技内容，依据本人简介或内容文字核验”。来源为候选主页，采集时间戳为 1791569520331；无帖子发布日期，本判断不推断近期发帖情况。",
+            "evidenceIds": [
+              "e9694229e28c7a29aa2e8aa8"
+            ],
+            "label": "分享科技内容，依据本人简介或内容文字核验"
+          }
+        ],
+        "evidence": [
+          {
+            "id": "e9694229e28c7a29aa2e8aa8",
+            "url": "https://www.instagram.com/imthegeekjr/",
+            "kind": "content",
+            "text": "Fresh profile: About.country is United States; follower_count is 79,634; bio says “I’m The Geek” and “Daily #tech and #pc tips.”"
+          },
+          {
+            "id": "ee27a3d94468dfbb9464d197",
+            "url": "https://www.instagram.com/p/DHSQfoYx992/",
+            "kind": "content",
+            "text": "The contact tool reported the public website https://imthegeek.com/ from profile text."
+          }
+        ]
+      },
+      {
+        "id": "research-010f8c5e484e38738b2b3640|instagram:fixture-browser-1791571235315",
+        "taskId": "research-010f8c5e484e38738b2b3640",
+        "handle": "fixture-browser-1791571235315",
+        "displayName": "集成测试创作者（非真实社交账号）",
+        "platform": "instagram",
+        "tags": [
+          "公开帖子画面可见 CHIP / CIRCUIT BOARD 字样；先访问来源取得截图，遇到验证须人工协助，不能以简介代替画面"
+        ],
+        "verdict": "match",
+        "judgments": [
+          {
+            "criterionId": "__platform",
+            "verdict": "match",
+            "reason": "创作者平台：instagram",
+            "evidenceIds": [],
+            "label": "平台"
+          },
+          {
+            "criterionId": "__followers",
+            "verdict": "match",
+            "reason": "WaveSurge 粉丝数 10000，要求 0–100000",
+            "evidenceIds": [],
+            "label": "粉丝范围"
+          },
+          {
+            "criterionId": "technology",
+            "verdict": "match",
+            "reason": "访问给定来源遇到人工验证后已请求协助；交还后重新观察，公开帖子截图的深绿色画面中清晰可见“CHIP / CIRCUIT BOARD · 芯片与电路板”，不是以简介替代画面。来源 http://127.0.0.1:8085/，页面标示发布于 2026-10-09。此为控制性测试页面，非真实社交账号。",
+            "evidenceIds": [
+              "50b100482bd8152145424db0",
+              "fa6e8cf6b2a622ec4c36f1aa"
+            ],
+            "label": "公开帖子画面可见 CHIP / CIRCUIT BOARD 字样；先访问来源取得截图，遇到验证须人工协助，不能以简介代替画面"
+          }
+        ],
+        "evidence": [
+          {
+            "id": "fixture-profile",
+            "url": "http://127.0.0.1:8085/",
+            "kind": "profile",
+            "text": "控制性浏览器验收夹具；需人工验证后可见公开科技帖子。没有帖子截图。"
+          },
+          {
+            "id": "a15dedd07a9447a1ce35a37a",
+            "url": "https://www.instagram.com/imthegeekjr/",
+            "kind": "browser_snapshot",
+            "text": "Log In\nSign Up\nimthegeekjr\n79.6K followers\n39 following\nTech tips | Tech support | IT Consultant\nI’m The Geek\n🗓️ | Daily #tech and #pc tips\n📩 | DM for Business or Promotions\n🧑🏻‍💻 | Get to know more 👇🏻\n#itconsultant... \nmore\nwww.gohighlevel.com/holiday-promotion-2025?fp_ref=agenor94 and 1 more\nShow more posts from imthegeekjr\nAccounts you might like\nSee all\nFatos e Negócios\nFatos e Negócios\nFollow\nEnsinando Curiosidades por Tacio Estrela\nEnsinando Curiosidades por Tacio Estrela\nFollow\nSigo Tecnologia | IA\nSigo Tecnologia | IA\nFollow\nProspere Mentalmente\nProspere Mentalmente\nFollow\nMeta\nAbout\nBlog\nJobs\nHelp\nAPI\nPrivacy\nTerms\nLocations\nPopular\nInstagram Lite\nMeta AI\nMuse\nThreads\nContact Uploading & Non-Users\nMeta Verified\nEnglish\nAfrikaans\nالعربية\nČeština\nDansk\nDeutsch\nΕλληνικά\nEnglish\nEnglish (UK)\nEspañol (España)\nEspañol\nفارسی\nSuomi\nFrançais\nעברית\nBahasa Indonesia\nItaliano\n日本語\n한국어\n",
+            "assetId": "7fe393093627f5f277f42b4f5dc218ae5fbb365a0d1ada5162617ba9b2fd86d1"
+          },
+          {
+            "id": "50b100482bd8152145424db0",
+            "url": "http://127.0.0.1:8085/",
+            "kind": "browser_snapshot",
+            "text": "Verify you are human\n\nControlled browser integration fixture. Public creator posts require manual verification.\n\n我已完成验证 / I am human",
+            "assetId": "b073e3042d9092d587c8c77216a9c4be6d39520415ef026c44153dbaf7c82a52"
+          },
+          {
+            "id": "fa6e8cf6b2a622ec4c36f1aa",
+            "url": "http://127.0.0.1:8085/",
+            "kind": "browser_snapshot",
+            "text": "Test Creator 的公开帖子\n\nControlled fixture — not a real social profile.\n\n科技教学：芯片、电路板\n\n发布于 2026-10-09。讲解处理器与电脑硬件。\n\nCHIP / CIRCUIT BOARD · 芯片与电路板\n查看原始帖子",
+            "assetId": "c4315446bb3fe9ea961210914c0d1e22206b7cd290a4ff6f62806e1a94f4e154"
+          }
+        ]
+      },
+      {
+        "id": "research-5e4db1193ded213e791cd417|instagram:fixture-skip-1791573434577",
+        "taskId": "research-5e4db1193ded213e791cd417",
+        "handle": "fixture-skip-1791573434577",
+        "displayName": "集成测试创作者（非真实社交账号）",
+        "platform": "instagram",
+        "tags": [],
+        "verdict": "unknown",
+        "judgments": [
+          {
+            "criterionId": "__platform",
+            "verdict": "match",
+            "reason": "创作者平台：instagram",
+            "evidenceIds": [],
+            "label": "平台"
+          },
+          {
+            "criterionId": "__followers",
+            "verdict": "match",
+            "reason": "WaveSurge 粉丝数 10000，要求 0–100000",
+            "evidenceIds": [],
+            "label": "粉丝范围"
+          },
+          {
+            "criterionId": "technology",
+            "verdict": "unknown",
+            "reason": "来源页面及人工协助后的最新观察仍显示“Verify you are human”，未见公开帖子画面，无法核验 CHIP / CIRCUIT BOARD 字样。用户表示无法完成验证并要求跳过受阻帖子，故不再请求验证；简介不能替代视觉证据，条件保持 unknown。",
+            "evidenceIds": [
+              "664d6488cd418db790356f2b"
+            ],
+            "label": "公开帖子画面可见 CHIP / CIRCUIT BOARD 字样；先访问来源取得截图，遇到验证须人工协助，不能以简介代替画面"
+          }
+        ],
+        "evidence": [
+          {
+            "id": "fixture-profile",
+            "url": "http://127.0.0.1:8085/skip",
+            "kind": "profile",
+            "text": "控制性浏览器验收夹具；需人工验证后可见公开科技帖子。没有帖子截图。"
+          },
+          {
+            "id": "664d6488cd418db790356f2b",
+            "url": "http://127.0.0.1:8085/skip",
+            "kind": "browser_snapshot",
+            "text": "Verify you are human\n\nControlled browser integration fixture. Public creator posts require manual verification.\n\n我已完成验证 / I am human",
+            "assetId": "b073e3042d9092d587c8c77216a9c4be6d39520415ef026c44153dbaf7c82a52"
+          }
+        ]
+      },
+      {
+        "id": "research-58949888b306ad726d60be23|instagram:scorpiorisingmedia",
+        "taskId": "research-58949888b306ad726d60be23",
+        "handle": "scorpiorisingmedia",
+        "displayName": "Lindsay │ cozy desk + productivity",
+        "platform": "instagram",
+        "tags": [
+          "分享学习或效率生活内容，须有文字证据支持。"
+        ],
+        "verdict": "match",
+        "judgments": [
+          {
+            "criterionId": "__region",
+            "verdict": "match",
+            "reason": "WaveSurge 地区：Philadelphia (Philly), United States；服务标记国家已确认",
+            "evidenceIds": [],
+            "label": "所在地区"
+          },
+          {
+            "criterionId": "__platform",
+            "verdict": "match",
+            "reason": "创作者平台：instagram",
+            "evidenceIds": [],
+            "label": "平台"
+          },
+          {
+            "criterionId": "__followers",
+            "verdict": "match",
+            "reason": "WaveSurge 粉丝数 51901，要求 10000–100000",
+            "evidenceIds": [],
+            "label": "粉丝范围"
+          },
+          {
+            "criterionId": "study_productivity_content",
+            "verdict": "match",
+            "reason": "主页文字明确列出“routines, planning, productivity”。实际访问的 Reel 文案“My CEO Day routine for Q4”分享提前整理 P&L 报表与 KPI、减少行政事务耗时以专注业务规划的效率流程，并提供相应免费 Notion 模板，构成分享效率生活内容的直接文字证据。该帖页面显示“1 day ago”，未取得精确发布日期；本判断不依赖精确日期，也不推断其为学生或学习类创作者。",
+            "evidenceIds": [
+              "290e434474a4a83585d0fd24",
+              "90507de98801a173c25b43fc"
+            ],
+            "label": "分享学习或效率生活内容，须有文字证据支持。"
+          }
+        ],
+        "evidence": [
+          {
+            "id": "29dc9b4d01bdafd681f09c7d",
+            "url": "https://www.instagram.com/scorpiorisingmedia/",
+            "kind": "content",
+            "text": "Profile name: “Lindsay │ cozy desk + productivity.” Bio describes a “creative founder at her cozy desk,” lists “routines, planning, productivity,” says “Philly-based brand production studio,” and publishes [contact removed]."
+          },
+          {
+            "id": "69037bbebf68842c7f676ba5",
+            "url": "https://www.instagram.com/scorpiorisingmedia/",
+            "kind": "content",
+            "text": "“Thought it was time for a little re-introduction ✨ I’m so happy you’re here!” followed by #aestheticdesk #cozydesksetup #comfortcreator #cozycore #wfhlife."
+          },
+          {
+            "id": "684cc40890d9500dcd79d113",
+            "url": "https://www.instagram.com/scorpiorisingmedia/",
+            "kind": "content",
+            "text": "Instagram About this account reports the account is based in the United States."
+          },
+          {
+            "id": "290e434474a4a83585d0fd24",
+            "url": "https://www.instagram.com/scorpiorisingmedia/",
+            "kind": "browser_snapshot",
+            "text": "Log In\nSign Up\nscorpiorisingmedia\n51.9K followers\n489 following\nLindsay │ cozy desk + productivity\ncreative founder at her cozy desk ✨🦂\n⟡ routines, planning, productivity\n⟡ Philly-based brand production studio\n✉️:... \nmore\nlinktr.ee/scorpiorisingmedia and 1 more\ncph\nwedding\nscotland\nabout\njoshua tree\nmonterey\ntemecula\nlife notion\nbrand photos\nbusiness notion\nShow more posts from scorpiorisingmedia\nMeta\nAbout\nBlog\nJobs\nHelp\nAPI\nPrivacy\nTerms\nLocations\nPopular\nInstagram Lite\nMeta AI\nMuse\nThreads\nContact Uploading & Non-Users\nMeta Verified\nEnglish\nAfrikaans\nالعربية\nČeština\nDansk\nDeutsch\nΕλληνικά\nEnglish\nEnglish (UK)\nEspañol (España)\nEspañol\nفارسی\nSuomi\nFrançais\nעברית\nBahasa Indonesia\nItaliano\n日本語\n한국어\nBahasa Melayu\nNorsk\nNederlands\nPolski\nPortuguês (Brasil)\nPortuguês (Portugal)\nРусский\nSvenska\nภาษาไทย\nFilipino\nTürkçe\n中文(简体)\n中文(台灣)\nবাংলা\nગુજરાતી\nहिन्दी\nHrvatski\nMagyar\nಕನ್ನಡ\nമലയാളം\nमराठी\nनेपा",
+            "assetId": "553958fc023366a4651e2b7d264528f988b28a25ee35be6c563fad6e0056d04a"
+          },
+          {
+            "id": "90507de98801a173c25b43fc",
+            "url": "https://www.instagram.com/scorpiorisingmedia/reel/DeO87s4xHqb/",
+            "kind": "browser_snapshot",
+            "text": "Log In\nSign Up\nNever miss a post from scorpiorisingmedia\nSign up for Instagram to stay in the loop.\nBy continuing, you agree to Instagram's Terms of Use and Privacy Policy.\nSign up\nLog in\nscorpiorisingmedia\n•\nFollow\nscorpiorisingmedia\n \n1d\nMy CEO Day routine for Q4… YIKES it’s Q4 🙃 Now typically I like to do this routine outside of my office to change up my environment, but I haven’t been feeling well so I just kept things at my desk this time. \n\nAs always, I try to organize my P&L report and other KPIs *before* the day starts so I’m not wasting time on admin/accounting and can just focus on the BIG picture of where my business is heading. I also make sure to schedule a fun way to celebrate once I’m finished (usually takes me no more than 2 hours so I’ll take off the rest of the day)! \n\nI have this whole day in the form of a Notion template that you can grab for yourself for FREE! It’s ",
+            "assetId": "8465ef8d63ca74b6362dec177df17d1ea6878e6c9dfdf4d8a3b70edbfc8dddf1"
+          }
+        ]
+      },
+      {
+        "id": "research-58949888b306ad726d60be23|instagram:khushleenvirk",
+        "taskId": "research-58949888b306ad726d60be23",
+        "handle": "khushleenvirk",
+        "displayName": "Khushleen Virk | Identity Transformation & Productivity Coach",
+        "platform": "instagram",
+        "tags": [],
+        "verdict": "unknown",
+        "judgments": [
+          {
+            "criterionId": "__region",
+            "verdict": "match",
+            "reason": "WaveSurge 地区：Canada；服务标记国家已确认",
+            "evidenceIds": [],
+            "label": "所在地区"
+          },
+          {
+            "criterionId": "__platform",
+            "verdict": "match",
+            "reason": "创作者平台：instagram",
+            "evidenceIds": [],
+            "label": "平台"
+          },
+          {
+            "criterionId": "__followers",
+            "verdict": "match",
+            "reason": "WaveSurge 粉丝数 52727，要求 10000–100000",
+            "evidenceIds": [],
+            "label": "粉丝范围"
+          },
+          {
+            "criterionId": "study_productivity_content",
+            "verdict": "unknown",
+            "reason": "主页文字自称“Identity Transformation & Productivity Coach”，但职业称谓不足以证明实际分享学习或效率生活内容。已取得帖子文字“You need to actually act on the ones you’ve already had”，主要推广消除限制性信念、影响决策的工作坊，未明确展示学习方法或效率生活内容。人工协助后重新观察，注册/登录弹窗仍遮挡帖子；按用户要求停止进一步核验、不重复请求协助。现有文字证据不足，不能认定匹配，也不能据单篇帖子认定不匹配。页面仅显示相对日期“4 days ago”；来源记录发布时间为2026-10-04T22:54:00Z。",
+            "evidenceIds": [
+              "3d7efa8153107c71027e0a7c",
+              "0a6a4e6f0e8a7d24d450fc82",
+              "c2942e79c18c13ceaa8be3d0"
+            ],
+            "label": "分享学习或效率生活内容，须有文字证据支持。"
+          }
+        ],
+        "evidence": [
+          {
+            "id": "90f1c3d51552b36050766a3b",
+            "url": "https://www.instagram.com/khushleenvirk/",
+            "kind": "content",
+            "text": "Profile identifies “Khushleen Virk | Identity Transformation & Productivity Coach,” reports 52,727 followers, and bio advertises a Surrey in-person workshop."
+          },
+          {
+            "id": "c2942e79c18c13ceaa8be3d0",
+            "url": "https://www.instagram.com/khushleenvirk/",
+            "kind": "content",
+            "text": "“You don’t need another realization / You need to actually act on the ones you’ve already had. / That’s the gap this workshop closes.” The post describes guided work on limiting beliefs affecting decisions."
+          },
+          {
+            "id": "1a4cae6e20bd3aaaa7aade88",
+            "url": "https://www.instagram.com/khushleenvirk/",
+            "kind": "content",
+            "text": "Instagram About this account reports the account is based in Canada."
+          },
+          {
+            "id": "3d7efa8153107c71027e0a7c",
+            "url": "https://www.instagram.com/khushleenvirk/",
+            "kind": "browser_snapshot",
+            "text": "Log In\nSign Up\nkhushleenvirk\n52.7K followers\n211 following\nKhushleen Virk | Identity Transformation & Productivity Coach\nThe LIFE you live, Is the standard you have accepted.\nBREAK FREE- Oct 11\nSurrey In-person Workshop⬇️\nwww.eventbrite.com/e/2002350485203?aff=oddtdtcreator and 1 more\nClient wins\nFitness\nMindset\nReal Glow-up\nMindfulness\nWins👑\nShow more posts from khushleenvirk\nMeta\nAbout\nBlog\nJobs\nHelp\nAPI\nPrivacy\nTerms\nLocations\nPopular\nInstagram Lite\nMeta AI\nMuse\nThreads\nContact Uploading & Non-Users\nMeta Verified\nEnglish\nAfrikaans\nالعربية\nČeština\nDansk\nDeutsch\nΕλληνικά\nEnglish\nEnglish (UK)\nEspañol (España)\nEspañol\nفارسی\nSuomi\nFrançais\nעברית\nBahasa Indonesia\nItaliano\n日本語\n한국어\nBahasa Melayu\nNorsk\nNederlands\nPolski\nPortuguês (Brasil)\nPortuguês (Portugal)\nРусский\nSvenska\nภาษาไทย\nFilipino\nTürkçe\n中文(简体)\n中文(台灣)\nবাংলা\nગુજરાતી\nहिन्दी\nHrvatski\nMagyar\nಕನ್ನಡ\nമലയാളം\nमराठी\nनेपाली\nਪੰਜਾਬੀ\nසිංහල\nSlove",
+            "assetId": "c1a639b1d555e40bf326cf439b2365cfd1fd0efecd0df838dafa73c0d23a7858"
+          },
+          {
+            "id": "ff80f369d86390efbd9e5301",
+            "url": "https://www.instagram.com/khushleenvirk/p/DeFuwwRPL21/",
+            "kind": "browser_snapshot",
+            "text": "Log In\nSign Up\nNever miss a post from khushleenvirk\nSign up for Instagram to stay in the loop.\nBy continuing, you agree to Instagram's Terms of Use and Privacy Policy.\nSign up\nLog in\nkhushleenvirk\n•\nFollow\nkhushleenvirk\n \n4d\nYou don’t need another realization\nYou need to actually act on the ones you’ve already had.\n\nThat’s the gap this workshop closes.\n\n2 hours guided work to train the nervous system to breakdown the limiting beliefs running your decisions without your permission. \n\nJoin us!\n📍Surrey BC\n\n🕛 October 11\n12:00pm to 2:00pm\n\nLink in bio 🔗\nNo comments yet.\nStart the conversation.\n13\n4 days ago\nLog in to like or comment.\nMore posts from khushleenvirk\nSee more posts\nMeta\nAbout\nBlog\nJobs\nHelp\nAPI\nPrivacy\nTerms\nLocations\nPopular\nInstagram Lite\nMeta AI\nMuse\nThreads\nContact Uploading & Non-Users\nMeta Verified\nEnglish\nAfrikaans\nالعربية\nČeština\nDansk\nDeutsch\nΕλληνικά\nEnglish\nEnglish ",
+            "assetId": "04d45a2788cd054941778abd9d8ed94339745976a3d4400b9bf7c6992ba06bd2"
+          },
+          {
+            "id": "0a6a4e6f0e8a7d24d450fc82",
+            "url": "https://www.instagram.com/khushleenvirk/p/DeFuwwRPL21/",
+            "kind": "browser_snapshot",
+            "text": "Log In\nSign Up\nNever miss a post from khushleenvirk\nSign up for Instagram to stay in the loop.\nBy continuing, you agree to Instagram's Terms of Use and Privacy Policy.\nSign up\nLog in\nkhushleenvirk\n•\nFollow\nkhushleenvirk\n \n4d\nYou don’t need another realization\nYou need to actually act on the ones you’ve already had.\n\nThat’s the gap this workshop closes.\n\n2 hours guided work to train the nervous system to breakdown the limiting beliefs running your decisions without your permission. \n\nJoin us!\n📍Surrey BC\n\n🕛 October 11\n12:00pm to 2:00pm\n\nLink in bio 🔗\nNo comments yet.\nStart the conversation.\n13\n4 days ago\nLog in to like or comment.\nMore posts from khushleenvirk\nSee more posts\nMeta\nAbout\nBlog\nJobs\nHelp\nAPI\nPrivacy\nTerms\nLocations\nPopular\nInstagram Lite\nMeta AI\nMuse\nThreads\nContact Uploading & Non-Users\nMeta Verified\nEnglish\nAfrikaans\nالعربية\nČeština\nDansk\nDeutsch\nΕλληνικά\nEnglish\nEnglish ",
+            "assetId": "abf133f49018eb07e4698230f90407269b1e9e4322f11b9103ba6ba6c3d54f29"
+          }
+        ]
+      },
+      {
+        "id": "research-6b62fedb31c94ffb3dfd83b8|instagram:fixture-campaign-shared",
+        "taskId": "research-6b62fedb31c94ffb3dfd83b8",
+        "handle": "fixture-campaign-shared",
+        "displayName": "fixture-campaign-shared（集成夹具）",
+        "platform": "instagram",
+        "tags": [
+          "公开帖子截图中可见 CHIP / CIRCUIT BOARD 字样；必须取得真实浏览器截图"
+        ],
+        "verdict": "match",
+        "judgments": [
+          {
+            "criterionId": "__platform",
+            "verdict": "match",
+            "reason": "创作者平台：instagram",
+            "evidenceIds": [],
+            "label": "平台"
+          },
+          {
+            "criterionId": "__followers",
+            "verdict": "match",
+            "reason": "WaveSurge 粉丝数 20000，要求 0–100000",
+            "evidenceIds": [],
+            "label": "粉丝范围"
+          },
+          {
+            "criterionId": "chip",
+            "verdict": "match",
+            "reason": "实际浏览器截图中，公开帖子区域清晰可见“CHIP / CIRCUIT BOARD · 芯片与电路板”字样，满足截图文字条件。页面标示发布日期为 2026-10-09；来源为 http://127.0.0.1:8085/，截图 assetId 为 c4315446bb3fe9ea961210914c0d1e22206b7cd290a4ff6f62806e1a94f4e154。该页面明确为控制性测试页面，不是真实社交账号，本判断仅适用于该测试条件。",
+            "evidenceIds": [
+              "fa6e8cf6b2a622ec4c36f1aa"
+            ],
+            "label": "公开帖子截图中可见 CHIP / CIRCUIT BOARD 字样；必须取得真实浏览器截图"
+          }
+        ],
+        "evidence": [
+          {
+            "id": "profile-fixture-campaign-shared",
+            "url": "http://127.0.0.1:8085/",
+            "kind": "profile",
+            "text": "控制性测试页面。必须浏览帖子截图；非真实社交账号，当前还没有帖子截图。"
+          },
+          {
+            "id": "fa6e8cf6b2a622ec4c36f1aa",
+            "url": "http://127.0.0.1:8085/",
+            "kind": "browser_snapshot",
+            "text": "Test Creator 的公开帖子\n\nControlled fixture — not a real social profile.\n\n科技教学：芯片、电路板\n\n发布于 2026-10-09。讲解处理器与电脑硬件。\n\nCHIP / CIRCUIT BOARD · 芯片与电路板\n查看原始帖子",
+            "assetId": "c4315446bb3fe9ea961210914c0d1e22206b7cd290a4ff6f62806e1a94f4e154"
+          }
+        ]
+      },
+      {
+        "id": "research-6b62fedb31c94ffb3dfd83b8|instagram:fixture-campaign-only-a",
+        "taskId": "research-6b62fedb31c94ffb3dfd83b8",
+        "handle": "fixture-campaign-only-a",
+        "displayName": "fixture-campaign-only-a（集成夹具）",
+        "platform": "instagram",
+        "tags": [
+          "公开帖子截图中可见 CHIP / CIRCUIT BOARD 字样；必须取得真实浏览器截图"
+        ],
+        "verdict": "match",
+        "judgments": [
+          {
+            "criterionId": "__platform",
+            "verdict": "match",
+            "reason": "创作者平台：instagram",
+            "evidenceIds": [],
+            "label": "平台"
+          },
+          {
+            "criterionId": "__followers",
+            "verdict": "match",
+            "reason": "WaveSurge 粉丝数 20000，要求 0–100000",
+            "evidenceIds": [],
+            "label": "粉丝范围"
+          },
+          {
+            "criterionId": "chip",
+            "verdict": "match",
+            "reason": "已取得真实有头浏览器页面截图；截图公开帖子区域清楚显示“CHIP / CIRCUIT BOARD · 芯片与电路板”，符合所需可见字样。来源为 http://127.0.0.1:8085/，截图采集于 2026-10-09，页面标注发布于 2026-10-09。该页面明确为控制性测试页面，不代表真实社交账号。",
+            "evidenceIds": [
+              "fa6e8cf6b2a622ec4c36f1aa"
+            ],
+            "label": "公开帖子截图中可见 CHIP / CIRCUIT BOARD 字样；必须取得真实浏览器截图"
+          }
+        ],
+        "evidence": [
+          {
+            "id": "profile-fixture-campaign-only-a",
+            "url": "http://127.0.0.1:8085/",
+            "kind": "profile",
+            "text": "控制性测试页面。必须浏览帖子截图；非真实社交账号，当前还没有帖子截图。"
+          },
+          {
+            "id": "fa6e8cf6b2a622ec4c36f1aa",
+            "url": "http://127.0.0.1:8085/",
+            "kind": "browser_snapshot",
+            "text": "Test Creator 的公开帖子\n\nControlled fixture — not a real social profile.\n\n科技教学：芯片、电路板\n\n发布于 2026-10-09。讲解处理器与电脑硬件。\n\nCHIP / CIRCUIT BOARD · 芯片与电路板\n查看原始帖子",
+            "assetId": "c4315446bb3fe9ea961210914c0d1e22206b7cd290a4ff6f62806e1a94f4e154"
+          }
+        ]
+      },
+      {
+        "id": "research-7df22029caef61df6134e885|instagram:fixture-campaign-shared",
+        "taskId": "research-7df22029caef61df6134e885",
+        "handle": "fixture-campaign-shared",
+        "displayName": "fixture-campaign-shared（集成夹具）",
+        "platform": "instagram",
+        "tags": [
+          "公开帖子截图中可见 CHIP / CIRCUIT BOARD 字样；必须取得真实浏览器截图"
+        ],
+        "verdict": "match",
+        "judgments": [
+          {
+            "criterionId": "__platform",
+            "verdict": "match",
+            "reason": "创作者平台：instagram",
+            "evidenceIds": [],
+            "label": "平台"
+          },
+          {
+            "criterionId": "__followers",
+            "verdict": "match",
+            "reason": "WaveSurge 粉丝数 20000，要求 0–100000",
+            "evidenceIds": [],
+            "label": "粉丝范围"
+          },
+          {
+            "criterionId": "chip",
+            "verdict": "match",
+            "reason": "已取得真实浏览器页面截图，公开帖子区域清晰可见“CHIP / CIRCUIT BOARD · 芯片与电路板”字样，满足指定视觉条件。来源为 http://127.0.0.1:8085/，本次观察日期为 2026-10-09；页面标注发布于 2026-10-09。该页面明确为控制性测试夹具，并非真实社交账号，本判断仅核验截图字样。",
+            "evidenceIds": [
+              "fa6e8cf6b2a622ec4c36f1aa"
+            ],
+            "label": "公开帖子截图中可见 CHIP / CIRCUIT BOARD 字样；必须取得真实浏览器截图"
+          }
+        ],
+        "evidence": [
+          {
+            "id": "profile-fixture-campaign-shared",
+            "url": "http://127.0.0.1:8085/",
+            "kind": "profile",
+            "text": "控制性测试页面。必须浏览帖子截图；非真实社交账号，当前还没有帖子截图。"
+          },
+          {
+            "id": "fa6e8cf6b2a622ec4c36f1aa",
+            "url": "http://127.0.0.1:8085/",
+            "kind": "browser_snapshot",
+            "text": "Test Creator 的公开帖子\n\nControlled fixture — not a real social profile.\n\n科技教学：芯片、电路板\n\n发布于 2026-10-09。讲解处理器与电脑硬件。\n\nCHIP / CIRCUIT BOARD · 芯片与电路板\n查看原始帖子",
+            "assetId": "c4315446bb3fe9ea961210914c0d1e22206b7cd290a4ff6f62806e1a94f4e154"
+          }
+        ]
+      },
+      {
+        "id": "research-bcebf909d61af9519dc124f3|instagram:fixture-skip-1791574367119",
+        "taskId": "research-bcebf909d61af9519dc124f3",
+        "handle": "fixture-skip-1791574367119",
+        "displayName": "集成测试创作者（非真实社交账号）",
+        "platform": "instagram",
+        "tags": [],
+        "verdict": "unknown",
+        "judgments": [
+          {
+            "criterionId": "__platform",
+            "verdict": "match",
+            "reason": "创作者平台：instagram",
+            "evidenceIds": [],
+            "label": "平台"
+          },
+          {
+            "criterionId": "__followers",
+            "verdict": "match",
+            "reason": "WaveSurge 粉丝数 10000，要求 0–100000",
+            "evidenceIds": [],
+            "label": "粉丝范围"
+          },
+          {
+            "criterionId": "technology",
+            "verdict": "unknown",
+            "reason": "最新来源页面及截图仍仅显示“Verify you are human”人工验证提示，未看到公开帖子画面，无法确认 CHIP / CIRCUIT BOARD 字样。人工反馈无法完成验证并要求跳过受阻帖子，故停止请求协助；不以简介或验证页代替视觉证据。",
+            "evidenceIds": [
+              "664d6488cd418db790356f2b"
+            ],
+            "label": "公开帖子画面可见 CHIP / CIRCUIT BOARD 字样；先访问来源取得截图，遇到验证须人工协助，不能以简介代替画面"
+          }
+        ],
+        "evidence": [
+          {
+            "id": "fixture-profile",
+            "url": "http://127.0.0.1:8085/skip",
+            "kind": "profile",
+            "text": "控制性浏览器验收夹具；需人工验证后可见公开科技帖子。没有帖子截图。"
+          },
+          {
+            "id": "664d6488cd418db790356f2b",
+            "url": "http://127.0.0.1:8085/skip",
+            "kind": "browser_snapshot",
+            "text": "Verify you are human\n\nControlled browser integration fixture. Public creator posts require manual verification.\n\n我已完成验证 / I am human",
+            "assetId": "b073e3042d9092d587c8c77216a9c4be6d39520415ef026c44153dbaf7c82a52"
+          }
+        ]
+      },
+      {
+        "id": "research-a5b580b3d9a62868bf773f08|instagram:fixture-browser-1791575005743",
+        "taskId": "research-a5b580b3d9a62868bf773f08",
+        "handle": "fixture-browser-1791575005743",
+        "displayName": "集成测试创作者（非真实社交账号）",
+        "platform": "instagram",
+        "tags": [
+          "公开帖子画面可见 CHIP / CIRCUIT BOARD 字样；先访问来源取得截图，遇到验证须人工协助，不能以简介代替画面"
+        ],
+        "verdict": "match",
+        "judgments": [
+          {
+            "criterionId": "__platform",
+            "verdict": "match",
+            "reason": "创作者平台：instagram",
+            "evidenceIds": [],
+            "label": "平台"
+          },
+          {
+            "criterionId": "__followers",
+            "verdict": "match",
+            "reason": "WaveSurge 粉丝数 10000，要求 0–100000",
+            "evidenceIds": [],
+            "label": "粉丝范围"
+          },
+          {
+            "criterionId": "technology",
+            "verdict": "match",
+            "reason": "人工验证后取得的公开帖子页面截图中，帖子画面清晰显示“CHIP / CIRCUIT BOARD · 芯片与电路板”，满足所要求的可见字样；不是依据简介或人工完成声明判断。页面标示发布于 2026-10-09。来源为给定测试页面（明确标注非真实社交账号）。",
+            "evidenceIds": [
+              "e6a682a1536c62d27447b305"
+            ],
+            "label": "公开帖子画面可见 CHIP / CIRCUIT BOARD 字样；先访问来源取得截图，遇到验证须人工协助，不能以简介代替画面"
+          }
+        ],
+        "evidence": [
+          {
+            "id": "fixture-profile",
+            "url": "http://127.0.0.1:8085/?case=browser-1791575005743",
+            "kind": "profile",
+            "text": "控制性浏览器验收夹具；需人工验证后可见公开科技帖子。没有帖子截图。"
+          },
+          {
+            "id": "f00972aa3fb2e30ad6e1cd87",
+            "url": "http://127.0.0.1:8085/?case=browser-1791575005743",
+            "kind": "browser_snapshot",
+            "text": "Verify you are human\n\nControlled browser integration fixture. Public creator posts require manual verification.\n\n我已完成验证 / I am human",
+            "assetId": "b073e3042d9092d587c8c77216a9c4be6d39520415ef026c44153dbaf7c82a52"
+          },
+          {
+            "id": "e6a682a1536c62d27447b305",
+            "url": "http://127.0.0.1:8085/?case=browser-1791575005743",
+            "kind": "browser_snapshot",
+            "text": "Test Creator 的公开帖子\n\nControlled fixture — not a real social profile.\n\n科技教学：芯片、电路板\n\n发布于 2026-10-09。讲解处理器与电脑硬件。\n\nCHIP / CIRCUIT BOARD · 芯片与电路板\n查看原始帖子",
+            "assetId": "c4315446bb3fe9ea961210914c0d1e22206b7cd290a4ff6f62806e1a94f4e154"
+          }
+        ]
+      },
+      {
+        "id": "research-d22f5bc3f9c80da1a4979ca5|instagram:tylerlcrawford",
+        "taskId": "research-d22f5bc3f9c80da1a4979ca5",
+        "handle": "tylerlcrawford",
+        "displayName": "Tyler Crawford",
+        "platform": "instagram",
+        "tags": [
+          "公开文字内容明确分享科技内容"
+        ],
+        "verdict": "no_match",
+        "judgments": [
+          {
+            "criterionId": "__region",
+            "verdict": "no_match",
+            "reason": "WaveSurge 地区：US；服务标记国家已确认",
+            "evidenceIds": [],
+            "label": "所在地区"
+          },
+          {
+            "criterionId": "__platform",
+            "verdict": "match",
+            "reason": "创作者平台：instagram",
+            "evidenceIds": [],
+            "label": "平台"
+          },
+          {
+            "criterionId": "__followers",
+            "verdict": "match",
+            "reason": "WaveSurge 粉丝数 31213，要求 10000–100000",
+            "evidenceIds": [],
+            "label": "粉丝范围"
+          },
+          {
+            "criterionId": "technology_content",
+            "verdict": "match",
+            "reason": "公开主页文字明确写有“Hometel systems | tech + hotel reviews”。同账号帖子正文分享智能家居自动化：定时关闭窗帘和灯光、Eight Sleep 根据身体调整床温、加湿器维持湿度，以及日出后自动打开遮光层，并使用 #smarthome、#homeautomation 标签，足以确认明确分享科技内容。本判断依据实际读取的公开文字，不依赖头像或被注册提示遮挡的视频画面。帖子页面日期显示“August 23”，未显示年份，不推断完整发布日期。",
+            "evidenceIds": [
+              "8fb5a563fbba73da3c7efbcb",
+              "f0f2f7c7183c1e55a5ae1880"
+            ],
+            "label": "公开文字内容明确分享科技内容"
+          }
+        ],
+        "evidence": [
+          {
+            "id": "3a348175a9b364f28ea1c614",
+            "url": "https://www.instagram.com/tylerlcrawford/",
+            "kind": "content",
+            "text": "Profile: My apartment runs itself. Hometel systems | tech + hotel reviews; austin, tx. Followers 31,213; business account false; professional account true."
+          },
+          {
+            "id": "db866e8ccd0ffbaeae9d0f97",
+            "url": "https://www.instagram.com/p/DcZxbpBAJDI/",
+            "kind": "content",
+            "text": "My apartment runs itself... Shades close at 9:22... #smarthome #homeautomation #hometel. This smart-home reel had 1,000,430 views."
+          },
+          {
+            "id": "8fb5a563fbba73da3c7efbcb",
+            "url": "https://www.instagram.com/tylerlcrawford/",
+            "kind": "browser_snapshot",
+            "text": "Log In\nSign Up\ntylerlcrawford\n31.2K followers\n345 following\nTyler Crawford\nhe/him\nMy apartment runs itself.\nHometel systems | tech + hotel reviews\naustin, tx | hello@tylerLcrawford.com\nall my links &... \nmore\ntylerlcrawford.com/links and 1 more\nShow more posts from tylerlcrawford\nMeta\nAbout\nBlog\nJobs\nHelp\nAPI\nPrivacy\nTerms\nLocations\nPopular\nInstagram Lite\nMeta AI\nMuse\nThreads\nContact Uploading & Non-Users\nMeta Verified\nEnglish\nAfrikaans\nالعربية\nČeština\nDansk\nDeutsch\nΕλληνικά\nEnglish\nEnglish (UK)\nEspañol (España)\nEspañol\nفارسی\nSuomi\nFrançais\nעברית\nBahasa Indonesia\nItaliano\n日本語\n한국어\nBahasa Melayu\nNorsk\nNederlands\nPolski\nPortuguês (Brasil)\nPortuguês (Portugal)\nРусский\nSvenska\nภาษาไทย\nFilipino\nTürkçe\n中文(简体)\n中文(台灣)\nবাংলা\nગુજરાતી\nहिन्दी\nHrvatski\nMagyar\nಕನ್ನಡ\nമലയാളം\nमराठी\nनेपाली\nਪੰਜਾਬੀ\nසිංහල\nSlovenčina\nதமிழ்\nతెలుగు\nاردو\nTiếng Việt\n中文(香港)\nБългарски\nFrançais (Canada)\nRomână\nСрпски\nУкраїнська\n© 202",
+            "assetId": "0be069cecedd52d652e657e4f881b8c05631b726639b5af787212ca0132f8e6a"
+          },
+          {
+            "id": "f0f2f7c7183c1e55a5ae1880",
+            "url": "https://www.instagram.com/tylerlcrawford/reel/DcZxbpBAJDI/",
+            "kind": "browser_snapshot",
+            "text": "Log In\nSign Up\nNever miss a post from tylerlcrawford\nSign up for Instagram to stay in the loop.\nBy continuing, you agree to Instagram's Terms of Use and Privacy Policy.\nSign up\nLog in\ntylerlcrawford\n•\nFollow\ntylerlcrawford\n \n6w\nMy apartment runs itself, and this one is everything that happens while I am asleep.\n\nShades close at 9:22. Kitchen shelf lights shut off at 9:50, which is my signal that the day is over. The Pura kicks on lavender. My Eight Sleep adjusts the bed temperature all night based on my body. The humidifier holds the room at 60%. And 45 minutes after sunrise the blackout layer opens first, then the solar shades, so I wake up to the skyline instead of an alarm.\n\nI set all of it up once and it has run every night since. That is the whole point of the hometel.\n\nSave this for when you are ready to automate your own space and send it to whoever you share a bed with.\n\n#smartho",
+            "assetId": "0c4e6b1712a57a8953c80894ab4e42ec80d3a98fcb24093cd3ab8637bc14715e"
+          }
+        ]
+      },
+      {
+        "id": "research-d22f5bc3f9c80da1a4979ca5|instagram:valstechtalkk",
+        "taskId": "research-d22f5bc3f9c80da1a4979ca5",
+        "handle": "valstechtalkk",
+        "displayName": "V",
+        "platform": "instagram",
+        "tags": [
+          "公开文字内容明确分享科技内容"
+        ],
+        "verdict": "no_match",
+        "judgments": [
+          {
+            "criterionId": "__region",
+            "verdict": "no_match",
+            "reason": "WaveSurge 地区：US；服务标记国家已确认",
+            "evidenceIds": [],
+            "label": "所在地区"
+          },
+          {
+            "criterionId": "__platform",
+            "verdict": "match",
+            "reason": "创作者平台：instagram",
+            "evidenceIds": [],
+            "label": "平台"
+          },
+          {
+            "criterionId": "__followers",
+            "verdict": "match",
+            "reason": "WaveSurge 粉丝数 39639，要求 10000–100000",
+            "evidenceIds": [],
+            "label": "粉丝范围"
+          },
+          {
+            "criterionId": "technology_content",
+            "verdict": "match",
+            "reason": "人工协助后取得的公开帖子文字与截图可见，作者为 valstechtalkk，文案为“camera settings i turn on for the CRISP quality”，并含 #iphone、#iphonetips、#iphonecamera；画面文字为“DAY NINE : IPHONE CAMERA TIPS”。明确分享 iPhone 相机设置与使用技巧，符合科技内容条件。页面仅显示相对时间“23 hours ago”，不推断精确发布日期；本条件未要求时间范围。主页公开简介“tech but make it cute”“Reviews”提供补充佐证。",
+            "evidenceIds": [
+              "3170fea138470cda124e98fb",
+              "834e31e4ad5d6471a34c29b6"
+            ],
+            "label": "公开文字内容明确分享科技内容"
+          }
+        ],
+        "evidence": [
+          {
+            "id": "37e38a48f5a4b516db6c6271",
+            "url": "https://www.instagram.com/valstechtalkk/",
+            "kind": "content",
+            "text": "Profile: 'tech but make it cute 📱 | HTX; Reviews + a little glam... 400k+ tech besties on tiktok.' Followers 39,639; category_name Tech; is_business_account false; is_verified true."
+          },
+          {
+            "id": "385029a29d98998b76c8b4dc",
+            "url": "https://www.instagram.com/p/Ddk7C9lKgE4/",
+            "kind": "content",
+            "text": "Day 1 of iPhone features you may not know. Welcome to all of the tips and tricks! #iphone18 #iphonetips #iphonetipsandtricks. Reel had 389,651 views."
+          },
+          {
+            "id": "834e31e4ad5d6471a34c29b6",
+            "url": "https://www.instagram.com/valstechtalkk/",
+            "kind": "browser_snapshot",
+            "text": "Log In\nSign Up\nvalstechtalkk\n39.6K followers\n523 following\nV\ntech but make it cute 📱 | HTX\nReviews + a little glam 💒💄\n400k+ tech besties on tiktok 👩🏻‍💻\n📧 : Valstech@swipemgmt.com\nlinktr.ee/Valstechtalk\nShow more posts from valstechtalkk\nMeta\nAbout\nBlog\nJobs\nHelp\nAPI\nPrivacy\nTerms\nLocations\nPopular\nInstagram Lite\nMeta AI\nMuse\nThreads\nContact Uploading & Non-Users\nMeta Verified\nEnglish\nAfrikaans\nالعربية\nČeština\nDansk\nDeutsch\nΕλληνικά\nEnglish\nEnglish (UK)\nEspañol (España)\nEspañol\nفارسی\nSuomi\nFrançais\nעברית\nBahasa Indonesia\nItaliano\n日本語\n한국어\nBahasa Melayu\nNorsk\nNederlands\nPolski\nPortuguês (Brasil)\nPortuguês (Portugal)\nРусский\nSvenska\nภาษาไทย\nFilipino\nTürkçe\n中文(简体)\n中文(台灣)\nবাংলা\nગુજરાતી\nहिन्दी\nHrvatski\nMagyar\nಕನ್ನಡ\nമലയാളം\nमराठी\nनेपाली\nਪੰਜਾਬੀ\nසිංහල\nSlovenčina\nதமிழ்\nతెలుగు\nاردو\nTiếng Việt\n中文(香港)\nБългарски\nFrançais (Canada)\nRomână\nСрпски\nУкраїнська\n© 2026 Instagram from Meta",
+            "assetId": "ca68eec12d3e2421614e3bbab49aaff4cb59898e749ce2fc4aa79a67fb439090"
+          },
+          {
+            "id": "7ffef03d5a204875781af192",
+            "url": "https://www.instagram.com/valstechtalkk/reel/DeQfBbyKmOR/",
+            "kind": "browser_snapshot",
+            "text": "Log In\nSign Up\nNever miss a post from valstechtalkk\nSign up for Instagram to stay in the loop.\nBy continuing, you agree to Instagram's Terms of Use and Privacy Policy.\nSign up\nLog in\nvalstechtalkk\n•\nFollow\nOriginal audio\nvalstechtalkk\n \n23h\ncamera settings i turn on for the CRISP quality 🤩 #iphone #iphonetips #iphone18promax #iphonecamera\nyounesyouceffateh\n \n4h\n❤️❤️\nLike\nReply\nalvillit\n \n9h\n@d.i.a.n.a.d.e.e\nLike\nReply\nim_obaaa\n \n10h\nI get the crisp video and pictures alright. But once I upload it on WhatsApp status,it becomes blur and has a poor quality. I don’t know how to correct it @valstechtalkk\nLike\nReply\nthejamiero_\n \n13h\nThe “photographic style”, do you have a video on how to set it to “+glow” I know how to set it to Amber. But I’m curious about the “+glow” part.\nLike\nReply\nvvendyfranco\n \n22h\nI love the case!!!!!\n1 like\nReply\nsaraa_aaraas\n \n22h\n😍😍😍\nLike\nReply\ntialicha_77\n \n22h",
+            "assetId": "5f44f6edda5a55332fdfc3b69e8ea7766d02a143fc4c9c727df5c078957feb20"
+          },
+          {
+            "id": "3170fea138470cda124e98fb",
+            "url": "https://www.instagram.com/valstechtalkk/reel/DeQfBbyKmOR/",
+            "kind": "browser_snapshot",
+            "text": "Log In\nSign Up\nvalstechtalkk\n•\nFollow\nOriginal audio\nvalstechtalkk\n \n23h\ncamera settings i turn on for the CRISP quality 🤩 #iphone #iphonetips #iphone18promax #iphonecamera\nyounesyouceffateh\n \n4h\n❤️❤️\nLike\nReply\nalvillit\n \n9h\n@d.i.a.n.a.d.e.e\nLike\nReply\nim_obaaa\n \n10h\nI get the crisp video and pictures alright. But once I upload it on WhatsApp status,it becomes blur and has a poor quality. I don’t know how to correct it @valstechtalkk\nLike\nReply\nthejamiero_\n \n13h\nThe “photographic style”, do you have a video on how to set it to “+glow” I know how to set it to Amber. But I’m curious about the “+glow” part.\nLike\nReply\nvvendyfranco\n \n22h\nI love the case!!!!!\n1 like\nReply\nsaraa_aaraas\n \n22h\n😍😍😍\nLike\nReply\ntialicha_77\n \n22h\nThank you and gurlll where did you get that case at 😍\nLike\nReply\nlachiqui10\n \n22h\nIn love with your case. Pls send me the link 🫶🏻\n1 like\nReply\nzeaugen_\n \n22h\nMy dea",
+            "assetId": "8541d87f8b8e93c1e8da5427f7dfa5c1969471e9f1fb3a6780bdefd2fc34ea47"
+          }
+        ]
+      },
+      {
+        "id": "research-b30bacd90e74569b33e06bfc|youtube:colelangs",
+        "taskId": "research-b30bacd90e74569b33e06bfc",
+        "handle": "colelangs",
+        "displayName": "ColeLangs",
+        "platform": "youtube",
+        "tags": [
+          "公开内容使用英语"
+        ],
+        "verdict": "unknown",
+        "judgments": [
+          {
+            "criterionId": "__region",
+            "verdict": "unknown",
+            "reason": "未取得创作者地区",
+            "evidenceIds": [],
+            "label": "所在地区"
+          },
+          {
+            "criterionId": "__platform",
+            "verdict": "match",
+            "reason": "创作者平台：youtube",
+            "evidenceIds": [],
+            "label": "平台"
+          },
+          {
+            "criterionId": "__followers",
+            "verdict": "unknown",
+            "reason": "未取得粉丝数",
+            "evidenceIds": [],
+            "label": "粉丝范围"
+          },
+          {
+            "criterionId": "english_content",
+            "verdict": "match",
+            "reason": "公开标题、简介及教程章节均使用英语。2024-04-26发布的Anki视频简介写有“I'll teach you everything about Anki”，章节包括“Installing Anki”和“Making and Styling Cards”。",
+            "evidenceIds": [
+              "a1633b15d73114cd7c99a411",
+              "d9a4084b32b828c0b927be07"
+            ],
+            "label": "公开内容使用英语"
+          },
+          {
+            "criterionId": "tool_tutorials",
+            "verdict": "unknown",
+            "reason": "2024-04-26的Anki视频标题与简介明确称为逐步教程，章节列出安装、制卡、填空卡和图片遮挡等操作主题；但当前公开文字只有章节目录，没有取得具体点击、输入或设置步骤。打开文字稿后未加载出正文，播放器出现错误，不能仅凭标题或工具方摘要确认严格的实际步骤要求。",
+            "evidenceIds": [
+              "a1633b15d73114cd7c99a411",
+              "6b00edd599a7aba83f1de75e",
+              "2f091009f3652e5316931e00"
+            ],
+            "label": "公开文字内容须提供AI工具或数字学习效率工具的实际教学教程，明确呈现具体操作步骤；仅有概括讲解、展示或评测不满足条件"
+          },
+          {
+            "criterionId": "notes_revision_use",
+            "verdict": "unknown",
+            "reason": "已取得的Anki简介仅承诺制作闪卡以“learn anything”，章节是通用工具操作，未取得明确用于课堂笔记或考试复习的具体文字步骤。工具方所称“applicable”只是适用性推断；文字稿未成功加载，因此不能确认该必选用途。",
+            "evidenceIds": [
+              "a1633b15d73114cd7c99a411",
+              "2f091009f3652e5316931e00"
+            ],
+            "label": "公开文字教程必须明确展示将工具用于课堂笔记或考试复习的具体步骤，至少涉及其中一种用途；仅提及用途而无具体步骤不满足条件"
+          },
+          {
+            "criterionId": "college_relevance",
+            "verdict": "unknown",
+            "reason": "频道简介为“people, places, ideas, and languages”，Anki教程面向“learn anything”及语言学习者；当前已核验文字未明确指向大学课堂或大学生受众。未取得文字稿，不能据Anki工具的一般用途推断大学相关性，也不推断创作者学生身份。",
+            "evidenceIds": [
+              "d9a4084b32b828c0b927be07",
+              "a1633b15d73114cd7c99a411",
+              "2f091009f3652e5316931e00"
+            ],
+            "label": "公开内容明确面向大学学习场景或大学生受众，不推断创作者本人学生身份"
+          }
+        ],
+        "evidence": [
+          {
+            "id": "0e2c68015ea7130a23067f85",
+            "url": "https://www.youtube.com/channel/UCsMpVWATEEON-9A0ac64lfQ",
+            "kind": "content",
+            "text": "Channel reads 37.4K subscribers, 140 videos, country United States. Evidence ID ev_8a24d1b9."
+          },
+          {
+            "id": "ac28eacac3610a79f1ed33d8",
+            "url": "https://www.youtube.com/watch?v=CnGlPXgGQbo",
+            "kind": "content",
+            "text": "Full step-by-step Anki guide with timestamps for cards, cloze, image occlusion, decks and study workflows. Evidence ID ev_987b63c6."
+          },
+          {
+            "id": "1b086a917635031c07f5ea03",
+            "url": "https://www.youtube.com/@colelangs",
+            "kind": "browser_snapshot",
+            "text": "",
+            "assetId": "22ed3657216e816b93ea8043a691799b57e6cb4d2e7a59786dcced3eec3c079e"
+          },
+          {
+            "id": "d9a4084b32b828c0b927be07",
+            "url": "https://www.youtube.com/@colelangs",
+            "kind": "browser_snapshot",
+            "text": "SG\nSkip navigation\nSign in\nHome\nShorts\nSubscriptions\nYou\nHistory\nSign in to like videos, comment, and subscribe.\nSign in\nExplore\nMusic\nMovies\nGaming\nShow more\nMore from YouTube\nYouTube Premium\nYouTube Kids\nReport history\nAboutPressCopyrightContact usCreatorsAdvertiseDevelopers\nTermsPrivacyPolicy & SafetyHow YouTube worksTest new features\n© 2026 Google LLC\nColeLangs\n@ColeLangs\n•\n37.4K subscribers\n•\n140 videos\npeople, places, ideas, and languages \n...more\nSubscribe\nJoin\nHome\nVideos\nShorts\nLive\nPodcasts\nPlaylists\nPosts\nI spent 90 Days in the Middle East and it made me question everything\nIncludes paid promotion\n0:00 / 14:48\nI spent 90 Days in the Middle East and it made me question everything\n741,614 views\n3y ago\n🔵 Get 35% off of LingQ here: \nhttps://www.lingq.com/accounts/new/?n...\n\n📘Book: https://www.amazon.com/dp/B0CN58MT7V\n🔴SUBSCRIBE here if you're really cool:   https://bit.ly/3qd8e",
+            "assetId": "598adc983353f21c1d2c8776fef0b3b7b9a6f48dbec7ae54fe220b36e5830258"
+          },
+          {
+            "id": "301763f6bcfbcff6dd6b140b",
+            "url": "https://www.youtube.com/watch?v=CnGlPXgGQbo",
+            "kind": "browser_snapshot",
+            "text": "0:00 / 0:15",
+            "assetId": "43bec3ae18244b907dfdbe02305ec923647494752cfc2737aac39c8865191b95"
+          },
+          {
+            "id": "59e280187edc6b7bddf00e29",
+            "url": "https://www.youtube.com/watch?v=CnGlPXgGQbo",
+            "kind": "browser_snapshot",
+            "text": "SG\nSkip navigation\nSign in\nTry Xero for free*\nxero.com\nLearn more\nSponsored\n1 of 2\nxero.com\n0:03 / 0:15\nMaster Anki in 18 Minutes | Full Step-By-Step Guide to Learn Anything\nColeLangs\n37.4K subscribers\nJoin\nSubscribe\n459\nShare\nSave\n12K views  2y ago  #colelangs\nThe Only Anki Video You'll Ever Need. I'll teach you everything about Anki and making the best and most interactive flashcards anywhere. Once you finish watching this Anki tutorial, you'll be equipped to make your own amazing flashcards to learn anything in the world in less time.\n …\nmore\n\nComments\n \n \n \n \nTry Xero for free*\nSponsored\nxero.com\nLearn more\n18:31\nEvery Study Technique Explained in 18 Minutes\niCanStudy\n217K\n1mo ago\n23:04\nNew\nJack Doherty's Life Is Falling Apart\nInternet Anarchist\n229K\n4h ago\n32:38\nHow To Use Anki Like A Pro: Full Step-by-Step Walkthrough\nAlec Palmerton, MD\n55K\n1y ago\n14:02\nHow to Use Anki (Step-by-Ste",
+            "assetId": "29b7268acb754134a5973d9e8056d35407632fb378de1302389427d0ea22c617"
+          },
+          {
+            "id": "a1633b15d73114cd7c99a411",
+            "url": "https://www.youtube.com/watch?v=CnGlPXgGQbo",
+            "kind": "browser_snapshot",
+            "text": "SG\nSkip navigation\nSign in\n0:02 / 18:02\nInstalling Anki\nMaster Anki in 18 Minutes | Full Step-By-Step Guide to Learn Anything\nColeLangs\n37.4K subscribers\nJoin\nSubscribe\n459\nShare\nSave\n12,127 views  Apr 26, 2024  #colelangs\nThe Only Anki Video You'll Ever Need. I'll teach you everything about Anki and making the best and most interactive flashcards anywhere. Once you finish watching this Anki tutorial, you'll be equipped to make your own amazing flashcards to learn anything in the world in less time.\n\nDownload Anki Here: https://apps.ankiweb.net/\nAnki Manual: https://docs.ankiweb.net/getting-star...\n\n📘Learning a language? Check out my book: https://a.co/d/hoLGHZP\n\n🟡CONNECT WITH ME🟡\n🎟Instagram:   / cole.langs  \n💻Discord:   / discord  \n\n⌛TIMESTAMPS\n0:00 Installing Anki\n0:16 Making and Styling Cards\n3:39 Card Types\n4:12 Type in the Answer Cards\n4:48 Cloze Cards\n5:50 Image Occlusion (Mak",
+            "assetId": "5493cfd22f899981657e8659570fe6ac96f33b005ec0523fb2d96a88331b7ff5"
+          },
+          {
+            "id": "6b00edd599a7aba83f1de75e",
+            "url": "https://www.youtube.com/watch?v=CnGlPXgGQbo",
+            "kind": "browser_snapshot",
+            "text": "SG\nSkip navigation\nSign in\n0:02 / 18:02\nMaking and Styling Cards\nMaster Anki in 18 Minutes | Full Step-By-Step Guide to Learn Anything\nColeLangs\n37.4K subscribers\nJoin\nSubscribe\n459\nShare\nSave\n12,127 views  Apr 26, 2024  #colelangs\nThe Only Anki Video You'll Ever Need. I'll teach you everything about Anki and making the best and most interactive flashcards anywhere. Once you finish watching this Anki tutorial, you'll be equipped to make your own amazing flashcards to learn anything in the world in less time.\n\nDownload Anki Here: https://apps.ankiweb.net/\nAnki Manual: https://docs.ankiweb.net/getting-star...\n\n📘Learning a language? Check out my book: https://a.co/d/hoLGHZP\n\n🟡CONNECT WITH ME🟡\n🎟Instagram:   / cole.langs  \n💻Discord:   / discord  \n\n⌛TIMESTAMPS\n0:00 Installing Anki\n0:16 Making and Styling Cards\n3:39 Card Types\n4:12 Type in the Answer Cards\n4:48 Cloze Cards\n5:50 Image Occlu",
+            "assetId": "7f9f9d14a55f0047c2356462a5e6d2367ddf9094d6d4bb3552160e0b72652e6c"
+          },
+          {
+            "id": "2f091009f3652e5316931e00",
+            "url": "https://www.youtube.com/watch?v=CnGlPXgGQbo",
+            "kind": "browser_snapshot",
+            "text": "SG\nSkip navigation\nSign in\nSomething went wrong. Refresh or try again later.\nLearn more\n0:45 / 18:02\nMaking and Styling Cards\nMaster Anki in 18 Minutes | Full Step-By-Step Guide to Learn Anything\nColeLangs\n37.4K subscribers\nJoin\nSubscribe\n459\nShare\nSave\n12,127 views  Apr 26, 2024  #colelangs\nThe Only Anki Video You'll Ever Need. I'll teach you everything about Anki and making the best and most interactive flashcards anywhere. Once you finish watching this Anki tutorial, you'll be equipped to make your own amazing flashcards to learn anything in the world in less time.\n\nDownload Anki Here: https://apps.ankiweb.net/\nAnki Manual: https://docs.ankiweb.net/getting-star...\n\n📘Learning a language? Check out my book: https://a.co/d/hoLGHZP\n\n🟡CONNECT WITH ME🟡\n🎟Instagram:   / cole.langs  \n💻Discord:   / discord  \n\n⌛TIMESTAMPS\n0:00 Installing Anki\n0:16 Making and Styling Cards\n3:39 Card Types\n4:",
+            "assetId": "5ce4fd2ee91ca22ba8aa8f42d4d217b27002ed54fa809d058ad0aeeabc0fcf5c"
+          }
+        ]
+      },
+      {
+        "id": "research-b30bacd90e74569b33e06bfc|youtube:wesleyanna",
+        "taskId": "research-b30bacd90e74569b33e06bfc",
+        "handle": "wesleyanna",
+        "displayName": "Wesley Anna",
+        "platform": "youtube",
+        "tags": [
+          "公开内容使用英语"
+        ],
+        "verdict": "unknown",
+        "judgments": [
+          {
+            "criterionId": "__region",
+            "verdict": "unknown",
+            "reason": "未取得创作者地区",
+            "evidenceIds": [],
+            "label": "所在地区"
+          },
+          {
+            "criterionId": "__platform",
+            "verdict": "match",
+            "reason": "创作者平台：youtube",
+            "evidenceIds": [],
+            "label": "平台"
+          },
+          {
+            "criterionId": "__followers",
+            "verdict": "unknown",
+            "reason": "未取得粉丝数",
+            "evidenceIds": [],
+            "label": "粉丝范围"
+          },
+          {
+            "criterionId": "english_content",
+            "verdict": "match",
+            "reason": "频道公开帖子及所核验视频标题、简介均使用英语，例如“Today I have another video from my Notion series”。视频页面显示发布日期为2023年1月21日。",
+            "evidenceIds": [
+              "dcf1c2d538669e7ff3546fda",
+              "5ad842b87badb2b84de81aae"
+            ],
+            "label": "公开内容使用英语"
+          },
+          {
+            "criterionId": "tool_tutorials",
+            "verdict": "unknown",
+            "reason": "2023年1月21日的Notion入门视频简介称教授搭建布局，章节包括03:25“3...2...1...build!”和12:17技巧，但这些文字未呈现具体操作步骤。已尝试打开文字稿，未加载出正文，播放器随后报错；不能仅凭教程标题、章节或提供方概括判定满足实际分步教学。",
+            "evidenceIds": [
+              "5ad842b87badb2b84de81aae",
+              "8a798fd5d20e19cee16b0fe1",
+              "27a4382abe9c3f1705232047"
+            ],
+            "label": "公开文字内容须提供AI工具或数字学习效率工具的实际教学教程，明确呈现具体操作步骤；仅有概括讲解、展示或评测不满足条件"
+          },
+          {
+            "criterionId": "notes_revision_use",
+            "verdict": "unknown",
+            "reason": "已读取的公开视频简介与章节未展示课堂笔记或考试复习的具体步骤；提供方仅概括学生模板资源，不能证明此必选条件。文字稿正文未能加载，尚不足以确定创作者是否有符合用途的教程。",
+            "evidenceIds": [
+              "5ad842b87badb2b84de81aae",
+              "7b0b7e9a9cdd92ca0499ba85",
+              "27a4382abe9c3f1705232047"
+            ],
+            "label": "公开文字教程必须明确展示将工具用于课堂笔记或考试复习的具体步骤，至少涉及其中一种用途；仅提及用途而无具体步骤不满足条件"
+          },
+          {
+            "criterionId": "college_relevance",
+            "verdict": "unknown",
+            "reason": "所核验频道文字与视频简介未明确面向大学生或大学学习场景。“Notion University”在简介中是创作者的Notion工作区课程名称，不能据此推断大学受众；页面大学/医学生相关推荐视频属于其他频道，不能归于此候选。",
+            "evidenceIds": [
+              "dcf1c2d538669e7ff3546fda",
+              "5ad842b87badb2b84de81aae"
+            ],
+            "label": "公开内容明确面向大学学习场景或大学生受众，不推断创作者本人学生身份"
+          }
+        ],
+        "evidence": [
+          {
+            "id": "4bc6430c102a2a4ea23ae0f3",
+            "url": "https://www.youtube.com/channel/UCmxHnI5y-XFqMAJksgUAbig",
+            "kind": "content",
+            "text": "Channel reads 91.3K subscribers, 147 videos, country United States, with Notion template links. Evidence ID ev_51247b7e."
+          },
+          {
+            "id": "7b0b7e9a9cdd92ca0499ba85",
+            "url": "https://www.youtube.com/watch?v=FrhFvIsq86g",
+            "kind": "content",
+            "text": "Timestamped Notion beginner walkthrough covering workspaces and beginner tips, plus student template resources. Evidence ID ev_37a75581."
+          },
+          {
+            "id": "53255d17c10112d35a860bee",
+            "url": "https://www.youtube.com/@wesleyanna",
+            "kind": "browser_snapshot",
+            "text": "",
+            "assetId": "22ed3657216e816b93ea8043a691799b57e6cb4d2e7a59786dcced3eec3c079e"
+          },
+          {
+            "id": "dcf1c2d538669e7ff3546fda",
+            "url": "https://www.youtube.com/@wesleyanna",
+            "kind": "browser_snapshot",
+            "text": "SG\nSkip navigation\nSign in\nHome\nShorts\nSubscriptions\nYou\nHistory\nSign in to like videos, comment, and subscribe.\nSign in\nExplore\nMusic\nMovies\nGaming\nShow more\nMore from YouTube\nYouTube Premium\nYouTube Kids\nReport history\nAboutPressCopyrightContact usCreatorsAdvertiseDevelopers\nTermsPrivacyPolicy & SafetyHow YouTube worksTest new features\n© 2026 Google LLC\nWesley Anna\n@WesleyAnna\n•\n91.3K subscribers\n•\n147 videos\njust trying to make the internet fun again  ʕ•́ᴥ•̀ʔっ \n...more\n wesleyanna.gumroad.com/l/ultimate-notion-dashboard\nand 5 more links\nSubscribe\nHome\nVideos\nPlaylists\nPosts\nVideos\n12:18\nmy channel was hacked (what happened & how i got it back)\n7.1K\n1d ago\n17:54\ni built myself a home on the internet ‎🪐 ✩˚₊‧\n22K\n2w ago\n30:03\nhow i organize the chaos in my head (2026 capacities tour)\n11K\n4w ago\n12:17\nanti-AI is the new virtue signal\n5.2K\n1mo ago\n13:54\nso...i flew to seoul to get work do",
+            "assetId": "4eb7fb8eab995c0059a2a14c40d5a1037341e28cb3cd68136e9995d8cc3d0f80"
+          },
+          {
+            "id": "2bbdd998b60f16e1a9ced81c",
+            "url": "https://www.youtube.com/watch?v=FrhFvIsq86g",
+            "kind": "browser_snapshot",
+            "text": "0:00 / 16:05",
+            "assetId": "d01dbba1cb90f34c64ec6e75c0f7a34130eb17cebd87b9057157d88cb404db0b"
+          },
+          {
+            "id": "ecf42243a1b8c54d5f5efd86",
+            "url": "https://www.youtube.com/watch?v=FrhFvIsq86g",
+            "kind": "browser_snapshot",
+            "text": "SG\nSkip navigation\nSign in\n0:03 / 16:05\nyou can skip i'm not offended\nhow to get started in notion *without losing your mind* | notion for beginners\nWesley Anna\n91.3K subscribers\nSubscribe\n131K\nShare\nSave\n4.3M views  3y ago\nToday I have another video from my Notion series, but this time we're focusing on how to get started as a beginner! I  know it can be très ~overwhelming~ when opening Notion for the first time (so many beautiful templates! so many cool widgets!) but I wanted to prove that building your own layout doesn't have to take as much time as you'd think. …\nmore\n\nComments\n \n \n \n \n2:00:07\n50/10 Pomodoro Timer with Brown Noise 🎧 2-Hour Study with Me for Deep Focus & ADHD ✨\nTimer Palette\n963K\n7mo ago\n18:23\nhow i organize my life & stay productive💡notion tour + free template\ndobochobo\n1.2M\n5y ago\n25:29\nthe ULTIMATE Notion tour | how I organize my life as a med student\nSab Yang\n91",
+            "assetId": "f1fd04ae9d0d5f567aedf07528e96d1452d3eafc2588253e28097fe19b7416ca"
+          },
+          {
+            "id": "5ad842b87badb2b84de81aae",
+            "url": "https://www.youtube.com/watch?v=FrhFvIsq86g",
+            "kind": "browser_snapshot",
+            "text": "SG\nSkip navigation\nSign in\n0:03 / 16:05\nyou can skip i'm not offended\nhow to get started in notion *without losing your mind* | notion for beginners\nWesley Anna\n91.3K subscribers\nSubscribe\n131K\nShare\nSave\n4,342,203 views  Jan 21, 2023\nToday I have another video from my Notion series, but this time we're focusing on how to get started as a beginner! I  know it can be très ~overwhelming~ when opening Notion for the first time (so many beautiful templates! so many cool widgets!) but I wanted to prove that building your own layout doesn't have to take as much time as you'd think.\n\n00:00 you can skip i'm not offended\n01:44 what is notion, really?\n03:25 3...2...1...build!\n12:17 cheeky tips (ง •̀_•́)ง\n\n✨ n o t i o n  t e m p l a t e s ✨ \n\n🐸 Eat the Frog Notion Game Template! https://wesleyanna.gumroad.com/l/eat-...\n\nThe template made in this video (as well as the rest of my free templates) can",
+            "assetId": "ffa308515cc9c8185674a75cfca9fb02c77909e20c1c06cc964ea149ee9588ab"
+          },
+          {
+            "id": "8a798fd5d20e19cee16b0fe1",
+            "url": "https://www.youtube.com/watch?v=FrhFvIsq86g",
+            "kind": "browser_snapshot",
+            "text": "SG\nSkip navigation\nSign in\n0:03 / 16:05\nyou can skip i'm not offended\nhow to get started in notion *without losing your mind* | notion for beginners\nWesley Anna\n91.3K subscribers\nSubscribe\n131K\nShare\nSave\n4,342,203 views  Jan 21, 2023\nToday I have another video from my Notion series, but this time we're focusing on how to get started as a beginner! I  know it can be très ~overwhelming~ when opening Notion for the first time (so many beautiful templates! so many cool widgets!) but I wanted to prove that building your own layout doesn't have to take as much time as you'd think.\n\n00:00 you can skip i'm not offended\n01:44 what is notion, really?\n03:25 3...2...1...build!\n12:17 cheeky tips (ง •̀_•́)ง\n\n✨ n o t i o n  t e m p l a t e s ✨ \n\n🐸 Eat the Frog Notion Game Template! https://wesleyanna.gumroad.com/l/eat-...\n\nThe template made in this video (as well as the rest of my free templates) can",
+            "assetId": "4c1560b778b312d28e812f399f94b6925d645b4026cb6761f757e741c293634f"
+          },
+          {
+            "id": "27a4382abe9c3f1705232047",
+            "url": "https://www.youtube.com/watch?v=FrhFvIsq86g",
+            "kind": "browser_snapshot",
+            "text": "SG\nSkip navigation\nSign in\nSomething went wrong. Refresh or try again later.\nLearn more\n0:42 / 16:05\nyou can skip i'm not offended\nhow to get started in notion *without losing your mind* | notion for beginners\nWesley Anna\n91.3K subscribers\nSubscribe\n131K\nShare\nSave\n4,342,203 views  Jan 21, 2023\nToday I have another video from my Notion series, but this time we're focusing on how to get started as a beginner! I  know it can be très ~overwhelming~ when opening Notion for the first time (so many beautiful templates! so many cool widgets!) but I wanted to prove that building your own layout doesn't have to take as much time as you'd think.\n\n00:00 you can skip i'm not offended\n01:44 what is notion, really?\n03:25 3...2...1...build!\n12:17 cheeky tips (ง •̀_•́)ง\n\n✨ n o t i o n  t e m p l a t e s ✨ \n\n🐸 Eat the Frog Notion Game Template! https://wesleyanna.gumroad.com/l/eat-...\n\nThe template made",
+            "assetId": "d04a7249677b39e440b07b37b94b024d20cbc9cfa2e4909a67b9dec9223035a1"
+          }
+        ]
+      },
+      {
+        "id": "research-fd88375f69e716ff5cbc9fef|youtube:schoolhabits",
+        "taskId": "research-fd88375f69e716ff5cbc9fef",
+        "handle": "schoolhabits",
+        "displayName": "SchoolHabits",
+        "platform": "youtube",
+        "tags": [
+          "公开内容使用英语",
+          "公开内容明确分享课堂笔记整理或考试复习方法，至少涉及其中一种场景",
+          "公开内容明确面向大学学习场景或大学生受众，不推断创作者本人学生身份"
+        ],
+        "verdict": "unknown",
+        "judgments": [
+          {
+            "criterionId": "__region",
+            "verdict": "unknown",
+            "reason": "未取得创作者地区",
+            "evidenceIds": [],
+            "label": "所在地区"
+          },
+          {
+            "criterionId": "__platform",
+            "verdict": "match",
+            "reason": "创作者平台：youtube",
+            "evidenceIds": [],
+            "label": "平台"
+          },
+          {
+            "criterionId": "__followers",
+            "verdict": "unknown",
+            "reason": "未取得粉丝数",
+            "evidenceIds": [],
+            "label": "粉丝范围"
+          },
+          {
+            "criterionId": "english_content",
+            "verdict": "match",
+            "reason": "频道公开简介、视频标题及展开后的视频说明均使用英语，例如“How to Study from a Study Guide You Got from Your Teacher”及“In this video, I show you exactly how to do that.”，满足公开内容使用英语；不据此断言全部音轨只有英语。",
+            "evidenceIds": [
+              "28fa021bbdbca5feb8039546",
+              "1a70681ec7a4c14c043ba6bd"
+            ],
+            "label": "公开内容使用英语"
+          },
+          {
+            "criterionId": "study_scenarios",
+            "verdict": "match",
+            "reason": "视频页面显示发布日期为2026年9月10日；说明明确讲解如何使用老师给的复习指南把信息记住以应对考试，章节包括“What to actually do with a study guide”和“How to remember information for the test”，直接满足考试复习方法场景。",
+            "evidenceIds": [
+              "1a70681ec7a4c14c043ba6bd"
+            ],
+            "label": "公开内容明确分享课堂笔记整理或考试复习方法，至少涉及其中一种场景"
+          },
+          {
+            "criterionId": "college_relevance",
+            "verdict": "match",
+            "reason": "频道主页的公开欢迎视频说明明确写“My online study skills course for high school and college students”，直接指明学习技巧内容面向大学生（同时也面向高中生），不是从外观或创作者本人身份推断。主页仅显示欢迎视频相对日期1y ago，不推算精确发布日期。",
+            "evidenceIds": [
+              "28fa021bbdbca5feb8039546"
+            ],
+            "label": "公开内容明确面向大学学习场景或大学生受众，不推断创作者本人学生身份"
+          }
+        ],
+        "evidence": [
+          {
+            "id": "71aaaf4300a17dbf7fd4b5de",
+            "url": "https://www.youtube.com/channel/UCif2xthZcmDp2NxvG56Gdlg",
+            "kind": "content",
+            "text": "Channel reports 20.4K subscribers, 131 videos, country United States, and describes study skills, procrastination, time management, and note-taking content."
+          },
+          {
+            "id": "71ae0814ecd55edf0f91627a",
+            "url": "https://www.youtube.com/watch?v=2-hEEuugLxs",
+            "kind": "content",
+            "text": "Recent SchoolHabits video titled 'How to Study from a Study Guide You Got from Your Teacher.'"
+          },
+          {
+            "id": "a6f9b7d414241735718c39e7",
+            "url": "https://www.youtube.com/watch?v=izW6jnOqOYI",
+            "kind": "content",
+            "text": "SchoolHabits video titled 'How to Use Dual Coding to Study.'"
+          },
+          {
+            "id": "b0cd132da717a5851430b971",
+            "url": "https://www.youtube.com/@schoolhabits",
+            "kind": "browser_snapshot",
+            "text": "",
+            "assetId": "22ed3657216e816b93ea8043a691799b57e6cb4d2e7a59786dcced3eec3c079e"
+          },
+          {
+            "id": "28fa021bbdbca5feb8039546",
+            "url": "https://www.youtube.com/@schoolhabits",
+            "kind": "browser_snapshot",
+            "text": "SG\nSkip navigation\nSign in\nHome\nShorts\nSubscriptions\nYou\nHistory\nSign in to like videos, comment, and subscribe.\nSign in\nExplore\nMusic\nMovies\nGaming\nShow more\nMore from YouTube\nYouTube Premium\nYouTube Kids\nReport history\nAboutPressCopyrightContact usCreatorsAdvertiseDevelopers\nTermsPrivacyPolicy & SafetyHow YouTube worksTest new features\n© 2026 Google LLC\nSchoolHabits\n@SchoolHabits\n•\n20.4K subscribers\n•\n131 videos\nI teach students and professionals strategies to learn and work smarter. I cover everything from study skills to procrastination, time management to note-taking. Trust me - with the right systems, habits, strategies and tweaks, things can be wayyy easier than they are now. \n...more\n schoolhabits.com\nand 3 more links\nSubscribe\nHome\nVideos\nShorts\nPlaylists\nPosts\nWelcome to SchoolHabits\n0:00 / 1:10\nWelcome to SchoolHabits\n1,651 views\n1y ago\nMy name is Katie Azevedo. Through privat",
+            "assetId": "c935944b64e979625c9bdab6e5778bb0b5c08567a40439c37ccf5615236a3097"
+          },
+          {
+            "id": "668f2650035e9b9523e7a1b0",
+            "url": "https://www.youtube.com/watch?v=2-hEEuugLxs",
+            "kind": "browser_snapshot",
+            "text": "Only brand with 8 Brain Building Nutrients*| Enfagrow A+ Pro\n0:00 / 0:06",
+            "assetId": "cd124b0ae75e0f523ed4b01f29190559c702943bb332b0f798c9d12b5e1400d9"
+          },
+          {
+            "id": "81170219b9276d3c01049525",
+            "url": "https://www.youtube.com/watch?v=2-hEEuugLxs",
+            "kind": "browser_snapshot",
+            "text": "SG\nSkip navigation\nSign in\n0:00 / 2:35\nHow to Study from a Study Guide You Got from Your Teacher\nSchoolHabits\n20.4K subscribers\nSubscribe\n10\nShare\nSave\n328 views  4w ago\nMY COURSES\n🧠 SchoolHabits University → (This is the ultimate “How to Do School Way Easier” program for students who don’t have time to do a “How to Do School Way Easier” program. 🤓) https://www.schoolhabitsuniversity.co... …\nmore\n\nComments\n \n \n \n \n3:54\nMemorize Anything So Fast It's Almost Unfair\nBetterU\n2M\n6mo ago\n18:19\nNICHE Things I Put in My Personal Statement (Got Me Into Imperial)\nwill brito\n24K\n1mo ago\n5:09\n3 tips on how to study effectively\nTED-Ed\n9.1M\n2y ago\n15:02\n5 Secret Study Rules that Make Studying Easier\nSchoolHabits\n756\n4mo ago\n11:16\nhow to study less and get higher grades\nGohar Khan\n6.4M\n2y ago\n8:10\nChinese SECRET study methods( study less & get straight A’s)\nmouno\n398K\n4mo ago\n14:00\nhow to take notes ",
+            "assetId": "634b7d7f9716a67b389733cde146447340a482e199591df198ce5726c401790b"
+          },
+          {
+            "id": "1a70681ec7a4c14c043ba6bd",
+            "url": "https://www.youtube.com/watch?v=2-hEEuugLxs",
+            "kind": "browser_snapshot",
+            "text": "SG\nSkip navigation\nSign in\nSee why 16,000 companies chose Vanta\nvanta.com/customers/fileAI\nVisit site\nSponsored\nvanta.com/customers/fileai\nSkip\n0:02 / 2:35\nHow to Study from a Study Guide You Got from Your Teacher\nSchoolHabits\n20.4K subscribers\nSubscribe\n10\nShare\nSave\n328 views  Sep 10, 2026\nMY COURSES\n🧠 SchoolHabits University → (This is the ultimate “How to Do School Way Easier” program for students who don’t have time to do a “How to Do School Way Easier” program. 🤓) https://www.schoolhabitsuniversity.co...\n✅ Assignment Management Power System → https://www.assignmentmanagementsyste...\n📝 Note-Taking Power System → https://www.notetakingsystem.com/?utm...\n\nTHE JOURNAL\n📖 The Executive Function Journal (physical product, 90-day journal that targets and builds core executive functions, for people with ADHD/EF deficits) → https://www.executivefunctionjournal....\n\nYou got a study guide ",
+            "assetId": "de7186a07dbc42268ad7391b0cbe0bd12c576ffbd14ae533eae1e2c4f088f3c4"
+          }
+        ]
+      },
+      {
+        "id": "research-fd88375f69e716ff5cbc9fef|youtube:raytubelcsw",
+        "taskId": "research-fd88375f69e716ff5cbc9fef",
+        "handle": "raytubelcsw",
+        "displayName": "RayTube",
+        "platform": "youtube",
+        "tags": [
+          "公开内容使用英语",
+          "公开内容明确分享课堂笔记整理或考试复习方法，至少涉及其中一种场景"
+        ],
+        "verdict": "unknown",
+        "judgments": [
+          {
+            "criterionId": "__region",
+            "verdict": "unknown",
+            "reason": "未取得创作者地区",
+            "evidenceIds": [],
+            "label": "所在地区"
+          },
+          {
+            "criterionId": "__platform",
+            "verdict": "match",
+            "reason": "创作者平台：youtube",
+            "evidenceIds": [],
+            "label": "平台"
+          },
+          {
+            "criterionId": "__followers",
+            "verdict": "unknown",
+            "reason": "未取得粉丝数",
+            "evidenceIds": [],
+            "label": "粉丝范围"
+          },
+          {
+            "criterionId": "english_content",
+            "verdict": "match",
+            "reason": "2026-10-10 核验的频道公开页面中，视频标题、课程说明及备考建议均使用英语，例如“ASWB Practice Questions for ALL ASWB Exam Types! RayTube #52”和“Remember, doing AT LEAST 2 practice questions a day, helps keep the exam anxiety at BAY!!!”。",
+            "evidenceIds": [
+              "82f948b56674feb4a64e9eae"
+            ],
+            "label": "公开内容使用英语"
+          },
+          {
+            "criterionId": "study_scenarios",
+            "verdict": "match",
+            "reason": "频道公开说明明确建议每天至少做两道练习题，并提供 ASWB 考试练习题、备考课程与学习提纲，满足考试复习方法场景；不据此认定其分享课堂笔记。核验页面将练习题视频标为“1mo ago”、学习提纲视频标为“2mo ago”，仅保留相对日期，不推算精确发布日期。",
+            "evidenceIds": [
+              "82f948b56674feb4a64e9eae"
+            ],
+            "label": "公开内容明确分享课堂笔记整理或考试复习方法，至少涉及其中一种场景"
+          },
+          {
+            "criterionId": "college_relevance",
+            "verdict": "unknown",
+            "reason": "已观察内容明确针对 ASWB、LSW 和 LCSW 等社会工作执照考试备考，但未明确说明面向大学课程学习或大学生受众。ASWB Master Exam 字样及 #msw 标签不足以证明大学学习场景；不能从专业考试或创作者职业推断大学生受众。",
+            "evidenceIds": [
+              "82f948b56674feb4a64e9eae",
+              "875b0be160346ad60789d6f0"
+            ],
+            "label": "公开内容明确面向大学学习场景或大学生受众，不推断创作者本人学生身份"
+          }
+        ],
+        "evidence": [
+          {
+            "id": "875b0be160346ad60789d6f0",
+            "url": "https://www.youtube.com/channel/UCAfjBzlKPCtVUsJzE8KQhlA",
+            "kind": "content",
+            "text": "Channel description reports 67.6K subscribers and states: 'My name is Rayshawn Ledet,' 'I'm a Licensed Clinical Social Worker in New Jersey,' and 'My goal is to help you pass your ASWB exam!'"
+          },
+          {
+            "id": "335465a4bae927d12bbeaf8e",
+            "url": "https://www.youtube.com/watch?v=anuo5h-9CKA",
+            "kind": "content",
+            "text": "Attributable RayTube video titled 'ASWB Practice Questions for ALL ASWB Exam Types! RayTube #52.'"
+          },
+          {
+            "id": "04739b1d9808b5bc22a5b253",
+            "url": "https://www.youtube.com/watch?v=AvZvgLVVggg",
+            "kind": "content",
+            "text": "Attributable RayTube video titled 'NEW Study with Ray Outline! Cost: $100.'"
+          },
+          {
+            "id": "af48ec56547d84ba5bd874c5",
+            "url": "https://www.youtube.com/@raytubelcsw",
+            "kind": "browser_snapshot",
+            "text": "",
+            "assetId": "22ed3657216e816b93ea8043a691799b57e6cb4d2e7a59786dcced3eec3c079e"
+          },
+          {
+            "id": "82f948b56674feb4a64e9eae",
+            "url": "https://www.youtube.com/@raytubelcsw",
+            "kind": "browser_snapshot",
+            "text": "SG\nSkip navigation\nSign in\nHome\nShorts\nSubscriptions\nYou\nHistory\nSign in to like videos, comment, and subscribe.\nSign in\nExplore\nMusic\nMovies\nGaming\nShow more\nMore from YouTube\nYouTube Premium\nYouTube Kids\nReport history\nAboutPressCopyrightContact usCreatorsAdvertiseDevelopers\nTermsPrivacyPolicy & SafetyHow YouTube worksTest new features\n© 2026 Google LLC\nRayTube\n@raytubelcsw\n•\n67.6K subscribers\n•\n968 videos\nHello, Friends! \n...more\n studywithray.com\nand 3 more links\nSubscribe\nHome\nVideos\nShorts\nPlaylists\nPosts\nMy course is NOW UPDATED to reflect the new exam changes! Cost: $100\n50,031 views\n11mo ago\nStudy with Ray course: https://www.studywithray.com/\n\nPaid study group link: https://raytube.as.me/schedule.php\n\nUSE CODE: RAYTUBE25 for 25% OFF ALL Practice Exams! \nWebsite: https://www.socialworktestprep.com/\nFacebook group: https://www.facebook.com/groups/65228...\n\nDSM guide: Please email",
+            "assetId": "779509ed5246aacbede7d8b63d5c0ce7fed63872b32d2d4115a4150689ae84af"
+          }
+        ]
+      }
+    ]
+  },
+  "finishedAt": "2026-10-10T02:44:06.355Z",
+  "active": false,
+  "messages": [
+    {
+      "id": "3d9a2942-082c-4ae9-876a-66f2301b538c",
+      "role": "user",
+      "text": "聊天里这几列我看到了，但点开原报告还是老的。把这些标签也存进结果里吧，我要在结果页按“Notion”或者“智能家居”筛选，刷新后还能看到，导出的文件也带上。眼镜这列再看下他们的公开视频，别只用上次那段文字。",
+      "state": "delivered",
+      "createdAt": 1791600228036,
+      "attachmentCount": 0
+    },
+    {
+      "id": "efc6c09b-c0b3-471e-bbbd-334b4c3bd9f1",
+      "role": "assistant",
+      "text": "你说得对：上次那份整理只在聊天里，**没有写回结果记录**，所以原报告没有变化。我应当明确说明这一点。\n\n目前我能读取已保存的结果，但**没有修改结果标签、更新导出字段或打开公开视频重新核验的工具**。因此，本轮不能把这些内容真正持久化，也不能声称已重新看过视频。\n\n需要写入的内容已明确如下：\n\n| 创作者 | 内容方向标签 | 内容风格标签 |\n|---|---|---|\n| tylerlcrawford | 智能家居、科技、酒店评测 | 自动化场景分享 |\n| valstechtalkk | iPhone技巧、科技评测 | 可爱科技、技巧分享 |\n| SchoolHabits | 学习方法、考试复习 | 方法教学、指南型 |\n| raytubelcsw | 社工执照考试、练习题 | 刷题备考、建议型 |\n| colelangs | 语言学习、Anki | 教程定位、章节型 |\n| wesleyanna | Notion、数字效率 | 入门教程、布局搭建 |\n\n这些标签需写入结果页使用的筛选字段，并同步到报告和导出文件，而不是仅追加在聊天中；不合格及待确认记录也应保留。\n\n**眼镜一列仍全部为“待确认”**。重新核验应依据本人公开视频中的实际画面，记录视频链接、时间点和对应截图；只能描述“该画面佩戴／未佩戴眼镜”，不能凭某个未戴眼镜的片段断言此人从不戴眼镜。若你提供公开视频片段或截图，我可以据实际画面补充判断，但仍无法直接写回结果页。",
+      "state": "delivered",
+      "createdAt": 1791600245556,
+      "attachmentCount": 0
+    }
+  ],
+  "tasks": [
+    {
+      "id": "research-a333d174361fcf1bed6c0698",
+      "title": "Instagram 科技创作者筛选（加拿大或美国）",
+      "status": "partial",
+      "requested": 2,
+      "evaluated": 1,
+      "matched": 1,
+      "updatedAt": 1791569527000,
+      "detail": "已合格 1/2，已核验 1；证据不足者保持待核实。",
+      "remoteId": "24b86cb6-354f-45ac-b5a6-d98c90e8a541",
+      "remoteStatus": "done",
+      "nextPollAt": 1791569460099
+    },
+    {
+      "id": "research-010f8c5e484e38738b2b3640",
+      "title": "浏览器人工协助验收 browser-1791571235315",
+      "status": "completed",
+      "requested": 1,
+      "evaluated": 1,
+      "matched": 1,
+      "updatedAt": 1791571505793,
+      "detail": "已合格 1/1，已核验 1；证据不足者保持待核实。",
+      "remoteId": "fixture-browser-1791571235315",
+      "remoteStatus": "done",
+      "nextPollAt": 0
+    },
+    {
+      "id": "research-98350042b636d08a5d424a6c",
+      "title": "科技/耳机评测创作者 1791572085141",
+      "status": "partial",
+      "requested": 1,
+      "evaluated": 0,
+      "matched": 0,
+      "updatedAt": 1791572491151,
+      "detail": "已合格 0/1，已核验 0；证据不足者保持待核实。",
+      "remoteId": "6f09acf3-e189-4e88-8dc9-b6f1403aa1d7",
+      "remoteStatus": "done",
+      "nextPollAt": 1791572431048
+    },
+    {
+      "id": "research-d7687a09b9a84db8c236a706",
+      "title": "学习/效率生活创作者 1791572085141",
+      "status": "partial",
+      "requested": 1,
+      "evaluated": 0,
+      "matched": 0,
+      "updatedAt": 1791572371165,
+      "detail": "已合格 0/1，已核验 0；证据不足者保持待核实。",
+      "remoteId": "7fde3d0c-efa7-49ca-9a84-d28e27f2d2e3",
+      "remoteStatus": "done",
+      "nextPollAt": 1791572311436
+    },
+    {
+      "id": "research-329ed36c04d98223b610f7c0",
+      "title": "科技/耳机评测",
+      "status": "partial",
+      "requested": 1,
+      "evaluated": 0,
+      "matched": 0,
+      "updatedAt": 1791574391734,
+      "detail": "已合格 0/1，已核验 0；证据不足者保持待核实。",
+      "remoteId": "f9690908-d01c-4c74-a839-c048379f984a",
+      "remoteStatus": "done",
+      "nextPollAt": 1791574126543
+    },
+    {
+      "id": "research-58949888b306ad726d60be23",
+      "title": "学习/效率生活",
+      "status": "completed",
+      "requested": 1,
+      "evaluated": 2,
+      "matched": 1,
+      "updatedAt": 1791574741518,
+      "detail": "已合格 1/1，已核验 2；程序已按明确国家字段重新校验，保留原始模型与来源。",
+      "remoteId": "81a2c6c7-32b9-4db3-9c16-ebb7b7adf986",
+      "remoteStatus": "done",
+      "nextPollAt": 0
+    },
+    {
+      "id": "research-5e4db1193ded213e791cd417",
+      "title": "浏览器人工协助验收 skip-1791573434577",
+      "status": "partial",
+      "requested": 1,
+      "evaluated": 1,
+      "matched": 0,
+      "updatedAt": 1791573507957,
+      "detail": "已合格 0/1，已核验 1；证据不足者保持待核实。",
+      "remoteId": "fixture-skip-1791573434577",
+      "remoteStatus": "done",
+      "nextPollAt": 0
+    },
+    {
+      "id": "research-5b048604116d7fcbdce4e705",
+      "title": "测试类型 A",
+      "status": "cancelled",
+      "requested": 1,
+      "evaluated": 0,
+      "matched": 0,
+      "updatedAt": 1791573633809,
+      "detail": "已停止本地核验；WaveSurge 没有已验证的远端取消接口，远端搜索可能继续",
+      "remoteId": "05b79b83-a3c7-4dd1-a90b-81a958601b15",
+      "remoteStatus": "running",
+      "nextPollAt": 1791573671384
+    },
+    {
+      "id": "research-9698a6d1fc749a4a3df6084e",
+      "title": "测试类型 B",
+      "status": "cancelled",
+      "requested": 1,
+      "evaluated": 0,
+      "matched": 0,
+      "updatedAt": 1791573633815,
+      "detail": "已停止本地核验；WaveSurge 没有已验证的远端取消接口，远端搜索可能继续",
+      "remoteId": "d4678638-98d2-4c18-9d2c-3d1c5adf6587",
+      "nextPollAt": 1791573611649
+    },
+    {
+      "id": "research-53d5f515c5959e5d00495f27",
+      "title": "测试类型 A",
+      "status": "cancelled",
+      "requested": 1,
+      "evaluated": 0,
+      "matched": 0,
+      "updatedAt": 1791573842258,
+      "detail": "已停止本地核验；WaveSurge 没有已验证的远端取消接口，远端搜索可能继续",
+      "remoteId": "fixture-research-53d5f515c5959e5d00495f27",
+      "remoteStatus": "done",
+      "nextPollAt": 0
+    },
+    {
+      "id": "research-b2efbf875587dbc4b18f0e68",
+      "title": "测试类型 B",
+      "status": "cancelled",
+      "requested": 1,
+      "evaluated": 0,
+      "matched": 0,
+      "updatedAt": 1791573842261,
+      "detail": "已停止本地核验；WaveSurge 没有已验证的远端取消接口，远端搜索可能继续",
+      "remoteId": "fixture-research-b2efbf875587dbc4b18f0e68",
+      "remoteStatus": "done",
+      "nextPollAt": 0
+    },
+    {
+      "id": "research-6b62fedb31c94ffb3dfd83b8",
+      "title": "测试类型 A",
+      "status": "completed",
+      "requested": 1,
+      "evaluated": 2,
+      "matched": 2,
+      "updatedAt": 1791574417752,
+      "detail": "已合格 2/1，已核验 2；证据不足者保持待核实。",
+      "remoteId": "fixture-research-6b62fedb31c94ffb3dfd83b8",
+      "remoteStatus": "done",
+      "nextPollAt": 0
+    },
+    {
+      "id": "research-7df22029caef61df6134e885",
+      "title": "测试类型 B",
+      "status": "completed",
+      "requested": 1,
+      "evaluated": 1,
+      "matched": 1,
+      "updatedAt": 1791574423837,
+      "detail": "已合格 1/1，已核验 1；证据不足者保持待核实。",
+      "remoteId": "fixture-research-7df22029caef61df6134e885",
+      "remoteStatus": "done",
+      "nextPollAt": 0
+    },
+    {
+      "id": "research-bcebf909d61af9519dc124f3",
+      "title": "浏览器人工协助验收 skip-1791574367119",
+      "status": "partial",
+      "requested": 1,
+      "evaluated": 1,
+      "matched": 0,
+      "updatedAt": 1791574438375,
+      "detail": "已合格 0/1，已核验 1；证据不足者保持待核实。",
+      "remoteId": "fixture-skip-1791574367119",
+      "remoteStatus": "done",
+      "nextPollAt": 0
+    },
+    {
+      "id": "research-a5b580b3d9a62868bf773f08",
+      "title": "浏览器人工协助验收 browser-1791575005743",
+      "status": "completed",
+      "requested": 1,
+      "evaluated": 1,
+      "matched": 1,
+      "updatedAt": 1791575057963,
+      "detail": "已合格 1/1，已核验 1；证据不足者保持待核实。",
+      "remoteId": "fixture-browser-1791575005743",
+      "remoteStatus": "done",
+      "nextPollAt": 0
+    },
+    {
+      "id": "research-d22f5bc3f9c80da1a4979ca5",
+      "title": "Review独立真实筛选",
+      "status": "partial",
+      "requested": 1,
+      "evaluated": 2,
+      "matched": 0,
+      "updatedAt": 1791597943628,
+      "detail": "已合格 0/1，已核验 2；证据不足者保持待核实。",
+      "remoteId": "b5722567-4ae0-435a-b6e9-0c5873d6486e",
+      "remoteStatus": "done",
+      "nextPollAt": 0
+    },
+    {
+      "id": "research-a183b9437d676713c0f2812f",
+      "title": "Geek风戴眼镜的Instagram普通消费者创作者",
+      "status": "running",
+      "requested": 20,
+      "evaluated": 0,
+      "matched": 0,
+      "updatedAt": 1791600159386,
+      "detail": "WaveSurge 搜索执行中；本地已合格 0 人",
+      "remoteId": "bd260f50-b76f-440c-9e47-a022a6697ac6",
+      "remoteStatus": "running",
+      "nextPollAt": 1791600219386
+    },
+    {
+      "id": "research-fd88375f69e716ff5cbc9fef",
+      "title": "课堂笔记与考试复习方法创作者",
+      "status": "partial",
+      "requested": 1,
+      "evaluated": 2,
+      "matched": 0,
+      "updatedAt": 1791598314025,
+      "detail": "已合格 0/1，已核验 2；证据不足者保持待核实。",
+      "remoteId": "7c1837b8-3ec0-4d06-9f4d-752eebc40f64",
+      "remoteStatus": "done",
+      "nextPollAt": 1791598003992
+    },
+    {
+      "id": "research-b30bacd90e74569b33e06bfc",
+      "title": "AI与数字学习工具教学创作者",
+      "status": "partial",
+      "requested": 1,
+      "evaluated": 2,
+      "matched": 0,
+      "updatedAt": 1791598214595,
+      "detail": "已合格 0/1，已核验 2；证据不足者保持待核实。",
+      "remoteId": "ff3ac6fb-fa15-4b8d-b358-e7bf18e642de",
+      "remoteStatus": "done",
+      "nextPollAt": 1791597579739
+    }
+  ],
+  "results": [
+    {
+      "id": "research-a333d174361fcf1bed6c0698|instagram:imthegeekjr",
+      "taskId": "research-a333d174361fcf1bed6c0698",
+      "handle": "imthegeekjr",
+      "displayName": "Tech tips | Tech support | IT Consultant",
+      "platform": "instagram",
+      "tags": [
+        "分享科技内容，依据本人简介或内容文字核验"
+      ],
+      "verdict": "match",
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "match",
+          "reason": "WaveSurge 地区：United States；服务标记国家已确认",
+          "evidenceIds": [],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 79634，要求 10000–100000",
+          "evidenceIds": [],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "technology_content",
+          "verdict": "match",
+          "reason": "所提供的 Instagram 本人简介文字明确写有“Daily #tech and #pc tips.”（每日科技与电脑技巧），足以符合“分享科技内容，依据本人简介或内容文字核验”。来源为候选主页，采集时间戳为 1791569520331；无帖子发布日期，本判断不推断近期发帖情况。",
+          "evidenceIds": [
+            "e9694229e28c7a29aa2e8aa8"
+          ],
+          "label": "分享科技内容，依据本人简介或内容文字核验"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "e9694229e28c7a29aa2e8aa8",
+          "url": "https://www.instagram.com/imthegeekjr/",
+          "kind": "content",
+          "text": "Fresh profile: About.country is United States; follower_count is 79,634; bio says “I’m The Geek” and “Daily #tech and #pc tips.”"
+        },
+        {
+          "id": "ee27a3d94468dfbb9464d197",
+          "url": "https://www.instagram.com/p/DHSQfoYx992/",
+          "kind": "content",
+          "text": "The contact tool reported the public website https://imthegeek.com/ from profile text."
+        }
+      ]
+    },
+    {
+      "id": "research-010f8c5e484e38738b2b3640|instagram:fixture-browser-1791571235315",
+      "taskId": "research-010f8c5e484e38738b2b3640",
+      "handle": "fixture-browser-1791571235315",
+      "displayName": "集成测试创作者（非真实社交账号）",
+      "platform": "instagram",
+      "tags": [
+        "公开帖子画面可见 CHIP / CIRCUIT BOARD 字样；先访问来源取得截图，遇到验证须人工协助，不能以简介代替画面"
+      ],
+      "verdict": "match",
+      "judgments": [
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 10000，要求 0–100000",
+          "evidenceIds": [],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "technology",
+          "verdict": "match",
+          "reason": "访问给定来源遇到人工验证后已请求协助；交还后重新观察，公开帖子截图的深绿色画面中清晰可见“CHIP / CIRCUIT BOARD · 芯片与电路板”，不是以简介替代画面。来源 http://127.0.0.1:8085/，页面标示发布于 2026-10-09。此为控制性测试页面，非真实社交账号。",
+          "evidenceIds": [
+            "50b100482bd8152145424db0",
+            "fa6e8cf6b2a622ec4c36f1aa"
+          ],
+          "label": "公开帖子画面可见 CHIP / CIRCUIT BOARD 字样；先访问来源取得截图，遇到验证须人工协助，不能以简介代替画面"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "fixture-profile",
+          "url": "http://127.0.0.1:8085/",
+          "kind": "profile",
+          "text": "控制性浏览器验收夹具；需人工验证后可见公开科技帖子。没有帖子截图。"
+        },
+        {
+          "id": "a15dedd07a9447a1ce35a37a",
+          "url": "https://www.instagram.com/imthegeekjr/",
+          "kind": "browser_snapshot",
+          "text": "Log In\nSign Up\nimthegeekjr\n79.6K followers\n39 following\nTech tips | Tech support | IT Consultant\nI’m The Geek\n🗓️ | Daily #tech and #pc tips\n📩 | DM for Business or Promotions\n🧑🏻‍💻 | Get to know more 👇🏻\n#itconsultant... \nmore\nwww.gohighlevel.com/holiday-promotion-2025?fp_ref=agenor94 and 1 more\nShow more posts from imthegeekjr\nAccounts you might like\nSee all\nFatos e Negócios\nFatos e Negócios\nFollow\nEnsinando Curiosidades por Tacio Estrela\nEnsinando Curiosidades por Tacio Estrela\nFollow\nSigo Tecnologia | IA\nSigo Tecnologia | IA\nFollow\nProspere Mentalmente\nProspere Mentalmente\nFollow\nMeta\nAbout\nBlog\nJobs\nHelp\nAPI\nPrivacy\nTerms\nLocations\nPopular\nInstagram Lite\nMeta AI\nMuse\nThreads\nContact Uploading & Non-Users\nMeta Verified\nEnglish\nAfrikaans\nالعربية\nČeština\nDansk\nDeutsch\nΕλληνικά\nEnglish\nEnglish (UK)\nEspañol (España)\nEspañol\nفارسی\nSuomi\nFrançais\nעברית\nBahasa Indonesia\nItaliano\n日本語\n한국어\n",
+          "assetId": "7fe393093627f5f277f42b4f5dc218ae5fbb365a0d1ada5162617ba9b2fd86d1"
+        },
+        {
+          "id": "50b100482bd8152145424db0",
+          "url": "http://127.0.0.1:8085/",
+          "kind": "browser_snapshot",
+          "text": "Verify you are human\n\nControlled browser integration fixture. Public creator posts require manual verification.\n\n我已完成验证 / I am human",
+          "assetId": "b073e3042d9092d587c8c77216a9c4be6d39520415ef026c44153dbaf7c82a52"
+        },
+        {
+          "id": "fa6e8cf6b2a622ec4c36f1aa",
+          "url": "http://127.0.0.1:8085/",
+          "kind": "browser_snapshot",
+          "text": "Test Creator 的公开帖子\n\nControlled fixture — not a real social profile.\n\n科技教学：芯片、电路板\n\n发布于 2026-10-09。讲解处理器与电脑硬件。\n\nCHIP / CIRCUIT BOARD · 芯片与电路板\n查看原始帖子",
+          "assetId": "c4315446bb3fe9ea961210914c0d1e22206b7cd290a4ff6f62806e1a94f4e154"
+        }
+      ]
+    },
+    {
+      "id": "research-5e4db1193ded213e791cd417|instagram:fixture-skip-1791573434577",
+      "taskId": "research-5e4db1193ded213e791cd417",
+      "handle": "fixture-skip-1791573434577",
+      "displayName": "集成测试创作者（非真实社交账号）",
+      "platform": "instagram",
+      "tags": [],
+      "verdict": "unknown",
+      "judgments": [
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 10000，要求 0–100000",
+          "evidenceIds": [],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "technology",
+          "verdict": "unknown",
+          "reason": "来源页面及人工协助后的最新观察仍显示“Verify you are human”，未见公开帖子画面，无法核验 CHIP / CIRCUIT BOARD 字样。用户表示无法完成验证并要求跳过受阻帖子，故不再请求验证；简介不能替代视觉证据，条件保持 unknown。",
+          "evidenceIds": [
+            "664d6488cd418db790356f2b"
+          ],
+          "label": "公开帖子画面可见 CHIP / CIRCUIT BOARD 字样；先访问来源取得截图，遇到验证须人工协助，不能以简介代替画面"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "fixture-profile",
+          "url": "http://127.0.0.1:8085/skip",
+          "kind": "profile",
+          "text": "控制性浏览器验收夹具；需人工验证后可见公开科技帖子。没有帖子截图。"
+        },
+        {
+          "id": "664d6488cd418db790356f2b",
+          "url": "http://127.0.0.1:8085/skip",
+          "kind": "browser_snapshot",
+          "text": "Verify you are human\n\nControlled browser integration fixture. Public creator posts require manual verification.\n\n我已完成验证 / I am human",
+          "assetId": "b073e3042d9092d587c8c77216a9c4be6d39520415ef026c44153dbaf7c82a52"
+        }
+      ]
+    },
+    {
+      "id": "research-58949888b306ad726d60be23|instagram:scorpiorisingmedia",
+      "taskId": "research-58949888b306ad726d60be23",
+      "handle": "scorpiorisingmedia",
+      "displayName": "Lindsay │ cozy desk + productivity",
+      "platform": "instagram",
+      "tags": [
+        "分享学习或效率生活内容，须有文字证据支持。"
+      ],
+      "verdict": "match",
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "match",
+          "reason": "WaveSurge 地区：Philadelphia (Philly), United States；服务标记国家已确认",
+          "evidenceIds": [],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 51901，要求 10000–100000",
+          "evidenceIds": [],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "study_productivity_content",
+          "verdict": "match",
+          "reason": "主页文字明确列出“routines, planning, productivity”。实际访问的 Reel 文案“My CEO Day routine for Q4”分享提前整理 P&L 报表与 KPI、减少行政事务耗时以专注业务规划的效率流程，并提供相应免费 Notion 模板，构成分享效率生活内容的直接文字证据。该帖页面显示“1 day ago”，未取得精确发布日期；本判断不依赖精确日期，也不推断其为学生或学习类创作者。",
+          "evidenceIds": [
+            "290e434474a4a83585d0fd24",
+            "90507de98801a173c25b43fc"
+          ],
+          "label": "分享学习或效率生活内容，须有文字证据支持。"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "29dc9b4d01bdafd681f09c7d",
+          "url": "https://www.instagram.com/scorpiorisingmedia/",
+          "kind": "content",
+          "text": "Profile name: “Lindsay │ cozy desk + productivity.” Bio describes a “creative founder at her cozy desk,” lists “routines, planning, productivity,” says “Philly-based brand production studio,” and publishes [contact removed]."
+        },
+        {
+          "id": "69037bbebf68842c7f676ba5",
+          "url": "https://www.instagram.com/scorpiorisingmedia/",
+          "kind": "content",
+          "text": "“Thought it was time for a little re-introduction ✨ I’m so happy you’re here!” followed by #aestheticdesk #cozydesksetup #comfortcreator #cozycore #wfhlife."
+        },
+        {
+          "id": "684cc40890d9500dcd79d113",
+          "url": "https://www.instagram.com/scorpiorisingmedia/",
+          "kind": "content",
+          "text": "Instagram About this account reports the account is based in the United States."
+        },
+        {
+          "id": "290e434474a4a83585d0fd24",
+          "url": "https://www.instagram.com/scorpiorisingmedia/",
+          "kind": "browser_snapshot",
+          "text": "Log In\nSign Up\nscorpiorisingmedia\n51.9K followers\n489 following\nLindsay │ cozy desk + productivity\ncreative founder at her cozy desk ✨🦂\n⟡ routines, planning, productivity\n⟡ Philly-based brand production studio\n✉️:... \nmore\nlinktr.ee/scorpiorisingmedia and 1 more\ncph\nwedding\nscotland\nabout\njoshua tree\nmonterey\ntemecula\nlife notion\nbrand photos\nbusiness notion\nShow more posts from scorpiorisingmedia\nMeta\nAbout\nBlog\nJobs\nHelp\nAPI\nPrivacy\nTerms\nLocations\nPopular\nInstagram Lite\nMeta AI\nMuse\nThreads\nContact Uploading & Non-Users\nMeta Verified\nEnglish\nAfrikaans\nالعربية\nČeština\nDansk\nDeutsch\nΕλληνικά\nEnglish\nEnglish (UK)\nEspañol (España)\nEspañol\nفارسی\nSuomi\nFrançais\nעברית\nBahasa Indonesia\nItaliano\n日本語\n한국어\nBahasa Melayu\nNorsk\nNederlands\nPolski\nPortuguês (Brasil)\nPortuguês (Portugal)\nРусский\nSvenska\nภาษาไทย\nFilipino\nTürkçe\n中文(简体)\n中文(台灣)\nবাংলা\nગુજરાતી\nहिन्दी\nHrvatski\nMagyar\nಕನ್ನಡ\nമലയാളം\nमराठी\nनेपा",
+          "assetId": "553958fc023366a4651e2b7d264528f988b28a25ee35be6c563fad6e0056d04a"
+        },
+        {
+          "id": "90507de98801a173c25b43fc",
+          "url": "https://www.instagram.com/scorpiorisingmedia/reel/DeO87s4xHqb/",
+          "kind": "browser_snapshot",
+          "text": "Log In\nSign Up\nNever miss a post from scorpiorisingmedia\nSign up for Instagram to stay in the loop.\nBy continuing, you agree to Instagram's Terms of Use and Privacy Policy.\nSign up\nLog in\nscorpiorisingmedia\n•\nFollow\nscorpiorisingmedia\n \n1d\nMy CEO Day routine for Q4… YIKES it’s Q4 🙃 Now typically I like to do this routine outside of my office to change up my environment, but I haven’t been feeling well so I just kept things at my desk this time. \n\nAs always, I try to organize my P&L report and other KPIs *before* the day starts so I’m not wasting time on admin/accounting and can just focus on the BIG picture of where my business is heading. I also make sure to schedule a fun way to celebrate once I’m finished (usually takes me no more than 2 hours so I’ll take off the rest of the day)! \n\nI have this whole day in the form of a Notion template that you can grab for yourself for FREE! It’s ",
+          "assetId": "8465ef8d63ca74b6362dec177df17d1ea6878e6c9dfdf4d8a3b70edbfc8dddf1"
+        }
+      ]
+    },
+    {
+      "id": "research-58949888b306ad726d60be23|instagram:khushleenvirk",
+      "taskId": "research-58949888b306ad726d60be23",
+      "handle": "khushleenvirk",
+      "displayName": "Khushleen Virk | Identity Transformation & Productivity Coach",
+      "platform": "instagram",
+      "tags": [],
+      "verdict": "unknown",
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "match",
+          "reason": "WaveSurge 地区：Canada；服务标记国家已确认",
+          "evidenceIds": [],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 52727，要求 10000–100000",
+          "evidenceIds": [],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "study_productivity_content",
+          "verdict": "unknown",
+          "reason": "主页文字自称“Identity Transformation & Productivity Coach”，但职业称谓不足以证明实际分享学习或效率生活内容。已取得帖子文字“You need to actually act on the ones you’ve already had”，主要推广消除限制性信念、影响决策的工作坊，未明确展示学习方法或效率生活内容。人工协助后重新观察，注册/登录弹窗仍遮挡帖子；按用户要求停止进一步核验、不重复请求协助。现有文字证据不足，不能认定匹配，也不能据单篇帖子认定不匹配。页面仅显示相对日期“4 days ago”；来源记录发布时间为2026-10-04T22:54:00Z。",
+          "evidenceIds": [
+            "3d7efa8153107c71027e0a7c",
+            "0a6a4e6f0e8a7d24d450fc82",
+            "c2942e79c18c13ceaa8be3d0"
+          ],
+          "label": "分享学习或效率生活内容，须有文字证据支持。"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "90f1c3d51552b36050766a3b",
+          "url": "https://www.instagram.com/khushleenvirk/",
+          "kind": "content",
+          "text": "Profile identifies “Khushleen Virk | Identity Transformation & Productivity Coach,” reports 52,727 followers, and bio advertises a Surrey in-person workshop."
+        },
+        {
+          "id": "c2942e79c18c13ceaa8be3d0",
+          "url": "https://www.instagram.com/khushleenvirk/",
+          "kind": "content",
+          "text": "“You don’t need another realization / You need to actually act on the ones you’ve already had. / That’s the gap this workshop closes.” The post describes guided work on limiting beliefs affecting decisions."
+        },
+        {
+          "id": "1a4cae6e20bd3aaaa7aade88",
+          "url": "https://www.instagram.com/khushleenvirk/",
+          "kind": "content",
+          "text": "Instagram About this account reports the account is based in Canada."
+        },
+        {
+          "id": "3d7efa8153107c71027e0a7c",
+          "url": "https://www.instagram.com/khushleenvirk/",
+          "kind": "browser_snapshot",
+          "text": "Log In\nSign Up\nkhushleenvirk\n52.7K followers\n211 following\nKhushleen Virk | Identity Transformation & Productivity Coach\nThe LIFE you live, Is the standard you have accepted.\nBREAK FREE- Oct 11\nSurrey In-person Workshop⬇️\nwww.eventbrite.com/e/2002350485203?aff=oddtdtcreator and 1 more\nClient wins\nFitness\nMindset\nReal Glow-up\nMindfulness\nWins👑\nShow more posts from khushleenvirk\nMeta\nAbout\nBlog\nJobs\nHelp\nAPI\nPrivacy\nTerms\nLocations\nPopular\nInstagram Lite\nMeta AI\nMuse\nThreads\nContact Uploading & Non-Users\nMeta Verified\nEnglish\nAfrikaans\nالعربية\nČeština\nDansk\nDeutsch\nΕλληνικά\nEnglish\nEnglish (UK)\nEspañol (España)\nEspañol\nفارسی\nSuomi\nFrançais\nעברית\nBahasa Indonesia\nItaliano\n日本語\n한국어\nBahasa Melayu\nNorsk\nNederlands\nPolski\nPortuguês (Brasil)\nPortuguês (Portugal)\nРусский\nSvenska\nภาษาไทย\nFilipino\nTürkçe\n中文(简体)\n中文(台灣)\nবাংলা\nગુજરાતી\nहिन्दी\nHrvatski\nMagyar\nಕನ್ನಡ\nമലയാളം\nमराठी\nनेपाली\nਪੰਜਾਬੀ\nසිංහල\nSlove",
+          "assetId": "c1a639b1d555e40bf326cf439b2365cfd1fd0efecd0df838dafa73c0d23a7858"
+        },
+        {
+          "id": "ff80f369d86390efbd9e5301",
+          "url": "https://www.instagram.com/khushleenvirk/p/DeFuwwRPL21/",
+          "kind": "browser_snapshot",
+          "text": "Log In\nSign Up\nNever miss a post from khushleenvirk\nSign up for Instagram to stay in the loop.\nBy continuing, you agree to Instagram's Terms of Use and Privacy Policy.\nSign up\nLog in\nkhushleenvirk\n•\nFollow\nkhushleenvirk\n \n4d\nYou don’t need another realization\nYou need to actually act on the ones you’ve already had.\n\nThat’s the gap this workshop closes.\n\n2 hours guided work to train the nervous system to breakdown the limiting beliefs running your decisions without your permission. \n\nJoin us!\n📍Surrey BC\n\n🕛 October 11\n12:00pm to 2:00pm\n\nLink in bio 🔗\nNo comments yet.\nStart the conversation.\n13\n4 days ago\nLog in to like or comment.\nMore posts from khushleenvirk\nSee more posts\nMeta\nAbout\nBlog\nJobs\nHelp\nAPI\nPrivacy\nTerms\nLocations\nPopular\nInstagram Lite\nMeta AI\nMuse\nThreads\nContact Uploading & Non-Users\nMeta Verified\nEnglish\nAfrikaans\nالعربية\nČeština\nDansk\nDeutsch\nΕλληνικά\nEnglish\nEnglish ",
+          "assetId": "04d45a2788cd054941778abd9d8ed94339745976a3d4400b9bf7c6992ba06bd2"
+        },
+        {
+          "id": "0a6a4e6f0e8a7d24d450fc82",
+          "url": "https://www.instagram.com/khushleenvirk/p/DeFuwwRPL21/",
+          "kind": "browser_snapshot",
+          "text": "Log In\nSign Up\nNever miss a post from khushleenvirk\nSign up for Instagram to stay in the loop.\nBy continuing, you agree to Instagram's Terms of Use and Privacy Policy.\nSign up\nLog in\nkhushleenvirk\n•\nFollow\nkhushleenvirk\n \n4d\nYou don’t need another realization\nYou need to actually act on the ones you’ve already had.\n\nThat’s the gap this workshop closes.\n\n2 hours guided work to train the nervous system to breakdown the limiting beliefs running your decisions without your permission. \n\nJoin us!\n📍Surrey BC\n\n🕛 October 11\n12:00pm to 2:00pm\n\nLink in bio 🔗\nNo comments yet.\nStart the conversation.\n13\n4 days ago\nLog in to like or comment.\nMore posts from khushleenvirk\nSee more posts\nMeta\nAbout\nBlog\nJobs\nHelp\nAPI\nPrivacy\nTerms\nLocations\nPopular\nInstagram Lite\nMeta AI\nMuse\nThreads\nContact Uploading & Non-Users\nMeta Verified\nEnglish\nAfrikaans\nالعربية\nČeština\nDansk\nDeutsch\nΕλληνικά\nEnglish\nEnglish ",
+          "assetId": "abf133f49018eb07e4698230f90407269b1e9e4322f11b9103ba6ba6c3d54f29"
+        }
+      ]
+    },
+    {
+      "id": "research-6b62fedb31c94ffb3dfd83b8|instagram:fixture-campaign-shared",
+      "taskId": "research-6b62fedb31c94ffb3dfd83b8",
+      "handle": "fixture-campaign-shared",
+      "displayName": "fixture-campaign-shared（集成夹具）",
+      "platform": "instagram",
+      "tags": [
+        "公开帖子截图中可见 CHIP / CIRCUIT BOARD 字样；必须取得真实浏览器截图"
+      ],
+      "verdict": "match",
+      "judgments": [
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 20000，要求 0–100000",
+          "evidenceIds": [],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "chip",
+          "verdict": "match",
+          "reason": "实际浏览器截图中，公开帖子区域清晰可见“CHIP / CIRCUIT BOARD · 芯片与电路板”字样，满足截图文字条件。页面标示发布日期为 2026-10-09；来源为 http://127.0.0.1:8085/，截图 assetId 为 c4315446bb3fe9ea961210914c0d1e22206b7cd290a4ff6f62806e1a94f4e154。该页面明确为控制性测试页面，不是真实社交账号，本判断仅适用于该测试条件。",
+          "evidenceIds": [
+            "fa6e8cf6b2a622ec4c36f1aa"
+          ],
+          "label": "公开帖子截图中可见 CHIP / CIRCUIT BOARD 字样；必须取得真实浏览器截图"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "profile-fixture-campaign-shared",
+          "url": "http://127.0.0.1:8085/",
+          "kind": "profile",
+          "text": "控制性测试页面。必须浏览帖子截图；非真实社交账号，当前还没有帖子截图。"
+        },
+        {
+          "id": "fa6e8cf6b2a622ec4c36f1aa",
+          "url": "http://127.0.0.1:8085/",
+          "kind": "browser_snapshot",
+          "text": "Test Creator 的公开帖子\n\nControlled fixture — not a real social profile.\n\n科技教学：芯片、电路板\n\n发布于 2026-10-09。讲解处理器与电脑硬件。\n\nCHIP / CIRCUIT BOARD · 芯片与电路板\n查看原始帖子",
+          "assetId": "c4315446bb3fe9ea961210914c0d1e22206b7cd290a4ff6f62806e1a94f4e154"
+        }
+      ]
+    },
+    {
+      "id": "research-6b62fedb31c94ffb3dfd83b8|instagram:fixture-campaign-only-a",
+      "taskId": "research-6b62fedb31c94ffb3dfd83b8",
+      "handle": "fixture-campaign-only-a",
+      "displayName": "fixture-campaign-only-a（集成夹具）",
+      "platform": "instagram",
+      "tags": [
+        "公开帖子截图中可见 CHIP / CIRCUIT BOARD 字样；必须取得真实浏览器截图"
+      ],
+      "verdict": "match",
+      "judgments": [
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 20000，要求 0–100000",
+          "evidenceIds": [],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "chip",
+          "verdict": "match",
+          "reason": "已取得真实有头浏览器页面截图；截图公开帖子区域清楚显示“CHIP / CIRCUIT BOARD · 芯片与电路板”，符合所需可见字样。来源为 http://127.0.0.1:8085/，截图采集于 2026-10-09，页面标注发布于 2026-10-09。该页面明确为控制性测试页面，不代表真实社交账号。",
+          "evidenceIds": [
+            "fa6e8cf6b2a622ec4c36f1aa"
+          ],
+          "label": "公开帖子截图中可见 CHIP / CIRCUIT BOARD 字样；必须取得真实浏览器截图"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "profile-fixture-campaign-only-a",
+          "url": "http://127.0.0.1:8085/",
+          "kind": "profile",
+          "text": "控制性测试页面。必须浏览帖子截图；非真实社交账号，当前还没有帖子截图。"
+        },
+        {
+          "id": "fa6e8cf6b2a622ec4c36f1aa",
+          "url": "http://127.0.0.1:8085/",
+          "kind": "browser_snapshot",
+          "text": "Test Creator 的公开帖子\n\nControlled fixture — not a real social profile.\n\n科技教学：芯片、电路板\n\n发布于 2026-10-09。讲解处理器与电脑硬件。\n\nCHIP / CIRCUIT BOARD · 芯片与电路板\n查看原始帖子",
+          "assetId": "c4315446bb3fe9ea961210914c0d1e22206b7cd290a4ff6f62806e1a94f4e154"
+        }
+      ]
+    },
+    {
+      "id": "research-7df22029caef61df6134e885|instagram:fixture-campaign-shared",
+      "taskId": "research-7df22029caef61df6134e885",
+      "handle": "fixture-campaign-shared",
+      "displayName": "fixture-campaign-shared（集成夹具）",
+      "platform": "instagram",
+      "tags": [
+        "公开帖子截图中可见 CHIP / CIRCUIT BOARD 字样；必须取得真实浏览器截图"
+      ],
+      "verdict": "match",
+      "judgments": [
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 20000，要求 0–100000",
+          "evidenceIds": [],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "chip",
+          "verdict": "match",
+          "reason": "已取得真实浏览器页面截图，公开帖子区域清晰可见“CHIP / CIRCUIT BOARD · 芯片与电路板”字样，满足指定视觉条件。来源为 http://127.0.0.1:8085/，本次观察日期为 2026-10-09；页面标注发布于 2026-10-09。该页面明确为控制性测试夹具，并非真实社交账号，本判断仅核验截图字样。",
+          "evidenceIds": [
+            "fa6e8cf6b2a622ec4c36f1aa"
+          ],
+          "label": "公开帖子截图中可见 CHIP / CIRCUIT BOARD 字样；必须取得真实浏览器截图"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "profile-fixture-campaign-shared",
+          "url": "http://127.0.0.1:8085/",
+          "kind": "profile",
+          "text": "控制性测试页面。必须浏览帖子截图；非真实社交账号，当前还没有帖子截图。"
+        },
+        {
+          "id": "fa6e8cf6b2a622ec4c36f1aa",
+          "url": "http://127.0.0.1:8085/",
+          "kind": "browser_snapshot",
+          "text": "Test Creator 的公开帖子\n\nControlled fixture — not a real social profile.\n\n科技教学：芯片、电路板\n\n发布于 2026-10-09。讲解处理器与电脑硬件。\n\nCHIP / CIRCUIT BOARD · 芯片与电路板\n查看原始帖子",
+          "assetId": "c4315446bb3fe9ea961210914c0d1e22206b7cd290a4ff6f62806e1a94f4e154"
+        }
+      ]
+    },
+    {
+      "id": "research-bcebf909d61af9519dc124f3|instagram:fixture-skip-1791574367119",
+      "taskId": "research-bcebf909d61af9519dc124f3",
+      "handle": "fixture-skip-1791574367119",
+      "displayName": "集成测试创作者（非真实社交账号）",
+      "platform": "instagram",
+      "tags": [],
+      "verdict": "unknown",
+      "judgments": [
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 10000，要求 0–100000",
+          "evidenceIds": [],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "technology",
+          "verdict": "unknown",
+          "reason": "最新来源页面及截图仍仅显示“Verify you are human”人工验证提示，未看到公开帖子画面，无法确认 CHIP / CIRCUIT BOARD 字样。人工反馈无法完成验证并要求跳过受阻帖子，故停止请求协助；不以简介或验证页代替视觉证据。",
+          "evidenceIds": [
+            "664d6488cd418db790356f2b"
+          ],
+          "label": "公开帖子画面可见 CHIP / CIRCUIT BOARD 字样；先访问来源取得截图，遇到验证须人工协助，不能以简介代替画面"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "fixture-profile",
+          "url": "http://127.0.0.1:8085/skip",
+          "kind": "profile",
+          "text": "控制性浏览器验收夹具；需人工验证后可见公开科技帖子。没有帖子截图。"
+        },
+        {
+          "id": "664d6488cd418db790356f2b",
+          "url": "http://127.0.0.1:8085/skip",
+          "kind": "browser_snapshot",
+          "text": "Verify you are human\n\nControlled browser integration fixture. Public creator posts require manual verification.\n\n我已完成验证 / I am human",
+          "assetId": "b073e3042d9092d587c8c77216a9c4be6d39520415ef026c44153dbaf7c82a52"
+        }
+      ]
+    },
+    {
+      "id": "research-a5b580b3d9a62868bf773f08|instagram:fixture-browser-1791575005743",
+      "taskId": "research-a5b580b3d9a62868bf773f08",
+      "handle": "fixture-browser-1791575005743",
+      "displayName": "集成测试创作者（非真实社交账号）",
+      "platform": "instagram",
+      "tags": [
+        "公开帖子画面可见 CHIP / CIRCUIT BOARD 字样；先访问来源取得截图，遇到验证须人工协助，不能以简介代替画面"
+      ],
+      "verdict": "match",
+      "judgments": [
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 10000，要求 0–100000",
+          "evidenceIds": [],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "technology",
+          "verdict": "match",
+          "reason": "人工验证后取得的公开帖子页面截图中，帖子画面清晰显示“CHIP / CIRCUIT BOARD · 芯片与电路板”，满足所要求的可见字样；不是依据简介或人工完成声明判断。页面标示发布于 2026-10-09。来源为给定测试页面（明确标注非真实社交账号）。",
+          "evidenceIds": [
+            "e6a682a1536c62d27447b305"
+          ],
+          "label": "公开帖子画面可见 CHIP / CIRCUIT BOARD 字样；先访问来源取得截图，遇到验证须人工协助，不能以简介代替画面"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "fixture-profile",
+          "url": "http://127.0.0.1:8085/?case=browser-1791575005743",
+          "kind": "profile",
+          "text": "控制性浏览器验收夹具；需人工验证后可见公开科技帖子。没有帖子截图。"
+        },
+        {
+          "id": "f00972aa3fb2e30ad6e1cd87",
+          "url": "http://127.0.0.1:8085/?case=browser-1791575005743",
+          "kind": "browser_snapshot",
+          "text": "Verify you are human\n\nControlled browser integration fixture. Public creator posts require manual verification.\n\n我已完成验证 / I am human",
+          "assetId": "b073e3042d9092d587c8c77216a9c4be6d39520415ef026c44153dbaf7c82a52"
+        },
+        {
+          "id": "e6a682a1536c62d27447b305",
+          "url": "http://127.0.0.1:8085/?case=browser-1791575005743",
+          "kind": "browser_snapshot",
+          "text": "Test Creator 的公开帖子\n\nControlled fixture — not a real social profile.\n\n科技教学：芯片、电路板\n\n发布于 2026-10-09。讲解处理器与电脑硬件。\n\nCHIP / CIRCUIT BOARD · 芯片与电路板\n查看原始帖子",
+          "assetId": "c4315446bb3fe9ea961210914c0d1e22206b7cd290a4ff6f62806e1a94f4e154"
+        }
+      ]
+    },
+    {
+      "id": "research-d22f5bc3f9c80da1a4979ca5|instagram:tylerlcrawford",
+      "taskId": "research-d22f5bc3f9c80da1a4979ca5",
+      "handle": "tylerlcrawford",
+      "displayName": "Tyler Crawford",
+      "platform": "instagram",
+      "tags": [
+        "公开文字内容明确分享科技内容"
+      ],
+      "verdict": "no_match",
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "no_match",
+          "reason": "WaveSurge 地区：US；服务标记国家已确认",
+          "evidenceIds": [],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 31213，要求 10000–100000",
+          "evidenceIds": [],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "technology_content",
+          "verdict": "match",
+          "reason": "公开主页文字明确写有“Hometel systems | tech + hotel reviews”。同账号帖子正文分享智能家居自动化：定时关闭窗帘和灯光、Eight Sleep 根据身体调整床温、加湿器维持湿度，以及日出后自动打开遮光层，并使用 #smarthome、#homeautomation 标签，足以确认明确分享科技内容。本判断依据实际读取的公开文字，不依赖头像或被注册提示遮挡的视频画面。帖子页面日期显示“August 23”，未显示年份，不推断完整发布日期。",
+          "evidenceIds": [
+            "8fb5a563fbba73da3c7efbcb",
+            "f0f2f7c7183c1e55a5ae1880"
+          ],
+          "label": "公开文字内容明确分享科技内容"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "3a348175a9b364f28ea1c614",
+          "url": "https://www.instagram.com/tylerlcrawford/",
+          "kind": "content",
+          "text": "Profile: My apartment runs itself. Hometel systems | tech + hotel reviews; austin, tx. Followers 31,213; business account false; professional account true."
+        },
+        {
+          "id": "db866e8ccd0ffbaeae9d0f97",
+          "url": "https://www.instagram.com/p/DcZxbpBAJDI/",
+          "kind": "content",
+          "text": "My apartment runs itself... Shades close at 9:22... #smarthome #homeautomation #hometel. This smart-home reel had 1,000,430 views."
+        },
+        {
+          "id": "8fb5a563fbba73da3c7efbcb",
+          "url": "https://www.instagram.com/tylerlcrawford/",
+          "kind": "browser_snapshot",
+          "text": "Log In\nSign Up\ntylerlcrawford\n31.2K followers\n345 following\nTyler Crawford\nhe/him\nMy apartment runs itself.\nHometel systems | tech + hotel reviews\naustin, tx | hello@tylerLcrawford.com\nall my links &... \nmore\ntylerlcrawford.com/links and 1 more\nShow more posts from tylerlcrawford\nMeta\nAbout\nBlog\nJobs\nHelp\nAPI\nPrivacy\nTerms\nLocations\nPopular\nInstagram Lite\nMeta AI\nMuse\nThreads\nContact Uploading & Non-Users\nMeta Verified\nEnglish\nAfrikaans\nالعربية\nČeština\nDansk\nDeutsch\nΕλληνικά\nEnglish\nEnglish (UK)\nEspañol (España)\nEspañol\nفارسی\nSuomi\nFrançais\nעברית\nBahasa Indonesia\nItaliano\n日本語\n한국어\nBahasa Melayu\nNorsk\nNederlands\nPolski\nPortuguês (Brasil)\nPortuguês (Portugal)\nРусский\nSvenska\nภาษาไทย\nFilipino\nTürkçe\n中文(简体)\n中文(台灣)\nবাংলা\nગુજરાતી\nहिन्दी\nHrvatski\nMagyar\nಕನ್ನಡ\nമലയാളം\nमराठी\nनेपाली\nਪੰਜਾਬੀ\nසිංහල\nSlovenčina\nதமிழ்\nతెలుగు\nاردو\nTiếng Việt\n中文(香港)\nБългарски\nFrançais (Canada)\nRomână\nСрпски\nУкраїнська\n© 202",
+          "assetId": "0be069cecedd52d652e657e4f881b8c05631b726639b5af787212ca0132f8e6a"
+        },
+        {
+          "id": "f0f2f7c7183c1e55a5ae1880",
+          "url": "https://www.instagram.com/tylerlcrawford/reel/DcZxbpBAJDI/",
+          "kind": "browser_snapshot",
+          "text": "Log In\nSign Up\nNever miss a post from tylerlcrawford\nSign up for Instagram to stay in the loop.\nBy continuing, you agree to Instagram's Terms of Use and Privacy Policy.\nSign up\nLog in\ntylerlcrawford\n•\nFollow\ntylerlcrawford\n \n6w\nMy apartment runs itself, and this one is everything that happens while I am asleep.\n\nShades close at 9:22. Kitchen shelf lights shut off at 9:50, which is my signal that the day is over. The Pura kicks on lavender. My Eight Sleep adjusts the bed temperature all night based on my body. The humidifier holds the room at 60%. And 45 minutes after sunrise the blackout layer opens first, then the solar shades, so I wake up to the skyline instead of an alarm.\n\nI set all of it up once and it has run every night since. That is the whole point of the hometel.\n\nSave this for when you are ready to automate your own space and send it to whoever you share a bed with.\n\n#smartho",
+          "assetId": "0c4e6b1712a57a8953c80894ab4e42ec80d3a98fcb24093cd3ab8637bc14715e"
+        }
+      ]
+    },
+    {
+      "id": "research-d22f5bc3f9c80da1a4979ca5|instagram:valstechtalkk",
+      "taskId": "research-d22f5bc3f9c80da1a4979ca5",
+      "handle": "valstechtalkk",
+      "displayName": "V",
+      "platform": "instagram",
+      "tags": [
+        "公开文字内容明确分享科技内容"
+      ],
+      "verdict": "no_match",
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "no_match",
+          "reason": "WaveSurge 地区：US；服务标记国家已确认",
+          "evidenceIds": [],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 39639，要求 10000–100000",
+          "evidenceIds": [],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "technology_content",
+          "verdict": "match",
+          "reason": "人工协助后取得的公开帖子文字与截图可见，作者为 valstechtalkk，文案为“camera settings i turn on for the CRISP quality”，并含 #iphone、#iphonetips、#iphonecamera；画面文字为“DAY NINE : IPHONE CAMERA TIPS”。明确分享 iPhone 相机设置与使用技巧，符合科技内容条件。页面仅显示相对时间“23 hours ago”，不推断精确发布日期；本条件未要求时间范围。主页公开简介“tech but make it cute”“Reviews”提供补充佐证。",
+          "evidenceIds": [
+            "3170fea138470cda124e98fb",
+            "834e31e4ad5d6471a34c29b6"
+          ],
+          "label": "公开文字内容明确分享科技内容"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "37e38a48f5a4b516db6c6271",
+          "url": "https://www.instagram.com/valstechtalkk/",
+          "kind": "content",
+          "text": "Profile: 'tech but make it cute 📱 | HTX; Reviews + a little glam... 400k+ tech besties on tiktok.' Followers 39,639; category_name Tech; is_business_account false; is_verified true."
+        },
+        {
+          "id": "385029a29d98998b76c8b4dc",
+          "url": "https://www.instagram.com/p/Ddk7C9lKgE4/",
+          "kind": "content",
+          "text": "Day 1 of iPhone features you may not know. Welcome to all of the tips and tricks! #iphone18 #iphonetips #iphonetipsandtricks. Reel had 389,651 views."
+        },
+        {
+          "id": "834e31e4ad5d6471a34c29b6",
+          "url": "https://www.instagram.com/valstechtalkk/",
+          "kind": "browser_snapshot",
+          "text": "Log In\nSign Up\nvalstechtalkk\n39.6K followers\n523 following\nV\ntech but make it cute 📱 | HTX\nReviews + a little glam 💒💄\n400k+ tech besties on tiktok 👩🏻‍💻\n📧 : Valstech@swipemgmt.com\nlinktr.ee/Valstechtalk\nShow more posts from valstechtalkk\nMeta\nAbout\nBlog\nJobs\nHelp\nAPI\nPrivacy\nTerms\nLocations\nPopular\nInstagram Lite\nMeta AI\nMuse\nThreads\nContact Uploading & Non-Users\nMeta Verified\nEnglish\nAfrikaans\nالعربية\nČeština\nDansk\nDeutsch\nΕλληνικά\nEnglish\nEnglish (UK)\nEspañol (España)\nEspañol\nفارسی\nSuomi\nFrançais\nעברית\nBahasa Indonesia\nItaliano\n日本語\n한국어\nBahasa Melayu\nNorsk\nNederlands\nPolski\nPortuguês (Brasil)\nPortuguês (Portugal)\nРусский\nSvenska\nภาษาไทย\nFilipino\nTürkçe\n中文(简体)\n中文(台灣)\nবাংলা\nગુજરાતી\nहिन्दी\nHrvatski\nMagyar\nಕನ್ನಡ\nമലയാളം\nमराठी\nनेपाली\nਪੰਜਾਬੀ\nසිංහල\nSlovenčina\nதமிழ்\nతెలుగు\nاردو\nTiếng Việt\n中文(香港)\nБългарски\nFrançais (Canada)\nRomână\nСрпски\nУкраїнська\n© 2026 Instagram from Meta",
+          "assetId": "ca68eec12d3e2421614e3bbab49aaff4cb59898e749ce2fc4aa79a67fb439090"
+        },
+        {
+          "id": "7ffef03d5a204875781af192",
+          "url": "https://www.instagram.com/valstechtalkk/reel/DeQfBbyKmOR/",
+          "kind": "browser_snapshot",
+          "text": "Log In\nSign Up\nNever miss a post from valstechtalkk\nSign up for Instagram to stay in the loop.\nBy continuing, you agree to Instagram's Terms of Use and Privacy Policy.\nSign up\nLog in\nvalstechtalkk\n•\nFollow\nOriginal audio\nvalstechtalkk\n \n23h\ncamera settings i turn on for the CRISP quality 🤩 #iphone #iphonetips #iphone18promax #iphonecamera\nyounesyouceffateh\n \n4h\n❤️❤️\nLike\nReply\nalvillit\n \n9h\n@d.i.a.n.a.d.e.e\nLike\nReply\nim_obaaa\n \n10h\nI get the crisp video and pictures alright. But once I upload it on WhatsApp status,it becomes blur and has a poor quality. I don’t know how to correct it @valstechtalkk\nLike\nReply\nthejamiero_\n \n13h\nThe “photographic style”, do you have a video on how to set it to “+glow” I know how to set it to Amber. But I’m curious about the “+glow” part.\nLike\nReply\nvvendyfranco\n \n22h\nI love the case!!!!!\n1 like\nReply\nsaraa_aaraas\n \n22h\n😍😍😍\nLike\nReply\ntialicha_77\n \n22h",
+          "assetId": "5f44f6edda5a55332fdfc3b69e8ea7766d02a143fc4c9c727df5c078957feb20"
+        },
+        {
+          "id": "3170fea138470cda124e98fb",
+          "url": "https://www.instagram.com/valstechtalkk/reel/DeQfBbyKmOR/",
+          "kind": "browser_snapshot",
+          "text": "Log In\nSign Up\nvalstechtalkk\n•\nFollow\nOriginal audio\nvalstechtalkk\n \n23h\ncamera settings i turn on for the CRISP quality 🤩 #iphone #iphonetips #iphone18promax #iphonecamera\nyounesyouceffateh\n \n4h\n❤️❤️\nLike\nReply\nalvillit\n \n9h\n@d.i.a.n.a.d.e.e\nLike\nReply\nim_obaaa\n \n10h\nI get the crisp video and pictures alright. But once I upload it on WhatsApp status,it becomes blur and has a poor quality. I don’t know how to correct it @valstechtalkk\nLike\nReply\nthejamiero_\n \n13h\nThe “photographic style”, do you have a video on how to set it to “+glow” I know how to set it to Amber. But I’m curious about the “+glow” part.\nLike\nReply\nvvendyfranco\n \n22h\nI love the case!!!!!\n1 like\nReply\nsaraa_aaraas\n \n22h\n😍😍😍\nLike\nReply\ntialicha_77\n \n22h\nThank you and gurlll where did you get that case at 😍\nLike\nReply\nlachiqui10\n \n22h\nIn love with your case. Pls send me the link 🫶🏻\n1 like\nReply\nzeaugen_\n \n22h\nMy dea",
+          "assetId": "8541d87f8b8e93c1e8da5427f7dfa5c1969471e9f1fb3a6780bdefd2fc34ea47"
+        }
+      ]
+    },
+    {
+      "id": "research-b30bacd90e74569b33e06bfc|youtube:colelangs",
+      "taskId": "research-b30bacd90e74569b33e06bfc",
+      "handle": "colelangs",
+      "displayName": "ColeLangs",
+      "platform": "youtube",
+      "tags": [
+        "公开内容使用英语"
+      ],
+      "verdict": "unknown",
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "unknown",
+          "reason": "未取得创作者地区",
+          "evidenceIds": [],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：youtube",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "unknown",
+          "reason": "未取得粉丝数",
+          "evidenceIds": [],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "english_content",
+          "verdict": "match",
+          "reason": "公开标题、简介及教程章节均使用英语。2024-04-26发布的Anki视频简介写有“I'll teach you everything about Anki”，章节包括“Installing Anki”和“Making and Styling Cards”。",
+          "evidenceIds": [
+            "a1633b15d73114cd7c99a411",
+            "d9a4084b32b828c0b927be07"
+          ],
+          "label": "公开内容使用英语"
+        },
+        {
+          "criterionId": "tool_tutorials",
+          "verdict": "unknown",
+          "reason": "2024-04-26的Anki视频标题与简介明确称为逐步教程，章节列出安装、制卡、填空卡和图片遮挡等操作主题；但当前公开文字只有章节目录，没有取得具体点击、输入或设置步骤。打开文字稿后未加载出正文，播放器出现错误，不能仅凭标题或工具方摘要确认严格的实际步骤要求。",
+          "evidenceIds": [
+            "a1633b15d73114cd7c99a411",
+            "6b00edd599a7aba83f1de75e",
+            "2f091009f3652e5316931e00"
+          ],
+          "label": "公开文字内容须提供AI工具或数字学习效率工具的实际教学教程，明确呈现具体操作步骤；仅有概括讲解、展示或评测不满足条件"
+        },
+        {
+          "criterionId": "notes_revision_use",
+          "verdict": "unknown",
+          "reason": "已取得的Anki简介仅承诺制作闪卡以“learn anything”，章节是通用工具操作，未取得明确用于课堂笔记或考试复习的具体文字步骤。工具方所称“applicable”只是适用性推断；文字稿未成功加载，因此不能确认该必选用途。",
+          "evidenceIds": [
+            "a1633b15d73114cd7c99a411",
+            "2f091009f3652e5316931e00"
+          ],
+          "label": "公开文字教程必须明确展示将工具用于课堂笔记或考试复习的具体步骤，至少涉及其中一种用途；仅提及用途而无具体步骤不满足条件"
+        },
+        {
+          "criterionId": "college_relevance",
+          "verdict": "unknown",
+          "reason": "频道简介为“people, places, ideas, and languages”，Anki教程面向“learn anything”及语言学习者；当前已核验文字未明确指向大学课堂或大学生受众。未取得文字稿，不能据Anki工具的一般用途推断大学相关性，也不推断创作者学生身份。",
+          "evidenceIds": [
+            "d9a4084b32b828c0b927be07",
+            "a1633b15d73114cd7c99a411",
+            "2f091009f3652e5316931e00"
+          ],
+          "label": "公开内容明确面向大学学习场景或大学生受众，不推断创作者本人学生身份"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "0e2c68015ea7130a23067f85",
+          "url": "https://www.youtube.com/channel/UCsMpVWATEEON-9A0ac64lfQ",
+          "kind": "content",
+          "text": "Channel reads 37.4K subscribers, 140 videos, country United States. Evidence ID ev_8a24d1b9."
+        },
+        {
+          "id": "ac28eacac3610a79f1ed33d8",
+          "url": "https://www.youtube.com/watch?v=CnGlPXgGQbo",
+          "kind": "content",
+          "text": "Full step-by-step Anki guide with timestamps for cards, cloze, image occlusion, decks and study workflows. Evidence ID ev_987b63c6."
+        },
+        {
+          "id": "1b086a917635031c07f5ea03",
+          "url": "https://www.youtube.com/@colelangs",
+          "kind": "browser_snapshot",
+          "text": "",
+          "assetId": "22ed3657216e816b93ea8043a691799b57e6cb4d2e7a59786dcced3eec3c079e"
+        },
+        {
+          "id": "d9a4084b32b828c0b927be07",
+          "url": "https://www.youtube.com/@colelangs",
+          "kind": "browser_snapshot",
+          "text": "SG\nSkip navigation\nSign in\nHome\nShorts\nSubscriptions\nYou\nHistory\nSign in to like videos, comment, and subscribe.\nSign in\nExplore\nMusic\nMovies\nGaming\nShow more\nMore from YouTube\nYouTube Premium\nYouTube Kids\nReport history\nAboutPressCopyrightContact usCreatorsAdvertiseDevelopers\nTermsPrivacyPolicy & SafetyHow YouTube worksTest new features\n© 2026 Google LLC\nColeLangs\n@ColeLangs\n•\n37.4K subscribers\n•\n140 videos\npeople, places, ideas, and languages \n...more\nSubscribe\nJoin\nHome\nVideos\nShorts\nLive\nPodcasts\nPlaylists\nPosts\nI spent 90 Days in the Middle East and it made me question everything\nIncludes paid promotion\n0:00 / 14:48\nI spent 90 Days in the Middle East and it made me question everything\n741,614 views\n3y ago\n🔵 Get 35% off of LingQ here: \nhttps://www.lingq.com/accounts/new/?n...\n\n📘Book: https://www.amazon.com/dp/B0CN58MT7V\n🔴SUBSCRIBE here if you're really cool:   https://bit.ly/3qd8e",
+          "assetId": "598adc983353f21c1d2c8776fef0b3b7b9a6f48dbec7ae54fe220b36e5830258"
+        },
+        {
+          "id": "301763f6bcfbcff6dd6b140b",
+          "url": "https://www.youtube.com/watch?v=CnGlPXgGQbo",
+          "kind": "browser_snapshot",
+          "text": "0:00 / 0:15",
+          "assetId": "43bec3ae18244b907dfdbe02305ec923647494752cfc2737aac39c8865191b95"
+        },
+        {
+          "id": "59e280187edc6b7bddf00e29",
+          "url": "https://www.youtube.com/watch?v=CnGlPXgGQbo",
+          "kind": "browser_snapshot",
+          "text": "SG\nSkip navigation\nSign in\nTry Xero for free*\nxero.com\nLearn more\nSponsored\n1 of 2\nxero.com\n0:03 / 0:15\nMaster Anki in 18 Minutes | Full Step-By-Step Guide to Learn Anything\nColeLangs\n37.4K subscribers\nJoin\nSubscribe\n459\nShare\nSave\n12K views  2y ago  #colelangs\nThe Only Anki Video You'll Ever Need. I'll teach you everything about Anki and making the best and most interactive flashcards anywhere. Once you finish watching this Anki tutorial, you'll be equipped to make your own amazing flashcards to learn anything in the world in less time.\n …\nmore\n\nComments\n \n \n \n \nTry Xero for free*\nSponsored\nxero.com\nLearn more\n18:31\nEvery Study Technique Explained in 18 Minutes\niCanStudy\n217K\n1mo ago\n23:04\nNew\nJack Doherty's Life Is Falling Apart\nInternet Anarchist\n229K\n4h ago\n32:38\nHow To Use Anki Like A Pro: Full Step-by-Step Walkthrough\nAlec Palmerton, MD\n55K\n1y ago\n14:02\nHow to Use Anki (Step-by-Ste",
+          "assetId": "29b7268acb754134a5973d9e8056d35407632fb378de1302389427d0ea22c617"
+        },
+        {
+          "id": "a1633b15d73114cd7c99a411",
+          "url": "https://www.youtube.com/watch?v=CnGlPXgGQbo",
+          "kind": "browser_snapshot",
+          "text": "SG\nSkip navigation\nSign in\n0:02 / 18:02\nInstalling Anki\nMaster Anki in 18 Minutes | Full Step-By-Step Guide to Learn Anything\nColeLangs\n37.4K subscribers\nJoin\nSubscribe\n459\nShare\nSave\n12,127 views  Apr 26, 2024  #colelangs\nThe Only Anki Video You'll Ever Need. I'll teach you everything about Anki and making the best and most interactive flashcards anywhere. Once you finish watching this Anki tutorial, you'll be equipped to make your own amazing flashcards to learn anything in the world in less time.\n\nDownload Anki Here: https://apps.ankiweb.net/\nAnki Manual: https://docs.ankiweb.net/getting-star...\n\n📘Learning a language? Check out my book: https://a.co/d/hoLGHZP\n\n🟡CONNECT WITH ME🟡\n🎟Instagram:   / cole.langs  \n💻Discord:   / discord  \n\n⌛TIMESTAMPS\n0:00 Installing Anki\n0:16 Making and Styling Cards\n3:39 Card Types\n4:12 Type in the Answer Cards\n4:48 Cloze Cards\n5:50 Image Occlusion (Mak",
+          "assetId": "5493cfd22f899981657e8659570fe6ac96f33b005ec0523fb2d96a88331b7ff5"
+        },
+        {
+          "id": "6b00edd599a7aba83f1de75e",
+          "url": "https://www.youtube.com/watch?v=CnGlPXgGQbo",
+          "kind": "browser_snapshot",
+          "text": "SG\nSkip navigation\nSign in\n0:02 / 18:02\nMaking and Styling Cards\nMaster Anki in 18 Minutes | Full Step-By-Step Guide to Learn Anything\nColeLangs\n37.4K subscribers\nJoin\nSubscribe\n459\nShare\nSave\n12,127 views  Apr 26, 2024  #colelangs\nThe Only Anki Video You'll Ever Need. I'll teach you everything about Anki and making the best and most interactive flashcards anywhere. Once you finish watching this Anki tutorial, you'll be equipped to make your own amazing flashcards to learn anything in the world in less time.\n\nDownload Anki Here: https://apps.ankiweb.net/\nAnki Manual: https://docs.ankiweb.net/getting-star...\n\n📘Learning a language? Check out my book: https://a.co/d/hoLGHZP\n\n🟡CONNECT WITH ME🟡\n🎟Instagram:   / cole.langs  \n💻Discord:   / discord  \n\n⌛TIMESTAMPS\n0:00 Installing Anki\n0:16 Making and Styling Cards\n3:39 Card Types\n4:12 Type in the Answer Cards\n4:48 Cloze Cards\n5:50 Image Occlu",
+          "assetId": "7f9f9d14a55f0047c2356462a5e6d2367ddf9094d6d4bb3552160e0b72652e6c"
+        },
+        {
+          "id": "2f091009f3652e5316931e00",
+          "url": "https://www.youtube.com/watch?v=CnGlPXgGQbo",
+          "kind": "browser_snapshot",
+          "text": "SG\nSkip navigation\nSign in\nSomething went wrong. Refresh or try again later.\nLearn more\n0:45 / 18:02\nMaking and Styling Cards\nMaster Anki in 18 Minutes | Full Step-By-Step Guide to Learn Anything\nColeLangs\n37.4K subscribers\nJoin\nSubscribe\n459\nShare\nSave\n12,127 views  Apr 26, 2024  #colelangs\nThe Only Anki Video You'll Ever Need. I'll teach you everything about Anki and making the best and most interactive flashcards anywhere. Once you finish watching this Anki tutorial, you'll be equipped to make your own amazing flashcards to learn anything in the world in less time.\n\nDownload Anki Here: https://apps.ankiweb.net/\nAnki Manual: https://docs.ankiweb.net/getting-star...\n\n📘Learning a language? Check out my book: https://a.co/d/hoLGHZP\n\n🟡CONNECT WITH ME🟡\n🎟Instagram:   / cole.langs  \n💻Discord:   / discord  \n\n⌛TIMESTAMPS\n0:00 Installing Anki\n0:16 Making and Styling Cards\n3:39 Card Types\n4:",
+          "assetId": "5ce4fd2ee91ca22ba8aa8f42d4d217b27002ed54fa809d058ad0aeeabc0fcf5c"
+        }
+      ]
+    },
+    {
+      "id": "research-b30bacd90e74569b33e06bfc|youtube:wesleyanna",
+      "taskId": "research-b30bacd90e74569b33e06bfc",
+      "handle": "wesleyanna",
+      "displayName": "Wesley Anna",
+      "platform": "youtube",
+      "tags": [
+        "公开内容使用英语"
+      ],
+      "verdict": "unknown",
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "unknown",
+          "reason": "未取得创作者地区",
+          "evidenceIds": [],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：youtube",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "unknown",
+          "reason": "未取得粉丝数",
+          "evidenceIds": [],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "english_content",
+          "verdict": "match",
+          "reason": "频道公开帖子及所核验视频标题、简介均使用英语，例如“Today I have another video from my Notion series”。视频页面显示发布日期为2023年1月21日。",
+          "evidenceIds": [
+            "dcf1c2d538669e7ff3546fda",
+            "5ad842b87badb2b84de81aae"
+          ],
+          "label": "公开内容使用英语"
+        },
+        {
+          "criterionId": "tool_tutorials",
+          "verdict": "unknown",
+          "reason": "2023年1月21日的Notion入门视频简介称教授搭建布局，章节包括03:25“3...2...1...build!”和12:17技巧，但这些文字未呈现具体操作步骤。已尝试打开文字稿，未加载出正文，播放器随后报错；不能仅凭教程标题、章节或提供方概括判定满足实际分步教学。",
+          "evidenceIds": [
+            "5ad842b87badb2b84de81aae",
+            "8a798fd5d20e19cee16b0fe1",
+            "27a4382abe9c3f1705232047"
+          ],
+          "label": "公开文字内容须提供AI工具或数字学习效率工具的实际教学教程，明确呈现具体操作步骤；仅有概括讲解、展示或评测不满足条件"
+        },
+        {
+          "criterionId": "notes_revision_use",
+          "verdict": "unknown",
+          "reason": "已读取的公开视频简介与章节未展示课堂笔记或考试复习的具体步骤；提供方仅概括学生模板资源，不能证明此必选条件。文字稿正文未能加载，尚不足以确定创作者是否有符合用途的教程。",
+          "evidenceIds": [
+            "5ad842b87badb2b84de81aae",
+            "7b0b7e9a9cdd92ca0499ba85",
+            "27a4382abe9c3f1705232047"
+          ],
+          "label": "公开文字教程必须明确展示将工具用于课堂笔记或考试复习的具体步骤，至少涉及其中一种用途；仅提及用途而无具体步骤不满足条件"
+        },
+        {
+          "criterionId": "college_relevance",
+          "verdict": "unknown",
+          "reason": "所核验频道文字与视频简介未明确面向大学生或大学学习场景。“Notion University”在简介中是创作者的Notion工作区课程名称，不能据此推断大学受众；页面大学/医学生相关推荐视频属于其他频道，不能归于此候选。",
+          "evidenceIds": [
+            "dcf1c2d538669e7ff3546fda",
+            "5ad842b87badb2b84de81aae"
+          ],
+          "label": "公开内容明确面向大学学习场景或大学生受众，不推断创作者本人学生身份"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "4bc6430c102a2a4ea23ae0f3",
+          "url": "https://www.youtube.com/channel/UCmxHnI5y-XFqMAJksgUAbig",
+          "kind": "content",
+          "text": "Channel reads 91.3K subscribers, 147 videos, country United States, with Notion template links. Evidence ID ev_51247b7e."
+        },
+        {
+          "id": "7b0b7e9a9cdd92ca0499ba85",
+          "url": "https://www.youtube.com/watch?v=FrhFvIsq86g",
+          "kind": "content",
+          "text": "Timestamped Notion beginner walkthrough covering workspaces and beginner tips, plus student template resources. Evidence ID ev_37a75581."
+        },
+        {
+          "id": "53255d17c10112d35a860bee",
+          "url": "https://www.youtube.com/@wesleyanna",
+          "kind": "browser_snapshot",
+          "text": "",
+          "assetId": "22ed3657216e816b93ea8043a691799b57e6cb4d2e7a59786dcced3eec3c079e"
+        },
+        {
+          "id": "dcf1c2d538669e7ff3546fda",
+          "url": "https://www.youtube.com/@wesleyanna",
+          "kind": "browser_snapshot",
+          "text": "SG\nSkip navigation\nSign in\nHome\nShorts\nSubscriptions\nYou\nHistory\nSign in to like videos, comment, and subscribe.\nSign in\nExplore\nMusic\nMovies\nGaming\nShow more\nMore from YouTube\nYouTube Premium\nYouTube Kids\nReport history\nAboutPressCopyrightContact usCreatorsAdvertiseDevelopers\nTermsPrivacyPolicy & SafetyHow YouTube worksTest new features\n© 2026 Google LLC\nWesley Anna\n@WesleyAnna\n•\n91.3K subscribers\n•\n147 videos\njust trying to make the internet fun again  ʕ•́ᴥ•̀ʔっ \n...more\n wesleyanna.gumroad.com/l/ultimate-notion-dashboard\nand 5 more links\nSubscribe\nHome\nVideos\nPlaylists\nPosts\nVideos\n12:18\nmy channel was hacked (what happened & how i got it back)\n7.1K\n1d ago\n17:54\ni built myself a home on the internet ‎🪐 ✩˚₊‧\n22K\n2w ago\n30:03\nhow i organize the chaos in my head (2026 capacities tour)\n11K\n4w ago\n12:17\nanti-AI is the new virtue signal\n5.2K\n1mo ago\n13:54\nso...i flew to seoul to get work do",
+          "assetId": "4eb7fb8eab995c0059a2a14c40d5a1037341e28cb3cd68136e9995d8cc3d0f80"
+        },
+        {
+          "id": "2bbdd998b60f16e1a9ced81c",
+          "url": "https://www.youtube.com/watch?v=FrhFvIsq86g",
+          "kind": "browser_snapshot",
+          "text": "0:00 / 16:05",
+          "assetId": "d01dbba1cb90f34c64ec6e75c0f7a34130eb17cebd87b9057157d88cb404db0b"
+        },
+        {
+          "id": "ecf42243a1b8c54d5f5efd86",
+          "url": "https://www.youtube.com/watch?v=FrhFvIsq86g",
+          "kind": "browser_snapshot",
+          "text": "SG\nSkip navigation\nSign in\n0:03 / 16:05\nyou can skip i'm not offended\nhow to get started in notion *without losing your mind* | notion for beginners\nWesley Anna\n91.3K subscribers\nSubscribe\n131K\nShare\nSave\n4.3M views  3y ago\nToday I have another video from my Notion series, but this time we're focusing on how to get started as a beginner! I  know it can be très ~overwhelming~ when opening Notion for the first time (so many beautiful templates! so many cool widgets!) but I wanted to prove that building your own layout doesn't have to take as much time as you'd think. …\nmore\n\nComments\n \n \n \n \n2:00:07\n50/10 Pomodoro Timer with Brown Noise 🎧 2-Hour Study with Me for Deep Focus & ADHD ✨\nTimer Palette\n963K\n7mo ago\n18:23\nhow i organize my life & stay productive💡notion tour + free template\ndobochobo\n1.2M\n5y ago\n25:29\nthe ULTIMATE Notion tour | how I organize my life as a med student\nSab Yang\n91",
+          "assetId": "f1fd04ae9d0d5f567aedf07528e96d1452d3eafc2588253e28097fe19b7416ca"
+        },
+        {
+          "id": "5ad842b87badb2b84de81aae",
+          "url": "https://www.youtube.com/watch?v=FrhFvIsq86g",
+          "kind": "browser_snapshot",
+          "text": "SG\nSkip navigation\nSign in\n0:03 / 16:05\nyou can skip i'm not offended\nhow to get started in notion *without losing your mind* | notion for beginners\nWesley Anna\n91.3K subscribers\nSubscribe\n131K\nShare\nSave\n4,342,203 views  Jan 21, 2023\nToday I have another video from my Notion series, but this time we're focusing on how to get started as a beginner! I  know it can be très ~overwhelming~ when opening Notion for the first time (so many beautiful templates! so many cool widgets!) but I wanted to prove that building your own layout doesn't have to take as much time as you'd think.\n\n00:00 you can skip i'm not offended\n01:44 what is notion, really?\n03:25 3...2...1...build!\n12:17 cheeky tips (ง •̀_•́)ง\n\n✨ n o t i o n  t e m p l a t e s ✨ \n\n🐸 Eat the Frog Notion Game Template! https://wesleyanna.gumroad.com/l/eat-...\n\nThe template made in this video (as well as the rest of my free templates) can",
+          "assetId": "ffa308515cc9c8185674a75cfca9fb02c77909e20c1c06cc964ea149ee9588ab"
+        },
+        {
+          "id": "8a798fd5d20e19cee16b0fe1",
+          "url": "https://www.youtube.com/watch?v=FrhFvIsq86g",
+          "kind": "browser_snapshot",
+          "text": "SG\nSkip navigation\nSign in\n0:03 / 16:05\nyou can skip i'm not offended\nhow to get started in notion *without losing your mind* | notion for beginners\nWesley Anna\n91.3K subscribers\nSubscribe\n131K\nShare\nSave\n4,342,203 views  Jan 21, 2023\nToday I have another video from my Notion series, but this time we're focusing on how to get started as a beginner! I  know it can be très ~overwhelming~ when opening Notion for the first time (so many beautiful templates! so many cool widgets!) but I wanted to prove that building your own layout doesn't have to take as much time as you'd think.\n\n00:00 you can skip i'm not offended\n01:44 what is notion, really?\n03:25 3...2...1...build!\n12:17 cheeky tips (ง •̀_•́)ง\n\n✨ n o t i o n  t e m p l a t e s ✨ \n\n🐸 Eat the Frog Notion Game Template! https://wesleyanna.gumroad.com/l/eat-...\n\nThe template made in this video (as well as the rest of my free templates) can",
+          "assetId": "4c1560b778b312d28e812f399f94b6925d645b4026cb6761f757e741c293634f"
+        },
+        {
+          "id": "27a4382abe9c3f1705232047",
+          "url": "https://www.youtube.com/watch?v=FrhFvIsq86g",
+          "kind": "browser_snapshot",
+          "text": "SG\nSkip navigation\nSign in\nSomething went wrong. Refresh or try again later.\nLearn more\n0:42 / 16:05\nyou can skip i'm not offended\nhow to get started in notion *without losing your mind* | notion for beginners\nWesley Anna\n91.3K subscribers\nSubscribe\n131K\nShare\nSave\n4,342,203 views  Jan 21, 2023\nToday I have another video from my Notion series, but this time we're focusing on how to get started as a beginner! I  know it can be très ~overwhelming~ when opening Notion for the first time (so many beautiful templates! so many cool widgets!) but I wanted to prove that building your own layout doesn't have to take as much time as you'd think.\n\n00:00 you can skip i'm not offended\n01:44 what is notion, really?\n03:25 3...2...1...build!\n12:17 cheeky tips (ง •̀_•́)ง\n\n✨ n o t i o n  t e m p l a t e s ✨ \n\n🐸 Eat the Frog Notion Game Template! https://wesleyanna.gumroad.com/l/eat-...\n\nThe template made",
+          "assetId": "d04a7249677b39e440b07b37b94b024d20cbc9cfa2e4909a67b9dec9223035a1"
+        }
+      ]
+    },
+    {
+      "id": "research-fd88375f69e716ff5cbc9fef|youtube:schoolhabits",
+      "taskId": "research-fd88375f69e716ff5cbc9fef",
+      "handle": "schoolhabits",
+      "displayName": "SchoolHabits",
+      "platform": "youtube",
+      "tags": [
+        "公开内容使用英语",
+        "公开内容明确分享课堂笔记整理或考试复习方法，至少涉及其中一种场景",
+        "公开内容明确面向大学学习场景或大学生受众，不推断创作者本人学生身份"
+      ],
+      "verdict": "unknown",
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "unknown",
+          "reason": "未取得创作者地区",
+          "evidenceIds": [],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：youtube",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "unknown",
+          "reason": "未取得粉丝数",
+          "evidenceIds": [],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "english_content",
+          "verdict": "match",
+          "reason": "频道公开简介、视频标题及展开后的视频说明均使用英语，例如“How to Study from a Study Guide You Got from Your Teacher”及“In this video, I show you exactly how to do that.”，满足公开内容使用英语；不据此断言全部音轨只有英语。",
+          "evidenceIds": [
+            "28fa021bbdbca5feb8039546",
+            "1a70681ec7a4c14c043ba6bd"
+          ],
+          "label": "公开内容使用英语"
+        },
+        {
+          "criterionId": "study_scenarios",
+          "verdict": "match",
+          "reason": "视频页面显示发布日期为2026年9月10日；说明明确讲解如何使用老师给的复习指南把信息记住以应对考试，章节包括“What to actually do with a study guide”和“How to remember information for the test”，直接满足考试复习方法场景。",
+          "evidenceIds": [
+            "1a70681ec7a4c14c043ba6bd"
+          ],
+          "label": "公开内容明确分享课堂笔记整理或考试复习方法，至少涉及其中一种场景"
+        },
+        {
+          "criterionId": "college_relevance",
+          "verdict": "match",
+          "reason": "频道主页的公开欢迎视频说明明确写“My online study skills course for high school and college students”，直接指明学习技巧内容面向大学生（同时也面向高中生），不是从外观或创作者本人身份推断。主页仅显示欢迎视频相对日期1y ago，不推算精确发布日期。",
+          "evidenceIds": [
+            "28fa021bbdbca5feb8039546"
+          ],
+          "label": "公开内容明确面向大学学习场景或大学生受众，不推断创作者本人学生身份"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "71aaaf4300a17dbf7fd4b5de",
+          "url": "https://www.youtube.com/channel/UCif2xthZcmDp2NxvG56Gdlg",
+          "kind": "content",
+          "text": "Channel reports 20.4K subscribers, 131 videos, country United States, and describes study skills, procrastination, time management, and note-taking content."
+        },
+        {
+          "id": "71ae0814ecd55edf0f91627a",
+          "url": "https://www.youtube.com/watch?v=2-hEEuugLxs",
+          "kind": "content",
+          "text": "Recent SchoolHabits video titled 'How to Study from a Study Guide You Got from Your Teacher.'"
+        },
+        {
+          "id": "a6f9b7d414241735718c39e7",
+          "url": "https://www.youtube.com/watch?v=izW6jnOqOYI",
+          "kind": "content",
+          "text": "SchoolHabits video titled 'How to Use Dual Coding to Study.'"
+        },
+        {
+          "id": "b0cd132da717a5851430b971",
+          "url": "https://www.youtube.com/@schoolhabits",
+          "kind": "browser_snapshot",
+          "text": "",
+          "assetId": "22ed3657216e816b93ea8043a691799b57e6cb4d2e7a59786dcced3eec3c079e"
+        },
+        {
+          "id": "28fa021bbdbca5feb8039546",
+          "url": "https://www.youtube.com/@schoolhabits",
+          "kind": "browser_snapshot",
+          "text": "SG\nSkip navigation\nSign in\nHome\nShorts\nSubscriptions\nYou\nHistory\nSign in to like videos, comment, and subscribe.\nSign in\nExplore\nMusic\nMovies\nGaming\nShow more\nMore from YouTube\nYouTube Premium\nYouTube Kids\nReport history\nAboutPressCopyrightContact usCreatorsAdvertiseDevelopers\nTermsPrivacyPolicy & SafetyHow YouTube worksTest new features\n© 2026 Google LLC\nSchoolHabits\n@SchoolHabits\n•\n20.4K subscribers\n•\n131 videos\nI teach students and professionals strategies to learn and work smarter. I cover everything from study skills to procrastination, time management to note-taking. Trust me - with the right systems, habits, strategies and tweaks, things can be wayyy easier than they are now. \n...more\n schoolhabits.com\nand 3 more links\nSubscribe\nHome\nVideos\nShorts\nPlaylists\nPosts\nWelcome to SchoolHabits\n0:00 / 1:10\nWelcome to SchoolHabits\n1,651 views\n1y ago\nMy name is Katie Azevedo. Through privat",
+          "assetId": "c935944b64e979625c9bdab6e5778bb0b5c08567a40439c37ccf5615236a3097"
+        },
+        {
+          "id": "668f2650035e9b9523e7a1b0",
+          "url": "https://www.youtube.com/watch?v=2-hEEuugLxs",
+          "kind": "browser_snapshot",
+          "text": "Only brand with 8 Brain Building Nutrients*| Enfagrow A+ Pro\n0:00 / 0:06",
+          "assetId": "cd124b0ae75e0f523ed4b01f29190559c702943bb332b0f798c9d12b5e1400d9"
+        },
+        {
+          "id": "81170219b9276d3c01049525",
+          "url": "https://www.youtube.com/watch?v=2-hEEuugLxs",
+          "kind": "browser_snapshot",
+          "text": "SG\nSkip navigation\nSign in\n0:00 / 2:35\nHow to Study from a Study Guide You Got from Your Teacher\nSchoolHabits\n20.4K subscribers\nSubscribe\n10\nShare\nSave\n328 views  4w ago\nMY COURSES\n🧠 SchoolHabits University → (This is the ultimate “How to Do School Way Easier” program for students who don’t have time to do a “How to Do School Way Easier” program. 🤓) https://www.schoolhabitsuniversity.co... …\nmore\n\nComments\n \n \n \n \n3:54\nMemorize Anything So Fast It's Almost Unfair\nBetterU\n2M\n6mo ago\n18:19\nNICHE Things I Put in My Personal Statement (Got Me Into Imperial)\nwill brito\n24K\n1mo ago\n5:09\n3 tips on how to study effectively\nTED-Ed\n9.1M\n2y ago\n15:02\n5 Secret Study Rules that Make Studying Easier\nSchoolHabits\n756\n4mo ago\n11:16\nhow to study less and get higher grades\nGohar Khan\n6.4M\n2y ago\n8:10\nChinese SECRET study methods( study less & get straight A’s)\nmouno\n398K\n4mo ago\n14:00\nhow to take notes ",
+          "assetId": "634b7d7f9716a67b389733cde146447340a482e199591df198ce5726c401790b"
+        },
+        {
+          "id": "1a70681ec7a4c14c043ba6bd",
+          "url": "https://www.youtube.com/watch?v=2-hEEuugLxs",
+          "kind": "browser_snapshot",
+          "text": "SG\nSkip navigation\nSign in\nSee why 16,000 companies chose Vanta\nvanta.com/customers/fileAI\nVisit site\nSponsored\nvanta.com/customers/fileai\nSkip\n0:02 / 2:35\nHow to Study from a Study Guide You Got from Your Teacher\nSchoolHabits\n20.4K subscribers\nSubscribe\n10\nShare\nSave\n328 views  Sep 10, 2026\nMY COURSES\n🧠 SchoolHabits University → (This is the ultimate “How to Do School Way Easier” program for students who don’t have time to do a “How to Do School Way Easier” program. 🤓) https://www.schoolhabitsuniversity.co...\n✅ Assignment Management Power System → https://www.assignmentmanagementsyste...\n📝 Note-Taking Power System → https://www.notetakingsystem.com/?utm...\n\nTHE JOURNAL\n📖 The Executive Function Journal (physical product, 90-day journal that targets and builds core executive functions, for people with ADHD/EF deficits) → https://www.executivefunctionjournal....\n\nYou got a study guide ",
+          "assetId": "de7186a07dbc42268ad7391b0cbe0bd12c576ffbd14ae533eae1e2c4f088f3c4"
+        }
+      ]
+    },
+    {
+      "id": "research-fd88375f69e716ff5cbc9fef|youtube:raytubelcsw",
+      "taskId": "research-fd88375f69e716ff5cbc9fef",
+      "handle": "raytubelcsw",
+      "displayName": "RayTube",
+      "platform": "youtube",
+      "tags": [
+        "公开内容使用英语",
+        "公开内容明确分享课堂笔记整理或考试复习方法，至少涉及其中一种场景"
+      ],
+      "verdict": "unknown",
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "unknown",
+          "reason": "未取得创作者地区",
+          "evidenceIds": [],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：youtube",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "unknown",
+          "reason": "未取得粉丝数",
+          "evidenceIds": [],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "english_content",
+          "verdict": "match",
+          "reason": "2026-10-10 核验的频道公开页面中，视频标题、课程说明及备考建议均使用英语，例如“ASWB Practice Questions for ALL ASWB Exam Types! RayTube #52”和“Remember, doing AT LEAST 2 practice questions a day, helps keep the exam anxiety at BAY!!!”。",
+          "evidenceIds": [
+            "82f948b56674feb4a64e9eae"
+          ],
+          "label": "公开内容使用英语"
+        },
+        {
+          "criterionId": "study_scenarios",
+          "verdict": "match",
+          "reason": "频道公开说明明确建议每天至少做两道练习题，并提供 ASWB 考试练习题、备考课程与学习提纲，满足考试复习方法场景；不据此认定其分享课堂笔记。核验页面将练习题视频标为“1mo ago”、学习提纲视频标为“2mo ago”，仅保留相对日期，不推算精确发布日期。",
+          "evidenceIds": [
+            "82f948b56674feb4a64e9eae"
+          ],
+          "label": "公开内容明确分享课堂笔记整理或考试复习方法，至少涉及其中一种场景"
+        },
+        {
+          "criterionId": "college_relevance",
+          "verdict": "unknown",
+          "reason": "已观察内容明确针对 ASWB、LSW 和 LCSW 等社会工作执照考试备考，但未明确说明面向大学课程学习或大学生受众。ASWB Master Exam 字样及 #msw 标签不足以证明大学学习场景；不能从专业考试或创作者职业推断大学生受众。",
+          "evidenceIds": [
+            "82f948b56674feb4a64e9eae",
+            "875b0be160346ad60789d6f0"
+          ],
+          "label": "公开内容明确面向大学学习场景或大学生受众，不推断创作者本人学生身份"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "875b0be160346ad60789d6f0",
+          "url": "https://www.youtube.com/channel/UCAfjBzlKPCtVUsJzE8KQhlA",
+          "kind": "content",
+          "text": "Channel description reports 67.6K subscribers and states: 'My name is Rayshawn Ledet,' 'I'm a Licensed Clinical Social Worker in New Jersey,' and 'My goal is to help you pass your ASWB exam!'"
+        },
+        {
+          "id": "335465a4bae927d12bbeaf8e",
+          "url": "https://www.youtube.com/watch?v=anuo5h-9CKA",
+          "kind": "content",
+          "text": "Attributable RayTube video titled 'ASWB Practice Questions for ALL ASWB Exam Types! RayTube #52.'"
+        },
+        {
+          "id": "04739b1d9808b5bc22a5b253",
+          "url": "https://www.youtube.com/watch?v=AvZvgLVVggg",
+          "kind": "content",
+          "text": "Attributable RayTube video titled 'NEW Study with Ray Outline! Cost: $100.'"
+        },
+        {
+          "id": "af48ec56547d84ba5bd874c5",
+          "url": "https://www.youtube.com/@raytubelcsw",
+          "kind": "browser_snapshot",
+          "text": "",
+          "assetId": "22ed3657216e816b93ea8043a691799b57e6cb4d2e7a59786dcced3eec3c079e"
+        },
+        {
+          "id": "82f948b56674feb4a64e9eae",
+          "url": "https://www.youtube.com/@raytubelcsw",
+          "kind": "browser_snapshot",
+          "text": "SG\nSkip navigation\nSign in\nHome\nShorts\nSubscriptions\nYou\nHistory\nSign in to like videos, comment, and subscribe.\nSign in\nExplore\nMusic\nMovies\nGaming\nShow more\nMore from YouTube\nYouTube Premium\nYouTube Kids\nReport history\nAboutPressCopyrightContact usCreatorsAdvertiseDevelopers\nTermsPrivacyPolicy & SafetyHow YouTube worksTest new features\n© 2026 Google LLC\nRayTube\n@raytubelcsw\n•\n67.6K subscribers\n•\n968 videos\nHello, Friends! \n...more\n studywithray.com\nand 3 more links\nSubscribe\nHome\nVideos\nShorts\nPlaylists\nPosts\nMy course is NOW UPDATED to reflect the new exam changes! Cost: $100\n50,031 views\n11mo ago\nStudy with Ray course: https://www.studywithray.com/\n\nPaid study group link: https://raytube.as.me/schedule.php\n\nUSE CODE: RAYTUBE25 for 25% OFF ALL Practice Exams! \nWebsite: https://www.socialworktestprep.com/\nFacebook group: https://www.facebook.com/groups/65228...\n\nDSM guide: Please email",
+          "assetId": "779509ed5246aacbede7d8b63d5c0ce7fed63872b32d2d4115a4150689ae84af"
+        }
+      ]
+    }
+  ],
+  "modelCalls": [
+    {
+      "id": "bd931617-6ef4-47fb-8b6d-869c3343b4e6",
+      "kind": "chat",
+      "createdAt": 1791600228081,
+      "finishedAt": 1791600245531,
+      "model": "gpt-6.1-sol",
+      "toolNames": [
+        "get_tasks",
+        "search_history",
+        "start_research",
+        "cancel_research",
+        "get_results",
+        "save_campaign_plan",
+        "get_campaigns",
+        "start_campaign"
+      ],
+      "response": {
+        "role": "assistant",
+        "content": "你说得对：上次那份整理只在聊天里，**没有写回结果记录**，所以原报告没有变化。我应当明确说明这一点。\n\n目前我能读取已保存的结果，但**没有修改结果标签、更新导出字段或打开公开视频重新核验的工具**。因此，本轮不能把这些内容真正持久化，也不能声称已重新看过视频。\n\n需要写入的内容已明确如下：\n\n| 创作者 | 内容方向标签 | 内容风格标签 |\n|---|---|---|\n| tylerlcrawford | 智能家居、科技、酒店评测 | 自动化场景分享 |\n| valstechtalkk | iPhone技巧、科技评测 | 可爱科技、技巧分享 |\n| SchoolHabits | 学习方法、考试复习 | 方法教学、指南型 |\n| raytubelcsw | 社工执照考试、练习题 | 刷题备考、建议型 |\n| colelangs | 语言学习、Anki | 教程定位、章节型 |\n| wesleyanna | Notion、数字效率 | 入门教程、布局搭建 |\n\n这些标签需写入结果页使用的筛选字段，并同步到报告和导出文件，而不是仅追加在聊天中；不合格及待确认记录也应保留。\n\n**眼镜一列仍全部为“待确认”**。重新核验应依据本人公开视频中的实际画面，记录视频链接、时间点和对应截图；只能描述“该画面佩戴／未佩戴眼镜”，不能凭某个未戴眼镜的片段断言此人从不戴眼镜。若你提供公开视频片段或截图，我可以据实际画面补充判断，但仍无法直接写回结果页。",
+        "reasoning_content": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "toolReceipts": [],
+  "waveCalls": [],
+  "chatReportLinks": [
+    {
+      "text": "tylerlcrawford、valstechtalkk 原报告",
+      "href": "/api/reports/research-d22f5bc3f9c80da1a4979ca5"
+    },
+    {
+      "text": "SchoolHabits、raytubelcsw 原报告",
+      "href": "/api/reports/research-fd88375f69e716ff5cbc9fef"
+    },
+    {
+      "text": "colelangs、wesleyanna 原报告",
+      "href": "/api/reports/research-b30bacd90e74569b33e06bfc"
+    }
+  ]
+}

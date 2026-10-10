@@ -1,0 +1,20 @@
+import type { FastifyInstance } from 'fastify';
+import type { CampaignService } from './campaign.ts';
+import type { Campaign } from '../shared/campaign.ts';
+import { escapeHtml, csvReport, resultReport, reportDocument, resultCounts } from './reports.ts';
+export function registerCampaigns(app: FastifyInstance, service: CampaignService, image?: (id: string) => string) {
+  app.get('/api/campaigns', async () => service.facts());
+  app.get<{ Params: { id: string } }>('/api/campaigns/:id', async (request, reply) => { const campaign = service.store.get<Campaign>('campaign', request.params.id); if (!campaign) return reply.code(404).send({ error: 'Campaign 不存在' }); return service.summary(campaign); });
+  app.post<{ Params: { id: string }; Body: { revision: number } }>('/api/campaigns/:id/start', { schema: { body: { type: 'object', required: ['revision'], additionalProperties: false, properties: { revision: { type: 'integer', minimum: 1 } } } } }, async (request, reply) => { try { return service.start(request.params.id, request.body.revision); } catch (error) { return reply.code(409).send({ error: (error as Error).message }); } });
+  app.get<{ Params: { id: string }; Querystring: { format?: 'html' | 'csv' } }>('/api/campaigns/:id/report', { schema: { querystring: { type: 'object', additionalProperties: false, properties: { format: { enum: ['html', 'csv'] } } } } }, async (request, reply) => {
+    const campaign = service.store.get<Campaign>('campaign', request.params.id); if (!campaign) return reply.code(404).send({ error: 'Campaign 不存在' }); const summary = service.summary(campaign);
+    const selected = summary.results.filter(result => result.selected), counts = resultCounts(summary.results);
+    if (request.query.format === 'csv') return reply.type('text/csv; charset=utf-8').header('Content-Disposition', 'attachment; filename="campaign-creators.csv"').send(csvReport({ ...summary, detail: campaign.goal }, selected));
+    const header = `<h1>${escapeHtml(campaign.title)}</h1><p>${escapeHtml(campaign.goal)}</p><p>受众：${escapeHtml(campaign.audience)}</p><p class="report-summary">方案 v${campaign.revision} · ${summary.status} · 目标 ${summary.requested} 个去重名额；合格候选 ${summary.qualifyingUnique} 人（${counts.qualified} 条组内合格记录）；最终入选 ${summary.matched} 人；缺额 ${Math.max(0, summary.requested - summary.matched)} 人。已核验 ${counts.records} 条记录，去重创作者 ${counts.unique} 人。同一平台账号只占一个类型配额；跨平台同一人缺乏可靠关联时不猜测合并。</p><p><a href="/api/campaigns/${encodeURIComponent(campaign.id)}/report?format=csv">下载 Campaign 最终名单 CSV</a></p>`;
+    const groups = summary.groups.map(group => {
+      const rows = selected.filter(result => result.reportContext?.groupId === group.id);
+      return `<section class="report-group" data-report-group-id="${escapeHtml(group.id)}"><h2>${escapeHtml(group.spec.title)} · 最终入选 ${group.matched}/${group.spec.count}</h2><p>本组合格候选 ${group.eligible} 人；缺额 ${Math.max(0, group.spec.count - group.matched)} 个名额。</p><p>${escapeHtml(group.rationale)}</p><p>平台：${escapeHtml(group.spec.platforms.join('、'))}；粉丝范围：${group.spec.minFollowers}–${group.spec.maxFollowers}；地区：${escapeHtml(group.spec.regions.join('、') || '不限')}；必选条件：${escapeHtml(group.spec.criteria.filter(item => item.required).map(item => item.label).join('、') || '基础范围')}；偏好：${escapeHtml(group.spec.criteria.filter(item => !item.required).map(item => item.label).join('、') || '无')}。</p>${rows.length ? rows.map(result => resultReport(result, image, false)).join('') : '<p>本组没有最终入选者；未核实或不符合者不会补入名单。</p>'}${group.taskId ? `<a href="/api/reports/${encodeURIComponent(group.taskId)}">逐条件证据与未入选结果</a>` : ''}</section>`;
+    }).join('');
+    reply.header('Content-Security-Policy', "default-src 'none'; style-src 'unsafe-inline'; img-src data:"); return reply.type('text/html; charset=utf-8').send(reportDocument(campaign.title, header + groups));
+  });
+}

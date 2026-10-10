@@ -1,0 +1,35 @@
+{
+  "at": "2026-10-10T13:40:52.735Z",
+  "source": "Actual production desktop RPC, controlled isolated browser. No real credential access and no outbound unsafe navigation succeeded.",
+  "before": {
+    "url": "http://wave-fixture:8087/creator/alice",
+    "observationId": "0d425870-6ce7-409e-8b67-2c457fdb3a60"
+  },
+  "tests": [
+    {
+      "url": "file:///etc/passwd",
+      "status": 409,
+      "error": "只接受无凭据的 HTTP 页面"
+    },
+    {
+      "url": "http://169.254.169.254/latest/meta-data/",
+      "status": 409,
+      "error": "BROWSER_POLICY_PRIVATE_NETWORK"
+    },
+    {
+      "url": "http://127.0.0.1:9999/",
+      "status": 409,
+      "error": "BROWSER_POLICY_PRIVATE_NETWORK"
+    },
+    {
+      "url": "https://qa-user:qa-probe@example.com/",
+      "status": 409,
+      "error": "只接受无凭据的 HTTP 页面"
+    }
+  ],
+  "after": {
+    "url": "http://wave-fixture:8087/creator/alice",
+    "observationId": "8e5f6c91-bacc-4d3a-8ef6-93cf163773ee"
+  },
+  "browserUrlUnchanged": true
+}

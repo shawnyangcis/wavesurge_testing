@@ -1,0 +1,49 @@
+flowchart TD
+  U[用户发送消息<br/>正文与附件先保存 SQLite inbox] --> CTX[恢复当前 epoch 与工具 flight<br/>按阈值压缩历史摘要，登记状态以数据库事实为准]
+  CTX --> A[主 Agent loop<br/>提示词＋当前消息/摘要＋真实任务/桌面/批次事实]
+  A --> C{范围和授权是否明确}
+  C -->|目标不足或只规划| P[LLM 交互澄清 Campaign<br/>不同 Creator 类型/配额/范围<br/>保存带版本草案，确认后执行]
+  P --> R[登记持久工作及原消息关联]
+  C -->|单项直接研究| R
+  C -->|多项直接研究| B[一次 start_research_batch<br/>事务校验全部范围、原子登记、稳定身份]
+  B --> R
+  R --> W[后台 ResearchEngine<br/>恢复检查点、读取预算、允许继续聊天]
+  R --> S[主 Agent 只回复实际登记清单<br/>完成本轮登记后封口批次]
+  W -.-> NEW[执行中收到新消息仍先保存<br/>工具结束及答复前读取新消息/事实<br/>变化则继续主循环]
+  NEW --> A
+  W --> API{候选来源}
+  API -->|IG 指定账号| I[GET /instagram/v1/fetch_user_info_by_username_v2<br/>本人 username/id、精确粉丝、简介、私密状态]
+  API -->|IG 关键词| Q[GET /instagram/v3/search_users<br/>query / rank_token，固定版本、有界轮转]
+  Q --> I
+  I --> F{泛搜索已知粉丝超范围}
+  F -->|是| SK[基础排除计数＋队列检查点<br/>不取帖子、不占分析名额]
+  SK --> Q
+  F -->|否/未知；或指定全分析| POST[GET /instagram/v1/fetch_user_posts<br/>user_id / count / max_id<br/>近期文字、日期、计数、图片链接]
+  POST --> DETAIL[GET /instagram/v2/fetch_post_info<br/>code_or_url，补计数及真实媒体来源]
+  API -->|YouTube/TikTok/X| POOL[GET /discover/db<br/>platform / limit=500 / sort=fit_desc<br/>有界已有名单，数值预筛＋LLM相关性选择]
+  DETAIL --> RAW[保存原始 Wave 调用/返回、候选<br/>归属、来源、采样边界及检查点]
+  POOL --> RAW
+  RAW --> M{执行方式}
+  M -->|text| TV[文字核验 LLM<br/>不请求桌面，资料不足 unknown]
+  M -->|auto / browser| LEASE{桌面由人工占用}
+  LEASE -->|是| WAIT[网页工作持久等待<br/>text 和新消息继续]
+  LEASE -->|否| BV[同一持久有头浏览器<br/>browser 必须先访问本人主页<br/>auto 按实际证据决定动作]
+  BV --> HUMAN{登录/验证码/挑战}
+  HUMAN -->|需要协助| VNC[保存协助请求＋暂停原候选<br/>用户认领 noVNC、操作、交还]
+  VNC --> OBS[重新观察原工作<br/>不重放旧点击、不假定人工成功]
+  VNC -->|明确跳过或无法完成| UNK[当前访问保留 unknown<br/>记录本轮主页未确认，继续其他候选]
+  WAIT -->|交还桌面| BV
+  OBS --> BV
+  HUMAN -->|可继续| EV[保存页面文字、URL、观察时间<br/>截图资产＋本轮主页访问证据]
+  EV --> VL[逐人 LLM 提交<br/>条件三态＋实际画像值＋引用＋本人原文]
+  TV --> VL
+  UNK --> VL
+  VL --> SAVE[代码校验归属/引用/数值/新访问<br/>保存 Result、事实、画像、选择及历史版本]
+  SAVE --> N[重算已分析/合格/入选与缺额<br/>预算内继续下一候选]
+  N --> W
+  N --> END{批次已封口且全部登记工作终态}
+  S --> END
+  END -->|是| D[原子保存交付回执＋当前对话报告消息<br/>一次综合 HTML/CSV，含失败/取消/缺额]
+  A -->|清空/载入上下文| EPOCH[切换 epoch，收尾实际登记批次<br/>后台继续，旧主循环停止]
+  EPOCH --> END
+  D --> READ[用户查看报告/来源/截图<br/>标签查询、导出、刷新与重启保留]

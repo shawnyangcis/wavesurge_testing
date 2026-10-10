@@ -1,0 +1,2474 @@
+{
+  "at": "2026-10-10T17:40:23.987Z",
+  "tasks": [
+    {
+      "id": "research-411f1e1ee3778536fc1cfea9",
+      "title": "提交验收 实用数码",
+      "spec": {
+        "title": "提交验收 实用数码",
+        "personaText": "分享实际数码产品使用经验的创作者",
+        "count": 1,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "candidateBudget": 2,
+        "analyzeAll": true,
+        "verificationMode": "text",
+        "instagram": {
+          "handles": [
+            "tylerlcrawford",
+            "valstechtalkk"
+          ],
+          "version": "v3"
+        },
+        "criteria": [
+          {
+            "id": "digital_use_experience",
+            "label": "分享实际数码产品使用经验",
+            "required": true,
+            "basis": "text"
+          }
+        ],
+        "annotations": [
+          {
+            "id": "content_direction",
+            "label": "实际内容方向"
+          },
+          {
+            "id": "text_style",
+            "label": "文字呈现风格"
+          }
+        ]
+      },
+      "body": {
+        "requestId": "research-411f1e1ee3778536fc1cfea9",
+        "personaText": "分享实际数码产品使用经验的创作者",
+        "count": 2,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "emailReadyRequired": false
+      },
+      "status": "completed",
+      "requested": 1,
+      "evaluated": 2,
+      "matched": 1,
+      "updatedAt": 1791653063413,
+      "detail": "已选合格 1/1，已核验 2；证据不足者保持待核实。Instagram：读取 2 个本人基础账号，基础条件排除 0 个；基础读取上限 2，逐人分析上限 2（本次有界来源，不代表全站穷尽）。",
+      "nextPollAt": 1791652907840,
+      "candidates": [
+        {
+          "id": "instagram:tylerlcrawford",
+          "handle": "tylerlcrawford",
+          "profileUrl": "https://www.instagram.com/tylerlcrawford/",
+          "followers": 31253,
+          "region": null,
+          "evidenceCount": 75,
+          "sourceErrors": []
+        },
+        {
+          "id": "instagram:valstechtalkk",
+          "handle": "valstechtalkk",
+          "profileUrl": "https://www.instagram.com/valstechtalkk/",
+          "followers": 39697,
+          "region": null,
+          "evidenceCount": 49,
+          "sourceErrors": []
+        }
+      ],
+      "failures": [],
+      "deliveryBatchId": "b07be064-61d3-4928-934c-afc855d8d3b0",
+      "discovery": {
+        "platform": 1,
+        "keyword": 0,
+        "page": 0,
+        "cursor": "",
+        "seenCursors": [],
+        "seenUsers": [],
+        "pending": [],
+        "delivered": 2,
+        "done": true,
+        "profileLimit": 2,
+        "profileReads": 2
+      },
+      "discoveryAttempts": 0,
+      "remoteStatus": "done",
+      "qualifying": 2
+    },
+    {
+      "id": "research-0f58c6d952a48f2141973492",
+      "title": "提交验收 生活效率",
+      "spec": {
+        "title": "提交验收 生活效率",
+        "personaText": "分享实际科技设备或工具使用经验的创作者",
+        "count": 1,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "candidateBudget": 2,
+        "analyzeAll": true,
+        "verificationMode": "text",
+        "instagram": {
+          "handles": [
+            "tylerlcrawford",
+            "valstechtalkk"
+          ],
+          "version": "v3"
+        },
+        "criteria": [
+          {
+            "id": "tech_tool_experience",
+            "label": "分享实际科技设备或工具使用经验",
+            "required": true,
+            "basis": "text"
+          }
+        ],
+        "annotations": [
+          {
+            "id": "content_direction",
+            "label": "实际内容方向"
+          },
+          {
+            "id": "text_style",
+            "label": "文字呈现风格"
+          }
+        ]
+      },
+      "body": {
+        "requestId": "research-0f58c6d952a48f2141973492",
+        "personaText": "分享实际科技设备或工具使用经验的创作者",
+        "count": 2,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "emailReadyRequired": false
+      },
+      "status": "completed",
+      "requested": 1,
+      "evaluated": 2,
+      "matched": 1,
+      "updatedAt": 1791653105900,
+      "detail": "已选合格 1/1，已核验 2；证据不足者保持待核实。Instagram：读取 2 个本人基础账号，基础条件排除 0 个；基础读取上限 2，逐人分析上限 2（本次有界来源，不代表全站穷尽）。",
+      "nextPollAt": 1791652958594,
+      "candidates": [
+        {
+          "id": "instagram:tylerlcrawford",
+          "handle": "tylerlcrawford",
+          "profileUrl": "https://www.instagram.com/tylerlcrawford/",
+          "followers": 31253,
+          "region": null,
+          "evidenceCount": 75,
+          "sourceErrors": []
+        },
+        {
+          "id": "instagram:valstechtalkk",
+          "handle": "valstechtalkk",
+          "profileUrl": "https://www.instagram.com/valstechtalkk/",
+          "followers": 39697,
+          "region": null,
+          "evidenceCount": 49,
+          "sourceErrors": []
+        }
+      ],
+      "failures": [],
+      "deliveryBatchId": "b07be064-61d3-4928-934c-afc855d8d3b0",
+      "discovery": {
+        "platform": 1,
+        "keyword": 0,
+        "page": 0,
+        "cursor": "",
+        "seenCursors": [],
+        "seenUsers": [],
+        "pending": [],
+        "delivered": 2,
+        "done": true,
+        "profileLimit": 2,
+        "profileReads": 2
+      },
+      "discoveryAttempts": 0,
+      "remoteStatus": "done",
+      "qualifying": 2
+    },
+    {
+      "id": "research-ec6b59bc5af4b3eb822cee2f",
+      "title": "提交验收 内容教程",
+      "spec": {
+        "title": "提交验收 内容教程",
+        "personaText": "分享具体科技产品信息的创作者",
+        "count": 1,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "candidateBudget": 2,
+        "analyzeAll": true,
+        "verificationMode": "text",
+        "instagram": {
+          "handles": [
+            "tylerlcrawford",
+            "valstechtalkk"
+          ],
+          "version": "v3"
+        },
+        "criteria": [
+          {
+            "id": "specific_product_information",
+            "label": "分享具体科技产品信息",
+            "required": true,
+            "basis": "text"
+          }
+        ],
+        "annotations": [
+          {
+            "id": "content_direction",
+            "label": "实际内容方向"
+          },
+          {
+            "id": "text_style",
+            "label": "文字呈现风格"
+          }
+        ]
+      },
+      "body": {
+        "requestId": "research-ec6b59bc5af4b3eb822cee2f",
+        "personaText": "分享具体科技产品信息的创作者",
+        "count": 2,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "emailReadyRequired": false
+      },
+      "status": "completed",
+      "requested": 1,
+      "evaluated": 2,
+      "matched": 1,
+      "updatedAt": 1791653117489,
+      "detail": "已选合格 1/1，已核验 2；证据不足者保持待核实。Instagram：读取 2 个本人基础账号，基础条件排除 0 个；基础读取上限 2，逐人分析上限 2（本次有界来源，不代表全站穷尽）。",
+      "nextPollAt": 1791653004859,
+      "candidates": [
+        {
+          "id": "instagram:tylerlcrawford",
+          "handle": "tylerlcrawford",
+          "profileUrl": "https://www.instagram.com/tylerlcrawford/",
+          "followers": 31253,
+          "region": null,
+          "evidenceCount": 75,
+          "sourceErrors": []
+        },
+        {
+          "id": "instagram:valstechtalkk",
+          "handle": "valstechtalkk",
+          "profileUrl": "https://www.instagram.com/valstechtalkk/",
+          "followers": 39697,
+          "region": null,
+          "evidenceCount": 49,
+          "sourceErrors": []
+        }
+      ],
+      "failures": [],
+      "deliveryBatchId": "b07be064-61d3-4928-934c-afc855d8d3b0",
+      "discovery": {
+        "platform": 1,
+        "keyword": 0,
+        "page": 0,
+        "cursor": "",
+        "seenCursors": [],
+        "seenUsers": [],
+        "pending": [],
+        "delivered": 2,
+        "done": true,
+        "profileLimit": 2,
+        "profileReads": 2
+      },
+      "discoveryAttempts": 0,
+      "remoteStatus": "done",
+      "qualifying": 2
+    },
+    {
+      "id": "enrich-52c863e175ca17e6da031d8b",
+      "resultTaskId": "research-411f1e1ee3778536fc1cfea9",
+      "title": "补充画像：提交验收 实用数码",
+      "status": "completed",
+      "requested": 2,
+      "evaluated": 2,
+      "matched": 2,
+      "detail": "已处理 2 个已有账号；失败 0。",
+      "updatedAt": 1791653063488,
+      "deliveryBatchId": "2f347044-8f0e-4fc1-87a9-f76d4206d014"
+    },
+    {
+      "id": "enrich-9f9b10173dee04000c2f7395",
+      "resultTaskId": "research-0f58c6d952a48f2141973492",
+      "title": "补充画像：提交验收 生活效率",
+      "status": "completed",
+      "requested": 2,
+      "evaluated": 2,
+      "matched": 2,
+      "detail": "已处理 2 个已有账号；失败 0。",
+      "updatedAt": 1791653105975,
+      "deliveryBatchId": "2f347044-8f0e-4fc1-87a9-f76d4206d014"
+    },
+    {
+      "id": "enrich-97ae0601a07d5a57439513e6",
+      "resultTaskId": "research-ec6b59bc5af4b3eb822cee2f",
+      "title": "补充画像：提交验收 内容教程",
+      "status": "completed",
+      "requested": 2,
+      "evaluated": 2,
+      "matched": 2,
+      "detail": "已处理 2 个已有账号；失败 0。",
+      "updatedAt": 1791653117579,
+      "deliveryBatchId": "2f347044-8f0e-4fc1-87a9-f76d4206d014"
+    },
+    {
+      "id": "research-dbb5fb4bf357b0cdb6e6bda7",
+      "title": "实用数码体验组",
+      "spec": {
+        "title": "实用数码体验组",
+        "personaText": "有实际数码产品使用经验的创作者",
+        "count": 1,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "candidateBudget": 2,
+        "analyzeAll": true,
+        "verificationMode": "text",
+        "instagram": {
+          "handles": [
+            "tylerlcrawford",
+            "valstechtalkk"
+          ],
+          "version": "v3"
+        },
+        "criteria": [
+          {
+            "id": "personal_digital_experience",
+            "label": "本人有实际数码产品使用经验",
+            "required": true,
+            "basis": "text"
+          }
+        ],
+        "annotations": [
+          {
+            "id": "content_direction",
+            "label": "实际内容方向"
+          },
+          {
+            "id": "text_style",
+            "label": "文字呈现风格"
+          }
+        ]
+      },
+      "body": {
+        "requestId": "research-dbb5fb4bf357b0cdb6e6bda7",
+        "personaText": "有实际数码产品使用经验的创作者",
+        "count": 2,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "emailReadyRequired": false
+      },
+      "status": "completed",
+      "requested": 1,
+      "evaluated": 2,
+      "matched": 1,
+      "updatedAt": 1791653576921,
+      "detail": "已选合格 1/1，已核验 2；证据不足者保持待核实。Instagram：读取 2 个本人基础账号，基础条件排除 0 个；基础读取上限 2，逐人分析上限 2（本次有界来源，不代表全站穷尽）。",
+      "nextPollAt": 1791653563534,
+      "candidates": [
+        {
+          "id": "instagram:tylerlcrawford",
+          "handle": "tylerlcrawford",
+          "profileUrl": "https://www.instagram.com/tylerlcrawford/",
+          "followers": 31253,
+          "region": null,
+          "evidenceCount": 75,
+          "sourceErrors": []
+        },
+        {
+          "id": "instagram:valstechtalkk",
+          "handle": "valstechtalkk",
+          "profileUrl": "https://www.instagram.com/valstechtalkk/",
+          "followers": 39696,
+          "region": null,
+          "evidenceCount": 49,
+          "sourceErrors": []
+        }
+      ],
+      "failures": [],
+      "exhaustive": true,
+      "parentCampaignId": "campaign-7235b855cebc66206807b08c",
+      "discovery": {
+        "platform": 1,
+        "keyword": 0,
+        "page": 0,
+        "cursor": "",
+        "seenCursors": [],
+        "seenUsers": [],
+        "pending": [],
+        "delivered": 2,
+        "done": true,
+        "profileLimit": 2,
+        "profileReads": 2
+      },
+      "discoveryAttempts": 0,
+      "remoteStatus": "done",
+      "qualifying": 2
+    },
+    {
+      "id": "research-91eb9f0400c59d0b5d1aedf2",
+      "title": "生活效率工具组",
+      "spec": {
+        "title": "生活效率工具组",
+        "personaText": "有科技产品或工具使用经验的创作者",
+        "count": 1,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "candidateBudget": 2,
+        "analyzeAll": true,
+        "verificationMode": "text",
+        "instagram": {
+          "handles": [
+            "tylerlcrawford",
+            "valstechtalkk"
+          ],
+          "version": "v3"
+        },
+        "criteria": [
+          {
+            "id": "personal_tech_experience",
+            "label": "本人有科技产品或工具使用经验",
+            "required": true,
+            "basis": "text"
+          }
+        ],
+        "annotations": [
+          {
+            "id": "content_direction",
+            "label": "实际内容方向"
+          },
+          {
+            "id": "text_style",
+            "label": "文字呈现风格"
+          }
+        ]
+      },
+      "body": {
+        "requestId": "research-91eb9f0400c59d0b5d1aedf2",
+        "personaText": "有科技产品或工具使用经验的创作者",
+        "count": 2,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "emailReadyRequired": false
+      },
+      "status": "completed",
+      "requested": 1,
+      "evaluated": 2,
+      "matched": 1,
+      "updatedAt": 1791653633865,
+      "detail": "已选合格 1/1，已核验 2；证据不足者保持待核实。Instagram：读取 2 个本人基础账号，基础条件排除 0 个；基础读取上限 2，逐人分析上限 2（本次有界来源，不代表全站穷尽）。",
+      "nextPollAt": 1791653618806,
+      "candidates": [
+        {
+          "id": "instagram:tylerlcrawford",
+          "handle": "tylerlcrawford",
+          "profileUrl": "https://www.instagram.com/tylerlcrawford/",
+          "followers": 31254,
+          "region": null,
+          "evidenceCount": 75,
+          "sourceErrors": []
+        },
+        {
+          "id": "instagram:valstechtalkk",
+          "handle": "valstechtalkk",
+          "profileUrl": "https://www.instagram.com/valstechtalkk/",
+          "followers": 39696,
+          "region": null,
+          "evidenceCount": 49,
+          "sourceErrors": []
+        }
+      ],
+      "failures": [],
+      "exhaustive": true,
+      "parentCampaignId": "campaign-7235b855cebc66206807b08c",
+      "discovery": {
+        "platform": 1,
+        "keyword": 0,
+        "page": 0,
+        "cursor": "",
+        "seenCursors": [],
+        "seenUsers": [],
+        "pending": [],
+        "delivered": 2,
+        "done": true,
+        "profileLimit": 2,
+        "profileReads": 2
+      },
+      "discoveryAttempts": 0,
+      "remoteStatus": "done",
+      "qualifying": 2
+    },
+    {
+      "id": "research-c88806574dd68d9fc2c4257a",
+      "title": "Instagram geek穿搭个人KOC：限定两账号文字分析",
+      "spec": {
+        "title": "Instagram geek穿搭个人KOC：限定两账号文字分析",
+        "personaText": "偏书呆子、极客穿搭且本人戴眼镜的个人消费者型创作者",
+        "count": 20,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [
+          "United States",
+          "Canada",
+          "United Kingdom",
+          "Germany",
+          "France"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "candidateBudget": 20,
+        "analyzeAll": true,
+        "verificationMode": "text",
+        "instagram": {
+          "handles": [
+            "tylerlcrawford",
+            "valstechtalkk"
+          ],
+          "version": "v3"
+        },
+        "criteria": [
+          {
+            "id": "geek_outfit",
+            "label": "本人穿搭呈现偏书呆子、极客的风格；不以科技内容方向替代穿搭判断，外观证据不足为unknown",
+            "required": true,
+            "basis": "visual"
+          },
+          {
+            "id": "wears_glasses",
+            "label": "眼镜由创作者本人佩戴；不能仅凭头像或媒体链接确认，证据不足为unknown",
+            "required": true,
+            "basis": "visual"
+          },
+          {
+            "id": "personal_koc",
+            "label": "个人消费者型KOC，以本人体验分享为主，而非品牌、公司或店铺官方账号；身份不明为unknown",
+            "required": true,
+            "basis": "text"
+          },
+          {
+            "id": "public_white_identification",
+            "label": "本人公开明确自述白人身份；不得依据外貌、姓名或所在地推断，无本人自述证据为unknown",
+            "required": true,
+            "basis": "text"
+          }
+        ],
+        "annotations": [
+          {
+            "id": "content_direction",
+            "label": "内容方向"
+          },
+          {
+            "id": "style",
+            "label": "穿搭风格"
+          },
+          {
+            "id": "glasses",
+            "label": "本人佩戴眼镜情况"
+          },
+          {
+            "id": "public_identity",
+            "label": "本人公开自述身份"
+          },
+          {
+            "id": "account_identity",
+            "label": "个人KOC身份"
+          }
+        ]
+      },
+      "body": {
+        "requestId": "research-c88806574dd68d9fc2c4257a",
+        "personaText": "偏书呆子、极客穿搭且本人戴眼镜的个人消费者型创作者",
+        "count": 20,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [
+          "United States",
+          "Canada",
+          "United Kingdom",
+          "Germany",
+          "France"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "emailReadyRequired": false
+      },
+      "status": "partial",
+      "requested": 20,
+      "evaluated": 2,
+      "matched": 0,
+      "updatedAt": 1791653942460,
+      "detail": "已选合格 0/20，已核验 2；证据不足者保持待核实。Instagram：读取 2 个本人基础账号，基础条件排除 0 个；基础读取上限 2，逐人分析上限 20（本次有界来源，不代表全站穷尽）。",
+      "nextPollAt": 1791653915400,
+      "candidates": [
+        {
+          "id": "instagram:tylerlcrawford",
+          "handle": "tylerlcrawford",
+          "profileUrl": "https://www.instagram.com/tylerlcrawford/",
+          "followers": 31255,
+          "region": null,
+          "evidenceCount": 75,
+          "sourceErrors": []
+        },
+        {
+          "id": "instagram:valstechtalkk",
+          "handle": "valstechtalkk",
+          "profileUrl": "https://www.instagram.com/valstechtalkk/",
+          "followers": 39696,
+          "region": null,
+          "evidenceCount": 49,
+          "sourceErrors": []
+        }
+      ],
+      "failures": [],
+      "deliveryBatchId": "57aa6377-df9d-4530-b7b9-b1f0b61c07b4",
+      "discovery": {
+        "platform": 1,
+        "keyword": 0,
+        "page": 0,
+        "cursor": "",
+        "seenCursors": [],
+        "seenUsers": [],
+        "pending": [],
+        "delivered": 2,
+        "done": true,
+        "profileLimit": 2,
+        "profileReads": 2
+      },
+      "discoveryAttempts": 0,
+      "remoteStatus": "done",
+      "qualifying": 0
+    },
+    {
+      "id": "research-f709082840c02b38d49c3fee",
+      "title": "YouTube 科技数码个人创作者",
+      "spec": {
+        "title": "YouTube 科技数码个人创作者",
+        "personaText": "分享科技或数码内容的个人创作者",
+        "count": 1,
+        "platforms": [
+          "youtube"
+        ],
+        "regions": [],
+        "minFollowers": 0,
+        "maxFollowers": 9007199254740991,
+        "candidateBudget": 1,
+        "verificationMode": "text",
+        "criteria": [
+          {
+            "id": "tech_content",
+            "label": "分享科技或数码内容",
+            "required": true,
+            "basis": "text"
+          },
+          {
+            "id": "personal_creator",
+            "label": "个人创作者，而非品牌、公司或店铺官方账号",
+            "required": true,
+            "basis": "text"
+          }
+        ],
+        "annotations": [
+          {
+            "id": "content_direction",
+            "label": "内容方向"
+          }
+        ]
+      },
+      "body": {
+        "requestId": "research-f709082840c02b38d49c3fee",
+        "personaText": "分享科技或数码内容的个人创作者",
+        "count": 1,
+        "platforms": [
+          "youtube"
+        ],
+        "regions": [],
+        "minFollowers": 0,
+        "maxFollowers": 9007199254740991,
+        "emailReadyRequired": false
+      },
+      "status": "completed",
+      "requested": 1,
+      "evaluated": 1,
+      "matched": 1,
+      "updatedAt": 1791653971344,
+      "detail": "已选合格 1/1，已核验 1；证据不足者保持待核实。youtube：读取 500 条，基础条件排除 0 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。",
+      "nextPollAt": 1791653959647,
+      "candidates": [
+        {
+          "id": "youtube:mrwhosetheboss",
+          "handle": "mrwhosetheboss",
+          "profileUrl": "https://www.youtube.com/@mrwhosetheboss",
+          "followers": 22700000,
+          "region": null,
+          "evidenceCount": 2
+        }
+      ],
+      "failures": [],
+      "deliveryBatchId": "8c34a67d-3da0-4beb-8439-c4d9a9dd077f",
+      "discovery": {
+        "platform": 1,
+        "keyword": 0,
+        "page": 0,
+        "cursor": "",
+        "seenCursors": [],
+        "seenUsers": [],
+        "pending": [],
+        "delivered": 500,
+        "done": true,
+        "sources": [
+          {
+            "platform": "youtube",
+            "path": "/discover/db?platform=youtube&limit=500&sort=fit_desc",
+            "read": 500,
+            "excluded": 0
+          }
+        ]
+      },
+      "discoveryAttempts": 0,
+      "remoteStatus": "done",
+      "qualifying": 1
+    },
+    {
+      "id": "research-ac2e4eea4df073106f89558d",
+      "title": "TikTok 科技数码个人创作者",
+      "spec": {
+        "title": "TikTok 科技数码个人创作者",
+        "personaText": "分享科技或数码内容的个人创作者",
+        "count": 1,
+        "platforms": [
+          "tiktok"
+        ],
+        "regions": [],
+        "minFollowers": 0,
+        "maxFollowers": 9007199254740991,
+        "candidateBudget": 1,
+        "verificationMode": "text",
+        "criteria": [
+          {
+            "id": "tech_content",
+            "label": "分享科技或数码内容",
+            "required": true,
+            "basis": "text"
+          },
+          {
+            "id": "personal_creator",
+            "label": "个人创作者，而非品牌、公司或店铺官方账号",
+            "required": true,
+            "basis": "text"
+          }
+        ],
+        "annotations": [
+          {
+            "id": "content_direction",
+            "label": "内容方向"
+          }
+        ]
+      },
+      "body": {
+        "requestId": "research-ac2e4eea4df073106f89558d",
+        "personaText": "分享科技或数码内容的个人创作者",
+        "count": 1,
+        "platforms": [
+          "tiktok"
+        ],
+        "regions": [],
+        "minFollowers": 0,
+        "maxFollowers": 9007199254740991,
+        "emailReadyRequired": false
+      },
+      "status": "completed",
+      "requested": 1,
+      "evaluated": 1,
+      "matched": 1,
+      "updatedAt": 1791653984491,
+      "detail": "已选合格 1/1，已核验 1；证据不足者保持待核实。tiktok：读取 500 条，基础条件排除 0 条；/discover/db?platform=tiktok&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。",
+      "nextPollAt": 1791653973232,
+      "candidates": [
+        {
+          "id": "tiktok:realswish",
+          "handle": "realswish",
+          "profileUrl": "https://www.tiktok.com/@realswish",
+          "followers": 6741,
+          "region": "Philippines",
+          "evidenceCount": 2
+        }
+      ],
+      "failures": [],
+      "deliveryBatchId": "8c34a67d-3da0-4beb-8439-c4d9a9dd077f",
+      "discovery": {
+        "platform": 1,
+        "keyword": 0,
+        "page": 0,
+        "cursor": "",
+        "seenCursors": [],
+        "seenUsers": [],
+        "pending": [],
+        "delivered": 500,
+        "done": true,
+        "sources": [
+          {
+            "platform": "tiktok",
+            "path": "/discover/db?platform=tiktok&limit=500&sort=fit_desc",
+            "read": 500,
+            "excluded": 0
+          }
+        ]
+      },
+      "discoveryAttempts": 0,
+      "remoteStatus": "done",
+      "qualifying": 1
+    },
+    {
+      "id": "research-9466fb6b1bba777d135388d3",
+      "title": "X 科技数码个人创作者",
+      "spec": {
+        "title": "X 科技数码个人创作者",
+        "personaText": "分享科技或数码内容的个人创作者",
+        "count": 1,
+        "platforms": [
+          "twitter"
+        ],
+        "regions": [],
+        "minFollowers": 0,
+        "maxFollowers": 9007199254740991,
+        "candidateBudget": 1,
+        "verificationMode": "text",
+        "criteria": [
+          {
+            "id": "tech_content",
+            "label": "分享科技或数码内容",
+            "required": true,
+            "basis": "text"
+          },
+          {
+            "id": "personal_creator",
+            "label": "个人创作者，而非品牌、公司或店铺官方账号",
+            "required": true,
+            "basis": "text"
+          }
+        ],
+        "annotations": [
+          {
+            "id": "content_direction",
+            "label": "内容方向"
+          }
+        ]
+      },
+      "body": {
+        "requestId": "research-9466fb6b1bba777d135388d3",
+        "personaText": "分享科技或数码内容的个人创作者",
+        "count": 1,
+        "platforms": [
+          "twitter"
+        ],
+        "regions": [],
+        "minFollowers": 0,
+        "maxFollowers": 9007199254740991,
+        "emailReadyRequired": false
+      },
+      "status": "completed",
+      "requested": 1,
+      "evaluated": 1,
+      "matched": 1,
+      "updatedAt": 1791653997210,
+      "detail": "已选合格 1/1，已核验 1；证据不足者保持待核实。twitter：读取 500 条，基础条件排除 0 条；/discover/db?platform=twitter&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。",
+      "nextPollAt": 1791653987664,
+      "candidates": [
+        {
+          "id": "twitter:geekyranjit",
+          "handle": "geekyranjit",
+          "profileUrl": "https://x.com/geekyranjit",
+          "followers": 790900,
+          "region": null,
+          "evidenceCount": 2
+        }
+      ],
+      "failures": [],
+      "deliveryBatchId": "8c34a67d-3da0-4beb-8439-c4d9a9dd077f",
+      "discovery": {
+        "platform": 1,
+        "keyword": 0,
+        "page": 0,
+        "cursor": "",
+        "seenCursors": [],
+        "seenUsers": [],
+        "pending": [],
+        "delivered": 500,
+        "done": true,
+        "sources": [
+          {
+            "platform": "twitter",
+            "path": "/discover/db?platform=twitter&limit=500&sort=fit_desc",
+            "read": 500,
+            "excluded": 0
+          }
+        ]
+      },
+      "discoveryAttempts": 0,
+      "remoteStatus": "done",
+      "qualifying": 1
+    }
+  ],
+  "assistance": [],
+  "waveCalls": [
+    {
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=tylerlcrawford",
+      "status": 200,
+      "createdAt": 1791652709532,
+      "finishedAt": 1791652720167,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_posts?user_id=48426799147&count=12",
+      "status": 200,
+      "createdAt": 1791652720174,
+      "finishedAt": 1791652726540,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_posts?user_id=48426799147&count=12&max_id=3997965466461395273_48426799147",
+      "status": 200,
+      "createdAt": 1791652726562,
+      "finishedAt": 1791652732595,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DcZxbpBAJDI",
+      "status": 200,
+      "createdAt": 1791652732602,
+      "finishedAt": 1791652736252,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DZoHkAvAbm5",
+      "status": 200,
+      "createdAt": 1791652736259,
+      "finishedAt": 1791652738407,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=tylerlcrawford",
+      "status": 200,
+      "createdAt": 1791652757287,
+      "finishedAt": 1791652764549,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_posts?user_id=48426799147&count=12",
+      "status": 200,
+      "createdAt": 1791652764554,
+      "finishedAt": 1791652771231,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_posts?user_id=48426799147&count=12&max_id=3997965466461395273_48426799147",
+      "status": 200,
+      "createdAt": 1791652771243,
+      "finishedAt": 1791652788835,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DcZxbpBAJDI",
+      "status": 200,
+      "createdAt": 1791652788846,
+      "finishedAt": 1791652791020,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DZoHkAvAbm5",
+      "status": 200,
+      "createdAt": 1791652791027,
+      "finishedAt": 1791652797345,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=tylerlcrawford",
+      "status": 200,
+      "createdAt": 1791652821057,
+      "finishedAt": 1791652825686,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_posts?user_id=48426799147&count=12",
+      "status": 200,
+      "createdAt": 1791652825690,
+      "finishedAt": 1791652846186,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_posts?user_id=48426799147&count=12&max_id=3997965466461395273_48426799147",
+      "status": 200,
+      "createdAt": 1791652846215,
+      "finishedAt": 1791652852401,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DcZxbpBAJDI",
+      "status": 200,
+      "createdAt": 1791652852408,
+      "finishedAt": 1791652859624,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DZoHkAvAbm5",
+      "status": 200,
+      "createdAt": 1791652859642,
+      "finishedAt": 1791652861684,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=valstechtalkk",
+      "status": 200,
+      "createdAt": 1791652879786,
+      "finishedAt": 1791652886735,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_posts?user_id=10561673222&count=12",
+      "status": 200,
+      "createdAt": 1791652886743,
+      "finishedAt": 1791652892606,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_posts?user_id=10561673222&count=12&max_id=3995072639892408967_10561673222",
+      "status": 200,
+      "createdAt": 1791652892612,
+      "finishedAt": 1791652899125,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DeQfBbyKmOR",
+      "status": 200,
+      "createdAt": 1791652899164,
+      "finishedAt": 1791652901684,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DeNSuNkqMjQ",
+      "status": 200,
+      "createdAt": 1791652901688,
+      "finishedAt": 1791652906810,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=valstechtalkk",
+      "status": 200,
+      "createdAt": 1791652921951,
+      "finishedAt": 1791652927901,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_posts?user_id=10561673222&count=12",
+      "status": 200,
+      "createdAt": 1791652927962,
+      "finishedAt": 1791652938092,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_posts?user_id=10561673222&count=12&max_id=3995072639892408967_10561673222",
+      "status": 200,
+      "createdAt": 1791652938098,
+      "finishedAt": 1791652945159,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DeQfBbyKmOR",
+      "status": 200,
+      "createdAt": 1791652945176,
+      "finishedAt": 1791652947076,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DeNSuNkqMjQ",
+      "status": 200,
+      "createdAt": 1791652947083,
+      "finishedAt": 1791652957568,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=valstechtalkk",
+      "status": 200,
+      "createdAt": 1791652972749,
+      "finishedAt": 1791652977029,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_posts?user_id=10561673222&count=12",
+      "status": 200,
+      "createdAt": 1791652977043,
+      "finishedAt": 1791652984434,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_posts?user_id=10561673222&count=12&max_id=3995072639892408967_10561673222",
+      "status": 200,
+      "createdAt": 1791652984448,
+      "finishedAt": 1791652997063,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DeQfBbyKmOR",
+      "status": 200,
+      "createdAt": 1791652997071,
+      "finishedAt": 1791653001538,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DeNSuNkqMjQ",
+      "status": 200,
+      "createdAt": 1791653001670,
+      "finishedAt": 1791653003824,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=tylerlcrawford",
+      "status": 200,
+      "createdAt": 1791653412080,
+      "finishedAt": 1791653417134,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_posts?user_id=48426799147&count=12",
+      "status": 200,
+      "createdAt": 1791653417137,
+      "finishedAt": 1791653423732,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_posts?user_id=48426799147&count=12&max_id=3997965466461395273_48426799147",
+      "status": 200,
+      "createdAt": 1791653423753,
+      "finishedAt": 1791653437035,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DcZxbpBAJDI",
+      "status": 200,
+      "createdAt": 1791653437048,
+      "finishedAt": 1791653441936,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DZoHkAvAbm5",
+      "status": 200,
+      "createdAt": 1791653441942,
+      "finishedAt": 1791653443895,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=tylerlcrawford",
+      "status": 200,
+      "createdAt": 1791653460409,
+      "finishedAt": 1791653466955,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_posts?user_id=48426799147&count=12",
+      "status": 200,
+      "createdAt": 1791653466961,
+      "finishedAt": 1791653480126,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_posts?user_id=48426799147&count=12&max_id=3997965466461395273_48426799147",
+      "status": 200,
+      "createdAt": 1791653480134,
+      "finishedAt": 1791653487553,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DcZxbpBAJDI",
+      "status": 200,
+      "createdAt": 1791653487731,
+      "finishedAt": 1791653493428,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DZoHkAvAbm5",
+      "status": 200,
+      "createdAt": 1791653493435,
+      "finishedAt": 1791653497822,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=valstechtalkk",
+      "status": 200,
+      "createdAt": 1791653519766,
+      "finishedAt": 1791653525844,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_posts?user_id=10561673222&count=12",
+      "status": 200,
+      "createdAt": 1791653525848,
+      "finishedAt": 1791653535745,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_posts?user_id=10561673222&count=12&max_id=3995072639892408967_10561673222",
+      "status": 200,
+      "createdAt": 1791653535751,
+      "finishedAt": 1791653548222,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DeQfBbyKmOR",
+      "status": 200,
+      "createdAt": 1791653548229,
+      "finishedAt": 1791653553545,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DeNSuNkqMjQ",
+      "status": 200,
+      "createdAt": 1791653553553,
+      "finishedAt": 1791653562481,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=valstechtalkk",
+      "status": 200,
+      "createdAt": 1791653577051,
+      "finishedAt": 1791653582179,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_posts?user_id=10561673222&count=12",
+      "status": 200,
+      "createdAt": 1791653582183,
+      "finishedAt": 1791653596804,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_posts?user_id=10561673222&count=12&max_id=3995072639892408967_10561673222",
+      "status": 200,
+      "createdAt": 1791653596895,
+      "finishedAt": 1791653611242,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DeQfBbyKmOR",
+      "status": 200,
+      "createdAt": 1791653611251,
+      "finishedAt": 1791653615421,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DeNSuNkqMjQ",
+      "status": 200,
+      "createdAt": 1791653615427,
+      "finishedAt": 1791653617781,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=tylerlcrawford",
+      "status": 200,
+      "createdAt": 1791653815861,
+      "finishedAt": 1791653821257,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_posts?user_id=48426799147&count=12",
+      "status": 200,
+      "createdAt": 1791653821266,
+      "finishedAt": 1791653830603,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_posts?user_id=48426799147&count=12&max_id=3997965466461395273_48426799147",
+      "status": 200,
+      "createdAt": 1791653830616,
+      "finishedAt": 1791653837285,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DcZxbpBAJDI",
+      "status": 200,
+      "createdAt": 1791653837292,
+      "finishedAt": 1791653839970,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DZoHkAvAbm5",
+      "status": 200,
+      "createdAt": 1791653839974,
+      "finishedAt": 1791653842984,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=valstechtalkk",
+      "status": 200,
+      "createdAt": 1791653868956,
+      "finishedAt": 1791653873047,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_posts?user_id=10561673222&count=12",
+      "status": 200,
+      "createdAt": 1791653873054,
+      "finishedAt": 1791653882033,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v1/fetch_user_posts?user_id=10561673222&count=12&max_id=3995072639892408967_10561673222",
+      "status": 200,
+      "createdAt": 1791653882042,
+      "finishedAt": 1791653907246,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DeQfBbyKmOR",
+      "status": 200,
+      "createdAt": 1791653907253,
+      "finishedAt": 1791653909500,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DeNSuNkqMjQ",
+      "status": 200,
+      "createdAt": 1791653909514,
+      "finishedAt": 1791653914362,
+      "responseKeys": [
+        "code",
+        "request_id",
+        "message",
+        "message_zh",
+        "support",
+        "time",
+        "time_stamp",
+        "time_zone",
+        "docs",
+        "cache_message",
+        "cache_message_zh",
+        "cache_url",
+        "router",
+        "params",
+        "data"
+      ]
+    },
+    {
+      "path": "/discover/db?platform=youtube&limit=500&sort=fit_desc",
+      "status": 200,
+      "createdAt": 1791653957084,
+      "finishedAt": 1791653958579,
+      "responseKeys": [
+        "summary",
+        "tiers",
+        "creators",
+        "strategy",
+        "screening",
+        "scraping",
+        "collecting",
+        "latestCreatorSearchTaskId",
+        "latestSearchFunnel",
+        "target",
+        "fulfilled",
+        "campaignState"
+      ],
+      "pool": {
+        "count": 500,
+        "range": {
+          "min": 5200000,
+          "max": 502000000
+        },
+        "profiles": 0
+      }
+    },
+    {
+      "path": "/discover/db?platform=tiktok&limit=500&sort=fit_desc",
+      "status": 200,
+      "createdAt": 1791653971363,
+      "finishedAt": 1791653972172,
+      "responseKeys": [
+        "summary",
+        "tiers",
+        "creators",
+        "strategy",
+        "screening",
+        "scraping",
+        "collecting",
+        "latestCreatorSearchTaskId",
+        "latestSearchFunnel",
+        "target",
+        "fulfilled",
+        "campaignState"
+      ],
+      "pool": {
+        "count": 500,
+        "range": {
+          "min": 1009,
+          "max": 17602623
+        },
+        "profiles": 0
+      }
+    },
+    {
+      "path": "/discover/db?platform=twitter&limit=500&sort=fit_desc",
+      "status": 200,
+      "createdAt": 1791653984494,
+      "finishedAt": 1791653986551,
+      "responseKeys": [
+        "summary",
+        "tiers",
+        "creators",
+        "strategy",
+        "screening",
+        "scraping",
+        "collecting",
+        "latestCreatorSearchTaskId",
+        "latestSearchFunnel",
+        "target",
+        "fulfilled",
+        "campaignState"
+      ],
+      "pool": {
+        "count": 500,
+        "range": {
+          "min": 1116,
+          "max": 53897620
+        },
+        "profiles": 0
+      }
+    }
+  ],
+  "deliveries": [
+    {
+      "id": "report-request-b07be064-61d3-4928-934c-afc855d8d3b0-2a5828a6c160a1cf",
+      "subject": "request-b07be064-61d3-4928-934c-afc855d8d3b0",
+      "revision": [
+        "research-411f1e1ee3778536fc1cfea9",
+        "research-0f58c6d952a48f2141973492",
+        "research-ec6b59bc5af4b3eb822cee2f"
+      ],
+      "createdAt": 1791653020950
+    },
+    {
+      "id": "report-request-2f347044-8f0e-4fc1-87a9-f76d4206d014-5191e28f4557047f",
+      "subject": "request-2f347044-8f0e-4fc1-87a9-f76d4206d014",
+      "revision": [
+        "enrich-52c863e175ca17e6da031d8b",
+        "enrich-9f9b10173dee04000c2f7395",
+        "enrich-97ae0601a07d5a57439513e6"
+      ],
+      "createdAt": 1791653117584
+    },
+    {
+      "id": "report-campaign-7235b855cebc66206807b08c-04ff76104d1f124e",
+      "subject": "campaign-7235b855cebc66206807b08c",
+      "revision": {
+        "revision": 2,
+        "tasks": [
+          "research-dbb5fb4bf357b0cdb6e6bda7",
+          "research-91eb9f0400c59d0b5d1aedf2"
+        ]
+      },
+      "createdAt": 1791653634809
+    },
+    {
+      "id": "report-request-57aa6377-df9d-4530-b7b9-b1f0b61c07b4-ecd4bdf895590931",
+      "subject": "request-57aa6377-df9d-4530-b7b9-b1f0b61c07b4",
+      "revision": [
+        "research-c88806574dd68d9fc2c4257a"
+      ],
+      "createdAt": 1791653943494
+    },
+    {
+      "id": "report-request-8c34a67d-3da0-4beb-8439-c4d9a9dd077f-b8ee1f9e949dbd94",
+      "subject": "request-8c34a67d-3da0-4beb-8439-c4d9a9dd077f",
+      "revision": [
+        "research-f709082840c02b38d49c3fee",
+        "research-ac2e4eea4df073106f89558d",
+        "research-9466fb6b1bba777d135388d3"
+      ],
+      "createdAt": 1791654013617
+    }
+  ]
+}

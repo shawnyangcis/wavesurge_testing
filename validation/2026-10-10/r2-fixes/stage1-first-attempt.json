@@ -1,0 +1,389 @@
+{
+  "at": "2026-10-10T08:25:26.573Z",
+  "environment": "fresh Docker, real WaveSurge and configured model; only large waiting task is synthetic",
+  "connections": [
+    1406,
+    12,
+    2400
+  ],
+  "latencyMs": [
+    19.373255000000427,
+    7.258012000000235,
+    5.802854000001389,
+    6.884922000001097,
+    6.116061999999147,
+    6.483201000000918,
+    5.7143770000002405,
+    6.970153999998729,
+    8.123948000000382,
+    6.569147000000157,
+    8.718260999999984,
+    7.998720999999932,
+    6.101813999999649,
+    4.785686000001078,
+    4.82803899999999,
+    6.776444999999512,
+    6.03944600000068,
+    5.711803000000145,
+    6.618431000000783,
+    5.895287999999709
+  ],
+  "errors": [],
+  "newTaskId": "research-cf29e9402c720fc05dedd7f5",
+  "waveCalls": [
+    {
+      "method": "GET",
+      "path": "/discover/db?platform=youtube&limit=100&sort=followers_desc",
+      "status": 200
+    }
+  ],
+  "modelKinds": [
+    "chat",
+    "chat",
+    "verification",
+    "chat",
+    "verification",
+    "chat",
+    "chat",
+    "chat"
+  ],
+  "finalTasks": [
+    {
+      "id": "r2-performance-wait",
+      "title": "R2性能等待（受控资料）",
+      "status": "needs_input",
+      "requested": 1,
+      "evaluated": 0,
+      "matched": 0,
+      "updatedAt": 1791620724397,
+      "detail": "受控大资料等待，不是真实创作者任务",
+      "remoteId": "controlled",
+      "remoteStatus": "done",
+      "nextPollAt": 0
+    },
+    {
+      "id": "research-cf29e9402c720fc05dedd7f5",
+      "title": "R2文字研究",
+      "status": "partial",
+      "requested": 1,
+      "evaluated": 2,
+      "matched": 0,
+      "qualifying": 0,
+      "updatedAt": 1791620763921,
+      "detail": "已选合格 0/1，已核验 2；证据不足者保持待核实。核验/来源错误 2 次，可对已有结果重新核验。",
+      "remoteStatus": "done",
+      "nextPollAt": 1791620746060
+    }
+  ],
+  "messages": [
+    {
+      "id": "a1f20eb5-73f3-47d9-9099-a2706362ae96",
+      "role": "user",
+      "text": "另开一个名为“R2文字研究”的任务：从WaveSurge已有YouTube名单选1人，候选最多2人，粉丝和地区不限，只根据已有简介给内容方向打标。不要打开浏览器，不用人工协助；没有文字证据的画像就标未知。请直接开始，保留原来的性能等待任务。",
+      "createdAt": 1791620731606,
+      "epoch": 0,
+      "state": "delivered",
+      "attachments": []
+    },
+    {
+      "id": "d0c4db44-a544-473e-a619-bf2360f5a6f9",
+      "role": "user",
+      "text": "刚才的新文字任务继续进行，不要重启或重复创建。请按实际状态告诉我进展，原来的人工等待任务也不要取消。",
+      "createdAt": 1791620744772,
+      "epoch": 0,
+      "state": "delivered",
+      "attachments": []
+    },
+    {
+      "id": "report-research-cf29e9402c720fc05dedd7f5-c4340a0084938f33",
+      "role": "assistant",
+      "text": "研究「R2文字研究」已结束，仍有缺额。已选合格 0/1 人，核验 2 人。\n\n已选合格 0/1，已核验 2；证据不足者保持待核实。核验/来源错误 2 次，可对已有结果重新核验。\n\n[查看完整报告](/api/reports/research-cf29e9402c720fc05dedd7f5) · [下载 CSV](/api/reports/research-cf29e9402c720fc05dedd7f5?format=csv)",
+      "createdAt": 1791620763921,
+      "epoch": 0,
+      "state": "delivered",
+      "attachments": []
+    },
+    {
+      "id": "e087dce1-b444-40c3-a7ac-b3d7168976b9",
+      "role": "assistant",
+      "text": "按最新状态：\n\n- **“R2文字研究”本轮已结束，但有缺额**：已核验 **2 人**，达到候选上限；已选 **0/1 人**。记录有 **2 次核验／来源错误**，证据不足的画像保持待核实，不作正向标签。任务没有重启，也没有重复创建。\n- **原来的“R2性能等待（受控资料）”仍保留**：状态为等待输入，未取消。系统注明它是受控资料等待，并非真实创作者研究任务。\n\n没有启动新的搜索、浏览器核验或人工协助。\n\n[查看文字研究报告](/api/reports/research-cf29e9402c720fc05dedd7f5) · [下载 CSV](/api/reports/research-cf29e9402c720fc05dedd7f5?format=csv)",
+      "epoch": 0,
+      "createdAt": 1791620779043,
+      "state": "delivered",
+      "attachments": []
+    }
+  ],
+  "results": [
+    {
+      "id": "research-cf29e9402c720fc05dedd7f5|youtube:5minutecraftsyoutube",
+      "taskId": "research-cf29e9402c720fc05dedd7f5",
+      "creator": {
+        "id": "youtube:5minutecraftsyoutube",
+        "platform": "youtube",
+        "handle": "5minutecraftsyoutube",
+        "profileUrl": "",
+        "displayName": "5-Minute Crafts",
+        "followers": 80600000,
+        "region": null,
+        "evidence": [
+          {
+            "id": "9137c60645ee63c48c0afede",
+            "url": "",
+            "text": "⏱️ Got 5 minutes? Let’s make something awesome!\nWe make DIY, lifehacks, and crafts quick, easy, and totally game-changing.\n👉 Hit SUBSCRIBE to start creating with us!\n\n• Brand partnerships & advertiser collaborations – https://thesoul.group/for-brands\n• Content licensing & OTT partnerships – https://thesoul.group/for-publishers\n• Contact: https://thesoul.group/contacts",
+            "kind": "profile",
+            "provider": "wavesurge-pool",
+            "publishedAt": null,
+            "capturedAt": 1791620743932
+          }
+        ],
+        "raw": {
+          "id": "753549bf-8cff-4c8e-99b4-27f1f99f04af",
+          "handle": "5minutecraftsyoutube",
+          "displayName": "5-Minute Crafts",
+          "bio": "⏱️ Got 5 minutes? Let’s make something awesome!\nWe make DIY, lifehacks, and crafts quick, easy, and totally game-changing.\n👉 Hit SUBSCRIBE to start creating with us!\n\n• Brand partnerships & advertiser collaborations – https://thesoul.group/for-brands\n• Content licensing & OTT partnerships – https://thesoul.group/for-publishers\n• Contact: https://thesoul.group/contacts",
+          "details": [],
+          "platform": "youtube",
+          "region": null,
+          "audience": null,
+          "followerCount": 80600000,
+          "engagementRate": null,
+          "engagementKnown": false,
+          "kolType": null,
+          "avatarUrl": null,
+          "publishedLink": null,
+          "tier": "macro",
+          "fit": 50,
+          "fromCompetitor": false,
+          "source": "runner:niche",
+          "sourceType": "runner",
+          "sourceSubType": "niche",
+          "origin": "system",
+          "foundAt": "2026-07-15T13:15:40.459Z",
+          "batchLabel": null,
+          "emailStatus": "finding_email",
+          "emailReadyAt": null,
+          "email": null,
+          "emailUsable": false,
+          "emailQualified": false,
+          "emailAutoSendable": false,
+          "emailConfidence": "low",
+          "emailOwnerType": "unknown",
+          "emailReasons": [
+            "missing_or_unusable_email"
+          ],
+          "contactChannels": [
+            {
+              "channel": "instagram",
+              "value": "5.min.crafts",
+              "isPrimary": true
+            },
+            {
+              "channel": "tiktok",
+              "value": "thesoul.music",
+              "isPrimary": true
+            },
+            {
+              "channel": "facebook",
+              "value": "5min.crafts",
+              "isPrimary": true
+            },
+            {
+              "channel": "website",
+              "value": "https://www.music.thesoul-publishing.com/",
+              "isPrimary": true
+            },
+            {
+              "channel": "website",
+              "value": "https://thesoul.group/contacts",
+              "isPrimary": false
+            }
+          ],
+          "contactChannelCount": 5,
+          "contactable": false,
+          "lastSeenAt": "2026-07-15T13:15:40.459Z",
+          "searchKind": "trial",
+          "accountIdentity": null,
+          "recommendationKind": null,
+          "audienceStatus": "unavailable",
+          "qualification": null,
+          "searchMatchTier": null
+        }
+      },
+      "judgments": [
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：youtube",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "no_match",
+          "reason": "WaveSurge 粉丝数 80600000，要求 0–0",
+          "evidenceIds": [
+            "9137c60645ee63c48c0afede"
+          ],
+          "label": "粉丝范围"
+        }
+      ],
+      "verdict": "no_match",
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "DIY",
+            "生活小窍门",
+            "手工制作"
+          ],
+          "reason": "已有简介明确写明“We make DIY, lifehacks, and crafts quick, easy”。据此标注简介自述的内容方向，不代表近期帖子核验结果。来源为 wavesurge-pool 的 profile 文字，采集时间为所提供 capturedAt（1791620743932）；来源未提供主页 URL 或帖子发布日期。",
+          "evidenceIds": [
+            "9137c60645ee63c48c0afede"
+          ]
+        }
+      ],
+      "tags": [
+        "DIY",
+        "生活小窍门",
+        "手工制作"
+      ],
+      "revision": 1,
+      "updatedAt": 1791620754645,
+      "selected": false
+    },
+    {
+      "id": "research-cf29e9402c720fc05dedd7f5|youtube:beatboxjcop",
+      "taskId": "research-cf29e9402c720fc05dedd7f5",
+      "creator": {
+        "id": "youtube:beatboxjcop",
+        "platform": "youtube",
+        "handle": "beatboxjcop",
+        "profileUrl": "",
+        "displayName": "BeatboxJCOP",
+        "followers": 51000000,
+        "region": null,
+        "evidence": [
+          {
+            "id": "04ab2f993713137d00b45459",
+            "url": "",
+            "text": "This is the official YouTube channel of  Beatbox Star from KOREA - JCOP ! \n\nNo matter how incredible and unbelievable it may sound but all the voices are actually 100% REAL. So lets dive into the world of JCOP'S amazing and jaw dropping  BEATBOXING videos!\n\nJCOP can also be found on : \nTiktok : https://www.tiktok.com/@beatboxjcop\nInstagram : http://www.instagram.com/beatbox_jcop\nFacebook : https://www.facebook.com/beatboxJCOP",
+            "kind": "profile",
+            "provider": "wavesurge-pool",
+            "publishedAt": null,
+            "capturedAt": 1791620743932
+          }
+        ],
+        "raw": {
+          "id": "fad965cd-ad09-4f2b-8db0-a9f47aabdbd7",
+          "handle": "beatboxjcop",
+          "displayName": "BeatboxJCOP",
+          "bio": "This is the official YouTube channel of  Beatbox Star from KOREA - JCOP ! \n\nNo matter how incredible and unbelievable it may sound but all the voices are actually 100% REAL. So lets dive into the world of JCOP'S amazing and jaw dropping  BEATBOXING videos!\n\nJCOP can also be found on : \nTiktok : https://www.tiktok.com/@beatboxjcop\nInstagram : http://www.instagram.com/beatbox_jcop\nFacebook : https://www.facebook.com/beatboxJCOP",
+          "details": [],
+          "platform": "youtube",
+          "region": null,
+          "audience": null,
+          "followerCount": 51000000,
+          "engagementRate": null,
+          "engagementKnown": false,
+          "kolType": null,
+          "avatarUrl": null,
+          "publishedLink": null,
+          "tier": "macro",
+          "fit": 50,
+          "fromCompetitor": false,
+          "source": "runner:niche",
+          "sourceType": "runner",
+          "sourceSubType": "niche",
+          "origin": "system",
+          "foundAt": "2026-07-10T22:22:55.397Z",
+          "batchLabel": null,
+          "emailStatus": "finding_email",
+          "emailReadyAt": null,
+          "email": null,
+          "emailUsable": false,
+          "emailQualified": false,
+          "emailAutoSendable": false,
+          "emailConfidence": "low",
+          "emailOwnerType": "unknown",
+          "emailReasons": [
+            "missing_or_unusable_email"
+          ],
+          "contactChannels": [
+            {
+              "channel": "instagram",
+              "value": "beatbox_jcop",
+              "isPrimary": true
+            },
+            {
+              "channel": "tiktok",
+              "value": "beatboxjcop",
+              "isPrimary": true
+            },
+            {
+              "channel": "facebook",
+              "value": "beatboxJCOP",
+              "isPrimary": true
+            },
+            {
+              "channel": "website",
+              "value": "https://space.bilibili.com/2142107303",
+              "isPrimary": true
+            }
+          ],
+          "contactChannelCount": 4,
+          "contactable": false,
+          "lastSeenAt": "2026-07-10T22:22:55.397Z",
+          "searchKind": "trial",
+          "accountIdentity": null,
+          "recommendationKind": null,
+          "audienceStatus": "unavailable",
+          "qualification": null,
+          "searchMatchTier": null
+        }
+      },
+      "judgments": [
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：youtube",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "no_match",
+          "reason": "WaveSurge 粉丝数 51000000，要求 0–0",
+          "evidenceIds": [
+            "04ab2f993713137d00b45459"
+          ],
+          "label": "粉丝范围"
+        }
+      ],
+      "verdict": "no_match",
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "Beatbox（人声节奏／口技）表演"
+          ],
+          "reason": "已有频道简介明确介绍 JCOP 的 BEATBOXING videos，并声明声音为真人发声；支持简介所述内容方向，不代表本轮已核验近期帖子。来源为 wavesurge-pool 已采集的 profile 文字，本轮未重新打开页面。",
+          "evidenceIds": [
+            "04ab2f993713137d00b45459"
+          ]
+        }
+      ],
+      "tags": [
+        "Beatbox（人声节奏／口技）表演"
+      ],
+      "revision": 1,
+      "updatedAt": 1791620763919,
+      "selected": false
+    }
+  ],
+  "reportBytes": 4001,
+  "csvBytes": 3176,
+  "p95StateMs": 8.718260999999984,
+  "passed": true
+}

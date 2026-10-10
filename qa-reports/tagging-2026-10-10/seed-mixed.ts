@@ -1,0 +1,15 @@
+import{readFileSync}from'node:fs';
+import{Store}from'../../src/server/store.ts';
+import{ResearchEngine}from'../../src/server/research.ts';
+import{normalizeCreator}from'../../src/server/wave.ts';
+const input=JSON.parse(readFileSync('/app/data/fixtures/partial-original-creators.json','utf8'));
+if(!input.rawCreators.length||input.remoteStatus==='done')throw Error('Expected genuine partial candidates from an unfinished search');
+const store=new Store('/app/data/studio.sqlite');
+if(store.list<any>('assistance').some(a=>a.status!=='done'))throw Error('Unfinished assistance would invalidate this replay');
+const engine=new ResearchEngine(store,{submit:async()=>{throw Error('No new discovery submission allowed');},poll:async()=>{throw Error('No new discovery poll allowed');}},async()=>[],Date.now);
+const spec={...input.originalSpec,title:'原题四项特征核验：真实部分候选重放（非完整搜索）',count:1,candidateBudget:1};
+const task=engine.start(spec,'review-original-partial-replay-20261010');
+task.remoteId='review-replay:'+input.remoteId;task.remoteStatus='done';task.status='running';task.nextPollAt=0;
+task.candidates=input.rawCreators.slice(0,1).map((raw:any)=>normalizeCreator(raw,input.observedAt));
+task.exhaustive=true;task.detail='受控重放：原题真实搜索已返回的部分候选；原搜索尚未完成。保持四项条件与基础筛选范围，仅将本次复验数量改为1。';
+engine.save(task);store.close();process.stdout.write(task.id);

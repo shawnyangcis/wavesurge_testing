@@ -1,0 +1,17 @@
+{
+  "at": "2026-10-10T11:32:53.524931+00:00",
+  "faultProxy": {
+    "verifiedTarget": "/Users/shawn/coding/projects/wavesurge/wavesurge_testing/.gstack/qa-reports/retest-2026-10-10-r3/fault-proxy.mjs",
+    "stoppedPids": [
+      3862
+    ],
+    "originalEndpointRestored": true
+  },
+  "volumes": "preserve",
+  "servicesToRemove": "creator-studio-retest-r3-edge only",
+  "servicesToRetain": [
+    "main 3000",
+    "creator-studio-retest-r3-live 3572",
+    "all earlier unrelated projects"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "at": "2026-10-10T14:55:20.496Z",
+  "taskId": "research-290c9d1e55ab57958eebf69f",
+  "checks": [],
+  "pageErrors": [],
+  "error": "Error: expect(locator).toHaveCount(expected) failed\n\nLocator:  getByRole('dialog', { name: '研究结果' }).locator('.finding')\nExpected: 20\nReceived: 0\nTimeout:  5000ms\n\nCall log:\n  - Expect \"toHaveCount\" getByRole('dialog', { name: '研究结果' }).locator('.finding') with timeout 5000ms\n  - waiting for getByRole('dialog', { name: '研究结果' }).locator('.finding')\n    14 × locator resolved to 0 elements\n       - unexpected value \"0\"\n"
+}

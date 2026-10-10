@@ -1,0 +1,31 @@
+{
+  "at": "2026-10-10T11:09:58.644Z",
+  "checks": [],
+  "plan": {
+    "id": "campaign-400c66f262a9672f04ebd06e",
+    "revision": 2,
+    "status": "completed",
+    "matched": 2,
+    "requested": 2,
+    "evaluated": 4,
+    "groups": [
+      {
+        "title": "智能家居／家庭自动化个人体验博主",
+        "matched": 1,
+        "count": 1,
+        "taskId": "research-c36566806dda80292637ea63"
+      },
+      {
+        "title": "手机技巧／实用数码工具个人博主",
+        "matched": 1,
+        "count": 1,
+        "taskId": "research-20ffdb8a68e722d07e967be2"
+      }
+    ],
+    "selectedCreators": [
+      "instagram:tylerlcrawford",
+      "instagram:valstechtalkk"
+    ]
+  },
+  "error": "Error: expect(locator).toContainText(expected) failed\n\nLocator: getByRole('dialog', { name: 'Campaign 方案' })\nExpected substring: \"v2\"\nReceived string:    \"CAMPAIGN / STRATEGYCampaign 方案关闭在对话中描述产品、受众和目标，助手会与你共同确定创作者类型、范围和配额。暂无方案。先在对话中描述你的 Campaign 目标。\"\nTimeout: 5000ms\n\nCall log:\n  - Expect \"toContainText\" getByRole('dialog', { name: 'Campaign 方案' }) with timeout 5000ms\n  - waiting for getByRole('dialog', { name: 'Campaign 方案' })\n    14 × locator resolved to <section role=\"dialog\" class=\"inspector\" aria-modal=\"true\" aria-label=\"Campaign 方案\">…</section>\n       - unexpected value \"CAMPAIGN / STRATEGYCampaign 方案关闭在对话中描述产品、受众和目标，助手会与你共同确定创作者类型、范围和配额。暂无方案。先在对话中描述你的 Campaign 目标。\"\n"
+}

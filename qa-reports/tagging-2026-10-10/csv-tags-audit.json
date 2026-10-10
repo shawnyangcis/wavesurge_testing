@@ -1,0 +1,54 @@
+[
+  {
+    "file": "export-0.csv",
+    "rows": [
+      {
+        "handle": "tylerlcrawford",
+        "tags": "公开文字内容明确分享科技内容"
+      },
+      {
+        "handle": "valstechtalkk",
+        "tags": "公开文字内容明确分享科技内容"
+      }
+    ]
+  },
+  {
+    "file": "export-1.csv",
+    "rows": [
+      {
+        "handle": "schoolhabits",
+        "tags": "公开内容使用英语 / 公开内容明确分享课堂笔记整理或考试复习方法，至少涉及其中一种场景 / 公开内容明确面向大学学习场景或大学生受众，不推断创作者本人学生身份"
+      },
+      {
+        "handle": "raytubelcsw",
+        "tags": "公开内容使用英语 / 公开内容明确分享课堂笔记整理或考试复习方法，至少涉及其中一种场景"
+      }
+    ]
+  },
+  {
+    "file": "export-2.csv",
+    "rows": [
+      {
+        "handle": "colelangs",
+        "tags": "公开内容使用英语"
+      },
+      {
+        "handle": "wesleyanna",
+        "tags": "公开内容使用英语"
+      }
+    ]
+  },
+  {
+    "file": "replay-export.csv",
+    "rows": [
+      {
+        "handle": "wesleyanna",
+        "tags": "根据可核实的内容标注内容方向，例如数码、生活或其他方向，并给出一句依据；证据不足则待确认 / 根据可核实的内容标注呈现风格，例如 geek 风或其他风格，并给出一句依据；看不清或证据不足则待确认"
+      },
+      {
+        "handle": "schoolhabits",
+        "tags": "根据可核实的内容标注内容方向，例如数码、生活或其他方向，并给出一句依据；证据不足则待确认 / 根据可核实的内容标注呈现风格，例如 geek 风或其他风格，并给出一句依据；看不清或证据不足则待确认"
+      }
+    ]
+  }
+]

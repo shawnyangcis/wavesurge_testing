@@ -1,0 +1,350 @@
+{
+  "at": "2026-10-10T13:00:24.909Z",
+  "passed": true,
+  "files": 57,
+  "source": "Final full coverage run, supplementary check only; real behavioral validation recorded separately",
+  "perFile": [
+    {
+      "file": "src/client/App.tsx",
+      "statements": true,
+      "branches": true,
+      "functions": true
+    },
+    {
+      "file": "src/client/Campaigns.tsx",
+      "statements": true,
+      "branches": true,
+      "functions": true
+    },
+    {
+      "file": "src/client/Desktop.tsx",
+      "statements": true,
+      "branches": true,
+      "functions": true
+    },
+    {
+      "file": "src/client/Inspector.tsx",
+      "statements": true,
+      "branches": true,
+      "functions": true
+    },
+    {
+      "file": "src/client/Markdown.tsx",
+      "statements": true,
+      "branches": true,
+      "functions": true
+    },
+    {
+      "file": "src/client/Results.tsx",
+      "statements": true,
+      "branches": true,
+      "functions": true
+    },
+    {
+      "file": "src/client/api.ts",
+      "statements": true,
+      "branches": true,
+      "functions": true
+    },
+    {
+      "file": "src/client/env.d.ts",
+      "statements": true,
+      "branches": true,
+      "functions": true
+    },
+    {
+      "file": "src/client/main.tsx",
+      "statements": true,
+      "branches": true,
+      "functions": true
+    },
+    {
+      "file": "src/client/media.ts",
+      "statements": true,
+      "branches": true,
+      "functions": true
+    },
+    {
+      "file": "src/desktop/main.ts",
+      "statements": true,
+      "branches": true,
+      "functions": true
+    },
+    {
+      "file": "src/desktop/policy.ts",
+      "statements": true,
+      "branches": true,
+      "functions": true
+    },
+    {
+      "file": "src/desktop/runtime.ts",
+      "statements": true,
+      "branches": true,
+      "functions": true
+    },
+    {
+      "file": "src/desktop/server.ts",
+      "statements": true,
+      "branches": true,
+      "functions": true
+    },
+    {
+      "file": "src/desktop/start.ts",
+      "statements": true,
+      "branches": true,
+      "functions": true
+    },
+    {
+      "file": "src/server/agent.ts",
+      "statements": true,
+      "branches": true,
+      "functions": true
+    },
+    {
+      "file": "src/server/app.ts",
+      "statements": true,
+      "branches": true,
+      "functions": true
+    },
+    {
+      "file": "src/server/assessment.ts",
+      "statements": true,
+      "branches": true,
+      "functions": true
+    },
+    {
+      "file": "src/server/auth.ts",
+      "statements": true,
+      "branches": true,
+      "functions": true
+    },
+    {
+      "file": "src/server/bootstrap.ts",
+      "statements": true,
+      "branches": true,
+      "functions": true
+    },
+    {
+      "file": "src/server/browser-verifier.ts",
+      "statements": true,
+      "branches": true,
+      "functions": true
+    },
+    {
+      "file": "src/server/campaign-api.ts",
+      "statements": true,
+      "branches": true,
+      "functions": true
+    },
+    {
+      "file": "src/server/campaign-tools.ts",
+      "statements": true,
+      "branches": true,
+      "functions": true
+    },
+    {
+      "file": "src/server/campaign.ts",
+      "statements": true,
+      "branches": true,
+      "functions": true
+    },
+    {
+      "file": "src/server/canonical.ts",
+      "statements": true,
+      "branches": true,
+      "functions": true
+    },
+    {
+      "file": "src/server/context.ts",
+      "statements": true,
+      "branches": true,
+      "functions": true
+    },
+    {
+      "file": "src/server/debug-api.ts",
+      "statements": true,
+      "branches": true,
+      "functions": true
+    },
+    {
+      "file": "src/server/delivery.ts",
+      "statements": true,
+      "branches": true,
+      "functions": true
+    },
+    {
+      "file": "src/server/desktop-api.ts",
+      "statements": true,
+      "branches": true,
+      "functions": true
+    },
+    {
+      "file": "src/server/desktop-secret-init.ts",
+      "statements": true,
+      "branches": true,
+      "functions": true
+    },
+    {
+      "file": "src/server/desktop-secret-main.ts",
+      "statements": true,
+      "branches": true,
+      "functions": true
+    },
+    {
+      "file": "src/server/desktop.ts",
+      "statements": true,
+      "branches": true,
+      "functions": true
+    },
+    {
+      "file": "src/server/discovery.ts",
+      "statements": true,
+      "branches": true,
+      "functions": true
+    },
+    {
+      "file": "src/server/enrichment.ts",
+      "statements": true,
+      "branches": true,
+      "functions": true
+    },
+    {
+      "file": "src/server/instagram.ts",
+      "statements": true,
+      "branches": true,
+      "functions": true
+    },
+    {
+      "file": "src/server/main.ts",
+      "statements": true,
+      "branches": true,
+      "functions": true
+    },
+    {
+      "file": "src/server/model.ts",
+      "statements": true,
+      "branches": true,
+      "functions": true
+    },
+    {
+      "file": "src/server/repair.ts",
+      "statements": true,
+      "branches": true,
+      "functions": true
+    },
+    {
+      "file": "src/server/reports.ts",
+      "statements": true,
+      "branches": true,
+      "functions": true
+    },
+    {
+      "file": "src/server/research-api.ts",
+      "statements": true,
+      "branches": true,
+      "functions": true
+    },
+    {
+      "file": "src/server/research-tools.ts",
+      "statements": true,
+      "branches": true,
+      "functions": true
+    },
+    {
+      "file": "src/server/research.ts",
+      "statements": true,
+      "branches": true,
+      "functions": true
+    },
+    {
+      "file": "src/server/result-filter.ts",
+      "statements": true,
+      "branches": true,
+      "functions": true
+    },
+    {
+      "file": "src/server/selection.ts",
+      "statements": true,
+      "branches": true,
+      "functions": true
+    },
+    {
+      "file": "src/server/settings.ts",
+      "statements": true,
+      "branches": true,
+      "functions": true
+    },
+    {
+      "file": "src/server/shortlist.ts",
+      "statements": true,
+      "branches": true,
+      "functions": true
+    },
+    {
+      "file": "src/server/store.ts",
+      "statements": true,
+      "branches": true,
+      "functions": true
+    },
+    {
+      "file": "src/server/task-facts.ts",
+      "statements": true,
+      "branches": true,
+      "functions": true
+    },
+    {
+      "file": "src/server/tools.ts",
+      "statements": true,
+      "branches": true,
+      "functions": true
+    },
+    {
+      "file": "src/server/verdict.ts",
+      "statements": true,
+      "branches": true,
+      "functions": true
+    },
+    {
+      "file": "src/server/verify.ts",
+      "statements": true,
+      "branches": true,
+      "functions": true
+    },
+    {
+      "file": "src/server/wave.ts",
+      "statements": true,
+      "branches": true,
+      "functions": true
+    },
+    {
+      "file": "src/server/work-delivery.ts",
+      "statements": true,
+      "branches": true,
+      "functions": true
+    },
+    {
+      "file": "src/shared/campaign.ts",
+      "statements": true,
+      "branches": true,
+      "functions": true
+    },
+    {
+      "file": "src/shared/contracts.ts",
+      "statements": true,
+      "branches": true,
+      "functions": true
+    },
+    {
+      "file": "src/shared/prompts.ts",
+      "statements": true,
+      "branches": true,
+      "functions": true
+    },
+    {
+      "file": "src/shared/research.ts",
+      "statements": true,
+      "branches": true,
+      "functions": true
+    }
+  ]
+}

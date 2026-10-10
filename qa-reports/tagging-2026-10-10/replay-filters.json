@@ -1,0 +1,48 @@
+{
+  "observedAt": "2026-10-10T02:54:41.532Z",
+  "source": "Actual UI on controlled genuine-candidate replay; no new discovery",
+  "taskId": "research-5839ab193c0487161eb47357",
+  "filters": [
+    {
+      "tag": "Notion",
+      "httpStatus": 200,
+      "uiCount": 0,
+      "results": []
+    },
+    {
+      "tag": "geek",
+      "httpStatus": 200,
+      "uiCount": 2,
+      "results": [
+        {
+          "handle": "wesleyanna",
+          "tags": [
+            "根据可核实的内容标注内容方向，例如数码、生活或其他方向，并给出一句依据；证据不足则待确认",
+            "根据可核实的内容标注呈现风格，例如 geek 风或其他风格，并给出一句依据；看不清或证据不足则待确认"
+          ],
+          "reasons": [
+            "内容方向标注：效率工具与科技、生活及旅行 Vlog。频道公开列出“productivity, notion & tech”播放列表，以及 Notion 入门、Capacities 整理工具、AI 讨论和京都/首尔旅行视频；主页显示 Capacities 视频为“4w ago”、京都 Vlog 为“2mo ago”（页面相对日期，不作为精确发布日期）。来源为本次观察的 YouTube 频道主页。",
+            "呈现风格标注：个人化、轻松聊天与工具讲解结合的 Vlog 风。主页截图中多条视频缩略图展示居家人物出镜，其中 Capacities 视频将人物与软件界面并置；公开标题使用第一人称，且设有“chatty stuff”及“vlogs”播放列表。可据此标注上述风格，但不足以明确标为 geek 风，也未据头像判断身体或身份特征。"
+          ]
+        },
+        {
+          "handle": "schoolhabits",
+          "tags": [
+            "根据可核实的内容标注内容方向，例如数码、生活或其他方向，并给出一句依据；证据不足则待确认",
+            "根据可核实的内容标注呈现风格，例如 geek 风或其他风格，并给出一句依据；看不清或证据不足则待确认"
+          ],
+          "reasons": [
+            "内容方向标注：教育／学习方法与效率提升。频道简介明确介绍学习技巧、拖延管理、时间管理及笔记方法，视频《How to Study from a Study Guide You Got from Your Teacher》（页面显示4w ago）及《No Time to Study? Do This.》（1mo ago）与该方向一致。来源为2026-10-10观察的频道页面；仅保留页面相对日期，不推定确切发布日期。",
+            "呈现风格标注：教师式知识讲解／实用学习指导。频道首页《Welcome to SchoolHabits》视频截图实际可见真人面对镜头、室内背景的讲解画面，配文明确以视频教程教学生学习；可支持教学讲解风格，但不足以标注geek风，也不据此推断全部视频的视觉风格。来源为2026-10-10观察的频道页面，介绍视频页面显示1y ago。"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "教师",
+      "httpStatus": 200,
+      "uiCount": 0,
+      "results": []
+    }
+  ]
+}

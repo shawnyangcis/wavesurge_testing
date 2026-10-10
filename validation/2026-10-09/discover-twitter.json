@@ -1,0 +1,1505 @@
+{
+  "atUtc": "2026-10-09T14:19:57.534836+00:00",
+  "method": "GET",
+  "path": "/discover/db?platform=twitter&limit=2&sort=fit_desc",
+  "status": 200,
+  "elapsedSeconds": 2.784,
+  "contentType": "application/json; charset=utf-8",
+  "responseSha256": "92afebd7a900a2e35a897c944e83c9a80beae494005e550b8be44ea51e293aa8",
+  "response": {
+    "summary": {
+      "total": 2,
+      "byPlatform": {
+        "twitter": 500
+      },
+      "fromCompetitors": 1,
+      "lookalikes": 1,
+      "avgFit": 84,
+      "sourceTypes": {
+        "exa": 0,
+        "runner": 2,
+        "manual": 0,
+        "import": 0,
+        "cache": 0,
+        "unknown": 0
+      },
+      "emailUsable": 0,
+      "emailQualified": 0,
+      "emailAutoSendable": 0,
+      "contactable": 0,
+      "nonEmailContactable": 1
+    },
+    "tiers": {
+      "all": 2,
+      "koc": 0,
+      "micro": 0,
+      "mid": 0,
+      "macro": 2
+    },
+    "creators": [
+      {
+        "id": "224b6318-56bb-477a-9b19-01682c4e5f74",
+        "handle": "gregisenberg",
+        "displayName": "GREG ISENBERG",
+        "bio": "I drop startup ideas daily. Host @startupideaspod. CEO: @latecheckoutplz we build companies like @ideabrowser, @meetLCA, @boringmarketer etc",
+        "details": [
+          {
+            "group": "identity",
+            "key": "region",
+            "label": "Market",
+            "value": "more →",
+            "hint": "The region recorded for this creator. This field alone does not verify where they live or where their audience is. Check qualification evidence for any location requirement."
+          },
+          {
+            "group": "identity",
+            "key": "source",
+            "label": "Found via",
+            "value": "This campaign search",
+            "hint": "How this creator reached your list."
+          },
+          {
+            "group": "identity",
+            "key": "foundAt",
+            "label": "Added",
+            "value": "2026-10-09",
+            "hint": "When this creator entered our database."
+          },
+          {
+            "group": "content",
+            "key": "medianViews",
+            "label": "Median views",
+            "value": "205,882 (3 posts)",
+            "hint": "The middle value of their recent posts — a fairer picture of a typical post than an average, which one viral video distorts. Posts we could not read a count for are left out rather than counted as zero."
+          }
+        ],
+        "platform": "twitter",
+        "region": "more →",
+        "audience": null,
+        "followerCount": 726671,
+        "engagementRate": null,
+        "engagementKnown": false,
+        "kolType": "ai_tools",
+        "avatarUrl": "https://pompe-ai-analysis-artifacts.sgp1.cdn.digitaloceanspaces.com/creator-avatars/twitter/e1f1fa143b0454bf48d9038b3db6edf1.jpg",
+        "publishedLink": null,
+        "tier": "macro",
+        "fit": 91,
+        "fromCompetitor": true,
+        "source": "runner:competitor_decode",
+        "sourceType": "runner",
+        "sourceSubType": "competitor",
+        "origin": "system",
+        "foundAt": "2026-06-06T17:33:55.394Z",
+        "batchLabel": null,
+        "emailStatus": "finding_email",
+        "emailReadyAt": null,
+        "email": null,
+        "emailUsable": false,
+        "emailQualified": false,
+        "emailAutoSendable": false,
+        "emailConfidence": "low",
+        "emailOwnerType": "unknown",
+        "emailReasons": [
+          "missing_or_unusable_email"
+        ],
+        "contactChannels": [
+          {
+            "channel": "website",
+            "value": "https://nextbigwhat.com/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-forms/dist/contact-form/css/jetpack-forms-layout.css?ver=16.3",
+            "isPrimary": true
+          },
+          {
+            "channel": "twitter",
+            "value": "gregisenberg",
+            "isPrimary": true
+          },
+          {
+            "channel": "website",
+            "value": "https://www.gstatic.com/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/xkxV42MluVk/hqdefault.jpg?sqp=-oaymwE1CKgBEF5IVfKriqkDKAgBFQAAiEIYAXABwAEG8AEB-AH-CYAC0AWKAgwIABABGEEgTChlMA8=\\u0026rs=AOn4CLC8TZQpi2TLoTDD7tjwqlthxylH2A",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://rr5---sn-npoe7ndr.googlevideo.com/initplayback?source=youtube\\u0026oeis=1\\u0026c=WEB\\u0026oad=3200\\u0026ovd=3200\\u0026oaad=11000\\u0026oavd=11000\\u0026ocs=700\\u0026oewis=1\\u0026oputc=1\\u0026oehoh5=1\\u0026msp=1\\u0026odepv=1\\u0026id=6f0fa8f564720b12\\",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/an_webp/bw-o9WRyCxI/mqdefault_6s.webp?du=3000\\u0026sqp=CO7wnNYG\\u0026rs=AOn4CLBmKuWckRnV9Nzl5FHjVmBEDcV2jA",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/bw-o9WRyCxI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==\\u0026rs=AOn4CLDrwb3SuKWlp0_OnqfagPWEmOfnwg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/bw-o9WRyCxI/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG\\u0026rs=AOn4CLBkXptfAJ0b5JblneGAcxILakt5yw",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://accounts.google.com/ServiceLogin?service=youtube\\u0026uilel=3\\u0026passive=true\\u0026continue=https://www.youtube.com/signin?action_handle_signin=true&app=desktop&hl=en\\u0026hl=en",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://gmpg.org/xfn/11",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://rr2---sn-ojnpo5-59.googlevideo.com/initplayback?source=youtube\\u0026oeis=1\\u0026c=WEB\\u0026oad=3200\\u0026ovd=3200\\u0026oaad=11000\\u0026oavd=11000\\u0026ocs=700\\u0026oewis=1\\u0026oputc=1\\u0026oehoh5=1\\u0026msp=1\\u0026odepv=1\\u0026id=2f3a66ee9207353b",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://yt3.ggpht.com/_Elo3_9mVlpeklJsam8fj50KnvE24IiDXPtQ074_HCG4kRp1f0GhWVqfPsY9HEgNOBOJXCwN=s68-c-k-c0x00ffffff-no-rj",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/an_webp/Lzpm7pIHNTs/mqdefault_6s.webp?du=3000\\u0026sqp=CKCgndYG\\u0026rs=AOn4CLAegJ-P5btwrWlFZfYR6lMNmRH0fA",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://www.gstatic.com/youtube/img/lottie/audio_indicator/audio_indicator_v2.json",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/Lzpm7pIHNTs/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==\\u0026rs=AOn4CLCVcIFUAm91E0AC79ftJ2t14g92Qw",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/Lzpm7pIHNTs/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG\\u0026rs=AOn4CLC346jhNZrpJ2pgXOqAJluCCreR8w",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://www.gstatic.com/youtube/img/watch/social_media/twitter_1x_v2.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://www.gstatic.com/youtube/img/watch/yt_favicon_ringo2.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://www.gstatic.com/youtube/img/watch/social_media/linkedin_1x.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://replit.com/n/nTimestamps/n00:00",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://claude.ai/nReplit",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://lovable.dev/nClaude",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://www.ideabrowser.com/nThe",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://clickhubspot.com/gvl/nEp.",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://accounts.google.com/ServiceLogin?service=youtube\\u0026uilel=3\\u0026passive=true\\u0026continue=https://www.youtube.com/signin?action_handle_signin=true&app=desktop&hl=en&next=/watch?v=_F8734qTQOs&continue_action=QUZZTVljSFI3c1RvTVZnY0JNeVhDRmRsa2sx",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://yt3.ggpht.com/_Elo3_9mVlpeklJsam8fj50KnvE24IiDXPtQ074_HCG4kRp1f0GhWVqfPsY9HEgNOBOJXCwN=s176-c-k-c0x00ffffff-no-rj",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://yt3.ggpht.com/_Elo3_9mVlpeklJsam8fj50KnvE24IiDXPtQ074_HCG4kRp1f0GhWVqfPsY9HEgNOBOJXCwN=s88-c-k-c0x00ffffff-no-rj",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://yt3.ggpht.com/_Elo3_9mVlpeklJsam8fj50KnvE24IiDXPtQ074_HCG4kRp1f0GhWVqfPsY9HEgNOBOJXCwN=s48-c-k-c0x00ffffff-no-rj",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://rr3---sn-ojnpo5-5b.googlevideo.com/initplayback?source=youtube\\u0026oeis=1\\u0026c=WEB\\u0026oad=3200\\u0026ovd=3200\\u0026oaad=11000\\u0026oavd=11000\\u0026ocs=700\\u0026oewis=1\\u0026oputc=1\\u0026oehoh5=1\\u0026msp=1\\u0026odepv=1\\u0026id=fc5f3bdf8a9340eb",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://accounts.google.com/ServiceLogin?service=youtube\\u0026uilel=3\\u0026passive=true\\u0026continue=https://www.youtube.com/signin?action_handle_signin=true&app=desktop&hl=en&next=/watch?v=_F8734qTQOs\\u0026hl=en\\u0026ec=66427",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://accounts.google.com/ServiceLogin?service=youtube\\u0026uilel=3\\u0026passive=true\\u0026continue=https://www.youtube.com/signin?action_handle_signin=true&app=desktop&hl=en\\u0026hl=en\\u0026ec=66425",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://accounts.google.com/ServiceLogin?service=youtube\\u0026uilel=3\\u0026passive=true\\u0026continue=https://www.youtube.com/signin?action_handle_signin=true&app=desktop&hl=en\\u0026hl=en\\u0026ec=66426",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https://www.youtube.com/signin?action_handle_signin=true&app=desktop&hl=en&next=/signin_passive&feature=passive&hl=en",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://www.gstatic.com/youtube/img/promos/growth/6ad5a99c727579634bc3e2fb67562a2621170bdd11578967392667be5a05c5e4_384x384.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://support.google.com/youtube/answer/3037019#zippy=,check-that-youre-signed-into-youtube",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://accounts.google.com/ServiceLogin?service=youtube\\u0026uilel=3\\u0026passive=true\\u0026continue=https://www.youtube.com/signin?action_handle_signin=true&app=desktop&hl=en&next=/watch?v=_F8734qTQOs\\u0026hl=en",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://www.google.com.sg/pagead/lvz?evtid\\u003dACd6Kty1oam66j4IYuxn7wN8-t-f0CHgW879ZjW85hR4z7xvln1qLDkjJIzka8qKlNyh8Tv-e8pKQP9ZdfkRmiHzgyiFpuUa-w\\u0026req_ts\\u003d1791450864\\u0026pg\\u003dMainAppBootstrap:Watch\\u0026az\\u003d1\\u0026sigh\\u003dAB9vU43ebLwofW",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://www.google.com/pagead/lvz?evtid\\u003dACd6Kty1oam66j4IYuxn7wN8-t-f0CHgW879ZjW85hR4z7xvln1qLDkjJIzka8qKlNyh8Tv-e8pKQP9ZdfkRmiHzgyiFpuUa-w\\u0026req_ts\\u003d1791450864\\u0026pg\\u003dMainAppBootstrap:Watch\\u0026az\\u003d1\\u0026sigh\\u003dAB9vU43ebLwofWZsS",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://support.google.com/youtube/?p\\u003dcreator_community",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://youtubei-att.googleapis.com/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://clients4.google.com/invalidation/lcs/client",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://client-channel.google.com/client-channel/client",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://families.google.com/webcreation?usegapi\\u003d1",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://accounts.google.com/ServiceLogin?service\\u003dyoutube\\u0026uilel\\u003d3\\u0026passive\\u003dtrue\\u0026continue\\u003dhttps://www.youtube.com/signin?action_handle_signin=true&app=desktop&hl=en&next=https://www.youtube.com/watch?v=_F8734qTQOs&feature=_",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://apis.google.com/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://www.gstatic.com/youtube/img/emojis/emojis-png-15.1.json",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://developers.google.com/youtube",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://rr3---sn-ojnpo5-5b.googlevideo.com/generate_204",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/_F8734qTQOs/hqdefault.jpg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://nextbigwhat.com/wp-includes/js/wp-emoji-loader.min.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://nextbigwhat.com/wp-includes/js/wp-emoji-release.min.js?ver=7.1.3",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://s.w.org/images/core/emoji/17.0.2/svg/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://s.w.org/images/core/emoji/17.0.2/72x72/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://nextbigwhat.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=4.2.3",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://nextbigwhat.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=4.2.3",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://nextbigwhat.com/wp-includes/js/dist/i18n.min.js?ver=1dfe7db3940c23ea9216",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://nextbigwhat.com/wp-includes/js/dist/hooks.min.js?ver=f0f188028580e8dc1255",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://nextbigwhat.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?m=1789898340",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://stats.wp.com/e-202641.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://nextbigwhat.com/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-events-provider-content-events-6b04077d00f0d606ba42.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://nextbigwhat.com/wp-includes/js/imagesloaded.min.js?m=1691777906",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://nextbigwhat.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=4.3.4",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://nextbigwhat.com/wp-includes/js/jquery/ui/core.min.js?ver=1.14.2",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://nextbigwhat.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=4.3.4",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://nextbigwhat.com/_jb_static/??f53f83c414",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/generate_204",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://nextbigwhat.com/wp-content/plugins/nbw-kudos/kudos.js?ver=1.0.1",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://s0.wp.com/wp-content/js/bilmur.min.js?m=202641",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3196168767407872&host=ca-host-pub-2644536267352236",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://letter.nextbigwhat.com/subscribe",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://nextbigwhat.com/master-the-curiosity-flywheel-startup-lessons-from-greg-isenberg/2/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Newsreader:wght@400;500;600&display=swap",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://nextbigwhat.com/wp-json/nbw/v1/kudos/262181",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "http://www.w3.org/2000/svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i0.wp.com/nextbigwhat.com/wp-content/uploads/2024/02/18ec0-cropped-nbw-icon-2022.png?fit=270,270&#038;ssl=1",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://api.w.org/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://www.googletagmanager.com/gtag/js?id=G-XP927XP23Y",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://nextbigwhat.com/wp-includes/js/jquery/jquery-migrate.min.js?m=1686289764",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://nextbigwhat.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://nextbigwhat.com/wp-content/mu-plugins/wpcomsh/jetpack_vendor/automattic/jetpack-mu-wpcom/src/build/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://nextbigwhat.com/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-search/build/search-blocks/search-results.css",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://nextbigwhat.com/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-search/build/search-blocks/search-input.css",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://nextbigwhat.com/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-search/build/search-blocks/results-sort.css",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://nextbigwhat.com/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-search/build/search-blocks/results-load-more.css",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://nextbigwhat.com/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-search/build/search-blocks/results-list.css",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "http://www.w3.org/2000/svg'",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://nextbigwhat.com/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-search/build/search-blocks/results-count.css",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://nextbigwhat.com/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-search/build/search-blocks/powered-by.css",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://nextbigwhat.com/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-search/build/search-blocks/no-results.css",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://nextbigwhat.com/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-search/build/search-blocks/filters-popover.css",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://nextbigwhat.com/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-search/build/search-blocks/filters.css",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://nextbigwhat.com/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-search/build/search-blocks/filter-date.css",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://nextbigwhat.com/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-search/build/search-blocks/filter-checkbox.css",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://nextbigwhat.com/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-search/build/search-blocks/clear-filters.css",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://nextbigwhat.com/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-search/build/search-blocks/ai-answer.css",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://nextbigwhat.com/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-search/build/search-blocks/active-filters.css",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://nextbigwhat.com/bata-invests-heavily-in-digital-marketing-and-embraces-ai-driven-production/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://nextbigwhat.com/samsungs-ai-appliances-surge-in-india-as-young-consumers-drive-demand/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://nextbigwhat.com/claude-opus-5-exploited-in-openai-account-takeover/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://nextbigwhat.com/amazon-cuts-ties-with-metas-muse-ai-over-transparency-issues/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://nextbigwhat.com/openai-unveils-dots-the-new-ai-helpers-that-never-sleep/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://nextbigwhat.com/hackers-exploit-chatgpt-custom-gpts-in-new-clickfix-scheme/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://nextbigwhat.com/signup",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://nextbigwhat.com/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://nextbigwhat.com/2021/05/02/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://submit.nextbigwhat.com/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://brain.nextbigwhat.com/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://jobs.nextbigwhat.com/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i0.wp.com/nextbigwhat.com/wp-content/uploads/2024/02/18ec0-cropped-nbw-icon-2022.png?fit=180,180&#038;ssl=1",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i0.wp.com/nextbigwhat.com/wp-content/uploads/2024/02/18ec0-cropped-nbw-icon-2022.png?fit=192,192&#038;ssl=1",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i0.wp.com/nextbigwhat.com/wp-content/uploads/2024/02/18ec0-cropped-nbw-icon-2022.png?fit=32,32&#038;ssl=1",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://nextbigwhat.com/llms.txt",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://wp.me/pet3Ax-16cJ",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://nextbigwhat.com/master-the-curiosity-flywheel-startup-lessons-from-greg-isenberg/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://nextbigwhat.com/xmlrpc.php?rsd",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://nextbigwhat.com/wp-json/wp/v2/posts/262181",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://nextbigwhat.com/wp-json/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://rr5---sn-npoe7nes.googlevideo.com/initplayback?source=youtube\\u0026oeis=1\\u0026c=WEB\\u0026oad=3200\\u0026ovd=3200\\u0026oaad=11000\\u00",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://yt3.ggpht.com/OtmmOEkp-FT1SSnUI7O6MaUQEez6aEOBTuLG8e_eLuzd0RpxERMk6P8vpwXdS1zQq_0LN-4sn9o=s68-c-k-c0x00ffffff-no-rj",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/an_webp/c9_SR0d1LLk/mqdefault_6s.webp?du=3000\\u0026sqp=CIOVndYG\\u0026rs=AOn4CLBKbXeuFPk83AbvSalRSDayld2zxg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/c9_SR0d1LLk/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBqLzl_8DDgiTs5DVBhjg6gQg4KgB\\u0026rs=AOn4CLA8BwDm_KpRv1fgcem6vrXN9LmmeA\\u0026usqp=CBU",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/c9_SR0d1LLk/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEGovOX_wMOCJOzkNUGGODqBCDgqAE=\\u0026rs=AOn4CLBkRYiFRya8hrXaMjf7uAYETiTGDA\\u0026usqp=CBU",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://rr2---sn-npoeene6.googlevideo.com/initplayback?source=youtube\\u0026oeis=1\\u0026c=WEB\\u0026oad=3200\\u0026ovd=3200\\u0026oaad=11000\\u0026oavd=11000\\u0026ocs=700\\u0026oewis=1\\u0026oputc=1\\u0026msp=1\\u0026odepv=1\\u0026id=22c5296ad0bda1b2\\u0026ip=143.19",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://yt3.ggpht.com/89BRGyY3ICStX8CdzrfETSo3KrGptanUi5DF8OCAkRhZMm0zHHj0461bPqIoaGlUER7vA_affw=s68-c-k-c0x00ffffff-no-rj",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/an_webp/IsUpatC9obI/mqdefault_6s.webp?du=3000\\u0026sqp=CLScndYG\\u0026rs=AOn4CLBEzdA74k4lGYct9_rezpplVj1rwA",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/IsUpatC9obI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBqLzl_8DDgi-joLVBhjg6gQg4KgB\\u0026rs=AOn4CLCDsceFGImKiD5EpREwud19lDghZA\\u0026usqp=CBU",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/IsUpatC9obI/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEGovOX_wMOCL6OgtUGGODqBCDgqAE=\\u0026rs=AOn4CLBc-v6bOcKbu42gy5uG0b4m66hvLg\\u0026usqp=CBU",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://rr2---sn-npoeenee.googlevideo.com/initplayback?source=youtube\\u0026oeis=1\\u0026c=WEB\\u0026oad=3200\\u0026ovd=3200\\u0026oaad=11000\\u0026oavd=11000\\u0026ocs=700\\u0026oewis=1\\u0026oputc=1\\u0026msp=1\\u0026odepv=1\\u0026id=5e0916e00ea5ac36\\u0026ip=143.19",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://yt3.ggpht.com/Cm_AOGXEC3TYdp2iOXTUj07zgqBkCMJjh4C-0iD0DJOALbMb-D2tz9fJ2e-EDE5DJnJCnd3PaA=s68-c-k-c0x00ffffff-no-rj",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/an_webp/XgkW4A6lrDY/mqdefault_6s.webp?du=3000\\u0026sqp=CPyTndYG\\u0026rs=AOn4CLC_ReSrxmrb7EkhBCVI_3_dyn2dxg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/XgkW4A6lrDY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBqLzl_8DDgjBhdLUBhjg6gQg4KgB\\u0026rs=AOn4CLDkOs_bDa3djZMGlZoiJc1ZKQ8r_w\\u0026usqp=CBU",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/XgkW4A6lrDY/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEGovOX_wMOCMGF0tQGGODqBCDgqAE=\\u0026rs=AOn4CLDJ-r5M0kIl43rsdqcC0A0lYEOvoA\\u0026usqp=CBU",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://rr1---sn-npoe7ner.googlevideo.com/initplayback?source=youtube\\u0026oeis=1\\u0026c=WEB\\u0026oad=3200\\u0026ovd=3200\\u0026oaad=11000\\u0026oavd=11000\\u0026ocs=700\\u0026oewis=1\\u0026oputc=1\\u0026msp=1\\u0026odepv=1\\u0026id=99a49db132da32e5\\u0026ip=143.19",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/an_webp/maSdsTLaMuU/mqdefault_6s.webp?du=3000\\u0026sqp=CPKKndYG\\u0026rs=AOn4CLDwYD_YnQNu3dFR2HpU9TZBMri4Hw",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/maSdsTLaMuU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBqLzl_8DDgiT4u7VBhjg6gQg4KgB\\u0026rs=AOn4CLC8rqeZsuarw1nU5elmzJFbe4qCEA\\u0026usqp=CBU",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/maSdsTLaMuU/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEGovOX_wMOCJPi7tUGGODqBCDgqAE=\\u0026rs=AOn4CLBFXohdvy4biO3x5ilACAtcrEdXUw\\u0026usqp=CBU",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://rr2---sn-ojnpo5-ci.googlevideo.com/initplayback?source=youtube\\u0026oeis=1\\u0026c=WEB\\u0026oad=3200\\u0026ovd=3200\\u0026oaad=11000\\u0026oavd=11000\\u0026ocs=700\\u0026oewis=1\\u0026oputc=1\\u0026msp=1\\u0026odepv=1\\u0026id=5323090540b20c8b\\u0026ip=143.1",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://yt3.ggpht.com/vvdXULk0z9-eMHaEV8y2hkduCb8cjcF5zQD6puFRPaaNnPHhbSFn8nKfkLPVSmiHcnfPxS093w=s68-c-k-c0x00ffffff-no-rj",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/an_webp/UyMJBUCyDIs/mqdefault_6s.webp?du=3000\\u0026sqp=CNOLndYG\\u0026rs=AOn4CLB11GkIfrsyZgscAYQN9txXCy190g",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/UyMJBUCyDIs/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBqLzl_8DDgjlpL7UBhjg6gQg4KgB\\u0026rs=AOn4CLCoDf4Lna8pMAzMKws8H5VEiaD7UQ\\u0026usqp=CBU",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/UyMJBUCyDIs/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEGovOX_wMOCOWkvtQGGODqBCDgqAE=\\u0026rs=AOn4CLCu0o1qZsswDJ4dDDJ7yglFJxbmGA\\u0026usqp=CBU",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://rr1---sn-npoe7ned.googlevideo.com/initplayback?source=youtube\\u0026oeis=1\\u0026c=WEB\\u0026oad=3200\\u0026ovd=3200\\u0026oaad=11000\\u0026oavd=11000\\u0026ocs=700\\u0026oewis=1\\u0026oputc=1\\u0026msp=1\\u0026odepv=1\\u0026id=e21289f57eab185a\\u0026ip=143.19",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://yt3.ggpht.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s68-c-k-c0x00ffffff-no-rj",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/an_webp/4hKJ9X6rGFo/mqdefault_6s.webp?du=3000\\u0026sqp=CM65ndYG\\u0026rs=AOn4CLBKLZHKUwath9nIMcuGVyd2cIxZwg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/4hKJ9X6rGFo/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBqLzl_8DDgjvvJ7VBhjg6gQg4KgB\\u0026rs=AOn4CLCbYBtqK0-lUzwD7Lv6r4N8g5Oxmg\\u0026usqp=CBU",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/4hKJ9X6rGFo/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEGovOX_wMOCO-8ntUGGODqBCDgqAE=\\u0026rs=AOn4CLA3_n6sjXnciF3De7E_OoqK6Uowtw\\u0026usqp=CBU",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://rr4---sn-ojnpo5-59.googlevideo.com/initplayback?source=youtube\\u0026oeis=1\\u0026c=WEB\\u0026oad=3200\\u0026ovd=3200\\u0026oaad=11000\\u0026oavd=11000\\u0026ocs=700\\u0026oewis=1\\u0026oputc=1\\u0026msp=1\\u0026odepv=1\\u0026id=7db9b92debc42722\\u0026ip=143.1",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://yt3.ggpht.com/w65_BNgB3AmFmX9yqwI7fpC_MfBBT2mThqMH5IJ_CtuWoiOAB7QgCIdc_75QRrbdSCH4yJc3hQ=s68-c-k-c0x00ffffff-no-rj",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/an_webp/fbm5LevEJyI/mqdefault_6s.webp?du=3000\\u0026sqp=CLiqndYG\\u0026rs=AOn4CLCzKmxoBPRiUIgwNkRZBmR04KLNZg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/fbm5LevEJyI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBqLzl_8DDgiwkZbWBhjg6gQg4KgB\\u0026rs=AOn4CLB5jryDEAHm4EFTse0VuAp8ucX62g\\u0026usqp=CBU",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/fbm5LevEJyI/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEGovOX_wMOCLCRltYGGODqBCDgqAE=\\u0026rs=AOn4CLDXR5bNSAl6TTgIhXztAD8Okq0C3A\\u0026usqp=CBU",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://rr3---sn-npoe7ndr.googlevideo.com/initplayback?source=youtube\\u0026oeis=1\\u0026c=WEB\\u0026oad=3200\\u0026ovd=3200\\u0026oaad=11000\\u0026oavd=11000\\u0026ocs=700\\u0026oewis=1\\u0026oputc=1\\u0026msp=1\\u0026odepv=1\\u0026id=1ddfd82eeba999bf\\u0026ip=143.19",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://yt3.ggpht.com/ttvqB019PPUI8m8BqGsRaU3lf0cGG3a_mLy0KDIEO2H5ZnLt8ghlVgWmVIWU7PL3vIUOqU07=s68-c-k-c0x00ffffff-no-rj",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/Hd_YLuupmb8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBqLzl_8DDgjZ6KrVBhjg6gQg4KgB\\u0026rs=AOn4CLDEPkmeX8F2fID4SaZLbOdFH3rQUg\\u0026usqp=CBU",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/Hd_YLuupmb8/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEGovOX_wMOCNnoqtUGGODqBCDgqAE=\\u0026rs=AOn4CLCVS_pEShf10yfOlFvV2w2Ir1uJ8g\\u0026usqp=CBU",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://rr3---sn-ojnpo5-5v.googlevideo.com/initplayback?source=youtube\\u0026oeis=1\\u0026c=WEB\\u0026oad=3200\\u0026ovd=3200\\u0026oaad=11000\\u0026oavd=11000\\u0026ocs=700\\u0026oewis=1\\u0026oputc=1\\u0026msp=1\\u0026odepv=1\\u0026id=0ba788b53740b8dc\\u0026ip=143.1",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://yt3.ggpht.com/RLbVU5gYGZdAUPgc3-4vMGXxANw13a3aN6bG_XocEaFB3YZalfY92Wfxu1CDqySu2z01y3M7mCA=s88-c-k-c0x00ffffff-no-rj",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://yt3.ggpht.com/sYneQjJcTnRWoHpioaibLsFTch86olzkyo0kGClF2pj1742JH4-b6BKkMDBJXMSudlAemR-z3w=s68-c-k-c0x00ffffff-no-rj",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/an_webp/C6eItTdAuNw/mqdefault_6s.webp?du=3000\\u0026sqp=CMjvnNYG\\u0026rs=AOn4CLB9hIAYAf-NN-zDmXSedOXGOllu0A",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/C6eItTdAuNw/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBqLzl_8DDgi2mMjUBhjg6gQg4KgB\\u0026rs=AOn4CLALHsRrGQWa_wIdbyQ_uoXlQQKhaA\\u0026usqp=CBU",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/C6eItTdAuNw/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEGovOX_wMOCLaYyNQGGODqBCDgqAE=\\u0026rs=AOn4CLB7ajKp6l0XpM20pIo7tJObtzZjbg\\u0026usqp=CBU",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://rr5---sn-ojnpo5-5q.googlevideo.com/initplayback?source=youtube\\u0026oeis=1\\u0026c=WEB\\u0026oad=3200\\u0026ovd=3200\\u0026oaad=11000\\u0026oavd=11000\\u0026ocs=700\\u0026oewis=1\\u0026oputc=1\\u0026msp=1\\u0026odepv=1\\u0026id=128347dd39fcc181\\u0026ip=143.1",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/an_webp/EoNH3Tn8wYE/mqdefault_6s.webp?du=3000\\u0026sqp=CNmbndYG\\u0026rs=AOn4CLDOlXfbwhBj3f2ltQZmOwRGhlAMMQ",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/EoNH3Tn8wYE/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBqLzl_8DDgiBgr3UBhjg6gQg4KgB\\u0026rs=AOn4CLByW-eAg4qI-57NHvNxhrrYJLyzwg\\u0026usqp=CBU",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/EoNH3Tn8wYE/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEGovOX_wMOCIGCvdQGGODqBCDgqAE=\\u0026rs=AOn4CLAdVMrD89mpQ7-4gpVMnOAwBlNKpg\\u0026usqp=CBU",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://www.gstatic.com/youtube/img/watch/social_media/tiktok_1x.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://www.gstatic.com/youtube/img/watch/social_media/instagram_1x.png",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://www.thevibemarketer.com//n/nFIND",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://latecheckout.agency//n/nThe",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://www.ideabrowser.com/n/nLCA",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://accounts.google.com/ServiceLogin?service=youtube\\u0026uilel=3\\u0026passive=true\\u0026continue=https://www.youtube.com/signin?action_handle_signin=true&app=desktop&hl=en&next=/watch?v=qQluNEfSVHk&continue_action=QUZZTVljRllKMHc2ektHbW1fUkdkV3ZCUGJm",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://yt3.ggpht.com/5wiiTxMamM0NnCmGOt0iJ6eoVRmFLNIGF-BEiTZ_AVqaS02YIxAsB-2XY6xwLCUWQfoENG1MHKo=s176-c-k-c0x00ffffff-no-rj",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://yt3.ggpht.com/5wiiTxMamM0NnCmGOt0iJ6eoVRmFLNIGF-BEiTZ_AVqaS02YIxAsB-2XY6xwLCUWQfoENG1MHKo=s88-c-k-c0x00ffffff-no-rj",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://yt3.ggpht.com/5wiiTxMamM0NnCmGOt0iJ6eoVRmFLNIGF-BEiTZ_AVqaS02YIxAsB-2XY6xwLCUWQfoENG1MHKo=s48-c-k-c0x00ffffff-no-rj",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://rr1---sn-npoldne7.googlevideo.com/initplayback?source=youtube\\u0026oeis=1\\u0026c=WEB\\u0026oad=3200\\u0026ovd=3200\\u0026oaad=11000\\u0026oavd=11000\\u0026ocs=700\\u0026oewis=1\\u0026oputc=1\\u0026msp=1\\u0026odepv=1\\u0026id=a9096e3447d25479\\u0026ip=143.19",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://accounts.google.com/ServiceLogin?service=youtube\\u0026uilel=3\\u0026passive=true\\u0026continue=https://www.youtube.com/signin?action_handle_signin=true&app=desktop&hl=en&next=/watch?v=qQluNEfSVHk\\u0026hl=en\\u0026ec=66427",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://accounts.google.com/ServiceLogin?service=youtube\\u0026uilel=3\\u0026passive=true\\u0026continue=https://www.youtube.com/signin?action_handle_signin=true&app=desktop&hl=en&next=/watch?v=qQluNEfSVHk\\u0026hl=en",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://www.google.com.sg/pagead/lvz?evtid\\u003dACd6KtxZ0euTe0P2znV-0-ofL-6ipaAXVQBc49LziWHeEYAjH5ygbPitLkyv15uwoLL-PxtBx69EwjBpAFxQpYjf9YrCBVpyfw\\u0026req_ts\\u003d1791450866\\u0026pg\\u003dMainAppBootstrap:Watch\\u0026az\\u003d1\\u0026sigh\\u003dAB9vU42R7aVYB7",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://www.google.com/pagead/lvz?evtid\\u003dACd6KtxZ0euTe0P2znV-0-ofL-6ipaAXVQBc49LziWHeEYAjH5ygbPitLkyv15uwoLL-PxtBx69EwjBpAFxQpYjf9YrCBVpyfw\\u0026req_ts\\u003d1791450866\\u0026pg\\u003dMainAppBootstrap:Watch\\u0026az\\u003d1\\u0026sigh\\u003dAB9vU42R7aVYB747j",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://accounts.google.com/ServiceLogin?service\\u003dyoutube\\u0026uilel\\u003d3\\u0026passive\\u003dtrue\\u0026continue\\u003dhttps://www.youtube.com/signin?action_handle_signin=true&app=desktop&hl=en&next=https://www.youtube.com/watch?v=qQluNEfSVHk&feature=_",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://rr1---sn-npoldne7.googlevideo.com/generate_204",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/qQluNEfSVHk/hqdefault.jpg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://www.gstatic.com/glue/cookienotificationbar/cookienotificationbar.min.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://www.gstatic.com/marketing-cms/assets/images/e4/33/e62cf23942a6ae66cf3169a1bd2d/youtube-dark-logo.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "http://www.w3.org/1999/xhtml",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://www.w3.org/2000/svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://www.googletagmanager.com/ns.html?id=GTM-TRKR6LD",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://www.gstatic.com/marketing-cms/reviewed-scripts/gtm/gtm.js?id=GTM-TRKR6LD&cookieCategory=2B",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://www.gstatic.com/marketing-cms/assets/images/c3/e9/4400fe56451499f639265e32e9b2/youtube-logo.svg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "http://schema.org/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://support.google.com/youtube/#topic=9257498",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://policies.google.com/privacy",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://brand.youtube/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://artists.youtube/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://servicesdirectory.withyoutube.com/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://business.google.com/in/ad-solutions/youtube-ads/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://blog.youtube/press/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://blog.youtube/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://www.gstatic.com/glue/cookienotificationbar/cookienotificationbar.min.css",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700,800,900;lang=en",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://fonts.googleapis.com/css?family=YouTube+Display:300,400,500,600,700,800,900;lang=en",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://fonts.gstatic.com/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://fonts.googleapis.com/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://about.youtube/index.rss",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://www.gstatic.com/marketing-cms/assets/images/25/1e/1487871540218f06106d297e2ba2/favicon-96-vflw9ec0w.png=s16",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://www.gstatic.com/marketing-cms/assets/images/25/1e/1487871540218f06106d297e2ba2/favicon-96-vflw9ec0w.png=s32",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://www.gstatic.com/marketing-cms/assets/images/25/1e/1487871540218f06106d297e2ba2/favicon-96-vflw9ec0w.png=s180",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://about.youtube/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://www.gstatic.com/marketing-cms/reviewed-scripts/prod/youtube-about-1.0.32-627aa53/styles/default/All.min.js",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://www.gstatic.com/marketing-cms/assets/images/7d/a4/65aa9b874bf5ab985c623335e053/about-hero.webp",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://www.gstatic.com/marketing-cms/reviewed-scripts/prod/youtube-about-1.0.32-627aa53/styles/default/All.min.css",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://accounts.google.com/ServiceLogin?service=youtube\\u0026uilel=3\\u0026passive=true\\u0026continue=https://www.youtube.com/signin?action_handle_signin=true&app=des",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://rr4---sn-ojnpo5-ci.googlevideo.com/initplayback?source=youtube\\u0026oeis=1\\u0026c=WEB\\u0026oad=3200\\u0026ovd=3200\\u0026oaad=11000\\u0026oavd=11000\\u0026ocs=700\\u0026oewis=1\\u0026oputc=1\\u0026oehoh5=1\\u0026msp=1\\u0026odepv=1\\u0026id=210e09556763e10d",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://yt3.ggpht.com/S3ppAIX4AL_nshP9BOfRa_34d-kPQw_am0F8BR5zqH2uknXKJm0rmkZK_7a0Rvph9bYvg_qnXg=s88-c-k-c0x00ffffff-no-rj",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://yt3.ggpht.com/JHCZDz37bsTmwoE1o4LEodF5vhsHfk29kCEauDTFr27-7hHXsHHvvWGzcG77v32ERrkpfInkGQ=s68-c-k-c0x00ffffff-no-rj",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/an_webp/IQ4JVWdj4Q0/mqdefault_6s.webp?du=3000\\u0026sqp=CL6XndYG\\u0026rs=AOn4CLBBEDMAW5NdYuF6m5MS91yYDI20vw",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/IQ4JVWdj4Q0/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==\\u0026rs=AOn4CLCbeibeh7Xykjs7T1u4FbCefxqs6w",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/IQ4JVWdj4Q0/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG\\u0026rs=AOn4CLBapQ0cHU20Y6U0YhqR5EUrcxmWwg",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://rr4---sn-npoeenez.googlevideo.com/initplayback?source=youtube\\u0026oeis=1\\u0026c=WEB\\u0026oad=3200\\u0026ovd=3200\\u0026oaad=11000\\u0026oavd=11000\\u0026ocs=700\\u0026oewis=1\\u0026oputc=1\\u0026oehoh5=1\\u0026msp=1\\u0026odepv=1\\u0026id=6425899161ce5cb5\\",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/an_webp/ZCWJkWHOXLU/mqdefault_6s.webp?du=3000\\u0026sqp=CPC9ndYG\\u0026rs=AOn4CLCsrHe7JhBef0tNHSX7G-KVq3Sm8A",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/ZCWJkWHOXLU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==\\u0026rs=AOn4CLDzRs-7d9KeCgz2FTxdWHbziGATrQ",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/ZCWJkWHOXLU/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG\\u0026rs=AOn4CLAABI-QBWB__7wzSusMZAnucyR2_w",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://rr1---sn-npoe7ndl.googlevideo.com/initplayback?source=youtube\\u0026oeis=1\\u0026c=WEB\\u0026oad=3200\\u0026ovd=3200\\u0026oaad=11000\\u0026oavd=11000\\u0026ocs=700\\u0026oewis=1\\u0026oputc=1\\u0026oehoh5=1\\u0026msp=1\\u0026odepv=1\\u0026id=aceddd2013170f68\\",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://yt3.ggpht.com/5wiiTxMamM0NnCmGOt0iJ6eoVRmFLNIGF-BEiTZ_AVqaS02YIxAsB-2XY6xwLCUWQfoENG1MHKo=s68-c-k-c0x00ffffff-no-rj",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/an_webp/rO3dIBMXD2g/mqdefault_6s.webp?du=3000\\u0026sqp=CIizndYG\\u0026rs=AOn4CLBzIOD7pfoYSvfrZd94ltwWvBo1kw",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/rO3dIBMXD2g/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==\\u0026rs=AOn4CLByvq_05900UDhUbu7xrnYndyHO1w",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/rO3dIBMXD2g/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG\\u0026rs=AOn4CLCCeZ_2DyKIVL-vFT8BGn9UG8Rf1g",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://rr1---sn-npoeenle.googlevideo.com/initplayback?source=youtube\\u0026oeis=1\\u0026c=WEB\\u0026oad=3200\\u0026ovd=3200\\u0026oaad=11000\\u0026oavd=11000\\u0026ocs=700\\u0026oewis=1\\u0026oputc=1\\u0026oehoh5=1\\u0026msp=1\\u0026odepv=1\\u0026id=cc51f34f2ed72db3\\",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://yt3.ggpht.com/nM7nFi-KOEEcpR1xxUWOjTCFB5NhVqP6YDpbeMoIqqZhgaK6Dj_GwmgnoWjnKCYPbBUxx0TP_w=s68-c-k-c0x00ffffff-no-rj",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/an_webp/zFHzTy7XLbM/mqdefault_6s.webp?du=3000\\u0026sqp=CKyEndYG\\u0026rs=AOn4CLDDsaVGtF-YbGWwNMwpyNWwzuZMxQ",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/zFHzTy7XLbM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==\\u0026rs=AOn4CLDdKexTKQTacvdSDFkuzHH8hWJfVA",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/zFHzTy7XLbM/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG\\u0026rs=AOn4CLCETvVFOCY8TgpmnrnyVDcb6CfjLQ",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://rr7---sn-ojnpo5-ci.googlevideo.com/initplayback?source=youtube\\u0026oeis=1\\u0026c=WEB\\u0026oad=3200\\u0026ovd=3200\\u0026oaad=11000\\u0026oavd=11000\\u0026ocs=700\\u0026oewis=1\\u0026oputc=1\\u0026oehoh5=1\\u0026msp=1\\u0026odepv=1\\u0026id=2e585312db4a7304",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://yt3.ggpht.com/BPc4IMSLYl66XoO5Ueb4N3Tcd1xYLAISjMEHVdJaPV-QeXpeROududxDnsGLqKuQxKpUnXcGZw=s68-c-k-c0x00ffffff-no-rj",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/an_webp/LlhTEttKcwQ/mqdefault_6s.webp?du=3000\\u0026sqp=CJy6ndYG\\u0026rs=AOn4CLDYwjmXgI5gpdaM5Pd-rbPPXLbtsA",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/LlhTEttKcwQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==\\u0026rs=AOn4CLBQWIyWo15Apd7INuxdLdMRgWxUZw",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/LlhTEttKcwQ/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG\\u0026rs=AOn4CLAH8cdwMf4AlsbLYo3415Hcgr3MtA",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://rr5---sn-ojnpo5-54.googlevideo.com/initplayback?source=youtube\\u0026oeis=1\\u0026c=WEB\\u0026oad=3200\\u0026ovd=3200\\u0026oaad=11000\\u0026oavd=11000\\u0026ocs=700\\u0026oewis=1\\u0026oputc=1\\u0026oehoh5=1\\u0026msp=1\\u0026odepv=1\\u0026id=4e1f09a086a7e1d8",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://yt3.ggpht.com/dGyATx87Fp_s1nZvnupUFSnMqbAPZ6nqRby9Esk1m6YE41iBq-9Z8iGoIgHTCT9SiDBUpP2V=s68-c-k-c0x00ffffff-no-rj",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/an_webp/Th8JoIan4dg/mqdefault_6s.webp?du=3000\\u0026sqp=COCSndYG\\u0026rs=AOn4CLA75kVu0Nh-EjQDpJYD8G09pFu6uA",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/Th8JoIan4dg/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==\\u0026rs=AOn4CLABRlwMCEYwEScshIdvmom3OHqgrQ",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/Th8JoIan4dg/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG\\u0026rs=AOn4CLB3-cgWCumbB9sbjxEfwtb8sdEZuQ",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://rr4---sn-ojnpo5-58.googlevideo.com/initplayback?source=youtube\\u0026oeis=1\\u0026c=WEB\\u0026oad=3200\\u0026ovd=3200\\u0026oaad=11000\\u0026oavd=11000\\u0026ocs=700\\u0026oewis=1\\u0026oputc=1\\u0026oehoh5=1\\u0026msp=1\\u0026odepv=1\\u0026id=72b32b568ce9fe1f",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://yt3.ggpht.com/Wk7-4UW17JqDXgVWDiE7s1gJxDkt_UwNa2oNw8OYRwc9deiCv2V2fFAdNgByDi0K9AAF0YMj=s68-c-k-c0x00ffffff-no-rj",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/an_webp/crMrVozp_h8/mqdefault_6s.webp?du=3000\\u0026sqp=CIa8ndYG\\u0026rs=AOn4CLCPwCYk6nsLwHhKbvCbeSFai7uy9w",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/crMrVozp_h8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==\\u0026rs=AOn4CLBZqTsFXGQoZ-2dOZXscYPoqW7b1A",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://nextbigwhat.com/_jb_static/??d035d64b16",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://nextbigwhat.com/wp-json/oembed/1.0/embed?url=https://nextbigwhat.com/master-the-curiosity-flywheel-startup-lessons-from-greg-isenberg/&#038;format=xml",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://nextbigwhat.com/wp-json/oembed/1.0/embed?url=https://nextbigwhat.com/master-the-curiosity-flywheel-startup-lessons-from-greg-isenberg/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/crMrVozp_h8/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG\\u0026rs=AOn4CLBzppxHb2Yoh9aik9f9umThUVabzA",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://nextbigwhat.com/comments/feed/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://nextbigwhat.com/feed/",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://rr1---sn-npoe7nsr.googlevideo.com/initplayback?source=youtube\\u0026oeis=1\\u0026c=WEB\\u0026oad=3200\\u0026ovd=3200\\u0026oaad=11000\\u0026oavd=11000\\u0026ocs=700\\u0026oewis=1\\u0026oputc=1\\u0026oehoh5=1\\u0026msp=1\\u0026odepv=1\\u0026id=3d2c74bdc518fac9\\",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://yt3.ggpht.com/FbXXhP5yCeqnwGyq6X10dcS7I-_C2BHslNRpLSIRZ5RqzvNdG9X7l8znHQ7fKcXxfGkjpzDMlg=s68-c-k-c0x00ffffff-no-rj",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/an_webp/PSx0vcUY-sk/mqdefault_6s.webp?du=3000\\u0026sqp=CKCwndYG\\u0026rs=AOn4CLCrNCwtL80Qc4kZJrDsEVJS-FtILQ",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/PSx0vcUY-sk/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==\\u0026rs=AOn4CLCXSwz8E7D95AtzoxGcR6kwMLho1g",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/PSx0vcUY-sk/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG\\u0026rs=AOn4CLCZ6qxajiUZchNLGp6Sq09t5JhoPw",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://rr5---sn-npoe7ner.googlevideo.com/initplayback?source=youtube\\u0026oeis=1\\u0026c=WEB\\u0026oad=3200\\u0026ovd=3200\\u0026oaad=11000\\u0026oavd=11000\\u0026ocs=700\\u0026oewis=1\\u0026oputc=1\\u0026oehoh5=1\\u0026msp=1\\u0026odepv=1\\u0026id=c64c55e36325b959\\",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://yt3.ggpht.com/3E44v2LX8hN8ucGfk6GbOPWXSybCGmNNUl6UZcHKgVhm1N4zQ50po9kgUWE4sLjcKX6B5D7oybw=s68-c-k-c0x00ffffff-no-rj",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/an_webp/xkxV42MluVk/mqdefault_6s.webp?du=3000\\u0026sqp=CIe6ndYG\\u0026rs=AOn4CLCxwtD-b7MvsBspweKB_Tzm-GKA-Q",
+            "isPrimary": false
+          },
+          {
+            "channel": "website",
+            "value": "https://i.ytimg.com/vi/xkxV42MluVk/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhBIEwoZTAP\\u0026rs=AOn4CLDeckxta8bVkSAbOaBJgr_ZHpLRxg",
+            "isPrimary": false
+          }
+        ],
+        "contactChannelCount": 262,
+        "contactable": false,
+        "lastSeenAt": "2026-06-06T17:33:55.394Z",
+        "searchKind": "trial",
+        "accountIdentity": null,
+        "recommendationKind": null,
+        "audienceStatus": "unavailable",
+        "qualification": null,
+        "searchMatchTier": null
+      },
+      {
+        "id": "b4cdf5e4-67a4-4432-93a6-b1ae246b4d63",
+        "handle": "AIHighlight",
+        "displayName": "AI Highlight",
+        "bio": null,
+        "details": [
+          {
+            "group": "identity",
+            "key": "source",
+            "label": "Found via",
+            "value": "This campaign search",
+            "hint": "How this creator reached your list."
+          },
+          {
+            "group": "identity",
+            "key": "foundAt",
+            "label": "Added",
+            "value": "2026-10-09",
+            "hint": "When this creator entered our database."
+          },
+          {
+            "group": "content",
+            "key": "medianViews",
+            "label": "Median views",
+            "value": "4,308 (1 posts)",
+            "hint": "The middle value of their recent posts — a fairer picture of a typical post than an average, which one viral video distorts. Posts we could not read a count for are left out rather than counted as zero."
+          }
+        ],
+        "platform": "twitter",
+        "region": null,
+        "audience": null,
+        "followerCount": 625634,
+        "engagementRate": null,
+        "engagementKnown": false,
+        "kolType": "ai_tools",
+        "avatarUrl": "https://pompe-ai-analysis-artifacts.sgp1.cdn.digitaloceanspaces.com/creator-avatars/twitter/5b2da79bf0831e6c386ade3a8b0ac0bb.jpg",
+        "publishedLink": null,
+        "tier": "macro",
+        "fit": 76,
+        "fromCompetitor": false,
+        "source": "creator_search_agent",
+        "sourceType": "runner",
+        "sourceSubType": "unknown",
+        "origin": "system",
+        "foundAt": "2026-10-09T12:12:27.429Z",
+        "batchLabel": null,
+        "emailStatus": "finding_email",
+        "emailReadyAt": null,
+        "email": null,
+        "emailUsable": false,
+        "emailQualified": false,
+        "emailAutoSendable": false,
+        "emailConfidence": "low",
+        "emailOwnerType": "unknown",
+        "emailReasons": [
+          "missing_or_unusable_email"
+        ],
+        "contactChannels": [],
+        "contactChannelCount": 0,
+        "contactable": false,
+        "lastSeenAt": "2026-10-09T12:12:27.429Z",
+        "searchKind": "trial",
+        "accountIdentity": null,
+        "recommendationKind": null,
+        "audienceStatus": "unavailable",
+        "qualification": null,
+        "searchMatchTier": null
+      }
+    ],
+    "strategy": null,
+    "screening": null,
+    "scraping": null,
+    "collecting": false,
+    "latestCreatorSearchTaskId": null,
+    "latestSearchFunnel": null,
+    "target": null,
+    "fulfilled": null,
+    "campaignState": null
+  }
+}

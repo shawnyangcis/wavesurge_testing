@@ -1,0 +1,944 @@
+{
+  "task": {
+    "id": "enrich-0d892ef5d3c99544ad387107",
+    "resultTaskId": "research-294320f8d1c060255d3310e8",
+    "title": "重新核验：Instagram 指定两账号个人数码博主筛选",
+    "status": "completed",
+    "requested": 2,
+    "evaluated": 2,
+    "matched": 2,
+    "detail": "已处理 2 个已有账号；失败 0。 本轮本人主页已观察 2/2；未取得本轮页面证据者不能宣称网页核验成功。",
+    "updatedAt": 1791643745410,
+    "deliveryBatchId": "bb65a2d4-b182-44a9-acc1-7330261f3381"
+  },
+  "job": {
+    "id": "enrich-0d892ef5d3c99544ad387107",
+    "taskId": "research-294320f8d1c060255d3310e8",
+    "mode": "reverify",
+    "resultIds": [
+      "research-294320f8d1c060255d3310e8|instagram:tylerlcrawford",
+      "research-294320f8d1c060255d3310e8|instagram:valstechtalkk"
+    ],
+    "annotations": [
+      {
+        "id": "content_direction",
+        "label": "内容方向"
+      },
+      {
+        "id": "presentation_style",
+        "label": "呈现风格"
+      },
+      {
+        "id": "glasses",
+        "label": "戴不戴眼镜",
+        "values": [
+          "戴眼镜",
+          "不戴眼镜",
+          "有时戴眼镜"
+        ]
+      },
+      {
+        "id": "geek_style",
+        "label": "geek 风格"
+      }
+    ],
+    "completed": [
+      "research-294320f8d1c060255d3310e8|instagram:tylerlcrawford",
+      "research-294320f8d1c060255d3310e8|instagram:valstechtalkk"
+    ],
+    "attempts": {},
+    "nextAt": 0,
+    "failures": []
+  },
+  "results": [
+    {
+      "id": "research-294320f8d1c060255d3310e8|instagram:tylerlcrawford",
+      "revision": 3,
+      "updatedAt": 1791643718551,
+      "verdict": "match",
+      "tags": [
+        "智能家居场景化产品演示",
+        "数码设备使用体验分享",
+        "长期使用回访评测",
+        "安装教程与选购指南",
+        "智能家居与家居自动化",
+        "数码产品使用体验",
+        "酒店与旅行体验",
+        "第一人称体验分享",
+        "实用教程与购买建议",
+        "生活方式街拍",
+        "不戴眼镜"
+      ],
+      "evidence": [
+        {
+          "id": "e2e3dbfff35f6976e67d8906",
+          "url": "https://scontent-lga3-1.cdninstagram.com/v/t51.82787-15/829407021_18105491066615148_3021605988754565846_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_cat=103&ig_cache_key=Mzk5ODY1OTc3MjQwOTM2MTk5Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMzA3Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=eHP9CN_XyxgQ7kNvwFvmUpz&_nc_oc=AdpTNwZyMhLLFgQrYamAiJx-GcpdDNAYiyjB2_nEpynBJZnZ6EZu0yJX2FUpfO4p7qM&_nc_ad=z-m&_nc_cid=1155&_nc_zt=23&_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_gid=hSvmmwwqGBZ1SMiz6m_YxQ&_nc_ss=7a3ba&oh=00_AQNjU-1l70gta0t4N20mQbCsFYtKPMTPiSnOcMAaRh806w&oe=6AD01F6D",
+          "assetId": "2201fe76dc02ebe0c298463f6c163966d12ff3bc12867eaf9c0a831fa36c7c1f",
+          "capturedAt": 1791639187867
+        },
+        {
+          "id": "d282204c7c2d6b470100cdcf",
+          "url": "https://www.instagram.com/tylerlcrawford/",
+          "assetId": "0be069cecedd52d652e657e4f881b8c05631b726639b5af787212ca0132f8e6a",
+          "capturedAt": 1791643673027
+        },
+        {
+          "id": "eeb48a708281f6abb195dadc",
+          "url": "https://scontent-lga3-1.cdninstagram.com/v/t51.82787-15/829407021_18105491066615148_3021605988754565846_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_cat=103&ig_cache_key=Mzk5ODY1OTc3MjQwOTM2MTk5Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMzA3Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=eHP9CN_XyxgQ7kNvwFvmUpz&_nc_oc=AdpTNwZyMhLLFgQrYamAiJx-GcpdDNAYiyjB2_nEpynBJZnZ6EZu0yJX2FUpfO4p7qM&_nc_ad=z-m&_nc_cid=1155&_nc_zt=23&_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_gid=hSvmmwwqGBZ1SMiz6m_YxQ&_nc_ss=7a3ba&oh=00_AQNjU-1l70gta0t4N20mQbCsFYtKPMTPiSnOcMAaRh806w&oe=6AD01F6D",
+          "assetId": "2201fe76dc02ebe0c298463f6c163966d12ff3bc12867eaf9c0a831fa36c7c1f",
+          "capturedAt": 1791643692125
+        }
+      ],
+      "history": [
+        {
+          "revision": 1,
+          "tags": [
+            "智能家居与公寓自动化",
+            "数码产品使用与选购",
+            "酒店与旅行体验",
+            "第一人称体验分享",
+            "产品对比与选购建议",
+            "实用设置教程",
+            "不戴眼镜"
+          ],
+          "updatedAt": 1791639216064,
+          "evidence": [
+            {
+              "id": "e2e3dbfff35f6976e67d8906",
+              "url": "https://scontent-lga3-1.cdninstagram.com/v/t51.82787-15/829407021_18105491066615148_3021605988754565846_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_cat=103&ig_cache_key=Mzk5ODY1OTc3MjQwOTM2MTk5Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMzA3Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=eHP9CN_XyxgQ7kNvwFvmUpz&_nc_oc=AdpTNwZyMhLLFgQrYamAiJx-GcpdDNAYiyjB2_nEpynBJZnZ6EZu0yJX2FUpfO4p7qM&_nc_ad=z-m&_nc_cid=1155&_nc_zt=23&_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_gid=hSvmmwwqGBZ1SMiz6m_YxQ&_nc_ss=7a3ba&oh=00_AQNjU-1l70gta0t4N20mQbCsFYtKPMTPiSnOcMAaRh806w&oe=6AD01F6D",
+              "assetId": "2201fe76dc02ebe0c298463f6c163966d12ff3bc12867eaf9c0a831fa36c7c1f",
+              "capturedAt": 1791639187867
+            }
+          ]
+        },
+        {
+          "revision": 2,
+          "tags": [
+            "第一人称体验分享",
+            "产品对比与选购建议",
+            "实用设置教程",
+            "不戴眼镜",
+            "智能家居与公寓自动化",
+            "数码产品使用体验",
+            "酒店与旅行体验",
+            "生活方式",
+            "智能家居场景化产品演示",
+            "数码设备使用体验分享",
+            "长期使用回访评测",
+            "安装教程与选购指南"
+          ],
+          "updatedAt": 1791641592665,
+          "evidence": [
+            {
+              "id": "e2e3dbfff35f6976e67d8906",
+              "url": "https://scontent-lga3-1.cdninstagram.com/v/t51.82787-15/829407021_18105491066615148_3021605988754565846_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_cat=103&ig_cache_key=Mzk5ODY1OTc3MjQwOTM2MTk5Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMzA3Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=eHP9CN_XyxgQ7kNvwFvmUpz&_nc_oc=AdpTNwZyMhLLFgQrYamAiJx-GcpdDNAYiyjB2_nEpynBJZnZ6EZu0yJX2FUpfO4p7qM&_nc_ad=z-m&_nc_cid=1155&_nc_zt=23&_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_gid=hSvmmwwqGBZ1SMiz6m_YxQ&_nc_ss=7a3ba&oh=00_AQNjU-1l70gta0t4N20mQbCsFYtKPMTPiSnOcMAaRh806w&oe=6AD01F6D",
+              "assetId": "2201fe76dc02ebe0c298463f6c163966d12ff3bc12867eaf9c0a831fa36c7c1f",
+              "capturedAt": 1791639187867
+            }
+          ]
+        }
+      ],
+      "judgments": [
+        {
+          "criterionId": "__profile_visit",
+          "verdict": "match",
+          "reason": "本轮已取得本人主页实际页面观察与截图；网页上的其他条件仍按各自证据判断",
+          "evidenceIds": [
+            "d282204c7c2d6b470100cdcf"
+          ],
+          "label": "本轮本人主页访问"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "主页显示 31.2K followers；保守区间 31150–31299，要求 10000–100000；WaveSurge 精确数 31233",
+          "evidenceIds": [
+            "d282204c7c2d6b470100cdcf",
+            "5ece0499197951eedaffbf5f",
+            "c65b1d20c658699d9194778d",
+            "04a98ed366c8c5aef07880b6",
+            "a4dd43b7fc3a961babfdb93c",
+            "1ce01e5c1cf58cebd44b4f0a",
+            "c0325d33e03a100701ef0c27",
+            "7d937d45e427b77a2e455872",
+            "93d22f94b4e064d4d54060ae",
+            "1f98352377048de21ea03ad1",
+            "c5ab0737dea5864d3654aadb",
+            "455a7da5a2f926ab9a98ae3e",
+            "222e752d6057ee12c1192060",
+            "48629119150dc140b68105c3",
+            "eb8a5e7ba0636f6e0d328f63",
+            "21486ad3467f6c52d44baf48",
+            "f36062cdc839024882e91b01",
+            "ad5fed1d37bae8b1d81eb2c4",
+            "a851ab1c9bf85317f23aa2c9",
+            "4241d4bcdf4736c409f1e020",
+            "26ff234b16784c413aa39f80",
+            "fc30ab3412e8cfc3374e08cd",
+            "ade64ccf912c6a13d52ed158",
+            "019620d03cc8afcd15566cdc",
+            "b3f43f7781beb90fc2745dd3",
+            "ee4ee6480dd8237b39d1b036",
+            "8da42b38b1ceb7b221206a5b",
+            "211770cd7c648c892873e2d9",
+            "b10a06b2fb866bed5eedb7e6",
+            "6708a0fdc22873b44e071faa",
+            "eb8b626fc083f31d44320636",
+            "68281c7a5fba763a12f54b0f",
+            "c4b0d226c388d8415ff8fa2b",
+            "cd1a53c4ffb7d389267f01a2",
+            "6f943d89048c78a8652002f6",
+            "5a67aa083c375536a7882f23",
+            "addd24605bcc378a04a5ee68",
+            "42df165096e2bab2ddca905b",
+            "eefb16b4a71527d93432e71b",
+            "c89c13fbb99983a4ea858f27",
+            "134e0b12eec625d6eb8fbf44",
+            "2c0548303fa91b3392e6efd2",
+            "f2c455b693fd0d8afc70fd47",
+            "3f0e394ca538e7c46fb38edb",
+            "c692940c2803a36ff656789c",
+            "5f38f275d4294ad8c5f4d134",
+            "cdd30f73ce28fd235e69eddb",
+            "776f208198a63af7966af029",
+            "92577323fc70aa459e5b39b8",
+            "62b92eb330d0245d25acc7d9",
+            "381618d7add3d242ee4bd43c",
+            "0449f6d0afc4ee32f01e6ede",
+            "24e978f2d3b0c6406c6c3a97",
+            "56ae80c958570a9c0e18cd09",
+            "39d877dd6ef40f706e07304f",
+            "d52dbeeef9c96b89c1877469",
+            "9d6aa1f91dd328b10dcc01f5",
+            "05fcc7c7358ad842d24eba99",
+            "034473b6149e77ff5a18edd7",
+            "70e42e30c2e51dbac398317f",
+            "a533ba9d9382d83a6d456fe1",
+            "93a3747bd9483a946f3372c7",
+            "f11f207dca9491ef746920f4",
+            "0885deb7856e8fd0886aa244",
+            "ac2d6dc067b497d06f102bef",
+            "bde66194fc72f2ab3d642137",
+            "7c7f4035fdac91c5b2c15351",
+            "54ea06f86ddeb86ffeba5c44",
+            "e6a30906ec2c35031ed671b3",
+            "d6576c5c66a8b49da8ab446e",
+            "04e497a6a4503326179bbc50",
+            "db91a2c84c49fc10185cc284",
+            "2a6cc31a8d7525f626572a38",
+            "3082452af5deee9d3c9e2cdf",
+            "f36338c1234c1259f019121c",
+            "3567fa90843f685e2c08b6b2"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "personal_creator",
+          "verdict": "match",
+          "reason": "主页以 Tyler Crawford 个人姓名及第一人称介绍；2026-09-21 帖子自述离开软件工程工作、独立开展品牌合作且无经纪公司或经理，支持个人创作者而非品牌或店铺官方账号。",
+          "evidenceIds": [
+            "d282204c7c2d6b470100cdcf",
+            "a533ba9d9382d83a6d456fe1"
+          ],
+          "label": "个人创作者，非品牌、公司或店铺官方账号"
+        },
+        {
+          "criterionId": "digital_content",
+          "verdict": "match",
+          "reason": "主页明确定位 tech + hotel reviews；实际帖子包括2026-10-09 Mac 显示器介绍、2026-10-03 智能窗帘三个月使用体验、2026-09-09 智能插座与 SwitchBot 配置教程，支持数码产品和智能家居使用体验为稳定内容方向之一。亦有较多酒店旅行及生活方式内容，并非纯数码账号。",
+          "evidenceIds": [
+            "d282204c7c2d6b470100cdcf",
+            "c5ab0737dea5864d3654aadb",
+            "b10a06b2fb866bed5eedb7e6",
+            "04e497a6a4503326179bbc50"
+          ],
+          "label": "数码博主，实际内容以数码产品或数码使用体验分享为方向"
+        }
+      ],
+      "browserVerification": {
+        "startedAt": 1791643671694,
+        "profileEvidenceIds": [
+          "5ece0499197951eedaffbf5f",
+          "c65b1d20c658699d9194778d",
+          "04a98ed366c8c5aef07880b6",
+          "a4dd43b7fc3a961babfdb93c",
+          "1ce01e5c1cf58cebd44b4f0a",
+          "c0325d33e03a100701ef0c27",
+          "7d937d45e427b77a2e455872",
+          "93d22f94b4e064d4d54060ae",
+          "1f98352377048de21ea03ad1",
+          "c5ab0737dea5864d3654aadb",
+          "455a7da5a2f926ab9a98ae3e",
+          "222e752d6057ee12c1192060",
+          "48629119150dc140b68105c3",
+          "eb8a5e7ba0636f6e0d328f63",
+          "21486ad3467f6c52d44baf48",
+          "f36062cdc839024882e91b01",
+          "ad5fed1d37bae8b1d81eb2c4",
+          "a851ab1c9bf85317f23aa2c9",
+          "4241d4bcdf4736c409f1e020",
+          "26ff234b16784c413aa39f80",
+          "fc30ab3412e8cfc3374e08cd",
+          "ade64ccf912c6a13d52ed158",
+          "019620d03cc8afcd15566cdc",
+          "b3f43f7781beb90fc2745dd3",
+          "ee4ee6480dd8237b39d1b036",
+          "8da42b38b1ceb7b221206a5b",
+          "211770cd7c648c892873e2d9",
+          "b10a06b2fb866bed5eedb7e6",
+          "6708a0fdc22873b44e071faa",
+          "eb8b626fc083f31d44320636",
+          "68281c7a5fba763a12f54b0f",
+          "c4b0d226c388d8415ff8fa2b",
+          "cd1a53c4ffb7d389267f01a2",
+          "6f943d89048c78a8652002f6",
+          "5a67aa083c375536a7882f23",
+          "addd24605bcc378a04a5ee68",
+          "42df165096e2bab2ddca905b",
+          "eefb16b4a71527d93432e71b",
+          "c89c13fbb99983a4ea858f27",
+          "134e0b12eec625d6eb8fbf44",
+          "2c0548303fa91b3392e6efd2",
+          "f2c455b693fd0d8afc70fd47",
+          "3f0e394ca538e7c46fb38edb",
+          "c692940c2803a36ff656789c",
+          "5f38f275d4294ad8c5f4d134",
+          "cdd30f73ce28fd235e69eddb",
+          "776f208198a63af7966af029",
+          "92577323fc70aa459e5b39b8",
+          "62b92eb330d0245d25acc7d9",
+          "381618d7add3d242ee4bd43c",
+          "0449f6d0afc4ee32f01e6ede",
+          "24e978f2d3b0c6406c6c3a97",
+          "56ae80c958570a9c0e18cd09",
+          "39d877dd6ef40f706e07304f",
+          "d52dbeeef9c96b89c1877469",
+          "9d6aa1f91dd328b10dcc01f5",
+          "05fcc7c7358ad842d24eba99",
+          "034473b6149e77ff5a18edd7",
+          "70e42e30c2e51dbac398317f",
+          "a533ba9d9382d83a6d456fe1",
+          "93a3747bd9483a946f3372c7",
+          "f11f207dca9491ef746920f4",
+          "0885deb7856e8fd0886aa244",
+          "ac2d6dc067b497d06f102bef",
+          "bde66194fc72f2ab3d642137",
+          "7c7f4035fdac91c5b2c15351",
+          "54ea06f86ddeb86ffeba5c44",
+          "e6a30906ec2c35031ed671b3",
+          "d6576c5c66a8b49da8ab446e",
+          "04e497a6a4503326179bbc50",
+          "db91a2c84c49fc10185cc284",
+          "2a6cc31a8d7525f626572a38",
+          "3082452af5deee9d3c9e2cdf",
+          "f36338c1234c1259f019121c",
+          "3567fa90843f685e2c08b6b2",
+          "e2e3dbfff35f6976e67d8906",
+          "d282204c7c2d6b470100cdcf",
+          "eeb48a708281f6abb195dadc"
+        ]
+      }
+    },
+    {
+      "id": "research-294320f8d1c060255d3310e8|instagram:valstechtalkk",
+      "revision": 3,
+      "updatedAt": 1791643744078,
+      "verdict": "match",
+      "tags": [
+        "手机及数码产品开箱体验内容",
+        "手机功能与使用技巧教程植入",
+        "手机壳和配件展示及优惠码推广",
+        "手机使用技巧",
+        "数码产品开箱与体验",
+        "手机配件分享",
+        "可爱与时尚结合的数码分享",
+        "第一人称体验分享",
+        "技巧教学"
+      ],
+      "evidence": [
+        {
+          "id": "051d8de9515a4fee3be729a1",
+          "url": "https://www.instagram.com/valstechtalkk/",
+          "assetId": "ca68eec12d3e2421614e3bbab49aaff4cb59898e749ce2fc4aa79a67fb439090",
+          "capturedAt": 1791643724138
+        }
+      ],
+      "history": [
+        {
+          "revision": 1,
+          "tags": [
+            "手机产品与配件分享",
+            "iPhone 使用技巧",
+            "数码产品开箱",
+            "轻松活泼的文案",
+            "实用技巧分享",
+            "可爱与时尚取向"
+          ],
+          "updatedAt": 1791639421308,
+          "evidence": []
+        },
+        {
+          "revision": 2,
+          "tags": [
+            "轻松活泼的文案",
+            "实用技巧分享",
+            "可爱与时尚取向",
+            "手机使用技巧与系统功能教程",
+            "手机开箱与产品体验",
+            "手机壳及数码配件分享",
+            "手机主题与个性化设置",
+            "手机及数码产品开箱体验内容",
+            "手机功能与使用技巧教程植入",
+            "手机壳和配件展示及优惠码推广"
+          ],
+          "updatedAt": 1791641689412,
+          "evidence": []
+        }
+      ],
+      "judgments": [
+        {
+          "criterionId": "__profile_visit",
+          "verdict": "match",
+          "reason": "本轮已取得本人主页实际页面观察与截图；网页上的其他条件仍按各自证据判断",
+          "evidenceIds": [
+            "051d8de9515a4fee3be729a1"
+          ],
+          "label": "本轮本人主页访问"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "主页显示 39.6K followers；保守区间 39550–39699，要求 10000–100000；WaveSurge 精确数 39674",
+          "evidenceIds": [
+            "051d8de9515a4fee3be729a1",
+            "e9ece5c3e79f7621d0c86e67",
+            "a7e3e7d0dbee5ed3fcffa6fb",
+            "e3991a2b82d284535a868995",
+            "c3953412bbb74ffbca3312f2",
+            "f14e7ded3baaf82cf350dd6b",
+            "641ba2fe23b0f4e145dd9f06",
+            "4b645bf1b5b348345a182d24",
+            "33b799a9f875e6a048103983",
+            "e03ec4e2c214ac81eb532225",
+            "7237a35656ef813026c306a0",
+            "aec7ae2b6ea17191b5c8c3e3",
+            "5cda524e8da383ea651ea60b",
+            "a1d57b7d842a0e812b7864a5",
+            "7bb702ab43acfd45050b3c4a",
+            "803efce0a4745c52b083e69b",
+            "f482f9b0fd99a8f6e3c6c3ef",
+            "390b30e2821196c66bc0d2be",
+            "2b22e29ae0eb86d0544ac2cb",
+            "852ea2df336e96d0549146bf",
+            "dca899590280eb658c797f0e",
+            "d834cab04d60bdd7d2d71892",
+            "f9a6d747f6fce38337625b78",
+            "95552e31c8192a7a940af01c",
+            "17b36859992e5b7793a2cec4",
+            "748dec2f4cd8209fa914f06b",
+            "065050e8db12421e84c73fc7",
+            "66559c59ac04d87279a0fd24",
+            "04d01fbab252e6f46f3e99d3",
+            "6388aeec17efa8ff40ba9216",
+            "3ef26c78905d309854e19080",
+            "06f62c763676d806336bab60",
+            "d05b38e75cd48b3bf74b83a8",
+            "d06d7199a05674a81303e6dd",
+            "40ede6d8cdfe49e9626e73a8",
+            "23942b1430b674e7550445de",
+            "9ab396bb0a0b4b411bbe2876",
+            "62e8f3668f62529fe28d66fa",
+            "b0d56e2e77ad6b5b29e1dafd",
+            "9ae97c99be09bb1768d72da8",
+            "62f8301f53e0d10f92546f01",
+            "545118969e79bf338ba288d7",
+            "c1f34e89b0c4fb215ffd0c21",
+            "8b01c57f00d3e94c7ac8e3d3",
+            "633ae5dfe1d62c4f204824ce",
+            "51464d648a6ffa924c7b2f96",
+            "fda6f480e37196397ea10faf",
+            "e3acbeea6f7c64aac3097009",
+            "7c9d34bcf88db9341c24b3f7",
+            "4307d2454221ff87b9b2008b"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "personal_creator",
+          "verdict": "match",
+          "reason": "主页以 V 为个人显示名，自述“Reviews + a little glam”“tech besties”，并给出个人合作邮箱；帖子使用第一人称描述自己更改手机设置及开箱体验，支持个人创作者而非品牌或店铺官方账号。",
+          "evidenceIds": [
+            "051d8de9515a4fee3be729a1",
+            "2b22e29ae0eb86d0544ac2cb",
+            "9ab396bb0a0b4b411bbe2876"
+          ],
+          "label": "个人创作者，非品牌、公司或店铺官方账号"
+        },
+        {
+          "criterionId": "digital_content",
+          "verdict": "match",
+          "reason": "原始帖子文字连续分享 iPhone 相机设置（2026-10-09）、耳机配件（2026-10-07）、手机自动亮度使用偏好（2026-09-29）及手机开箱（2026-09-19），与主页数码评测定位一致，实际内容以数码产品及使用技巧体验为方向。日期来自原始帖子记录，未声称截图显示日期。",
+          "evidenceIds": [
+            "a7e3e7d0dbee5ed3fcffa6fb",
+            "c3953412bbb74ffbca3312f2",
+            "2b22e29ae0eb86d0544ac2cb",
+            "9ab396bb0a0b4b411bbe2876",
+            "051d8de9515a4fee3be729a1"
+          ],
+          "label": "数码博主，实际内容以数码产品或数码使用体验分享为方向"
+        }
+      ],
+      "browserVerification": {
+        "startedAt": 1791643722861,
+        "profileEvidenceIds": [
+          "e9ece5c3e79f7621d0c86e67",
+          "a7e3e7d0dbee5ed3fcffa6fb",
+          "e3991a2b82d284535a868995",
+          "c3953412bbb74ffbca3312f2",
+          "f14e7ded3baaf82cf350dd6b",
+          "641ba2fe23b0f4e145dd9f06",
+          "4b645bf1b5b348345a182d24",
+          "33b799a9f875e6a048103983",
+          "e03ec4e2c214ac81eb532225",
+          "7237a35656ef813026c306a0",
+          "aec7ae2b6ea17191b5c8c3e3",
+          "5cda524e8da383ea651ea60b",
+          "a1d57b7d842a0e812b7864a5",
+          "7bb702ab43acfd45050b3c4a",
+          "803efce0a4745c52b083e69b",
+          "f482f9b0fd99a8f6e3c6c3ef",
+          "390b30e2821196c66bc0d2be",
+          "2b22e29ae0eb86d0544ac2cb",
+          "852ea2df336e96d0549146bf",
+          "dca899590280eb658c797f0e",
+          "d834cab04d60bdd7d2d71892",
+          "f9a6d747f6fce38337625b78",
+          "95552e31c8192a7a940af01c",
+          "17b36859992e5b7793a2cec4",
+          "748dec2f4cd8209fa914f06b",
+          "065050e8db12421e84c73fc7",
+          "66559c59ac04d87279a0fd24",
+          "04d01fbab252e6f46f3e99d3",
+          "6388aeec17efa8ff40ba9216",
+          "3ef26c78905d309854e19080",
+          "06f62c763676d806336bab60",
+          "d05b38e75cd48b3bf74b83a8",
+          "d06d7199a05674a81303e6dd",
+          "40ede6d8cdfe49e9626e73a8",
+          "23942b1430b674e7550445de",
+          "9ab396bb0a0b4b411bbe2876",
+          "62e8f3668f62529fe28d66fa",
+          "b0d56e2e77ad6b5b29e1dafd",
+          "9ae97c99be09bb1768d72da8",
+          "62f8301f53e0d10f92546f01",
+          "545118969e79bf338ba288d7",
+          "c1f34e89b0c4fb215ffd0c21",
+          "8b01c57f00d3e94c7ac8e3d3",
+          "633ae5dfe1d62c4f204824ce",
+          "51464d648a6ffa924c7b2f96",
+          "fda6f480e37196397ea10faf",
+          "e3acbeea6f7c64aac3097009",
+          "7c9d34bcf88db9341c24b3f7",
+          "4307d2454221ff87b9b2008b",
+          "051d8de9515a4fee3be729a1"
+        ]
+      }
+    }
+  ],
+  "sessions": [
+    {
+      "fresh": false,
+      "toolCalls": [
+        {
+          "id": "call_Ojk79ihtqKcGbzr9O4uDTRVb",
+          "type": "function",
+          "function": {
+            "name": "browser",
+            "arguments": "{\"action\":\"navigate\",\"url\":\"https://scontent-lga3-1.cdninstagram.com/v/t51.82787-15/829407021_18105491066615148_3021605988754565846_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_cat=103&ig_cache_key=Mzk5ODY1OTc3MjQwOTM2MTk5Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMzA3Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=eHP9CN_XyxgQ7kNvwFvmUpz&_nc_oc=AdpTNwZyMhLLFgQrYamAiJx-GcpdDNAYiyjB2_nEpynBJZnZ6EZu0yJX2FUpfO4p7qM&_nc_ad=z-m&_nc_cid=1155&_nc_zt=23&_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_gid=hSvmmwwqGBZ1SMiz6m_YxQ&_nc_ss=7a3ba&oh=00_AQNjU-1l70gta0t4N20mQbCsFYtKPMTPiSnOcMAaRh806w&oe=6AD01F6D\"}"
+          }
+        },
+        {
+          "id": "call_LggP1sLMGSu1yiLmEakxgGvr",
+          "type": "function",
+          "function": {
+            "name": "submit_judgments",
+            "arguments": "{\"judgments\":[{\"criterionId\":\"personal_creator\",\"verdict\":\"match\",\"reason\":\"主页以 Tyler Crawford 个人姓名及第一人称介绍；2026-09-21 帖子自述离开软件工程工作、独立开展品牌合作且无经纪公司或经理，支持个人创作者而非品牌或店铺官方账号。\",\"evidenceIds\":[\"d282204c7c2d6b470100cdcf\",\"a533ba9d9382d83a6d456fe1\"]},{\"criterionId\":\"digital_content\",\"verdict\":\"match\",\"reason\":\"主页明确定位 tech + hotel reviews；实际帖子包括2026-10-09 Mac 显示器介绍、2026-10-03 智能窗帘三个月使用体验、2026-09-09 智能插座与 SwitchBot 配置教程，支持数码产品和智能家居使用体验为稳定内容方向之一。亦有较多酒店旅行及生活方式内容，并非纯数码账号。\",\"evidenceIds\":[\"d282204c7c2d6b470100cdcf\",\"c5ab0737dea5864d3654aadb\",\"b10a06b2fb866bed5eedb7e6\",\"04e497a6a4503326179bbc50\"]}],\"annotations\":[{\"dimensionId\":\"content_direction\",\"status\":\"supported\",\"values\":[\"智能家居与家居自动化\",\"数码产品使用体验\",\"酒店与旅行体验\"],\"reason\":\"简介同时标注科技与酒店评论，帖子有智能家居教程、显示器分享及曼哈顿酒店推荐。\",\"evidenceIds\":[\"d282204c7c2d6b470100cdcf\",\"04e497a6a4503326179bbc50\",\"c5ab0737dea5864d3654aadb\",\"222e752d6057ee12c1192060\"]},{\"dimensionId\":\"presentation_style\",\"status\":\"supported\",\"values\":[\"第一人称体验分享\",\"实用教程与购买建议\",\"生活方式街拍\"],\"reason\":\"帖子文字以本人使用经历解释操作方法、产品优缺点及购买建议；已观察2026-10-02照片为街边休闲穿搭的人像。未据此推断视频拍摄或剪辑风格。\",\"evidenceIds\":[\"b10a06b2fb866bed5eedb7e6\",\"04e497a6a4503326179bbc50\",\"eeb48a708281f6abb195dadc\",\"eb8b626fc083f31d44320636\"]},{\"dimensionId\":\"glasses\",\"status\":\"supported\",\"values\":[\"不戴眼镜\"],\"reason\":\"已观察2026-10-02真实照片中的人物未戴眼镜；此标签仅描述该照片，不能证明始终不戴眼镜。\",\"evidenceIds\":[\"eeb48a708281f6abb195dadc\",\"eb8b626fc083f31d44320636\"]},{\"dimensionId\":\"geek_style\",\"status\":\"unknown\",\"values\":[],\"reason\":\"科技与软件工程背景不等同于 geek 视觉风格；当前只核验一张休闲街拍，不足以判断整体风格。\",\"evidenceIds\":[\"eeb48a708281f6abb195dadc\",\"a533ba9d9382d83a6d456fe1\"]}],\"facts\":[{\"kind\":\"followers\",\"rawValue\":\"31.2K followers\",\"evidenceIds\":[\"d282204c7c2d6b470100cdcf\"]}]}"
+          }
+        }
+      ],
+      "observations": [
+        {
+          "url": "https://www.instagram.com/tylerlcrawford/",
+          "assetId": "0be069cecedd52d652e657e4f881b8c05631b726639b5af787212ca0132f8e6a",
+          "observedAt": 1791643673027
+        },
+        {
+          "url": "https://scontent-lga3-1.cdninstagram.com/v/t51.82787-15/829407021_18105491066615148_3021605988754565846_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_cat=103&ig_cache_key=Mzk5ODY1OTc3MjQwOTM2MTk5Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMzA3Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=eHP9CN_XyxgQ7kNvwFvmUpz&_nc_oc=AdpTNwZyMhLLFgQrYamAiJx-GcpdDNAYiyjB2_nEpynBJZnZ6EZu0yJX2FUpfO4p7qM&_nc_ad=z-m&_nc_cid=1155&_nc_zt=23&_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_gid=hSvmmwwqGBZ1SMiz6m_YxQ&_nc_ss=7a3ba&oh=00_AQNjU-1l70gta0t4N20mQbCsFYtKPMTPiSnOcMAaRh806w&oe=6AD01F6D",
+          "assetId": "2201fe76dc02ebe0c298463f6c163966d12ff3bc12867eaf9c0a831fa36c7c1f",
+          "observedAt": 1791643692125
+        }
+      ],
+      "errors": [],
+      "submitted": {
+        "judgments": [
+          {
+            "criterionId": "personal_creator",
+            "verdict": "match",
+            "reason": "主页以 Tyler Crawford 个人姓名及第一人称介绍；2026-09-21 帖子自述离开软件工程工作、独立开展品牌合作且无经纪公司或经理，支持个人创作者而非品牌或店铺官方账号。",
+            "evidenceIds": [
+              "d282204c7c2d6b470100cdcf",
+              "a533ba9d9382d83a6d456fe1"
+            ]
+          },
+          {
+            "criterionId": "digital_content",
+            "verdict": "match",
+            "reason": "主页明确定位 tech + hotel reviews；实际帖子包括2026-10-09 Mac 显示器介绍、2026-10-03 智能窗帘三个月使用体验、2026-09-09 智能插座与 SwitchBot 配置教程，支持数码产品和智能家居使用体验为稳定内容方向之一。亦有较多酒店旅行及生活方式内容，并非纯数码账号。",
+            "evidenceIds": [
+              "d282204c7c2d6b470100cdcf",
+              "c5ab0737dea5864d3654aadb",
+              "b10a06b2fb866bed5eedb7e6",
+              "04e497a6a4503326179bbc50"
+            ]
+          }
+        ],
+        "annotations": [
+          {
+            "dimensionId": "content_direction",
+            "status": "supported",
+            "values": [
+              "智能家居与家居自动化",
+              "数码产品使用体验",
+              "酒店与旅行体验"
+            ],
+            "reason": "简介同时标注科技与酒店评论，帖子有智能家居教程、显示器分享及曼哈顿酒店推荐。",
+            "evidenceIds": [
+              "d282204c7c2d6b470100cdcf",
+              "04e497a6a4503326179bbc50",
+              "c5ab0737dea5864d3654aadb",
+              "222e752d6057ee12c1192060"
+            ]
+          },
+          {
+            "dimensionId": "presentation_style",
+            "status": "supported",
+            "values": [
+              "第一人称体验分享",
+              "实用教程与购买建议",
+              "生活方式街拍"
+            ],
+            "reason": "帖子文字以本人使用经历解释操作方法、产品优缺点及购买建议；已观察2026-10-02照片为街边休闲穿搭的人像。未据此推断视频拍摄或剪辑风格。",
+            "evidenceIds": [
+              "b10a06b2fb866bed5eedb7e6",
+              "04e497a6a4503326179bbc50",
+              "eeb48a708281f6abb195dadc",
+              "eb8b626fc083f31d44320636"
+            ]
+          },
+          {
+            "dimensionId": "glasses",
+            "status": "supported",
+            "values": [
+              "不戴眼镜"
+            ],
+            "reason": "已观察2026-10-02真实照片中的人物未戴眼镜；此标签仅描述该照片，不能证明始终不戴眼镜。",
+            "evidenceIds": [
+              "eeb48a708281f6abb195dadc",
+              "eb8b626fc083f31d44320636"
+            ]
+          },
+          {
+            "dimensionId": "geek_style",
+            "status": "unknown",
+            "values": [],
+            "reason": "科技与软件工程背景不等同于 geek 视觉风格；当前只核验一张休闲街拍，不足以判断整体风格。",
+            "evidenceIds": [
+              "eeb48a708281f6abb195dadc",
+              "a533ba9d9382d83a6d456fe1"
+            ]
+          }
+        ],
+        "facts": [
+          {
+            "kind": "followers",
+            "rawValue": "31.2K followers",
+            "evidenceIds": [
+              "d282204c7c2d6b470100cdcf"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fresh": false,
+      "toolCalls": [
+        {
+          "id": "call_DSmbmbRAFodrMk64oeJI5YZt",
+          "type": "function",
+          "function": {
+            "name": "submit_judgments",
+            "arguments": "{\"judgments\":[{\"criterionId\":\"personal_creator\",\"verdict\":\"match\",\"reason\":\"主页以 V 为个人显示名，自述“Reviews + a little glam”“tech besties”，并给出个人合作邮箱；帖子使用第一人称描述自己更改手机设置及开箱体验，支持个人创作者而非品牌或店铺官方账号。\",\"evidenceIds\":[\"051d8de9515a4fee3be729a1\",\"2b22e29ae0eb86d0544ac2cb\",\"9ab396bb0a0b4b411bbe2876\"]},{\"criterionId\":\"digital_content\",\"verdict\":\"match\",\"reason\":\"原始帖子文字连续分享 iPhone 相机设置（2026-10-09）、耳机配件（2026-10-07）、手机自动亮度使用偏好（2026-09-29）及手机开箱（2026-09-19），与主页数码评测定位一致，实际内容以数码产品及使用技巧体验为方向。日期来自原始帖子记录，未声称截图显示日期。\",\"evidenceIds\":[\"a7e3e7d0dbee5ed3fcffa6fb\",\"c3953412bbb74ffbca3312f2\",\"2b22e29ae0eb86d0544ac2cb\",\"9ab396bb0a0b4b411bbe2876\",\"051d8de9515a4fee3be729a1\"]}],\"annotations\":[{\"dimensionId\":\"content_direction\",\"status\":\"supported\",\"values\":[\"手机使用技巧\",\"数码产品开箱与体验\",\"手机配件分享\"],\"reason\":\"帖子文字包含相机设置、自动亮度偏好、iPhone 开箱及手机壳配件分享。\",\"evidenceIds\":[\"a7e3e7d0dbee5ed3fcffa6fb\",\"2b22e29ae0eb86d0544ac2cb\",\"9ab396bb0a0b4b411bbe2876\",\"7bb702ab43acfd45050b3c4a\"]},{\"dimensionId\":\"presentation_style\",\"status\":\"supported\",\"values\":[\"可爱与时尚结合的数码分享\",\"第一人称体验分享\",\"技巧教学\"],\"reason\":\"简介明确写“tech but make it cute”“Reviews + a little glam”；帖子以第一人称分享体验，并教授手机设置与功能技巧。仅依据文字定位，不推断画面表现。\",\"evidenceIds\":[\"051d8de9515a4fee3be729a1\",\"2b22e29ae0eb86d0544ac2cb\",\"17b36859992e5b7793a2cec4\"]},{\"dimensionId\":\"glasses\",\"status\":\"unknown\",\"values\":[],\"reason\":\"当前截图只有头像与未加载的帖子网格，不能据此确定日常或内容出镜时是否戴眼镜。\",\"evidenceIds\":[\"051d8de9515a4fee3be729a1\"]},{\"dimensionId\":\"geek_style\",\"status\":\"unknown\",\"values\":[],\"reason\":\"数码主题与眼镜表情符号不足以证明 geek 风格；当前无可核验的内容画面或明确自述。\",\"evidenceIds\":[\"051d8de9515a4fee3be729a1\",\"33b799a9f875e6a048103983\"]}],\"facts\":[{\"kind\":\"followers\",\"rawValue\":\"39.6K followers\",\"evidenceIds\":[\"051d8de9515a4fee3be729a1\"]}]}"
+          }
+        }
+      ],
+      "observations": [
+        {
+          "url": "https://www.instagram.com/valstechtalkk/",
+          "assetId": "ca68eec12d3e2421614e3bbab49aaff4cb59898e749ce2fc4aa79a67fb439090",
+          "observedAt": 1791643724138
+        }
+      ],
+      "errors": [],
+      "submitted": {
+        "judgments": [
+          {
+            "criterionId": "personal_creator",
+            "verdict": "match",
+            "reason": "主页以 V 为个人显示名，自述“Reviews + a little glam”“tech besties”，并给出个人合作邮箱；帖子使用第一人称描述自己更改手机设置及开箱体验，支持个人创作者而非品牌或店铺官方账号。",
+            "evidenceIds": [
+              "051d8de9515a4fee3be729a1",
+              "2b22e29ae0eb86d0544ac2cb",
+              "9ab396bb0a0b4b411bbe2876"
+            ]
+          },
+          {
+            "criterionId": "digital_content",
+            "verdict": "match",
+            "reason": "原始帖子文字连续分享 iPhone 相机设置（2026-10-09）、耳机配件（2026-10-07）、手机自动亮度使用偏好（2026-09-29）及手机开箱（2026-09-19），与主页数码评测定位一致，实际内容以数码产品及使用技巧体验为方向。日期来自原始帖子记录，未声称截图显示日期。",
+            "evidenceIds": [
+              "a7e3e7d0dbee5ed3fcffa6fb",
+              "c3953412bbb74ffbca3312f2",
+              "2b22e29ae0eb86d0544ac2cb",
+              "9ab396bb0a0b4b411bbe2876",
+              "051d8de9515a4fee3be729a1"
+            ]
+          }
+        ],
+        "annotations": [
+          {
+            "dimensionId": "content_direction",
+            "status": "supported",
+            "values": [
+              "手机使用技巧",
+              "数码产品开箱与体验",
+              "手机配件分享"
+            ],
+            "reason": "帖子文字包含相机设置、自动亮度偏好、iPhone 开箱及手机壳配件分享。",
+            "evidenceIds": [
+              "a7e3e7d0dbee5ed3fcffa6fb",
+              "2b22e29ae0eb86d0544ac2cb",
+              "9ab396bb0a0b4b411bbe2876",
+              "7bb702ab43acfd45050b3c4a"
+            ]
+          },
+          {
+            "dimensionId": "presentation_style",
+            "status": "supported",
+            "values": [
+              "可爱与时尚结合的数码分享",
+              "第一人称体验分享",
+              "技巧教学"
+            ],
+            "reason": "简介明确写“tech but make it cute”“Reviews + a little glam”；帖子以第一人称分享体验，并教授手机设置与功能技巧。仅依据文字定位，不推断画面表现。",
+            "evidenceIds": [
+              "051d8de9515a4fee3be729a1",
+              "2b22e29ae0eb86d0544ac2cb",
+              "17b36859992e5b7793a2cec4"
+            ]
+          },
+          {
+            "dimensionId": "glasses",
+            "status": "unknown",
+            "values": [],
+            "reason": "当前截图只有头像与未加载的帖子网格，不能据此确定日常或内容出镜时是否戴眼镜。",
+            "evidenceIds": [
+              "051d8de9515a4fee3be729a1"
+            ]
+          },
+          {
+            "dimensionId": "geek_style",
+            "status": "unknown",
+            "values": [],
+            "reason": "数码主题与眼镜表情符号不足以证明 geek 风格；当前无可核验的内容画面或明确自述。",
+            "evidenceIds": [
+              "051d8de9515a4fee3be729a1",
+              "33b799a9f875e6a048103983"
+            ]
+          }
+        ],
+        "facts": [
+          {
+            "kind": "followers",
+            "rawValue": "39.6K followers",
+            "evidenceIds": [
+              "051d8de9515a4fee3be729a1"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "calls": [
+    {
+      "id": "914c1b58-5676-4a55-988e-e1ff3819ec4c",
+      "createdAt": 1791643673053,
+      "finishedAt": 1791643689879,
+      "imageCount": 1,
+      "response": {
+        "id": "resp_0865d457c274a4e8016aca501b615087d0b6514d400fdf508e",
+        "object": "chat.completion",
+        "created": 1791643675,
+        "model": "gpt-6.1-sol",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": null,
+              "reasoning_content": null,
+              "tool_calls": [
+                {
+                  "id": "call_Ojk79ihtqKcGbzr9O4uDTRVb",
+                  "type": "function",
+                  "function": {
+                    "name": "browser",
+                    "arguments": "{\"action\":\"navigate\",\"url\":\"https://scontent-lga3-1.cdninstagram.com/v/t51.82787-15/829407021_18105491066615148_3021605988754565846_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_cat=103&ig_cache_key=Mzk5ODY1OTc3MjQwOTM2MTk5Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMzA3Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=eHP9CN_XyxgQ7kNvwFvmUpz&_nc_oc=AdpTNwZyMhLLFgQrYamAiJx-GcpdDNAYiyjB2_nEpynBJZnZ6EZu0yJX2FUpfO4p7qM&_nc_ad=z-m&_nc_cid=1155&_nc_zt=23&_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_gid=hSvmmwwqGBZ1SMiz6m_YxQ&_nc_ss=7a3ba&oh=00_AQNjU-1l70gta0t4N20mQbCsFYtKPMTPiSnOcMAaRh806w&oe=6AD01F6D\"}"
+                  }
+                }
+              ]
+            },
+            "finish_reason": "tool_calls",
+            "native_finish_reason": "tool_calls"
+          }
+        ],
+        "service_tier": "default",
+        "usage": {
+          "completion_tokens": 373,
+          "total_tokens": 71509,
+          "prompt_tokens": 71136,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "cached_creation_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        }
+      }
+    },
+    {
+      "id": "695cab4e-8aba-473c-9d28-4deec12584eb",
+      "createdAt": 1791643692228,
+      "finishedAt": 1791643718356,
+      "imageCount": 2,
+      "response": {
+        "id": "resp_00255754156a423c016aca502fe4fc87d09c17914cb543ce52",
+        "object": "chat.completion",
+        "created": 1791643696,
+        "model": "gpt-6.1-sol",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": null,
+              "reasoning_content": null,
+              "tool_calls": [
+                {
+                  "id": "call_LggP1sLMGSu1yiLmEakxgGvr",
+                  "type": "function",
+                  "function": {
+                    "name": "submit_judgments",
+                    "arguments": "{\"judgments\":[{\"criterionId\":\"personal_creator\",\"verdict\":\"match\",\"reason\":\"主页以 Tyler Crawford 个人姓名及第一人称介绍；2026-09-21 帖子自述离开软件工程工作、独立开展品牌合作且无经纪公司或经理，支持个人创作者而非品牌或店铺官方账号。\",\"evidenceIds\":[\"d282204c7c2d6b470100cdcf\",\"a533ba9d9382d83a6d456fe1\"]},{\"criterionId\":\"digital_content\",\"verdict\":\"match\",\"reason\":\"主页明确定位 tech + hotel reviews；实际帖子包括2026-10-09 Mac 显示器介绍、2026-10-03 智能窗帘三个月使用体验、2026-09-09 智能插座与 SwitchBot 配置教程，支持数码产品和智能家居使用体验为稳定内容方向之一。亦有较多酒店旅行及生活方式内容，并非纯数码账号。\",\"evidenceIds\":[\"d282204c7c2d6b470100cdcf\",\"c5ab0737dea5864d3654aadb\",\"b10a06b2fb866bed5eedb7e6\",\"04e497a6a4503326179bbc50\"]}],\"annotations\":[{\"dimensionId\":\"content_direction\",\"status\":\"supported\",\"values\":[\"智能家居与家居自动化\",\"数码产品使用体验\",\"酒店与旅行体验\"],\"reason\":\"简介同时标注科技与酒店评论，帖子有智能家居教程、显示器分享及曼哈顿酒店推荐。\",\"evidenceIds\":[\"d282204c7c2d6b470100cdcf\",\"04e497a6a4503326179bbc50\",\"c5ab0737dea5864d3654aadb\",\"222e752d6057ee12c1192060\"]},{\"dimensionId\":\"presentation_style\",\"status\":\"supported\",\"values\":[\"第一人称体验分享\",\"实用教程与购买建议\",\"生活方式街拍\"],\"reason\":\"帖子文字以本人使用经历解释操作方法、产品优缺点及购买建议；已观察2026-10-02照片为街边休闲穿搭的人像。未据此推断视频拍摄或剪辑风格。\",\"evidenceIds\":[\"b10a06b2fb866bed5eedb7e6\",\"04e497a6a4503326179bbc50\",\"eeb48a708281f6abb195dadc\",\"eb8b626fc083f31d44320636\"]},{\"dimensionId\":\"glasses\",\"status\":\"supported\",\"values\":[\"不戴眼镜\"],\"reason\":\"已观察2026-10-02真实照片中的人物未戴眼镜；此标签仅描述该照片，不能证明始终不戴眼镜。\",\"evidenceIds\":[\"eeb48a708281f6abb195dadc\",\"eb8b626fc083f31d44320636\"]},{\"dimensionId\":\"geek_style\",\"status\":\"unknown\",\"values\":[],\"reason\":\"科技与软件工程背景不等同于 geek 视觉风格；当前只核验一张休闲街拍，不足以判断整体风格。\",\"evidenceIds\":[\"eeb48a708281f6abb195dadc\",\"a533ba9d9382d83a6d456fe1\"]}],\"facts\":[{\"kind\":\"followers\",\"rawValue\":\"31.2K followers\",\"evidenceIds\":[\"d282204c7c2d6b470100cdcf\"]}]}"
+                  }
+                }
+              ]
+            },
+            "finish_reason": "tool_calls",
+            "native_finish_reason": "tool_calls"
+          }
+        ],
+        "service_tier": "default",
+        "usage": {
+          "completion_tokens": 773,
+          "total_tokens": 104665,
+          "prompt_tokens": 103892,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "cached_creation_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        }
+      }
+    },
+    {
+      "id": "f2088207-602c-4a78-a5c9-31cff012cdef",
+      "createdAt": 1791643724171,
+      "finishedAt": 1791643744001,
+      "imageCount": 1,
+      "response": {
+        "id": "resp_013124f85bc507aa016aca504da84487d0a71f16aab1c07ead",
+        "object": "chat.completion",
+        "created": 1791643725,
+        "model": "gpt-6.1-sol",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": null,
+              "reasoning_content": null,
+              "tool_calls": [
+                {
+                  "id": "call_DSmbmbRAFodrMk64oeJI5YZt",
+                  "type": "function",
+                  "function": {
+                    "name": "submit_judgments",
+                    "arguments": "{\"judgments\":[{\"criterionId\":\"personal_creator\",\"verdict\":\"match\",\"reason\":\"主页以 V 为个人显示名，自述“Reviews + a little glam”“tech besties”，并给出个人合作邮箱；帖子使用第一人称描述自己更改手机设置及开箱体验，支持个人创作者而非品牌或店铺官方账号。\",\"evidenceIds\":[\"051d8de9515a4fee3be729a1\",\"2b22e29ae0eb86d0544ac2cb\",\"9ab396bb0a0b4b411bbe2876\"]},{\"criterionId\":\"digital_content\",\"verdict\":\"match\",\"reason\":\"原始帖子文字连续分享 iPhone 相机设置（2026-10-09）、耳机配件（2026-10-07）、手机自动亮度使用偏好（2026-09-29）及手机开箱（2026-09-19），与主页数码评测定位一致，实际内容以数码产品及使用技巧体验为方向。日期来自原始帖子记录，未声称截图显示日期。\",\"evidenceIds\":[\"a7e3e7d0dbee5ed3fcffa6fb\",\"c3953412bbb74ffbca3312f2\",\"2b22e29ae0eb86d0544ac2cb\",\"9ab396bb0a0b4b411bbe2876\",\"051d8de9515a4fee3be729a1\"]}],\"annotations\":[{\"dimensionId\":\"content_direction\",\"status\":\"supported\",\"values\":[\"手机使用技巧\",\"数码产品开箱与体验\",\"手机配件分享\"],\"reason\":\"帖子文字包含相机设置、自动亮度偏好、iPhone 开箱及手机壳配件分享。\",\"evidenceIds\":[\"a7e3e7d0dbee5ed3fcffa6fb\",\"2b22e29ae0eb86d0544ac2cb\",\"9ab396bb0a0b4b411bbe2876\",\"7bb702ab43acfd45050b3c4a\"]},{\"dimensionId\":\"presentation_style\",\"status\":\"supported\",\"values\":[\"可爱与时尚结合的数码分享\",\"第一人称体验分享\",\"技巧教学\"],\"reason\":\"简介明确写“tech but make it cute”“Reviews + a little glam”；帖子以第一人称分享体验，并教授手机设置与功能技巧。仅依据文字定位，不推断画面表现。\",\"evidenceIds\":[\"051d8de9515a4fee3be729a1\",\"2b22e29ae0eb86d0544ac2cb\",\"17b36859992e5b7793a2cec4\"]},{\"dimensionId\":\"glasses\",\"status\":\"unknown\",\"values\":[],\"reason\":\"当前截图只有头像与未加载的帖子网格，不能据此确定日常或内容出镜时是否戴眼镜。\",\"evidenceIds\":[\"051d8de9515a4fee3be729a1\"]},{\"dimensionId\":\"geek_style\",\"status\":\"unknown\",\"values\":[],\"reason\":\"数码主题与眼镜表情符号不足以证明 geek 风格；当前无可核验的内容画面或明确自述。\",\"evidenceIds\":[\"051d8de9515a4fee3be729a1\",\"33b799a9f875e6a048103983\"]}],\"facts\":[{\"kind\":\"followers\",\"rawValue\":\"39.6K followers\",\"evidenceIds\":[\"051d8de9515a4fee3be729a1\"]}]}"
+                  }
+                }
+              ]
+            },
+            "finish_reason": "tool_calls",
+            "native_finish_reason": "tool_calls"
+          }
+        ],
+        "service_tier": "default",
+        "usage": {
+          "completion_tokens": 776,
+          "total_tokens": 35156,
+          "prompt_tokens": 34380,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "cached_creation_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        }
+      }
+    }
+  ],
+  "waveCalls": [],
+  "auditAt": "2026-10-10T14:50:58.765Z",
+  "inputStart": "2026-10-10T14:47:35.711Z"
+}

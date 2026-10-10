@@ -1,0 +1,5 @@
+  const waveSources = creator.evidence.filter(item => item.provider !== 'headed-chromium').map(item => item.id);
+  judgments.unshift({ criterionId: '__followers', verdict: numberVerdict, reason: count ? `主页显示 ${count.rawValue}；保守区间 ${count.min}–${count.max}，要求 ${spec.minFollowers}–${spec.maxFollowers}${creator.facts!.conflicts.join('；')}` : creator.followers === null ? '未取得粉丝数' : `WaveSurge 粉丝数 ${creator.followers}，要求 ${spec.minFollowers}–${spec.maxFollowers}`, evidenceIds: count?.evidenceIds ?? waveSources });
+    judgments.unshift({ criterionId: '__region', verdict: region, reason: creator.facts?.country ? `本人主页所在地声明：${creator.facts.country.rawValue}${creator.facts.conflicts.join('；')}` : creator.region ? `WaveSurge 地区：${creator.region}；${confirmed ? '服务标记国家已确认' : '尚未确认国家'}` : '未取得创作者地区', evidenceIds: creator.facts?.country?.evidenceIds ?? waveSources });
+  const required = judgments.filter(item => ['__followers', '__platform', '__region'].includes(item.criterionId) || spec.criteria.some(criterion => criterion.id === item.criterionId && criterion.required));
+  const labels: Record<string, string> = { __followers: '粉丝范围', __platform: '平台', __region: '所在地区' };
