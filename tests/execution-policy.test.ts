@@ -7,7 +7,7 @@ import { taskFacts } from '../src/server/task-facts.ts';
 import { researchExecution } from '../src/server/execution-policy.ts';
 import { SettingsManager } from '../src/server/settings.ts';
 import * as prompts from '../src/shared/prompts.ts';
-import type { SearchSpec } from '../src/shared/research.ts';
+import type { Result, SearchSpec } from '../src/shared/research.ts';
 import type { DesktopBroker } from '../src/server/desktop.ts';
 const stores: Store[] = []; afterEach(() => stores.splice(0).forEach(store => store.close()));
 const spec: SearchSpec = { title: '公开资料研究', personaText: 'books', count: 1, candidateBudget: 2, platforms: ['instagram'], regions: [], minFollowers: 0, maxFollowers: 100000, criteria: [] };
@@ -33,6 +33,16 @@ it('禁止协助只撤销同一任务的请求，恢复当前候选；允许协�
  expect(await tools.execute('set_research_execution', { taskId: task.id, allowHumanAssistance: false }, 'skip')).toMatchObject({ task: { status: 'running' }, executionPolicy: { allowHumanAssistance: false } }); expect(release).toHaveBeenCalledWith('r', expect.stringContaining('跳过登录'));
  active.mockReturnValue({ id: 'other', taskId: 'other' }); await tools.execute('set_research_execution', { taskId: task.id, allowHumanAssistance: false }, 'other'); expect(release).toHaveBeenCalledOnce();
  active.mockReturnValue(undefined); await tools.execute('set_research_execution', { taskId: task.id, allowHumanAssistance: false }, 'none'); expect(release).toHaveBeenCalledOnce();
+});
+it('重新核验与任务事实共同继承原研究最新许可，独立修改只影响本次重核验',async()=>{
+ const f=fixture(),source=f.engine.start({...spec,allowHumanAssistance:false},'existing');
+ f.store.set('result',source.id+'|instagram:person',{id:source.id+'|instagram:person',taskId:source.id,creator:{id:'instagram:person',handle:'person',platform:'instagram',displayName:'Person',profileUrl:'https://instagram.com/person',followers:20000,region:null,raw:{},evidence:[]},verdict:'unknown',judgments:[],tags:[],revision:1,updatedAt:1} satisfies Result);
+ const job=f.engine.enrichment.start({taskId:source.id,mode:'reverify'},'revisit');const tools=researchTools(f.engine,basicTools(f.store));
+ expect(researchExecution(f.store,job.id,{...spec,allowHumanAssistance:true}).allowHumanAssistance).toBe(false);expect(taskFacts(f.store).find(t=>t.id===job.id)?.allowHumanAssistance).toBe(false);
+ await tools.execute('set_research_execution',{taskId:source.id,allowHumanAssistance:true},'parent-enable');expect(researchExecution(f.store,job.id,{...spec,allowHumanAssistance:false}).allowHumanAssistance).toBe(true);
+ const original=f.store.get('task',source.id);await tools.execute('set_research_execution',{taskId:job.id,allowHumanAssistance:false},'child-only');expect(taskFacts(f.store).find(t=>t.id===job.id)?.allowHumanAssistance).toBe(false);expect(researchExecution(f.store,source.id).allowHumanAssistance).toBe(true);expect(f.store.get('task',source.id)).toEqual(original);
+ f.store.set('task',job.id,{...job,status:'needs_input'});const active=vi.fn().mockReturnValue({id:'r',taskId:job.id});const release=vi.fn().mockResolvedValue({status:'done'});await researchTools(f.engine,basicTools(f.store),{active,release}as unknown as DesktopBroker).execute('set_research_execution',{taskId:job.id,allowHumanAssistance:false},'child-release');expect(release).toHaveBeenCalledWith('r',expect.stringContaining('跳过登录'));
+ f.store.set('task','dangling',{id:'dangling',status:'running',resultTaskId:'missing'});await expect(tools.execute('set_research_execution',{taskId:'dangling',allowHumanAssistance:false},'bad-parent')).rejects.toThrow('进行中');
 });
 it('精准迁移上一版本默认提示词中的协助口径，保留自定义设置和模型配置', () => {
  const f = fixture(), settings = new SettingsManager(f.store, { API_KEY: 'secret' }); const old = settings.current(); f.store.set('settings', 'model', { ...old, systemPrompt: prompts.legacyPublicSystemPrompt, workflowPrompt: prompts.legacyPublicWorkflowPrompt, verificationPrompt: prompts.legacyPublicVerificationPrompt }); const next = new SettingsManager(f.store, {}).current(); expect(next.apiKey).toBe('secret'); expect(next.revision).toBe(old.revision + 1);
