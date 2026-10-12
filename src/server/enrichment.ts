@@ -6,7 +6,7 @@ import type { ResearchEngine, ResearchTask, Verifier } from './research.ts';
 import type { Task } from '../shared/contracts.ts';
 import { HumanRequired } from './desktop.ts';
 import { ModelError } from './model.ts';
-import { applyAssessment, resultTags } from './assessment.ts';
+import { applyAssessment, refreshCountryFact, resultTags } from './assessment.ts';
 import { resolveJudgments } from './verdict.ts';
 import { deliverReport } from './delivery.ts';
 export type Enrichment = { id: string; taskId: string; mode: 'annotate' | 'reverify'; resultIds: string[]; annotations: AnnotationDimension[]; completed: string[]; attempts: Record<string, number>; nextAt: number; failures: string[] };
@@ -36,6 +36,7 @@ export class EnrichmentService {
    for (const id of job.resultIds.filter(value => !job.completed.includes(value))) {
     const previous = this.engine.store.get<Result>('result', id)!; const creator = structuredClone(previous.creator);
     try {
+     if (job.mode === 'reverify') refreshCountryFact(spec, creator);
      const output = await (job.mode === 'annotate' ? this.annotate : this.engine.verify)(spec, creator, job.id);
      if (this.engine.stopped || this.engine.store.get<Task>('task', job.id)!.status === 'cancelled') break;
      if (this.engine.store.get<Result>('result', id)!.updatedAt !== previous.updatedAt || this.engine.store.get<Result>('result', id)!.revision !== previous.revision) throw new Error('结果版本已变化，本次分析未覆盖新版本，请重试');

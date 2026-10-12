@@ -47,6 +47,10 @@ it('真实简介的SF Bay Area及San Diego独立地点可核验，国籍旗帜�
  for(const [line,rawValue]of [['🇮🇳🇺🇸 | sf bay area 🌁','sf bay area'],['🇮🇳🇺🇸 | sf bay area 🌁','🇮🇳🇺🇸 | sf bay area 🌁'],['San Diego 📚','San Diego'],['📍San Diego, CA','📍San Diego, CA']]as const){const c=creator();c.evidence[0].text=`Personal book reviews\n${line}\nContact`;applyAssessment(spec,c,{judgments:[],facts:[{kind:'country',rawValue,evidenceIds:['profile']}]});expect(c.facts?.country).toMatchObject({code:'US',rawValue});expect(resolveJudgments(spec,c,[]).verdict).toBe('match');}
  for(const [line,rawValue]of [['🇮🇳🇺🇸','🇺🇸'],['Visited sf bay area 🌁','sf bay area'],['Audience: sf bay area','sf bay area'],['📍Springfield','📍Springfield']]as const){const c=creator();c.evidence[0].text=line;applyAssessment(spec,c,{judgments:[],facts:[{kind:'country',rawValue,evidenceIds:['profile']}]});expect(c.facts?.country).toBeUndefined();}
 });
+it('真实Manassas, VA是美国地址；不将有歧义的州缩写当国家代码',()=>{
+ for(const [rawValue,code]of [['📍Manassas, VA','US'],['Palo Alto, CA','US'],['Location: Vatican City','VA'],['Based in Canada','CA'],['Location: Berlin, Germany','DE']]as const){const c=creator();c.evidence[0].text=rawValue;applyAssessment(spec,c,{judgments:[],facts:[{kind:'country',rawValue,evidenceIds:['profile']}]});expect(c.facts?.country).toMatchObject({code,rawValue});}
+ for(const rawValue of ['📍Springfield, VA','📍Springfield, MA','📍Springfield, CA','📍CA','📍Berlin, DE']){const c=creator();c.evidence[0].text=rawValue;applyAssessment(spec,c,{judgments:[],facts:[{kind:'country',rawValue,evidenceIds:['profile']}]});expect(c.facts?.country).toBeUndefined();}
+});
 
 it('未确认归属的关联网站截图不支持本人条件，确认归属的截图路径保持有效',()=>{
  const s={...spec,regions:[],criteria:[{id:'self',label:'本人书卷形象',required:true,basis:'visual' as const}]};

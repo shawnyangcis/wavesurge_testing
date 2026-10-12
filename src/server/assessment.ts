@@ -21,7 +21,10 @@ for (const name of 'Alberta|British Columbia|Manitoba|New Brunswick|Newfoundland
 for (const name of ['England', 'Scotland', 'Wales', 'Northern Ireland']) subdivisions.set(name.toLowerCase(), 'GB');
 // These US postal abbreviations have no conflicting ISO country code.
 for (const name of ['NY', 'TX', 'UT']) subdivisions.set(name.toLowerCase(), 'US');
-const addresses = new Map([['baltimore, md', 'US'], ['new york, ny', 'US'], ['new york city', 'US'], ['nyc', 'US'], ['los angeles, ca', 'US'], ['san francisco, ca', 'US'], ['san diego', 'US'], ['san diego, ca', 'US'], ['sf bay area', 'US'], ['san francisco bay area', 'US'], ['seattle, wa', 'US'], ['boston, ma', 'US'], ['chicago, il', 'US'], ['austin, tx', 'US']]);
+const addresses = new Map([['baltimore, md', 'US'], ['manassas, va', 'US'], ['palo alto, ca', 'US'], ['new york, ny', 'US'], ['new york city', 'US'], ['nyc', 'US'], ['los angeles, ca', 'US'], ['san francisco, ca', 'US'], ['san diego', 'US'], ['san diego, ca', 'US'], ['sf bay area', 'US'], ['san francisco bay area', 'US'], ['seattle, wa', 'US'], ['boston, ma', 'US'], ['chicago, il', 'US'], ['austin, tx', 'US']]);
+// Free-form biography locations use postal abbreviations as well as country
+// codes. Without a known address, "City, VA" cannot establish Vatican City.
+const ambiguousPostalCodes = new Set('AL AR AZ CA CO DE GA ID IL IN LA MA MD ME MN MO MS MT NC NE PA SC SD TN VA'.toLowerCase().split(' '));
 // Decorative flags do not establish residence. A known place on an otherwise
 // standalone bio line still does, even when decorated with flags or emoji.
 const locationLine = (value: string) => value.replace(/\p{Regional_Indicator}{2}|\p{Extended_Pictographic}\uFE0F?/gu, '').replace(/^[\s|•·]+|[\s|•·]+$/gu, '').trim();
@@ -62,7 +65,8 @@ export function applyAssessment(spec: SearchSpec, creator: Creator, output: Judg
    const flag = /^\p{Regional_Indicator}{2}$/u.test(raw) ? countryCode(String.fromCharCode(...[...raw].map(point => point.codePointAt(0)! - 0x1f1e6 + 65))) : undefined;
    const place = locationLine(plain); const last = place.split(',').at(-1)!.trim();
    const address = addresses.get(normalized(place)) ?? addresses.get(normalized(last)); const subdivision = subdivisions.get(normalized(place)) ?? subdivisions.get(normalized(last));
-   const code = address ?? subdivision ?? countryCode(undecorated) ?? countryCode(plain) ?? flag;
+   const country = ambiguousPostalCodes.has(normalized(last)) ? undefined : countryCode(undecorated) ?? countryCode(plain);
+   const code = address ?? subdivision ?? country ?? flag;
    const standalone = sources.some(source => source.text.split('\n').some(line => normalized(locationLine(line)) === normalized(locationLine(fact.rawValue))));
    const otherLocation = sources.some(source => source.text.split('\n').some(line => normalized(line).includes(normalized(fact.rawValue)) && /audience|viewers?|customers?|shipping|观众|受众|配送|送货/i.test(line)));
    const stated = !otherLocation && (locationPrefix.test(fact.rawValue) || /(?:📍|📌|\bbased)\s*$/iu.test(fact.rawValue) || !!code && standalone && !flag && sources.every(source => source.kind !== 'linked_profile_snapshot'));
@@ -73,6 +77,14 @@ export function applyAssessment(spec: SearchSpec, creator: Creator, output: Judg
   }
  }
  return { ...assessment, annotations };
+}
+export function refreshCountryFact(spec: SearchSpec, creator: Creator) {
+ const previous = creator.facts?.country;
+ if (!previous) return;
+ // Re-derive the saved code from the same immutable quote and evidence before
+ // a new verification. A parser correction is not a new conflicting source.
+ delete creator.facts!.country;
+ applyAssessment(spec, creator, { judgments: [], facts: [{ kind: 'country', rawValue: previous.rawValue, evidenceIds: previous.evidenceIds }] });
 }
 export function resultTags(spec: SearchSpec, assessment: Assessment) {
  return [...new Set((assessment.annotations ?? []).filter(item => item.status === 'supported').flatMap(item => item.values))];
