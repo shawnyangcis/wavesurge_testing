@@ -1,5 +1,8 @@
 import type { Creator, Judgment, SearchSpec, Verdict } from '../shared/research.ts';
 import { countryCode, creatorIdentity } from './canonical.ts';
+export function usableEvidence(creator: Creator, ids: string[]) {
+  return creator.evidence.filter(source => !['linked_snapshot', 'profile_link', 'source_error'].includes(source.kind) && (source.kind !== 'linked_profile_snapshot' || !!source.linkedIdentityProof) && ids.includes(source.id));
+}
 export function factorEvidenceIds(creator: Creator, factor: 'followers' | 'country'): string[] {
   const observations = creator.facts?.[factor]?.evidenceIds ?? [];
   const sources = creator.evidence.filter(source => {
@@ -23,8 +26,9 @@ export function resolveJudgments(spec: SearchSpec, creator: Creator, proposed: J
     seen.add(item.criterionId);
     if (item.evidenceIds.some(id => !evidence.has(id))) throw new Error('引用了不存在的证据');
     const visual = spec.criteria.find(criterion => criterion.id === item.criterionId)!.basis === 'visual';
-    const imageEvidence = creator.evidence.some(source => source.assetId && /^https?:\/\//.test(source.url) && item.evidenceIds.includes(source.id));
-    if (item.verdict !== 'unknown' && (item.evidenceIds.length === 0 || visual && !imageEvidence)) judgments.push({ ...item, verdict: 'unknown', reason: '缺少可追溯的判断证据' });
+    const usable = usableEvidence(creator, item.evidenceIds);
+    const imageEvidence = usable.some(source => source.assetId && /^https?:\/\//.test(source.url));
+    if (item.verdict !== 'unknown' && (!usable.length || visual && !imageEvidence)) judgments.push({ ...item, verdict: 'unknown', reason: '缺少可追溯且确认归属的判断证据' });
     else judgments.push(item);
   }
   for (const criterion of spec.criteria) if (!seen.has(criterion.id)) judgments.push({ criterionId: criterion.id, verdict: 'unknown', reason: '尚未取得足够证据', evidenceIds: [] });

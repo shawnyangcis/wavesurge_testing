@@ -54,7 +54,8 @@ export function workResults(store: Store, batch: WorkBatch) {
   else for (const id of store.get<{ resultIds: string[] }>('enrichment', item.id)!.resultIds) restricted.add(id);
  }
  // The saved allocation is a fallback for older incomplete data; valid Campaign children are recalculated by reportResults.
- const results = reportResults(store, store.list<Result>('result').filter(result => sourceIds.has(result.taskId) || restricted.has(result.id)).map(result => ({ ...result, ...(campaignSources.has(result.taskId) ? { selected: selectedCampaignResults.has(result.id) } : {}) })));
+ const rows = [...new Map([...sourceIds].flatMap(id => store.results<Result>(id)).concat([...restricted].map(id => store.get<Result>('result', id)!)).map(result => [result.id, result])).values()];
+ const results = reportResults(store, rows.map(result => ({ ...result, ...(campaignSources.has(result.taskId) ? { selected: selectedCampaignResults.has(result.id) } : {}) })));
  const { states } = workSummary(store, batch);
  const task: ReportTask = { id: batch.id, title: '本次请求综合报告', requested: states.reduce((sum, s) => sum + (s?.requested ?? 0), 0), evaluated: results.length, matched: results.filter(result => result.verdict === 'match' && result.selected).length, updatedAt: Math.max(0, ...states.map(s => s?.updatedAt ?? 0)), detail: batch.items.map((item, i) => `${item.title}：${states[i]?.detail ?? '尚未执行'}`).join('\n'), reportGroups: reportGroups(store, [...sourceIds, ...results.map(result => result.taskId)]), workItems: batch.items.map((item, i) => ({ id: item.id, title: item.title, requested: states[i]?.requested ?? 0, evaluated: states[i]?.evaluated ?? 0, unit: item.kind === 'enrichment' ? '条补标/复核记录' : item.kind === 'campaign' ? '个 Campaign 去重名额' : '个研究组名额' })) };
  return { task, results };

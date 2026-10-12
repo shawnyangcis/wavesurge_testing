@@ -5,7 +5,7 @@ for (const locale of ['en', 'zh-CN']) {
   const names = new Intl.DisplayNames(locale, { type: 'region' });
   for (const code of codes) { countries.set(code.toLowerCase(), code); countries.set(names.of(code)!.toLowerCase(), code); }
 }
-for (const [alias, code] of [['usa', 'US'], ['u.s.', 'US'], ['u.s.a.', 'US'], ['united states of america', 'US'], ['uk', 'GB'], ['u.k.', 'GB'], ['great britain', 'GB'], ['south korea', 'KR'], ['russia', 'RU']]) countries.set(alias, code);
+for (const [alias, code] of [['usa', 'US'], ['u.s.', 'US'], ['u.s.a.', 'US'], ['united states of america', 'US'], ['uk', 'GB'], ['u.k.', 'GB'], ['great britain', 'GB'], ['czech republic', 'CZ'], ['south korea', 'KR'], ['russia', 'RU']]) countries.set(alias, code);
 export function countryCode(value: string) { return countries.get(value.split(',').at(-1)!.trim().toLowerCase()); }
 export function creatorIdentity(creator: Pick<Creator, 'platform' | 'handle' | 'profileUrl'>) {
   const handle = creator.handle.replace(/^@/, '').toLowerCase();

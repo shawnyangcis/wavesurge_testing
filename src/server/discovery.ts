@@ -20,6 +20,13 @@ export async function discover(read: Read, spec: SearchSpec, previous: Discovery
    else { creators.push(creator); state.delivered++; }
   };
   state.profileLimit = handles?.length ?? spec.instagram?.profileBudget ?? Math.min(500, Math.max(20, spec.candidateBudget * 5));
+  const consume = async (pending: Raw[]) => {
+   // Skip a small bounded run of rejected follower counts in this read step,
+   // instead of waiting for another browser/model cycle for every rejection.
+   for (let attempt = 0; attempt < 4 && pending.length && (state.profileReads ?? 0) < state.profileLimit!; attempt++) {
+    await candidate(pending.shift()!); if (creators.length) break;
+   }
+  };
   if (!handles?.length && (state.profileReads ?? 0) >= state.profileLimit) { state.platform++; state.keyword = 0; state.done = state.platform >= spec.platforms.length; return { state, creators }; }
   if (handles?.length) {
    await candidate({ username: handles[state.keyword++] });
@@ -27,7 +34,7 @@ export async function discover(read: Read, spec: SearchSpec, previous: Discovery
   } else if (queries.length > 1) {
    state.queues ??= queries.map((_query, index) => ({ pending: index === 0 ? state.pending : [], cursor: '', page: 0, seen: [], done: false })); state.pending = [];
    const queue = state.queues[state.keyword];
-   if (queue.pending.length) await candidate(queue.pending.shift()!);
+   if (queue.pending.length) await consume(queue.pending);
    else if (!queue.done) {
     const result = await searchInstagram(read, version, queries[state.keyword], queue.cursor);
     for (const user of result.users) { const username = text(user.username); if (username && !state.seenUsers.includes(username.toLowerCase())) { state.seenUsers.push(username.toLowerCase()); queue.pending.push(user); } }
@@ -37,7 +44,7 @@ export async function discover(read: Read, spec: SearchSpec, previous: Discovery
    state.keyword = (state.keyword + 1) % queries.length;
    if (state.queues.every(item => item.done && !item.pending.length)) { state.platform++; state.keyword = 0; state.queues = undefined; }
   } else if (state.pending.length) {
-   await candidate(state.pending.shift()!);
+   await consume(state.pending);
   } else {
    const result = await searchInstagram(read, version, queries[state.keyword], state.cursor);
    for (const user of result.users) { const username = text(user.username); if (username && !state.seenUsers.includes(username.toLowerCase())) { state.seenUsers.push(username.toLowerCase()); state.pending.push(user); } }

@@ -20,5 +20,5 @@ it('任务侧栏按补标记录和Campaign组内预选显示单位，结果链�
  const state={messages:[],tasks,epoch:0,active:false} as Snapshot;
  mocked.mockImplementation(async path=>path==='/state'?state:path.startsWith('/results')?[]:{ok:true});
  render(<App/>);await screen.findByLabelText('研究对话');expect(await screen.findByText('已处理 2 / 2 条记录 · 本轮合格记录 2 条')).toBeTruthy();expect(screen.getByText('已核验 2 · 研究组预选 1 / 1')).toBeTruthy();
- await userEvent.click(screen.getAllByRole('button',{name:'查看结果'})[0]);await screen.findByRole('dialog',{name:'研究结果'});expect(mocked.mock.calls.some(([url])=>url==='/results?taskId=source')).toBe(true);
+ await userEvent.click(screen.getAllByRole('button',{name:'查看结果'})[0]);await screen.findByRole('dialog',{name:'研究结果'});expect(mocked.mock.calls.some(([url])=>url==='/results?taskId=source&view=summary')).toBe(true);
 });

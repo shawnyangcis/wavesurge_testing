@@ -9,6 +9,9 @@ import { Campaigns } from './Campaigns.tsx';
 import { Desktop } from './Desktop.tsx';
 const initial: Snapshot = { messages: [], tasks: [], active: false, epoch: 0 };
 const statuses = { queued: '等待搜索', running: '研究中', needs_input: '需要协助', completed: '已完成', partial: '部分完成', failed: '执行失败', cancelled: '已取消' };
+function newMessageId() {
+  return Array.from(globalThis.crypto.getRandomValues(new Uint8Array(16)), byte => byte.toString(16).padStart(2, '0')).join('');
+}
 function MessageTime({ createdAt }: { createdAt: number }) {
   const date = new Date(createdAt);
   if (!Number.isFinite(createdAt) || !Number.isFinite(date.getTime())) return <time>时间未知</time>;
@@ -47,10 +50,11 @@ export function App() {
     if (!text.trim() && !attachments.length) return;
     setError('');
     const content = text.trim() ? text : '请参考附图。';
-    if (!outbox.current || outbox.current.text !== content || outbox.current.attachments !== attachments) outbox.current = { id: crypto.randomUUID(), text: content, attachments };
-    const payload = outbox.current;
     followTail.current = true;
-    try { await api('/messages', payload); setText(current => current === text ? '' : current); setAttachments(current => current === attachments ? [] : current); setState(await api<Snapshot>('/state')); } catch (e) { setError((e as Error).message); }
+    try {
+      if (!outbox.current || outbox.current.text !== content || outbox.current.attachments !== attachments) outbox.current = { id: newMessageId(), text: content, attachments };
+      await api('/messages', outbox.current); setText(current => current === text ? '' : current); setAttachments(current => current === attachments ? [] : current); setState(await api<Snapshot>('/state'));
+    } catch (e) { setError((e as Error).message); }
   }
   async function addImages(event: React.ChangeEvent<HTMLInputElement>) {
     const files = Array.from(event.target.files!); event.target.value = ''; setError('');

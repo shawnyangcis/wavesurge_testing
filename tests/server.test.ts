@@ -69,7 +69,7 @@ describe('HTTP 集成', () => {
     store.set('settings', 'epoch', 3); store.set('task', 't', { id: 't', status: 'running', matched: 0, matchedMeaning: '研究组入选的合格账号数；合格候选总数见qualifying' });
     expect((await post({ id: 'msg-2', text: '不要丢失任务' })).json().epoch).toBe(3);
     const state = (await app.inject({ url: '/api/state', headers: { cookie } })).json();
-    expect(state.messages).toHaveLength(3); expect(state.tasks).toEqual([{ id: 't', status: 'running', matched: 0, matchedMeaning: '研究组入选的合格账号数；合格候选总数见qualifying' }]); expect(state.epoch).toBe(3);
+    expect(state.messages).toHaveLength(3); expect(state.tasks).toEqual([{ id: 't', status: 'running', matched: 0, allowHumanAssistance: true, matchedMeaning: '研究组入选的合格账号数；合格候选总数见qualifying' }]); expect(state.epoch).toBe(3);
   });
   it('生产静态目录可访问', async () => {
     const dir = mkdtempSync(join(tmpdir(), 'studio-static-')); disposers.push(() => rmSync(dir, { recursive: true }));
@@ -120,8 +120,12 @@ it('桌面启用、租约恢复与到期回调，对暂时故障保留任务', a
   disk.set('asset', 'image', { id: 'image', file: join(process.cwd(), 'tests/fixtures/two-colors.png') });
   disk.set('result', 'boot-result', { id: 'boot-result', taskId: 'boot-report', creator: { id: 'instagram:person', platform: 'instagram', handle: 'person', displayName: 'Person', profileUrl: 'https://instagram.com/person', followers: 20000, region: null, evidence: [{ id: 'e', url: 'https://instagram.com/person', text: 'actual', assetId: 'image', kind: 'browser_snapshot', provider: 'headed-chromium', capturedAt: 1, publishedAt: null }], raw: {} }, verdict: 'match', judgments: [], tags: [], updatedAt: 1 });
   disk.set('campaign', 'boot-campaign', { id: 'boot-campaign', title: 'boot campaign', goal: 'tech', audience: 'students', revision: 1, groups: [{ id: 'tech', rationale: 'actual', spec }], childTaskIds: ['boot-report'], createdAt: 1, updatedAt: 1 });
-  expect((await app.inject({ url: '/api/reports/boot-report', headers: { cookie } })).body).toContain('data:image/png;base64,');
-  expect((await app.inject({ url: '/api/campaigns/boot-campaign/report', headers: { cookie } })).body).toContain('data:image/png;base64,');
+  for(const url of ['/api/reports/boot-report','/api/campaigns/boot-campaign/report']) {
+    const online=await app.inject({url,headers:{cookie}});expect(online.body).toContain('src="/api/assets/image"');expect(online.body).not.toContain('data:image/png;base64,');
+    const offline=await app.inject({url:url+'?view=offline',headers:{cookie}});expect(offline.body).toContain('data:image/png;base64,');expect(offline.headers['content-disposition']).toContain('.html');
+  }
+  disk.set('work-batch','boot-batch',{id:'boot-batch',items:[{kind:'research',id:'boot-report',title:'boot report',reportUrl:'/api/reports/boot-report'}],sealed:true,delivered:true});
+  for(const view of ['online','offline']){const report=await app.inject({url:'/api/work-batches/boot-batch/report?view='+view,headers:{cookie}});expect(report.statusCode).toBe(200);expect(report.body).toContain(view==='offline'?'data:image/png;base64,':'src="/api/assets/image"');}
   disk.set('assistance', 'claim', { id: 'claim', taskId: 'missing', creatorId: 'c', status: 'pending', leaseUntil: 0 }); await app.inject({ method: 'POST', url: '/api/desktop/assistance', headers: { cookie }, payload: { id: 'claim', action: 'claim', outcome: '' } }); await app.inject({ method: 'POST', url: '/api/desktop/assistance', headers: { cookie }, payload: { id: 'claim', action: 'release', outcome: 'done' } });
   disk.set('assistance', 'error', { id: 'error', taskId: 'missing', creatorId: 'c', status: 'human', leaseUntil: 0 }); fetcher.mockRejectedValueOnce(new Error('temporarily offline')); callbacks.forEach(fn => fn()); await new Promise(resolve => setTimeout(resolve, 1)); expect(disk.get('assistance', 'error')).toHaveProperty('status', 'human'); disk.close(); await app.close();
   const app2 = await start({ DATA_DIR: dir, PORT: '0', DESKTOP_URL: 'http://desktop:8810', DESKTOP_TOKEN_FILE: join(dir, 'desktop-token') }); await app2.close(); intervals.mockRestore();

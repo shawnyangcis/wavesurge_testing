@@ -10,8 +10,10 @@ export type ReportTask = Pick<ResearchTask, 'id' | 'title' | 'requested' | 'eval
 // Report metadata is a read projection. Original research decisions and audit versions remain stored as received.
 export function reportResults(store: Store, results: Result[]): Result[] {
   const campaigns = new Map<string, ReturnType<typeof summarizeCampaign>>();
+  const tasks = new Map<string, ResearchTask | undefined>();
   return results.map(result => {
-    const task = store.get<ResearchTask>('task', result.taskId);
+    if (!tasks.has(result.taskId)) tasks.set(result.taskId, store.task<ResearchTask>(result.taskId));
+    const task = tasks.get(result.taskId);
     if (task?.parentCampaignId) {
       const campaign = store.get<Campaign>('campaign', task.parentCampaignId);
       if (campaign) {
@@ -25,7 +27,7 @@ export function reportResults(store: Store, results: Result[]): Result[] {
 }
 export function reportGroups(store: Store, taskIds: Iterable<string>): ReportGroup[] {
   return [...new Set(taskIds)].map(taskId => {
-    const task = store.get<ResearchTask>('task', taskId);
+    const task = store.task<ResearchTask>(taskId);
     const campaign = task?.parentCampaignId && store.get<Campaign>('campaign', task.parentCampaignId);
     const group = campaign && campaign.groups[campaign.childTaskIds.indexOf(taskId)];
     if (group) return { id: group.id, taskId, title: group.spec.title, requested: group.spec.count, selectionScope: 'campaign' };

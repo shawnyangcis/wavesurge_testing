@@ -4,6 +4,7 @@ export class Store {
   constructor(path: string) {
     this.db = new DatabaseSync(path);
     this.db.exec('PRAGMA journal_mode=WAL; CREATE TABLE IF NOT EXISTS documents(kind TEXT NOT NULL,id TEXT NOT NULL,body TEXT NOT NULL,PRIMARY KEY(kind,id));');
+    this.db.exec("CREATE INDEX IF NOT EXISTS result_task_lookup ON documents(json_extract(body,'$.taskId')) WHERE kind='result';");
     this.db.exec('CREATE TABLE IF NOT EXISTS task_states(id TEXT PRIMARY KEY,body TEXT NOT NULL); CREATE TABLE IF NOT EXISTS document_versions(kind TEXT PRIMARY KEY,version INTEGER NOT NULL);');
     for (const row of this.db.prepare("SELECT id,body FROM documents WHERE kind='task' AND id NOT IN (SELECT id FROM task_states)").all() as { id: string; body: string }[]) this.projectTask(row.id, JSON.parse(row.body));
   }
@@ -14,6 +15,9 @@ export class Store {
   }
   list<T>(kind: string): T[] {
     return (this.db.prepare('SELECT body FROM documents WHERE kind=? ORDER BY rowid').all(kind) as { body: string }[]).map(row => JSON.parse(row.body) as T);
+  }
+  results<T>(taskId: string): T[] {
+    return (this.db.prepare("SELECT body FROM documents WHERE kind='result' AND json_extract(body,'$.taskId')=? ORDER BY rowid").all(taskId) as { body: string }[]).map(row => JSON.parse(row.body) as T);
   }
   set(kind: string, id: string, value: unknown) {
     this.transaction(() => {

@@ -3,9 +3,11 @@ import { readFileSync } from 'node:fs';
 import { Store } from '../src/server/store.ts';
 import { ResearchEngine } from '../src/server/research.ts';
 import { HumanRequired } from '../src/server/desktop.ts';
-import { WaveError } from '../src/server/wave.ts';
+import { WaveError, normalizeCreator } from '../src/server/wave.ts';
 import { modelVerifier } from '../src/server/verify.ts';
 import { SettingsManager } from '../src/server/settings.ts';
+import { ModelError } from '../src/server/model.ts';
+import { registerWork } from '../src/server/work-delivery.ts';
 import type { Creator, Judgment, SearchSpec } from '../src/shared/research.ts';
 import type { ResearchTask } from '../src/server/research.ts';
 import type { ChatMessage, Model } from '../src/server/model.ts';
@@ -20,7 +22,34 @@ function fixture() {
   const task = () => store.list<ResearchTask>('task')[0]; const advance = () => { now += 60000; };
   return { store, engine, wave, verify, task, advance };
 }
+it('慢浏览器候选不阻塞独立文字研究交付，同一桌面候选仍串行且wake不重复',async()=>{
+ const f=fixture();const first=f.engine.start({...spec,count:1},'slow-browser');const second=f.engine.start({...spec,count:1},'next-browser');const text=f.engine.start({...spec,count:1,verificationMode:'text'},'independent-text');
+ for(const task of[first,second,text])f.engine.save({...task,status:'running',remoteId:'returned-remote',remoteStatus:'done',nextPollAt:999999,candidates:[normalizeCreator(raw[0],1)]});
+ const wait=deferred<Judgment[]>();const submitted=[{criterionId:'tech',verdict:'match' as const,reason:'actual text',evidenceIds:[normalizeCreator(raw[0],1).evidence[0].id]}];
+ f.verify.mockReturnValueOnce(wait.promise);const textVerify=vi.fn(async()=>submitted);f.engine.textVerify=textVerify;
+ const run=f.engine.wake();await vi.waitFor(()=>expect(f.store.task<ResearchTask>(text.id)!.status).toBe('completed'));expect(f.store.task<ResearchTask>(first.id)!.evaluated).toBe(0);expect(f.verify).toHaveBeenCalledOnce();expect(textVerify).toHaveBeenCalledOnce();expect(f.engine.wake()).toBe(run);
+ wait.resolve(submitted);await run;expect(f.verify).toHaveBeenCalledTimes(2);expect(f.store.task<ResearchTask>(first.id)!.matched).toBe(1);expect(f.store.task<ResearchTask>(second.id)!.matched).toBe(1);expect(f.store.task<ResearchTask>(text.id)!.matched).toBe(1);
+});
+it('一个执行通道异常时仍等待另一个在途候选，不能提前解锁并重复浏览器工作',async()=>{
+ const f=fixture();const task=f.engine.start({...spec,count:1},'lane-error');f.engine.start({...spec,count:1,verificationMode:'text'},'text-error');f.engine.save({...task,status:'running',remoteId:'returned',remoteStatus:'done',nextPollAt:999999,candidates:[normalizeCreator(raw[0],1)]});
+ const real=f.engine.tick.bind(f.engine);vi.spyOn(f.engine,'tick').mockImplementation(lane=>lane===false?Promise.reject(new Error('database read unavailable')):real(lane));const wait=deferred<Judgment[]>();f.verify.mockReturnValueOnce(wait.promise);const run=f.engine.wake();const outcome=run.catch(e=>e.message);await vi.waitFor(()=>expect(f.verify).toHaveBeenCalledOnce());expect(f.engine.active).toBe(true);expect(f.engine.wake()).toBe(run);wait.resolve([]);expect(await outcome).toBe('database read unavailable');expect(f.engine.active).toBe(false);expect(f.verify).toHaveBeenCalledOnce();
+});
+it('浏览器已经运行后才登记的文字工作立即唤醒空闲文字通道，旧任务和关闭等待保留',async()=>{
+ const f=fixture();const browser=f.engine.start({...spec,count:1},'already-browsing');f.engine.save({...browser,status:'running',remoteId:'returned',remoteStatus:'done',nextPollAt:999999,candidates:[normalizeCreator(raw[0],1)]});const wait=deferred<Judgment[]>();f.verify.mockReturnValueOnce(wait.promise);const run=f.engine.wake();await vi.waitFor(()=>expect(f.verify).toHaveBeenCalledOnce());
+ const late=f.engine.start({...spec,count:1,verificationMode:'text'},'late-text');f.engine.save({...late,status:'running',remoteId:'returned-text',remoteStatus:'done',nextPollAt:999999,candidates:[normalizeCreator(raw[0],1)]});const textVerify=vi.fn(async()=>[{criterionId:'tech',verdict:'match' as const,reason:'actual text',evidenceIds:[normalizeCreator(raw[0],1).evidence[0].id]}]);f.engine.textVerify=textVerify;expect(f.engine.wake()).toBe(run);
+ await vi.waitFor(()=>expect(f.store.task<ResearchTask>(late.id)!.status).toBe('completed'));expect(f.store.task<ResearchTask>(browser.id)!.evaluated).toBe(0);expect(f.verify).toHaveBeenCalledOnce();expect(textVerify).toHaveBeenCalledOnce();f.engine.stopped=true;expect(f.engine.wake()).toBe(run);wait.resolve([]);await run;expect(f.engine.active).toBe(false);expect(f.store.task<ResearchTask>(late.id)!.matched).toBe(1);expect(f.store.task<ResearchTask>(browser.id)!.status).toBe('running');
+});
 function deferred<T>() { let resolve!: (v: T) => void; let reject!: (e: Error) => void; const promise = new Promise<T>((r, e) => { resolve = r; reject = e; }); return { promise, resolve, reject }; }
+it('归档服务故障的未知结果后续接同一研究，真实重试保留审计版本、不重新提交来源',async()=>{
+ const f=fixture();const task=f.engine.start(spec,'recovery');f.wave.poll.mockResolvedValue({status:'done',creators:[raw[0]]});f.verify.mockRejectedValueOnce(new Error('desktop service temporarily unavailable'));await f.engine.wake();f.advance();await f.engine.wake();const old=f.engine.results(task.id)[0];expect(old.verdict).toBe('unknown');
+ f.store.set('result-history',`${old.id}|transport-recovery`,old);f.store.delete('result',old.id);const current=f.task();current.status='running';current.verificationAttempts={[old.creator.id]:{count:0,nextAt:0,resultRevision:2}};f.engine.recount(current);f.engine.save(current,false);
+ f.verify.mockRejectedValueOnce(new ModelError('temporary model service',503,1000));await f.engine.wake();expect(f.task().verificationAttempts![old.creator.id].resultRevision).toBe(2);expect(f.engine.results(task.id)).toHaveLength(0);f.advance();await f.engine.wake();expect(f.engine.results(task.id)).toHaveLength(1);expect(f.engine.results(task.id)[0]).toMatchObject({id:old.id,verdict:'match',revision:2});expect(f.store.get<any>('result-history',`${old.id}|transport-recovery`).verdict).toBe('unknown');expect(f.wave.submit).toHaveBeenCalledOnce();expect(f.wave.poll).toHaveBeenCalledOnce();
+});
+it('独立请求完成后立即在chat交付，不等待同一后台循环中其它任务的模型调用',async()=>{
+ const f=fixture(),next=deferred<Judgment[]>();const tasks=['first','second'].map(id=>{const t=f.engine.start({...spec,count:1},id);Object.assign(t,{remoteId:id,remoteStatus:'done',status:'running',candidates:[normalizeCreator(raw[0],1)]});f.engine.save(t);registerWork(f.store,id,{kind:'research',id:t.id,title:t.title,reportUrl:`/api/reports/${t.id}`});return t;});
+ const judgment:Judgment[]=[{criterionId:'tech',verdict:'match',reason:'source content',evidenceIds:[tasks[0].candidates[0].evidence[0].id]}];f.verify.mockResolvedValueOnce(judgment).mockImplementationOnce(()=>next.promise);const running=f.engine.wake();for(let n=0;n<30&&f.verify.mock.calls.length<2;n++)await Promise.resolve();expect(f.verify).toHaveBeenCalledTimes(2);expect(f.store.task<any>(tasks[0].id).status).toBe('completed');expect(f.store.task<any>(tasks[1].id).status).toBe('running');expect(f.store.list<any>('message').filter(m=>m.text.includes(`/api/reports/${tasks[0].id}`))).toHaveLength(1);expect(f.store.list<any>('message').filter(m=>m.text.includes(`/api/reports/${tasks[1].id}`))).toHaveLength(0);
+ next.resolve(judgment);await running;await f.engine.wake();expect(f.store.list('delivery')).toHaveLength(2);
+});
 describe('后台任务与恢复', () => {
   it('提交前持久化稳定请求，重放和条件冲突，严格范围校验', () => {
     const { engine, wave } = fixture(); const first = engine.start(spec, 'stable-call'); expect(engine.start(spec, 'stable-call')).toEqual(first); expect(first.body.requestId).toBe(first.id); expect(wave.submit).not.toHaveBeenCalled();

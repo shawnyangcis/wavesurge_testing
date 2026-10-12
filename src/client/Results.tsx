@@ -13,7 +13,7 @@ export function Results({ taskId, onClose }: { taskId: string; onClose: () => vo
     const sequence = ++requestSequence.current; setError('');
     const query = queryOverride ?? `${tag ? `&tag=${encodeURIComponent(tag)}&tagMode=${tagMode}` : ''}${platform ? `&platform=${encodeURIComponent(platform)}` : ''}${verdict ? `&verdict=${encodeURIComponent(verdict)}` : ''}`;
     try {
-      const rows = await api<Result[]>(`/results?taskId=${encodeURIComponent(taskId)}${query}`);
+      const rows = await api<Result[]>(`/results?taskId=${encodeURIComponent(taskId)}&view=summary${query}`);
       if (sequence !== requestSequence.current) return;
       setResults(rows); setApplied(query);
     } catch (e) { if (sequence === requestSequence.current) setError((e as Error).message); }
@@ -40,7 +40,7 @@ export function Results({ taskId, onClose }: { taskId: string; onClose: () => vo
       {result.selected === true && result.verdict === 'match' && <p>已入选</p>}
       {result.selected === false && result.verdict === 'match' && <p>{result.reportContext?.allocatedGroupTitle ? '本组未入选（已分配其他组）' : '合格备选'}</p>}
       {result.reportContext && <p>来源任务：{result.reportContext.sourceTaskTitle} · 分组：{result.reportContext.groupTitle} · {result.reportContext.selectionScope === 'campaign' ? 'Campaign 最终分配' : '研究组入选'}{result.reportContext.allocatedGroupTitle && ` · 分配至：${result.reportContext.allocatedGroupTitle}`}</p>}
-      <p>{result.creator.platform} · @{result.creator.handle} · {result.creator.followers ?? result.creator.facts?.followers?.rawValue ?? '未知'} 粉丝 · {result.creator.region ?? '地区待确认'}</p>
+      <p>{result.creator.platform} · @{result.creator.handle} · {result.creator.followers ?? result.creator.facts?.followers?.rawValue ?? '未知'} 粉丝 · {result.creator.facts?.country?.code ?? result.creator.region ?? '地区待确认'}</p>
       <div className="tags">{result.tags.map(tag => <span key={tag}>{tag}</span>)}</div>
       <details><summary>逐条件判断与证据</summary>
         {(result.annotations ?? []).map(item => <div className="judgment" key={item.dimensionId}><strong>{item.dimensionId} · {item.status === 'supported' ? item.values.join('、') : '待核实'}</strong><p>{item.reason}</p></div>)}

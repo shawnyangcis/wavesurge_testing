@@ -9,8 +9,21 @@ vi.mock('../src/client/api.ts', () => ({ api: vi.fn() }));
 const mocked = vi.mocked(api);
 const empty: Snapshot = { messages: [], tasks: [], active: false, epoch: 0 };
 beforeEach(() => { mocked.mockReset(); mocked.mockImplementation(async path => { if (path === '/session') throw new Error('login'); return empty; }); });
-afterEach(() => { cleanup(); vi.useRealTimers(); });
+afterEach(() => { cleanup(); vi.useRealTimers(); vi.unstubAllGlobals(); });
 async function signIn() { const user = userEvent.setup(); await user.type(screen.getByLabelText('管理员密码'), 'password'); await user.click(screen.getByRole('button', { name: /进入工作室/ })); await screen.findByLabelText('研究对话'); return user; }
+it('公网 HTTP 的 Crypto 无 randomUUID 时仍生成合法消息编号并发送', async () => {
+  const getRandomValues = vi.fn((bytes: Uint8Array) => { bytes.forEach((_value, index) => { bytes[index] = index; }); return bytes; });
+  vi.stubGlobal('crypto', { getRandomValues }); mocked.mockImplementation(async path => path === '/state' ? empty : { ok: true }); render(<App />); await screen.findByLabelText('研究对话');
+  const user = userEvent.setup(); await user.type(screen.getByRole('textbox', { name: '发送消息' }), '公网发送'); await user.click(screen.getByRole('button', { name: '发送消息' }));
+  await waitFor(() => expect(mocked.mock.calls.some(([path]) => path === '/messages')).toBe(true));
+  expect(mocked.mock.calls.find(([path]) => path === '/messages')![1]).toMatchObject({ id: '000102030405060708090a0b0c0d0e0f', text: '公网发送' }); expect(getRandomValues).toHaveBeenCalledOnce();
+});
+it('生成消息编号失败时显示错误、保留草稿，恢复后能够重试发送', async () => {
+  const getRandomValues = vi.fn().mockImplementationOnce(() => { throw new Error('编号生成失败'); }).mockImplementation((bytes: Uint8Array) => bytes.fill(42));
+  vi.stubGlobal('crypto', { getRandomValues }); mocked.mockImplementation(async path => path === '/state' ? empty : { ok: true }); render(<App />); await screen.findByLabelText('研究对话'); const user = userEvent.setup(); const box = screen.getByRole('textbox', { name: '发送消息' });
+  await user.type(box, '保留的草稿'); await user.click(screen.getByRole('button', { name: '发送消息' })); expect(await screen.findByRole('alert')).toHaveProperty('textContent', '编号生成失败'); expect(mocked.mock.calls.some(([path]) => path === '/messages')).toBe(false); expect((box as HTMLTextAreaElement).value).toBe('保留的草稿');
+  await user.click(screen.getByRole('button', { name: '发送消息' })); await waitFor(() => expect((box as HTMLTextAreaElement).value).toBe('')); expect(screen.queryByRole('alert')).toBeNull(); expect(mocked.mock.calls.find(([path]) => path === '/messages')![1]).toMatchObject({ text: '保留的草稿' });
+});
 it('错误登录、成功登录、发送、后台进度与退出', async () => {
   render(<App />); const user = userEvent.setup(); await user.type(screen.getByLabelText('管理员密码'), 'bad');
   mocked.mockRejectedValueOnce(new Error('密码不正确')); await user.click(screen.getByRole('button', { name: /进入工作室/ })); expect(await screen.findByRole('alert')).toHaveProperty('textContent', '密码不正确');

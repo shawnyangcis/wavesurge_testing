@@ -17,7 +17,7 @@ import { searchSchema } from '../shared/research.ts';
 import type { Task } from '../shared/contracts.ts';
 import { resolveJudgments } from './verdict.ts';
 import type { Discovery } from './discovery.ts';
-export type ResearchTask = Task & { spec: SearchSpec; body: SearchBody; discovery?: Discovery; discoveryAttempts?: number; remoteId?: string; remoteStatus?: string; nextPollAt: number; candidates: Creator[]; failures: string[]; exhaustive?: boolean; verificationAttempts?: Record<string, { count: number; nextAt: number }>; };
+export type ResearchTask = Task & { spec: SearchSpec; body: SearchBody; discovery?: Discovery; discoveryAttempts?: number; remoteId?: string; remoteStatus?: string; nextPollAt: number; candidates: Creator[]; failures: string[]; exhaustive?: boolean; verificationAttempts?: Record<string, { count: number; nextAt: number; resultRevision?: number }>; };
 export type Verifier = (spec: SearchSpec, creator: Creator, taskId: string) => Promise<Judgment[] | Assessment>;
 const validate = new Ajv().compile<SearchSpec>(searchSchema);
 export class ResearchEngine {
@@ -25,6 +25,7 @@ export class ResearchEngine {
   enrichment: EnrichmentService; textVerify: Verifier; shortlist = async (_spec: SearchSpec, creators: Creator[], _budget: number) => creators;
   onProgress = () => {};
   active = false; stopped = false; currentRun: Promise<void> = Promise.resolve();
+  laneFlights: (Promise<void> | undefined)[] = [undefined, undefined]; laneErrors: unknown[] = []; finishing = false;
   constructor(store: Store, wave: Pick<WaveClient, 'submit' | 'poll'> & Partial<Pick<WaveClient, 'discover'>>, verify: Verifier, now: () => number) { this.store = store; this.wave = wave; this.verify = verify; this.textVerify = verify; this.now = now; this.enrichment = new EnrichmentService(this); }
   usesDesktop(spec: SearchSpec) { return spec.verificationMode !== 'text'; }
   start(input: unknown, callId: string) {
@@ -55,6 +56,7 @@ export class ResearchEngine {
       deliverReport(this.store, task.id, { status: task.status, matched: task.matched, evaluated: task.evaluated, results: results.map(result => [result.id, result.updatedAt]) },
         `研究「${task.title}」${task.status === 'completed' ? '已完成' : task.status === 'partial' ? '已结束，仍有缺额' : task.status === 'cancelled' ? '已取消' : '未完成'}。已选合格 ${task.matched}/${task.requested} 人，核验 ${task.evaluated} 人。\n\n${task.detail}\n\n[查看完整报告](/api/reports/${task.resultTaskId ?? task.id}) · [下载 CSV](/api/reports/${task.resultTaskId ?? task.id}?format=csv)`, this.now());
     }
+    if (notify && ['completed', 'partial', 'failed', 'cancelled'].includes(task.status)) { this.onProgress(); deliverWorkBatches(this.store, this.now()); }
     });
   }
   recount(task: ResearchTask) {
@@ -63,17 +65,42 @@ export class ResearchEngine {
     for (const result of results) { result.selected = selected.has(result.id); this.store.set('result', result.id, result); }
     task.qualifying = qualifying.length; task.evaluated = results.length; task.matched = selected.size;
   }
-  results(taskId: string) { return this.store.list<Result>('result').filter(result => result.taskId === taskId); }
+  results(taskId: string) { return this.store.results<Result>(taskId); }
   cancelled(task: ResearchTask) { return this.stopped || this.store.task<ResearchTask>(task.id)!.status === 'cancelled'; }
   wake() {
-    if (this.active || this.stopped) return this.currentRun;
-    this.active = true; this.currentRun = this.tick().finally(() => { this.active = false; }); return this.currentRun;
+    if (this.stopped) return this.currentRun;
+    if (this.active) { this.launchLane(false); this.launchLane(true); return this.currentRun; }
+    this.active = true; this.currentRun = this.cycle().finally(() => { this.active = false; }); return this.currentRun;
   }
-  async tick() {
+  launchLane(desktop: boolean) {
+    const index = desktop ? 1 : 0;
+    if (this.stopped || this.finishing || this.laneFlights[index]) return;
+    if (!this.store.tasks<ResearchTask>().some(task => task.spec && ['queued', 'running', 'needs_input'].includes(task.status) && this.usesDesktop(task.spec) === desktop)) return;
+    const flight = this.tick(desktop).finally(() => { this.laneFlights[index] = undefined; });
+    this.laneFlights[index] = flight;
+    // A late lane may reject before the outer cycle reaches its wait. Attach a
+    // handler immediately; keep the failure for the cycle after both lanes settle.
+    void flight.catch(error => { this.laneErrors.push(error); });
+  }
+  async cycle() {
+    // Text verification never uses the shared desktop. It can progress while
+    // the single browser lane waits for pages or visual model responses.
+    this.laneErrors = []; this.launchLane(false); this.launchLane(true);
+    while (this.laneFlights.some(Boolean)) await Promise.allSettled(this.laneFlights.filter((flight): flight is Promise<void> => !!flight));
+    if (this.laneErrors.length) throw this.laneErrors[0];
+    // Enrichment can update an existing source task; don't overlap it with a
+    // newly arriving research lane that might save another version of that task.
+    this.finishing = true;
+    try { await this.enrichment.tick(this.store.list<Assistance>('assistance').some(request => request.status !== 'done')); }
+    finally { this.finishing = false; }
+    this.onProgress(); deliverWorkBatches(this.store, this.now());
+  }
+  async tick(desktopLane?: boolean) {
     let browserBlocked = this.store.list<Assistance>('assistance').some(request => request.status !== 'done');
     for (const state of this.store.tasks<ResearchTask>()) {
       if (this.stopped) break;
       if (!state.spec || !['queued', 'running', 'needs_input'].includes(state.status)) continue;
+      if (desktopLane !== undefined && this.usesDesktop(state.spec) !== desktopLane) continue;
       if (browserBlocked && this.usesDesktop(state.spec) && !(state.nextPollAt <= this.now() && !['done', 'failed'].includes(state.remoteStatus ?? ''))) continue;
       const task = this.store.get<ResearchTask>('task', state.id)!;
       try {
@@ -149,14 +176,14 @@ export class ResearchEngine {
             task.failures.push(`${creator.id}: ${(error as Error).message}`);
             if (error instanceof ModelError && error.retryable()) {
               const count = (attempt?.count ?? 0) + 1; task.verificationAttempts ??= {};
-              task.verificationAttempts[creator.id] = { count, nextAt: count < 3 ? this.now() + Math.max(error.retryAfterMs, 1000 * 2 ** (count - 1)) : 0 };
+              task.verificationAttempts[creator.id] = { ...attempt, count, nextAt: count < 3 ? this.now() + Math.max(error.retryAfterMs, 1000 * 2 ** (count - 1)) : 0 };
               if (count < 3) { waiting = true; task.detail = `候选核验暂时失败，已保存原工作并等待第 ${count + 1}/3 次尝试`; this.save(task); break; }
             }
             judgments = resolveJudgments(task.spec, creator, []).judgments;
           }
           if (this.cancelled(task)) break;
           const outcome = resolveJudgments(task.spec, creator, judgments.filter(item => !item.criterionId.startsWith('__')));
-          const result: Result = { id, taskId: task.id, creator, ...outcome, annotations: assessment.annotations, tags: resultTags(task.spec, { ...assessment, judgments: outcome.judgments }), revision: 1, updatedAt: this.now() };
+          const result: Result = { id, taskId: task.id, creator, ...outcome, annotations: assessment.annotations, tags: resultTags(task.spec, { ...assessment, judgments: outcome.judgments }), revision: attempt?.resultRevision ?? 1, updatedAt: this.now() };
           this.store.transaction(() => { this.store.set('result', id, result); this.recount(task); task.detail = `已核验 ${task.evaluated} 人，合格候选 ${task.qualifying} 人，研究组预选 ${task.matched} 人`; this.save(task); });
         }
         if (!this.cancelled(task) && task.status !== 'needs_input') {
@@ -171,6 +198,7 @@ export class ResearchEngine {
         this.save(task);
       }
     }
+    if (desktopLane !== undefined) return;
     await this.enrichment.tick(browserBlocked);
     this.onProgress();
     deliverWorkBatches(this.store, this.now());

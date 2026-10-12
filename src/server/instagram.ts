@@ -43,13 +43,13 @@ export async function instagramCreator(read: Read, user: Raw, now: number, accep
   for (const item of list(data.items)) { const post = postData(item, false); if (post.id && !posts.has(post.id)) posts.set(post.id, post); }
   cursor = text(data.next_max_id); if (data.more_available !== true || !cursor || seenCursors.has(cursor)) break; seenCursors.add(cursor);
  }
- for (const post of [...posts.values()].filter(post => post.code).slice(0, 2)) {
+ await Promise.all([...posts.values()].filter(post => post.code).sort((a, b) => (b.takenAt ?? -1) - (a.takenAt ?? -1)).slice(0, 2).map(async post => {
   const detail = object(object((await safe(query('/instagram/v2/fetch_post_info', { code_or_url: post.code }))).data).data);
   // Detail counts/media are authoritative for that post; absent values stay unknown.
   const owner = object(detail.user);
-  if (text(owner.username) && text(owner.username).toLowerCase() !== username.toLowerCase() || text(owner.id) && text(owner.id) !== userId || text(detail.code) && text(detail.code) !== post.code) { errors.push(`帖子 ${post.code} 详情身份不一致，保留列表来源`); continue; }
+  if (text(owner.username) && text(owner.username).toLowerCase() !== username.toLowerCase() || text(owner.id) && text(owner.id) !== userId || text(detail.code) && text(detail.code) !== post.code) { errors.push(`帖子 ${post.code} 详情身份不一致，保留列表来源`); return; }
   if (Object.keys(detail).length) posts.set(post.id, { ...postData(detail, true), id: post.id, code: post.code });
- }
+ }));
  const sample = [...posts.values()];
  const engagement = followers !== null && followers > 0 && sample.length > 0 && sample.every(post => post.likes !== null && post.comments !== null) ? sample.reduce((sum, post) => sum + post.likes! + post.comments!, 0) / sample.length / followers : null;
  const evidence: Evidence[] = []; const add = (url: string, kind: string, value: string, publishedAt: string | null = null) => evidence.push({ id: createHash('sha256').update(`${username}|${url}|${kind}|${value}`).digest('hex').slice(0, 24), url, kind, text: value, provider: 'wavesurge-instagram-raw', publishedAt, capturedAt: now });
@@ -65,5 +65,21 @@ export async function instagramCreator(read: Read, user: Raw, now: number, accep
  const creator = normalizeCreator({ platform: 'instagram', handle: username, displayName: text(profile.full_name) || text(user.full_name), profileUrl, followerCount: followers, instagram: { searchUser: user, profile, responses, posts: sample, photoUrls: sample.flatMap(post => post.photos), engagement: { rate: engagement, sampleSize: sample.length, formula: 'mean(likes + comments) / followers', unit: 'ratio' }, errors, bounds: { postPages: 2, detailPosts: 2, perPage: 12 } } }, now);
  creator.evidence = evidence; creator.engagement = { rate: engagement, sampleSize: sample.length, formula: 'mean(likes + comments) / followers', unit: 'ratio' }; creator.photoUrls = sample.flatMap(post => post.photos); return creator;
 }
-// Full raw responses stay in storage/audit logs; verification receives only sourced evidence and facts.
-export function verificationCreator(creator: Creator): Creator { return creator.raw?.instagram ? { ...creator, raw: { instagram: { errors: object(creator.raw.instagram).errors } } } : creator; }
+// Keep the full creator in storage; give the verifier a bounded view of recent posts and their media.
+export function verificationCreator(creator: Creator): Creator {
+ if (!creator.raw?.instagram) return creator;
+ const { photoUrls: _duplicateUrls, ...value } = creator;
+ const groups: { post: Evidence; media: Evidence[] }[] = []; const retained: Evidence[] = []; const orphans: Evidence[] = [];
+ for (const source of creator.evidence) {
+  if (source.kind === 'post') groups.push({ post: source, media: [] });
+  else if (['post_photo', 'video_cover'].includes(source.kind)) { const group = groups.at(-1); if (group) group.media.push(source); else orphans.push(source); }
+  else retained.push(source);
+ }
+ groups.sort((a, b) => (Date.parse(b.post.publishedAt ?? '') || 0) - (Date.parse(a.post.publishedAt ?? '') || 0));
+ const recent = groups.slice(0, 12);
+ const introductions = groups.filter(group => /meet.{0,30}(bookstagrammer|creator)|about me|introducing myself|my name is|self[- ]portrait|自我介绍|本人介绍/i.test(group.post.text)).slice(0, 2);
+ const selected = [...new Map([...recent, ...introductions].map(group => [group.post.id, group])).values()];
+ const related = (group: { post: Evidence; media: Evidence[] }, limit: number) => group.media.slice(0, limit).map(source => ({ ...source, parentEvidenceId: group.post.id, parentPostUrl: group.post.url }));
+ const media = [...new Map([...recent.flatMap(group => related(group, 1)), ...introductions.flatMap(group => related(group, 2)), ...orphans].map(source => [source.id, source])).values()].slice(0, 16);
+ return { ...value, evidence: [...retained, ...selected.map(group => group.post), ...media], raw: { instagram: { errors: object(creator.raw.instagram).errors } } };
+}

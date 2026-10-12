@@ -10,8 +10,8 @@ import { rankResults } from './selection.ts';
 import { deliverReport } from './delivery.ts';
 const validate = new Ajv().compile<Omit<Campaign, 'id' | 'revision' | 'childTaskIds' | 'createdAt' | 'updatedAt'>>(campaignSchema);
 export function summarizeCampaign(store: Store, campaign: Campaign) {
-  const tasks = campaign.childTaskIds.map(id => store.get<ResearchTask>('task', id)!);
-  const results = store.list<Result>('result').filter(result => campaign.childTaskIds.includes(result.taskId));
+  const tasks = campaign.childTaskIds.map(id => store.task<ResearchTask>(id)!);
+  const results = campaign.childTaskIds.flatMap(id => store.results<Result>(id));
   const eligible = new Map<string, { result: Result; groups: number[] }>();
   for (const result of results.filter(item => item.verdict === 'match')) { const index = campaign.childTaskIds.indexOf(result.taskId); const person = eligible.get(creatorIdentity(result.creator)) ?? { result, groups: [] }; if (!person.groups.includes(index)) person.groups.push(index); eligible.set(creatorIdentity(result.creator), person); }
   const slots = campaign.groups.flatMap((group, index) => Array.from({ length: group.spec.count }, () => index)); const assigned = new Map<string, number>();
