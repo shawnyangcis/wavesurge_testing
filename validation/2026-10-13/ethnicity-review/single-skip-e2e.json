@@ -1,0 +1,105 @@
+{
+  "source": "actual natural-language skip, actual configured model and production task/tools/browser; controlled challenge only",
+  "task": {
+    "id": "research-3da08706fb14059c4b1b1634",
+    "title": "浏览器人工协助验收 browser-1791859401452-skip",
+    "status": "partial",
+    "requested": 1,
+    "evaluated": 1,
+    "matched": 0,
+    "qualifying": 0,
+    "allowHumanAssistance": true,
+    "matchedMeaning": "研究组入选的合格账号数；合格候选总数见qualifying",
+    "updatedAt": 1791859482713,
+    "detail": "已选合格 0/1，已核验 1；证据不足者保持待核实。",
+    "remoteId": "fixture-browser-1791859401452-skip",
+    "remoteStatus": "done",
+    "nextPollAt": 0
+  },
+  "results": [
+    {
+      "id": "research-3da08706fb14059c4b1b1634|instagram:fixture-browser-1791859401452-skip",
+      "taskId": "research-3da08706fb14059c4b1b1634",
+      "creator": {
+        "id": "instagram:fixture-browser-1791859401452-skip",
+        "platform": "instagram",
+        "handle": "fixture-browser-1791859401452-skip",
+        "displayName": "集成测试创作者（非真实社交账号）",
+        "followers": 10000,
+        "region": null,
+        "profileUrl": "http://127.0.0.1:8085/?case=browser-1791859401452-skip",
+        "evidence": [
+          {
+            "id": "fixture-profile",
+            "url": "http://127.0.0.1:8085/?case=browser-1791859401452-skip",
+            "kind": "profile",
+            "text": "控制性浏览器验收夹具；需人工验证后可见公开科技帖子。没有帖子截图。",
+            "provider": "integration-fixture",
+            "publishedAt": null,
+            "capturedAt": 1791859431290
+          },
+          {
+            "id": "e203fd98b0017f27cde7fe96",
+            "url": "http://127.0.0.1:8085/?case=browser-1791859401452-skip",
+            "kind": "browser_snapshot",
+            "text": "Verify you are human\n\nControlled browser integration fixture. Public creator posts require manual verification.\n\n我已完成验证 / I am human",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791859431702,
+            "assetId": "b073e3042d9092d587c8c77216a9c4be6d39520415ef026c44153dbaf7c82a52"
+          },
+          {
+            "id": "dc7ab1119adc90c1b761a46f",
+            "url": "http://127.0.0.1:8085/?case=browser-1791859401452-skip",
+            "kind": "browser_snapshot",
+            "text": "Verify you are human\n\nControlled browser integration fixture. Public creator posts require manual verification.\n\n我已完成验证 / I am human",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1791859468887,
+            "assetId": "b073e3042d9092d587c8c77216a9c4be6d39520415ef026c44153dbaf7c82a52"
+          }
+        ],
+        "raw": {
+          "fixture": true
+        }
+      },
+      "judgments": [
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 10000，要求 0–100000",
+          "evidenceIds": [],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "technology",
+          "verdict": "unknown",
+          "reason": "已查看来源页面截图，但最新观察仍为“Verify you are human”人工验证页，未展示公开帖子画面。用户明确跳过本次验证，因此不再重复请求；无法确认帖子画面是否可见 CHIP / CIRCUIT BOARD 字样，简介不能替代视觉证据。",
+          "evidenceIds": [
+            "dc7ab1119adc90c1b761a46f"
+          ],
+          "label": "公开帖子画面可见 CHIP / CIRCUIT BOARD 字样；先访问来源取得截图，遇到验证须人工协助，不能以简介代替画面"
+        }
+      ],
+      "verdict": "unknown",
+      "annotations": [],
+      "tags": [],
+      "revision": 1,
+      "updatedAt": 1791859482710,
+      "selected": false,
+      "reportContext": {
+        "sourceTaskTitle": "浏览器人工协助验收 browser-1791859401452-skip",
+        "groupId": "research-3da08706fb14059c4b1b1634",
+        "groupTitle": "浏览器人工协助验收 browser-1791859401452-skip",
+        "selectionScope": "research"
+      }
+    }
+  ]
+}

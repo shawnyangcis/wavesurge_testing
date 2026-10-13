@@ -82,6 +82,6 @@ export const legacyExecutionWorkflowPrompt = legacyPublicWorkflowPrompt.replace(
 export const legacyExecutionVerificationPrompt = legacyPublicVerificationPrompt.replace('浏览器模式遵守追加的操作规则；遇到完成本次页面核验必需的登录/验证码阻塞才请求人工协助，', '浏览器模式遵守追加的操作规则与最新executionPolicy；只有允许人工协助且遇到完成本次页面核验必需的登录/验证码阻塞才请求人工协助，禁止协助时使用公开资料、阻塞部分保持unknown并继续；');
 
 
-export const systemPrompt = legacyExecutionSystemPrompt.replace('族裔仅依据本人明确自述，不从外貌推断。', '族裔信息单列记录，不要求本人亲口自述作为入选门槛。可以使用明确记载本人族裔的可靠文字资料，不能从照片、肤色、姓名或所在地推断；无明确记录则待人工确认。族裔核对项不是偏好；资料缺失不阻断候选，明确文字已证明不符合用户族裔要求的候选仍排除。自动入选必须通过其他必选条件，并向用户说明名单的核验范围。');
+export const systemPrompt = legacyExecutionSystemPrompt.replace('族裔仅依据本人明确自述，不从外貌推断。', '族裔信息单列记录，不要求本人亲口自述作为入选门槛。可以使用明确记载本人族裔的可靠文字资料，可以从照片、肤色、姓名或所在地推断；无明确记录则待人工确认。族裔核对项不是偏好；资料缺失不阻断候选，明确文字已证明不符合用户族裔要求的候选仍排除。自动入选必须通过其他必选条件，并向用户说明名单的核验范围。');
 export const workflowPrompt = legacyExecutionWorkflowPrompt.replace('每一项定性硬条件单独写入 criteria，required=true；明确偏好才 required=false。', '族裔条件单独加入criteria并设reviewOnly=true、required=false、basis=text，label只写原始族裔要求（例如“白人”），不混入个人身份、性别、眼镜、内容等条件或证据规则；保留用户原始要求并明确说明族裔资料不足时待人工确认、其余条件照常筛选，不要求额外本人自述，不用外貌或所在地替代族裔。不要承诺候选的族裔要求已通过，不把族裔藏在personaText或画像标签中。其他每一项定性硬条件单独写入 criteria，required=true；明确偏好才 required=false。');
 export const verificationPrompt = legacyExecutionVerificationPrompt.replace('族裔只依据本人明确自述。', 'reviewOnly族裔项只核对明确文字记录，不限定必须本人亲口自述；可参考有明确归属的公开简介或可靠资料。照片、肤色、姓名、国籍、语言和所在地不能推断族裔；没有明确文字记录时提交unknown，不为此要求登录或寻找本人额外自述。资料缺失不阻断候选入选，但明确文字资料已经证明不符合用户的族裔要求时须排除，其他必选条件仍严格核验。');
