@@ -1,0 +1,444 @@
+{
+  "base": "http://101.201.237.219:33332",
+  "title": "Instagram个人书评KOC公开文字筛选",
+  "prompt": "请帮我找2位Instagram个人书评KOC，粉丝1万至10万，地区不限。必须有本人第一人称阅读或使用书籍的体验，排除出版社、商店、品牌、机构官方、明星和纯搬运账号。只核验已有公开文字，标注内容方向和呈现方式。用booknerd、booklover做开放账号搜索，不指定账号；分析预算8人、基础账号读取上限50。请直接开始，结束给我报告和CSV。此用例验证文字筛选，不代表严格外观名单；本人书卷形象与日常框架眼镜那项研究继续执行。",
+  "startedAt": "2026-10-12T22:24:19.076Z",
+  "checks": {
+    "naturalScope": true,
+    "realOpenTarget": true,
+    "automaticDelivery": true,
+    "previousTasksPreserved": true,
+    "exports": true
+  },
+  "pageErrors": [],
+  "browser": {
+    "isSecureContext": false,
+    "randomUUID": "undefined"
+  },
+  "resumedVerification": true,
+  "previousTaskIds": [
+    "enrich-150446afeae8ce042413a76e",
+    "enrich-19b749da2108bcce416e3a31",
+    "enrich-32f9c222ba018ba1748b584e",
+    "enrich-6fcbc9e0deacef35d5bcc9df",
+    "enrich-8871961801ae75d3e4c07269",
+    "enrich-e6bac783cce66bf50203c22a",
+    "research-010f8c5e484e38738b2b3640",
+    "research-329ed36c04d98223b610f7c0",
+    "research-53d5f515c5959e5d00495f27",
+    "research-58949888b306ad726d60be23",
+    "research-5b048604116d7fcbdce4e705",
+    "research-5e4db1193ded213e791cd417",
+    "research-6b62fedb31c94ffb3dfd83b8",
+    "research-7df22029caef61df6134e885",
+    "research-9698a6d1fc749a4a3df6084e",
+    "research-98350042b636d08a5d424a6c",
+    "research-a183b9437d676713c0f2812f",
+    "research-a333d174361fcf1bed6c0698",
+    "research-a5b580b3d9a62868bf773f08",
+    "research-b2efbf875587dbc4b18f0e68",
+    "research-b30bacd90e74569b33e06bfc",
+    "research-bcebf909d61af9519dc124f3",
+    "research-d22f5bc3f9c80da1a4979ca5",
+    "research-d7687a09b9a84db8c236a706",
+    "research-deadf97a7b6138ba6d316943",
+    "research-fd88375f69e716ff5cbc9fef",
+    "enrich-852b54c3a4c8bfabc45ae1b6",
+    "enrich-4442f04a49d556bc97a01bb1",
+    "enrich-1bf84c8def94fbe1951b90a2",
+    "research-3a8244acbeb71c8f1b51a276",
+    "research-3e042e38a6ac3e37f6226bdf",
+    "research-09db3d47bf4ee8edb2830bb3",
+    "research-593e3796f4ef22d7e2a6366b",
+    "research-b7829d5a507c7425f3601697"
+  ],
+  "userId": "0b800308464d830b672b6dffdfa3b003",
+  "requestCreatedAt": 1791843662013,
+  "taskId": "research-b6a28edf401b3a52ebb44143",
+  "spec": {
+    "title": "Instagram个人书评KOC公开文字筛选",
+    "personaText": "个人书评与阅读消费者创作者，分享第一人称阅读感受或使用书籍的体验。",
+    "count": 2,
+    "platforms": [
+      "instagram"
+    ],
+    "regions": [],
+    "minFollowers": 10000,
+    "maxFollowers": 100000,
+    "candidateBudget": 8,
+    "verificationMode": "text",
+    "instagram": {
+      "queries": [
+        "booknerd",
+        "booklover"
+      ],
+      "version": "v3",
+      "profileBudget": 50
+    },
+    "criteria": [
+      {
+        "id": "personal_review_koc",
+        "label": "个人书评消费者KOC，依据本人简介与已有公开文字内容判断个人分享身份；排除出版社、商店、品牌、公司、机构官方、明星及纯搬运账号。身份缺证unknown。",
+        "required": true,
+        "basis": "text"
+      },
+      {
+        "id": "first_person_reading_experience",
+        "label": "已有公开文字必须有本人第一人称阅读或使用书籍的实际体验，不能仅以书单、书籍宣传、转述他人或召回主题作为体验证据；缺证unknown。",
+        "required": true,
+        "basis": "text"
+      }
+    ],
+    "annotations": [
+      {
+        "id": "content_direction",
+        "label": "内容方向"
+      },
+      {
+        "id": "presentation_method",
+        "label": "呈现方式"
+      }
+    ]
+  },
+  "finalTask": {
+    "id": "research-b6a28edf401b3a52ebb44143",
+    "title": "Instagram个人书评KOC公开文字筛选",
+    "status": "completed",
+    "requested": 2,
+    "evaluated": 4,
+    "matched": 2,
+    "qualifying": 2,
+    "allowHumanAssistance": true,
+    "matchedMeaning": "研究组入选的合格账号数；合格候选总数见qualifying",
+    "updatedAt": 1791844405874,
+    "detail": "已选合格 2/2，已核验 4；证据不足者保持待核实。Instagram：读取 10 个本人基础账号，基础条件排除 6 个；基础读取上限 50，逐人分析上限 8（本次有界来源，不代表全站穷尽）。",
+    "remoteStatus": "running",
+    "nextPollAt": 1791844382322
+  },
+  "results": [
+    {
+      "id": "research-b6a28edf401b3a52ebb44143|instagram:booknerd_sa",
+      "handle": "booknerd_sa",
+      "followers": 12445,
+      "selected": false,
+      "verdict": "no_match",
+      "judgments": [
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 12445，要求 10000–100000",
+          "evidenceIds": [
+            "fe12c79f7b0c66debc6f7ea6"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "personal_review_koc",
+          "verdict": "no_match",
+          "reason": "已有 WaveSurge 主页文字明确自述“A community bookshop in San Antonio, TX.”，帖子亦以“The Book Nerd team”庆祝社区书店开业周年，并引导到官网预订书籍，支持其为书店经营账号，属于明确排除的商店而非个人消费者KOC。本轮未重新访问页面。",
+          "evidenceIds": [
+            "fe12c79f7b0c66debc6f7ea6",
+            "6074b85114d206ab088c775a",
+            "537b71f602b3a5e911c366c5"
+          ],
+          "label": "个人书评消费者KOC，依据本人简介与已有公开文字内容判断个人分享身份；排除出版社、商店、品牌、公司、机构官方、明星及纯搬运账号。身份缺证unknown。"
+        },
+        {
+          "criterionId": "first_person_reading_experience",
+          "verdict": "unknown",
+          "reason": "所提供的 WaveSurge 帖子文字为新品上市、预订、书籍内容介绍及书店活动宣传；“we”表达的是团队经营或活动感受，不是本人读书或使用书籍的实际体验。已有文字未提供满足该条件的第一人称阅读经历，缺证不能推断其从未分享过。",
+          "evidenceIds": [
+            "0b5101b627adbdaece03382c",
+            "d6c5930f485fd9c84bbcc59b",
+            "537b71f602b3a5e911c366c5",
+            "6074b85114d206ab088c775a"
+          ],
+          "label": "已有公开文字必须有本人第一人称阅读或使用书籍的实际体验，不能仅以书单、书籍宣传、转述他人或召回主题作为体验证据；缺证unknown。"
+        }
+      ],
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "书店经营与活动宣传",
+            "新书上市与预订推广",
+            "禁书与审查议题"
+          ],
+          "reason": "已有帖子文案明确宣传书店周年、作者新书活动、新书预订，以及禁书周和审查主题讨论；仅依据所提供文字，不作视觉推断。",
+          "evidenceIds": [
+            "6074b85114d206ab088c775a",
+            "d6c5930f485fd9c84bbcc59b",
+            "537b71f602b3a5e911c366c5",
+            "0b1d9f6167338fe290c3f8a6"
+          ]
+        },
+        {
+          "dimensionId": "presentation_method",
+          "status": "supported",
+          "values": [
+            "团队口吻宣传文案",
+            "活动邀约",
+            "预订导购",
+            "书籍内容简介"
+          ],
+          "reason": "帖子使用团队“we”口吻，并通过“Join”“Pre-Order”邀请参与活动或购买书籍，另有对新书主题的文字介绍。未观察图片或视频像素，不能判断出镜或拍摄呈现方式。",
+          "evidenceIds": [
+            "6074b85114d206ab088c775a",
+            "d6c5930f485fd9c84bbcc59b",
+            "537b71f602b3a5e911c366c5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "research-b6a28edf401b3a52ebb44143|instagram:booknerdkat",
+      "handle": "booknerdkat",
+      "followers": 15757,
+      "selected": true,
+      "verdict": "match",
+      "judgments": [
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 15757，要求 10000–100000",
+          "evidenceIds": [
+            "77ee09eec197e7934090f5c0"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "personal_review_koc",
+          "verdict": "match",
+          "reason": "依据已提供的 WaveSurge 本人主页与帖子文字（capturedAt=1791843933938），未重新访问页面。简介自述“Midlife reader & writer with diverse tastes”；多篇署名个人书评含独立阅读感受及评价，符合个人阅读消费者分享身份，而非机构官方或纯搬运。收到赠书及合作披露不改变其个人书评身份；现有文字未显示排除类账号身份。",
+          "evidenceIds": [
+            "77ee09eec197e7934090f5c0",
+            "7a889e1eab3fe74dcc42910f",
+            "d603605f65d11aadb26abd5e",
+            "be08b95dcaef0fa581df21ed"
+          ],
+          "label": "个人书评消费者KOC，依据本人简介与已有公开文字内容判断个人分享身份；排除出版社、商店、品牌、公司、机构官方、明星及纯搬运账号。身份缺证unknown。"
+        },
+        {
+          "criterionId": "first_person_reading_experience",
+          "verdict": "match",
+          "reason": "WaveSurge 已取得的本人帖子文字有明确实际阅读经历：《BIRTH LANGUAGE》（publishedAt=2026-10-12）写“I didn’t know how to read it”及“as I read, I forgot to be afraid”，描述阅读时的心理变化；另一篇书评（publishedAt=2026-10-08）写“I read the book via @librofm”及“I devoured this book in one day”，说明有声书使用及读完体验；《TAXI DANCER》书评亦称“I read it in a day”。这些不是仅书单、宣传或转述。日期来自帖子 publishedAt，不把采集时间当作发布时间。",
+          "evidenceIds": [
+            "7a889e1eab3fe74dcc42910f",
+            "d603605f65d11aadb26abd5e",
+            "135a65a3b7bd1dec6160d7c1"
+          ],
+          "label": "已有公开文字必须有本人第一人称阅读或使用书籍的实际体验，不能仅以书单、书籍宣传、转述他人或召回主题作为体验证据；缺证unknown。"
+        }
+      ],
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "个人书评与阅读感受",
+            "小说与诗歌阅读",
+            "移民与文化身份主题",
+            "菲律宾及菲律宾裔美国文学"
+          ],
+          "reason": "已有 WaveSurge 帖子文字包含小说、诗集书评，以及菲律宾文学推荐和移民文化身份阅读反思；仅依据文本归纳内容，不进行外貌或视觉推断。",
+          "evidenceIds": [
+            "7a889e1eab3fe74dcc42910f",
+            "d603605f65d11aadb26abd5e",
+            "e0598f2b98821d158ae1893c",
+            "f3d6421d513261f9f8721b9b"
+          ]
+        },
+        {
+          "dimensionId": "presentation_method",
+          "status": "supported",
+          "values": [
+            "第一人称长篇文字书评",
+            "阅读与生活经历结合的反思",
+            "主题书单推荐",
+            "有声书体验分享"
+          ],
+          "reason": "帖子 caption 以第一人称详述阅读评价，并将阅读与自身生活经历结合；另有主题阅读清单和明确的有声书体验。仅确认文字呈现方式，未观察图片像素，不判断图片布局或出镜形式。",
+          "evidenceIds": [
+            "7a889e1eab3fe74dcc42910f",
+            "d603605f65d11aadb26abd5e",
+            "f3d6421d513261f9f8721b9b",
+            "e0598f2b98821d158ae1893c"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "research-b6a28edf401b3a52ebb44143|instagram:booknerd",
+      "handle": "booknerd",
+      "followers": 11094,
+      "selected": false,
+      "verdict": "unknown",
+      "judgments": [
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 11094，要求 10000–100000",
+          "evidenceIds": [
+            "f6c0e46a7571881130fe9372"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "personal_review_koc",
+          "verdict": "unknown",
+          "reason": "仅有 WaveSurge 采集的本人主页简介文字，自述 reader、writer 等，支持个人阅读兴趣，但未提供书评或个人消费者分享内容，无法确认个人书评KOC身份，也不足以完成排除身份核验。本轮未重新访问页面。",
+          "evidenceIds": [
+            "f6c0e46a7571881130fe9372"
+          ],
+          "label": "个人书评消费者KOC，依据本人简介与已有公开文字内容判断个人分享身份；排除出版社、商店、品牌、公司、机构官方、明星及纯搬运账号。身份缺证unknown。"
+        },
+        {
+          "criterionId": "first_person_reading_experience",
+          "verdict": "unknown",
+          "reason": "现有资料仅为主页简介，未提供帖子文字或本人第一人称阅读、使用书籍的实际体验；reader 标签本身不能作为实际体验证据。",
+          "evidenceIds": [
+            "f6c0e46a7571881130fe9372"
+          ],
+          "label": "已有公开文字必须有本人第一人称阅读或使用书籍的实际体验，不能仅以书单、书籍宣传、转述他人或召回主题作为体验证据；缺证unknown。"
+        }
+      ],
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "unknown",
+          "values": [],
+          "reason": "简介表达阅读与写作兴趣，但没有内容样本，无法确认实际内容方向。",
+          "evidenceIds": [
+            "f6c0e46a7571881130fe9372"
+          ]
+        },
+        {
+          "dimensionId": "presentation_method",
+          "status": "unknown",
+          "values": [],
+          "reason": "仅有 WaveSurge 主页文字，无帖子内容或实际截图，无法判断呈现方式。",
+          "evidenceIds": [
+            "f6c0e46a7571881130fe9372"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "research-b6a28edf401b3a52ebb44143|instagram:bookloveraly",
+      "handle": "bookloveraly",
+      "followers": 39370,
+      "selected": true,
+      "verdict": "match",
+      "judgments": [
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 39370，要求 10000–100000",
+          "evidenceIds": [
+            "8acaf2fec5c7ba4cdbc927b5"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "personal_review_koc",
+          "verdict": "match",
+          "reason": "复用 WaveSurge 已采集的本人简介与帖子文字（capturedAt=1791844353672），未重新访问主页。简介自称痴迷书籍的 fangirl，提供推荐、书评及内容警示；本人帖子分享上学、工作中的阅读进度，以及读完书后的评分与感受，支持个人阅读消费者创作者身份，而非机构官方或纯搬运账号。简介接合作及帖子含赞助不改变该个人分享身份。",
+          "evidenceIds": [
+            "8acaf2fec5c7ba4cdbc927b5",
+            "22581f69d31591ca15ef8c20",
+            "e6e01f11137f637fd145a8fc"
+          ],
+          "label": "个人书评消费者KOC，依据本人简介与已有公开文字内容判断个人分享身份；排除出版社、商店、品牌、公司、机构官方、明星及纯搬运账号。身份缺证unknown。"
+        },
+        {
+          "criterionId": "first_person_reading_experience",
+          "verdict": "match",
+          "reason": "WaveSurge 帖子文字具有明确第一人称实际阅读体验：publishedAt 为2026-10-10的阅读更新列出正在同时阅读的三本书，说明喜爱程度及学校、工作影响阅读进度；2026-10-05的月度总结表示读完 House of Sky & Breath、给出四星并评价结尾，同时说明 House of Flame & Shadow 已读50%且很喜欢。不是仅凭书单、宣传或剧情转述判断。上述为既有文字来源的发布时间，非本轮页面观察。",
+          "evidenceIds": [
+            "22581f69d31591ca15ef8c20",
+            "e6e01f11137f637fd145a8fc"
+          ],
+          "label": "已有公开文字必须有本人第一人称阅读或使用书籍的实际体验，不能仅以书单、书籍宣传、转述他人或召回主题作为体验证据；缺证unknown。"
+        }
+      ],
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "个人书评与阅读进度",
+            "奇幻与浪漫小说推荐",
+            "秋季生活方式与穿搭"
+          ],
+          "reason": "既有 WaveSurge 文案描述奇幻阅读偏好、阅读更新和评分；另有浪漫小说书单及秋季穿搭与书籍搭配内容。仅依据文字归纳内容方向，不推断图片视觉风格。",
+          "evidenceIds": [
+            "6dd61799786a2e5b7ee4ae65",
+            "22581f69d31591ca15ef8c20",
+            "e6e01f11137f637fd145a8fc",
+            "bb9c66f58ac2034c9884287d",
+            "5563275d0c1308eb9a90c856"
+          ]
+        },
+        {
+          "dimensionId": "presentation_method",
+          "status": "supported",
+          "values": [
+            "第一人称阅读感受分享",
+            "阅读进度更新与月度总结",
+            "主题书单推荐",
+            "穿搭搭配书籍推荐"
+          ],
+          "reason": "本人文案以第一人称讲述阅读进度及感受，进行月度回顾，按角色关系主题列书单，并明确提出穿搭搭配秋季荐书；这些呈现方式由文字直接支持，未观察照片或视频像素，不判断拍摄形式。",
+          "evidenceIds": [
+            "22581f69d31591ca15ef8c20",
+            "e6e01f11137f637fd145a8fc",
+            "bb9c66f58ac2034c9884287d",
+            "5563275d0c1308eb9a90c856"
+          ]
+        }
+      ]
+    }
+  ],
+  "delivery": {
+    "id": "report-request-0b800308464d830b672b6dffdfa3b003-2345019a19024b8c",
+    "role": "assistant",
+    "text": "本次请求的 1 项工作已全部结束。\n\n- Instagram个人书评KOC公开文字筛选：已完成；已选合格 2/2，已核验 4；证据不足者保持待核实。Instagram：读取 10 个本人基础账号，基础条件排除 6 个；基础读取上限 50，逐人分析上限 8（本次有界来源，不代表全站穷尽）。 [查看报告](/api/reports/research-b6a28edf401b3a52ebb44143)\n\n[查看本次综合报告](/api/work-batches/0b800308464d830b672b6dffdfa3b003/report) · [下载综合 CSV](/api/work-batches/0b800308464d830b672b6dffdfa3b003/report?format=csv)",
+    "createdAt": 1791844405923,
+    "epoch": 6,
+    "state": "delivered",
+    "attachments": []
+  },
+  "htmlBytes": 500954,
+  "csvBytes": 658301,
+  "passed": true,
+  "finishedAt": "2026-10-12T22:33:38.124Z"
+}

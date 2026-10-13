@@ -1,0 +1,113 @@
+{
+  "observedAt": "2026-10-12T23:48:42.786Z",
+  "codeCommit": "9a79ed49d3e11052ad69a3064d271b3ce0fcce47",
+  "verification": {
+    "unitFiles": 36,
+    "unitTests": 292,
+    "typecheckExit": 0,
+    "productionBuild": true,
+    "controlledE2E": {
+      "passed": 5,
+      "total": 5,
+      "minutes": 6.9,
+      "project": "creator-studio-public-acceptance-20261013-r6",
+      "actualModel": true,
+      "actualHeadedBrowserAndVNC": true,
+      "controlledWaveAndCandidatePages": true
+    }
+  },
+  "realCases": {
+    "strict-bookworm-public.json": {
+      "passed": true,
+      "taskId": "research-9ad67d8142750fb21a31634c",
+      "totalElapsedMs": 498712,
+      "finalTask": {
+        "id": "research-9ad67d8142750fb21a31634c",
+        "title": "公网严格验收：本人书卷形象与框架镜（bookworm）",
+        "status": "completed",
+        "requested": 1,
+        "evaluated": 5,
+        "matched": 1,
+        "qualifying": 1,
+        "allowHumanAssistance": false,
+        "matchedMeaning": "研究组入选的合格账号数；合格候选总数见qualifying",
+        "updatedAt": 1791846875615,
+        "detail": "已选合格 1/1，已核验 5；证据不足者保持待核实。Instagram：读取 18 个本人基础账号，基础条件排除 13 个；基础读取上限 125，逐人分析上限 25（本次有界来源，不代表全站穷尽）。",
+        "remoteStatus": "running",
+        "nextPollAt": 1791846831607
+      }
+    },
+    "reading-deployed-public.json": {
+      "passed": true,
+      "taskId": "research-dbd0a595c74c88337d88bdad",
+      "totalElapsedMs": 188483,
+      "finalTask": {
+        "id": "research-dbd0a595c74c88337d88bdad",
+        "title": "公网部署后并发验收：个人书评体验KOC",
+        "status": "completed",
+        "requested": 2,
+        "evaluated": 3,
+        "matched": 2,
+        "qualifying": 2,
+        "allowHumanAssistance": true,
+        "matchedMeaning": "研究组入选的合格账号数；合格候选总数见qualifying",
+        "updatedAt": 1791846629049,
+        "detail": "已选合格 2/2，已核验 3；证据不足者保持待核实。Instagram：读取 7 个本人基础账号，基础条件排除 4 个；基础读取上限 50，逐人分析上限 8（本次有界来源，不代表全站穷尽）。",
+        "remoteStatus": "running",
+        "nextPollAt": 1791846607523
+      }
+    },
+    "reading-final-public.json": {
+      "passed": true,
+      "taskId": "research-d8b24e517e7613d03f994eee",
+      "totalElapsedMs": 205905,
+      "finalTask": {
+        "id": "research-d8b24e517e7613d03f994eee",
+        "title": "公网最终发布验收：开放书评KOC",
+        "status": "completed",
+        "requested": 2,
+        "evaluated": 3,
+        "matched": 2,
+        "qualifying": 2,
+        "allowHumanAssistance": true,
+        "matchedMeaning": "研究组入选的合格账号数；合格候选总数见qualifying",
+        "updatedAt": 1791849101047,
+        "detail": "已选合格 2/2，已核验 3；证据不足者保持待核实。Instagram：读取 7 个本人基础账号，基础条件排除 4 个；基础读取上限 50，逐人分析上限 8（本次有界来源，不代表全站穷尽）。",
+        "remoteStatus": "running",
+        "nextPollAt": 1791849073545
+      }
+    }
+  },
+  "countryRevision": {
+    "auditableCountryCorrection": true,
+    "noNewWaveSearch": true,
+    "scopeAndSelectionsPreserved": true,
+    "automaticDelivery": true
+  },
+  "finalPublicUI": {
+    "inheritedPolicyMatchesExecution": true,
+    "messageTimes": true,
+    "automaticDelivery": true,
+    "removedSettingsSection": true,
+    "vncViewerConnected": true,
+    "resultCountsAndCountry": true,
+    "actualCsvDownload": true,
+    "actualFramedImageLoaded": true,
+    "actualOfflineHtmlDownload": true
+  },
+  "preservation": {
+    "sourceFiles": 62,
+    "sourceMismatch": [],
+    "originalBaseline": {
+      "rows": 380,
+      "missing": [],
+      "changed": []
+    },
+    "predeploy": {
+      "rows": 521,
+      "missing": [],
+      "changed": []
+    }
+  },
+  "businessBoundary": "Original requested 20 remains 0/20. Strict adjusted case selected 1/1 and text book-review cases selected 2/2; distinct scopes, not additive."
+}

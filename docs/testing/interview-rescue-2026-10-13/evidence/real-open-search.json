@@ -1,0 +1,731 @@
+{
+  "observedAt": "2026-10-12T20:52:34.956Z",
+  "tasks": [
+    {
+      "id": "research-3a8244acbeb71c8f1b51a276",
+      "title": "Geek风戴眼镜的Instagram KOC新筛选",
+      "status": "partial",
+      "requested": 20,
+      "evaluated": 40,
+      "qualifying": 0,
+      "matched": 0,
+      "detail": "已选合格 0/20，已核验 40；证据不足者保持待核实。Instagram：读取 75 个本人基础账号，基础条件排除 35 个；基础读取上限 200，逐人分析上限 40（本次有界来源，不代表全站穷尽）。核验/来源错误 3 次，可对已有结果重新核验。",
+      "updatedAt": 1791824511750,
+      "spec": {
+        "title": "Geek风戴眼镜的Instagram KOC新筛选",
+        "personaText": "ordinary consumer creators with bookish or geek fashion aesthetics and glasses",
+        "count": 20,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [
+          "United States",
+          "Canada",
+          "United Kingdom",
+          "Germany",
+          "France"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "candidateBudget": 40,
+        "verificationMode": "auto",
+        "instagram": {
+          "queries": [
+            "geek",
+            "bookish",
+            "glasses"
+          ],
+          "version": "v3"
+        },
+        "criteria": [
+          {
+            "id": "geek_visual",
+            "label": "近期公开内容呈现科技宅、书卷或极客穿搭风格；必须依据实际内容视觉证据，不仅依据头像，不以分享科技内容替代风格判断",
+            "required": true,
+            "basis": "visual"
+          },
+          {
+            "id": "glasses_visual",
+            "label": "本人在公开内容实际画面中佩戴眼镜，不仅依据头像",
+            "required": true,
+            "basis": "visual"
+          },
+          {
+            "id": "white_self_identification",
+            "label": "本人明确公开自述为白人，不从外貌、姓名或所在地推断；没有自述证据保持unknown",
+            "required": true,
+            "basis": "text"
+          },
+          {
+            "id": "ordinary_consumer_koc",
+            "label": "普通消费者个人创作者，排除品牌、公司、店铺及机构官方账号和明星；依据本人简介及实际内容核验，不仅凭粉丝数认定，身份不明保持unknown",
+            "required": true,
+            "basis": "text"
+          }
+        ]
+      },
+      "discovery": {
+        "profileReads": 75,
+        "baseExcluded": 35,
+        "done": true
+      },
+      "verdicts": {
+        "match": 0,
+        "unknown": 15,
+        "no_match": 25
+      }
+    },
+    {
+      "id": "research-3e042e38a6ac3e37f6226bdf",
+      "title": "补救开放筛选：欧美个人KOC、Geek风与眼镜（族裔非硬条件）",
+      "status": "partial",
+      "requested": 20,
+      "evaluated": 35,
+      "qualifying": 0,
+      "matched": 0,
+      "detail": "已选合格 0/20，已核验 35；证据不足者保持待核实。Instagram：读取 93 个本人基础账号，基础条件排除 58 个；基础读取上限 200，逐人分析上限 40（本次有界来源，不代表全站穷尽）。核验/来源错误 2 次，可对已有结果重新核验。",
+      "updatedAt": 1791831779700,
+      "spec": {
+        "title": "补救开放筛选：欧美个人KOC、Geek风与眼镜（族裔非硬条件）",
+        "personaText": "personal consumer creators sharing reading and product experiences with bookish or geek aesthetics and glasses",
+        "count": 20,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [
+          "United States",
+          "Canada",
+          "United Kingdom",
+          "Germany",
+          "France",
+          "Netherlands",
+          "Belgium",
+          "Ireland",
+          "Spain",
+          "Italy",
+          "Portugal",
+          "Norway",
+          "Sweden",
+          "Finland",
+          "Denmark",
+          "Switzerland",
+          "Austria",
+          "Poland",
+          "Czech Republic",
+          "Greece"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "candidateBudget": 40,
+        "verificationMode": "auto",
+        "instagram": {
+          "queries": [
+            "bookstagram",
+            "nerdy",
+            "geekgirl"
+          ],
+          "version": "v3",
+          "profileBudget": 200
+        },
+        "criteria": [
+          {
+            "id": "geek_visual",
+            "label": "本人公开内容真实视觉呈现Geek、书卷或科技宅风格，例如阅读与书架场景、极客桌面或Geek穿搭；必须观察真实像素并确认本人归属，不能仅以账号名或科技主题认定。不添加最近30天或近期穿搭限制；使用已有公开形象须注明真实发表时间，未知日期明确未知。",
+            "required": true,
+            "basis": "visual"
+          },
+          {
+            "id": "glasses_visual",
+            "label": "本人在公开内容实际画面佩戴眼镜，必须观察真实像素并确认人物归属，不能仅用头像或文字。无额外时间限制，注明证据真实发表时间或日期未知，不推断一直戴眼镜。",
+            "required": true,
+            "basis": "visual"
+          },
+          {
+            "id": "personal_consumer_koc",
+            "label": "个人消费者创作者，须有本人阅读、产品使用或消费经验分享；依据本人公开简介及实际内容核验，排除品牌、店铺、公司与机构官方账号及明星，不能仅凭粉丝数认定，身份不明保持unknown。",
+            "required": true,
+            "basis": "text"
+          }
+        ],
+        "annotations": [
+          {
+            "id": "ethnicity_self_description",
+            "label": "族裔（仅本人公开自述；缺证unknown，禁止图像推断）"
+          },
+          {
+            "id": "content_direction",
+            "label": "内容方向"
+          },
+          {
+            "id": "presentation_style",
+            "label": "呈现风格"
+          }
+        ]
+      },
+      "discovery": {
+        "profileReads": 93,
+        "baseExcluded": 58,
+        "done": true
+      },
+      "verdicts": {
+        "match": 0,
+        "unknown": 33,
+        "no_match": 2
+      }
+    },
+    {
+      "id": "research-09db3d47bf4ee8edb2830bb3",
+      "title": "补救补充开放检索：bookish、bookworm、nerd",
+      "status": "partial",
+      "requested": 20,
+      "evaluated": 30,
+      "qualifying": 2,
+      "matched": 2,
+      "detail": "已选合格 2/20，已核验 30；证据不足者保持待核实。Instagram：读取 72 个本人基础账号，基础条件排除 42 个；基础读取上限 150，逐人分析上限 30（本次有界来源，不代表全站穷尽）。核验/来源错误 1 次，可对已有结果重新核验。",
+      "updatedAt": 1791836017061,
+      "spec": {
+        "title": "补救补充开放检索：bookish、bookworm、nerd",
+        "personaText": "personal consumer creators sharing first-person reading or product experiences with bookish, geek or nerd aesthetics and glasses",
+        "count": 20,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [
+          "United States",
+          "Canada",
+          "United Kingdom",
+          "Germany",
+          "France",
+          "Netherlands",
+          "Belgium",
+          "Ireland",
+          "Spain",
+          "Italy",
+          "Portugal",
+          "Norway",
+          "Sweden",
+          "Finland",
+          "Denmark",
+          "Switzerland",
+          "Austria",
+          "Poland",
+          "Czech Republic",
+          "Greece"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "candidateBudget": 30,
+        "allowHumanAssistance": false,
+        "verificationMode": "auto",
+        "instagram": {
+          "version": "v3",
+          "queries": [
+            "bookish",
+            "bookworm",
+            "nerd"
+          ],
+          "profileBudget": 150
+        },
+        "criteria": [
+          {
+            "id": "geek_visual",
+            "label": "本人真实公开内容呈现Geek、书卷或科技宅风格，例如阅读与书架场景、极客桌面或Geek穿搭；实际观察像素并确认归属，不能仅凭用户名或科技主题。无近期时间限制，不加最近30天条件；注明真实发表日期，无法取得日期则明确未知。",
+            "required": true,
+            "basis": "visual"
+          },
+          {
+            "id": "glasses_visual",
+            "label": "公开内容实际画面中本人佩戴眼镜，须观察像素并确认人物归属，不能用头像或文字替代。无近期时间限制，注明真实发表日期或日期未知，不推断一直戴镜。",
+            "required": true,
+            "basis": "visual"
+          },
+          {
+            "id": "personal_consumer_koc",
+            "label": "个人消费者创作者，实际内容须有第一人称阅读、产品使用或消费体验分享；依据本人简介和实际内容核验，排除品牌、店铺、公司、机构官方账号及明星，不以粉丝数单独认定，身份缺证保持unknown。",
+            "required": true,
+            "basis": "text"
+          }
+        ],
+        "annotations": [
+          {
+            "id": "ethnicity_self_description",
+            "label": "族裔公开自述"
+          },
+          {
+            "id": "content_direction",
+            "label": "内容方向"
+          },
+          {
+            "id": "presentation_style",
+            "label": "呈现风格"
+          }
+        ]
+      },
+      "discovery": {
+        "profileReads": 72,
+        "baseExcluded": 42,
+        "done": true
+      },
+      "verdicts": {
+        "match": 2,
+        "unknown": 18,
+        "no_match": 10
+      }
+    }
+  ],
+  "adjustedRecords": 65,
+  "adjustedUniqueAccounts": 64,
+  "adjustedUniqueQualified": 2,
+  "waveCalls": {
+    "since": 1791826250533,
+    "scope": "main application time window, including both open searches and any main-app probes",
+    "counts": [
+      {
+        "method": "GET",
+        "path": "/instagram/v2/fetch_post_info",
+        "count": 124,
+        "success": 124,
+        "errors": 0
+      },
+      {
+        "method": "GET",
+        "path": "/instagram/v1/fetch_user_info_by_username_v2",
+        "count": 166,
+        "success": 164,
+        "errors": 2
+      },
+      {
+        "method": "GET",
+        "path": "/instagram/v1/fetch_user_posts",
+        "count": 125,
+        "success": 124,
+        "errors": 1
+      },
+      {
+        "method": "GET",
+        "path": "/instagram/v3/search_users",
+        "count": 6,
+        "success": 6,
+        "errors": 0
+      },
+      {
+        "method": "GET",
+        "path": "/discover/db",
+        "count": 1,
+        "success": 1,
+        "errors": 0
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "id": "research-09db3d47bf4ee8edb2830bb3|instagram:bookish.in.baltimore",
+      "taskId": "research-09db3d47bf4ee8edb2830bb3",
+      "handle": "bookish.in.baltimore",
+      "displayName": "Cassie",
+      "profileUrl": "https://www.instagram.com/bookish.in.baltimore/",
+      "followers": 27518,
+      "waveRegion": null,
+      "country": {
+        "code": "US",
+        "rawValue": "Baltimore, MD",
+        "evidenceIds": [
+          "8ed4f217a978c435be2b37ab"
+        ]
+      },
+      "verdict": "match",
+      "selected": true,
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "match",
+          "reason": "本人主页所在地声明：Baltimore, MD",
+          "evidenceIds": [
+            "8ed4f217a978c435be2b37ab"
+          ],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 27518，要求 10000–100000",
+          "evidenceIds": [
+            "8ed4f217a978c435be2b37ab"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "geek_visual",
+          "verdict": "match",
+          "reason": "实际观察的本人照片帖展示木质背景上的 ACOTAR 实体书及装饰书衣，呈现书卷、藏书展示风格；通过媒体 parentEvidenceId 关联本人帖子，文案明确分享自己喜爱的书衣、摆放与消费者体验，而非仅凭主题或用户名判断。原帖发表时间为 2026-10-11T13:27:04.000Z（WaveSurge publishedAt，不是截图采集时间）。该照片未出现人物，不声称观察到本人阅读姿态。",
+          "evidenceIds": [
+            "adcf951b19ce5ac7038ce6bb",
+            "aa817eb9ebe39e721cd15ace",
+            "4ab037df8371cbea2294e45e"
+          ],
+          "label": "本人真实公开内容呈现Geek、书卷或科技宅风格，例如阅读与书架场景、极客桌面或Geek穿搭；实际观察像素并确认归属，不能仅凭用户名或科技主题。无近期时间限制，不加最近30天条件；注明真实发表日期，无法取得日期则明确未知。"
+        },
+        {
+          "criterionId": "glasses_visual",
+          "verdict": "match",
+          "reason": "已观察自我介绍轮播帖的实际照片像素，画面中人物佩戴深色框眼镜；图中有 Meet The Bookstagrammer 及 @bookish.in.baltimore，关联原帖明确写 Here’s just a small snapshot of me，支持人物为本人。这是公开自我介绍帖照片而非主页头像。原帖发表时间为 2026-08-28T12:06:16.000Z（WaveSurge publishedAt）；仅确认该画面戴镜，不推断一直戴镜。",
+          "evidenceIds": [
+            "775b100e3f28aee11003b678",
+            "fe39d1ae810edf18ecda8cc6",
+            "bf9b3b4701f2e78b12a4652b"
+          ],
+          "label": "公开内容实际画面中本人佩戴眼镜，须观察像素并确认人物归属，不能用头像或文字替代。无近期时间限制，注明真实发表日期或日期未知，不推断一直戴镜。"
+        },
+        {
+          "criterionId": "personal_consumer_koc",
+          "verdict": "match",
+          "reason": "复用 WaveSurge 提供的本人简介与原帖文字（采集时间 capturedAt=1791832791066，未声称本轮重访主页）。简介自称读很多书，自我介绍内容说明个人身份；2026-10-08 的书评具体叙述自己阅读 The Gilded Rose 的感受，2026-10-11 的书衣帖叙述收藏、使用和消费者体验并自称 customer for life。内容支持个人读者/消费者创作者，而非品牌、店铺、机构官方或明星账号；获赠 ARC、书衣不否定个人消费者身份。",
+          "evidenceIds": [
+            "8ed4f217a978c435be2b37ab",
+            "bf9b3b4701f2e78b12a4652b",
+            "58c7350ec4f211b5df90d579",
+            "8c581955d6b2e1e2674b4c08",
+            "4ab037df8371cbea2294e45e"
+          ],
+          "label": "个人消费者创作者，实际内容须有第一人称阅读、产品使用或消费体验分享；依据本人简介和实际内容核验，排除品牌、店铺、公司、机构官方账号及明星，不以粉丝数单独认定，身份缺证保持unknown。"
+        }
+      ],
+      "annotations": [
+        {
+          "dimensionId": "ethnicity_self_description",
+          "status": "unknown",
+          "values": [],
+          "reason": "现有本人简介、自我介绍及帖子没有明确族裔自述，不从照片外貌推断。",
+          "evidenceIds": [
+            "8ed4f217a978c435be2b37ab",
+            "bf9b3b4701f2e78b12a4652b"
+          ]
+        },
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "第一人称书评与阅读推荐",
+            "奇幻及浪漫小说",
+            "书衣与藏书展示",
+            "读书活动体验",
+            "书籍主题梗图"
+          ],
+          "reason": "本人原帖包含具体阅读感受、ACOTAR 等小说及书衣分享、书友活动体验；已观察 Twilight 梗图像素。文字来源为已提供 WaveSurge 原帖。",
+          "evidenceIds": [
+            "8c581955d6b2e1e2674b4c08",
+            "4ab037df8371cbea2294e45e",
+            "2fdd22535f6b195eb97ed50b",
+            "147adc41a578156f1b355875",
+            "df71aa8cc921b741b6e984d9"
+          ]
+        },
+        {
+          "dimensionId": "presentation_style",
+          "status": "supported",
+          "values": [
+            "书卷与藏书美学",
+            "深色框眼镜出镜",
+            "绿色排版自我介绍卡片",
+            "幽默梗图"
+          ],
+          "reason": "实际观察的书衣照片、自我介绍照片与 Twilight 图像分别支持藏书视觉、深色框眼镜、绿色卡片排版及幽默梗图，不声称看过视频。",
+          "evidenceIds": [
+            "adcf951b19ce5ac7038ce6bb",
+            "775b100e3f28aee11003b678",
+            "58c7350ec4f211b5df90d579",
+            "df71aa8cc921b741b6e984d9"
+          ]
+        }
+      ],
+      "tags": [
+        "第一人称书评与阅读推荐",
+        "奇幻及浪漫小说",
+        "书衣与藏书展示",
+        "读书活动体验",
+        "书籍主题梗图",
+        "书卷与藏书美学",
+        "深色框眼镜出镜",
+        "绿色排版自我介绍卡片",
+        "幽默梗图"
+      ],
+      "fetchedPostCount": 24,
+      "photoUrlCount": 200,
+      "waveProfile": {
+        "username": "bookish.in.baltimore",
+        "full_name": "Cassie",
+        "edge_followed_by": {
+          "count": 27518
+        },
+        "is_private": false,
+        "is_verified": true
+      },
+      "observedMedia": [
+        {
+          "id": "df71aa8cc921b741b6e984d9",
+          "kind": "browser_snapshot",
+          "provider": "headed-chromium",
+          "publishedAt": null,
+          "capturedAt": 1791832814861,
+          "assetId": "84872d9ec8ef764bcb132c38b403f119f85f246d39689bd6c6901e419aa2b864"
+        },
+        {
+          "id": "775b100e3f28aee11003b678",
+          "kind": "browser_snapshot",
+          "provider": "headed-chromium",
+          "publishedAt": null,
+          "capturedAt": 1791832819996,
+          "assetId": "2664d18e1be377d5dc547771eb13fb829e300f661d144f050bf4eb657a4b421b"
+        },
+        {
+          "id": "58c7350ec4f211b5df90d579",
+          "kind": "browser_snapshot",
+          "provider": "headed-chromium",
+          "publishedAt": null,
+          "capturedAt": 1791832826501,
+          "assetId": "aa83642d3ef103d727552ca5bd2989f264e6865f903dfe1a15bc8a1da46ab536"
+        },
+        {
+          "id": "adcf951b19ce5ac7038ce6bb",
+          "kind": "browser_snapshot",
+          "provider": "headed-chromium",
+          "publishedAt": null,
+          "capturedAt": 1791832833982,
+          "assetId": "ebddb32db15a14ac3cab8efe09bd6579f36d305529c773992a0ce5483804eaa0"
+        }
+      ],
+      "referencedPosts": [
+        {
+          "id": "bf9b3b4701f2e78b12a4652b",
+          "url": "https://www.instagram.com/p/DclUrB_lVZB/",
+          "publishedAt": "2026-08-28T12:06:16.000Z"
+        },
+        {
+          "id": "4ab037df8371cbea2294e45e",
+          "url": "https://www.instagram.com/p/DeWw5X6Ffj1/",
+          "publishedAt": "2026-10-11T13:27:04.000Z"
+        },
+        {
+          "id": "8c581955d6b2e1e2674b4c08",
+          "url": "https://www.instagram.com/p/DeO941bqwaQ/",
+          "publishedAt": "2026-10-08T12:48:05.000Z"
+        }
+      ]
+    },
+    {
+      "id": "research-09db3d47bf4ee8edb2830bb3|instagram:bookishwbomberry",
+      "taskId": "research-09db3d47bf4ee8edb2830bb3",
+      "handle": "bookishwbomberry",
+      "displayName": "Destiney",
+      "profileUrl": "https://www.instagram.com/bookishwbomberry/",
+      "followers": 47207,
+      "waveRegion": null,
+      "country": {
+        "code": "CA",
+        "rawValue": "Toronto, Ontario",
+        "evidenceIds": [
+          "1dba975c9b1c00e44e77c029"
+        ]
+      },
+      "verdict": "match",
+      "selected": true,
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "match",
+          "reason": "本人主页所在地声明：Toronto, Ontario",
+          "evidenceIds": [
+            "1dba975c9b1c00e44e77c029"
+          ],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 47207，要求 10000–100000",
+          "evidenceIds": [
+            "1dba975c9b1c00e44e77c029"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "geek_visual",
+          "verdict": "match",
+          "reason": "实际观察到本人账号视频封面中的满墙书架、堆叠书籍与暖色烛光，以及床边打开的书和阅读场景，呈现明确书卷与 cozy 阅读风格。资源通过 parentEvidenceId 对应本人第一人称整理书籍、陪伴阅读帖子，确认内容归属；发表日期分别为2026-09-09与2026-09-11（WaveSurge 原帖 publishedAt），不是截图采集日期。仅观察封面，未声称观看视频。",
+          "evidenceIds": [
+            "4ca77fccbdec65a75757303f",
+            "f8c4e386ca97ef75ff610146",
+            "fac7555d386d83cec8b39c20",
+            "53ffe0cabd191183d29b9411",
+            "888ac4363305be435b915e77"
+          ],
+          "label": "本人真实公开内容呈现Geek、书卷或科技宅风格，例如阅读与书架场景、极客桌面或Geek穿搭；实际观察像素并确认归属，不能仅凭用户名或科技主题。无近期时间限制，不加最近30天条件；注明真实发表日期，无法取得日期则明确未知。"
+        },
+        {
+          "criterionId": "glasses_visual",
+          "verdict": "match",
+          "reason": "实际观察到剪发自述视频封面中，镜前自拍人物佩戴黑色墨镜；该封面资源明确关联本人以第一人称分享剪刘海经历的帖子，可确认本人归属。原帖发表日期为2026-09-22（WaveSurge publishedAt）。此证据是墨镜而非透明镜片的日常眼镜，且仅为视频封面，不证明一直戴镜或看过视频。条件未限定眼镜类型。",
+          "evidenceIds": [
+            "ed220ec45fd989d7d2dd3819",
+            "b2d0b712d0bcd37e3f37f3a8",
+            "cad613dd8883468823f0b238"
+          ],
+          "label": "公开内容实际画面中本人佩戴眼镜，须观察像素并确认人物归属，不能用头像或文字替代。无近期时间限制，注明真实发表日期或日期未知，不推断一直戴镜。"
+        },
+        {
+          "criterionId": "personal_consumer_koc",
+          "verdict": "match",
+          "reason": "依据已提供的 WaveSurge 本人简介和原帖文字：个人名 Destiney，自述喜欢书籍、爱好和 cozy 生活；2026-10-01分享情绪对阅读的影响以及读完6本书，2026-10-05分享刚开始读 The Poison Daughter，2026-09-15分享自己床头用品与阅读体验。多条第一人称消费和阅读内容支持个人消费者创作者身份，非品牌、店铺或机构官方账号，资料未呈现明星身份；不以粉丝数认定。",
+          "evidenceIds": [
+            "1dba975c9b1c00e44e77c029",
+            "eea81af5b38578b9163cc527",
+            "d3f3cb781965eebad9203823",
+            "b9845a49375c723e81e0d5dc"
+          ],
+          "label": "个人消费者创作者，实际内容须有第一人称阅读、产品使用或消费体验分享；依据本人简介和实际内容核验，排除品牌、店铺、公司、机构官方账号及明星，不以粉丝数单独认定，身份缺证保持unknown。"
+        }
+      ],
+      "annotations": [
+        {
+          "dimensionId": "ethnicity_self_description",
+          "status": "unknown",
+          "values": [],
+          "reason": "已提供本人简介及内容没有明确族裔自述，不从姓名、外貌或所在地推断。",
+          "evidenceIds": [
+            "1dba975c9b1c00e44e77c029"
+          ]
+        },
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "阅读体验与书籍分享",
+            "书架整理",
+            "居家生活与消费体验"
+          ],
+          "reason": "本人原帖分别分享阅读进度、书架整理及床品、茶饮、闹钟等消费使用内容。",
+          "evidenceIds": [
+            "eea81af5b38578b9163cc527",
+            "fac7555d386d83cec8b39c20",
+            "b9845a49375c723e81e0d5dc",
+            "888ac4363305be435b915e77"
+          ]
+        },
+        {
+          "dimensionId": "presentation_style",
+          "status": "supported",
+          "values": [
+            "书卷风",
+            "温馨居家",
+            "秋季氛围"
+          ],
+          "reason": "已实际观察书籍装袋与秋叶照片、暖色灯光下的书架视频封面和床边阅读封面，支持这些具体呈现风格。",
+          "evidenceIds": [
+            "baeda16e68e3aad124d90ad1",
+            "4ca77fccbdec65a75757303f",
+            "53ffe0cabd191183d29b9411"
+          ]
+        }
+      ],
+      "tags": [
+        "阅读体验与书籍分享",
+        "书架整理",
+        "居家生活与消费体验",
+        "书卷风",
+        "温馨居家",
+        "秋季氛围"
+      ],
+      "fetchedPostCount": 24,
+      "photoUrlCount": 74,
+      "waveProfile": {
+        "username": "bookishwbomberry",
+        "full_name": "Destiney",
+        "edge_followed_by": {
+          "count": 47207
+        },
+        "is_private": false,
+        "is_verified": false
+      },
+      "observedMedia": [
+        {
+          "id": "baeda16e68e3aad124d90ad1",
+          "kind": "browser_snapshot",
+          "provider": "headed-chromium",
+          "publishedAt": null,
+          "capturedAt": 1791834210008,
+          "assetId": "6c7cc0e217425020f726a874c12541e4f575cfd0ae69447a1264203002645de3"
+        },
+        {
+          "id": "ed220ec45fd989d7d2dd3819",
+          "kind": "browser_snapshot",
+          "provider": "headed-chromium",
+          "publishedAt": null,
+          "capturedAt": 1791834215953,
+          "assetId": "ba3b8c23937aa45e706dd8f196fb471fe7585181b0f8ffd98b6fe145312debc2"
+        },
+        {
+          "id": "53ffe0cabd191183d29b9411",
+          "kind": "browser_snapshot",
+          "provider": "headed-chromium",
+          "publishedAt": null,
+          "capturedAt": 1791834223529,
+          "assetId": "a416a0e2890e4f9481312d804893e19c1f7dc0f021c2ee1a3e922359b0e75534"
+        },
+        {
+          "id": "4ca77fccbdec65a75757303f",
+          "kind": "browser_snapshot",
+          "provider": "headed-chromium",
+          "publishedAt": null,
+          "capturedAt": 1791834232533,
+          "assetId": "b117a32120d2086fa409d7239e6095f157c396d5277a6a89c2115e425be1d5f6"
+        }
+      ],
+      "referencedPosts": [
+        {
+          "id": "d3f3cb781965eebad9203823",
+          "url": "https://www.instagram.com/p/DeHnsm1HBBr/",
+          "publishedAt": "2026-10-05T16:18:05.000Z"
+        },
+        {
+          "id": "eea81af5b38578b9163cc527",
+          "url": "https://www.instagram.com/p/Dd9XXOmHOzG/",
+          "publishedAt": "2026-10-01T16:42:57.000Z"
+        },
+        {
+          "id": "cad613dd8883468823f0b238",
+          "url": "https://www.instagram.com/p/DdmrPsCJxl8/",
+          "publishedAt": "2026-09-22T21:15:17.000Z"
+        },
+        {
+          "id": "b9845a49375c723e81e0d5dc",
+          "url": "https://www.instagram.com/p/DdUEWyKHC2N/",
+          "publishedAt": "2026-09-15T15:48:00.000Z"
+        },
+        {
+          "id": "888ac4363305be435b915e77",
+          "url": "https://www.instagram.com/p/DdKBn0QJHyT/",
+          "publishedAt": "2026-09-11T18:14:27.000Z"
+        },
+        {
+          "id": "fac7555d386d83cec8b39c20",
+          "url": "https://www.instagram.com/p/DdEp243Jsor/",
+          "publishedAt": "2026-09-09T16:10:06.000Z"
+        }
+      ]
+    }
+  ]
+}

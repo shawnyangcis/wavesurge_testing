@@ -1,0 +1,124 @@
+{
+  "observedAt": "2026-10-12T23:48:42.786Z",
+  "publicEntry": "http://101.201.237.219:33332/",
+  "codeCommit": "9a79ed49d3e11052ad69a3064d271b3ce0fcce47",
+  "localHead": "9a79ed49d3e11052ad69a3064d271b3ce0fcce47",
+  "remoteMain": "9a79ed49d3e11052ad69a3064d271b3ce0fcce47",
+  "sourceFiles": 62,
+  "sourceMismatch": [],
+  "originalBaseline": {
+    "rows": 380,
+    "missing": [],
+    "changed": []
+  },
+  "predeploy": {
+    "rows": 521,
+    "missing": [],
+    "changed": []
+  },
+  "original": {
+    "id": "research-3a8244acbeb71c8f1b51a276",
+    "title": "Geek风戴眼镜的Instagram KOC新筛选",
+    "status": "partial",
+    "requested": 20,
+    "evaluated": 40,
+    "matched": 0,
+    "updatedAt": 1791824511750,
+    "detail": "已选合格 0/20，已核验 40；证据不足者保持待核实。Instagram：读取 75 个本人基础账号，基础条件排除 35 个；基础读取上限 200，逐人分析上限 40（本次有界来源，不代表全站穷尽）。核验/来源错误 3 次，可对已有结果重新核验。",
+    "nextPollAt": 1791824485852,
+    "failures": [
+      "instagram:bookish.with.yo: The operation was aborted due to timeout",
+      "instagram:kacamata.bantuloptical: The operation was aborted due to timeout",
+      "instagram:bookish.girls.club: fetch failed"
+    ],
+    "deliveryBatchId": "eval2-1791821013158",
+    "discoveryAttempts": 0,
+    "remoteStatus": "done",
+    "qualifying": 0
+  },
+  "liveTasks": [
+    {
+      "id": "research-9ad67d8142750fb21a31634c",
+      "title": "公网严格验收：本人书卷形象与框架镜（bookworm）",
+      "status": "completed",
+      "evaluated": 5,
+      "qualifying": 1,
+      "matched": 1,
+      "requested": 1,
+      "detail": "已选合格 1/1，已核验 5；证据不足者保持待核实。Instagram：读取 18 个本人基础账号，基础条件排除 13 个；基础读取上限 125，逐人分析上限 25（本次有界来源，不代表全站穷尽）。"
+    },
+    {
+      "id": "research-dbd0a595c74c88337d88bdad",
+      "title": "公网部署后并发验收：个人书评体验KOC",
+      "status": "completed",
+      "evaluated": 3,
+      "qualifying": 2,
+      "matched": 2,
+      "requested": 2,
+      "detail": "已选合格 2/2，已核验 3；证据不足者保持待核实。Instagram：读取 7 个本人基础账号，基础条件排除 4 个；基础读取上限 50，逐人分析上限 8（本次有界来源，不代表全站穷尽）。"
+    },
+    {
+      "id": "enrich-76597d2b5b2a492fcf854323",
+      "title": "重新核验：公网严格验收：本人书卷形象与框架镜（bookworm）",
+      "status": "completed",
+      "evaluated": 1,
+      "matched": 0,
+      "requested": 1,
+      "detail": "已处理 1 个已有账号；失败 0。 本轮本人主页已观察 1/1；未取得本轮页面证据者不能宣称网页核验成功。"
+    }
+  ],
+  "publicHealth": {
+    "ok": true
+  },
+  "docker": {
+    "Status": "running",
+    "Running": true,
+    "Paused": false,
+    "Restarting": false,
+    "OOMKilled": false,
+    "Dead": false,
+    "Pid": 90685,
+    "ExitCode": 0,
+    "Error": "",
+    "StartedAt": "2026-10-12T23:46:37.462550064Z",
+    "FinishedAt": "0001-01-01T00:00:00Z",
+    "Health": {
+      "Status": "healthy",
+      "FailingStreak": 0,
+      "Log": [
+        {
+          "Start": "2026-10-12T23:47:38.386706705Z",
+          "End": "2026-10-12T23:47:38.803978759Z",
+          "ExitCode": 0,
+          "Output": ""
+        },
+        {
+          "Start": "2026-10-12T23:47:53.805012901Z",
+          "End": "2026-10-12T23:47:53.995350409Z",
+          "ExitCode": 0,
+          "Output": ""
+        },
+        {
+          "Start": "2026-10-12T23:48:08.996170753Z",
+          "End": "2026-10-12T23:48:09.559275405Z",
+          "ExitCode": 0,
+          "Output": ""
+        },
+        {
+          "Start": "2026-10-12T23:48:24.560727747Z",
+          "End": "2026-10-12T23:48:24.813153958Z",
+          "ExitCode": 0,
+          "Output": ""
+        },
+        {
+          "Start": "2026-10-12T23:48:39.793595586Z",
+          "End": "2026-10-12T23:48:39.996479324Z",
+          "ExitCode": 0,
+          "Output": ""
+        }
+      ]
+    }
+  },
+  "image": "sha256:30df27a277dbec7a1ba443ff377ab3b5425b1a2ce64ece8a9cf618f0de367909",
+  "passed": true
+}

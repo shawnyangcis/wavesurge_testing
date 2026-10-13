@@ -1,0 +1,2810 @@
+{
+  "base": "http://101.201.237.219:33332",
+  "taskId": "research-b7829d5a507c7425f3601697",
+  "title": "公网新词验收：本人书卷形象与日常框架眼镜",
+  "startedAt": "2026-10-12T22:24:19.838Z",
+  "checks": {
+    "ongoingMessage": true,
+    "previousTasksPreserved": true,
+    "delivery": true,
+    "exports": true,
+    "realQualifiedDelivery": false
+  },
+  "pageErrors": [],
+  "atFollowup": {
+    "id": "research-b7829d5a507c7425f3601697",
+    "title": "公网新词验收：本人书卷形象与日常框架眼镜",
+    "status": "running",
+    "requested": 1,
+    "evaluated": 12,
+    "matched": 0,
+    "qualifying": 0,
+    "allowHumanAssistance": false,
+    "matchedMeaning": "研究组入选的合格账号数；合格候选总数见qualifying",
+    "updatedAt": 1791843862888,
+    "detail": "已读取 13 位候选；来源 继续读取，合格候选 0 人，研究组预选 0 人",
+    "remoteStatus": "running",
+    "nextPollAt": 1791843863888
+  },
+  "followupUserId": "ff07a669c706d37da0c33da7884cb0dc",
+  "followupFromSavedMessages": true,
+  "followupReplies": [
+    {
+      "id": "8f8c3867-a767-4fc4-a96c-a157a268fc87",
+      "text": "最新工具确认，原任务 **「公网新词验收：本人书卷形象与日常框架眼镜」仍在执行**：\n\n| 指标 | 当前实际数量 |\n|---|---:|\n| 已逐人核验 | **6人** |\n| 全部必选条件通过的合格候选 | **0人** |\n| 配额内入选 | **0／1人** |\n\n正在继续读取原始资料并筛选；以上是进行中进度，不是最终缺额结论。已核验不等于条件通过，缺证仍保留 `unknown`。\n\n严格条件保持不变：\n- **本人出镜呈现Geek／书卷形象**，书本静物、科技内容主题不能替代。\n- **本人实际佩戴日常框架眼镜**，墨镜不能计入。\n- 同时保留**个人消费者KOC及第一人称阅读／产品体验**条件。\n\n本轮只查询了原任务，**未新建、未取消、未修改条件或其他任务**。仅使用无需登录的公开资料的设置保持不变。完成后将在对话中交付可审核报告及实际缺额；这仍是独立的1人研究，不作为原题20人的交付。",
+      "createdAt": 1791843286528
+    }
+  ],
+  "followupElapsedMs": 47349,
+  "finalTask": {
+    "id": "research-b7829d5a507c7425f3601697",
+    "title": "公网新词验收：本人书卷形象与日常框架眼镜",
+    "status": "partial",
+    "requested": 1,
+    "evaluated": 25,
+    "matched": 0,
+    "qualifying": 0,
+    "allowHumanAssistance": false,
+    "matchedMeaning": "研究组入选的合格账号数；合格候选总数见qualifying",
+    "updatedAt": 1791845428445,
+    "detail": "已选合格 0/1，已核验 25；证据不足者保持待核实。Instagram：读取 79 个本人基础账号，基础条件排除 54 个；基础读取上限 125，逐人分析上限 25（本次有界来源，不代表全站穷尽）。",
+    "remoteStatus": "done",
+    "nextPollAt": 1791845358544
+  },
+  "results": [
+    {
+      "id": "research-b7829d5a507c7425f3601697|instagram:booknerd_sa",
+      "handle": "booknerd_sa",
+      "followers": 12445,
+      "selected": false,
+      "verdict": "no_match",
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "unknown",
+          "reason": "未取得创作者地区",
+          "evidenceIds": [],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 12445，要求 10000–100000",
+          "evidenceIds": [
+            "fe12c79f7b0c66debc6f7ea6"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "personal_geek_bookish_visual",
+          "verdict": "unknown",
+          "reason": "实际传入截图为书店周年活动插画海报，无真人，不能证明本人书卷或Geek形象。该素材对应WaveSurge原帖发布时间2026-10-09T03:49:35.000Z；截图采集时间1791842729009，与发布时间不同。简介已明确为书店，故不再额外浏览凑视觉证据。",
+          "evidenceIds": [
+            "8f045e32e30dfae819ea4a62",
+            "155d885428bb1b535be6d4b8",
+            "f22f9f7a70b1bda2afdab634",
+            "fe12c79f7b0c66debc6f7ea6"
+          ],
+          "label": "本人真实公开画面呈现Geek或书卷形象，例如本人在书架前阅读、持书介绍、Geek穿搭或本人极客桌面使用场景。必须实际观察像素、看到本人并确认人物及内容归属；书本静物、科技内容主题、头像、媒体URL不能替代本人形象。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与截图采集时间分开。缺证unknown，不能降低条件凑数。"
+        },
+        {
+          "criterionId": "daily_framed_glasses_visual",
+          "verdict": "unknown",
+          "reason": "已观察的周年活动海报没有真人，无法确认本人佩戴日常框架眼镜；不能由其他媒体URL推断。WaveSurge原帖发布时间2026-10-09T03:49:35.000Z，截图采集时间1791842729009。个人身份条件已明确不符，停止额外视觉浏览。",
+          "evidenceIds": [
+            "8f045e32e30dfae819ea4a62",
+            "f22f9f7a70b1bda2afdab634"
+          ],
+          "label": "本人实际公开画面佩戴日常框架眼镜，须实际观察像素并确认人物为本人；排除墨镜、护目镜、面罩、书封人物和他人，不用头像或文字替代公开内容画面，不推断一直戴镜。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与截图采集时间分开。缺证unknown，不能降低条件凑数。"
+        },
+        {
+          "criterionId": "personal_consumer_koc",
+          "verdict": "no_match",
+          "reason": "WaveSurge提供的本人账号简介明确自述“A community bookshop in San Antonio, TX.”，属于条件排除的商店账号；内容以团队、书店周年庆与新书预售等经营宣传为主，不是个人消费者第一人称体验。简介发布时间未知；团队周年帖发布时间2026-10-03T23:49:19.000Z，预售帖发布时间2026-09-28T02:38:11.000Z；这些文字采集时间均为1791842696139，非本轮重新访问主页。",
+          "evidenceIds": [
+            "fe12c79f7b0c66debc6f7ea6",
+            "6074b85114d206ab088c775a",
+            "537b71f602b3a5e911c366c5"
+          ],
+          "label": "个人消费者KOC：依据本人简介和实际内容，有第一人称阅读或产品体验；排除品牌、商店、公司、机构、活动官方、明星及纯搬运账号。不能仅以粉丝数认定个人身份，身份或体验缺证unknown。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与采集时间分开。"
+        }
+      ],
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "社区书店宣传",
+            "新书推荐与预售",
+            "阅读文化活动"
+          ],
+          "reason": "简介为社区书店，帖子宣传新书预售和禁书周讨论活动。WaveSurge文字采集时间1791842696139；所引两帖发布时间分别为2026-09-28T02:38:11.000Z、2026-09-30T14:08:09.000Z。",
+          "evidenceIds": [
+            "fe12c79f7b0c66debc6f7ea6",
+            "537b71f602b3a5e911c366c5",
+            "0b1d9f6167338fe290c3f8a6"
+          ]
+        },
+        {
+          "dimensionId": "presentation_style",
+          "status": "supported",
+          "values": [
+            "插画活动海报"
+          ],
+          "reason": "实际截图显示以蛋糕、书籍插画和周年活动文字构成的海报，仅描述此素材，不推及所有内容。原帖发布时间2026-10-09T03:49:35.000Z；截图采集时间1791842729009。",
+          "evidenceIds": [
+            "8f045e32e30dfae819ea4a62",
+            "f22f9f7a70b1bda2afdab634"
+          ]
+        },
+        {
+          "dimensionId": "ethnicity_self_description",
+          "status": "unknown",
+          "values": [],
+          "reason": "所提供资料无本人明确族裔自述，且账号为书店；不根据姓名或地点推断。",
+          "evidenceIds": [
+            "fe12c79f7b0c66debc6f7ea6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "research-b7829d5a507c7425f3601697|instagram:shopbibliophile",
+      "handle": "shopbibliophile",
+      "followers": 30318,
+      "selected": false,
+      "verdict": "no_match",
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "unknown",
+          "reason": "未取得创作者地区",
+          "evidenceIds": [],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 30318，要求 10000–100000",
+          "evidenceIds": [
+            "0508a6bbc42926177862df07"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "personal_geek_bookish_visual",
+          "verdict": "unknown",
+          "reason": "实际传入截图仅为书主题服装、包及电子阅读器的商品搭配拼图，无真人，不能证明本人书卷或Geek形象。该素材经post_photo与原帖关联，WaveSurge原帖发表时间为2026-10-12T02:38:07.000Z；截图采集时间为1791842792857，两者不同。账号已明确为商店，停止追加视觉核验；不据单张无人图片认定整个账号没有本人画面。",
+          "evidenceIds": [
+            "2c0f11974d2dac08cba41346",
+            "b4086b54b52d0ba0fb582fca",
+            "44d5d2438d6d295fa9d47932"
+          ],
+          "label": "本人真实公开画面呈现Geek或书卷形象，例如本人在书架前阅读、持书介绍、Geek穿搭或本人极客桌面使用场景。必须实际观察像素、看到本人并确认人物及内容归属；书本静物、科技内容主题、头像、媒体URL不能替代本人形象。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与截图采集时间分开。缺证unknown，不能降低条件凑数。"
+        },
+        {
+          "criterionId": "daily_framed_glasses_visual",
+          "verdict": "unknown",
+          "reason": "实际截图没有人物，仅有搭配商品及一副未被佩戴的深色眼镜，不能证明本人佩戴日常框架眼镜。WaveSurge关联原帖发表时间2026-10-12T02:38:07.000Z，截图采集时间1791842792857；其余媒体链接未观察像素，不作视觉证据。",
+          "evidenceIds": [
+            "2c0f11974d2dac08cba41346",
+            "b4086b54b52d0ba0fb582fca",
+            "44d5d2438d6d295fa9d47932"
+          ],
+          "label": "本人实际公开画面佩戴日常框架眼镜，须实际观察像素并确认人物为本人；排除墨镜、护目镜、面罩、书封人物和他人，不用头像或文字替代公开内容画面，不推断一直戴镜。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与截图采集时间分开。缺证unknown，不能降低条件凑数。"
+        },
+        {
+          "criterionId": "personal_consumer_koc",
+          "verdict": "no_match",
+          "reason": "WaveSurge本人账号简介明确推广每周上新的Kindle/Kobo保护套与书主题商品，并标示由两位创办者建立；帖子使用制造商、补货及购物链接等商店经营表述，属于明确排除的品牌/商店账号。虽2026-10-01T03:30:16.000Z帖子有第一人称阅读感受，也不能改变商店账号身份。引用经营帖原帖发表时间2026-10-12T02:38:07.000Z及2026-10-09T16:06:32.000Z；文字采集时间均1791842768235，简介发表时间未提供，不以采集时间替代。",
+          "evidenceIds": [
+            "0508a6bbc42926177862df07",
+            "44d5d2438d6d295fa9d47932",
+            "9992ada913967ef947843d5e",
+            "bb8f4c1622b462b8351503fd"
+          ],
+          "label": "个人消费者KOC：依据本人简介和实际内容，有第一人称阅读或产品体验；排除品牌、商店、公司、机构、活动官方、明星及纯搬运账号。不能仅以粉丝数认定个人身份，身份或体验缺证unknown。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与采集时间分开。"
+        }
+      ],
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "书主题周边销售",
+            "Kindle/Kobo保护套",
+            "阅读相关分享"
+          ],
+          "reason": "WaveSurge简介及商品推广帖展示书主题周边与电子阅读器保护套销售；2026-10-01阅读分享帖描述《Ninth House》阅读及取景地体验。文字采集时间1791842768235。",
+          "evidenceIds": [
+            "0508a6bbc42926177862df07",
+            "44d5d2438d6d295fa9d47932",
+            "bb8f4c1622b462b8351503fd"
+          ]
+        },
+        {
+          "dimensionId": "presentation_style",
+          "status": "supported",
+          "values": [
+            "商品搭配拼图",
+            "秋季万圣节主题"
+          ],
+          "reason": "实际截图呈现黑橙配色服装、南瓜包及阅读器商品拼图，非本人出镜；关联原帖发表时间2026-10-12T02:38:07.000Z，截图采集时间1791842792857。",
+          "evidenceIds": [
+            "2c0f11974d2dac08cba41346",
+            "44d5d2438d6d295fa9d47932"
+          ]
+        },
+        {
+          "dimensionId": "ethnicity_self_description",
+          "status": "unknown",
+          "values": [],
+          "reason": "已提供本人简介和帖子文字未见明确族裔自述，不从姓名、商品或外观推断。",
+          "evidenceIds": [
+            "0508a6bbc42926177862df07"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "research-b7829d5a507c7425f3601697|instagram:booknerdkat",
+      "handle": "booknerdkat",
+      "followers": 15757,
+      "selected": false,
+      "verdict": "unknown",
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "unknown",
+          "reason": "未取得创作者地区",
+          "evidenceIds": [],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 15757，要求 10000–100000",
+          "evidenceIds": [
+            "77ee09eec197e7934090f5c0"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "personal_geek_bookish_visual",
+          "verdict": "match",
+          "reason": "实际观察视频封面像素：人物在海边手持打开的书阅读，画面写有read/explore/relax及账号水印。素材通过parentEvidenceId归属本人帖子；人物的手臂纹身与本人第一人称生活照片一致，结合本人读者简介和个人生活内容确认归属。仅观察封面，未声称观看视频或取得照片帖。WaveSurge原帖发布时间2026-09-20T19:34:32.000Z；封面截图采集时间1791842877415，与发表时间不同。",
+          "evidenceIds": [
+            "8a728426e07cd0eed6b47648",
+            "35f55ebb5e2661dc16d42d90",
+            "933faacf6219f56bb69af42b",
+            "1f5c4043414ee9007a12a03b",
+            "141ba17ca5609b99002f0e2b",
+            "77ee09eec197e7934090f5c0"
+          ],
+          "label": "本人真实公开画面呈现Geek或书卷形象，例如本人在书架前阅读、持书介绍、Geek穿搭或本人极客桌面使用场景。必须实际观察像素、看到本人并确认人物及内容归属；书本静物、科技内容主题、头像、媒体URL不能替代本人形象。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与截图采集时间分开。缺证unknown，不能降低条件凑数。"
+        },
+        {
+          "criterionId": "daily_framed_glasses_visual",
+          "verdict": "unknown",
+          "reason": "已观察6条相关素材，未取得本人佩戴日常框架眼镜的明确像素。生活照片中为深色墨镜（WaveSurge原帖2026-09-17T04:39:48.000Z，截图采集1791842886209）；海边阅读视频封面眼部细节不足，无法确认日常框架眼镜（原帖2026-09-20T19:34:32.000Z，截图采集1791842877415）。其他素材是持书局部或裁切人物，不能以静物中眼镜、书封人物代替本人佩戴，也不能据此断言本人从不戴镜。",
+          "evidenceIds": [
+            "1f5c4043414ee9007a12a03b",
+            "bea3c79dc814820c9db51d8c",
+            "8a728426e07cd0eed6b47648",
+            "35f55ebb5e2661dc16d42d90",
+            "bae3766f3f7180239873c442",
+            "3ecfff21e482e4ba41dac3bb",
+            "d0de1fc5daeaa3cddfde6a9b",
+            "8e6b97c25abe1c86ae86dc6d"
+          ],
+          "label": "本人实际公开画面佩戴日常框架眼镜，须实际观察像素并确认人物为本人；排除墨镜、护目镜、面罩、书封人物和他人，不用头像或文字替代公开内容画面，不推断一直戴镜。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与截图采集时间分开。缺证unknown，不能降低条件凑数。"
+        },
+        {
+          "criterionId": "personal_consumer_koc",
+          "verdict": "match",
+          "reason": "WaveSurge本人简介自述Midlife reader & writer；本人书评详述第一人称阅读感受，例如读诗时的理解过程、使用librofm听书并一天读完作品，支持个人阅读消费者KOC，而非品牌、机构或纯搬运。引用书评原帖发表时间分别为2026-10-12T16:00:08.000Z和2026-10-08T05:28:52.000Z；文字采集时间均1791842828646。简介publishedAt缺失；这里复用WaveSurge原始文字，不称为本轮重新访问主页。",
+          "evidenceIds": [
+            "77ee09eec197e7934090f5c0",
+            "22264f7c7e43a5aeb8a0bb4e",
+            "d603605f65d11aadb26abd5e"
+          ],
+          "label": "个人消费者KOC：依据本人简介和实际内容，有第一人称阅读或产品体验；排除品牌、商店、公司、机构、活动官方、明星及纯搬运账号。不能仅以粉丝数认定个人身份，身份或体验缺证unknown。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与采集时间分开。"
+        }
+      ],
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "第一人称书评",
+            "多元文学与移民身份主题",
+            "阅读生活"
+          ],
+          "reason": "本人多篇书评介绍诗歌、小说及阅读感受，并将文学内容与自身移民经历联系起来。依据WaveSurge帖子文字，采集1791842828646，相关原帖分别发表于2026-10-12、2026-10-08、2026-09-23。",
+          "evidenceIds": [
+            "22264f7c7e43a5aeb8a0bb4e",
+            "d603605f65d11aadb26abd5e",
+            "f3d6421d513261f9f8721b9b"
+          ]
+        },
+        {
+          "dimensionId": "presentation_style",
+          "status": "supported",
+          "values": [
+            "书籍实拍叠加文字",
+            "第一人称长文书评",
+            "户外阅读与生活影像"
+          ],
+          "reason": "实际截图呈现手持书籍实拍配大字标题及户外阅读视频封面；原始文字为长篇第一人称评论。封面仅作为封面观察，不代表看过视频。",
+          "evidenceIds": [
+            "bae3766f3f7180239873c442",
+            "8e6b97c25abe1c86ae86dc6d",
+            "8a728426e07cd0eed6b47648",
+            "22264f7c7e43a5aeb8a0bb4e"
+          ]
+        },
+        {
+          "dimensionId": "ethnicity_self_description",
+          "status": "supported",
+          "values": [
+            "Filipino",
+            "Filipino American"
+          ],
+          "reason": "本人明确写道“as a 1.5 generation Filipino immigrant myself”和“I am very much Filipino American now”，并解释此身份来自自身经历；不是依据姓名、外貌或旗帜推断。WaveSurge原帖分别发表于2026-09-23T09:37:26.000Z和2026-10-01T07:07:14.000Z，文字采集1791842828646。",
+          "evidenceIds": [
+            "f3d6421d513261f9f8721b9b",
+            "e0598f2b98821d158ae1893c"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "research-b7829d5a507c7425f3601697|instagram:booknerd",
+      "handle": "booknerd",
+      "followers": 11094,
+      "country": {
+        "code": "US",
+        "rawValue": "📍NYC",
+        "evidenceIds": [
+          "f6c0e46a7571881130fe9372"
+        ]
+      },
+      "selected": false,
+      "verdict": "unknown",
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "match",
+          "reason": "本人主页所在地声明：📍NYC",
+          "evidenceIds": [
+            "f6c0e46a7571881130fe9372"
+          ],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 11094，要求 10000–100000",
+          "evidenceIds": [
+            "f6c0e46a7571881130fe9372"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "personal_geek_bookish_visual",
+          "verdict": "unknown",
+          "reason": "仅有WaveSurge提供的本人主页文字，没有实际传入的本人公开内容像素，无法核验本人书卷或Geek形象。主页原始数据标记isPrivate=true，且没有帖子或素材证据。主页publishedAt为null；capturedAt=1791842963661为采集时间，不是原帖发表时间。",
+          "evidenceIds": [
+            "f6c0e46a7571881130fe9372"
+          ],
+          "label": "本人真实公开画面呈现Geek或书卷形象，例如本人在书架前阅读、持书介绍、Geek穿搭或本人极客桌面使用场景。必须实际观察像素、看到本人并确认人物及内容归属；书本静物、科技内容主题、头像、媒体URL不能替代本人形象。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与截图采集时间分开。缺证unknown，不能降低条件凑数。"
+        },
+        {
+          "criterionId": "daily_framed_glasses_visual",
+          "verdict": "unknown",
+          "reason": "没有可实际观察且确认属于本人的公开内容画面，无法确认佩戴日常框架眼镜；不以简介或头像替代视觉证据。现有WaveSurge主页证据publishedAt为null，capturedAt=1791842963661仅为采集时间，无原帖发表时间可报告。",
+          "evidenceIds": [
+            "f6c0e46a7571881130fe9372"
+          ],
+          "label": "本人实际公开画面佩戴日常框架眼镜，须实际观察像素并确认人物为本人；排除墨镜、护目镜、面罩、书封人物和他人，不用头像或文字替代公开内容画面，不推断一直戴镜。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与截图采集时间分开。缺证unknown，不能降低条件凑数。"
+        },
+        {
+          "criterionId": "personal_consumer_koc",
+          "verdict": "unknown",
+          "reason": "WaveSurge本人简介以第一人称介绍并列有reader、writer、feminist、passionate learner，支持个人阅读兴趣，但缺少第一人称阅读或产品体验的实际内容，尚不足确认个人消费者KOC及排除条件。现有证据为主页文字而非帖子，publishedAt为null；capturedAt=1791842963661为采集时间。",
+          "evidenceIds": [
+            "f6c0e46a7571881130fe9372"
+          ],
+          "label": "个人消费者KOC：依据本人简介和实际内容，有第一人称阅读或产品体验；排除品牌、商店、公司、机构、活动官方、明星及纯搬运账号。不能仅以粉丝数认定个人身份，身份或体验缺证unknown。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与采集时间分开。"
+        }
+      ],
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "阅读",
+            "写作"
+          ],
+          "reason": "WaveSurge提供的本人主页简介明确列出reader与writer；仅支持简介中的方向，不代表已核验实际帖子内容。",
+          "evidenceIds": [
+            "f6c0e46a7571881130fe9372"
+          ]
+        },
+        {
+          "dimensionId": "presentation_style",
+          "status": "unknown",
+          "values": [],
+          "reason": "没有实际观察的本人内容画面，不能确认呈现风格。",
+          "evidenceIds": [
+            "f6c0e46a7571881130fe9372"
+          ]
+        },
+        {
+          "dimensionId": "ethnicity_self_description",
+          "status": "unknown",
+          "values": [],
+          "reason": "简介没有明确族裔自述；加拿大旗帜与NYC地点不构成族裔声明。",
+          "evidenceIds": [
+            "f6c0e46a7571881130fe9372"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "research-b7829d5a507c7425f3601697|instagram:bookloveraly",
+      "handle": "bookloveraly",
+      "followers": 39371,
+      "selected": false,
+      "verdict": "unknown",
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "unknown",
+          "reason": "未取得创作者地区",
+          "evidenceIds": [],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 39371，要求 10000–100000",
+          "evidenceIds": [
+            "cdcebbb829e2c40dfad7c5a8"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "personal_geek_bookish_visual",
+          "verdict": "match",
+          "reason": "实际观察照片中人物在书店书架前打开书阅读；资源通过parentEvidenceId关联本人账号的第一人称购书帖（“i picked up…”），并与本人第一人称穿搭、书评封面出镜相互印证人物及内容归属。WaveSurge原帖发表时间为2026-09-23T15:28:20.000Z；照片截图采集时间为1791843091499，非发表时间。另实际看到本人持书的视频封面，原帖发表于2026-10-08T14:49:39.000Z、截图采集1791843067613；仅观察封面，未观看视频。",
+          "evidenceIds": [
+            "2e4accfde20e56e2ef27cb12",
+            "e41f324a09a6ebb51d009fa8",
+            "70d5e8d1af358a8ec8643935",
+            "6bc66fd88ed4a486c8fee9cf",
+            "b1295871dde53a7d75ccbde9"
+          ],
+          "label": "本人真实公开画面呈现Geek或书卷形象，例如本人在书架前阅读、持书介绍、Geek穿搭或本人极客桌面使用场景。必须实际观察像素、看到本人并确认人物及内容归属；书本静物、科技内容主题、头像、媒体URL不能替代本人形象。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与截图采集时间分开。缺证unknown，不能降低条件凑数。"
+        },
+        {
+          "criterionId": "daily_framed_glasses_visual",
+          "verdict": "unknown",
+          "reason": "已实际观察6条素材，包括书店照片、两张本人持书视频封面及静物照片，未取得本人佩戴日常框架眼镜的可见画面，不能据此判定从不戴镜。穿搭帖文字提到glasses，但已观察封面未显示戴镜，文字不能替代像素。该穿搭原帖WaveSurge发表时间为2026-10-04T15:58:17.000Z，封面截图采集时间1791843074775；书店照片原帖发表于2026-09-23T15:28:20.000Z，截图采集1791843091499。",
+          "evidenceIds": [
+            "15ffbc7722195475226fb89a",
+            "2b1f66bde9e72c2894cc8938",
+            "2e4accfde20e56e2ef27cb12",
+            "70d5e8d1af358a8ec8643935"
+          ],
+          "label": "本人实际公开画面佩戴日常框架眼镜，须实际观察像素并确认人物为本人；排除墨镜、护目镜、面罩、书封人物和他人，不用头像或文字替代公开内容画面，不推断一直戴镜。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与截图采集时间分开。缺证unknown，不能降低条件凑数。"
+        },
+        {
+          "criterionId": "personal_consumer_koc",
+          "verdict": "match",
+          "reason": "WaveSurge本人简介自述为爱书的fangirl，提供推荐、书评和内容警告；实际帖子持续分享第一人称正在阅读的三本书、阅读感受及学校工作影响阅读的生活经历，符合个人阅读消费者KOC，而非机构、商店或纯搬运账号。存在赞助书评不改变个人身份。主要阅读更新原帖发表于2026-10-10T16:02:36.000Z，赞助书评发表于2026-10-08T14:49:39.000Z；上述文字及简介采集时间为1791843037370，简介发表时间未提供（unknown），并非本轮重新访问主页所得。",
+          "evidenceIds": [
+            "cdcebbb829e2c40dfad7c5a8",
+            "0e50d5e6b089b0565d1e91a0",
+            "b1295871dde53a7d75ccbde9"
+          ],
+          "label": "个人消费者KOC：依据本人简介和实际内容，有第一人称阅读或产品体验；排除品牌、商店、公司、机构、活动官方、明星及纯搬运账号。不能仅以粉丝数认定个人身份，身份或体验缺证unknown。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与采集时间分开。"
+        }
+      ],
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "书籍推荐与阅读体验",
+            "奇幻与浪漫小说",
+            "秋季穿搭与生活方式"
+          ],
+          "reason": "本人阅读更新、奇幻书单和第一人称Gilmore Girls穿搭帖明确支持这些内容方向；来源为WaveSurge帖子文字。",
+          "evidenceIds": [
+            "0e50d5e6b089b0565d1e91a0",
+            "b5c5575f2d637fbebbae1a5d",
+            "2b1f66bde9e72c2894cc8938"
+          ]
+        },
+        {
+          "dimensionId": "presentation_style",
+          "status": "supported",
+          "values": [
+            "书卷生活场景",
+            "温馨秋季美学",
+            "梦幻少女风"
+          ],
+          "reason": "实际照片呈现书店阅读场景；实际视频封面呈现粉色裙装持书和温馨阅读房间，结合本人秋季生活、穿搭文字支持。视频证据仅为封面，不声称观看完整视频。",
+          "evidenceIds": [
+            "2e4accfde20e56e2ef27cb12",
+            "6bc66fd88ed4a486c8fee9cf",
+            "15ffbc7722195475226fb89a",
+            "e6e01f11137f637fd145a8fc"
+          ]
+        },
+        {
+          "dimensionId": "ethnicity_self_description",
+          "status": "unknown",
+          "values": [],
+          "reason": "提供的本人简介和帖子中未见明确族裔自述，不从外貌、姓名或内容推断。",
+          "evidenceIds": [
+            "cdcebbb829e2c40dfad7c5a8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "research-b7829d5a507c7425f3601697|instagram:geekygabi",
+      "handle": "geekygabi",
+      "followers": 24935,
+      "selected": false,
+      "verdict": "unknown",
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "unknown",
+          "reason": "未取得创作者地区",
+          "evidenceIds": [],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 24935，要求 10000–100000",
+          "evidenceIds": [
+            "534ce974fa1f92b02ec50e7c"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "personal_geek_bookish_visual",
+          "verdict": "match",
+          "reason": "实际观察本人照片：人物在宝可梦卡牌和玩偶收藏柜前，手持皮卡丘联名商品并展示宝可梦联名挎包，呈现Geek收藏与穿搭形象。原帖第一人称说明取得联名套装并每天使用包，结合简介Pokémon TCG Collector和一致出镜人物确认本人及内容归属；不是仅依据内容主题。WaveSurge原帖发表时间2026-09-10T22:39:17.000Z；截图采集时间1791843183226，与发表时间分开。",
+          "evidenceIds": [
+            "7b5d54dfa44acd0cc414588c",
+            "1432107790ae7d325ba173ad",
+            "3f9c79a9677fcaae61be9915",
+            "534ce974fa1f92b02ec50e7c"
+          ],
+          "label": "本人真实公开画面呈现Geek或书卷形象，例如本人在书架前阅读、持书介绍、Geek穿搭或本人极客桌面使用场景。必须实际观察像素、看到本人并确认人物及内容归属；书本静物、科技内容主题、头像、媒体URL不能替代本人形象。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与截图采集时间分开。缺证unknown，不能降低条件凑数。"
+        },
+        {
+          "criterionId": "daily_framed_glasses_visual",
+          "verdict": "unknown",
+          "reason": "已观察两张本人照片和一张本人视频封面，均未见佩戴日常框架眼镜；有限素材不能证明其他公开内容不存在戴镜画面，故保持unknown。对应WaveSurge原帖发表时间分别为2026-10-03T14:42:18.000Z、2026-09-10T22:39:17.000Z及2026-09-13T19:10:39.000Z；截图采集时间分别为1791843176120、1791843183226、1791843189798。视频封面不当作照片帖或已观看视频。",
+          "evidenceIds": [
+            "98ba62de6c1ecd63d41aa26e",
+            "39e0aee92b7f08f2aba88eeb",
+            "7b5d54dfa44acd0cc414588c",
+            "1432107790ae7d325ba173ad",
+            "80f9843677636a4463d023a7",
+            "7821b5c3f929b97ba8813736"
+          ],
+          "label": "本人实际公开画面佩戴日常框架眼镜，须实际观察像素并确认人物为本人；排除墨镜、护目镜、面罩、书封人物和他人，不用头像或文字替代公开内容画面，不推断一直戴镜。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与截图采集时间分开。缺证unknown，不能降低条件凑数。"
+        },
+        {
+          "criterionId": "personal_consumer_koc",
+          "verdict": "match",
+          "reason": "WaveSurge本人简介明确自述宝可梦TCG收藏者，内容有第一人称购买、开箱和使用体验：讲述寻找合理价格购买牌盒并开箱，以及取得联名套装后每天使用挎包；实际本人出镜展示收藏与商品支持个人消费者身份，非仅凭粉丝数判断，未见品牌或机构官方身份。上述原帖发表时间分别为2026-09-27T14:55:23.000Z及2026-09-10T22:39:17.000Z；文字采集时间1791843150610，照片截图采集时间1791843183226。",
+          "evidenceIds": [
+            "534ce974fa1f92b02ec50e7c",
+            "a244aed637eb0d26d739d4cf",
+            "3f9c79a9677fcaae61be9915",
+            "7b5d54dfa44acd0cc414588c"
+          ],
+          "label": "个人消费者KOC：依据本人简介和实际内容，有第一人称阅读或产品体验；排除品牌、商店、公司、机构、活动官方、明星及纯搬运账号。不能仅以粉丝数认定个人身份，身份或体验缺证unknown。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与采集时间分开。"
+        }
+      ],
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "宝可梦TCG收藏",
+            "收藏品开箱与购买体验",
+            "宝可梦主题旅行"
+          ],
+          "reason": "简介自述TCG收藏者，原帖分享牌盒购买开箱及冲绳宝可梦中心游览。",
+          "evidenceIds": [
+            "534ce974fa1f92b02ec50e7c",
+            "a244aed637eb0d26d739d4cf",
+            "6386dad6ede581125906630b"
+          ]
+        },
+        {
+          "dimensionId": "presentation_style",
+          "status": "supported",
+          "values": [
+            "本人出镜展示收藏",
+            "Geek周边穿搭",
+            "第一人称体验分享"
+          ],
+          "reason": "实际照片呈现本人在收藏柜前展示联名包和商品；封面显示本人持卡展示，仅依据封面像素不声称观看视频。文字分享联名包日常使用体验。",
+          "evidenceIds": [
+            "7b5d54dfa44acd0cc414588c",
+            "3f9c79a9677fcaae61be9915",
+            "80f9843677636a4463d023a7"
+          ]
+        },
+        {
+          "dimensionId": "ethnicity_self_description",
+          "status": "unknown",
+          "values": [],
+          "reason": "提供的本人简介与帖子没有明确族裔自述，不根据外貌、姓名或旅行地点推断。",
+          "evidenceIds": [
+            "534ce974fa1f92b02ec50e7c"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "research-b7829d5a507c7425f3601697|instagram:bookloversbookshop",
+      "handle": "bookloversbookshop",
+      "followers": 47375,
+      "selected": false,
+      "verdict": "no_match",
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "unknown",
+          "reason": "未取得创作者地区",
+          "evidenceIds": [],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 47375，要求 10000–100000",
+          "evidenceIds": [
+            "5a59994da35d399eb79c2fd4"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "personal_geek_bookish_visual",
+          "verdict": "unknown",
+          "reason": "实际传入截图为书籍预售宣传图，包含书封与插画人物，未见可确认属于账号本人的真实人物，不能证明本人书卷或Geek形象。对应WaveSurge原帖发布时间2026-10-11T12:00:35.000Z；截图采集时间1791843262701，两者分开。简介已明确为书店账号，故不再额外浏览补充视觉素材。",
+          "evidenceIds": [
+            "a0de500907e3b37ef8e2a247",
+            "9fe6514efc1d2721f3bf139a",
+            "5a59994da35d399eb79c2fd4"
+          ],
+          "label": "本人真实公开画面呈现Geek或书卷形象，例如本人在书架前阅读、持书介绍、Geek穿搭或本人极客桌面使用场景。必须实际观察像素、看到本人并确认人物及内容归属；书本静物、科技内容主题、头像、媒体URL不能替代本人形象。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与截图采集时间分开。缺证unknown，不能降低条件凑数。"
+        },
+        {
+          "criterionId": "daily_framed_glasses_visual",
+          "verdict": "unknown",
+          "reason": "实际截图仅为商品预售宣传图及插画，无可确认的本人真实出镜，无法核验本人佩戴日常框架眼镜；不以插画人物或未观察媒体链接代替。对应WaveSurge原帖发布时间2026-10-11T12:00:35.000Z；截图采集时间1791843262701。因书店身份已明确不符个人KOC条件，停止额外视觉核验。",
+          "evidenceIds": [
+            "a0de500907e3b37ef8e2a247",
+            "9fe6514efc1d2721f3bf139a",
+            "5a59994da35d399eb79c2fd4"
+          ],
+          "label": "本人实际公开画面佩戴日常框架眼镜，须实际观察像素并确认人物为本人；排除墨镜、护目镜、面罩、书封人物和他人，不用头像或文字替代公开内容画面，不推断一直戴镜。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与截图采集时间分开。缺证unknown，不能降低条件凑数。"
+        },
+        {
+          "criterionId": "personal_consumer_koc",
+          "verdict": "no_match",
+          "reason": "WaveSurge简介明确自称英国实体浪漫小说书店并列出营业时间；内容以店铺网站预售、独家赠品与签售活动为主，属于条件明确排除的商店账号，而非个人消费者KOC。原帖发布时间分别为2026-10-11T12:00:35.000Z和2026-09-24T13:15:01.000Z；简介发布时间unknown，以上文字采集时间均为1791843236638，并非本轮重新访问主页。",
+          "evidenceIds": [
+            "5a59994da35d399eb79c2fd4",
+            "9fe6514efc1d2721f3bf139a",
+            "8995edc7f8f8d75887599495"
+          ],
+          "label": "个人消费者KOC：依据本人简介和实际内容，有第一人称阅读或产品体验；排除品牌、商店、公司、机构、活动官方、明星及纯搬运账号。不能仅以粉丝数认定个人身份，身份或体验缺证unknown。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与采集时间分开。"
+        }
+      ],
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "浪漫小说与奇幻浪漫小说",
+            "书店预售推广",
+            "作者签售与读者活动"
+          ],
+          "reason": "WaveSurge简介及原帖文字明确展示浪漫小说书店定位、预售推广及签售活动；原帖发表时间2026-10-11T12:00:35.000Z、2026-09-24T13:15:01.000Z，文字采集时间1791843236638。",
+          "evidenceIds": [
+            "5a59994da35d399eb79c2fd4",
+            "9fe6514efc1d2721f3bf139a",
+            "8995edc7f8f8d75887599495"
+          ]
+        },
+        {
+          "dimensionId": "presentation_style",
+          "status": "supported",
+          "values": [
+            "书籍商品宣传海报"
+          ],
+          "reason": "实际观察的截图采用书封、赠品插画和预售文案组合的商品宣传海报形式，仅描述已见素材，不推断全账号风格。原帖发表时间2026-10-11T12:00:35.000Z，截图采集时间1791843262701。",
+          "evidenceIds": [
+            "a0de500907e3b37ef8e2a247",
+            "9fe6514efc1d2721f3bf139a"
+          ]
+        },
+        {
+          "dimensionId": "ethnicity_self_description",
+          "status": "unknown",
+          "values": [],
+          "reason": "没有族裔本人明确自述；简介中的Disabled and Queer Owned并非族裔声明，不依据姓名、外貌或地区推断。",
+          "evidenceIds": [
+            "5a59994da35d399eb79c2fd4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "research-b7829d5a507c7425f3601697|instagram:geeky",
+      "handle": "geeky",
+      "followers": 18461,
+      "selected": false,
+      "verdict": "no_match",
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "unknown",
+          "reason": "未取得创作者地区",
+          "evidenceIds": [],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 18461，要求 10000–100000",
+          "evidenceIds": [
+            "7e692222771e4d9e71a52c49"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "personal_geek_bookish_visual",
+          "verdict": "unknown",
+          "reason": "实际传入照片像素为@dropprs的Twitter截图及海边人物，不能确认人物为@geeky本人，也未显示书卷或Geek场景；不能由一条素材推断账号所有画面不符。对应WaveSurge原帖发布时间为2020-07-12T20:35:39.000Z，截图采集时间为1791843350715，二者不同。因个人身份条件已明确不符，不追加浏览。",
+          "evidenceIds": [
+            "c53fa8d037f96b7c4b3d0df1",
+            "0610795e9ff3ec5452837cf6",
+            "b83be88ddcce9f40f900aefb"
+          ],
+          "label": "本人真实公开画面呈现Geek或书卷形象，例如本人在书架前阅读、持书介绍、Geek穿搭或本人极客桌面使用场景。必须实际观察像素、看到本人并确认人物及内容归属；书本静物、科技内容主题、头像、媒体URL不能替代本人形象。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与截图采集时间分开。缺证unknown，不能降低条件凑数。"
+        },
+        {
+          "criterionId": "daily_framed_glasses_visual",
+          "verdict": "unknown",
+          "reason": "实际观察的素材是他人Twitter截图，人物本人归属未确认，不能作为@geeky佩戴日常框架眼镜的证据。WaveSurge对应原帖发表时间2020-07-12T20:35:39.000Z；截图采集时间1791843350715。无有效本人戴镜画面，且个人身份条件已明确不符，停止追加浏览。",
+          "evidenceIds": [
+            "c53fa8d037f96b7c4b3d0df1",
+            "0610795e9ff3ec5452837cf6",
+            "b83be88ddcce9f40f900aefb"
+          ],
+          "label": "本人实际公开画面佩戴日常框架眼镜，须实际观察像素并确认人物为本人；排除墨镜、护目镜、面罩、书封人物和他人，不用头像或文字替代公开内容画面，不推断一直戴镜。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与截图采集时间分开。缺证unknown，不能降低条件凑数。"
+        },
+        {
+          "criterionId": "personal_consumer_koc",
+          "verdict": "no_match",
+          "reason": "WaveSurge提供的本人简介明确定位为每日病毒式/解压视频精选，并声明“All credit given to respective owners”；实际帖子文字反复推广其他账号并标注第三方TikTok作者，支持其为内容聚合搬运账号，而非展示本人第一人称阅读或产品体验的个人消费者KOC。引用原帖发表时间分别为2020-08-29T15:03:22.000Z、2020-07-21T21:11:09.000Z；简介发布时间未知。文字采集时间均为1791843324844，并非帖子发布时间；本轮未重新访问主页。",
+          "evidenceIds": [
+            "7e692222771e4d9e71a52c49",
+            "968197a1395444d4e00d3f03",
+            "af80c6a2d03898abb1e73f41"
+          ],
+          "label": "个人消费者KOC：依据本人简介和实际内容，有第一人称阅读或产品体验；排除品牌、商店、公司、机构、活动官方、明星及纯搬运账号。不能仅以粉丝数认定个人身份，身份或体验缺证unknown。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与采集时间分开。"
+        }
+      ],
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "病毒式视频精选",
+            "解压视频",
+            "第三方内容推广"
+          ],
+          "reason": "WaveSurge简介写明The Best Viral Videos Daily和Satisfying Videos，帖子推广其他账号并注明第三方内容来源；为已有文字证据，不是本轮重新访问。",
+          "evidenceIds": [
+            "7e692222771e4d9e71a52c49",
+            "968197a1395444d4e00d3f03"
+          ]
+        },
+        {
+          "dimensionId": "presentation_style",
+          "status": "supported",
+          "values": [
+            "第三方内容聚合",
+            "社交媒体截图转载"
+          ],
+          "reason": "简介明确给原作者署名；实际传入照片像素呈现@dropprs的Twitter截图。对应原帖发布时间2020-07-12T20:35:39.000Z，截图采集时间1791843350715；不将图中人物视为本人。",
+          "evidenceIds": [
+            "7e692222771e4d9e71a52c49",
+            "c53fa8d037f96b7c4b3d0df1",
+            "b83be88ddcce9f40f900aefb"
+          ]
+        },
+        {
+          "dimensionId": "ethnicity_self_description",
+          "status": "unknown",
+          "values": [],
+          "reason": "给定简介及帖子没有本人明确族裔自述，不依据外貌、姓名或内容推断。",
+          "evidenceIds": [
+            "7e692222771e4d9e71a52c49"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "research-b7829d5a507c7425f3601697|instagram:booknerd37",
+      "handle": "booknerd37",
+      "followers": 13446,
+      "selected": false,
+      "verdict": "unknown",
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "unknown",
+          "reason": "未取得创作者地区",
+          "evidenceIds": [],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 13446，要求 10000–100000",
+          "evidenceIds": [
+            "c6630dd9234cd44ee6a8aab8"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "personal_geek_bookish_visual",
+          "verdict": "unknown",
+          "reason": "已实际观察4张归属于该账号原帖的照片，均为木桌上的书籍平铺；书封人物不能视为本人，未见可确认的本人阅读、持书或Geek场景，不能由书籍主题推断本人书卷形象。WaveSurge原帖发表时间分别为2026-10-11T16:09:02Z、2026-10-08T13:08:23Z、2026-09-29T15:37:17Z、2026-10-06T16:43:23Z；对应截图采集时间分别为1791843406967、1791843415766、1791843424223、1791843433657（Unix毫秒），不作为发表时间。现有素材不足，并非证明账号从不出镜。",
+          "evidenceIds": [
+            "0fb410be713a39240ca97088",
+            "db05a70f7d2511b830646d39",
+            "ab4c656d2b2a7bf7fde35899",
+            "e3ea1b1701f09f8ee43f0dc5",
+            "b79f06593352603186d9d979",
+            "a5c6327df6b081ca90c4e84e",
+            "c3588bd476dc9c17da39259e",
+            "3afba3c0c734946c83572804"
+          ],
+          "label": "本人真实公开画面呈现Geek或书卷形象，例如本人在书架前阅读、持书介绍、Geek穿搭或本人极客桌面使用场景。必须实际观察像素、看到本人并确认人物及内容归属；书本静物、科技内容主题、头像、媒体URL不能替代本人形象。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与截图采集时间分开。缺证unknown，不能降低条件凑数。"
+        },
+        {
+          "criterionId": "daily_framed_glasses_visual",
+          "verdict": "unknown",
+          "reason": "实际观察的4张公开帖子照片仅有书籍静物及书封图案，没有可确认的本人，无法核实日常框架眼镜；不使用头像、文字或书封人物替代。WaveSurge原帖发表时间为2026-10-11T16:09:02Z、2026-10-08T13:08:23Z、2026-09-29T15:37:17Z、2026-10-06T16:43:23Z；对应截图采集时间为1791843406967、1791843415766、1791843424223、1791843433657（Unix毫秒）。不能据此判定本人不戴镜。",
+          "evidenceIds": [
+            "0fb410be713a39240ca97088",
+            "db05a70f7d2511b830646d39",
+            "ab4c656d2b2a7bf7fde35899",
+            "e3ea1b1701f09f8ee43f0dc5",
+            "b79f06593352603186d9d979",
+            "a5c6327df6b081ca90c4e84e",
+            "c3588bd476dc9c17da39259e",
+            "3afba3c0c734946c83572804"
+          ],
+          "label": "本人实际公开画面佩戴日常框架眼镜，须实际观察像素并确认人物为本人；排除墨镜、护目镜、面罩、书封人物和他人，不用头像或文字替代公开内容画面，不推断一直戴镜。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与截图采集时间分开。缺证unknown，不能降低条件凑数。"
+        },
+        {
+          "criterionId": "personal_consumer_koc",
+          "verdict": "match",
+          "reason": "依据WaveSurge提供的本人简介及原帖文字（非本轮重新访问主页）：简介记录个人NYRB藏书及当前阅读；阅读计划写明自己每年阅读25–30本；Orlando书评给出3.75/5、阅读困难及个人推荐意见；购书帖明确“These are the books I bought during September”，并区分赠书。综合支持个人阅读消费者、第一人称真实体验，而非品牌商店或纯搬运。所引原帖发表时间分别为2026-10-08T13:08:23Z、2026-09-29T15:37:17Z、2026-10-01T15:36:00Z；文字采集时间均为1791843381745（Unix毫秒）。简介发布时间缺失，不当作帖子发表时间。",
+          "evidenceIds": [
+            "c6630dd9234cd44ee6a8aab8",
+            "b31d9fff3c58193b8fdd2c40",
+            "d17e95a1d668e360601f5a78",
+            "14a080ff83bbf7449415cdff"
+          ],
+          "label": "个人消费者KOC：依据本人简介和实际内容，有第一人称阅读或产品体验；排除品牌、商店、公司、机构、活动官方、明星及纯搬运账号。不能仅以粉丝数认定个人身份，身份或体验缺证unknown。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与采集时间分开。"
+        }
+      ],
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "个人阅读与书评",
+            "文学藏书与购书分享",
+            "翻译文学"
+          ],
+          "reason": "本人简介与WaveSurge原帖文字展示藏书、阅读计划、Orlando个人书评和购书分享，也分享多国翻译文学。文字采集时间1791843381745；所引帖子发表时间分别为2026-10-08、2026-09-29、2026-10-01、2026-10-03，均以原始publishedAt为准。",
+          "evidenceIds": [
+            "c6630dd9234cd44ee6a8aab8",
+            "b31d9fff3c58193b8fdd2c40",
+            "d17e95a1d668e360601f5a78",
+            "14a080ff83bbf7449415cdff",
+            "2e4d1de0777f25330af1dccc"
+          ]
+        },
+        {
+          "dimensionId": "presentation_style",
+          "status": "supported",
+          "values": [
+            "书籍平铺静物",
+            "木桌背景",
+            "整齐网格构图"
+          ],
+          "reason": "实际观察4张帖子照片，均采用木桌上整齐排列书籍的俯拍静物构图；仅描述内容画面，不推断本人穿搭或外貌。原帖日期为2026-10-11、10-08、09-29、10-06；截图采集时间分别为1791843406967、1791843415766、1791843424223、1791843433657。",
+          "evidenceIds": [
+            "0fb410be713a39240ca97088",
+            "db05a70f7d2511b830646d39",
+            "ab4c656d2b2a7bf7fde35899",
+            "e3ea1b1701f09f8ee43f0dc5"
+          ]
+        },
+        {
+          "dimensionId": "ethnicity_self_description",
+          "status": "unknown",
+          "values": [],
+          "reason": "所给简介及内容没有本人明确族裔自述；作者国籍、Hispanic Heritage Month主题及书封人物不能证明创作者族裔。",
+          "evidenceIds": [
+            "c6630dd9234cd44ee6a8aab8",
+            "8fa0194edf52a7319b76dc5d"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "research-b7829d5a507c7425f3601697|instagram:bookloverscollective_",
+      "handle": "bookloverscollective_",
+      "followers": 25209,
+      "selected": false,
+      "verdict": "no_match",
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "unknown",
+          "reason": "未取得创作者地区",
+          "evidenceIds": [],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 25209，要求 10000–100000",
+          "evidenceIds": [
+            "18f884e4ec5ca0fa5313621f"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "personal_geek_bookish_visual",
+          "verdict": "unknown",
+          "reason": "实际传入截图仅见手持秋季龙贴纸，未见可确认身份的本人书卷或Geek形象，不能以商品主题替代本人形象。照片通过资源与原帖关联；WaveSurge原帖发表时间为2026-10-12T14:17:50.000Z，截图采集时间为1791843520420，两者不同。因个人消费者身份已明确不符，停止额外浏览；此项缺证而非认定本人没有该形象。",
+          "evidenceIds": [
+            "07e875f3bc9552e0b2c94815",
+            "d20887962e8139e199180ffc",
+            "5e57dee2e65a068389a91b43"
+          ],
+          "label": "本人真实公开画面呈现Geek或书卷形象，例如本人在书架前阅读、持书介绍、Geek穿搭或本人极客桌面使用场景。必须实际观察像素、看到本人并确认人物及内容归属；书本静物、科技内容主题、头像、媒体URL不能替代本人形象。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与截图采集时间分开。缺证unknown，不能降低条件凑数。"
+        },
+        {
+          "criterionId": "daily_framed_glasses_visual",
+          "verdict": "unknown",
+          "reason": "实际截图是手持贴纸商品展示，没有可确认本人身份的脸部或日常框架眼镜，无法判断。WaveSurge对应原帖发表时间2026-10-12T14:17:50.000Z；截图采集时间1791843520420，不以采集时间代替发表时间。个人消费者身份已明确不符，不再追加素材。",
+          "evidenceIds": [
+            "07e875f3bc9552e0b2c94815",
+            "d20887962e8139e199180ffc",
+            "5e57dee2e65a068389a91b43"
+          ],
+          "label": "本人实际公开画面佩戴日常框架眼镜，须实际观察像素并确认人物为本人；排除墨镜、护目镜、面罩、书封人物和他人，不用头像或文字替代公开内容画面，不推断一直戴镜。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与截图采集时间分开。缺证unknown，不能降低条件凑数。"
+        },
+        {
+          "criterionId": "personal_consumer_koc",
+          "verdict": "no_match",
+          "reason": "WaveSurge提供的本人简介明确自称“bookish small business”，销售书签、贴纸及月度mail club；本人帖子介绍新品发售、店铺商品及订单打包，足以确认是商店经营账号，属于本条件明确排除的商店，而非个人消费者KOC。第一人称经营或制作陈述不等于消费者产品体验。引用帖子发表时间分别为2026-10-12T14:17:50.000Z和2026-10-08T02:39:55.000Z；文字采集时间均为1791843490095，简介发表时间未提供。",
+          "evidenceIds": [
+            "18f884e4ec5ca0fa5313621f",
+            "5e57dee2e65a068389a91b43",
+            "a6c4990c60b5135f7cd571c0"
+          ],
+          "label": "个人消费者KOC：依据本人简介和实际内容，有第一人称阅读或产品体验；排除品牌、商店、公司、机构、活动官方、明星及纯搬运账号。不能仅以粉丝数认定个人身份，身份或体验缺证unknown。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与采集时间分开。"
+        }
+      ],
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "书籍主题贴纸与书签销售",
+            "月度书主题邮寄订阅",
+            "书籍重新装帧"
+          ],
+          "reason": "本人简介与WaveSurge帖子文字明确介绍贴纸、书签、mail club及出售重新装帧的书籍；这些为已有文字证据，不声称本轮重新访问主页。",
+          "evidenceIds": [
+            "18f884e4ec5ca0fa5313621f",
+            "ba07274e7d502fa2a3df3081",
+            "62fa14c95883e872eb87d61d"
+          ]
+        },
+        {
+          "dimensionId": "presentation_style",
+          "status": "supported",
+          "values": [
+            "秋季温馨奇幻商品展示"
+          ],
+          "reason": "实际截图以秋季树木为背景，手持绘有龙、南瓜和落叶的贴纸，属于商品展示风格；不将此归为本人穿搭或本人书卷形象。",
+          "evidenceIds": [
+            "07e875f3bc9552e0b2c94815"
+          ]
+        },
+        {
+          "dimensionId": "ethnicity_self_description",
+          "status": "unknown",
+          "values": [],
+          "reason": "给定本人简介和帖子没有族裔明确自述，不根据手部外观、姓名或内容主题推断。",
+          "evidenceIds": [
+            "18f884e4ec5ca0fa5313621f"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "research-b7829d5a507c7425f3601697|instagram:bibliophile_nikki",
+      "handle": "bibliophile_nikki",
+      "followers": 16824,
+      "selected": false,
+      "verdict": "unknown",
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "unknown",
+          "reason": "未取得创作者地区",
+          "evidenceIds": [],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 16824，要求 10000–100000",
+          "evidenceIds": [
+            "e02e3c1b06650a7029861234"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "personal_geek_bookish_visual",
+          "verdict": "unknown",
+          "reason": "实际观察6张本人账号帖子照片：4张为书籍/花卉静物，2张仅见持书的手，未见可确认身份的本人出镜；书封人物及玩偶不算本人。不能由这些样本认定整位不符。WaveSurge原帖发表时间分别为2026-10-10T15:14:05Z、10-08T15:55:55Z、10-09T17:42:56Z、09-29T16:56:12Z、09-06T16:26:27Z、09-13T00:20:43Z；截图采集时间分别为1791843581306、1791843590753、1791843616297、1791843618314、1791843620685、1791843621836，与发表时间分开。缺少本人书卷或Geek形象证据。",
+          "evidenceIds": [
+            "a2cace5a904fcca9b99ba709",
+            "e6913ddc3ce532a4bc59c1a3",
+            "c0b929b7a42761d00df821b7",
+            "554bde87709ac68aa34d94bf",
+            "97af10698ba449bce667df0e",
+            "83d26363a2b0406dde356eff",
+            "37bce77341016ac234e0be3a",
+            "33d9901666433da2d4eb72a6",
+            "737e487ae74699080c52c3c9",
+            "264746d6286cd33115ecdbd2",
+            "6903b57ee4be1d402a39d3cb",
+            "9a52778b9206907b4dac05cc"
+          ],
+          "label": "本人真实公开画面呈现Geek或书卷形象，例如本人在书架前阅读、持书介绍、Geek穿搭或本人极客桌面使用场景。必须实际观察像素、看到本人并确认人物及内容归属；书本静物、科技内容主题、头像、媒体URL不能替代本人形象。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与截图采集时间分开。缺证unknown，不能降低条件凑数。"
+        },
+        {
+          "criterionId": "daily_framed_glasses_visual",
+          "verdict": "unknown",
+          "reason": "已观察6张照片但未看到可确认身份的本人脸部，无法确认本人佩戴日常框架眼镜。画面中的书封插画或戴镜玩偶均不能替代本人。对应WaveSurge原帖发表时间为2026-10-10T15:14:05Z、10-08T15:55:55Z、10-09T17:42:56Z、09-29T16:56:12Z、09-06T16:26:27Z、09-13T00:20:43Z；截图采集时间依次为1791843581306、1791843590753、1791843616297、1791843618314、1791843620685、1791843621836。未观察到不等于证明本人不戴镜。",
+          "evidenceIds": [
+            "a2cace5a904fcca9b99ba709",
+            "e6913ddc3ce532a4bc59c1a3",
+            "c0b929b7a42761d00df821b7",
+            "554bde87709ac68aa34d94bf",
+            "97af10698ba449bce667df0e",
+            "83d26363a2b0406dde356eff",
+            "37bce77341016ac234e0be3a",
+            "33d9901666433da2d4eb72a6",
+            "737e487ae74699080c52c3c9",
+            "264746d6286cd33115ecdbd2",
+            "6903b57ee4be1d402a39d3cb",
+            "9a52778b9206907b4dac05cc"
+          ],
+          "label": "本人实际公开画面佩戴日常框架眼镜，须实际观察像素并确认人物为本人；排除墨镜、护目镜、面罩、书封人物和他人，不用头像或文字替代公开内容画面，不推断一直戴镜。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与截图采集时间分开。缺证unknown，不能降低条件凑数。"
+        },
+        {
+          "criterionId": "personal_consumer_koc",
+          "verdict": "match",
+          "reason": "本人主页显示Nicole Dumas、阅读进度48/70及Book Reviews、Fave Books等栏目；本人帖子用第一人称感谢赠书、评价儿童书并提及自己的侄子将喜欢阅读，结合实拍书籍内容支持个人图书消费者分享，而非品牌、机构或纯搬运账号。WaveSurge帖子发表时间为2026-10-08T15:55:55.000Z及2026-10-06T14:00:04.000Z，文字采集时间均为1791843554192；主页截图采集时间1791843601530，主页无帖子发表时间。不以粉丝数或认证标识推断个人身份。",
+          "evidenceIds": [
+            "2a154ad5a944553c3e70b54f",
+            "c7556efe68a5eca980015275",
+            "f5091298f90ee5c7126ed6c6",
+            "e6913ddc3ce532a4bc59c1a3"
+          ],
+          "label": "个人消费者KOC：依据本人简介和实际内容，有第一人称阅读或产品体验；排除品牌、商店、公司、机构、活动官方、明星及纯搬运账号。不能仅以粉丝数认定个人身份，身份或体验缺证unknown。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与采集时间分开。"
+        }
+      ],
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "图书推荐",
+            "奇幻爱情小说",
+            "惊悚小说",
+            "儿童绘本",
+            "赠书分享"
+          ],
+          "reason": "WaveSurge原帖文字明确介绍对应书籍类别，并以第一人称披露赠书。",
+          "evidenceIds": [
+            "0323d6fb5e0e3581e3b6038e",
+            "c7556efe68a5eca980015275",
+            "7e66c1d61a1d7cf74ecc219e",
+            "6a31a94f0d18043f09659a9a"
+          ]
+        },
+        {
+          "dimensionId": "presentation_style",
+          "status": "supported",
+          "values": [
+            "花卉装饰书籍静物",
+            "书架前持书特写",
+            "收藏玩偶搭配"
+          ],
+          "reason": "实际照片像素显示花卉围绕书籍的静物布置，以及书架与玩偶背景下只露手的持书特写；这些是内容呈现风格，不证明本人书卷外形。",
+          "evidenceIds": [
+            "a2cace5a904fcca9b99ba709",
+            "e6913ddc3ce532a4bc59c1a3",
+            "c0b929b7a42761d00df821b7",
+            "83d26363a2b0406dde356eff"
+          ]
+        },
+        {
+          "dimensionId": "ethnicity_self_description",
+          "status": "unknown",
+          "values": [],
+          "reason": "所给本人简介及内容未见明确族裔自述，不从姓名或外貌推断。",
+          "evidenceIds": [
+            "e02e3c1b06650a7029861234",
+            "2a154ad5a944553c3e70b54f"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "research-b7829d5a507c7425f3601697|instagram:geekyglamorous",
+      "handle": "geekyglamorous",
+      "followers": 10077,
+      "selected": false,
+      "verdict": "no_match",
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "unknown",
+          "reason": "未取得创作者地区",
+          "evidenceIds": [],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 10077，要求 10000–100000",
+          "evidenceIds": [
+            "45dbd4490bacff23edd79e40"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "personal_geek_bookish_visual",
+          "verdict": "unknown",
+          "reason": "实际传入的照片像素仅显示书本、蜡烛和布景；封面人物不是账号本人，不能证明本人书卷或Geek形象。对应WaveSurge原帖发表时间为2026-10-12T18:59:46.000Z，截图采集时间为1791843720477，两者分开。本人简介已明确为商店，按必选身份不符提前结束，不追加素材核验；不能据此单张静物认定全账号视觉不符。",
+          "evidenceIds": [
+            "c19d40a9de87d1e69c3713cb",
+            "dbd9dff086481884c9cd7549",
+            "7a5b7cacc9d1eaa942038192",
+            "45dbd4490bacff23edd79e40"
+          ],
+          "label": "本人真实公开画面呈现Geek或书卷形象，例如本人在书架前阅读、持书介绍、Geek穿搭或本人极客桌面使用场景。必须实际观察像素、看到本人并确认人物及内容归属；书本静物、科技内容主题、头像、媒体URL不能替代本人形象。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与截图采集时间分开。缺证unknown，不能降低条件凑数。"
+        },
+        {
+          "criterionId": "daily_framed_glasses_visual",
+          "verdict": "unknown",
+          "reason": "已观察照片没有真实本人出镜，无法确认本人佩戴日常框架眼镜；书封人物不作为证据。WaveSurge对应原帖发表时间2026-10-12T18:59:46.000Z，截图采集时间1791843720477。商店身份已明确不符，未继续浏览其他素材，保留unknown而非推断不戴眼镜。",
+          "evidenceIds": [
+            "c19d40a9de87d1e69c3713cb",
+            "7a5b7cacc9d1eaa942038192"
+          ],
+          "label": "本人实际公开画面佩戴日常框架眼镜，须实际观察像素并确认人物为本人；排除墨镜、护目镜、面罩、书封人物和他人，不用头像或文字替代公开内容画面，不推断一直戴镜。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与截图采集时间分开。缺证unknown，不能降低条件凑数。"
+        },
+        {
+          "criterionId": "personal_consumer_koc",
+          "verdict": "no_match",
+          "reason": "WaveSurge提供的本人简介明确写“🎮 Gamer lifestyle shop”，附实体地点及营业时间；内容写“Pokémon TCG in-stock! In-store only. Come see us Tuesday - Saturday 12-7pm.”及商品“Available now at GG”，显示这是商店销售账号而非个人消费者KOC，属于明确排除项。所引原帖发表时间分别为2026-10-08T19:19:05.000Z、2026-10-10T19:48:28.000Z；简介publishedAt缺失（unknown）；文字采集时间均为1791843680919，非本轮重新访问主页。",
+          "evidenceIds": [
+            "45dbd4490bacff23edd79e40",
+            "883cf0cb41adc4a4d8211399",
+            "0ebab5e0a4a297ab1c16d1d8"
+          ],
+          "label": "个人消费者KOC：依据本人简介和实际内容，有第一人称阅读或产品体验；排除品牌、商店、公司、机构、活动官方、明星及纯搬运账号。不能仅以粉丝数认定个人身份，身份或体验缺证unknown。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与采集时间分开。"
+        }
+      ],
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "游戏周边商品销售",
+            "动漫模型与收藏品",
+            "线下店铺活动"
+          ],
+          "reason": "WaveSurge帖子文字介绍游戏卡牌、Evangelion模型及店内独立游戏展示活动，支持这些内容方向；不代表个人Geek身份。文字采集时间1791843680919，原帖发表时间分别为2026-10-08、2026-10-10及2026-10-05（完整时间见来源）。",
+          "evidenceIds": [
+            "883cf0cb41adc4a4d8211399",
+            "0ebab5e0a4a297ab1c16d1d8",
+            "ef27876c836e1a4dd0d433e4"
+          ]
+        },
+        {
+          "dimensionId": "presentation_style",
+          "status": "supported",
+          "values": [
+            "商品静物展示",
+            "销售促销文案"
+          ],
+          "reason": "实际截图呈现书本商品静物布景，文案引导购买及到店。仅概括已有素材，不将商品风格当作本人呈现风格。原帖发表时间2026-10-12T18:59:46.000Z，截图采集时间1791843720477。",
+          "evidenceIds": [
+            "c19d40a9de87d1e69c3713cb",
+            "7a5b7cacc9d1eaa942038192",
+            "883cf0cb41adc4a4d8211399"
+          ]
+        },
+        {
+          "dimensionId": "ethnicity_self_description",
+          "status": "unknown",
+          "values": [],
+          "reason": "现有证据没有本人明确族裔自述，不从名称、地点或封面人物推断。",
+          "evidenceIds": []
+        }
+      ]
+    },
+    {
+      "id": "research-b7829d5a507c7425f3601697|instagram:thegeekycast",
+      "handle": "thegeekycast",
+      "followers": 10988,
+      "selected": false,
+      "verdict": "unknown",
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "unknown",
+          "reason": "未取得创作者地区",
+          "evidenceIds": [],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 10988，要求 10000–100000",
+          "evidenceIds": [
+            "62d0b149fc9eb3e4eb68ba73"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "personal_geek_bookish_visual",
+          "verdict": "match",
+          "reason": "实际观察本人账号视频封面像素：反戴帽子的第一人称出镜者穿龙珠角色T恤、手持Doctor Doom Funko，背景为漫画与收藏品，呈现明确Geek穿搭及个人收藏展示；与其他本人账号封面持续出镜及第一人称产品文案相互印证归属。不是以主题或头像代替本人画面，也未声称观看视频。WaveSurge对应原帖发表时间为2026-10-11T03:43:55.000Z；该截图采集时间为1791843880081，与原帖时间分开。",
+          "evidenceIds": [
+            "356899052147474fbd739e01",
+            "370ed044650c369647e2a194",
+            "efeda67527c2dbfa4f66f10d",
+            "62d0b149fc9eb3e4eb68ba73"
+          ],
+          "label": "本人真实公开画面呈现Geek或书卷形象，例如本人在书架前阅读、持书介绍、Geek穿搭或本人极客桌面使用场景。必须实际观察像素、看到本人并确认人物及内容归属；书本静物、科技内容主题、头像、媒体URL不能替代本人形象。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与截图采集时间分开。缺证unknown，不能降低条件凑数。"
+        },
+        {
+          "criterionId": "daily_framed_glasses_visual",
+          "verdict": "unknown",
+          "reason": "已观察6条相关视频封面，其中本人出镜的画面均未见佩戴日常框架眼镜，另一条仅为商品静物；这不足以证明其其他公开内容没有戴镜，故保留unknown。举例：Geek穿搭持玩偶封面对应WaveSurge原帖发表2026-10-11T03:43:55.000Z，截图采集1791843880081；桌旁出镜封面对应原帖发表2026-10-08T19:04:29.000Z，截图采集1791843892809。未将影视人物、面罩或头像作为戴镜证据。",
+          "evidenceIds": [
+            "356899052147474fbd739e01",
+            "370ed044650c369647e2a194",
+            "efeda67527c2dbfa4f66f10d",
+            "aca05a24ce8cd8cd2ffa9f71",
+            "8274b296f6bbdcf1ca7a115b",
+            "c0d4b052ec7ebacaddd0d7d1"
+          ],
+          "label": "本人实际公开画面佩戴日常框架眼镜，须实际观察像素并确认人物为本人；排除墨镜、护目镜、面罩、书封人物和他人，不用头像或文字替代公开内容画面，不推断一直戴镜。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与截图采集时间分开。缺证unknown，不能降低条件凑数。"
+        },
+        {
+          "criterionId": "personal_consumer_koc",
+          "verdict": "match",
+          "reason": "WaveSurge本人简介为电影、动漫、漫画与Geek新闻内容；本人账号原帖有“Let’s unbox some #funko and #ironstudios”产品开箱及“I don’t think ... #funkopop”第一人称观点。实际封面呈现持续本人出镜、亲手展示玩偶与个人收藏，支持个人消费者及原创体验分享，而非品牌店铺或纯搬运；不以粉丝量认定身份。开箱原帖发表2026-10-11T03:44:59.000Z，持玩偶观点原帖发表2026-10-11T03:43:55.000Z；WaveSurge文字采集1791843845408，相关截图采集分别1791843872397及1791843880081。",
+          "evidenceIds": [
+            "62d0b149fc9eb3e4eb68ba73",
+            "06fce0b7c44f69dacbd4dcac",
+            "efeda67527c2dbfa4f66f10d",
+            "bc391d65cb48e5f7675c7ce5",
+            "356899052147474fbd739e01"
+          ],
+          "label": "个人消费者KOC：依据本人简介和实际内容，有第一人称阅读或产品体验；排除品牌、商店、公司、机构、活动官方、明星及纯搬运账号。不能仅以粉丝数认定个人身份，身份或体验缺证unknown。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与采集时间分开。"
+        }
+      ],
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "影视与流行文化评论",
+            "动漫与漫画",
+            "Geek收藏品与玩偶开箱"
+          ],
+          "reason": "本人简介明确Movies、Anime、Manga与geek news，原帖包含Funko及Iron Studios开箱。依据WaveSurge已有文字，不称为本轮重新访问简介。",
+          "evidenceIds": [
+            "62d0b149fc9eb3e4eb68ba73",
+            "06fce0b7c44f69dacbd4dcac"
+          ]
+        },
+        {
+          "dimensionId": "presentation_style",
+          "status": "supported",
+          "values": [
+            "本人出镜评论",
+            "Geek图案T恤",
+            "手持收藏品展示",
+            "影视画面与本人分屏"
+          ],
+          "reason": "实际传入视频封面像素可见本人穿龙珠图案T恤手持玩偶，其他封面采用影视图像与本人出镜分屏；仅判断封面呈现，不声称观看完整视频。",
+          "evidenceIds": [
+            "356899052147474fbd739e01",
+            "6e7f46a6214bf55b3711acf7",
+            "89d0264b642628a26b938fbc"
+          ]
+        },
+        {
+          "dimensionId": "ethnicity_self_description",
+          "status": "unknown",
+          "values": [],
+          "reason": "现有本人简介与帖子没有明确族裔自述，不从人物外观、姓名或地点推断。",
+          "evidenceIds": [
+            "62d0b149fc9eb3e4eb68ba73"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "research-b7829d5a507c7425f3601697|instagram:geekygeckocreations",
+      "handle": "geekygeckocreations",
+      "followers": 56710,
+      "selected": false,
+      "verdict": "no_match",
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "unknown",
+          "reason": "未取得创作者地区",
+          "evidenceIds": [],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 56710，要求 10000–100000",
+          "evidenceIds": [
+            "574defdf078f4b13c1653699"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "personal_geek_bookish_visual",
+          "verdict": "unknown",
+          "reason": "未取得实际可观察且确认属于本人的内容像素，无法核实本人Geek或书卷形象；媒体URL不能替代视觉证据。相关照片原帖由WaveSurge提供的发表时间为2026-09-23T20:18:55.000Z，文字及资源采集时间为1791844047623（毫秒时间戳），两者不同。本轮给出的媒体访问失败上下文不作为创作者证据。因个人消费者身份已明确不符，不继续补充视觉浏览。",
+          "evidenceIds": [
+            "2020871eb98e71b8439e945e",
+            "7a81658e94741153a433d2da"
+          ],
+          "label": "本人真实公开画面呈现Geek或书卷形象，例如本人在书架前阅读、持书介绍、Geek穿搭或本人极客桌面使用场景。必须实际观察像素、看到本人并确认人物及内容归属；书本静物、科技内容主题、头像、媒体URL不能替代本人形象。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与截图采集时间分开。缺证unknown，不能降低条件凑数。"
+        },
+        {
+          "criterionId": "daily_framed_glasses_visual",
+          "verdict": "unknown",
+          "reason": "未实际观察到可确认是本人的公开内容像素，不能判断日常框架眼镜；不依据头像、账号名称或媒体链接推断。相关照片原帖WaveSurge发表时间为2026-09-23T20:18:55.000Z，采集时间为1791844047623（毫秒时间戳）；访问失败不构成视觉证据。",
+          "evidenceIds": [
+            "2020871eb98e71b8439e945e",
+            "7a81658e94741153a433d2da"
+          ],
+          "label": "本人实际公开画面佩戴日常框架眼镜，须实际观察像素并确认人物为本人；排除墨镜、护目镜、面罩、书封人物和他人，不用头像或文字替代公开内容画面，不推断一直戴镜。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与截图采集时间分开。缺证unknown，不能降低条件凑数。"
+        },
+        {
+          "criterionId": "personal_consumer_koc",
+          "verdict": "no_match",
+          "reason": "依据已提供的WaveSurge本人简介和帖子文字，而非本轮重新访问：简介为Leopard Gecko Specialist，帖子反复发布壁虎上新、网站销售、隔夜配送及健康/活体到达保证，明确属于爬宠销售经营账号，不符合排除商店/品牌的个人阅读或产品体验消费者KOC要求。引用帖子发表时间分别为2026-10-09T22:06:03.000Z、2026-09-23T20:18:55.000Z、2026-09-14T22:35:05.000Z；简介发表时间未知，以上来源采集时间均为1791844047623（毫秒时间戳）。",
+          "evidenceIds": [
+            "574defdf078f4b13c1653699",
+            "e4048c3ff4cc0cb0af74d245",
+            "2020871eb98e71b8439e945e",
+            "188acec47190d3b4a0bc2ac9"
+          ],
+          "label": "个人消费者KOC：依据本人简介和实际内容，有第一人称阅读或产品体验；排除品牌、商店、公司、机构、活动官方、明星及纯搬运账号。不能仅以粉丝数认定个人身份，身份或体验缺证unknown。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与采集时间分开。"
+        }
+      ],
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "爬宠与豹纹壁虎",
+            "爬宠销售推广",
+            "爬宠饲养与 handling 技巧"
+          ],
+          "reason": "WaveSurge简介描述豹纹壁虎专业领域；帖子涉及销售上新、配送及帆蜥 handling 技巧。原帖发表时间分别为2026-09-23T20:18:55.000Z和2026-09-30T05:08:23.000Z；采集时间为1791844047623，非本轮页面观察。",
+          "evidenceIds": [
+            "574defdf078f4b13c1653699",
+            "2020871eb98e71b8439e945e",
+            "51701bd1621d9d1d62221011"
+          ]
+        },
+        {
+          "dimensionId": "presentation_style",
+          "status": "supported",
+          "values": [
+            "商品上新与销售文案",
+            "表情符号和强调式推广"
+          ],
+          "reason": "仅描述已提供文字的呈现方式，不代表观察过画面：帖子以新增商品数量、配送和健康保证等文案配合表情符号、大写强调推广。原帖发表时间2026-09-23T20:18:55.000Z及2026-10-09T22:06:03.000Z；WaveSurge采集时间1791844047623。",
+          "evidenceIds": [
+            "2020871eb98e71b8439e945e",
+            "e4048c3ff4cc0cb0af74d245"
+          ]
+        },
+        {
+          "dimensionId": "ethnicity_self_description",
+          "status": "unknown",
+          "values": [],
+          "reason": "已提供简介和帖子未见本人明确族裔自述，不从姓名、主题或外貌推断。",
+          "evidenceIds": [
+            "574defdf078f4b13c1653699"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "research-b7829d5a507c7425f3601697|instagram:booknerdalie",
+      "handle": "booknerdalie",
+      "followers": 21563,
+      "selected": false,
+      "verdict": "unknown",
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "unknown",
+          "reason": "未取得创作者地区",
+          "evidenceIds": [],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 21563，要求 10000–100000",
+          "evidenceIds": [
+            "4138e713b2dc2d20eb2f7014"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "personal_geek_bookish_visual",
+          "verdict": "match",
+          "reason": "实际观察视频封面：账号本人在书架前正面出镜并抱着多本书，呈现书卷形象。素材由parentEvidenceId关联本人原帖，配文以第一人称推荐witchy reads并介绍本人参与的读书活动；与活动合照中的前景持书人物相互印证。仅观察封面，未观看视频，不称为照片帖。WaveSurge原帖发表时间2026-09-30T12:39:44.000Z；封面截图采集时间1791844154988，二者不同。",
+          "evidenceIds": [
+            "0d15a7d5be3c113896684022",
+            "a942b3840f39ef852efdf491",
+            "826ddfc2c8a40d5280a13e49",
+            "3451e47c5135c1f4bd09f8a4",
+            "ece9ae6f6de1fa1b8b68ac0a"
+          ],
+          "label": "本人真实公开画面呈现Geek或书卷形象，例如本人在书架前阅读、持书介绍、Geek穿搭或本人极客桌面使用场景。必须实际观察像素、看到本人并确认人物及内容归属；书本静物、科技内容主题、头像、媒体URL不能替代本人形象。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与截图采集时间分开。缺证unknown，不能降低条件凑数。"
+        },
+        {
+          "criterionId": "daily_framed_glasses_visual",
+          "verdict": "unknown",
+          "reason": "已观察5条素材。本人正面持书视频封面未见框架眼镜；活动合照中有戴框架眼镜的其他参与者，不能当成本人。另有持书照片裁掉眼部、两条书籍静物，均不能确认本人佩戴日常框架眼镜，也不能由这些画面认定其其他公开内容没有戴镜。WaveSurge封面原帖发表2026-09-30T12:39:44.000Z，截图采集1791844154988；活动合照原帖发表2026-10-02T12:39:32.000Z，截图采集1791844146727；裁切持书照片原帖发表2026-09-28T12:39:38.000Z，截图采集1791844163254。",
+          "evidenceIds": [
+            "0d15a7d5be3c113896684022",
+            "826ddfc2c8a40d5280a13e49",
+            "3451e47c5135c1f4bd09f8a4",
+            "ece9ae6f6de1fa1b8b68ac0a",
+            "87f52fb1363cb33b6aab0b59",
+            "1968f508f4f094faad3162f2"
+          ],
+          "label": "本人实际公开画面佩戴日常框架眼镜，须实际观察像素并确认人物为本人；排除墨镜、护目镜、面罩、书封人物和他人，不用头像或文字替代公开内容画面，不推断一直戴镜。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与截图采集时间分开。缺证unknown，不能降低条件凑数。"
+        },
+        {
+          "criterionId": "personal_consumer_koc",
+          "verdict": "match",
+          "reason": "WaveSurge本人简介自述book recs、reviews、audiobook fan；实际帖子持续第一人称描述读完书后的体验、具体优缺点和有声书感受，包括非虚构阅读目标、对叙事结构的批评及收到赠阅本的披露。结合本人出镜，支持个人阅读消费者与书评KOC，非品牌、商店、机构或纯搬运账号。所引用书评原帖发表2026-10-12T12:33:25.000Z及2026-10-08T12:54:38.000Z；WaveSurge文字采集时间均1791844114587，非发布时间；简介publishedAt缺失。",
+          "evidenceIds": [
+            "4138e713b2dc2d20eb2f7014",
+            "a10e9cb764ed24afc28c6afd",
+            "0f544524a024cea68dede8ba",
+            "0d15a7d5be3c113896684022"
+          ],
+          "label": "个人消费者KOC：依据本人简介和实际内容，有第一人称阅读或产品体验；排除品牌、商店、公司、机构、活动官方、明星及纯搬运账号。不能仅以粉丝数认定个人身份，身份或体验缺证unknown。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与采集时间分开。"
+        }
+      ],
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "第一人称书评与阅读推荐",
+            "有声书体验",
+            "读书活动与阅读生活"
+          ],
+          "reason": "本人简介及书评文字明确分享阅读和有声书体验；活动帖子记录本人参与的书籍交流。文字来源WaveSurge，采集1791844114587。",
+          "evidenceIds": [
+            "4138e713b2dc2d20eb2f7014",
+            "a10e9cb764ed24afc28c6afd",
+            "ece9ae6f6de1fa1b8b68ac0a"
+          ]
+        },
+        {
+          "dimensionId": "presentation_style",
+          "status": "supported",
+          "values": [
+            "书架前持书出镜",
+            "书籍静物展示",
+            "轻松互动式书评"
+          ],
+          "reason": "实际封面像素可见本人书架前持书；已观察照片展示书籍、植物和书架静物；书评配文使用口语和提问与读者互动。不声称看过视频。",
+          "evidenceIds": [
+            "0d15a7d5be3c113896684022",
+            "356b7fe9770745ecd1bfa2ad",
+            "a10e9cb764ed24afc28c6afd"
+          ]
+        },
+        {
+          "dimensionId": "ethnicity_self_description",
+          "status": "unknown",
+          "values": [],
+          "reason": "所提供本人简介和内容没有明确族裔自述，不依据外貌、姓名或地点推断。",
+          "evidenceIds": [
+            "4138e713b2dc2d20eb2f7014"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "research-b7829d5a507c7425f3601697|instagram:sara__booklover",
+      "handle": "sara__booklover",
+      "followers": 44324,
+      "selected": false,
+      "verdict": "unknown",
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "unknown",
+          "reason": "未取得创作者地区",
+          "evidenceIds": [],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 44324，要求 10000–100000",
+          "evidenceIds": [
+            "fa72db50406df7a1cf87d5c2"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "personal_geek_bookish_visual",
+          "verdict": "unknown",
+          "reason": "实际观察6条素材，均为书籍、书架或装饰静物，未见可确认的本人，不能以书卷主题代替本人书卷形象。WaveSurge原帖发表时间分别为2026-10-07T09:08:40Z、2026-09-16T09:18:08Z、2026-08-25T15:02:24Z、2026-10-01T09:06:49Z、2026-09-23T05:54:36Z、2026-08-21T15:52:30Z；截图采集时间分别为1791844263273、1791844269666、1791844277896、1791844290228、1791844291177、1791844292485，非发布时间。其中9月16日与9月23日素材仅为视频封面，未观看视频。",
+          "evidenceIds": [
+            "a051a5f2426329a199b488dc",
+            "482df42666f03a7f003387e1",
+            "9e3ad16b09a0b614686c450e",
+            "3316eb137809fd57cf7d3f7c",
+            "8a83fd1810cc5c340b4bc8eb",
+            "04063d228b69ffcc757e3c04",
+            "d90578ab595425cd449c8d2e",
+            "b1db6852b89cca365de13d77",
+            "766eb7ddaab4edeb537e37fa",
+            "c2da1e5d6abce28bc6b40a3c",
+            "8c7b1f3d0b0c84a0c6fc1ff1",
+            "32231053a8a4e2829dc7f61a"
+          ],
+          "label": "本人真实公开画面呈现Geek或书卷形象，例如本人在书架前阅读、持书介绍、Geek穿搭或本人极客桌面使用场景。必须实际观察像素、看到本人并确认人物及内容归属；书本静物、科技内容主题、头像、媒体URL不能替代本人形象。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与截图采集时间分开。缺证unknown，不能降低条件凑数。"
+        },
+        {
+          "criterionId": "daily_framed_glasses_visual",
+          "verdict": "unknown",
+          "reason": "6条已观察素材没有本人出镜，无法确认本人佩戴日常框架眼镜；书封插画人物不计。原帖发表时间由WaveSurge提供：2026-10-07、2026-09-16、2026-08-25、2026-10-01、2026-09-23、2026-08-21（完整时间见对应原帖）；截图采集时间分别为1791844263273、1791844269666、1791844277896、1791844290228、1791844291177、1791844292485，与发表时间分开。两条视频素材只观察封面。不能据此判定本人不戴眼镜。",
+          "evidenceIds": [
+            "a051a5f2426329a199b488dc",
+            "482df42666f03a7f003387e1",
+            "9e3ad16b09a0b614686c450e",
+            "3316eb137809fd57cf7d3f7c",
+            "8a83fd1810cc5c340b4bc8eb",
+            "04063d228b69ffcc757e3c04",
+            "d90578ab595425cd449c8d2e",
+            "b1db6852b89cca365de13d77",
+            "766eb7ddaab4edeb537e37fa",
+            "c2da1e5d6abce28bc6b40a3c",
+            "8c7b1f3d0b0c84a0c6fc1ff1",
+            "32231053a8a4e2829dc7f61a"
+          ],
+          "label": "本人实际公开画面佩戴日常框架眼镜，须实际观察像素并确认人物为本人；排除墨镜、护目镜、面罩、书封人物和他人，不用头像或文字替代公开内容画面，不推断一直戴镜。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与截图采集时间分开。缺证unknown，不能降低条件凑数。"
+        },
+        {
+          "criterionId": "personal_consumer_koc",
+          "verdict": "match",
+          "reason": "复用WaveSurge本人简介与原帖文字，非本轮重新访问主页。简介说明个人阅读类型及组织读书小组；2026-09-29T08:21:39Z书评以第一人称描述阅读投入、喜欢之处及结尾不满意，2026-09-25T07:12:06Z明确刚读完、个人评价并披露赠书，支持个人阅读消费者和原创体验分享而非品牌或搬运账号。两帖文字采集时间均为1791844225885；简介publishedAt缺失，不当作帖子日期。",
+          "evidenceIds": [
+            "fa72db50406df7a1cf87d5c2",
+            "8da3c422f71a2a172f48758d",
+            "6d57d80642b5defe9e6e96bd"
+          ],
+          "label": "个人消费者KOC：依据本人简介和实际内容，有第一人称阅读或产品体验；排除品牌、商店、公司、机构、活动官方、明星及纯搬运账号。不能仅以粉丝数认定个人身份，身份或体验缺证unknown。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与采集时间分开。"
+        }
+      ],
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "个人阅读体验与书评",
+            "哥特、恐怖与悬疑小说",
+            "月度阅读总结"
+          ],
+          "reason": "WaveSurge简介列明阅读类型，实际原帖文字含第一人称书评与月度已读总结。",
+          "evidenceIds": [
+            "fa72db50406df7a1cf87d5c2",
+            "8da3c422f71a2a172f48758d",
+            "c2da1e5d6abce28bc6b40a3c"
+          ]
+        },
+        {
+          "dimensionId": "presentation_style",
+          "status": "supported",
+          "values": [
+            "书籍静物与书架背景",
+            "暖色灯串与秋季装饰",
+            "文字叠加的阅读轮播"
+          ],
+          "reason": "实际观察截图呈现书堆、书架、暖色灯串和南瓜秋季装饰，以及叠加标题；仅描述素材风格，不证明本人形象。",
+          "evidenceIds": [
+            "a051a5f2426329a199b488dc",
+            "3316eb137809fd57cf7d3f7c",
+            "8a83fd1810cc5c340b4bc8eb"
+          ]
+        },
+        {
+          "dimensionId": "ethnicity_self_description",
+          "status": "unknown",
+          "values": [],
+          "reason": "所提供本人简介与内容中没有明确族裔自述，不依据姓名、语言、旗帜或外貌推断。",
+          "evidenceIds": [
+            "fa72db50406df7a1cf87d5c2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "research-b7829d5a507c7425f3601697|instagram:geekygiftstudio",
+      "handle": "geekygiftstudio",
+      "followers": 58659,
+      "selected": false,
+      "verdict": "no_match",
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "unknown",
+          "reason": "未取得创作者地区",
+          "evidenceIds": [],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 58659，要求 10000–100000",
+          "evidenceIds": [
+            "c730cbd8eab1f12501f709b7"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "personal_geek_bookish_visual",
+          "verdict": "unknown",
+          "reason": "实际传入的照片像素仅显示陶瓷商品及商品说明，没有本人，不能以Geek商品主题替代本人Geek或书卷形象。该照片由parentEvidenceId关联WaveSurge原帖，发表时间为2026-08-21T20:36:15.000Z；截图采集时间为1791844438695，两者不同。由于必选个人消费者身份已明确不符，不继续浏览补足视觉证据。",
+          "evidenceIds": [
+            "07f28febd7508d8d8a0da29c",
+            "aa05e5eee061141d74ae281a",
+            "46da71a58a97b77796068741"
+          ],
+          "label": "本人真实公开画面呈现Geek或书卷形象，例如本人在书架前阅读、持书介绍、Geek穿搭或本人极客桌面使用场景。必须实际观察像素、看到本人并确认人物及内容归属；书本静物、科技内容主题、头像、媒体URL不能替代本人形象。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与截图采集时间分开。缺证unknown，不能降低条件凑数。"
+        },
+        {
+          "criterionId": "daily_framed_glasses_visual",
+          "verdict": "unknown",
+          "reason": "已观察照片为陶瓷商品静物，无本人或日常框架眼镜可核验；不能从商品、头像或未观察的媒体链接推断本人戴镜。WaveSurge关联原帖发表时间2026-08-21T20:36:15.000Z，截图采集时间1791844438695。个人消费者身份已明确不符，结束额外视觉浏览。",
+          "evidenceIds": [
+            "07f28febd7508d8d8a0da29c",
+            "aa05e5eee061141d74ae281a",
+            "46da71a58a97b77796068741"
+          ],
+          "label": "本人实际公开画面佩戴日常框架眼镜，须实际观察像素并确认人物为本人；排除墨镜、护目镜、面罩、书封人物和他人，不用头像或文字替代公开内容画面，不推断一直戴镜。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与截图采集时间分开。缺证unknown，不能降低条件凑数。"
+        },
+        {
+          "criterionId": "personal_consumer_koc",
+          "verdict": "no_match",
+          "reason": "WaveSurge本人简介写明“Geeky Crystalline Ceramics”、补货与活动安排；本人帖子明确宣传永久销售摊位、商店补货及商品订购，并描述Helen全职投入GGS及自产陶瓷开发。这是Bryan与Helen经营的陶瓷工作室/商店账号，属于明确排除的商店身份，而非个人阅读消费者KOC；第一人称制陶试验不能消除商店排除条件。所引原帖发表时间分别为2026-09-22T22:34:22.000Z、2026-09-08T22:28:41.000Z、2026-08-29T17:39:31.000Z；文字采集时间均为1791844406738，简介发表时间未提供。以上为已有WaveSurge文字，不是本轮重新访问主页。",
+          "evidenceIds": [
+            "c730cbd8eab1f12501f709b7",
+            "258884163542f5ec386384f6",
+            "a058f19ce756e5cca59f77a0",
+            "02fd45d734999b3210a1c144"
+          ],
+          "label": "个人消费者KOC：依据本人简介和实际内容，有第一人称阅读或产品体验；排除品牌、商店、公司、机构、活动官方、明星及纯搬运账号。不能仅以粉丝数认定个人身份，身份或体验缺证unknown。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与采集时间分开。"
+        }
+      ],
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "结晶釉陶瓷制作",
+            "Geek主题陶瓷商品",
+            "商店补货与线下销售"
+          ],
+          "reason": "本人简介与原帖描述陶瓷釉料试验、自产商品开发、补货和永久销售摊位；已有WaveSurge文字采集于1791844406738。",
+          "evidenceIds": [
+            "c730cbd8eab1f12501f709b7",
+            "258884163542f5ec386384f6",
+            "02fd45d734999b3210a1c144"
+          ]
+        },
+        {
+          "dimensionId": "presentation_style",
+          "status": "supported",
+          "values": [
+            "商品静物展示",
+            "第一人称制作过程分享"
+          ],
+          "reason": "实际照片像素为陶瓷商品拼图与文字规格说明；2026-09-22原帖以第一人称讲述釉料与原型制作试验，后者仅为文字依据，不声称看过视频。",
+          "evidenceIds": [
+            "07f28febd7508d8d8a0da29c",
+            "258884163542f5ec386384f6"
+          ]
+        },
+        {
+          "dimensionId": "ethnicity_self_description",
+          "status": "unknown",
+          "values": [],
+          "reason": "所提供简介与帖子没有本人明确族裔自述，不从姓名、所在地或外貌推断。",
+          "evidenceIds": [
+            "c730cbd8eab1f12501f709b7"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "research-b7829d5a507c7425f3601697|instagram:bibliophileisle",
+      "handle": "bibliophileisle",
+      "followers": 14297,
+      "selected": false,
+      "verdict": "unknown",
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "unknown",
+          "reason": "未取得创作者地区",
+          "evidenceIds": [],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 14297，要求 10000–100000",
+          "evidenceIds": [
+            "64ea5557fd6b64b578e79ee4"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "personal_geek_bookish_visual",
+          "verdict": "unknown",
+          "reason": "实际观察5条归属于该账号原帖的照片素材：持书的手臂、文字卡片、书与桌面静物、沙滩书袋、床上持书手部，均未见可确认身份的本人出镜；不能把手部或书封人物当作本人书卷形象。WaveSurge原帖发表时间分别为2026-10-04T20:23:29Z、2026-09-20T17:38:11Z、2026-08-13T17:45:46Z、2026-05-08T17:39:42Z、2026-07-27T21:33:04Z；截图采集时间分别为1791844510498、1791844517705、1791844526510、1791844536145、1791844548584，与发表时间分开。缺少本人身份及形象证据，不能认定不符或通过。",
+          "evidenceIds": [
+            "fe74d9413e96d28032e63230",
+            "7e200de5f33f8cebc5a094cc",
+            "172a42bb898b00cf9e50ef60",
+            "b145a7597133735152a96ef6",
+            "8f02cf77ce7963df5eb9f336",
+            "10bc3b3f029c31416a221f24",
+            "c0fb5f91e5f8b9eb2b46166e",
+            "9e0bcbd401b902379b855889",
+            "df383ca84c74ac90d962040d",
+            "5682b8fd73245b306aa2e9a8"
+          ],
+          "label": "本人真实公开画面呈现Geek或书卷形象，例如本人在书架前阅读、持书介绍、Geek穿搭或本人极客桌面使用场景。必须实际观察像素、看到本人并确认人物及内容归属；书本静物、科技内容主题、头像、媒体URL不能替代本人形象。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与截图采集时间分开。缺证unknown，不能降低条件凑数。"
+        },
+        {
+          "criterionId": "daily_framed_glasses_visual",
+          "verdict": "unknown",
+          "reason": "已观察照片中可见一副置于桌面的日常框架眼镜，但没有本人佩戴的画面，无法确认佩戴者或本人身份。该素材由parentEvidenceId关联本人SWITZY书评原帖；WaveSurge发表时间2026-08-13T17:45:46Z，截图采集时间1791844526510。其余已观察素材也未见可确认身份的人物佩戴眼镜，故保持unknown，而非由静物眼镜推断本人戴镜。",
+          "evidenceIds": [
+            "172a42bb898b00cf9e50ef60",
+            "7db79d6d4950de93d210b905",
+            "9e0bcbd401b902379b855889"
+          ],
+          "label": "本人实际公开画面佩戴日常框架眼镜，须实际观察像素并确认人物为本人；排除墨镜、护目镜、面罩、书封人物和他人，不用头像或文字替代公开内容画面，不推断一直戴镜。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与截图采集时间分开。缺证unknown，不能降低条件凑数。"
+        },
+        {
+          "criterionId": "personal_consumer_koc",
+          "verdict": "match",
+          "reason": "WaveSurge本人简介自述phd rediscovering reading for fun、mostly pre-loved + borrowed books，结合持续第一人称阅读体验支持个人阅读消费者账号，而非品牌、商店或搬运。ACTS OF DESPERATION书评明确表达阅读感受及个人共鸣；SWITZY书评自述收到出版社赠书并分享失望体验和未来阅读意愿。原帖发表时间分别2026-07-27T21:33:04Z、2026-08-13T17:45:46Z；文字采集时间1791844486612，简介发布时间未知。上述文字来自给定WaveSurge资料，不声称本轮重新访问本人主页。",
+          "evidenceIds": [
+            "64ea5557fd6b64b578e79ee4",
+            "5682b8fd73245b306aa2e9a8",
+            "9e0bcbd401b902379b855889"
+          ],
+          "label": "个人消费者KOC：依据本人简介和实际内容，有第一人称阅读或产品体验；排除品牌、商店、公司、机构、活动官方、明星及纯搬运账号。不能仅以粉丝数认定个人身份，身份或体验缺证unknown。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与采集时间分开。"
+        }
+      ],
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "文学书评",
+            "第一人称阅读体验",
+            "二手与借阅书籍"
+          ],
+          "reason": "本人简介明确偏好二手和借阅书籍，原帖以长文分析小说并分享个人阅读体验。",
+          "evidenceIds": [
+            "64ea5557fd6b64b578e79ee4",
+            "5682b8fd73245b306aa2e9a8",
+            "9e0bcbd401b902379b855889"
+          ]
+        },
+        {
+          "dimensionId": "presentation_style",
+          "status": "supported",
+          "values": [
+            "长文批评性书评",
+            "书籍静物摄影",
+            "文字图卡"
+          ],
+          "reason": "实际观察到书籍桌面、沙滩书袋及持书手部照片和three-star books文字图卡；原帖文字是长篇批评性阅读反思。这些是内容呈现风格，不代表本人出镜风格。",
+          "evidenceIds": [
+            "172a42bb898b00cf9e50ef60",
+            "b145a7597133735152a96ef6",
+            "7e200de5f33f8cebc5a094cc",
+            "9e0bcbd401b902379b855889"
+          ]
+        },
+        {
+          "dimensionId": "ethnicity_self_description",
+          "status": "unknown",
+          "values": [],
+          "reason": "提供的本人简介和帖子未见本人明确族裔自述；不从手部外貌、姓名、所在地或所评作品人物推断。",
+          "evidenceIds": [
+            "64ea5557fd6b64b578e79ee4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "research-b7829d5a507c7425f3601697|instagram:booklover6457",
+      "handle": "booklover6457",
+      "followers": 23083,
+      "selected": false,
+      "verdict": "no_match",
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "unknown",
+          "reason": "未取得创作者地区",
+          "evidenceIds": [],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 23083，要求 10000–100000",
+          "evidenceIds": [
+            "904defa97657c76b94a37257"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "personal_geek_bookish_visual",
+          "verdict": "unknown",
+          "reason": "已实际观察传入截图，画面是手持书籍及书架，主要人物是书封插画，没有可识别且可确认属于账号本人的真人形象，不能据此通过本人书卷形象条件，也不能据此认定本人从不出镜。截图URL与post_photo资源一致，后者parentEvidenceId关联原帖；WaveSurge原帖发布时间为2026-10-08T09:32:41.000Z，原始文字采集时间为1791844642868，截图采集时间为1791844671424，二者不是发布时间。因个人消费者条件已有明确排除证据，未额外浏览素材。",
+          "evidenceIds": [
+            "52bea0f1bed00d3996238fba",
+            "9b60ebbc9239163d8bebf717",
+            "a29cc951238aaf6950d163e0"
+          ],
+          "label": "本人真实公开画面呈现Geek或书卷形象，例如本人在书架前阅读、持书介绍、Geek穿搭或本人极客桌面使用场景。必须实际观察像素、看到本人并确认人物及内容归属；书本静物、科技内容主题、头像、媒体URL不能替代本人形象。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与截图采集时间分开。缺证unknown，不能降低条件凑数。"
+        },
+        {
+          "criterionId": "daily_framed_glasses_visual",
+          "verdict": "unknown",
+          "reason": "实际传入截图仅显示书籍、书封插画及局部手部，没有可确认身份的本人面部，无法判断本人佩戴日常框架眼镜。不能把书封人物或资源链接当作本人戴镜证据。对应WaveSurge原帖发布时间为2026-10-08T09:32:41.000Z；原始证据采集时间1791844642868，截图采集时间1791844671424。因个人消费者条件已明确不符，停止额外视觉浏览。",
+          "evidenceIds": [
+            "52bea0f1bed00d3996238fba",
+            "9b60ebbc9239163d8bebf717",
+            "a29cc951238aaf6950d163e0"
+          ],
+          "label": "本人实际公开画面佩戴日常框架眼镜，须实际观察像素并确认人物为本人；排除墨镜、护目镜、面罩、书封人物和他人，不用头像或文字替代公开内容画面，不推断一直戴镜。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与截图采集时间分开。缺证unknown，不能降低条件凑数。"
+        },
+        {
+          "criterionId": "personal_consumer_koc",
+          "verdict": "no_match",
+          "reason": "现有WaveSurge本人简介明确宣传英文伊斯兰书预订；多篇实际帖子是售书与商品销售内容，包含单价、批量订购批发价、库存及客户称呼，而非个人消费者第一人称使用体验。2026-10-08T03:38:24.000Z帖子标注每本35及大量订购批发价；2026-09-11T07:44:32.000Z帖子注明缺货、恢复销售、套装390泰铢并引导客户至专门的英文书页面；2026-09-22T08:26:41.000Z帖子提供日历预订价、运费和发货安排。这些正面销售证据支持将该账号排除为售书/商品销售账号，而非目标个人消费者KOC。上述原帖发布时间均由WaveSurge提供，文字采集时间为1791844642868；简介发布时间未知。本轮没有声称重新访问本人主页。",
+          "evidenceIds": [
+            "904defa97657c76b94a37257",
+            "2102b82ae0ba009d87d593ba",
+            "4459ef05a01ee93f67b66733",
+            "eb0201b79dd080df537c4576"
+          ],
+          "label": "个人消费者KOC：依据本人简介和实际内容，有第一人称阅读或产品体验；排除品牌、商店、公司、机构、活动官方、明星及纯搬运账号。不能仅以粉丝数认定个人身份，身份或体验缺证unknown。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与采集时间分开。"
+        }
+      ],
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "伊斯兰宗教书籍介绍与销售",
+            "儿童及家庭宗教读物",
+            "日历与文具预订"
+          ],
+          "reason": "WaveSurge提供的帖子文字具体介绍宗教书籍、儿童读物并销售日历套装；实际截图也显示宗教书籍商品。原帖发表时间分别为2026-10-08T09:32:41.000Z、2026-09-11T07:44:32.000Z、2026-09-22T08:26:41.000Z；文字采集时间1791844642868，截图采集时间1791844671424。",
+          "evidenceIds": [
+            "a29cc951238aaf6950d163e0",
+            "4459ef05a01ee93f67b66733",
+            "eb0201b79dd080df537c4576",
+            "52bea0f1bed00d3996238fba"
+          ]
+        },
+        {
+          "dimensionId": "presentation_style",
+          "status": "supported",
+          "values": [
+            "商品书籍特写",
+            "销售型产品说明"
+          ],
+          "reason": "仅就已观察内容而言，截图为书籍商品特写；WaveSurge帖子文字列出规格、价格、预订及配送信息。不能延伸为本人出镜风格。对应原帖发布时间2026-10-08T09:32:41.000Z和2026-09-22T08:26:41.000Z；文字采集时间1791844642868，截图采集时间1791844671424。",
+          "evidenceIds": [
+            "52bea0f1bed00d3996238fba",
+            "a29cc951238aaf6950d163e0",
+            "eb0201b79dd080df537c4576"
+          ]
+        },
+        {
+          "dimensionId": "ethnicity_self_description",
+          "status": "unknown",
+          "values": [],
+          "reason": "现有本人简介与帖子中没有明确族裔自述；不从语言、宗教内容、姓名或画面推断族裔。",
+          "evidenceIds": [
+            "904defa97657c76b94a37257"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "research-b7829d5a507c7425f3601697|instagram:booknerdmorioka",
+      "handle": "booknerdmorioka",
+      "followers": 25900,
+      "selected": false,
+      "verdict": "no_match",
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "unknown",
+          "reason": "未取得创作者地区",
+          "evidenceIds": [],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 25900，要求 10000–100000",
+          "evidenceIds": [
+            "c090dc23a464834e6b4bf872"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "personal_geek_bookish_visual",
+          "verdict": "unknown",
+          "reason": "实际截图仅见两本书的静物及书封人物，未见可确认属于账号本人的出镜，不能证明本人书卷/Geek形象。该素材由parentEvidenceId关联原帖，WaveSurge原帖发布时间为2026-10-11T08:45:58.000Z；截图采集时间1791844767931，二者不同。简介及多条销售内容已明确为书店账号，因此结束核验，不以单张静物判定整账号没有本人画面。",
+          "evidenceIds": [
+            "345d8425993a41702fff66d4",
+            "50f7ca821dc5a9e9c079e060",
+            "cb90b5fa539b3c91b98a9ae6"
+          ],
+          "label": "本人真实公开画面呈现Geek或书卷形象，例如本人在书架前阅读、持书介绍、Geek穿搭或本人极客桌面使用场景。必须实际观察像素、看到本人并确认人物及内容归属；书本静物、科技内容主题、头像、媒体URL不能替代本人形象。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与截图采集时间分开。缺证unknown，不能降低条件凑数。"
+        },
+        {
+          "criterionId": "daily_framed_glasses_visual",
+          "verdict": "unknown",
+          "reason": "已实际观察的内容是书本静物，没有可确认的本人佩戴日常框架眼镜画面；书封人物不属于有效本人证据。WaveSurge对应原帖发布时间2026-10-11T08:45:58.000Z，截图采集时间1791844767931。不从资料不足推断本人不戴眼镜。",
+          "evidenceIds": [
+            "345d8425993a41702fff66d4",
+            "50f7ca821dc5a9e9c079e060",
+            "cb90b5fa539b3c91b98a9ae6"
+          ],
+          "label": "本人实际公开画面佩戴日常框架眼镜，须实际观察像素并确认人物为本人；排除墨镜、护目镜、面罩、书封人物和他人，不用头像或文字替代公开内容画面，不推断一直戴镜。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与截图采集时间分开。缺证unknown，不能降低条件凑数。"
+        },
+        {
+          "criterionId": "personal_consumer_koc",
+          "verdict": "no_match",
+          "reason": "WaveSurge提供的本人简介列明销售新书、外文书、旧书、唱片及杂货，店内提供饮品并公布营业时间；多条原帖明确店头及网上商店销售、预订，属于筛选明确排除的书店商业账号，而非个人消费者KOC。即使内容含第一人称感受也不改变账号属性。引用销售帖原帖发布时间分别为2026-10-11T08:45:58.000Z和2026-09-30T22:10:59.000Z；简介发布时间unknown；上述文字采集时间均为1791844733302，非本轮重新访问主页。",
+          "evidenceIds": [
+            "c090dc23a464834e6b4bf872",
+            "cb90b5fa539b3c91b98a9ae6",
+            "affaa37986fc77e90ec64e65"
+          ],
+          "label": "个人消费者KOC：依据本人简介和实际内容，有第一人称阅读或产品体验；排除品牌、商店、公司、机构、活动官方、明星及纯搬运账号。不能仅以粉丝数认定个人身份，身份或体验缺证unknown。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与采集时间分开。"
+        }
+      ],
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "书店图书推荐与销售",
+            "艺术书与摄影集",
+            "店内展览与活动"
+          ],
+          "reason": "本人简介说明书籍与杂货销售，原帖介绍艺术书、摄影展以及店内活动；依据WaveSurge提供的文字。",
+          "evidenceIds": [
+            "c090dc23a464834e6b4bf872",
+            "b9ff7652879da1fb8e90e7af",
+            "65d4ff288aa227422f8b5a2d"
+          ]
+        },
+        {
+          "dimensionId": "presentation_style",
+          "status": "supported",
+          "values": [
+            "书籍静物展示",
+            "文字书评式商品介绍"
+          ],
+          "reason": "实际传入截图展示书籍静物，对应原帖以长篇图书介绍加店头及线上销售说明呈现；不推断本人穿搭或形象。",
+          "evidenceIds": [
+            "345d8425993a41702fff66d4",
+            "cb90b5fa539b3c91b98a9ae6"
+          ]
+        },
+        {
+          "dimensionId": "ethnicity_self_description",
+          "status": "unknown",
+          "values": [],
+          "reason": "提供的证据没有账号本人明确族裔自述，不能从日文、名称或书封人物推断。",
+          "evidenceIds": []
+        }
+      ]
+    },
+    {
+      "id": "research-b7829d5a507c7425f3601697|instagram:book_.lover22",
+      "handle": "book_.lover22",
+      "followers": 12539,
+      "selected": false,
+      "verdict": "unknown",
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "unknown",
+          "reason": "未取得创作者地区",
+          "evidenceIds": [],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 12539，要求 10000–100000",
+          "evidenceIds": [
+            "12c903e9e48a7dbad31d1b6f"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "personal_geek_bookish_visual",
+          "verdict": "unknown",
+          "reason": "实际观察到书与杯子静物、持书的局部手指、书籍图文及街景，均没有可确认属于账号本人的人物书卷/Geek形象；不能以持书手部或书籍主题替代本人形象。另尝试生活帖照片资源失败，原帖有注册弹窗且未加载人物。已观察素材对应WaveSurge原帖发表时间分别为2026-10-12T16:55:50Z、2026-10-10T12:48:53Z、2026-10-01T14:25:08Z、2026-10-05T17:37:50Z、2026-10-05T12:52:40Z；截图采集时间分别为1791844830381、1791844855604、1791844862885、1791844873817、1791844874570，不是发表时间。",
+          "evidenceIds": [
+            "6a7c6471ced5ecb6c13a6ba4",
+            "d37b04cd2eb8c8fbbfb7224f",
+            "1143d67a125adfd68fee71af",
+            "2ae8dbae79a0415f3e760308",
+            "121b84e1231a36802efd3af0",
+            "1f1f4b9340cd022a1e28a938",
+            "a305b554a34ad6cb69bb64ea",
+            "ed74a5547f91a6e33ec025dc",
+            "3c622453d8ad1c1ab37e3e48",
+            "474ed56cbf8d1ed9cf2a22be",
+            "c1c83debdc6076aeb5d60f54"
+          ],
+          "label": "本人真实公开画面呈现Geek或书卷形象，例如本人在书架前阅读、持书介绍、Geek穿搭或本人极客桌面使用场景。必须实际观察像素、看到本人并确认人物及内容归属；书本静物、科技内容主题、头像、媒体URL不能替代本人形象。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与截图采集时间分开。缺证unknown，不能降低条件凑数。"
+        },
+        {
+          "criterionId": "daily_framed_glasses_visual",
+          "verdict": "unknown",
+          "reason": "实际查看的5张素材未出现可确认是本人的面部，无法核验日常框架眼镜；街景路人不能作为本人证据。生活帖资源访问失败，原帖未提供可见人物像素，不申请登录协助。5张素材WaveSurge发表时间依次为2026-10-12T16:55:50Z、2026-10-10T12:48:53Z、2026-10-01T14:25:08Z、2026-10-05T17:37:50Z、2026-10-05T12:52:40Z；对应截图采集时间为1791844830381、1791844855604、1791844862885、1791844873817、1791844874570。不能据此断言本人不戴眼镜。",
+          "evidenceIds": [
+            "6a7c6471ced5ecb6c13a6ba4",
+            "d37b04cd2eb8c8fbbfb7224f",
+            "1143d67a125adfd68fee71af",
+            "2ae8dbae79a0415f3e760308",
+            "121b84e1231a36802efd3af0",
+            "1f1f4b9340cd022a1e28a938",
+            "a305b554a34ad6cb69bb64ea",
+            "ed74a5547f91a6e33ec025dc",
+            "3c622453d8ad1c1ab37e3e48",
+            "474ed56cbf8d1ed9cf2a22be",
+            "c1c83debdc6076aeb5d60f54"
+          ],
+          "label": "本人实际公开画面佩戴日常框架眼镜，须实际观察像素并确认人物为本人；排除墨镜、护目镜、面罩、书封人物和他人，不用头像或文字替代公开内容画面，不推断一直戴镜。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与截图采集时间分开。缺证unknown，不能降低条件凑数。"
+        },
+        {
+          "criterionId": "personal_consumer_koc",
+          "verdict": "unknown",
+          "reason": "WaveSurge简介写Golden Book成员、关联书店/中心并称书籍可供读者；帖子主要为新书宣传、引文、邀请读者评论或购买，尚无明确的本人第一人称阅读评测或产品体验，也不能确认是独立消费者而非书业经营/推广身份。生活帖第一人称提到自己的帖子与工作，但不足以证明消费者KOC。引用原帖发表时间分别为2026-10-12T16:55:50Z、2026-10-05T12:52:40Z、2026-10-02T18:08:56Z；WaveSurge采集时间均为1791844800298，简介发表时间未知，二者不可混同。",
+          "evidenceIds": [
+            "12c903e9e48a7dbad31d1b6f",
+            "a6ea894d445add99583b7f89",
+            "94f36757710413efbf654ff5",
+            "05762c1b79b283aacf112475"
+          ],
+          "label": "个人消费者KOC：依据本人简介和实际内容，有第一人称阅读或产品体验；排除品牌、商店、公司、机构、活动官方、明星及纯搬运账号。不能仅以粉丝数认定个人身份，身份或体验缺证unknown。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与采集时间分开。"
+        }
+      ],
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "书籍介绍",
+            "文学引文",
+            "新书推广"
+          ],
+          "reason": "WaveSurge原帖有书名作者及故事介绍、新书宣传和引文，实际图像亦展示书籍。仅说明内容方向，不代表本人消费者身份。",
+          "evidenceIds": [
+            "1c8fb30bc1db65f5e6faa887",
+            "a6ea894d445add99583b7f89",
+            "a305b554a34ad6cb69bb64ea"
+          ]
+        },
+        {
+          "dimensionId": "presentation_style",
+          "status": "supported",
+          "values": [
+            "书籍静物摄影",
+            "文字叠加图文"
+          ],
+          "reason": "实际截图显示书籍与杯子/花卉的静物构图及文字叠加；这是内容呈现方式，不是本人外观判断。",
+          "evidenceIds": [
+            "6a7c6471ced5ecb6c13a6ba4",
+            "121b84e1231a36802efd3af0",
+            "a305b554a34ad6cb69bb64ea",
+            "3c622453d8ad1c1ab37e3e48"
+          ]
+        },
+        {
+          "dimensionId": "ethnicity_self_description",
+          "status": "unknown",
+          "values": [],
+          "reason": "未见本人明确族裔自述；语言和主题标签不能替代身份自述。",
+          "evidenceIds": [
+            "12c903e9e48a7dbad31d1b6f",
+            "05762c1b79b283aacf112475"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "research-b7829d5a507c7425f3601697|instagram:thebibliophilecandleco",
+      "handle": "thebibliophilecandleco",
+      "followers": 13536,
+      "selected": false,
+      "verdict": "no_match",
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "unknown",
+          "reason": "未取得创作者地区",
+          "evidenceIds": [],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 13536，要求 10000–100000",
+          "evidenceIds": [
+            "7fef74932d32cc0a84076a90"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "personal_geek_bookish_visual",
+          "verdict": "unknown",
+          "reason": "实际传入的截图是书单宣传设计与机器人插图，没有可确认的本人出镜，不能证明本人Geek或书卷形象。对应原帖WaveSurge发表时间为2026-10-12T22:24:45.000Z，截图采集时间为1791845082972，二者不同。因个人消费者身份已明确不符，未继续浏览其他素材；不能据此认定所有内容均无本人。",
+          "evidenceIds": [
+            "662dfdf9ccfca311bd03b0b7",
+            "4ec962786a0457166304b5fe"
+          ],
+          "label": "本人真实公开画面呈现Geek或书卷形象，例如本人在书架前阅读、持书介绍、Geek穿搭或本人极客桌面使用场景。必须实际观察像素、看到本人并确认人物及内容归属；书本静物、科技内容主题、头像、媒体URL不能替代本人形象。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与截图采集时间分开。缺证unknown，不能降低条件凑数。"
+        },
+        {
+          "criterionId": "daily_framed_glasses_visual",
+          "verdict": "unknown",
+          "reason": "已观察的公开内容截图只有宣传设计及机器人插图，没有可确认的本人或本人日常框架眼镜。对应WaveSurge原帖发表时间2026-10-12T22:24:45.000Z，截图采集时间1791845082972；其他资源链接未观察，不能作为佩镜证据。",
+          "evidenceIds": [
+            "662dfdf9ccfca311bd03b0b7",
+            "4ec962786a0457166304b5fe"
+          ],
+          "label": "本人实际公开画面佩戴日常框架眼镜，须实际观察像素并确认人物为本人；排除墨镜、护目镜、面罩、书封人物和他人，不用头像或文字替代公开内容画面，不推断一直戴镜。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与截图采集时间分开。缺证unknown，不能降低条件凑数。"
+        },
+        {
+          "criterionId": "personal_consumer_koc",
+          "verdict": "no_match",
+          "reason": "WaveSurge提供的本人账号简介明确为Columbus, Ohio的独立书店，销售新旧书、文学蜡烛和礼品；内容说明店铺库存、为顾客特别订书并发送发票，属于商店经营账号，而非所要求的个人消费者KOC。帖子中第一人称制作店铺蜡烛试用品也属经营活动，不能改变该身份。引用原帖发表时间分别为2026-10-04T19:49:59.000Z及2026-10-09T16:32:47.000Z；简介发布时间unknown；这些文字采集时间均为1791845048677，并非本轮重新访问主页。",
+          "evidenceIds": [
+            "7fef74932d32cc0a84076a90",
+            "8800eac30f9eca59b9df9127",
+            "6e685d12442ec33596679c58"
+          ],
+          "label": "个人消费者KOC：依据本人简介和实际内容，有第一人称阅读或产品体验；排除品牌、商店、公司、机构、活动官方、明星及纯搬运账号。不能仅以粉丝数认定个人身份，身份或体验缺证unknown。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与采集时间分开。"
+        }
+      ],
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "书单与图书推荐",
+            "文学主题蜡烛与书店经营",
+            "阅读社区活动"
+          ],
+          "reason": "WaveSurge简介与帖子文字显示图书推荐、文学蜡烛销售及书店故事时间活动；来源为已提供文字，采集时间1791845048677，原帖发表时间分别为2026-10-12T22:24:45.000Z、2026-10-10T19:57:03.000Z和2026-10-11T17:32:30.000Z。",
+          "evidenceIds": [
+            "7fef74932d32cc0a84076a90",
+            "4ec962786a0457166304b5fe",
+            "c9fb2ead800b94dd35562b98",
+            "f76a927f574ae18da4f499a2"
+          ]
+        },
+        {
+          "dimensionId": "presentation_style",
+          "status": "supported",
+          "values": [
+            "品牌书单宣传图",
+            "科幻科技主题视觉设计"
+          ],
+          "reason": "实际截图展示品牌名称、发光蓝色大字、机器人插图与Black Mirror书单主题；仅描述这张宣传图，不推断本人穿搭。原帖发表时间2026-10-12T22:24:45.000Z，截图采集时间1791845082972。",
+          "evidenceIds": [
+            "662dfdf9ccfca311bd03b0b7",
+            "4ec962786a0457166304b5fe"
+          ]
+        },
+        {
+          "dimensionId": "ethnicity_self_description",
+          "status": "unknown",
+          "values": [],
+          "reason": "已提供简介及帖子未见本人明确族裔自述，不从名称、所在地或画面推断。",
+          "evidenceIds": []
+        }
+      ]
+    },
+    {
+      "id": "research-b7829d5a507c7425f3601697|instagram:_booklover_u",
+      "handle": "_booklover_u",
+      "followers": 12035,
+      "selected": false,
+      "verdict": "unknown",
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "unknown",
+          "reason": "未取得创作者地区",
+          "evidenceIds": [],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 12035，要求 10000–100000",
+          "evidenceIds": [
+            "ac01b7208f4f1f0a542062b3"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "personal_geek_bookish_visual",
+          "verdict": "unknown",
+          "reason": "实际观察了3条视频封面，分别为花朵配引文、积木花束、滨水风景配诗句，均未看到可确认的创作者本人；不能用文学主题或账号水印替代本人书卷形象。WaveSurge对应原帖发表时间分别为2026-10-11T18:58:05Z、2026-10-11T17:52:21Z、2026-10-05T17:24:11Z；截图采集时间分别为1791845168579、1791845174822、1791845198321，与发表时间不同。另一个封面资源连接失败，原帖页面出现注册提示，未取得可判断的本人像素。",
+          "evidenceIds": [
+            "e5a986ee877e12a2b38978db",
+            "35d9e726521ce7737004ecf9",
+            "cdb127d15ae9246433ef72d3",
+            "5455eff5a25670bd36981921",
+            "8f82f2c2a56285201765b4fb",
+            "abf90ece9fff202008fd1935",
+            "04dbb6a5db0dd5f8d35585af"
+          ],
+          "label": "本人真实公开画面呈现Geek或书卷形象，例如本人在书架前阅读、持书介绍、Geek穿搭或本人极客桌面使用场景。必须实际观察像素、看到本人并确认人物及内容归属；书本静物、科技内容主题、头像、媒体URL不能替代本人形象。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与截图采集时间分开。缺证unknown，不能降低条件凑数。"
+        },
+        {
+          "criterionId": "daily_framed_glasses_visual",
+          "verdict": "unknown",
+          "reason": "实际看到的3条视频封面均无可确认的本人，无法验证本人佩戴日常框架眼镜，也不能据此认定本人不戴眼镜。对应WaveSurge原帖发表时间为2026-10-11T18:58:05Z、2026-10-11T17:52:21Z、2026-10-05T17:24:11Z；截图采集时间分别为1791845168579、1791845174822、1791845198321。",
+          "evidenceIds": [
+            "e5a986ee877e12a2b38978db",
+            "35d9e726521ce7737004ecf9",
+            "cdb127d15ae9246433ef72d3",
+            "5455eff5a25670bd36981921",
+            "8f82f2c2a56285201765b4fb",
+            "abf90ece9fff202008fd1935"
+          ],
+          "label": "本人实际公开画面佩戴日常框架眼镜，须实际观察像素并确认人物为本人；排除墨镜、护目镜、面罩、书封人物和他人，不用头像或文字替代公开内容画面，不推断一直戴镜。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与截图采集时间分开。缺证unknown，不能降低条件凑数。"
+        },
+        {
+          "criterionId": "personal_consumer_koc",
+          "verdict": "unknown",
+          "reason": "WaveSurge简介仅描述书籍世界和DM合作，未明确个人身份。2026-10-11T17:52:21Z的帖子以第一人称复数表示与@davidost__推荐儿童文学，可支持参与荐书，但未明确本人阅读或消费体验，也不足以排除文学素材汇编账号。其他文字主要为书名、诗句和署名。上述WaveSurge资料采集时间为1791845139403，简介发表时间缺失；不能以粉丝数或文学主题认定个人消费者KOC。",
+          "evidenceIds": [
+            "ac01b7208f4f1f0a542062b3",
+            "5455eff5a25670bd36981921",
+            "ee2335a9c04027ed42e71140",
+            "5945dd8ab50c6751859e2935"
+          ],
+          "label": "个人消费者KOC：依据本人简介和实际内容，有第一人称阅读或产品体验；排除品牌、商店、公司、机构、活动官方、明星及纯搬运账号。不能仅以粉丝数认定个人身份，身份或体验缺证unknown。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与采集时间分开。"
+        }
+      ],
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "文学诗句分享",
+            "书籍推荐"
+          ],
+          "reason": "本人账号原帖文字包含文学书名、诗歌及儿童文学推荐；依据WaveSurge文字，不代表已确认个人阅读体验。",
+          "evidenceIds": [
+            "5455eff5a25670bd36981921",
+            "ee2335a9c04027ed42e71140",
+            "5945dd8ab50c6751859e2935"
+          ]
+        },
+        {
+          "dimensionId": "presentation_style",
+          "status": "supported",
+          "values": [
+            "风景静物配文学文字"
+          ],
+          "reason": "实际观察的视频封面为花朵或滨水风景叠加引文、诗句，以及积木花束静物；只描述已见封面，不声称看过完整视频。",
+          "evidenceIds": [
+            "e5a986ee877e12a2b38978db",
+            "cdb127d15ae9246433ef72d3",
+            "8f82f2c2a56285201765b4fb"
+          ]
+        },
+        {
+          "dimensionId": "ethnicity_self_description",
+          "status": "unknown",
+          "values": [],
+          "reason": "提供的简介和帖子中无本人明确族裔自述，不从姓名、语言或风景推断。",
+          "evidenceIds": [
+            "ac01b7208f4f1f0a542062b3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "research-b7829d5a507c7425f3601697|instagram:bibliobuku",
+      "handle": "bibliobuku",
+      "followers": 30742,
+      "selected": false,
+      "verdict": "no_match",
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "unknown",
+          "reason": "未取得创作者地区",
+          "evidenceIds": [],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 30742，要求 10000–100000",
+          "evidenceIds": [
+            "4702936f813ed77013cc6475"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "personal_geek_bookish_visual",
+          "verdict": "unknown",
+          "reason": "实际传入截图仅为《Labbaikallah》书籍静物，没有人物，不能证明本人书卷或Geek形象。素材通过parentEvidenceId关联原帖，WaveSurge原帖发表时间为2026-10-12T09:00:01.000Z；截图采集时间为1791845267121，两者不混同。简介已明确为书店，故不再追加视觉浏览，但不能以此把视觉缺证判为no_match。",
+          "evidenceIds": [
+            "9f98b91d72370b442a45bcbe",
+            "ce05f94a6f0164cf6321ff55",
+            "9898e3532bf7ed86c4d1dca5"
+          ],
+          "label": "本人真实公开画面呈现Geek或书卷形象，例如本人在书架前阅读、持书介绍、Geek穿搭或本人极客桌面使用场景。必须实际观察像素、看到本人并确认人物及内容归属；书本静物、科技内容主题、头像、媒体URL不能替代本人形象。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与截图采集时间分开。缺证unknown，不能降低条件凑数。"
+        },
+        {
+          "criterionId": "daily_framed_glasses_visual",
+          "verdict": "unknown",
+          "reason": "实际观察的公开照片是书籍静物，没有可确认归属的本人出镜或日常框架眼镜。WaveSurge关联原帖发表时间为2026-10-12T09:00:01.000Z，截图采集时间为1791845267121；不能据此推断本人戴镜或不戴镜。个人身份已明确不符，停止追加浏览。",
+          "evidenceIds": [
+            "9f98b91d72370b442a45bcbe",
+            "ce05f94a6f0164cf6321ff55",
+            "9898e3532bf7ed86c4d1dca5"
+          ],
+          "label": "本人实际公开画面佩戴日常框架眼镜，须实际观察像素并确认人物为本人；排除墨镜、护目镜、面罩、书封人物和他人，不用头像或文字替代公开内容画面，不推断一直戴镜。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与截图采集时间分开。缺证unknown，不能降低条件凑数。"
+        },
+        {
+          "criterionId": "personal_consumer_koc",
+          "verdict": "no_match",
+          "reason": "WaveSurge提供的本人简介明确自称“The best Malaysian bookstore for Bibliophiles”，列出两处店址及Shopee购买入口，属于书店商业账号，而非个人消费者KOC。内容以“Tim Biblio”、销售桌、折扣及书展宣传呈现团队售书活动，支持排除商店身份；不是个人第一人称消费体验。引用活动原帖发表时间为2026-10-12T04:18:04.000Z，资料采集时间为1791845238760；简介publishedAt缺失，不能将采集时间视为发表时间。本轮复用提供的文字，未重新访问主页。",
+          "evidenceIds": [
+            "4702936f813ed77013cc6475",
+            "8054b1fdb18ba8a8fb4f8069"
+          ],
+          "label": "个人消费者KOC：依据本人简介和实际内容，有第一人称阅读或产品体验；排除品牌、商店、公司、机构、活动官方、明星及纯搬运账号。不能仅以粉丝数认定个人身份，身份或体验缺证unknown。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与采集时间分开。"
+        }
+      ],
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "书籍介绍与推广",
+            "书展与售书活动",
+            "伊斯兰主题读物"
+          ],
+          "reason": "本人简介及WaveSurge帖子文字展示书店销售、书展宣传与伊斯兰主题书籍介绍；帖子发表时间分别为2026-10-12T04:18:04.000Z和2026-10-12T09:00:01.000Z，文字采集时间1791845238760。",
+          "evidenceIds": [
+            "4702936f813ed77013cc6475",
+            "8054b1fdb18ba8a8fb4f8069",
+            "9898e3532bf7ed86c4d1dca5"
+          ]
+        },
+        {
+          "dimensionId": "presentation_style",
+          "status": "supported",
+          "values": [
+            "书籍静物展示",
+            "商业推广文案"
+          ],
+          "reason": "实际截图展示桌面上的单本书籍，没有人物；关联原帖发表于2026-10-12T09:00:01.000Z，截图采集于1791845267121。另有发表于2026-10-12T04:18:04.000Z的售书活动宣传文字。仅描述已观察素材和文字，不推断账号整体人物风格。",
+          "evidenceIds": [
+            "9f98b91d72370b442a45bcbe",
+            "9898e3532bf7ed86c4d1dca5",
+            "8054b1fdb18ba8a8fb4f8069"
+          ]
+        },
+        {
+          "dimensionId": "ethnicity_self_description",
+          "status": "unknown",
+          "values": [],
+          "reason": "提供资料没有个人族裔明确自述；书店所在地、语言与宗教读物主题均不能替代族裔自述。",
+          "evidenceIds": []
+        }
+      ]
+    },
+    {
+      "id": "research-b7829d5a507c7425f3601697|instagram:bibliophile_from_space",
+      "handle": "bibliophile_from_space",
+      "followers": 14894,
+      "selected": false,
+      "verdict": "unknown",
+      "judgments": [
+        {
+          "criterionId": "__region",
+          "verdict": "unknown",
+          "reason": "未取得创作者地区",
+          "evidenceIds": [],
+          "label": "所在地区"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 14894，要求 10000–100000",
+          "evidenceIds": [
+            "a6d724a8e804978bfa14d9be"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "personal_geek_bookish_visual",
+          "verdict": "unknown",
+          "reason": "实际观察了本人作者介绍与作者肖像：可确认人物为Leah，但画面为坐姿肖像，未见持书、阅读、书架或明确Geek使用场景，不能仅凭作者文字和眼镜认定书卷形象。另观察写作电脑照片，仅见下半身，不能独立确认本人形象。WaveSurge原帖发表时间分别为2026-10-02T14:05:01Z、2026-09-28T13:35:01Z及2026-05-26T17:50:41Z；对应截图采集时间分别为1791845360534、1791845367052、1791845385408（毫秒时间戳），不是发表时间。阅读体验帖的媒体访问失败，现有画面不足以通过该条件。",
+          "evidenceIds": [
+            "2d2a0cd6087960cea0efd412",
+            "cceb2d4d117d5a6d243a0e79",
+            "d386e1c868960068d27929d4",
+            "4641f83d95b9c52c9224732a",
+            "8ba025a750e3f3071977d6f2",
+            "065987d7ab3c1564f8186338",
+            "12648372387fd8a2f64f074f"
+          ],
+          "label": "本人真实公开画面呈现Geek或书卷形象，例如本人在书架前阅读、持书介绍、Geek穿搭或本人极客桌面使用场景。必须实际观察像素、看到本人并确认人物及内容归属；书本静物、科技内容主题、头像、媒体URL不能替代本人形象。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与截图采集时间分开。缺证unknown，不能降低条件凑数。"
+        },
+        {
+          "criterionId": "daily_framed_glasses_visual",
+          "verdict": "match",
+          "reason": "实际看到两张公开帖子照片中人物佩戴透明镜片的日常框架眼镜，非墨镜或护目镜。第一张画面写明ABOUT ME、LEAH JUBILEE，与本人简介及原帖“same Leah”相互印证；第二张原帖明确请读者挑选自己的作者照片，确认本人归属。仅证明这些公开画面戴镜，不推断一直戴镜。WaveSurge原帖发表时间分别为2026-10-02T14:05:01Z、2026-09-28T13:35:01Z；截图采集时间分别为1791845360534、1791845367052（毫秒时间戳），二者分开记录。",
+          "evidenceIds": [
+            "2d2a0cd6087960cea0efd412",
+            "536c719d9eddb078346b854d",
+            "cceb2d4d117d5a6d243a0e79",
+            "d386e1c868960068d27929d4",
+            "6cc90b8dda85ebf2c84f9652",
+            "4641f83d95b9c52c9224732a",
+            "a6d724a8e804978bfa14d9be"
+          ],
+          "label": "本人实际公开画面佩戴日常框架眼镜，须实际观察像素并确认人物为本人；排除墨镜、护目镜、面罩、书封人物和他人，不用头像或文字替代公开内容画面，不推断一直戴镜。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与截图采集时间分开。缺证unknown，不能降低条件凑数。"
+        },
+        {
+          "criterionId": "personal_consumer_koc",
+          "verdict": "match",
+          "reason": "WaveSurge本人简介自述Author and Singer/Songwriter、Avid Reader and Bibliophile，结合第一人称创作生活与阅读体验可确认为个人作者兼阅读消费者，并非品牌、商店、机构或纯搬运号。阅读帖明确说已读Red Rising且非常喜欢、正在读Oathbringer，并询问其他书籍推荐，具有具体第一人称消费阅读体验；未见明星身份依据。该阅读帖WaveSurge发表时间为2026-05-18T18:07:13Z，文字采集时间为1791845332652（毫秒时间戳）；简介无发表时间（unknown），不是本轮重新访问本人主页取得。",
+          "evidenceIds": [
+            "a6d724a8e804978bfa14d9be",
+            "732c1b2ce299b1313adc7924",
+            "0446c4763cdf5f8c6fd97dd5"
+          ],
+          "label": "个人消费者KOC：依据本人简介和实际内容，有第一人称阅读或产品体验；排除品牌、商店、公司、机构、活动官方、明星及纯搬运账号。不能仅以粉丝数认定个人身份，身份或体验缺证unknown。无最近30天限制；每条证据说明WaveSurge提供的原帖发表时间（缺失则unknown），与采集时间分开。"
+        }
+      ],
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "科幻与奇幻阅读",
+            "独立作者创作记录",
+            "歌曲创作"
+          ],
+          "reason": "本人简介及第一人称帖子展示科幻奇幻阅读、小说写作编辑进度和歌曲创作。依据WaveSurge既有文字，采集时间1791845332652。",
+          "evidenceIds": [
+            "a6d724a8e804978bfa14d9be",
+            "732c1b2ce299b1313adc7924",
+            "0446c4763cdf5f8c6fd97dd5"
+          ]
+        },
+        {
+          "dimensionId": "presentation_style",
+          "status": "supported",
+          "values": [
+            "作者肖像自我介绍",
+            "第一人称创作生活分享"
+          ],
+          "reason": "实际截图呈现本人作者肖像与ABOUT ME介绍；帖子文字以第一人称分享阅读、写作和歌曲创作进度。不能将此等同于已确认Geek或书卷视觉条件。",
+          "evidenceIds": [
+            "2d2a0cd6087960cea0efd412",
+            "d386e1c868960068d27929d4",
+            "732c1b2ce299b1313adc7924"
+          ]
+        },
+        {
+          "dimensionId": "ethnicity_self_description",
+          "status": "unknown",
+          "values": [],
+          "reason": "给定简介及帖子没有明确族裔本人自述；不依据外貌、姓名或美国主题帖子推断。",
+          "evidenceIds": [
+            "a6d724a8e804978bfa14d9be"
+          ]
+        }
+      ]
+    }
+  ],
+  "delivery": {
+    "id": "report-request-acee37abc71074d8c08e03f0f4f37233-4827668b9f7bc75e",
+    "role": "assistant",
+    "text": "本次请求的 1 项工作已全部结束。\n\n- 公网新词验收：本人书卷形象与日常框架眼镜：已结束，仍有缺额或失败；已选合格 0/1，已核验 25；证据不足者保持待核实。Instagram：读取 79 个本人基础账号，基础条件排除 54 个；基础读取上限 125，逐人分析上限 25（本次有界来源，不代表全站穷尽）。 [查看报告](/api/reports/research-b7829d5a507c7425f3601697)\n\n[查看本次综合报告](/api/work-batches/acee37abc71074d8c08e03f0f4f37233/report) · [下载综合 CSV](/api/work-batches/acee37abc71074d8c08e03f0f4f37233/report?format=csv)",
+    "createdAt": 1791845428968,
+    "epoch": 6,
+    "state": "delivered",
+    "attachments": []
+  },
+  "htmlBytes": 3387900,
+  "csvBytes": 4186566,
+  "passed": false,
+  "finishedAt": "2026-10-12T22:51:13.042Z"
+}

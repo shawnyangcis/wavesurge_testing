@@ -50,3 +50,17 @@ Thumbs.db
 *.swo
 
 # Source, lockfile, docs/testing reports and curated screenshots remain tracked.
+
+# Large provider exports stay in authenticated application storage/local QA.
+/docs/testing/interview-rescue-2026-10-13/evidence/*.html
+/docs/testing/interview-rescue-2026-10-13/evidence/*.csv
+/docs/testing/public-acceptance-2026-10-13/evidence/*.html
+/docs/testing/public-acceptance-2026-10-13/evidence/*.csv
+/validation/2026-10-13/interview-rescue/
+/validation/2026-10-13/public-acceptance/*
+!/validation/2026-10-13/public-acceptance/start-strict-case.mjs
+!/validation/2026-10-13/public-acceptance/verify-strict-case.mjs
+!/validation/2026-10-13/public-acceptance/run-reading-case.mjs
+!/validation/2026-10-13/public-acceptance/verify-country-revision.mjs
+!/validation/2026-10-13/public-acceptance/verify-public-release.mjs
+!/validation/2026-10-13/public-acceptance/audit-release.mjs

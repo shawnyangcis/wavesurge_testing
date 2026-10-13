@@ -1,0 +1,112 @@
+{
+  "url": "http://101.201.237.219:33332",
+  "title": "公网运行中续聊回归：真实开放阅读资料",
+  "startedAt": "2026-10-12T21:15:23.789Z",
+  "checks": {
+    "noNewOrLostTasks": true,
+    "messageDuringActualWork": true,
+    "terminalDelivery": true
+  },
+  "capabilities": {
+    "isSecureContext": false,
+    "randomUUID": "undefined"
+  },
+  "originalTaskIds": [
+    "enrich-150446afeae8ce042413a76e",
+    "enrich-19b749da2108bcce416e3a31",
+    "enrich-1bf84c8def94fbe1951b90a2",
+    "enrich-32f9c222ba018ba1748b584e",
+    "enrich-4442f04a49d556bc97a01bb1",
+    "enrich-6fcbc9e0deacef35d5bcc9df",
+    "enrich-852b54c3a4c8bfabc45ae1b6",
+    "enrich-8871961801ae75d3e4c07269",
+    "enrich-e6bac783cce66bf50203c22a",
+    "research-010f8c5e484e38738b2b3640",
+    "research-09db3d47bf4ee8edb2830bb3",
+    "research-329ed36c04d98223b610f7c0",
+    "research-3a8244acbeb71c8f1b51a276",
+    "research-3e042e38a6ac3e37f6226bdf",
+    "research-53d5f515c5959e5d00495f27",
+    "research-58949888b306ad726d60be23",
+    "research-5b048604116d7fcbdce4e705",
+    "research-5e4db1193ded213e791cd417",
+    "research-6b62fedb31c94ffb3dfd83b8",
+    "research-7df22029caef61df6134e885",
+    "research-9698a6d1fc749a4a3df6084e",
+    "research-98350042b636d08a5d424a6c",
+    "research-a183b9437d676713c0f2812f",
+    "research-a333d174361fcf1bed6c0698",
+    "research-a5b580b3d9a62868bf773f08",
+    "research-b2efbf875587dbc4b18f0e68",
+    "research-b30bacd90e74569b33e06bfc",
+    "research-bcebf909d61af9519dc124f3",
+    "research-d22f5bc3f9c80da1a4979ca5",
+    "research-d7687a09b9a84db8c236a706",
+    "research-deadf97a7b6138ba6d316943",
+    "research-fd88375f69e716ff5cbc9fef"
+  ],
+  "firstUserId": "5e93030597596e4f9ac95e36b98e32b5",
+  "taskId": "research-593e3796f4ef22d7e2a6366b",
+  "registerElapsedMs": 279885,
+  "atFollowup": {
+    "id": "research-593e3796f4ef22d7e2a6366b",
+    "status": "running",
+    "evaluated": 0,
+    "matched": 0
+  },
+  "followupUserId": "d6342a91af3afe2cac8254ae583d58e7",
+  "queryElapsedMs": 27303,
+  "afterReply": {
+    "id": "research-593e3796f4ef22d7e2a6366b",
+    "title": "公网运行中续聊回归：真实开放阅读资料",
+    "status": "running",
+    "requested": 3,
+    "evaluated": 0,
+    "matched": 0,
+    "allowHumanAssistance": false,
+    "matchedMeaning": "研究组入选的合格账号数；合格候选总数见qualifying",
+    "updatedAt": 1791840008930,
+    "detail": "正在读取 WaveSurge 原始资料；本地筛选尚未完成",
+    "remoteStatus": "running",
+    "nextPollAt": 1791840008186
+  },
+  "replies": [
+    {
+      "id": "a966786b-a089-4da3-be1d-3e694157a6d9",
+      "text": "已查询最新工具，**「公网运行中续聊回归：真实开放阅读资料」仍在后台运行，尚未完成**。\n\n| 项目 | 最新事实 |\n|---|---|\n| 当前阶段 | 正在读取 WaveSurge 原始资料，本地筛选尚未完成 |\n| 已完成逐人分析／核验 | **0位** |\n| 已入选 | **0／3位** |\n| 目标差额 | 当前还差 **3位**，但这不是最终缺额 |\n\n原任务保持不变：目标3位 Instagram 个人阅读消费者创作者，粉丝1万–10万、地区不限；v3开放搜索关键词 **`bookworm`**，逐人分析预算 **3**、基础资料读取上限 **12**。仅用已有公开文字核验本人阅读／书籍使用体验和个人消费者身份，并标注阅读／书评；不打开网页，不加眼镜或外观条件，不申请人工协助。\n\n本轮只查询，**未新建、取消或扩大任务**，未修改其他任务或系统默认人工确认、VNC设置。本项独立运行，不计入20人补救名单；后台结束后仍会交付实际结果及缺额报告。",
+      "createdAt": 1791840032202
+    }
+  ],
+  "finalTask": {
+    "id": "research-593e3796f4ef22d7e2a6366b",
+    "title": "公网运行中续聊回归：真实开放阅读资料",
+    "status": "partial",
+    "requested": 3,
+    "evaluated": 2,
+    "matched": 1,
+    "qualifying": 1,
+    "allowHumanAssistance": false,
+    "matchedMeaning": "研究组入选的合格账号数；合格候选总数见qualifying",
+    "updatedAt": 1791840179907,
+    "detail": "已选合格 1/3，已核验 2；证据不足者保持待核实。Instagram：读取 12 个本人基础账号，基础条件排除 10 个；基础读取上限 12，逐人分析上限 3（本次有界来源，不代表全站穷尽）。",
+    "remoteStatus": "done",
+    "nextPollAt": 1791840180733
+  },
+  "results": [
+    {
+      "id": "research-593e3796f4ef22d7e2a6366b|instagram:bookwormbunnii",
+      "handle": "bookwormbunnii",
+      "verdict": "unknown",
+      "selected": false
+    },
+    {
+      "id": "research-593e3796f4ef22d7e2a6366b|instagram:bookworm_kimia",
+      "handle": "bookworm_kimia",
+      "verdict": "match",
+      "selected": true
+    }
+  ],
+  "pageErrors": [],
+  "passed": true,
+  "finishedAt": "2026-10-12T21:23:00.368Z"
+}

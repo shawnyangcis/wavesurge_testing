@@ -1,0 +1,284 @@
+{
+  "startedAt": "2026-10-12T23:28:46.828Z",
+  "base": "http://101.201.237.219:33332",
+  "sourceId": "research-9ad67d8142750fb21a31634c",
+  "resultId": "research-9ad67d8142750fb21a31634c|instagram:bookwormcentral",
+  "before": {
+    "result": {
+      "revision": 1,
+      "verdict": "no_match",
+      "selected": false,
+      "country": {
+        "code": "VA",
+        "rawValue": "📍Manassas, VA",
+        "evidenceIds": [
+          "d567edd87cf979b33b426ab5"
+        ]
+      },
+      "conflicts": []
+    },
+    "source": {
+      "spec": {
+        "title": "公网严格验收：本人书卷形象与框架镜（bookworm）",
+        "personaText": "分享第一人称阅读或产品体验的个人消费者创作者，呈现本人书卷形象、阅读生活、Geek穿搭或极客桌面使用场景。",
+        "count": 1,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [
+          "United States",
+          "Canada",
+          "United Kingdom",
+          "Germany",
+          "France",
+          "Netherlands",
+          "Belgium",
+          "Ireland",
+          "Spain",
+          "Italy",
+          "Portugal",
+          "Norway",
+          "Sweden",
+          "Finland",
+          "Denmark",
+          "Switzerland",
+          "Austria",
+          "Poland",
+          "Czech Republic",
+          "Greece"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "candidateBudget": 25,
+        "verificationMode": "auto",
+        "allowHumanAssistance": false,
+        "instagram": {
+          "queries": [
+            "bookworm"
+          ],
+          "version": "v3",
+          "profileBudget": 125
+        },
+        "criteria": [
+          {
+            "id": "personal_geek_bookish_visual",
+            "label": "本人真实公开画面呈现Geek或书卷形象，例如本人在书架前阅读、持书介绍、Geek穿搭或本人极客桌面使用场景。必须实际观察画面像素、看到本人并确认人物归属；书本静物或科技内容主题不能当作本人形象，头像和媒体URL不能替代证据。无最近30天限制；每条证据说明WaveSurge提供的发表时间，缺失为unknown；截图采集时间单独记录，不混为发表时间。缺证unknown，不降低条件凑数。",
+            "required": true,
+            "basis": "visual"
+          },
+          {
+            "id": "daily_framed_glasses_visual",
+            "label": "本人实际公开画面佩戴日常框架眼镜，必须实际观察像素并确认人物是本人；排除墨镜、护目镜、面罩、书封人物和他人，头像或文字不能代替本人内容画面。不推断一直戴镜。无最近30天限制；每条证据说明WaveSurge提供的发表时间，缺失为unknown；截图采集时间单独记录，不混为发表时间。缺证unknown，不降低条件凑数。",
+            "required": true,
+            "basis": "visual"
+          },
+          {
+            "id": "personal_consumer_koc",
+            "label": "个人消费者KOC，依据本人简介及实际内容，有本人第一人称阅读或产品体验；排除品牌、公司、商店、机构、活动官方、明星和纯搬运账号。不能仅以粉丝数认定个人身份；身份或体验缺证unknown。无最近30天限制；每条证据说明WaveSurge提供的发表时间，缺失为unknown，与证据采集时间分开记录。",
+            "required": true,
+            "basis": "text"
+          }
+        ],
+        "annotations": [
+          {
+            "id": "content_direction",
+            "label": "内容方向"
+          },
+          {
+            "id": "presentation_style",
+            "label": "呈现风格"
+          },
+          {
+            "id": "ethnicity_self_description",
+            "label": "族裔本人公开自述",
+            "values": [
+              "unknown"
+            ]
+          }
+        ]
+      },
+      "evaluated": 5,
+      "matched": 1,
+      "status": "completed"
+    },
+    "waveCalls": 1149
+  },
+  "checks": {
+    "auditableCountryCorrection": true,
+    "noNewWaveSearch": true,
+    "scopeAndSelectionsPreserved": true,
+    "automaticDelivery": true
+  },
+  "previousTaskIds": [
+    "enrich-150446afeae8ce042413a76e",
+    "enrich-19b749da2108bcce416e3a31",
+    "enrich-32f9c222ba018ba1748b584e",
+    "enrich-6fcbc9e0deacef35d5bcc9df",
+    "enrich-8871961801ae75d3e4c07269",
+    "enrich-e6bac783cce66bf50203c22a",
+    "research-010f8c5e484e38738b2b3640",
+    "research-329ed36c04d98223b610f7c0",
+    "research-53d5f515c5959e5d00495f27",
+    "research-58949888b306ad726d60be23",
+    "research-5b048604116d7fcbdce4e705",
+    "research-5e4db1193ded213e791cd417",
+    "research-6b62fedb31c94ffb3dfd83b8",
+    "research-7df22029caef61df6134e885",
+    "research-9698a6d1fc749a4a3df6084e",
+    "research-98350042b636d08a5d424a6c",
+    "research-a183b9437d676713c0f2812f",
+    "research-a333d174361fcf1bed6c0698",
+    "research-a5b580b3d9a62868bf773f08",
+    "research-b2efbf875587dbc4b18f0e68",
+    "research-b30bacd90e74569b33e06bfc",
+    "research-bcebf909d61af9519dc124f3",
+    "research-d22f5bc3f9c80da1a4979ca5",
+    "research-d7687a09b9a84db8c236a706",
+    "research-deadf97a7b6138ba6d316943",
+    "research-fd88375f69e716ff5cbc9fef",
+    "enrich-852b54c3a4c8bfabc45ae1b6",
+    "enrich-4442f04a49d556bc97a01bb1",
+    "enrich-1bf84c8def94fbe1951b90a2",
+    "research-3a8244acbeb71c8f1b51a276",
+    "research-3e042e38a6ac3e37f6226bdf",
+    "research-09db3d47bf4ee8edb2830bb3",
+    "research-593e3796f4ef22d7e2a6366b",
+    "research-b7829d5a507c7425f3601697",
+    "research-b6a28edf401b3a52ebb44143",
+    "research-9ad67d8142750fb21a31634c",
+    "research-dbd0a595c74c88337d88bdad"
+  ],
+  "prompt": "请对已有研究「公网严格验收：本人书卷形象与框架镜（bookworm）」（research-9ad67d8142750fb21a31634c）中的已有结果 @bookwormcentral 单独重新核验，resultId=research-9ad67d8142750fb21a31634c|instagram:bookwormcentral。本轮代码已经修复城市、州缩写与国家代码的解析，原始本人账号简介“📍Manassas, VA”指美国弗吉尼亚州，不是梵蒂冈；请复用保存的原始WaveSurge资料并重新查看可访问的公开页面，按原条件如实处理这个已存在账号。保留旧结果修订历史、原研究筛选条件、其他账号和任务，不能重开搜索、添加账号或降低条件。这是已有错误地区记录的审计修订，不是新增入选人数。原研究仅公开资料、不申请人工登录的单任务执行偏好继续保持；遇登录验证则记录页面访问未完成及unknown，不能假称成功或更改系统默认VNC交接流程。结束交付更新报告。范围和重新核验已授权，请直接执行。",
+  "userId": "982ab7c8ea8a5b660cacb5ee883e1dff",
+  "job": {
+    "id": "enrich-76597d2b5b2a492fcf854323",
+    "title": "重新核验：公网严格验收：本人书卷形象与框架镜（bookworm）",
+    "status": "completed",
+    "requested": 1,
+    "evaluated": 1,
+    "matched": 0,
+    "resultTaskId": "research-9ad67d8142750fb21a31634c",
+    "allowHumanAssistance": true,
+    "matchedMeaning": "本轮处理结果中合格的记录数，不是入选人数",
+    "updatedAt": 1791847764010,
+    "detail": "已处理 1 个已有账号；失败 0。 本轮本人主页已观察 1/1；未取得本轮页面证据者不能宣称网页核验成功。"
+  },
+  "after": {
+    "result": {
+      "revision": 2,
+      "verdict": "no_match",
+      "selected": false,
+      "country": {
+        "code": "US",
+        "rawValue": "📍Manassas, VA",
+        "evidenceIds": [
+          "d567edd87cf979b33b426ab5"
+        ]
+      },
+      "conflicts": []
+    },
+    "history": {
+      "code": "VA",
+      "rawValue": "📍Manassas, VA",
+      "evidenceIds": [
+        "d567edd87cf979b33b426ab5"
+      ]
+    },
+    "source": {
+      "spec": {
+        "title": "公网严格验收：本人书卷形象与框架镜（bookworm）",
+        "personaText": "分享第一人称阅读或产品体验的个人消费者创作者，呈现本人书卷形象、阅读生活、Geek穿搭或极客桌面使用场景。",
+        "count": 1,
+        "platforms": [
+          "instagram"
+        ],
+        "regions": [
+          "United States",
+          "Canada",
+          "United Kingdom",
+          "Germany",
+          "France",
+          "Netherlands",
+          "Belgium",
+          "Ireland",
+          "Spain",
+          "Italy",
+          "Portugal",
+          "Norway",
+          "Sweden",
+          "Finland",
+          "Denmark",
+          "Switzerland",
+          "Austria",
+          "Poland",
+          "Czech Republic",
+          "Greece"
+        ],
+        "minFollowers": 10000,
+        "maxFollowers": 100000,
+        "candidateBudget": 25,
+        "verificationMode": "auto",
+        "allowHumanAssistance": false,
+        "instagram": {
+          "queries": [
+            "bookworm"
+          ],
+          "version": "v3",
+          "profileBudget": 125
+        },
+        "criteria": [
+          {
+            "id": "personal_geek_bookish_visual",
+            "label": "本人真实公开画面呈现Geek或书卷形象，例如本人在书架前阅读、持书介绍、Geek穿搭或本人极客桌面使用场景。必须实际观察画面像素、看到本人并确认人物归属；书本静物或科技内容主题不能当作本人形象，头像和媒体URL不能替代证据。无最近30天限制；每条证据说明WaveSurge提供的发表时间，缺失为unknown；截图采集时间单独记录，不混为发表时间。缺证unknown，不降低条件凑数。",
+            "required": true,
+            "basis": "visual"
+          },
+          {
+            "id": "daily_framed_glasses_visual",
+            "label": "本人实际公开画面佩戴日常框架眼镜，必须实际观察像素并确认人物是本人；排除墨镜、护目镜、面罩、书封人物和他人，头像或文字不能代替本人内容画面。不推断一直戴镜。无最近30天限制；每条证据说明WaveSurge提供的发表时间，缺失为unknown；截图采集时间单独记录，不混为发表时间。缺证unknown，不降低条件凑数。",
+            "required": true,
+            "basis": "visual"
+          },
+          {
+            "id": "personal_consumer_koc",
+            "label": "个人消费者KOC，依据本人简介及实际内容，有本人第一人称阅读或产品体验；排除品牌、公司、商店、机构、活动官方、明星和纯搬运账号。不能仅以粉丝数认定个人身份；身份或体验缺证unknown。无最近30天限制；每条证据说明WaveSurge提供的发表时间，缺失为unknown，与证据采集时间分开记录。",
+            "required": true,
+            "basis": "text"
+          }
+        ],
+        "annotations": [
+          {
+            "id": "content_direction",
+            "label": "内容方向"
+          },
+          {
+            "id": "presentation_style",
+            "label": "呈现风格"
+          },
+          {
+            "id": "ethnicity_self_description",
+            "label": "族裔本人公开自述",
+            "values": [
+              "unknown"
+            ]
+          }
+        ]
+      },
+      "evaluated": 5,
+      "matched": 1,
+      "status": "completed"
+    },
+    "waveCalls": 1149
+  },
+  "delivery": {
+    "id": "report-request-982ab7c8ea8a5b660cacb5ee883e1dff-02652643fc612271",
+    "role": "assistant",
+    "text": "本次请求的 1 项工作已全部结束。\n\n- 重新核验：公网严格验收：本人书卷形象与框架镜（bookworm）：已完成；已处理 1 个已有账号；失败 0。 本轮本人主页已观察 1/1；未取得本轮页面证据者不能宣称网页核验成功。 [查看报告](/api/reports/research-9ad67d8142750fb21a31634c)\n\n[查看本次综合报告](/api/work-batches/982ab7c8ea8a5b660cacb5ee883e1dff/report) · [下载综合 CSV](/api/work-batches/982ab7c8ea8a5b660cacb5ee883e1dff/report?format=csv)",
+    "createdAt": 1791847764058,
+    "epoch": 6,
+    "state": "delivered",
+    "attachments": []
+  },
+  "passed": true,
+  "finishedAt": "2026-10-12T23:29:28.209Z"
+}

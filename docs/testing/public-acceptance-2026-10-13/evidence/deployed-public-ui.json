@@ -1,0 +1,54 @@
+{
+  "observedAt": "2026-10-12T23:48:09.349Z",
+  "base": "http://101.201.237.219:33332",
+  "taskId": "research-9ad67d8142750fb21a31634c",
+  "checks": {
+    "inheritedPolicyMatchesExecution": true,
+    "messageTimes": true,
+    "automaticDelivery": true,
+    "removedSettingsSection": true,
+    "vncViewerConnected": true,
+    "resultCountsAndCountry": true,
+    "actualCsvDownload": true,
+    "actualFramedImageLoaded": true,
+    "actualOfflineHtmlDownload": true
+  },
+  "pageErrors": [],
+  "browser": {
+    "isSecureContext": false,
+    "randomUUID": "undefined"
+  },
+  "finalTask": {
+    "id": "research-9ad67d8142750fb21a31634c",
+    "title": "公网严格验收：本人书卷形象与框架镜（bookworm）",
+    "status": "completed",
+    "requested": 1,
+    "evaluated": 5,
+    "matched": 1,
+    "qualifying": 1,
+    "allowHumanAssistance": false,
+    "matchedMeaning": "研究组入选的合格账号数；合格候选总数见qualifying",
+    "updatedAt": 1791847763631,
+    "detail": "已选合格 1/1，已核验 5；证据不足者保持待核实。Instagram：读取 18 个本人基础账号，基础条件排除 13 个；基础读取上限 125，逐人分析上限 25（本次有界来源，不代表全站穷尽）。",
+    "remoteStatus": "running",
+    "nextPollAt": 1791846831607
+  },
+  "executionPolicy": {
+    "source": false,
+    "reverification": false,
+    "otherDefaultTask": true
+  },
+  "csvBytes": 200686,
+  "selectedHandle": "bookwormbullet",
+  "frameEvidence": {
+    "id": "feab29df4adaaa6a6388525a",
+    "assetId": "f978b825310c1263f1b1e991476a3701c134fb808dced52dd49cfbd94c5cd64d",
+    "parentEvidenceId": "1bce5f93e500c98b02471cda",
+    "parentPostUrl": "https://www.instagram.com/p/DeUbnpYqDQd/",
+    "publishedAt": "2026-10-10T15:46:49.000Z",
+    "capturedAt": 1791846832460
+  },
+  "offlineBytes": 530535,
+  "passed": true,
+  "finishedAt": "2026-10-12T23:48:32.133Z"
+}

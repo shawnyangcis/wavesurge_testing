@@ -1,0 +1,28 @@
+{
+  "observedAt": "2026-10-12T21:45:25.190Z",
+  "baselineProtectedRows": 380,
+  "missing": [],
+  "changes": [],
+  "sourceFiles": 62,
+  "sourceMismatch": [],
+  "original": {
+    "id": "research-3a8244acbeb71c8f1b51a276",
+    "title": "Geek风戴眼镜的Instagram KOC新筛选",
+    "status": "partial",
+    "requested": 20,
+    "evaluated": 40,
+    "matched": 0,
+    "updatedAt": 1791824511750,
+    "detail": "已选合格 0/20，已核验 40；证据不足者保持待核实。Instagram：读取 75 个本人基础账号，基础条件排除 35 个；基础读取上限 200，逐人分析上限 40（本次有界来源，不代表全站穷尽）。核验/来源错误 3 次，可对已有结果重新核验。",
+    "nextPollAt": 1791824485852,
+    "failures": [
+      "instagram:bookish.with.yo: The operation was aborted due to timeout",
+      "instagram:kacamata.bantuloptical: The operation was aborted due to timeout",
+      "instagram:bookish.girls.club: fetch failed"
+    ],
+    "deliveryBatchId": "eval2-1791821013158",
+    "discoveryAttempts": 0,
+    "remoteStatus": "done",
+    "qualifying": 0
+  }
+}

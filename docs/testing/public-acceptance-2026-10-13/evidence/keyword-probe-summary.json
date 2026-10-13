@@ -1,0 +1,37 @@
+{
+  "platform": "instagram",
+  "version": "v3",
+  "apiPath": "/instagram/v3/search_users",
+  "queries": [
+    {
+      "word": "booknerd",
+      "ms": 4160,
+      "cursor": false,
+      "total": 30
+    },
+    {
+      "word": "booklover",
+      "ms": 3502,
+      "cursor": false,
+      "total": 30
+    },
+    {
+      "word": "bibliophile",
+      "ms": 2747,
+      "cursor": false,
+      "total": 31
+    },
+    {
+      "word": "geeky",
+      "ms": 2791,
+      "cursor": false,
+      "total": 31
+    },
+    {
+      "word": "techgirl",
+      "error": "WaveSurge 请求失败（400）"
+    }
+  ],
+  "rawRowsTotal": 122,
+  "meaning": "Raw username search rows; not qualified creators"
+}

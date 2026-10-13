@@ -1,0 +1,110 @@
+{
+  "observedAt": "2026-10-12T21:53:43.226Z",
+  "verification": {
+    "tests": 279,
+    "testFiles": 36,
+    "e2e": 5,
+    "typecheck": "passed",
+    "dockerBuild": "passed",
+    "coverage": {
+      "statements": 100,
+      "branches": 100,
+      "functions": 100,
+      "lines": 100,
+      "executableProductionFiles": 60,
+      "emptyFiles": 1
+    }
+  },
+  "publicEntry": {
+    "url": "http://101.201.237.219:33332",
+    "capabilities": {
+      "isSecureContext": false,
+      "randomUUID": "undefined",
+      "getRandomValues": "function"
+    },
+    "checks": {
+      "queryAnswered": true,
+      "noNewOrLostTasks": true,
+      "messageTimes": true,
+      "removedInspectorSection": true,
+      "publicVncReadConnected": true,
+      "terminal": true,
+      "automaticChatDelivery": true,
+      "publicLazyScreenshotLoaded": true,
+      "publicHtmlAndCsv": true
+    },
+    "queryElapsedMs": 67409,
+    "reportBytes": [
+      {
+        "taskId": "research-3e042e38a6ac3e37f6226bdf",
+        "bytes": 4247281
+      },
+      {
+        "taskId": "research-09db3d47bf4ee8edb2830bb3",
+        "bytes": 3341045
+      }
+    ]
+  },
+  "ongoing": {
+    "taskId": "research-593e3796f4ef22d7e2a6366b",
+    "atFollowup": {
+      "id": "research-593e3796f4ef22d7e2a6366b",
+      "status": "running",
+      "evaluated": 0,
+      "matched": 0
+    },
+    "registerElapsedMs": 279885,
+    "queryElapsedMs": 27303,
+    "final": {
+      "status": "partial",
+      "evaluated": 2,
+      "matched": 1,
+      "requested": 3
+    },
+    "checks": {
+      "noNewOrLostTasks": true,
+      "messageDuringActualWork": true,
+      "terminalDelivery": true
+    }
+  },
+  "downloads": {
+    "checks": {
+      "actualCsvDownload": true,
+      "actualFrameEvidenceLoaded": true,
+      "actualOfflineDownload": true
+    },
+    "qualifiedOfflineBytes": 4947448
+  },
+  "preservation": {
+    "protectedRows": 380,
+    "missing": [],
+    "changes": [],
+    "sourceFiles": 62,
+    "sourceMismatch": []
+  },
+  "business": {
+    "original": {
+      "requested": 20,
+      "evaluated": 40,
+      "matched": 0,
+      "passed": false
+    },
+    "rescue": {
+      "records": 65,
+      "uniqueAccounts": 64,
+      "programQualified": 2,
+      "approvedStrictFulfillment": false,
+      "caveats": [
+        "book/bookcase scene rather than proven personal Geek fashion",
+        "one sunglasses video cover rather than ordinary spectacles",
+        "ethnicity self-description unknown"
+      ],
+      "target20Reached": false
+    }
+  },
+  "performanceLimits": {
+    "coldHistoryRegistrationMs": 279885,
+    "oldFullHtmlBytes": 74734325,
+    "oldPublicDownloadTimedOutMs": 180000
+  }
+}

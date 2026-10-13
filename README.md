@@ -4,9 +4,9 @@
 
 支持从 Campaign 的产品、受众和营销目标出发，交互确定不同 Creator 类型、筛选条件和配额，再生成跨组去重的最终名单。
 
-**文档入口：** [架构与 Agent 设计](docs/architecture.md) · [原始实施方案](docs/implementation-plan.md) · [最终测试报告](docs/testing/final-2026-10-11/report.md) · [测试用例集](docs/testing/final-2026-10-11/test-cases.md) · [完整文档索引](docs/README.md)
+**文档入口：** [公网验收与真实结果](docs/testing/public-acceptance-2026-10-13/report.md) · [架构与 Agent 设计](docs/architecture.md) · [原始实施方案](docs/implementation-plan.md) · [历史测试报告](docs/testing/final-2026-10-11/report.md) · [完整文档索引](docs/README.md)
 
-提交前验收跑通了核心研究和 Campaign 流程，上一轮七项问题全部回归通过。最终报告记录了一处重新核验后的源任务说明滞后问题：实际名单、判断、统计和 CSV 正确，任务说明仍可能显示旧人数。原题 20 人组合的真实正向供给仍以可获得证据为准，详见报告中的验证边界。
+2026-10-13 已修复公网 HTTP 发送、上下文阻塞、地区解析和并行文字任务调度。通过原公网地址和真实 WaveSurge API，开放 `bookworm` 严格调整口径完成1/1（本人阅读画面＋日常框架镜），独立开放书评文字研究完成2/2；后者在浏览器任务运行期间先交付。原题仍为0/20，历史静物／墨镜候选不算新严格口径通过。具体条件、耗时、缺额、证据和发布验证见最新报告。
 
 ## 功能与题目要求
 
@@ -88,6 +88,8 @@ Campaign 可以这样开始：
 研究完成、部分完成、失败或取消后，同一次请求已经登记的全部工作都到达终态，程序自动在聊天中发送一次综合交付。候选逐人完成时更新保存结果和进度，最终名单按整批交付。
 
 HTML 包含研究范围、分组、目标、合格候选、实际入选、缺额，以及每位创作者的身份链接、基础资料、逐条件三态判断、匹配说明、画像标签、证据引用和可用截图。Campaign 总文档直接展示入选者的逐人说明；子报告、查询和 CSV 使用相同的最终分配。
+
+在线 HTML 按需加载截图，避免完整研究的图片造成数十 MB 页面。报告顶部可以下载含内嵌截图的离线 HTML；当前筛选范围会保留，离线文件可能较大。截图、原始返回和审计记录完整保存在服务器。
 
 CSV 共 25 列。除基础资料、判断、标签、证据和画像外，还包含记录 ID、来源任务、分组、入选口径、Campaign 分配及独立研究预选，便于逐条复核。
 
@@ -190,14 +192,15 @@ pnpm e2e
 
 `pnpm e2e` 创建隔离 Compose 项目，使用配置的真实模型、受控 WaveSurge 返回及候选网页，执行完整浏览器回归；其中包含桌面协助与持久浏览器恢复用例。退出时清理本次临时容器和网络，保留数据卷，不修改主部署。默认端口 3550/3551，可用 `QA_APP_PORT`、`QA_PERSISTENCE_PORT` 调整。
 
-本次提交前验收排除需要人工接管的场景，执行方式、用例和证据见 [最终测试目录](docs/testing/README.md)。全量历史 E2E 可使用 `pnpm e2e:historical`；依赖既有任务 ID 的历史用例缺少参数时会明确跳过。
+最新回归包含默认人工确认/VNC接管、单次跳过及交还后续跑；另在真实公网入口验证开放搜索、运行中续聊及报告下载，见 [测试目录](docs/testing/README.md)。全量历史 E2E 可使用 `pnpm e2e:historical`；依赖既有任务 ID 的历史用例缺少参数时会明确跳过。
 
 | 测试资料 | 位置 |
 |---|---|
 | 总体方案与分层策略 | [docs/test-plan.md](docs/test-plan.md) |
 | 本轮范围、数据与执行方案 | [docs/testing/final-2026-10-11/test-plan.md](docs/testing/final-2026-10-11/test-plan.md) |
 | 保留的用例集与逐项结论 | [docs/testing/final-2026-10-11/test-cases.md](docs/testing/final-2026-10-11/test-cases.md) |
-| 最终验收报告 | [docs/testing/final-2026-10-11/report.md](docs/testing/final-2026-10-11/report.md) |
+| 最新公网验收 | [docs/testing/public-acceptance-2026-10-13/report.md](docs/testing/public-acceptance-2026-10-13/report.md) |
+| 历史验收报告（含更正） | [docs/testing/final-2026-10-11/report.md](docs/testing/final-2026-10-11/report.md) |
 | 过程截图和结构化证据 | [docs/testing/final-2026-10-11/screenshots.md](docs/testing/final-2026-10-11/screenshots.md)、该目录下 `evidence/` |
 | R4 修复依据与阶段验证 | [reports/retest-r4-fixes-2026-10-10.md](reports/retest-r4-fixes-2026-10-10.md) |
 | 桌面实现与复用说明 | [docs/container-computer-use.md](docs/container-computer-use.md) |

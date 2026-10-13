@@ -1,0 +1,11 @@
+{
+  "startedAt": "2026-10-12T21:46:20.422Z",
+  "checks": {
+    "actualCsvDownload": true,
+    "actualFrameEvidenceLoaded": true,
+    "actualOfflineDownload": true
+  },
+  "offlineBytes": 4947448,
+  "passed": true,
+  "finishedAt": "2026-10-12T21:47:35.963Z"
+}

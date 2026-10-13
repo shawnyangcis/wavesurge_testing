@@ -1,0 +1,616 @@
+{
+  "base": "http://101.201.237.219:33332",
+  "title": "公网最终发布验收：开放书评KOC",
+  "prompt": "请帮我找2位Instagram个人书评KOC，研究命名为「公网最终发布验收：开放书评KOC」，粉丝1万至10万，地区不限。必须有本人第一人称阅读或使用书籍的体验，排除出版社、商店、品牌、机构官方、明星和纯搬运账号。只核验已有公开文字，标注内容方向和呈现方式。用booknerd、booklover做开放账号搜索，不指定账号；分析预算8人、基础账号读取上限50。请直接开始，结束给我报告和CSV。此用例验证文字筛选，不代表严格外观名单；本人书卷形象与日常框架眼镜那项研究继续执行。",
+  "startedAt": "2026-10-12T23:48:09.285Z",
+  "checks": {
+    "naturalScope": true,
+    "realOpenTarget": true,
+    "automaticDelivery": true,
+    "previousTasksPreserved": true,
+    "exports": true
+  },
+  "pageErrors": [],
+  "browser": {
+    "isSecureContext": false,
+    "randomUUID": "undefined"
+  },
+  "previousTaskIds": [
+    "enrich-150446afeae8ce042413a76e",
+    "enrich-19b749da2108bcce416e3a31",
+    "enrich-32f9c222ba018ba1748b584e",
+    "enrich-6fcbc9e0deacef35d5bcc9df",
+    "enrich-8871961801ae75d3e4c07269",
+    "enrich-e6bac783cce66bf50203c22a",
+    "research-010f8c5e484e38738b2b3640",
+    "research-329ed36c04d98223b610f7c0",
+    "research-53d5f515c5959e5d00495f27",
+    "research-58949888b306ad726d60be23",
+    "research-5b048604116d7fcbdce4e705",
+    "research-5e4db1193ded213e791cd417",
+    "research-6b62fedb31c94ffb3dfd83b8",
+    "research-7df22029caef61df6134e885",
+    "research-9698a6d1fc749a4a3df6084e",
+    "research-98350042b636d08a5d424a6c",
+    "research-a183b9437d676713c0f2812f",
+    "research-a333d174361fcf1bed6c0698",
+    "research-a5b580b3d9a62868bf773f08",
+    "research-b2efbf875587dbc4b18f0e68",
+    "research-b30bacd90e74569b33e06bfc",
+    "research-bcebf909d61af9519dc124f3",
+    "research-d22f5bc3f9c80da1a4979ca5",
+    "research-d7687a09b9a84db8c236a706",
+    "research-deadf97a7b6138ba6d316943",
+    "research-fd88375f69e716ff5cbc9fef",
+    "enrich-852b54c3a4c8bfabc45ae1b6",
+    "enrich-4442f04a49d556bc97a01bb1",
+    "enrich-1bf84c8def94fbe1951b90a2",
+    "research-3a8244acbeb71c8f1b51a276",
+    "research-3e042e38a6ac3e37f6226bdf",
+    "research-09db3d47bf4ee8edb2830bb3",
+    "research-593e3796f4ef22d7e2a6366b",
+    "research-b7829d5a507c7425f3601697",
+    "research-b6a28edf401b3a52ebb44143",
+    "research-9ad67d8142750fb21a31634c",
+    "research-dbd0a595c74c88337d88bdad",
+    "enrich-76597d2b5b2a492fcf854323"
+  ],
+  "userId": "a397e620628ee00890647d908ae4209f",
+  "requestCreatedAt": 1791848895142,
+  "registerElapsedMs": 14726,
+  "taskId": "research-d8b24e517e7613d03f994eee",
+  "spec": {
+    "title": "公网最终发布验收：开放书评KOC",
+    "personaText": "个人书评与阅读消费者创作者，分享本人第一人称阅读感受或使用书籍的体验。",
+    "count": 2,
+    "platforms": [
+      "instagram"
+    ],
+    "regions": [],
+    "minFollowers": 10000,
+    "maxFollowers": 100000,
+    "candidateBudget": 8,
+    "verificationMode": "text",
+    "instagram": {
+      "queries": [
+        "booknerd",
+        "booklover"
+      ],
+      "version": "v3",
+      "profileBudget": 50
+    },
+    "criteria": [
+      {
+        "id": "personal_review_koc",
+        "label": "个人书评消费者KOC，依据本人简介与已有公开文字核验个人分享身份；排除出版社、商店、品牌、公司、机构官方、明星和纯搬运账号。身份缺证保持unknown。",
+        "required": true,
+        "basis": "text"
+      },
+      {
+        "id": "first_person_book_experience",
+        "label": "已有公开文字必须包含本人第一人称阅读或使用书籍的实际体验；仅书单、宣传、他人转述或主题相关性不能替代本人体验，缺证保持unknown。",
+        "required": true,
+        "basis": "text"
+      }
+    ],
+    "annotations": [
+      {
+        "id": "content_direction",
+        "label": "内容方向"
+      },
+      {
+        "id": "presentation_method",
+        "label": "呈现方式"
+      }
+    ]
+  },
+  "finalTask": {
+    "id": "research-d8b24e517e7613d03f994eee",
+    "title": "公网最终发布验收：开放书评KOC",
+    "status": "completed",
+    "requested": 2,
+    "evaluated": 3,
+    "matched": 2,
+    "qualifying": 2,
+    "allowHumanAssistance": true,
+    "matchedMeaning": "研究组入选的合格账号数；合格候选总数见qualifying",
+    "updatedAt": 1791849101047,
+    "detail": "已选合格 2/2，已核验 3；证据不足者保持待核实。Instagram：读取 7 个本人基础账号，基础条件排除 4 个；基础读取上限 50，逐人分析上限 8（本次有界来源，不代表全站穷尽）。",
+    "remoteStatus": "running",
+    "nextPollAt": 1791849073545
+  },
+  "totalElapsedMs": 205905,
+  "otherTasksAtCompletion": [
+    {
+      "id": "enrich-150446afeae8ce042413a76e",
+      "status": "completed",
+      "evaluated": 2,
+      "matched": 0
+    },
+    {
+      "id": "enrich-19b749da2108bcce416e3a31",
+      "status": "partial",
+      "evaluated": 2,
+      "matched": 2
+    },
+    {
+      "id": "enrich-32f9c222ba018ba1748b584e",
+      "status": "completed",
+      "evaluated": 2,
+      "matched": 0
+    },
+    {
+      "id": "enrich-6fcbc9e0deacef35d5bcc9df",
+      "status": "completed",
+      "evaluated": 1,
+      "matched": 0
+    },
+    {
+      "id": "enrich-8871961801ae75d3e4c07269",
+      "status": "completed",
+      "evaluated": 2,
+      "matched": 0
+    },
+    {
+      "id": "enrich-e6bac783cce66bf50203c22a",
+      "status": "completed",
+      "evaluated": 2,
+      "matched": 0
+    },
+    {
+      "id": "research-010f8c5e484e38738b2b3640",
+      "status": "completed",
+      "evaluated": 1,
+      "matched": 1
+    },
+    {
+      "id": "research-329ed36c04d98223b610f7c0",
+      "status": "partial",
+      "evaluated": 0,
+      "matched": 0
+    },
+    {
+      "id": "research-53d5f515c5959e5d00495f27",
+      "status": "cancelled",
+      "evaluated": 0,
+      "matched": 0
+    },
+    {
+      "id": "research-58949888b306ad726d60be23",
+      "status": "completed",
+      "evaluated": 2,
+      "matched": 1
+    },
+    {
+      "id": "research-5b048604116d7fcbdce4e705",
+      "status": "cancelled",
+      "evaluated": 0,
+      "matched": 0
+    },
+    {
+      "id": "research-5e4db1193ded213e791cd417",
+      "status": "partial",
+      "evaluated": 1,
+      "matched": 0
+    },
+    {
+      "id": "research-6b62fedb31c94ffb3dfd83b8",
+      "status": "completed",
+      "evaluated": 2,
+      "matched": 1
+    },
+    {
+      "id": "research-7df22029caef61df6134e885",
+      "status": "completed",
+      "evaluated": 1,
+      "matched": 1
+    },
+    {
+      "id": "research-9698a6d1fc749a4a3df6084e",
+      "status": "cancelled",
+      "evaluated": 0,
+      "matched": 0
+    },
+    {
+      "id": "research-98350042b636d08a5d424a6c",
+      "status": "partial",
+      "evaluated": 0,
+      "matched": 0
+    },
+    {
+      "id": "research-a183b9437d676713c0f2812f",
+      "status": "partial",
+      "evaluated": 3,
+      "matched": 0
+    },
+    {
+      "id": "research-a333d174361fcf1bed6c0698",
+      "status": "partial",
+      "evaluated": 1,
+      "matched": 1
+    },
+    {
+      "id": "research-a5b580b3d9a62868bf773f08",
+      "status": "completed",
+      "evaluated": 1,
+      "matched": 1
+    },
+    {
+      "id": "research-b2efbf875587dbc4b18f0e68",
+      "status": "cancelled",
+      "evaluated": 0,
+      "matched": 0
+    },
+    {
+      "id": "research-b30bacd90e74569b33e06bfc",
+      "status": "partial",
+      "evaluated": 2,
+      "matched": 0
+    },
+    {
+      "id": "research-bcebf909d61af9519dc124f3",
+      "status": "partial",
+      "evaluated": 1,
+      "matched": 0
+    },
+    {
+      "id": "research-d22f5bc3f9c80da1a4979ca5",
+      "status": "completed",
+      "evaluated": 2,
+      "matched": 1
+    },
+    {
+      "id": "research-d7687a09b9a84db8c236a706",
+      "status": "partial",
+      "evaluated": 0,
+      "matched": 0
+    },
+    {
+      "id": "research-deadf97a7b6138ba6d316943",
+      "status": "completed",
+      "evaluated": 1,
+      "matched": 1
+    },
+    {
+      "id": "research-fd88375f69e716ff5cbc9fef",
+      "status": "partial",
+      "evaluated": 2,
+      "matched": 0
+    },
+    {
+      "id": "enrich-852b54c3a4c8bfabc45ae1b6",
+      "status": "completed",
+      "evaluated": 2,
+      "matched": 2
+    },
+    {
+      "id": "enrich-4442f04a49d556bc97a01bb1",
+      "status": "completed",
+      "evaluated": 2,
+      "matched": 0
+    },
+    {
+      "id": "enrich-1bf84c8def94fbe1951b90a2",
+      "status": "completed",
+      "evaluated": 2,
+      "matched": 0
+    },
+    {
+      "id": "research-3a8244acbeb71c8f1b51a276",
+      "status": "partial",
+      "evaluated": 40,
+      "matched": 0
+    },
+    {
+      "id": "research-3e042e38a6ac3e37f6226bdf",
+      "status": "partial",
+      "evaluated": 35,
+      "matched": 0
+    },
+    {
+      "id": "research-09db3d47bf4ee8edb2830bb3",
+      "status": "partial",
+      "evaluated": 30,
+      "matched": 2
+    },
+    {
+      "id": "research-593e3796f4ef22d7e2a6366b",
+      "status": "partial",
+      "evaluated": 2,
+      "matched": 1
+    },
+    {
+      "id": "research-b7829d5a507c7425f3601697",
+      "status": "partial",
+      "evaluated": 25,
+      "matched": 0
+    },
+    {
+      "id": "research-b6a28edf401b3a52ebb44143",
+      "status": "completed",
+      "evaluated": 4,
+      "matched": 2
+    },
+    {
+      "id": "research-9ad67d8142750fb21a31634c",
+      "status": "completed",
+      "evaluated": 5,
+      "matched": 1
+    },
+    {
+      "id": "research-dbd0a595c74c88337d88bdad",
+      "status": "completed",
+      "evaluated": 3,
+      "matched": 2
+    },
+    {
+      "id": "enrich-76597d2b5b2a492fcf854323",
+      "status": "completed",
+      "evaluated": 1,
+      "matched": 0
+    }
+  ],
+  "results": [
+    {
+      "id": "research-d8b24e517e7613d03f994eee|instagram:booknerd_sa",
+      "handle": "booknerd_sa",
+      "followers": 12445,
+      "selected": false,
+      "verdict": "no_match",
+      "judgments": [
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 12445，要求 10000–100000",
+          "evidenceIds": [
+            "fe12c79f7b0c66debc6f7ea6"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "personal_review_koc",
+          "verdict": "no_match",
+          "reason": "已有 WaveSurge 主页文字明确自述“A community bookshop in San Antonio, TX”，帖子亦以“The Book Nerd team”和“your community bookshop”介绍开店周年，明确是社区书店账号，属于条件排除的商店而非个人消费者KOC。本轮仅复用既有文字，未重新访问主页。",
+          "evidenceIds": [
+            "fe12c79f7b0c66debc6f7ea6",
+            "3934b25e1650bc87f00e3d98"
+          ],
+          "label": "个人书评消费者KOC，依据本人简介与已有公开文字核验个人分享身份；排除出版社、商店、品牌、公司、机构官方、明星和纯搬运账号。身份缺证保持unknown。"
+        },
+        {
+          "criterionId": "first_person_book_experience",
+          "verdict": "unknown",
+          "reason": "提供的既有帖子文字是新书上架、预订、作者活动及店庆宣传；“We”等第一人称指书店团队的运营活动，不是本人阅读或使用书籍的实际体验。书籍内容介绍亦不能替代亲身阅读感受，现有资料缺少该条件的证据。",
+          "evidenceIds": [
+            "0b5101b627adbdaece03382c",
+            "d6c5930f485fd9c84bbcc59b",
+            "537b71f602b3a5e911c366c5",
+            "3934b25e1650bc87f00e3d98"
+          ],
+          "label": "已有公开文字必须包含本人第一人称阅读或使用书籍的实际体验；仅书单、宣传、他人转述或主题相关性不能替代本人体验，缺证保持unknown。"
+        }
+      ],
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "社区书店运营",
+            "新书上架与预订推广",
+            "作者与阅读社区活动"
+          ],
+          "reason": "WaveSurge 提供的简介及帖子文案明确介绍社区书店、新书展示与预订、作者新书活动和禁书周讨论。依据既有文字而非本轮网页观察。",
+          "evidenceIds": [
+            "fe12c79f7b0c66debc6f7ea6",
+            "0b5101b627adbdaece03382c",
+            "537b71f602b3a5e911c366c5",
+            "d6c5930f485fd9c84bbcc59b",
+            "0b1d9f6167338fe290c3f8a6"
+          ]
+        },
+        {
+          "dimensionId": "presentation_method",
+          "status": "supported",
+          "values": [
+            "书店团队口吻",
+            "活动公告",
+            "推广文案"
+          ],
+          "reason": "已有文案使用“We”“Our”和“The Book Nerd team”发声，并通过“Join us”和“Pre-Order”等形式发布活动邀约及销售推广；未观察图片或视频像素，不判断视觉呈现。",
+          "evidenceIds": [
+            "3934b25e1650bc87f00e3d98",
+            "0b5101b627adbdaece03382c",
+            "0b1d9f6167338fe290c3f8a6",
+            "537b71f602b3a5e911c366c5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "research-d8b24e517e7613d03f994eee|instagram:booknerdkat",
+      "handle": "booknerdkat",
+      "followers": 15757,
+      "selected": true,
+      "verdict": "match",
+      "judgments": [
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 15757，要求 10000–100000",
+          "evidenceIds": [
+            "77ee09eec197e7934090f5c0"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "personal_review_koc",
+          "verdict": "match",
+          "reason": "依据本轮提供的 WaveSurge 既有文字（capturedAt=1791848998064），主页自述“Midlife reader & writer with diverse tastes”，并以个人口吻持续发布书评、阅读感受和自己的生活联想，支持个人阅读消费者分享身份，而非出版社、商店、机构官方或纯搬运账号。赠书合作披露不改变其个人书评身份。本轮未重新访问页面。",
+          "evidenceIds": [
+            "77ee09eec197e7934090f5c0",
+            "46212633e7e2eefa12388f81",
+            "d603605f65d11aadb26abd5e",
+            "f3d6421d513261f9f8721b9b"
+          ],
+          "label": "个人书评消费者KOC，依据本人简介与已有公开文字核验个人分享身份；排除出版社、商店、品牌、公司、机构官方、明星和纯搬运账号。身份缺证保持unknown。"
+        },
+        {
+          "criterionId": "first_person_book_experience",
+          "verdict": "match",
+          "reason": "WaveSurge 帖子文字明确包含本人实际阅读体验：2026-10-12 的 BIRTH LANGUAGE 书评写道“Birth Language challenged me”“But as I read, I forgot to be afraid”；2026-10-08 的书评说明“I read the book via @librofm”和“I devoured this book in one day”；2026-09-29 的 TAXI DANCER 书评写道“I read it in a day”。这些是本人阅读过程与感受，不仅是书单或宣传。日期依据 publishedAt，非采集时间；本轮仅复用已有文字。",
+          "evidenceIds": [
+            "46212633e7e2eefa12388f81",
+            "d603605f65d11aadb26abd5e",
+            "135a65a3b7bd1dec6160d7c1"
+          ],
+          "label": "已有公开文字必须包含本人第一人称阅读或使用书籍的实际体验；仅书单、宣传、他人转述或主题相关性不能替代本人体验，缺证保持unknown。"
+        }
+      ],
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "个人书评与阅读感受",
+            "小说与诗歌阅读",
+            "菲律宾及亚裔移民文学"
+          ],
+          "reason": "既有帖子文字包含小说、诗集书评，并反复讨论菲律宾及亚裔移民故事、身份与文化；画像仅依据 WaveSurge 已提供文案。",
+          "evidenceIds": [
+            "46212633e7e2eefa12388f81",
+            "135a65a3b7bd1dec6160d7c1",
+            "f3d6421d513261f9f8721b9b",
+            "b9648d660c7a743c0a097d60"
+          ]
+        },
+        {
+          "dimensionId": "presentation_method",
+          "status": "supported",
+          "values": [
+            "第一人称长文书评",
+            "阅读与个人经历联想",
+            "书单推荐"
+          ],
+          "reason": "文案以第一人称展开长篇评论、阅读感受和个人经历联想，另有夏季阅读分享与主题书单。仅确认文字呈现方式，未观察照片或视频像素。",
+          "evidenceIds": [
+            "46212633e7e2eefa12388f81",
+            "f3d6421d513261f9f8721b9b",
+            "3256b3d769aaadd7fdacbc67",
+            "b9648d660c7a743c0a097d60"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "research-d8b24e517e7613d03f994eee|instagram:bookloveraly",
+      "handle": "bookloveraly",
+      "followers": 39371,
+      "selected": true,
+      "verdict": "match",
+      "judgments": [
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 39371，要求 10000–100000",
+          "evidenceIds": [
+            "cdcebbb829e2c40dfad7c5a8"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "personal_review_koc",
+          "verdict": "match",
+          "reason": "依据已提供的 WaveSurge 本人简介与帖子文字（capturedAt=1791849050278，并非本轮重新访问）：简介自称“just another fangirl obsessed with books”，明确分享“recs, reviews & content warnings”；2026-10-10 阅读更新以个人口吻描述学校、工作及同时阅读三本书，2026-09-23 描述本人购书及选择版本的过程。资料支持个人阅读消费者分享身份，而非出版社、商店、机构官方或纯搬运账号；合作及UGC联系方式不改变此身份。",
+          "evidenceIds": [
+            "cdcebbb829e2c40dfad7c5a8",
+            "38414c330aad8d3eb1fa87c3",
+            "70d5e8d1af358a8ec8643935"
+          ],
+          "label": "个人书评消费者KOC，依据本人简介与已有公开文字核验个人分享身份；排除出版社、商店、品牌、公司、机构官方、明星和纯搬运账号。身份缺证保持unknown。"
+        },
+        {
+          "criterionId": "first_person_book_experience",
+          "verdict": "match",
+          "reason": "已有 WaveSurge 帖子文字包含具体第一人称阅读体验：publishedAt 为2026-10-10的阅读更新说明正在读三本书，对 A Mirror of Infinite Endings 和 Undone 表达喜爱；2026-10-05月度回顾给 House of Sky & Breath 四星、评价结尾，并表示 House of Flame & Shadow 已读50%且喜欢；2026-10-08虽为赞助帖，仍明确写出“i was squealing every other page”及重返 Winter Woods 的本人阅读感受。并非仅书单或宣传。以上为既有文字证据，未重新访问页面。",
+          "evidenceIds": [
+            "38414c330aad8d3eb1fa87c3",
+            "a5c47d0e12de859faec840a4",
+            "32380b26948d8a2a42715e25"
+          ],
+          "label": "已有公开文字必须包含本人第一人称阅读或使用书籍的实际体验；仅书单、宣传、他人转述或主题相关性不能替代本人体验，缺证保持unknown。"
+        }
+      ],
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "个人书评与阅读更新",
+            "奇幻与浪漫小说推荐",
+            "书籍消费与购书分享",
+            "秋季生活方式与穿搭"
+          ],
+          "reason": "WaveSurge既有简介与帖子文字支持书评、当前阅读和奇幻/浪漫小说推荐；购书帖具体描述购买书目与封面选择；穿搭帖以 Gilmore Girls 为灵感分享服饰。仅依据文字内容归纳，未观察图片像素。",
+          "evidenceIds": [
+            "cdcebbb829e2c40dfad7c5a8",
+            "38414c330aad8d3eb1fa87c3",
+            "417278db4b1d00b160d468d6",
+            "70d5e8d1af358a8ec8643935",
+            "622ba0db83d821c59914b58f"
+          ]
+        },
+        {
+          "dimensionId": "presentation_method",
+          "status": "supported",
+          "values": [
+            "第一人称阅读感受",
+            "阅读进度与月度总结",
+            "主题书单推荐",
+            "穿搭与书籍推荐结合"
+          ],
+          "reason": "既有帖文以第一人称描述阅读进度与情绪，使用月度回顾和星级评价；另有角色氛围主题书单及“pick an outfit get a fall book rec”的穿搭配书推荐。此处描述文字呈现方式，不据资源链接推断视觉风格。",
+          "evidenceIds": [
+            "38414c330aad8d3eb1fa87c3",
+            "a5c47d0e12de859faec840a4",
+            "bcafbc6d2f3781b54d29fb44",
+            "5563275d0c1308eb9a90c856"
+          ]
+        }
+      ]
+    }
+  ],
+  "delivery": {
+    "id": "report-request-a397e620628ee00890647d908ae4209f-356248261bbb6984",
+    "role": "assistant",
+    "text": "本次请求的 1 项工作已全部结束。\n\n- 公网最终发布验收：开放书评KOC：已完成；已选合格 2/2，已核验 3；证据不足者保持待核实。Instagram：读取 7 个本人基础账号，基础条件排除 4 个；基础读取上限 50，逐人分析上限 8（本次有界来源，不代表全站穷尽）。 [查看报告](/api/reports/research-d8b24e517e7613d03f994eee)\n\n[查看本次综合报告](/api/work-batches/a397e620628ee00890647d908ae4209f/report) · [下载综合 CSV](/api/work-batches/a397e620628ee00890647d908ae4209f/report?format=csv)",
+    "createdAt": 1791849101156,
+    "epoch": 6,
+    "state": "delivered",
+    "attachments": []
+  },
+  "htmlBytes": 497328,
+  "csvBytes": 655062,
+  "passed": true,
+  "finishedAt": "2026-10-12T23:51:56.231Z"
+}
