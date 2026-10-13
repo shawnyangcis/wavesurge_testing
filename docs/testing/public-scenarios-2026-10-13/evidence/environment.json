@@ -1,0 +1,70 @@
+{
+  "observedAt": "2026-10-13T01:43:30.603Z",
+  "publicEntry": "http://101.201.237.219:33332/",
+  "codeCommit": "9a79ed49d3e11052ad69a3064d271b3ce0fcce47",
+  "documentationHeadAtTest": "93a51ce6089a3e424793bd686a47f39a55d5c5f6",
+  "sourceFiles": 62,
+  "sourceMismatch": [],
+  "uncommittedSource": [],
+  "protectedOriginal": {
+    "rows": 380,
+    "missing": [],
+    "changed": []
+  },
+  "protectedPredeploy": {
+    "rows": 521,
+    "missing": [],
+    "changed": []
+  },
+  "app": {
+    "status": "running",
+    "health": "healthy"
+  },
+  "desktop": {
+    "status": "running",
+    "health": "healthy"
+  },
+  "image": "sha256:30df27a277dbec7a1ba443ff377ab3b5425b1a2ce64ece8a9cf618f0de367909",
+  "publicHealth": {
+    "status": 200,
+    "body": {
+      "ok": true
+    }
+  },
+  "waveWindow": {
+    "from": "2026-10-13T00:56:44.752Z",
+    "until": "2026-10-13T01:15:53.088Z",
+    "attribution": "两个研究共同执行窗口，接口调用合计，不逐任务分摊",
+    "summary": {
+      "/instagram/v1/fetch_user_posts": {
+        "calls": 30,
+        "http200": 29,
+        "errors": 1
+      },
+      "/instagram/v1/fetch_user_info_by_username_v2": {
+        "calls": 79,
+        "http200": 79,
+        "errors": 0
+      },
+      "/instagram/v2/fetch_post_info": {
+        "calls": 28,
+        "http200": 28,
+        "errors": 0
+      },
+      "/instagram/v3/search_users": {
+        "calls": 6,
+        "http200": 6,
+        "errors": 0
+      }
+    },
+    "failures": [
+      {
+        "path": "/instagram/v1/fetch_user_posts",
+        "status": 400,
+        "error": "WaveSurge 请求失败（400）"
+      }
+    ]
+  },
+  "waveOfficialEndpoint": true,
+  "passed": true
+}

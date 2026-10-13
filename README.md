@@ -4,9 +4,9 @@
 
 支持从 Campaign 的产品、受众和营销目标出发，交互确定不同 Creator 类型、筛选条件和配额，再生成跨组去重的最终名单。
 
-**文档入口：** [公网验收与真实结果](docs/testing/public-acceptance-2026-10-13/report.md) · [架构与 Agent 设计](docs/architecture.md) · [原始实施方案](docs/implementation-plan.md) · [历史测试报告](docs/testing/final-2026-10-11/report.md) · [完整文档索引](docs/README.md)
+**文档入口：** [公网多场景端到端验收](docs/testing/public-scenarios-2026-10-13/report.md) · [架构与 Agent 设计](docs/architecture.md) · [原始实施方案](docs/implementation-plan.md) · [测试记录](docs/testing/README.md) · [完整文档索引](docs/README.md)
 
-2026-10-13 已修复公网 HTTP 发送、上下文阻塞、地区解析和并行文字任务调度。通过原公网地址和真实 WaveSurge API，开放 `bookworm` 严格调整口径完成1/1（本人阅读画面＋日常框架镜），独立开放书评文字研究完成2/2；后者在浏览器任务运行期间先交付。原题仍为0/20，历史静物／墨镜候选不算新严格口径通过。具体条件、耗时、缺额、证据和发布验证见最新报告。
+支持通过公网 HTTP 页面发送自然语言需求，由 Agent 选择检索词、读取真实 WaveSurge 资料并逐人核验；运行中可继续查询进度，结束后自动交付报告和 CSV。2026-10-13 实际开放搜索完成跑步场景3/3、家用咖啡场景2/2。最新验收按具体场景列出输入范围、实际人数、匹配依据和下载结果，便于直接复核和重跑。
 
 ## 功能与题目要求
 
@@ -61,11 +61,11 @@ docker compose down
 
 直接筛选可以这样开始：
 
-> 帮我找20个 geek风、戴眼镜、欧美白人，粉丝数在1万到10万之间的 ins 平台 KOC。
+> 找3位Instagram跑步类个人创作者，粉丝1万至10万，地区不限。必须有本人第一人称的跑步训练、马拉松或越野跑参赛体验，排除运动品牌、店铺、赛事或机构官方、明星和纯搬运。只核验公开文字，标注内容方向与表达方式。请自行选择英文检索词开放搜索，不指定账号；分析预算12人，基础资料最多80个账号。请直接开始，结束在聊天里给我报告和CSV。
 
-助手会澄清 geek 的判断口径、地区和自述要求。外观条件需要实际图像证据；族裔只依据本人明确公开自述，不从照片推断。没有证据的条件保留为待核实，不用未知候选补齐名额。
+助手把平台、数量、粉丝区间和个人体验条件分别保存，再选择检索词获取候选。每位包含逐条件判断、实际内容标签与来源；信息不足保留为待核实。需要外观判断时，可明确要求实际图像核验；必要页面被登录或验证码阻塞时，默认先请求用户确认，再移交同一VNC浏览器。
 
-适合演示一轮完整文字研究的输入：
+也支持精确指定账号的研究：
 
 > 帮我看看 Instagram 的 tylerlcrawford 和 valstechtalkk，粉丝1万到10万，地区不限。我要分享数码产品实际使用经验的个人创作者，两个人都分析并标一下内容方向、表达风格，最后选1位。先只看已有文字资料，不打开网页。这批全结束再给我报告。
 
@@ -157,7 +157,7 @@ flowchart LR
 | `src/client/` | 对话、消息时间、任务、方案、结果、设置与桌面页面 |
 | `src/desktop/`、`deploy/` | 持久 Chromium、页面观察/输入协议、容器图形环境 |
 | `tests/` | 单元、集成、React 交互、浏览器端到端用例及受控夹具 |
-| `docs/`、`reports/` | 设计、接口参考、测试方案、最终报告及历史修复记录 |
+| `docs/`、`dev-reports/` | 设计、接口参考、测试方案、最终报告及历史修复记录 |
 
 ## WaveSurge 数据路径与边界
 
@@ -199,10 +199,11 @@ pnpm e2e
 | 总体方案与分层策略 | [docs/test-plan.md](docs/test-plan.md) |
 | 本轮范围、数据与执行方案 | [docs/testing/final-2026-10-11/test-plan.md](docs/testing/final-2026-10-11/test-plan.md) |
 | 保留的用例集与逐项结论 | [docs/testing/final-2026-10-11/test-cases.md](docs/testing/final-2026-10-11/test-cases.md) |
-| 最新公网验收 | [docs/testing/public-acceptance-2026-10-13/report.md](docs/testing/public-acceptance-2026-10-13/report.md) |
+| 最新公网多场景验收 | [docs/testing/public-scenarios-2026-10-13/report.md](docs/testing/public-scenarios-2026-10-13/report.md) |
+| 历史补救与发布记录 | [docs/testing/public-acceptance-2026-10-13/report.md](docs/testing/public-acceptance-2026-10-13/report.md) |
 | 历史验收报告（含更正） | [docs/testing/final-2026-10-11/report.md](docs/testing/final-2026-10-11/report.md) |
 | 过程截图和结构化证据 | [docs/testing/final-2026-10-11/screenshots.md](docs/testing/final-2026-10-11/screenshots.md)、该目录下 `evidence/` |
-| R4 修复依据与阶段验证 | [reports/retest-r4-fixes-2026-10-10.md](reports/retest-r4-fixes-2026-10-10.md) |
+| R4 修复依据与阶段验证 | [dev-reports/retest-r4-fixes-2026-10-10.md](dev-reports/retest-r4-fixes-2026-10-10.md) |
 | 桌面实现与复用说明 | [docs/container-computer-use.md](docs/container-computer-use.md) |
 
 `.gitignore` 排除真实 `.env`、密码/数据库/浏览器状态、依赖、构建、覆盖率和临时执行材料；提交的最终测试文档及精选证据保存在 `docs/testing/`。历史本机原始 QA 工作目录保留在 `.gstack/qa-reports/`，不随 Git 提交。

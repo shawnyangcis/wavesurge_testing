@@ -1,0 +1,717 @@
+{
+  "scenario": "coffee",
+  "title": "公网场景验收：家用咖啡制作体验",
+  "base": "http://101.201.237.219:33332",
+  "prompt": "请帮我找2位Instagram个人咖啡爱好者，研究命名为「公网场景验收：家用咖啡制作体验」。粉丝1万至10万，地区不限。必须在公开文字里分享本人在家制作手冲或意式咖啡的第一人称实际体验；排除咖啡品牌、咖啡店、器材商、机构官方、明星和纯搬运账号。只核验已有公开文字，不需要外观判断。标注内容方向和表达方式。请自行选择适合的英文账号检索词开放搜索，不指定账号；逐人分析预算12人，基础资料最多读取80个账号。请直接开始，结束在聊天里给我名单、逐人匹配说明、报告和CSV。保留其他任务。",
+  "startedAt": "2026-10-13T00:57:09.063Z",
+  "checks": {
+    "publicHttpSubmission": true,
+    "naturalScopeAndAgentKeywords": true,
+    "realQualifiedTarget": true,
+    "selectedHaveRequiredEvidence": true,
+    "automaticChatDelivery": true,
+    "previousTasksPreserved": true,
+    "actualCsvDownload": true,
+    "resultFiltering": true,
+    "onlineReport": true,
+    "actualOfflineHtmlDownload": true,
+    "persistedAfterReload": true,
+    "noBrowserPageErrors": true
+  },
+  "pageErrors": [],
+  "progress": [
+    {
+      "observedAt": "2026-10-13T00:57:29.666Z",
+      "status": "queued",
+      "evaluated": 0,
+      "selected": 0,
+      "requested": 2
+    },
+    {
+      "observedAt": "2026-10-13T00:59:01.294Z",
+      "status": "running",
+      "evaluated": 0,
+      "selected": 0,
+      "requested": 2
+    },
+    {
+      "observedAt": "2026-10-13T01:04:41.992Z",
+      "status": "running",
+      "evaluated": 1,
+      "qualifying": 0,
+      "selected": 0,
+      "requested": 2
+    },
+    {
+      "observedAt": "2026-10-13T01:11:57.572Z",
+      "status": "running",
+      "evaluated": 2,
+      "qualifying": 0,
+      "selected": 0,
+      "requested": 2
+    },
+    {
+      "observedAt": "2026-10-13T01:12:48.279Z",
+      "status": "running",
+      "evaluated": 3,
+      "qualifying": 1,
+      "selected": 1,
+      "requested": 2
+    },
+    {
+      "observedAt": "2026-10-13T01:14:19.386Z",
+      "status": "running",
+      "evaluated": 4,
+      "qualifying": 1,
+      "selected": 1,
+      "requested": 2
+    },
+    {
+      "observedAt": "2026-10-13T01:16:00.715Z",
+      "status": "completed",
+      "evaluated": 5,
+      "qualifying": 2,
+      "selected": 2,
+      "requested": 2
+    }
+  ],
+  "browser": {
+    "isSecureContext": false,
+    "randomUUID": "undefined"
+  },
+  "previousTaskIds": [
+    "enrich-150446afeae8ce042413a76e",
+    "enrich-19b749da2108bcce416e3a31",
+    "enrich-32f9c222ba018ba1748b584e",
+    "enrich-6fcbc9e0deacef35d5bcc9df",
+    "enrich-8871961801ae75d3e4c07269",
+    "enrich-e6bac783cce66bf50203c22a",
+    "research-010f8c5e484e38738b2b3640",
+    "research-329ed36c04d98223b610f7c0",
+    "research-53d5f515c5959e5d00495f27",
+    "research-58949888b306ad726d60be23",
+    "research-5b048604116d7fcbdce4e705",
+    "research-5e4db1193ded213e791cd417",
+    "research-6b62fedb31c94ffb3dfd83b8",
+    "research-7df22029caef61df6134e885",
+    "research-9698a6d1fc749a4a3df6084e",
+    "research-98350042b636d08a5d424a6c",
+    "research-a183b9437d676713c0f2812f",
+    "research-a333d174361fcf1bed6c0698",
+    "research-a5b580b3d9a62868bf773f08",
+    "research-b2efbf875587dbc4b18f0e68",
+    "research-b30bacd90e74569b33e06bfc",
+    "research-bcebf909d61af9519dc124f3",
+    "research-d22f5bc3f9c80da1a4979ca5",
+    "research-d7687a09b9a84db8c236a706",
+    "research-deadf97a7b6138ba6d316943",
+    "research-fd88375f69e716ff5cbc9fef",
+    "enrich-852b54c3a4c8bfabc45ae1b6",
+    "enrich-4442f04a49d556bc97a01bb1",
+    "enrich-1bf84c8def94fbe1951b90a2",
+    "research-3a8244acbeb71c8f1b51a276",
+    "research-3e042e38a6ac3e37f6226bdf",
+    "research-09db3d47bf4ee8edb2830bb3",
+    "research-593e3796f4ef22d7e2a6366b",
+    "research-b7829d5a507c7425f3601697",
+    "research-b6a28edf401b3a52ebb44143",
+    "research-9ad67d8142750fb21a31634c",
+    "research-dbd0a595c74c88337d88bdad",
+    "enrich-76597d2b5b2a492fcf854323",
+    "research-d8b24e517e7613d03f994eee",
+    "research-371b25cdd89962fcb9c395e9"
+  ],
+  "userId": "290fef3337728902b1225cb5edacdd4d",
+  "requestCreatedAt": 1791853031440,
+  "taskId": "research-c862ed11e2e7d7d9abcc20fa",
+  "registrationMs": 17415,
+  "spec": {
+    "title": "公网场景验收：家用咖啡制作体验",
+    "personaText": "个人咖啡爱好者，分享本人在家制作手冲或意式咖啡的第一人称实际体验。",
+    "count": 2,
+    "platforms": [
+      "instagram"
+    ],
+    "regions": [],
+    "minFollowers": 10000,
+    "maxFollowers": 100000,
+    "candidateBudget": 12,
+    "verificationMode": "text",
+    "instagram": {
+      "queries": [
+        "homebarista",
+        "pourover",
+        "espresso"
+      ],
+      "version": "v3",
+      "profileBudget": 80
+    },
+    "criteria": [
+      {
+        "id": "personal_coffee_enthusiast",
+        "label": "个人咖啡爱好者，依据本人简介与已有公开文字核验个人分享身份；排除咖啡品牌、咖啡店、器材商、公司、机构官方、明星及纯搬运账号，身份缺证保持unknown。",
+        "required": true,
+        "basis": "text"
+      },
+      {
+        "id": "first_person_home_coffee",
+        "label": "已有公开文字必须分享本人在家制作手冲或意式咖啡的第一人称实际体验，满足任一制作方式即可；必须有家庭制作场景与本人体验证据，不能以咖啡主题、通用教程、店内饮用、产品宣传或转述他人替代，缺证保持unknown。",
+        "required": true,
+        "basis": "text"
+      }
+    ],
+    "annotations": [
+      {
+        "id": "content_direction",
+        "label": "内容方向"
+      },
+      {
+        "id": "expression_method",
+        "label": "表达方式"
+      }
+    ]
+  },
+  "finalTask": {
+    "id": "research-c862ed11e2e7d7d9abcc20fa",
+    "title": "公网场景验收：家用咖啡制作体验",
+    "status": "completed",
+    "requested": 2,
+    "evaluated": 5,
+    "matched": 2,
+    "qualifying": 2,
+    "allowHumanAssistance": true,
+    "matchedMeaning": "研究组入选的合格账号数；合格候选总数见qualifying",
+    "updatedAt": 1791854153088,
+    "detail": "已选合格 2/2，已核验 5；证据不足者保持待核实。Instagram：读取 51 个本人基础账号，基础条件排除 46 个；基础读取上限 80，逐人分析上限 12（本次有界来源，不代表全站穷尽）。",
+    "remoteStatus": "running",
+    "nextPollAt": 1791854129747
+  },
+  "elapsedMs": 1121648,
+  "results": [
+    {
+      "id": "research-c862ed11e2e7d7d9abcc20fa|instagram:thetopoffespresso",
+      "handle": "thetopoffespresso",
+      "profileUrl": "https://www.instagram.com/thetopoffespresso/",
+      "followers": 15659,
+      "selected": false,
+      "verdict": "no_match",
+      "judgments": [
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 15659，要求 10000–100000",
+          "evidenceIds": [
+            "1b2bd1c56d61802dc5d68626"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "personal_coffee_enthusiast",
+          "verdict": "no_match",
+          "reason": "已提供的 WaveSurge 本人主页文字自称“OREGON’S #1 DRIVE-THRU BIKINI COFFEE”，并列出三个营业地址，支持该账号为咖啡店商业账号，而非个人咖啡爱好者分享账号。本轮仅复用该文字，未重新访问页面。",
+          "evidenceIds": [
+            "1b2bd1c56d61802dc5d68626"
+          ],
+          "label": "个人咖啡爱好者，依据本人简介与已有公开文字核验个人分享身份；排除咖啡品牌、咖啡店、器材商、公司、机构官方、明星及纯搬运账号，身份缺证保持unknown。"
+        },
+        {
+          "criterionId": "first_person_home_coffee",
+          "verdict": "unknown",
+          "reason": "现有证据仅有咖啡店主页简介与指标，没有帖子文字或本人在家制作手冲、意式咖啡的第一人称实际体验，无法确认家庭制作场景及本人体验。",
+          "evidenceIds": [
+            "1b2bd1c56d61802dc5d68626"
+          ],
+          "label": "已有公开文字必须分享本人在家制作手冲或意式咖啡的第一人称实际体验，满足任一制作方式即可；必须有家庭制作场景与本人体验证据，不能以咖啡主题、通用教程、店内饮用、产品宣传或转述他人替代，缺证保持unknown。"
+        }
+      ],
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "得来速咖啡店商业内容"
+          ],
+          "reason": "WaveSurge 取得的主页简介明确宣传得来速咖啡服务并列出营业地址；仅支持账号定位，不代表已观察近期帖子。",
+          "evidenceIds": [
+            "1b2bd1c56d61802dc5d68626"
+          ]
+        },
+        {
+          "dimensionId": "expression_method",
+          "status": "unknown",
+          "values": [],
+          "reason": "仅有主页简介，缺少实际内容文字，无法确定其内容表达方式。",
+          "evidenceIds": [
+            "1b2bd1c56d61802dc5d68626"
+          ]
+        }
+      ],
+      "tags": [
+        "得来速咖啡店商业内容"
+      ],
+      "sources": [
+        {
+          "id": "1b2bd1c56d61802dc5d68626",
+          "url": "https://www.instagram.com/thetopoffespresso/",
+          "kind": "profile",
+          "publishedAt": null,
+          "capturedAt": 1791853448770
+        }
+      ]
+    },
+    {
+      "id": "research-c862ed11e2e7d7d9abcc20fa|instagram:misbehaveespresso",
+      "handle": "misbehaveespresso",
+      "profileUrl": "https://www.instagram.com/misbehaveespresso/",
+      "followers": 12629,
+      "selected": false,
+      "verdict": "no_match",
+      "judgments": [
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 12629，要求 10000–100000",
+          "evidenceIds": [
+            "afcbdf50348d51a478786f79"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "personal_coffee_enthusiast",
+          "verdict": "no_match",
+          "reason": "已有 WaveSurge 本人主页文字列出具体营业地址、工作日及周末营业时间，并写明“Proudly Serving @papertigercoffeeroasters”，支持该账号为咖啡店经营账号，而非个人咖啡爱好者分享身份；本轮未重新访问页面。",
+          "evidenceIds": [
+            "afcbdf50348d51a478786f79"
+          ],
+          "label": "个人咖啡爱好者，依据本人简介与已有公开文字核验个人分享身份；排除咖啡品牌、咖啡店、器材商、公司、机构官方、明星及纯搬运账号，身份缺证保持unknown。"
+        },
+        {
+          "criterionId": "first_person_home_coffee",
+          "verdict": "unknown",
+          "reason": "仅有 WaveSurge 取得的主页简介，没有本人在家庭场景制作手冲或意式咖啡的第一人称体验文字，无法确认该条件。",
+          "evidenceIds": [
+            "afcbdf50348d51a478786f79"
+          ],
+          "label": "已有公开文字必须分享本人在家制作手冲或意式咖啡的第一人称实际体验，满足任一制作方式即可；必须有家庭制作场景与本人体验证据，不能以咖啡主题、通用教程、店内饮用、产品宣传或转述他人替代，缺证保持unknown。"
+        }
+      ],
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "咖啡店经营"
+          ],
+          "reason": "主页文字包含营业地址、营业时间及所供应咖啡烘焙商品牌，支持咖啡店经营方向；未提供帖子文字以确认更细的内容方向。",
+          "evidenceIds": [
+            "afcbdf50348d51a478786f79"
+          ]
+        },
+        {
+          "dimensionId": "expression_method",
+          "status": "unknown",
+          "values": [],
+          "reason": "仅提供主页简介，缺少公开帖子或实际体验内容，无法确认内容表达方式。",
+          "evidenceIds": [
+            "afcbdf50348d51a478786f79"
+          ]
+        }
+      ],
+      "tags": [
+        "咖啡店经营"
+      ],
+      "sources": [
+        {
+          "id": "afcbdf50348d51a478786f79",
+          "url": "https://www.instagram.com/misbehaveespresso/",
+          "kind": "profile",
+          "publishedAt": null,
+          "capturedAt": 1791853884511
+        }
+      ]
+    },
+    {
+      "id": "research-c862ed11e2e7d7d9abcc20fa|instagram:homebarista.ig",
+      "handle": "homebarista.ig",
+      "profileUrl": "https://www.instagram.com/homebarista.ig/",
+      "followers": 28017,
+      "selected": true,
+      "verdict": "match",
+      "judgments": [
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 28017，要求 10000–100000",
+          "evidenceIds": [
+            "fa8f92ea8bb1d4b8893f17b4"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "personal_coffee_enthusiast",
+          "verdict": "match",
+          "reason": "复用 WaveSurge 提供的本人简介及帖子文字（capturedAt=1791853915579），未重新访问主页。简介写有“Let's pour latte art with me”，2025-07-30帖子第一人称讲述手机损坏影响创作、搬回家后重启自己的咖啡工作台，2023-06-27帖子描述休假时在自家设备上练习拉花；这些个人生活及本人制作叙述支持个人咖啡爱好者分享身份，而非品牌、店铺或纯搬运账号。",
+          "evidenceIds": [
+            "fa8f92ea8bb1d4b8893f17b4",
+            "1e8435ea2b6016c66dde7848",
+            "2fe78337d88e8020e9fb0b9f"
+          ],
+          "label": "个人咖啡爱好者，依据本人简介与已有公开文字核验个人分享身份；排除咖啡品牌、咖啡店、器材商、公司、机构官方、明星及纯搬运账号，身份缺证保持unknown。"
+        },
+        {
+          "criterionId": "first_person_home_coffee",
+          "verdict": "match",
+          "reason": "WaveSurge 已有文字中，2023-06-27帖子明确写“I am back with my coffee station at home with Breville Barista Express again”，并讲述休假可以更常拉花及本人制作的 Wing Tulip；2023-06-29写“Back to my Breville Barista Express at home and poured with Imagine Glass”。家庭场景、本人意式设备及实际倒奶拉花体验均有明确文字支持；2025-07-30还描述搬回家、清理咖啡工作台后仍能拉花。依据帖子发布时间而非采集时间，未进行图片视觉核验。",
+          "evidenceIds": [
+            "2fe78337d88e8020e9fb0b9f",
+            "0c79a4ca5fb7e1a2434318ab",
+            "1e8435ea2b6016c66dde7848"
+          ],
+          "label": "已有公开文字必须分享本人在家制作手冲或意式咖啡的第一人称实际体验，满足任一制作方式即可；必须有家庭制作场景与本人体验证据，不能以咖啡主题、通用教程、店内饮用、产品宣传或转述他人替代，缺证保持unknown。"
+        }
+      ],
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "家用意式咖啡制作",
+            "拿铁拉花",
+            "咖啡教程与技巧"
+          ],
+          "reason": "已有简介明确介绍 coffee tutorials and tips，帖子文字反复分享自家 Breville Barista Express 制作及天鹅、郁金香等拉花图案；仅依据 WaveSurge 文字画像。",
+          "evidenceIds": [
+            "fa8f92ea8bb1d4b8893f17b4",
+            "2fe78337d88e8020e9fb0b9f",
+            "0c79a4ca5fb7e1a2434318ab",
+            "fd096f25e11d0754e80bd38b"
+          ]
+        },
+        {
+          "dimensionId": "expression_method",
+          "status": "supported",
+          "values": [
+            "第一人称日常体验分享",
+            "拉花作品分享",
+            "互动式文字表达"
+          ],
+          "reason": "帖子以本人回家、休假及恢复创作为叙述，介绍自己的拉花作品，并用“How is your weekend going?”等提问与读者互动；不据媒体链接推断实际画面或拍摄方式。",
+          "evidenceIds": [
+            "1e8435ea2b6016c66dde7848",
+            "2fe78337d88e8020e9fb0b9f",
+            "cfc8a598359d954389748467"
+          ]
+        }
+      ],
+      "tags": [
+        "家用意式咖啡制作",
+        "拿铁拉花",
+        "咖啡教程与技巧",
+        "第一人称日常体验分享",
+        "拉花作品分享",
+        "互动式文字表达"
+      ],
+      "sources": [
+        {
+          "id": "fa8f92ea8bb1d4b8893f17b4",
+          "url": "https://www.instagram.com/homebarista.ig/",
+          "kind": "profile",
+          "publishedAt": null,
+          "capturedAt": 1791853915579
+        },
+        {
+          "id": "1e8435ea2b6016c66dde7848",
+          "url": "https://www.instagram.com/p/DMu3pVmy6OA/",
+          "kind": "post",
+          "publishedAt": "2025-07-30T12:42:44.000Z",
+          "capturedAt": 1791853915579
+        },
+        {
+          "id": "0c79a4ca5fb7e1a2434318ab",
+          "url": "https://www.instagram.com/p/CuE9wJ6h64p/",
+          "kind": "post",
+          "publishedAt": "2023-06-29T14:26:10.000Z",
+          "capturedAt": 1791853915579
+        },
+        {
+          "id": "2fe78337d88e8020e9fb0b9f",
+          "url": "https://www.instagram.com/p/Ct_coq4h4e0/",
+          "kind": "post",
+          "publishedAt": "2023-06-27T11:00:35.000Z",
+          "capturedAt": 1791853915579
+        }
+      ]
+    },
+    {
+      "id": "research-c862ed11e2e7d7d9abcc20fa|instagram:espressoandadventure_",
+      "handle": "espressoandadventure_",
+      "profileUrl": "https://www.instagram.com/espressoandadventure_/",
+      "followers": 23244,
+      "selected": false,
+      "verdict": "unknown",
+      "judgments": [
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 23244，要求 10000–100000",
+          "evidenceIds": [
+            "79fdd27fee84055a997f51ec"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "personal_coffee_enthusiast",
+          "verdict": "match",
+          "reason": "依据已提供的 WaveSurge 本人主页文字，简介以个人生活方式介绍自己，明确列出 Coffee、Mom life，并将商业主页另列为 Business Profiles；已有 DIY 帖文使用“my last DIY”“I chose”等本人体验表述，支持个人分享身份及咖啡兴趣，未见其为咖啡品牌、店铺、器材商或机构官方账号的证据。本轮仅复用已采集文字，未重新访问主页。",
+          "evidenceIds": [
+            "79fdd27fee84055a997f51ec",
+            "7eedc8b2da094657333601a1"
+          ],
+          "label": "个人咖啡爱好者，依据本人简介与已有公开文字核验个人分享身份；排除咖啡品牌、咖啡店、器材商、公司、机构官方、明星及纯搬运账号，身份缺证保持unknown。"
+        },
+        {
+          "criterionId": "first_person_home_coffee",
+          "verdict": "unknown",
+          "reason": "所提供的 WaveSurge 简介仅提及 Coffee；已有帖子文字主要涉及节庆、珠宝活动、育儿、户外与家居 DIY，未提供本人在家庭场景制作手冲或意式咖啡的第一人称实际体验。咖啡兴趣与家居 DIY 不能替代家庭咖啡制作证据，资料不足，不能据此判定其从未分享此类内容。",
+          "evidenceIds": [
+            "79fdd27fee84055a997f51ec",
+            "7eedc8b2da094657333601a1"
+          ],
+          "label": "已有公开文字必须分享本人在家制作手冲或意式咖啡的第一人称实际体验，满足任一制作方式即可；必须有家庭制作场景与本人体验证据，不能以咖啡主题、通用教程、店内饮用、产品宣传或转述他人替代，缺证保持unknown。"
+        }
+      ],
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "个人生活方式",
+            "节庆与社区活动",
+            "珠宝购物与活动推广",
+            "家居DIY",
+            "育儿与儿童读物推荐",
+            "户外与自我关怀"
+          ],
+          "reason": "画像依据已提供的 WaveSurge 简介及帖子文字：个人生活简介、节庆社区活动分享、珠宝展会宣传、本人 Kolam 家居 DIY、儿童文化读物推荐与徒步自我关怀内容；不据媒体资源链接推断画面。",
+          "evidenceIds": [
+            "79fdd27fee84055a997f51ec",
+            "e3a0bb54f99298cc9a21bc2e",
+            "f393991a586db9787a1b74bf",
+            "7eedc8b2da094657333601a1",
+            "aae9a15fe4577c04f107c485",
+            "6916fad93c989728b1b31a92"
+          ]
+        },
+        {
+          "dimensionId": "expression_method",
+          "status": "supported",
+          "values": [
+            "第一人称经历分享",
+            "活动资讯与宣传",
+            "推荐式文案",
+            "提问与互动引导"
+          ],
+          "reason": "既有文字中 DIY 使用第一人称介绍选择与成果；活动帖子列出地点、日期及参与邀请；儿童读物帖子作推荐并引导评论 LINK，DIY 帖也提问并邀请评论。以上为文案表达判断，不代表已观察视频或照片。",
+          "evidenceIds": [
+            "7eedc8b2da094657333601a1",
+            "e3a0bb54f99298cc9a21bc2e",
+            "aae9a15fe4577c04f107c485"
+          ]
+        }
+      ],
+      "tags": [
+        "个人生活方式",
+        "节庆与社区活动",
+        "珠宝购物与活动推广",
+        "家居DIY",
+        "育儿与儿童读物推荐",
+        "户外与自我关怀",
+        "第一人称经历分享",
+        "活动资讯与宣传",
+        "推荐式文案",
+        "提问与互动引导"
+      ],
+      "sources": [
+        {
+          "id": "79fdd27fee84055a997f51ec",
+          "url": "https://www.instagram.com/espressoandadventure_/",
+          "kind": "profile",
+          "publishedAt": null,
+          "capturedAt": 1791853986695
+        },
+        {
+          "id": "7eedc8b2da094657333601a1",
+          "url": "https://www.instagram.com/p/Dd4GpaczgtX/",
+          "kind": "post",
+          "publishedAt": "2026-09-29T15:44:22.000Z",
+          "capturedAt": 1791853986695
+        }
+      ]
+    },
+    {
+      "id": "research-c862ed11e2e7d7d9abcc20fa|instagram:espresso.archives",
+      "handle": "espresso.archives",
+      "profileUrl": "https://www.instagram.com/espresso.archives/",
+      "followers": 36654,
+      "selected": true,
+      "verdict": "match",
+      "judgments": [
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 36654，要求 10000–100000",
+          "evidenceIds": [
+            "ec34df9dd50fefa3f0376964"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "personal_coffee_enthusiast",
+          "verdict": "match",
+          "reason": "依据已提供的 WaveSurge 本人简介与帖子文字（采集时间1791854096919），非本轮重新访问：简介自述“a home café of sorts”，多篇以个人口吻分享自己的晨间咖啡、口味偏好及制作调整，例如“I genuinely cannot get enough ... in my coffee”和“all I added ... because I didn’t want it to be overly sweet”。这些共同支持个人咖啡爱好者的分享身份；品牌提及及优惠码属合作内容，不代表该账号为品牌或器材商官方。",
+          "evidenceIds": [
+            "ec34df9dd50fefa3f0376964",
+            "5394632ed682d8d257afe27e",
+            "11bab384697aa824bb85b295",
+            "e1f530192798ee8b7f2c1dd4"
+          ],
+          "label": "个人咖啡爱好者，依据本人简介与已有公开文字核验个人分享身份；排除咖啡品牌、咖啡店、器材商、公司、机构官方、明星及纯搬运账号，身份缺证保持unknown。"
+        },
+        {
+          "criterionId": "first_person_home_coffee",
+          "verdict": "match",
+          "reason": "已提供的 WaveSurge 帖子文字中，2026-10-08发布的帖子明确写“This turned out AMAZING”，并说明自己制作冰拿铁时“all I added was 1 tsp brown sugar to the espresso because I didn’t want it to be overly sweet”，提供冷奶泡制作步骤及本人甜度体验，同时标注#coffeeathome；本人简介“a home café of sorts”进一步支持家庭制作场景。由家庭场景、espresso拿铁制作与第一人称实际调整共同支持条件，并非仅依据通用配方或咖啡主题。仅复用文字，未观察视频或封面像素。",
+          "evidenceIds": [
+            "5394632ed682d8d257afe27e",
+            "ec34df9dd50fefa3f0376964"
+          ],
+          "label": "已有公开文字必须分享本人在家制作手冲或意式咖啡的第一人称实际体验，满足任一制作方式即可；必须有家庭制作场景与本人体验证据，不能以咖啡主题、通用教程、店内饮用、产品宣传或转述他人替代，缺证保持unknown。"
+        }
+      ],
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "家庭意式咖啡与冰拿铁",
+            "风味糖浆和冷奶泡配方",
+            "咖啡器具及原料体验"
+          ],
+          "reason": "已有帖子文字持续提供espresso冰拿铁、糖浆及冷奶泡配方，另有磨豆机、秤等器具的个人评价；仅依据WaveSurge已有文字。",
+          "evidenceIds": [
+            "5394632ed682d8d257afe27e",
+            "942360f981c3e93dc977c72b",
+            "11bab384697aa824bb85b295"
+          ]
+        },
+        {
+          "dimensionId": "expression_method",
+          "status": "supported",
+          "values": [
+            "第一人称体验分享",
+            "配方与步骤讲解",
+            "个人口味评价",
+            "产品推荐与优惠码分享"
+          ],
+          "reason": "文案以“I”描述制作调整及口味感受，列出配料用量和操作步骤，并在部分帖子推荐产品、提供优惠码；不推断实际视频呈现方式。",
+          "evidenceIds": [
+            "5394632ed682d8d257afe27e",
+            "62c805d25b65e92b6ad4bdf3",
+            "028b08008117630734b3b3c9"
+          ]
+        }
+      ],
+      "tags": [
+        "家庭意式咖啡与冰拿铁",
+        "风味糖浆和冷奶泡配方",
+        "咖啡器具及原料体验",
+        "第一人称体验分享",
+        "配方与步骤讲解",
+        "个人口味评价",
+        "产品推荐与优惠码分享"
+      ],
+      "sources": [
+        {
+          "id": "ec34df9dd50fefa3f0376964",
+          "url": "https://www.instagram.com/espresso.archives/",
+          "kind": "profile",
+          "publishedAt": null,
+          "capturedAt": 1791854096919
+        },
+        {
+          "id": "11bab384697aa824bb85b295",
+          "url": "https://www.instagram.com/p/DeJ7WdIgO4n/",
+          "kind": "post",
+          "publishedAt": "2026-10-06T13:51:37.000Z",
+          "capturedAt": 1791854096919
+        },
+        {
+          "id": "5394632ed682d8d257afe27e",
+          "url": "https://www.instagram.com/p/DePBjPMgYSq/",
+          "kind": "post",
+          "publishedAt": "2026-10-08T13:19:53.000Z",
+          "capturedAt": 1791854096919
+        },
+        {
+          "id": "e1f530192798ee8b7f2c1dd4",
+          "url": "https://www.instagram.com/p/DeCMTYOA48l/",
+          "kind": "post",
+          "publishedAt": "2026-10-03T13:44:50.000Z",
+          "capturedAt": 1791854096919
+        }
+      ]
+    }
+  ],
+  "delivery": {
+    "id": "report-request-ba652d587214e85a3a31509da4d1062d-a13f2da67a984bea",
+    "role": "assistant",
+    "text": "本次请求的 2 项工作已全部结束。\n\n- 公网场景验收：跑步训练与参赛体验：已完成；已选合格 3/3，已核验 11；证据不足者保持待核实。Instagram：读取 28 个本人基础账号，基础条件排除 17 个；基础读取上限 80，逐人分析上限 12（本次有界来源，不代表全站穷尽）。 [查看报告](/api/reports/research-371b25cdd89962fcb9c395e9)\n- 公网场景验收：家用咖啡制作体验：已完成；已选合格 2/2，已核验 5；证据不足者保持待核实。Instagram：读取 51 个本人基础账号，基础条件排除 46 个；基础读取上限 80，逐人分析上限 12（本次有界来源，不代表全站穷尽）。 [查看报告](/api/reports/research-c862ed11e2e7d7d9abcc20fa)\n\n[查看本次综合报告](/api/work-batches/ba652d587214e85a3a31509da4d1062d/report) · [下载综合 CSV](/api/work-batches/ba652d587214e85a3a31509da4d1062d/report?format=csv)",
+    "createdAt": 1791854153189,
+    "epoch": 6,
+    "state": "delivered",
+    "attachments": []
+  },
+  "csvBytes": 250141,
+  "offlineBytes": 228934,
+  "passed": true,
+  "finishedAt": "2026-10-13T01:16:09.133Z",
+  "curation": {
+    "sourceBodies": "完整源文保存在认证应用报告及数据库；提交的断言保留证据ID、链接、时间与模型理由",
+    "rawExports": "完整HTML和CSV保存在本地validation/artifacts以及应用报告接口"
+  }
+}

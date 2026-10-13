@@ -1,0 +1,1617 @@
+{
+  "scenario": "running",
+  "title": "公网场景验收：跑步训练与参赛体验",
+  "base": "http://101.201.237.219:33332",
+  "prompt": "请帮我找3位Instagram跑步类个人创作者，研究命名为「公网场景验收：跑步训练与参赛体验」。粉丝1万至10万，地区不限。必须有本人第一人称的跑步训练、马拉松或越野跑参赛体验；排除运动品牌、店铺、赛事或机构官方、明星和纯搬运账号。只核验已有公开文字，不需要外观判断。给每位标注内容方向和表达方式。请自行选择适合的英文账号检索词开放搜索，不指定账号；逐人分析预算12人，基础资料最多读取80个账号。范围已经明确，请直接开始，结束在聊天里交付真实名单、逐人匹配说明、报告和CSV。其他任务保留。",
+  "startedAt": "2026-10-13T00:56:42.461Z",
+  "checks": {
+    "publicHttpSubmission": true,
+    "naturalScopeAndAgentKeywords": true,
+    "realQualifiedTarget": true,
+    "selectedHaveRequiredEvidence": true
+  },
+  "pageErrors": [],
+  "progress": [
+    {
+      "observedAt": "2026-10-13T00:56:59.228Z",
+      "status": "running",
+      "evaluated": 0,
+      "selected": 0,
+      "requested": 3
+    },
+    {
+      "observedAt": "2026-10-13T00:58:10.955Z",
+      "status": "running",
+      "evaluated": 1,
+      "qualifying": 0,
+      "selected": 0,
+      "requested": 3
+    },
+    {
+      "observedAt": "2026-10-13T00:59:01.551Z",
+      "status": "running",
+      "evaluated": 2,
+      "qualifying": 0,
+      "selected": 0,
+      "requested": 3
+    },
+    {
+      "observedAt": "2026-10-13T00:59:52.121Z",
+      "status": "running",
+      "evaluated": 3,
+      "qualifying": 0,
+      "selected": 0,
+      "requested": 3
+    },
+    {
+      "observedAt": "2026-10-13T01:01:09.732Z",
+      "status": "running",
+      "evaluated": 4,
+      "qualifying": 1,
+      "selected": 1,
+      "requested": 3
+    },
+    {
+      "observedAt": "2026-10-13T01:02:11.031Z",
+      "status": "running",
+      "evaluated": 5,
+      "qualifying": 1,
+      "selected": 1,
+      "requested": 3
+    },
+    {
+      "observedAt": "2026-10-13T01:04:13.230Z",
+      "status": "running",
+      "evaluated": 6,
+      "qualifying": 1,
+      "selected": 1,
+      "requested": 3
+    },
+    {
+      "observedAt": "2026-10-13T01:05:24.149Z",
+      "status": "running",
+      "evaluated": 7,
+      "qualifying": 1,
+      "selected": 1,
+      "requested": 3
+    },
+    {
+      "observedAt": "2026-10-13T01:06:45.664Z",
+      "status": "running",
+      "evaluated": 8,
+      "qualifying": 2,
+      "selected": 2,
+      "requested": 3
+    },
+    {
+      "observedAt": "2026-10-13T01:08:47.149Z",
+      "status": "running",
+      "evaluated": 9,
+      "qualifying": 2,
+      "selected": 2,
+      "requested": 3
+    },
+    {
+      "observedAt": "2026-10-13T01:10:08.126Z",
+      "status": "running",
+      "evaluated": 10,
+      "qualifying": 2,
+      "selected": 2,
+      "requested": 3
+    },
+    {
+      "observedAt": "2026-10-13T01:11:29.113Z",
+      "status": "completed",
+      "evaluated": 11,
+      "qualifying": 3,
+      "selected": 3,
+      "requested": 3
+    }
+  ],
+  "browser": {
+    "isSecureContext": false,
+    "randomUUID": "undefined"
+  },
+  "previousTaskIds": [
+    "enrich-150446afeae8ce042413a76e",
+    "enrich-19b749da2108bcce416e3a31",
+    "enrich-32f9c222ba018ba1748b584e",
+    "enrich-6fcbc9e0deacef35d5bcc9df",
+    "enrich-8871961801ae75d3e4c07269",
+    "enrich-e6bac783cce66bf50203c22a",
+    "research-010f8c5e484e38738b2b3640",
+    "research-329ed36c04d98223b610f7c0",
+    "research-53d5f515c5959e5d00495f27",
+    "research-58949888b306ad726d60be23",
+    "research-5b048604116d7fcbdce4e705",
+    "research-5e4db1193ded213e791cd417",
+    "research-6b62fedb31c94ffb3dfd83b8",
+    "research-7df22029caef61df6134e885",
+    "research-9698a6d1fc749a4a3df6084e",
+    "research-98350042b636d08a5d424a6c",
+    "research-a183b9437d676713c0f2812f",
+    "research-a333d174361fcf1bed6c0698",
+    "research-a5b580b3d9a62868bf773f08",
+    "research-b2efbf875587dbc4b18f0e68",
+    "research-b30bacd90e74569b33e06bfc",
+    "research-bcebf909d61af9519dc124f3",
+    "research-d22f5bc3f9c80da1a4979ca5",
+    "research-d7687a09b9a84db8c236a706",
+    "research-deadf97a7b6138ba6d316943",
+    "research-fd88375f69e716ff5cbc9fef",
+    "enrich-852b54c3a4c8bfabc45ae1b6",
+    "enrich-4442f04a49d556bc97a01bb1",
+    "enrich-1bf84c8def94fbe1951b90a2",
+    "research-3a8244acbeb71c8f1b51a276",
+    "research-3e042e38a6ac3e37f6226bdf",
+    "research-09db3d47bf4ee8edb2830bb3",
+    "research-593e3796f4ef22d7e2a6366b",
+    "research-b7829d5a507c7425f3601697",
+    "research-b6a28edf401b3a52ebb44143",
+    "research-9ad67d8142750fb21a31634c",
+    "research-dbd0a595c74c88337d88bdad",
+    "enrich-76597d2b5b2a492fcf854323",
+    "research-d8b24e517e7613d03f994eee"
+  ],
+  "userId": "ba652d587214e85a3a31509da4d1062d",
+  "requestCreatedAt": 1791853004752,
+  "taskId": "research-371b25cdd89962fcb9c395e9",
+  "registrationMs": 13777,
+  "spec": {
+    "title": "公网场景验收：跑步训练与参赛体验",
+    "personaText": "个人跑步创作者，分享本人第一人称跑步训练、马拉松或越野跑参赛体验。",
+    "count": 3,
+    "platforms": [
+      "instagram"
+    ],
+    "regions": [],
+    "minFollowers": 10000,
+    "maxFollowers": 100000,
+    "candidateBudget": 12,
+    "verificationMode": "text",
+    "instagram": {
+      "queries": [
+        "runner",
+        "marathon",
+        "trailrunner"
+      ],
+      "version": "v3",
+      "profileBudget": 80
+    },
+    "criteria": [
+      {
+        "id": "personal_running_creator",
+        "label": "个人跑步创作者，依据本人简介和公开文字内容核验个人分享身份；排除运动品牌、公司、店铺、赛事或机构官方、明星和纯搬运账号，身份缺证unknown。",
+        "required": true,
+        "basis": "text"
+      },
+      {
+        "id": "first_person_running_experience",
+        "label": "公开文字必须有本人第一人称的跑步训练、马拉松或越野跑参赛实际体验，满足任一类即可；通用训练建议、赛事宣传、他人转述或主题相关性不能替代本人体验，缺证unknown。",
+        "required": true,
+        "basis": "text"
+      }
+    ],
+    "annotations": [
+      {
+        "id": "content_direction",
+        "label": "内容方向"
+      },
+      {
+        "id": "expression_method",
+        "label": "表达方式"
+      }
+    ]
+  },
+  "finalTask": {
+    "id": "research-371b25cdd89962fcb9c395e9",
+    "title": "公网场景验收：跑步训练与参赛体验",
+    "status": "completed",
+    "requested": 3,
+    "evaluated": 11,
+    "matched": 3,
+    "qualifying": 3,
+    "allowHumanAssistance": true,
+    "matchedMeaning": "研究组入选的合格账号数；合格候选总数见qualifying",
+    "updatedAt": 1791853883624,
+    "detail": "已选合格 3/3，已核验 11；证据不足者保持待核实。Instagram：读取 28 个本人基础账号，基础条件排除 17 个；基础读取上限 80，逐人分析上限 12（本次有界来源，不代表全站穷尽）。",
+    "remoteStatus": "running",
+    "nextPollAt": 1791853860737
+  },
+  "elapsedMs": 878872,
+  "results": [
+    {
+      "id": "research-371b25cdd89962fcb9c395e9|instagram:runner_talk",
+      "handle": "runner_talk",
+      "profileUrl": "https://www.instagram.com/runner_talk/",
+      "followers": 40269,
+      "selected": false,
+      "verdict": "unknown",
+      "judgments": [
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 40269，要求 10000–100000",
+          "evidenceIds": [
+            "fae64783e26d7f551b0a120f"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "personal_running_creator",
+          "verdict": "unknown",
+          "reason": "仅复用本轮提供的 WaveSurge 文字资料，未重新访问主页。简介定位为采访跑者、赛事报道、挑战和故事；2026-06-27 的自述提到 Spencer 与 Nick 的创作经历，说明有本人创作而非仅搬运，但不能据此确认其为分享自身跑步经历的个人跑步创作者，也不足以认定为公司或机构官方。个人跑步分享身份缺证。",
+          "evidenceIds": [
+            "fae64783e26d7f551b0a120f",
+            "a3c6ec0b089c86b31611ab34"
+          ],
+          "label": "个人跑步创作者，依据本人简介和公开文字内容核验个人分享身份；排除运动品牌、公司、店铺、赛事或机构官方、明星和纯搬运账号，身份缺证unknown。"
+        },
+        {
+          "criterionId": "first_person_running_experience",
+          "verdict": "unknown",
+          "reason": "已有帖子文字主要讲述被采访跑者的成绩和经历。2026-10-11 的“We got to talk with him post race”是采访经历；2026-10-06 的“We hit the track ... put someone to the TEST”是组织他人挑战，不是本人训练或参赛体验。个人背景帖亦未描述本人跑步训练或参赛实际体验。未找到满足条件的第一人称文字，且存在帖子分页请求失败，不能断言账号从未发布此类内容。",
+          "evidenceIds": [
+            "98f54b7facb21515ef2f7ed9",
+            "17be7911636c5bc97b9f0d5c",
+            "a3c6ec0b089c86b31611ab34",
+            "514747fff35cc281857d9ab8"
+          ],
+          "label": "公开文字必须有本人第一人称的跑步训练、马拉松或越野跑参赛实际体验，满足任一类即可；通用训练建议、赛事宣传、他人转述或主题相关性不能替代本人体验，缺证unknown。"
+        }
+      ],
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "跑者人物故事",
+            "马拉松赛事报道",
+            "跑步挑战"
+          ],
+          "reason": "WaveSurge 提供的本人简介明确列出 Race Coverage、Challenges、Stories；已有帖子文字报道长滩马拉松选手成绩、跑者人生故事及一英里挑战。判断仅依据已有文字。",
+          "evidenceIds": [
+            "fae64783e26d7f551b0a120f",
+            "98f54b7facb21515ef2f7ed9",
+            "b09ac4a7fa7fbf6447e9d761",
+            "a411a8384a12c0b642d14c15"
+          ]
+        },
+        {
+          "dimensionId": "expression_method",
+          "status": "supported",
+          "values": [
+            "跑者采访",
+            "赛事现场访谈",
+            "挑战式内容",
+            "励志故事叙述"
+          ],
+          "reason": "简介自述采访过 2,000 多名跑者；帖子文字明确说明赛后访谈、现场询问并挑战跑者验证一英里成绩，以及叙述 David 的人生故事。未观察视频或图片像素，不作视觉风格判断。",
+          "evidenceIds": [
+            "fae64783e26d7f551b0a120f",
+            "98f54b7facb21515ef2f7ed9",
+            "a411a8384a12c0b642d14c15",
+            "b09ac4a7fa7fbf6447e9d761"
+          ]
+        }
+      ],
+      "tags": [
+        "跑者人物故事",
+        "马拉松赛事报道",
+        "跑步挑战",
+        "跑者采访",
+        "赛事现场访谈",
+        "挑战式内容",
+        "励志故事叙述"
+      ],
+      "sources": [
+        {
+          "id": "fae64783e26d7f551b0a120f",
+          "url": "https://www.instagram.com/runner_talk/",
+          "kind": "profile",
+          "publishedAt": null,
+          "capturedAt": 1791853035376
+        },
+        {
+          "id": "514747fff35cc281857d9ab8",
+          "url": "https://www.instagram.com/runner_talk/",
+          "kind": "source_error",
+          "publishedAt": null,
+          "capturedAt": 1791853035376
+        },
+        {
+          "id": "a3c6ec0b089c86b31611ab34",
+          "url": "https://www.instagram.com/p/DaGQWVBGwJK/",
+          "kind": "post",
+          "publishedAt": "2026-06-27T17:29:15.000Z",
+          "capturedAt": 1791853035376
+        },
+        {
+          "id": "98f54b7facb21515ef2f7ed9",
+          "url": "https://www.instagram.com/p/DeXyPo2vDgq/",
+          "kind": "post",
+          "publishedAt": "2026-10-11T23:01:40.000Z",
+          "capturedAt": 1791853035376
+        },
+        {
+          "id": "17be7911636c5bc97b9f0d5c",
+          "url": "https://www.instagram.com/p/DeKW-FtoptG/",
+          "kind": "post",
+          "publishedAt": "2026-10-06T17:52:25.000Z",
+          "capturedAt": 1791853035376
+        }
+      ]
+    },
+    {
+      "id": "research-371b25cdd89962fcb9c395e9|instagram:marathonthegame",
+      "handle": "marathonthegame",
+      "profileUrl": "https://www.instagram.com/marathonthegame/",
+      "followers": 93868,
+      "selected": false,
+      "verdict": "no_match",
+      "judgments": [
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 93868，要求 10000–100000",
+          "evidenceIds": [
+            "540c48f9cc364a631c4f9849"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "personal_running_creator",
+          "verdict": "no_match",
+          "reason": "所提供的 WaveSurge 主页文字介绍 Tau Ceti 科幻游戏世界、Halo 与 Destiny 制作方及 ESRB 分级，帖子宣传 Marathon 游戏更新并指向 marathonthegame.com；这是游戏产品宣传账号而非个人跑步分享身份。本次仅复用已采集文字，未重新访问页面。",
+          "evidenceIds": [
+            "540c48f9cc364a631c4f9849",
+            "61b9255361b84dad989846bc",
+            "0df87f796dc6ff7493f26f3e"
+          ],
+          "label": "个人跑步创作者，依据本人简介和公开文字内容核验个人分享身份；排除运动品牌、公司、店铺、赛事或机构官方、明星和纯搬运账号，身份缺证unknown。"
+        },
+        {
+          "criterionId": "first_person_running_experience",
+          "verdict": "unknown",
+          "reason": "已提供帖子文字均涉及游戏奖励通行证、武器与版本更新，没有本人第一人称跑步训练或参赛实际体验。Marathon 是游戏名称，Runner Ad 明确是游戏世界的广告，不能替代真实跑步体验；现有资料不足以确认该条件。",
+          "evidenceIds": [
+            "035763be770353191c2a0a80",
+            "e42d848598f2cd6383bc8adf",
+            "5cd0ccd4c342c8d644b06419"
+          ],
+          "label": "公开文字必须有本人第一人称的跑步训练、马拉松或越野跑参赛实际体验，满足任一类即可；通用训练建议、赛事宣传、他人转述或主题相关性不能替代本人体验，缺证unknown。"
+        }
+      ],
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "科幻电子游戏",
+            "游戏更新与奖励通行证宣传"
+          ],
+          "reason": "WaveSurge 提供的简介描述科幻游戏世界，帖子文字介绍 Nightfall Refresh、武器调整及 NuCal Rewards Pass；标签仅依据文字，不涉及未观察的媒体像素。",
+          "evidenceIds": [
+            "540c48f9cc364a631c4f9849",
+            "035763be770353191c2a0a80",
+            "0df87f796dc6ff7493f26f3e"
+          ]
+        },
+        {
+          "dimensionId": "expression_method",
+          "status": "supported",
+          "values": [
+            "产品宣传文案",
+            "版本更新公告"
+          ],
+          "reason": "已采集帖子使用 available now、Coming October 6 等宣传及上线公告表述，并引导访问游戏官网；不是个人跑步经历叙述。",
+          "evidenceIds": [
+            "e676ad11c5e757cc596824cf",
+            "035763be770353191c2a0a80",
+            "61b9255361b84dad989846bc"
+          ]
+        }
+      ],
+      "tags": [
+        "科幻电子游戏",
+        "游戏更新与奖励通行证宣传",
+        "产品宣传文案",
+        "版本更新公告"
+      ],
+      "sources": [
+        {
+          "id": "540c48f9cc364a631c4f9849",
+          "url": "https://www.instagram.com/marathonthegame/",
+          "kind": "profile",
+          "publishedAt": null,
+          "capturedAt": 1791853090535
+        },
+        {
+          "id": "5cd0ccd4c342c8d644b06419",
+          "url": "https://www.instagram.com/p/Ddrc3SRDbEw/",
+          "kind": "post",
+          "publishedAt": "2026-09-24T17:48:28.000Z",
+          "capturedAt": 1791853090535
+        },
+        {
+          "id": "0df87f796dc6ff7493f26f3e",
+          "url": "https://www.instagram.com/p/DePZV0JDEOk/",
+          "kind": "post",
+          "publishedAt": "2026-10-08T16:47:06.000Z",
+          "capturedAt": 1791853090535
+        },
+        {
+          "id": "61b9255361b84dad989846bc",
+          "url": "https://www.instagram.com/p/DeKOBJFm1zb/",
+          "kind": "post",
+          "publishedAt": "2026-10-06T16:31:25.000Z",
+          "capturedAt": 1791853090535
+        },
+        {
+          "id": "035763be770353191c2a0a80",
+          "url": "https://www.instagram.com/p/Dd9WNXFFH3l/",
+          "kind": "post",
+          "publishedAt": "2026-10-01T16:33:26.000Z",
+          "capturedAt": 1791853090535
+        },
+        {
+          "id": "e42d848598f2cd6383bc8adf",
+          "url": "https://www.instagram.com/p/DduDS46DWHa/",
+          "kind": "post",
+          "publishedAt": "2026-09-25T17:59:29.000Z",
+          "capturedAt": 1791853090535
+        }
+      ]
+    },
+    {
+      "id": "research-371b25cdd89962fcb9c395e9|instagram:trailrunnernation",
+      "handle": "trailrunnernation",
+      "profileUrl": "https://www.instagram.com/trailrunnernation/",
+      "followers": 31342,
+      "selected": false,
+      "verdict": "no_match",
+      "judgments": [
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 31342，要求 10000–100000",
+          "evidenceIds": [
+            "6a627038323cc7f50a910581"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "personal_running_creator",
+          "verdict": "no_match",
+          "reason": "已提供的 WaveSurge 主页文字明确将账号介绍为面向越野跑社区的播客，而非个人跑者分享账号；帖子持续以“our new episode”宣传嘉宾访谈及教练节目，支持其为播客节目官方账号，不符合个人跑步创作者身份。本轮仅复用已有文字，未重新访问页面。",
+          "evidenceIds": [
+            "6a627038323cc7f50a910581",
+            "8ef0f76b1f95332fbfce5c7a",
+            "912d6a518a2cf2c07950d7ff"
+          ],
+          "label": "个人跑步创作者，依据本人简介和公开文字内容核验个人分享身份；排除运动品牌、公司、店铺、赛事或机构官方、明星和纯搬运账号，身份缺证unknown。"
+        },
+        {
+          "criterionId": "first_person_running_experience",
+          "verdict": "unknown",
+          "reason": "已提供帖子中的超马、长距离越野及补水实践均归属于受访嘉宾；“we”“our”用于节目制作或讨论，不是账号本人训练或参赛经历。现有文字未提供本人第一人称实际跑步体验，无法确认该条件；不据有限帖子断言账号从未分享过本人体验。",
+          "evidenceIds": [
+            "fa8090baddff01864136b40b",
+            "ff53b997bebfec54bd8b46fd",
+            "e939791c3a058fa154c7537c",
+            "31f41c82cc0fb7a01c9e24e0"
+          ],
+          "label": "公开文字必须有本人第一人称的跑步训练、马拉松或越野跑参赛实际体验，满足任一类即可；通用训练建议、赛事宣传、他人转述或主题相关性不能替代本人体验，缺证unknown。"
+        }
+      ],
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "越野跑与超马话题",
+            "跑步训练及补水知识",
+            "跑者故事与赛事经历访谈"
+          ],
+          "reason": "WaveSurge 提供的简介和帖子文字涵盖越野跑社区、教练训练讨论、补水实践及嘉宾长距离参赛故事；这些为内容主题，不代表账号本人经历。",
+          "evidenceIds": [
+            "6a627038323cc7f50a910581",
+            "912d6a518a2cf2c07950d7ff",
+            "ff53b997bebfec54bd8b46fd",
+            "31f41c82cc0fb7a01c9e24e0"
+          ]
+        },
+        {
+          "dimensionId": "expression_method",
+          "status": "supported",
+          "values": [
+            "播客访谈",
+            "提问式节目宣传",
+            "嘉宾经历转述"
+          ],
+          "reason": "简介明确为播客；帖子通过问题引出新节目、邀请访问简介链接，并转述受访跑者的经历。判断仅依据已提供文字，不涉及未观察的图片或视频表现。",
+          "evidenceIds": [
+            "6a627038323cc7f50a910581",
+            "8ef0f76b1f95332fbfce5c7a",
+            "fa8090baddff01864136b40b",
+            "31f41c82cc0fb7a01c9e24e0"
+          ]
+        }
+      ],
+      "tags": [
+        "越野跑与超马话题",
+        "跑步训练及补水知识",
+        "跑者故事与赛事经历访谈",
+        "播客访谈",
+        "提问式节目宣传",
+        "嘉宾经历转述"
+      ],
+      "sources": [
+        {
+          "id": "6a627038323cc7f50a910581",
+          "url": "https://www.instagram.com/trailrunnernation/",
+          "kind": "profile",
+          "publishedAt": null,
+          "capturedAt": 1791853140721
+        },
+        {
+          "id": "8ef0f76b1f95332fbfce5c7a",
+          "url": "https://www.instagram.com/p/DePKv1oIJ1h/",
+          "kind": "post",
+          "publishedAt": "2026-10-08T14:42:00.000Z",
+          "capturedAt": 1791853140721
+        },
+        {
+          "id": "fa8090baddff01864136b40b",
+          "url": "https://www.instagram.com/p/Dd-5ndcI2Tb/",
+          "kind": "post",
+          "publishedAt": "2026-10-02T07:03:16.000Z",
+          "capturedAt": 1791853140721
+        },
+        {
+          "id": "ff53b997bebfec54bd8b46fd",
+          "url": "https://www.instagram.com/p/DdImlINIOVP/",
+          "kind": "post",
+          "publishedAt": "2026-09-11T04:56:15.000Z",
+          "capturedAt": 1791853140721
+        },
+        {
+          "id": "e939791c3a058fa154c7537c",
+          "url": "https://www.instagram.com/p/Dc202LJor6d/",
+          "kind": "post",
+          "publishedAt": "2026-09-04T07:18:12.000Z",
+          "capturedAt": 1791853140721
+        },
+        {
+          "id": "912d6a518a2cf2c07950d7ff",
+          "url": "https://www.instagram.com/p/DcmTE7miKhl/",
+          "kind": "post",
+          "publishedAt": "2026-08-28T21:11:34.000Z",
+          "capturedAt": 1791853140721
+        },
+        {
+          "id": "31f41c82cc0fb7a01c9e24e0",
+          "url": "https://www.instagram.com/p/DcThuGuiMhF/",
+          "kind": "post",
+          "publishedAt": "2026-08-21T14:13:57.000Z",
+          "capturedAt": 1791853140721
+        }
+      ]
+    },
+    {
+      "id": "research-371b25cdd89962fcb9c395e9|instagram:runswithmal",
+      "handle": "runswithmal",
+      "profileUrl": "https://www.instagram.com/runswithmal/",
+      "followers": 51737,
+      "selected": true,
+      "verdict": "match",
+      "judgments": [
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 51737，要求 10000–100000",
+          "evidenceIds": [
+            "2317f8c76bd1b9a57ec8fe4e"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "personal_running_creator",
+          "verdict": "match",
+          "reason": "所提供的 WaveSurge 本人主页文字自述“Ultramarathoner & Triathlete”，并列出个人播客、跑团及训练入口；本人帖子持续以第一人称分享跑步和参赛经历，包括上年100K退赛后再次参加50K的详细复盘，支持个人跑步创作者身份，而非品牌、赛事官方或纯搬运账号。认证标记本身不作为明星身份依据。本轮仅复用既有文字，未重新访问页面。",
+          "evidenceIds": [
+            "2317f8c76bd1b9a57ec8fe4e",
+            "c68e983dd264dcda3c6ce8db",
+            "59a819c9a37fd8267079cb58"
+          ],
+          "label": "个人跑步创作者，依据本人简介和公开文字内容核验个人分享身份；排除运动品牌、公司、店铺、赛事或机构官方、明星和纯搬运账号，身份缺证unknown。"
+        },
+        {
+          "criterionId": "first_person_running_experience",
+          "verdict": "match",
+          "reason": "WaveSurge 提供的本人帖子（publishedAt：2026-09-20）明确第一人称复盘 Grindstone 50K：去年100K DNF、此次关门时间压力、爬坡与最后10英里的困难、家人陪伴冲线，并记录33英里及5100多英尺爬升；2026-09-17帖子还自述跑步并在Strava记录里程。属于具体本人越野参赛与跑步实际体验，不只是主题标签或赛事宣传。",
+          "evidenceIds": [
+            "c68e983dd264dcda3c6ce8db",
+            "0378a2a9579cb882a33572db"
+          ],
+          "label": "公开文字必须有本人第一人称的跑步训练、马拉松或越野跑参赛实际体验，满足任一类即可；通用训练建议、赛事宣传、他人转述或主题相关性不能替代本人体验，缺证unknown。"
+        }
+      ],
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "越野跑与超马参赛",
+            "日常跑步",
+            "骑行",
+            "户外徒步"
+          ],
+          "reason": "既有 WaveSurge 帖子文字包含Grindstone 50K参赛复盘、曼哈顿跑步里程记录、本人骑行回归及Catskills徒步经历；这些画像仅依据文字，不依据未观察的媒体像素。",
+          "evidenceIds": [
+            "c68e983dd264dcda3c6ce8db",
+            "0378a2a9579cb882a33572db",
+            "2c417c4a5dab6df2cdfd1dd9",
+            "b912eaddc97eab82ba844916"
+          ]
+        },
+        {
+          "dimensionId": "expression_method",
+          "status": "supported",
+          "values": [
+            "第一人称经历分享",
+            "详细赛事复盘",
+            "幽默口语表达",
+            "品牌合作体验分享"
+          ],
+          "reason": "参赛文案详细描述配速、爬坡、情绪和冲线过程；骑行文案以伴侣互动及表情符号幽默叙述；HOKAPartner帖子结合本人跑步里程与鞋款使用感受。判断依据既有文案，不推断视频呈现方式。",
+          "evidenceIds": [
+            "c68e983dd264dcda3c6ce8db",
+            "2ade0329cad029f423b297e2",
+            "0378a2a9579cb882a33572db"
+          ]
+        }
+      ],
+      "tags": [
+        "越野跑与超马参赛",
+        "日常跑步",
+        "骑行",
+        "户外徒步",
+        "第一人称经历分享",
+        "详细赛事复盘",
+        "幽默口语表达",
+        "品牌合作体验分享"
+      ],
+      "sources": [
+        {
+          "id": "2317f8c76bd1b9a57ec8fe4e",
+          "url": "https://www.instagram.com/runswithmal/",
+          "kind": "profile",
+          "publishedAt": null,
+          "capturedAt": 1791853191925
+        },
+        {
+          "id": "c68e983dd264dcda3c6ce8db",
+          "url": "https://www.instagram.com/p/Ddhf9JBJY7u/",
+          "kind": "post",
+          "publishedAt": "2026-09-20T21:01:33.000Z",
+          "capturedAt": 1791853191925
+        },
+        {
+          "id": "59a819c9a37fd8267079cb58",
+          "url": "https://www.instagram.com/p/DdfCxTvp3fV/",
+          "kind": "post",
+          "publishedAt": "2026-09-19T22:06:41.000Z",
+          "capturedAt": 1791853191925
+        },
+        {
+          "id": "0378a2a9579cb882a33572db",
+          "url": "https://www.instagram.com/p/DdZ8FtfJIVm/",
+          "kind": "post",
+          "publishedAt": "2026-09-17T22:32:05.000Z",
+          "capturedAt": 1791853191925
+        }
+      ]
+    },
+    {
+      "id": "research-371b25cdd89962fcb9c395e9|instagram:marathonweekend",
+      "handle": "marathonweekend",
+      "profileUrl": "https://www.instagram.com/marathonweekend/",
+      "followers": 10323,
+      "selected": false,
+      "verdict": "unknown",
+      "judgments": [
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 10323，要求 10000–100000",
+          "evidenceIds": [
+            "35bbae44acb38833caa76a58"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "personal_running_creator",
+          "verdict": "unknown",
+          "reason": "本轮仅复用 WaveSurge 已采集的文字，未重新访问主页。简介定位为马拉松周末活动的筛选、地图和汇总，虽署名“by @mic.tuc”，但未明确说明该账号是本人个人跑步分享账号。公开帖子主要介绍活动日历、网站和品牌活动，无法仅凭署名或跑步主题确认个人创作者身份，也不足以断言是公司或机构官方账号。",
+          "evidenceIds": [
+            "35bbae44acb38833caa76a58",
+            "f19501b395eb5d94187831e1",
+            "cd029c903e159596313c079e"
+          ],
+          "label": "个人跑步创作者，依据本人简介和公开文字内容核验个人分享身份；排除运动品牌、公司、店铺、赛事或机构官方、明星和纯搬运账号，身份缺证unknown。"
+        },
+        {
+          "criterionId": "first_person_running_experience",
+          "verdict": "match",
+          "reason": "WaveSurge 提供的帖子文字（publishedAt：2026-10-09）明确以第一人称复数描述“Today we joined ... for a shakeout run with adidas and Fleet Feet in Southport”，并提到跑过芝加哥街区、减量期和此前长距离跑，支持账号叙述者实际参与跑步训练，而非仅发布通用建议或赛事宣传。该结论仅确认文字中的第一人称跑步体验，不代替个人账号身份核验。",
+          "evidenceIds": [
+            "701d4277d6abc0dab731c565"
+          ],
+          "label": "公开文字必须有本人第一人称的跑步训练、马拉松或越野跑参赛实际体验，满足任一类即可；通用训练建议、赛事宣传、他人转述或主题相关性不能替代本人体验，缺证unknown。"
+        }
+      ],
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "马拉松周末活动指南",
+            "跑步品牌活动资讯",
+            "赛前热身跑体验"
+          ],
+          "reason": "已提供的 WaveSurge 文案包含芝加哥马拉松周末活动清单、品牌快闪与热身跑信息，以及第一人称参与赛前热身跑的描述；仅依据文字画像。",
+          "evidenceIds": [
+            "cd029c903e159596313c079e",
+            "3e2f4f9c3bd04db3f8bbbad2",
+            "701d4277d6abc0dab731c565"
+          ]
+        },
+        {
+          "dimensionId": "expression_method",
+          "status": "supported",
+          "values": [
+            "活动清单与时间地点指南",
+            "第一人称参与叙述",
+            "活动数据复盘"
+          ],
+          "reason": "文案采用活动时间地点列表、第一人称“we joined”的参与叙述，以及活动数量、浏览量和热门活动排名复盘。未观察图片或视频像素，不推断视觉表达方式。",
+          "evidenceIds": [
+            "f79e513a98b83d4681066367",
+            "701d4277d6abc0dab731c565",
+            "be6bee37a4597b9ad8700c1e"
+          ]
+        }
+      ],
+      "tags": [
+        "马拉松周末活动指南",
+        "跑步品牌活动资讯",
+        "赛前热身跑体验",
+        "活动清单与时间地点指南",
+        "第一人称参与叙述",
+        "活动数据复盘"
+      ],
+      "sources": [
+        {
+          "id": "35bbae44acb38833caa76a58",
+          "url": "https://www.instagram.com/marathonweekend/",
+          "kind": "profile",
+          "publishedAt": null,
+          "capturedAt": 1791853268011
+        },
+        {
+          "id": "701d4277d6abc0dab731c565",
+          "url": "https://www.instagram.com/p/DeSQxwWCeqB/",
+          "kind": "post",
+          "publishedAt": "2026-10-09T19:29:27.000Z",
+          "capturedAt": 1791853268011
+        },
+        {
+          "id": "f19501b395eb5d94187831e1",
+          "url": "https://www.instagram.com/p/DeMm-lyMnQv/",
+          "kind": "post",
+          "publishedAt": "2026-10-07T14:56:24.000Z",
+          "capturedAt": 1791853268011
+        },
+        {
+          "id": "cd029c903e159596313c079e",
+          "url": "https://www.instagram.com/p/DeAUIvXjDUW/",
+          "kind": "post",
+          "publishedAt": "2026-10-02T20:12:28.000Z",
+          "capturedAt": 1791853268011
+        }
+      ]
+    },
+    {
+      "id": "research-371b25cdd89962fcb9c395e9|instagram:runner",
+      "handle": "runner",
+      "profileUrl": "https://www.instagram.com/runner/",
+      "followers": 13879,
+      "selected": false,
+      "verdict": "unknown",
+      "judgments": [
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 13879，要求 10000–100000",
+          "evidenceIds": [
+            "99c8d9e1579c9a5c0c989dd8"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "personal_running_creator",
+          "verdict": "unknown",
+          "reason": "仅复用本轮提供的 WaveSurge 文字资料（capturedAt=1791853392037），未重新访问主页。简介称“Real stories from people”并邀请“Want to be featured? DM us”，呈现征集跑者故事的定位，未明确账号经营者的个人跑者身份。虽然帖子存在第一人称叙述，但无法确认叙述者就是账号本人，也不足以确定为纯搬运账号，因此个人分享身份缺证。",
+          "evidenceIds": [
+            "99c8d9e1579c9a5c0c989dd8",
+            "5bd7072f37430c350cd50ffd",
+            "f8f7a0916970b1ac74728a63"
+          ],
+          "label": "个人跑步创作者，依据本人简介和公开文字内容核验个人分享身份；排除运动品牌、公司、店铺、赛事或机构官方、明星和纯搬运账号，身份缺证unknown。"
+        },
+        {
+          "criterionId": "first_person_running_experience",
+          "verdict": "unknown",
+          "reason": "WaveSurge 提供的帖子文字包含实际跑步经历：publishedAt 为2026-10-07的帖子写“My first 100 miler”及耗时不足24小时，2026-09-28的帖子叙述与朋友和孩子跑大峡谷的感受。但主页明确征集他人故事，现有文字未将这些第一人称叙述者与账号本人绑定，不能排除转载或 featured 跑者的叙述。因此有第一人称体验文本，但“本人体验”仍缺证；采集时间不作为发布时间。",
+          "evidenceIds": [
+            "99c8d9e1579c9a5c0c989dd8",
+            "5bd7072f37430c350cd50ffd",
+            "f8f7a0916970b1ac74728a63",
+            "948cefbdb3f0fb117c00a77f"
+          ],
+          "label": "公开文字必须有本人第一人称的跑步训练、马拉松或越野跑参赛实际体验，满足任一类即可；通用训练建议、赛事宣传、他人转述或主题相关性不能替代本人体验，缺证unknown。"
+        }
+      ],
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "超长距离跑步与参赛故事",
+            "越野跑与户外冒险",
+            "马拉松技巧",
+            "跑步装备讨论"
+          ],
+          "reason": "现有 WaveSurge 帖子文字涉及首次100英里赛、大峡谷跑步经历、芝加哥马拉松技巧及跑鞋价格讨论；这些支持账号内容主题，不代表已证实账号本人的经历或身份。",
+          "evidenceIds": [
+            "5bd7072f37430c350cd50ffd",
+            "f8f7a0916970b1ac74728a63",
+            "8a91e390a2503d19b7187bea",
+            "7684676e1b86d0ab55edf536"
+          ]
+        },
+        {
+          "dimensionId": "expression_method",
+          "status": "supported",
+          "values": [
+            "第一人称故事叙述",
+            "经验技巧分享",
+            "提问互动"
+          ],
+          "reason": "仅依据已提供的文案：100英里及大峡谷帖采用第一人称经历叙述，芝加哥马拉松帖提供技巧，跑鞋帖以提问引导讨论。第一人称为文字表达形式，不据此认定叙述者为账号本人；未观察视频或图片像素。",
+          "evidenceIds": [
+            "5bd7072f37430c350cd50ffd",
+            "f8f7a0916970b1ac74728a63",
+            "8a91e390a2503d19b7187bea",
+            "7684676e1b86d0ab55edf536"
+          ]
+        }
+      ],
+      "tags": [
+        "超长距离跑步与参赛故事",
+        "越野跑与户外冒险",
+        "马拉松技巧",
+        "跑步装备讨论",
+        "第一人称故事叙述",
+        "经验技巧分享",
+        "提问互动"
+      ],
+      "sources": [
+        {
+          "id": "99c8d9e1579c9a5c0c989dd8",
+          "url": "https://www.instagram.com/runner/",
+          "kind": "profile",
+          "publishedAt": null,
+          "capturedAt": 1791853392037
+        },
+        {
+          "id": "5bd7072f37430c350cd50ffd",
+          "url": "https://www.instagram.com/p/DeNPqTVt3e2/",
+          "kind": "post",
+          "publishedAt": "2026-10-07T20:45:43.000Z",
+          "capturedAt": 1791853392037
+        },
+        {
+          "id": "948cefbdb3f0fb117c00a77f",
+          "url": "https://www.instagram.com/p/Dd7VNVlNcS_/",
+          "kind": "post",
+          "publishedAt": "2026-09-30T21:49:43.000Z",
+          "capturedAt": 1791853392037
+        },
+        {
+          "id": "f8f7a0916970b1ac74728a63",
+          "url": "https://www.instagram.com/p/Dd2EjxeN0zT/",
+          "kind": "post",
+          "publishedAt": "2026-09-28T20:48:01.000Z",
+          "capturedAt": 1791853392037
+        }
+      ]
+    },
+    {
+      "id": "research-371b25cdd89962fcb9c395e9|instagram:marathonfuel",
+      "handle": "marathonfuel",
+      "profileUrl": "https://www.instagram.com/marathonfuel/",
+      "followers": 18718,
+      "selected": false,
+      "verdict": "no_match",
+      "judgments": [
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 18718，要求 10000–100000",
+          "evidenceIds": [
+            "875f3512791bd737efc5e0a5"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "personal_running_creator",
+          "verdict": "no_match",
+          "reason": "依据已提供的 WaveSurge 主页及帖子文字（非本轮重新访问），简介围绕加油奖励；2026-09-24 帖子明确称 Marathon 为 Marathon Petroleum 的零售品牌，并以“our bio”宣传品牌棒球队赞助；另有 Marathon Rewards 每加仑优惠推广。证据支持这是燃油品牌账号，而非个人跑步分享创作者，属于排除范围。",
+          "evidenceIds": [
+            "875f3512791bd737efc5e0a5",
+            "b162f8b2ddbdb02de311059e",
+            "e4c84f3332561a112f8ffc37"
+          ],
+          "label": "个人跑步创作者，依据本人简介和公开文字内容核验个人分享身份；排除运动品牌、公司、店铺、赛事或机构官方、明星和纯搬运账号，身份缺证unknown。"
+        },
+        {
+          "criterionId": "first_person_running_experience",
+          "verdict": "unknown",
+          "reason": "已提供的 WaveSurge 公开文字主要为加油奖励、自驾出行及棒球赞助宣传，没有本人第一人称跑步训练、马拉松或越野参赛实际体验。自驾帖中的第一人称表达不能替代跑步体验；仅据当前资料缺口无法确认该条件。",
+          "evidenceIds": [
+            "1258620e1fba7c404d9b0650",
+            "b162f8b2ddbdb02de311059e",
+            "e4c84f3332561a112f8ffc37"
+          ],
+          "label": "公开文字必须有本人第一人称的跑步训练、马拉松或越野跑参赛实际体验，满足任一类即可；通用训练建议、赛事宣传、他人转述或主题相关性不能替代本人体验，缺证unknown。"
+        }
+      ],
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "燃油品牌与加油奖励推广",
+            "自驾出行",
+            "棒球赞助宣传"
+          ],
+          "reason": "已提供的帖子文字明确宣传 Marathon Rewards 加油优惠、自驾出行及 Cleveland Guardians 品牌赞助；仅基于文字，不涉及未观察的图片。",
+          "evidenceIds": [
+            "e4c84f3332561a112f8ffc37",
+            "1258620e1fba7c404d9b0650",
+            "b162f8b2ddbdb02de311059e"
+          ]
+        },
+        {
+          "dimensionId": "expression_method",
+          "status": "supported",
+          "values": [
+            "品牌宣传文案",
+            "提问与评论互动",
+            "短句配表情符号"
+          ],
+          "reason": "品牌赞助帖使用宣传说明与主页链接引导；自驾帖要求标记伙伴或评论必备物品，文案采用简短句子与表情符号。",
+          "evidenceIds": [
+            "b162f8b2ddbdb02de311059e",
+            "e711d7f228195bbd50ce8c62",
+            "b84f5e62f7811e531286ae3f"
+          ]
+        }
+      ],
+      "tags": [
+        "燃油品牌与加油奖励推广",
+        "自驾出行",
+        "棒球赞助宣传",
+        "品牌宣传文案",
+        "提问与评论互动",
+        "短句配表情符号"
+      ],
+      "sources": [
+        {
+          "id": "875f3512791bd737efc5e0a5",
+          "url": "https://www.instagram.com/marathonfuel/",
+          "kind": "profile",
+          "publishedAt": null,
+          "capturedAt": 1791853474162
+        },
+        {
+          "id": "e4c84f3332561a112f8ffc37",
+          "url": "https://www.instagram.com/p/Dd4qQJWpKYJ/",
+          "kind": "post",
+          "publishedAt": "2026-09-29T20:52:23.000Z",
+          "capturedAt": 1791853474162
+        },
+        {
+          "id": "1258620e1fba7c404d9b0650",
+          "url": "https://www.instagram.com/p/Ddt2C0ciouk/",
+          "kind": "post",
+          "publishedAt": "2026-09-25T16:03:18.000Z",
+          "capturedAt": 1791853474162
+        },
+        {
+          "id": "b162f8b2ddbdb02de311059e",
+          "url": "https://www.instagram.com/p/DdrqhN-Etc6/",
+          "kind": "post",
+          "publishedAt": "2026-09-24T19:44:00.000Z",
+          "capturedAt": 1791853474162
+        }
+      ]
+    },
+    {
+      "id": "research-371b25cdd89962fcb9c395e9|instagram:jimesantacruz",
+      "handle": "jimesantacruz",
+      "profileUrl": "https://www.instagram.com/jimesantacruz/",
+      "followers": 74617,
+      "selected": true,
+      "verdict": "match",
+      "judgments": [
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 74617，要求 10000–100000",
+          "evidenceIds": [
+            "fbe428da78dc031f86a97f06"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "personal_running_creator",
+          "verdict": "match",
+          "reason": "依据已提供的 WaveSurge 本人主页及帖子文字（capturedAt=1791853540267），简介自述生活方式与健身内容创作者、言语治疗专业及品牌大使；帖子称 Instagram 为“mi diario personal”（我的个人日记），并分享与自己教练的跑步专项训练。支持个人跑步分享身份，而非品牌、赛事机构或搬运账号；未重新访问页面。",
+          "evidenceIds": [
+            "fbe428da78dc031f86a97f06",
+            "7f1683a7694d49dceadd586a",
+            "c4193484d1abd8c910953b92"
+          ],
+          "label": "个人跑步创作者，依据本人简介和公开文字内容核验个人分享身份；排除运动品牌、公司、店铺、赛事或机构官方、明星和纯搬运账号，身份缺证unknown。"
+        },
+        {
+          "criterionId": "first_person_running_experience",
+          "verdict": "match",
+          "reason": "WaveSurge 提供的帖子文字中，publishedAt 为2026-09-17的跑步表现帖明确说“lo que venimos trabajando con mi profe”，介绍本人正在与教练开展的力量、增强式及跑步专项训练，并感谢教练陪伴自己的训练过程；2026-10-04帖子又以“Mi hidratación”“Mi compañero de rutina”和“te lo digo desde la mía”讲述本人跑步补给与恢复体验。已有第一人称实际训练体验，不依赖赛事宣传推断参赛经历。",
+          "evidenceIds": [
+            "c4193484d1abd8c910953b92",
+            "598faba87ae5f60c548af92b"
+          ],
+          "label": "公开文字必须有本人第一人称的跑步训练、马拉松或越野跑参赛实际体验，满足任一类即可；通用训练建议、赛事宣传、他人转述或主题相关性不能替代本人体验，缺证unknown。"
+        }
+      ],
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "跑步专项力量训练",
+            "跑步补给与恢复",
+            "健身与日常生活",
+            "越野赛事推广"
+          ],
+          "reason": "已提供的 WaveSurge 帖子文字分别涉及本人跑步力量与增强式训练、补给恢复、健身生活日记以及 Payé 越野赛事宣传；赛事宣传不作为本人已参赛体验的证明。",
+          "evidenceIds": [
+            "c4193484d1abd8c910953b92",
+            "598faba87ae5f60c548af92b",
+            "239f7f8707021ea8d709aaec",
+            "abdc66e4478d61db733cda01"
+          ]
+        },
+        {
+          "dimensionId": "expression_method",
+          "status": "supported",
+          "values": [
+            "第一人称训练分享",
+            "个人日记式叙述",
+            "产品体验推荐",
+            "赛事宣传文案"
+          ],
+          "reason": "依据帖子文字中的本人和教练训练叙述、“我的个人日记”、个人补给推荐及赛事报名宣传标注表达方式；仅核验文字，不推断视频画面、口播或照片视觉表现。",
+          "evidenceIds": [
+            "c4193484d1abd8c910953b92",
+            "7f1683a7694d49dceadd586a",
+            "598faba87ae5f60c548af92b",
+            "abdc66e4478d61db733cda01"
+          ]
+        }
+      ],
+      "tags": [
+        "跑步专项力量训练",
+        "跑步补给与恢复",
+        "健身与日常生活",
+        "越野赛事推广",
+        "第一人称训练分享",
+        "个人日记式叙述",
+        "产品体验推荐",
+        "赛事宣传文案"
+      ],
+      "sources": [
+        {
+          "id": "fbe428da78dc031f86a97f06",
+          "url": "https://www.instagram.com/jimesantacruz/",
+          "kind": "profile",
+          "publishedAt": null,
+          "capturedAt": 1791853540267
+        },
+        {
+          "id": "598faba87ae5f60c548af92b",
+          "url": "https://www.instagram.com/p/DeFVcTuEfF9/",
+          "kind": "post",
+          "publishedAt": "2026-10-04T19:00:06.000Z",
+          "capturedAt": 1791853540267
+        },
+        {
+          "id": "7f1683a7694d49dceadd586a",
+          "url": "https://www.instagram.com/p/DdzvbseAbF-/",
+          "kind": "post",
+          "publishedAt": "2026-09-27T23:00:02.000Z",
+          "capturedAt": 1791853540267
+        },
+        {
+          "id": "c4193484d1abd8c910953b92",
+          "url": "https://www.instagram.com/p/DdZFTG8xymm/",
+          "kind": "post",
+          "publishedAt": "2026-09-17T14:34:29.000Z",
+          "capturedAt": 1791853540267
+        }
+      ]
+    },
+    {
+      "id": "research-371b25cdd89962fcb9c395e9|instagram:longbeachmarathon",
+      "handle": "longbeachmarathon",
+      "profileUrl": "https://www.instagram.com/longbeachmarathon/",
+      "followers": 39945,
+      "selected": false,
+      "verdict": "no_match",
+      "judgments": [
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 39945，要求 10000–100000",
+          "evidenceIds": [
+            "36fd7898146fc7d2dbcdc278"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "personal_running_creator",
+          "verdict": "no_match",
+          "reason": "依据已提供的 WaveSurge 主页及帖子文字（非本轮重新访问），简介列出马拉松、半马、5K及赛事日期；帖子以“our incredible runners”“We’re so proud of you”向参赛者致谢，并提供赛事照片购买指引，支持该账号为赛事官方而非个人跑步分享账号，属于明确排除类型。",
+          "evidenceIds": [
+            "36fd7898146fc7d2dbcdc278",
+            "5aa50c87ceb55953be1d37d6",
+            "71aa158746e9801af4d750dd"
+          ],
+          "label": "个人跑步创作者，依据本人简介和公开文字内容核验个人分享身份；排除运动品牌、公司、店铺、赛事或机构官方、明星和纯搬运账号，身份缺证unknown。"
+        },
+        {
+          "criterionId": "first_person_running_experience",
+          "verdict": "unknown",
+          "reason": "已提供文字主要是赛事宣传、参赛者感谢及第三人称成绩报道：“She just shattered…”和“This absolute beast ran…”均为他人经历。“Never felt so alive at the finish line”未明确体验者归属，在赛事账号语境下不能确认是账号本人参赛体验；没有可确认的本人第一人称训练或参赛实际经历，因此缺证。",
+          "evidenceIds": [
+            "1dd5976c42cae9be3222acb2",
+            "f610b8ab7a84c9121e327b9c",
+            "9bceb5c4d17ee450802ed7a7"
+          ],
+          "label": "公开文字必须有本人第一人称的跑步训练、马拉松或越野跑参赛实际体验，满足任一类即可；通用训练建议、赛事宣传、他人转述或主题相关性不能替代本人体验，缺证unknown。"
+        }
+      ],
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "马拉松与半马赛事宣传",
+            "参赛者成绩报道",
+            "赛事照片与奖牌服务"
+          ],
+          "reason": "WaveSurge 提供的简介列明赛事项目；帖子报道半马纪录，并推广赛后照片购买及奖牌定制。仅依据已取得的文字，不涉及图像观察。",
+          "evidenceIds": [
+            "36fd7898146fc7d2dbcdc278",
+            "1dd5976c42cae9be3222acb2",
+            "71aa158746e9801af4d750dd",
+            "f261853f9de2d56a39610c60"
+          ]
+        },
+        {
+          "dimensionId": "expression_method",
+          "status": "supported",
+          "values": [
+            "赛事组织方口吻",
+            "第三人称选手故事",
+            "互动号召",
+            "服务推广"
+          ],
+          "reason": "文案以组织方口吻感谢跑者，第三人称介绍选手成绩，邀请用户在评论区展示奖牌，并引导购买赛事照片。此判断来自传入的帖子文案而非视频或图片像素。",
+          "evidenceIds": [
+            "5aa50c87ceb55953be1d37d6",
+            "1dd5976c42cae9be3222acb2",
+            "8f40683688e64f01956917c8",
+            "71aa158746e9801af4d750dd"
+          ]
+        }
+      ],
+      "tags": [
+        "马拉松与半马赛事宣传",
+        "参赛者成绩报道",
+        "赛事照片与奖牌服务",
+        "赛事组织方口吻",
+        "第三人称选手故事",
+        "互动号召",
+        "服务推广"
+      ],
+      "sources": [
+        {
+          "id": "36fd7898146fc7d2dbcdc278",
+          "url": "https://www.instagram.com/longbeachmarathon/",
+          "kind": "profile",
+          "publishedAt": null,
+          "capturedAt": 1791853663396
+        },
+        {
+          "id": "9bceb5c4d17ee450802ed7a7",
+          "url": "https://www.instagram.com/p/DeaU2novs4h/",
+          "kind": "post",
+          "publishedAt": "2026-10-12T22:39:51.000Z",
+          "capturedAt": 1791853663396
+        },
+        {
+          "id": "1dd5976c42cae9be3222acb2",
+          "url": "https://www.instagram.com/p/DeaJoiqxiHA/",
+          "kind": "post",
+          "publishedAt": "2026-10-12T21:00:06.000Z",
+          "capturedAt": 1791853663396
+        },
+        {
+          "id": "71aa158746e9801af4d750dd",
+          "url": "https://www.instagram.com/p/DeZ7zxbjbvA/",
+          "kind": "post",
+          "publishedAt": "2026-10-12T19:00:21.000Z",
+          "capturedAt": 1791853663396
+        },
+        {
+          "id": "f610b8ab7a84c9121e327b9c",
+          "url": "https://www.instagram.com/p/DeZuvf7R5hM/",
+          "kind": "post",
+          "publishedAt": "2026-10-12T17:06:00.000Z",
+          "capturedAt": 1791853663396
+        },
+        {
+          "id": "5aa50c87ceb55953be1d37d6",
+          "url": "https://www.instagram.com/p/DeYG3taSozb/",
+          "kind": "post",
+          "publishedAt": "2026-10-12T02:01:10.000Z",
+          "capturedAt": 1791853663396
+        }
+      ]
+    },
+    {
+      "id": "research-371b25cdd89962fcb9c395e9|instagram:trailrunnersbrasil",
+      "handle": "trailrunnersbrasil",
+      "profileUrl": "https://www.instagram.com/trailrunnersbrasil/",
+      "followers": 15213,
+      "selected": false,
+      "verdict": "no_match",
+      "judgments": [
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 15213，要求 10000–100000",
+          "evidenceIds": [
+            "f5ce46491e9d2db29582474b"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "personal_running_creator",
+          "verdict": "no_match",
+          "reason": "所提供的 WaveSurge 本人主页文字明确自述为专门提供 Trail Run 与 Trekking 的体育咨询服务（Assessoria Esportiva），并提供企业活动服务；帖子以 TRB 机构名义招募付费名额、推广有组织的徒步行程，属于运动服务机构账号，而非个人跑步分享账号。本轮仅复用已采集文字，未重新访问主页。",
+          "evidenceIds": [
+            "f5ce46491e9d2db29582474b",
+            "38c02b7122c2a9922484cb05",
+            "d91c6434410f6acdc37cf521"
+          ],
+          "label": "个人跑步创作者，依据本人简介和公开文字内容核验个人分享身份；排除运动品牌、公司、店铺、赛事或机构官方、明星和纯搬运账号，身份缺证unknown。"
+        },
+        {
+          "criterionId": "first_person_running_experience",
+          "verdict": "unknown",
+          "reason": "已有文字主要为 TRB 行程招募、户外训练路线勘察及通用力量训练建议。“我们的旅程”“我们的训练”等复数叙述归属于机构，不能确认某位本人第一人称的实际跑步训练、马拉松或越野跑参赛体验；未提供符合要求的个人体验文字，故保持 unknown。",
+          "evidenceIds": [
+            "eabcfc26f3d0969731d14e54",
+            "6bf12c99e8f0e55951ef07b8",
+            "dc4810f2d515433b4bd9b274",
+            "d7fd1b489042b6d5f27e310a"
+          ],
+          "label": "公开文字必须有本人第一人称的跑步训练、马拉松或越野跑参赛实际体验，满足任一类即可；通用训练建议、赛事宣传、他人转述或主题相关性不能替代本人体验，缺证unknown。"
+        }
+      ],
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "越野跑与户外训练服务",
+            "徒步穿越活动推广",
+            "力量训练建议"
+          ],
+          "reason": "依据已提供的 WaveSurge 简介和帖子文字，账号围绕 Trail Run/Trekking 服务、户外训练与徒步活动招募发布内容，并有力量训练通用建议；未依据图片资源推断视觉内容。",
+          "evidenceIds": [
+            "f5ce46491e9d2db29582474b",
+            "38c02b7122c2a9922484cb05",
+            "6bf12c99e8f0e55951ef07b8",
+            "d7fd1b489042b6d5f27e310a"
+          ]
+        },
+        {
+          "dimensionId": "expression_method",
+          "status": "supported",
+          "values": [
+            "机构集体口吻",
+            "活动招募与服务推广",
+            "互动提问"
+          ],
+          "reason": "文字以 TRB 或“我们”表述机构活动，通过日期、地点、有限名额及联系入口招募参与者；部分帖子采用询问训练情况或徒步角色的互动提问。仅判断文案表达方式。",
+          "evidenceIds": [
+            "38c02b7122c2a9922484cb05",
+            "d91c6434410f6acdc37cf521",
+            "d7fd1b489042b6d5f27e310a",
+            "c12dc731d184d3356a38040d"
+          ]
+        }
+      ],
+      "tags": [
+        "越野跑与户外训练服务",
+        "徒步穿越活动推广",
+        "力量训练建议",
+        "机构集体口吻",
+        "活动招募与服务推广",
+        "互动提问"
+      ],
+      "sources": [
+        {
+          "id": "f5ce46491e9d2db29582474b",
+          "url": "https://www.instagram.com/trailrunnersbrasil/",
+          "kind": "profile",
+          "publishedAt": null,
+          "capturedAt": 1791853740479
+        },
+        {
+          "id": "6bf12c99e8f0e55951ef07b8",
+          "url": "https://www.instagram.com/p/DTvDxEJje-5/",
+          "kind": "post",
+          "publishedAt": "2026-01-20T14:08:24.000Z",
+          "capturedAt": 1791853740479
+        },
+        {
+          "id": "eabcfc26f3d0969731d14e54",
+          "url": "https://www.instagram.com/p/DS0YZ6NEr5q/",
+          "kind": "post",
+          "publishedAt": "2025-12-28T19:13:33.000Z",
+          "capturedAt": 1791853740479
+        },
+        {
+          "id": "38c02b7122c2a9922484cb05",
+          "url": "https://www.instagram.com/p/DSaM2raDROX/",
+          "kind": "post",
+          "publishedAt": "2025-12-18T15:12:36.000Z",
+          "capturedAt": 1791853740479
+        },
+        {
+          "id": "d7fd1b489042b6d5f27e310a",
+          "url": "https://www.instagram.com/p/DQrKIKSDkhn/",
+          "kind": "post",
+          "publishedAt": "2025-11-05T12:12:50.000Z",
+          "capturedAt": 1791853740479
+        },
+        {
+          "id": "dc4810f2d515433b4bd9b274",
+          "url": "https://www.instagram.com/p/DIglXFHt3tA/",
+          "kind": "post",
+          "publishedAt": "2025-04-16T13:28:00.000Z",
+          "capturedAt": 1791853740479
+        },
+        {
+          "id": "d91c6434410f6acdc37cf521",
+          "url": "https://www.instagram.com/p/DFsVewtxIhI/",
+          "kind": "post",
+          "publishedAt": "2025-02-05T13:26:27.000Z",
+          "capturedAt": 1791853740479
+        }
+      ]
+    },
+    {
+      "id": "research-371b25cdd89962fcb9c395e9|instagram:caitsouthkeen",
+      "handle": "caitsouthkeen",
+      "profileUrl": "https://www.instagram.com/caitsouthkeen/",
+      "followers": 20489,
+      "selected": true,
+      "verdict": "match",
+      "judgments": [
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 20489，要求 10000–100000",
+          "evidenceIds": [
+            "f7a4bb896ff40515df783bfa"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "personal_running_creator",
+          "verdict": "match",
+          "reason": "依据已提供的 WaveSurge 本人主页与帖子文字（capturedAt=1791853828115，非本轮重新访问）：简介自述“2020 oly trials marathoner”、马拉松及半马成绩；本人帖子详细讲述自己抽签获得悉尼马拉松名额、与伴侣出行及参赛感受，支持个人跑步分享账号身份，而非品牌、赛事官方或搬运账号。竞技成绩及认证标记本身不等于明星身份，现有文字未显示明星账号性质。",
+          "evidenceIds": [
+            "f7a4bb896ff40515df783bfa",
+            "c6b8c6e6de4d93fd8cf87887"
+          ],
+          "label": "个人跑步创作者，依据本人简介和公开文字内容核验个人分享身份；排除运动品牌、公司、店铺、赛事或机构官方、明星和纯搬运账号，身份缺证unknown。"
+        },
+        {
+          "criterionId": "first_person_running_experience",
+          "verdict": "match",
+          "reason": "WaveSurge 提供的悉尼马拉松帖文字（publishedAt=2026-10-02）明确写“I got in through the lottery”，详述本人参赛交通、住宿安排及“the race felt exciting and fun for me”“I felt lucky I could even run again”，属于第一人称实际马拉松参赛体验；另有2026-10-01帖子自述马拉松训练正在进行、晨练及恢复安排。判断仅依据已取得文字，未观看图片或视频。",
+          "evidenceIds": [
+            "c6b8c6e6de4d93fd8cf87887",
+            "da03680f0070b237bbd15ed3"
+          ],
+          "label": "公开文字必须有本人第一人称的跑步训练、马拉松或越野跑参赛实际体验，满足任一类即可；通用训练建议、赛事宣传、他人转述或主题相关性不能替代本人体验，缺证unknown。"
+        }
+      ],
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "马拉松参赛体验",
+            "马拉松训练与恢复",
+            "个人健康与康复记录"
+          ],
+          "reason": "已提供的 WaveSurge 帖文涉及悉尼马拉松本人参赛体验、备战 everywomansmarathon 的训练及恢复，以及本人阑尾炎手术和康复过程。",
+          "evidenceIds": [
+            "c6b8c6e6de4d93fd8cf87887",
+            "da03680f0070b237bbd15ed3",
+            "236ad97b6225bd542cf5528c"
+          ]
+        },
+        {
+          "dimensionId": "expression_method",
+          "status": "supported",
+          "values": [
+            "第一人称经历叙述",
+            "分点实用经验分享",
+            "个人训练日常结合商业合作"
+          ],
+          "reason": "悉尼马拉松帖以第一人称叙述并按航班、酒店、交通分点分享实际安排；训练恢复帖明确标注 AD/#ad，并将本人训练日常与产品合作结合。仅评估文字表达，不推断视频呈现方式。",
+          "evidenceIds": [
+            "c6b8c6e6de4d93fd8cf87887",
+            "da03680f0070b237bbd15ed3"
+          ]
+        }
+      ],
+      "tags": [
+        "马拉松参赛体验",
+        "马拉松训练与恢复",
+        "个人健康与康复记录",
+        "第一人称经历叙述",
+        "分点实用经验分享",
+        "个人训练日常结合商业合作"
+      ],
+      "sources": [
+        {
+          "id": "f7a4bb896ff40515df783bfa",
+          "url": "https://www.instagram.com/caitsouthkeen/",
+          "kind": "profile",
+          "publishedAt": null,
+          "capturedAt": 1791853828115
+        },
+        {
+          "id": "c6b8c6e6de4d93fd8cf87887",
+          "url": "https://www.instagram.com/p/DeACc2yG0-o/",
+          "kind": "post",
+          "publishedAt": "2026-10-02T17:37:56.000Z",
+          "capturedAt": 1791853828115
+        },
+        {
+          "id": "da03680f0070b237bbd15ed3",
+          "url": "https://www.instagram.com/p/Dd9IE68R42r/",
+          "kind": "post",
+          "publishedAt": "2026-10-01T14:31:09.000Z",
+          "capturedAt": 1791853828115
+        }
+      ]
+    }
+  ],
+  "failure": "AssertionError [ERR_ASSERTION]: 终态应自动在聊天交付报告",
+  "finishedAt": "2026-10-13T01:12:35.822Z",
+  "curation": {
+    "sourceBodies": "完整源文保存在认证应用报告及数据库；提交的断言保留证据ID、链接、时间与模型理由",
+    "rawExports": "完整HTML和CSV保存在本地validation/artifacts以及应用报告接口"
+  }
+}

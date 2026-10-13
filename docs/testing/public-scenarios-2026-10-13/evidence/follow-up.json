@@ -1,0 +1,280 @@
+{
+  "base": "http://101.201.237.219:33332",
+  "prompt": "请分别告诉我「公网场景验收：跑步训练与参赛体验」和「公网场景验收：家用咖啡制作体验」当前实际进度。这是进度查询，两项都继续原范围，不新建或取消研究。",
+  "taskIds": [
+    "research-371b25cdd89962fcb9c395e9",
+    "research-c862ed11e2e7d7d9abcc20fa"
+  ],
+  "startedAt": "2026-10-13T01:00:01.630Z",
+  "checks": {
+    "twoTaskReply": true,
+    "scopesPreserved": true,
+    "noTaskLossOrDuplication": true,
+    "workContinues": true
+  },
+  "pageErrors": [],
+  "before": [
+    {
+      "id": "research-371b25cdd89962fcb9c395e9",
+      "title": "公网场景验收：跑步训练与参赛体验",
+      "status": "running",
+      "requested": 3,
+      "evaluated": 3,
+      "matched": 0,
+      "qualifying": 0,
+      "allowHumanAssistance": true,
+      "matchedMeaning": "研究组入选的合格账号数；合格候选总数见qualifying",
+      "updatedAt": 1791853191822,
+      "detail": "正在读取 WaveSurge 原始资料；本地筛选尚未完成",
+      "remoteStatus": "running",
+      "nextPollAt": 1791853166977
+    },
+    {
+      "id": "research-c862ed11e2e7d7d9abcc20fa",
+      "title": "公网场景验收：家用咖啡制作体验",
+      "status": "running",
+      "requested": 2,
+      "evaluated": 0,
+      "matched": 0,
+      "allowHumanAssistance": true,
+      "matchedMeaning": "研究组入选的合格账号数；合格候选总数见qualifying",
+      "updatedAt": 1791853191424,
+      "detail": "已读取 0 位候选；来源 继续读取，合格候选 0 人，研究组预选 0 人",
+      "remoteStatus": "running",
+      "nextPollAt": 1791853192424
+    }
+  ],
+  "beforeScopes": [
+    {
+      "title": "公网场景验收：跑步训练与参赛体验",
+      "personaText": "个人跑步创作者，分享本人第一人称跑步训练、马拉松或越野跑参赛体验。",
+      "count": 3,
+      "platforms": [
+        "instagram"
+      ],
+      "regions": [],
+      "minFollowers": 10000,
+      "maxFollowers": 100000,
+      "candidateBudget": 12,
+      "verificationMode": "text",
+      "instagram": {
+        "queries": [
+          "runner",
+          "marathon",
+          "trailrunner"
+        ],
+        "version": "v3",
+        "profileBudget": 80
+      },
+      "criteria": [
+        {
+          "id": "personal_running_creator",
+          "label": "个人跑步创作者，依据本人简介和公开文字内容核验个人分享身份；排除运动品牌、公司、店铺、赛事或机构官方、明星和纯搬运账号，身份缺证unknown。",
+          "required": true,
+          "basis": "text"
+        },
+        {
+          "id": "first_person_running_experience",
+          "label": "公开文字必须有本人第一人称的跑步训练、马拉松或越野跑参赛实际体验，满足任一类即可；通用训练建议、赛事宣传、他人转述或主题相关性不能替代本人体验，缺证unknown。",
+          "required": true,
+          "basis": "text"
+        }
+      ],
+      "annotations": [
+        {
+          "id": "content_direction",
+          "label": "内容方向"
+        },
+        {
+          "id": "expression_method",
+          "label": "表达方式"
+        }
+      ]
+    },
+    {
+      "title": "公网场景验收：家用咖啡制作体验",
+      "personaText": "个人咖啡爱好者，分享本人在家制作手冲或意式咖啡的第一人称实际体验。",
+      "count": 2,
+      "platforms": [
+        "instagram"
+      ],
+      "regions": [],
+      "minFollowers": 10000,
+      "maxFollowers": 100000,
+      "candidateBudget": 12,
+      "verificationMode": "text",
+      "instagram": {
+        "queries": [
+          "homebarista",
+          "pourover",
+          "espresso"
+        ],
+        "version": "v3",
+        "profileBudget": 80
+      },
+      "criteria": [
+        {
+          "id": "personal_coffee_enthusiast",
+          "label": "个人咖啡爱好者，依据本人简介与已有公开文字核验个人分享身份；排除咖啡品牌、咖啡店、器材商、公司、机构官方、明星及纯搬运账号，身份缺证保持unknown。",
+          "required": true,
+          "basis": "text"
+        },
+        {
+          "id": "first_person_home_coffee",
+          "label": "已有公开文字必须分享本人在家制作手冲或意式咖啡的第一人称实际体验，满足任一制作方式即可；必须有家庭制作场景与本人体验证据，不能以咖啡主题、通用教程、店内饮用、产品宣传或转述他人替代，缺证保持unknown。",
+          "required": true,
+          "basis": "text"
+        }
+      ],
+      "annotations": [
+        {
+          "id": "content_direction",
+          "label": "内容方向"
+        },
+        {
+          "id": "expression_method",
+          "label": "表达方式"
+        }
+      ]
+    }
+  ],
+  "userId": "8070a24069deed1b69d4676b5dbf4cd3",
+  "createdAt": 1791853204217,
+  "reply": {
+    "id": "0493f420-c255-4892-8da4-13032e753840",
+    "role": "assistant",
+    "text": "根据刚刚查询的最新任务记录，两项均**正在运行**：\n\n| 研究 | 已逐人核验 | 当前合格候选 | 配额内入选 | 当前阶段 |\n|---|---:|---:|---:|---|\n| 公网场景验收：跑步训练与参赛体验 | **3人** | **0人** | **0／3人** | 正在继续读取原始资料，本地筛选尚未完成 |\n| 公网场景验收：家用咖啡制作体验 | **0人** | **0人** | **0／2人** | 已读取候选0人，正在继续读取来源 |\n\n**已核验不等于合格或入选**；两项尚未结束，目前的0入选不是最终缺额结论。\n\n本轮只查询了进度，**没有新建、取消或修改任何研究**。两项继续按原范围执行：只核验已有公开文字，保留个人身份、第一人称实际体验及排除条件。全部结束后，在聊天中交付真实名单、逐人匹配说明、报告和CSV。",
+    "epoch": 6,
+    "createdAt": 1791853220339,
+    "state": "delivered",
+    "attachments": []
+  },
+  "replyMs": 16122,
+  "after": [
+    {
+      "id": "research-371b25cdd89962fcb9c395e9",
+      "title": "公网场景验收：跑步训练与参赛体验",
+      "status": "running",
+      "requested": 3,
+      "evaluated": 3,
+      "matched": 0,
+      "qualifying": 0,
+      "allowHumanAssistance": true,
+      "matchedMeaning": "研究组入选的合格账号数；合格候选总数见qualifying",
+      "updatedAt": 1791853191822,
+      "detail": "正在读取 WaveSurge 原始资料；本地筛选尚未完成",
+      "remoteStatus": "running",
+      "nextPollAt": 1791853166977
+    },
+    {
+      "id": "research-c862ed11e2e7d7d9abcc20fa",
+      "title": "公网场景验收：家用咖啡制作体验",
+      "status": "running",
+      "requested": 2,
+      "evaluated": 0,
+      "matched": 0,
+      "allowHumanAssistance": true,
+      "matchedMeaning": "研究组入选的合格账号数；合格候选总数见qualifying",
+      "updatedAt": 1791853191424,
+      "detail": "已读取 0 位候选；来源 继续读取，合格候选 0 人，研究组预选 0 人",
+      "remoteStatus": "running",
+      "nextPollAt": 1791853192424
+    }
+  ],
+  "afterScopes": [
+    {
+      "title": "公网场景验收：跑步训练与参赛体验",
+      "personaText": "个人跑步创作者，分享本人第一人称跑步训练、马拉松或越野跑参赛体验。",
+      "count": 3,
+      "platforms": [
+        "instagram"
+      ],
+      "regions": [],
+      "minFollowers": 10000,
+      "maxFollowers": 100000,
+      "candidateBudget": 12,
+      "verificationMode": "text",
+      "instagram": {
+        "queries": [
+          "runner",
+          "marathon",
+          "trailrunner"
+        ],
+        "version": "v3",
+        "profileBudget": 80
+      },
+      "criteria": [
+        {
+          "id": "personal_running_creator",
+          "label": "个人跑步创作者，依据本人简介和公开文字内容核验个人分享身份；排除运动品牌、公司、店铺、赛事或机构官方、明星和纯搬运账号，身份缺证unknown。",
+          "required": true,
+          "basis": "text"
+        },
+        {
+          "id": "first_person_running_experience",
+          "label": "公开文字必须有本人第一人称的跑步训练、马拉松或越野跑参赛实际体验，满足任一类即可；通用训练建议、赛事宣传、他人转述或主题相关性不能替代本人体验，缺证unknown。",
+          "required": true,
+          "basis": "text"
+        }
+      ],
+      "annotations": [
+        {
+          "id": "content_direction",
+          "label": "内容方向"
+        },
+        {
+          "id": "expression_method",
+          "label": "表达方式"
+        }
+      ]
+    },
+    {
+      "title": "公网场景验收：家用咖啡制作体验",
+      "personaText": "个人咖啡爱好者，分享本人在家制作手冲或意式咖啡的第一人称实际体验。",
+      "count": 2,
+      "platforms": [
+        "instagram"
+      ],
+      "regions": [],
+      "minFollowers": 10000,
+      "maxFollowers": 100000,
+      "candidateBudget": 12,
+      "verificationMode": "text",
+      "instagram": {
+        "queries": [
+          "homebarista",
+          "pourover",
+          "espresso"
+        ],
+        "version": "v3",
+        "profileBudget": 80
+      },
+      "criteria": [
+        {
+          "id": "personal_coffee_enthusiast",
+          "label": "个人咖啡爱好者，依据本人简介与已有公开文字核验个人分享身份；排除咖啡品牌、咖啡店、器材商、公司、机构官方、明星及纯搬运账号，身份缺证保持unknown。",
+          "required": true,
+          "basis": "text"
+        },
+        {
+          "id": "first_person_home_coffee",
+          "label": "已有公开文字必须分享本人在家制作手冲或意式咖啡的第一人称实际体验，满足任一制作方式即可；必须有家庭制作场景与本人体验证据，不能以咖啡主题、通用教程、店内饮用、产品宣传或转述他人替代，缺证保持unknown。",
+          "required": true,
+          "basis": "text"
+        }
+      ],
+      "annotations": [
+        {
+          "id": "content_direction",
+          "label": "内容方向"
+        },
+        {
+          "id": "expression_method",
+          "label": "表达方式"
+        }
+      ]
+    }
+  ],
+  "passed": true,
+  "finishedAt": "2026-10-13T01:00:26.205Z"
+}

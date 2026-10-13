@@ -1,0 +1,48 @@
+{
+  "base": "http://101.201.237.219:33332",
+  "startedAt": "2026-10-13T01:25:15.762Z",
+  "checks": {
+    "messageTimes": true
+  },
+  "cases": [
+    {
+      "scenario": "running",
+      "taskId": "research-371b25cdd89962fcb9c395e9",
+      "tag": "越野跑与超马参赛",
+      "verdict": "match",
+      "expectedIds": [
+        "research-371b25cdd89962fcb9c395e9|instagram:runswithmal"
+      ],
+      "filteredCsvBytes": 88151,
+      "filteredOfflineBytes": 79158,
+      "checks": {
+        "exactTagQuery": true,
+        "csvMatchesQuery": true,
+        "actualReportClick": true,
+        "onlineMatchesQuery": true,
+        "offlineMatchesQuery": true
+      }
+    },
+    {
+      "scenario": "coffee",
+      "taskId": "research-c862ed11e2e7d7d9abcc20fa",
+      "tag": "家用意式咖啡制作",
+      "verdict": "match",
+      "expectedIds": [
+        "research-c862ed11e2e7d7d9abcc20fa|instagram:homebarista.ig"
+      ],
+      "filteredCsvBytes": 70327,
+      "filteredOfflineBytes": 68199,
+      "checks": {
+        "exactTagQuery": true,
+        "csvMatchesQuery": true,
+        "actualReportClick": true,
+        "onlineMatchesQuery": true,
+        "offlineMatchesQuery": true
+      }
+    }
+  ],
+  "pageErrors": [],
+  "failure": "Error: expect(locator).toHaveCount(expected) failed\n\nLocator:  locator('article[data-result-id]')\nExpected: 5\nReceived: 16\nTimeout:  5000ms\n\nCall log:\n  - Expect \"toHaveCount\" locator('article[data-result-id]') with timeout 5000ms\n  - waiting for locator('article[data-result-id]')\n    14 × locator resolved to 16 elements\n       - unexpected value \"16\"\n",
+  "finishedAt": "2026-10-13T01:25:46.483Z"
+}

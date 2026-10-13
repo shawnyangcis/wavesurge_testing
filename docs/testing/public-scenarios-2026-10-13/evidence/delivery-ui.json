@@ -1,0 +1,70 @@
+{
+  "base": "http://101.201.237.219:33332",
+  "startedAt": "2026-10-13T01:31:32.318Z",
+  "checks": {
+    "messageTimes": true,
+    "noBrowserPageErrors": true
+  },
+  "cases": [
+    {
+      "scenario": "running",
+      "taskId": "research-371b25cdd89962fcb9c395e9",
+      "tag": "越野跑与超马参赛",
+      "verdict": "match",
+      "expectedIds": [
+        "research-371b25cdd89962fcb9c395e9|instagram:runswithmal"
+      ],
+      "filteredCsvBytes": 88151,
+      "filteredOfflineBytes": 79158,
+      "checks": {
+        "exactTagQuery": true,
+        "csvMatchesQuery": true,
+        "actualReportClick": true,
+        "onlineMatchesQuery": true,
+        "offlineMatchesQuery": true
+      }
+    },
+    {
+      "scenario": "coffee",
+      "taskId": "research-c862ed11e2e7d7d9abcc20fa",
+      "tag": "家用意式咖啡制作",
+      "verdict": "match",
+      "expectedIds": [
+        "research-c862ed11e2e7d7d9abcc20fa|instagram:homebarista.ig"
+      ],
+      "filteredCsvBytes": 70327,
+      "filteredOfflineBytes": 68199,
+      "checks": {
+        "exactTagQuery": true,
+        "csvMatchesQuery": true,
+        "actualReportClick": true,
+        "onlineMatchesQuery": true,
+        "offlineMatchesQuery": true
+      }
+    }
+  ],
+  "pageErrors": [],
+  "combined": {
+    "batchId": "ba652d587214e85a3a31509da4d1062d",
+    "taskIds": [
+      "research-371b25cdd89962fcb9c395e9",
+      "research-c862ed11e2e7d7d9abcc20fa"
+    ],
+    "groups": 2,
+    "records": 16,
+    "selected": 5,
+    "distinctSelected": 5,
+    "csvBytes": 1423344,
+    "offlineBytes": 1188911,
+    "checks": {
+      "actualChatReportClick": true,
+      "groupCounts": true,
+      "perRecordOwnership": true,
+      "selectedCount": true,
+      "actualChatCsvDownload": true,
+      "offlineRecordConsistency": true
+    }
+  },
+  "passed": true,
+  "finishedAt": "2026-10-13T01:31:53.211Z"
+}
