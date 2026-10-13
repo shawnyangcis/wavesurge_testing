@@ -10,9 +10,9 @@
 | 接口参考 | [API](api.md)、[Guide](guide.md)、[Skill](SKILL.md) | WaveSurge 原始资料与接口；根目录副本同步保留 |
 | 测试总方案 | [测试方案](test-plan.md) | 分层策略和历史回归要求 |
 | 最新真实验证 | [公网多场景验收](testing/public-scenarios-2026-10-13/report.md) | 不指定账号和搜索词的自然语言研究、真实API、运行中续聊、逐人依据与实际下载 |
-| 历史发布记录 | [补救与发布报告](testing/public-acceptance-2026-10-13/report.md) | HTTP发送、地区与调度修复、历史输入的逐项结果、发布与完整流程图 |
+| 发布验证资料 | [发布资料入口](testing/public-acceptance-2026-10-13/report.md) | 按版本保存的源码、存量数据、接口与浏览器验证记录 |
 | 最终测试 | [测试目录](testing/README.md) | 本轮方案、用例、报告、截图及结构化证据 |
 | R4 修复 | [修复报告](../dev-reports/retest-r4-fixes-2026-10-10.md) | 统计、来源、分配、匹配说明、引用和并发的修复依据 |
 | 历史阶段 | [历史实现报告](../dev-reports/creator-studio-delivery-2026-10-10.md) | 初次交付记录；后续版本以最终报告为准 |
 
-源代码测试位于 `tests/`。阶段公开材料在 `validation/2026-10-10/`，原始本机 QA 工作材料在 `.gstack/qa-reports/`。私有数据库、密码、配置、追踪归档和临时运行输出不作为提交证据；整理后的最终证据位于 `docs/testing/final-2026-10-11/`。
+源代码测试位于 `tests/`。阶段公开材料在 `validation/2026-10-10/`，原始本机 QA 工作材料在 `.gstack/qa-reports/`。私有数据库、密码、配置、追踪归档和临时运行输出不作为提交证据；最新整理证据位于 `docs/testing/public-scenarios-2026-10-13/`，阶段证据按日期保存在 `docs/testing/`。

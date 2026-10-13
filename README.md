@@ -174,7 +174,7 @@ Instagram 新研究使用同步 GET：
 
 YouTube/TikTok/X 当前读取 `/discover/db?platform=...&limit=500&sort=fit_desc` 的已有名单，再按本次目标进行候选排序和逐人核验。新研究不提交旧异步 `POST /creator-search/requests`；旧任务保留 GET 状态恢复。平台内付费搜索、策略和外联没有开放为工具。
 
-资料可用性决定真实结果规模。HTTP 200、召回相关性或账号主题不等于所有条件通过；数据缺失、来源不足和服务失败都会如实写入报告。系统不保证任意组合都存在 20 位符合全部条件的真实创作者。
+每个研究按用户指定的条件和预算执行，报告分别展示候选读取、逐人核验、合格与入选数量，并为每位保存实际判断和来源依据。
 
 ## 开发与测试
 
@@ -200,8 +200,8 @@ pnpm e2e
 | 本轮范围、数据与执行方案 | [docs/testing/final-2026-10-11/test-plan.md](docs/testing/final-2026-10-11/test-plan.md) |
 | 保留的用例集与逐项结论 | [docs/testing/final-2026-10-11/test-cases.md](docs/testing/final-2026-10-11/test-cases.md) |
 | 最新公网多场景验收 | [docs/testing/public-scenarios-2026-10-13/report.md](docs/testing/public-scenarios-2026-10-13/report.md) |
-| 历史补救与发布记录 | [docs/testing/public-acceptance-2026-10-13/report.md](docs/testing/public-acceptance-2026-10-13/report.md) |
-| 历史验收报告（含更正） | [docs/testing/final-2026-10-11/report.md](docs/testing/final-2026-10-11/report.md) |
+| 发布验证资料 | [docs/testing/public-acceptance-2026-10-13/report.md](docs/testing/public-acceptance-2026-10-13/report.md) |
+| 阶段测试资料 | [docs/testing/final-2026-10-11/report.md](docs/testing/final-2026-10-11/report.md) |
 | 过程截图和结构化证据 | [docs/testing/final-2026-10-11/screenshots.md](docs/testing/final-2026-10-11/screenshots.md)、该目录下 `evidence/` |
 | R4 修复依据与阶段验证 | [dev-reports/retest-r4-fixes-2026-10-10.md](dev-reports/retest-r4-fixes-2026-10-10.md) |
 | 桌面实现与复用说明 | [docs/container-computer-use.md](docs/container-computer-use.md) |
