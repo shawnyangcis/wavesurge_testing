@@ -1,6 +1,6 @@
 import type { Store } from './store.ts';
 import type { PublicSettings } from '../shared/contracts.ts';
-import { systemPrompt, workflowPrompt, verificationPrompt, compressionPrompt, legacySystemPrompt, legacyEarlyWorkflowPrompt, legacyWorkflowPrompt, legacyQAWorkflowPrompt, legacyAPIWorkflowPrompt, legacyRuntimeWorkflowPrompt, legacyScopeWorkflowPrompt, legacyBatchWorkflowPrompt, legacyProtocolWorkflowPrompt, legacyKOCWorkflowPrompt, legacyDesktopWorkflowPrompt, legacyBrowserWorkflowPrompt, legacyReportWorkflowPrompt, legacyVerificationPrompt, legacyFactsVerificationPrompt, legacyCompressionPrompt, legacyPublicSystemPrompt, legacyPublicWorkflowPrompt, legacyPublicVerificationPrompt } from '../shared/prompts.ts';
+import { systemPrompt, workflowPrompt, verificationPrompt, compressionPrompt, legacySystemPrompt, legacyEarlyWorkflowPrompt, legacyWorkflowPrompt, legacyQAWorkflowPrompt, legacyAPIWorkflowPrompt, legacyRuntimeWorkflowPrompt, legacyScopeWorkflowPrompt, legacyBatchWorkflowPrompt, legacyProtocolWorkflowPrompt, legacyKOCWorkflowPrompt, legacyDesktopWorkflowPrompt, legacyBrowserWorkflowPrompt, legacyReportWorkflowPrompt, legacyVerificationPrompt, legacyFactsVerificationPrompt, legacyCompressionPrompt, legacyPublicSystemPrompt, legacyPublicWorkflowPrompt, legacyPublicVerificationPrompt, legacyExecutionSystemPrompt, legacyExecutionWorkflowPrompt, legacyExecutionVerificationPrompt } from '../shared/prompts.ts';
 export type Settings = PublicSettings & { apiKey: string };
 export class SettingsManager {
   store: Store; inDocker: boolean;
@@ -11,9 +11,9 @@ export class SettingsManager {
     else {
       const updates: Partial<Settings> = {};
       for (const [field, previous, current] of [
-        ['systemPrompt', [legacySystemPrompt, legacyPublicSystemPrompt], systemPrompt],
-        ['workflowPrompt', [legacyEarlyWorkflowPrompt, legacyWorkflowPrompt, legacyQAWorkflowPrompt, legacyAPIWorkflowPrompt, legacyRuntimeWorkflowPrompt, legacyScopeWorkflowPrompt, legacyBatchWorkflowPrompt, legacyProtocolWorkflowPrompt, legacyKOCWorkflowPrompt, legacyDesktopWorkflowPrompt, legacyBrowserWorkflowPrompt, legacyReportWorkflowPrompt, legacyPublicWorkflowPrompt], workflowPrompt],
-        ['verificationPrompt', [legacyVerificationPrompt, legacyFactsVerificationPrompt, legacyPublicVerificationPrompt], verificationPrompt],
+        ['systemPrompt', [legacySystemPrompt, legacyPublicSystemPrompt, legacyExecutionSystemPrompt], systemPrompt],
+        ['workflowPrompt', [legacyEarlyWorkflowPrompt, legacyWorkflowPrompt, legacyQAWorkflowPrompt, legacyAPIWorkflowPrompt, legacyRuntimeWorkflowPrompt, legacyScopeWorkflowPrompt, legacyBatchWorkflowPrompt, legacyProtocolWorkflowPrompt, legacyKOCWorkflowPrompt, legacyDesktopWorkflowPrompt, legacyBrowserWorkflowPrompt, legacyReportWorkflowPrompt, legacyPublicWorkflowPrompt, legacyExecutionWorkflowPrompt], workflowPrompt],
+        ['verificationPrompt', [legacyVerificationPrompt, legacyFactsVerificationPrompt, legacyPublicVerificationPrompt, legacyExecutionVerificationPrompt], verificationPrompt],
         ['compressionPrompt', [legacyCompressionPrompt], compressionPrompt]
       ] as const) if ((previous as readonly string[]).includes(existing[field])) updates[field] = current;
       if (Object.keys(updates).length) store.set('settings', 'model', { ...existing, ...updates, revision: existing.revision + 1 });

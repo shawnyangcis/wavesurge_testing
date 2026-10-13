@@ -1,3 +1,4 @@
+import { resultReviewNote } from '../shared/screening.ts';
 import { useEffect, useRef, useState } from 'react';
 import { api } from './api.ts';
 import { platforms } from '../shared/research.ts';
@@ -36,15 +37,16 @@ export function Results({ taskId, onClose }: { taskId: string; onClose: () => vo
     </form>
     {error && <p role="alert">{error}</p>}{results.length === 0 && <p className="muted">暂时没有已保存的核验结果。</p>}
     {results.map(result => <article className="finding" key={result.id} data-result-id={result.id} data-selected={result.verdict === 'match' && result.selected === true}>
-      <span className={`verdict ${result.verdict}`}>{labels[result.verdict]}</span><h3>{result.creator.displayName}</h3>
+      <span className={`verdict ${result.verdict}`}>{result.verdict === 'match' && resultReviewNote(result) ? '符合已核实条件' : labels[result.verdict]}</span><h3>{result.creator.displayName}</h3>
       {result.selected === true && result.verdict === 'match' && <p>已入选</p>}
       {result.selected === false && result.verdict === 'match' && <p>{result.reportContext?.allocatedGroupTitle ? '本组未入选（已分配其他组）' : '合格备选'}</p>}
+      {resultReviewNote(result) && <p className="review-note">{resultReviewNote(result)}</p>}
       {result.reportContext && <p>来源任务：{result.reportContext.sourceTaskTitle} · 分组：{result.reportContext.groupTitle} · {result.reportContext.selectionScope === 'campaign' ? 'Campaign 最终分配' : '研究组入选'}{result.reportContext.allocatedGroupTitle && ` · 分配至：${result.reportContext.allocatedGroupTitle}`}</p>}
       <p>{result.creator.platform} · @{result.creator.handle} · {result.creator.followers ?? result.creator.facts?.followers?.rawValue ?? '未知'} 粉丝 · {result.creator.facts?.country?.code ?? result.creator.region ?? '地区待确认'}</p>
       <div className="tags">{result.tags.map(tag => <span key={tag}>{tag}</span>)}</div>
       <details><summary>逐条件判断与证据</summary>
         {(result.annotations ?? []).map(item => <div className="judgment" key={item.dimensionId}><strong>{item.dimensionId} · {item.status === 'supported' ? item.values.join('、') : '待核实'}</strong><p>{item.reason}</p></div>)}
-        {result.judgments.map(item => <div className="judgment" key={item.criterionId}><strong>{item.label ?? item.criterionId} · {labels[item.verdict]}</strong><p>{item.reason}</p>{item.evidenceIds.map(id => {
+        {result.judgments.map(item => <div className="judgment" key={item.criterionId}><strong>{item.label ?? item.criterionId} · {item.reviewOnly && item.verdict === 'unknown' ? '待人工确认' : labels[item.verdict]}</strong><p>{item.reason}</p>{item.evidenceIds.map(id => {
           const evidence = result.creator.evidence.find(source => source.id === id)!;
           return <p key={id}><a href={evidence.url} target="_blank" rel="noreferrer">{evidence.text || '查看原始来源'}</a>{evidence.assetId && <a href={`/api/assets/${encodeURIComponent(evidence.assetId)}`} target="_blank" rel="noreferrer">查看截图证据</a>}<small> {evidence.publishedAt ?? '发布时间待确认'}</small></p>;
         })}</div>)}

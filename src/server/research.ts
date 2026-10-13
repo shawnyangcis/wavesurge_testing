@@ -17,6 +17,7 @@ import { searchSchema } from '../shared/research.ts';
 import type { Task } from '../shared/contracts.ts';
 import { resolveJudgments } from './verdict.ts';
 import type { Discovery } from './discovery.ts';
+import { screeningSpec, reviewNote } from '../shared/screening.ts';
 export type ResearchTask = Task & { spec: SearchSpec; body: SearchBody; discovery?: Discovery; discoveryAttempts?: number; remoteId?: string; remoteStatus?: string; nextPollAt: number; candidates: Creator[]; failures: string[]; exhaustive?: boolean; verificationAttempts?: Record<string, { count: number; nextAt: number; resultRevision?: number }>; };
 export type Verifier = (spec: SearchSpec, creator: Creator, taskId: string) => Promise<Judgment[] | Assessment>;
 const validate = new Ajv().compile<SearchSpec>(searchSchema);
@@ -28,7 +29,8 @@ export class ResearchEngine {
   laneFlights: (Promise<void> | undefined)[] = [undefined, undefined]; laneErrors: unknown[] = []; finishing = false;
   constructor(store: Store, wave: Pick<WaveClient, 'submit' | 'poll'> & Partial<Pick<WaveClient, 'discover'>>, verify: Verifier, now: () => number) { this.store = store; this.wave = wave; this.verify = verify; this.textVerify = verify; this.now = now; this.enrichment = new EnrichmentService(this); }
   usesDesktop(spec: SearchSpec) { return spec.verificationMode !== 'text'; }
-  start(input: unknown, callId: string) {
+  start(rawInput: unknown, callId: string) {
+    const input = rawInput;
     if (!validate(input)) throw new Error('筛选范围格式不正确，请补充数量、平台、地区、条件与预算');
     if (input.minFollowers > input.maxFollowers || input.candidateBudget < input.count || new Set(input.criteria.map(item => item.id)).size !== input.criteria.length) throw new Error('筛选范围存在冲突');
     if (input.instagram?.handles && (input.instagram.handles.length > input.candidateBudget || new Set(input.instagram.handles.map(handle => handle.toLowerCase())).size !== input.instagram.handles.length)) throw new Error('指定账号数量超过分析预算或身份重复');
@@ -36,10 +38,11 @@ export class ResearchEngine {
     const id = `research-${createHash('sha256').update(callId).digest('hex').slice(0, 24)}`;
     const existing = this.store.get<ResearchTask>('task', id);
     if (existing) {
-      if (JSON.stringify(existing.spec) !== JSON.stringify(input)) throw new Error('同一次调用的筛选条件已变化');
+      if (JSON.stringify(existing.spec) !== JSON.stringify(input) && JSON.stringify(existing.spec) !== JSON.stringify(screeningSpec(input))) throw new Error('同一次调用的筛选条件已变化');
       return existing;
     }
-    const task: ResearchTask = { id, title: input.title, spec: input, body: searchBody(input, id), status: 'queued', requested: input.count, evaluated: 0, matched: 0, updatedAt: this.now(), detail: '等待读取 WaveSurge 候选与原始资料', nextPollAt: 0, candidates: [], failures: [] };
+    const spec = screeningSpec(input);
+    const task: ResearchTask = { id, title: spec.title, spec, body: searchBody(spec, id), status: 'queued', requested: spec.count, evaluated: 0, matched: 0, updatedAt: this.now(), detail: '等待读取候选资料', ...(spec.criteria.some(item => item.reviewOnly) ? { reviewNote } : {}), nextPollAt: 0, candidates: [], failures: [] };
     this.store.set('task', id, task); return task;
   }
   cancel(id: string) {
@@ -54,7 +57,7 @@ export class ResearchEngine {
     if (notify && !task.deliveryBatchId && !task.parentCampaignId && ['completed', 'partial', 'failed', 'cancelled'].includes(task.status)) {
       const results = this.results(task.id);
       deliverReport(this.store, task.id, { status: task.status, matched: task.matched, evaluated: task.evaluated, results: results.map(result => [result.id, result.updatedAt]) },
-        `研究「${task.title}」${task.status === 'completed' ? '已完成' : task.status === 'partial' ? '已结束，仍有缺额' : task.status === 'cancelled' ? '已取消' : '未完成'}。已选合格 ${task.matched}/${task.requested} 人，核验 ${task.evaluated} 人。\n\n${task.detail}\n\n[查看完整报告](/api/reports/${task.resultTaskId ?? task.id}) · [下载 CSV](/api/reports/${task.resultTaskId ?? task.id}?format=csv)`, this.now());
+        `研究「${task.title}」${task.status === 'completed' ? '已完成' : task.status === 'partial' ? '已结束，仍有缺额' : task.status === 'cancelled' ? '已取消' : '未完成'}。已入选 ${task.matched}/${task.requested} 人，已查看 ${task.evaluated} 人。${task.reviewNote ? `\n\n${task.reviewNote}` : ''}\n\n[查看完整报告](/api/reports/${task.resultTaskId ?? task.id}) · [下载 CSV](/api/reports/${task.resultTaskId ?? task.id}?format=csv)`, this.now());
     }
     if (notify && ['completed', 'partial', 'failed', 'cancelled'].includes(task.status)) { this.onProgress(); deliverWorkBatches(this.store, this.now()); }
     });
@@ -158,7 +161,7 @@ export class ResearchEngine {
           task.detail = `WaveSurge 搜索${remote.status === 'failed' ? '失败，保留已有候选继续本地核验' : remote.status === 'done' ? '完成' : remote.status === 'queued' ? '等待执行' : '执行中'}；取得 ${task.candidates.length} 位唯一候选，合格候选 ${task.qualifying ?? 0} 人，研究组预选 ${task.matched} 人${task.status === 'needs_input' ? '；浏览器等待人工协助，请在桌面查看具体阻塞原因' : ''}`; this.save(task);
         }
         let waiting = false;
-        const prefer = task.spec.criteria.some(criterion => !criterion.required);
+        const prefer = task.spec.criteria.some(criterion => !criterion.required && !criterion.reviewOnly);
         for (const creator of task.candidates) {
           const id = `${task.id}|${creator.id}`;
           if (this.store.get('result', id)) continue;

@@ -1,5 +1,5 @@
 export type Platform = 'instagram' | 'tiktok' | 'youtube' | 'twitter';
-export type Criterion = { id: string; label: string; required: boolean; basis: 'text' | 'visual' | 'either' };
+export type Criterion = { id: string; label: string; required: boolean; basis: 'text' | 'visual' | 'either'; reviewOnly?: boolean };
 export type AnnotationDimension = { id: string; label: string; values?: string[] };
 export type Annotation = { dimensionId: string; status: 'supported' | 'unknown'; values: string[]; reason: string; evidenceIds: string[] };
 export type FactObservation = { kind: 'followers' | 'country'; rawValue: string; evidenceIds: string[] };
@@ -8,7 +8,7 @@ export type SearchSpec = { title: string; personaText: string; count: number; pl
 export type Evidence = { id: string; url: string; kind: string; text: string; provider: string; publishedAt: string | null; capturedAt: number; assetId?: string; parentEvidenceId?: string; parentPostUrl?: string; profileLinkEvidenceId?: string; linkedIdentityProof?: 'reciprocal' | 'domain_name' };
 export type Creator = { id: string; platform: Platform; handle: string; displayName: string; profileUrl: string; followers: number | null; region: string | null; evidence: Evidence[]; raw: Record<string, unknown>; browserVerification?: { startedAt: number; profileEvidenceIds: string[] }; engagement?: { rate: number | null; sampleSize: number; formula: string; unit: 'ratio' }; photoUrls?: string[]; facts?: { followers?: { rawValue: string; min: number; max: number; evidenceIds: string[] }; country?: { code: string; rawValue: string; evidenceIds: string[] }; conflicts: string[]; rejected?: string[] } };
 export type Verdict = 'match' | 'no_match' | 'unknown';
-export type Judgment = { criterionId: string; verdict: Verdict; reason: string; evidenceIds: string[]; label?: string };
+export type Judgment = { criterionId: string; verdict: Verdict; reason: string; evidenceIds: string[]; label?: string; reviewOnly?: boolean };
 export type ReportContext = { sourceTaskTitle: string; groupId: string; groupTitle: string; selectionScope: 'research' | 'campaign'; campaignId?: string; campaignTitle?: string; researchSelected?: boolean; allocatedGroupId?: string; allocatedGroupTitle?: string };
 export type Result = { id: string; taskId: string; creator: Creator; verdict: Verdict; judgments: Judgment[]; tags: string[]; updatedAt: number; selected?: boolean; annotations?: Annotation[]; revision?: number; reportContext?: ReportContext };
 export const platforms: Platform[] = ['instagram', 'tiktok', 'youtube', 'twitter'];
@@ -23,6 +23,6 @@ export const searchSchema = {
     title: { type: 'string', minLength: 1, maxLength: 200 }, personaText: { type: 'string', description: '仅描述候选的简短内容主题或创作者画像，例如 technology and headphone reviewers。不要在此字段写人数、候选上限、执行步骤、核验预算、跨类型去重、其它组名册或外联要求；这些由结构字段及本地系统处理。', minLength: 1, maxLength: 4000 }, count: { type: 'integer', minimum: 1, maximum: 1000 },
     platforms: { type: 'array', minItems: 1, maxItems: 4, uniqueItems: true, items: { type: 'string', enum: platforms } }, regions: { type: 'array', maxItems: 100, items: { type: 'string', minLength: 1, maxLength: 100 } },
     minFollowers: { type: 'integer', minimum: 0, description: '粉丝下限，不限填0。' }, maxFollowers: { type: 'integer', minimum: 0, maximum: 9007199254740991, description: '粉丝上限，不限必须填9007199254740991；0表示最多0位粉丝，绝不能用于表示不限。' }, candidateBudget: { type: 'integer', minimum: 1, maximum: 1000 },
-    criteria: { type: 'array', maxItems: 20, items: { type: 'object', required: ['id', 'label', 'required', 'basis'], additionalProperties: false, properties: { id: { type: 'string', minLength: 1, maxLength: 100, pattern: '^[a-zA-Z0-9][a-zA-Z0-9_-]*$' }, label: { type: 'string', minLength: 1, maxLength: 1000 }, required: { type: 'boolean' }, basis: { type: 'string', enum: ['text', 'visual', 'either'] } } } }
+    criteria: { type: 'array', maxItems: 20, items: { type: 'object', required: ['id', 'label', 'required', 'basis'], additionalProperties: false, properties: { id: { type: 'string', minLength: 1, maxLength: 100, pattern: '^[a-zA-Z0-9][a-zA-Z0-9_-]*$' }, label: { type: 'string', minLength: 1, maxLength: 1000 }, required: { type: 'boolean' }, reviewOnly: { type: 'boolean', description: '族裔信息填true、required=false、basis=text。明确资料单列记录，资料不足待人工确认，不要求本人额外自述，不从外貌推断，不影响其他条件入选。其它定性要求仍单独作为必选条件。' }, basis: { type: 'string', enum: ['text', 'visual', 'either'] } } } }
   }
 };

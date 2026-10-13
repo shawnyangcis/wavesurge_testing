@@ -1,0 +1,58 @@
+{
+  "dataSource": "controlled synthetic metadata; not a public creator lookup",
+  "realModel": true,
+  "startedAt": "2026-10-13T03:00:03.503Z",
+  "cases": [
+    {
+      "name": "第三方明确记录",
+      "expected": "match",
+      "judgment": {
+        "criterionId": "ethnicity",
+        "verdict": "match",
+        "reason": "本轮提供的 controlled-metadata-fixture 目录文字明确记载 Sample 的族裔为“Ethnicity: Caucasian.”，且附有 reciprocal 身份关联标记，支持“白人”核对项。仅复用该已采集文字，未重新访问页面，未依据照片、姓名或所在地推断。",
+        "evidenceIds": [
+          "directory"
+        ],
+        "reviewOnly": true,
+        "label": "白人"
+      },
+      "aggregate": "match",
+      "elapsedMs": 10344,
+      "passed": true
+    },
+    {
+      "name": "明确记录不符",
+      "expected": "no_match",
+      "judgment": {
+        "criterionId": "ethnicity",
+        "verdict": "no_match",
+        "reason": "已提供的 controlled-metadata-fixture 目录文字明确记载 Sample 的族裔为“Ethnicity: Asian.”，且 linkedIdentityProof 为 reciprocal，归属当前候选；与“白人”要求不符。此判断仅复用已采集文字资料，未重新访问页面，也未根据外貌或所在地推断。",
+        "evidenceIds": [
+          "directory"
+        ],
+        "reviewOnly": true,
+        "label": "白人"
+      },
+      "aggregate": "no_match",
+      "elapsedMs": 6421,
+      "passed": true
+    },
+    {
+      "name": "地区不能替代族裔",
+      "expected": "unknown",
+      "judgment": {
+        "criterionId": "ethnicity",
+        "verdict": "unknown",
+        "reason": "尚无明确记载族裔的可靠文字资料，待人工确认；不从外貌、姓名或所在地推断，不影响其他条件筛选。",
+        "evidenceIds": [],
+        "reviewOnly": true,
+        "label": "白人"
+      },
+      "aggregate": "match",
+      "elapsedMs": 5707,
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "finishedAt": "2026-10-13T03:00:25.975Z"
+}

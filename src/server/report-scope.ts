@@ -4,8 +4,8 @@ import type { ResearchTask } from './research.ts';
 import type { Campaign } from '../shared/campaign.ts';
 import { summarizeCampaign } from './campaign.ts';
 
-export type ReportGroup = { id: string; taskId: string; title: string; requested: number; selectionScope: 'research' | 'campaign' };
-export type ReportTask = Pick<ResearchTask, 'id' | 'title' | 'requested' | 'evaluated' | 'matched' | 'updatedAt' | 'detail'> & { reportGroups?: ReportGroup[]; workItems?: { id: string; title: string; requested: number; evaluated: number; unit: string }[] };
+export type ReportGroup = { id: string; taskId: string; title: string; requested: number; selectionScope: 'research' | 'campaign'; reviewNote?: string };
+export type ReportTask = Pick<ResearchTask, 'id' | 'title' | 'requested' | 'evaluated' | 'matched' | 'updatedAt' | 'detail' | 'reviewNote'> & { reportGroups?: ReportGroup[]; workItems?: { id: string; title: string; requested: number; evaluated: number; unit: string }[] };
 
 // Report metadata is a read projection. Original research decisions and audit versions remain stored as received.
 export function reportResults(store: Store, results: Result[]): Result[] {
@@ -30,7 +30,7 @@ export function reportGroups(store: Store, taskIds: Iterable<string>): ReportGro
     const task = store.task<ResearchTask>(taskId);
     const campaign = task?.parentCampaignId && store.get<Campaign>('campaign', task.parentCampaignId);
     const group = campaign && campaign.groups[campaign.childTaskIds.indexOf(taskId)];
-    if (group) return { id: group.id, taskId, title: group.spec.title, requested: group.spec.count, selectionScope: 'campaign' };
-    return { id: taskId, taskId, title: task?.title ?? taskId, requested: task?.requested ?? 0, selectionScope: 'research' };
+    if (group) return { id: group.id, taskId, title: group.spec.title, requested: group.spec.count, selectionScope: 'campaign', reviewNote: task?.reviewNote };
+    return { id: taskId, taskId, title: task?.title ?? taskId, requested: task?.requested ?? 0, selectionScope: 'research', reviewNote: task?.reviewNote };
   });
 }

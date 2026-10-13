@@ -8,6 +8,7 @@ import { campaignSchema } from '../shared/campaign.ts';
 import { creatorIdentity } from './canonical.ts';
 import { rankResults } from './selection.ts';
 import { deliverReport } from './delivery.ts';
+import { screeningSpec, reviewNote } from '../shared/screening.ts';
 const validate = new Ajv().compile<Omit<Campaign, 'id' | 'revision' | 'childTaskIds' | 'createdAt' | 'updatedAt'>>(campaignSchema);
 export function summarizeCampaign(store: Store, campaign: Campaign) {
   const tasks = campaign.childTaskIds.map(id => store.task<ResearchTask>(id)!);
@@ -28,7 +29,7 @@ export function summarizeCampaign(store: Store, campaign: Campaign) {
     const allocation = selections.find(item => item.creatorId === creatorIdentity(result.creator)), allocatedGroup = campaign.groups.find(item => item.id === allocation?.groupId);
     return { ...result, selected: selections.some(item => item.resultId === result.id), reportContext: { sourceTaskTitle: tasks[index].title, groupId: group.id, groupTitle: group.spec.title, selectionScope: 'campaign' as const, campaignId: campaign.id, campaignTitle: campaign.title, researchSelected: result.selected === true, allocatedGroupId: allocatedGroup?.id, allocatedGroupTitle: allocatedGroup?.spec.title }, judgments: result.judgments.map(judgment => ({ ...judgment, label: judgment.label ?? group.spec.criteria.find(item => item.id === judgment.criterionId)?.label ?? judgment.criterionId })) };
   });
-  return { ...campaign, status, requested: slots.length, matched: selections.length, qualifyingUnique: eligible.size, evaluated: results.length, groups, selections, reportUrl: `/api/campaigns/${campaign.id}/report`, results: projected };
+  return { ...campaign, status, requested: slots.length, matched: selections.length, qualifyingUnique: eligible.size, evaluated: results.length, groups, selections, reportUrl: `/api/campaigns/${campaign.id}/report`, ...(campaign.groups.some(group => group.spec.criteria.some(item => item.reviewOnly)) ? { reviewNote } : {}), results: projected };
 }
 export class CampaignService {
   store: Store; engine: ResearchEngine; now: () => number; lastGeneration = '';
@@ -42,7 +43,7 @@ export class CampaignService {
     if (existing?.childTaskIds.length) throw new Error('已启动方案保留原版本；如需新范围，请创建新草案，原任务仅在用户要求时取消');
     if (existingId && existing!.revision !== revision) throw new Error('方案版本已变化，请读取最新版本');
     if (!existingId && existing) return existing;
-    const campaign: Campaign = { ...input, id, revision: (existing?.revision ?? 0) + 1, childTaskIds: [], createdAt: existing?.createdAt ?? this.now(), updatedAt: this.now() }; this.store.set('campaign', id, campaign); return campaign;
+    const campaign: Campaign = { ...input, groups: input.groups.map(group => ({ ...group, spec: screeningSpec(group.spec) })), id, revision: (existing?.revision ?? 0) + 1, childTaskIds: [], createdAt: existing?.createdAt ?? this.now(), updatedAt: this.now() }; this.store.set('campaign', id, campaign); return campaign;
   }
   start(id: string, revision: number) {
     const campaign = this.store.get<Campaign>('campaign', id); if (!campaign) throw new Error('Campaign 不存在'); if (campaign.revision !== revision) throw new Error('方案版本已变化，请读取最新版本'); if (campaign.childTaskIds.length) return campaign;
@@ -57,11 +58,11 @@ export class CampaignService {
     this.lastGeneration = generation;
     for (const campaign of this.store.list<Campaign>('campaign')) {
       const summary = this.summary(campaign);
-      this.store.set('campaign-state', campaign.id, { id: campaign.id, title: campaign.title, status: summary.status, requested: summary.requested, matched: summary.matched, evaluated: summary.evaluated, selections: summary.selections, updatedAt: Math.max(campaign.updatedAt, ...summary.results.map(r => r.updatedAt)), detail: `去重入选 ${summary.matched}/${summary.requested}；${summary.groups.map(group => `${group.spec.title} ${group.matched}/${group.spec.count}`).join('；')}` });
+      this.store.set('campaign-state', campaign.id, { id: campaign.id, title: campaign.title, status: summary.status, requested: summary.requested, matched: summary.matched, evaluated: summary.evaluated, selections: summary.selections, updatedAt: Math.max(campaign.updatedAt, ...summary.results.map(r => r.updatedAt)), reviewNote: summary.reviewNote, detail: `去重入选 ${summary.matched}/${summary.requested}；${summary.groups.map(group => `${group.spec.title} ${group.matched}/${group.spec.count}`).join('；')}` });
       if (!['completed', 'partial'].includes(summary.status)) continue;
       if (campaign.deliveryBatchId || this.store.get('campaign-final', campaign.id)) continue;
-      this.store.transaction(() => { if (!this.store.list<{ subject: string }>('delivery').some(delivery => delivery.subject === campaign.id)) deliverReport(this.store, campaign.id, { revision: campaign.revision, tasks: campaign.childTaskIds }, `Campaign「${campaign.title}」${summary.status === 'completed' ? '已完成' : '已结束，仍有缺额'}。去重入选 ${summary.matched}/${summary.requested} 人。\n\n${summary.groups.map(group => `- ${group.spec.title}：${group.matched}/${group.spec.count}`).join('\n')}\n\n[查看 Campaign 总报告](${summary.reportUrl})`, this.now()); this.store.set('campaign-final', campaign.id, { delivered: true }); });
+      this.store.transaction(() => { if (!this.store.list<{ subject: string }>('delivery').some(delivery => delivery.subject === campaign.id)) deliverReport(this.store, campaign.id, { revision: campaign.revision, tasks: campaign.childTaskIds }, `Campaign「${campaign.title}」${summary.status === 'completed' ? '已完成' : '已结束，仍有缺额'}。去重入选 ${summary.matched}/${summary.requested} 人。${summary.reviewNote ? `\n\n${summary.reviewNote}` : ''}\n\n${summary.groups.map(group => `- ${group.spec.title}：${group.matched}/${group.spec.count}`).join('\n')}\n\n[查看 Campaign 总报告](${summary.reportUrl})`, this.now()); this.store.set('campaign-final', campaign.id, { delivered: true }); });
     }
   }
-  facts() { return this.store.list<Campaign>('campaign').map(campaign => { const { results: _results, ...summary } = this.summary(campaign); return { id: summary.id, title: summary.title, goal: summary.goal.slice(0, 500), revision: summary.revision, status: summary.status, requested: summary.requested, matched: summary.matched, childTaskIds: summary.childTaskIds, groups: summary.groups.map(group => ({ id: group.id, title: group.spec.title, requested: group.spec.count, matched: group.matched })), reportUrl: summary.reportUrl }; }); }
+  facts() { return this.store.list<Campaign>('campaign').map(campaign => { const { results: _results, ...summary } = this.summary(campaign); return { id: summary.id, title: summary.title, goal: summary.goal.slice(0, 500), revision: summary.revision, status: summary.status, requested: summary.requested, matched: summary.matched, childTaskIds: summary.childTaskIds, groups: summary.groups.map(group => ({ id: group.id, title: group.spec.title, requested: group.spec.count, matched: group.matched })), reviewNote: summary.reviewNote, reportUrl: summary.reportUrl }; }); }
 }

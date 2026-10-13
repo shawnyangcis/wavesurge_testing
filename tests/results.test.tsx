@@ -5,8 +5,15 @@ import userEvent from '@testing-library/user-event';
 import { Results } from '../src/client/Results.tsx';
 import { api } from '../src/client/api.ts';
 import type { Result } from '../src/shared/research.ts';
+import { reviewNote } from '../src/shared/screening.ts';
 vi.mock('../src/client/api.ts', () => ({ api: vi.fn() }));
 const mocked = vi.mocked(api); afterEach(() => { cleanup(); mocked.mockReset(); });
+it('待人工确认的族裔信息单列展示，不把候选标为族裔全部通过', async () => {
+  const row: Result = { id: 'r', taskId: 'task', verdict: 'match', selected: true, tags: [], updatedAt: 1, creator: { id: 'person', handle: 'person', platform: 'instagram', displayName: 'Runner', profileUrl: 'https://instagram.com/person', followers: 20000, region: 'US', raw: {}, evidence: [] }, judgments: [{ criterionId: 'ethnicity', label: '白人', verdict: 'unknown', reviewOnly: true, reason: '无明确资料', evidenceIds: [] }] };
+  mocked.mockResolvedValueOnce([row]); render(<Results taskId="task" onClose={() => {}} />);
+  await screen.findByText('Runner'); expect(screen.getByText('符合已核实条件')).toBeTruthy(); expect(screen.getByText(reviewNote)).toBeTruthy();
+  await userEvent.click(screen.getByText('逐条件判断与证据')); expect(screen.getByText('白人 · 待人工确认')).toBeTruthy(); expect(screen.queryByText('符合要求', { selector: '.verdict' })).toBeNull();
+});
 it('空结果、过滤、报告链接、三态与证据展开', async () => {
   mocked.mockResolvedValueOnce([]); const close = vi.fn(); render(<Results taskId="task" onClose={close} />); await screen.findByText('暂时没有已保存的核验结果。'); const user = userEvent.setup();
   expect(screen.getByRole('link', { name: '下载 CSV' }).getAttribute('href')).toBe('/api/reports/task?format=csv'); expect(screen.getByRole('link', { name: '查看报告' }).getAttribute('href')).toBe('/api/reports/task');

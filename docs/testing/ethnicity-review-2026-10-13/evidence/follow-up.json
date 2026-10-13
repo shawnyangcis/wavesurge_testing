@@ -1,0 +1,66 @@
+{
+  "taskId": "research-4ef77bf1a7e34d5930e92a20",
+  "startedAt": "2026-10-13T03:05:24.509Z",
+  "prompt": "这项研究进展怎么样？是否必须博主亲口声明自己是白人？不要新建或取消研究，继续当前任务。",
+  "pageErrors": [],
+  "before": {
+    "id": "research-4ef77bf1a7e34d5930e92a20",
+    "title": "族裔资料核对：个人跑步体验",
+    "status": "running",
+    "requested": 2,
+    "evaluated": 2,
+    "matched": 0,
+    "qualifying": 0,
+    "allowHumanAssistance": true,
+    "matchedMeaning": "研究组入选的合格账号数；合格候选总数见qualifying",
+    "updatedAt": 1791860712973,
+    "detail": "已读取 3 位候选；来源 继续读取，合格候选 0 人，研究组预选 0 人",
+    "reviewNote": "族裔资料不足者待人工确认，明确不符者排除；名单已核验其他必选条件。",
+    "remoteStatus": "running",
+    "nextPollAt": 1791860713973
+  },
+  "input": {
+    "id": "16a50c2593f7725fb53ec1392574cea3",
+    "role": "user",
+    "text": "这项研究进展怎么样？是否必须博主亲口声明自己是白人？不要新建或取消研究，继续当前任务。",
+    "createdAt": 1791860726287,
+    "epoch": 6,
+    "state": "pending",
+    "attachments": []
+  },
+  "reply": {
+    "id": "ce379b79-ccd1-4e97-90c9-9a3a0a3a710e",
+    "role": "assistant",
+    "text": "刚刚查询的实际进度如下：\n\n### 「族裔资料核对：个人跑步体验」\n- **状态：正在运行**，仍在继续读取来源。\n- **已读取候选：4位**\n- **已逐人核验：3位**\n- **当前合格候选：0位**\n- **配额内入选：0／2位**\n\n研究尚未结束，当前0入选不代表最终找不到符合条件的人。\n\n### 是否必须博主亲口声明自己是白人？\n**不必须。** 可以使用明确记载该博主本人族裔的可靠公开文字资料，不限于本人自述；但不能从照片、肤色、姓名、国籍或所在地推断。\n\n处理方式保持不变：\n- 有可靠文字明确支持：记录依据与来源。\n- 资料不足：族裔项标为 **待人工确认（unknown）**，不因此阻断其他条件的筛选，也不宣称已确认是白人。\n- 可靠文字明确不符合“白人”要求：排除。\n\n本轮仅查询进度，**没有新建、取消或修改研究**。当前任务继续按原范围和预算，只核验已有公开文字。",
+    "epoch": 6,
+    "createdAt": 1791860822249,
+    "state": "delivered",
+    "attachments": []
+  },
+  "after": {
+    "id": "research-4ef77bf1a7e34d5930e92a20",
+    "title": "族裔资料核对：个人跑步体验",
+    "status": "running",
+    "requested": 2,
+    "evaluated": 4,
+    "matched": 1,
+    "qualifying": 1,
+    "allowHumanAssistance": true,
+    "matchedMeaning": "研究组入选的合格账号数；合格候选总数见qualifying",
+    "updatedAt": 1791860814579,
+    "detail": "已读取 5 位候选；来源 继续读取，合格候选 1 人，研究组预选 1 人",
+    "reviewNote": "族裔资料不足者待人工确认，明确不符者排除；名单已核验其他必选条件。",
+    "remoteStatus": "running",
+    "nextPollAt": 1791860815579
+  },
+  "replyMs": 95962,
+  "passed": true,
+  "finishedAt": "2026-10-13T03:07:05.013Z",
+  "checks": {
+    "sameTaskId": true,
+    "sameScope": true,
+    "noNewTasks": true,
+    "noCancellation": true
+  },
+  "scopeVerifiedAt": "2026-10-13T03:20:24.668Z"
+}

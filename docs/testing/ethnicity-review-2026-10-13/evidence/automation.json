@@ -1,0 +1,42 @@
+{
+  "observedAt": "2026-10-13T03:07:03.628Z",
+  "unitIntegration": {
+    "passed": 303,
+    "total": 303,
+    "success": true,
+    "files": 37
+  },
+  "typecheck": {
+    "passed": true
+  },
+  "productionBuild": {
+    "passed": true
+  },
+  "browserRegression": {
+    "passed": 5,
+    "total": 5,
+    "project": "creator-studio-ethnicity-20261013",
+    "data": "controlled WaveSurge and candidate fixtures; real model and headed browser",
+    "durationMinutes": 10.5,
+    "coverage": [
+      "人工确认、VNC接管及交还后恢复",
+      "Campaign交互方案与去重",
+      "自然筛选、画像、补标及导出",
+      "Instagram协议及视觉核验",
+      "三次重启后浏览器持久数据"
+    ]
+  },
+  "finalUiRegression": {
+    "passed": 26,
+    "total": 26
+  },
+  "targetedNegativeCases": [
+    "race比赛语义",
+    "复合硬条件不降级",
+    "中英文字记录",
+    "Black Canyon及White Mountains赛事名",
+    "不存在及来源错误不当族裔证据",
+    "两条非批次交付说明"
+  ],
+  "scope": "族裔资料核对与候选交付"
+}

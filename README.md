@@ -4,7 +4,7 @@
 
 支持从 Campaign 的产品、受众和营销目标出发，交互确定不同 Creator 类型、筛选条件和配额，再生成跨组去重的最终名单。
 
-**文档入口：** [公网多场景端到端验收](docs/testing/public-scenarios-2026-10-13/report.md) · [架构与 Agent 设计](docs/architecture.md) · [原始实施方案](docs/implementation-plan.md) · [测试记录](docs/testing/README.md) · [完整文档索引](docs/README.md)
+**文档入口：** [族裔资料核对修复验证](docs/testing/ethnicity-review-2026-10-13/report.md) · [公网多场景端到端验收](docs/testing/public-scenarios-2026-10-13/report.md) · [架构与 Agent 设计](docs/architecture.md) · [原始实施方案](docs/implementation-plan.md) · [测试记录](docs/testing/README.md) · [完整文档索引](docs/README.md)
 
 支持通过公网 HTTP 页面发送自然语言需求，由 Agent 选择检索词、读取真实 WaveSurge 资料并逐人核验；运行中可继续查询进度，结束后自动交付报告和 CSV。2026-10-13 实际开放搜索完成跑步场景3/3、家用咖啡场景2/2。最新验收按具体场景列出输入范围、实际人数、匹配依据和下载结果，便于直接复核和重跑。
 
@@ -173,6 +173,8 @@ Instagram 新研究使用同步 GET：
 每次支持 1–5 个短关键词，每词最多 3 页；每人最多 2 页帖子（每页 12 条）和 2 条单帖详情。泛搜索先读基础资料并排除明确不符的粉丝范围，再占用逐人分析名额。精确指定的完整账号列表支持全部分析。基础读取预算与分析预算分别记录。
 
 YouTube/TikTok/X 当前读取 `/discover/db?platform=...&limit=500&sort=fit_desc` 的已有名单，再按本次目标进行候选排序和逐人核验。新研究不提交旧异步 `POST /creator-search/requests`；旧任务保留 GET 状态恢复。平台内付费搜索、策略和外联没有开放为工具。
+
+新研究将族裔要求单列核对，可采用明确记载的可靠文字资料，不限定本人亲口自述；资料不足待人工确认，明确不符者排除。其他必选条件仍须通过，页面与导出说明这一范围。
 
 每个研究按用户指定的条件和预算执行，报告分别展示候选读取、逐人核验、合格与入选数量，并为每位保存实际判断和来源依据。
 

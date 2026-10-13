@@ -1,0 +1,53 @@
+{
+  "observedAt": "2026-10-13T03:11:59.245Z",
+  "image": "sha256:a303122e60b5cd28cb18d54a23959a339015f9e6d5b5cfe69d3909e545d218db",
+  "sourceFiles": 63,
+  "sourceMismatches": [],
+  "protectedRecords": 568,
+  "missing": [],
+  "changed": [],
+  "modelConfigurationPreserved": true,
+  "settingsRevisionBefore": 18,
+  "settingsRevisionAfter": 19,
+  "prompts": {
+    "oldGate": false,
+    "reviewWorkflow": true,
+    "nonSelfRecords": true,
+    "humanHandoff": true
+  },
+  "waveOfficialEndpoint": true,
+  "waveWindow": {
+    "from": 1791860562583,
+    "until": 1791860927947,
+    "totalCalls": 40,
+    "summary": {
+      "/instagram/v1/fetch_user_info_by_username_v2": {
+        "calls": 13,
+        "http200": 13,
+        "errors": 0
+      },
+      "/instagram/v1/fetch_user_posts": {
+        "calls": 12,
+        "http200": 12,
+        "errors": 0
+      },
+      "/instagram/v3/search_users": {
+        "calls": 3,
+        "http200": 3,
+        "errors": 0
+      },
+      "/instagram/v2/fetch_post_info": {
+        "calls": 12,
+        "http200": 0,
+        "errors": 12
+      }
+    }
+  },
+  "publicHealth": {
+    "status": 200,
+    "body": {
+      "ok": true
+    }
+  },
+  "passed": true
+}

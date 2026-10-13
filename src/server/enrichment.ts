@@ -23,7 +23,7 @@ export class EnrichmentService {
   const id = `enrich-${createHash('sha256').update(callId).digest('hex').slice(0, 24)}`;
   const existing = this.engine.store.get<Enrichment>('enrichment', id); if (existing) return this.engine.store.get<Task>('task', id)!;
   const job: Enrichment = { id, taskId: source.id, mode: args.mode, resultIds, annotations: args.annotations ?? source.spec.annotations ?? [], completed: [], attempts: {}, nextAt: 0, failures: [] };
-  const task: Task = { id, resultTaskId: source.id, title: `${args.mode === 'annotate' ? '补充画像' : '重新核验'}：${source.title}`, status: 'queued', requested: resultIds.length, evaluated: 0, matched: 0, detail: '复用已有账号与搜索，不创建新的 WaveSurge 请求', updatedAt: this.engine.now() };
+  const task: Task = { id, resultTaskId: source.id, title: `${args.mode === 'annotate' ? '补充画像' : '重新核验'}：${source.title}`, status: 'queued', requested: resultIds.length, evaluated: 0, matched: 0, detail: '复用已有账号与搜索，不创建新的 WaveSurge 请求', ...(source.reviewNote ? { reviewNote: source.reviewNote } : {}), updatedAt: this.engine.now() };
   this.engine.store.transaction(() => { this.engine.store.set('enrichment', id, job); this.engine.store.set('task', id, task); }); return task;
  }
  async tick(browserBlocked: boolean) {
@@ -56,7 +56,7 @@ export class EnrichmentService {
    if (this.engine.store.get<Task>('task', job.id)!.status === 'cancelled') continue;
    if (job.completed.length === job.resultIds.length) { const visited = job.mode === 'reverify' ? job.completed.filter(id => this.engine.store.get<Result>('result', id)!.judgments.some(j => j.criterionId === '__profile_visit' && j.verdict === 'match')).length : 0; task.status = job.failures.length || job.mode === 'reverify' && visited < job.resultIds.length ? 'partial' : 'completed'; task.detail = `已处理 ${job.completed.length} 个已有账号；失败 ${job.failures.length}。${job.failures.join('；')}${job.mode === 'reverify' ? ` 本轮本人主页已观察 ${visited}/${job.resultIds.length}；未取得本轮页面证据者不能宣称网页核验成功。` : ''}`; }
    task.updatedAt = this.engine.now();
-   this.engine.store.transaction(() => { this.engine.store.set('enrichment', job.id, job); this.engine.store.set('task', task.id, task); if (!task.deliveryBatchId && ['completed', 'partial'].includes(task.status)) deliverReport(this.engine.store, job.id, { status: task.status, completed: job.completed, failures: job.failures }, `${task.title}已结束。${task.detail}\n\n[查看更新后的报告](/api/reports/${job.taskId})`, this.engine.now()); });
+   this.engine.store.transaction(() => { this.engine.store.set('enrichment', job.id, job); this.engine.store.set('task', task.id, task); if (!task.deliveryBatchId && ['completed', 'partial'].includes(task.status)) deliverReport(this.engine.store, job.id, { status: task.status, completed: job.completed, failures: job.failures }, `${task.title}已结束。${task.detail}${task.reviewNote ? `\n\n${task.reviewNote}` : ''}\n\n[查看更新后的报告](/api/reports/${job.taskId})`, this.engine.now()); });
   }
  }
 }

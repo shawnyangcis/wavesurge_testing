@@ -1,5 +1,6 @@
 import type { Creator, Judgment, SearchSpec, Verdict } from '../shared/research.ts';
 import { countryCode, creatorIdentity } from './canonical.ts';
+import { reviewReason } from '../shared/screening.ts';
 export function usableEvidence(creator: Creator, ids: string[]) {
   return creator.evidence.filter(source => !['linked_snapshot', 'profile_link', 'source_error'].includes(source.kind) && (source.kind !== 'linked_profile_snapshot' || !!source.linkedIdentityProof) && ids.includes(source.id));
 }
@@ -25,13 +26,18 @@ export function resolveJudgments(spec: SearchSpec, creator: Creator, proposed: J
     if (!spec.criteria.some(criterion => criterion.id === item.criterionId) || seen.has(item.criterionId) || !['match', 'no_match', 'unknown'].includes(item.verdict) || typeof item.reason !== 'string' || !Array.isArray(item.evidenceIds)) throw new Error('条件判断格式不正确');
     seen.add(item.criterionId);
     if (item.evidenceIds.some(id => !evidence.has(id))) throw new Error('引用了不存在的证据');
+    if (spec.criteria.find(criterion => criterion.id === item.criterionId)!.reviewOnly) {
+      const recorded = usableEvidence(creator, item.evidenceIds).some(source => !['post_photo', 'video_cover'].includes(source.kind) && /(?:ethnicity|racial identity|race|族裔|种族)\s*[:：=]\s*(?:white|caucasian|black|asian|hispanic|latino|白人|黑人|亚裔|亚洲人|高加索人|非裔|拉丁裔|汉族)(?=\s*(?:$|[.,;；。\n"']|\\[nr]))|\b(?:caucasian|white|black|asian)\s+(?:model|creator|woman|man|person)\b|\b(?:i am|i['’]m|identifies as)\s+(?:white|caucasian|black|asian)\b|(?:我是|本人是|族裔为|种族为)\s*(?:白人|黑人|亚裔|亚洲人|高加索人|非裔|拉丁裔|汉族)/i.test(source.text));
+      judgments.push(recorded ? { ...item, reviewOnly: true } : { criterionId: item.criterionId, verdict: 'unknown', reason: reviewReason, evidenceIds: [], reviewOnly: true });
+      continue;
+    }
     const visual = spec.criteria.find(criterion => criterion.id === item.criterionId)!.basis === 'visual';
     const usable = usableEvidence(creator, item.evidenceIds);
     const imageEvidence = usable.some(source => source.assetId && /^https?:\/\//.test(source.url));
     if (item.verdict !== 'unknown' && (!usable.length || visual && !imageEvidence)) judgments.push({ ...item, verdict: 'unknown', reason: '缺少可追溯且确认归属的判断证据' });
     else judgments.push(item);
   }
-  for (const criterion of spec.criteria) if (!seen.has(criterion.id)) judgments.push({ criterionId: criterion.id, verdict: 'unknown', reason: '尚未取得足够证据', evidenceIds: [] });
+  for (const criterion of spec.criteria) if (!seen.has(criterion.id)) judgments.push({ criterionId: criterion.id, verdict: 'unknown', reason: criterion.reviewOnly ? reviewReason : '尚未取得足够证据', evidenceIds: [], ...(criterion.reviewOnly ? { reviewOnly: true } : {}) });
   const count = creator.facts?.followers;
   const exact = creator.followers === null ? undefined : { min: creator.followers, max: creator.followers };
   const bounds = exact && (!count || exact.min >= count.min && exact.max <= count.max) ? exact : count;
@@ -53,7 +59,7 @@ export function resolveJudgments(spec: SearchSpec, creator: Creator, proposed: J
     const pages = proof ? creator.evidence.filter(source => proof.profileEvidenceIds.includes(source.id) && source.kind === 'browser_snapshot' && source.provider === 'headed-chromium' && source.assetId && source.capturedAt >= proof.startedAt && creatorIdentity({ ...creator, handle: '', profileUrl: source.url.split('?')[0].replace(/\/(featured|about|videos)\/?$/, '') }) === creatorIdentity(creator)) : [];
     judgments.unshift({ criterionId: '__profile_visit', verdict: pages.length ? 'match' : 'unknown', reason: pages.length ? '本轮已取得本人主页实际页面观察与截图；网页上的其他条件仍按各自证据判断' : '本轮未取得本人主页新的页面观察，文字或旧截图不能当作已打开页面', evidenceIds: pages.map(page => page.id) });
   }
-  const required = judgments.filter(item => ['__followers', '__platform', '__region', '__profile_visit'].includes(item.criterionId) || spec.criteria.some(criterion => criterion.id === item.criterionId && criterion.required));
+  const required = judgments.filter(item => ['__followers', '__platform', '__region', '__profile_visit'].includes(item.criterionId) || spec.criteria.some(criterion => criterion.id === item.criterionId && (criterion.required || criterion.reviewOnly && item.verdict !== 'unknown')));
   const verdict: Verdict = required.some(item => item.verdict === 'no_match') ? 'no_match' : required.every(item => item.verdict === 'match') ? 'match' : 'unknown';
   const labels: Record<string, string> = { __followers: '粉丝范围', __platform: '平台', __region: '所在地区', __profile_visit: '本轮本人主页访问' };
   return { judgments: judgments.map(item => ({ ...item, label: labels[item.criterionId] ?? spec.criteria.find(criterion => criterion.id === item.criterionId)!.label })), verdict };

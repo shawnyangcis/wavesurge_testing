@@ -1,0 +1,1822 @@
+{
+  "title": "族裔资料核对：个人跑步体验",
+  "prompt": "请找2位Instagram白人个人跑者，研究命名为「族裔资料核对：个人跑步体验」。粉丝1万到10万，地区不限，必须有本人第一人称的跑步训练、马拉松或越野跑参赛体验；排除运动品牌、店铺、赛事或机构官方、明星和纯搬运账号。只核验已有公开文字，标注内容方向和表达方式。请自行选择关键词开放搜索，不指定账号；逐人分析最多12人，基础资料最多40个账号。直接开始，结束后在聊天给我名单、逐人依据、报告和CSV。",
+  "base": "http://101.201.237.219:33332",
+  "startedAt": "2026-10-13T03:02:41.271Z",
+  "pageErrors": [],
+  "checks": {
+    "scopeAndOpenSearch": true,
+    "realResultsAndJudgments": true,
+    "actualUiAndFilteredDownloads": true,
+    "chatDeliveryScope": true,
+    "refreshPersistence": true
+  },
+  "progress": [
+    {
+      "observedAt": "2026-10-13T03:02:59.809Z",
+      "id": "research-4ef77bf1a7e34d5930e92a20",
+      "title": "族裔资料核对：个人跑步体验",
+      "status": "running",
+      "requested": 2,
+      "evaluated": 0,
+      "matched": 0,
+      "allowHumanAssistance": true,
+      "matchedMeaning": "研究组入选的合格账号数；合格候选总数见qualifying",
+      "updatedAt": 1791860578491,
+      "detail": "正在读取 WaveSurge 原始资料；本地筛选尚未完成",
+      "reviewNote": "族裔资料不足者待人工确认，明确不符者排除；名单已核验其他必选条件。",
+      "nextPollAt": 0
+    },
+    {
+      "observedAt": "2026-10-13T03:04:16.727Z",
+      "id": "research-4ef77bf1a7e34d5930e92a20",
+      "title": "族裔资料核对：个人跑步体验",
+      "status": "running",
+      "requested": 2,
+      "evaluated": 1,
+      "matched": 0,
+      "qualifying": 0,
+      "allowHumanAssistance": true,
+      "matchedMeaning": "研究组入选的合格账号数；合格候选总数见qualifying",
+      "updatedAt": 1791860653073,
+      "detail": "正在读取 WaveSurge 原始资料；本地筛选尚未完成",
+      "reviewNote": "族裔资料不足者待人工确认，明确不符者排除；名单已核验其他必选条件。",
+      "remoteStatus": "running",
+      "nextPollAt": 1791860614362
+    },
+    {
+      "observedAt": "2026-10-13T03:04:57.806Z",
+      "id": "research-4ef77bf1a7e34d5930e92a20",
+      "title": "族裔资料核对：个人跑步体验",
+      "status": "running",
+      "requested": 2,
+      "evaluated": 2,
+      "matched": 0,
+      "qualifying": 0,
+      "allowHumanAssistance": true,
+      "matchedMeaning": "研究组入选的合格账号数；合格候选总数见qualifying",
+      "updatedAt": 1791860693484,
+      "detail": "正在读取 WaveSurge 原始资料；本地筛选尚未完成",
+      "reviewNote": "族裔资料不足者待人工确认，明确不符者排除；名单已核验其他必选条件。",
+      "remoteStatus": "running",
+      "nextPollAt": 1791860673930
+    },
+    {
+      "observedAt": "2026-10-13T03:05:39.873Z",
+      "id": "research-4ef77bf1a7e34d5930e92a20",
+      "title": "族裔资料核对：个人跑步体验",
+      "status": "running",
+      "requested": 2,
+      "evaluated": 3,
+      "matched": 0,
+      "qualifying": 0,
+      "allowHumanAssistance": true,
+      "matchedMeaning": "研究组入选的合格账号数；合格候选总数见qualifying",
+      "updatedAt": 1791860739547,
+      "detail": "正在读取 WaveSurge 原始资料；本地筛选尚未完成",
+      "reviewNote": "族裔资料不足者待人工确认，明确不符者排除；名单已核验其他必选条件。",
+      "remoteStatus": "running",
+      "nextPollAt": 1791860713973
+    },
+    {
+      "observedAt": "2026-10-13T03:06:31.615Z",
+      "id": "research-4ef77bf1a7e34d5930e92a20",
+      "title": "族裔资料核对：个人跑步体验",
+      "status": "running",
+      "requested": 2,
+      "evaluated": 4,
+      "matched": 1,
+      "qualifying": 1,
+      "allowHumanAssistance": true,
+      "matchedMeaning": "研究组入选的合格账号数；合格候选总数见qualifying",
+      "updatedAt": 1791860787498,
+      "detail": "正在读取 WaveSurge 原始资料；本地筛选尚未完成",
+      "reviewNote": "族裔资料不足者待人工确认，明确不符者排除；名单已核验其他必选条件。",
+      "remoteStatus": "running",
+      "nextPollAt": 1791860763286
+    },
+    {
+      "observedAt": "2026-10-13T03:07:28.647Z",
+      "id": "research-4ef77bf1a7e34d5930e92a20",
+      "title": "族裔资料核对：个人跑步体验",
+      "status": "running",
+      "requested": 2,
+      "evaluated": 5,
+      "matched": 1,
+      "qualifying": 1,
+      "allowHumanAssistance": true,
+      "matchedMeaning": "研究组入选的合格账号数；合格候选总数见qualifying",
+      "updatedAt": 1791860847313,
+      "detail": "正在读取 WaveSurge 原始资料；本地筛选尚未完成",
+      "reviewNote": "族裔资料不足者待人工确认，明确不符者排除；名单已核验其他必选条件。",
+      "remoteStatus": "running",
+      "nextPollAt": 1791860815579
+    },
+    {
+      "observedAt": "2026-10-13T03:08:51.737Z",
+      "id": "research-4ef77bf1a7e34d5930e92a20",
+      "title": "族裔资料核对：个人跑步体验",
+      "status": "completed",
+      "requested": 2,
+      "evaluated": 6,
+      "matched": 2,
+      "qualifying": 2,
+      "allowHumanAssistance": true,
+      "matchedMeaning": "研究组入选的合格账号数；合格候选总数见qualifying",
+      "updatedAt": 1791860927947,
+      "detail": "已选合格 2/2，已核验 6；证据不足者保持待核实。Instagram：读取 13 个本人基础账号，基础条件排除 7 个；基础读取上限 40，逐人分析上限 12（本次有界来源，不代表全站穷尽）。",
+      "reviewNote": "族裔资料不足者待人工确认，明确不符者排除；名单已核验其他必选条件。",
+      "remoteStatus": "running",
+      "nextPollAt": 1791860905920
+    }
+  ],
+  "browser": {
+    "isSecureContext": false,
+    "randomUUID": "undefined"
+  },
+  "requestCreatedAt": 1791860562583,
+  "userMessageId": "93700b7ff7ac1068542a56ca1ae64e50",
+  "taskId": "research-4ef77bf1a7e34d5930e92a20",
+  "spec": {
+    "title": "族裔资料核对：个人跑步体验",
+    "personaText": "个人跑者，分享本人第一人称跑步训练、马拉松或越野跑参赛体验。",
+    "count": 2,
+    "platforms": [
+      "instagram"
+    ],
+    "regions": [],
+    "minFollowers": 10000,
+    "maxFollowers": 100000,
+    "candidateBudget": 12,
+    "verificationMode": "text",
+    "instagram": {
+      "queries": [
+        "runner",
+        "marathon",
+        "trailrunner"
+      ],
+      "version": "v3",
+      "profileBudget": 40
+    },
+    "criteria": [
+      {
+        "id": "personal_runner",
+        "label": "个人跑者；依据本人简介与公开文字核验个人分享身份，排除运动品牌、店铺、赛事或机构官方、明星和纯搬运账号。",
+        "required": true,
+        "basis": "text"
+      },
+      {
+        "id": "running_experience",
+        "label": "公开文字有本人第一人称的跑步训练、马拉松或越野跑参赛实际体验，满足任一类即可；主题相关性、通用建议、宣传或转述他人不能代替本人体验。",
+        "required": true,
+        "basis": "text"
+      },
+      {
+        "id": "ethnicity",
+        "label": "白人",
+        "required": false,
+        "reviewOnly": true,
+        "basis": "text"
+      }
+    ],
+    "annotations": [
+      {
+        "id": "content_direction",
+        "label": "内容方向"
+      },
+      {
+        "id": "expression_method",
+        "label": "表达方式"
+      }
+    ]
+  },
+  "finalTask": {
+    "id": "research-4ef77bf1a7e34d5930e92a20",
+    "title": "族裔资料核对：个人跑步体验",
+    "status": "completed",
+    "requested": 2,
+    "evaluated": 6,
+    "matched": 2,
+    "qualifying": 2,
+    "allowHumanAssistance": true,
+    "matchedMeaning": "研究组入选的合格账号数；合格候选总数见qualifying",
+    "updatedAt": 1791860927947,
+    "detail": "已选合格 2/2，已核验 6；证据不足者保持待核实。Instagram：读取 13 个本人基础账号，基础条件排除 7 个；基础读取上限 40，逐人分析上限 12（本次有界来源，不代表全站穷尽）。",
+    "reviewNote": "族裔资料不足者待人工确认，明确不符者排除；名单已核验其他必选条件。",
+    "remoteStatus": "running",
+    "nextPollAt": 1791860905920
+  },
+  "elapsedMs": 365364,
+  "records": [
+    {
+      "id": "research-4ef77bf1a7e34d5930e92a20|instagram:runner_talk",
+      "handle": "runner_talk",
+      "followers": 40424,
+      "profileUrl": "https://www.instagram.com/runner_talk/",
+      "verdict": "no_match",
+      "selected": false,
+      "judgments": [
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 40424，要求 10000–100000",
+          "evidenceIds": [
+            "d4912d90718a0a0ec6e1fef8"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "personal_runner",
+          "verdict": "no_match",
+          "reason": "已有 WaveSurge 简介明确定位为采访过 2,000+ 跑者、赛事报道与挑战的 RUNNER TALK；帖文以采访他人和报道他人成绩为核心，不是以本人个人跑者身份分享训练参赛体验的账号。本轮仅复用已采集文字，未重新访问主页。",
+          "evidenceIds": [
+            "d4912d90718a0a0ec6e1fef8",
+            "cc88318167f80cfc4750a542",
+            "4578eb9d5c01e870d61528f9"
+          ],
+          "label": "个人跑者；依据本人简介与公开文字核验个人分享身份，排除运动品牌、店铺、赛事或机构官方、明星和纯搬运账号。"
+        },
+        {
+          "criterionId": "running_experience",
+          "verdict": "unknown",
+          "reason": "所提供帖文的马拉松成绩、训练方法和跑步经历均归属于受访跑者；“we”叙述的是采访、组织挑战或首次健身课程，而非账号本人实际跑步训练或参赛体验。现有文字不足以确认所要求的本人第一人称跑步体验，亦不能据此断言其从未分享。",
+          "evidenceIds": [
+            "980ea7df8cc8f77fe93ecc1c",
+            "cc88318167f80cfc4750a542",
+            "3d689b8cb0e41d873b989343",
+            "ace9ef94daf2751509ef6c71"
+          ],
+          "label": "公开文字有本人第一人称的跑步训练、马拉松或越野跑参赛实际体验，满足任一类即可；主题相关性、通用建议、宣传或转述他人不能代替本人体验。"
+        },
+        {
+          "criterionId": "ethnicity",
+          "verdict": "unknown",
+          "reason": "尚无明确记载族裔的可靠文字资料，待人工确认；不从外貌、姓名或所在地推断，不影响其他条件筛选。",
+          "evidenceIds": [],
+          "reviewOnly": true,
+          "label": "白人"
+        }
+      ],
+      "tags": [
+        "跑者人物故事",
+        "马拉松赛事报道",
+        "跑步挑战",
+        "品牌合作推广",
+        "人物采访",
+        "第三人称赛事叙述",
+        "挑战式内容",
+        "激励性文案"
+      ],
+      "sources": [
+        {
+          "id": "d4912d90718a0a0ec6e1fef8",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "profile",
+          "url": "https://www.instagram.com/runner_talk/",
+          "publishedAt": null,
+          "capturedAt": 1791860596010
+        },
+        {
+          "id": "a3c6ec0b089c86b31611ab34",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DaGQWVBGwJK/",
+          "publishedAt": "2026-06-27T17:29:15.000Z",
+          "capturedAt": 1791860596010
+        },
+        {
+          "id": "0f6ea826fc9b8ab5c9674033",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DdFEf3Tyx3e/",
+          "publishedAt": "2026-09-09T20:03:01.000Z",
+          "capturedAt": 1791860596010
+        },
+        {
+          "id": "1fa730cc6b0e8694027e67a8",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/Dbi90R5phIV/",
+          "publishedAt": "2026-08-02T17:38:55.000Z",
+          "capturedAt": 1791860596010
+        },
+        {
+          "id": "4f7fe94d640247f8ee6bd6d9",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DeaJoiqxiHA/",
+          "publishedAt": "2026-10-12T21:00:06.000Z",
+          "capturedAt": 1791860596010
+        },
+        {
+          "id": "980ea7df8cc8f77fe93ecc1c",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DeZuvf7R5hM/",
+          "publishedAt": "2026-10-12T17:06:00.000Z",
+          "capturedAt": 1791860596010
+        },
+        {
+          "id": "cc88318167f80cfc4750a542",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DeXyPo2vDgq/",
+          "publishedAt": "2026-10-11T23:01:40.000Z",
+          "capturedAt": 1791860596010
+        },
+        {
+          "id": "fff90984f82d441a6baf9119",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DeXaobuyotu/",
+          "publishedAt": "2026-10-11T19:36:36.000Z",
+          "capturedAt": 1791860596010
+        },
+        {
+          "id": "4578eb9d5c01e870d61528f9",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DeVbs-aoX2Z/",
+          "publishedAt": "2026-10-11T01:03:24.000Z",
+          "capturedAt": 1791860596010
+        },
+        {
+          "id": "3428db27e25a3ff824cc362c",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DeUbHVmIMai/",
+          "publishedAt": "2026-10-10T15:40:17.000Z",
+          "capturedAt": 1791860596010
+        },
+        {
+          "id": "3d689b8cb0e41d873b989343",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DeQNLDvo24H/",
+          "publishedAt": "2026-10-09T00:22:42.000Z",
+          "capturedAt": 1791860596010
+        },
+        {
+          "id": "a7cb40c536199d8ae5c3a54e",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DePhwNFRbag/",
+          "publishedAt": "2026-10-08T18:00:09.000Z",
+          "capturedAt": 1791860596010
+        },
+        {
+          "id": "c1228bbd3a68d036817cfc94",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DeKW-FtoptG/",
+          "publishedAt": "2026-10-06T17:52:25.000Z",
+          "capturedAt": 1791860596010
+        },
+        {
+          "id": "7a42633065aa56502d0a704c",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DeHzcfIxtR8/",
+          "publishedAt": "2026-10-05T18:00:08.000Z",
+          "capturedAt": 1791860596010
+        },
+        {
+          "id": "ace9ef94daf2751509ef6c71",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DeFOd4WI8zK/",
+          "publishedAt": "2026-10-04T18:04:51.000Z",
+          "capturedAt": 1791860596010
+        },
+        {
+          "id": "afc43859c39cdb2e4134bc36",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DeAE5A3IJfx/",
+          "publishedAt": "2026-10-02T18:00:27.000Z",
+          "capturedAt": 1791860596010
+        },
+        {
+          "id": "1e19af091c36ee4102c85b18",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/Dd63HO0ot5X/",
+          "publishedAt": "2026-09-30T17:24:48.000Z",
+          "capturedAt": 1791860596010
+        },
+        {
+          "id": "b78dce78ba0129c0403c1ece",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DdwoRpmx2px/",
+          "publishedAt": "2026-09-26T18:00:09.000Z",
+          "capturedAt": 1791860596010
+        },
+        {
+          "id": "2d38a3d93d06141eed39823b",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DdrWhA4IETt/",
+          "publishedAt": "2026-09-24T16:51:15.000Z",
+          "capturedAt": 1791860596010
+        },
+        {
+          "id": "17edbab891580eca701873d2",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DdmuK4NSNbX/",
+          "publishedAt": "2026-09-22T21:45:24.000Z",
+          "capturedAt": 1791860596010
+        },
+        {
+          "id": "38d10a388012bb5f03cf7174",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DdkKe_JSCHI/",
+          "publishedAt": "2026-09-21T21:50:30.000Z",
+          "capturedAt": 1791860596010
+        },
+        {
+          "id": "f08097bb7975ec341dbcd072",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DdjwTVtBgq5/",
+          "publishedAt": "2026-09-21T18:00:43.000Z",
+          "capturedAt": 1791860596010
+        },
+        {
+          "id": "7a7ddfca958fd5ca02a863fd",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DdhVR1zhoqz/",
+          "publishedAt": "2026-09-20T19:27:24.000Z",
+          "capturedAt": 1791860596010
+        },
+        {
+          "id": "96e6f03ea32b6328097e74ed",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DdezKutmRDI/",
+          "publishedAt": "2026-09-19T19:49:27.000Z",
+          "capturedAt": 1791860596010
+        },
+        {
+          "id": "885241f3b5bfae568c485d86",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DdW4QxLBquK/",
+          "publishedAt": "2026-09-16T18:00:10.000Z",
+          "capturedAt": 1791860596010
+        }
+      ]
+    },
+    {
+      "id": "research-4ef77bf1a7e34d5930e92a20|instagram:marathonthegame",
+      "handle": "marathonthegame",
+      "followers": 93869,
+      "profileUrl": "https://www.instagram.com/marathonthegame/",
+      "verdict": "no_match",
+      "selected": false,
+      "judgments": [
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 93869，要求 10000–100000",
+          "evidenceIds": [
+            "9a9853fe9bd0a8144860a3d5"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "personal_runner",
+          "verdict": "no_match",
+          "reason": "已提供的 WaveSurge 主页文字介绍 Tau Ceti 科幻游戏，并注明来自 Halo 与 Destiny 制作方、ESRB Teen；帖子推广 Marathon 游戏更新并引导至 marathonthegame.com，表明是游戏产品宣传账号而非个人跑者。仅复用既有文字，未重新访问主页。",
+          "evidenceIds": [
+            "9a9853fe9bd0a8144860a3d5",
+            "c9e07d20f584388c920bd468"
+          ],
+          "label": "个人跑者；依据本人简介与公开文字核验个人分享身份，排除运动品牌、店铺、赛事或机构官方、明星和纯搬运账号。"
+        },
+        {
+          "criterionId": "running_experience",
+          "verdict": "no_match",
+          "reason": "所提供公开文字是游戏奖励通行证、版本更新及虚构 Runner 广告；其中 Marathon 和 Runner 指游戏及游戏角色，不是本人跑步训练或参赛体验，品牌口吻的第一人称复数也不是个人跑步经历。",
+          "evidenceIds": [
+            "d1fa98a2251cce2b4134db85",
+            "c9e07d20f584388c920bd468",
+            "e42d848598f2cd6383bc8adf",
+            "5cd0ccd4c342c8d644b06419"
+          ],
+          "label": "公开文字有本人第一人称的跑步训练、马拉松或越野跑参赛实际体验，满足任一类即可；主题相关性、通用建议、宣传或转述他人不能代替本人体验。"
+        },
+        {
+          "criterionId": "ethnicity",
+          "verdict": "unknown",
+          "reason": "尚无明确记载族裔的可靠文字资料，待人工确认；不从外貌、姓名或所在地推断，不影响其他条件筛选。",
+          "evidenceIds": [],
+          "reviewOnly": true,
+          "label": "白人"
+        }
+      ],
+      "tags": [
+        "科幻游戏宣传",
+        "游戏版本更新与奖励通行证资讯",
+        "产品宣传文案",
+        "更新公告",
+        "游戏世界观叙事"
+      ],
+      "sources": [
+        {
+          "id": "9a9853fe9bd0a8144860a3d5",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "profile",
+          "url": "https://www.instagram.com/marathonthegame/",
+          "publishedAt": null,
+          "capturedAt": 1791860653111
+        },
+        {
+          "id": "5cd0ccd4c342c8d644b06419",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/Ddrc3SRDbEw/",
+          "publishedAt": "2026-09-24T17:48:28.000Z",
+          "capturedAt": 1791860653111
+        },
+        {
+          "id": "8d75043afee426c1e0141589",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DYz2C8IDVKq/",
+          "publishedAt": "2026-05-26T19:00:05.000Z",
+          "capturedAt": 1791860653111
+        },
+        {
+          "id": "08183f0efd1940c9811bac05",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DWAvF8qClVK/",
+          "publishedAt": "2026-03-18T06:00:04.000Z",
+          "capturedAt": 1791860653111
+        },
+        {
+          "id": "d1fa98a2251cce2b4134db85",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DePZV0JDEOk/",
+          "publishedAt": "2026-10-08T16:47:06.000Z",
+          "capturedAt": 1791860653111
+        },
+        {
+          "id": "8a132f0e41f529fca8361f03",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DeMxvvKESoB/",
+          "publishedAt": "2026-10-07T16:22:34.000Z",
+          "capturedAt": 1791860653111
+        },
+        {
+          "id": "2ece89b540cef041cdeaedfe",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DeKSJgjDC_t/",
+          "publishedAt": "2026-10-06T17:07:53.000Z",
+          "capturedAt": 1791860653111
+        },
+        {
+          "id": "c9e07d20f584388c920bd468",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DeKOBJFm1zb/",
+          "publishedAt": "2026-10-06T16:31:25.000Z",
+          "capturedAt": 1791860653111
+        },
+        {
+          "id": "5321e5817459cc956b79fe8f",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DeHsxgSmve2/",
+          "publishedAt": "2026-10-05T17:02:26.000Z",
+          "capturedAt": 1791860653111
+        },
+        {
+          "id": "e5c8bfda60c062cf6c641a6d",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/Dd_7SMhkQCt/",
+          "publishedAt": "2026-10-02T16:35:45.000Z",
+          "capturedAt": 1791860653111
+        },
+        {
+          "id": "035763be770353191c2a0a80",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/Dd9WNXFFH3l/",
+          "publishedAt": "2026-10-01T16:33:26.000Z",
+          "capturedAt": 1791860653111
+        },
+        {
+          "id": "f81312e0874541ef1f521536",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/Dd4ShHTkb5h/",
+          "publishedAt": "2026-09-29T17:24:49.000Z",
+          "capturedAt": 1791860653111
+        },
+        {
+          "id": "8724572b6f01671863cabe1c",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/Dd1yxRTk7_p/",
+          "publishedAt": "2026-09-28T18:08:59.000Z",
+          "capturedAt": 1791860653111
+        },
+        {
+          "id": "e42d848598f2cd6383bc8adf",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DduDS46DWHa/",
+          "publishedAt": "2026-09-25T17:59:29.000Z",
+          "capturedAt": 1791860653111
+        },
+        {
+          "id": "4f6c4134d10c93f8401e69ca",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DdozQm2E2Y1/",
+          "publishedAt": "2026-09-23T17:03:19.000Z",
+          "capturedAt": 1791860653111
+        },
+        {
+          "id": "b464657b10640ade40c3eb4c",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DdmPII2jK1N/",
+          "publishedAt": "2026-09-22T17:08:49.000Z",
+          "capturedAt": 1791860653111
+        },
+        {
+          "id": "08435798d5c3d073a6e7bbc4",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/Ddjiob1FE7E/",
+          "publishedAt": "2026-09-21T16:03:03.000Z",
+          "capturedAt": 1791860653111
+        },
+        {
+          "id": "c496d282fee489ee615fe1a4",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/Ddb_EmJjFcb/",
+          "publishedAt": "2026-09-18T17:36:13.000Z",
+          "capturedAt": 1791860653111
+        },
+        {
+          "id": "3f42f735f13b686f0a155e50",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DdZgue8Dvf_/",
+          "publishedAt": "2026-09-17T18:32:30.000Z",
+          "capturedAt": 1791860653111
+        },
+        {
+          "id": "d6ec1b59da1683ccee627fa5",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DdW0ZRXEeLD/",
+          "publishedAt": "2026-09-16T17:26:48.000Z",
+          "capturedAt": 1791860653111
+        },
+        {
+          "id": "c14f91d747bf29766e421d00",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DdUSZeYIA78/",
+          "publishedAt": "2026-09-15T17:51:10.000Z",
+          "capturedAt": 1791860653111
+        },
+        {
+          "id": "cd365ef6003efc28d9c86d2f",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DdE95cWigxD/",
+          "publishedAt": "2026-09-09T19:03:33.000Z",
+          "capturedAt": 1791860653111
+        },
+        {
+          "id": "6287efdecc0e81a32231ccfa",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DdCNbZ6m6Nb/",
+          "publishedAt": "2026-09-08T17:21:23.000Z",
+          "capturedAt": 1791860653111
+        },
+        {
+          "id": "0459d29d7d9e3a76b68fd39e",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/Dc_CoFrAQU8/",
+          "publishedAt": "2026-09-07T17:00:04.000Z",
+          "capturedAt": 1791860653111
+        },
+        {
+          "id": "d28f0e190075880c7c66c152",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/Dc3zaDyDFXU/",
+          "publishedAt": "2026-09-04T16:21:41.000Z",
+          "capturedAt": 1791860653111
+        }
+      ]
+    },
+    {
+      "id": "research-4ef77bf1a7e34d5930e92a20|instagram:trailrunnernation",
+      "handle": "trailrunnernation",
+      "followers": 31342,
+      "profileUrl": "https://www.instagram.com/trailrunnernation/",
+      "verdict": "no_match",
+      "selected": false,
+      "judgments": [
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 31342，要求 10000–100000",
+          "evidenceIds": [
+            "6a627038323cc7f50a910581"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "personal_runner",
+          "verdict": "no_match",
+          "reason": "已有 WaveSurge 简介明确将该账号定位为越野跑播客，分享社群知识与建议；帖子以节目、嘉宾采访宣传为主，是播客品牌账号而非个人跑者分享身份。本轮仅复用已采集文字，未重新访问主页。",
+          "evidenceIds": [
+            "6a627038323cc7f50a910581",
+            "912d6a518a2cf2c07950d7ff",
+            "31f41c82cc0fb7a01c9e24e0"
+          ],
+          "label": "个人跑者；依据本人简介与公开文字核验个人分享身份，排除运动品牌、店铺、赛事或机构官方、明星和纯搬运账号。"
+        },
+        {
+          "criterionId": "running_experience",
+          "verdict": "unknown",
+          "reason": "已提供的帖子文字描述嘉宾的超马、长距离越野及补水体验，并宣传节目；其中“our new episode”等第一人称指节目制作，不是账号本人训练或参赛体验。现有文字不足以确认本人第一人称跑步实际体验。",
+          "evidenceIds": [
+            "fa8090baddff01864136b40b",
+            "ff53b997bebfec54bd8b46fd",
+            "31f41c82cc0fb7a01c9e24e0"
+          ],
+          "label": "公开文字有本人第一人称的跑步训练、马拉松或越野跑参赛实际体验，满足任一类即可；主题相关性、通用建议、宣传或转述他人不能代替本人体验。"
+        },
+        {
+          "criterionId": "ethnicity",
+          "verdict": "unknown",
+          "reason": "尚无明确记载族裔的可靠文字资料，待人工确认；不从外貌、姓名或所在地推断，不影响其他条件筛选。",
+          "evidenceIds": [],
+          "reviewOnly": true,
+          "label": "白人"
+        }
+      ],
+      "tags": [
+        "越野跑知识与训练讨论",
+        "超马与长距离越野故事",
+        "跑步播客节目推广",
+        "嘉宾访谈与故事转述",
+        "提问式节目预告",
+        "引导收听完整节目"
+      ],
+      "sources": [
+        {
+          "id": "6a627038323cc7f50a910581",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "profile",
+          "url": "https://www.instagram.com/trailrunnernation/",
+          "publishedAt": null,
+          "capturedAt": 1791860693602
+        },
+        {
+          "id": "8ef0f76b1f95332fbfce5c7a",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DePKv1oIJ1h/",
+          "publishedAt": "2026-10-08T14:42:00.000Z",
+          "capturedAt": 1791860693602
+        },
+        {
+          "id": "ce66448750381fd380960222",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DeJj-6aIeaB/",
+          "publishedAt": "2026-10-06T10:26:13.000Z",
+          "capturedAt": 1791860693602
+        },
+        {
+          "id": "c233a9d6b896ee8bf4fd5d83",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DeJiPCCIf8K/",
+          "publishedAt": "2026-10-06T10:12:24.000Z",
+          "capturedAt": 1791860693602
+        },
+        {
+          "id": "fa8090baddff01864136b40b",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/Dd-5ndcI2Tb/",
+          "publishedAt": "2026-10-02T07:03:16.000Z",
+          "capturedAt": 1791860693602
+        },
+        {
+          "id": "442531d6825a2de57e37b68d",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DdrvUxoosBO/",
+          "publishedAt": "2026-09-24T20:28:32.000Z",
+          "capturedAt": 1791860693602
+        },
+        {
+          "id": "2b9bf0a82ca7d2a3acacb100",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/Ddb1ogloRQ1/",
+          "publishedAt": "2026-09-18T16:17:59.000Z",
+          "capturedAt": 1791860693602
+        },
+        {
+          "id": "ff53b997bebfec54bd8b46fd",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DdImlINIOVP/",
+          "publishedAt": "2026-09-11T04:56:15.000Z",
+          "capturedAt": 1791860693602
+        },
+        {
+          "id": "e939791c3a058fa154c7537c",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/Dc202LJor6d/",
+          "publishedAt": "2026-09-04T07:18:12.000Z",
+          "capturedAt": 1791860693602
+        },
+        {
+          "id": "539a94c58002139da4523239",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DctZAXUiOIE/",
+          "publishedAt": "2026-08-31T15:18:03.000Z",
+          "capturedAt": 1791860693602
+        },
+        {
+          "id": "912d6a518a2cf2c07950d7ff",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DcmTE7miKhl/",
+          "publishedAt": "2026-08-28T21:11:34.000Z",
+          "capturedAt": 1791860693602
+        },
+        {
+          "id": "2f35f0234807d4cab586eaeb",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/Dcgh0C8ooVe/",
+          "publishedAt": "2026-08-26T15:26:04.000Z",
+          "capturedAt": 1791860693602
+        },
+        {
+          "id": "31f41c82cc0fb7a01c9e24e0",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DcThuGuiMhF/",
+          "publishedAt": "2026-08-21T14:13:57.000Z",
+          "capturedAt": 1791860693602
+        },
+        {
+          "id": "8dc1795ec17ce3a35336fb9c",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DcBfxtjonF6/",
+          "publishedAt": "2026-08-14T14:17:25.000Z",
+          "capturedAt": 1791860693602
+        },
+        {
+          "id": "cf7c33de1e3989207f3d6895",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/Dbvy8JBoOkv/",
+          "publishedAt": "2026-08-07T17:15:55.000Z",
+          "capturedAt": 1791860693602
+        },
+        {
+          "id": "f13f45b190bf3038a9dd87e1",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/Dbpwjc8IFKp/",
+          "publishedAt": "2026-08-05T08:56:23.000Z",
+          "capturedAt": 1791860693602
+        },
+        {
+          "id": "b070d30ae49e5907b22a971b",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/Dbd72aBo88A/",
+          "publishedAt": "2026-07-31T18:47:43.000Z",
+          "capturedAt": 1791860693602
+        },
+        {
+          "id": "4654a2d11facb4b5b56d428b",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DbNCXTzoU__/",
+          "publishedAt": "2026-07-25T17:35:06.000Z",
+          "capturedAt": 1791860693602
+        },
+        {
+          "id": "3c860f55ca68373e4d8be939",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DbMBAlGoDZ4/",
+          "publishedAt": "2026-07-24T20:40:23.000Z",
+          "capturedAt": 1791860693602
+        },
+        {
+          "id": "6591a6bb67db026861988410",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/Da4Wo99IU4b/",
+          "publishedAt": "2026-07-17T04:27:15.000Z",
+          "capturedAt": 1791860693602
+        },
+        {
+          "id": "a0bba8087b794f89fec45822",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/Damr3KSiACB/",
+          "publishedAt": "2026-07-10T07:45:21.000Z",
+          "capturedAt": 1791860693602
+        },
+        {
+          "id": "b665d2951c6afced01b90867",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DaUs7wZI5sO/",
+          "publishedAt": "2026-07-03T08:10:24.000Z",
+          "capturedAt": 1791860693602
+        },
+        {
+          "id": "d32d8c861ab73088dadb05d4",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DaCYZdRIC3Z/",
+          "publishedAt": "2026-06-26T05:24:13.000Z",
+          "capturedAt": 1791860693602
+        },
+        {
+          "id": "f35160d29cf1888daa11b8b3",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DZxPmVGoTO2/",
+          "publishedAt": "2026-06-19T13:42:17.000Z",
+          "capturedAt": 1791860693602
+        },
+        {
+          "id": "5eea8e43a755bef4e732436f",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DZdjlc9oBNK/",
+          "publishedAt": "2026-06-11T22:10:20.000Z",
+          "capturedAt": 1791860693602
+        }
+      ]
+    },
+    {
+      "id": "research-4ef77bf1a7e34d5930e92a20|instagram:runswithmal",
+      "handle": "runswithmal",
+      "followers": 51737,
+      "profileUrl": "https://www.instagram.com/runswithmal/",
+      "verdict": "match",
+      "selected": true,
+      "judgments": [
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 51737，要求 10000–100000",
+          "evidenceIds": [
+            "2317f8c76bd1b9a57ec8fe4e"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "personal_runner",
+          "verdict": "match",
+          "reason": "复用本轮提供的 WaveSurge 文字资料，未重新访问主页。本人简介自称“Ultramarathoner & Triathlete”，并列出下一场赛事；本人帖子详细叙述自己的越野赛经历及家人陪伴冲线，支持个人跑者分享身份，而非品牌、赛事机构或纯搬运账号。认证标记本身不作为明星身份依据。",
+          "evidenceIds": [
+            "2317f8c76bd1b9a57ec8fe4e",
+            "c68e983dd264dcda3c6ce8db"
+          ],
+          "label": "个人跑者；依据本人简介与公开文字核验个人分享身份，排除运动品牌、店铺、赛事或机构官方、明星和纯搬运账号。"
+        },
+        {
+          "criterionId": "running_experience",
+          "verdict": "match",
+          "reason": "WaveSurge 帖子文字（publishedAt 为 2026-09-20）以第一人称复盘 Grindstone 50K：去年100K未完赛、此次配速与关门时间压力、爬坡及最后10英里困难、家人陪伴冲线，并记录33英里和5100多英尺爬升；明确为本人越野跑参赛实际体验，非仅话题标签或宣传。",
+          "evidenceIds": [
+            "c68e983dd264dcda3c6ce8db",
+            "3860f092c8329dc05e284b9c"
+          ],
+          "label": "公开文字有本人第一人称的跑步训练、马拉松或越野跑参赛实际体验，满足任一类即可；主题相关性、通用建议、宣传或转述他人不能代替本人体验。"
+        },
+        {
+          "criterionId": "ethnicity",
+          "verdict": "unknown",
+          "reason": "尚无明确记载族裔的可靠文字资料，待人工确认；不从外貌、姓名或所在地推断，不影响其他条件筛选。",
+          "evidenceIds": [],
+          "reviewOnly": true,
+          "label": "白人"
+        }
+      ],
+      "tags": [
+        "越野跑与超马参赛体验",
+        "个人跑步与跑步挑战",
+        "骑行生活",
+        "运动品牌合作",
+        "第一人称赛事复盘",
+        "情绪化励志分享",
+        "幽默日常叙述",
+        "品牌合作推广"
+      ],
+      "sources": [
+        {
+          "id": "2317f8c76bd1b9a57ec8fe4e",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "profile",
+          "url": "https://www.instagram.com/runswithmal/",
+          "publishedAt": null,
+          "capturedAt": 1791860739731
+        },
+        {
+          "id": "f8bff45ee67b4a54c1127f65",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DeacklOJLqw/",
+          "publishedAt": "2026-10-12T23:47:39.000Z",
+          "capturedAt": 1791860739731
+        },
+        {
+          "id": "e16cfcc649dd927db325c590",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DePxoivps9c/",
+          "publishedAt": "2026-10-08T20:20:15.000Z",
+          "capturedAt": 1791860739731
+        },
+        {
+          "id": "a8a84837758cdc6d68eefe72",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DeNP7b9TNBT/",
+          "publishedAt": "2026-10-07T20:46:34.000Z",
+          "capturedAt": 1791860739731
+        },
+        {
+          "id": "3289c97c61c623632c5e5fbc",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DeIDM-WpEGq/",
+          "publishedAt": "2026-10-05T20:20:26.000Z",
+          "capturedAt": 1791860739731
+        },
+        {
+          "id": "3092035213ac24ff578d50ff",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DeAY2fOyjbD/",
+          "publishedAt": "2026-10-02T20:54:57.000Z",
+          "capturedAt": 1791860739731
+        },
+        {
+          "id": "672c61525e8e57310c1e0bda",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/Dd7Mx5NypZ-/",
+          "publishedAt": "2026-09-30T20:32:57.000Z",
+          "capturedAt": 1791860739731
+        },
+        {
+          "id": "4748eb8bd44a5514c7318e97",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/Dd4ogMOJPQC/",
+          "publishedAt": "2026-09-29T20:37:27.000Z",
+          "capturedAt": 1791860739731
+        },
+        {
+          "id": "0953973e86d6d47d37442f12",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DduboEaplno/",
+          "publishedAt": "2026-09-25T21:32:20.000Z",
+          "capturedAt": 1791860739731
+        },
+        {
+          "id": "9c13fc63b8950ea8deb8b4b4",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DdmpnmKFJXM/",
+          "publishedAt": "2026-09-22T20:59:56.000Z",
+          "capturedAt": 1791860739731
+        },
+        {
+          "id": "c68e983dd264dcda3c6ce8db",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/Ddhf9JBJY7u/",
+          "publishedAt": "2026-09-20T21:01:33.000Z",
+          "capturedAt": 1791860739731
+        },
+        {
+          "id": "3860f092c8329dc05e284b9c",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DdfCxTvp3fV/",
+          "publishedAt": "2026-09-19T22:06:41.000Z",
+          "capturedAt": 1791860739731
+        },
+        {
+          "id": "0378a2a9579cb882a33572db",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DdZ8FtfJIVm/",
+          "publishedAt": "2026-09-17T22:32:05.000Z",
+          "capturedAt": 1791860739731
+        },
+        {
+          "id": "21a4426036601ea86a3201eb",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DdXNNjupGOX/",
+          "publishedAt": "2026-09-16T21:04:11.000Z",
+          "capturedAt": 1791860739731
+        },
+        {
+          "id": "12dfaff17f196c41b31d186c",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DdUj5DuFEWf/",
+          "publishedAt": "2026-09-15T20:23:34.000Z",
+          "capturedAt": 1791860739731
+        },
+        {
+          "id": "70441b07b8ade50c0a959a8a",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DdOnXjOg03_/",
+          "publishedAt": "2026-09-13T13:00:19.000Z",
+          "capturedAt": 1791860739731
+        },
+        {
+          "id": "c2f155c8e0465efe7ff49d08",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DdHuMtzJawz/",
+          "publishedAt": "2026-09-10T20:45:18.000Z",
+          "capturedAt": 1791860739731
+        },
+        {
+          "id": "7cf7fd058da7719df0d616d0",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DdETpxSp5SR/",
+          "publishedAt": "2026-09-09T12:54:38.000Z",
+          "capturedAt": 1791860739731
+        },
+        {
+          "id": "2fe36d60489681b5ca974451",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/Dc4PfZmJRof/",
+          "publishedAt": "2026-09-04T20:27:37.000Z",
+          "capturedAt": 1791860739731
+        },
+        {
+          "id": "87476501537ce2effd5708d5",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/Dc18FLIptBE/",
+          "publishedAt": "2026-09-03T22:59:14.000Z",
+          "capturedAt": 1791860739731
+        },
+        {
+          "id": "3441c3b78be5fd5d9a97655d",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DczIB4Wpj4u/",
+          "publishedAt": "2026-09-02T20:46:26.000Z",
+          "capturedAt": 1791860739731
+        },
+        {
+          "id": "4cec6b590a4b83c734abe66d",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DcwtwpplFMa/",
+          "publishedAt": "2026-09-01T22:17:08.000Z",
+          "capturedAt": 1791860739731
+        },
+        {
+          "id": "4138ed4bab73fe8eee564b2e",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DcoVtahJtSV/",
+          "publishedAt": "2026-08-29T16:14:33.000Z",
+          "capturedAt": 1791860739731
+        },
+        {
+          "id": "feb4cfc7cd6342b4391a90bb",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DcjSKZlJjC6/",
+          "publishedAt": "2026-08-27T17:08:26.000Z",
+          "capturedAt": 1791860739731
+        },
+        {
+          "id": "a43138a5cad7b3220b32ac4d",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DcT-6TbJ1bl/",
+          "publishedAt": "2026-08-21T18:30:27.000Z",
+          "capturedAt": 1791860739731
+        }
+      ]
+    },
+    {
+      "id": "research-4ef77bf1a7e34d5930e92a20|instagram:marathonweekend",
+      "handle": "marathonweekend",
+      "followers": 10326,
+      "profileUrl": "https://www.instagram.com/marathonweekend/",
+      "verdict": "no_match",
+      "selected": false,
+      "judgments": [
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 10326，要求 10000–100000",
+          "evidenceIds": [
+            "6e036efd8600e9e5993fca1f"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "personal_runner",
+          "verdict": "no_match",
+          "reason": "已提供的 WaveSurge 主页文字将账号定位为马拉松周末活动汇总、筛选与地图平台（“Every marathon weekend event. One place. Filtered. Mapped. Sorted.”）；帖子进一步介绍其活动日历、网站与观赛工具。虽署名 by @mic.tuc，但该账号呈现的是活动资讯服务而非本人个人跑者分享账号。本轮未重新访问页面。",
+          "evidenceIds": [
+            "6e036efd8600e9e5993fca1f",
+            "f19501b395eb5d94187831e1",
+            "cd029c903e159596313c079e"
+          ],
+          "label": "个人跑者；依据本人简介与公开文字核验个人分享身份，排除运动品牌、店铺、赛事或机构官方、明星和纯搬运账号。"
+        },
+        {
+          "criterionId": "running_experience",
+          "verdict": "unknown",
+          "reason": "WaveSurge 提供的 2026-10-09 帖子确有“Today we joined … for a shakeout run”及长跑、减量期的第一人称复数描述，2026-10-10 帖子也提到“run with us”。但这是活动资讯平台的集体口吻，不能明确归属于某位个人创作者本人的训练或参赛体验；其他活动指南不能补足该归属缺口。",
+          "evidenceIds": [
+            "701d4277d6abc0dab731c565",
+            "f103d8d3c39e7649d36c076a",
+            "6e036efd8600e9e5993fca1f"
+          ],
+          "label": "公开文字有本人第一人称的跑步训练、马拉松或越野跑参赛实际体验，满足任一类即可；主题相关性、通用建议、宣传或转述他人不能代替本人体验。"
+        },
+        {
+          "criterionId": "ethnicity",
+          "verdict": "unknown",
+          "reason": "尚无明确记载族裔的可靠文字资料，待人工确认；不从外貌、姓名或所在地推断，不影响其他条件筛选。",
+          "evidenceIds": [],
+          "reviewOnly": true,
+          "label": "白人"
+        }
+      ],
+      "tags": [
+        "马拉松赛事周活动指南",
+        "跑步品牌活动资讯",
+        "马拉松观赛工具",
+        "清单式活动指南",
+        "时间地点信息汇总",
+        "活动现场文字记录",
+        "广告合作"
+      ],
+      "sources": [
+        {
+          "id": "6e036efd8600e9e5993fca1f",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "profile",
+          "url": "https://www.instagram.com/marathonweekend/",
+          "publishedAt": null,
+          "capturedAt": 1791860787891
+        },
+        {
+          "id": "b0dd62a424441abf71f6311d",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DeZmwBQljEJ/",
+          "publishedAt": "2026-10-12T15:56:08.000Z",
+          "capturedAt": 1791860787891
+        },
+        {
+          "id": "c22f8fa31cdf11706698d281",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DeUkAnTlg-t/",
+          "publishedAt": "2026-10-10T16:55:59.000Z",
+          "capturedAt": 1791860787891
+        },
+        {
+          "id": "f103d8d3c39e7649d36c076a",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DeUFoWiltmr/",
+          "publishedAt": "2026-10-10T12:30:03.000Z",
+          "capturedAt": 1791860787891
+        },
+        {
+          "id": "3e2f4f9c3bd04db3f8bbbad2",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DeUCPxBlpee/",
+          "publishedAt": "2026-10-10T12:00:12.000Z",
+          "capturedAt": 1791860787891
+        },
+        {
+          "id": "701d4277d6abc0dab731c565",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DeSQxwWCeqB/",
+          "publishedAt": "2026-10-09T19:29:27.000Z",
+          "capturedAt": 1791860787891
+        },
+        {
+          "id": "f79e513a98b83d4681066367",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DePxhDBCX-O/",
+          "publishedAt": "2026-10-08T20:17:48.000Z",
+          "capturedAt": 1791860787891
+        },
+        {
+          "id": "f19501b395eb5d94187831e1",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DeMm-lyMnQv/",
+          "publishedAt": "2026-10-07T14:56:24.000Z",
+          "capturedAt": 1791860787891
+        },
+        {
+          "id": "5c316faebd8a5a02cd466b24",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DeIVOk-jNXA/",
+          "publishedAt": "2026-10-05T22:55:56.000Z",
+          "capturedAt": 1791860787891
+        },
+        {
+          "id": "cd029c903e159596313c079e",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DeAUIvXjDUW/",
+          "publishedAt": "2026-10-02T20:12:28.000Z",
+          "capturedAt": 1791860787891
+        },
+        {
+          "id": "02647b83d41773199e26e499",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/Dd7VaXmjGIM/",
+          "publishedAt": "2026-09-30T21:47:25.000Z",
+          "capturedAt": 1791860787891
+        },
+        {
+          "id": "be6bee37a4597b9ad8700c1e",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/Dd4rExPDJHj/",
+          "publishedAt": "2026-09-29T20:58:59.000Z",
+          "capturedAt": 1791860787891
+        },
+        {
+          "id": "d993fdef9d4b3e8ecdfffe72",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/Dd2B9_UspO0/",
+          "publishedAt": "2026-09-28T20:25:11.000Z",
+          "capturedAt": 1791860787891
+        },
+        {
+          "id": "07dcb4f3f4893213e4753953",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/Dd1KuZDjGpb/",
+          "publishedAt": "2026-09-28T12:18:35.000Z",
+          "capturedAt": 1791860787891
+        },
+        {
+          "id": "d2ab278c595ee03d806f6a50",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/Ddxy28ZDNE7/",
+          "publishedAt": "2026-09-27T04:52:19.000Z",
+          "capturedAt": 1791860787891
+        },
+        {
+          "id": "6ec5075f02c6215712dbc062",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/Ddtm_ZnjNw_/",
+          "publishedAt": "2026-09-25T13:51:39.000Z",
+          "capturedAt": 1791860787891
+        },
+        {
+          "id": "e4b53081cc8b20d4dca92405",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/Ddtil9xjfdj/",
+          "publishedAt": "2026-09-25T13:13:14.000Z",
+          "capturedAt": 1791860787891
+        },
+        {
+          "id": "b3a40241cea6bb0f3c5ebe14",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DdtBMl2iO-Q/",
+          "publishedAt": "2026-09-25T08:21:24.000Z",
+          "capturedAt": 1791860787891
+        },
+        {
+          "id": "af497cc3d3d6266130ddd395",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DdpJ7TbjGjR/",
+          "publishedAt": "2026-09-23T20:20:44.000Z",
+          "capturedAt": 1791860787891
+        },
+        {
+          "id": "48eeb2b49c6ec302e65f2bea",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/Ddl2TYIjJjx/",
+          "publishedAt": "2026-09-22T13:31:32.000Z",
+          "capturedAt": 1791860787891
+        },
+        {
+          "id": "47cfc0bd2dc5d1f7b4406899",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DdkGqXGDMGu/",
+          "publishedAt": "2026-09-21T21:16:00.000Z",
+          "capturedAt": 1791860787891
+        },
+        {
+          "id": "1e18a438be16fe56f5a5d788",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/Ddi-_AnMZGp/",
+          "publishedAt": "2026-09-21T10:52:38.000Z",
+          "capturedAt": 1791860787891
+        },
+        {
+          "id": "9e629900450aa67bacb3d17a",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/Ddb-Ll3DNqt/",
+          "publishedAt": "2026-09-18T17:27:58.000Z",
+          "capturedAt": 1791860787891
+        },
+        {
+          "id": "65b9a8fa06bda9615c94779a",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DdUGNVMDPji/",
+          "publishedAt": "2026-09-15T16:04:11.000Z",
+          "capturedAt": 1791860787891
+        },
+        {
+          "id": "db7b72b05e43adbf78d4eb04",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DcnZrO1giJf/",
+          "publishedAt": "2026-08-29T07:28:28.000Z",
+          "capturedAt": 1791860787891
+        }
+      ]
+    },
+    {
+      "id": "research-4ef77bf1a7e34d5930e92a20|instagram:runners_highest",
+      "handle": "runners_highest",
+      "followers": 86866,
+      "profileUrl": "https://www.instagram.com/runners_highest/",
+      "verdict": "match",
+      "selected": true,
+      "judgments": [
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：instagram",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "WaveSurge 粉丝数 86866，要求 10000–100000",
+          "evidenceIds": [
+            "2402ce6f2f864a1f361f7f4d"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "personal_runner",
+          "verdict": "match",
+          "reason": "复用 WaveSurge 已采集的主页及帖子文字，未重新访问页面。简介标明“by @chrisflanell”，本人帖文以第一人称说自己首次半马戴骑行帽，支持个人跑者分享身份，而非纯搬运或品牌官方；newsletter/blog 与商业合作不否定个人身份。",
+          "evidenceIds": [
+            "2402ce6f2f864a1f361f7f4d",
+            "0278b21cb579f42cb198b59c"
+          ],
+          "label": "个人跑者；依据本人简介与公开文字核验个人分享身份，排除运动品牌、店铺、赛事或机构官方、明星和纯搬运账号。"
+        },
+        {
+          "criterionId": "running_experience",
+          "verdict": "match",
+          "reason": "WaveSurge 帖文（publishedAt：2026-10-08）明确写“actually did my first half marathon wearing one”，是本人第一人称半程马拉松参赛经历，满足任一类实际跑步体验要求；不以其他转述他人或品牌宣传帖代替本人体验。",
+          "evidenceIds": [
+            "0278b21cb579f42cb198b59c"
+          ],
+          "label": "公开文字有本人第一人称的跑步训练、马拉松或越野跑参赛实际体验，满足任一类即可；主题相关性、通用建议、宣传或转述他人不能代替本人体验。"
+        },
+        {
+          "criterionId": "ethnicity",
+          "verdict": "unknown",
+          "reason": "尚无明确记载族裔的可靠文字资料，待人工确认；不从外貌、姓名或所在地推断，不影响其他条件筛选。",
+          "evidenceIds": [],
+          "reviewOnly": true,
+          "label": "白人"
+        }
+      ],
+      "tags": [
+        "跑步装备与品牌合作",
+        "跑步文化及赛事资讯",
+        "户外徒步与露营",
+        "个人半马经历",
+        "第一人称经历与主观评价",
+        "品牌合作宣传",
+        "资讯介绍"
+      ],
+      "sources": [
+        {
+          "id": "2402ce6f2f864a1f361f7f4d",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "profile",
+          "url": "https://www.instagram.com/runners_highest/",
+          "publishedAt": null,
+          "capturedAt": 1791860875233
+        },
+        {
+          "id": "faa0bff9f937d863d3870312",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DeZ0Vo-i9wD/",
+          "publishedAt": "2026-10-12T17:57:16.000Z",
+          "capturedAt": 1791860875233
+        },
+        {
+          "id": "456612990328e1d88d7a2744",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DeXQI49DcWH/",
+          "publishedAt": "2026-10-11T18:00:04.000Z",
+          "capturedAt": 1791860875233
+        },
+        {
+          "id": "ecb2f7bf33e778b6d527cef2",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DeXNVsMArfg/",
+          "publishedAt": "2026-10-11T17:35:37.000Z",
+          "capturedAt": 1791860875233
+        },
+        {
+          "id": "ae7ab5c063f21a335d084ff0",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DeUfVQaAlM2/",
+          "publishedAt": "2026-10-10T16:15:03.000Z",
+          "capturedAt": 1791860875233
+        },
+        {
+          "id": "64ed1c82c96d8e90ad49b39f",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DeRpWHWAhVb/",
+          "publishedAt": "2026-10-09T13:44:54.000Z",
+          "capturedAt": 1791860875233
+        },
+        {
+          "id": "0278b21cb579f42cb198b59c",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DePfTNfAleR/",
+          "publishedAt": "2026-10-08T17:38:03.000Z",
+          "capturedAt": 1791860875233
+        },
+        {
+          "id": "c93cea31c97837e666cf6a46",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DeO6kPZgigO/",
+          "publishedAt": "2026-10-08T12:17:39.000Z",
+          "capturedAt": 1791860875233
+        },
+        {
+          "id": "024275f97138337cd4549201",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DeJcBa9AubO/",
+          "publishedAt": "2026-10-06T09:14:33.000Z",
+          "capturedAt": 1791860875233
+        },
+        {
+          "id": "30fbe5e76fc7d79ae1861bf3",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DeH8qynxsUZ/",
+          "publishedAt": "2026-10-05T19:22:20.000Z",
+          "capturedAt": 1791860875233
+        },
+        {
+          "id": "decbc808f947c0b51e75d040",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DeCB8kyAviC/",
+          "publishedAt": "2026-10-03T12:12:01.000Z",
+          "capturedAt": 1791860875233
+        },
+        {
+          "id": "5961b4d9367ac8a3b86a7a65",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/Dd_10QzgpYE/",
+          "publishedAt": "2026-10-02T15:47:02.000Z",
+          "capturedAt": 1791860875233
+        },
+        {
+          "id": "b57b32132c4923b5469d19a0",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/Dd_ZWpRAlmO/",
+          "publishedAt": "2026-10-02T11:38:49.000Z",
+          "capturedAt": 1791860875233
+        },
+        {
+          "id": "52bd80a205aab47fbf40091b",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/Dd6562qRway/",
+          "publishedAt": "2026-09-30T17:48:46.000Z",
+          "capturedAt": 1791860875233
+        },
+        {
+          "id": "278c229bb58b8802bd9406af",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/Dd6gAuOAnWc/",
+          "publishedAt": "2026-09-30T14:00:09.000Z",
+          "capturedAt": 1791860875233
+        },
+        {
+          "id": "f0a4d49a0256aa0d60315425",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/Dd4WmQLjRRU/",
+          "publishedAt": "2026-09-29T18:00:03.000Z",
+          "capturedAt": 1791860875233
+        },
+        {
+          "id": "a78ba83ab4b3ef7634ca18c8",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/Dd3tRYzgpCI/",
+          "publishedAt": "2026-09-29T11:58:57.000Z",
+          "capturedAt": 1791860875233
+        },
+        {
+          "id": "ef7cbc4c26cbf8f0eb09d3b2",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/Dd1rnAmCRmT/",
+          "publishedAt": "2026-09-28T17:08:50.000Z",
+          "capturedAt": 1791860875233
+        },
+        {
+          "id": "fca8a0a5ebfb5d590febe417",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/Dd1MIQdgjaX/",
+          "publishedAt": "2026-09-28T12:30:51.000Z",
+          "capturedAt": 1791860875233
+        },
+        {
+          "id": "6e245f660a581501f2661f59",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DdzDa0Xgp8A/",
+          "publishedAt": "2026-09-27T16:36:16.000Z",
+          "capturedAt": 1791860875233
+        },
+        {
+          "id": "0d79cd352083686d2816a1d5",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DdyT3-pAkOL/",
+          "publishedAt": "2026-09-27T09:40:49.000Z",
+          "capturedAt": 1791860875233
+        },
+        {
+          "id": "6470212e019f5b82f59f042d",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DdwbnQ8AjWD/",
+          "publishedAt": "2026-09-26T16:09:58.000Z",
+          "capturedAt": 1791860875233
+        },
+        {
+          "id": "2148dd5213273ed1ef1a5409",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DdwDOMSgtex/",
+          "publishedAt": "2026-09-26T12:36:49.000Z",
+          "capturedAt": 1791860875233
+        },
+        {
+          "id": "50761de8e0a85064c51b6151",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DdvecXSkW4v/",
+          "publishedAt": "2026-09-26T07:15:02.000Z",
+          "capturedAt": 1791860875233
+        },
+        {
+          "id": "20c8862abcb1d5979e9b9945",
+          "provider": "wavesurge-instagram-raw",
+          "kind": "post",
+          "url": "https://www.instagram.com/p/DduPg05kQtK/",
+          "publishedAt": "2026-09-25T19:45:45.000Z",
+          "capturedAt": 1791860875233
+        }
+      ]
+    }
+  ],
+  "csvBytes": 424885,
+  "offlineBytes": 325862,
+  "delivery": {
+    "id": "report-request-93700b7ff7ac1068542a56ca1ae64e50-fb506035495d2235",
+    "role": "assistant",
+    "text": "本次请求的 1 项工作已全部结束。\n\n- 族裔资料核对：个人跑步体验：已完成；已入选 2/2 人，已查看 6 人。族裔资料不足者待人工确认，明确不符者排除；名单已核验其他必选条件。 [查看报告](/api/reports/research-4ef77bf1a7e34d5930e92a20)\n\n[查看本次综合报告](/api/work-batches/93700b7ff7ac1068542a56ca1ae64e50/report) · [下载综合 CSV](/api/work-batches/93700b7ff7ac1068542a56ca1ae64e50/report?format=csv)",
+    "createdAt": 1791860928110,
+    "epoch": 6,
+    "state": "delivered",
+    "attachments": []
+  },
+  "passed": true,
+  "finishedAt": "2026-10-13T03:09:54.293Z"
+}
