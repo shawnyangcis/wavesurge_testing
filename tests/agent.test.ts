@@ -165,8 +165,25 @@ describe('Agent 消息安全边界', () => {
   it('状态变化导致重新读取，提示词在下一次调用生效', async () => {
     const { agent, user, complete, settings, store } = fixture(); const pending = deferred<ChatMessage>(); user(); complete.mockReturnValueOnce(pending.promise); const running = agent.wake(); await vi.waitFor(() => expect(complete).toHaveBeenCalledTimes(1));
     settings.save({ ...settings.public(), systemPrompt: 'new-system', workflowPrompt: 'new-workflow' }); store.set('task', 't', { id: 't', status: 'running' }); pending.resolve(answer('stale progress')); await running;
-    expect(complete.mock.calls[0][0][0].content).not.toBe('new-system'); expect(complete.mock.calls[1][0][0].content).toBe('new-system'); expect(complete.mock.calls[1][0][2].content).toContain('running');
+    expect(complete.mock.calls[0][0][0].content).not.toBe('new-system'); expect(complete.mock.calls[1][0][0].content).toBe('new-system'); expect(complete.mock.calls[1][0].at(-1)?.content).toContain('running');
     expect(store.list<Message>('message').some(m => m.text === 'stale progress')).toBe(false);
+  });
+  it('状态工具之后后台完成时，最新事实位于旧回执之后，丢弃过期答复且不重放查询或任务动作', async () => {
+    const f = fixture(); const task = { id: 't', title: '实际主页核验', status: 'running', requested: 1, evaluated: 0, matched: 0, updatedAt: 1 };
+    f.store.set('task', task.id, task); f.user('查询这项任务进度，不重启');
+    const pending = deferred<ChatMessage>();
+    f.complete.mockResolvedValueOnce({ role: 'assistant', content: null, tool_calls: [call('get_tasks', '{}', 'read-progress')] }).mockReturnValueOnce(pending.promise).mockResolvedValueOnce(answer('已完成，已核验1位，入选1位'));
+    const execute = vi.spyOn(f.agent.tools, 'execute'); const running = f.agent.wake();
+    await vi.waitFor(() => expect(f.complete).toHaveBeenCalledTimes(2));
+    f.store.set('task', task.id, { ...task, status: 'completed', evaluated: 1, matched: 1, updatedAt: 2 });
+    pending.resolve(answer('当前仍在运行，尚未核验')); await running;
+    const messages = f.complete.mock.calls[2][0]; const receipt = messages.find(message => message.tool_call_id === 'read-progress')!;
+    expect(JSON.parse(receipt.content as string)[0].status).toBe('running');
+    expect(messages.at(-1)).toMatchObject({ role: 'system', content: expect.stringContaining('"status":"completed"') });
+    expect(messages.at(-1)?.content).toContain('以这里为准'); expect(execute).toHaveBeenCalledOnce();
+    expect(f.store.list<Message>('message').some(message => message.text.includes('当前仍在运行'))).toBe(false);
+    expect(f.store.list<Message>('message').at(-1)?.text).toBe('已完成，已核验1位，入选1位');
+    validatePairs(f.context.active().flatMap(batch => batch.messages));
   });
   it('reset 后旧调用不能写到新 epoch，处理新消息', async () => {
     const { agent, user, complete, context, store } = fixture(); const pending = deferred<ChatMessage>(); user('old'); complete.mockReturnValueOnce(pending.promise); const running = agent.wake(); await vi.waitFor(() => expect(complete).toHaveBeenCalledOnce()); context.reset(); user('new'); pending.resolve(answer('old response')); await running;
@@ -212,7 +229,7 @@ describe('Agent 消息安全边界', () => {
 describe('摘要安全', () => {
   function history() { const f = fixture(); f.context.append([{ role: 'user', content: 'old request' }]); f.context.append([answer('old answer')]); f.context.append([{ role: 'user', content: 'latest correction' }]); return f; }
   it('阈值、摘要边界、最新纠正保留与旧摘要延续', async () => {
-    const f = history(); expect(await f.agent.compact(false)).toBe(false); expect(await f.agent.compact(true)).toBe(true); expect(f.context.active()).toHaveLength(1); expect(f.agent.messages()[3].content).toContain('历史摘要'); expect(f.agent.messages().at(-1)?.content).toBe('latest correction');
+    const f = history(); expect(await f.agent.compact(false)).toBe(false); expect(await f.agent.compact(true)).toBe(true); expect(f.context.active()).toHaveLength(1); expect(f.agent.messages().find(message => typeof message.content === 'string' && message.content.startsWith('历史摘要'))?.content).toContain('历史摘要'); expect(f.agent.messages().findLast(message => message.role === 'user')?.content).toBe('latest correction');
     f.context.append([answer('answer latest')]); f.context.append([{ role: 'user', content: 'x'.repeat(8000) }]); f.settings.save({ ...f.settings.public(), compressionThreshold: 2000 }); expect(await f.agent.compact(false)).toBe(true); expect(f.complete.mock.calls[1][0][1].content).toContain('previous');
     const none = fixture(); expect(await none.agent.compact(true)).toBe(false); none.context.append([{ role: 'user', content: 'only user' }]); expect(await none.agent.compact(true)).toBe(false);
   });

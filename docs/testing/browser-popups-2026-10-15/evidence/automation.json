@@ -2,8 +2,8 @@
   "date": "2026-10-15",
   "timezone": "Asia/Shanghai",
   "unitAndIntegration": {
-    "passed": 312,
-    "total": 312,
+    "passed": 313,
+    "total": 313,
     "files": 37
   },
   "typecheck": "passed",
@@ -31,5 +31,22 @@
     "elapsedMs": 69358,
     "pageErrors": [],
     "newTaskCount": 0
+  },
+  "publicTask": {
+    "passed": true,
+    "url": "http://101.201.237.219:33332",
+    "taskId": "research-f43a778f97034963308dc62d",
+    "realWaveCalls": 5,
+    "realWaveAll200": true,
+    "evaluated": 1,
+    "qualified": 1,
+    "selected": 1,
+    "inFlightStatusReply": "completed, evaluated 1/1, selected 1/1",
+    "duplicateTasks": 0,
+    "html": true,
+    "csv": true,
+    "vnc": true,
+    "taskCompletionMs": 62462,
+    "messageToChatDeliveryMs": 76212
   }
 }

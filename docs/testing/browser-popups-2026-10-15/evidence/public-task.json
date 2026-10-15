@@ -1,0 +1,183 @@
+{
+  "base": "http://101.201.237.219:33332",
+  "source": "Public HTTP UI -> actual configured chat model -> real WaveSurge -> deployed headed browser -> persisted results -> public HTML/CSV",
+  "startedAt": "2026-10-15T08:29:51.401Z",
+  "finishedAt": "2026-10-15T08:31:15.950Z",
+  "browser": {
+    "url": "http://101.201.237.219:33332/",
+    "isSecureContext": false,
+    "randomUUID": "undefined"
+  },
+  "input": {
+    "id": "254657cb91d71d9687d7745cd30283b7",
+    "createdAt": 1792052993347,
+    "status": 201,
+    "text": "请新建并立即执行一个独立研究，标题“公网验收 Adafruit 082953”。只核验 Instagram 账号 @adafruit（https://www.instagram.com/adafruit/），目标1个，候选上限1个，不限粉丝和地区，不要求个人KOC或其他身份、外观条件。通过WaveSurge读取这个精确账号，并在本轮实际打开本人主页，唯一附加必选条件是：实际看到 @adafruit 的账号名以及公开简介或帖子内容，不能把登录页面当作通过。可关闭登录弹窗先自行关闭并重新观察，确实无法继续才请求我通过同一VNC协助。完成后在对话中交付结果、HTML报告和CSV。保留所有其他任务，不取消或修改它们。"
+  },
+  "followup": {
+    "id": "f4e7167e2924f485c2903488abbf0f6e",
+    "createdAt": 1792053003483,
+    "status": 201,
+    "text": "只查询“公网验收 Adafruit 082953”的当前进展。请保留原任务继续运行，不创建新任务、不重新搜索，也不修改任何条件。"
+  },
+  "workflowSpec": {
+    "title": "公网验收 Adafruit 082953",
+    "personaText": "Adafruit Instagram账号",
+    "count": 1,
+    "platforms": [
+      "instagram"
+    ],
+    "regions": [],
+    "minFollowers": 0,
+    "maxFollowers": 9007199254740991,
+    "candidateBudget": 1,
+    "verificationMode": "browser",
+    "allowHumanAssistance": true,
+    "instagram": {
+      "handles": [
+        "adafruit"
+      ],
+      "version": "v3"
+    },
+    "criteria": [
+      {
+        "id": "observed_profile_content",
+        "label": "本轮实际打开 https://www.instagram.com/adafruit/ 本人主页，实际看到 @adafruit 的账号名以及公开简介或帖子内容；登录页面不能判为通过。可关闭的登录弹窗先自行关闭并重新观察，确实无法继续时才请求用户通过同一VNC协助。",
+        "required": true,
+        "basis": "visual"
+      }
+    ]
+  },
+  "task": {
+    "id": "research-f43a778f97034963308dc62d",
+    "title": "公网验收 Adafruit 082953",
+    "status": "completed",
+    "requested": 1,
+    "evaluated": 1,
+    "matched": 1,
+    "qualifying": 1,
+    "allowHumanAssistance": true,
+    "matchedMeaning": "研究组入选的合格账号数；合格候选总数见qualifying",
+    "updatedAt": 1792053055809,
+    "detail": "已选合格 1/1，已核验 1；证据不足者保持待核实。Instagram：读取 1 个本人基础账号，基础条件排除 0 个；基础读取上限 1，逐人分析上限 1（本次有界来源，不代表全站穷尽）。",
+    "remoteStatus": "done",
+    "nextPollAt": 1792053044722
+  },
+  "timing": {
+    "taskCompletionMs": 62462,
+    "messageToChatDeliveryMs": 76212
+  },
+  "createdTasks": [
+    "research-f43a778f97034963308dc62d"
+  ],
+  "previousTaskCount": 57,
+  "previousTasksPreserved": true,
+  "waveCalls": [
+    {
+      "id": "7124a332-3f77-4969-8e7e-445183e721fd",
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=adafruit",
+      "method": "GET",
+      "createdAt": 1792053001361,
+      "finishedAt": 1792053013664,
+      "status": 200
+    },
+    {
+      "id": "d592fca2-ede9-44c9-86a6-1f1f6c1510ac",
+      "path": "/instagram/v1/fetch_user_posts?user_id=425670509&count=12",
+      "method": "GET",
+      "createdAt": 1792053013667,
+      "finishedAt": 1792053026887,
+      "status": 200
+    },
+    {
+      "id": "20f7ab35-6bb5-439d-b7f9-730cb856725d",
+      "path": "/instagram/v1/fetch_user_posts?user_id=425670509&count=12&max_id=4004350282942914236_425670509",
+      "method": "GET",
+      "createdAt": 1792053026905,
+      "finishedAt": 1792053041338,
+      "status": 200
+    },
+    {
+      "id": "f83aedec-021d-409a-8d8a-827fa1ea666f",
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DefFjRRAOH7",
+      "method": "GET",
+      "createdAt": 1792053041377,
+      "finishedAt": 1792053043717,
+      "status": 200
+    },
+    {
+      "id": "b5b8fdc5-a052-4e1f-94cc-4c6927f9737c",
+      "path": "/instagram/v2/fetch_post_info?code_or_url=DeeS-pNATL8",
+      "method": "GET",
+      "createdAt": 1792053041381,
+      "finishedAt": 1792053043696,
+      "status": 200
+    }
+  ],
+  "browserObservation": {
+    "url": "https://www.instagram.com/adafruit/",
+    "title": "adafruit • Instagram photos and videos",
+    "dialogCount": 0,
+    "observedAt": 1792053045824,
+    "assetId": "abd541bb12ef7f46977402600647e5224c91fd64387233ea82104c467737088b"
+  },
+  "assistanceCount": 0,
+  "statusReplyCheck": {
+    "inputId": "f4e7167e2924f485c2903488abbf0f6e",
+    "replyId": "38db2a03-00a0-45dc-9217-b356f8e0b825",
+    "afterCompletion": true,
+    "status": "completed",
+    "evaluated": 1,
+    "selected": 1,
+    "text": "「公网验收 Adafruit 082953」最新状态：**已完成**。\n\n- 已读取账号：1 个（@adafruit）\n- 已完成核验：1/1\n- 合格并入选：1/1\n\n[查看 HTML 报告](/api/reports/research-f43a778f97034963308dc62d) · [下载 CSV](/api/reports/research-f43a778f97034963308dc62d?format=csv)\n\n本次仅查询原任务状态，未创建新任务、未重新搜索，也未修改条件或取消任何任务。"
+  },
+  "modelStatusChecks": [
+    {
+      "id": "b42f7b0b-c80c-4db5-ae22-7bf8c9fdac63",
+      "createdAt": 1792053061861,
+      "finishedAt": 1792053067380,
+      "freshFactsAfterHistory": true,
+      "currentTask": {
+        "status": "completed",
+        "evaluated": 1,
+        "selected": 1
+      },
+      "historicalReceipts": [
+        {
+          "status": "running",
+          "evaluated": 0,
+          "selected": 0
+        }
+      ],
+      "response": "「公网验收 Adafruit 082953」最新状态：**已完成**。\n\n- 已读取账号：1 个（@adafruit）\n- 已完成核验：1/1\n- 合格并入选：1/1\n\n[查看 HTML 报告](/api/reports/research-f43a778f97034963308dc62d) · [下载 CSV](/api/reports/research-f43a778f97034963308dc62d?format=csv)\n\n本次仅查询原任务状态，未创建新任务、未重新搜索，也未修改条件或取消任何任务。"
+    }
+  ],
+  "delivery": {
+    "id": "38db2a03-00a0-45dc-9217-b356f8e0b825",
+    "text": "「公网验收 Adafruit 082953」最新状态：**已完成**。\n\n- 已读取账号：1 个（@adafruit）\n- 已完成核验：1/1\n- 合格并入选：1/1\n\n[查看 HTML 报告](/api/reports/research-f43a778f97034963308dc62d) · [下载 CSV](/api/reports/research-f43a778f97034963308dc62d?format=csv)\n\n本次仅查询原任务状态，未创建新任务、未重新搜索，也未修改条件或取消任何任务。"
+  },
+  "exports": {
+    "html": "http://101.201.237.219:33332/api/reports/research-f43a778f97034963308dc62d",
+    "csv": {
+      "url": "http://101.201.237.219:33332/api/reports/research-f43a778f97034963308dc62d?format=csv",
+      "filename": "creators.csv",
+      "bytes": 42957,
+      "parsedRows": 1,
+      "verdict": "match",
+      "selected": true
+    }
+  },
+  "vnc": {
+    "iframe": "/api/desktop/view/vnc.html?autoconnect=true&resize=scale&path=api/desktop/view/websockify",
+    "connected": true,
+    "canvas": {
+      "width": 1440,
+      "height": 900
+    },
+    "whitePixels": 958704,
+    "displayCheckedAt": "2026-10-15T08:35:57.098Z"
+  },
+  "messageTime": "2026-10-15 16:29:53",
+  "pageErrors": [],
+  "passed": true
+}

@@ -1,0 +1,67 @@
+{
+  "base": "http://101.201.237.219:33332",
+  "task": {
+    "id": "research-b16f7ba4c4a472529d4826db",
+    "title": "公网验收 Adafruit 082409",
+    "status": "completed",
+    "requested": 1,
+    "evaluated": 1,
+    "matched": 1,
+    "qualifying": 1,
+    "allowHumanAssistance": true,
+    "matchedMeaning": "研究组入选的合格账号数；合格候选总数见qualifying",
+    "updatedAt": 1792052673362,
+    "detail": "已选合格 1/1，已核验 1；证据不足者保持待核实。Instagram：读取 1 个本人基础账号，基础条件排除 0 个；基础读取上限 1，逐人分析上限 1（本次有界来源，不代表全站穷尽）。",
+    "remoteStatus": "done",
+    "nextPollAt": 1792052663770
+  },
+  "sourceErrors": [
+    {
+      "id": "5d1b1866-4048-4b6d-a138-9fd60b2d9d54",
+      "path": "/instagram/v1/fetch_user_info_by_username_v2?username=adafruit",
+      "method": "GET",
+      "createdAt": 1792052657465,
+      "finishedAt": 1792052662765,
+      "error": "fetch failed"
+    }
+  ],
+  "fallbackSource": {
+    "url": "https://www.instagram.com/adafruit/",
+    "title": "adafruit • Instagram photos and videos",
+    "dialogCount": 0,
+    "observedAt": 1792052664375,
+    "assetId": "d0244b5060453e038565876002d175a0eabfb767328f95158cf229fc9dbd30ff"
+  },
+  "assistanceCount": 0,
+  "statusReplyCheck": {
+    "inputId": "d634f159c9adcce8f99b6fc934eaa575",
+    "replyId": "dc0ef64c-e82f-4cd5-a7c5-1c2222d4ff47",
+    "afterCompletion": true,
+    "status": "completed",
+    "evaluated": 1,
+    "selected": 1,
+    "text": "「公网验收 Adafruit 082409」最新状态：**已完成**，不再运行。\n\n- 已读取账号：1 个\n- 已完成核验：1/1\n- 合格并入选：1/1\n\n[查看 HTML 报告](/api/reports/research-b16f7ba4c4a472529d4826db) · [下载 CSV](/api/reports/research-b16f7ba4c4a472529d4826db?format=csv)\n\n本次仅查询状态，未创建新任务、未重新搜索，也未修改或取消任何任务。"
+  },
+  "modelStatusChecks": [
+    {
+      "id": "fcdb94ea-dd66-4ab1-bb8a-4ef57f4d38c8",
+      "createdAt": 1792052731787,
+      "finishedAt": 1792052750580,
+      "freshFactsAfterHistory": true,
+      "currentTask": {
+        "status": "completed",
+        "evaluated": 1,
+        "selected": 1
+      },
+      "historicalReceipts": [
+        {
+          "status": "running",
+          "evaluated": 0,
+          "selected": 0
+        }
+      ],
+      "response": "「公网验收 Adafruit 082409」最新状态：**已完成**，不再运行。\n\n- 已读取账号：1 个\n- 已完成核验：1/1\n- 合格并入选：1/1\n\n[查看 HTML 报告](/api/reports/research-b16f7ba4c4a472529d4826db) · [下载 CSV](/api/reports/research-b16f7ba4c4a472529d4826db?format=csv)\n\n本次仅查询状态，未创建新任务、未重新搜索，也未修改或取消任何任务。"
+    }
+  ],
+  "passed": true
+}

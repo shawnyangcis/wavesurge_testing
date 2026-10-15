@@ -27,7 +27,9 @@ export class Agent {
   }
   messages(): ChatMessage[] {
     const config = this.settings.current(); const checkpoint = this.context.checkpoint();
-    return [{ role: 'system', content: config.systemPrompt }, { role: 'system', content: config.workflowPrompt }, { role: 'system', content: `当前事实，观察时间 ${this.now()}：${JSON.stringify(this.facts())}` }, ...(checkpoint ? [{ role: 'system' as const, content: `历史摘要，不能替代当前事实：${checkpoint.text}` }] : []), ...conversationProjection(this.context.active().flatMap(batch => batch.messages))];
+    // Background work can finish after a status tool returned. Put the fresh
+    // snapshot after historical receipts so they cannot masquerade as current.
+    return [{ role: 'system', content: config.systemPrompt }, { role: 'system', content: config.workflowPrompt }, ...(checkpoint ? [{ role: 'system' as const, content: `历史摘要，不能替代当前事实：${checkpoint.text}` }] : []), ...conversationProjection(this.context.active().flatMap(batch => batch.messages)), { role: 'system', content: `当前事实，观察时间 ${this.now()}：${JSON.stringify(this.facts())}\n以上为本次调用前重新读取的数据库事实。前面的工具回执、历史对话和摘要只表示当时状态；与这里不一致时，以这里为准。已结束的任务不能再描述为仍在运行，最新数量和人工协助状态也不能沿用旧回执。不为状态查询重启或重复创建任务。` }];
   }
   facts() { return { tasks: taskFacts(this.store), campaigns: campaignFacts(this.store), execution: executionFacts(this.store) }; }
   stableFacts() { const facts = this.facts(); return JSON.stringify({ ...facts, revision: this.settings.current().revision, tasks: facts.tasks.map(({ updatedAt: _time, nextPollAt: _poll, detail: phase, ...task }) => ({ ...task, ...( /错误|失败|不可用|重试|协助|取消/.test(phase ?? '') ? { attention: phase } : {}) })) }); }
