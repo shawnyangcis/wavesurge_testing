@@ -1,0 +1,613 @@
+{
+  "date": "2026-10-15–16",
+  "scope": "Fresh full end-to-end acceptance; outcomes recorded after actual execution.",
+  "cases": [
+    {
+      "id": "A01",
+      "title": "公网HTTP登录、消息发送与时间",
+      "expected": "真实公网新任务返回201，非安全上下文可用，时间刷新保持",
+      "status": "passed",
+      "actual": "公网HTTP登录并通过实际UI新建13项任务；消息201，非安全上下文发送可用；刷新后消息/时间保留。",
+      "evidence": [
+        "evidence/business-workflows.json",
+        "evidence/modal-evidence.json"
+      ]
+    },
+    {
+      "id": "A02",
+      "title": "错误/空密码与退出",
+      "expected": "无认证拒绝访问，错误可见，退出失效",
+      "status": "passed",
+      "actual": "空密码禁用、错误密码401、退出后原会话401。",
+      "evidence": [
+        "evidence/supplemental-ui.json"
+      ]
+    },
+    {
+      "id": "A03",
+      "title": "认证与输入边界",
+      "expected": "保护接口401、跨Origin403、非法输入400、缺对象404",
+      "status": "passed",
+      "actual": "11个未认证路由401、跨Origin403、4种非法消息400、缺失对象404。",
+      "evidence": [
+        "evidence/supplemental-ui.json"
+      ]
+    },
+    {
+      "id": "A04",
+      "title": "参考图片对话",
+      "expected": "实际识别参考图，附件可移除，不创建研究",
+      "status": "passed",
+      "actual": "真实图像回复左绿右蓝，附件删除有效，无额外研究。",
+      "evidence": [
+        "evidence/supplemental-ui.json"
+      ]
+    },
+    {
+      "id": "B01",
+      "title": "开放真实搜索",
+      "expected": "无指定账号找到2位本人跑步体验创作者，1–10万粉丝，实际逐人画像",
+      "status": "passed",
+      "actual": "首次因来源/模型失败0/2，保留原记录；相同条件独立重试，读取40个基础账号、核验6位、入选2位，逐人画像完成。",
+      "evidence": [
+        "evidence/business-workflows.json",
+        "evidence/open-running-retry-45f6f2ff.json"
+      ]
+    },
+    {
+      "id": "B02",
+      "title": "多组全员分析",
+      "expected": "两组各分析2选1，4条记录/2账号，备选保留",
+      "status": "passed",
+      "actual": "真实两组各核验2位，各2合格/1入选，4条记录/2账号；未提前终止。",
+      "evidence": [
+        "evidence/two-groups-combined.json"
+      ]
+    },
+    {
+      "id": "B03",
+      "title": "全部记录补标",
+      "expected": "4条含备选新增画像/版本，原事实判断入选保留，0新Wave",
+      "status": "passed",
+      "actual": "4条含备选均新增生活场景画像，revision各+1；原资料/判断/选择/标签保留；0新Wave调用。",
+      "evidence": [
+        "evidence/business-workflows.json",
+        "evidence/all-annotation-combined.json"
+      ]
+    },
+    {
+      "id": "B04",
+      "title": "逐人实际画像",
+      "expected": "每人标签来自实际内容且有理由引用，不照抄用户条件",
+      "status": "passed",
+      "actual": "开放搜索6位及两组4条均有内容方向和表达风格画像，理由和证据引用可追溯；存在不符/未知者仍按资料画像。",
+      "evidence": [
+        "evidence/business-workflows.json",
+        "evidence/individual-model-audit.json"
+      ]
+    },
+    {
+      "id": "B05",
+      "title": "原题20人流程",
+      "expected": "目标20/分析20/基础60，混合条件、图像、族裔文字核对、真实缺额",
+      "status": "partial",
+      "actual": "已登记目标20/分析20/基础60，实际读取60、基础排除51、核验9、入选0，缺额20；视觉与族裔文字约束保留。未达到20人正向交付。",
+      "evidence": [
+        "evidence/original-20-final.json",
+        "evidence/business-workflows.json"
+      ]
+    },
+    {
+      "id": "B06",
+      "title": "YouTube/TikTok/X",
+      "expected": "三平台各分析1人，标注并整批交付",
+      "status": "passed",
+      "actual": "真实三平台各分析1条并画像，全部结束后1次交付；YT/TikTok各入选1，X证据不足unknown/0入选。",
+      "evidence": [
+        "evidence/business-workflows.json",
+        "evidence/other-platforms-49961457.json"
+      ]
+    },
+    {
+      "id": "B07",
+      "title": "真实无候选",
+      "expected": "基础条件排除后0核验，文档空集/缺额真实",
+      "status": "passed",
+      "actual": "TikTok 1亿–2亿粉丝范围内0候选/0核验/0入选，输出缺额1及空文档，不放宽条件。",
+      "evidence": [
+        "evidence/empty-source-f99b4fd8.json"
+      ]
+    },
+    {
+      "id": "C01",
+      "title": "Campaign目标交互",
+      "expected": "从目标形成两类理由、范围、配额草案，确认前不搜索",
+      "status": "passed",
+      "actual": "实际目标对话→澄清→两类选择理由/条件/各1配额草案；确认前无子任务/无新Wave。",
+      "evidence": [
+        "evidence/business-workflows.json"
+      ]
+    },
+    {
+      "id": "C02",
+      "title": "方案修订与旧版拒绝",
+      "expected": "修订v2，旧版启动409",
+      "status": "passed",
+      "actual": "自然语言修订v2；旧revision启动返回409，草案条件保留。",
+      "evidence": [
+        "evidence/business-workflows.json"
+      ]
+    },
+    {
+      "id": "C03",
+      "title": "确认与启动幂等",
+      "expected": "UI确认后启动，重复请求复用原任务",
+      "status": "passed",
+      "actual": "受控流程实际点击方案确认；公网通过对话确认同一v2启动两子任务，重复start返回200和同一任务ID。公网列表慢问题另列C05。",
+      "evidence": [
+        "evidence/controlled-acceptance.json",
+        "evidence/business-workflows.json"
+      ]
+    },
+    {
+      "id": "C04",
+      "title": "跨组去重与分配",
+      "expected": "两个不同账号，API/总子报告/弹窗/CSV/JSON同一分配",
+      "status": "passed",
+      "actual": "最终两个不同Instagram账号，各只占1个组；总/子报告、结果弹窗、CSV/JSON一致。",
+      "evidence": [
+        "evidence/campaign-final.json",
+        "evidence/structured-validation.json",
+        "evidence/modal-evidence.json"
+      ]
+    },
+    {
+      "id": "D01",
+      "title": "整批一次交付",
+      "expected": "全部登记工作终态后1次报告，刷新重启不重复",
+      "status": "failed",
+      "actual": "8批自动最终报告各1条且在全部工作终态后发出；但真实空名单场景模型结果答复与自动综合摘要相隔10ms重复出现，用户看到2次结果汇报。",
+      "evidence": [
+        "evidence/business-workflows.json",
+        "evidence/delivery-message-audit.json",
+        "screenshots/public-empty-source-chat.png"
+      ]
+    },
+    {
+      "id": "D02",
+      "title": "研究结构化文档",
+      "expected": "HTML逐人判断理由标签证据完整，CSV27列，JSON原生字段",
+      "status": "passed",
+      "actual": "实际下载研究HTML/CSV/JSON，包含账号/基础数值/逐条件理由/画像/引用/入选标记；当前CSV27列。",
+      "evidence": [
+        "evidence/structured-validation.json"
+      ],
+      "initialPlanExpected": "HTML逐人判断理由标签证据完整，CSV25列，JSON原生字段",
+      "planNote": "初稿沿用旧版25列；本轮实际版本新增待人工确认条件、自动入选范围，按27列完整核对，不删减新增字段。"
+    },
+    {
+      "id": "D03",
+      "title": "Campaign结构化文档",
+      "expected": "总文档直接逐人解释，导出仅最终入选，合格池另计",
+      "status": "passed",
+      "actual": "Campaign总文档直接逐人说明；全量4条组内记录、2合格账号，导出最终入选2条；实际CSV/JSON下载一致。",
+      "evidence": [
+        "evidence/campaign-final.json",
+        "evidence/campaign-final.html",
+        "evidence/structured-validation.json"
+      ]
+    },
+    {
+      "id": "D04",
+      "title": "综合文档归属",
+      "expected": "4记录/2账号、来源任务/分组/workItems保留",
+      "status": "passed",
+      "actual": "研究和补标综合文档均4记录/2账号，2分组及workItems保留；来源taskId/reportContext正确，实际聊天CSV下载。",
+      "evidence": [
+        "evidence/two-groups-combined.json",
+        "evidence/all-annotation-combined.json",
+        "evidence/structured-validation.json"
+      ]
+    },
+    {
+      "id": "D05",
+      "title": "过滤空集与全量统计",
+      "expected": "筛选空集保留27列表头，JSON全量/导出分开",
+      "status": "passed",
+      "actual": "过滤no_match得0条，CSV仍27列表头；JSON全量selected=1、导出records=0；HTML与JSON相同过滤。",
+      "evidence": [
+        "evidence/filtered-empty.json",
+        "evidence/structured-validation.json"
+      ],
+      "initialPlanExpected": "筛选空集保留表头，JSON全量/导出分开",
+      "planNote": "初稿沿用旧版25列；本轮实际版本新增待人工确认条件、自动入选范围，按27列完整核对，不删减新增字段。"
+    },
+    {
+      "id": "D06",
+      "title": "JSON类型与证据映射",
+      "expected": "布尔/数字/null/数组原生，无原始调试载荷，引用有效",
+      "status": "passed",
+      "actual": "所有样例逐项核对原生布尔/数字/null/数组；CSV逐条件判断/画像与JSON一致；证据引用有效，无creator.raw。",
+      "evidence": [
+        "evidence/structured-validation.json"
+      ]
+    },
+    {
+      "id": "D07",
+      "title": "在线/离线HTML",
+      "expected": "在线按需图片，离线含截图，筛选保留",
+      "status": "passed",
+      "actual": "在线文档按需截图；实际下载8.60MB离线HTML，在无认证且HTTP请求阻断的新浏览器中9记录/12张嵌入截图全部显示。",
+      "evidence": [
+        "evidence/offline-check.json",
+        "evidence/final-docs.json"
+      ]
+    },
+    {
+      "id": "R26",
+      "title": "F26数值引用",
+      "expected": "粉丝条件只关联实际数值来源，原资料保留",
+      "status": "passed",
+      "actual": "原历史反例287个数值引用缩至1个，288条原证据保留，不符结论保持。",
+      "evidence": [
+        "evidence/history-ui.json"
+      ]
+    },
+    {
+      "id": "R27",
+      "title": "F27肯定/否定标签",
+      "expected": "精确肯定标签不命中否定，显式包含可查",
+      "status": "passed",
+      "actual": "实际历史不戴眼镜标签：默认精确戴眼镜命中0，显式包含命中1。",
+      "evidence": [
+        "evidence/history-ui.json"
+      ]
+    },
+    {
+      "id": "R28",
+      "title": "F28响应乱序",
+      "expected": "初始/旧查询迟到均不覆盖新结果和导出",
+      "status": "passed",
+      "actual": "真实HTTP原文仅延迟不改内容；初始/旧查询两类迟到响应均不覆盖新查询，实际CSV/JSON仍1条正确结果。",
+      "evidence": [
+        "evidence/history-ui.json"
+      ]
+    },
+    {
+      "id": "R29",
+      "title": "F29分配一致",
+      "expected": "Campaign所有视图统一最终分配，预选仅审计",
+      "status": "passed",
+      "actual": "Campaign总/子视图统一最终分配；独立研究预选仅审计，不多占配额。",
+      "evidence": [
+        "evidence/structured-validation.json",
+        "evidence/campaign-final.html",
+        "evidence/modal-evidence.json"
+      ]
+    },
+    {
+      "id": "R30",
+      "title": "F30合格/入选统计",
+      "expected": "2合格1入选0缺额，备选保留",
+      "status": "passed",
+      "actual": "每组2合格、1入选、缺额0，未入选合格者作为备选保留。",
+      "evidence": [
+        "evidence/two-groups-combined.json"
+      ]
+    },
+    {
+      "id": "R31",
+      "title": "F31分组/计数单位",
+      "expected": "来源与分组可追踪，记录和账号分别统计",
+      "status": "passed",
+      "actual": "独立研究4记录/2账号；补标workItems分别2条记录而非4个人；来源和分组可追踪。",
+      "evidence": [
+        "evidence/all-annotation-combined.json"
+      ]
+    },
+    {
+      "id": "R32",
+      "title": "F32总文档逐人说明",
+      "expected": "总报告直接包含条件/理由/画像/引用",
+      "status": "passed",
+      "actual": "总文档直接展示两位入选者的条件、判断、理由、画像、证据来源。",
+      "evidence": [
+        "evidence/campaign-final.html"
+      ]
+    },
+    {
+      "id": "R33",
+      "title": "F33重核验说明",
+      "expected": "重核验后源任务状态、人数及detail一致",
+      "status": "failed",
+      "actual": "有效0→1反例：重核验2位后源任务completed/selected1，但卡片和报告detail仍写已选合格0/1。",
+      "evidence": [
+        "evidence/supplemental-ui.json",
+        "evidence/reverify-result.json"
+      ]
+    },
+    {
+      "id": "V01",
+      "title": "偏好与硬条件",
+      "expected": "偏好影响排序而不把合格备选改成不符",
+      "status": "passed",
+      "actual": "受控实际模型/候选全流程：偏好影响排序，2个合格候选保留，按配额选1。",
+      "evidence": [
+        "evidence/controlled-acceptance.json",
+        "evidence/acceptance-final.log"
+      ]
+    },
+    {
+      "id": "V02",
+      "title": "图像实际核验",
+      "expected": "实际模型/有头浏览器观察耳机图，保存本轮截图",
+      "status": "passed",
+      "actual": "实际配置模型+生产有头浏览器读取受控耳机图片；本轮截图及原图像依据保存，非文本假装看图。",
+      "evidence": [
+        "evidence/controlled-acceptance.json",
+        "evidence/acceptance-final.log"
+      ]
+    },
+    {
+      "id": "V03",
+      "title": "人工确认与VNC交还",
+      "expected": "默认确认、认领、实际鼠标操作、交还原候选继续",
+      "status": "passed",
+      "actual": "受控挑战中默认请求确认→认领→真实noVNC鼠标操作→交还原候选→继续核验交付。未操作真实第三方验证码。",
+      "evidence": [
+        "evidence/controlled-acceptance.json",
+        "evidence/acceptance-final.log"
+      ]
+    },
+    {
+      "id": "V04",
+      "title": "仅跳过这一次",
+      "expected": "未知保留，任务不重开，后续协助许可仍保留",
+      "status": "passed",
+      "actual": "自然语言仅跳过这次后该候选unknown，原任务未重开，allowHumanAssistance仍true。",
+      "evidence": [
+        "evidence/controlled-acceptance.json"
+      ]
+    },
+    {
+      "id": "V05",
+      "title": "浏览器三次重启持久化",
+      "expected": "实际VNC新写Cookie/localStorage，三次重启均保留",
+      "status": "passed",
+      "actual": "通过实际VNC写入新Cookie/localStorage后连续3次正常desktop重启均保持。",
+      "evidence": [
+        "evidence/controlled-acceptance.json",
+        "evidence/acceptance-final.log"
+      ]
+    },
+    {
+      "id": "V06",
+      "title": "重新核验与版本",
+      "expected": "新访问/截图，旧版本保留，不发现新候选",
+      "status": "passed",
+      "actual": "两位已有候选实际新访问/截图，revision1→2，旧版本保留，不发现新账号。人数说明缺陷单列R33。",
+      "evidence": [
+        "evidence/supplemental-ui.json",
+        "evidence/reverify-result.json"
+      ]
+    },
+    {
+      "id": "V07",
+      "title": "可关闭邀请与阻塞",
+      "expected": "SVG/中文/Not now/Escape关闭；真阻塞转人工；不提交登录表单",
+      "status": "passed",
+      "actual": "实际DOM的SVG/中文/Not now/Escape邀请可关闭；真登录墙/挑战保留人工路径；危险提交/删除未执行。",
+      "evidence": [
+        "evidence/browser-popups-final.log"
+      ]
+    },
+    {
+      "id": "V08",
+      "title": "真实模型自主关闭",
+      "expected": "实际配置模型关闭弹窗后继续同候选，0人工请求",
+      "status": "passed",
+      "actual": "RUN_REAL_MODEL=1，实际配置模型关闭邀请，继续同候选、0人工请求；8项弹窗自动化全通过。",
+      "evidence": [
+        "evidence/browser-popups-final.log"
+      ]
+    },
+    {
+      "id": "U01",
+      "title": "模型设置与密钥保留",
+      "expected": "留空Key保存不替换凭据，非法阈值拒绝",
+      "status": "passed",
+      "actual": "留空Key保存保留凭据；1999非法压缩阈值在UI拒绝，持久设置不变。",
+      "evidence": [
+        "evidence/supplemental-ui.json"
+      ]
+    },
+    {
+      "id": "U02",
+      "title": "提示词下一次生效",
+      "expected": "UI保存标记，真实模型请求/回复生效并恢复",
+      "status": "passed",
+      "actual": "设置提示词标记后下一次真实模型回复带标记；随后恢复原提示词。",
+      "evidence": [
+        "evidence/supplemental-ui.json"
+      ]
+    },
+    {
+      "id": "U03",
+      "title": "备份/非法载入",
+      "expected": "实际下载JSON、非法拒绝、有效载入不重放",
+      "status": "passed",
+      "actual": "实际点击下载JSON备份；非法JSON拒绝；有效载入无新任务/历史工具重放。",
+      "evidence": [
+        "evidence/supplemental-ui.json"
+      ]
+    },
+    {
+      "id": "U04",
+      "title": "执行中清空上下文",
+      "expected": "已登记任务继续，封口后当前epoch一次交付",
+      "status": "passed",
+      "actual": "已登记工作执行中清空上下文，原任务继续，当前上下文仅一次交付。",
+      "evidence": [
+        "evidence/supplemental-ui.json"
+      ]
+    },
+    {
+      "id": "U05",
+      "title": "执行中载入上下文",
+      "expected": "原工作保留，载入不重复执行工具",
+      "status": "passed",
+      "actual": "已登记工作执行中载入已有上下文，原工作保持，终态1次交付，无重复登记。",
+      "evidence": [
+        "evidence/supplemental-ui.json"
+      ]
+    },
+    {
+      "id": "U06",
+      "title": "非空历史压缩",
+      "expected": "真实模型非空摘要，最新用户在边界外，刷新保留",
+      "status": "passed",
+      "actual": "实际模型生成1170字非空摘要；边界批23、当时最新用户批24未被压缩；刷新及普通重启后checkpoint完全相同。",
+      "evidence": [
+        "evidence/compression-boundary.json",
+        "evidence/supplemental-ui.json"
+      ]
+    },
+    {
+      "id": "U07",
+      "title": "进度答复与事实",
+      "expected": "查询不重复登记，完成后答复不沿用旧running回执",
+      "status": "passed",
+      "actual": "查询期间研究完成；答复发生在终态之后，准确说已结束/2核验0入选，不沿用running，0新任务。",
+      "evidence": [
+        "evidence/supplemental-ui.json"
+      ]
+    },
+    {
+      "id": "U08",
+      "title": "执行中取消",
+      "expected": "连续消息接收，正确取消，无迟到写入，旧结果保留",
+      "status": "passed",
+      "actual": "实际浏览器核验执行中连续3条消息，正确cancelled；等待8秒无迟到写入，旧结果保留。",
+      "evidence": [
+        "evidence/supplemental-ui.json"
+      ]
+    },
+    {
+      "id": "U09",
+      "title": "消息ID幂等",
+      "expected": "同ID同内容不重放，冲突409",
+      "status": "passed",
+      "actual": "同消息ID同内容200复用，冲突内容409，无重放。",
+      "evidence": [
+        "evidence/supplemental-ui.json"
+      ]
+    },
+    {
+      "id": "U10",
+      "title": "响应布局",
+      "expected": "1440/768/375报告与应用正文无横向溢出",
+      "status": "passed",
+      "actual": "实际应用1440/768/375无横向溢出；报告同尺寸检查通过并保存移动端截图。",
+      "evidence": [
+        "evidence/modal-evidence.json",
+        "evidence/final-docs.json"
+      ]
+    },
+    {
+      "id": "U11",
+      "title": "正常重启持久化",
+      "expected": "任务结果历史分配消息保持，0额外调用/重复报告",
+      "status": "passed",
+      "actual": "自有隔离环境app+desktop普通重启；任务、结果、版本、消息、批次、交付、调用哈希完全相同；0额外Wave/模型/报告。",
+      "evidence": [
+        "evidence/supplemental-ui.json"
+      ]
+    },
+    {
+      "id": "T01",
+      "title": "类型与生产构建",
+      "expected": "类型检查与Vite构建通过",
+      "status": "passed",
+      "actual": "类型检查和Vite生产构建退出0。",
+      "evidence": [
+        "evidence/typecheck.log",
+        "evidence/build.log"
+      ]
+    },
+    {
+      "id": "T02",
+      "title": "完整单元/集成",
+      "expected": "38个文件315项通过",
+      "status": "passed",
+      "actual": "38文件315项测试断言全部通过。",
+      "evidence": [
+        "evidence/coverage.log",
+        "evidence/coverage-node.log"
+      ]
+    },
+    {
+      "id": "T03",
+      "title": "覆盖率门槛",
+      "expected": "保持既有逐文件100%门槛且命令退出0",
+      "status": "failed",
+      "actual": "两次coverage命令均退出1；99.47%语句/98.34%分支/98.94%函数/99.68%行，未满足既有逐文件100%。",
+      "evidence": [
+        "evidence/coverage.log",
+        "evidence/coverage-node.log"
+      ]
+    },
+    {
+      "id": "S01",
+      "title": "版本和历史保护",
+      "expected": "63源码文件版本一致，历史任务结果不改写",
+      "status": "passed",
+      "actual": "63份本地源码/运行app一致、desktop实际5文件一致；所有原58任务/341结果/78版本/9方案/343消息/3设置/25批次/67交付哈希保持。",
+      "evidence": [
+        "evidence/version-and-preservation.json"
+      ]
+    },
+    {
+      "id": "S02",
+      "title": "公开资料完整性",
+      "expected": "用例/文档/截图保留，链接有效，凭据和私有状态不发布",
+      "status": "passed",
+      "actual": "本轮方案、用例、最终报告、实际文档和截图已保存；公开资料经凭据扫描和相对链接/文件哈希检查。",
+      "evidence": [
+        "screenshots.json",
+        "evidence/../manifest.json",
+        "evidence/artifact-check.json"
+      ]
+    },
+    {
+      "id": "A05",
+      "title": "存量诊断可用性",
+      "expected": "存量数据诊断返回且健康检查保持可用",
+      "addedDuringExecution": true,
+      "status": "failed",
+      "actual": "大历史诊断GET超过60秒，此后健康检查超过12秒；普通app重启恢复，全部原数据保持；全局崩溃根因未确认。",
+      "evidence": [
+        "evidence/runtime-observation.json",
+        "evidence/version-and-preservation.json"
+      ]
+    },
+    {
+      "id": "C05",
+      "title": "Campaign历史列表加载",
+      "expected": "加载时准确显示进度，已有方案及时可见",
+      "addedDuringExecution": true,
+      "status": "failed",
+      "actual": "实际存在10方案，公网列表3秒及30秒仍显示暂无方案，90秒采样时出现10卡片；存在慢加载及误导空态。",
+      "evidence": [
+        "evidence/campaign-loading.json"
+      ]
+    }
+  ],
+  "timezone": "Asia/Shanghai",
+  "summary": {
+    "passed": 50,
+    "failed": 5,
+    "partial": 1
+  },
+  "plannedCases": 54,
+  "supplementalCases": 2
+}

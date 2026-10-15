@@ -1,0 +1,370 @@
+{
+  "source": "Fresh public browser, actual existing campaigns and responses; no response-body interception.",
+  "serverCount": 10,
+  "browserFetch": {
+    "status": 200,
+    "isArray": true,
+    "count": 10
+  },
+  "samples": [
+    {
+      "elapsedMs": 3001,
+      "cards": 0,
+      "text": "CAMPAIGN / STRATEGY\nCampaign 方案\n关闭\n\n在对话中描述产品、受众和目标，助手会与你共同确定创作者类型、范围和配额。\n\n暂无方案。先在对话中描述你的 Campaign 目标。"
+    },
+    {
+      "elapsedMs": 30028,
+      "cards": 0,
+      "text": "CAMPAIGN / STRATEGY\nCampaign 方案\n关闭\n\n在对话中描述产品、受众和目标，助手会与你共同确定创作者类型、范围和配额。\n\n暂无方案。先在对话中描述你的 Campaign 目标。"
+    },
+    {
+      "elapsedMs": 90053,
+      "cards": 10,
+      "text": "CAMPAIGN / STRATEGY\nCampaign 方案\n关闭\n\n在对话中描述产品、受众和目标，助手会与你共同确定创作者类型、范围和配额。\n\n部分完成\n大学生降噪耳机推广 Campaign 草案 1791572085141 · v2\n\n推广面向大学生的降噪耳机，提高产品认知和购买意愿。总计筛选2位不同Instagram账号，每组1位；每组候选上限2，总候选预算4。不要求邮箱，不做外联。仅保存"
+    }
+  ],
+  "responses": [
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns",
+      "status": 200,
+      "length": "7538"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns",
+      "status": 200,
+      "length": "7538"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns/campaign-b53cd12a94d4d418b31949d3",
+      "status": 200,
+      "length": "35497"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns/campaign-49090173cf0f56b698b97456",
+      "status": 200,
+      "length": "2904"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns/campaign-45f58b48a20c7a2ab5f06606",
+      "status": 200,
+      "length": "2860"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns/campaign-b7101ed72a227a84edd7056f",
+      "status": 200,
+      "length": "1565"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns/campaign-cfcdf187e2cbb5eb48935b7b",
+      "status": 200,
+      "length": "9226"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns/campaign-1c96b719f2c801ecb1ba8e7a",
+      "status": 200,
+      "length": "1565"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns/campaign-6387a520f8156f12d92c6f50",
+      "status": 200,
+      "length": "51959"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns/campaign-bb62e1767e97593d5e070a7d",
+      "status": 200,
+      "length": "99567"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns/campaign-1d80f97d15b9ddc985695e7c",
+      "status": 200,
+      "length": "3938564"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns/campaign-ef2301e05e0d6dc8a6e9d5ed",
+      "status": 200,
+      "length": "3189"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns",
+      "status": 200,
+      "length": "7538"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns/campaign-b7101ed72a227a84edd7056f",
+      "status": 200,
+      "length": "1565"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns/campaign-b53cd12a94d4d418b31949d3",
+      "status": 200,
+      "length": "35497"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns/campaign-49090173cf0f56b698b97456",
+      "status": 200,
+      "length": "2904"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns/campaign-cfcdf187e2cbb5eb48935b7b",
+      "status": 200,
+      "length": "9226"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns/campaign-45f58b48a20c7a2ab5f06606",
+      "status": 200,
+      "length": "2860"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns/campaign-6387a520f8156f12d92c6f50",
+      "status": 200,
+      "length": "51959"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns/campaign-bb62e1767e97593d5e070a7d",
+      "status": 200,
+      "length": "99567"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns/campaign-1c96b719f2c801ecb1ba8e7a",
+      "status": 200,
+      "length": "1565"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns/campaign-1d80f97d15b9ddc985695e7c",
+      "status": 200,
+      "length": "3938564"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns/campaign-ef2301e05e0d6dc8a6e9d5ed",
+      "status": 200,
+      "length": "3189"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns",
+      "status": 200,
+      "length": "7538"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns/campaign-49090173cf0f56b698b97456",
+      "status": 200,
+      "length": "2904"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns/campaign-b53cd12a94d4d418b31949d3",
+      "status": 200,
+      "length": "35497"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns/campaign-b7101ed72a227a84edd7056f",
+      "status": 200,
+      "length": "1565"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns/campaign-1c96b719f2c801ecb1ba8e7a",
+      "status": 200,
+      "length": "1565"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns/campaign-cfcdf187e2cbb5eb48935b7b",
+      "status": 200,
+      "length": "9226"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns/campaign-45f58b48a20c7a2ab5f06606",
+      "status": 200,
+      "length": "2860"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns/campaign-6387a520f8156f12d92c6f50",
+      "status": 200,
+      "length": "51959"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns/campaign-bb62e1767e97593d5e070a7d",
+      "status": 200,
+      "length": "99567"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns/campaign-1d80f97d15b9ddc985695e7c",
+      "status": 200,
+      "length": "3938564"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns/campaign-ef2301e05e0d6dc8a6e9d5ed",
+      "status": 200,
+      "length": "3189"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns",
+      "status": 200,
+      "length": "7538"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns",
+      "status": 200,
+      "length": "7611"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns/campaign-49090173cf0f56b698b97456",
+      "status": 200,
+      "length": "2904"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns/campaign-b53cd12a94d4d418b31949d3",
+      "status": 200,
+      "length": "35497"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns/campaign-b7101ed72a227a84edd7056f",
+      "status": 200,
+      "length": "1565"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns/campaign-1c96b719f2c801ecb1ba8e7a",
+      "status": 200,
+      "length": "1565"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns/campaign-cfcdf187e2cbb5eb48935b7b",
+      "status": 200,
+      "length": "9226"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns/campaign-45f58b48a20c7a2ab5f06606",
+      "status": 200,
+      "length": "2860"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns/campaign-6387a520f8156f12d92c6f50",
+      "status": 200,
+      "length": "51959"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns/campaign-bb62e1767e97593d5e070a7d",
+      "status": 200,
+      "length": "99567"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns/campaign-1d80f97d15b9ddc985695e7c",
+      "status": 200,
+      "length": "3938564"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns/campaign-ef2301e05e0d6dc8a6e9d5ed",
+      "status": 200,
+      "length": "3405"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns",
+      "status": 200,
+      "length": "7611"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns/campaign-49090173cf0f56b698b97456",
+      "status": 200,
+      "length": "2904"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns/campaign-b53cd12a94d4d418b31949d3",
+      "status": 200,
+      "length": "35497"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns/campaign-b7101ed72a227a84edd7056f",
+      "status": 200,
+      "length": "1565"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns/campaign-1c96b719f2c801ecb1ba8e7a",
+      "status": 200,
+      "length": "1565"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns/campaign-cfcdf187e2cbb5eb48935b7b",
+      "status": 200,
+      "length": "9226"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns/campaign-45f58b48a20c7a2ab5f06606",
+      "status": 200,
+      "length": "2860"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns/campaign-6387a520f8156f12d92c6f50",
+      "status": 200,
+      "length": "51959"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns/campaign-bb62e1767e97593d5e070a7d",
+      "status": 200,
+      "length": "99567"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns/campaign-1d80f97d15b9ddc985695e7c",
+      "status": 200,
+      "length": "3938564"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns/campaign-ef2301e05e0d6dc8a6e9d5ed",
+      "status": 200,
+      "length": "3405"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns",
+      "status": 200,
+      "length": "7611"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns/campaign-49090173cf0f56b698b97456",
+      "status": 200,
+      "length": "2904"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns/campaign-b53cd12a94d4d418b31949d3",
+      "status": 200,
+      "length": "35497"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns/campaign-b7101ed72a227a84edd7056f",
+      "status": 200,
+      "length": "1565"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns/campaign-1c96b719f2c801ecb1ba8e7a",
+      "status": 200,
+      "length": "1565"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns/campaign-cfcdf187e2cbb5eb48935b7b",
+      "status": 200,
+      "length": "9226"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns/campaign-45f58b48a20c7a2ab5f06606",
+      "status": 200,
+      "length": "2860"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns/campaign-6387a520f8156f12d92c6f50",
+      "status": 200,
+      "length": "51959"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns/campaign-bb62e1767e97593d5e070a7d",
+      "status": 200,
+      "length": "99567"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns/campaign-1d80f97d15b9ddc985695e7c",
+      "status": 200,
+      "length": "3938564"
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/campaigns/campaign-ef2301e05e0d6dc8a6e9d5ed",
+      "status": 200,
+      "length": "2509377"
+    }
+  ],
+  "pageErrors": [],
+  "outcome": "No cards at 3 and 30 seconds, 10 cards by 90 seconds. Loading duration lies between the latter samples; not a permanent empty list."
+}

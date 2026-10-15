@@ -1,0 +1,117 @@
+{
+  "source": "Historical actual saved counterexamples, copied to a new isolated read-only terminal fixture; not a new social observation.",
+  "checks": [
+    {
+      "id": "R26",
+      "passed": true,
+      "evidence": {
+        "beforeReferences": 287,
+        "afterReferences": 1,
+        "originalEvidenceRetained": 288,
+        "verdict": "no_match"
+      }
+    },
+    {
+      "id": "R27",
+      "passed": true,
+      "evidence": {
+        "exact": 0,
+        "contains": 1,
+        "matchedLabel": "不戴眼镜"
+      }
+    },
+    {
+      "id": "R28",
+      "case": "initial",
+      "passed": true,
+      "evidence": {
+        "latestRecords": 1,
+        "jsonHref": "/api/reports/qa-r6-history-tags?format=json&tag=%E4%B8%8D%E6%88%B4%E7%9C%BC%E9%95%9C&tagMode=exact",
+        "responseBodyUnmodified": true
+      }
+    },
+    {
+      "id": "R28",
+      "case": "previous",
+      "passed": true,
+      "evidence": {
+        "latestRecords": 1,
+        "jsonHref": "/api/reports/qa-r6-history-tags?format=json&tag=%E4%B8%8D%E6%88%B4%E7%9C%BC%E9%95%9C&tagMode=exact",
+        "responseBodyUnmodified": true
+      }
+    }
+  ],
+  "errors": [],
+  "fixture": {
+    "source": "Historical actual saved counterexamples, copied to a new isolated read-only terminal fixture; not a new social observation.",
+    "numericBeforeReferences": 287,
+    "numericEvidenceCount": 288,
+    "tasks": {
+      "numeric": "qa-r6-history-numeric",
+      "tags": "qa-r6-history-tags"
+    },
+    "assetFilesCopied": 5,
+    "assetsUnavailable": []
+  },
+  "startedAt": "2026-10-15T15:43:50.153Z",
+  "numeric": {
+    "beforeReferences": 287,
+    "afterReferences": 1,
+    "originalEvidenceRetained": 288,
+    "verdict": "no_match"
+  },
+  "selectInventory": [
+    [
+      {
+        "label": "精确标签值",
+        "value": "exact"
+      },
+      {
+        "label": "文字包含（可能包含否定标签）",
+        "value": "contains"
+      }
+    ],
+    [
+      {
+        "label": "全部平台",
+        "value": ""
+      },
+      {
+        "label": "instagram",
+        "value": "instagram"
+      },
+      {
+        "label": "tiktok",
+        "value": "tiktok"
+      },
+      {
+        "label": "youtube",
+        "value": "youtube"
+      },
+      {
+        "label": "twitter",
+        "value": "twitter"
+      }
+    ],
+    [
+      {
+        "label": "全部判断",
+        "value": ""
+      },
+      {
+        "label": "符合要求",
+        "value": "match"
+      },
+      {
+        "label": "不符合",
+        "value": "no_match"
+      },
+      {
+        "label": "待核实",
+        "value": "unknown"
+      }
+    ]
+  ],
+  "passed": true,
+  "finishedAt": "2026-10-15T15:43:56.854Z"
+}

@@ -1,0 +1,18 @@
+{
+  "source": "Actual downloaded offline HTML opened in a fresh unauthenticated browser; HTTP/HTTPS network requests aborted.",
+  "files": [
+    {
+      "name": "original-20-final-offline.html",
+      "records": 9,
+      "embeddedImages": 12,
+      "allImagesLoaded": true
+    },
+    {
+      "name": "open-running-retry-45f6f2ff-offline.html",
+      "records": 6,
+      "embeddedImages": 0,
+      "allImagesLoaded": true
+    }
+  ],
+  "passed": true
+}

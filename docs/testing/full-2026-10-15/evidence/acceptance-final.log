@@ -1,0 +1,109 @@
+ Network creator-studio-r6c-20261015_default Creating 
+ Network creator-studio-r6c-20261015_default Created 
+ Volume creator-studio-r6c-20261015_desktop-secrets Creating 
+ Volume creator-studio-r6c-20261015_desktop-secrets Created 
+ Volume creator-studio-r6c-20261015_desktop-state Creating 
+ Volume creator-studio-r6c-20261015_desktop-state Created 
+ Volume creator-studio-r6c-20261015_studio-data Creating 
+ Volume creator-studio-r6c-20261015_studio-data Created 
+ Container creator-studio-r6c-20261015-wave-fixture-1 Creating 
+ Container creator-studio-r6c-20261015-secret-init-1 Creating 
+ Container creator-studio-r6c-20261015-secret-init-1 Created 
+ Container creator-studio-r6c-20261015-desktop-1 Creating 
+ Container creator-studio-r6c-20261015-wave-fixture-1 Created 
+ Container creator-studio-r6c-20261015-desktop-1 Created 
+ Container creator-studio-r6c-20261015-app-1 Creating 
+ Container creator-studio-r6c-20261015-app-1 Created 
+ Container creator-studio-r6c-20261015-wave-fixture-1 Starting 
+ Container creator-studio-r6c-20261015-secret-init-1 Starting 
+ Container creator-studio-r6c-20261015-wave-fixture-1 Started 
+ Container creator-studio-r6c-20261015-secret-init-1 Started 
+ Container creator-studio-r6c-20261015-secret-init-1 Waiting 
+ Container creator-studio-r6c-20261015-secret-init-1 Exited 
+ Container creator-studio-r6c-20261015-desktop-1 Starting 
+ Container creator-studio-r6c-20261015-desktop-1 Started 
+ Container creator-studio-r6c-20261015-desktop-1 Waiting 
+ Container creator-studio-r6c-20261015-desktop-1 Healthy 
+ Container creator-studio-r6c-20261015-app-1 Starting 
+ Container creator-studio-r6c-20261015-app-1 Started 
+ Network creator-studio-r6c-20261015-persistence_default Creating 
+ Network creator-studio-r6c-20261015-persistence_default Created 
+ Volume creator-studio-r6c-20261015-persistence_desktop-state Creating 
+ Volume creator-studio-r6c-20261015-persistence_desktop-state Created 
+ Volume creator-studio-r6c-20261015-persistence_desktop-secrets Creating 
+ Volume creator-studio-r6c-20261015-persistence_desktop-secrets Created 
+ Volume creator-studio-r6c-20261015-persistence_studio-data Creating 
+ Volume creator-studio-r6c-20261015-persistence_studio-data Created 
+ Container creator-studio-r6c-20261015-persistence-secret-init-1 Creating 
+ Container creator-studio-r6c-20261015-persistence-secret-init-1 Created 
+ Container creator-studio-r6c-20261015-persistence-desktop-1 Creating 
+ Container creator-studio-r6c-20261015-persistence-desktop-1 Created 
+ Container creator-studio-r6c-20261015-persistence-app-1 Creating 
+ Container creator-studio-r6c-20261015-persistence-app-1 Created 
+ Container creator-studio-r6c-20261015-persistence-secret-init-1 Starting 
+ Container creator-studio-r6c-20261015-persistence-secret-init-1 Started 
+ Container creator-studio-r6c-20261015-persistence-secret-init-1 Waiting 
+ Container creator-studio-r6c-20261015-persistence-secret-init-1 Exited 
+ Container creator-studio-r6c-20261015-persistence-desktop-1 Starting 
+ Container creator-studio-r6c-20261015-persistence-desktop-1 Started 
+ Container creator-studio-r6c-20261015-persistence-desktop-1 Waiting 
+ Container creator-studio-r6c-20261015-persistence-desktop-1 Healthy 
+ Container creator-studio-r6c-20261015-persistence-app-1 Starting 
+ Container creator-studio-r6c-20261015-persistence-app-1 Started 
+
+Running 5 tests using 1 worker
+
+(node:3669) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ creator-studio-r6c-20261015-app-1 Copying tests/fixtures/seed-browser-task.ts to creator-studio-r6c-20261015-app-1:/app/data/fixtures/seed-browser-task.ts
+ creator-studio-r6c-20261015-app-1 Copied tests/fixtures/seed-browser-task.ts to creator-studio-r6c-20261015-app-1:/app/data/fixtures/seed-browser-task.ts
+ creator-studio-r6c-20261015-desktop-1 Copying tests/fixtures/browser-assistance-server.mjs to creator-studio-r6c-20261015-desktop-1:/tmp/browser-assistance-server.mjs
+ creator-studio-r6c-20261015-desktop-1 Copied tests/fixtures/browser-assistance-server.mjs to creator-studio-r6c-20261015-desktop-1:/tmp/browser-assistance-server.mjs
+  ✓  1 tests/e2e/desktop-assistance.spec.ts:4:1 › 真实模型与 VNC：验证挑战→人工接管→原候选续接→截图证据 (57.6s)
+  ✓  2 tests/e2e/qa-advanced.spec.ts:3:1 › 自然营销目标→交互澄清→不同 Creator 类型与配额→确认→去重报告交付 (1.9m)
+  ✓  3 tests/e2e/qa-fixes.spec.ts:6:1 › 全新可复现部署：自然筛选→增量核验→偏好→真实画像→自动交付→筛选导出→补标 (1.5m)
+  ✓  4 tests/e2e/qa-instagram.spec.ts:3:1 › 新版 Instagram：自然请求→GET 搜索/详情/帖子分页/单帖→视觉核验→保存→交付/查询/导出 (1.1m)
+ creator-studio-r6c-20261015-persistence-desktop-1 Copying tests/fixtures/qa-persistence-server.mjs to creator-studio-r6c-20261015-persistence-desktop-1:/tmp/qa-persistence-server.mjs
+ creator-studio-r6c-20261015-persistence-desktop-1 Copied tests/fixtures/qa-persistence-server.mjs to creator-studio-r6c-20261015-persistence-desktop-1:/tmp/qa-persistence-server.mjs
+ Container creator-studio-r6c-20261015-persistence-desktop-1 Restarting 
+ Container creator-studio-r6c-20261015-persistence-desktop-1 Started 
+ Container creator-studio-r6c-20261015-persistence-desktop-1 Restarting 
+ Container creator-studio-r6c-20261015-persistence-desktop-1 Started 
+ Container creator-studio-r6c-20261015-persistence-desktop-1 Restarting 
+ Container creator-studio-r6c-20261015-persistence-desktop-1 Started 
+  ✓  5 tests/e2e/qa-persistence.spec.ts:4:1 › 新写 Cookie/localStorage：真实 noVNC 操作后，连续三次正常容器重启保留 (36.5s)
+
+  5 passed (6.0m)
+ Container creator-studio-r6c-20261015-app-1 Stopping 
+ Container creator-studio-r6c-20261015-wave-fixture-1 Stopping 
+ Container creator-studio-r6c-20261015-wave-fixture-1 Stopped 
+ Container creator-studio-r6c-20261015-wave-fixture-1 Removing 
+ Container creator-studio-r6c-20261015-app-1 Stopped 
+ Container creator-studio-r6c-20261015-app-1 Removing 
+ Container creator-studio-r6c-20261015-wave-fixture-1 Removed 
+ Container creator-studio-r6c-20261015-app-1 Removed 
+ Container creator-studio-r6c-20261015-desktop-1 Stopping 
+ Container creator-studio-r6c-20261015-desktop-1 Stopped 
+ Container creator-studio-r6c-20261015-desktop-1 Removing 
+ Container creator-studio-r6c-20261015-desktop-1 Removed 
+ Container creator-studio-r6c-20261015-secret-init-1 Stopping 
+ Container creator-studio-r6c-20261015-secret-init-1 Stopped 
+ Container creator-studio-r6c-20261015-secret-init-1 Removing 
+ Container creator-studio-r6c-20261015-secret-init-1 Removed 
+ Network creator-studio-r6c-20261015_default Removing 
+ Network creator-studio-r6c-20261015_default Removed 
+ Container creator-studio-r6c-20261015-persistence-app-1 Stopping 
+ Container creator-studio-r6c-20261015-persistence-app-1 Stopped 
+ Container creator-studio-r6c-20261015-persistence-app-1 Removing 
+ Container creator-studio-r6c-20261015-persistence-app-1 Removed 
+ Container creator-studio-r6c-20261015-persistence-desktop-1 Stopping 
+ Container creator-studio-r6c-20261015-persistence-desktop-1 Stopped 
+ Container creator-studio-r6c-20261015-persistence-desktop-1 Removing 
+ Container creator-studio-r6c-20261015-persistence-desktop-1 Removed 
+ Container creator-studio-r6c-20261015-persistence-secret-init-1 Stopping 
+ Container creator-studio-r6c-20261015-persistence-secret-init-1 Stopped 
+ Container creator-studio-r6c-20261015-persistence-secret-init-1 Removing 
+ Container creator-studio-r6c-20261015-persistence-secret-init-1 Removed 
+ Network creator-studio-r6c-20261015-persistence_default Removing 
+ Network creator-studio-r6c-20261015-persistence_default Removed 
+{"project":"creator-studio-r6c-20261015","persistenceProject":"creator-studio-r6c-20261015-persistence","status":0,"volumes":"preserved","containersAndNetworks":"removed","browserReport":"/Users/shawn/coding/projects/wavesurge/wavesurge_testing/.gstack/qa-reports/full-2026-10-15-r6/acceptance-final/browser-reports/creator-studio-r6c-20261015","fixtures":"controlled candidate and Wave responses; actual model, application and headed browser"}

@@ -1,0 +1,871 @@
+{
+  "source": "Safe extraction from actual persisted verification model requests and responses; raw prompts and response payloads omitted.",
+  "records": [
+    {
+      "id": "b0a20ac1-6dd1-4e2b-8f85-1d8a97b17384",
+      "at": 1792080557486,
+      "finishedAt": 1792080569832,
+      "inputFields": [
+        "spec",
+        "creator",
+        "taskId",
+        "observedAt",
+        "instruction"
+      ],
+      "taskTitle": "生活效率工具",
+      "creator": {
+        "id": "instagram:valstechtalkk",
+        "handle": "valstechtalkk",
+        "platform": "instagram"
+      },
+      "returnedTools": [
+        "submit_judgments"
+      ],
+      "error": null
+    },
+    {
+      "id": "771314b5-bcfd-4059-9f05-a2d7eecc1b97",
+      "at": 1792080507446,
+      "finishedAt": 1792080518968,
+      "inputFields": [
+        "spec",
+        "creator",
+        "taskId",
+        "observedAt",
+        "instruction"
+      ],
+      "taskTitle": "实用数码体验",
+      "creator": {
+        "id": "instagram:valstechtalkk",
+        "handle": "valstechtalkk",
+        "platform": "instagram"
+      },
+      "returnedTools": [
+        "submit_judgments"
+      ],
+      "error": null
+    },
+    {
+      "id": "434915d6-b13f-4d6a-a549-db248fa288ab",
+      "at": 1792080450516,
+      "finishedAt": 1792080466816,
+      "inputFields": [
+        "spec",
+        "creator",
+        "taskId",
+        "observedAt",
+        "instruction"
+      ],
+      "taskTitle": "生活效率工具",
+      "creator": {
+        "id": "instagram:tylerlcrawford",
+        "handle": "tylerlcrawford",
+        "platform": "instagram"
+      },
+      "returnedTools": [
+        "submit_judgments"
+      ],
+      "error": null
+    },
+    {
+      "id": "a920d941-cde6-431d-8f97-c4bcf7efb263",
+      "at": 1792080399479,
+      "finishedAt": 1792080413997,
+      "inputFields": [
+        "spec",
+        "creator",
+        "taskId",
+        "observedAt",
+        "instruction"
+      ],
+      "taskTitle": "实用数码体验",
+      "creator": {
+        "id": "instagram:tylerlcrawford",
+        "handle": "tylerlcrawford",
+        "platform": "instagram"
+      },
+      "returnedTools": [
+        "submit_judgments"
+      ],
+      "error": null
+    },
+    {
+      "id": "c28d63da-e50d-4380-925c-de803865034c",
+      "at": 1792080226288,
+      "finishedAt": 1792080242777,
+      "inputFields": [
+        "spec",
+        "creator",
+        "taskId",
+        "observedAt",
+        "instruction"
+      ],
+      "taskTitle": "Instagram个人跑步训练与马拉松经历公开文字筛选（新批次）",
+      "creator": {
+        "id": "instagram:moa.inmotion",
+        "handle": "moa.inmotion",
+        "platform": "instagram"
+      },
+      "returnedTools": [
+        "submit_judgments"
+      ],
+      "error": null
+    },
+    {
+      "id": "1fa5b236-60d4-470b-bd02-c3983e788d98",
+      "at": 1792080133364,
+      "finishedAt": 1792080154621,
+      "inputFields": [
+        "spec",
+        "creator",
+        "taskId",
+        "observedAt",
+        "instruction"
+      ],
+      "taskTitle": "Instagram个人跑步训练与马拉松经历公开文字筛选（新批次）",
+      "creator": {
+        "id": "instagram:ivannavelilla",
+        "handle": "ivannavelilla",
+        "platform": "instagram"
+      },
+      "returnedTools": [
+        "submit_judgments"
+      ],
+      "error": null
+    },
+    {
+      "id": "27977379-a65c-4b07-b9df-8c2d370001af",
+      "at": 1792080045478,
+      "finishedAt": 1792080061753,
+      "inputFields": [
+        "spec",
+        "creator",
+        "taskId",
+        "observedAt",
+        "instruction"
+      ],
+      "taskTitle": "Instagram个人跑步训练与马拉松经历公开文字筛选（新批次）",
+      "creator": {
+        "id": "instagram:ugly_running_training_club",
+        "handle": "ugly_running_training_club",
+        "platform": "instagram"
+      },
+      "returnedTools": [
+        "submit_judgments"
+      ],
+      "error": null
+    },
+    {
+      "id": "95395d8a-9f0f-4128-a3fa-cc4d71038bf1",
+      "at": 1792079932471,
+      "finishedAt": 1792079947921,
+      "inputFields": [
+        "spec",
+        "creator",
+        "taskId",
+        "observedAt",
+        "instruction"
+      ],
+      "taskTitle": "Instagram个人跑步训练与马拉松经历公开文字筛选（新批次）",
+      "creator": {
+        "id": "instagram:runner_club_20",
+        "handle": "runner_club_20",
+        "platform": "instagram"
+      },
+      "returnedTools": [
+        "submit_judgments"
+      ],
+      "error": null
+    },
+    {
+      "id": "b3953c8b-ee7f-43e3-974e-a724e3c02beb",
+      "at": 1792079809163,
+      "finishedAt": 1792079829187,
+      "inputFields": [
+        "spec",
+        "creator",
+        "taskId",
+        "observedAt",
+        "instruction"
+      ],
+      "taskTitle": "Instagram个人跑步训练与马拉松经历公开文字筛选（新批次）",
+      "creator": {
+        "id": "instagram:runner",
+        "handle": "runner",
+        "platform": "instagram"
+      },
+      "returnedTools": [
+        "submit_judgments"
+      ],
+      "error": null
+    },
+    {
+      "id": "1f016503-fb46-42b7-9a3f-584628223e0c",
+      "at": 1792079671804,
+      "finishedAt": 1792079690693,
+      "inputFields": [
+        "spec",
+        "creator",
+        "taskId",
+        "observedAt",
+        "instruction"
+      ],
+      "taskTitle": "Instagram个人跑步训练与马拉松经历公开文字筛选（新批次）",
+      "creator": {
+        "id": "instagram:runner_talk",
+        "handle": "runner_talk",
+        "platform": "instagram"
+      },
+      "returnedTools": [
+        "submit_judgments"
+      ],
+      "error": null
+    },
+    {
+      "id": "0c42aea7-f8c4-4ea6-b553-095c411b574b",
+      "at": 1792078600398,
+      "finishedAt": 1792078607223,
+      "inputFields": [
+        "spec",
+        "creator",
+        "taskId",
+        "observedAt",
+        "instruction"
+      ],
+      "taskTitle": "X科技产品使用或测评文字研究",
+      "creator": {
+        "id": "twitter:geekyranjit",
+        "handle": "geekyranjit",
+        "platform": "twitter"
+      },
+      "returnedTools": [
+        "submit_judgments"
+      ],
+      "error": null
+    },
+    {
+      "id": "9cec57f2-81ef-4df2-961e-e72c4a6d107b",
+      "at": 1792078584346,
+      "finishedAt": 1792078591210,
+      "inputFields": [
+        "spec",
+        "creator",
+        "taskId",
+        "observedAt",
+        "instruction"
+      ],
+      "taskTitle": "TikTok科技产品使用或测评文字研究",
+      "creator": {
+        "id": "tiktok:juanescalonafilms",
+        "handle": "juanescalonafilms",
+        "platform": "tiktok"
+      },
+      "returnedTools": [
+        "submit_judgments"
+      ],
+      "error": null
+    },
+    {
+      "id": "1c944fce-31f0-4318-add0-d82da15cd406",
+      "at": 1792078572254,
+      "finishedAt": 1792078579804,
+      "inputFields": [
+        "spec",
+        "creator",
+        "taskId",
+        "observedAt",
+        "instruction"
+      ],
+      "taskTitle": "YouTube科技产品使用或测评文字研究",
+      "creator": {
+        "id": "youtube:austinevans",
+        "handle": "austinevans",
+        "platform": "youtube"
+      },
+      "returnedTools": [
+        "submit_judgments"
+      ],
+      "error": null
+    },
+    {
+      "id": "1e3c576b-7bba-4266-a3d6-6560bdfd5752",
+      "at": 1792077818782,
+      "finishedAt": 1792077828649,
+      "inputFields": [
+        "spec",
+        "creator",
+        "taskId",
+        "observedAt",
+        "instruction"
+      ],
+      "taskTitle": "第二组：科技产品具体用法文字研究",
+      "creator": {
+        "id": "instagram:valstechtalkk",
+        "handle": "valstechtalkk",
+        "platform": "instagram"
+      },
+      "returnedTools": [
+        "submit_judgments"
+      ],
+      "error": null
+    },
+    {
+      "id": "5f3b41db-1731-4799-bffd-a3595722a4be",
+      "at": 1792077806024,
+      "finishedAt": 1792077818370,
+      "inputFields": [
+        "spec",
+        "creator",
+        "taskId",
+        "observedAt",
+        "instruction"
+      ],
+      "taskTitle": "第二组：科技产品具体用法文字研究",
+      "creator": {
+        "id": "instagram:tylerlcrawford",
+        "handle": "tylerlcrawford",
+        "platform": "instagram"
+      },
+      "returnedTools": [
+        "submit_judgments"
+      ],
+      "error": null
+    },
+    {
+      "id": "5b6c7cfc-a445-4ac2-bee8-b99d6310f5ca",
+      "at": 1792077794585,
+      "finishedAt": 1792077805741,
+      "inputFields": [
+        "spec",
+        "creator",
+        "taskId",
+        "observedAt",
+        "instruction"
+      ],
+      "taskTitle": "第一组：数码产品使用经验文字研究",
+      "creator": {
+        "id": "instagram:valstechtalkk",
+        "handle": "valstechtalkk",
+        "platform": "instagram"
+      },
+      "returnedTools": [
+        "submit_judgments"
+      ],
+      "error": null
+    },
+    {
+      "id": "dd3760ed-d842-4d21-bcfd-138609eeb413",
+      "at": 1792077780146,
+      "finishedAt": 1792077794004,
+      "inputFields": [
+        "spec",
+        "creator",
+        "taskId",
+        "observedAt",
+        "instruction"
+      ],
+      "taskTitle": "第一组：数码产品使用经验文字研究",
+      "creator": {
+        "id": "instagram:tylerlcrawford",
+        "handle": "tylerlcrawford",
+        "platform": "instagram"
+      },
+      "returnedTools": [
+        "submit_judgments"
+      ],
+      "error": null
+    },
+    {
+      "id": "2ab256f2-4290-4a0d-949a-b40419528204",
+      "at": 1792077750750,
+      "finishedAt": 1792077764637,
+      "inputFields": [
+        "spec",
+        "creator",
+        "taskId",
+        "observedAt",
+        "instruction"
+      ],
+      "taskTitle": "第二组：科技产品具体用法文字研究",
+      "creator": {
+        "id": "instagram:valstechtalkk",
+        "handle": "valstechtalkk",
+        "platform": "instagram"
+      },
+      "returnedTools": [
+        "submit_judgments"
+      ],
+      "error": null
+    },
+    {
+      "id": "6e2a5882-5203-4615-9090-f379d2e6cf72",
+      "at": 1792077674634,
+      "finishedAt": 1792077691359,
+      "inputFields": [
+        "spec",
+        "creator",
+        "taskId",
+        "observedAt",
+        "instruction"
+      ],
+      "taskTitle": "第一组：数码产品使用经验文字研究",
+      "creator": {
+        "id": "instagram:valstechtalkk",
+        "handle": "valstechtalkk",
+        "platform": "instagram"
+      },
+      "returnedTools": [
+        "submit_judgments"
+      ],
+      "error": null
+    },
+    {
+      "id": "e7060571-977b-4390-ac1a-33df50e21a9f",
+      "at": 1792077609406,
+      "finishedAt": 1792077627870,
+      "inputFields": [
+        "spec",
+        "creator",
+        "taskId",
+        "observedAt",
+        "instruction"
+      ],
+      "taskTitle": "第二组：科技产品具体用法文字研究",
+      "creator": {
+        "id": "instagram:tylerlcrawford",
+        "handle": "tylerlcrawford",
+        "platform": "instagram"
+      },
+      "returnedTools": [
+        "submit_judgments"
+      ],
+      "error": null
+    },
+    {
+      "id": "4c6ddda5-a6c1-4e31-a95e-040709536de9",
+      "at": 1792077541211,
+      "finishedAt": 1792077560930,
+      "inputFields": [
+        "spec",
+        "creator",
+        "taskId",
+        "observedAt",
+        "instruction"
+      ],
+      "taskTitle": "第一组：数码产品使用经验文字研究",
+      "creator": {
+        "id": "instagram:tylerlcrawford",
+        "handle": "tylerlcrawford",
+        "platform": "instagram"
+      },
+      "returnedTools": [
+        "submit_judgments"
+      ],
+      "error": null
+    },
+    {
+      "id": "ab87739d-c529-4194-a619-664169b79c67",
+      "at": 1792076155972,
+      "finishedAt": 1792076156034,
+      "inputFields": [
+        "spec",
+        "creator",
+        "taskId",
+        "observedAt",
+        "instruction"
+      ],
+      "taskTitle": "Instagram个人跑步训练与马拉松经历博主公开文字筛选",
+      "creator": {
+        "id": "instagram:good.lifetraining",
+        "handle": "good.lifetraining",
+        "platform": "instagram"
+      },
+      "returnedTools": [],
+      "error": "模型请求失败（500）"
+    },
+    {
+      "id": "7554390c-4490-4901-a8bf-ceefc8c2eca5",
+      "at": 1792076152972,
+      "finishedAt": 1792076153096,
+      "inputFields": [
+        "spec",
+        "creator",
+        "taskId",
+        "observedAt",
+        "instruction"
+      ],
+      "taskTitle": "Instagram个人跑步训练与马拉松经历博主公开文字筛选",
+      "creator": {
+        "id": "instagram:good.lifetraining",
+        "handle": "good.lifetraining",
+        "platform": "instagram"
+      },
+      "returnedTools": [],
+      "error": "模型请求失败（500）"
+    },
+    {
+      "id": "68e723c8-8d79-42f5-b36e-f6ddfa1e31b6",
+      "at": 1792076151227,
+      "finishedAt": 1792076151319,
+      "inputFields": [
+        "spec",
+        "creator",
+        "taskId",
+        "observedAt",
+        "instruction"
+      ],
+      "taskTitle": "Instagram个人跑步训练与马拉松经历博主公开文字筛选",
+      "creator": {
+        "id": "instagram:good.lifetraining",
+        "handle": "good.lifetraining",
+        "platform": "instagram"
+      },
+      "returnedTools": [],
+      "error": "模型请求失败（500）"
+    },
+    {
+      "id": "f212e727-6c00-4c21-a282-d544b2d5f8dc",
+      "at": 1792076150960,
+      "finishedAt": 1792076151044,
+      "inputFields": [
+        "spec",
+        "creator",
+        "taskId",
+        "observedAt",
+        "instruction"
+      ],
+      "taskTitle": "Instagram个人跑步训练与马拉松经历博主公开文字筛选",
+      "creator": {
+        "id": "instagram:marathonereader",
+        "handle": "marathonereader",
+        "platform": "instagram"
+      },
+      "returnedTools": [],
+      "error": "模型请求失败（500）"
+    },
+    {
+      "id": "d3104786-92f8-4a13-8c5e-f1a81cd18c57",
+      "at": 1792076147982,
+      "finishedAt": 1792076148074,
+      "inputFields": [
+        "spec",
+        "creator",
+        "taskId",
+        "observedAt",
+        "instruction"
+      ],
+      "taskTitle": "Instagram个人跑步训练与马拉松经历博主公开文字筛选",
+      "creator": {
+        "id": "instagram:marathonereader",
+        "handle": "marathonereader",
+        "platform": "instagram"
+      },
+      "returnedTools": [],
+      "error": "模型请求失败（500）"
+    },
+    {
+      "id": "753295f4-cc8a-4799-ac7b-a654cced8e4e",
+      "at": 1792076146147,
+      "finishedAt": 1792076146200,
+      "inputFields": [
+        "spec",
+        "creator",
+        "taskId",
+        "observedAt",
+        "instruction"
+      ],
+      "taskTitle": "Instagram个人跑步训练与马拉松经历博主公开文字筛选",
+      "creator": {
+        "id": "instagram:marathonereader",
+        "handle": "marathonereader",
+        "platform": "instagram"
+      },
+      "returnedTools": [],
+      "error": "模型请求失败（500）"
+    },
+    {
+      "id": "0bbe4956-e55f-427a-a094-583339c784ce",
+      "at": 1792076145961,
+      "finishedAt": 1792076146012,
+      "inputFields": [
+        "spec",
+        "creator",
+        "taskId",
+        "observedAt",
+        "instruction"
+      ],
+      "taskTitle": "Instagram个人跑步训练与马拉松经历博主公开文字筛选",
+      "creator": {
+        "id": "instagram:runnerspace",
+        "handle": "runnerspace",
+        "platform": "instagram"
+      },
+      "returnedTools": [],
+      "error": "模型请求失败（500）"
+    },
+    {
+      "id": "f2c0bae5-fc1e-4617-a8dd-767c2fee4e81",
+      "at": 1792076143081,
+      "finishedAt": 1792076143444,
+      "inputFields": [
+        "spec",
+        "creator",
+        "taskId",
+        "observedAt",
+        "instruction"
+      ],
+      "taskTitle": "Instagram个人跑步训练与马拉松经历博主公开文字筛选",
+      "creator": {
+        "id": "instagram:runnerspace",
+        "handle": "runnerspace",
+        "platform": "instagram"
+      },
+      "returnedTools": [],
+      "error": "模型请求失败（500）"
+    },
+    {
+      "id": "d104278e-f67c-445d-b754-b715779433b1",
+      "at": 1792076141696,
+      "finishedAt": 1792076142053,
+      "inputFields": [
+        "spec",
+        "creator",
+        "taskId",
+        "observedAt",
+        "instruction"
+      ],
+      "taskTitle": "Instagram个人跑步训练与马拉松经历博主公开文字筛选",
+      "creator": {
+        "id": "instagram:runnerspace",
+        "handle": "runnerspace",
+        "platform": "instagram"
+      },
+      "returnedTools": [],
+      "error": "模型请求失败（500）"
+    },
+    {
+      "id": "9d9edfb9-8658-40f2-9f7d-60b94dd362c7",
+      "at": 1792076141204,
+      "finishedAt": 1792076141406,
+      "inputFields": [
+        "spec",
+        "creator",
+        "taskId",
+        "observedAt",
+        "instruction"
+      ],
+      "taskTitle": "Instagram个人跑步训练与马拉松经历博主公开文字筛选",
+      "creator": {
+        "id": "instagram:romero.training",
+        "handle": "romero.training",
+        "platform": "instagram"
+      },
+      "returnedTools": [],
+      "error": "模型请求失败（500）"
+    },
+    {
+      "id": "255a200f-6041-413b-9adf-2849a2c615b7",
+      "at": 1792076137963,
+      "finishedAt": 1792076138088,
+      "inputFields": [
+        "spec",
+        "creator",
+        "taskId",
+        "observedAt",
+        "instruction"
+      ],
+      "taskTitle": "Instagram个人跑步训练与马拉松经历博主公开文字筛选",
+      "creator": {
+        "id": "instagram:romero.training",
+        "handle": "romero.training",
+        "platform": "instagram"
+      },
+      "returnedTools": [],
+      "error": "模型请求失败（500）"
+    },
+    {
+      "id": "f8df077e-9018-451a-a0bc-54ca028f5a88",
+      "at": 1792076136441,
+      "finishedAt": 1792076136693,
+      "inputFields": [
+        "spec",
+        "creator",
+        "taskId",
+        "observedAt",
+        "instruction"
+      ],
+      "taskTitle": "Instagram个人跑步训练与马拉松经历博主公开文字筛选",
+      "creator": {
+        "id": "instagram:romero.training",
+        "handle": "romero.training",
+        "platform": "instagram"
+      },
+      "returnedTools": [],
+      "error": "模型请求失败（500）"
+    },
+    {
+      "id": "fb688f37-431c-428c-a3a6-d7df27f1431e",
+      "at": 1792076136082,
+      "finishedAt": 1792076136227,
+      "inputFields": [
+        "spec",
+        "creator",
+        "taskId",
+        "observedAt",
+        "instruction"
+      ],
+      "taskTitle": "Instagram个人跑步训练与马拉松经历博主公开文字筛选",
+      "creator": {
+        "id": "instagram:marathon_runner_jarvis",
+        "handle": "marathon_runner_jarvis",
+        "platform": "instagram"
+      },
+      "returnedTools": [],
+      "error": "模型请求失败（500）"
+    },
+    {
+      "id": "04aa4596-0649-48af-8b44-151f2f1e2c6f",
+      "at": 1792076132818,
+      "finishedAt": 1792076133000,
+      "inputFields": [
+        "spec",
+        "creator",
+        "taskId",
+        "observedAt",
+        "instruction"
+      ],
+      "taskTitle": "Instagram个人跑步训练与马拉松经历博主公开文字筛选",
+      "creator": {
+        "id": "instagram:marathon_runner_jarvis",
+        "handle": "marathon_runner_jarvis",
+        "platform": "instagram"
+      },
+      "returnedTools": [],
+      "error": "模型请求失败（500）"
+    },
+    {
+      "id": "8007ad8e-3f61-4690-a817-fef9ebafa123",
+      "at": 1792076131137,
+      "finishedAt": 1792076131343,
+      "inputFields": [
+        "spec",
+        "creator",
+        "taskId",
+        "observedAt",
+        "instruction"
+      ],
+      "taskTitle": "Instagram个人跑步训练与马拉松经历博主公开文字筛选",
+      "creator": {
+        "id": "instagram:marathon_runner_jarvis",
+        "handle": "marathon_runner_jarvis",
+        "platform": "instagram"
+      },
+      "returnedTools": [],
+      "error": "模型请求失败（500）"
+    },
+    {
+      "id": "e0300713-3534-41d4-89fb-05217851b159",
+      "at": 1792076130337,
+      "finishedAt": 1792076130592,
+      "inputFields": [
+        "spec",
+        "creator",
+        "taskId",
+        "observedAt",
+        "instruction"
+      ],
+      "taskTitle": "Instagram个人跑步训练与马拉松经历博主公开文字筛选",
+      "creator": {
+        "id": "instagram:runswithmal",
+        "handle": "runswithmal",
+        "platform": "instagram"
+      },
+      "returnedTools": [],
+      "error": "模型请求失败（500）"
+    },
+    {
+      "id": "9326ed78-41bd-46e2-808f-5279fbe3cb70",
+      "at": 1792076126027,
+      "finishedAt": 1792076126424,
+      "inputFields": [
+        "spec",
+        "creator",
+        "taskId",
+        "observedAt",
+        "instruction"
+      ],
+      "taskTitle": "Instagram个人跑步训练与马拉松经历博主公开文字筛选",
+      "creator": {
+        "id": "instagram:runswithmal",
+        "handle": "runswithmal",
+        "platform": "instagram"
+      },
+      "returnedTools": [],
+      "error": "模型请求失败（500）"
+    },
+    {
+      "id": "1a933c25-7a9b-41b4-a2bf-afd3e7a2a76f",
+      "at": 1792076120370,
+      "finishedAt": 1792076121274,
+      "inputFields": [
+        "spec",
+        "creator",
+        "taskId",
+        "observedAt",
+        "instruction"
+      ],
+      "taskTitle": "Instagram个人跑步训练与马拉松经历博主公开文字筛选",
+      "creator": {
+        "id": "instagram:runswithmal",
+        "handle": "runswithmal",
+        "platform": "instagram"
+      },
+      "returnedTools": [],
+      "error": "模型请求失败（500）"
+    },
+    {
+      "id": "2d21ab71-d1bc-4838-bc02-69e5962245e1",
+      "at": 1792075896238,
+      "finishedAt": 1792075914420,
+      "inputFields": [
+        "spec",
+        "creator",
+        "taskId",
+        "observedAt",
+        "instruction"
+      ],
+      "taskTitle": "Instagram个人跑步训练与马拉松经历博主公开文字筛选",
+      "creator": {
+        "id": "instagram:playrunnerrunner",
+        "handle": "playrunnerrunner",
+        "platform": "instagram"
+      },
+      "returnedTools": [
+        "submit_judgments"
+      ],
+      "error": null
+    },
+    {
+      "id": "ba823801-e8bd-486a-b199-5e72483355af",
+      "at": 1792075773360,
+      "finishedAt": 1792075794828,
+      "inputFields": [
+        "spec",
+        "creator",
+        "taskId",
+        "observedAt",
+        "instruction"
+      ],
+      "taskTitle": "Instagram个人跑步训练与马拉松经历博主公开文字筛选",
+      "creator": {
+        "id": "instagram:runner_talk",
+        "handle": "runner_talk",
+        "platform": "instagram"
+      },
+      "returnedTools": [
+        "submit_judgments"
+      ],
+      "error": null
+    }
+  ]
+}

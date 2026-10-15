@@ -1,0 +1,346 @@
+[
+  {
+    "file": "public-open-running-retry-chat.png",
+    "caption": "真实开放搜索：整批交付",
+    "width": 1440,
+    "height": 1050,
+    "sha256": "ba02aee69c407fb4a0610d19cc2f34ffe3f2197967639981aef338dc52ce1957",
+    "source": "actual browser screenshot, this round"
+  },
+  {
+    "file": "public-open-running-retry-45f6f2ff-loaded-results.png",
+    "caption": "真实开放搜索：等待结果加载后逐人标签",
+    "width": 720,
+    "height": 1050,
+    "sha256": "5adcac343a156e41699799202ed58f06c842d8644b90f527ea10250cafe39cc7",
+    "source": "actual browser screenshot, this round"
+  },
+  {
+    "file": "public-two-groups-chat.png",
+    "caption": "两组新研究与批次消息",
+    "width": 1440,
+    "height": 1050,
+    "sha256": "ca6242fa35193476ecd306848127f926cb310485c571d33fb04181e021e9edec",
+    "source": "actual browser screenshot, this round"
+  },
+  {
+    "file": "public-two-groups-4ad92b43-loaded-results.png",
+    "caption": "研究组一：2合格/1入选与备选画像",
+    "width": 720,
+    "height": 1050,
+    "sha256": "9e4635827d788a1a0e587087eceef76399d8aa6770bf2bfbec93fad8ce306357",
+    "source": "actual browser screenshot, this round"
+  },
+  {
+    "file": "public-two-groups-74e60074-loaded-results.png",
+    "caption": "研究组二：2合格/1入选与备选画像",
+    "width": 720,
+    "height": 1050,
+    "sha256": "62d74a88f36e2b7630a65df7d00cd913e6406b63bb084d9cc8c00b0d19845bc1",
+    "source": "actual browser screenshot, this round"
+  },
+  {
+    "file": "public-all-annotation-chat.png",
+    "caption": "全部4条补标完成后一次交付",
+    "width": 1440,
+    "height": 1050,
+    "sha256": "da047cb5c52085e6c2c247905936586d9602c792912992359f881155813d6b9f",
+    "source": "actual browser screenshot, this round"
+  },
+  {
+    "file": "public-campaign-chat.png",
+    "caption": "Campaign自然目标与范围协商",
+    "width": 1440,
+    "height": 1050,
+    "sha256": "fa1da3e249b83813959fac46e06de98c8f18e5df94728b89c9304999154488d8",
+    "source": "actual browser screenshot, this round"
+  },
+  {
+    "file": "public-campaign-fresh-inspect.png",
+    "caption": "缺陷：加载早期误显示暂无方案",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "89b8408103daa12e58f2084924a42e37b53f4bf5044660146d7337a7921e98cb",
+    "source": "actual browser screenshot, this round"
+  },
+  {
+    "file": "public-campaign-after-wait.png",
+    "caption": "同一列表稍后出现10个方案",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "b8f7a7763293fbdbd2af6ab8cee8299509d7c0ee86e7ba1b45a1b78cfe28d6be",
+    "source": "actual browser screenshot, this round"
+  },
+  {
+    "file": "public-campaign-final-drawer.png",
+    "caption": "Campaign最终分组及配额",
+    "width": 720,
+    "height": 1050,
+    "sha256": "e51f32ca4b21cbc40fe907fad6a574e88e3f514f026dd1573306333d837af7d9",
+    "source": "actual browser screenshot, this round"
+  },
+  {
+    "file": "public-campaign-final-report.png",
+    "caption": "Campaign总报告直接逐人解释",
+    "width": 1440,
+    "height": 3090,
+    "sha256": "f83e27792bb580d12a432373c63347e28e6436e6213c226eb6c7613c0a3235f2",
+    "source": "actual browser screenshot, this round"
+  },
+  {
+    "file": "public-campaign-final-375.png",
+    "caption": "Campaign报告375像素布局",
+    "width": 375,
+    "height": 7279,
+    "sha256": "e7da310e6b8a0eb85baaf66bd7337000db4ee47b1ff6ec4ff4c061cdc6667f9c",
+    "source": "actual browser screenshot, this round"
+  },
+  {
+    "file": "public-campaign-ab7e5e1f-loaded-results.png",
+    "caption": "Campaign子组一最终分配",
+    "width": 720,
+    "height": 1050,
+    "sha256": "d99e2047488a389bde1f321869e1026845bddbdd25e732faf8947e1ea2d07b9e",
+    "source": "actual browser screenshot, this round"
+  },
+  {
+    "file": "public-campaign-703b47fc-loaded-results.png",
+    "caption": "Campaign子组二最终分配",
+    "width": 720,
+    "height": 1050,
+    "sha256": "f20cd766e370e9a82b663ba69963df24c5ea5ee98b06f83889b15cb4ca07e410",
+    "source": "actual browser screenshot, this round"
+  },
+  {
+    "file": "public-original-20-chat.png",
+    "caption": "原题20人自然输入及真实缺额",
+    "width": 1440,
+    "height": 1050,
+    "sha256": "3e1a802f3eacd70240bb2f470b67594fd5dae1181259c735eebc4cec348abe2d",
+    "source": "actual browser screenshot, this round"
+  },
+  {
+    "file": "public-original-20-0d473730-loaded-results.png",
+    "caption": "原题场景：9条实际核验记录",
+    "width": 720,
+    "height": 1050,
+    "sha256": "d7cb4fb4d373434536f7da4c99dad3d04c2817b4f5c112eaf4a2bdc4a2d53366",
+    "source": "actual browser screenshot, this round"
+  },
+  {
+    "file": "public-original-20-final-report.png",
+    "caption": "原题场景结构化文档",
+    "width": 1440,
+    "height": 1050,
+    "sha256": "3dbc1eeb51fbf2c34796185c89aa038b5e267db922736ce7952ec9d100c3055d",
+    "source": "actual browser screenshot, this round"
+  },
+  {
+    "file": "public-original-20-final-375.png",
+    "caption": "原题报告移动端",
+    "width": 375,
+    "height": 1000,
+    "sha256": "b3df8b5dc7d897be0ae7ad45afa183b8ed7d0a8b6dc85e9542552053849fb43a",
+    "source": "actual browser screenshot, this round"
+  },
+  {
+    "file": "public-other-platforms-d6a6de5e-report.png",
+    "caption": "YouTube真实结果",
+    "width": 1440,
+    "height": 1916,
+    "sha256": "1ba4571c30549978ad2d214c84450b99d34f534cbc9b52334702d5e901e1a7e7",
+    "source": "actual browser screenshot, this round"
+  },
+  {
+    "file": "public-other-platforms-5701edce-report.png",
+    "caption": "TikTok真实结果",
+    "width": 1440,
+    "height": 1716,
+    "sha256": "c89e70c0a02eb0101d3a02b7fd974101a2297ab2b35e0b1af5ff96ba4b05d93b",
+    "source": "actual browser screenshot, this round"
+  },
+  {
+    "file": "public-other-platforms-49961457-report.png",
+    "caption": "X真实结果：证据不足保留unknown",
+    "width": 1440,
+    "height": 1631,
+    "sha256": "d0e39af1d989757106319e1a989374effb2eeecf8081cb93511119437e3ca5cb",
+    "source": "actual browser screenshot, this round"
+  },
+  {
+    "file": "public-empty-source-f99b4fd8-report.png",
+    "caption": "无候选时输出空名单及缺额",
+    "width": 1440,
+    "height": 1050,
+    "sha256": "8009a1dbe41e37144540752681a1f78f3abba68b7eb704341598ee6e0246df40",
+    "source": "actual browser screenshot, this round"
+  },
+  {
+    "file": "history-numeric-1440.png",
+    "caption": "F26：实际历史反例数值引用",
+    "width": 960,
+    "height": 108,
+    "sha256": "0de59da2455476660da795413ec7b548207d50cc0ae682476a08ad1e28ae2387",
+    "source": "actual browser screenshot, this round"
+  },
+  {
+    "file": "history-tag-mode.png",
+    "caption": "F27：肯定与否定标签查询",
+    "width": 720,
+    "height": 1000,
+    "sha256": "65ac9bf7aeaa696f6f24c198f6edba8949a6a5eed7883caf9bc41861adf44633",
+    "source": "actual browser screenshot, this round"
+  },
+  {
+    "file": "history-race-initial.png",
+    "caption": "F28：初始响应迟到",
+    "width": 720,
+    "height": 1000,
+    "sha256": "6e291643adfa73f8bf2f0d20b93262917a79ec1677e1cb1ee7d3801b8c4db36c",
+    "source": "actual browser screenshot, this round"
+  },
+  {
+    "file": "history-race-previous.png",
+    "caption": "F28：旧查询响应迟到",
+    "width": 720,
+    "height": 1000,
+    "sha256": "6e291643adfa73f8bf2f0d20b93262917a79ec1677e1cb1ee7d3801b8c4db36c",
+    "source": "actual browser screenshot, this round"
+  },
+  {
+    "file": "edge-reverify-source-card.png",
+    "caption": "F33缺陷：入选1/1而说明仍为0/1",
+    "width": 263,
+    "height": 318,
+    "sha256": "0141d4534e76b63afcd50bac1d3bae74a85206389560ecf7ae2de175caa0169f",
+    "source": "actual browser screenshot, this round"
+  },
+  {
+    "file": "edge-reverify-source-report.png",
+    "caption": "F33缺陷：源报告说明未同步",
+    "width": 1440,
+    "height": 4840,
+    "sha256": "801973f0569ab105236ae530773020919bf1c626ff79ecc95274517e91e92655",
+    "source": "actual browser screenshot, this round"
+  },
+  {
+    "file": "edge-filtered-empty.png",
+    "caption": "过滤空集，保留全量统计",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "52bfdc197713f1271b038f32d81a7b8bc727ba74f88ea019469a336e91c777b4",
+    "source": "actual browser screenshot, this round"
+  },
+  {
+    "file": "edge-image-reply.png",
+    "caption": "参考图片实际识别",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "1a190c4dc5ba6991151b3f00135ce25a01031d0e34d7771bc197606c9ffe362e",
+    "source": "actual browser screenshot, this round"
+  },
+  {
+    "file": "edge-context-compression.png",
+    "caption": "实际模型历史压缩",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "a6f9605a8feec159a83b5ac074423f050288d83bafe12feaa4ce2872d906c106",
+    "source": "actual browser screenshot, this round"
+  },
+  {
+    "file": "edge-active-context-reset.png",
+    "caption": "执行中清空上下文后继续交付",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "1f20f05b1e511da36399c9d21873a47a1026888bb80bb188229d353409ab1bc8",
+    "source": "actual browser screenshot, this round"
+  },
+  {
+    "file": "edge-active-context-load.png",
+    "caption": "执行中载入上下文后继续交付",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "1c497ffed5ecb05c48ba6e76eb2fcb8c348a80e453df95ac134b599232f979ac",
+    "source": "actual browser screenshot, this round"
+  },
+  {
+    "file": "edge-cancelled.png",
+    "caption": "实际浏览器核验过程中取消",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "f669567689a7292f347c6137b67aadf4536e4a9de59deef95901a0befa2dc21e",
+    "source": "actual browser screenshot, this round"
+  },
+  {
+    "file": "edge-progress-query.png",
+    "caption": "结束后按最新状态答复",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "42423842b471897c6658b366886b99bf7c65e2825a25b6673346e8594697177f",
+    "source": "actual browser screenshot, this round"
+  },
+  {
+    "file": "edge-mobile-375.png",
+    "caption": "应用375像素布局",
+    "width": 375,
+    "height": 900,
+    "sha256": "a10274409e35703c8c837d66f6f4eb628c3772f5157f946f260f36a4cf40d656",
+    "source": "actual browser screenshot, this round"
+  },
+  {
+    "file": "edge-normal-restart.png",
+    "caption": "普通重启后保留状态",
+    "width": 1440,
+    "height": 1000,
+    "sha256": "b4df576c42a51be6ffea9fe4dc288a1fde2926478038bc1389d7b0455f769128",
+    "source": "actual browser screenshot, this round"
+  },
+  {
+    "file": "controlled-stage-4-human-before.png",
+    "caption": "受控挑战：真实noVNC接管前",
+    "width": 1440,
+    "height": 900,
+    "sha256": "b0b610b7f33dde51c9f08b5e5460ab1f00da750e663e01a8ee41328693f92411",
+    "source": "actual browser, actual configured model, explicitly controlled candidate pages"
+  },
+  {
+    "file": "controlled-stage-4-human-after.png",
+    "caption": "受控挑战：实际桌面操作后",
+    "width": 1440,
+    "height": 900,
+    "sha256": "09bfdb50a8b9aa2668ed7b51551af92b8efe971abacf4269963e2a1af5d44616",
+    "source": "actual browser, actual configured model, explicitly controlled candidate pages"
+  },
+  {
+    "file": "controlled-stage-4-verified-post.png",
+    "caption": "受控挑战：交还原候选后新截图",
+    "width": 1440,
+    "height": 800,
+    "sha256": "c4315446bb3fe9ea961210914c0d1e22206b7cd290a4ff6f62806e1a94f4e154",
+    "source": "actual browser, actual configured model, explicitly controlled candidate pages"
+  },
+  {
+    "file": "controlled-instagram-results.png",
+    "caption": "受控新版Instagram完整流程与实际视觉判断",
+    "width": 1440,
+    "height": 900,
+    "sha256": "1a07b6d4961eed74c3eb5c269c846dd2b08dd6bb92f4cf5a2a2fc7d60337a423",
+    "source": "actual browser, actual configured model, explicitly controlled candidate pages"
+  },
+  {
+    "file": "controlled-automatic-report-chat.png",
+    "caption": "受控完整流程：整批一次交付",
+    "width": 1440,
+    "height": 900,
+    "sha256": "84aaf1e3329d659648f560ecdf819e4542b68843d7dc279da336153989124c79",
+    "source": "actual browser, actual configured model, explicitly controlled candidate pages"
+  },
+  {
+    "file": "public-empty-source-chat.png",
+    "caption": "新增缺陷：同批空名单模型答复与自动摘要重复",
+    "width": 1440,
+    "height": 1050,
+    "sha256": "04eb1f24403da366643a6144c8ad86d0bb62ce38ea4bcb5b8179995c0502d73a",
+    "source": "actual browser screenshot, this round"
+  }
+]

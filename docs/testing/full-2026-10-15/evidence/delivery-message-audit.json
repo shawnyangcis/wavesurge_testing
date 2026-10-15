@@ -1,0 +1,22 @@
+{
+  "source": "Actual public chat screenshot and saved message records, same request and same source report.",
+  "requestId": "6335972396571cfac00b2479645f37cf",
+  "taskId": "research-2e653aeebecbe029f99b4fd8",
+  "taskTerminalAt": 1792080673902,
+  "resultMessages": [
+    {
+      "id": "8eb8c986-d29f-4c83-8560-c8800bd7bde4",
+      "text": "这项独立研究已结束，**名单为空，缺额 1 位**，未放宽条件。\n\n- 本批从已有 TikTok creator pool 读取 **500 条记录**\n- **500 条均未通过基础条件筛选**，因此进入逐人文字核验的候选为 **0 位**\n- 最终入选 **0/1 位**\n- 全程仅使用已有文字，未打开网页；原来的工作和结果保留\n\n这只说明**本批有界资料中没有符合条件的候选**，不代表 TikTok 全平台不存在符合者。\n\n[查看 HTML 报告](/api/reports/research-2e653aeebecbe029f99b4fd8) · [下载 CSV](/api/reports/research-2e653aeebecbe029f99b4fd8?format=csv) · [下载 JSON](/api/reports/research-2e653aeebecbe029f99b4fd8?format=json)",
+      "createdAt": 1792080701727
+    },
+    {
+      "id": "report-request-6335972396571cfac00b2479645f37cf-f0a3c1de69122f7d",
+      "text": "本次请求的 1 项工作已全部结束。\n\n- TikTok科技内容个人博主文字研究：粉丝1亿至2亿：已结束，仍有缺额或失败；已入选 0/1 人，已查看 0 人 [查看报告](/api/reports/research-2e653aeebecbe029f99b4fd8)\n\n[查看本次综合报告](/api/work-batches/6335972396571cfac00b2479645f37cf/report) · [下载综合 CSV](/api/work-batches/6335972396571cfac00b2479645f37cf/report?format=csv) · [下载综合 JSON](/api/work-batches/6335972396571cfac00b2479645f37cf/report?format=json)",
+      "createdAt": 1792080701737
+    }
+  ],
+  "visibleResultMessageCount": 2,
+  "automaticReportCount": 1,
+  "timeBetweenResultsMs": 10,
+  "bothAfterTerminal": true
+}

@@ -1,0 +1,165 @@
+{
+  "samples": [
+    {
+      "sample": "open-running-retry-45f6f2ff",
+      "kind": "research",
+      "rows": 6,
+      "csvColumns": 27,
+      "selected": 2,
+      "jsonCsvAligned": true,
+      "nativeTypes": true,
+      "referencesValid": true
+    },
+    {
+      "sample": "two-groups-4ad92b43",
+      "kind": "research",
+      "rows": 2,
+      "csvColumns": 27,
+      "selected": 1,
+      "jsonCsvAligned": true,
+      "nativeTypes": true,
+      "referencesValid": true
+    },
+    {
+      "sample": "two-groups-74e60074",
+      "kind": "research",
+      "rows": 2,
+      "csvColumns": 27,
+      "selected": 1,
+      "jsonCsvAligned": true,
+      "nativeTypes": true,
+      "referencesValid": true
+    },
+    {
+      "sample": "campaign-children-ab7e5e1f",
+      "kind": "research",
+      "rows": 2,
+      "csvColumns": 27,
+      "selected": 1,
+      "jsonCsvAligned": true,
+      "nativeTypes": true,
+      "referencesValid": true
+    },
+    {
+      "sample": "campaign-children-703b47fc",
+      "kind": "research",
+      "rows": 2,
+      "csvColumns": 27,
+      "selected": 1,
+      "jsonCsvAligned": true,
+      "nativeTypes": true,
+      "referencesValid": true
+    },
+    {
+      "sample": "campaign-final",
+      "kind": "campaign",
+      "rows": 2,
+      "csvColumns": 27,
+      "selected": 2,
+      "jsonCsvAligned": true,
+      "nativeTypes": true,
+      "referencesValid": true
+    },
+    {
+      "sample": "two-groups-combined",
+      "kind": "work_batch",
+      "rows": 4,
+      "csvColumns": 27,
+      "selected": 2,
+      "jsonCsvAligned": true,
+      "nativeTypes": true,
+      "referencesValid": true
+    },
+    {
+      "sample": "all-annotation-combined",
+      "kind": "work_batch",
+      "rows": 4,
+      "csvColumns": 27,
+      "selected": 2,
+      "jsonCsvAligned": true,
+      "nativeTypes": true,
+      "referencesValid": true
+    },
+    {
+      "sample": "original-20-final",
+      "kind": "research",
+      "rows": 9,
+      "csvColumns": 27,
+      "selected": 0,
+      "jsonCsvAligned": true,
+      "nativeTypes": true,
+      "referencesValid": true
+    },
+    {
+      "sample": "other-platforms-d6a6de5e",
+      "kind": "research",
+      "rows": 1,
+      "csvColumns": 27,
+      "selected": 1,
+      "jsonCsvAligned": true,
+      "nativeTypes": true,
+      "referencesValid": true
+    },
+    {
+      "sample": "other-platforms-5701edce",
+      "kind": "research",
+      "rows": 1,
+      "csvColumns": 27,
+      "selected": 1,
+      "jsonCsvAligned": true,
+      "nativeTypes": true,
+      "referencesValid": true
+    },
+    {
+      "sample": "other-platforms-49961457",
+      "kind": "research",
+      "rows": 1,
+      "csvColumns": 27,
+      "selected": 0,
+      "jsonCsvAligned": true,
+      "nativeTypes": true,
+      "referencesValid": true
+    },
+    {
+      "sample": "empty-source-f99b4fd8",
+      "kind": "research",
+      "rows": 0,
+      "csvColumns": 27,
+      "selected": 0,
+      "jsonCsvAligned": true,
+      "nativeTypes": true,
+      "referencesValid": true
+    },
+    {
+      "sample": "filtered-empty",
+      "kind": "research",
+      "rows": 0,
+      "csvColumns": 27,
+      "selected": 0,
+      "jsonCsvAligned": true,
+      "nativeTypes": true,
+      "referencesValid": true
+    }
+  ],
+  "allPassed": true,
+  "campaignParentChildFinalSelectionsEqual": true,
+  "columnsNote": "Initial plan inherited 25 columns; this tested version adds 待人工确认条件 and 自动入选范围, for 27. Added fields retained and validated.",
+  "offline": {
+    "source": "Actual downloaded offline HTML opened in a fresh unauthenticated browser; HTTP/HTTPS network requests aborted.",
+    "files": [
+      {
+        "name": "original-20-final-offline.html",
+        "records": 9,
+        "embeddedImages": 12,
+        "allImagesLoaded": true
+      },
+      {
+        "name": "open-running-retry-45f6f2ff-offline.html",
+        "records": 6,
+        "embeddedImages": 0,
+        "allImagesLoaded": true
+      }
+    ],
+    "passed": true
+  }
+}

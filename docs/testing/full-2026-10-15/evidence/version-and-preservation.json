@@ -1,0 +1,103 @@
+{
+  "at": "2026-10-15T16:17:12.264204+00:00",
+  "commit": "4fb7d4cae4b0e1dc964341fd356b2d1799e3b9e6",
+  "sourceFiles": 63,
+  "localMatchesBaseline": true,
+  "mainContainerMatches": true,
+  "desktopExecutableFiles": 5,
+  "desktopMatches": true,
+  "activeTasks": [],
+  "preservation": {
+    "task": {
+      "before": {
+        "count": 58,
+        "sha256": "5dd99e1cdb4d550844c5d5b1f2fa4c41a9b703d56c967ac73e52b8e872512634"
+      },
+      "after": {
+        "count": 58,
+        "sha256": "5dd99e1cdb4d550844c5d5b1f2fa4c41a9b703d56c967ac73e52b8e872512634"
+      },
+      "unchanged": true
+    },
+    "result": {
+      "before": {
+        "count": 341,
+        "sha256": "1dde99bc30997d9da0b96ced2b8a87fd7b333b7028b2eac39064c9dba822c49a"
+      },
+      "after": {
+        "count": 341,
+        "sha256": "1dde99bc30997d9da0b96ced2b8a87fd7b333b7028b2eac39064c9dba822c49a"
+      },
+      "unchanged": true
+    },
+    "result-history": {
+      "before": {
+        "count": 78,
+        "sha256": "16b41ef5637a11bed3e481d6294f641439ee70b63a57c437fe5e7a86d50d188f"
+      },
+      "after": {
+        "count": 78,
+        "sha256": "16b41ef5637a11bed3e481d6294f641439ee70b63a57c437fe5e7a86d50d188f"
+      },
+      "unchanged": true
+    },
+    "campaign": {
+      "before": {
+        "count": 9,
+        "sha256": "f3c7094db470ab72449a970a1b8cfe49b1ac2c6d391c39fac72a917424e61d52"
+      },
+      "after": {
+        "count": 9,
+        "sha256": "f3c7094db470ab72449a970a1b8cfe49b1ac2c6d391c39fac72a917424e61d52"
+      },
+      "unchanged": true
+    },
+    "message": {
+      "before": {
+        "count": 343,
+        "sha256": "42380157c2d10d727d6c54964a68e1e05c4f6e2aded151181bd88a55d005d177"
+      },
+      "after": {
+        "count": 343,
+        "sha256": "42380157c2d10d727d6c54964a68e1e05c4f6e2aded151181bd88a55d005d177"
+      },
+      "unchanged": true
+    },
+    "settings": {
+      "before": {
+        "count": 3,
+        "sha256": "f1bcafb4695f06ac26f016594d450e4683f58525025313258e1dd8adf64135e2"
+      },
+      "after": {
+        "count": 3,
+        "sha256": "f1bcafb4695f06ac26f016594d450e4683f58525025313258e1dd8adf64135e2"
+      },
+      "unchanged": true
+    },
+    "work-batch": {
+      "before": {
+        "count": 25,
+        "sha256": "2bdf9497569022e522d2d576b3776424c72e6bf3fe40c458f339957a1542b1e8"
+      },
+      "after": {
+        "count": 25,
+        "sha256": "2bdf9497569022e522d2d576b3776424c72e6bf3fe40c458f339957a1542b1e8"
+      },
+      "unchanged": true
+    },
+    "delivery": {
+      "before": {
+        "count": 67,
+        "sha256": "bdf96914ea8c1b43beb2e8c7eb99368cc97de009631967b2484633fa921ab0dd"
+      },
+      "after": {
+        "count": 67,
+        "sha256": "bdf96914ea8c1b43beb2e8c7eb99368cc97de009631967b2484633fa921ab0dd"
+      },
+      "unchanged": true
+    }
+  },
+  "modelCalls": 92,
+  "waveCalls": 248,
+  "dataSelection": "Original pre-test task IDs, their results/versions, pre-test messages/batches/deliveries, original campaigns and settings; appended test records excluded. Work batches have no timestamp; exclude IDs belonging to newly appended user messages."
+}

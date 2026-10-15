@@ -1,0 +1,15 @@
+
+Running 8 tests using 1 worker
+
+(node:4229) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/e2e/browser-popups.spec.ts:30:49 › 实际DOM关闭svg登录邀请，继续读取且不提交登录表单 (781ms)
+  ✓  2 tests/e2e/browser-popups.spec.ts:30:49 › 实际DOM关闭chinese登录邀请，继续读取且不提交登录表单 (559ms)
+  ✓  3 tests/e2e/browser-popups.spec.ts:30:49 › 实际DOM关闭later登录邀请，继续读取且不提交登录表单 (579ms)
+  ✓  4 tests/e2e/browser-popups.spec.ts:43:1 › 关闭名的提交按钮和删除账号按钮仍被拒绝 (490ms)
+  ✓  5 tests/e2e/browser-popups.spec.ts:50:1 › 实际DOM中关联外部登录表单的Close按钮不提交 (453ms)
+  ✓  6 tests/e2e/browser-popups.spec.ts:72:1 › 实际浏览器+Broker+Agent在过早人工请求时自行关闭或Escape后交付 (1.2s)
+  ✓  7 tests/e2e/browser-popups.spec.ts:90:1 › 真正的登录墙与验证码仍转同一VNC；禁止协助时保留unknown (1.1s)
+  ✓  8 tests/e2e/browser-popups.spec.ts:110:41 › 真实配置模型自主关闭登录邀请，核验原候选且不申请人工 (17.9s)
+
+  8 passed (25.7s)

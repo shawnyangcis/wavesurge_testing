@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-16",
+  "url": "http://101.201.237.219:33332",
+  "healthScore": 91,
+  "categoryScores": {
+    "console": 100,
+    "links": 100,
+    "visual": 100,
+    "functional": 77,
+    "ux": 89,
+    "performance": 77,
+    "content": 92,
+    "accessibility": 100
+  },
+  "weights": {
+    "console": 0.15,
+    "links": 0.1,
+    "visual": 0.1,
+    "functional": 0.2,
+    "ux": 0.15,
+    "performance": 0.1,
+    "content": 0.05,
+    "accessibility": 0.15
+  },
+  "issues": [
+    {
+      "id": "R6-01",
+      "severity": "medium",
+      "category": "validation",
+      "title": "Coverage gate failed"
+    },
+    {
+      "id": "R6-02",
+      "severity": "high",
+      "category": "functional/performance",
+      "title": "Large-history diagnostics unavailable"
+    },
+    {
+      "id": "R6-03",
+      "severity": "medium",
+      "category": "ux/performance",
+      "title": "Slow Campaign loading with false empty state"
+    },
+    {
+      "id": "F33",
+      "severity": "medium",
+      "category": "functional/content",
+      "title": "Reverification detail retains stale count"
+    },
+    {
+      "id": "R6-04",
+      "severity": "low",
+      "category": "ux",
+      "title": "Duplicate model and automatic terminal summary"
+    }
+  ],
+  "qualification": "Observed UI rubric, weighted 91.05 rounded to 91; not requirement-completion percentage, test pass rate, performance SLA or accessibility certification. Validation coverage tracked separately."
+}

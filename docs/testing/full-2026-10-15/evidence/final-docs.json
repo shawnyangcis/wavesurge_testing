@@ -1,0 +1,532 @@
+{
+  "startedAt": "2026-10-15T16:15:03.385Z",
+  "source": "Read-only actual public browser downloads of already completed tasks; no new messages or research.",
+  "checks": [
+    {
+      "id": "D03",
+      "passed": true
+    },
+    {
+      "id": "D07",
+      "passed": true
+    },
+    {
+      "id": "D04",
+      "passed": true
+    }
+  ],
+  "reports": [
+    {
+      "name": "original-20-final",
+      "path": "/api/reports/research-18e3b644726f0b2b0d473730",
+      "kind": "research",
+      "counts": {
+        "all": {
+          "records": 9,
+          "unique": 9,
+          "qualified": 0,
+          "qualifiedUnique": 0,
+          "selected": 0,
+          "selectedUnique": 0,
+          "unknown": 2,
+          "rejected": 7
+        },
+        "exported": {
+          "records": 9,
+          "unique": 9,
+          "qualified": 0,
+          "qualifiedUnique": 0,
+          "selected": 0,
+          "selectedUnique": 0,
+          "unknown": 2,
+          "rejected": 7
+        }
+      },
+      "records": 9,
+      "links": [
+        {
+          "text": "下载 JSON",
+          "href": "/api/reports/research-18e3b644726f0b2b0d473730?format=json"
+        },
+        {
+          "text": "下载含截图的离线 HTML",
+          "href": "/api/reports/research-18e3b644726f0b2b0d473730?view=offline"
+        }
+      ],
+      "json": {
+        "file": "original-20-final-download.json",
+        "filename": "creators.json",
+        "url": "http://101.201.237.219:33332/api/reports/research-18e3b644726f0b2b0d473730?format=json"
+      },
+      "csv": {
+        "file": "original-20-final.csv",
+        "source": "Actual result modal download completed earlier in final-docs browser"
+      },
+      "mobile": [
+        {
+          "width": 1440,
+          "scroll": 1440
+        },
+        {
+          "width": 768,
+          "scroll": 768
+        },
+        {
+          "width": 375,
+          "scroll": 375
+        }
+      ],
+      "groups": [
+        {
+          "id": "research-18e3b644726f0b2b0d473730",
+          "taskId": "research-18e3b644726f0b2b0d473730",
+          "title": "Instagram Geek穿搭与实际戴眼镜个人KOC筛选（20位分析预算）",
+          "requested": 20,
+          "selectionScope": "research",
+          "reviewNote": "族裔资料不足者待人工确认，明确不符者排除；名单已核验其他必选条件。",
+          "counts": {
+            "all": {
+              "records": 9,
+              "unique": 9,
+              "qualified": 0,
+              "qualifiedUnique": 0,
+              "selected": 0,
+              "selectedUnique": 0,
+              "unknown": 2,
+              "rejected": 7
+            },
+            "exported": {
+              "records": 9,
+              "unique": 9,
+              "qualified": 0,
+              "qualifiedUnique": 0,
+              "selected": 0,
+              "selectedUnique": 0,
+              "unknown": 2,
+              "rejected": 7
+            }
+          }
+        }
+      ],
+      "workItems": []
+    },
+    {
+      "name": "campaign-final",
+      "path": "/api/campaigns/campaign-ef2301e05e0d6dc8a6e9d5ed/report",
+      "kind": "campaign",
+      "counts": {
+        "all": {
+          "records": 4,
+          "unique": 2,
+          "qualified": 4,
+          "qualifiedUnique": 2,
+          "selected": 2,
+          "selectedUnique": 2,
+          "unknown": 0,
+          "rejected": 0
+        },
+        "exported": {
+          "records": 2,
+          "unique": 2,
+          "qualified": 2,
+          "qualifiedUnique": 2,
+          "selected": 2,
+          "selectedUnique": 2,
+          "unknown": 0,
+          "rejected": 0
+        }
+      },
+      "records": 2,
+      "links": [
+        {
+          "text": "下载 JSON",
+          "href": "/api/campaigns/campaign-ef2301e05e0d6dc8a6e9d5ed/report?format=json"
+        },
+        {
+          "text": "下载含截图的离线 HTML",
+          "href": "/api/campaigns/campaign-ef2301e05e0d6dc8a6e9d5ed/report?view=offline"
+        },
+        {
+          "text": "下载 Campaign 最终名单 CSV",
+          "href": "/api/campaigns/campaign-ef2301e05e0d6dc8a6e9d5ed/report?format=csv"
+        }
+      ],
+      "json": {
+        "file": "campaign-final-download.json",
+        "filename": "campaign-creators.json",
+        "url": "http://101.201.237.219:33332/api/campaigns/campaign-ef2301e05e0d6dc8a6e9d5ed/report?format=json"
+      },
+      "csv": {
+        "file": "campaign-final.csv",
+        "filename": "campaign-creators.csv",
+        "url": "http://101.201.237.219:33332/api/campaigns/campaign-ef2301e05e0d6dc8a6e9d5ed/report?format=csv"
+      },
+      "mobile": [
+        {
+          "width": 1440,
+          "scroll": 1440
+        },
+        {
+          "width": 768,
+          "scroll": 768
+        },
+        {
+          "width": 375,
+          "scroll": 375
+        }
+      ],
+      "groups": [
+        {
+          "id": "practical_digital_experience",
+          "taskId": "research-29cb1e10bfcdf7b9ab7e5e1f",
+          "title": "实用数码体验",
+          "requested": 1,
+          "selectionScope": "campaign",
+          "counts": {
+            "all": {
+              "records": 2,
+              "unique": 2,
+              "qualified": 2,
+              "qualifiedUnique": 2,
+              "selected": 1,
+              "selectedUnique": 1,
+              "unknown": 0,
+              "rejected": 0
+            },
+            "exported": {
+              "records": 1,
+              "unique": 1,
+              "qualified": 1,
+              "qualifiedUnique": 1,
+              "selected": 1,
+              "selectedUnique": 1,
+              "unknown": 0,
+              "rejected": 0
+            }
+          }
+        },
+        {
+          "id": "life_efficiency_tools",
+          "taskId": "research-badb131f9a310bf1703b47fc",
+          "title": "生活效率工具",
+          "requested": 1,
+          "selectionScope": "campaign",
+          "counts": {
+            "all": {
+              "records": 2,
+              "unique": 2,
+              "qualified": 2,
+              "qualifiedUnique": 2,
+              "selected": 1,
+              "selectedUnique": 1,
+              "unknown": 0,
+              "rejected": 0
+            },
+            "exported": {
+              "records": 1,
+              "unique": 1,
+              "qualified": 1,
+              "qualifiedUnique": 1,
+              "selected": 1,
+              "selectedUnique": 1,
+              "unknown": 0,
+              "rejected": 0
+            }
+          }
+        }
+      ],
+      "workItems": []
+    },
+    {
+      "name": "two-groups-combined",
+      "path": "/api/work-batches/913359745ccf3fc8cebbc74474f9fe8f/report",
+      "kind": "work_batch",
+      "counts": {
+        "all": {
+          "records": 4,
+          "unique": 2,
+          "qualified": 4,
+          "qualifiedUnique": 2,
+          "selected": 2,
+          "selectedUnique": 1,
+          "unknown": 0,
+          "rejected": 0
+        },
+        "exported": {
+          "records": 4,
+          "unique": 2,
+          "qualified": 4,
+          "qualifiedUnique": 2,
+          "selected": 2,
+          "selectedUnique": 1,
+          "unknown": 0,
+          "rejected": 0
+        }
+      },
+      "records": 4,
+      "links": [
+        {
+          "text": "下载 JSON",
+          "href": "/api/work-batches/913359745ccf3fc8cebbc74474f9fe8f/report?format=json"
+        },
+        {
+          "text": "下载含截图的离线 HTML",
+          "href": "/api/work-batches/913359745ccf3fc8cebbc74474f9fe8f/report?view=offline"
+        }
+      ],
+      "json": {
+        "file": "two-groups-combined-download.json",
+        "filename": "creator-batch.json",
+        "url": "http://101.201.237.219:33332/api/work-batches/913359745ccf3fc8cebbc74474f9fe8f/report?format=json"
+      },
+      "csv": {
+        "file": "two-groups-combined.csv",
+        "url": "http://101.201.237.219:33332/api/work-batches/913359745ccf3fc8cebbc74474f9fe8f/report?format=csv",
+        "filename": "creator-batch.csv",
+        "source": "Actual final chat delivery link"
+      },
+      "mobile": [
+        {
+          "width": 1440,
+          "scroll": 1440
+        },
+        {
+          "width": 768,
+          "scroll": 768
+        },
+        {
+          "width": 375,
+          "scroll": 375
+        }
+      ],
+      "groups": [
+        {
+          "id": "research-1acff7bca1276c5b4ad92b43",
+          "taskId": "research-1acff7bca1276c5b4ad92b43",
+          "title": "第一组：数码产品使用经验文字研究",
+          "requested": 1,
+          "selectionScope": "research",
+          "counts": {
+            "all": {
+              "records": 2,
+              "unique": 2,
+              "qualified": 2,
+              "qualifiedUnique": 2,
+              "selected": 1,
+              "selectedUnique": 1,
+              "unknown": 0,
+              "rejected": 0
+            },
+            "exported": {
+              "records": 2,
+              "unique": 2,
+              "qualified": 2,
+              "qualifiedUnique": 2,
+              "selected": 1,
+              "selectedUnique": 1,
+              "unknown": 0,
+              "rejected": 0
+            }
+          }
+        },
+        {
+          "id": "research-b67b6656140bc99074e60074",
+          "taskId": "research-b67b6656140bc99074e60074",
+          "title": "第二组：科技产品具体用法文字研究",
+          "requested": 1,
+          "selectionScope": "research",
+          "counts": {
+            "all": {
+              "records": 2,
+              "unique": 2,
+              "qualified": 2,
+              "qualifiedUnique": 2,
+              "selected": 1,
+              "selectedUnique": 1,
+              "unknown": 0,
+              "rejected": 0
+            },
+            "exported": {
+              "records": 2,
+              "unique": 2,
+              "qualified": 2,
+              "qualifiedUnique": 2,
+              "selected": 1,
+              "selectedUnique": 1,
+              "unknown": 0,
+              "rejected": 0
+            }
+          }
+        }
+      ],
+      "workItems": [
+        {
+          "id": "research-1acff7bca1276c5b4ad92b43",
+          "title": "第一组：数码产品使用经验文字研究",
+          "requested": 1,
+          "evaluated": 2,
+          "unit": "个研究组名额"
+        },
+        {
+          "id": "research-b67b6656140bc99074e60074",
+          "title": "第二组：科技产品具体用法文字研究",
+          "requested": 1,
+          "evaluated": 2,
+          "unit": "个研究组名额"
+        }
+      ],
+      "identityPreserved": true
+    },
+    {
+      "name": "all-annotation-combined",
+      "path": "/api/work-batches/98bcd17d7c7a4e180d2f5f0feeba130c/report",
+      "kind": "work_batch",
+      "counts": {
+        "all": {
+          "records": 4,
+          "unique": 2,
+          "qualified": 4,
+          "qualifiedUnique": 2,
+          "selected": 2,
+          "selectedUnique": 1,
+          "unknown": 0,
+          "rejected": 0
+        },
+        "exported": {
+          "records": 4,
+          "unique": 2,
+          "qualified": 4,
+          "qualifiedUnique": 2,
+          "selected": 2,
+          "selectedUnique": 1,
+          "unknown": 0,
+          "rejected": 0
+        }
+      },
+      "records": 4,
+      "links": [
+        {
+          "text": "下载 JSON",
+          "href": "/api/work-batches/98bcd17d7c7a4e180d2f5f0feeba130c/report?format=json"
+        },
+        {
+          "text": "下载含截图的离线 HTML",
+          "href": "/api/work-batches/98bcd17d7c7a4e180d2f5f0feeba130c/report?view=offline"
+        }
+      ],
+      "json": {
+        "file": "all-annotation-combined-download.json",
+        "filename": "creator-batch.json",
+        "url": "http://101.201.237.219:33332/api/work-batches/98bcd17d7c7a4e180d2f5f0feeba130c/report?format=json"
+      },
+      "csv": {
+        "file": "all-annotation-combined.csv",
+        "url": "http://101.201.237.219:33332/api/work-batches/98bcd17d7c7a4e180d2f5f0feeba130c/report?format=csv",
+        "filename": "creator-batch.csv",
+        "source": "Actual final chat delivery link"
+      },
+      "mobile": [
+        {
+          "width": 1440,
+          "scroll": 1440
+        },
+        {
+          "width": 768,
+          "scroll": 768
+        },
+        {
+          "width": 375,
+          "scroll": 375
+        }
+      ],
+      "groups": [
+        {
+          "id": "research-1acff7bca1276c5b4ad92b43",
+          "taskId": "research-1acff7bca1276c5b4ad92b43",
+          "title": "第一组：数码产品使用经验文字研究",
+          "requested": 1,
+          "selectionScope": "research",
+          "counts": {
+            "all": {
+              "records": 2,
+              "unique": 2,
+              "qualified": 2,
+              "qualifiedUnique": 2,
+              "selected": 1,
+              "selectedUnique": 1,
+              "unknown": 0,
+              "rejected": 0
+            },
+            "exported": {
+              "records": 2,
+              "unique": 2,
+              "qualified": 2,
+              "qualifiedUnique": 2,
+              "selected": 1,
+              "selectedUnique": 1,
+              "unknown": 0,
+              "rejected": 0
+            }
+          }
+        },
+        {
+          "id": "research-b67b6656140bc99074e60074",
+          "taskId": "research-b67b6656140bc99074e60074",
+          "title": "第二组：科技产品具体用法文字研究",
+          "requested": 1,
+          "selectionScope": "research",
+          "counts": {
+            "all": {
+              "records": 2,
+              "unique": 2,
+              "qualified": 2,
+              "qualifiedUnique": 2,
+              "selected": 1,
+              "selectedUnique": 1,
+              "unknown": 0,
+              "rejected": 0
+            },
+            "exported": {
+              "records": 2,
+              "unique": 2,
+              "qualified": 2,
+              "qualifiedUnique": 2,
+              "selected": 1,
+              "selectedUnique": 1,
+              "unknown": 0,
+              "rejected": 0
+            }
+          }
+        }
+      ],
+      "workItems": [
+        {
+          "id": "enrich-4de121456cbd3dae832b18d0",
+          "title": "补充画像：第一组：数码产品使用经验文字研究",
+          "requested": 2,
+          "evaluated": 2,
+          "unit": "条补标/复核记录"
+        },
+        {
+          "id": "enrich-648e8877a2775df410ea5f16",
+          "title": "补充画像：第二组：科技产品具体用法文字研究",
+          "requested": 2,
+          "evaluated": 2,
+          "unit": "条补标/复核记录"
+        }
+      ],
+      "identityPreserved": true
+    }
+  ],
+  "pageErrors": [],
+  "originalOffline": {
+    "file": "original-20-final-offline.html",
+    "filename": "creators.html",
+    "url": "http://101.201.237.219:33332/api/reports/research-18e3b644726f0b2b0d473730?view=offline",
+    "elapsedMs": 20647,
+    "bytes": 8602050
+  },
+  "campaignDrawer": "CAMPAIGN / STRATEGY\nCampaign 方案\n关闭\n\n在对话中描述产品、受众和目标，助手会与你共同确定创作者类型、范围和配额。\n\n部分完成\n大学生降噪耳机推广 Campaign 草案 1791572085141 · v2\n\n推广面向大学生的降噪耳机，提高产品认知和购买意愿。总计筛选2位不同Instagram账号，每组1位；每组候选上限2，总候选预算4。不要求邮箱，不做外联。仅保存草案，不启动搜索。\n\n去重入选 0/2\n\n查看方案与配额\n部分完成\n耳机 Campaign 独立候选发现 · v1\n\n推广面向大学生的降噪耳机，提高产品认知和购买意愿。筛选2位不同Instagram账号，两组各1位，每组候选上限2，总候选预算4。跨组去重由本地系统完成。不要求邮箱，不做外联。仅保存新草案，不启动搜索，保留原Campaign及其报告。\n\n去重入选 1/2\n\n查看方案与配额\n部分完成\nCampaign 去重集成夹具 dedup-1791573538424 · v1\n\n控制性测试：两个类型各需一个账号；同一账号不能同时占两个配额\n\n去重入选 0/2\n\n查看方案与配额\n部分完成\nCampaign 去重集成夹具 dedup-1791573692129 · v1\n\n控制性测试：两个类型各需一个账号；同一账号不能同时占两个配额\n\n去重入选 0/2\n\n查看方案与配额\n配额已满足\nCampaign 去重集成夹具 dedup-1791574112055 · v1\n\n控制性测试：两个类型各需一个账号；同一账号不能同时占两个配额\n\n去重入选 2/2\n\n查看方案与配额\n待确认方案\nAI笔记 Campaign 目标验证 1791575156045 · v1\n\n推广 AI 笔记应用，让大学生在课堂笔记整理与考试复习场景中试用。筛选2位不同账号，两个互补类型各1位，每组最多核验2个返回候选，总候选预算4。仅保存草案，不启动研究。基于公开文字内容筛选，不推断真实学生身份；产品具体功能与试用机制尚未确认，不擅自添加要求。\n\n去重入选 0/2\n\n查看方案与配额\n部分完成\nReview原题条件保真测试 · v1\n\n独立筛选20位符合全部必选条件的 Instagram KOC；保存单组筛选草案，候选上限40，不启动搜索。不沿用历史筛选条件。\n\n去重入选 0/20\n\n查看方案与配额\n部分完成\nReview自然目标规划 · v2\n\n推广面向大学生的 AI 笔记应用，提升课堂笔记整理与考试复习场景的试用率。筛选两个互补类型各1位，共2个不同账号，每类候选上限2，总候选上限4。仅保存草案，不启动搜索。产品具体功能和试用机制未确认，不添加相应硬性要求。\n\n去重入选 0/2\n\n查看方案与配额\n部分完成\n200美元机械键盘美国Instagram新品认知种草 · v2\n\n为售价200美元、卖点为手感好、有线无线双模、比较静音的机械键盘建立新品认知。合作方式仅寄样，无现金预算；不能据公开账号资料保证接受寄样，合作意愿待后续确认。目标10个不同账号，总逐人分析预算40。不执行外联。\n\n去重入选 0/10\n\n查看方案与配额\n配额已满足\n十月新品认知验收 · v2\n\n为智能生活设备建立新品认知，让目标受众认识产品及其实际使用价值。这轮主要看产品认知，不以直接带货成交为首要指标。两组各选1位，共2个不同Instagram账号，同一平台账号只能占一个组配额。每组完整分析指定两位，合计4条组内分析记录、2个去重账号，总候选分析预算4；不能选到1位就停止。仅核验已有文字，不打开网页、不扩展搜索。保留先前研究与结果。本次仅保存独立草案，待用户确认后启动。产品型号、价格和具体卖点未提供，不额外添加相应筛选条件。\n\n去重入选 2/2\n\n查看方案与配额\n十月新品认知验收 · v2\n\n受众：喜欢科技的年轻上班族；不要求创作者本人为上班族，也不将内容主题等同于粉丝年龄或职业构成证明。创作者地区不限。\n\n同一平台账号只占一个类型配额；没有可靠跨平台身份时不猜测合并。\n\n实用数码体验 · 1/1\n\n实用数码体验型通过分享自己实际使用数码产品的经验，帮助受众理解产品是什么、能带来哪些实际价值，为智能生活设备建立具体而易理解的初步认知。该作用是类型选择理由，不代表候选已体验本次产品或其粉丝构成已被证明。\n\ninstagram · 地区不限 · 10000–100000 粉丝\n\n候选上限 2 · 合格账号池 2\n\n必选：分享自己实际使用数码产品的经验（text）\n查看此类核验报告\n生活效率工具 · 1/1\n\n生活效率工具型通过分享科技产品或工具的实际用法，把功能与生活中的使用方式联系起来，帮助受众理解产品可以怎么用、与自己有什么关系，补充新品认知中的应用理解。不额外要求创作者本人是上班族或必须证明提升效率。\n\ninstagram · 地区不限 · 10000–100000 粉丝\n\n候选上限 2 · 合格账号池 2\n\n必选：分享科技产品或工具的实际用法（text）\n查看此类核验报告\n\n查看去重汇总报告 · 下载 JSON",
+  "passed": true,
+  "finishedAt": "2026-10-15T16:21:07.439Z"
+}

@@ -1,0 +1,131 @@
+{
+  "source": "Persisted observations from this round; no code-level cause inferred.",
+  "debugTimeoutMs": 60000,
+  "subsequentLocalAndPublicHealthTimeoutMs": 12000,
+  "observedCpuPercent": 106,
+  "observedMemoryGiB": 2.35,
+  "storedKindsBeforeRecovery": [
+    {
+      "kind": "asset",
+      "records": 484,
+      "bytes": 309314
+    },
+    {
+      "kind": "assistance",
+      "records": 14,
+      "bytes": 5744
+    },
+    {
+      "kind": "batch",
+      "records": 375,
+      "bytes": 1807569
+    },
+    {
+      "kind": "call",
+      "records": 1001,
+      "bytes": 659530944
+    },
+    {
+      "kind": "campaign",
+      "records": 9,
+      "bytes": 14557
+    },
+    {
+      "kind": "campaign-final",
+      "records": 7,
+      "bytes": 126
+    },
+    {
+      "kind": "campaign-state",
+      "records": 9,
+      "bytes": 2573
+    },
+    {
+      "kind": "checkpoint",
+      "records": 4,
+      "bytes": 6817
+    },
+    {
+      "kind": "data-migration",
+      "records": 5,
+      "bytes": 2028
+    },
+    {
+      "kind": "delivery",
+      "records": 67,
+      "bytes": 20558
+    },
+    {
+      "kind": "enrichment",
+      "records": 10,
+      "bytes": 5336
+    },
+    {
+      "kind": "message",
+      "records": 343,
+      "bytes": 157202
+    },
+    {
+      "kind": "research-execution",
+      "records": 3,
+      "bytes": 168
+    },
+    {
+      "kind": "result",
+      "records": 341,
+      "bytes": 436499025
+    },
+    {
+      "kind": "result-history",
+      "records": 78,
+      "bytes": 7299613
+    },
+    {
+      "kind": "result-recovery",
+      "records": 2,
+      "bytes": 340
+    },
+    {
+      "kind": "session",
+      "records": 186,
+      "bytes": 5022
+    },
+    {
+      "kind": "settings",
+      "records": 3,
+      "bytes": 6357
+    },
+    {
+      "kind": "task",
+      "records": 58,
+      "bytes": 436272652
+    },
+    {
+      "kind": "tool-owner",
+      "records": 72,
+      "bytes": 3475
+    },
+    {
+      "kind": "tool-receipt",
+      "records": 92,
+      "bytes": 1641163
+    },
+    {
+      "kind": "verification",
+      "records": 267,
+      "bytes": 321325414
+    },
+    {
+      "kind": "wave-call",
+      "records": 2601,
+      "bytes": 294444892
+    },
+    {
+      "kind": "work-batch",
+      "records": 25,
+      "bytes": 6688
+    }
+  ],
+  "recovery": "Normal app restart with named volumes retained; original records verified unchanged.",
+  "qualification": "Multiple host containers also restarted during client crashes. These observations do not establish that the application caused all host/client crashes."
+}

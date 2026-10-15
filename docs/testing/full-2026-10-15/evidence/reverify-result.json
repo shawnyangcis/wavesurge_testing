@@ -1,0 +1,348 @@
+{
+  "schemaVersion": "1.0",
+  "report": {
+    "id": "research-5f839373134e6ae65d429018",
+    "kind": "research",
+    "title": "YouTube 处理器与降噪原理教程研究（独立、仅已有文字）",
+    "updatedAt": 1792079831156,
+    "requested": 1,
+    "detail": "已选合格 0/1，已核验 2；证据不足者保持待核实。youtube：读取 2 条，基础条件排除 0 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。",
+    "reviewNote": null
+  },
+  "scope": {
+    "selectionOnly": false,
+    "filters": {
+      "taskId": null,
+      "tag": null,
+      "tagMode": null,
+      "platform": null,
+      "verdict": null
+    }
+  },
+  "counts": {
+    "all": {
+      "records": 2,
+      "unique": 2,
+      "qualified": 2,
+      "qualifiedUnique": 2,
+      "selected": 1,
+      "selectedUnique": 1,
+      "unknown": 0,
+      "rejected": 0
+    },
+    "exported": {
+      "records": 2,
+      "unique": 2,
+      "qualified": 2,
+      "qualifiedUnique": 2,
+      "selected": 1,
+      "selectedUnique": 1,
+      "unknown": 0,
+      "rejected": 0
+    }
+  },
+  "groups": [
+    {
+      "id": "research-5f839373134e6ae65d429018",
+      "taskId": "research-5f839373134e6ae65d429018",
+      "title": "YouTube 处理器与降噪原理教程研究（独立、仅已有文字）",
+      "requested": 1,
+      "selectionScope": "research",
+      "counts": {
+        "all": {
+          "records": 2,
+          "unique": 2,
+          "qualified": 2,
+          "qualifiedUnique": 2,
+          "selected": 1,
+          "selectedUnique": 1,
+          "unknown": 0,
+          "rejected": 0
+        },
+        "exported": {
+          "records": 2,
+          "unique": 2,
+          "qualified": 2,
+          "qualifiedUnique": 2,
+          "selected": 1,
+          "selectedUnique": 1,
+          "unknown": 0,
+          "rejected": 0
+        }
+      }
+    }
+  ],
+  "workItems": [],
+  "results": [
+    {
+      "id": "research-5f839373134e6ae65d429018|youtube:http://wave-fixture:8087/creator/alice",
+      "taskId": "research-5f839373134e6ae65d429018",
+      "updatedAt": 1792079818429,
+      "revision": 2,
+      "verdict": "match",
+      "selected": true,
+      "reportContext": {
+        "sourceTaskTitle": "YouTube 处理器与降噪原理教程研究（独立、仅已有文字）",
+        "groupId": "research-5f839373134e6ae65d429018",
+        "groupTitle": "YouTube 处理器与降噪原理教程研究（独立、仅已有文字）",
+        "selectionScope": "research"
+      },
+      "reviewNote": null,
+      "judgments": [
+        {
+          "criterionId": "__profile_visit",
+          "verdict": "match",
+          "reason": "本轮已取得本人主页实际页面观察与截图；网页上的其他条件仍按各自证据判断",
+          "evidenceIds": [
+            "bba50a056ed38436acd0f397"
+          ],
+          "label": "本轮本人主页访问"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：youtube",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "主页显示 20.4K subscribers；保守区间 20350–20499，要求 0–9007199254740991",
+          "evidenceIds": [
+            "bba50a056ed38436acd0f397"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "processor_tutorial",
+          "verdict": "match",
+          "reason": "本轮已观察的受控夹具主页文字明确标注一则公开原创科技教程，发布日期为2026年10月9日，并说明讲解处理器（Explains processors）。据该教程文字支持本条件；此为测试账号，非真实社交账号。",
+          "evidenceIds": [
+            "bba50a056ed38436acd0f397"
+          ],
+          "label": "公开教程讲解处理器原理"
+        },
+        {
+          "criterionId": "noise_reduction_tutorial",
+          "verdict": "match",
+          "reason": "同一主页明确说明2026年10月9日的公开原创科技教程讲解降噪（noise cancellation），支持公开教程讲解降噪的文字条件。此结论限于受控夹具提供的页面描述，并非观看视频后的核验。",
+          "evidenceIds": [
+            "bba50a056ed38436acd0f397"
+          ],
+          "label": "公开教程讲解降噪原理"
+        }
+      ],
+      "tags": [
+        "科技教程",
+        "生产力工具",
+        "学生学习工作流"
+      ],
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "科技教程",
+            "生产力工具",
+            "学生学习工作流"
+          ],
+          "reason": "本轮主页简介明确列出Technology tutorials, productivity tools and student study workflows，另有处理器与降噪教程及Notion、番茄钟学习规划教程的文字说明。",
+          "evidenceIds": [
+            "bba50a056ed38436acd0f397"
+          ]
+        }
+      ],
+      "creator": {
+        "id": "youtube:http://wave-fixture:8087/creator/alice",
+        "platform": "youtube",
+        "handle": "",
+        "displayName": "受控夹具 alice",
+        "profileUrl": "http://wave-fixture:8087/creator/alice",
+        "followers": null,
+        "region": null,
+        "country": "US",
+        "facts": {
+          "conflicts": [],
+          "followers": {
+            "min": 20350,
+            "max": 20499,
+            "rawValue": "20.4K subscribers",
+            "evidenceIds": [
+              "bba50a056ed38436acd0f397"
+            ]
+          },
+          "country": {
+            "code": "US",
+            "rawValue": "Location: United States",
+            "evidenceIds": [
+              "bba50a056ed38436acd0f397"
+            ]
+          }
+        },
+        "engagement": null,
+        "photoUrls": [],
+        "evidence": [
+          {
+            "id": "41a22cd5e0b68893a736f301",
+            "url": "http://wave-fixture:8087/creator/alice",
+            "text": "这是受控验收账号，公开主页供真实浏览器核验。不是 WaveSurge 实际发现的社交账号。",
+            "kind": "profile",
+            "provider": "qa-controlled-fixture",
+            "publishedAt": null,
+            "capturedAt": 1792079764477,
+            "screenshotUrl": null
+          },
+          {
+            "id": "bba50a056ed38436acd0f397",
+            "url": "http://wave-fixture:8087/creator/alice",
+            "kind": "browser_snapshot",
+            "text": "Alice — controlled test creator, NOT a real social account\n\n20.4K subscribers\n\nLocation: United States\n\nTechnology tutorials, productivity tools and student study workflows.\n\nCHIP / CIRCUIT BOARD / HEADPHONES\n\nOriginal public technology tutorial, published October 9, 2026. Explains processors and noise cancellation.\n\nPresentation style: clear step-by-step teacher explanation, everyday casual clothing. There is no evidence of geek fashion.\n\nSTUDY WORKFLOW / NOTION / POMODORO\n\nOriginal public study efficiency tutorial, published October 8, 2026. For university students: organize lecture notes and assignment deadlines in Notion, use a 25-minute Pomodoro focus block, then test recall with flashcards to reduce distracted study time. Demonstrates the complete study planning workflow step by step.\n\nPresentation style: practical teacher explanation and on-screen productivity walkthrough.",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1792079805883,
+            "assetId": "d02348d0feab0652ea9e9e80942e6458e9a7a0dd928403052ec77013bed99a12",
+            "screenshotUrl": "/api/assets/d02348d0feab0652ea9e9e80942e6458e9a7a0dd928403052ec77013bed99a12"
+          }
+        ]
+      }
+    },
+    {
+      "id": "research-5f839373134e6ae65d429018|youtube:http://wave-fixture:8087/creator/bob",
+      "taskId": "research-5f839373134e6ae65d429018",
+      "updatedAt": 1792079831142,
+      "revision": 2,
+      "verdict": "match",
+      "selected": false,
+      "reportContext": {
+        "sourceTaskTitle": "YouTube 处理器与降噪原理教程研究（独立、仅已有文字）",
+        "groupId": "research-5f839373134e6ae65d429018",
+        "groupTitle": "YouTube 处理器与降噪原理教程研究（独立、仅已有文字）",
+        "selectionScope": "research"
+      },
+      "reviewNote": null,
+      "judgments": [
+        {
+          "criterionId": "__profile_visit",
+          "verdict": "match",
+          "reason": "本轮已取得本人主页实际页面观察与截图；网页上的其他条件仍按各自证据判断",
+          "evidenceIds": [
+            "0c52cafb6ea4c68db5a5884b"
+          ],
+          "label": "本轮本人主页访问"
+        },
+        {
+          "criterionId": "__platform",
+          "verdict": "match",
+          "reason": "创作者平台：youtube",
+          "evidenceIds": [],
+          "label": "平台"
+        },
+        {
+          "criterionId": "__followers",
+          "verdict": "match",
+          "reason": "主页显示 67.6K subscribers；保守区间 67550–67699，要求 0–9007199254740991",
+          "evidenceIds": [
+            "0c52cafb6ea4c68db5a5884b"
+          ],
+          "label": "粉丝范围"
+        },
+        {
+          "criterionId": "processor_tutorial",
+          "verdict": "match",
+          "reason": "本轮实际主页观察的文字将内容明确标为公开原创科技教程，并写明“Explains processors and noise cancellation”，支持讲解处理器原理的文字条件。该页面为受控测试夹具，不是真实社交账号；此判断仅针对所提供夹具内容。",
+          "evidenceIds": [
+            "0c52cafb6ea4c68db5a5884b"
+          ],
+          "label": "公开教程讲解处理器原理"
+        },
+        {
+          "criterionId": "noise_reduction_tutorial",
+          "verdict": "match",
+          "reason": "本轮实际主页观察明确称该公开科技教程讲解“noise cancellation”，支持降噪原理教程条件；页面标注教程发布日期为2026年10月9日，并非以采集时间推断。证据属于受控测试夹具，不代表真实YouTube账号已获核实。",
+          "evidenceIds": [
+            "0c52cafb6ea4c68db5a5884b"
+          ],
+          "label": "公开教程讲解降噪原理"
+        }
+      ],
+      "tags": [
+        "科技教育",
+        "耳机评测",
+        "处理器讲解",
+        "降噪讲解",
+        "数码产品演示"
+      ],
+      "annotations": [
+        {
+          "dimensionId": "content_direction",
+          "status": "supported",
+          "values": [
+            "科技教育",
+            "耳机评测",
+            "处理器讲解",
+            "降噪讲解",
+            "数码产品演示"
+          ],
+          "reason": "本轮夹具主页文字明确写有科技教育、耳机评测，以及处理器与降噪教程和数码演示；这些是内容方向，不是对本人外观的判断。",
+          "evidenceIds": [
+            "0c52cafb6ea4c68db5a5884b"
+          ]
+        }
+      ],
+      "creator": {
+        "id": "youtube:http://wave-fixture:8087/creator/bob",
+        "platform": "youtube",
+        "handle": "",
+        "displayName": "受控夹具 bob",
+        "profileUrl": "http://wave-fixture:8087/creator/bob",
+        "followers": null,
+        "region": null,
+        "country": "US",
+        "facts": {
+          "conflicts": [],
+          "followers": {
+            "min": 67550,
+            "max": 67699,
+            "rawValue": "67.6K subscribers",
+            "evidenceIds": [
+              "0c52cafb6ea4c68db5a5884b"
+            ]
+          },
+          "country": {
+            "code": "US",
+            "rawValue": "Location: United States",
+            "evidenceIds": [
+              "0c52cafb6ea4c68db5a5884b"
+            ]
+          }
+        },
+        "engagement": null,
+        "photoUrls": [],
+        "evidence": [
+          {
+            "id": "b1a3964a29cd07793976f609",
+            "url": "http://wave-fixture:8087/creator/bob",
+            "text": "这是受控验收账号，公开主页供真实浏览器核验。不是 WaveSurge 实际发现的社交账号。",
+            "kind": "profile",
+            "provider": "qa-controlled-fixture",
+            "publishedAt": null,
+            "capturedAt": 1792079764477,
+            "screenshotUrl": null
+          },
+          {
+            "id": "0c52cafb6ea4c68db5a5884b",
+            "url": "http://wave-fixture:8087/creator/bob",
+            "kind": "browser_snapshot",
+            "text": "Bob — controlled test creator, NOT a real social account\n\n67.6K subscribers\n\nLocation: United States\n\nTechnology education and headphone reviews.\n\nCHIP / CIRCUIT BOARD / HEADPHONES\n\nOriginal public technology tutorial, published October 9, 2026. Explains processors and noise cancellation.\n\nPresentation style: detailed geek technology enthusiast tutorials and gadget demonstrations.",
+            "provider": "headed-chromium",
+            "publishedAt": null,
+            "capturedAt": 1792079819327,
+            "assetId": "d3dfe79cb4c5b36d6299632981ca7a9cf8acd03a8fa79e79c57cb306b11f666c",
+            "screenshotUrl": "/api/assets/d3dfe79cb4c5b36d6299632981ca7a9cf8acd03a8fa79e79c57cb306b11f666c"
+          }
+        ]
+      }
+    }
+  ]
+}

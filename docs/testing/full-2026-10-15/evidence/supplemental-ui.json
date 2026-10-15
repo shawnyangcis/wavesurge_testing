@@ -1,0 +1,598 @@
+{
+  "source": "Fresh isolated production UI and actual model; explicitly controlled Wave/candidate pages.",
+  "checks": [
+    {
+      "id": "A02",
+      "label": "Empty and wrong login rejected",
+      "passed": true,
+      "at": "2026-10-15T15:28:44.893Z",
+      "evidence": 401
+    },
+    {
+      "id": "A04",
+      "label": "Image attachment removal",
+      "passed": true,
+      "at": "2026-10-15T15:28:45.400Z",
+      "evidence": true
+    },
+    {
+      "id": "A04",
+      "label": "Actual image response; no unsolicited research",
+      "passed": true,
+      "at": "2026-10-15T15:28:52.101Z",
+      "evidence": "这张参考图中：\n\n- **左侧：绿色**，约为 `#00B050`\n- **右侧：蓝色**，约为 `#0070C0`\n\n本次仅辨认颜色，不查找创作者，也不启动研究。"
+    },
+    {
+      "id": "U01",
+      "label": "Save settings with blank API key",
+      "passed": true,
+      "at": "2026-10-15T15:28:52.326Z",
+      "evidence": true
+    },
+    {
+      "id": "U01",
+      "label": "1999 token threshold rejected; stored settings unchanged",
+      "passed": true,
+      "at": "2026-10-15T15:28:52.432Z",
+      "evidence": 2
+    },
+    {
+      "id": "A02",
+      "label": "Empty and wrong login rejected",
+      "passed": true,
+      "at": "2026-10-15T15:34:11.752Z",
+      "evidence": 401
+    },
+    {
+      "id": "A04",
+      "label": "Image attachment removal",
+      "passed": true,
+      "at": "2026-10-15T15:34:12.487Z",
+      "evidence": true
+    },
+    {
+      "id": "A04",
+      "label": "Actual image response; no unsolicited research",
+      "passed": true,
+      "at": "2026-10-15T15:34:16.673Z",
+      "evidence": "- **左侧：绿色**，约为 `#00B050`\n- **右侧：蓝色**，约为 `#0070C0`\n\n本次仅确认颜色，不找创作者，也不启动研究。"
+    },
+    {
+      "id": "U01",
+      "label": "Save settings with blank API key",
+      "passed": true,
+      "at": "2026-10-15T15:34:16.887Z",
+      "evidence": true
+    },
+    {
+      "id": "U01",
+      "label": "1999 token threshold rejected; stored settings unchanged",
+      "passed": true,
+      "at": "2026-10-15T15:34:16.992Z",
+      "evidence": 3
+    },
+    {
+      "id": "U02",
+      "label": "Saved prompt used by next actual model call",
+      "passed": true,
+      "at": "2026-10-15T15:34:20.712Z",
+      "evidence": "R6设置验证1792078456992\n你好！这次只打招呼，不会开启新研究。"
+    },
+    {
+      "id": "U02",
+      "label": "Original prompt restored",
+      "passed": true,
+      "at": "2026-10-15T15:34:20.826Z",
+      "evidence": true
+    },
+    {
+      "id": "U04",
+      "label": "Active registered task retained after reset",
+      "passed": true,
+      "at": "2026-10-15T15:41:48.577Z",
+      "evidence": {
+        "tasks": [
+          {
+            "id": "research-f7d4927b195c2a1277da9a63",
+            "title": "YouTube 科技内容研究与内容方向标注",
+            "status": "partial",
+            "requested": 1,
+            "evaluated": 2,
+            "matched": 0,
+            "qualifying": 0,
+            "allowHumanAssistance": true,
+            "matchedMeaning": "研究组入选的合格账号数；合格候选总数见qualifying",
+            "updatedAt": 1792078908399,
+            "detail": "已选合格 0/1，已核验 2；证据不足者保持待核实。youtube：读取 2 条，基础条件排除 0 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。",
+            "remoteStatus": "done",
+            "nextPollAt": 1792078897063
+          }
+        ],
+        "reports": 1
+      }
+    },
+    {
+      "id": "A02",
+      "label": "Empty and wrong login rejected",
+      "passed": true,
+      "at": "2026-10-15T15:48:27.471Z",
+      "evidence": 401
+    },
+    {
+      "id": "A04",
+      "label": "Image attachment removal",
+      "passed": true,
+      "at": "2026-10-15T15:48:28.058Z",
+      "evidence": true
+    },
+    {
+      "id": "A04",
+      "label": "Actual image response; no unsolicited research",
+      "passed": true,
+      "at": "2026-10-15T15:48:31.749Z",
+      "evidence": "参考图左边是**绿色**，右边是**蓝色**。本次不查找创作者，也不开研究。"
+    },
+    {
+      "id": "U01",
+      "label": "Save settings with blank API key",
+      "passed": true,
+      "at": "2026-10-15T15:48:32.003Z",
+      "evidence": true
+    },
+    {
+      "id": "U01",
+      "label": "1999 token threshold rejected; stored settings unchanged",
+      "passed": true,
+      "at": "2026-10-15T15:48:32.112Z",
+      "evidence": 6
+    },
+    {
+      "id": "U02",
+      "label": "Saved prompt used by next actual model call",
+      "passed": true,
+      "at": "2026-10-15T15:48:35.975Z",
+      "evidence": "R6设置验证1792079312113\n你好！这次只打个招呼，不开新研究。"
+    },
+    {
+      "id": "U02",
+      "label": "Original prompt restored",
+      "passed": true,
+      "at": "2026-10-15T15:48:36.127Z",
+      "evidence": true
+    },
+    {
+      "id": "U03",
+      "label": "Actual backup download parses",
+      "passed": true,
+      "at": "2026-10-15T15:48:36.196Z",
+      "evidence": [
+        "format",
+        "messages",
+        "batches"
+      ]
+    },
+    {
+      "id": "U03",
+      "label": "Invalid backup rejected",
+      "passed": true,
+      "at": "2026-10-15T15:48:36.246Z",
+      "evidence": true
+    },
+    {
+      "id": "U05",
+      "label": "Active registered task retained after load",
+      "passed": true,
+      "at": "2026-10-15T15:49:04.129Z",
+      "evidence": {
+        "tasks": [
+          {
+            "id": "research-71945b3064d5948559c79802",
+            "title": "YouTube 科技内容研究与内容方向标注（仅文字，新独立研究）",
+            "status": "partial",
+            "requested": 1,
+            "evaluated": 2,
+            "matched": 0,
+            "qualifying": 0,
+            "allowHumanAssistance": true,
+            "matchedMeaning": "研究组入选的合格账号数；合格候选总数见qualifying",
+            "updatedAt": 1792079343825,
+            "detail": "已选合格 0/1，已核验 2；证据不足者保持待核实。youtube：读取 2 条，基础条件排除 0 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。",
+            "remoteStatus": "done",
+            "nextPollAt": 1792079334059
+          }
+        ],
+        "reports": 1
+      }
+    },
+    {
+      "id": "U08",
+      "label": "Active cancellation, continuous messages, no late results, old rows retained",
+      "passed": true,
+      "at": "2026-10-15T15:49:40.457Z",
+      "evidence": "research-72b0377532ae8df11f761b7c"
+    },
+    {
+      "id": "U09",
+      "label": "Same message ID idempotent; conflicting body rejected",
+      "passed": true,
+      "at": "2026-10-15T15:49:40.561Z",
+      "evidence": {
+        "same": 200,
+        "conflict": 409
+      }
+    },
+    {
+      "id": "A02",
+      "label": "Empty and wrong login rejected",
+      "passed": true,
+      "at": "2026-10-15T15:55:26.353Z",
+      "evidence": 401
+    },
+    {
+      "id": "A04",
+      "label": "Image attachment removal",
+      "passed": true,
+      "at": "2026-10-15T15:55:27.051Z",
+      "evidence": true
+    },
+    {
+      "id": "A04",
+      "label": "Actual image response; no unsolicited research",
+      "passed": true,
+      "at": "2026-10-15T15:55:31.883Z",
+      "evidence": "这张参考图左边是**绿色**，右边是**蓝色**。本次不找创作者，也不开研究。"
+    },
+    {
+      "id": "U01",
+      "label": "Save settings with blank API key",
+      "passed": true,
+      "at": "2026-10-15T15:55:32.165Z",
+      "evidence": true
+    },
+    {
+      "id": "U01",
+      "label": "1999 token threshold rejected; stored settings unchanged",
+      "passed": true,
+      "at": "2026-10-15T15:55:32.286Z",
+      "evidence": 9
+    },
+    {
+      "id": "U02",
+      "label": "Saved prompt used by next actual model call",
+      "passed": true,
+      "at": "2026-10-15T15:55:36.820Z",
+      "evidence": "R6设置验证1792079732288\n你好！这次只打个招呼，不开新研究。"
+    },
+    {
+      "id": "U02",
+      "label": "Original prompt restored",
+      "passed": true,
+      "at": "2026-10-15T15:55:36.968Z",
+      "evidence": true
+    },
+    {
+      "id": "U03",
+      "label": "Actual backup download parses",
+      "passed": true,
+      "at": "2026-10-15T15:55:37.040Z",
+      "evidence": [
+        "format",
+        "messages",
+        "batches"
+      ]
+    },
+    {
+      "id": "U03",
+      "label": "Invalid backup rejected",
+      "passed": true,
+      "at": "2026-10-15T15:55:37.085Z",
+      "evidence": true
+    },
+    {
+      "id": "U03",
+      "label": "Valid backup imported without new tasks",
+      "passed": true,
+      "at": "2026-10-15T15:55:37.213Z",
+      "evidence": true
+    },
+    {
+      "id": "U06",
+      "label": "Actual model nonempty history compression",
+      "passed": true,
+      "at": "2026-10-15T15:55:55.061Z",
+      "evidence": {
+        "until": "fda03447-aa47-43d5-9b6b-fed3da557fef",
+        "characters": 1170
+      }
+    },
+    {
+      "id": "A03",
+      "label": "11 unauthenticated routes refused",
+      "passed": true,
+      "at": "2026-10-15T15:55:55.435Z",
+      "evidence": [
+        {
+          "path": "/api/state",
+          "status": 401
+        },
+        {
+          "path": "/api/settings",
+          "status": 401
+        },
+        {
+          "path": "/api/debug",
+          "status": 401
+        },
+        {
+          "path": "/api/results",
+          "status": 401
+        },
+        {
+          "path": "/api/campaigns",
+          "status": 401
+        },
+        {
+          "path": "/api/backup",
+          "status": 401
+        },
+        {
+          "path": "/api/work-batches/missing/report",
+          "status": 401
+        },
+        {
+          "path": "/api/reports/missing?format=json",
+          "status": 401
+        },
+        {
+          "path": "/api/assets/missing",
+          "status": 401
+        },
+        {
+          "path": "/api/desktop",
+          "status": 401
+        },
+        {
+          "path": "/api/desktop/view/vnc.html",
+          "status": 401
+        }
+      ]
+    },
+    {
+      "id": "A03",
+      "label": "Cross-origin and invalid messages refused",
+      "passed": true,
+      "at": "2026-10-15T15:55:55.498Z",
+      "evidence": {
+        "origin": 403,
+        "badMessages": 4
+      }
+    },
+    {
+      "id": "U10",
+      "label": "Actual application mobile layout",
+      "passed": true,
+      "at": "2026-10-15T15:55:55.563Z",
+      "evidence": {
+        "width": 375,
+        "scroll": 375
+      }
+    },
+    {
+      "id": "A02",
+      "label": "Logout revokes actual session",
+      "passed": true,
+      "at": "2026-10-15T15:55:55.689Z",
+      "evidence": 401
+    },
+    {
+      "id": "V06",
+      "label": "Both existing candidates freshly observed; versions advanced",
+      "passed": true,
+      "at": "2026-10-15T15:57:11.587Z",
+      "evidence": [
+        {
+          "id": "research-5f839373134e6ae65d429018|youtube:http://wave-fixture:8087/creator/alice",
+          "verdict": "match",
+          "revision": 2,
+          "selected": true
+        },
+        {
+          "id": "research-5f839373134e6ae65d429018|youtube:http://wave-fixture:8087/creator/bob",
+          "verdict": "match",
+          "revision": 2,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "id": "R33",
+      "passed": false,
+      "evidence": {
+        "before": 0,
+        "passed": false,
+        "source": {
+          "id": "research-5f839373134e6ae65d429018",
+          "title": "YouTube 处理器与降噪原理教程研究（独立、仅已有文字）",
+          "status": "completed",
+          "requested": 1,
+          "evaluated": 2,
+          "matched": 1,
+          "qualifying": 2,
+          "allowHumanAssistance": true,
+          "matchedMeaning": "研究组入选的合格账号数；合格候选总数见qualifying",
+          "updatedAt": 1792079831156,
+          "detail": "已选合格 0/1，已核验 2；证据不足者保持待核实。youtube：读取 2 条，基础条件排除 0 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。",
+          "remoteStatus": "done",
+          "nextPollAt": 1792079765610
+        },
+        "card": "已完成\nYouTube 处理器与降噪原理教程研究（独立、仅已有文字）\n\n已核验 2 · 已入选 1 / 1\n\n已选合格 0/1，已核验 2；证据不足者保持待核实。youtube：读取 2 条，基础条件排除 0 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。\n查看结果"
+      }
+    }
+  ],
+  "pageErrors": [],
+  "reverificationDefect": {
+    "before": 0,
+    "passed": false,
+    "source": {
+      "id": "research-5f839373134e6ae65d429018",
+      "title": "YouTube 处理器与降噪原理教程研究（独立、仅已有文字）",
+      "status": "completed",
+      "requested": 1,
+      "evaluated": 2,
+      "matched": 1,
+      "qualifying": 2,
+      "allowHumanAssistance": true,
+      "matchedMeaning": "研究组入选的合格账号数；合格候选总数见qualifying",
+      "updatedAt": 1792079831156,
+      "detail": "已选合格 0/1，已核验 2；证据不足者保持待核实。youtube：读取 2 条，基础条件排除 0 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。",
+      "remoteStatus": "done",
+      "nextPollAt": 1792079765610
+    },
+    "card": "已完成\nYouTube 处理器与降噪原理教程研究（独立、仅已有文字）\n\n已核验 2 · 已入选 1 / 1\n\n已选合格 0/1，已核验 2；证据不足者保持待核实。youtube：读取 2 条，基础条件排除 0 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。\n查看结果"
+  },
+  "postChecks": [
+    {
+      "id": "U07",
+      "passed": true,
+      "replyAfterCompletion": true,
+      "reply": "刚查到最新状态：这项新研究**已经结束，不再运行**，状态为“已结束但有缺额”（partial）。\n\n- 已分析：**2/2位**\n- 合格候选：**0位**\n- 最终入选：**0/1位**\n- 缺额原因：现有文字证据不足，相关判断保留为待核实。\n\n本次仅查询状态，**没有新建或重启任务**。\n\n[查看研究报告](/api/reports/research-be379edd1801fab61d3eb984)",
+      "task": {
+        "id": "research-be379edd1801fab61d3eb984",
+        "title": "YouTube 科技教程内容研究（新独立研究，仅已有文字）",
+        "status": "partial",
+        "requested": 1,
+        "evaluated": 2,
+        "matched": 0,
+        "qualifying": 0,
+        "allowHumanAssistance": true,
+        "matchedMeaning": "研究组入选的合格账号数；合格候选总数见qualifying",
+        "updatedAt": 1792080601966,
+        "detail": "已选合格 0/1，已核验 2；证据不足者保持待核实。youtube：读取 2 条，基础条件排除 0 条；/discover/db?platform=youtube&limit=500&sort=fit_desc（有界名单，不代表全站穷尽）。",
+        "remoteStatus": "done",
+        "nextPollAt": 1792080591100
+      }
+    },
+    {
+      "id": "D05",
+      "passed": true,
+      "all": {
+        "records": 2,
+        "unique": 2,
+        "qualified": 2,
+        "qualifiedUnique": 2,
+        "selected": 1,
+        "selectedUnique": 1,
+        "unknown": 0,
+        "rejected": 0
+      },
+      "exported": {
+        "records": 0,
+        "unique": 0,
+        "qualified": 0,
+        "qualifiedUnique": 0,
+        "selected": 0,
+        "selectedUnique": 0,
+        "unknown": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "id": "U11",
+      "passed": true,
+      "evidence": {
+        "stateHashesIdentical": true,
+        "extraWaveCalls": 0,
+        "extraModelCalls": 0,
+        "extraReports": 0
+      }
+    }
+  ],
+  "normalRestart": {
+    "before": {
+      "task": {
+        "count": 11,
+        "sha256": "9fd7ff45a7165589b2a2f78c106ae060139f4397d135bbe4267accd908310187"
+      },
+      "result": {
+        "count": 14,
+        "sha256": "5844b65d32130ca4ce689a8e4fa295ddf87e082cd134bfefd8238d1382690b91"
+      },
+      "result-history": {
+        "count": 4,
+        "sha256": "94c57870f46f365a22bce2af1c9c3c58cbb31f9d9a5e4c228aab746f63844298"
+      },
+      "campaign": {
+        "count": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "message": {
+        "count": 290,
+        "sha256": "8d57adf1f2ef8eee2ece41bdf41c6a87688ec071840a5db63b4f62a9b1b72a12"
+      },
+      "delivery": {
+        "count": 11,
+        "sha256": "5a341790af9428648cefe224e725d5ea6f0886cf267a1b5a30ad14e78fd6f504"
+      },
+      "work-batch": {
+        "count": 11,
+        "sha256": "d8f06c4b4a139872ac39be76efb4d187730cd6b99a33ab0ccab0b57fd3db61f5"
+      },
+      "wave-call": {
+        "count": 11,
+        "sha256": "e0d98c8f69936e6417e4911de22e08703980b257cf7e8dd4b78edc909fe6a49b"
+      },
+      "call": {
+        "count": 71,
+        "sha256": "d62414a43cbf0fb29f3c1e899ae656b29f24a5b244e4c91e56a6d8fa9baad66c"
+      }
+    },
+    "after": {
+      "task": {
+        "count": 11,
+        "sha256": "9fd7ff45a7165589b2a2f78c106ae060139f4397d135bbe4267accd908310187"
+      },
+      "result": {
+        "count": 14,
+        "sha256": "5844b65d32130ca4ce689a8e4fa295ddf87e082cd134bfefd8238d1382690b91"
+      },
+      "result-history": {
+        "count": 4,
+        "sha256": "94c57870f46f365a22bce2af1c9c3c58cbb31f9d9a5e4c228aab746f63844298"
+      },
+      "campaign": {
+        "count": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "message": {
+        "count": 290,
+        "sha256": "8d57adf1f2ef8eee2ece41bdf41c6a87688ec071840a5db63b4f62a9b1b72a12"
+      },
+      "delivery": {
+        "count": 11,
+        "sha256": "5a341790af9428648cefe224e725d5ea6f0886cf267a1b5a30ad14e78fd6f504"
+      },
+      "work-batch": {
+        "count": 11,
+        "sha256": "d8f06c4b4a139872ac39be76efb4d187730cd6b99a33ab0ccab0b57fd3db61f5"
+      },
+      "wave-call": {
+        "count": 11,
+        "sha256": "e0d98c8f69936e6417e4911de22e08703980b257cf7e8dd4b78edc909fe6a49b"
+      },
+      "call": {
+        "count": 71,
+        "sha256": "d62414a43cbf0fb29f3c1e899ae656b29f24a5b244e4c91e56a6d8fa9baad66c"
+      }
+    },
+    "identical": true
+  },
+  "compressionBoundary": {
+    "source": "Read-only actual owned application backup after the normal app/desktop restart.",
+    "checkpointPersisted": true,
+    "checkpointUntil": "fda03447-aa47-43d5-9b6b-fed3da557fef",
+    "checkpointCharacters": 1170,
+    "checkpointBatchIndex": 23,
+    "latestUserAtCompressionBatchIndex": 24,
+    "latestUserRemainsAfterBoundary": true
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "at": "2026-10-15T16:41:52.273558+00:00",
+  "credentialExactMatchScan": "passed; known bootstrap passwords, model/provider keys and tokens checked internally; values not published",
+  "credentialMatches": 0,
+  "privateDatabaseBackupAndTracePublished": false,
+  "relativeMarkdownLinks": 236,
+  "missingLinks": 0,
+  "caseCount": 56,
+  "caseOutcomes": {
+    "passed": 50,
+    "partial": 1,
+    "failed": 5
+  },
+  "screenshotCount": 43,
+  "screenshotHashes": "all match",
+  "sourceFilesUnchanged": 63,
+  "originalBusinessData": "all audited kinds unchanged",
+  "newBusinessTasks": "all terminal",
+  "finalHealth": [
+    {
+      "url": "http://127.0.0.1:3000/api/health",
+      "status": 200
+    },
+    {
+      "url": "http://101.201.237.219:33332/api/health",
+      "status": 200
+    }
+  ],
+  "ownedTestContainersRemoved": true,
+  "ownedTestVolumesRetained": [
+    "creator-studio-r6-20261015-persistence_desktop-secrets",
+    "creator-studio-r6-20261015-persistence_desktop-state",
+    "creator-studio-r6-20261015-persistence_studio-data",
+    "creator-studio-r6-20261015_desktop-secrets",
+    "creator-studio-r6-20261015_desktop-state",
+    "creator-studio-r6-20261015_studio-data",
+    "creator-studio-r6-edge_desktop-secrets",
+    "creator-studio-r6-edge_desktop-state",
+    "creator-studio-r6-edge_studio-data",
+    "creator-studio-r6-history_desktop-secrets",
+    "creator-studio-r6-history_desktop-state",
+    "creator-studio-r6b-20261015-persistence_desktop-secrets",
+    "creator-studio-r6b-20261015-persistence_desktop-state",
+    "creator-studio-r6b-20261015-persistence_studio-data",
+    "creator-studio-r6b-20261015_desktop-secrets",
+    "creator-studio-r6b-20261015_desktop-state",
+    "creator-studio-r6b-20261015_studio-data",
+    "creator-studio-r6c-20261015-persistence_desktop-secrets",
+    "creator-studio-r6c-20261015-persistence_desktop-state",
+    "creator-studio-r6c-20261015-persistence_studio-data",
+    "creator-studio-r6c-20261015_desktop-secrets",
+    "creator-studio-r6c-20261015_desktop-state",
+    "creator-studio-r6c-20261015_studio-data"
+  ],
+  "mainApplication": "running; not stopped during cleanup",
+  "structuredSampleCount": 14,
+  "status": "passed"
+}

@@ -1,0 +1,33 @@
+{
+  "typecheck": "passed",
+  "build": "passed",
+  "unit": {
+    "files": 38,
+    "tests": 315,
+    "failed": 0
+  },
+  "coverage": {
+    "passed": false,
+    "runs": 2,
+    "threshold": "100% per file, not modified",
+    "statements": 99.47,
+    "branches": 98.34,
+    "functions": 98.94,
+    "lines": 99.68
+  },
+  "fullDockerAcceptance": {
+    "passed": 5,
+    "failed": 0,
+    "duration": "6.0m",
+    "realModel": true,
+    "controlledSources": true,
+    "cleanProject": "creator-studio-r6c-20261015"
+  },
+  "browserPopups": {
+    "passed": 8,
+    "failed": 0,
+    "durationSeconds": 25.7,
+    "realModelCase": true
+  },
+  "interruptedRuns": "Earlier host/client-interrupted runs and harness locator/timeout/contract mistakes are retained privately and are not counted as complete acceptance passes. Existing completed tasks were resumed/read back; no results fabricated."
+}

@@ -1,0 +1,53 @@
+
+ RUN  v5.0.3 /Users/shawn/coding/projects/wavesurge/wavesurge_testing
+      Coverage enabled with v8
+
+
+ Test Files  38 passed (38)
+      Tests  315 passed (315)
+   Start at  22:18:08
+   Duration  24.58s (tests 43%, environment 26%, import 23%, transform 4%, worker 4%)
+
+    Isolate  38 workers spawned · ~875ms startup each (spawn + environment, per file)
+             at least ~7.44s faster with isolate: false — reuses workers across files instead of one per file
+
+ % Coverage report from v8
+-------------------|---------|----------|---------|---------|-------------------
+File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------------|---------|----------|---------|---------|-------------------
+All files          |   99.47 |    98.34 |   98.94 |   99.68 |                   
+ client            |     100 |     98.9 |     100 |     100 |                   
+  App.tsx          |     100 |    98.59 |     100 |     100 | 67                
+  Campaigns.tsx    |     100 |    93.75 |     100 |     100 | 11                
+ desktop           |   93.64 |    85.27 |    87.8 |   95.45 |                   
+  runtime.ts       |   88.04 |    76.22 |      75 |   91.48 | 26-29             
+ server            |   99.77 |    99.34 |    99.5 |   99.92 |                   
+  ...r-verifier.ts |   97.85 |    96.22 |      95 |   99.07 | 73                
+  campaign-api.ts  |   97.61 |    93.33 |   93.75 |     100 | 13,15             
+  reports.ts       |     100 |    97.87 |     100 |     100 | 21,33,39-47       
+  settings.ts      |     100 |    97.61 |     100 |     100 | 26                
+  work-delivery.ts |     100 |    98.76 |     100 |     100 | 32                
+-------------------|---------|----------|---------|---------|-------------------
+
+=============================== Coverage summary ===============================
+Statements   : 99.47% ( 3192/3209 )
+Branches     : 98.34% ( 2785/2832 )
+Functions    : 98.94% ( 752/760 )
+Lines        : 99.68% ( 1584/1589 )
+================================================================================
+ERROR: Coverage for branches (98.59%) does not meet global threshold (100%) for src/client/App.tsx
+ERROR: Coverage for branches (93.75%) does not meet global threshold (100%) for src/client/Campaigns.tsx
+ERROR: Coverage for lines (91.48%) does not meet global threshold (100%) for src/desktop/runtime.ts
+ERROR: Coverage for functions (75%) does not meet global threshold (100%) for src/desktop/runtime.ts
+ERROR: Coverage for statements (88.04%) does not meet global threshold (100%) for src/desktop/runtime.ts
+ERROR: Coverage for branches (76.22%) does not meet global threshold (100%) for src/desktop/runtime.ts
+ERROR: Coverage for lines (99.07%) does not meet global threshold (100%) for src/server/browser-verifier.ts
+ERROR: Coverage for functions (95%) does not meet global threshold (100%) for src/server/browser-verifier.ts
+ERROR: Coverage for statements (97.85%) does not meet global threshold (100%) for src/server/browser-verifier.ts
+ERROR: Coverage for branches (96.22%) does not meet global threshold (100%) for src/server/browser-verifier.ts
+ERROR: Coverage for functions (93.75%) does not meet global threshold (100%) for src/server/campaign-api.ts
+ERROR: Coverage for statements (97.61%) does not meet global threshold (100%) for src/server/campaign-api.ts
+ERROR: Coverage for branches (93.33%) does not meet global threshold (100%) for src/server/campaign-api.ts
+ERROR: Coverage for branches (97.87%) does not meet global threshold (100%) for src/server/reports.ts
+ERROR: Coverage for branches (97.61%) does not meet global threshold (100%) for src/server/settings.ts
+ERROR: Coverage for branches (98.76%) does not meet global threshold (100%) for src/server/work-delivery.ts
