@@ -2,6 +2,7 @@ import { resultReviewNote } from '../shared/screening.ts';
 import type { Result } from '../shared/research.ts';
 import type { ReportTask } from './report-scope.ts';
 import { creatorIdentity } from './canonical.ts';
+import type { ResultFilter } from './result-filter.ts';
 export function escapeHtml(text: string) { return text.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;').replaceAll("'", '&#39;'); }
 export function safeLink(value: string) { return /^https?:\/\//i.test(value) ? escapeHtml(value) : '#'; }
 function cell(value: string) { const safe = /^[=+@-]/.test(value) ? `'${value}` : value; return `"${safe.replaceAll('"', '""')}"`; }
@@ -14,6 +15,30 @@ export function resultCounts(results: Result[]) {
   const qualified = results.filter(result => result.verdict === 'match'), selected = qualified.filter(result => result.selected === true);
   const unique = (rows: Result[]) => new Set(rows.map(result => creatorIdentity(result.creator))).size;
   return { records: results.length, unique: unique(results), qualified: qualified.length, qualifiedUnique: unique(qualified), selected: selected.length, selectedUnique: unique(selected), unknown: results.filter(result => result.verdict === 'unknown').length, rejected: results.filter(result => result.verdict === 'no_match').length };
+}
+// Public export projection: never include provider raw payloads or internal task state.
+export function jsonReport(task: ReportTask, results: Result[], allResults = results, options: { kind?: 'research' | 'campaign' | 'work_batch'; filters?: ResultFilter; selectionOnly?: boolean } = {}) {
+  const groups = task.reportGroups ?? [{ id: task.id, taskId: task.id, title: task.title, requested: task.requested, selectionScope: 'research' as const, reviewNote: task.reviewNote }];
+  const { taskId, tag, tagMode, platform, verdict } = options.filters ?? {};
+  return {
+    schemaVersion: '1.0',
+    report: { id: task.id, kind: options.kind ?? 'research', title: task.title, updatedAt: task.updatedAt, requested: task.requested, detail: task.detail, reviewNote: task.reviewNote ?? null },
+    scope: { selectionOnly: options.selectionOnly ?? false, filters: { taskId: taskId ?? null, tag: tag ?? null, tagMode: tag ? tagMode ?? 'contains' : null, platform: platform ?? null, verdict: verdict ?? null } },
+    counts: { all: resultCounts(allResults), exported: resultCounts(results) },
+    groups: groups.map(group => ({ ...group, counts: { all: resultCounts(allResults.filter(row => row.taskId === group.taskId)), exported: resultCounts(results.filter(row => row.taskId === group.taskId)) } })),
+    workItems: task.workItems ?? [],
+    results: results.map(result => ({
+      id: result.id, taskId: result.taskId, updatedAt: result.updatedAt, revision: result.revision ?? null,
+      verdict: result.verdict, selected: result.verdict === 'match' && result.selected === true,
+      reportContext: result.reportContext ?? { sourceTaskTitle: task.title, groupId: result.taskId, groupTitle: task.title, selectionScope: 'research' },
+      reviewNote: resultReviewNote(result) || null, judgments: result.judgments, tags: result.tags, annotations: result.annotations ?? [],
+      creator: { id: result.creator.id, platform: result.creator.platform, handle: result.creator.handle, displayName: result.creator.displayName,
+        profileUrl: result.creator.profileUrl, followers: result.creator.followers, region: result.creator.region,
+        country: result.creator.facts?.country?.code ?? result.creator.region ?? null,
+        facts: result.creator.facts ?? null, engagement: result.creator.engagement ?? null, photoUrls: result.creator.photoUrls ?? [],
+        evidence: result.creator.evidence.map(evidence => ({ ...evidence, screenshotUrl: evidence.assetId ? `/api/assets/${encodeURIComponent(evidence.assetId)}` : null })) }
+    }))
+  };
 }
 export function csvReport(task: ReportTask, results: Result[]) {
   const header = '账号,平台,粉丝数,地区,本地判断,标签,链接,逐条件核验,证据映射,入选,画像标注,基础事实,互动率及样本,照片资源,记录ID,来源任务ID,来源任务标题,分组ID,分组名称,入选口径,CampaignID,Campaign标题,分配分组ID,分配分组名称,独立研究预选,待人工确认条件,自动入选范围';
@@ -37,7 +62,10 @@ export function resultReport(result: Result, image?: (id: string) => string, exp
   return `<article data-result-id="${escapeHtml(result.id)}" data-source-task-id="${escapeHtml(result.taskId)}" data-selected="${selected}" data-group-id="${escapeHtml(context?.groupId ?? result.taskId)}"><h3><a href="${safeLink(result.creator.profileUrl)}">${escapeHtml(result.creator.displayName)}</a> · ${review && result.verdict === 'match' ? '符合已核实条件' : verdict[result.verdict]}${selection}</h3>${review ? `<p class="review-note">${escapeHtml(review)}</p>` : ''}${origin}${allocation}<p>${escapeHtml(result.creator.platform)} / @${escapeHtml(result.creator.handle)} / 粉丝 ${escapeHtml(String(result.creator.followers ?? result.creator.facts?.followers?.rawValue ?? '未知'))} / ${escapeHtml(result.creator.facts?.country?.code ?? result.creator.region ?? '未知')}</p>${result.creator.engagement ? `<p>近期互动率：${result.creator.engagement.rate === null ? '未知' : `${(result.creator.engagement.rate * 100).toFixed(2)}%`}；样本 ${result.creator.engagement.sampleSize} 条；算法 ${escapeHtml(result.creator.engagement.formula)}</p>` : ''}<p>标签：${result.tags.map(escapeHtml).join('、')}</p>${(result.annotations ?? []).map(item => `<p>画像 ${escapeHtml(item.dimensionId)}：${item.status === 'supported' ? item.values.map(escapeHtml).join('、') : '待核实'}；${escapeHtml(item.reason)}；证据 ${item.evidenceIds.map(escapeHtml).join('、')}</p>`).join('')}<table><tr><th>条件</th><th>判断</th><th>依据</th></tr>${result.judgments.map(item => `<tr data-criterion-id="${escapeHtml(item.criterionId)}"><td>${escapeHtml(item.label ?? item.criterionId)}</td><td>${item.reviewOnly && item.verdict === 'unknown' ? '待人工确认' : verdict[item.verdict]}</td><td>${escapeHtml(item.reason)}<br>${item.evidenceIds.map(id => { const evidence = result.creator.evidence.find(source => source.id === id)!; return `<a href="${safeLink(evidence.url)}">${escapeHtml(evidence.kind)} ${escapeHtml(evidence.publishedAt ?? '日期未知')}</a>`; }).join('<br>')}</td></tr>`).join('')}</table>${evidenceReport(result, image, expanded)}</article>`;
 }
 export function reportDocument(title: string, body: string, offlineUrl?: string) {
-  if (offlineUrl) body = `<p><a href="${escapeHtml(offlineUrl)}" download>下载含截图的离线 HTML</a>（文件较大；在线查看按需加载截图）</p>` + body;
+  if (offlineUrl) {
+    const jsonUrl = new URL(offlineUrl, 'http://studio.local'); jsonUrl.searchParams.delete('view'); jsonUrl.searchParams.set('format', 'json');
+    body = `<p><a href="${escapeHtml(jsonUrl.pathname + jsonUrl.search)}" download>下载 JSON</a> · <a href="${escapeHtml(offlineUrl)}" download>下载含截图的离线 HTML</a>（文件较大；在线查看按需加载截图）</p>` + body;
+  }
   return `<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${escapeHtml(title)}</title><style>body{font:15px/1.9 sans-serif;max-width:960px;margin:48px auto;padding:0 24px;color:#233c37;background:#f5f3ed}article{border-top:1px solid #bfcabb;padding:24px 0}a{color:#285d48}small{color:#69786b}table{border-collapse:collapse;width:100%;table-layout:fixed}td,th{text-align:left;border-bottom:1px solid #dedfd6;padding:10px;vertical-align:top;overflow-wrap:anywhere}td:first-child,th:first-child{width:24%}td:nth-child(2),th:nth-child(2){width:6.5em;white-space:nowrap}p,h2,h3,pre{overflow-wrap:anywhere}.report-group{margin:28px 0}.report-summary{padding:16px;background:#e8eee5}details pre{white-space:pre-wrap}</style>${body}</html>`;
 }
 export function htmlReport(task: ReportTask, results: Result[], image?: (id: string) => string, allResults = results, offlineUrl?: string) {

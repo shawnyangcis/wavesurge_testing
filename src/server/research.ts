@@ -57,7 +57,7 @@ export class ResearchEngine {
     if (notify && !task.deliveryBatchId && !task.parentCampaignId && ['completed', 'partial', 'failed', 'cancelled'].includes(task.status)) {
       const results = this.results(task.id);
       deliverReport(this.store, task.id, { status: task.status, matched: task.matched, evaluated: task.evaluated, results: results.map(result => [result.id, result.updatedAt]) },
-        `研究「${task.title}」${task.status === 'completed' ? '已完成' : task.status === 'partial' ? '已结束，仍有缺额' : task.status === 'cancelled' ? '已取消' : '未完成'}。已入选 ${task.matched}/${task.requested} 人，已查看 ${task.evaluated} 人。${task.reviewNote ? `\n\n${task.reviewNote}` : ''}\n\n[查看完整报告](/api/reports/${task.resultTaskId ?? task.id}) · [下载 CSV](/api/reports/${task.resultTaskId ?? task.id}?format=csv)`, this.now());
+        `研究「${task.title}」${task.status === 'completed' ? '已完成' : task.status === 'partial' ? '已结束，仍有缺额' : task.status === 'cancelled' ? '已取消' : '未完成'}。已入选 ${task.matched}/${task.requested} 人，已查看 ${task.evaluated} 人。${task.reviewNote ? `\n\n${task.reviewNote}` : ''}\n\n[查看完整报告](/api/reports/${task.resultTaskId ?? task.id}) · [下载 CSV](/api/reports/${task.resultTaskId ?? task.id}?format=csv) · [下载 JSON](/api/reports/${task.resultTaskId ?? task.id}?format=json)`, this.now());
     }
     if (notify && ['completed', 'partial', 'failed', 'cancelled'].includes(task.status)) { this.onProgress(); deliverWorkBatches(this.store, this.now()); }
     });

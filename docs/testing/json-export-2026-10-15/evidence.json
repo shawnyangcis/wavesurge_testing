@@ -1,0 +1,168 @@
+{
+  "base": "http://101.201.237.219:33332",
+  "startedAt": "2026-10-15T14:08:24.197Z",
+  "checks": [
+    {
+      "filename": "creators.json",
+      "url": "http://101.201.237.219:33332/api/reports/research-f43a778f97034963308dc62d?format=json",
+      "kind": "research",
+      "counts": {
+        "all": {
+          "records": 1,
+          "unique": 1,
+          "qualified": 1,
+          "qualifiedUnique": 1,
+          "selected": 1,
+          "selectedUnique": 1,
+          "unknown": 0,
+          "rejected": 0
+        },
+        "exported": {
+          "records": 1,
+          "unique": 1,
+          "qualified": 1,
+          "qualifiedUnique": 1,
+          "selected": 1,
+          "selectedUnique": 1,
+          "unknown": 0,
+          "rejected": 0
+        }
+      }
+    },
+    {
+      "filename": "creators.json",
+      "url": "http://101.201.237.219:33332/api/reports/research-f43a778f97034963308dc62d?format=json&verdict=no_match",
+      "kind": "research",
+      "counts": {
+        "all": {
+          "records": 1,
+          "unique": 1,
+          "qualified": 1,
+          "qualifiedUnique": 1,
+          "selected": 1,
+          "selectedUnique": 1,
+          "unknown": 0,
+          "rejected": 0
+        },
+        "exported": {
+          "records": 0,
+          "unique": 0,
+          "qualified": 0,
+          "qualifiedUnique": 0,
+          "selected": 0,
+          "selectedUnique": 0,
+          "unknown": 0,
+          "rejected": 0
+        }
+      }
+    },
+    {
+      "filename": "creators.json",
+      "url": "http://101.201.237.219:33332/api/reports/research-f43a778f97034963308dc62d?verdict=no_match&format=json",
+      "kind": "research",
+      "counts": {
+        "all": {
+          "records": 1,
+          "unique": 1,
+          "qualified": 1,
+          "qualifiedUnique": 1,
+          "selected": 1,
+          "selectedUnique": 1,
+          "unknown": 0,
+          "rejected": 0
+        },
+        "exported": {
+          "records": 0,
+          "unique": 0,
+          "qualified": 0,
+          "qualifiedUnique": 0,
+          "selected": 0,
+          "selectedUnique": 0,
+          "unknown": 0,
+          "rejected": 0
+        }
+      }
+    },
+    {
+      "filename": "creator-batch.json",
+      "url": "http://101.201.237.219:33332/api/work-batches/254657cb91d71d9687d7745cd30283b7/report?format=json",
+      "kind": "work_batch",
+      "counts": {
+        "all": {
+          "records": 1,
+          "unique": 1,
+          "qualified": 1,
+          "qualifiedUnique": 1,
+          "selected": 1,
+          "selectedUnique": 1,
+          "unknown": 0,
+          "rejected": 0
+        },
+        "exported": {
+          "records": 1,
+          "unique": 1,
+          "qualified": 1,
+          "qualifiedUnique": 1,
+          "selected": 1,
+          "selectedUnique": 1,
+          "unknown": 0,
+          "rejected": 0
+        }
+      }
+    },
+    {
+      "filename": "campaign-creators.json",
+      "url": "http://101.201.237.219:33332/api/campaigns/campaign-b53cd12a94d4d418b31949d3/report?format=json",
+      "kind": "campaign",
+      "counts": {
+        "all": {
+          "records": 2,
+          "unique": 2,
+          "qualified": 1,
+          "qualifiedUnique": 1,
+          "selected": 1,
+          "selectedUnique": 1,
+          "unknown": 1,
+          "rejected": 0
+        },
+        "exported": {
+          "records": 1,
+          "unique": 1,
+          "qualified": 1,
+          "qualifiedUnique": 1,
+          "selected": 1,
+          "selectedUnique": 1,
+          "unknown": 0,
+          "rejected": 0
+        }
+      }
+    }
+  ],
+  "errors": [],
+  "browser": {
+    "url": "http://101.201.237.219:33332/",
+    "secureContext": false
+  },
+  "tasksPreserved": 58,
+  "passed": true,
+  "finishedAt": "2026-10-15T14:08:33.418Z",
+  "csvAgreement": {
+    "rows": 1,
+    "fields": [
+      "账号",
+      "入选",
+      "本地判断"
+    ],
+    "passed": true
+  },
+  "deployedSourceMatch": [
+    "src/client/Campaigns.tsx",
+    "src/client/Results.tsx",
+    "src/server/campaign-api.ts",
+    "src/server/campaign.ts",
+    "src/server/reports.ts",
+    "src/server/research-api.ts",
+    "src/server/research.ts",
+    "src/server/work-delivery.ts"
+  ]
+}
