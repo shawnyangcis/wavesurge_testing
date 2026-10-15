@@ -1,0 +1,18 @@
+{
+  "observedAt": "2026-10-15T07:57:33.447Z",
+  "image": "sha256:322fbe84f5793b9fb5b29dfe6d336d08e5602bd8359c007f9fac2093bfad4834",
+  "isolatedFreshProfile": true,
+  "actualModel": true,
+  "actualInstagram": true,
+  "results": [
+    {
+      "target": "fixture",
+      "passed": true
+    },
+    {
+      "target": "instagram",
+      "passed": true
+    }
+  ],
+  "passed": true
+}

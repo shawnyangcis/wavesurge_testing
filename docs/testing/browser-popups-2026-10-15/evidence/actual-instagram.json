@@ -1,0 +1,72 @@
+{
+  "kind": "actual Instagram with fresh unauthenticated Chromium; no synthetic pages or account login",
+  "pages": [
+    {
+      "requestedUrl": "https://www.instagram.com/",
+      "status": "observed_no_dismiss_control",
+      "startedAt": "2026-10-15T05:39:14.501Z",
+      "finishedAt": "2026-10-15T05:39:23.052Z",
+      "actions": [],
+      "before": {
+        "url": "https://www.instagram.com/",
+        "dialogCount": 0,
+        "dismissLabels": []
+      },
+      "after": {
+        "url": "https://www.instagram.com/",
+        "dialogCount": 0,
+        "dismissLabels": []
+      }
+    },
+    {
+      "requestedUrl": "https://www.instagram.com/instagram/",
+      "status": "dismissal_attempted_and_reobserved",
+      "startedAt": "2026-10-15T05:39:23.052Z",
+      "finishedAt": "2026-10-15T05:39:29.901Z",
+      "actions": [
+        {
+          "action": "click",
+          "label": "Close",
+          "observationId": "4334cfbb-e616-4396-8680-5f5eec637b51"
+        }
+      ],
+      "before": {
+        "url": "https://www.instagram.com/instagram/",
+        "dialogCount": 1,
+        "dismissLabels": [
+          "Close"
+        ]
+      },
+      "after": {
+        "url": "https://www.instagram.com/instagram/",
+        "dialogCount": 0,
+        "dismissLabels": []
+      }
+    },
+    {
+      "requestedUrl": "https://www.instagram.com/p/Ddhf9JBJY7u/",
+      "status": "dismissal_attempted_and_reobserved",
+      "startedAt": "2026-10-15T05:39:29.902Z",
+      "finishedAt": "2026-10-15T05:39:41.597Z",
+      "actions": [
+        {
+          "action": "click",
+          "label": "Close",
+          "observationId": "cba28fe7-50c4-4185-ad43-912666f0b647"
+        }
+      ],
+      "before": {
+        "url": "https://www.instagram.com/p/Ddhf9JBJY7u/",
+        "dialogCount": 1,
+        "dismissLabels": [
+          "Close"
+        ]
+      },
+      "after": {
+        "url": "https://www.instagram.com/p/Ddhf9JBJY7u/",
+        "dialogCount": 0,
+        "dismissLabels": []
+      }
+    }
+  ]
+}

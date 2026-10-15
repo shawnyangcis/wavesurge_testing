@@ -1,7 +1,15 @@
 import type { Store } from './store.ts';
+import { createHash } from 'node:crypto';
+import { legacyReviewSystemPrompt, legacyReviewVerificationPrompt } from '../shared/prompts.ts';
 import type { PublicSettings } from '../shared/contracts.ts';
 import { systemPrompt, workflowPrompt, verificationPrompt, compressionPrompt, legacySystemPrompt, legacyEarlyWorkflowPrompt, legacyWorkflowPrompt, legacyQAWorkflowPrompt, legacyAPIWorkflowPrompt, legacyRuntimeWorkflowPrompt, legacyScopeWorkflowPrompt, legacyBatchWorkflowPrompt, legacyProtocolWorkflowPrompt, legacyKOCWorkflowPrompt, legacyDesktopWorkflowPrompt, legacyBrowserWorkflowPrompt, legacyReportWorkflowPrompt, legacyVerificationPrompt, legacyFactsVerificationPrompt, legacyCompressionPrompt, legacyPublicSystemPrompt, legacyPublicWorkflowPrompt, legacyPublicVerificationPrompt, legacyExecutionSystemPrompt, legacyExecutionWorkflowPrompt, legacyExecutionVerificationPrompt } from '../shared/prompts.ts';
 export type Settings = PublicSettings & { apiKey: string };
+// Exact source defaults from fbc36ed / bfa2f2f. Hashes preserve historical
+// matching without reintroducing those instructions into active prompts.
+const previousSourceDefaults: Partial<Record<keyof PublicSettings, string[]>> = {
+  systemPrompt: ['d5e5d5a615fcd9aadb2312b32a57f19f4cf06bfee009889fdcc31f686943c421', 'c5d6ac479facdbf00724a7f45c75735498b5b0bdf58f32667dccc1a7c5572ff3'],
+  verificationPrompt: ['39b6740943761163a662031dc99d6d0d82fffc9d2e122765c205449372b4e058']
+};
 export class SettingsManager {
   store: Store; inDocker: boolean;
   constructor(store: Store, env: NodeJS.ProcessEnv) {
@@ -11,11 +19,11 @@ export class SettingsManager {
     else {
       const updates: Partial<Settings> = {};
       for (const [field, previous, current] of [
-        ['systemPrompt', [legacySystemPrompt, legacyPublicSystemPrompt, legacyExecutionSystemPrompt], systemPrompt],
+        ['systemPrompt', [legacySystemPrompt, legacyPublicSystemPrompt, legacyExecutionSystemPrompt, legacyReviewSystemPrompt], systemPrompt],
         ['workflowPrompt', [legacyEarlyWorkflowPrompt, legacyWorkflowPrompt, legacyQAWorkflowPrompt, legacyAPIWorkflowPrompt, legacyRuntimeWorkflowPrompt, legacyScopeWorkflowPrompt, legacyBatchWorkflowPrompt, legacyProtocolWorkflowPrompt, legacyKOCWorkflowPrompt, legacyDesktopWorkflowPrompt, legacyBrowserWorkflowPrompt, legacyReportWorkflowPrompt, legacyPublicWorkflowPrompt, legacyExecutionWorkflowPrompt], workflowPrompt],
-        ['verificationPrompt', [legacyVerificationPrompt, legacyFactsVerificationPrompt, legacyPublicVerificationPrompt, legacyExecutionVerificationPrompt], verificationPrompt],
+        ['verificationPrompt', [legacyVerificationPrompt, legacyFactsVerificationPrompt, legacyPublicVerificationPrompt, legacyExecutionVerificationPrompt, legacyReviewVerificationPrompt], verificationPrompt],
         ['compressionPrompt', [legacyCompressionPrompt], compressionPrompt]
-      ] as const) if ((previous as readonly string[]).includes(existing[field])) updates[field] = current;
+      ] as const) if (existing[field] !== current && ((previous as readonly string[]).includes(existing[field]) || previousSourceDefaults[field]?.includes(createHash('sha256').update(existing[field] ?? '').digest('hex')))) updates[field] = current;
       if (Object.keys(updates).length) store.set('settings', 'model', { ...existing, ...updates, revision: existing.revision + 1 });
     }
   }

@@ -1,0 +1,11 @@
+import { execFileSync } from 'node:child_process';
+const code = `import {Store} from './src/server/store.ts';import {SettingsManager} from './src/server/settings.ts';import {systemPrompt} from './src/shared/prompts.ts';import {createHash} from 'node:crypto';
+const store=new Store('/app/data/studio.sqlite');const settings=new SettingsManager(store,process.env);const guidance=systemPrompt.split('\\n').at(-1);let result;
+store.transaction(()=>{const current=settings.current();const configHash=s=>createHash('sha256').update(JSON.stringify([s.baseUrl,s.modelId,s.apiKey])).digest('hex');
+let main=current.systemPrompt.replaceAll('允许从照片、肤色、姓名或所在地推断','不能从照片、肤色、姓名或所在地推断').replaceAll('可以从照片、肤色、姓名或所在地推断','不能从照片、肤色、姓名或所在地推断');
+let verify=current.verificationPrompt.replaceAll('照片、肤色、姓名、国籍、语言和所在地可以推断族裔','照片、肤色、姓名、国籍、语言和所在地不能推断族裔').replaceAll('reviewOnly不限定必须本人亲口自述','reviewOnly族裔项只核对明确文字记录，不限定必须本人亲口自述');
+if(!main.includes(guidance))main+='\\n'+guidance;if(!verify.includes(guidance))verify+='\\n'+guidance;
+if(main!==current.systemPrompt||verify!==current.verificationPrompt)settings.save({...current,systemPrompt:main,verificationPrompt:verify});
+const after=settings.current();result={revisionBefore:current.revision,revisionAfter:after.revision,modelConfigurationPreserved:configHash(current)===configHash(after),selfService:after.systemPrompt.includes(guidance)&&after.verificationPrompt.includes(guidance),textRecords:after.systemPrompt.includes('可靠文字资料'),noAppearanceInference:after.systemPrompt.includes('不能从照片')&&!after.systemPrompt.includes('允许从照片')&&!after.systemPrompt.includes('可以从照片'),verificationNoAppearanceInference:after.verificationPrompt.includes('所在地不能推断族裔')};});store.close();console.log(JSON.stringify(result));`;
+const result=execFileSync('docker',['exec','wavesurge_testing-app-1','node','--input-type=module','-e',code],{encoding:'utf8',stdio:['ignore','pipe','pipe'],timeout:30000});
+console.log(result.trim());const checked=JSON.parse(result);if(!checked.modelConfigurationPreserved||!checked.selfService||!checked.noAppearanceInference||!checked.verificationNoAppearanceInference)process.exitCode=1;

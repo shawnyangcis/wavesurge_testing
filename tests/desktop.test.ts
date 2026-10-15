@@ -105,4 +105,23 @@ it('访问范围注册的短暂网络和5xx失败可重试；输入动作与无�
 });
 it('读取实际 DOM 元素属性后执行搜索与观察，缺省属性不被误当作许可',async()=>{const f=pageFixture();let obs=await f.runtime.command({action:'observe'});f.locator.evaluate.mockImplementationOnce(async(fn?:any)=>fn({tagName:'INPUT',closest:()=>null,textContent:null,getAttribute:(key:string)=>key==='type'?'search':null}));obs=await f.runtime.command({action:'fill',selector:'input',text:'tech',observationId:obs.observationId});f.locator.evaluate.mockImplementationOnce(async(fn?:any)=>fn({tagName:'A',closest:()=>null,textContent:'Post',href:'https://social.test/post',getAttribute:(key:string)=>key==='aria-label'?'Post':key==='placeholder'?'Link':null}));await f.runtime.command({action:'click',selector:'a',observationId:obs.observationId});const runtime=new DesktopRuntime(f.context as any,()=>1,()=> 'default',()=>{});expect((await runtime.command({action:'observe'})).title).toBe('Profile');});
 it('即使按钮叫 Next，登录/提交表单也不能由 Agent 执行',async()=>{const f=pageFixture();const obs=await f.runtime.command({action:'observe'});f.locator.evaluate.mockResolvedValueOnce({tag:'button',type:'submit',label:'Next',role:'',href:'',inForm:true} as any);await expect(f.runtime.command({action:'click',selector:'button',observationId:obs.observationId})).rejects.toThrow('FORM');expect(f.locator.click).not.toHaveBeenCalled();});
+it('可关闭表单内明确type=button的登录提示和中文关闭按钮，但不允许提交或关闭账号', async () => {
+  const f = pageFixture(); let observation = await f.runtime.command({ action: 'observe' });
+  for (const label of ['Close', 'Not now', '关闭', '暂时不要']) {
+    f.locator.evaluate.mockResolvedValueOnce({ tag: 'button', type: 'button', label, role: '', href: '', inForm: true, inDialog: true } as any);
+    observation = await f.runtime.command({ action: 'click', selector: '#dismiss', observationId: observation.observationId });
+  }
+  expect(f.locator.click).toHaveBeenCalledTimes(4);
+  for (const [type, label] of [['submit', 'Close'], ['', 'Close'], ['button', 'Close account']]) {
+    f.locator.evaluate.mockResolvedValueOnce({ tag: 'button', type, label, role: '', href: '', inForm: true, inDialog: true } as any);
+    await expect(f.runtime.command({ action: 'click', selector: '#unsafe', observationId: observation.observationId })).rejects.toThrow('POLICY');
+  }
+  expect(f.locator.click).toHaveBeenCalledTimes(4);
+});
+it('form属性关联的外置默认提交按钮不能被当作关闭入口点击', async () => {
+  const f = pageFixture(); const observation = await f.runtime.command({ action: 'observe' });
+  f.locator.evaluate.mockImplementationOnce(async (fn: any) => fn({ tagName: 'BUTTON', form: { id: 'login' }, closest: () => null, textContent: 'Close', getAttribute: () => null }));
+  await expect(f.runtime.command({ action: 'click', selector: '#external-close', observationId: observation.observationId })).rejects.toThrow('FORM');
+  expect(f.locator.click).not.toHaveBeenCalled();
+});
 it('SVG/图片文档没有 HTML body 时仍采集实际文本和截图；空文档保持空文本',async()=>{const f=pageFixture();vi.stubGlobal('document',{body:null,documentElement:{textContent:'SVG headphones'},querySelectorAll:()=>[]});expect((await f.runtime.command({action:'observe'})).text).toBe('SVG headphones');vi.stubGlobal('document',{body:null,documentElement:null,querySelectorAll:()=>[]});expect((await f.runtime.command({action:'observe'})).text).toBe('');vi.stubGlobal('document',{body:null,documentElement:{textContent:null},querySelectorAll:()=>[]});expect((await f.runtime.command({action:'observe'})).screenshotBase64).toBeTruthy();});

@@ -1,0 +1,8 @@
+<!doctype html><meta charset="utf-8"><title>Public maker profile</title>
+<style>body{font:24px sans-serif;padding:48px}main{display:none}[role=dialog]{position:fixed;inset:0;background:white;padding:70px}button{padding:20px;font:24px sans-serif}</style>
+<main><h1>Public maker profile</h1><p>I build and explain electronic circuits. This is my personal creator page.</p></main>
+<section role="dialog" aria-modal="true"><h2>Log in to see more</h2>
+<form onsubmit="window.submitted=true;return false"><input aria-label="Username"><input type="password" aria-label="Password">
+<button type="button" id="dismiss"><svg aria-label="Close" width="24" height="24"><path d="M2 2L22 22M22 2L2 22" stroke="black" stroke-width="3"/></svg></button>
+<button type="submit">Log in</button></form></section>
+<script>document.querySelector('#dismiss').onclick=()=>{document.querySelector('[role=dialog]').remove();document.querySelector('main').style.display='block'}</script>

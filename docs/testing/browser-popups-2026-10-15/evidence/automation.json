@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-15",
+  "timezone": "Asia/Shanghai",
+  "unitAndIntegration": {
+    "passed": 312,
+    "total": 312,
+    "files": 37
+  },
+  "typecheck": "passed",
+  "productionBuild": "passed",
+  "browserScenarios": {
+    "passed": 8,
+    "total": 8,
+    "browser": "actual Chromium",
+    "pages": "controlled test pages",
+    "model": "one scenario uses actual configured model; boundary cases use scripted model responses"
+  },
+  "headedContainer": {
+    "passed": true,
+    "actualConfiguredModel": true,
+    "controlledPopupClosed": true,
+    "actualInstagramAccessible": true,
+    "humanAssistanceRequests": 0
+  },
+  "sensitiveData": "credentials, database copies and raw browser traces are kept outside tracked evidence",
+  "publicUI": {
+    "passed": true,
+    "url": "http://101.201.237.219:33332",
+    "isSecureContext": false,
+    "sendStatus": 201,
+    "elapsedMs": 69358,
+    "pageErrors": [],
+    "newTaskCount": 0
+  }
+}

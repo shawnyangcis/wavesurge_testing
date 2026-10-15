@@ -1,0 +1,63 @@
+{
+  "kind": "actual configured model + controlled creator page + production verifier/Broker/runtime; fresh unauthenticated headed Docker Chromium",
+  "startedAt": "2026-10-15T07:57:00.316Z",
+  "actions": [
+    {
+      "input": {
+        "action": "navigate",
+        "url": "http://127.0.0.1:8088/creator"
+      },
+      "url": "http://127.0.0.1:8088/creator",
+      "title": "Public maker profile",
+      "observationId": "09b18a30-3f98-4c44-8c7c-d06229dca9fa",
+      "dialogCount": 1,
+      "dismissLabels": [
+        "Close"
+      ]
+    },
+    {
+      "input": {
+        "action": "click",
+        "selector": "[data-studio-control=\"09b18a30-3f98-4c44-8c7c-d06229dca9fa-2\"]",
+        "observationId": "09b18a30-3f98-4c44-8c7c-d06229dca9fa"
+      },
+      "url": "http://127.0.0.1:8088/creator",
+      "title": "Public maker profile",
+      "observationId": "25b6c253-a7c1-430c-b802-148e07d26fe8",
+      "dialogCount": 0,
+      "dismissLabels": []
+    }
+  ],
+  "judgments": [
+    {
+      "criterionId": "public_profile",
+      "verdict": "match",
+      "reason": "本轮已点击登录邀请的 Close，随后实际观察到弹窗消失（dialogCount=0）的本人公开主页及截图。页面明确显示“I build and explain electronic circuits. This is my personal creator page.”，符合制作和讲解电子电路的文字要求，并非仅见登录表单。",
+      "evidenceIds": [
+        "11513a82126a98fad868ba6d",
+        "ce9008bfc3a89d5842d4268f"
+      ]
+    }
+  ],
+  "assistanceCount": 0,
+  "modelCalls": [
+    {
+      "kind": "browser-verification",
+      "durationMs": 14159,
+      "tools": [
+        "browser"
+      ]
+    },
+    {
+      "kind": "browser-verification",
+      "durationMs": 6352,
+      "tools": [
+        "submit_judgments"
+      ]
+    }
+  ],
+  "popupObserved": true,
+  "dismissalActions": 1,
+  "status": "passed",
+  "finishedAt": "2026-10-15T07:57:21.356Z"
+}

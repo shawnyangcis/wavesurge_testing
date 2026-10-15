@@ -1,0 +1,42 @@
+{
+  "observedAt": "2026-10-15T07:52:07.989Z",
+  "backup": "/app/data/backups/pre-popup-20261015-1792050158334.sqlite",
+  "retried": {
+    "retried": [
+      {
+        "requestId": "11e5da32-82cc-4ac6-bd75-b5f2057fcdac",
+        "taskId": "research-68e7866302228ffd89cfa484"
+      }
+    ]
+  },
+  "preservedRecords": 784,
+  "missing": [],
+  "changedTerminalTasks": [],
+  "authChanged": [],
+  "modelConfigurationPreserved": true,
+  "revisionBefore": 25,
+  "revisionAfter": 26,
+  "prompts": {
+    "selfService": true,
+    "textRecords": true,
+    "noAppearanceInference": true,
+    "verificationSelfService": true
+  },
+  "sourceFiles": 63,
+  "sourceMismatches": [],
+  "publicHealth": {
+    "status": 200,
+    "body": {
+      "ok": true
+    }
+  },
+  "imagesBefore": {
+    "app": "sha256:e3ed107d6186bd53a5ce86e94cf93405a6289367bcbc42d81cfd965a39f7dd4e",
+    "desktop": "sha256:d8ba998879ff1b848f71bd448fe7593c2a3b43d0ddbc81c20bce0542e2ed7529"
+  },
+  "imagesAfter": {
+    "app": "sha256:56f163a50f2dfa3d9416d219af0290d582a4bcc98c0692d63e42a2fedb3fc8f9",
+    "desktop": "sha256:322fbe84f5793b9fb5b29dfe6d336d08e5602bd8359c007f9fac2093bfad4834"
+  },
+  "passed": true
+}

@@ -16,6 +16,26 @@ const stores: Store[] = [];
 afterEach(() => { for (const store of stores.splice(0)) store.close(); });
 const answer = (content: string): ChatMessage => ({ role: 'assistant', content });
 const call = (name = 'get_tasks', args = '{}', id = 'tc'): ToolCall => ({ id, type: 'function', function: { name, arguments: args } });
+it('弹窗默认规则升级一次，精确识别历史源码默认值并保留自定义提示词及密钥', async () => {
+  const prompts = await import('../src/shared/prompts.ts');
+  const defaults = [
+    { systemPrompt: prompts.legacyReviewSystemPrompt, verificationPrompt: prompts.legacyReviewVerificationPrompt },
+    { systemPrompt: prompts.legacyReviewSystemPrompt.replace('不能从照片', '可以从照片'), verificationPrompt: prompts.legacyReviewVerificationPrompt },
+    { systemPrompt: prompts.legacyExecutionSystemPrompt.replace('；族裔仅依据本人明确自述，不从外貌推断。', '。'), verificationPrompt: prompts.legacyExecutionVerificationPrompt.replace('；信息不明为 unknown，不从主题或头像推断身份。族裔只依据本人明确自述。', '。') }
+  ];
+  for (const prior of defaults) {
+    const store = new Store(':memory:'); stores.push(store);
+    const initial = new SettingsManager(store, { API_KEY: 'test-preserved-key', MODEL_ID: 'test-preserved-model' }).current();
+    store.set('settings', 'model', { ...initial, ...prior, revision: 12 });
+    const upgraded = new SettingsManager(store, {}).current();
+    expect(upgraded).toMatchObject({ systemPrompt: prompts.systemPrompt, verificationPrompt: prompts.verificationPrompt, apiKey: initial.apiKey, modelId: initial.modelId, revision: 13 });
+    expect(upgraded.systemPrompt).toContain('先自行处理可关闭');
+    expect(upgraded.systemPrompt).toContain('不能从照片');
+    expect(new SettingsManager(store, {}).current()).toEqual(upgraded);
+    store.set('settings', 'model', { ...upgraded, systemPrompt: '客户定制的研究角色', verificationPrompt: '客户定制的核验说明' });
+    expect(new SettingsManager(store, {}).current()).toMatchObject({ systemPrompt: '客户定制的研究角色', verificationPrompt: '客户定制的核验说明', revision: 13 });
+  }
+});
 function fixture(env: NodeJS.ProcessEnv = {}) {
   const store = new Store(':memory:'); stores.push(store); let n = 0; const id = () => String(++n);
   const settings = new SettingsManager(store, env); const context = new Context(store, id);

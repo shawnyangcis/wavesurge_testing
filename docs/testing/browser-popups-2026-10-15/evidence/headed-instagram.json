@@ -1,0 +1,41 @@
+{
+  "kind": "actual configured model + actual Instagram + production verifier/Broker/runtime; fresh unauthenticated headed Docker Chromium",
+  "startedAt": "2026-10-15T07:57:22.431Z",
+  "actions": [
+    {
+      "input": {
+        "action": "navigate",
+        "url": "https://www.instagram.com/instagram/"
+      },
+      "url": "https://www.instagram.com/instagram/",
+      "title": "Instagram (@instagram) • Instagram photos and videos",
+      "observationId": "b69fdc91-0197-440b-aad7-0bd2d929f9dc",
+      "dialogCount": 0,
+      "dismissLabels": []
+    }
+  ],
+  "judgments": [
+    {
+      "criterionId": "public_profile",
+      "verdict": "match",
+      "reason": "本轮实际主页观察及截图可见认证账号 instagram、名称 Instagram 和 686M followers，以及简介和精选动态。当前 dialogCount=0，没有遮挡弹窗；顶部虽有 Log In / Sign Up 按钮，但并非只剩登录表单，主页账号名与粉丝信息可直接读取。本次提供的观察未展示关闭弹窗的操作过程，因此不声称已执行关闭操作。",
+      "evidenceIds": [
+        "ad43413d85640a41e7ec0c81"
+      ]
+    }
+  ],
+  "assistanceCount": 0,
+  "modelCalls": [
+    {
+      "kind": "browser-verification",
+      "durationMs": 7881,
+      "tools": [
+        "submit_judgments"
+      ]
+    }
+  ],
+  "popupObserved": false,
+  "dismissalActions": 0,
+  "status": "passed",
+  "finishedAt": "2026-10-15T07:57:33.324Z"
+}

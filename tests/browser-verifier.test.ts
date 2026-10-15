@@ -87,6 +87,95 @@ it('公开资料模式不申请登录，即使在模型请求执行期间刚收�
   expect(await f.verify(local,f.person,'t')).toEqual(judgments);expect(f.desktop.assistance).not.toHaveBeenCalled();const transcript=f.store.get<{messages:ChatMessage[]}>('verification','t|instagram:person')!.messages;expect(JSON.stringify(transcript)).toContain('用户已禁止人工登录');expect(f.complete.mock.calls.at(-1)![1].some((tool:{function:{name:string}})=>tool.function.name==='request_human_assistance')).toBe(false);
  }
 });
+it('模型过早请求协助时先关闭当前观察中的登录弹窗，取得新截图后继续原候选', async () => {
+  const f = fixture();
+  const modal = { observationId: 'modal', assetId: 'modal-image', url: f.person.profileUrl, title: 'Person', text: 'Log in to see more. Close', links: [], controls: [{ selector: '[data-studio-control="modal-0"]', label: 'Close', tag: 'button', role: '', type: 'button', inForm: true, dismiss: true }], dialogCount: 1, scope: 'page-viewport', observedAt: 10 };
+  f.desktop.command.mockImplementation(async command => (command as any).action === 'click' ? { ...modal, observationId: 'clear', assetId: 'public-image', text: 'Actual public technology post', controls: [], dialogCount: 0, observedAt: 11 } as any : modal);
+  f.desktop.assistance.mockRejectedValue(new HumanRequired({ id: 'unexpected', taskId: 't', creatorId: f.person.id, reason: 'login', status: 'pending', createdAt: 1, leaseUntil: 0 }));
+  f.complete.mockResolvedValueOnce(calls([['request_human_assistance', '{"reason":"Log in dialog"}']]));
+  expect(await f.verify(spec, f.person, 't')).toEqual(judgments);
+  expect(f.desktop.assistance).not.toHaveBeenCalled();
+  expect(f.desktop.command).toHaveBeenCalledWith({ action: 'click', selector: modal.controls[0].selector, observationId: 'modal' });
+  expect(JSON.stringify(f.complete.mock.calls.at(-1)![0])).toContain('public-image');
+  const saved = f.store.get<{ messages: ChatMessage[] }>('verification', 't|instagram:person')!;
+  validatePairs(saved.messages);
+});
+it('关闭无效的弹窗和无关闭入口的挑战仍可寻求人工，关闭动作不重复重放', async () => {
+  for (const hasClose of [true, false]) {
+    const f = fixture();
+    const modal = { observationId: 'modal', assetId: 'modal-image', url: f.person.profileUrl, title: 'Login', text: 'Login required to continue', links: [], controls: hasClose ? [{ selector: '#close', label: 'Close', tag: 'button', role: '', type: 'button', inForm: false, dismiss: true }] : [], dialogCount: hasClose ? 1 : 0, scope: 'page-viewport', observedAt: 10 };
+    f.desktop.command.mockResolvedValue(modal as any);
+    const request: Assistance = { id: 'real-blocker', taskId: 't', creatorId: f.person.id, reason: 'Still blocked', status: 'pending', createdAt: 1, leaseUntil: 0 };
+    f.desktop.assistance.mockRejectedValue(new HumanRequired(request));
+    f.complete.mockResolvedValue(calls([['request_human_assistance', '{"reason":"No public content after trying to close"}']]));
+    await expect(f.verify(spec, f.person, 't')).rejects.toBeInstanceOf(HumanRequired);
+    expect(f.desktop.assistance).toHaveBeenCalledOnce();
+    expect(f.desktop.command.mock.calls.filter(([command]: any) => command.action === 'click')).toHaveLength(hasClose ? 1 : 0);
+  }
+});
+it('登录重定向的关闭入口可被处理，但登录截图只作为操作上下文，不成为本人证据', async () => {
+  const f = fixture();
+  f.person.profileUrl = 'https://www.instagram.com/person/';
+  const login = { observationId: 'login', assetId: 'login-image', url: 'https://www.instagram.com/accounts/login/', title: 'Login', text: 'Login invitation', links: [], controls: [{ selector: '#dismiss', label: 'Close', tag: 'button', role: '', type: 'button', inForm: false, dismiss: true }], dialogCount: 1, scope: 'page-viewport', observedAt: 10 };
+  f.desktop.command.mockImplementation(async command => (command as any).action === 'click' ? { ...login, observationId: 'profile', assetId: 'profile-image', url: f.person.profileUrl, text: 'Actual person profile', controls: [], dialogCount: 0, observedAt: 11 } as any : login as any);
+  f.complete.mockResolvedValueOnce(calls([['request_human_assistance', '{"reason":"Login page"}']]));
+  await f.verify(spec, f.person, 'redirect');
+  expect(f.desktop.assistance).not.toHaveBeenCalled();
+  expect(f.person.evidence.some(source => source.assetId === 'login-image')).toBe(false);
+  expect(f.person.evidence.some(source => source.assetId === 'profile-image')).toBe(true);
+  expect(JSON.stringify(f.complete.mock.calls[0][0])).toContain('blockedObservation');
+  validatePairs(f.store.get<{ messages: ChatMessage[] }>('verification', 'redirect|instagram:person')!.messages);
+});
+it('同一批访问先失败后返回本人弹窗时，只根据最后的新观察关闭，不被旧失败覆盖', async () => {
+  const f = fixture();
+  const base = { observationId: 'start', assetId: 'start', url: f.person.profileUrl, title: 'Person', text: 'Starting page', links: [], scope: 'page-viewport', observedAt: 10 };
+  const popup = { ...base, observationId: 'popup', assetId: 'popup', controls: [{ selector: '#close', label: 'Close', tag: 'button', role: '', type: 'button', inForm: false, dismiss: true }], dialogCount: 1 };
+  f.desktop.command.mockResolvedValueOnce(base as any).mockResolvedValueOnce({ ...base, url: 'https://other.test/wrong', assetId: 'wrong' } as any).mockResolvedValueOnce(popup as any).mockResolvedValueOnce(popup as any).mockResolvedValueOnce({ ...base, observationId: 'clear', assetId: 'clear' } as any);
+  f.complete.mockResolvedValueOnce(calls([['browser', '{"action":"navigate","url":"https://other.test/wrong"}'], ['browser', JSON.stringify({ action: 'navigate', url: f.person.profileUrl })]])).mockResolvedValueOnce(calls([['request_human_assistance', '{"reason":"Login invitation"}']]));
+  await f.verify(spec, f.person, 'ordered');
+  expect(f.desktop.assistance).not.toHaveBeenCalled();
+  expect(f.desktop.command).toHaveBeenCalledWith({ action: 'click', selector: '#close', observationId: 'popup' });
+  expect(f.desktop.image).not.toHaveBeenCalledWith('wrong');
+  expect(f.store.get<any>('verification', 'ordered|instagram:person').observation.observationId).toBe('clear');
+});
+it('慢模型后的人工请求先刷新观察，明确STALE未执行时不消耗关闭尝试', async () => {
+  const f = fixture(); let fresh = 0; let clicks = 0;
+  const popup = { observationId: 'expired', assetId: 'popup', url: f.person.profileUrl, title: 'Person', text: 'Login invitation', links: [], controls: [{ selector: '#close', label: 'Close', tag: 'button', role: '', type: 'button', inForm: false, dismiss: true }], dialogCount: 1, scope: 'page-viewport', observedAt: Date.now() - 40000 };
+  f.desktop.command.mockImplementation(async command => {
+    const input = command as any;
+    if (input.action === 'observe') return { ...popup, observationId: `fresh-${++fresh}`, observedAt: Date.now() } as any;
+    if (input.action === 'click') {
+      expect(input.observationId).toBe(`fresh-${fresh}`);
+      if (++clicks === 1) throw new Error('DESKTOP_OBSERVATION_STALE');
+      return { ...popup, observationId: 'clear', controls: [], dialogCount: 0, observedAt: Date.now() } as any;
+    }
+    return popup as any;
+  });
+  f.complete.mockResolvedValueOnce(calls([['request_human_assistance', '{"reason":"Login invite"}']])).mockResolvedValueOnce(calls([['request_human_assistance', '{"reason":"Previous action was not started; still blocked"}']]));
+  await f.verify(spec, f.person, 'slow');
+  expect(fresh).toBe(2); expect(clicks).toBe(2); expect(f.desktop.assistance).not.toHaveBeenCalled();
+  expect(f.store.get<any>('verification', 'slow|instagram:person').popupAttempts).toEqual([`${f.person.profileUrl}|close`]);
+});
+it('刷新观察期间撤回协助许可或取消任务，不发起晚到的人工请求', async () => {
+  for (const cancel of [false, true]) {
+    const f = fixture(); const taskId = cancel ? 'cancel-during-observe' : 'deny-during-observe';
+    const wall = { observationId: 'wall', assetId: 'wall', url: f.person.profileUrl, title: 'Login', text: 'Login required', links: [], controls: [], dialogCount: 0, scope: 'page-viewport', observedAt: Date.now() };
+    f.desktop.command.mockImplementation(async command => {
+      if ((command as any).action === 'observe') {
+        if (cancel) f.store.set('task', taskId, { status: 'cancelled' });
+        else f.store.set('research-execution', taskId, { allowHumanAssistance: false });
+      }
+      return wall as any;
+    });
+    f.complete.mockResolvedValueOnce(calls([['request_human_assistance', '{"reason":"Login wall"}']]));
+    if (cancel) await expect(f.verify(spec, f.person, taskId)).rejects.toThrow('已取消');
+    else await f.verify(spec, f.person, taskId);
+    expect(f.desktop.assistance).not.toHaveBeenCalled();
+    const messages = f.store.get<any>('verification', `${taskId}|${f.person.id}`).messages;
+    expect(JSON.stringify(messages)).toContain(cancel ? '原任务已取消' : '用户已禁止人工登录');
+    validatePairs(messages);
+  }
+});
 it('真实关联网站观察保存身份依据与所在地原文，长正文仅保留概览及可核对引用',async()=>{
  const f=fixture();f.person.displayName='Person';f.person.raw.instagram={profile:{external_url:'https://person.test/services'}};addProfileLinks(f.person);const link=f.person.evidence[0],url='https://person.test/about',sourceId=createHash('sha256').update(`site|${url}|11`).digest('hex').slice(0,24);const raw='I am based in United States';const body='Person '+ 'overview '.repeat(150)+raw;
  f.desktop.command.mockResolvedValue({observationId:'site-obs',assetId:'site',url,text:body,title:'Person',links:[],scope:'page-viewport',observedAt:11});f.complete.mockResolvedValueOnce(calls([['browser',JSON.stringify({action:'navigate',url:link.url})]])).mockResolvedValueOnce(calls([['submit_judgments',JSON.stringify({judgments:[],facts:[{kind:'country',rawValue:raw,evidenceIds:[sourceId]}]})]]));const local={...spec,criteria:[],regions:['US']};const result=await f.verify(local,f.person,'site');const saved=f.person.evidence.find(e=>e.id===sourceId)!;expect(saved).toMatchObject({kind:'linked_profile_snapshot',linkedIdentityProof:'domain_name',profileLinkEvidenceId:link.id});expect(saved.text).toContain(raw);expect(saved.text.length).toBeLessThan(body.length);applyAssessment(local,f.person,result);expect(f.person.facts?.country?.code).toBe('US');
